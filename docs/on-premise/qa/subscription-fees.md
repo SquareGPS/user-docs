@@ -4,17 +4,15 @@ Navixy requires a monthly subscription fee for both PaaS and On-Premise instance
 
 To ensure uninterrupted operation of the server on the subscription, timely payment is required by the 10th of each month. If payment is not made, the instance will be suspended until the necessary funds are received. Please note that delayed payments due to banking system issues or other reasons can also cause the instance to be suspended until the funds are credited.
 
-> \[!INFO] If you have any questions related to payment processing or platform suspension due to non-payment, please [contact](https://navixy.com/contact/) our customer success team. Please note that technical support is not provided for suspended instances.
-
-* [Service suspension](subscription-fees.md#service-suspension)
-* [Service resumption](subscription-fees.md#service-resumption)
-* [On-Premise license verification and renewal](subscription-fees.md#on-premise-license-verification-and-renewal)
+{% hint style="info" %}
+If you have any questions related to payment processing or platform suspension due to non-payment, please [contact](https://navixy.com/contact/) our customer success team. Please note that technical support is not provided for suspended instances.
+{% endhint %}
 
 ## Service suspension
 
 When payment is not received on time, access to the Navixy platform is suspended, which is indicated by an authentication error displayed to the user.
 
-![On-Premise - Subscription fees](../on-premise/qa/attachments/image-20230810-140723.png)
+![](../on-premise/qa/attachments/image-20230810-140723.png)
 
 The subscription process involves two stages of suspending access in the event of not receiving the monthly payment:
 

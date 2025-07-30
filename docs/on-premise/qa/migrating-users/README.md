@@ -19,11 +19,11 @@ You can create user accounts manually, but if there you have a longer list of us
 
 In case the source server is another Navixy instance, you can use "Download user list" feature in the Users menu of the Admin panel.
 
-![On-Premise - User Accounts](../../on-premise/qa/attachments/image-20230810-094143.png)
+![](../../on-premise/qa/attachments/image-20230810-094143.png)
 
 To upload users to the destination Navixy instance, go to the Admin panel and use the 'Import users' feature. You will need to provide a table file in the suggested template format, with mandatory fields marked with an asterisk (\*).
 
-![On-Premise - Importing users](../../on-premise/qa/attachments/image-20230810-094245.png)
+![](../../on-premise/qa/attachments/image-20230810-094245.png)
 
 ### 2. Add devices to the new Navixy instance
 
@@ -33,7 +33,7 @@ The next step is to add the devices that will be transferred to the new Navixy i
 
 To prevent sending configuration commands to devices when they are activated on the new Navixy instance, make sure that you enabled the 'Do not send default settings' option in the Device activation section of the Admin Panel under Account management → Service preferences:
 
-![On-Premise - Devices](../../on-premise/qa/attachments/image-20230810-094026.png)
+![](../../on-premise/qa/attachments/image-20230810-094026.png)
 
 It is crucial to check this box to prevent any changes to the device settings and ensure that the devices do not switch to the new Navixy instance prematurely.
 

@@ -1,6 +1,6 @@
 # Trackers migration from Wialon
 
-After you have transferred your users, you need to migrate devices from the Wialon system. Thanks to the [Bulk activation](https://squaregps.atlassian.net/wiki/spaces/AP/pages/2352382186/Bulk+activation) device migration is quick and convenient.
+After you have transferred your users, you need to migrate devices from the Wialon system. Thanks to the [Bulk activation](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/bulk-activation) device migration is quick and convenient.
 
 1. In Wialon CMS, open the units:
 
@@ -8,12 +8,13 @@ After you have transferred your users, you need to migrate devices from the Wial
 
 In the "Select" column, select the element from which you want to save data to a file. To select multiple items, use the Ctrl key (for a range of items).
 
-2. Next, you need to select the necessary fields to load. Click ... and add all required columns for export:
-3. ![On-Premise - Trackers migration from Wialon](../../../../on-premise/qa/migrating-users/migrating-from-wialon/attachments/image-20230810-124129.png) To import devices into the Navixy platform the following information is required:
+2. Next, you need to select the necessary fields to load. Click ... and add all required columns for export:\
+   <img src="../../../../on-premise/qa/migrating-users/migrating-from-wialon/attachments/image-20230810-124129.png" alt="On-Premise - Trackers migration from Wialon" data-size="original">&#x20;
 
-|               |                                  |             |
+To import devices into the Navixy platform the following information is required:
+
+| File          | Navixy                           | Wialon      |
 | ------------- | -------------------------------- | ----------- |
-| **File**      | **Navixy**                       | **Wialon**  |
 | user\_id      | User ID                          | -           |
 | model         | Model                            | Device type |
 | label         | Name                             | Name        |
@@ -28,11 +29,11 @@ The APN settings depend on your device's SIM GSM carrier. It is desirable to spe
 
 4. To export data, use the .xlsx button in the lower right corner of the table:
 
-![On-Premise - Trackers migration from Wialon](../../../../on-premise/qa/migrating-users/migrating-from-wialon/attachments/image-20230810-124519.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/attachments/image-20230810-124519.png)
 
 5. Download the [example file](https://www.navixy.com/wp-content/uploads/2022/04/hardware-trackers-activation-example.csv) for importing devices to Navixy platform and transfer all fields from the Wialon file. Specify a user\_id as a name, where to load devices.
 
-![On-Premise - Trackers migration from Wialon](../../../../on-premise/qa/migrating-users/migrating-from-wialon/attachments/image-20230810-124537.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/attachments/image-20230810-124537.png)
 
 6. Contact Navixy Technical Support and request to transfer devices. In order to make the migration as fast and convenient as possible, please specify the following information:
 

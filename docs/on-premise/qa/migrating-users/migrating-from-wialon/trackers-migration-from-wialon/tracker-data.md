@@ -6,7 +6,9 @@ You can transfer your Wialon data history to Navixy using the Wialon Retranslato
 
 The retransmission speed is determined by the sender system and is approximately 20 minutes per month of history for a unit that transmits data every 2 minutes.
 
-> \[!WARNING] Wialon Retranslator transmits data of several objects sequentially. You can create several retranslators to speed up the process.
+{% hint style="danger" %}
+Wialon Retranslator transmits data of several objects sequentially. You can create several retranslators to speed up the process.
+{% endhint %}
 
 ## Retranslator configuration
 
@@ -24,7 +26,7 @@ We suggest that your first transfer test includes only one object.
 
 1. Disable sending configuration commands to devices in the admin panel.
 
-![On-Premise - Trackers migration from Wialon - Tracker data](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124747.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124747.png)
 
 2. Activate a unit (tracker) on the Navixy platform, specifying a real device model.
 
@@ -32,23 +34,23 @@ For perfect mileage and track definition, it is important to transfer the histor
 
 3. Select past period data and set the required dates.
 
-![On-Premise - Trackers migration from Wialon - Tracker data](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124838.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124838.png)
 
 4. In the retranslator settings in Wialon select "Add calculated sensor values" to get the maximum possible data.
 
-![On-Premise - Trackers migration from Wialon - Tracker data](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124858.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124858.png)
 
-5. In the Navixy [Air Console](https://squaregps.atlassian.net/wiki/spaces/AP/pages/2352349404/Air+console)  connect to the object and find the name of the sensors to be transferred. The platform supports most of the protocol fields.
+5. In the Navixy [Air Console](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console)  connect to the object and find the name of the sensors to be transferred. The platform supports most of the protocol fields.
 
-![On-Premise - Trackers migration from Wialon - Tracker data](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124924.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124924.png)
 
 6. Check that the same [sensors are supported](https://www.navixy.com/devices/) by Navixy for your actual device model. If supported, the sensor data can be migrated.
 
-![On-Premise - Trackers migration from Wialon - Tracker data](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124940.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-124940.png)
 
 7. Add these sensors to the tracking device. Fill in the calibration table if necessary and set the coefficients. Without the addition, the history from the sensors will not be recorded in the database.
 
-![On-Premise - Trackers migration from Wialon - Tracker data](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-125012.png)
+![](../../../../on-premise/qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/attachments/image-20230810-125012.png)
 
 The repeater data will be calibrated according to the sensor settings.
 
