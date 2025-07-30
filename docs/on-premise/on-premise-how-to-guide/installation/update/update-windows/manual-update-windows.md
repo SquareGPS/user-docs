@@ -78,7 +78,7 @@ If there are any new parameters in the examples, add them to the corresponding f
 
 ## Windows services configuration
 
-f you are upgrading to Java 21 from a previous version, you will need to reinstall Navixy services as the wrapper app from the previous version will not work with Java 21. To do this, take the Wrapper folder from the installation package and follow the same steps as for the initial installation. Read more: [Install on Windows.](broken-reference)
+f you are upgrading to Java 21 from a previous version, you will need to reinstall Navixy services as the wrapper app from the previous version will not work with Java 21. To do this, take the Wrapper folder from the installation package and follow the same steps as for the initial installation. Read more: [Install on Windows.](../../advanced-installation/windows-installation/windows-installation.md)
 
 The batch file will update the settings of the existing services, so there is no need to delete them beforehand.
 

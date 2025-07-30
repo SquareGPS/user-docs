@@ -10,7 +10,7 @@ This section provides detailed technical documentation on how to install and mai
 ### 🗒️ **Advanced installation**
 
 * [Ubuntu 20 and newer](advanced-installation/ubuntu-20/)
-* [Windows installation](broken-reference)\
+* [Windows installation](advanced-installation/windows-installation/windows-installation.md)\
   Detailed guide on how to install Navixy with a dedicated database server
 
 ***

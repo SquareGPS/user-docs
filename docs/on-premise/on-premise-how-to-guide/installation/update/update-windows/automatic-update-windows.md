@@ -2,7 +2,7 @@
 
 This guide describes Navixy On-Premise platform update using automated script. This script is designed for Windows servers that are already running Navixy platform.
 
-For the initial installation of the platform, refer to the [installation instructions](broken-reference).
+For the initial installation of the platform, refer to the [installation instructions](../../advanced-installation/windows-installation/windows-installation.md).
 
 For Linux servers, please refer to the [Easy installation](../../easy-installation.md) instruction or to [advanced installation section for Ubuntu](../../advanced-installation/ubuntu-20/).
 
