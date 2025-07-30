@@ -2134,3 +2134,657 @@ Generic DTC codes list:
 
 </details>
 
+<details>
+
+<summary>B (Body)</summary>
+
+* B0001 - PCM Discrete Input Speed Signal Error
+* B0004 - PCM Discrete Input Speed Signal Not Present
+* B0005 - In Park Switch Circuit Malfunction
+* B0012 - Right Front/Passenger Frontal Deployment Loop Circuit
+* B0013 - Right Front/Passenger Frontal Deployment Loop Circuit
+* B0014 - Right Front/Passenger Frontal Deployment Loop Circuit
+* B0016 - Right Front/Passenger Frontal Deployment Loop (Single Stage or Stage 1) Resistance Low
+* B0017 - Right Front/Passenger Frontal Deployment Loop (Single Stage or Stage 1) Open
+* B0018 - Right Front/Passenger Frontal Deployment Loop (Single Stage or Stage 1) Short to Ground/Voltage Out of Range
+* B0022 - Left Front/Driver Frontal Deployment Loop (Single Stage or Stage 1) Resistance Low
+* B0024 - Left Front/Driver Frontal Deployment Loop (Single Stage or Stage 1) Short to Ground/Voltage Out of Range
+* B0026 - Left Front/Driver Frontal Deployment Loop (Single Stage or Stage 1) Open
+* B0028 - Right Front/Passenger Side Deployment Loop Resistance Low
+* B0029 - Right Front/Passenger Side Deployment Loop Open
+* B0030 - Right Front/Passenger Side Deployment Loop Short to Ground/Voltage Out of Range
+* B0035 - ADS Closed/Shorted to Ground
+* B0036 - ADS Open/Missing/Shorted to Battery
+* B0037 - AUX switch closed/shorted to ground
+* B0038 - AUX switch open/shorted to battery
+* B0040 - Left Front/Driver Side Deployment Loop Resistance Low
+* B0041 - Left Front/Driver Side Deployment Loop Open
+* B0042 - Left Front/Driver Frontal Deployment Loop Circuit
+* B0043 - Left Front/Driver Frontal Deployment Loop Circuit
+* B0044 - Left Front/Driver Frontal Deployment Loop Circuit
+* B0045 - Left Front Side Deploy Loop Short to Ground/Voltage Out of Range
+* B0051 - Deployment Commanded
+* B0053 - Deployment Commanded with Loop Malfunctions Present
+* B0057 - Right Front/Passenger Pretensioner Deployment Loop Resistance Low
+* B0058 - Right Front/Passenger Pretensioner Deployment Loop Open
+* B0059 - Right Front/Passenger Pretensioner Deployment Loop Short to Ground/Voltage Out of Range
+* B0061 - Roof Rail Module-Left Deployment Loop Circuit
+* B0062 - Roof Rail Module-Left Deployment Loop Circuit
+* B0064 - Left Front/Driver Pretensioner Deployment Loop Resistance Low
+* B0065 - Left Front/Driver Pretensioner Deployment Loop Open
+* B0066 - Left Front/Driver Pretensioner Deployment Loop Short to Ground/Voltage Out of Range
+* B0068 - Roof Rail Module-Left Deployment Loop Circuit
+* B0069 - Roof Rail Module-Right Deployment Loop Circuit
+* B0070 - Roof Rail Module-Right Deployment Loop Circuit
+* B0071 - Roof Rail Module-Right Deployment Loop Circuit
+* B0073 - Supplemental Deployment Loop #1 Resistance Low
+* B0074 - Supplemental Deployment Loop #1 Open
+* B0075 - Supplemental Deployment Loop #1 Short to Ground/Voltage Out of Range
+* B0077 - Left Front/Driver Side Impact Sensor (SIS) Malfunction
+* B0078 - Right Front/Passenger SIS Malfunction
+* B0079 - Incorrect Left Front/Driver SIS Installed
+* B0080 - Discard Left Front/Driver SIS
+* B0081 - Incorrect Right Front/Passenger SIS Installed
+* B0082 - Discard Right Front/Passenger SIS
+* B0086 - Supplemental Deployment Loop #2 Resistance Low
+* B0087 - Supplemental Deployment Loop #2 Open
+* B0088 - Supplemental Deployment Loop #2 Short to Ground/Voltage Out of Range
+* B0090 - Active switch voltage out of range
+* B0091 - Active switch: wrong state
+* B0092 - PPS passenger detection error
+* B0093 - PPS/CPS self-test malfunction
+* B0094 - CPS childseat detection error
+* B0095 - SDM-PPS/CPS mismatch malfunction
+* B0100 - Electronic Front End Sensor 1 Performance
+* B0101 - Electronic Front End Sensor 1 Performance
+* B0102 - Electronic Front End Sensor 1 Performance
+* B0103 - Electronic Frontal Sensor Circuit
+* B0104 - Electronic Frontal Sensor Circuit
+* B0105 - Electronic Frontal Sensor Circuit
+* B0109 - Side impact module-Left Rear deployment loop resistance is less than 1.3 ohms
+* B0110 - Side impact module-Left Rear high circuit is less than 2.4 volts
+* B0111 - Side impact module-Left Rear high and/or low circuits is short to ground or short to voltage
+* B0112 - Side impact module-Right Rear deployment loop resistance is less than 1.3 ohms
+* B0113 - Side impact module-Right Rear high circuit is less than 2.4 volts
+* B0114 - Side impact module-Right Rear high and/or low circuits is short to ground or short to voltage
+* B0126 - Right Panel Discharge Temperature Fault
+* B0130 - Air Temperature/Mode Door Actuator Malfunction
+* B0131 - Right Heater Discharge Temperature Fault
+* B0145 - Auxiliary HAVC Actuator Circuit
+* B0159 - Outside Air Temperature Sensor Circuit Range/Performance
+* B0160 - Ambient Air Temperature Sensor Circuit
+* B0162 - Ambient Air Temperature Sensor Circuit
+* B0164 - Passenger Compartment Temperature Sensor #1 (Single Sensor or LH) Circuit Range/Performance
+* B0169 - In-car Temp Sensor Failure (passenger -not used)
+* B0174 - Output Air Temperature Sensor #1 (Upper; Single or LH) Circuit Range/Performance
+* B0179 - Output Air Temperature Sensor #2 (Lower; Single or LH) Circuit Range/Performance
+* B0183 - Sunload Sensor Circuit
+* B0184 - Solar Load Sensor #1 Circuit Range (sunload)
+* B0188 - Sunload Sensor Circuit
+* B0189 - Solar Load Sensor #2 Circuit Range (sunload)
+* B0229 - HVAC Actuator Circuit
+* B0248 - Mode Door Inoperative Error
+* B0249 - Heater/Defrost/AC Door Range Error
+* B0263 - HVAC Actuator Circuit
+* B0268 - A/I Door Inoperative Error
+* B0269 - Air Inlet Door Range Error
+* B0283 - Electric Rear Defrost Circuit
+* B0285 - Electric Rear Defrost Circuit Low (BCM)
+* B0286 - Electric Rear Defrost Circuit High (BCM)
+* B0408 - Temperature Control #1 (Main/Front) Circuit Malfunction
+* B0409 - Air Mix Door #1 Range Error
+* B0414 - Air Temperature/Mode Door Actuator Malfunction
+* B0418 - HVAC Actuator Circuit
+* B0419 - Air Mix Door #2 Range Error
+* B0423 - Air Mix Door #2 Inoperative Error
+* B0424 - Air Temperature/Mode Door Actuator Malfunction
+* B0428 - Air Mix Door #3 Inoperative Error
+* B0429 - Temperature Control #3 Rear Circuit Range/Performance
+* B0510 - RH Panel Discharge Temp Sensor Failure
+* B0515 - RH Heater Discharge Temp Sensor Failure
+* B0520 - Rear Discharge Temp Sensor Failure
+* B0530 - Fuel Level Sensor Stuck
+* B0532 - Fuel Sensor Shorted To Ground
+* B0533 - Fuel Sensor Open/Shorted To B+
+* B0540 - Speedometer Circuit
+* B0560 - Tachometer Circuit
+* B0688 - Security System Indicator Circuit High
+* B0689 - Security System Indicator Circuit Open (BCM)
+* B0728 - P (park) Indicator Circuit High (BCM)
+* B0729 - P (park) Indicator Circuit Open (BCM)
+* B0733 - R (reverse) Indicator Circuit High (BCM)
+* B0734 - R (reverse) Indicator Circuit Open (BCM)
+* B0738 - N (neutral) Indicator Circuit High (BCM)
+* B0739 - N (neutral) Indicator Circuit Open (BCM)
+* B0748 - D (drive) Indicator Circuit High (BCM)
+* B0749 - D (drive) Indicator Circuit Open (BCM)
+* B0768 - Service Indicator Circuit High
+* B0770 - All Wheel Drive (AWD) Indicator Circuit
+* B0775 - Four Wheel Drive High Range (4HI) Indicator Circuit
+* B0780 - Four Wheel Drive Low Range (4LO) Indicator Circuit
+* B0785 - Two Wheel Drive High Range (2HI) Indicator Circuit
+* B0790 - Transfer Case Neutral Indicator Circuit
+* B0846 - +5 Volt Reference Out of Range
+* B0856 - Battery 2 Out of Range
+* B0951 - Dimming Circuit
+* B3028 - Starter Relay Interface Short to Ground
+* B3029 - Starter Relay Interface Open/Short to B+
+* B3031 - Key Decoder Device in Assem Learn Mode
+* B3033 - Security System Indicates Tamper
+* B3055 - Key Not Present
+* B3060 - Security System Sensor Data Incorrect but Valid
+* B3064 - Driver Door Key Cylinder Circuit
+* B3069 - Right Front/Left Front Door Key Unlock Circuit Low
+* B3108 - Transmitter Synchronization Failure
+* B3109 - 3 consecutive low battery signals from the same programmed transmitter
+* B3127 - LF Door Only, Unlock Circuit Low (BCM)
+* B3128 - LF Door Only, Unlock Circuit High (BCM)
+* B3132 - All Door Unlock Circuit Low (BCM)
+* B3133 - All Door Unlock Circuit High (BCM)
+* B3137 - All Door Lock Circuit Low (BCM)
+* B3138 - All Door Lock Circuit High (BCM)
+* B3142 - Left Front Unlock Switch Circuit Low
+* B3147 - Passenger Unlock Switch Circuit Low
+* B3152 - Left Front Lock Switch Circuit Low
+* B3157 - Passenger Lock Switch Circuit Low
+* B3172 - Window Up Switch Circuit Low
+* B3177 - Window Down Switch Circuit Low
+* B3182 - Window Switch Circuit
+* B3187 - Window Switch Circuit
+* B3192 - Window Switch Circuit
+* B3197 - Window Switch Circuit
+* B3203 - Rear Window Lockout Switch Input Circuit High
+* B3282 - Window Switch-Express Input Shorted to Ground
+* B3287 - Left Rear Window Switch Express Down Circuit Low
+* B3292 - Right Rear Window Switch Express Down Circuit Low
+* B3282 - Window Switch-Express Input Shorted to Ground
+* B3287 - Window Switch Circuit
+* B3292 - Window Switch Circuit
+* B3377 - Left Front Window Up Switch Circuit Low
+* B3382 - Left Front Window Down Switch Circuit Low
+* B3387 - Right Front Window Up Switch Circuit Low
+* B3392 - Right Front Window Down Switch Circuit Low
+* B3397 - Left Rear Window Up Switch Circuit Low
+* B3410 - AHLD Front Axle Sensor Signal Circuit
+* B3420 - AHLD Rear Axle Sensor Signal Circuit
+* B3452 - Left Rear Window Down Switch Circuit Low
+* B3457 - Right Rear Window Up Switch Circuit Low
+* B3462 - Right Rear Window Down Switch Circuit Low
+* B3467 - Left Front Window Express Down Circuit Low
+* B3472 - Right Front Window Express Down Circuit Low
+* B3477 - Left Rear Window Express Down Circuit Low
+* B3482 - MalfunctionWindow Express Down Circuit Low
+* B3517 - Left Rear Door Switch Express Up/Down Window Contact Shorted to GND
+* B3522 - Right Rear Door Switch Express Up/Down Window Contact Shorted to GND
+* B3527 - Window Lockout Switch Circuit Low
+* B3531 - Auxiliary HAVC Actuator Circuit
+* B3642 - Seat cool temperature switch shorted
+* B3702 - Intermittent Wiper Delay Input Circuit Low (BCM)
+* B3703 - Intermittent Wiper Delay Input Circuit High/Open (BCM)
+* B3708 - Front Washer Motor Input High (BCM)
+* B3713 - Rear Washer Motor Input Circuit High (BCM)
+* B3717 - Front Wiper Relay Drive Circuit Low (BCM)
+* B3718 - Front Wiper Relay Drive Circuit High (BCM)
+* B3722 - Rear Wiper Relay Drive Circuit Low (BCM)
+* B3723 - Rear Wiper Relay Drive Circuit High (BCM)
+* B3761 - HVAC Actuator Circuit
+* B3770 - HVAC Actuator Circuit
+* B3793 - Memory Seat Module Over Current
+* B3801 - Passenger Compartment Lamp Request Circuit
+* B3802 - Parklamps Request Circuit
+* B3808 - Rear Door Lock Relay Circuit
+* B3809 - Rear Door Unlock Relay Circuit
+* B3810 - Washer Relay Circuit
+* B3811 - Washer Relay Circuit
+* B3819 - Left Rear Power Window Up Relay Circuit
+* B3820 - Left Rear Power Window Down Relay Circuit
+* B3821 - Window Lockout Circuit Low
+* B3822 - Right Rear Power Window Up Relay Circuit
+* B3823 - Right Rear Power Window Down Relay Circuit
+* B3824 - Window Lockout Circuit Low
+* B3832 - Window Position Sensor Circuit
+* B3833 - Window Position Sensor Circuit
+* B3905 - Lumbar Switch Control Circuit
+* B3935 - Transponder Authentication Error
+
+</details>
+
+<details>
+
+<summary>C (Chassis)</summary>
+
+* C0000 - Vehicle Speed Information Circuit Malfunction
+* C0035 - Left Front Wheel Speed Circuit Malfunction
+* C0040 - Right Front Wheel Speed Circuit Malfunction
+* C0041 - Right Front Wheel Speed Sensor Circuit Range/Performance (EBCM)
+* C0045 - Left Rear Wheel Speed Circuit Malfunction
+* C0046 - Left Rear Wheel Speed Sensor Circuit Range/Performance (EBCM)
+* C0050 - Right Rear Wheel Speed Circuit Malfunction
+* C0051 - LF Wheel Speed Sensor Circuit Range/Performance (EBCM)
+* C0060 - Left Front ABS Solenoid #1 Circuit Malfunction
+* C0065 - Left Front ABS Solenoid #2 Circuit Malfunction
+* C0070 - Right Front ABS Solenoid #1 Circuit Malfunction
+* C0075 - Right Front ABS Solenoid #2 Circuit Malfunction
+* C0080 - Left Rear ABS Solenoid #1 Circuit Malfunction
+* C0085 - Left Rear ABS Solenoid #2 Circuit Malfunction
+* C0090 - Right Rear ABS Solenoid #1 Circuit Malfunction
+* C0095 - Right Rear ABS Solenoid #2 Circuit Malfunction
+* C0110 - Pump Motor Circuit Malfunction
+* C0121 - Valve Relay Circuit Malfunction
+* C0128 - Low Brake Fluid Circuit Low
+* C0141 - Left TCS Solenoid #1 Circuit Malfunction
+* C0146 - Left TCS Solenoid #2 Circuit Malfunction
+* C0151 - Right TCS Solenoid #1 Circuit Malfunction
+* C0156 - Right TCS Solenoid #2 Circuit Malfunction
+* C0161 - ABS/TCS Brake Switch Circuit Malfunction
+* C0221 - Right Front Wheel Speed Sensor Circuit Open
+* C0222 - Right Front Wheel Speed Signal Missing
+* C0223 - Right Front Wheel Speed Signal Erratic
+* C0225 - Left Front Wheel Speed Sensor Circuit Open
+* C0226 - Left Front Wheel Speed Signal Missing
+* C0227 - Left Front Wheel Speed Signal Erratic
+* C0229 - Drop Out of Front Wheel Speed Signals
+* C0235 - Rear Wheel Speed Signal Circuit Open
+* C0236 - Rear Wheel Speed Signal Circuit Missing
+* C0237 - Rear Wheel Speed Signal Erratic
+* C0238 - Wheel Speed Mismatch
+* C0241 - EBCM Control Valve Circuit
+* C0245 - Wheel Speed Sensor Frequency Error
+* C0254 - EBCM Control Valve Circuit
+* C0265 - EBCM Relay Circuit
+* C0266 - EBCM Relay Circuit
+* C0267 - Pump Motor Circuit Open/Shorted
+* C0268 - Pump Motor Circuit Open/Shorted
+* C0269 - Excessive Dump/Isolation Time
+* C0271 - EBCM Malfunction
+* C0272 - EBCM Malfunction
+* C0273 - EBCM Malfunction
+* C0274 - Excessive Dump/Isolation Time
+* C0279 - Powertrain Configuration Not Valid
+* C0281 - Brake Switch Circuit
+* C0283 - Traction Switch Shorted to Ground
+* C0284 - EBCM Malfunction
+* C0286 - ABS Indicator Lamp Circuit Shorted to B+
+* C0287 - Delivered Torque Circuit
+* C0288 - Brake Warning Lamp Circuit Shorted to B+
+* C0290 - Lost Communications With PCM
+* C0292 - Lost Communications With PCM
+* C0291 - Lost Communications With BCM
+* C0297 - Powertrain Configuration Data Not Received
+* C0298 - Powertrain Indicated Traction Control Malfunction
+* C0300 - Rear Speed Sensor Malfunction
+* C0305 - Front Speed Sensor Malfunction
+* C0306 - Motor A or B Circuit
+* C0308 - Motor A/B Circuit Low
+* C0309 - Motor A/B Circuit High
+* C0310 - Motor A/B Circuit Open
+* C0315 - Motor Ground Circuit Open
+* C0321 - Transfer Case Lock Circuit
+* C0323 - T-Case Lock Circuit Low
+* C0324 - T-Case Lock Circuit High
+* C0327 - Encoder Circuit Malfunction
+* C0357 - Park Switch Circuit High
+* C0359 - Four Wheel Drive Low Range (4LO) Discrete Output Circuit
+* C0362 - 4LO Discrete Output Circuit High
+* C0367 - Front Axle Control Circuit High
+* C0374 - General System Malfunction
+* C0376 - Front/Rear Shaft Speed Mismatch
+* C0379 - Front Axle System
+* C0387 - Unable to Perform Shift
+* C0472 - Steering Handwheel Speed Sensor Signal V Low
+* C0473 - Steering Handwheel Speed Sensor Signal V High
+* C0495 - EVO Tracking Error
+* C0498 - Steering Assist Control Actuator Feed Circuit Low
+* C0499 - Steering Assist Control Solenoid Feed Circuit High
+* C0503 - Steering Assist Control Solenoid Return Circuit Low
+* C0504 - Steering Assist Control Solenoid Return Circuit High
+* C0550 - ECU Malfunction - internal write / checksum malfunction
+* C0559 - EEPROM Checksum Error
+* C0563 - Calibration ROM Checksum Error
+* C0577 - Left Front Solenoid Circuit Low
+* C0578 - Left Front Solenoid Circuit High
+* C0579 - Left Front Solenoid Circuit Open
+* C0582 - Right Front Solenoid Circuit Low
+* C0583 - Right Front Solenoid Circuit High
+* C0584 - Right Front Solenoid Circuit Open
+* C0587 - Left Rear Solenoid Circuit Low
+* C0588 - Left Rear Solenoid Circuit High
+* C0589 - Left Rear Solenoid Circuit Open
+* C0592 - Right Rear Solenoid Circuit Low
+* C0593 - Right Rear Solenoid Circuit High
+* C0594 - Right Rear Solenoid Circuit Open
+* C0611 - VIN Information Error
+* C0615 - Left Front Position Sensor Malfunction
+* C0620 - Right Front Position Sensor Malfunction
+* C0625 - Left Rear Position Sensor Malfunction
+* C0628 - Level Control Position Sensor Circuit High
+* C0630 - Right Rear Position Sensor Malfunction
+* C0635 - Left Front Normal Force Circuit Malfunction
+* C0638 - Left Front Normal Force Circuit High
+* C0640 - Right Front Normal Force Circuit Malfunction
+* C0643 - Right Front Normal Force Circuit High
+* C0655 - Level Control Compressor Relay Malfunction
+* C0657 - Level Control Compressor Circuit Low
+* C0658 - Level Control Compressor Circuit High
+* C0660 - Level Control Exhaust Valve Circuit Malfunction
+* C0662 - Level Control Exhaust Valve Circuit Low
+* C0663 - Level Control Exhaust Valve Circuit High
+* C0665 - Chassis Pitch Signal Circuit
+* C0690 - Damper Control Relay Circuit Malfunction
+* C0691 - Damper Control Relay Circuit Range
+* C0693 - Damper Control Relay Circuit High
+* C0695 - Position Sensor Overcurrent (8 volt supply)
+* C0696 - Position Sensor Overcurrent (5 volt supply)
+* C0710 - Steering Position Signal Malfunction
+* C0750 - Tire Pressure Monitor (TPM) system sensor not transmitting
+* C0755 - Tire Pressure Monitor (TPM) system sensor not transmitting
+* C0760 - Tire Pressure Monitor (TPM) system sensor not transmitting
+* C0765 - Tire Pressure Monitor (TPM) system sensor not transmitting
+* C0800 - Device Power #1 Circuit Malfunction
+* C0896 - Electronic Suspension Control (ESC) voltage is outside the normal range of 9 to 15.5 volts
+
+</details>
+
+<details>
+
+<summary>U (Network)</summary>
+
+* U0001 High Speed CAN Communication Bus
+* U0002 High Speed CAN Communication Bus Performance
+* U0003 High Speed CAN Communication Bus (+) Open
+* U0004 High Speed CAN Communication Bus (+) Low
+* U0005 High Speed CAN Communication Bus (+) High
+* U0006 High Speed CAN Communication Bus (-) Open
+* U0007 High Speed CAN Communication Bus (-) Low
+* U0008 High Speed CAN Communication Bus (-) High
+* U0009 High Speed CAN Communication Bus (-) shorted to Bus (+)
+* U0010 Medium Speed CAN Communication Bus
+* U0011 Medium Speed CAN Communication Bus Performance
+* U0012 Medium Speed CAN Communication Bus (+) Open
+* U0013 Medium Speed CAN Communication Bus (+) Low
+* U0014 Medium Speed CAN Communication Bus (+) High
+* U0015 Medium Speed CAN Communication Bus (-) Open
+* U0016 Medium Speed CAN Communication Bus (-) Low
+* U0017 Medium Speed CAN Communication Bus (-) High
+* U0018 Medium Speed CAN Communication Bus (-) shorted to Bus (+)
+* U0019 Low Speed CAN Communication Bus
+* U0020 Low Speed CAN Communication Bus Performance
+* U0021 Low Speed CAN Communication Bus (+) Open
+* U0022 Low Speed CAN Communication Bus (+) Low
+* U0023 Low Speed CAN Communication Bus (+) High
+* U0024 Low Speed CAN Communication Bus (-) Open
+* U0025 Low Speed CAN Communication Bus (-) Low
+* U0026 Low Speed CAN Communication Bus (-) High
+* U0027 Low Speed CAN Communication Bus (-) shorted to Bus (+)
+* U0028 Vehicle Communication Bus A
+* U0029 Vehicle Communication Bus A Performance
+* U0030 Vehicle Communication Bus A (+) Open
+* U0031 Vehicle Communication Bus A (+) Low
+* U0032 Vehicle Communication Bus A (+) High
+* U0033 Vehicle Communication Bus A (-) Open
+* U0034 Vehicle Communication Bus A (-) Low
+* U0035 Vehicle Communication Bus A (-) High
+* U0036 Vehicle Communication Bus A (-) shorted to Bus A (+)
+* U0037 Vehicle Communication Bus B
+* U0038 Vehicle Communication Bus B Performance
+* U0039 Vehicle Communication Bus B (+) Open
+* U0040 Vehicle Communication Bus B (+) Low
+* U0041 Vehicle Communication Bus B (+) High
+* U0042 Vehicle Communication Bus B (-) Open
+* U0043 Vehicle Communication Bus B (-) Low
+* U0044 Vehicle Communication Bus B (-) High
+* U0045 Vehicle Communication Bus B (-) shorted to Bus B (+)
+* U0046 Vehicle Communication Bus C
+* U0047 Vehicle Communication Bus C Performance
+* U0048 Vehicle Communication Bus C (+) Open
+* U0049 Vehicle Communication Bus C (+) Low
+* U0050 Vehicle Communication Bus C (+) High
+* U0051 Vehicle Communication Bus C (-) Open
+* U0052 Vehicle Communication Bus C (-) Low
+* U0053 Vehicle Communication Bus C (-) High
+* U0054 Vehicle Communication Bus C (-) shorted to Bus C (+)
+* U0055 Vehicle Communication Bus D
+* U0056 Vehicle Communication Bus D Performance
+* U0057 Vehicle Communication Bus D (+) Open
+* U0058 Vehicle Communication Bus D (+) Low
+* U0059 Vehicle Communication Bus D (+) High
+* U0060 Vehicle Communication Bus D (-) Open
+* U0061 Vehicle Communication Bus D (-) Low
+* U0062 Vehicle Communication Bus D (-) High
+* U0063 Vehicle Communication Bus D (-) shorted to Bus D (+)
+* U0064 Vehicle Communication Bus E
+* U0065 Vehicle Communication Bus E Performance
+* U0066 Vehicle Communication Bus E (+) Open
+* U0067 Vehicle Communication Bus E (+) Low
+* U0068 Vehicle Communication Bus E (+) High
+* U0069 Vehicle Communication Bus E (-) Open
+* U0070 Vehicle Communication Bus E (-) Low
+* U0071 Vehicle Communication Bus E (-) High
+* U0072 Vehicle Communication Bus E (-) shorted to Bus E (+)
+* U0073 Control Module Communication Bus Off
+* U0074 Reserved by Document U0075 Reserved by Document
+* U0076 Reserved by Document
+* U0077 Reserved by Document
+* U0078 Reserved by Document
+* U0079 Reserved by Document
+* U0080 Reserved by Document
+* U0081 Reserved by Document
+* U0082 Reserved by Document
+* U0083 Reserved by Document
+* U0084 Reserved by Document
+* U0085 Reserved by Document
+* U0086 Reserved by Document
+* U0087 Reserved by Document
+* U0088 Reserved by Document
+* U0089 Reserved by Document
+* U0090 Reserved by Document
+* U0091 Reserved by Document
+* U0092 Reserved by Document
+* U0093 Reserved by Document
+* U0094 Reserved by Document
+* U0095 Reserved by Document
+* U0096 Reserved by Document
+* U0097 Reserved by Document
+* U0098 Reserved by Document
+* U0099 Reserved by Document
+* U0100 Lost Communication With ECM/PCM "A"
+* U0101 Lost Communication with TCM
+* U0102 Lost Communication with Transfer Case Control Module
+* U0103 Lost Communication With Gear Shift Module
+* U0104 Lost Communication With Cruise Control Module
+* U0105 Lost Communication With Fuel Injector Control Module
+* U0106 Lost Communication With Glow Plug Control Module
+* U0107 Lost Communication With Throttle Actuator Control Module
+* U0108 Lost Communication With Alternative Fuel Control Module
+* U0109 Lost Communication With Fuel Pump Control Module
+* U0110 Lost Communication With Drive Motor Control Module
+* U0111 Lost Communication With Battery Energy Control Module "A"
+* U0112 Lost Communication With Battery Energy Control Module "B"
+* U0113 Lost Communication With Emissions Critical Control Information
+* U0114 Lost Communication With Four-Wheel Drive Clutch Control Module
+* U0115 Lost Communication With ECM/PCM "B"
+* U0116 Reserved by Document
+* U0117 Reserved by Document
+* U0118 Reserved by Document
+* U0119 Reserved by Document
+* U0120 Reserved by Document
+* U0121 Lost Communication With Anti-Lock Brake System (ABS) Control Module
+* U0122 Lost Communication With Vehicle Dynamics Control Module
+* U0123 Lost Communication With Yaw Rate Sensor Module
+* U0124 Lost Communication With Lateral Acceleration Sensor Module
+* U0125 Lost Communication With Multi-axis Acceleration Sensor Module
+* U0126 Lost Communication With Steering Angle Sensor Module
+* U0127 Lost Communication With Tire Pressure Monitor Module
+* U0128 Lost Communication With Park Brake Control Module
+* U0129 Lost Communication With Brake System Control Module
+* U0130 Lost Communication With Steering Effort Control Module
+* U0131 Lost Communication With Power Steering Control Module
+* U0132 Lost Communication With Ride Level Control Module
+* U0133 Reserved by Document
+* U0134 Reserved by Document
+* U0135 Reserved by Document
+* U0136 Reserved by Document
+* U0137 Reserved by Document
+* U0138 Reserved by Document
+* U0139 Reserved by Document
+* U0140 Lost Communication With Body Control Module
+* U0141 Lost Communication With Body Control Module "A"
+* U0142 Lost Communication With Body Control Module "B"
+* U0143 Lost Communication With Body Control Module "C"
+* U0144 Lost Communication With Body Control Module "D"
+* U0145 Lost Communication With Body Control Module "E"
+* U0146 Lost Communication With Gateway "A"
+* U0147 Lost Communication With Gateway "B"
+* U0148 Lost Communication With Gateway "C"
+* U0149 Lost Communication With Gateway "D"
+* U0150 Lost Communication With Gateway "E"
+* U0151 Lost Communication With Restraints Control Module
+* U0152 Lost Communication With Side Restraints Control Module
+* U0153 Lost Communication With Side Restraints Control Module
+* U0154 Lost Communication With Restraints Occupant Sensing Control Module
+* U0155 Lost Communication With Instrument Panel Cluster (IPC) Control Module
+* U0156 Lost Communication With Information Center "A"
+* U0157 Lost Communication With Information Center "B"
+* U0158 Lost Communication With Head Up Display
+* U0159 Lost Communication With Parking Assist Control Module
+* U0160 Lost Communication With Audible Alert Control Module
+* U0161 Lost Communication With Compass Module
+* U0162 Lost Communication With Navigation Display Module
+* U0163 Lost Communication With Navigation Control Module
+* U0164 Lost Communication With HVAC Control Module
+* U0165 Lost Communication With HVAC Control Module
+* U0166 Lost Communication With Auxiliary Heater Control Module
+* U0167 Lost Communication With Vehicle Immobilizer Control Module
+* U0168 Lost Communication With Vehicle Security Control Module
+* U0169 Lost Communication With Sunroof Control Module
+* U0170 Lost Communication With "Restraints System Sensor A"
+* U0171 Lost Communication With "Restraints System Sensor B"
+* U0172 Lost Communication With "Restraints System Sensor C"
+* U0173 Lost Communication With "Restraints System Sensor D"
+* U0174 Lost Communication With "Restraints System Sensor E"
+* U0175 Lost Communication With "Restraints System Sensor F"
+* U0176 Lost Communication With "Restraints System Sensor G"
+* U0177 Lost Communication With "Restraints System Sensor H"
+* U0178 Lost Communication With "Restraints System Sensor I"
+* U0179 Lost Communication With "Restraints System Sensor J"
+* U0180 Lost Communication With Automatic Lighting Control Module
+* U0181 Lost Communication With Headlamp Leveling Control Module
+* U0182 Lost Communication With Lighting Control Module
+* U0183 Lost Communication With Lighting Control Module
+* U0184 Lost Communication With Radio
+* U0185 Lost Communication With Antenna Control Module
+* U0186 Lost Communication With Audio Amplifier
+* U0187 Lost Communication With Digital Disc Player/Changer Module "A"
+* U0188 Lost Communication With Digital Disc Player/Changer Module "B"
+* U0189 Lost Communication With Digital Disc Player/Changer Module "C"
+* U0190 Lost Communication With Digital Disc Player/Changer Module "D"
+* U0191 Lost Communication With Television
+* U0192 Lost Communication With Personal Computer
+* U0193 Lost Communication With "Digital Audio Control Module A"
+* U0194 Lost Communication With "Digital Audio Control Module B"
+* U0195 Lost Communication With Subscription Entertainment Receiver Module
+* U0196 Lost Communication With Rear Seat Entertainment Control Module
+* U0197 Lost Communication With Telephone Control Module
+* U0198 Lost Communication With Telematic Control Module
+* U0199 Lost Communication With "Door Control Module A"
+* U0200 Lost Communication With "Door Control Module B"
+* U0201 Lost Communication With "Door Control Module C"
+* U0202 Lost Communication With "Door Control Module D"
+* U0203 Lost Communication With "Door Control Module E"
+* U0204 Lost Communication With "Door Control Module F"
+* U0205 Lost Communication With "Door Control Module G"
+* U0206 Lost Communication With Folding Top Control Module
+* U0207 Lost Communication With Movable Roof Control Module
+* U0208 Lost Communication With "Seat Control Module A"
+* U0209 Lost Communication With "Seat Control Module B"
+* U0210 Lost Communication With "Seat Control Module C"
+* U0211 Lost Communication With "Seat Control Module D"
+* U0212 Lost Communication With Steering Column Control Module
+* U0213 Lost Communication With Mirror Control Module
+* U0214 Lost Communication With Remote Function Actuation
+* U0215 Lost Communication With "Door Switch A"
+* U0216 Lost Communication With "Door Switch B"
+* U0217 Lost Communication With "Door Switch C"
+* U0218 Lost Communication With "Door Switch D"
+* U0219 Lost Communication With "Door Switch E"
+* U0220 Lost Communication With "Door Switch F"
+* U0221 Lost Communication With "Door Switch G"
+* U0222 Lost Communication With "Door Window Motor A"
+* U0223 Lost Communication With "Door Window Motor B"
+* U0224 Lost Communication With "Door Window Motor C"
+* U0225 Lost Communication With "Door Window Motor D"
+* U0226 Lost Communication With "Door Window Motor E"
+* U0227 Lost Communication With "Door Window Motor F"
+* U0228 Lost Communication With "Door Window Motor G"
+* U0229 Lost Communication With Heated Steering Wheel Module
+* U0230 Lost Communication With Rear Gate Module
+* U0231 Lost Communication With Rain Sensing Module
+* U0232 Lost Communication With Side Obstacle Detection Control Module
+* U0233 Lost Communication With Side Obstacle Detection Control Module
+* U0234 Lost Communication With Convenience Recall Module
+* U0235 Lost Communication With Cruise Control Front Distance Range Sensor
+* U0300 Internal Control Module Software Incompatibility
+* U0301 Software Incompatibility with ECM/PCM
+* U0302 Software Incompatibility with Transmission Control Module
+* U0303 Software Incompatibility with Transfer Case Control Module
+* U0304 Software Incompatibility with Gear Shift Control Module
+* U0305 Software Incompatibility with Cruise Control Module
+* U0306 Software Incompatibility with Fuel Injector Control Module
+* U0307 Software Incompatibility with Glow Plug Control Module
+* U0308 Software Incompatibility with Throttle Actuator Control Module
+* U0309 Software Incompatibility with Alternative Fuel Control Module
+* U0310 Software Incompatibility with Fuel Pump Control Module
+* U0311 Software Incompatibility with Drive Motor Control Module
+* U0312 Software Incompatibility with Battery Energy Control Module A
+* U0313 Software Incompatibility with Battery Energy Control Module B
+* U0314 Software Incompatibility with Four-Wheel Drive Clutch Control Module
+* U0315 Software Incompatibility with Anti-Lock Brake System Control Module
+* U0316 Software Incompatibility with Vehicle Dynamics Control Module
+* U0317 Software Incompatibility with Park Brake Control Module
+* U0318 Software Incompatibility with Brake System Control Module
+* U0319 Software Incompatibility with Steering Effort Control Module
+* U0320 Software Incompatibility with Power Steering Control Module
+* U0321 Software Incompatibility with Ride Level Control Module
+* U0322 Software Incompatibility with Body Control Module
+* U0323 Software Incompatibility with Instrument Panel Control Module
+* U0324 Software Incompatibility with HVAC Control Module
+* U0325 Software Incompatibility with Auxiliary Heater Control Module
+* U0326 Software Incompatibility with Vehicle Immobilizer Control Module
+* U0327 Software Incompatibility with Vehicle Security Control Module
+* U0328 Software Incompatibility with Steering Angle Sensor Module
+* U0329 Software Incompatibility with Steering Column Control Module
+* U0330 Software Incompatibility with Tire Pressure Monitor Module
+* U0331 Software Incompatibility with Body Control Module "A"
+* U0400 Invalid Data Received U0401 Invalid Data Received From ECM/PCM
+* U0402 Invalid Data Received From Transmission Control Module
+* U0403 Invalid Data Received From Transfer Case Control Module
+* U0404 Invalid Data Received From Gear Shift Control Module
+* U0405 Invalid Data Received From Cruise Control Module
+* U0406 Invalid Data Received From Fuel Injector Control Module
+* U0407 Invalid Data Received From Glow Plug Control Module
+* U0408 Invalid Data Received From Throttle Actuator Control Module
+* U0409 Invalid Data Received From Alternative Fuel Control Module
+* U0410 Invalid Data Received From Fuel Pump Control Module
+* U0411 Invalid Data Received From Drive Motor Control Module
+* U0412 Invalid Data Received From Battery Energy Control Module A
+* U0413 Invalid Data Received From Battery Energy Control Module B
+* U0414 Invalid Data Received From Four-Wheel Drive Clutch Control Module
+* U0415 Invalid Data Received From Anti-Lock Brake System Control Module
+* U0416 Invalid Data Received From Vehicle Dynamics Control Module
+* U0417 Invalid Data Received From Park Brake Control Module
+* U0418 Invalid Data Received From Brake System Control Module
+* U0419 Invalid Data Received From Steering Effort Control Module
+* U0420 Invalid Data Received From Power Steering Control Module
+* U0421 Invalid Data Received From Ride Level Control Module
+* U0422 Invalid Data Received From Body Control Module
+* U0423 Invalid Data Received From Instrument Panel Control Module
+* U0424 Invalid Data Received From HVAC Control Module
+* U0425 Invalid Data Received From Auxiliary Heater Control Module
+* U0426 Invalid Data Received From Vehicle Immobilizer Control Module
+* U0427 Invalid Data Received From Vehicle Security Control Module
+* U0428 Invalid Data Received From Steering Angle Sensor Module
+* U0429 Invalid Data Received From Steering Column Control Module
+* U0430 Invalid Data Received From Tire Pressure Monitor Module
+* U0431 Invalid Data Received From Body Control Module "A"
+
+</details>
