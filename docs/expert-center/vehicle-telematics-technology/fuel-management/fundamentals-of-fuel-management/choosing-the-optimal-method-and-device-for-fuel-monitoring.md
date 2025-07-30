@@ -88,7 +88,7 @@ It is important to note that the flow meter installation process may vary depend
 
 The fuel consumption data received is processed by an electronic sensor, which converts it into a digital signal and transmits it to the instrument panel or control system, where the information can be displayed or used for analysis and control.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="267"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="267"><figcaption></figcaption></figure>
 
 ### Using a fuel level sensor
 

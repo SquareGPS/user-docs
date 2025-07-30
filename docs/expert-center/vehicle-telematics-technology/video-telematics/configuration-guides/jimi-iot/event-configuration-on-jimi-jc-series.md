@@ -1,6 +1,6 @@
 # Event configuration on Jimi JC series
 
-Jimi JC devices can send various event codes to the platform. While the platform has its own notification system with already predefined alerts, you can set up additional custom alerts based on specific event codes from your devices using [state field alert type](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2780561441/State+field+value). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2783281385/Report+on+all+events).
+Jimi JC devices can send various event codes to the platform. While the platform has its own notification system with already predefined alerts, you can set up additional custom alerts based on specific event codes from your devices using [state field alert type](https://docs.navixy.com/user-guide/state-field-value). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://docs.navixy.com/user-guide/report-on-all-events).
 
 ## How to set up event code alerts
 
@@ -17,7 +17,10 @@ Jimi JC devices can send various event codes to the platform. While the platform
 Let's walk through setting up an alert for when a seat belt is unplugged:
 
 1. Create a new alert
-2. Select "State Field Value" as the alert type![Example Use Case Seat Belt Alert - Setting alert type](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/attachments/browser_KjcUn9UmiH.png) 3. In the settings tab:![Live example - Setting event code 167 for seat belt unplug detection](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/attachments/image-20241024-092818.png)
+2. Select "State Field Value" as the alert type\
+   ![Example Use Case Seat Belt Alert - Setting alert type](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/attachments/browser_KjcUn9UmiH.png) \
+   3\. In the settings tab:\
+   ![Live example - Setting event code 167 for seat belt unplug detection](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/attachments/image-20241024-092818.png)
 
 * State Field: `event_code`
 * Expected Value: `167` (seat belt unplugged code)
@@ -26,7 +29,7 @@ When the device sends a packet with event code 167, the platform will trigger th
 
 Additionally, check our short video on event code 143 to find out - how to create such alerts:
 
-!\[State field value event creation for Jimi JC.mp4]\(attachments/State field value event creation for Jimi JC.mp4)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSolJ5ajewULXQUKW4Wik%2Fuploads%2FvFNHPmfSr35AN9QmNW5c%2FState%20field%20value%20event%20creation%20for%20Jimi%20JC.mp4?alt=media&token=661d4b4d-ee7b-4a55-892f-587bed1610fd" %}
 
 ## Event codes table
 

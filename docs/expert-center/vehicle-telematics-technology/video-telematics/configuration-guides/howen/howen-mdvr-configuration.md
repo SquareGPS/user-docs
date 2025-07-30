@@ -1,17 +1,10 @@
 # Howen MDVR configuration
 
-* [Configuration](howen-mdvr-configuration.md#configuration)
-  * [Startup menu](howen-mdvr-configuration.md#startup-menu)
-  * [Registration information](howen-mdvr-configuration.md#registration-information)
-  * [3G/4G Settings](howen-mdvr-configuration.md#3g4g-settings)
-  * [Time](howen-mdvr-configuration.md#time)
-  * [Center Settings](howen-mdvr-configuration.md#center-settings)
-* [Activation of Howen devices on the platform](howen-mdvr-configuration.md#activation-of-howen-devices-on-the-platform)
-* [Video on the platform](howen-mdvr-configuration.md#video-on-the-platform)
-
 Howen devices are advanced Mobile Digital Video Recorder (MDVR) units with the capability to support up to 8 cameras. They are perfectly suited for comprehensive vehicle surveillance, offering multiple perspectives. Our platform provides seamless access to display live video streams and playbacks from Howen devices, enhancing monitoring capabilities. The list of compatible Howen devices can be found in our [devices section](https://www.navixy.com/devices/howen-technologies/). This document is intended to provide information on the configuration, registration, and specific operational aspects of Howen devices within our platform.
 
-> \[!INFO] Purchase and install a SIM card with ample or cost-effective internet data and robust internet speed. The quality of video transmission largely depends on these factors.
+{% hint style="info" %}
+Purchase and install a SIM card with ample or cost-effective internet data and robust internet speed. The quality of video transmission largely depends on these factors.
+{% endhint %}
 
 ## Configuration
 
@@ -65,15 +58,15 @@ Once you've configured the device settings, start the registration process on th
 1. Open the user account where you wish to register the device and click the device activation button.
 2. Next, input the device's name, assign it to a group if necessary, and type your device's model into the search line. For example, Hero ME40-04.
 
-![Activation of Howen devices on the platform](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231019-140201.png)
+![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231019-140201.png)
 
 3. Enter the device ID that you initially set in the Dev ID on your device. If the platform indicates that the given device ID is already being used, modify it in the device's settings and attempt using the new ID on the platform.
 
-![Activation of Howen devices on the platform](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231019-135850.png)
+![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231019-135850.png)
 
 Once the device has been added to the platform, navigate to the devices and settings tab to adjust the device’s timezone. This should correspond with the timezone you selected in the Time options of the device's configurator.
 
-![Activation of Howen devices on the platform](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231020-063327.png)
+![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231020-063327.png)
 
 The final step to get your device online involves sending its first packet, complete with a valid timestamp and coordinates, to the platform. As we've configured the power mode to be triggered by ignition, starting your vehicle's engine will prompt the device to begin sending packets to the platform.
 

@@ -1,13 +1,5 @@
 # Jimi IoT dashcam configuration
 
-* [Configuration](jimi-iot-dashcam-configuration.md#configuration)
-  * [Checking firmware version](jimi-iot-dashcam-configuration.md#checking-firmware-version)
-  * [Device activation and configuration](jimi-iot-dashcam-configuration.md#device-activation-and-configuration)
-* [Configuration Tips](jimi-iot-dashcam-configuration.md#configuration-tips)
-  * [Optimizing traffic consumption](jimi-iot-dashcam-configuration.md#optimizing-traffic-consumption)
-  * [Video on input triggering](jimi-iot-dashcam-configuration.md#video-on-input-triggering)
-* [Differences between JC261 and JC400](jimi-iot-dashcam-configuration.md#differences-between-jc261-and-jc400)
-
 This article provides a comprehensive guide on configuring your Jimi device, from checking the firmware version to optimizing traffic consumption. We'll also delve into the specifics of device activation, configuration, and provide useful tips to enhance your user experience.
 
 We would like to emphasize that our platform is completely compatible with the Jimi JC400, as well as its upgraded model JC261 and all associated variants. These dashcam devices can be fitted into your vehicles and perform similarly to usual video recording devices. The added advantages include their ability to record video events, stream live footage, and playback videos directly on the platform. Furthermore, these devices are equipped to support a variety of **Advanced Driver-Assistance Systems (ADAS)** and **Driver Monitoring System (DMS)** alerts, delivering instant notifications regarding potential road issues to the driver or other designated individuals.
@@ -32,7 +24,9 @@ If your device responds with an older version, you need to update the firmware, 
 2. Insert the SD card into the device and power it on.
 3. The device will automatically update the firmware.
 
-> \[!INFO] If you've already registered your device on the platform and then updated the firmware, you'll need to resend the activation commands, which are described later. If your panel includes an SMS gateway, you can utilize the 'Retry Activation' feature in the [Admin panel from the device card.](https://docs.navixy.com/admin-panel/basic-operations)
+{% hint style="info" %}
+If you've already registered your device on the platform and then updated the firmware, you'll need to resend the activation commands, which are described later. If your panel includes an SMS gateway, you can utilize the 'Retry Activation' feature in the [Admin panel from the device card.](https://docs.navixy.com/admin-panel/basic-operations)
+{% endhint %}
 
 ### Device activation and configuration
 
@@ -52,7 +46,9 @@ Otherwise, here are step-by-step instructions for configuring your Jimi IoT devi
   * `SERVER,0,<server_IP>,47755#`
   * `APN,<apn_name>,<apn>,,,,,,<user>,,<password>,,,,#`
 
-> \[!INFO] Note: APN settings depend on your device’s SIM card and should be entered without <> signs. You can obtain these settings from your GSM provider. For example, if your APN is “internet” and both the APN user and password are empty, input as follows: APN,internet,internet,,,,,,,,,,,,# - There are 12 commas after apn\_name and apn, which are identical in this case.
+{% hint style="info" %}
+APN settings depend on your device’s SIM card and should be entered without <> signs. You can obtain these settings from your GSM provider. For example, if your APN is “internet” and both the APN user and password are empty, input as follows: APN,internet,internet,,,,,,,,,,,,# - There are 12 commas after apn\_name and apn, which are identical in this case.
+{% endhint %}
 
 2. Check that the device is online several minutes after sending the SMS commands. If the device is not online, ensure the SIM card has sufficient credit and can receive SMS commands. You can also check the full list of [potential issues and solutions here](../../../../faq-and-troubleshooting/gps-devices/add-and-manage-devices/troubleshoot-device-activation.md).
 3. The process is fully automated and doesn't require manual configuration. However, should you prefer to set up the device manually or if default commands sending is disabled in the Admin panel settings, you can use the following list of commands as a reference. These are sent to the device after it connects to the platform:
