@@ -1,9 +1,9 @@
-# Windows installation
+# Windows
 
 This section describes the step-by-step installation of the Navixy On-premise solution on Windows. Depending on your requirements, you can resort to:
 
-- [Automatic installation](./windows-installation/automatic-installation-windows.md) - to perform a standard deployment with less effort.
-- [Manual installation](./windows-installation/manual-installation-windows.md) - to control each step and get a full understanding of the platform structure.
+* [Automatic installation](automatic-installation-windows.md) - to perform a standard deployment with less effort.
+* [Manual installation](manual-installation-windows.md) - to control each step and get a full understanding of the platform structure.
 
 In both cases, the result will be an installed and operational platform on your server.
 
