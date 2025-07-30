@@ -1,9 +1,5 @@
 # Fuel consumption report
 
-* [Report Parameters](fuel-consumption-report.md#report-parameters)
-* [Table fuel consumption by date for the sensor](fuel-consumption-report.md#table-fuel-consumption-by-date-for-the-sensor)
-* [Tab total for the period](fuel-consumption-report.md#tab-total-for-the-period)
-
 The report displays statistics on fuel consumption for a certain period, based on data from the flow meters installed in the vehicle. Unlike the previous report, it does not show the fuel level at a certain point in time from conventional fuel sensors, but only the consumption from flow meters. For example, CAN: fuel consumption.
 
 This report provides similar information as the fuel report in the consumption section, but works using data from a different type of sensor and solves the following problems&#x20;
@@ -14,13 +10,15 @@ This report provides similar information as the fuel report in the consumption s
 * To record the fuel consumption of units. For example, generator sets.
 * To account for the dispensing of fuel to vehicles on the base.
 
-> \[!INFO] To create a comprehensive report, utilize Navixy API and leverage the capabilities of plugin 78.
+{% hint style="info" %}
+To create a comprehensive report, utilize Navixy API and leverage the capabilities of plugin 78.
+{% endhint %}
 
 ![](../../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/analyzing-fuel-data/attachments/image-20230905-093059.png)
 
 In order to get the information in the report you need to:
 
-* The device for which the reading of the flow meter sensor on the platform is supported. You can specify whether reading of fuel level from a particular type of sensor is supported in the [list of supported inputs for any model.](https://www.navixy.ru/devices/)
+* The device for which the reading of the flow meter sensor on the platform is supported. You can specify whether reading of fuel level from a particular type of sensor is supported in the [list of supported inputs for any model.](https://www.navixy.com/devices/)
 * Data from the device and the flow meter sensor. In order to provide the most accurate fuel consumption information, data must flow without interruption.
 
 ## Report Parameters
@@ -48,7 +46,7 @@ The information is organized in the following columns:
 * GPS and flow rate data
   * Mileage, km - total mileage for the day or for the whole period for the total.
   * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://www.navixy.ru/docs/user/web-interface-docs/fleet/) card.
+  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://docs.navixy.com/user-guide/fleet) card.
 * Flow meter data
   * Initial reading, l - total fuel consumption according to the sensor at the beginning of the day.
   * End reading, l - total fuel consumption according to the sensor at the end of the day.

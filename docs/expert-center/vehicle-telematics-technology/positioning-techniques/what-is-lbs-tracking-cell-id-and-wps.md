@@ -1,18 +1,5 @@
 # What is LBS tracking: Cell ID and WPS
 
-* [GPS and LBS tracking: main differences](what-is-lbs-tracking-cell-id-and-wps.md#gps-and-lbs-tracking-main-differences)
-* [How LBS tracking works](what-is-lbs-tracking-cell-id-and-wps.md#how-lbs-tracking-works)
-  * [GSM based tracking](what-is-lbs-tracking-cell-id-and-wps.md#gsm-based-tracking)
-  * [Wi-Fi positioning system (WPS)](what-is-lbs-tracking-cell-id-and-wps.md#wi-fi-positioning-system-wps)
-    * [Received Signal Strength Indicator](what-is-lbs-tracking-cell-id-and-wps.md#received-signal-strength-indicator)
-    * [Fingerprinting](what-is-lbs-tracking-cell-id-and-wps.md#fingerprinting)
-    * [Time of Flight](what-is-lbs-tracking-cell-id-and-wps.md#time-of-flight)
-* [Data availability for LBS tracking systems](what-is-lbs-tracking-cell-id-and-wps.md#data-availability-for-lbs-tracking-systems)
-* [LBS support in hardware devices](what-is-lbs-tracking-cell-id-and-wps.md#lbs-support-in-hardware-devices)
-* [GSM and Wi-Fi based tracking in X-GPS apps](what-is-lbs-tracking-cell-id-and-wps.md#gsm-and-wi-fi-based-tracking-in-x-gps-apps)
-* [Setting LBS in Navixy](what-is-lbs-tracking-cell-id-and-wps.md#setting-lbs-in-navixy)
-* [My device sends only LBS points – why?](what-is-lbs-tracking-cell-id-and-wps.md#my-device-sends-only-lbs-points-why)
-
 LBS (Location-based services) technology allows to determine location of an object without using standard services such as GPS, GLONASS, Galileo or Beidou.
 
 LBS tracking is a wide term that includes a variety of different methods. Here we will only look at GSM and Wi-Fi based positioning.

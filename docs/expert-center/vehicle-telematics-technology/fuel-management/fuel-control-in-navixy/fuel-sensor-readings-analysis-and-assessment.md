@@ -1,8 +1,5 @@
 # Fuel sensor readings analysis and assessment
 
-* [Quality of fuel level readings](fuel-sensor-readings-analysis-and-assessment.md#quality-of-fuel-level-readings)
-* [Quality of the calibration table](fuel-sensor-readings-analysis-and-assessment.md#quality-of-the-calibration-table)
-
 Effective fuel calculations are one of the most important aspects in fleet management. They allow partners and users for close monitoring of fuel expenses, detection of unauthorized consumption, and implementation of measures to minimize it. However, ensuring accurate fuel calculations necessitates a thorough evaluation of the quality of data sources used for these calculations.
 
 The accuracy of fuel level readings depends on the type of sensor used and its [proper installation](../installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/fuel-level-sensor-installation.md) and other aspects i.e external factors such as temperature changes or vibrations from driving can affect fuel level readings. Hence, it is crucial to consistently monitor and ensure the proper functioning of the fuel level sensor.

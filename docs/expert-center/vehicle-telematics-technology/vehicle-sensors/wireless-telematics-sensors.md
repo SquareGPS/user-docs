@@ -101,7 +101,7 @@ The sensors can also send an additional parameter "BLE: Battery Level", which sh
 
 ## How to use BLE sensors on Navixy
 
-[Creating a BLE sensor](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/sensors-and-buttons/measurement-sensor/) is no different from creating a regular one.
+[Creating a BLE sensor](https://docs.navixy.com/user-guide/measurement-sensor) is no different from creating a regular one.
 
 1. Configure a sensor according to the user manual
 2. Select needed sensor from the list. Usually BLE sensors have "BLE" in the label, e.g. BLE: Temperature #, BLE: Fuel etc.

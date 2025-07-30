@@ -1,22 +1,5 @@
 # Fuel data analysis with Grafana via Navixy API integration
 
-* [Introduction](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#introduction)
-* [Connecting Navixy with Grafana](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#connecting-navixy-with-grafana)
-  * [Step 1: Obtaining the Navixy API key](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-1-obtaining-the-navixy-api-key)
-  * [Step 2: Launching Grafana](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-2-launching-grafana)
-  * [Step 3: Installing the JSON API data source plugin](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-3-installing-the-json-api-data-source-plugin)
-  * [Step 4: Setting up the JSON API data source connection](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-4-setting-up-the-json-api-data-source-connection)
-  * [Step 5: Importing the Navixy dashboard template](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-5-importing-the-navixy-dashboard-template)
-* [Analyzing telematics data with Grafana](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#analyzing-telematics-data-with-grafana)
-  * [Trackers and sensors to analyze](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#trackers-and-sensors-to-analyze)
-  * [Time range](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#time-range)
-  * [Line charts](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#line-charts)
-  * [Tables](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#tables)
-  * [Map view](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#map-view)
-* [Outcome and further steps](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#outcome-and-further-steps)
-  * [Dashboard customization](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#dashboard-customization)
-  * [Sharing Grafana dashboards](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#sharing-grafana-dashboards)
-
 ## Introduction
 
 Sometimes our partners and integrators encounter situations where they require a more in-depth analysis of fuel raw data and related parameters. This analysis may involve examining fuel level, speed, voltage, or ignition status over specific timeframes and areas on the map to identify any abnormal events. It can also provide insights into sensor configurations, diagnose issues, and monitor real-time performance. In this article, we will explore how to integrate Grafana and Navixy APIs to retrieve and visualize fuel control data effortlessly.

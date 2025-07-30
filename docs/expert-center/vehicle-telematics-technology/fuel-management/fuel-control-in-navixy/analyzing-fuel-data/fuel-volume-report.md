@@ -1,26 +1,13 @@
 # Fuel volume report
 
-* [Before you start](fuel-volume-report.md#before-you-start)
-  * [Refills and drains in reports](fuel-volume-report.md#refills-and-drains-in-reports)
-  * [Ignoring refills and drains in motion](fuel-volume-report.md#ignoring-refills-and-drains-in-motion)
-* [Creating a fuel volume report in Navixy](fuel-volume-report.md#creating-a-fuel-volume-report-in-navixy)
-* [What affects the readings in the report](fuel-volume-report.md#what-affects-the-readings-in-the-report)
-* [How the fuel reading and report works](fuel-volume-report.md#how-the-fuel-reading-and-report-works)
-  * [How the definition of refueling stations in the report works](fuel-volume-report.md#how-the-definition-of-refueling-stations-in-the-report-works)
-  * [How the definition of drains in the report works](fuel-volume-report.md#how-the-definition-of-drains-in-the-report-works)
-* [Report Parameters](fuel-volume-report.md#report-parameters)
-* [Fuel consumption graph by sensor](fuel-volume-report.md#fuel-consumption-graph-by-sensor)
-* [Table Fillings and drains](fuel-volume-report.md#table-fillings-and-drains)
-* [Table details by dates](fuel-volume-report.md#table-details-by-dates)
-* [Table statistical data](fuel-volume-report.md#table-statistical-data)
-* [Quality of fuel level sensor readings \[LAB\]](fuel-volume-report.md#quality-of-fuel-level-sensor-readings-lab)
-
 ## Before you start
 
-> \[!INFO] Please make sure the platform is configured properly before you create a fuel report, so events could be recognized properly:
->
-> * Check [sensor settings](../sensors-setup-and-configuration.md)
-> * Check [parking detection settings](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/parking-detection/)
+{% hint style="info" %}
+Please make sure the platform is configured properly before you create a fuel report, so events could be recognized properly:
+
+* Check [sensor settings](../sensors-setup-and-configuration.md)
+* Check [parking detection settings](https://docs.navixy.com/user-guide/parking-detection)
+{% endhint %}
 
 ### Refills and drains in reports
 
@@ -52,7 +39,9 @@ Tasks that the report addresses:
 * To account for the dispensing of fuel to vehicles on the base.
 * To determine which machines need repair if their fuel consumption is consistently high.
 
-> \[!INFO] You can also build the report using Navixy API. More information could be obtained in [Developers Hub](https://www.navixy.com/docs/developers)
+{% hint style="info" %}
+You can also build the report using Navixy API. More information could be obtained in [Developers Hub](https://www.navixy.com/docs/developers)
+{% endhint %}
 
 ![Fuel report](../../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/analyzing-fuel-data/attachments/image-20230905-074120.png)
 
@@ -64,7 +53,9 @@ The report displays graphs based on the sensor readings sent by the unit. From t
 * Continuous transmission of fuel level data between the device and platform is crucial. If the data is not consistently received or is inaccurate, it may lead to graph display issues or incorrect calculations on the platform.
 * The recorded values in the report are influenced by the fuel level sensor settings, which are vital for calculating drains and refills. You have the flexibility to modify the sensor settings at any given point and generate a fresh report. Additionally, the results obtained are directly impacted by the report parameters, making them a crucial factor to consider.
 
-> \[!INFO] Once you modify the sensor settings, you have the option to regenerate the report for that specific time frame using different settings. This enables the changes to be implemented into the recorded data seamlessly.
+{% hint style="info" %}
+Once you modify the sensor settings, you have the option to regenerate the report for that specific time frame using different settings. This enables the changes to be implemented into the recorded data seamlessly.
+{% endhint %}
 
 ## How the fuel reading and report works
 
@@ -140,10 +131,12 @@ Additionally, the chart provides numerical data for drains and refills, followin
 
 If the platform did not receive any data from the sensor, it will be highlighted on the graph as a shaded area. Additionally, a notification will be displayed when hovering over the area. This indicates that the fuel sensor did not transmit any data during the specified timeframe to the platform.
 
-> \[!INFO] There are various factors that may contribute to this phenomenon:
->
-> * The device did not send data from the fuel sensor during this period. For example, the sensor wire is not securely fastened or data from the sensor was not sent according to the beacon setting.
-> * The device did not send any data at all during this period. For example, it was turned off or removed from the monitored object.
+{% hint style="info" %}
+There are various factors that may contribute to this phenomenon:
+
+* The device did not send data from the fuel sensor during this period. For example, the sensor wire is not securely fastened or data from the sensor was not sent according to the beacon setting.
+* The device did not send any data at all during this period. For example, it was turned off or removed from the monitored object.
+{% endhint %}
 
 If any values have been filtered according to the fuel level sensor setting, the platform will display the last unfiltered data here.
 
