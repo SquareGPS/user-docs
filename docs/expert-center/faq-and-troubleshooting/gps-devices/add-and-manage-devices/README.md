@@ -1,2 +1,0 @@
-# Addc and manage devices
-

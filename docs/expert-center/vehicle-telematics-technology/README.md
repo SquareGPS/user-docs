@@ -1,2 +1,0 @@
-# Vehicle telematics technology
-
