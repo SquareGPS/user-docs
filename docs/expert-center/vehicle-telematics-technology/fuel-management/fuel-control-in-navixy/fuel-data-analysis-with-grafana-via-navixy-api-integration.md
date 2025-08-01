@@ -1,21 +1,21 @@
 # Fuel data analysis with Grafana via Navixy API integration
 
-- [Introduction](#introduction)
-- [Connecting Navixy with Grafana](#connecting-navixy-with-grafana)
-  - [Step 1: Obtaining the Navixy API key](#step-1-obtaining-the-navixy-api-key)
-  - [Step 2: Launching Grafana](#step-2-launching-grafana)
-  - [Step 3: Installing the JSON API data source plugin](#step-3-installing-the-json-api-data-source-plugin)
-  - [Step 4: Setting up the JSON API data source connection](#step-4-setting-up-the-json-api-data-source-connection)
-  - [Step 5: Importing the Navixy dashboard template](#step-5-importing-the-navixy-dashboard-template)
-- [Analyzing telematics data with Grafana](#analyzing-telematics-data-with-grafana)
-  - [Trackers and sensors to analyze](#trackers-and-sensors-to-analyze)
-  - [Time range](#time-range)
-  - [Line charts](#line-charts)
-  - [Tables](#tables)
-  - [Map view](#map-view)
-- [Outcome and further steps](#outcome-and-further-steps)
-  - [Dashboard customization](#dashboard-customization)
-  - [Sharing Grafana dashboards](#sharing-grafana-dashboards)
+* [Introduction](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#introduction)
+* [Connecting Navixy with Grafana](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#connecting-navixy-with-grafana)
+  * [Step 1: Obtaining the Navixy API key](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-1-obtaining-the-navixy-api-key)
+  * [Step 2: Launching Grafana](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-2-launching-grafana)
+  * [Step 3: Installing the JSON API data source plugin](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-3-installing-the-json-api-data-source-plugin)
+  * [Step 4: Setting up the JSON API data source connection](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-4-setting-up-the-json-api-data-source-connection)
+  * [Step 5: Importing the Navixy dashboard template](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#step-5-importing-the-navixy-dashboard-template)
+* [Analyzing telematics data with Grafana](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#analyzing-telematics-data-with-grafana)
+  * [Trackers and sensors to analyze](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#trackers-and-sensors-to-analyze)
+  * [Time range](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#time-range)
+  * [Line charts](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#line-charts)
+  * [Tables](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#tables)
+  * [Map view](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#map-view)
+* [Outcome and further steps](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#outcome-and-further-steps)
+  * [Dashboard customization](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#dashboard-customization)
+  * [Sharing Grafana dashboards](fuel-data-analysis-with-grafana-via-navixy-api-integration.md#sharing-grafana-dashboards)
 
 ## Introduction
 
@@ -33,13 +33,13 @@ Start by logging into your Navixy account and navigating to the Account settings
 
 ### Step 2: Launching Grafana
 
-Grafana provides 2 types of access: cloud or deployed. Cloud access could be obtained on their official website [https://grafana.com/](https://grafana.com/). Below we are going to explore how to install the package on your own server or local computer. 
+Grafana provides 2 types of access: cloud or deployed. Cloud access could be obtained on their official website [https://grafana.com/](https://grafana.com/). Below we are going to explore how to install the package on your own server or local computer.&#x20;
 
 To deploy Grafana on a local Windows machine, follow these simple steps:
 
 1. Download the latest Grafana installer for Windows from the official download page.
 2. Run the downloaded installer (e.g., grafana-xx.x.x.windows-amd64.msi, where xx.x.x is the version number) and complete the installation by following the prompts.
-3. Once the installation is complete, start Grafana by running the grafana-server.exe file located in the bin folder of the installation directory (e.g., C:\\Program Files\\GrafanaLabs\\grafana\\bin).
+3. Once the installation is complete, start Grafana by running the grafana-server.exe file located in the bin folder of the installation directory (e.g., C:\Program Files\GrafanaLabs\grafana\bin).
 4. Open a web browser and navigate to [http://localhost:3000](http://localhost:3000/). Use the default login credentials "admin" for both the username and password.
 5. After logging in, you can immediately begin creating and customizing dashboards, utilizing various data sources to visualize and analyze your data.
 
@@ -51,7 +51,7 @@ Once Grafana is launched, proceed to the "Connections" or "Plugins" menu in the 
 
 ### Step 4: Setting up the JSON API data source connection
 
-After installing the "JSON API" plugin, your Grafana instance is ready to connect with the Navixy API using the API key. 
+After installing the "JSON API" plugin, your Grafana instance is ready to connect with the Navixy API using the API key.&#x20;
 
 Follow these steps to set up the connection:
 
@@ -59,12 +59,14 @@ Follow these steps to set up the connection:
 2. Search for "JSON API" and choose this source
 3. Click on "Create a JSON API data source"
 4. Fill in the following fields:
-  - Name: Choose a preferred name for the data source
-  - URL: Enter the URL for the Navixy API. Depending on your platform's location, use one of the following URLs:
-    - `https://api.eu.navixy.com/v2/` for Europe
-    - `https://api.us.navixy.com/v2/` for North America
-    - `<your_configured_domain_api_url>` for self-hosted (On-Premise) installations. The default format is usually `http(s)://your_configured_domain/api/`
-  - Query string: Use a query string in the format `hash=[YOUR_API_KEY]&iso_datetime=true`. For example: `hash=8f6a4353bc5114d977e2068b4e398&iso_datetime=true`.
+
+* Name: Choose a preferred name for the data source
+* URL: Enter the URL for the Navixy API. Depending on your platform's location, use one of the following URLs:
+  * `https://api.eu.navixy.com/v2/` for Europe
+  * `https://api.us.navixy.com/v2/` for North America
+  * `<your_configured_domain_api_url>` for self-hosted (On-Premise) installations. The default format is usually `http(s)://your_configured_domain/api/`
+* Query string: Use a query string in the format `hash=[YOUR_API_KEY]&iso_datetime=true`. For example: `hash=8f6a4353bc5114d977e2068b4e398&iso_datetime=true`.
+
 5. Customize any additional settings as required, and then click "Save & Test" to verify the connection.
 
 ![Grafana and Navixy API - choosing data source](attachments/image-20231017-075916.png)

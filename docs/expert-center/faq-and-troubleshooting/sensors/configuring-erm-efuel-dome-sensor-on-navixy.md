@@ -18,13 +18,13 @@ Before proceeding with the Navixy platform configuration, it is essential to ver
 
 To achieve the best sensor performance on the platform, it is necessary to properly configure the following parameters:
 
-- Centimeters Liquid Pressure
-- Low Fuel Level Alert #1
-- Low Fuel Level Alert #2
-- Refuel Event Minimal Difference
-- Fuel Theft Event Minimal Value
-- Ignition ON/OFF report time
-- Fuel tank height
+* Centimeters Liquid Pressure
+* Low Fuel Level Alert #1
+* Low Fuel Level Alert #2
+* Refuel Event Minimal Difference
+* Fuel Theft Event Minimal Value
+* Ignition ON/OFF report time
+* Fuel tank height
 
 Once the sensor is activated and data is successfully displayed within the "Get Diagnostic" tab of the BLE\_FuelHub\_Monitor tool, proceed to fill the vehicle's fuel tank to its full, desired capacity. The corresponding liquid height, measured by the sensor, will be displayed under the "Fuel Total Centimeters" parameter. This "Fuel Total Centimeters" value is critical as it serves as the 100% reference point for the system's percentage-based fuel level calculations. Therefore, this exact value must be entered into the "Fuel Tank Height Centimeters" field within the BLE Monitor tool sensor settings.
 
@@ -36,11 +36,11 @@ With successful sensor activation and data verification via the configurator too
 
 ## **Device activation on Navixy**
 
-Device activation on Navixy requires the Serial Number located on the device's information label. This serial number, which will range from 4 to 8 digits depending on the specific device model, must be entered as the Device ID during the activation process in Navixy. 
+Device activation on Navixy requires the Serial Number located on the device's information label. This serial number, which will range from 4 to 8 digits depending on the specific device model, must be entered as the Device ID during the activation process in Navixy.&#x20;
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbVfBdrkKyAQEBK86sUqBzaHU6S6vJXJ3dQE8dT8zoP-b5Y2qJUQsDlYOw4ziySWtfBHqINDNnimuwpSNjsvBp3lb7kGjD3gA01eLP_MOfcS0-IwD7v8euJnFQqeI0ZoLVOFPtTg?key=sL2T3F9AiEzyndTQraY9CGtf)
 
-## **Mapping the eFuel sensor on Bluetooth sensor widget.** 
+## **Mapping the eFuel sensor on Bluetooth sensor widget.**&#x20;
 
 Once the device is activated and reporting on the platform, go to **Device and Settings** tab, select the device and go to the **Bluetooth sensors** widget.
 
@@ -50,7 +50,7 @@ In this tab, you will need to enter the device's number followed by the sensor's
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqDY_gSN8NBsjMzyhkMmnP1i_eiHqwUrla4Sy1AbMoL0MntnDnpeIIG3kbRn4I6p85I_Vya5kJcYudsj5oN-hRYo98wn91SCEc8YkOwh-_awhymfXBNJrTqvrb4fEvaoP1ynoQ?key=sL2T3F9AiEzyndTQraY9CGtf)
 
-## **Creating measurement sensors on Sensor and Buttons widget.** 
+## **Creating measurement sensors on Sensor and Buttons widget.**&#x20;
 
 To visualize the data parameters transmitted by the eFuel Dome sensor, a measurement sensor must be created. During this mapping process, it is important to associate each parameter with the corresponding **input number**. For instance, if the first eFuel DOME sensor is identified with index 1, then all data values you wish to retrieve from this specific sensor (such as fuel level, height, voltage, etc.) must be configured to utilize **input 1**. This indexing ensures the platform correctly interprets and displays the data originating from the intended sensor.
 
@@ -62,12 +62,12 @@ To visualize the data parameters transmitted by the eFuel Dome sensor, a measure
 
 The parameters that can be obtained from the sensor are as follows:
 
-- Ble\_lls\_level\_n (Reported fuel value)
-- Ble\_lls\_height\_n
-- Ble\_lls\_level\_raw\_n (Original fuel value)
-- Ble\_lls\_pressure\_n
-- Ble\_signal\_strength\_n (RSSI)
-- Ble\_battery\_voltage\_n
+* Ble\_lls\_level\_n (Reported fuel value)
+* Ble\_lls\_height\_n
+* Ble\_lls\_level\_raw\_n (Original fuel value)
+* Ble\_lls\_pressure\_n
+* Ble\_signal\_strength\_n (RSSI)
+* Ble\_battery\_voltage\_n
 
 It is important to note that the lls\_level and lls\_height parameters are inherently included within the data package transmitted by the device at the regular reporting interval. Conversely, other parameters such as voltage and pressure will be obtained with less frequency or specifically requested via the sensor's status command. This deliberate approach optimizes battery life, as transmitting a greater number of parameters more frequently would lead to a faster decrease of the sensor's voltage. Therefore, to ensure longevity and focus on the most critical information for continuous monitoring, parameters beyond the essential real-time fuel level are accessed less frequently.
 
@@ -75,25 +75,25 @@ It is important to note that the lls\_level and lls\_height parameters are inher
 
 Events and sub-events from the e-fuel sensor have been integrated following the structure 45\_XX, where XX is the sub-event number shown below:
 
-- 155 Fuel theft incident
-- 156 Tank filling
-- 157 Hub device awakened (after being connected)
-- 158 Sensor connected to the Hub
-- 159 Sensor disconnected from the Hub
-- 160 Sensor missing
-- 161 Fuel alert level #1
-- 162 Fuel alert level #2
-- 163 Incident report (filling/theft)
+* 155 Fuel theft incident
+* 156 Tank filling
+* 157 Hub device awakened (after being connected)
+* 158 Sensor connected to the Hub
+* 159 Sensor disconnected from the Hub
+* 160 Sensor missing
+* 161 Fuel alert level #1
+* 162 Fuel alert level #2
+* 163 Incident report (filling/theft)
 
-Go to **Set rules** on **Alert tab** and look for the Starlink device. Once the starlink device is selected, choose the **State field value** alert type, add a name for the alert. 
+Go to **Set rules** on **Alert tab** and look for the Starlink device. Once the starlink device is selected, choose the **State field value** alert type, add a name for the alert.&#x20;
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNRtB36xhNh7uI2DrT_mGtSCkPGAiwKsgIWntnNeX1OveL0qiGaWmuxb4GzrAGjQW2bblFpm0ZbgyaTXKHo50gW44ez6eE2a-nQ-F4ERja0fjGxwUS6Pg2Wwm6GPCGFilesfyj?key=sL2T3F9AiEzyndTQraY9CGtf)
 
-So on, select the *sub\_event\_code* and put the expected value with the sub event of the alert it is required. For instance, if it requires the Efuel theft incident, then the expected sub\_event code would be 45\_155 as shown below. 
+So on, select the _sub\_event\_code_ and put the expected value with the sub event of the alert it is required. For instance, if it requires the Efuel theft incident, then the expected sub\_event code would be 45\_155 as shown below.&#x20;
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcMLi9LpxSS5e33_3cK_K5O6UeDpYXpUbu9f4Ti9m8zwauO6ANXQQi7O4K063ymZqDrzCELa_5s-IPJijZX0S3DAeYjADomVZzu0sNDRVaiV6EAINh8bZwsfksxroW30UoNAfR9Q?key=sL2T3F9AiEzyndTQraY9CGtf)
 
-Proceed to finish the alert configuration in **Notifications** and **Schedule**. 
+Proceed to finish the alert configuration in **Notifications** and **Schedule**.&#x20;
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbzk0OlN_kYLu7WLhobxp57Ln4_gYqt1MXKeWnK8tdxv82Qfut1KjRA3yIUZTNKI591Doxeks5hOSARKuxQDyblLPknBzLSThwwtxLtmAOV3hl-nZ6xO06vGKcxIx1myqQ17D7Xg?key=sL2T3F9AiEzyndTQraY9CGtf)
 

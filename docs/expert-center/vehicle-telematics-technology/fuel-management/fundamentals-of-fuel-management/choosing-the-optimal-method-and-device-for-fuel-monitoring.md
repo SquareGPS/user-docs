@@ -1,13 +1,13 @@
 # Choosing the optimal method and device for fuel monitoring
 
-- [Fuel management without additional intervention in the fuel system](#fuel-management-without-additional-intervention-in-the-fuel-system)
-  - [Using GPS for fuel control](#using-gps-for-fuel-control)
-  - [Using the OEM sensor via CAN bus/OBDII connector](#using-the-oem-sensor-via-can-busobdii-connector)
-  - [Using OEM sensor and connecting to the analog input](#using-oem-sensor-and-connecting-to-the-analog-input)
-- [Fuel management with additional equipment integrated into the fuel system](#fuel-management-with-additional-equipment-integrated-into-the-fuel-system)
-  - [Using a flow meter (fuel flow sensor)](#using-a-flow-meter-fuel-flow-sensor)
-  - [Using a fuel level sensor](#using-a-fuel-level-sensor)
-- [Conclusion](#conclusion)
+* [Fuel management without additional intervention in the fuel system](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#fuel-management-without-additional-intervention-in-the-fuel-system)
+  * [Using GPS for fuel control](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#using-gps-for-fuel-control)
+  * [Using the OEM sensor via CAN bus/OBDII connector](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#using-the-oem-sensor-via-can-busobdii-connector)
+  * [Using OEM sensor and connecting to the analog input](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#using-oem-sensor-and-connecting-to-the-analog-input)
+* [Fuel management with additional equipment integrated into the fuel system](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#fuel-management-with-additional-equipment-integrated-into-the-fuel-system)
+  * [Using a flow meter (fuel flow sensor)](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#using-a-flow-meter-fuel-flow-sensor)
+  * [Using a fuel level sensor](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#using-a-fuel-level-sensor)
+* [Conclusion](choosing-the-optimal-method-and-device-for-fuel-monitoring.md#conclusion)
 
 In the [previous article](../fundamentals-of-fuel-management.md), we discussed that customer needs are the primary factor in selecting calculation methods and fuel management tools. In this article, we will focus on basic fuel management approaches and calculation methods. In addition, we will review the different types of devices that can be used to collect data and monitor fuel levels, providing a description of their advantages and disadvantages.
 
@@ -19,73 +19,73 @@ We then will consider approaches with **additional intervention in the fuel syst
 
 ### Using GPS for fuel control
 
-|     |     |
-| --- | --- |
-| Uncertainty: | 10-20% |
-| Benefits: | - Low cost solution: no additional equipment is required,<br>- No need for installation and customization: no need to install fuel sensors, which simplifies the process of controlling and installing the system. |
-| Disadvantages: | - Low calculation accuracy: since the method is based on approximation of fuel consumption data based on coordinates and traveled distance,<br>- Lack of additional data: e.g. fuel level in the tank, which may limit the possibilities for analysis and optimization of fuel use. |
-| Probability of fraud | High |
-| Areas of application | Fleets where fuel management is not a priority or a 20% error is acceptable. |
+|                      |                                                                                                                                                                                                                                                                                            |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Uncertainty:         | 10-20%                                                                                                                                                                                                                                                                                     |
+| Benefits:            | <p>- Low cost solution: no additional equipment is required,<br>- No need for installation and customization: no need to install fuel sensors, which simplifies the process of controlling and installing the system.</p>                                                                  |
+| Disadvantages:       | <p>- Low calculation accuracy: since the method is based on approximation of fuel consumption data based on coordinates and traveled distance,<br>- Lack of additional data: e.g. fuel level in the tank, which may limit the possibilities for analysis and optimization of fuel use.</p> |
+| Probability of fraud | High                                                                                                                                                                                                                                                                                       |
+| Areas of application | Fleets where fuel management is not a priority or a 20% error is acceptable.                                                                                                                                                                                                               |
 
 Fuel management using satellite-based coordinate and distance traveled monitoring without fuel sensors is based on analyzing vehicle movement data and uses satellite systems such as GPS to determine the vehicle's location.
 
 The principle of this method is that:
 
-- By means of satellite monitoring, the coordinates of the vehicle's start and end location are recorded based on GPS data and the distance traveled by the vehicle. 
-- This data is then used to calculate and monitor fuel consumption based on a set mileage per gallon.
+* By means of satellite monitoring, the coordinates of the vehicle's start and end location are recorded based on GPS data and the distance traveled by the vehicle.&#x20;
+* This data is then used to calculate and monitor fuel consumption based on a set mileage per gallon.
 
 Using fuel consumption information, which can be preset or obtained from other sources, the total fuel consumption is calculated based on the distance traveled.
 
 ### Using the OEM sensor via CAN bus/OBDII connector
 
-|     |     |
-| --- | --- |
-| Uncertainty: | 10-15% |
-| Benefits: | - Real-time information: Because data is received in real time via CAN bus or OBDII connection, operators can get up-to-date information on fuel consumption and monitor fuel utilization in real time<br>- Automation: the method allows automatic collection and analysis of fuel data, which simplifies the process of fuel management and optimization. |
-| Disadvantages: | - Manufacturer's Limitations: The capability and accuracy of the data provided by the OEM sensor via CAN bus or OBDII connector may be limited by the vehicle manufacturer. This may limit the functionality and accuracy of the fuel management system.<br>- Difficulty in identifying drains. |
-| Probability of fraud | High |
-| Areas of application | This method is widely used in fleets where there is a desire to reduce the error in fuel calculations, but it is not possible to install additional equipment in the fuel system. |
+|                      |                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Uncertainty:         | 10-15%                                                                                                                                                                                                                                                                                                                                                             |
+| Benefits:            | <p>- Real-time information: Because data is received in real time via CAN bus or OBDII connection, operators can get up-to-date information on fuel consumption and monitor fuel utilization in real time<br>- Automation: the method allows automatic collection and analysis of fuel data, which simplifies the process of fuel management and optimization.</p> |
+| Disadvantages:       | <p>- Manufacturer's Limitations: The capability and accuracy of the data provided by the OEM sensor via CAN bus or OBDII connector may be limited by the vehicle manufacturer. This may limit the functionality and accuracy of the fuel management system.<br>- Difficulty in identifying drains.</p>                                                             |
+| Probability of fraud | High                                                                                                                                                                                                                                                                                                                                                               |
+| Areas of application | This method is widely used in fleets where there is a desire to reduce the error in fuel calculations, but it is not possible to install additional equipment in the fuel system.                                                                                                                                                                                  |
 
 Fuel management using a standard sensor via CAN bus/OBDII connector is based on the acquisition of mileage, consumption, and fuel level data from the vehicle's on-board network. This system allows you to monitor and optimize fuel usage.
 
 The working principle of this method is as follows:
 
-- Connect to the vehicle CAN bus or OBDII connector, which is a standard connector for accessing vehicle diagnostic data.
-- Gain access to mileage, consumption and fuel level data using the OEM sensor, which transmits this data via CAN bus or OBDII connector.
-- Analyze the resulting data to monitor fuel usage and determine vehicle efficiency.
-- Identification of anomalies or abnormal situations such as fuel losses due to leaks or inefficient use.
+* Connect to the vehicle CAN bus or OBDII connector, which is a standard connector for accessing vehicle diagnostic data.
+* Gain access to mileage, consumption and fuel level data using the OEM sensor, which transmits this data via CAN bus or OBDII connector.
+* Analyze the resulting data to monitor fuel usage and determine vehicle efficiency.
+* Identification of anomalies or abnormal situations such as fuel losses due to leaks or inefficient use.
 
 ### Using OEM sensor and connecting to the analog input
 
-|     |     |
-| --- | --- |
-| Uncertainty: | 10-15% |
-| Benefits: | - Integration: connecting the OEM sensor to the analog input allows integration with the vehicle's control system or other fuel monitoring and management devices.<br>- Easy to install: OEM fuel sensors are usually already installed in vehicles, so their use does not require significant modifications to the design or the installation of additional devices. |
-| Disadvantages: | - Occurrence of errors: OEM fuel gauges lack internal data processing algorithms, which can lead to short-term deviations in readings. Errors can also occur due to voltage surges in the vehicle's onboard network.<br>- Not possible to keep the warranty on the car because the GPS tracker is connected to the car's wiring, which requires a qualified employee who will be able to make the connection.<br>- Probability of manipulation: since the method is based on data from the OEM sensor, it is possible to manipulate the data to distort information about the actual fuel level. |
-| Probability of fraud | High |
-| Areas of application | This method is used in vehicles (mainly cars and trucks) to monitor fuel levels and detect changes in fuel levels. It allows drivers and vehicle management systems to determine with average accuracy also the remaining fuel reserve and to plan journeys or trips with this data in mind. |
+|                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Uncertainty:         | 10-15%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Benefits:            | <p>- Integration: connecting the OEM sensor to the analog input allows integration with the vehicle's control system or other fuel monitoring and management devices.<br>- Easy to install: OEM fuel sensors are usually already installed in vehicles, so their use does not require significant modifications to the design or the installation of additional devices.</p>                                                                                                                                                                                                                            |
+| Disadvantages:       | <p>- Occurrence of errors: OEM fuel gauges lack internal data processing algorithms, which can lead to short-term deviations in readings. Errors can also occur due to voltage surges in the vehicle's onboard network.<br>- Not possible to keep the warranty on the car because the GPS tracker is connected to the car's wiring, which requires a qualified employee who will be able to make the connection.<br>- Probability of manipulation: since the method is based on data from the OEM sensor, it is possible to manipulate the data to distort information about the actual fuel level.</p> |
+| Probability of fraud | High                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Areas of application | This method is used in vehicles (mainly cars and trucks) to monitor fuel levels and detect changes in fuel levels. It allows drivers and vehicle management systems to determine with average accuracy also the remaining fuel reserve and to plan journeys or trips with this data in mind.                                                                                                                                                                                                                                                                                                            |
 
 Fuel control using the OEM sensor and connection to the analog input is performed by connecting the fuel level sensor to the analog input of the GPS tracker. This allows you to control the fuel level and consumption.
 
 The working principle of this method is as follows:
 
-- To connect the OEM fuel sensor to an analog input, a wired connection between the two devices must be used. As a rule, different types of interfaces and connectors are used depending on the vehicle manufacturer and model.
-- After connecting the sensor to the analog input, the system must be calibrated and configured. This will provide a more accurate reading of the fuel level data. 
-- The resulting fuel level data can be used for a variety of purposes. For example, you can monitor the fuel level in real time, determine the fuel consumption on a certain section of the journey, or warn the driver of low fuel levels.
+* To connect the OEM fuel sensor to an analog input, a wired connection between the two devices must be used. As a rule, different types of interfaces and connectors are used depending on the vehicle manufacturer and model.
+* After connecting the sensor to the analog input, the system must be calibrated and configured. This will provide a more accurate reading of the fuel level data.&#x20;
+* The resulting fuel level data can be used for a variety of purposes. For example, you can monitor the fuel level in real time, determine the fuel consumption on a certain section of the journey, or warn the driver of low fuel levels.
 
 It is important to note that the process of controlling fuel using the OEM sensor and connecting to the analog input may vary depending on the specific vehicle model or control system. It is recommended that you consult your owner's manual or the vehicle manufacturer for exact instructions and recommendations.
 
 ## Fuel management with additional equipment integrated into the fuel system
 
-### Using a flow meter (fuel flow sensor) 
+### Using a flow meter (fuel flow sensor)&#x20;
 
-|     |     |
-| --- | --- |
-| Uncertainty: | 1-3% |
-| Benefits: | - High data accuracy: the data error for flow meters can be less than 3%,<br>- Versatility: the flow meter can be installed on all practically all types of vehicles and stationary objects. |
-| Disadvantages: | - Cost: some flow meters can be quite expensive, especially if they need to be installed and integrated into complex systems,<br>- Difficulty of installation and customization: installation of the flow meter involves incorporation into the fuel system, so it must be done by qualified specialists,<br>- Data limitations: the use of a flow meter does not allow for real-time tracking of drains,<br>- Exposure to failure: Like any technical device, flow meters can be subject to malfunctions and breakdowns requiring repair or replacement. |
-| Probability of fraud | Medium |
-| Areas of application | It can be used in fleets and facilities that are not suitable for installation of fuel flow meters, but where high-quality information on fuel consumption is required. |
+|                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Uncertainty:         | 1-3%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Benefits:            | <p>- High data accuracy: the data error for flow meters can be less than 3%,<br>- Versatility: the flow meter can be installed on all practically all types of vehicles and stationary objects.</p>                                                                                                                                                                                                                                                                                                                                                              |
+| Disadvantages:       | <p>- Cost: some flow meters can be quite expensive, especially if they need to be installed and integrated into complex systems,<br>- Difficulty of installation and customization: installation of the flow meter involves incorporation into the fuel system, so it must be done by qualified specialists,<br>- Data limitations: the use of a flow meter does not allow for real-time tracking of drains,<br>- Exposure to failure: Like any technical device, flow meters can be subject to malfunctions and breakdowns requiring repair or replacement.</p> |
+| Probability of fraud | Medium                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Areas of application | It can be used in fleets and facilities that are not suitable for installation of fuel flow meters, but where high-quality information on fuel consumption is required.                                                                                                                                                                                                                                                                                                                                                                                          |
 
 The principle of operation of a flow meter is to measure the volume of fuel flowing through it. Flow meters can use different technologies to determine the fuel flow rate and are therefore of different types - mostly mechanical single-chamber sensors are used.
 
@@ -105,13 +105,13 @@ The fuel consumption data received is processed by an electronic sensor, which c
 
 ### Using a fuel level sensor
 
-|     |     |
-| --- | --- |
-| Uncertainty: | 1-3% |
-| Benefits: | - High data accuracy: the data error for digital RTDs can be less than 1%, provided that installation and configuration requirements and recommendations are followed,<br>- An additional set of fuel related parameters that help control fuel, such as fuel temperatures,<br>- Versatility: Fuel level sensors can be installed on all types of vehicles, including non-standard tank shapes. |
-| Disadvantages: | - Difficulty of installation and customization: installation of the RTD should be carried out strictly in accordance with the manufacturer's requirements and recommendations by qualified specialists,<br>- Regular maintenance: Using the fuel level sensor as a fuel data source implies maintenance. It is recommended to check and tare once a year. |
-| Probability of fraud | Low |
-| Areas of application | It is used everywhere in all fleets and facilities that have tank(s), and in various shapes. It is also used in the marine industry, special equipment, generators and stationary engines. |
+|                      |                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Uncertainty:         | 1-3%                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Benefits:            | <p>- High data accuracy: the data error for digital RTDs can be less than 1%, provided that installation and configuration requirements and recommendations are followed,<br>- An additional set of fuel related parameters that help control fuel, such as fuel temperatures,<br>- Versatility: Fuel level sensors can be installed on all types of vehicles, including non-standard tank shapes.</p> |
+| Disadvantages:       | <p>- Difficulty of installation and customization: installation of the RTD should be carried out strictly in accordance with the manufacturer's requirements and recommendations by qualified specialists,<br>- Regular maintenance: Using the fuel level sensor as a fuel data source implies maintenance. It is recommended to check and tare once a year.</p>                                       |
+| Probability of fraud | Low                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Areas of application | It is used everywhere in all fleets and facilities that have tank(s), and in various shapes. It is also used in the marine industry, special equipment, generators and stationary engines.                                                                                                                                                                                                             |
 
 A fuel level sensor is a device that is used to measure and monitor the fuel level in a vehicle tank or reservoir. It plays a key role in managing and monitoring the fuel supply.
 

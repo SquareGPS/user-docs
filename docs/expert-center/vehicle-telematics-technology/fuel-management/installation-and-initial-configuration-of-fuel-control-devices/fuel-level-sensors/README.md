@@ -1,18 +1,18 @@
 # Fuel level sensors
 
-- [Liquid level sensing technologies](#liquid-level-sensing-technologies)
-- [Fuel level sensors](#fuel-level-sensors)
+* [Liquid level sensing technologies](./#liquid-level-sensing-technologies)
+* [Fuel level sensors](./#fuel-level-sensors)
 
 A fuel level sensor is a device designed to make precise measurements of fuel level in vehicles. These measurements combined with a GPS tracking and telematics platform functionality enable the following data to be harvested:
 
-- fuel level in the tank of a vehicle
-- fuel refilling
-- vehicle idling
-- fuel usage monitoring
-- fuel theft prevention
-- fuel refills or drains
-- fuel consumption per time period
-- average fuel consumption (miles per gallon, mpg)
+* fuel level in the tank of a vehicle
+* fuel refilling
+* vehicle idling
+* fuel usage monitoring
+* fuel theft prevention
+* fuel refills or drains
+* fuel consumption per time period
+* average fuel consumption (miles per gallon, mpg)
 
 ## Liquid level sensing technologies
 
@@ -24,7 +24,7 @@ Mechanical tank sensors normally sense the position of a float by a mechanical l
 
 Magnetic tank sensors commonly sense the position of a float by a mechanical linkage attached from a float to a magnet. Modern magnetic sensors are based on Hall effect (A phenomenon that occurs when an electric current moving through a conductor is exposed to an external magnetic field applied at a right angle, in which an electric potential develops in the conductor at a right angle to both the direction of current and the magnetic field.).
 
-Pressure sensors include hydrostatic, bubbler and differential sensors. A hydrostatic tank sensor typically senses the pressure of the fluid at the bottom of the tank. The amount of pressure depends upon the weight of the fluid above the sensor, which depends upon the amount of fluid in the tank. A bubbler sensor effectively relies on the fact that the amount of pressure required to force the air out the bottom of the tube depends upon the pressure at the bottom of the tank — a pressure that results from the amount of fluid in the tank. A differential pressure sensor detects the difference in pressure between the top and bottom of a tank, and translates that into a quantity of fluid.
+Pressure sensors include hydrostatic, bubbler and differential sensors. A hydrostatic tank sensor typically senses the pressure of the fluid at the bottom of the tank. The amount of pressure depends upon the weight of the fluid above the sensor, which depends upon the amount of fluid in the tank. A bubbler sensor effectively relies on the fact that the amount of pressure required to force the air out the bottom of the tube depends upon the pressure at the bottom of the tank — a pressure that results from the amount of fluid in the tank. A differential pressure sensor detects the difference in pressure between the top and bottom of a tank, and translates that into a quantity of fluid.
 
 Electrostatic type of sensors are represented by capacitive and inductive versions. By placing liquid between the electrodes the ability for the capacitor to store energy changes so the actual capacitance changes.
 
@@ -58,4 +58,4 @@ The actual device consists of: 1- body, 2 - holder, 3 - LEDs 3L107B, 4 - compens
 
 Such a device enables a technique to measure the fuel level by recording the intensity of the optical path reflected from the mirror on the reservoir bottom or another level of the reservoir. The typical error is claimed to be within a range of 1-2%.
 
-Here we described some of the popular fuel level sensing technologies. However, there are obviously other available techniques. Many fuel sensor manufacturers provide their devices with additional features. Some of them can be quite cutting-edge and useful. You are welcome to read more about practical aspects of fuel level sensors in our further documents [Types of fuel level sensors](fuel-level-sensors/types-of-fuel-level-sensors.md) and Fuel level installation.
+Here we described some of the popular fuel level sensing technologies. However, there are obviously other available techniques. Many fuel sensor manufacturers provide their devices with additional features. Some of them can be quite cutting-edge and useful. You are welcome to read more about practical aspects of fuel level sensors in our further documents [Types of fuel level sensors](types-of-fuel-level-sensors.md) and Fuel level installation.

@@ -2,14 +2,14 @@
 
 CAN, FlexRay, and MOST are all automotive communication protocols used to connect electronic control units (ECUs), transmission control units (TCUs), and body controlled modules (BCMs) in vehicles:
 
-- **CAN**  
-A message-based protocol that was originally designed to save copper by multiplexing electrical wiring in cars. CAN has a bandwidth of around 125 kpbs.
-- **FlexRay**  
-A high-speed, fault-tolerant, and deterministic serial communication protocol that can transfer data at speeds of up to 10 Mbits per second over two twisted wires. FlexRay is often used in safety-critical applications, such as power train modules. FlexRay payloads, or data frames, can be up to 127 words (254 bytes) long, which is more than 30 times longer than CAN payloads.
-- **MOST**  
-A bus standard for vehicle multimedia networks that allows for the transfer of high-quality audio, video, and data. MOST is available in three transmission speeds: MOST25, MOST50, and MOST150.
+* **CAN**\
+  A message-based protocol that was originally designed to save copper by multiplexing electrical wiring in cars. CAN has a bandwidth of around 125 kpbs.
+* **FlexRay**\
+  A high-speed, fault-tolerant, and deterministic serial communication protocol that can transfer data at speeds of up to 10 Mbits per second over two twisted wires. FlexRay is often used in safety-critical applications, such as power train modules. FlexRay payloads, or data frames, can be up to 127 words (254 bytes) long, which is more than 30 times longer than CAN payloads.
+* **MOST**\
+  A bus standard for vehicle multimedia networks that allows for the transfer of high-quality audio, video, and data. MOST is available in three transmission speeds: MOST25, MOST50, and MOST150.
 
-CAN (Controller Area Network) is currently the most widely used in-vehicle network. However, with contineous development in authonomous vehicles and related technology, there is a high demand for greater bandwith and connectivity. In this document, we briefly describe CAN and other vehicular connectivity options, including wireless CAN, MOST, FlexRay, and Automotive Ethernet.
+CAN (Controller Area Network) is currently the most widely used in-vehicle network. However, with contineous development in authonomous vehicles and related technology, there is a high demand for greater bandwith and connectivity. In this document, we briefly describe CAN and other vehicular connectivity options, including wireless CAN, MOST, FlexRay, and Automotive Ethernet.
 
 ## CAN bus: some principles behind
 
@@ -59,13 +59,13 @@ Also solutions like Raspberry Pi, Texas Instruments Launchpad and Arduino are ar
 
 Enabling CAN bus data provides fleet owners various opportunities to access various information including fuel consumption, odometer readings, revolutions per minute, throttle position, engine load/torque, engine temperature and fuel level.
 
-CAN is currently the most widely used in-vehicle network.  However, with continuous development in autonomous vehicles and [related technology](https://www.navixy.com/), there is a high demand for greater bandwith and connectivity. Further we briefly describe some other vehicular connectivity options, including wireless CAN, MOST, FlexRay and Automotive Ethernet.
+CAN is currently the most widely used in-vehicle network.  However, with continuous development in autonomous vehicles and [related technology](https://www.navixy.com/), there is a high demand for greater bandwith and connectivity. Further we briefly describe some other vehicular connectivity options, including wireless CAN, MOST, FlexRay and Automotive Ethernet.
 
 ## Wireless CAN
 
-CAN on a twisted pair of copper wires became an ISO standard in 1994. Growing demand on incresed connectivity gives a rise to development  of alternative and complementary technologies.  For instance,  some options for wireless CAN transmission rely on protocol-based radio standards such as WLAN or Bluetooth.
+CAN on a twisted pair of copper wires became an ISO standard in 1994. Growing demand on incresed connectivity gives a rise to development  of alternative and complementary technologies.  For instance,  some options for wireless CAN transmission rely on protocol-based radio standards such as WLAN or Bluetooth.
 
-In such scenario,  CAN data in the transmitter must be converted to the wireless protocol and reset in the receiver. Transparent and real-time transmission in the sense of the CAN network is not possible in this way. The radio connection thus functions as a gateway between two CAN networks.
+In such scenario,  CAN data in the transmitter must be converted to the wireless protocol and reset in the receiver. Transparent and real-time transmission in the sense of the CAN network is not possible in this way. The radio connection thus functions as a gateway between two CAN networks.
 
 ![CAN and alternatives](https://www.navixy.com/wp-content/uploads/2020/02/1-1.png)
 
@@ -73,17 +73,17 @@ The wireless CAN that based on dual-mode radio enables CAN participants to be in
 
 ## MOST, FlexRay and Automotive Ethernet in brief
 
-A promising alternative to CAN is automotive ethernet. Some estimations  expect the automotive ethernet market to grow more than 21.6% over the forecast period 2019-2026.
+A promising alternative to CAN is automotive ethernet. Some estimations  expect the automotive ethernet market to grow more than 21.6% over the forecast period 2019-2026.
 
-Key ethernet benefits for vehicle connectivity are high bandwith and cost efficiency. Ethernet employ Carrier Sense Multiple Access with Collision Detection (CSMA/CD) strategy. Collision can be ignored through division in the in-vehicle networks.  Some challenges of automotive ethernet are significant amount of RF noise, inability to provide latency down to the low microsecond range and  lacking the way of synchronizing time between devices.
+Key ethernet benefits for vehicle connectivity are high bandwith and cost efficiency. Ethernet employ Carrier Sense Multiple Access with Collision Detection (CSMA/CD) strategy. Collision can be ignored through division in the in-vehicle networks.  Some challenges of automotive ethernet are significant amount of RF noise, inability to provide latency down to the low microsecond range and  lacking the way of synchronizing time between devices.
 
-MOST (Media Oriented System Transport) is a serial communication system for transmitting control data, video and audio by means of fiber-optic [http://cables.It](http://cables.It) provides a point to point sound and video information exchange with 24.8 Mbps speed rates. MOST created by MOST association and defines the protocol, software and hardware layers necessary to allow for the efficient and low-cost transport of control, real-time and packet data using a single medium / physical layer. A MOST network could be schematically presented in a form of ring that may include up to 64 MOST devices. Thanks to to its plug&play functionality, adding or removing MOST device should be pretty straightforward.
+MOST (Media Oriented System Transport) is a serial communication system for transmitting control data, video and audio by means of fiber-optic [http://cables.It](http://cables.it) provides a point to point sound and video information exchange with 24.8 Mbps speed rates. MOST created by MOST association and defines the protocol, software and hardware layers necessary to allow for the efficient and low-cost transport of control, real-time and packet data using a single medium / physical layer. A MOST network could be schematically presented in a form of ring that may include up to 64 MOST devices. Thanks to to its plug\&play functionality, adding or removing MOST device should be pretty straightforward.
 
-FlexRay on its turn is essentially an automotive network standard based on a flexible high data rate deterministic, fault-tolerant and high-speed bus system. It is utilized as a part of the star or line topology with copper or optical fiber. FlexRay featuring  a dual-channel configurations offer enhanced fault-tolerance and/or increased bandwidth. The FlexRay communications network features making them favorable for next generation automotive industries.
+FlexRay on its turn is essentially an automotive network standard based on a flexible high data rate deterministic, fault-tolerant and high-speed bus system. It is utilized as a part of the star or line topology with copper or optical fiber. FlexRay featuring  a dual-channel configurations offer enhanced fault-tolerance and/or increased bandwidth. The FlexRay communications network features making them favorable for next generation automotive industries.
 
 ![CAN and alternatives](https://www.navixy.com/wp-content/uploads/2020/02/flexray_wiring.jpg)
 
-Most first-generation FlexRay networks normally employ a single channel to cut off wiring costs, but further applicatuions development and entailed security requirements will lead to increased two channels usage.Limiting factors for FlexRay  widespread usage are price, lower operating voltage levels and edges assymetry, leading to challenges in extending the network length. Some key features of listed protocols as compared to CAN characteristics are presented on the table below.
+Most first-generation FlexRay networks normally employ a single channel to cut off wiring costs, but further applicatuions development and entailed security requirements will lead to increased two channels usage.Limiting factors for FlexRay  widespread usage are price, lower operating voltage levels and edges assymetry, leading to challenges in extending the network length. Some key features of listed protocols as compared to CAN characteristics are presented on the table below.
 
 ![CAN and alternatives](https://www.navixy.com/wp-content/uploads/2020/02/3-2.png)
 
@@ -91,8 +91,8 @@ Direct comparison of listed connectivity protocols shows that there is a clear t
 
 ## Purpose of in-vehicle communication protocols
 
-CAN bus is indeed a well known and established vehicle connectivity standard. It is  fused for powertrain, chassis, backbone network and body systems. Ethernet on its turn is commonly used as a diagnostic protocol for engine, chassis, and body electronic connection control units used for network connections.
+CAN bus is indeed a well known and established vehicle connectivity standard. It is  fused for powertrain, chassis, backbone network and body systems. Ethernet on its turn is commonly used as a diagnostic protocol for engine, chassis, and body electronic connection control units used for network connections.
 
 FlexRay currently forms the basis for active technology development worldwide, and its many applications include next-generation X-by-Wire systems and backbone systems. MOST is a bus standard for vehicle multimedia networks designed to enable transfer of high-quality audio, video, and data. It allows easy interconnection of vrious vehicle multimedia components.
 
-All the above mentioned protocols and technologies technologies  satisfy most of the requirements of diagnostics and multimedia communication for modern in-vehicle and vehicle to vehicle communication, and could be used for advanced autonomous driving systems, however the accurate integration of all those technologies while satisfying real-time constrints is still remain a challenging part.
+All the above mentioned protocols and technologies technologies  satisfy most of the requirements of diagnostics and multimedia communication for modern in-vehicle and vehicle to vehicle communication, and could be used for advanced autonomous driving systems, however the accurate integration of all those technologies while satisfying real-time constrints is still remain a challenging part.

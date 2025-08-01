@@ -1,17 +1,17 @@
 # What is LBS tracking: Cell ID and WPS
 
-- [GPS and LBS tracking: main differences](#gps-and-lbs-tracking-main-differences)
-- [How LBS tracking works](#how-lbs-tracking-works)
-  - [GSM based tracking](#gsm-based-tracking)
-  - [Wi-Fi positioning system (WPS)](#wi-fi-positioning-system-wps)
-    - [Received Signal Strength Indicator](#received-signal-strength-indicator)
-    - [Fingerprinting](#fingerprinting)
-    - [Time of Flight](#time-of-flight)
-- [Data availability for LBS tracking systems](#data-availability-for-lbs-tracking-systems)
-- [LBS support in hardware devices](#lbs-support-in-hardware-devices)
-- [GSM and Wi-Fi based tracking in X-GPS apps](#gsm-and-wi-fi-based-tracking-in-x-gps-apps)
-- [Setting LBS in Navixy](#setting-lbs-in-navixy)
-- [My device sends only LBS points – why?](#my-device-sends-only-lbs-points-why)
+* [GPS and LBS tracking: main differences](what-is-lbs-tracking-cell-id-and-wps.md#gps-and-lbs-tracking-main-differences)
+* [How LBS tracking works](what-is-lbs-tracking-cell-id-and-wps.md#how-lbs-tracking-works)
+  * [GSM based tracking](what-is-lbs-tracking-cell-id-and-wps.md#gsm-based-tracking)
+  * [Wi-Fi positioning system (WPS)](what-is-lbs-tracking-cell-id-and-wps.md#wi-fi-positioning-system-wps)
+    * [Received Signal Strength Indicator](what-is-lbs-tracking-cell-id-and-wps.md#received-signal-strength-indicator)
+    * [Fingerprinting](what-is-lbs-tracking-cell-id-and-wps.md#fingerprinting)
+    * [Time of Flight](what-is-lbs-tracking-cell-id-and-wps.md#time-of-flight)
+* [Data availability for LBS tracking systems](what-is-lbs-tracking-cell-id-and-wps.md#data-availability-for-lbs-tracking-systems)
+* [LBS support in hardware devices](what-is-lbs-tracking-cell-id-and-wps.md#lbs-support-in-hardware-devices)
+* [GSM and Wi-Fi based tracking in X-GPS apps](what-is-lbs-tracking-cell-id-and-wps.md#gsm-and-wi-fi-based-tracking-in-x-gps-apps)
+* [Setting LBS in Navixy](what-is-lbs-tracking-cell-id-and-wps.md#setting-lbs-in-navixy)
+* [My device sends only LBS points – why?](what-is-lbs-tracking-cell-id-and-wps.md#my-device-sends-only-lbs-points-why)
 
 LBS (Location-based services) technology allows to determine location of an object without using standard services such as GPS, GLONASS, Galileo or Beidou.
 
@@ -19,9 +19,9 @@ LBS tracking is a wide term that includes a variety of different methods. Here w
 
 ## GPS and LBS tracking: main differences
 
-GSM and Wi-Fi based positioning is usually less accurate than GPS but it can work in worse conditions, no clear sky view needed. GSM signal is harder to block and is easier to establish, even if the device is underground or in a building. Wi-Fi signals provide more precision for tracking indoors.
+GSM and Wi-Fi based positioning is usually less accurate than GPS but it can work in worse conditions, no clear sky view needed. GSM signal is harder to block and is easier to establish, even if the device is underground or in a building. Wi-Fi signals provide more precision for tracking indoors.
 
-Requiring less battery power than GPS, LBS allows you to trade precision for extended life of the device. This is great for cases where you need to track an object over long distances. LBS can also be used as a backup option for when the GPS antenna or module breaks, still allowing you to know where the object is.
+Requiring less battery power than GPS, LBS allows you to trade precision for extended life of the device. This is great for cases where you need to track an object over long distances. LBS can also be used as a backup option for when the GPS antenna or module breaks, still allowing you to know where the object is.
 
 ## How LBS tracking works
 
@@ -41,17 +41,17 @@ This means that 2 devices connected to the same base station will show the same 
 
 ![Cell of Origin](https://www.navixy.com/wp-content/uploads/2020/12/lbs3.png)
 
-The precision of location depends on the density of base stations. In cities and developed areas location accuracy can be down to 50-100m, while in rural and desolate areas error may reach multiple kilometers. Advanced systems may also attempt to calculate the distance between the GSM module and the station. These systems typically require modification of installed infrastructure and are quite costly. A common search method is called **E-OTD (Enhanced Observed Time Difference)**.
+The precision of location depends on the density of base stations. In cities and developed areas location accuracy can be down to 50-100m, while in rural and desolate areas error may reach multiple kilometers. Advanced systems may also attempt to calculate the distance between the GSM module and the station. These systems typically require modification of installed infrastructure and are quite costly. A common search method is called **E-OTD (Enhanced Observed Time Difference)**.
 
-It is based on measuring and comparing time difference of arrival of bursts from nearby base stations. Delays and known placements of base stations can be used to triangulate the GSM module’s location. This search method provides a much better precision even in remote areas ~125 meters but it requires base stations to have Location Measurement Units installed.
+It is based on measuring and comparing time difference of arrival of bursts from nearby base stations. Delays and known placements of base stations can be used to triangulate the GSM module’s location. This search method provides a much better precision even in remote areas \~125 meters but it requires base stations to have Location Measurement Units installed.
 
 ![E-OTD Enhanced Observed Time Difference](https://www.navixy.com/wp-content/uploads/2020/12/delay2.png)
 
 #### **Wi-Fi positioning system (WPS)**
 
-WPS uses wireless access points to determine location. It is more commonly deployed on mobile phones and is frequently used to provide a better solution for indoor tracking purposes. There are several approaches to determining location with WPS.
+WPS uses wireless access points to determine location. It is more commonly deployed on mobile phones and is frequently used to provide a better solution for indoor tracking purposes. There are several approaches to determining location with WPS.
 
-##### Received Signal Strength Indicator
+**Received Signal Strength Indicator**
 
 The first is based on Received Signal Strength Indicator. Device measures signal strength between itself and several access points. Then measured data is combined into a propagation model to determine distances between the device and access points.
 
@@ -59,15 +59,15 @@ A calculation can be done by the device itself or data can be sent to an externa
 
 ![Received Signal Strength Indicator](https://www.navixy.com/wp-content/uploads/2020/12/ad_wifi_hardware-1.png)
 
-##### Fingerprinting
+**Fingerprinting**
 
-The second method is called **Fingerprinting** and it uses RSSI in its base. Fingerprinting works by collecting location and all RSSIs of the available access points. If in the future an object visits the same location, it should provide the same fingerprint, enabling the system to localize the object when there is no connection available.
+The second method is called **Fingerprinting** and it uses RSSI in its base. Fingerprinting works by collecting location and all RSSIs of the available access points. If in the future an object visits the same location, it should provide the same fingerprint, enabling the system to localize the object when there is no connection available.
 
-The precision of this method can be fairly high (~1.3-2 meters), however, it is difficult to deploy, as it requires the storage of data. It is also very sensitive to environmental changes: construction or simple rearrangement of furniture affects signal strength and changes fingerprint.
+The precision of this method can be fairly high (\~1.3-2 meters), however, it is difficult to deploy, as it requires the storage of data. It is also very sensitive to environmental changes: construction or simple rearrangement of furniture affects signal strength and changes fingerprint.
 
-##### Time of Flight
+**Time of Flight**
 
-The third method is called **Time of Flight.** ToF uses timestamps recorded by both wireless interfaces to estimate the distance and relative position of the object to access points. This method has an accuracy of 2-4 meters and is typically used for indoor tracking.
+The third method is called **Time of Flight.** ToF uses timestamps recorded by both wireless interfaces to estimate the distance and relative position of the object to access points. This method has an accuracy of 2-4 meters and is typically used for indoor tracking.
 
 The time measurements taken at the wireless interfaces are based on the fact that RF waves travel close to the speed of light, which remains nearly constant in most propagation media in indoor environments. Therefore, the time of flight is not affected as much by the environment (furniture, buildings, etc) as RSSI measurements.
 
@@ -75,7 +75,7 @@ The principle is similar to RADAR systems, except regular data and acknowledgmen
 
 ![Time of Flight Wifi location](https://www.navixy.com/wp-content/uploads/2020/12/test3.png)
 
-*The diagram shows an access point sending a DATA frame to a client device and waiting until receiving the acknowledgment packet (ACK). d is the scheduling delay (offset) originated at a client device, and it depends on how much time it takes for the ACK to be generated by the device. t\_p is the signal propagation time between transmitter and receiver and is usually assumed to be the same on the way to the target and back. t\_ack is the time needed to transmit the ACK frame. The time of flight corresponds to the t\_measured.*
+_The diagram shows an access point sending a DATA frame to a client device and waiting until receiving the acknowledgment packet (ACK). d is the scheduling delay (offset) originated at a client device, and it depends on how much time it takes for the ACK to be generated by the device. t\_p is the signal propagation time between transmitter and receiver and is usually assumed to be the same on the way to the target and back. t\_ack is the time needed to transmit the ACK frame. The time of flight corresponds to the t\_measured._
 
 WPS works well for indoor purposes but it’s not always as easily deployable as GSM tracking.
 
@@ -99,8 +99,8 @@ If you are not sure whether your devices support LBS on Navixy - please check in
 
 Navixy provides our own [Mobile tracking solution](https://www.navixy.com/features/mobile-apps/) with LBS support included.
 
-Unlike hardware trackers, Navixy mobile apps transmit already processed LBS data. Apps rely on native OS services like Apple Core Location or Google Fused Location depending on which OS is used.  
-*Please note that a network connection is required for services to process data.*
+Unlike hardware trackers, Navixy mobile apps transmit already processed LBS data. Apps rely on native OS services like Apple Core Location or Google Fused Location depending on which OS is used.\
+&#xNAN;_&#x50;lease note that a network connection is required for services to process data._
 
 ![How GPS based tracking works](https://www.navixy.com/wp-content/uploads/2020/12/ad_lbs_mobile.png)
 
@@ -122,6 +122,6 @@ Basically, this is how LBS tracking works. It's a great positioning tool and a v
 
 This could happen because of several reasons:
 
-1. **The device can’t get a GPS signal because of its location** – perhaps your device stands in the garage, or in underground parking. Also, please check the device installation in the car.
-2. **The GPS antenna of the device does not work** – please check its connection with the device, and its placement: the best place is under the windshield
-3. **GPS module of the device is not working** – it could sometimes happen, in this case, we recommend contacting your local dealer to replace the device with the working one.
+1. **The device can’t get a GPS signal because of its location** – perhaps your device stands in the garage, or in underground parking. Also, please check the device installation in the car.
+2. **The GPS antenna of the device does not work** – please check its connection with the device, and its placement: the best place is under the windshield
+3. **GPS module of the device is not working** – it could sometimes happen, in this case, we recommend contacting your local dealer to replace the device with the working one.

@@ -1,13 +1,13 @@
 # Fuel flow meters
 
-- [Operating principle](#operating-principle)
-- [Application](#application)
-- [Working fluids](#working-fluids)
+* [Operating principle](./#operating-principle)
+* [Application](./#application)
+* [Working fluids](./#working-fluids)
 
 A fuel flow meter is a device designed to measure the volumetric consumption of fuel, specifically the volume of fuel passing through the fuel line in a given period of time. This essential device presents its measurements in the form of meter readings, similar to those seen on a water or electricity meter. These measurements serve as the basis for calculating important data on a GPS tracking and telematics platform.
 
-- Fuel consumption per time period
-- Average fuel consumption, for ex., liters per 100 km/miles per gallon (mpg)
+* Fuel consumption per time period
+* Average fuel consumption, for ex., liters per 100 km/miles per gallon (mpg)
 
 The device not only measures the flow rate of fuels, but also of various liquids and bulk materials. For instance, it can also function as a flow meter for a water meter in an apartment. Therefore, we will use the term "flow meter" to refer general sensor, ensuring clarity and conciseness while maintaining the intended meaning.
 
@@ -41,17 +41,17 @@ For instance, let's consider the Technoton DFM 100D flow meter. In this case, ev
 
 Flow meters are designed to measure fuel consumption in the fuel line of various vehicles and stationary installations. The application area includes:
 
-- **Vehicles.** This can be a railroad, air, or water transport.
-- **Additional vehicle equipment.** For example, a compressor unit or other equipment mounted to a vehicle chassis.
-- **Stationary installations.** Flow meters can be installed inside the tanks used in small corporate gas stations.
+* **Vehicles.** This can be a railroad, air, or water transport.
+* **Additional vehicle equipment.** For example, a compressor unit or other equipment mounted to a vehicle chassis.
+* **Stationary installations.** Flow meters can be installed inside the tanks used in small corporate gas stations.
 
 Flow meter readings are not affected by fuel fluctuations in the tank. Therefore, you can unlock the device’s full potential when operating under the following conditions:
 
-- **Constant fuel fluctuations in the tank when driving on a rough terrain.** For example, a flow meter can be used on agricultural machinery (tractors, harvesters, etc.), off-road vehicles or water transport.
-- **Fuel tank long-lasting (several hours to several days) inclines.** This usually happens when parking a vehicle on a steep incline. Such situations are typical for a rotary hoe, asphalt milling machines or other types of street maintenance equipment.
-- **Fuel fluctuations + long-lasting inclines.** For instance, when working in a quarry with mining trucks.
+* **Constant fuel fluctuations in the tank when driving on a rough terrain.** For example, a flow meter can be used on agricultural machinery (tractors, harvesters, etc.), off-road vehicles or water transport.
+* **Fuel tank long-lasting (several hours to several days) inclines.** This usually happens when parking a vehicle on a steep incline. Such situations are typical for a rotary hoe, asphalt milling machines or other types of street maintenance equipment.
+* **Fuel fluctuations + long-lasting inclines.** For instance, when working in a quarry with mining trucks.
 
-The specific design of a fuel tank often does not allow to install several [Fuel Level Sensors](fuel-level-sensors/fuel-level-sensor-installation.md), and using a single fuel level sensor will lead to a higher error rate. In this case, we recommend to opt for flow meters in order to perform a more accurate measurement of the fuel consumed.
+The specific design of a fuel tank often does not allow to install several [Fuel Level Sensors](../fuel-level-sensors/fuel-level-sensor-installation.md), and using a single fuel level sensor will lead to a higher error rate. In this case, we recommend to opt for flow meters in order to perform a more accurate measurement of the fuel consumed.
 
 [Watch this video](https://www.youtube.com/watch?v=IOCQCNgGG7U), showing flow meter operation on a rough terrain - 2 minutes.
 
@@ -63,5 +63,4 @@ To ensure precise measurements and stable operation of a flow meter, it is cruci
 
 In contrast, when it comes to gasoline, the mechanism typically operates "dry," with the exception of two-stroke engines that require a mixture of gasoline and engine oil. This dry operation accelerates wear, reduces measurement accuracy, and introduces additional errors to the flow meter.
 
-> [!INFO]
-> It is important to note that a flow meter is suitable for measuring diesel fuel consumption exclusively, considering the aforementioned factors.
+> \[!INFO] It is important to note that a flow meter is suitable for measuring diesel fuel consumption exclusively, considering the aforementioned factors.

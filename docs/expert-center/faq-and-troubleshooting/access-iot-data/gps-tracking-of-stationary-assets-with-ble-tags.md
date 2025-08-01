@@ -6,12 +6,12 @@ In this tutorial, we'll discuss how to organize tracking for stationary objects,
 
 ## What you need to track stationary objects
 
-Various devices are able to read data from BLE beacons: Galileosky, Quecklink, Ruptela, Teltonika, TopFlyTech*.* We will describe on example of [Teltonika FMB920](https://www.navixy.com/devices/teltonika/teltonika-fmb920/) model and BLE beacon [Eye Sensor](https://teltonika-gps.com/products/accessories/sensors-beacons/eye).  
+Various devices are able to read data from BLE beacons: Galileosky, Quecklink, Ruptela, Teltonika, TopFlyTech\*.\* We will describe on example of [Teltonika FMB920](https://www.navixy.com/devices/teltonika/teltonika-fmb920/) model and BLE beacon [Eye Sensor](https://teltonika-gps.com/products/accessories/sensors-beacons/eye).\
 To begin tracking stationary objects, you'll need the following:
 
 1. A GPS device that can read BLE tags and is supported by the platform.
-2. BLE tags that are compatible with the GPS device.  
-It's worth noting that many BLE tags can transmit information about temperature and humidity, as well as their battery charge. This enhances the ability of these tags to track information, but for our purpose, we'll focus on stationary objects specifically.
+2. BLE tags that are compatible with the GPS device.\
+   It's worth noting that many BLE tags can transmit information about temperature and humidity, as well as their battery charge. This enhances the ability of these tags to track information, but for our purpose, we'll focus on stationary objects specifically.
 3. Platform APIs that provide information about which GPS device a particular tag is near. To create custom solutions for your users using APIs, you'll need developers. Clients typically hire their own developers or contract third-party teams.
 
 Now let's examine the procedure for implementing a real-world case study - tracking truck trailers for trip and usage information and subsequent service work.
@@ -50,20 +50,21 @@ On the platform side, there's a BLE beacon data entry object:
 
 You can read information from it:
 
-- `tracker_id` - int. An ID of the tracker (aka "object\_id").
-- `hardware_id` - string. An ID of the beacon.
-- `rssi` - int. RSSI stands for received signal strength indicator and represents the power of received signal on a device. According to it, you can understand how far away the beacon is from the tracker.
-- `get_time` - [date/time](https://www.navixy.com/docs/navixy-api/user-api/backend-api#data-types). When this data received.
-- `latitude` - float. Latitude.
-- `longitude` - float. Longitude.
-- `ext_data` - object. Additional beacon data.
+* `tracker_id` - int. An ID of the tracker (aka "object\_id").
+* `hardware_id` - string. An ID of the beacon.
+* `rssi` - int. RSSI stands for received signal strength indicator and represents the power of received signal on a device. According to it, you can understand how far away the beacon is from the tracker.
+* `get_time` - [date/time](https://www.navixy.com/docs/navixy-api/user-api/backend-api#data-types). When this data received.
+* `latitude` - float. Latitude.
+* `longitude` - float. Longitude.
+* `ext_data` - object. Additional beacon data.
 
 ### API calls to get information about BLE tags
 
 There are two API calls that allow you to get all the necessary information about BLE beacons:
 
-1. The first call retrieves [historical data from devices](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/beacon/index#read). You can set the "from" and "to" parameters for obtaining data during a specific period about connected BLE beacons. Since we need the information from the BLE tags' point of view, i.e., the trailers, let's request the information using the "beacons" parameter.  
-Request example:
+1. The first call retrieves [historical data from devices](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/beacon/index#read). You can set the "from" and "to" parameters for obtaining data during a specific period about connected BLE beacons. Since we need the information from the BLE tags' point of view, i.e., the trailers, let's request the information using the "beacons" parameter.\
+   Request example:
+
 ```
 curl -X POST 'https://api.navixy.com/v2/beacon/data/read' \
     -H 'Content-Type: application/json' \
@@ -144,14 +145,17 @@ Response:
 
 We've already gathered historical data using the first of the presented API calls, which showed on which devices the trailer was displayed at a specific time. To get information about the journeys and usage time of this trailer, we simply need to use one of the two API calls:
 
-1. API call [track/list](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#list) to get trip information for the period. This will provide general information about the trips, such as where and when they started and ended, maximum speed, mileage, and more.  
-Request:
+1. API call [track/list](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#list) to get trip information for the period. This will provide general information about the trips, such as where and when they started and ended, maximum speed, mileage, and more.\
+   Request:
+
 ```
 curl -X POST 'https://api.navixy.com/v2/track/list' \
     -H 'Content-Type: application/json' \
     -d '{"hash": "59be129c1855e34ea9eb272b1e26ef1d", "tracker_id": 10181654, "from": "2023-04-17 17:00:00","to": "2023-04-17 18:00:00", "split": true, "limit": 3000, "filter": true, "include_gsm_lbs": true}'
 ```
+
 Response:
+
 ```
 {
     "id": 11672,
@@ -169,15 +173,18 @@ Response:
     "gsm_lbs": false
 }
 ```
-From this data, we can see that the trip lasted nearly 35 minutes (end\_date - start\_date), with an average speed of 49 km/h and a maximum speed of 62 km/h. The trip length was 18.91 km. This information allows us to determine how much to pay the driver for transporting the cargo, whether the contractual speed was exceeded, and other details. Additionally, the trip length can be used in the future to calculate the number of kilometers until the next maintenance of the trailer.
-2. If you want a detailed track record of the trailer where the beacon is installed for displaying it in a report, for example, you can use the [track/read](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#read) request. This will give us data on all the points received by the platform during the journey.  
+
+From this data, we can see that the trip lasted nearly 35 minutes (end\_date - start\_date), with an average speed of 49 km/h and a maximum speed of 62 km/h. The trip length was 18.91 km. This information allows us to determine how much to pay the driver for transporting the cargo, whether the contractual speed was exceeded, and other details. Additionally, the trip length can be used in the future to calculate the number of kilometers until the next maintenance of the trailer. 2. If you want a detailed track record of the trailer where the beacon is installed for displaying it in a report, for example, you can use the [track/read](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#read) request. This will give us data on all the points received by the platform during the journey.\
 Request:
+
 ```
 curl -X POST 'https://api.navixy.com/v2/track/read' \
     -H 'Content-Type: application/json' \
     -d '{"hash": "22eac1c27af4be7b9d04da2ce1af111b", "tracker_id": 10181654, "from": "2023-04-17 17:00:00","to": "2023-04-17 18:00:00", "filter": true}'
 ```
+
 Response:
+
 ```
 {
     "success": true,
@@ -216,7 +223,7 @@ You can also use the RSSI parameter to determine if the seat is located inside t
 
 ### Agricultural machinery
 
-Suppose your client has agricultural machinery that can be connected to various equipment. How can you track which tractor is using a seeder and which has a plow? This information will help you understand the frequency and extent of tool usage, and also determine their current location. This way, workers can spend more time working in the field rather than searching for equipment. To achieve this, install devices on tractors and combines, as well as in tool storage areas. Place one BLE beacon on each tool in a secure spot where it is difficult to remove, preventing it from getting lost during work. Next, to determine how long the tools have been in use, query the  `beacon/read`  API call. The information from the response will be helpful, just like with the trailers in our detailed example. To determine the location of a specific tool, query  `beacon/last_values`  with a search for beacons to identify where and on which device the tool is installed. This approach ensures efficient tracking and utilization of your agricultural equipment, ultimately increasing productivity.
+Suppose your client has agricultural machinery that can be connected to various equipment. How can you track which tractor is using a seeder and which has a plow? This information will help you understand the frequency and extent of tool usage, and also determine their current location. This way, workers can spend more time working in the field rather than searching for equipment. To achieve this, install devices on tractors and combines, as well as in tool storage areas. Place one BLE beacon on each tool in a secure spot where it is difficult to remove, preventing it from getting lost during work. Next, to determine how long the tools have been in use, query the  `beacon/read`  API call. The information from the response will be helpful, just like with the trailers in our detailed example. To determine the location of a specific tool, query  `beacon/last_values`  with a search for beacons to identify where and on which device the tool is installed. This approach ensures efficient tracking and utilization of your agricultural equipment, ultimately increasing productivity.
 
 ### Use on construction sites
 
@@ -228,8 +235,8 @@ The solution for construction sites can be similar to that of agricultural machi
 
 You can effectively track items indoors using the platform and BLE tags. All you need to do is install GPS devices in different parts of the warehouse or building and tag the objects you want to track. Here are a few examples:
 
-- **Tracking employees in various areas of a warehouse or store**: This allows you to know which area an employee is in or how many sales assistants are near the information desk. Having this information helps improve efficiency and ensures that staff members are where they need to be.
-- **Tracking goods or machinery in different areas of the warehouse**: Knowing the location of goods or equipment saves time, as you don't have to search for them throughout the warehouse. This streamlines the retrieval process, making your operations more efficient.
+* **Tracking employees in various areas of a warehouse or store**: This allows you to know which area an employee is in or how many sales assistants are near the information desk. Having this information helps improve efficiency and ensures that staff members are where they need to be.
+* **Tracking goods or machinery in different areas of the warehouse**: Knowing the location of goods or equipment saves time, as you don't have to search for them throughout the warehouse. This streamlines the retrieval process, making your operations more efficient.
 
 ### Tracking goods with BLE beacons
 

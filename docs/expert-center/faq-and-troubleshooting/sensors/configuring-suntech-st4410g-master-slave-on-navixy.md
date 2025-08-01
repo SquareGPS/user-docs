@@ -8,7 +8,7 @@ In this document, you'll learn the main concept of the master-slave feature and 
 
 ### Configuring the master-slave system for reports and alerts: Key parameters on Syntrack and Navixy
 
-To ensure the effectiveness of the master-slave configuration, it’s important to set up several key parameters. These settings help control the timing of device interactions and alert generation. 
+To ensure the effectiveness of the master-slave configuration, it’s important to set up several key parameters. These settings help control the timing of device interactions and alert generation.&#x20;
 
 The configuration is managed through the Syntrack tool, making it simple to tailor the system to your business needs. Furthermore, Navixy integration ensures accurate visualization and performance on the platform, providing useful alerts, helping the customer to act if any event occurs.
 
@@ -58,9 +58,9 @@ A key strength of the ST4410G tracker is its ability to detect when one of its c
 
 Setting up these alerts is straightforward:
 
-1. Open the *Alerts* tab in Navixy.
+1. Open the _Alerts_ tab in Navixy.
 2. Create a rule for the specific event you care about—like a device going missing.
-3. Select the master device and choose the *State field value* option.
+3. Select the master device and choose the _State field value_ option.
 4. Add the condition (e.g., "present\_device\_absent" or "absent\_device\_recovered") and enter the 9-digit serial number of the slave unit.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXesAk9lNzokfS4caOKZ3ptr4M-ctro2G_8Ebn7X9L438-zK9wKlWeg23xJvGTnuUiYUrBlm0Vc4yQrGghx2WtZ_5FMEvqBYF0FdLUWuX1AX94uKUAPMn1g25EgQtk-XtvW35kmp_A?key=tadSe0dC1rnchCyfbf2IlA)
@@ -71,9 +71,8 @@ With that in place, you’ll be notified as soon as anything unexpected happens�
 
 Managing alerts in a growing fleet shouldn’t mean more manual work. Whether you're switching out devices often or dealing with complex conditions in the field, Navixy gives you two powerful ways to stay ahead:
 
-- [Navixy API tools](https://developers.navixy.com/docs/navixy-api/user-api/backend-api/guides/rules-notifications/work-with-notifications) help you automate at scale. 
-
-- [IoT Logic](https://www.navixy.com/iot-logic/) offers flexibility for complex scenarios. 
+* [Navixy API tools](https://developers.navixy.com/docs/navixy-api/user-api/backend-api/guides/rules-notifications/work-with-notifications) help you automate at scale.&#x20;
+* [IoT Logic](https://www.navixy.com/iot-logic/) offers flexibility for complex scenarios.&#x20;
 
 **Final thoughts**
 

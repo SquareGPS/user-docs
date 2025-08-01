@@ -1,18 +1,17 @@
 # Howen MDVR configuration
 
-- [Configuration](#configuration)
-  - [Startup menu](#startup-menu)
-  - [Registration information](#registration-information)
-  - [3G/4G Settings](#3g4g-settings)
-  - [Time](#time)
-  - [Center Settings](#center-settings)
-- [Activation of Howen devices on the platform](#activation-of-howen-devices-on-the-platform)
-- [Video on the platform](#video-on-the-platform)
+* [Configuration](howen-mdvr-configuration.md#configuration)
+  * [Startup menu](howen-mdvr-configuration.md#startup-menu)
+  * [Registration information](howen-mdvr-configuration.md#registration-information)
+  * [3G/4G Settings](howen-mdvr-configuration.md#3g4g-settings)
+  * [Time](howen-mdvr-configuration.md#time)
+  * [Center Settings](howen-mdvr-configuration.md#center-settings)
+* [Activation of Howen devices on the platform](howen-mdvr-configuration.md#activation-of-howen-devices-on-the-platform)
+* [Video on the platform](howen-mdvr-configuration.md#video-on-the-platform)
 
 Howen devices are advanced Mobile Digital Video Recorder (MDVR) units with the capability to support up to 8 cameras. They are perfectly suited for comprehensive vehicle surveillance, offering multiple perspectives. Our platform provides seamless access to display live video streams and playbacks from Howen devices, enhancing monitoring capabilities. The list of compatible Howen devices can be found in our [devices section](https://www.navixy.com/devices/howen-technologies/). This document is intended to provide information on the configuration, registration, and specific operational aspects of Howen devices within our platform.
 
-> [!INFO]
-> Purchase and install a SIM card with ample or cost-effective internet data and robust internet speed. The quality of video transmission largely depends on these factors.
+> \[!INFO] Purchase and install a SIM card with ample or cost-effective internet data and robust internet speed. The quality of video transmission largely depends on these factors.
 
 ## Configuration
 
@@ -22,25 +21,25 @@ All configurations are performed on the device side through a specific configura
 
 The initial window is the Startup menu. Here, you can adjust power mode, select channels for recording, adjust sleep settings among other options. We will highlight a few key features:
 
-- Power Mode. Howen devices draw power from the vehicle's battery. Set the power mode to ACC. This ensures the device turns on whenever your car's ignition is activated.
-- Delay off. It determines the amount of time the device should remain active after the engine has been turned off. Setting a high 'Delay off' time may drain your vehicle's battery.
-- Power on/Power off. This feature allows you to set specific times for the device to turn on or off, such as during your driver's shift.
-- Record. Select channels for recording videos. When you open the playback menu of your device, the platform will request these videos channel by channel.
+* Power Mode. Howen devices draw power from the vehicle's battery. Set the power mode to ACC. This ensures the device turns on whenever your car's ignition is activated.
+* Delay off. It determines the amount of time the device should remain active after the engine has been turned off. Setting a high 'Delay off' time may drain your vehicle's battery.
+* Power on/Power off. This feature allows you to set specific times for the device to turn on or off, such as during your driver's shift.
+* Record. Select channels for recording videos. When you open the playback menu of your device, the platform will request these videos channel by channel.
 
 ### Registration information
 
 While there are several options like device ID, plate number, state, language, and position mode, we're primarily interested in two:
 
-- Dev ID. This is the device ID. You can input any identifier you prefer, for instance, 123456. This ID is used during the activation process on Navixy, so remember this ID.
-- Position Mode. Set it to GPS so your device can provide precise GPS information like other GPS trackers.
+* Dev ID. This is the device ID. You can input any identifier you prefer, for instance, 123456. This ID is used during the activation process on Navixy, so remember this ID.
+* Position Mode. Set it to GPS so your device can provide precise GPS information like other GPS trackers.
 
 ### 3G/4G Settings
 
 As a GPS tracker installed in a vehicle, Wi-Fi operation is not possible. Therefore, configure the necessary options:
 
-- Enable must be turned on to activate data transmission.
-- NetType. Configure the type supported by your SIM
-- APN, Username and Password are APN settings obtained from your device's SIM GSM provider. Enter them accordingly.
+* Enable must be turned on to activate data transmission.
+* NetType. Configure the type supported by your SIM
+* APN, Username and Password are APN settings obtained from your device's SIM GSM provider. Enter them accordingly.
 
 ### Time
 
@@ -52,12 +51,12 @@ Our platform operates best with timezone UTC+0. However, for certain devices lik
 
 Here, you can set server information, select the appropriate protocol, and set the GPS interval for sending points. Input our platform's information into Server 1.
 
-- Choose H-protocol - H.264. The platform supports both H.264 and H.265 protocols. However, H.264 is universally compatible with all browsers, ensuring seamless user experience. H.265 is not universally supported, requiring users to find and learn how to use compatible browsers.
-- IP address. This is where your device sends information:
-  -  For EU server: IP 52.57.1.136
-  -  For US server (your account ID starts with 1000): IP 13.52.37.2
-- Port should be set to 47670.
-- GPS interval. This determines how frequently the device sends GPS points to the platform. The default is 60 seconds.
+* Choose H-protocol - H.264. The platform supports both H.264 and H.265 protocols. However, H.264 is universally compatible with all browsers, ensuring seamless user experience. H.265 is not universally supported, requiring users to find and learn how to use compatible browsers.
+* IP address. This is where your device sends information:
+  * &#x20;For EU server: IP 52.57.1.136
+  * &#x20;For US server (your account ID starts with 1000): IP 13.52.37.2
+* Port should be set to 47670.
+* GPS interval. This determines how frequently the device sends GPS points to the platform. The default is 60 seconds.
 
 ## Activation of Howen devices on the platform
 

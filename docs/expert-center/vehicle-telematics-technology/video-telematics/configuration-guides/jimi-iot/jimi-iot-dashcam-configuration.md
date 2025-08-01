@@ -1,12 +1,12 @@
 # Jimi IoT dashcam configuration
 
-- [Configuration](#configuration)
-  - [Checking firmware version](#checking-firmware-version)
-  - [Device activation and configuration](#device-activation-and-configuration)
-- [Configuration Tips](#configuration-tips)
-  - [Optimizing traffic consumption](#optimizing-traffic-consumption)
-  - [Video on input triggering](#video-on-input-triggering)
-- [Differences between JC261 and JC400](#differences-between-jc261-and-jc400)
+* [Configuration](jimi-iot-dashcam-configuration.md#configuration)
+  * [Checking firmware version](jimi-iot-dashcam-configuration.md#checking-firmware-version)
+  * [Device activation and configuration](jimi-iot-dashcam-configuration.md#device-activation-and-configuration)
+* [Configuration Tips](jimi-iot-dashcam-configuration.md#configuration-tips)
+  * [Optimizing traffic consumption](jimi-iot-dashcam-configuration.md#optimizing-traffic-consumption)
+  * [Video on input triggering](jimi-iot-dashcam-configuration.md#video-on-input-triggering)
+* [Differences between JC261 and JC400](jimi-iot-dashcam-configuration.md#differences-between-jc261-and-jc400)
 
 This article provides a comprehensive guide on configuring your Jimi device, from checking the firmware version to optimizing traffic consumption. We'll also delve into the specifics of device activation, configuration, and provide useful tips to enhance your user experience.
 
@@ -18,13 +18,13 @@ Before adding the device to our platform, a SIM card must be procured. This SIM 
 
 ### Checking firmware version
 
-This step is required for JC400 and JC400D devices. However, for JC261 and JC261P devices, compatibility isn't dependent on the version.  
+This step is required for JC400 and JC400D devices. However, for JC261 and JC261P devices, compatibility isn't dependent on the version.\
 To check the version, insert the SIM card into the device and send an SMS command with the word '`VERSION`' to your device's SIM card number. It's advisable to do this before installing the device in a vehicle to save time later. The device should respond with its current version.
 
 For the JC400, the manufacturer recommends the following versions or any newer version:
 
-- `[VERSION]JC400_WABA_STD_V4.3.5_220830.2208` - for JC400
-- `[VERSION]JC400D_WAVA_DMS_V4.2.13_210716.2013_BUILD_2021-07-16` - for JC400D with DMS alerts.
+* `[VERSION]JC400_WABA_STD_V4.3.5_220830.2208` - for JC400
+* `[VERSION]JC400D_WAVA_DMS_V4.2.13_210716.2013_BUILD_2021-07-16` - for JC400D with DMS alerts.
 
 If your device responds with an older version, you need to update the firmware, which involves three steps:
 
@@ -32,8 +32,7 @@ If your device responds with an older version, you need to update the firmware, 
 2. Insert the SD card into the device and power it on.
 3. The device will automatically update the firmware.
 
-> [!INFO]
-> If you've already registered your device on the platform and then updated the firmware, you'll need to resend the activation commands, which are described later. If your panel includes an SMS gateway, you can utilize the 'Retry Activation' feature in the [Admin panel from the device card.](https://docs.navixy.com/admin-panel/basic-operations)
+> \[!INFO] If you've already registered your device on the platform and then updated the firmware, you'll need to resend the activation commands, which are described later. If your panel includes an SMS gateway, you can utilize the 'Retry Activation' feature in the [Admin panel from the device card.](https://docs.navixy.com/admin-panel/basic-operations)
 
 ### Device activation and configuration
 
@@ -48,40 +47,40 @@ Otherwise, here are step-by-step instructions for configuring your Jimi IoT devi
 
 ![Device configuration](attachments/image-20231023-134921.png)
 
-- Send the following SMS commands to your tracker (this is why we needed a SIM card with SMS functionality):
-  - `COREKITSW,0#`
-  - `SERVER,0,<server_IP>,47755#`
-  - `APN,<apn_name>,<apn>,,,,,,<user>,,<password>,,,,#`
+* Send the following SMS commands to your tracker (this is why we needed a SIM card with SMS functionality):
+  * `COREKITSW,0#`
+  * `SERVER,0,<server_IP>,47755#`
+  * `APN,<apn_name>,<apn>,,,,,,<user>,,<password>,,,,#`
 
-> [!INFO]
-> Note: APN settings depend on your device’s SIM card and should be entered without <> signs. You can obtain these settings from your GSM provider.
-> For example, if your APN is “internet” and both the APN user and password are empty, input as follows:
-> APN,internet,internet,,,,,,,,,,,,# - There are 12 commas after apn\_name and apn, which are identical in this case.
+> \[!INFO] Note: APN settings depend on your device’s SIM card and should be entered without <> signs. You can obtain these settings from your GSM provider. For example, if your APN is “internet” and both the APN user and password are empty, input as follows: APN,internet,internet,,,,,,,,,,,,# - There are 12 commas after apn\_name and apn, which are identical in this case.
 
 2. Check that the device is online several minutes after sending the SMS commands. If the device is not online, ensure the SIM card has sufficient credit and can receive SMS commands. You can also check the full list of [potential issues and solutions here](../../../../faq-and-troubleshooting/gps-devices/add-and-manage-devices/troubleshoot-device-activation.md).
 3. The process is fully automated and doesn't require manual configuration. However, should you prefer to set up the device manually or if default commands sending is disabled in the Admin panel settings, you can use the following list of commands as a reference. These are sent to the device after it connects to the platform:
-  - `COREKITSW,0`  - allows setting a custom server for video,
-  - `UPLOAD,http://<server>:7514/upload/<IMEI>` - sets the server for uploading video like playback and event videos,
-  - `FILELIST,http://<server>:7514/filelist/<IMEI>` - sets the server where the platform can access a list of videos for playback requests,
-  - `RSERVICE,rtmp.x-gpsmail.com:1935/encoder` - sets the live stream server,
-  - `TIMER,ON,60` - sets data sending time interval,
-  - `ANGLEREP,ON,10` - sets angle for data sending,
-  - `SOSALM,ON,0` - sets SOS alarm,
-  - `UPLOADSW,SOS,ON` - activates sending videos on specific events to the platform,
-  - `UPLOADSW,CRASH,ON`
-  - `UPLOADSW,RAPIDACC,ON`
-  - `UPLOADSW,RAPIDDEC,ON`
-  - `UPLOADSW,RAPIDTURN,ON`
-  - `SERVER,0,<server>,47755#` - reboots and applies settings
 
-> [!INFO]
-> Replace <IMEI> with your device’s IMEI and <server> with the server IP, both without <> signs.
-> - For EU server: 52.57.1.136
-> - For US server (if your account ID starts with 1000): 13.52.37.2
+* `COREKITSW,0`  - allows setting a custom server for video,
+* `UPLOAD,http://<server>:7514/upload/<IMEI>` - sets the server for uploading video like playback and event videos,
+* `FILELIST,http://<server>:7514/filelist/<IMEI>` - sets the server where the platform can access a list of videos for playback requests,
+* `RSERVICE,rtmp.x-gpsmail.com:1935/encoder` - sets the live stream server,
+* `TIMER,ON,60` - sets data sending time interval,
+* `ANGLEREP,ON,10` - sets angle for data sending,
+* `SOSALM,ON,0` - sets SOS alarm,
+* `UPLOADSW,SOS,ON` - activates sending videos on specific events to the platform,
+* `UPLOADSW,CRASH,ON`
+* `UPLOADSW,RAPIDACC,ON`
+* `UPLOADSW,RAPIDDEC,ON`
+* `UPLOADSW,RAPIDTURN,ON`
+* `SERVER,0,<server>,47755#` - reboots and applies settings
+
+> \[!INFO] Replace with your device’s IMEI and with the server IP, both without <> signs.
+>
+> * For EU server: 52.57.1.136
+> * For US server (if your account ID starts with 1000): 13.52.37.2
 
 4. Send command with timezone:
-  - `TIMEZONE,<+00:00>`  
-Replace <+00:00> with your local timezone. Our platform operates optimally with timezone UTC+0. For certain devices like Jimi IoT dashcam units, we have added a specific portlet on the platform. If you don't set your local timezones, timestamps on recorded and streamed videos will be incorrect, potentially making them inadmissible, for example, in court.
+
+* `TIMEZONE,<+00:00>`\
+  Replace <+00:00> with your local timezone. Our platform operates optimally with timezone UTC+0. For certain devices like Jimi IoT dashcam units, we have added a specific portlet on the platform. If you don't set your local timezones, timestamps on recorded and streamed videos will be incorrect, potentially making them inadmissible, for example, in court.
+
 5. After setting the timezone, open the devices and settings tab and change the device’s timezone to match the one you've set on your device.
 
 ![](attachments/image-20231030-145358.png)
@@ -94,25 +93,25 @@ Here are some tips that can enhance your experience and help you utilize these d
 
 To optimize traffic consumption, adjust different video settings. This will also influence the speed at which videos are uploaded to the platform.
 
-- To alter the video quality that your devices record to the SD card (both playback and event video), thus reducing traffic load, use the following command:  
-`CAMERA,<A>,<B>`  
-In this command:
-  - `<A>` refers to IN/OUT,
-  - `<B>` can be 0/1/2/3,
-    - When OUT, `0` equals 1080P 8Mb/minute; `1` is 720P 4Mb/minute; `2` is 720x480 2Mb/minute; and `3` is 640x360 0.5Mb/minute.
-    - When `IN, 0` equals 1080P 6Mb/minute; `1` is 720P 3Mb/minute; `2` is 720x480 2Mb/minute; and `3` is 640x360 0.5Mb/minute.
-- You can enable or disable video uploading for unnecessary alerts to save on data usage with the command:  
-`UPLOADSW,<A>,<B>`
-  - `<A>` refers to the event type which you can find in the table, where we compare dashcam models (input the event code of an event type),
-  - `<B>` can be ON/OFF/1/2,
-    - `ON` will upload both front and inner camera video,
-    - `OFF` will not upload video,
-    - `1` will upload front camera video,
-    - `2` will upload inner camera video.
-- Sometimes it may be necessary to disable voice recording on devices to decrease traffic usage of security reasons. Enable or disable voice recording on your device with the command:  
-`RECORDAUDIO_SUB,<A>`
-  - `A` can be 0/1 - when `0` is to disable, `1` is to enable.
-- After you finish watching the live stream, close the video monitoring tab or browser tab and platform will then stop receiving video from your device.
+* To alter the video quality that your devices record to the SD card (both playback and event video), thus reducing traffic load, use the following command:\
+  `CAMERA,<A>,<B>`\
+  In this command:
+  * `<A>` refers to IN/OUT,
+  * `<B>` can be 0/1/2/3,
+    * When OUT, `0` equals 1080P 8Mb/minute; `1` is 720P 4Mb/minute; `2` is 720x480 2Mb/minute; and `3` is 640x360 0.5Mb/minute.
+    * When `IN, 0` equals 1080P 6Mb/minute; `1` is 720P 3Mb/minute; `2` is 720x480 2Mb/minute; and `3` is 640x360 0.5Mb/minute.
+* You can enable or disable video uploading for unnecessary alerts to save on data usage with the command:\
+  `UPLOADSW,<A>,<B>`
+  * `<A>` refers to the event type which you can find in the table, where we compare dashcam models (input the event code of an event type),
+  * `<B>` can be ON/OFF/1/2,
+    * `ON` will upload both front and inner camera video,
+    * `OFF` will not upload video,
+    * `1` will upload front camera video,
+    * `2` will upload inner camera video.
+* Sometimes it may be necessary to disable voice recording on devices to decrease traffic usage of security reasons. Enable or disable voice recording on your device with the command:\
+  `RECORDAUDIO_SUB,<A>`
+  * `A` can be 0/1 - when `0` is to disable, `1` is to enable.
+* After you finish watching the live stream, close the video monitoring tab or browser tab and platform will then stop receiving video from your device.
 
 ### Video on input triggering
 
@@ -122,12 +121,12 @@ You can configure your device for input triggering using the following command:
 
 In this command:
 
-- `A` can be 0/1/2 - defines the trigger condition, where `0` disables the function, `1` takes close as a trigger, and `2` takes open as a trigger;
-- `B` can be 0/1/2 - defines the ACC state, where `0` detects in any state, `1` detects only in ACC ON, and `2` detects only in ACC OFF;
-- `C` ranges from 1-3600 - defines the detection interval in seconds, which is the interval between 2 detections;
-- `D` ranges from 1-120 - defines the speed condition by GPS speed, with 0 being unlimited;
-- `E` can be 1/2 - defines the action after trigger, where `1` equals short video, and `2` equals photo;
-- `F` can be 0/1/2 - defines whether to broadcast voice after trigger, where `0` means no broadcast (i.e., door sensor detection without voice prompt), `1` is the seatbelt version, and `2` is the door sensor detection version.
+* `A` can be 0/1/2 - defines the trigger condition, where `0` disables the function, `1` takes close as a trigger, and `2` takes open as a trigger;
+* `B` can be 0/1/2 - defines the ACC state, where `0` detects in any state, `1` detects only in ACC ON, and `2` detects only in ACC OFF;
+* `C` ranges from 1-3600 - defines the detection interval in seconds, which is the interval between 2 detections;
+* `D` ranges from 1-120 - defines the speed condition by GPS speed, with 0 being unlimited;
+* `E` can be 1/2 - defines the action after trigger, where `1` equals short video, and `2` equals photo;
+* `F` can be 0/1/2 - defines whether to broadcast voice after trigger, where `0` means no broadcast (i.e., door sensor detection without voice prompt), `1` is the seatbelt version, and `2` is the door sensor detection version.
 
 The recommended command is `UART,1,0,60,0,1,0`
 
@@ -139,24 +138,24 @@ The JC261 model is equipped with ADAS AI, a feature that provides alerts about v
 
 The platform supports video recording for certain events, which include:
 
-| **Event Type** | **JC400** | **JC400D**<br><br>**JC400P** | **JC261**<br><br>**JC261P** | **Device Event Code** | **Platform’s alert rule type** |
-| --- | --- | --- | --- | --- | --- |
-| SOS alarm | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | SOS | Pressing SOS button |
-| Crash event | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | CRASH | Car crash |
-| Vibration | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | VIBRATE | Vibration sensor |
-| Speeding detected by tracker | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | OVERSPEED | Speeding (by hardware event) |
-| Harsh acceleration | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | RAPIDACC | Harsh driving |
-| Harsh braking | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | RAPIDDEC | Harsh driving |
-| Harsh turning | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | RAPIDTURN | Harsh driving |
-| Fatigue driving | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | DRIVE | Fatigue driving |
-| Yawning | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | YAWN | Fatigue driving |
-| Eyes closed | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | CLOSEEYES | Fatigue driving |
-| Distracted/head low | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | DISTRACTION | Driver distraction |
-| Smoking | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | SMOKING | Driver distraction |
-| Phone calling | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | PHONECALLING | Driver distraction |
-| No face detected | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | MISSINGFACE | Driver distraction |
-| Front car collision | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | FORWARDCOLLISION | Advanced Driver Assistance Systems (ADAS) |
-| Vehicle too close | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | VEHICLETOOCLOSE | Advanced Driver Assistance Systems (ADAS) |
-| Lane deviation | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | LANEDEPARTURE | Advanced Driver Assistance Systems (ADAS) |
+| **Event Type**               | **JC400**                                                                                                                                            | <p><strong>JC400D</strong><br><br><strong>JC400P</strong></p>                                                                                        | <p><strong>JC261</strong><br><br><strong>JC261P</strong></p>                                                                                         | **Device Event Code** | **Platform’s alert rule type**            |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ----------------------------------------- |
+| SOS alarm                    | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | SOS                   | Pressing SOS button                       |
+| Crash event                  | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | CRASH                 | Car crash                                 |
+| Vibration                    | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | VIBRATE               | Vibration sensor                          |
+| Speeding detected by tracker | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | OVERSPEED             | Speeding (by hardware event)              |
+| Harsh acceleration           | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | RAPIDACC              | Harsh driving                             |
+| Harsh braking                | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | RAPIDDEC              | Harsh driving                             |
+| Harsh turning                | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | RAPIDTURN             | Harsh driving                             |
+| Fatigue driving              | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | DRIVE                 | Fatigue driving                           |
+| Yawning                      | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | YAWN                  | Fatigue driving                           |
+| Eyes closed                  | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | CLOSEEYES             | Fatigue driving                           |
+| Distracted/head low          | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | DISTRACTION           | Driver distraction                        |
+| Smoking                      | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | SMOKING               | Driver distraction                        |
+| Phone calling                | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | PHONECALLING          | Driver distraction                        |
+| No face detected             | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | MISSINGFACE           | Driver distraction                        |
+| Front car collision          | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | FORWARDCOLLISION      | Advanced Driver Assistance Systems (ADAS) |
+| Vehicle too close            | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | VEHICLETOOCLOSE       | Advanced Driver Assistance Systems (ADAS) |
+| Lane deviation               | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2796.png) | ![(blue star)](https://squaregps.atlassian.net/wiki/s/1345843560/6452/7f556d9ef51f987dca9532676864e4d735db8431/_/images/icons/emoticons/72/2611.png) | LANEDEPARTURE         | Advanced Driver Assistance Systems (ADAS) |
 
 An additional distinguishing feature of the JC261 model is its use of the .ts video format instead of the standard .mp4. This is an advantage because if a file upload is interrupted for any reason with the .mp4 format, the entire file becomes inaccessible. However, with the .ts format, even if the file upload is abruptly stopped, the video up to that point is saved. This allows for at least part of the video to be preserved in extreme situations, such as severe shocks and power surges.
