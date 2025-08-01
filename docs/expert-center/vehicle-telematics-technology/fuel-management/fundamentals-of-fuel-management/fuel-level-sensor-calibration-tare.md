@@ -1,10 +1,5 @@
 # Fuel level sensor calibration (tare)
 
-- [Fuel sensor calibration](#fuel-sensor-calibration)
-  - [Sensor calibration without additional accessories](#sensor-calibration-without-additional-accessories)
-  - [Sensor calibration using a tube tank](#sensor-calibration-using-a-tube-tank)
-- [Full tank calibration](#full-tank-calibration)
-
 ## Fuel sensor calibration
 
 Accurate fuel level monitoring is crucial for efficient operation and maintenance of vehicles, machinery, and storage tanks. To ensure precise readings, fuel level sensor calibration, specifically taring, plays a critical role. In this article, we will delve into why taring is important, the workflow involved, and key aspects to remember during the process.
