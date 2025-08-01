@@ -24,7 +24,7 @@ MQTT devices are becoming increasingly prevalent in GPS tracking and telematics 
 
 In the traditional client-server model, the device (client) sends data packets directly to the server, which then processes the data and sends responses back to the device. This model is straightforward but limited to one-to-one communication.
 
-![image-20240717-170644.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170644.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170644.png)
 
 In contrast, the Publisher/Subscriber model used by MQTT devices allows for more flexible and scalable communication. Here’s how it works:
 
@@ -32,7 +32,7 @@ In contrast, the Publisher/Subscriber model used by MQTT devices allows for more
 * **Broker**: The broker stores these data packets.
 * **Subscriber**: The Navixy server subscribes to the data packets from specific devices using their IMEI numbers and the broker’s address.
 
-![image-20240717-170707.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170707.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170707.png)
 
 ## MQTT Device Configuration Steps
 
@@ -48,7 +48,7 @@ We’ll demonstrate how to configure your MQTT device on the Navixy platform thr
   US platform: `mqtt.us.navixy.com` port `1883`\
   EU platform: `mqtt.eu.navixy.com` port `1883`
 
-![image-20240717-165930.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-165930.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-165930.png)
 
 In MQTT Security → Authorization, add a user with the following settings:
 
@@ -56,14 +56,14 @@ In MQTT Security → Authorization, add a user with the following settings:
 * **Username**: `bce_device`
 * **Password**: `secretword`
 
-![image-20240717-170022.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170022.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170022.png)
 
 Ensure your topic configuration is correct:
 
 * All topics except for Output Control Topic Name are set to default values.
 * Output Control Topic Name: `%IMEI%/OUTC`
 
-![image-20240717-170207.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170207.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170207.png)
 
 Save your configuration.
 
@@ -81,7 +81,7 @@ When configuring an MQTT-compatible device, the user must specify the username a
 4. **Specify the IMEI**: Enter the IMEI of the device.
 5. **Activate the Device**: Click the “Activate” button.
 
-![image-20240717-170552.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170552.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170552.png)
 
 ### Example 2. Globalmatix xTCU Devices
 
@@ -94,7 +94,7 @@ When configuring an MQTT-compatible device, the user must specify the username a
 * **Login/Password**: `globalmatix_device/secretword`
 * Save the configuration.
 
-![image-20240717-170804.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170804.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170804.png)
 
 #### Add Device on the Navixy Platform
 
@@ -104,4 +104,4 @@ When configuring an MQTT-compatible device, the user must specify the username a
 * Specify the IMEI of the device.
 * Click the “Activate” button.
 
-![image-20240717-170828.png](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170828.png)
+![](../../../expert-center/faq-and-troubleshooting/gps-devices/add-and-manage-devices/attachments/image-20240717-170828.png)
