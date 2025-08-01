@@ -1,19 +1,5 @@
 # Types of fuel level sensors
 
-* [Types of fuel sensors](types-of-fuel-level-sensors.md#types-of-fuel-sensors)
-  * [Float fuel sensor](types-of-fuel-level-sensors.md#float-fuel-sensor)
-  * [Capacitive fuel sensor](types-of-fuel-level-sensors.md#capacitive-fuel-sensor)
-  * [Ultrasonic fuel sensor](types-of-fuel-level-sensors.md#ultrasonic-fuel-sensor)
-* [How to choose the right fuel sensor](types-of-fuel-level-sensors.md#how-to-choose-the-right-fuel-sensor)
-  * [Tank dimensions](types-of-fuel-level-sensors.md#tank-dimensions)
-  * [Multiple sensors on one vehicle](types-of-fuel-level-sensors.md#multiple-sensors-on-one-vehicle)
-  * [Fuel sensor outputs](types-of-fuel-level-sensors.md#fuel-sensor-outputs)
-* [Leading fuel sensor manufacturers](types-of-fuel-level-sensors.md#leading-fuel-sensor-manufacturers)
-  * [Omnicomm (Russia)](types-of-fuel-level-sensors.md#omnicomm-russia)
-  * [Technoton (Belarus)](types-of-fuel-level-sensors.md#technoton-belarus)
-  * [Siensor (China)](types-of-fuel-level-sensors.md#siensor-china)
-  * [Escort (Russia)](types-of-fuel-level-sensors.md#escort-russia)
-
 Fuel sensors are devices designed to make accurate measurements of the fuel level in a vehicle’s tank. According to these measurements a GPS tracking and telematics platform features the following data:
 
 * fuel level in the tank of a vehicle
@@ -114,7 +100,9 @@ One might need to consider a few fuel sensors for one vehicle, if it falls into 
 * **The fuel tank of the vehicle has a complex shape.** As it is often the case with agricultural equipment, a fuel tank might have a customized shape or consist of two different sections. In this case, it requires two or more fuel sensors to provide for precise measurements. The GPS tracking and telematics system will show an average value of all the fuel sensors.
 * **The fuel tank of the vehicle is extra long.** Such tanks can be usually found on campers or trains. In this case, as you can imagine, even minor fluctuations in the tank will affect the sensor readings. Using two sensors and installing them diagonally at the opposite sides will help to eliminate the problem. The GPS tracking system will show an average value of the both fuel sensors. Extra long tanks (long and only 4-6”/ 10-15 cm high) are often used in cars. In this case it might be most efficient to consider fuel level monitoring via CAN-data.
 
-> \[!INFO] Fuel tankers have 2 or 3 tanks, each of them having at least 3 sections. For maximum accuracy each tank and each section should be equipped with a fuel level sensor. Make sure, that the sensor has an RS-485 output. An RS-232 won’t provide data for multiple sensors to be connected to the same tracker.
+{% hint style="info" %}
+Fuel tankers have 2 or 3 tanks, each of them having at least 3 sections. For maximum accuracy each tank and each section should be equipped with a fuel level sensor. Make sure, that the sensor has an RS-485 output. An RS-232 won’t provide data for multiple sensors to be connected to the same tracker.
+{% endhint %}
 
 ![Multiple sensors on one vehicle](https://www.navixy.com/wp-content/uploads/2019/05/wiring-diagram-rs485.png)
 

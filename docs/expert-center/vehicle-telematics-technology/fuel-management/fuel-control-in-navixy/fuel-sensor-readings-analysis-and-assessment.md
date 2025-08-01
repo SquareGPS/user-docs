@@ -1,8 +1,5 @@
 # Fuel sensor readings analysis and assessment
 
-* [Quality of fuel level readings](fuel-sensor-readings-analysis-and-assessment.md#quality-of-fuel-level-readings)
-* [Quality of the calibration table](fuel-sensor-readings-analysis-and-assessment.md#quality-of-the-calibration-table)
-
 Effective fuel calculations are one of the most important aspects in fleet management. They allow partners and users for close monitoring of fuel expenses, detection of unauthorized consumption, and implementation of measures to minimize it. However, ensuring accurate fuel calculations necessitates a thorough evaluation of the quality of data sources used for these calculations.
 
 The accuracy of fuel level readings depends on the type of sensor used and its [proper installation](../installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/fuel-level-sensor-installation.md) and other aspects i.e external factors such as temperature changes or vibrations from driving can affect fuel level readings. Hence, it is crucial to consistently monitor and ensure the proper functioning of the fuel level sensor.
@@ -21,7 +18,7 @@ We'll explore these factors and provide expert guidance on effectively leveragin
 Accurate fuel calculations require reliable data from fuel sensors. This includes information on the actual fuel level in the tank, which goes to the platform in different format. The specific data format used by a sensor will depend on the manufacturer and the application.:
 
 * [**OEM fuel level sensors**](../installation-and-initial-configuration-of-fuel-control-devices/oem-fuel-level-sensors.md) are typically calibrated to report the fuel level in liters or percents. This data is sent to the platform in a digital format, usually using CAN. The data could be also retrieved via OBD.
-* [**Analog Sensors**](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2381021200/Fuel+level+sensor+installation#Analogue-signal) send data in a continuous stream of electrical signals. The voltage of the signal is proportional to the level of fuel in the tank.
+* [**Analog Sensors**](../installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/fuel-level-sensor-installation.md#analogue-signal) send data in a continuous stream of electrical signals. The voltage of the signal is proportional to the level of fuel in the tank.
 * [**Digital Sensors**](../installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/) send raw data in discrete packets, usually using a serial communication protocol such as RS-485 or RS-232.
 
 Fuel level sensors differ in terms of accuracy. When choosing a fuel level for data analysis, it's important to take into account factors such as price, installation process, and the desired level of accuracy. Below is a concise comparison of various sensor types.

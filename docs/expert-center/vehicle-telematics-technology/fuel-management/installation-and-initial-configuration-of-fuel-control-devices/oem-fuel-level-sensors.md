@@ -1,8 +1,5 @@
 # OEM fuel level sensors
 
-* [Data acquisition via CAN / OBDII](oem-fuel-level-sensors.md#data-acquisition-via-can-obdii)
-* [Connecting the tracker to analog input](oem-fuel-level-sensors.md#connecting-the-tracker-to-analog-input)
-
 Original Equipment Manufacturer (OEM) fuel level sensors are installed by manufacturers during vehicle production. These sensors are built to accurately gauge the fuel levels within the tank and seamlessly relay this crucial information to the vehicle's dashboard and other vital systems.
 
 Standard (OEM) fuel level sensors operate on a principle that relies on the variation of electrical resistance in relation to the fuel level in the tank. These sensors are equipped with a floating element that ascends and descends with the fuel level. As the fuel level fluctuates, so does the resistance, consequently altering the sensor's output signal.
@@ -23,7 +20,7 @@ It should be noted that CAN-based GPS trackers transmit more telemetry informati
 3. Turn on the vehicle and check if the GPS tracker is working. Wait a while for the tracker to initialize the connection. It should start receiving data on fuel and other vehicle parameters and transmit them over the Internet.
 4. Check the data you receive from the GPS tracker in your Navixy account. (Remember to activate the GPS tracker before use)
 
-![OBD II connection](attachments/Ls2SLh0adKRNWXGNkxxokLcNt98RJ6kTj3mVbtcpzBvemp8DvyKQpDsCMcslQVB9URqCBXpUOsiVjFO-5gU7u5d9eli5CP9IWkDmdOhfF6G9B8jrNg8DkFjDGHtEpVdWjbmoh1PW357ZaAPH-2krVw)
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>OBD II connection</p></figcaption></figure>
 
 ## Connecting the tracker to analog input
 

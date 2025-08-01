@@ -1,9 +1,5 @@
 # Fuel flow meters
 
-* [Operating principle](./#operating-principle)
-* [Application](./#application)
-* [Working fluids](./#working-fluids)
-
 A fuel flow meter is a device designed to measure the volumetric consumption of fuel, specifically the volume of fuel passing through the fuel line in a given period of time. This essential device presents its measurements in the form of meter readings, similar to those seen on a water or electricity meter. These measurements serve as the basis for calculating important data on a GPS tracking and telematics platform.
 
 * Fuel consumption per time period
@@ -63,4 +59,6 @@ To ensure precise measurements and stable operation of a flow meter, it is cruci
 
 In contrast, when it comes to gasoline, the mechanism typically operates "dry," with the exception of two-stroke engines that require a mixture of gasoline and engine oil. This dry operation accelerates wear, reduces measurement accuracy, and introduces additional errors to the flow meter.
 
-> \[!INFO] It is important to note that a flow meter is suitable for measuring diesel fuel consumption exclusively, considering the aforementioned factors.
+{% hint style="info" %}
+It is important to note that a flow meter is suitable for measuring diesel fuel consumption exclusively, considering the aforementioned factors.
+{% endhint %}

@@ -1,38 +1,27 @@
 # Fuel level sensor installation
 
-- [Installation of ultrasonic fuel sensors](#installation-of-ultrasonic-fuel-sensors)
-- [Installation of capacitive fuel sensors](#installation-of-capacitive-fuel-sensors)
-- [Connection to the CAN bus](#connection-to-the-can-bus)
-- [Fuel sensor outputs](#fuel-sensor-outputs)
-  - [Analogue signal](#analogue-signal)
-  - [Frequency signal](#frequency-signal)
-  - [Digital signals](#digital-signals)
-  - [CAN bus](#can-bus)
-  - [Bluetooth](#bluetooth)
-- [Fuel sensor design: Unorthodox solutions](#fuel-sensor-design-unorthodox-solutions)
-  - [GPS tracker meets fuel sensor](#gps-tracker-meets-fuel-sensor)
-
-> [!WARNING]
-> We strongly recommend engaging the services of professionals for the installation of your equipment.
+{% hint style="danger" %}
+We strongly recommend engaging the services of professionals for the installation of your equipment.
+{% endhint %}
 
 To get the sensor up and running it takes:
 
-- 2 technicians
-- Installation tools
-  - Bi-metal hole saw
-  - Corner drill
-  - Metal drills (look for HSS-TiN drills)
-  - Flat head and Phillips head screwdriver
-  - Pliers
-  - Hack saw or tube cutter
-  - Riveter (to fix the sensor to the thick-walled tank)
-- Calibration set
-  - Calibration tube
-  - Portable gas station - required during tank calibration for precise measurement of fuel level
-  - Tanks for temporary fuel storage (often inflatable/ collapsible fuel tanks)
-- Consumables – U-bolts, corrugated tubes, etc.
-- Laptop – to calibrate the sensor and the fuel tank
-- USB Connector kit (to connect the sensor and the laptop). Usually sensor manufacturers make their own USB adapters (e.g. UNU-USB by Omnicomm) to fit the sensors.
+* 2 technicians
+* Installation tools
+  * Bi-metal hole saw
+  * Corner drill
+  * Metal drills (look for HSS-TiN drills)
+  * Flat head and Phillips head screwdriver
+  * Pliers
+  * Hack saw or tube cutter
+  * Riveter (to fix the sensor to the thick-walled tank)
+* Calibration set
+  * Calibration tube
+  * Portable gas station - required during tank calibration for precise measurement of fuel level
+  * Tanks for temporary fuel storage (often inflatable/ collapsible fuel tanks)
+* Consumables – U-bolts, corrugated tubes, etc.
+* Laptop – to calibrate the sensor and the fuel tank
+* USB Connector kit (to connect the sensor and the laptop). Usually sensor manufacturers make their own USB adapters (e.g. UNU-USB by Omnicomm) to fit the sensors.
 
 ![Fuel sensor connection](https://www.navixy.com/wp-content/uploads/2019/05/omnicomm-sensor-installation.png)
 
@@ -58,10 +47,11 @@ Now let’s take it step by step:
 6. Calibrate the tank.
 7. Disconnect the sensor from the laptop and connect it to the tracker.
 
-> [!INFO]
-> For rectangular tanks, the center of the bottom can be found by drawing diagonals and where they meet in the middle will be the center.
+{% hint style="info" %}
+For rectangular tanks, the center of the bottom can be found by drawing diagonals and where they meet in the middle will be the center.
+{% endhint %}
 
-*The installation usually takes approximately 4 hours.*
+_The installation usually takes approximately 4 hours._
 
 ## Installation of capacitive fuel sensors
 
@@ -80,10 +70,11 @@ Now let’s review each step more in-depth.
 9. Calibrate the tank
 10. Disconnect the sensor from the laptop and connect it to the tracker.
 
-*The installation will take approximately 4 hours.* For more information watch [OMNICOMM installation training video](https://www.youtube.com/watch?v=XJof-eRuRd8) (10 min).
+_The installation will take approximately 4 hours._ For more information watch [OMNICOMM installation training video](https://www.youtube.com/watch?v=XJof-eRuRd8) (10 min).
 
-> [!INFO]
-> Please consider the following important points. When the working portion of the sensor is less than 500 mm, it is crucial to set the range to 1024, as failing to do so could result in a notable margin of error in the data. Taking this into account will ensure accurate and reliable measurements.
+{% hint style="info" %}
+Please consider the following important points. When the working portion of the sensor is less than 500 mm, it is crucial to set the range to 1024, as failing to do so could result in a notable margin of error in the data. Taking this into account will ensure accurate and reliable measurements.
+{% endhint %}
 
 ## Connection to the CAN bus
 
@@ -97,9 +88,11 @@ Once it is located, you can connect to it via a CAN Crocodile contactless reader
 2. Check the vehicle manuals to make sure that the CAN bus monitors fuel level data. Unless it does, the other steps will make no sense.
 3. Go to the tracker manufacturer’s website to select a CAN module brand that fits.
 4. Choose the CAN module type/model based on your vehicle or heavy equipment type.
+
 ```
 For instance, Teltonika requires different CAN module for cars (LV-CAN 200) and for trucks (ALLCAN 300).
 ```
+
 5. Ask the CAN module vendor to supply a connection diagram for your vehicle brand, model and year of manufacture. Usually it takes not more than 30 min to find the right diagram.
 6. Connect the CAN module the way it is shown in the diagram.
 7. Use a a mini-USB to USB cable to connect the CAN module to the dashboard and the laptop with pre-downloaded setup software.
@@ -115,18 +108,18 @@ The installation will take approximately 30 minutes (considering the diagram is 
 
 As of 2018, the most common outputs to connect to GPS trackers were:
 
-- For factory installed trackers:
-  - analogue output
-  - CAN interface
-- For additionally installed trackers:
-  - analogue output
-  - frequency output
-  - digital output:
-    - RS-232
-    - RS-485
-    - CAN-2 interface
-    - Bluetooth radio interface
-    - Other radio interface
+* For factory installed trackers:
+  * analogue output
+  * CAN interface
+* For additionally installed trackers:
+  * analogue output
+  * frequency output
+  * digital output:
+    * RS-232
+    * RS-485
+    * CAN-2 interface
+    * Bluetooth radio interface
+    * Other radio interface
 
 ### Analogue signal
 
@@ -154,8 +147,9 @@ GPS trackers will transmit the values to the GPS tracking system in volts (e.g. 
 
 **Specifications:** in this case fuel level data is transmitted to the GPS tracker as an impulse frequency (for instance, in the range from 30 Hz to 2000 Hz). The higher the fuel level, the higher the frequency is.
 
-> [!INFO]
-> For instance, 30 Hz stands for an empty tank, 2000 Hz stands for a full tank. A tank calibration is required to convert frequency into liters or gallons.
+{% hint style="info" %}
+For instance, 30 Hz stands for an empty tank, 2000 Hz stands for a full tank. A tank calibration is required to convert frequency into liters or gallons.
+{% endhint %}
 
 Data modulation techniques work just like the well-known FM radio. In this case an analog sensor acts as an AM-radio, where the signal is amplitude modulated ([More on amplitude modulation here](https://en.wikipedia.org/wiki/Amplitude_modulation)). Frequency modulation for fuel level sensors emerged after analogue modulation but before digital signals. It is more resistant to noise than the analogue signal, but not as noise-free as digital signals, and is basically not used anymore.
 
@@ -235,7 +229,7 @@ This approach yields a few benefits. Mainly it removes any limitations on the nu
 
 **Explosion-proof version**
 
-Some Safety rules and regulations require fuel sensors to be explosion-proof (e.g. if the sensor is installed inside fuel tankers). These sensors have a specific design to provide enhanced explosion and fire safety confirmed with a test certificate.
+Some Safety rules and regulations require fuel sensors to be explosion-proof (e.g. if the sensor is installed inside fuel tankers). These sensors have a specific design to provide enhanced explosion and fire safety confirmed with a test certificate.
 
 ### GPS tracker meets fuel sensor
 

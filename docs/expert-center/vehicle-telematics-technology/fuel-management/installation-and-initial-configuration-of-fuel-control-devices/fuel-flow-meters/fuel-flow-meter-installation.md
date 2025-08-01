@@ -1,20 +1,8 @@
 # Fuel flow meter installation
 
-* [Flow meter installation routine](fuel-flow-meter-installation.md#flow-meter-installation-routine)
-  * [Single-chamber flow meter installation — On suction side](fuel-flow-meter-installation.md#single-chamber-flow-meter-installation-on-suction-side)
-  * [Single-chamber flow meter installation — On pressure side](fuel-flow-meter-installation.md#single-chamber-flow-meter-installation-on-pressure-side)
-  * [Differential flow meter installation “On suction side”](fuel-flow-meter-installation.md#differential-flow-meter-installation-on-suction-side)
-  * [Differential flow meter installation “On pressure side”](fuel-flow-meter-installation.md#differential-flow-meter-installation-on-pressure-side)
-  * [CAN-bus flow meter installation](fuel-flow-meter-installation.md#can-bus-flow-meter-installation)
-  * [Installation of several flow meters on one vehicle](fuel-flow-meter-installation.md#installation-of-several-flow-meters-on-one-vehicle)
-* [How to connect a flow meter to a GPS tracker](fuel-flow-meter-installation.md#how-to-connect-a-flow-meter-to-a-gps-tracker)
-  * [Analog interface](fuel-flow-meter-installation.md#analog-interface)
-  * [Digital interfaces](fuel-flow-meter-installation.md#digital-interfaces)
-  * [CAN-like bus / S6 Interface](fuel-flow-meter-installation.md#can-like-bus-s6-interface)
-  * [CAN flow meter](fuel-flow-meter-installation.md#can-flow-meter)
-* [Flow meter vs Fuel level sensor](fuel-flow-meter-installation.md#flow-meter-vs-fuel-level-sensor)
-
-> \[!WARNING] We strongly recommend engaging the services of professional installers for the installation of your equipment.
+{% hint style="danger" %}
+We strongly recommend engaging the services of professional installers for the installation of your equipment.
+{% endhint %}
 
 A flow meter is a vital component installed in vehicles or special equipment's fuel system. Let's revisit the typical scheme of the fuel system once more:
 
@@ -33,7 +21,9 @@ A flow meter can be installed:
 * **Between the rough filter and the low-pressure fuel pump** (within the supply fuel line). This scheme is called **“On suction side”**.
 * **Between the fine filter and the high-pressure fuel pump** (within the supply fuel line). This scheme is called **“On pressure side”**.
 
-> \[!INFO] Depending on the type of flow meter selected (single-chamber or differential), it may be necessary to make certain changes to the fuel system.
+{% hint style="info" %}
+Depending on the type of flow meter selected (single-chamber or differential), it may be necessary to make certain changes to the fuel system.
+{% endhint %}
 
 To install a flow meter you will need:
 
@@ -66,7 +56,9 @@ Irrespective of the chosen flow meter and connection scheme, the installation pr
 
 7. **To prevent air in the return pipe, it is recommended to install a fuel deaeration system.** By utilizing a deaerator, air bubbles can be effectively eliminated from the fuel line, ensuring accurate measurements and uninterrupted flow through the measuring chamber.
 
-> \[!INFO] _Drilling into the vehicle frame is strictly prohibited when fitting the mounting plate for the flow meter. In case the use of bolts is not feasible for attaching the mounting plate, spot welding is an acceptable alternative._
+{% hint style="info" %}
+_Drilling into the vehicle frame is strictly prohibited when fitting the mounting plate for the flow meter. In case the use of bolts is not feasible for attaching the mounting plate, spot welding is an acceptable alternative._
+{% endhint %}
 
 ![Technoton DFM DA 250 deaerator](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-141.png)
 
