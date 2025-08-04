@@ -10,14 +10,14 @@ Written by professionals who regularly deal with sensor systems, the guides comb
 
 This section covers sensor integration across different device types and monitoring scenarios. From basic measurement sensors to specialized environmental and fuel monitoring systems, each article addresses specific integration challenges with complete configuration procedures.
 
-[Configuring Sensors on Teltonika Trackers](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2788098059/Configuring+Sensors+on+Teltonika+Trackers?atlOrigin=eyJpIjoiODU1NjI1NjRlYjMyNDBjOWIzYzg0YTk3NTEwN2YwNjMiLCJwIjoiYyJ9): Universal configuration guide for measurement sensors on Teltonika devices, covering configurator usage, remote parameter setup via AirConsole and SMS, and platform sensor creation.
+[Configuring Sensors on Teltonika Trackers](configuring-sensors-on-teltonika-trackers.md): Universal configuration guide for measurement sensors on Teltonika devices, covering configurator usage, remote parameter setup via AirConsole and SMS, and platform sensor creation.
 
-[Configuring Eye Sensor on Teltonika Tracker](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2789081111/Configuring+Eye+Sensor+on+Teltonika+Tracker?atlOrigin=eyJpIjoiZmRhMWY0OTM3OTBhNDc4MThmMDM1NjFmZDZlOGQ4NmMiLCJwIjoiYyJ9): Bluetooth environmental sensor setup for temperature, humidity, and magnetic detection monitoring with wireless connectivity configuration.
+[Configuring Eye Sensor on Teltonika Tracker](configuring-eye-sensor-on-teltonika-tracker.md): Bluetooth environmental sensor setup for temperature, humidity, and magnetic detection monitoring with wireless connectivity configuration.
 
-[Configuring ERM Efuel Dome Sensor on Navixy](https://squaregps.atlassian.net/wiki/spaces/SC/pages/3261464578/Configuring+ERM+Efuel+Dome+Sensor+on+Navixy?atlOrigin=eyJpIjoiY2Y0NWYwYzY3ZDUxNDZiMTg0N2RmM2RmYzEzMzNiZDMiLCJwIjoiYyJ9): Hydrostatic fuel monitoring system integration with Navixy platform, including sensor placement and calibration procedures.
+[Configuring ERM Efuel Dome Sensor on Navixy](configuring-erm-efuel-dome-sensor-on-navixy.md): Hydrostatic fuel monitoring system integration with Navixy platform, including sensor placement and calibration procedures.
 
-[Manage Sensors](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2362736660/Manage+Sensors?atlOrigin=eyJpIjoiYTcwNjI1MDNhMTVhNDkyYWE1OGZhZDY5NmYxNWRhYTAiLCJwIjoiYyJ9): Troubleshooting guide for sensor data issues, calibration procedures, unit corrections, and sensor addition processes for ongoing maintenance.
+[Manage Sensors](manage-sensors.md): Troubleshooting guide for sensor data issues, calibration procedures, unit corrections, and sensor addition processes for ongoing maintenance.
 
-[Monitor Sensor Values](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2423488513/Monitor+Sensor+Values?atlOrigin=eyJpIjoiZDI0YzFhYmUzYzJkNDQwY2E1OTNkNDkwNzY0YmUyYjAiLCJwIjoiYyJ9): Advanced monitoring implementation with multi-conditional alerts, parameter range rules, and industry applications for cold chain, machinery, and fuel management.
+[Monitor Sensor Values](monitor-sensor-values.md): Advanced monitoring implementation with multi-conditional alerts, parameter range rules, and industry applications for cold chain, machinery, and fuel management.
 
-[Mileage and Odometer](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2362081357/Mileage+and+odometer?atlOrigin=eyJpIjoiMGVmZjBmMGQyYzliNDQ3MzgwZmY5NjhhNmU3MDJjNTciLCJwIjoiYyJ9): GPS-based distance calculation analysis, odometer synchronization methods, and trip reporting accuracy for fleet analytics.
+[Mileage and Odometer](mileage-and-odometer.md): GPS-based distance calculation analysis, odometer synchronization methods, and trip reporting accuracy for fleet analytics.
