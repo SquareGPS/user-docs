@@ -1,20 +1,5 @@
 # Save IoT data to CSV file
 
-- [Raw data export](#raw-data-export)
-  - [Raw data export features](#raw-data-export-features)
-- [Typical use cases for raw data export](#typical-use-cases-for-raw-data-export)
-  - [Analytics, Machine Learning, and AI](#analytics-machine-learning-and-ai)
-  - [GPS tracker configuration checks](#gps-tracker-configuration-checks)
-  - [Sensor data diagnostics](#sensor-data-diagnostics)
-  - [Diagnostics for rules triggering](#diagnostics-for-rules-triggering)
-  - [Device offline diagnostics](#device-offline-diagnostics)
-  - [Custom solutions for customers](#custom-solutions-for-customers)
-- [How to use raw data export](#how-to-use-raw-data-export)
-  - [Choosing the date range](#choosing-the-date-range)
-  - [Choosing a time zone](#choosing-a-time-zone)
-  - [Selecting parameters](#selecting-parameters)
-- [Downloading the raw data file](#downloading-the-raw-data-file)
-
 In certain instances TSPs, integrators, and developers, need to see the original, unaltered data from their GPS trackers. This unadulterated data is frequently referred to as "raw data". Checking out raw data allows them to gain a deeper understanding of the collected data and obtain a clearer perspective on its characteristics.
 
 Examining raw data can also decrease the time is taking to figure out why devices aren't working properly. This means you can help users fix problems faster, which can make them trust your product more. Plus, it lets you spend more time on creating new solutions for your customers.
@@ -23,8 +8,9 @@ Furthermore, recent advancements in technology, artificial intelligence, and mac
 
 Let's dive deeper into the "raw data". Drawing from the valuable feedback provided by our partners, as well as conducting experiments in Navixy Lab, we have crafted a concise definition below.
 
-> [!INFO]
-> Parsed raw data is the outcome following the decoding (parsing) of incoming data packets, considering the protocol and specificities of the originating device model. Post-decoding, the packet is stored as universal platform parameters such as latitude, longitude, can\_fuel\_liters, etc.
+{% hint style="info" %}
+Parsed raw data is the outcome following the decoding (parsing) of incoming data packets, considering the protocol and specificities of the originating device model. Post-decoding, the packet is stored as universal platform parameters such as latitude, longitude, can\_fuel\_liters, etc.
+{% endhint %}
 
 ## Raw data export
 
@@ -32,17 +18,17 @@ From our research and development, we've made a new tool. This tool lets TSPs, i
 
 We picked the CSV file format for its simplicity and common use. It's easy to turn into tables or give to programs that use artificial intelligence or machine learning.
 
-![Raw data export](./attachments/image-20231226-080415.png)
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Raw data export</p></figcaption></figure>
 
 ### Raw data export features
 
 Let's dive into the features of this new tool:
 
-- It lets you upload parsed raw data for any GPS tracker on our platform.
-- You can choose any parameters from all available device models to include in your file. Plus, you can select only the parameters that are useful for your specific task. To pick parameters, you can easily search in the list of available options for your chosen GPS tracker.
-- There's no need to turn data saving before you wish to obtain the data. All data for all devices are automatically recorded. You can download this data whenever you want.
-- You can access up to 30 days of parsed raw data for any GPS tracker.
-- For large clients operating in different countries and time zones, we've made it easier to work with information. The tool can adjust the timestamps of packets to match your selected time zone.
+* It lets you upload parsed raw data for any GPS tracker on our platform.
+* You can choose any parameters from all available device models to include in your file. Plus, you can select only the parameters that are useful for your specific task. To pick parameters, you can easily search in the list of available options for your chosen GPS tracker.
+* There's no need to turn data saving before you wish to obtain the data. All data for all devices are automatically recorded. You can download this data whenever you want.
+* You can access up to 30 days of parsed raw data for any GPS tracker.
+* For large clients operating in different countries and time zones, we've made it easier to work with information. The tool can adjust the timestamps of packets to match your selected time zone.
 
 ## Typical use cases for raw data export
 
@@ -76,19 +62,19 @@ You can create custom solutions for your customers. For instance, a customer oft
 
 First, you need to go to the 'devices and settings' section and look for the device you're interested in on the user interface:
 
-![Devices and settings tab UI](./attachments/image-20231226-131607.png)
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Devices and settings tab UI</p></figcaption></figure>
 
 Or, find the tracker settings for a specific device in the admin panel:
 
-![Tracker settings Admin Panel](./attachments/image-20231226-131846.png)
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Tracker settings Admin Panel</p></figcaption></figure>
 
 Next, click the 'Export data' button in the 'Raw data' portlet:
 
-![](./attachments/image-20231226-132258.png)
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 This will open the 'Raw data export' tool. Here, you need to choose the date range, timezone, and parameters that you want to include in a csv file.
 
-![Raw data export tool window](./attachments/image-20231226-133511.png)
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Raw data export tool window</p></figcaption></figure>
 
 We've made sure that you won't accidentally close the window by clicking outside the 'Raw data export' tool. You can only close it by clicking the 'X' in the top right corner. Also, if you haven't chosen another device or refreshed the page, the 'Raw data export' tool will remember all the settings you previously selected. This makes it easy to check any GPS tracker or sensor settings, go back, and keep working.
 
@@ -98,13 +84,13 @@ This process is just like when you're creating a travel history. You can pick a 
 
 Select a date range either by clicking on the calendar or by entering the dates manually. You can also set a specific time. Here are some handy options to quickly choose a period:
 
-- Yesterday
-- Last week
-- Last 30 days
+* Yesterday
+* Last week
+* Last 30 days
 
 When you click on these, the platform will automatically pick the right range.
 
-![Raw data export Data range picker](./attachments/image-20231227-070746.png)
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Raw data export Data range picker</p></figcaption></figure>
 
 To make it easier for you, we added a counter on how many days you've selected. If you try to pick a date that's more than 30 days ago, you'll get a message. The selection button won't be available.
 
@@ -114,11 +100,11 @@ You can pick any time zone you need. For instance, if you need to give data for 
 
 Here's how you can choose the time zone you want:
 
-- Pick one from a list of all the possible time zones.
-- Enter the name of the time zone.
-- Enter the time zone, for example -8, +2, etc.
+* Pick one from a list of all the possible time zones.
+* Enter the name of the time zone.
+* Enter the time zone, for example -8, +2, etc.
 
-![Raw data export Timezone selector](./attachments/image-20231227-071411.png)
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Raw data export Timezone selector</p></figcaption></figure>
 
 ### Selecting parameters
 
@@ -126,9 +112,9 @@ The list of parameters you can choose from may vary depending on the model. It i
 
 Here's what you can do:
 
-- Select all parameters by clicking the checkbox on the left of the search.
-- Pick only the parameters you need by clicking the checkbox on the left of every parameter on the list.
-- Find the parameters you need by entering their name or part of their name.
+* Select all parameters by clicking the checkbox on the left of the search.
+* Pick only the parameters you need by clicking the checkbox on the left of every parameter on the list.
+* Find the parameters you need by entering their name or part of their name.
 
 If there is more than one input of the same type, they are numbered (2, 3, 4...). In this case, only the input with the highest indice is returned. For example, if AVL IOs from 1 to 100000 are available for a device, only avl\_io\_100000 is returned, even though AVL IOs with smaller indices also exist.
 
@@ -138,7 +124,7 @@ For all parameters and each indice parameter, you will see a count showing how m
 
 Each parameter you choose will add an extra column to the file.
 
-![Raw data export Parameters select](./attachments/image-20231227-101109.png)
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Raw data export Parameters select</p></figcaption></figure>
 
 ## Downloading the raw data file
 
@@ -148,8 +134,8 @@ The file name includes the device ID, tracker label, and the date and time range
 
 Each row, starting from the second one, is a message from the device sent to the platform. The first row always shows the message time in the selected time zone and the rest are the parameters you selected.
 
-![Raw data columns example](./attachments/image-20231227-111830.png)
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Raw data columns example</p></figcaption></figure>
 
-For more information about reading and understanding the raw data file [follow our next article](./save-iot-data-to-csv-file/columns-in-csv-file.md).
+For more information about reading and understanding the raw data file [follow our next article](columns-in-csv-file.md).
 
 We hope this new tool will prove helpful for your business and your customers. It should allow you to create many new solutions using raw data files. Remember, even the smallest details can lead to big discoveries. Happy exploring!
