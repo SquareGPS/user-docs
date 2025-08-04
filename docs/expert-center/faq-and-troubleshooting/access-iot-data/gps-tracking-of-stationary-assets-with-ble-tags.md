@@ -21,8 +21,10 @@ Now let's examine the procedure for implementing a real-world case study - track
 Follow these steps to configure your device on sending BLE beacon data to the platform:
 
 1. Download [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions). This application streamlines many settings at once. You can save the preset and use it on the FOTA Web to configure other devices, making the process more convenient.
-2. In the System tab, set the Data Protocol to Codec 8 Extended. This enables the device to work with BLE tags.![How to configure your device](attachments/image-20230619-101210.png)
-3. Enable Bluetooth in the Bluetooth settings and choose either "Enable (hidden)" or "Enable (visible)". Otherwise, Bluetooth will be disabled.![How to configure your device](attachments/browser_ivSpIqPwoh.png)
+2. In the System tab, set the Data Protocol to Codec 8 Extended. This enables the device to work with BLE tags.\
+   ![How to configure your device](attachments/image-20230619-101210.png)
+3. Enable Bluetooth in the Bluetooth settings and choose either "Enable (hidden)" or "Enable (visible)". Otherwise, Bluetooth will be disabled.\
+   ![How to configure your device](attachments/browser_ivSpIqPwoh.png)
 4. In Bluetooth 4.0 settings, disable Non-Stop Scan and configure Update Frequency and Scan Duration as 30 seconds. These settings optimize BLE scanning with the device.
 5. In Bluetooth 4.0 settings Advanced Mode Settings, load the EYE Sensor preset according to packet settings in the EYE app.
 6. Configure the MAC address of the sensor.
@@ -33,7 +35,7 @@ The device is now ready to transmit data from nearby tags to the platform.
 
 On the platform side, there's a BLE beacon data entry object:
 
-```
+```json
 {
   "tracker_id": 10181654,
   "hardware_id": "7cf9501df3d6924e423cabcde4c924ff",
@@ -65,17 +67,19 @@ There are two API calls that allow you to get all the necessary information abou
 1. The first call retrieves [historical data from devices](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/beacon/index#read). You can set the "from" and "to" parameters for obtaining data during a specific period about connected BLE beacons. Since we need the information from the BLE tags' point of view, i.e., the trailers, let's request the information using the "beacons" parameter.\
    Request example:
 
-```
+{% code overflow="wrap" %}
+```sh
 curl -X POST 'https://api.navixy.com/v2/beacon/data/read' \
     -H 'Content-Type: application/json' \
     -d '{"hash":"59be129c1855e34ea9eb272b1e26ef1d","from": "2023-04-17 17:00:00","to": "2023-04-17 18:00:00","beacons": ["7cf9501df3d6924e423cabcde4c924ff"]}'
 ```
+{% endcode %}
 
 This will show which devices were in the vicinity of this BLE beacon during period.
 
 Reply:
 
-```
+```json
 {
   "list": [
     {
@@ -111,17 +115,19 @@ Reply:
 
 Request example:
 
-```
+{% code overflow="wrap" %}
+```sh
 curl -X POST 'https://api.navixy.com/v2/beacon/data/last_values' \
     -H 'Content-Type: application/json' \
     -d '{"hash":"59be129c1855e34ea9eb272b1e26ef1d", "trackers": [10181654], "skip_older_than_seconds": 1200}
 ```
+{% endcode %}
 
 This will provide information that there's a trailer "7cf..." next to the device.
 
 Response:
 
-```
+```json
 {
   "list": [
     {
@@ -148,15 +154,17 @@ We've already gathered historical data using the first of the presented API call
 1. API call [track/list](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#list) to get trip information for the period. This will provide general information about the trips, such as where and when they started and ended, maximum speed, mileage, and more.\
    Request:
 
-```
+{% code overflow="wrap" %}
+```sh
 curl -X POST 'https://api.navixy.com/v2/track/list' \
     -H 'Content-Type: application/json' \
     -d '{"hash": "59be129c1855e34ea9eb272b1e26ef1d", "tracker_id": 10181654, "from": "2023-04-17 17:00:00","to": "2023-04-17 18:00:00", "split": true, "limit": 3000, "filter": true, "include_gsm_lbs": true}'
 ```
+{% endcode %}
 
 Response:
 
-```
+```json
 {
     "id": 11672,
     "start_date": "2023-04-17 17:05:42",
@@ -177,15 +185,17 @@ Response:
 From this data, we can see that the trip lasted nearly 35 minutes (end\_date - start\_date), with an average speed of 49 km/h and a maximum speed of 62 km/h. The trip length was 18.91 km. This information allows us to determine how much to pay the driver for transporting the cargo, whether the contractual speed was exceeded, and other details. Additionally, the trip length can be used in the future to calculate the number of kilometers until the next maintenance of the trailer. 2. If you want a detailed track record of the trailer where the beacon is installed for displaying it in a report, for example, you can use the [track/read](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#read) request. This will give us data on all the points received by the platform during the journey.\
 Request:
 
-```
+{% code overflow="wrap" %}
+```sh
 curl -X POST 'https://api.navixy.com/v2/track/read' \
     -H 'Content-Type: application/json' \
     -d '{"hash": "22eac1c27af4be7b9d04da2ce1af111b", "tracker_id": 10181654, "from": "2023-04-17 17:00:00","to": "2023-04-17 18:00:00", "filter": true}'
 ```
+{% endcode %}
 
 Response:
 
-```
+```json
 {
     "success": true,
     "limit_exceeded": true,
@@ -223,7 +233,7 @@ You can also use the RSSI parameter to determine if the seat is located inside t
 
 ### Agricultural machinery
 
-Suppose your client has agricultural machinery that can be connected to various equipment. How can you track which tractor is using a seeder and which has a plow? This information will help you understand the frequency and extent of tool usage, and also determine their current location. This way, workers can spend more time working in the field rather than searching for equipment. To achieve this, install devices on tractors and combines, as well as in tool storage areas. Place one BLE beacon on each tool in a secure spot where it is difficult to remove, preventing it from getting lost during work. Next, to determine how long the tools have been in use, query the  `beacon/read`  API call. The information from the response will be helpful, just like with the trailers in our detailed example. To determine the location of a specific tool, query  `beacon/last_values`  with a search for beacons to identify where and on which device the tool is installed. This approach ensures efficient tracking and utilization of your agricultural equipment, ultimately increasing productivity.
+Suppose your client has agricultural machinery that can be connected to various equipment. How can you track which tractor is using a seeder and which has a plow? This information will help you understand the frequency and extent of tool usage, and also determine their current location. This way, workers can spend more time working in the field rather than searching for equipment. To achieve this, install devices on tractors and combines, as well as in tool storage areas. Place one BLE beacon on each tool in a secure spot where it is difficult to remove, preventing it from getting lost during work. Next, to determine how long the tools have been in use, query the `beacon/read` API call. The information from the response will be helpful, just like with the trailers in our detailed example. To determine the location of a specific tool, query `beacon/last_values` with a search for beacons to identify where and on which device the tool is installed. This approach ensures efficient tracking and utilization of your agricultural equipment, ultimately increasing productivity.
 
 ### Use on construction sites
 
