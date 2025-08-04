@@ -66,7 +66,7 @@ When selecting a GPS tracker, people can choose between portable and powered dev
 
 The primary difference between an OBD GPS tracking device and a hardwired one comes down to installation. Hardwired devices generally require professional installation since they need to be connected to the vehicle’s battery through the fuse box for power. In comparison, an OBD tracker plugs directly into the OBDII port, meaning installation can be completed by anyone in seconds. This is also why OBD2 trackers are often referred to as “plug-and-play” devices.
 
-In addition to ease of installation, OBD tracking devices also transmit rich vehicle data since they can directly access the [CAN bus](https://www.navixy.com/docs/academy/can-bus/can-and-alternatives/). This allows usage-based insurance, rental car companies, and corporate fleets to receive such information such as engine hours and fuel consumption.
+In addition to ease of installation, OBD tracking devices also transmit rich vehicle data since they can directly access the CAN bus. This allows usage-based insurance, rental car companies, and corporate fleets to receive such information such as engine hours and fuel consumption.
 
 Finally, since professional installation isn’t required, OBD devices can often be more affordable than other trackers in the long run.
 
@@ -100,7 +100,7 @@ Many businesses use [geofences](https://www.navixy.com/blog/improve-fleet-oversi
 
 Many fleets are concerned with safety, which is why OBD trackers are often used to improve driver behavior behind the wheel. For instance, many of these devices can detect harsh braking events, which a fleet manager can use to both monitor vehicle wear and determine which drivers have the most violations. Certain OBD devices are even capable of monitoring speed and detecting crashes for additional alerts.
 
-Navixy’s [Eco Driving](https://www.navixy.com/docs/user/web-interface-docs/fleet/eco-driving/) system offers adjustable penalty settings for speeding and harsh driving to help companies score employees on safety. They can then address which drivers need coaching in which areas.
+Navixy’s [Eco Driving](https://docs.navixy.com/user-guide/eco-driving) system offers adjustable penalty settings for speeding and harsh driving to help companies score employees on safety. They can then address which drivers need coaching in which areas.
 
 ### Harsh driving
 
@@ -120,7 +120,7 @@ Excessive [fuel usage](https://www.navixy.com/blog/remote-fuel-level-monitoring/
 
 ### Fuel level
 
-OBD devices can communicate with equipment that monitors vehicle [fuel levels](https://www.navixy.com/docs/academy/fuel-control/fuel-level-sensors-types/), including capacitive, resistive, and sensors. A drastic change in level could indicate potential theft, giving a company more time to take action.
+OBD devices can communicate with equipment that monitors vehicle [fuel levels](../fuel-management/installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/), including capacitive, resistive, and sensors. A drastic change in level could indicate potential theft, giving a company more time to take action.
 
 ### Fuel consumption
 
@@ -136,7 +136,7 @@ Fleets of all sizes often choose to secure their vehicles by requiring drivers t
 
 ### Bluetooth
 
-[Bluetooth](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/bluetooth-sensors/) support connects OBD trackers with a multitude of auxiliary devices. In addition to driver ID, BLE beacons can include temperature sensors, door open/close status, and tire pressure monitors, to name a few. Combining these wireless devices with the convenience of an OBD2 tracker means having a robust telematics system without costly or complicated installation.
+[Bluetooth](https://docs.navixy.com/user-guide/bluetooth-sensors) support connects OBD trackers with a multitude of auxiliary devices. In addition to driver ID, BLE beacons can include temperature sensors, door open/close status, and tire pressure monitors, to name a few. Combining these wireless devices with the convenience of an OBD2 tracker means having a robust telematics system without costly or complicated installation.
 
 ### Voice monitoring
 
@@ -172,7 +172,7 @@ To help businesses understand exact vehicle fuel usage, OBD2 trackers typically 
 
 ### Maintenance
 
-Keeping a fleet of cars, trucks, or vans in top condition requires staying on top of [maintenance](https://www.navixy.com/docs/user/web-interface-docs/fleet/maintenance/). Since OBD devices have access to CAN bus data, they can transmit key information like tire pressure, engine hours, RPMs, and more. This makes it possible to track when services like oil changes and tire rotations should be performed. By keeping vehicles in better condition, you can expect improved reliability and reduced repair costs.
+Keeping a fleet of cars, trucks, or vans in top condition requires staying on top of [maintenance](https://docs.navixy.com/user-guide/maintenance). Since OBD devices have access to CAN bus data, they can transmit key information like tire pressure, engine hours, RPMs, and more. This makes it possible to track when services like oil changes and tire rotations should be performed. By keeping vehicles in better condition, you can expect improved reliability and reduced repair costs.
 
 ## What are the different types of OBD trackers?
 
