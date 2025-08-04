@@ -56,7 +56,7 @@ Irrespective of the chosen flow meter and connection scheme, the installation pr
 
 7. **To prevent air in the return pipe, it is recommended to install a fuel deaeration system.** By utilizing a deaerator, air bubbles can be effectively eliminated from the fuel line, ensuring accurate measurements and uninterrupted flow through the measuring chamber.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 _Drilling into the vehicle frame is strictly prohibited when fitting the mounting plate for the flow meter. In case the use of bolts is not feasible for attaching the mounting plate, spot welding is an acceptable alternative._
 {% endhint %}
 

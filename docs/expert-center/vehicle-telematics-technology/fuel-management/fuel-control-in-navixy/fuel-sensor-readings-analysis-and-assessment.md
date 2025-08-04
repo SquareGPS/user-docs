@@ -18,7 +18,7 @@ We'll explore these factors and provide expert guidance on effectively leveragin
 Accurate fuel calculations require reliable data from fuel sensors. This includes information on the actual fuel level in the tank, which goes to the platform in different format. The specific data format used by a sensor will depend on the manufacturer and the application.:
 
 * [**OEM fuel level sensors**](../installation-and-initial-configuration-of-fuel-control-devices/oem-fuel-level-sensors.md) are typically calibrated to report the fuel level in liters or percents. This data is sent to the platform in a digital format, usually using CAN. The data could be also retrieved via OBD.
-* [**Analog Sensors**](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2381021200/Fuel+level+sensor+installation#Analogue-signal) send data in a continuous stream of electrical signals. The voltage of the signal is proportional to the level of fuel in the tank.
+* [**Analog Sensors**](../installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/fuel-level-sensor-installation.md#analogue-signal) send data in a continuous stream of electrical signals. The voltage of the signal is proportional to the level of fuel in the tank.
 * [**Digital Sensors**](../installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/) send raw data in discrete packets, usually using a serial communication protocol such as RS-485 or RS-232.
 
 Fuel level sensors differ in terms of accuracy. When choosing a fuel level for data analysis, it's important to take into account factors such as price, installation process, and the desired level of accuracy. Below is a concise comparison of various sensor types.
@@ -57,7 +57,7 @@ What is important to know about calibration table fulfillment - **the number of 
 
 * **For the OEM fuel level sensors** with data in percentage you have to enter 2 entries: for the lowest level of fuel and for the full tank (100%). Here is an example of calibration
 
-![](../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/attachments/image-20231219-115336.png)
+![](attachments/image-20231219-115336.png)
 
 * **For the additional fuel level sensors** (Analog and Digital) calibration table should be fulfilled according to the manufacturer recommendation. The number of entries depends on the fuel tank capacity, but we strongly recommend to have at least 10 entries for the tanks with capacity less than 500 litres (see details in the table below):
 
@@ -69,7 +69,7 @@ What is important to know about calibration table fulfillment - **the number of 
 
 Here is the example of the good calibration table
 
-![](../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/attachments/image-20231219-113955.png)
+![](attachments/image-20231219-113955.png)
 
 > \[!INFO] There is no need to calibrate OEM sensors that transmit data in liters.
 

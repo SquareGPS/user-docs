@@ -25,7 +25,7 @@ If your device responds with an older version, you need to update the firmware, 
 3. The device will automatically update the firmware.
 
 {% hint style="info" %}
-If you've already registered your device on the platform and then updated the firmware, you'll need to resend the activation commands, which are described later. If your panel includes an SMS gateway, you can utilize the 'Retry Activation' feature in the [Admin panel from the device card.](https://docs.navixy.com/admin-panel/basic-operations)
+If you've already registered your device on the platform and then updated the firmware, you'll need to resend the activation commands, which are described later. If your panel includes an SMS gateway, you can utilize the 'Retry Activation' feature in the [Admin panel from the device card.](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/basic-operations)
 {% endhint %}
 
 ### Device activation and configuration
@@ -39,7 +39,7 @@ Otherwise, here are step-by-step instructions for configuring your Jimi IoT devi
 1. Find the device’s IMEI number. Then, log in to the platform and navigate to the user account where you want to add the new device. Click the 'Device Activation' button.
 2. Enter the device's name, assign it to a group if necessary, and type your device's model into the search line (for example, Jimi JC261).
 
-![Device configuration](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/attachments/image-20231023-134921.png)
+![Device configuration](attachments/image-20231023-134921.png)
 
 * Send the following SMS commands to your tracker (this is why we needed a SIM card with SMS functionality):
   * `COREKITSW,0#`
@@ -47,7 +47,7 @@ Otherwise, here are step-by-step instructions for configuring your Jimi IoT devi
   * `APN,<apn_name>,<apn>,,,,,,<user>,,<password>,,,,#`
 
 {% hint style="info" %}
-APN settings depend on your device’s SIM card and should be entered without <> signs. You can obtain these settings from your GSM provider. For example, if your APN is “internet” and both the APN user and password are empty, input as follows: APN,internet,internet,,,,,,,,,,,,# - There are 12 commas after apn\_name and apn, which are identical in this case.
+Note: APN settings depend on your device’s SIM card and should be entered without <> signs. You can obtain these settings from your GSM provider. For example, if your APN is “internet” and both the APN user and password are empty, input as follows: APN,internet,internet,,,,,,,,,,,,# - There are 12 commas after apn\_name and apn, which are identical in this case.
 {% endhint %}
 
 2. Check that the device is online several minutes after sending the SMS commands. If the device is not online, ensure the SIM card has sufficient credit and can receive SMS commands. You can also check the full list of [potential issues and solutions here](../../../../faq-and-troubleshooting/gps-devices/add-and-manage-devices/troubleshoot-device-activation.md).
@@ -67,10 +67,12 @@ APN settings depend on your device’s SIM card and should be entered without <>
 * `UPLOADSW,RAPIDTURN,ON`
 * `SERVER,0,<server>,47755#` - reboots and applies settings
 
-> \[!INFO] Replace with your device’s IMEI and with the server IP, both without <> signs.
->
-> * For EU server: 52.57.1.136
-> * For US server (if your account ID starts with 1000): 13.52.37.2
+{% hint style="info" %}
+Replace with your device’s IMEI and with the server IP, both without <> signs.
+
+* For EU server: 52.57.1.136
+* For US server (if your account ID starts with 1000): 13.52.37.2
+{% endhint %}
 
 4. Send command with timezone:
 
@@ -79,7 +81,7 @@ APN settings depend on your device’s SIM card and should be entered without <>
 
 5. After setting the timezone, open the devices and settings tab and change the device’s timezone to match the one you've set on your device.
 
-![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/attachments/image-20231030-145358.png)
+![](attachments/image-20231030-145358.png)
 
 ## Configuration Tips
 

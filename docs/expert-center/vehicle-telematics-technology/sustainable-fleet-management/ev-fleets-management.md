@@ -102,7 +102,7 @@ Telematics parameters can play a significant role in facilitating effective main
 * **Battery Health Monitoring:** Telematics parameters can provide detailed information about the State of health (SoH) and overall performance. By monitoring these parameters, maintenance professionals can identify any anomalies or degradation in the battery's performance. This helps in scheduling timely maintenance, optimizing charging practices, and ensuring the longevity and efficiency of the battery.
 * **Motor Performance Analysis**: Telematics parameters can provide comprehensive data on the motor's operating conditions, including temperature, voltage, current, and power consumption. By analyzing this data, maintenance professionals can assess the motor's performance and detect any potential issues or deviations. Proactive maintenance and troubleshooting can then be conducted to prevent motor failures and optimize its efficiency.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="250"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="250"><figcaption><p>Teltonika GPS tracker AVL 1151 to monitor State of Health</p></figcaption></figure>
 
 ## Wrapping up
 

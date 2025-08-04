@@ -8,7 +8,7 @@ To learn more about installation, powering a dash cam, and how to connect additi
 
 First, address where to place the dash cam. Most often, managers will choose to mount the device on the windshield since this generally allows for recording both the driver and the road ahead. In addition to the windshield, it’s also possible to secure cameras to the dashboard, hence the name. In most cases, adhesive tape will secure the device in place, although some manufacturers may instead use suction cups or another method. Just be sure to clean the surface before mounting to ensure it adheres properly.
 
-![Dash cam installation](../../expert-center/vehicle-telematics-technology/video-telematics/attachments/imagen-20231019-230612.png)
+![Dash cam installation](attachments/imagen-20231019-230612.png)
 
 It’s also crucial to choose a spot that won’t impair the driver’s view of the road. If the dash cam is obstructive, the person behind the wheel won’t just be putting themselves at risk of a collision, but also those around them. Moreover, a driver could face a traffic citation depending on local laws and regulations. If unsure what restrictions are in place, check with the division of motor vehicles for the applicable city, state, province, or precinct.
 
@@ -38,7 +38,7 @@ Although dashcams primarily record and store video, they’re capable of even mo
 
 First, if the dash cam is compatible with ADAS technology, it will be required to calibrate these features for accuracy and performance. If this step is ignored, the system may emit alerts when no hazard is present or worse, fail to recognize and warn a driver of a dangerous scenario.
 
-In order for these safety features to function properly, the camera must be positioned at the angle specified by the instructions. Once this is complete, check that any additional sensors are connected to the corresponding port in the fuse box.\
+In order for these safety features to function properly, the camera must be positioned at the angle specified by the instructions. Once this is complete, check that any additional sensors are connected to the corresponding port in the fuse box.  
 When it’s time to calibrate, consult the instructions once again. Jimi IoT’s JC400 dash cam, for example, has a QR code that will download a calibration tool on a mobile device. This should allow the installer to confirm that all ADAS-related functions are working properly.
 
 Finally, businesses hoping to benefit from ancillary capabilities like engine cutoff, SOS buttons, fuel sensors, and more can proceed to install these devices according to the included instructions. Though some may need to be connected to the fuse box, others can simply be plugged into the dash cam itself. Along with detailed directions, the installation guide should also provide a wiring diagram or schematics to reference.

@@ -40,7 +40,7 @@ Because the MQTT protocol aims to be a protocol for resource-constrained and IoT
 
 MQTT is considered a lightweight protocol because all its messages have a small code footprint. The packet consists of a 2-byte fixed header + a variable header and a payload. In this first 2-byte, the fixed header will be always present in all the packets and the other two, variable header and payload are not always present.
 
-![MQTT message format](../../expert-center/vehicle-telematics-technology/connectivity/attachments/imagen-20231019-231143.png)
+![MQTT message format](attachments/imagen-20231019-231143.png)
 
 Out of the two-byte fixed header, the first byte is the control field. This 8-bit control field Is divided into two 4 bit fields. The first 4 MSB bits are the command type field. This type determines the action that will be performed: the client wants to subscribe to the topic, a new message is published for subscribers and others.
 
@@ -115,7 +115,7 @@ To configure the Xirgo & BCE device on working with MQTT:
 
 * Inside FMSET: Choose connectivity → Telemetry server → MQTT broker address settings) specify host: [mqtt.eu.navixy.com](http://mqtt.eu.navixy.com/) for EU server and [mqtt.us.navixy.com](http://mqtt.eu.navixy.com/) for US server, port 1883.
 * And  add the default user in MQTT Security -> Authorization\
-  ![MQTT device configuration](../../expert-center/vehicle-telematics-technology/connectivity/attachments/imagen-20231019-231034.png)
+  ![MQTT device configuration](attachments/imagen-20231019-231034.png)
 
 ### Globalmatix MQTT device configuration
 

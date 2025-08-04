@@ -8,7 +8,7 @@ In this document, you'll learn the main concept of the master-slave feature and 
 
 ### Configuring the master-slave system for reports and alerts: Key parameters on Syntrack and Navixy
 
-To ensure the effectiveness of the master-slave configuration, it’s important to set up several key parameters. These settings help control the timing of device interactions and alert generation.&#x20;
+To ensure the effectiveness of the master-slave configuration, it’s important to set up several key parameters. These settings help control the timing of device interactions and alert generation.
 
 The configuration is managed through the Syntrack tool, making it simple to tailor the system to your business needs. Furthermore, Navixy integration ensures accurate visualization and performance on the platform, providing useful alerts, helping the customer to act if any event occurs.
 
@@ -71,8 +71,8 @@ With that in place, you’ll be notified as soon as anything unexpected happens�
 
 Managing alerts in a growing fleet shouldn’t mean more manual work. Whether you're switching out devices often or dealing with complex conditions in the field, Navixy gives you two powerful ways to stay ahead:
 
-* [Navixy API tools](https://developers.navixy.com/docs/navixy-api/user-api/backend-api/guides/rules-notifications/work-with-notifications) help you automate at scale.&#x20;
-* [IoT Logic](https://www.navixy.com/iot-logic/) offers flexibility for complex scenarios.&#x20;
+* [Navixy API tools](broken-reference) help you automate at scale.
+* [IoT Logic](https://www.navixy.com/iot-logic/) offers flexibility for complex scenarios.
 
 **Final thoughts**
 

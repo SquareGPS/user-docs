@@ -120,7 +120,7 @@ Excessive [fuel usage](https://www.navixy.com/blog/remote-fuel-level-monitoring/
 
 ### Fuel level
 
-OBD devices can communicate with equipment that monitors vehicle [fuel levels](https://www.navixy.com/docs/academy/fuel-control/fuel-level-sensors-types/), including capacitive, resistive, and sensors. A drastic change in level could indicate potential theft, giving a company more time to take action.
+OBD devices can communicate with equipment that monitors vehicle [fuel levels](../fuel-management/installation-and-initial-configuration-of-fuel-control-devices/fuel-level-sensors/), including capacitive, resistive, and sensors. A drastic change in level could indicate potential theft, giving a company more time to take action.
 
 ### Fuel consumption
 

@@ -6,4 +6,3 @@ Video telematics is revolutionizing fleet management and driver safety. By integ
 
 * [Dash cam installation](dash-cam-installation.md)
 * [Configuration guides](configuration-guides/)
-* [Troubleshooting](../../expert-center/vehicle-telematics-technology/video-telematics/troubleshooting.md)

@@ -95,13 +95,13 @@ Unlike hardware trackers, Navixy mobile apps transmit already processed LBS data
 
 The Navixy tracking platform seamlessly supports the native integration of GSM cell-based location and LBS for numerous tracking devices. In most scenarios, GPS and GSM technologies work together in tandem. When GPS data is unavailable, the system automatically switches to LBS as a reliable backup. For instance, if a car enters an underground parking lot, the observer can view both the last known accurate GPS location and the current GSM-based location (within a certain range of accuracy).
 
-![LBS settings in Navixy](../../expert-center/vehicle-telematics-technology/positioning-techniques/attachments/imagen-20230727-154138.png)
+![LBS settings in Navixy](attachments/imagen-20230727-154138.png)
 
 LBS detection radius depends on the area where the device is located and the number of base stations or Wi-Fi points. If the device is in a rural area and cannot locate, it is recommended to increase the LBS radius so that remote base stations also contribute to the device's location.
 
 In a city where the cellular network has densely built base stations, the LBS range needs to be kept small, as nearby base stations will be sufficient for location and accuracy will be high.
 
-![LBS settings in Navixy](../../expert-center/vehicle-telematics-technology/positioning-techniques/attachments/imagen-20231019-225938.png)
+![LBS settings in Navixy](attachments/imagen-20231019-225938.png)
 
 Basically, this is how LBS tracking works. It's a great positioning tool and a valid alternative to GPS tracking when the latter is not available or unreasonable to use. We hope you found the article useful.
 

@@ -12,7 +12,9 @@ The odometer counter and the sum of trip lengths in the report are different ind
 
 The odometer takes into account absolutely all GPS points that the device sends. If the car is parked in an area of poor GPS signal, the coordinates will start to drift and the tracker will start to jump a little on the map around the parking spot. The platform will most likely filter this data and you will not see it in your travel history. But they will be counted in the odometer counter.
 
-> \[!INFO] Modern GPS devices have settings to freeze coordinates while parking. If you set up this function correctly, it will negate coordinate drift.
+{% hint style="info" %}
+Modern GPS devices have settings to freeze coordinates while parking. If you set up this function correctly, it will negate coordinate drift.
+{% endhint %}
 
 If the odometer readings on the platform are lower than the physical odometer readings in the car, then the problem is most likely in the "Tracking mode" settings.
 
@@ -20,11 +22,13 @@ If the tracker transmits data infrequently, corners will be cut and part of the 
 
 Configure the tracker to transmit your location as often as possible (including angle and distance conditions) to minimize possible impact.
 
-![](../../expert-center/faq-and-troubleshooting/sensors/attachments/image-20230728-103318.png)
+![](attachments/image-20230728-103318.png)
 
-> \[!INFO] In addition, the odometer readings in a car are not always 100% accurate. Manufacturers allow an error of up to 10%, but usually it fluctuates somewhere around 5%. Usually, upwards.
+{% hint style="info" %}
+In addition, the odometer readings in a car are not always 100% accurate. Manufacturers allow an error of up to 10%, but usually it fluctuates somewhere around 5%. Usually, upwards.
 
-> \[!INFO] Also, worn tires and non-standard disks can affect, since mileage is calculated from the speed of the wheels rotation.
+Also, worn tires and non-standard disks can affect, since mileage is calculated from the speed of the wheels rotation.
+{% endhint %}
 
 If it is important to you that the readings on the platform match the data of the physical odometer, you can set up automatic correction.
 
@@ -35,9 +39,11 @@ But first, you need to collect some statistics in order to understand what value
 
 Now all readings will be automatically corrected according to your settings. Most likely, a small difference will still be observed, but it will not be critical and you can simply check the data and update the counter every few months.
 
-![Mileage and odometer](../../expert-center/faq-and-troubleshooting/sensors/attachments/image-20231130-083736.png)
+![Mileage and odometer](attachments/image-20231130-083736.png)
 
-> \[!INFO] If your tracker is connected to the car via CAN bus, then you can set up the synchronization of the odometer on the platform with the real car odometer. Just create the corresponding CAN sensor and select it as the odometer source in the settings panel. Note that you will still need to manually enter the current mileage first.
+{% hint style="info" %}
+If your tracker is connected to the car via CAN bus, then you can set up the synchronization of the odometer on the platform with the real car odometer. Just create the corresponding CAN sensor and select it as the odometer source in the settings panel. Note that you will still need to manually enter the current mileage first.
+{% endhint %}
 
 ### Trips in reports
 
@@ -47,4 +53,6 @@ First of all, because it is only trips that are taken into account, and not all 
 
 But most often, this happens due to incorrect settings for "Parking detection". The easiest way to check this is to display all trips for the day on the map and see if there are large gaps between them and if each trip is a continuation of the previous one.
 
-> \[!INFO] If necessary, read the [Parking detection](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/parking-detection/) instructions in order to correct possible problems.
+{% hint style="info" %}
+If necessary, read the [Parking detection](https://docs.navixy.com/user-guide/parking-detection) instructions in order to correct possible problems.
+{% endhint %}

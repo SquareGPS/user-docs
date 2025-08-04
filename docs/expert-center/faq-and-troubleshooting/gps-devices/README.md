@@ -1,2 +1,2 @@
-# GPS devices
+# gps-devices
 

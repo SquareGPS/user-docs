@@ -1,2 +1,2 @@
-# Addc and manage devices
+# add-and-manage-devices
 

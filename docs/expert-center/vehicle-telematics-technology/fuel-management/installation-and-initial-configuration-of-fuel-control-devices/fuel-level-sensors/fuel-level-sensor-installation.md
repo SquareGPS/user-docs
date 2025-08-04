@@ -147,7 +147,9 @@ GPS trackers will transmit the values to the GPS tracking system in volts (e.g. 
 
 **Specifications:** in this case fuel level data is transmitted to the GPS tracker as an impulse frequency (for instance, in the range from 30 Hz to 2000 Hz). The higher the fuel level, the higher the frequency is.
 
-> \[!INFO] For instance, 30 Hz stands for an empty tank, 2000 Hz stands for a full tank. A tank calibration is required to convert frequency into liters or gallons.
+{% hint style="info" %}
+For instance, 30 Hz stands for an empty tank, 2000 Hz stands for a full tank. A tank calibration is required to convert frequency into liters or gallons.
+{% endhint %}
 
 Data modulation techniques work just like the well-known FM radio. In this case an analog sensor acts as an AM-radio, where the signal is amplitude modulated ([More on amplitude modulation here](https://en.wikipedia.org/wiki/Amplitude_modulation)). Frequency modulation for fuel level sensors emerged after analogue modulation but before digital signals. It is more resistant to noise than the analogue signal, but not as noise-free as digital signals, and is basically not used anymore.
 

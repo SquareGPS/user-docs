@@ -89,8 +89,6 @@ For vehicle trackers specifically, it is essential to ensure that it is correctl
 
 <summary>Incorrect device ID or phone number is specified on the platform</summary>
 
-
-
 Some devices may have additional IDs aside from the IMEI. These IDs are sent to the platform in the initial login packet. If the ID in the login packet does not match the one specified on the platform, your device will not be registered, and its packets will be rejected.
 
 * Double check the correctness of the specified ID.
@@ -140,8 +138,6 @@ However, if using a password is not required, it is advised to remove the custom
 
 <summary>Mistakes in manually sent commands</summary>
 
-
-
 Makes in manually sent commands are quite common and can cause issues. When manually activating a device, commands often contain multiple parameters. Even a single mistake in a comma or sign can render the entire command incorrect. Additionally, not every device model or SIM card can notify you of these errors. It is crucial to carefully check the commands you send to your device or the settings you have configured.
 
 Among the important settings for establishing the initial connection of the tracker are the IP address, port, and APN settings.
@@ -177,7 +173,7 @@ In such scenarios, you'll need assistance from the technical support team at [su
 
 </details>
 
-## SIM card
+### SIM card
 
 Here we have collected all known cases with problems on the SIM card side. To solve them you need to contact your mobile operator.
 
@@ -292,7 +288,7 @@ If your devices regularly travel to other countries and you're using this type o
 
 </details>
 
-## Platform
+### Platform
 
 Here, you'll find potential issues that could arise on the platform's end. If you've already checked all other possibilities and everything is set up correctly, the problem might be originating from the installed SMS gateway used for sending commands or in other settings of the platform.
 
@@ -302,7 +298,7 @@ Here, you'll find potential issues that could arise on the platform's end. If yo
 
 If your panel's demo period has expired, you'll need to set up your own SMS gateway in order to use the automatic device activation feature. Without an SMS gateway, registration commands won't be sent from the platform.
 
-You can refer [to our instructions](https://docs.navixy.com/admin-panel/messaging-gateways#Messaginggateways-SMSgateway) to understand the requirements for installing an SMS gateway on your panel.
+You can refer [to our instructions](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/messaging-gateways#sms-gateway) to understand the requirements for installing an SMS gateway on your panel.
 
 </details>
 

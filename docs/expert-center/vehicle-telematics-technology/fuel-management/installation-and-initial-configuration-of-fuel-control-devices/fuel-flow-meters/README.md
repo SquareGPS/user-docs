@@ -11,19 +11,19 @@ The device not only measures the flow rate of fuels, but also of various liquids
 
 A flow meter is a device used to directly measure the volume of fuel consumption. It features a ring-type measuring chamber, enabling accurate measurements.
 
-![](https://www.navixy.com/wp-content/uploads/2019/11/fuel-flow-meter_units.png)
+![Fuel flow meters - unit structure](https://www.navixy.com/wp-content/uploads/2019/11/fuel-flow-meter_units.png)
 
 Flow meter operation is primarily founded upon the measurement of fuel volume traversing a designated chamber. This chamber serves as the pivotal component, influencing both accuracy and robustness of the flow meter. Let's explore how all these elements intricately intertwine:
 
-![](https://www.navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-2.png)
+![Fuel flow meter - measurement chamber](https://www.navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-2.png)
 
 1. The pressure in the flow meter causes the ring to smoothly slide along the inner surface of the measuring chamber, simultaneously sliding along the web. This seamless movement facilitates accurate measurements.
 
-![](https://www.navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-3.png)
+![Fuel flow meter - ring-type measurement chamber](https://www.navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-3.png)
 
 2. **The ring expels the fluid from inside and outside the chamber through the outlet, directing it towards the outlet nozzle.**
 
-![Measuring chamber operating scheme](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-51.png)
+![Fuel flow meter - measuring chamber operating scheme](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-51.png)
 
 3. **One turn of the ring pushes out the volume of fluid equal to the volume of the chamber.** At the same time, the electronic board of the flow meter makes one output impulse. Thus, when fuel passes through a flow meter, an electrical impulse is formed.
 

@@ -35,7 +35,7 @@ Various methods have been employed so far to measure fuel level: resistive film,
 
 The disadvantage of the resistive contact-based sensor is the wear and tear of the sensor due to the sliding contact inside the sensor elements that also leads to reduction of the sensor’s durability.
 
-The basic principle for [capacity based fuel level sensing](https://docs.navixy.com/user-guide/fuel-level-sensor) is shown on the figure below. A parallel-plate capacitor with plates that tightly adhere to the outside wall of the tank and extend to near the bottom of the tank. As the level of the fuel changes, the amount of dielectric material between the plates changes, thus producing a change in capacitance. A second capacitive sensor located near the bottom acts as a reference channel to produce ratiometric measurements. The sensor and reference capacitances are converted to digital and the data is transmitted via the I2C port to the host PC or microcontroller.
+The basic principle for [capacity based fuel level sensing](types-of-fuel-level-sensors.md#capacitive-fuel-sensor) is shown on the figure below. A parallel-plate capacitor with plates that tightly adhere to the outside wall of the tank and extend to near the bottom of the tank. As the level of the fuel changes, the amount of dielectric material between the plates changes, thus producing a change in capacitance. A second capacitive sensor located near the bottom acts as a reference channel to produce ratiometric measurements. The sensor and reference capacitances are converted to digital and the data is transmitted via the I2C port to the host PC or microcontroller.
 
 ![FLS - fuel level sensor capacity](https://www.navixy.com/wp-content/uploads/2020/02/3.png)
 

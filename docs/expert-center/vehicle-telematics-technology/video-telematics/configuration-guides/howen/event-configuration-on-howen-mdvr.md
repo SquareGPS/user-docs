@@ -1,6 +1,6 @@
 # Event configuration on Howen MDVR
 
-Howen devices can provide various types of events to the platform, including ADAS (Advanced Driver Assistance Systems), DMS (Driver Monitoring System), and other alerts. While these events may not include video footage, you can configure custom notifications using the [state field values alert type](https://docs.navixy.com/user-guide/state-field-value). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://docs.navixy.com/user-guide/report-on-all-events).
+Howen devices can provide various types of events to the platform, including ADAS (Advanced Driver Assistance Systems), DMS (Driver Monitoring System), and other alerts. While these events may not include video footage, you can configure custom notifications using the [state field values alert type](https://docs.navixy.com/user-guide/state-field-value/). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://docs.navixy.com/user-guide/report-on-all-events).
 
 ## Event code types
 
@@ -32,9 +32,9 @@ Let's walk through setting up an alert for lane departure warnings:
 
 1. Create a new alert
 2. Select "State Field Value" as the alert type\
-   ![Live example - State field value alert rule type](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20240417-091335.png)
+   ![Live example - State field value alert rule type](attachments/image-20240417-091335.png)
 3. In the settings tab:\
-   ![Live example - State field and expected value settings](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20240417-091116.png)
+   ![Live example - State field and expected value settings](attachments/image-20240417-091116.png)
 
 * State Field: `sub_event_code`
 * Expected Value: `30_2` (lane departure warning code)
@@ -51,8 +51,9 @@ The following tables provide lists of supported event codes on Howen devices. Al
 
 <summary>Input triggering codes</summary>
 
-| 4\_0  | Close door                   |
+| Code  | Event                        |
 | ----- | ---------------------------- |
+| 4\_0  | Close door                   |
 | 4\_1  | Emergency/Panic              |
 | 4\_2  | F-door opening               |
 | 4\_3  | M- door opening              |
@@ -79,13 +80,13 @@ The following tables provide lists of supported event codes on Howen devices. Al
 
 <summary>ADAS alarm codes</summary>
 
-| **Code** | **Event**                      |
-| -------- | ------------------------------ |
-| 30\_2    | Lane departure warning         |
-| 30\_4    | Pedestrian collision alarm     |
-| 30\_7    | FVS：Front vehicle start        |
-| 30\_17   | FCW：Forward collision warning  |
-| 30\_18   | HMW：Headway monitoring warning |
+| Code   | Event                          |
+| ------ | ------------------------------ |
+| 30\_2  | Lane departure warning         |
+| 30\_4  | Pedestrian collision alarm     |
+| 30\_7  | FVS：Front vehicle start        |
+| 30\_17 | FCW：Forward collision warning  |
+| 30\_18 | HMW：Headway monitoring warning |
 
 </details>
 
@@ -93,8 +94,9 @@ The following tables provide lists of supported event codes on Howen devices. Al
 
 <summary>DMS alarm codes</summary>
 
-| 30\_33 | Fatigue driving alarm             |
+| Code   | Event                             |
 | ------ | --------------------------------- |
+| 30\_33 | Fatigue driving alarm             |
 | 30\_34 | Phone call alarm                  |
 | 30\_35 | Smoking alarm                     |
 | 30\_65 | Eyes closed                       |
@@ -117,54 +119,7 @@ The following tables provide lists of supported event codes on Howen devices. Al
 
 <summary>General device alert codes</summary>
 
-| 0   | Unknown                                                                                                                                                                                                             |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Video lost                                                                                                                                                                                                          |
-| 2   | Motion detection                                                                                                                                                                                                    |
-| 3   | Video blind                                                                                                                                                                                                         |
-| 4   | Input trigger                                                                                                                                                                                                       |
-| 5   | Emergency alarm                                                                                                                                                                                                     |
-| 6   | Low speed alarm                                                                                                                                                                                                     |
-| 7   | Over speed alarm                                                                                                                                                                                                    |
-| 8   | Low temperature alarm                                                                                                                                                                                               |
-| 9   | High temperature alarm                                                                                                                                                                                              |
-| 10  | Humidity alarm                                                                                                                                                                                                      |
-| 11  | Parking over time                                                                                                                                                                                                   |
-| 12  | Acceleration alarm                                                                                                                                                                                                  |
-| 13  | GEO fencing                                                                                                                                                                                                         |
-| 14  | Electronic route                                                                                                                                                                                                    |
-| 15  | Abnormal open/close the door                                                                                                                                                                                        |
-| 16  | Storage abnormal                                                                                                                                                                                                    |
-| 17  | fatigue driving                                                                                                                                                                                                     |
-| 18  | Fuel consumption abnormal                                                                                                                                                                                           |
-| 19  | ACC off. (compatible with old firwmares. In old firmwares: During ACC-off delay, if ignites (et > st), will report “accoff ends”; in new firmware: During ACC-off delay, if ignites (et > st), will report “accon”) |
-| 20  | GPS module abnormal                                                                                                                                                                                                 |
-| 21  | Front panel open                                                                                                                                                                                                    |
-| 22  | Swipe card                                                                                                                                                                                                          |
-| 23  | IButton                                                                                                                                                                                                             |
-| 24  | Harsh acceleration                                                                                                                                                                                                  |
-| 25  | Harsh braking                                                                                                                                                                                                       |
-| 26  | Low speed warning                                                                                                                                                                                                   |
-| 27  | High speed warning                                                                                                                                                                                                  |
-| 28  | Voltage alarm                                                                                                                                                                                                       |
-| 29  | People counting                                                                                                                                                                                                     |
-| 30  | DMS and ADAS alarm ((Driver monitoring system, and Advanced Drivign Assistant System)                                                                                                                               |
-| 31  | "Acc on". Report once at boot                                                                                                                                                                                       |
-| 32  | Idle                                                                                                                                                                                                                |
-| 33  | Gps antenna break                                                                                                                                                                                                   |
-| 34  | Gps antenna short                                                                                                                                                                                                   |
-| 35  | IO ouput                                                                                                                                                                                                            |
-| 36  | CAN bus connection abnormal                                                                                                                                                                                         |
-| 37  | Towing                                                                                                                                                                                                              |
-| 38  | Free wheeling                                                                                                                                                                                                       |
-| 39  | RPM exceeds                                                                                                                                                                                                         |
-| 40  | Vehicle moves                                                                                                                                                                                                       |
-| 41  | Trip start (st/et/dtu time same）                                                                                                                                                                                    |
-| 42  | In trip                                                                                                                                                                                                             |
-| 43  | Trip ends (periodical report after acc off)                                                                                                                                                                         |
-| 44  | GPS location recover                                                                                                                                                                                                |
-| 768 | Trip notification                                                                                                                                                                                                   |
-| 769 | Upgrade notification                                                                                                                                                                                                |
+<table><thead><tr><th width="86.63641357421875">Code</th><th>Event</th></tr></thead><tbody><tr><td>0</td><td>Unknown</td></tr><tr><td>1</td><td>Video lost</td></tr><tr><td>2</td><td>Motion detection</td></tr><tr><td>3</td><td>Video blind</td></tr><tr><td>4</td><td>Input trigger</td></tr><tr><td>5</td><td>Emergency alarm</td></tr><tr><td>6</td><td>Low speed alarm</td></tr><tr><td>7</td><td>Over speed alarm</td></tr><tr><td>8</td><td>Low temperature alarm</td></tr><tr><td>9</td><td>High temperature alarm</td></tr><tr><td>10</td><td>Humidity alarm</td></tr><tr><td>11</td><td>Parking over time</td></tr><tr><td>12</td><td>Acceleration alarm</td></tr><tr><td>13</td><td>GEO fencing</td></tr><tr><td>14</td><td>Electronic route</td></tr><tr><td>15</td><td>Abnormal open/close the door</td></tr><tr><td>16</td><td>Storage abnormal</td></tr><tr><td>17</td><td>fatigue driving</td></tr><tr><td>18</td><td>Fuel consumption abnormal</td></tr><tr><td>19</td><td>ACC off. (compatible with old firwmares. In old firmwares: During ACC-off delay, if ignites (et > st), will report “accoff ends”; in new firmware: During ACC-off delay, if ignites (et > st), will report “accon”)</td></tr><tr><td>20</td><td>GPS module abnormal</td></tr><tr><td>21</td><td>Front panel open</td></tr><tr><td>22</td><td>Swipe card</td></tr><tr><td>23</td><td>IButton</td></tr><tr><td>24</td><td>Harsh acceleration</td></tr><tr><td>25</td><td>Harsh braking</td></tr><tr><td>26</td><td>Low speed warning</td></tr><tr><td>27</td><td>High speed warning</td></tr><tr><td>28</td><td>Voltage alarm</td></tr><tr><td>29</td><td>People counting</td></tr><tr><td>30</td><td>DMS and ADAS alarm ((Driver monitoring system, and Advanced Drivign Assistant System)</td></tr><tr><td>31</td><td>"Acc on". Report once at boot</td></tr><tr><td>32</td><td>Idle</td></tr><tr><td>33</td><td>Gps antenna break</td></tr><tr><td>34</td><td>Gps antenna short</td></tr><tr><td>35</td><td>IO ouput</td></tr><tr><td>36</td><td>CAN bus connection abnormal</td></tr><tr><td>37</td><td>Towing</td></tr><tr><td>38</td><td>Free wheeling</td></tr><tr><td>39</td><td>RPM exceeds</td></tr><tr><td>40</td><td>Vehicle moves</td></tr><tr><td>41</td><td>Trip start (st/et/dtu time same）</td></tr><tr><td>42</td><td>In trip</td></tr><tr><td>43</td><td>Trip ends (periodical report after acc off)</td></tr><tr><td>44</td><td>GPS location recover</td></tr><tr><td>768</td><td>Trip notification</td></tr><tr><td>769</td><td>Upgrade notification</td></tr></tbody></table>
 
 </details>
 

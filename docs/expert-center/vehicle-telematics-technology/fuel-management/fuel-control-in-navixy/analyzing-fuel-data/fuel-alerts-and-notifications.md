@@ -1,5 +1,7 @@
 # Fuel alerts and notifications
 
+
+
 ## Fuel level change
 
 Before setting up this rule, make sure to add and configure the fuel level sensor users intend to monitor. For more comprehensive instructions on how to do this, it is advisable to consult the [Measurement sensor](https://docs.navixy.com/user-guide/measurement-sensor) article.

@@ -29,7 +29,7 @@ If the current version is older than supported, please follow the next steps:
 
 1. After the update, set the device with UTC+0 time zone and APN with server settings. You can do it by using the following commands which can be sent via SMS or through the
 
-[AirConsole](https://docs.navixy.com/admin-panel/air-console), the latter is for already registered devices that are online.
+[AirConsole](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console), the latter is for already registered devices that are online.
 
 Please send the commands one by one and substitute {apn}, {apn\_user}, {apn\_pass} with your SIM-card provider APN settings using no braces.
 

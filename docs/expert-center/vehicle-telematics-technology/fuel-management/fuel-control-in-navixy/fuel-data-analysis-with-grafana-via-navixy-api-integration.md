@@ -52,9 +52,9 @@ Follow these steps to set up the connection:
 
 5. Customize any additional settings as required, and then click "Save & Test" to verify the connection.
 
-![Grafana and Navixy API - choosing data source](../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/attachments/image-20231017-075916.png)
+![Grafana and Navixy API - choosing data source](attachments/image-20231017-075916.png)
 
-![Grafana and Navixy API - data source setting up](../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/attachments/image-20231017-080330.png)
+![Grafana and Navixy API - data source setting up](attachments/image-20231017-080330.png)
 
 ### Step 5: Importing the Navixy dashboard template
 
@@ -64,7 +64,7 @@ To expedite the setup process, import the Navixy [dashboard template](https://gi
 
 Grafana provides a complete set of visualization objects and tools, enabling telematics professionals to effortlessly analyze and interpret complex telematics data. Let's delve into the main elements of the demo dashboard offered by Navixy which are marked in blue.
 
-![](../../../expert-center/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/attachments/image-20231017-083157.png)
+![](attachments/image-20231017-083157.png)
 
 ### Trackers and sensors to analyze
 

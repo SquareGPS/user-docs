@@ -58,15 +58,15 @@ Once you've configured the device settings, start the registration process on th
 1. Open the user account where you wish to register the device and click the device activation button.
 2. Next, input the device's name, assign it to a group if necessary, and type your device's model into the search line. For example, Hero ME40-04.
 
-![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231019-140201.png)
+![](attachments/image-20231019-140201.png)
 
 3. Enter the device ID that you initially set in the Dev ID on your device. If the platform indicates that the given device ID is already being used, modify it in the device's settings and attempt using the new ID on the platform.
 
-![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231019-135850.png)
+![](attachments/image-20231019-135850.png)
 
 Once the device has been added to the platform, navigate to the devices and settings tab to adjust the device’s timezone. This should correspond with the timezone you selected in the Time options of the device's configurator.
 
-![](../../../../expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/attachments/image-20231020-063327.png)
+![](attachments/image-20231020-063327.png)
 
 The final step to get your device online involves sending its first packet, complete with a valid timestamp and coordinates, to the platform. As we've configured the power mode to be triggered by ignition, starting your vehicle's engine will prompt the device to begin sending packets to the platform.
 

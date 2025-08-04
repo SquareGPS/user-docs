@@ -1,13 +1,10 @@
 # Columns in CSV File
 
-* [Opening a file](columns-in-csv-file.md#opening-a-file)
-* [Raw data parameters](columns-in-csv-file.md#raw-data-parameters)
-  * [Simple columns](columns-in-csv-file.md#simple-columns)
-  * [Complex parameters](columns-in-csv-file.md#complex-parameters)
-
 The data warehouse tool enables you to export a raw data file containing all packets received from your device, without any filtering or calculations made on the platform side. These parameters represent information initially decoded from your device's packet in protocol related format, presented in a human-readable way. You don’t need to know the protocol to read and check the information in these packets.
 
-> \[!INFO] To learn how to download this information, you can refer to our [previous article](./). Here, we aim to explore further how to read this file and interpret various columns within it.
+{% hint style="info" %}
+To learn how to download this information, you can refer to our [previous article](./). Here, we aim to explore further how to read this file and interpret various columns within it.
+{% endhint %}
 
 ## Opening a file
 
@@ -24,7 +21,7 @@ You can open the raw data file with any text editor, such as WordPad, Notepad++,
 
 The file will include selected parameters in columns, along with one consistent entry - msg\_time.
 
-![image-20240209-073506.png](../../../expert-center/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/attachments/image-20240209-073506.png)
+![](attachments/image-20240209-073506.png)
 
 These parameters can be categorized as simple or complex.
 
@@ -64,9 +61,9 @@ Simple parameters provide full names and mainly represent specific tracking info
   * `NR`: If the device determined NR type.
 * `event_id`: The platform’s event ID. Find the list of all event ID codes below.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Platform's event code IDs and their definitions
+<summary>Platform's event code IDs and their definitions</summary>
 
 In the device packets, various event codes can be defined, each signifying a specific occurrence.
 
@@ -199,6 +196,8 @@ In the device packets, various event codes can be defined, each signifying a spe
 | 997          | Bracelet open                                        |
 | 998          | Bracelet close                                       |
 | 999          | G sensor alert                                       |
+
+</details>
 
 ### Complex parameters
 

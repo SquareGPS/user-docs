@@ -58,7 +58,7 @@
       * [Activate Your MQTT Device on Navixy](faq-and-troubleshooting/gps-devices/add-and-manage-devices/activate-your-mqtt-device-on-navixy.md)
       * [Integrate IoT Data from Servers and Gateways](faq-and-troubleshooting/gps-devices/add-and-manage-devices/integrate-iot-data-from-servers-and-gateways/README.md)
         * [Wialon Protocols for Data Ingestion](faq-and-troubleshooting/gps-devices/add-and-manage-devices/integrate-iot-data-from-servers-and-gateways/wialon-protocols-for-data-ingestion.md)
-    * [Outputs control](faq-and-troubleshooting/gps-devices/outputs-control.md)
+    * [Outputs Control](faq-and-troubleshooting/gps-devices/outputs-control.md)
     * [Input control](faq-and-troubleshooting/gps-devices/input-control/README.md)
       * [Mapping the ignition motion input for Suntech devices on Navixy](faq-and-troubleshooting/gps-devices/input-control/mapping-the-ignition-motion-input-for-suntech-devices-on-navixy.md)
   * [Sensors](faq-and-troubleshooting/sensors/README.md)

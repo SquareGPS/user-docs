@@ -1,2 +1,2 @@
-# Input control
+# input-control
 
