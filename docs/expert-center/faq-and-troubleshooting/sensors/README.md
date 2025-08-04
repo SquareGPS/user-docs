@@ -10,14 +10,14 @@ Written by professionals who regularly deal with sensor systems, the guides comb
 
 This section covers sensor integration across different device types and monitoring scenarios. From basic measurement sensors to specialized environmental and fuel monitoring systems, each article addresses specific integration challenges with complete configuration procedures.
 
-[Configuring Sensors on Teltonika Trackers](docs/expert-center/faq-and-troubleshooting/sensors/configuring-sensors-on-teltonika-trackers.md): Universal configuration guide for measurement sensors on Teltonika devices, covering configurator usage, remote parameter setup via AirConsole and SMS, and platform sensor creation.
+[Configuring Sensors on Teltonika Trackers](configuring-sensors-on-teltonika-trackers.md): Universal configuration guide for measurement sensors on Teltonika devices, covering configurator usage, remote parameter setup via AirConsole and SMS, and platform sensor creation.
 
-[Configuring Eye Sensor on Teltonika Tracker](docs/expert-center/faq-and-troubleshooting/sensors/configuring-eye-sensor-on-teltonika-tracker.md): Bluetooth environmental sensor setup for temperature, humidity, and magnetic detection monitoring with wireless connectivity configuration.
+[Configuring Eye Sensor on Teltonika Tracker](configuring-eye-sensor-on-teltonika-tracker.md): Bluetooth environmental sensor setup for temperature, humidity, and magnetic detection monitoring with wireless connectivity configuration.
 
-[Configuring ERM Efuel Dome Sensor on Navixy](docs/expert-center/faq-and-troubleshooting/sensors/configuring-erm-efuel-dome-sensor-on-navixy.md): Hydrostatic fuel monitoring system integration with Navixy platform, including sensor placement and calibration procedures.
+[Configuring ERM Efuel Dome Sensor on Navixy](configuring-erm-efuel-dome-sensor-on-navixy.md): Hydrostatic fuel monitoring system integration with Navixy platform, including sensor placement and calibration procedures.
 
-[Manage Sensors](docs/expert-center/faq-and-troubleshooting/sensors/manage-sensors.md): Troubleshooting guide for sensor data issues, calibration procedures, unit corrections, and sensor addition processes for ongoing maintenance.
+[Manage Sensors](manage-sensors.md): Troubleshooting guide for sensor data issues, calibration procedures, unit corrections, and sensor addition processes for ongoing maintenance.
 
-[Monitor Sensor Values](docs/expert-center/faq-and-troubleshooting/sensors/monitor-sensor-values.md): Advanced monitoring implementation with multi-conditional alerts, parameter range rules, and industry applications for cold chain, machinery, and fuel management.
+[Monitor Sensor Values](monitor-sensor-values.md): Advanced monitoring implementation with multi-conditional alerts, parameter range rules, and industry applications for cold chain, machinery, and fuel management.
 
-[Mileage and Odometer](docs/expert-center/faq-and-troubleshooting/sensors/mileage-and-odometer.md): GPS-based distance calculation analysis, odometer synchronization methods, and trip reporting accuracy for fleet analytics.
+[Mileage and Odometer](mileage-and-odometer.md): GPS-based distance calculation analysis, odometer synchronization methods, and trip reporting accuracy for fleet analytics.
