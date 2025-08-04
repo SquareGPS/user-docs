@@ -39,11 +39,11 @@ Upon selecting Fuel Level as the sensor type, you will be presented with additio
 
 ## Adding calibration data
 
-Once all parameters are configured, it becomes imperative to incorporate calibration data into the table. Begin by obtaining a comprehensive lineup that correlates the raw values of the measurement sensor (e.g. volts) with the corresponding actual measurements (e.g. liters). To append additional rows to the table, simply click the designated button ![](<../../../.gitbook/assets/image (1).png>).
+Once all parameters are configured, it becomes imperative to incorporate calibration data into the table. Begin by obtaining a comprehensive lineup that correlates the raw values of the measurement sensor (e.g. volts) with the corresponding actual measurements (e.g. liters). To append additional rows to the table, simply click the designated button ![](<../../../.gitbook/assets/image (1) (1).png>).
 
 In the created line, fill in the "Sensor value" field with the obtained value, and the "Quantity" field with the corresponding measured quantity.
 
-To delete a row, click ![](<../../../.gitbook/assets/image (1) (1).png>).
+To delete a row, click ![](<../../../.gitbook/assets/image (1) (1) (1).png>).
 
 ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/measurement_sensor_calibration_table_en.png)
 

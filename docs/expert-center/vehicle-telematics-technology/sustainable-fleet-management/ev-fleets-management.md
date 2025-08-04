@@ -1,16 +1,5 @@
 # EV fleets management
 
-* [About electric vehicles](ev-fleets-management.md#about-electric-vehicles)
-* [Practical Experience Matters](ev-fleets-management.md#practical-experience-matters)
-  * [Electric vehicles charging](ev-fleets-management.md#electric-vehicles-charging)
-  * [State of Charge (SoC)](ev-fleets-management.md#state-of-charge-soc)
-  * [State of Health (SoH)](ev-fleets-management.md#state-of-health-soh)
-* [Electric vehicles tracking](ev-fleets-management.md#electric-vehicles-tracking)
-  * [Smart battery usage](ev-fleets-management.md#smart-battery-usage)
-  * [Routes planning](ev-fleets-management.md#routes-planning)
-  * [Effective maintenance](ev-fleets-management.md#effective-maintenance)
-* [Wrapping up](ev-fleets-management.md#wrapping-up)
-
 Electric vehicles (EVs) are gaining popularity, with over 100,000 EVs sold globally each month, amounting to more than 1,000,000 annually. People, both individuals and companies, are choosing EVs for their numerous benefits: economic, environmental, and social. However, it is important to acknowledge that the electric vehicle industry also faces certain challenges, such as high initial costs and a lack of charging stations.
 
 Undoubtedly, the transition towards electric vehicles heralds a transformation in the machinery-related industries. It necessitates a fresh approach to fleet management, encompassing various factors such as the power and energy requirements of electric cars. This article aims to enhance your understanding of key aspects of electric vehicles. It highlights what businesses need to take into consideration and how Navixy utilizes technology advancements on the platform and transform the EV's data into the insights you need to manage your electric fleet effectively.&#x20;
@@ -35,7 +24,9 @@ Managing an electric vehicle fleet encompasses various facets. In addition to st
 
 Charging is the fundamental starting point for all electric items. Let's delve into the various facets of EV charging to gain a comprehensive understanding. Charging infrastructure is a critical aspect of EV adoption. Charging stations, also known as Electric Vehicle Supply Equipment (EVSE), come in various forms, ranging from simple wall outlets to sophisticated public charging networks. The Connector Type denotes the plug used to connect the electric vehicle to a power source. Different models of electric vehicles may require different types of connectors.
 
-> \[!INFO] The cost of a charging station typically ranges from $400 to $1000.
+{% hint style="info" %}
+The cost of a charging station typically ranges from $400 to $1000.
+{% endhint %}
 
 There are three primary levels of electric vehicle charging - Level 1, Level 2 (AC Chargers), and Level 3, commonly known as DC Fast Charger. These levels can be assessed based on three key parameters: voltage, charge duration, and range per hour of charging.
 
@@ -83,7 +74,9 @@ GPS tracking for EVs offers benefits beyond vehicle security. It provides valuab
 
 The battery is a crucial component of every electric vehicle, and maintaining its strength is one of the challenges. In addition to the features offered by Navixy in this domain, here are some essential tips below to help you extend the battery life.
 
-> \[!INFO] If the battery charge drops below 20%, it indicates that the battery is under significant strain and nearing depletion.
+{% hint style="info" %}
+If the battery charge drops below 20%, it indicates that the battery is under significant strain and nearing depletion.
+{% endhint %}
 
 To make sure you're keeping an eye on your VE battery life you can utilize those Navixy features:&#x20;
 
@@ -95,7 +88,9 @@ To make sure you're keeping an eye on your VE battery life you can utilize those
 
 Bearing in mind the potential limitations of vehicle range due to distance, tracking and monitoring information can assist in route planning to ensure uninterrupted travel without the risk of running out of battery power. By considering the available charging infrastructure and estimating the required battery capacity for the journey, drivers can plan their routes accordingly and avoid unnecessary stops.
 
-> \[!INFO] The typical range for an electric vehicle is 100-300 miles. Waiting is more than 10 times longer for “refueling”.
+{% hint style="info" %}
+The typical range for an electric vehicle is 100-300 miles. Waiting is more than 10 times longer for “refueling”.
+{% endhint %}
 
 * **Real Time monitoring:** Real-time monitoring technology offers valuable insights beyond just battery charge level for electric vehicle (EV) owners. One significant advantage is the displaying of remaining distance data. This crucial information allows fleet managers and EV owners to adopt a more strategic approach to route planning. By taking into account both the battery charge level and the remaining distance, owners can make informed decisions to avoid potential situations where the battery runs out of charge before reaching a charging point. This proactive approach significantly reduces the risk of getting stranded on the road.
 * **POIs - Charging stations.** Adding and using points of interest (POI) with charging stations can greatly assist in route planning for electric vehicles  and ensure that the battery does not run out. By incorporating the locations of charging stations into route calculations, EV owners can strategically plan their journeys and avoid the risk of running out of battery power. Clients can choose routes that have charging stations conveniently located along the way or opt for shorter trips to conserve battery power.&#x20;
@@ -107,7 +102,7 @@ Telematics parameters can play a significant role in facilitating effective main
 * **Battery Health Monitoring:** Telematics parameters can provide detailed information about the State of health (SoH) and overall performance. By monitoring these parameters, maintenance professionals can identify any anomalies or degradation in the battery's performance. This helps in scheduling timely maintenance, optimizing charging practices, and ensuring the longevity and efficiency of the battery.
 * **Motor Performance Analysis**: Telematics parameters can provide comprehensive data on the motor's operating conditions, including temperature, voltage, current, and power consumption. By analyzing this data, maintenance professionals can assess the motor's performance and detect any potential issues or deviations. Proactive maintenance and troubleshooting can then be conducted to prevent motor failures and optimize its efficiency.
 
-![Teltonika GPS tracker AVL 1151 to monitor State of Health](attachments/4bxFjF1GnrRVoM4w4XisX0IlQEFAujgO02S5Lj-NuDnIgHSRXEOWFWnPe8NRBzUQE6tvWBgmWDdZPfq7dvp3Z_ocor2vv8lPxARcrjsTwC5iw3zIxfh7jkaDtZE64BcQsTym9CVogRQVD2ogPPtCYQ0)
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="250"><figcaption><p>Teltonika GPS tracker AVL 1151 to monitor State of Health</p></figcaption></figure>
 
 ## Wrapping up
 
