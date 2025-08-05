@@ -1,0 +1,71 @@
+# Fleet management
+
+## Overview
+
+The Fleet Management section within Navixy platform offers streamlined management of your organization's vehicles, providing detailed insights and control over all aspects of your fleet, from fuel consumption to vehicle specifications, to enhance your operational efficiency.
+
+![image-20240814-173711.png](attachments/image-20240814-173711.png)
+
+- [Vehicles](fleet-management/vehicles.md)
+- [Garages](fleet-management/garages.md)
+- [Drivers](fleet-management/drivers.md)
+- [Departments](fleet-management/departments.md)
+- [Driver journal](fleet-management/driver-journal.md)
+- [Eco Driving](fleet-management/eco-driving.md)
+- [Maintenance](fleet-management/maintenance.md)
+
+All the information about vehicles of your organization is in **Fleet management**.
+
+It makes your work easier and much more convenient. For example, you enter data on fuel consumption per 100 km (or miles), and monitoring system will calculate fuel consumption based on this indicator to compare it with the actual readings.
+
+### Vehicles
+
+The **Vehicles** tab displays information about the user's vehicles as a table and an additional visualized menu on the right side of the screen.
+
+In this tab it is possible to add and edit vehicles, attach them to the depots and link them to trackers activated on the platform.
+
+[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-600x295.png)
+
+](https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-1024x503.png)
+
+### Adding a new vehicle
+
+Press ![chrome_py0qhiu5p8.webp](attachments/chrome_py0qhiu5p8.webp)
+
+ button to add a new vehicle.
+
+Button ![image-20241127-142058.png](attachments/image-20241127-142058.png)
+
+ allows adding an image of the vehicle.
+
+The **Main** tab contains all main information about the vehicle and additional information, such as tags or text notes.
+
+The **Specification** tab is required to fill in additional information about the vehicle, such as vehicle dimensions, size and number of wheels in the wheelbase, as well as the permitted speed, availability of a trailer and its year of manufacture.
+
+The **Fuel** tab is used to fill in information about the type of fuel, tank capacity and consumption rate per 100 km, which is necessary for further calculations in fuel reports.
+
+The **Insurance** tab allows entering the number of insurance with the date of expiration.
+
+[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q-502x600.png)
+
+](https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q.png)
+
+### Garages
+
+Information on fleet owners is available on the **Garages** tab.
+
+[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-600x295.png)
+
+](https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-1024x503.png)
+
+### Adding a new garage
+
+Press ![chrome_py0qhiu5p8.webp](attachments/chrome_py0qhiu5p8.webp)
+
+ button to add a new garage.
+
+The popup contains its name, address, name of the mechanic and name of the dispatcher. This data can be used for more convenient and efficient task management.
+
+[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz-430x600.png)
+
+](https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz.png)
