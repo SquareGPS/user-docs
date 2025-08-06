@@ -74,5 +74,5 @@ Scheduled reports are automated reports that are generated at predefined interva
 
 ## See also
 
-* [Report types](reports/report-types.md)
-* [How to read and understand reports](reports/read-and-understand-reports.md)
+* [Report types](report-types.md)
+* [How to read and understand reports](read-and-understand-reports.md)

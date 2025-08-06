@@ -20,15 +20,15 @@ By clicking on an event in the list, you will see the following information:
 
 Navixy offers a comprehensive set of events structured into various categories to help you monitor and manage your fleet, assets, and field employees efficiently. Below are the categories of the events:
 
-* [**Device power**](rules-and-notifications/device-power.md): Monitor device power status, including battery and external connections
-* [**Device connection**](rules-and-notifications/device-connection.md): Track device connectivity to the cell network or the platform
-* [**Device positioning**](rules-and-notifications/device-positioning.md): Monitor GPS information
-* [**Security**](rules-and-notifications/security.md): Events related to vehicle security and tampering
-* [**Safety**](rules-and-notifications/safety.md): Events related to driver safety
-* [**Movement monitoring**](rules-and-notifications/movement-monitoring.md): Track vehicle movement, speed, and route
-* [**Scheduling and dispatching**](rules-and-notifications/scheduling-and-dispatching.md): Manage vehicle and personnel scheduling
-* [**Vehicle efficiency**](rules-and-notifications/vehicle-efficiency.md): Monitor fuel consumption and efficiency
-* [**Inputs and outputs**](rules-and-notifications/inputs-and-outputs.md): Track status of connected sensors and equipment
+* [**Device power**](device-power/): Monitor device power status, including battery and external connections
+* [**Device connection**](device-connection/): Track device connectivity to the cell network or the platform
+* [**Device positioning**](device-positioning/): Monitor GPS information
+* [**Security**](security/): Events related to vehicle security and tampering
+* [**Safety**](safety/): Events related to driver safety
+* [**Movement monitoring**](movement-monitoring/): Track vehicle movement, speed, and route
+* [**Scheduling and dispatching**](scheduling-and-dispatching/): Manage vehicle and personnel scheduling
+* [**Vehicle efficiency**](vehicle-efficiency/): Monitor fuel consumption and efficiency
+* [**Inputs and outputs**](inputs-and-outputs/): Track status of connected sensors and equipment
 
 ### Where events are computed
 
@@ -323,7 +323,7 @@ By using fuel theft prevention alerts, the logistics company can effectively mon
 
 ## Automatically created rules
 
-When you [activate](../quick-start/quick-start/activate-gps-device.md) a new device on the Navixy platform, the system automatically creates some rules based on the device’s capabilities, such as a "Pressing SOS Button" rule for a personal GPS tracker with an emergency button. This automation saves you time by setting up essential monitoring features right from the start, ensuring that your device is ready for use immediately.
+When you [activate](../quick-start/activate-gps-device.md) a new device on the Navixy platform, the system automatically creates some rules based on the device’s capabilities, such as a "Pressing SOS Button" rule for a personal GPS tracker with an emergency button. This automation saves you time by setting up essential monitoring features right from the start, ensuring that your device is ready for use immediately.
 
 These pre-configured rules are fully customizable—you can easily add notifications, adjust settings, or suspend any rule if it’s not needed. This streamlined approach enhances security and user experience, allowing you to focus on what matters most without the hassle of manual setup.
 

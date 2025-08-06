@@ -1,2 +1,0 @@
-# calamp-sensors
-

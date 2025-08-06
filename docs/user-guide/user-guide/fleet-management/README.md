@@ -6,13 +6,13 @@ The Fleet Management section within Navixy platform offers streamlined managemen
 
 ![image-20240814-173711.png](../attachments/image-20240814-173711.png)
 
-* [Vehicles](fleet-management/vehicles.md)
-* [Garages](fleet-management/garages.md)
-* [Drivers](fleet-management/drivers.md)
-* [Departments](fleet-management/departments.md)
-* [Driver journal](fleet-management/driver-journal.md)
-* [Eco Driving](fleet-management/eco-driving.md)
-* [Maintenance](fleet-management/maintenance.md)
+* [Vehicles](vehicles.md)
+* [Garages](garages.md)
+* [Drivers](drivers.md)
+* [Departments](departments.md)
+* [Driver journal](driver-journal.md)
+* [Eco Driving](eco-driving.md)
+* [Maintenance](maintenance.md)
 
 All the information about vehicles of your organization is in **Fleet management**.
 

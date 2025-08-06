@@ -1,2 +1,0 @@
-# specialized-sensors-by-manufacturer
-

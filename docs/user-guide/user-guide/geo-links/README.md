@@ -14,6 +14,6 @@ A geo link can be associated with multiple objects, which will be displayed on t
 
 The following sections provide step-by-step guides to the actions you can perform with geo links on our platform. Explore their functionality in detail and find your way to use them.
 
-* [Creating geo links](geo-links/creating-geo-links.md)
-* [Updating and sharing geo links](geo-links/updating-and-sharing-geo-links.md)
-* [Embedding geo links](geo-links/embedding-geo-links.md)
+* [Creating geo links](creating-geo-links.md)
+* [Updating and sharing geo links](updating-and-sharing-geo-links.md)
+* [Embedding geo links](embedding-geo-links.md)
