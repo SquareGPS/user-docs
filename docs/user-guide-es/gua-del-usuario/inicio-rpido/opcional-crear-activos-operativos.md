@@ -41,7 +41,7 @@ A continuación, le guiaremos paso a paso para crear activos operativos en Navix
 
 Después de crear sus activos operativos, podrá:
 
-* Rastrearlos en el mapa dentro del módulo [Seguimiento](../../seguimiento/).
-* Ver su lista y detalles en [Activos operativos](../../activos-operativos/).
-* Supervisar sus notificaciones en el módulo [Alertas](../../reglas-y-alertas/).
-* Vincularlos entre sí y visualizar sus datos GPS en la [Lista de activos](../../seguimiento/lista-de-objetos/) y en el [Widget de activos](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909015126/Object+widget).
+* Rastrearlos en el mapa dentro del módulo [Seguimiento](../seguimiento/).
+* Ver su lista y detalles en [Activos operativos](../activos-operativos/).
+* Supervisar sus notificaciones en el módulo [Alertas](../reglas-y-alertas/).
+* Vincularlos entre sí y visualizar sus datos GPS en la [Lista de activos](../seguimiento/lista-de-objetos/) y en el [Widget de activos](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909015126/Object+widget).
