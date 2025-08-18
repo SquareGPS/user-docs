@@ -10,13 +10,17 @@ Before proceeding with creating your first flow, ensure you have:
 * Activated devices in your account
 * Understanding of what data sources you want to process
 
-> \[!INFO] IoT Logic workspace is available only to account **Owners** and is not displayed for regular **Users**. For details on user roles, see [Users and Roles](../users-and-roles/).
+{% hint style="info" %}
+IoT Logic workspace is available only to account **Owners** and is not displayed for regular **Users**. For details on user roles, see [Users and Roles](../users-and-roles/).
+{% endhint %}
 
 ## Flow configuration
 
 Take a look at a short video that showcases the process of creating a new flow with data attribute calculations and adding custom attributes to devices on the platform:
 
-![video that showcases the process of creating a new flow with data attribute calculations and adding custom attributes to devices on the platform, without comments](attachments/IoT%20Logic%20demo%20screencast.mov)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F446mKak1zDrGv70ahuYZ%2Fuploads%2FGAVD9gNxaRYpHDSAlOmf%2FIot%20Logic%20Demo%20Screencast.mp4?alt=media&token=94fd4cf6-bd45-4953-9263-52863288d9b9" %}
+Process of creating a new flow with data attribute calculations and adding custom attributes to devices on the platform
+{% endembed %}
 
 Now, let’s break down the flow configuration process step by step.
 
@@ -32,7 +36,7 @@ The IoT Logic workspace appears with three main sections:
 * **Nodes pane** - Lists available nodes for building your flow
 * **Canvas** - The main workspace where you design your flow
 
-For details on the workspace, see [Workspace and default flow](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3217981443/Workspace+and+default+Flow?atlOrigin=eyJpIjoiMmIyZDY3ZjExMTIzNDdhN2E3N2M2M2NmYzFmYTNiOTkiLCJwIjoiYyJ9).
+For details on the workspace, see [Workspace and default flow](workspace-and-default-flow.md).
 
 ### Step 2: Create a new flow
 
@@ -45,9 +49,11 @@ For details on the workspace, see [Workspace and default flow](https://squaregps
 
 3. Click **Save** to create the flow
 
-For additional information on flow configuration, see [Flow management -> Creating a new flow](flow-management/).
+For additional information on flow configuration, see [Flow management -> Creating a new flow](flow-management/#creating-a-new-flow).
 
-> \[!INFO] Disabled flows don't process any data. When a flow is disabled, devices in that flow will not transmit data to any destination, including the Navixy platform.
+{% hint style="info" %}
+Disabled flows don't process any data. When a flow is disabled, devices in that flow will not transmit data to any destination, including the Navixy platform.
+{% endhint %}
 
 ### Step 3: Configure a Data Source node
 
@@ -60,7 +66,7 @@ For additional information on flow configuration, see [Flow management -> Creati
 
 4. Click **Save** to apply the configuration
 
-For details on the node configuration, see [Data Source node](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933029/Data+source+node?atlOrigin=eyJpIjoiMTlmNWM1ZmNmN2IxNDEwYTg3YzRiMzAwMjA1YjI0MDEiLCJwIjoiYyJ9).
+For details on the node configuration, see [Data Source node](flow-management/data-source-node.md).
 
 ### Step 4: Add data enrichment (Optional)
 
@@ -71,13 +77,15 @@ For details on the node configuration, see [Data Source node](https://squaregps.
 
 * **Attribute name** - A clear, descriptive name (e.g., "speed\_mph")
 * **Formula** - The calculation expression (e.g., `value('speed')/1.609` to convert km/h to mph)\
-  **Note**. Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md) to ensure correct naming
+  **Note**. Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to ensure correct naming
 * **Generation time** - When the data entry was created on the device (defaults to `now()`)
 * **Server time** - When the data was received by the server (defaults to `now()`)
 
 5. Add additional attributes if needed by clicking **Add attribute**
 
-> \[!WARNING] The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
+{% hint style="danger" %}
+The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
+{% endhint %}
 
 7. Click **Save** to apply the configuration
 8. Create a connection:
@@ -85,11 +93,11 @@ For details on the node configuration, see [Data Source node](https://squaregps.
 * Click the output connector of the **Data Source** node
 * Drag the transition to the input connector of the **Initiate Attribute** node
 
-For details on node configuration, see [Initiate Attribute node](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933081/Initiate+Attribute+node?atlOrigin=eyJpIjoiNjcyYzBhNzU3ZWNmNDIwOWIxYTVhNjc4YjA4YThlMGUiLCJwIjoiYyJ9).
+For details on node configuration, see [Initiate Attribute node](flow-management/initiate-attribute-node/).
 
-For details on actions with attributes, see [Managing attributes](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933191/Managing+attributes?atlOrigin=eyJpIjoiYWM0NmVhOGNhYzUwNDA0MzlkNjhmOTRkZGRiODI3YzkiLCJwIjoiYyJ9).
+For details on actions with attributes, see [Managing attributes](flow-management/initiate-attribute-node/managing-attributes.md).
 
-For sample calculation formulas, see [Calculation examples](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933220/Calculation+examples?atlOrigin=eyJpIjoiMjI1OTI1ZGViMDM0NDI2MGJiNzhhNTkyODY2YWNjODMiLCJwIjoiYyJ9).
+For sample calculation formulas, see [Calculation examples](flow-management/initiate-attribute-node/calculation-examples.md).
 
 ### Step 5: Configure data output
 
@@ -100,7 +108,9 @@ For sample calculation formulas, see [Calculation examples](https://squaregps.at
 * **Navixy endpoint** - default endpoint for sending processed data to Navixy platform. It is pre-configured and does not allow any changes
 * **MQTT endpoint** - endpoint for sending data to 3rd-party destinations, using MQTT as a transport protocol. Requires manual configuration described in further steps
 
-> \[!INFO] Endpoints created within the account are available as **Presets**. You can select an already existing configuration instead of setting it up from scratch. **Navixy Output Endpoint** is always available as a preset.
+{% hint style="info" %}
+Endpoints created within the account are available as **Presets**. You can select an already existing configuration instead of setting it up from scratch. **Navixy Output Endpoint** is always available as a preset.
+{% endhint %}
 
 4. Configure the following settings:
 
@@ -117,14 +127,18 @@ For sample calculation formulas, see [Calculation examples](https://squaregps.at
 5. If authentication is required on the receiving side, toggle **MQTT Authentication** ON\
    The appearing fields are pre-filled automatically with your platform account credentials
 
-> \[!WARNING] The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
+{% hint style="danger" %}
+The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
+{% endhint %}
 
 6. Click **Create** to apply the configuration
 7. Connect your other nodes to this output node in needed order to finalize the flow structure
 
-> \[!INFO] Each flow should include a **Default Endpoint** node to ensure data is sent to the platform. Without this connection, device data won't be visible in the Navixy interface.
+{% hint style="info" %}
+Each flow should include a **Default Endpoint** node to ensure data is sent to the platform. Without this connection, device data won't be visible in the Navixy interface.
+{% endhint %}
 
-For details on node configuration, see [Output Endpoint node](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933239/Output+endpoint+node?atlOrigin=eyJpIjoiMWRhODIxODViOTVlNDhmYTkxZTU0YjdiYTQ2NjgxMWUiLCJwIjoiYyJ9).
+For details on node configuration, see [Output Endpoint node](flow-management/output-endpoint-node.md).
 
 ### Step 6: Save and activate your flow
 
@@ -142,19 +156,21 @@ To confirm your flow is working correctly, use the **Data Stream Analyzer** tool
 4. Use filtering options to focus on specific parameters
 5. Verify that any calculated attributes show the correct values
 
-For details on using the tool, see [Data Stream Analyzer](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3037332703/Data+Stream+Analyzer?atlOrigin=eyJpIjoiZThhNDJjODJjYjFmNDNiMzhiMmVlMGZkMzQyYjkzOTciLCJwIjoiYyJ9).
+For details on using the tool, see [Data Stream Analyzer](data-stream-analyzer.md).
 
-> \[!TIP] Congratulations! Your first IoT Logic data flow is up and running.
+{% hint style="success" %}
+Congratulations! Your first IoT Logic data flow is up and running.
+{% endhint %}
 
 ## Next steps
 
 Now that you've created your first IoT Logic flow, you can:
 
-* [Adapt this quick start example](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216932867/Quick+start+guide#Adapting-this-example) to your business needs
-* Create more complex data transformations with multiple [Initiate Attribute nodes](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933081/Initiate+Attribute+node?atlOrigin=eyJpIjoiMTliMWExNWE3MzBlNGZlMTkzZmM5YTk0MDMwM2JjYzIiLCJwIjoiYyJ9)
-* Set up additional [output destinations](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3192816141/Output+endpoint+node) for your data that can become reusable profiles for consistent configurations
-* [Manage already created flows](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216932890/Flow+management?atlOrigin=eyJpIjoiZmNkYWEyYzQ0NDNkNGMxZGI4NDI3OThmNzc1ZDg3M2YiLCJwIjoiYyJ9) to adjust data processing to any changes you face
-* [Design advanced flows](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933300/Flow+configuration+example?atlOrigin=eyJpIjoiYmIxZDIyZDAyODk1NGYzZmE2NGFlOGU3ZWI4ZmUxNzgiLCJwIjoiYyJ9) for specific business scenarios using different node combinations and configurations
+* [Adapt this quick start example](quick-start-guide.md#adapting-this-example) to your business needs
+* Create more complex data transformations with multiple [Initiate Attribute nodes](flow-management/initiate-attribute-node/)
+* Set up additional [output destinations](flow-management/output-endpoint-node.md) for your data that can become reusable profiles for consistent configurations
+* [Manage already created flows](flow-management/) to adjust data processing to any changes you face
+* [Design advanced flows](flow-management/flow-configuration-example.md) for specific business scenarios using different node combinations and configurations
 
 ### Adapting this example
 
@@ -171,28 +187,30 @@ The foundational pattern of collecting, transforming, and forwarding remains con
 
 IoT Logic functionality can also be accessed programmatically through the Navixy API. This allows developers to automate flow creation, management, and monitoring.
 
-> \[!INFO] For security reasons, API access requires appropriate permissions. Contact your account administrator to ensure you have the necessary access rights.
+{% hint style="info" %}
+For security reasons, API access requires appropriate permissions. Contact your account administrator to ensure you have the necessary access rights.
+{% endhint %}
 
-For complete API documentation, parameters, request/response formats, and code examples, refer to the [Navixy IoT Logic API documentation](https://www.navixy.com/docs/iot-logic-api).
+For complete API documentation, parameters, request/response formats, and code examples, refer to the [Navixy IoT Logic API documentation](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/tx3J5BxnWyPV0nP2xr0z/).
 
 ## Frequently asked questions
 
-### What happens to devices not assigned to a custom flow?
+#### What happens to devices not assigned to a custom flow?
 
 Devices not explicitly assigned to any custom flow are automatically handled by the default flow, which sends their data directly to the Navixy platform.
 
-### Can I use the same device in multiple flows?
+#### Can I use the same device in multiple flows?
 
 No, each device can only be assigned to one flow at a time. When added to a custom flow, a device is automatically removed from the default flow to prevent duplicate data processing.
 
-### Will my flow continue working if I log out?
+#### Will my flow continue working if I log out?
 
 Yes, once activated, flows operate independently of your user session. As long as the flow is enabled, it will process data even when you're not logged in.
 
-### How do I know if my flow is working correctly?
+#### How do I know if my flow is working correctly?
 
 Use the Data Stream Analyzer to monitor real-time data transmission. This tool shows both raw device data and calculated attributes, allowing you to verify that your transformations are working as expected.
 
-### What happens if I disable a flow?
+#### What happens if I disable a flow?
 
 When you disable a flow, devices assigned to that flow will not transmit data to any destination, including the Navixy platform. The devices will appear offline in the Navixy interface until you re-enable the flow.
