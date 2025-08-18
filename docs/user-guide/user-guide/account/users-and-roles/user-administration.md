@@ -2,7 +2,7 @@
 
 The users of the organization’s account include the Owner and Users. The Owner is the main account holder with full control and administrative rights, while Users are additional accounts with specific roles and permissions assigned by the Owner.
 
-![Access rights (previous version)](https://www.navixy.com/wp-content/uploads/2023/04/roles-en.png)
+![Access rights](https://www.navixy.com/wp-content/uploads/2023/04/roles-en.png)
 
 ## Owner and users
 
@@ -23,7 +23,7 @@ Users are additional accounts granted access by the Owner. As a subordinate acco
 
 To add a new user or edit the list of users, navigate to Account Settings → Users and Roles in the main menu.
 
-![image-20240718-041947.png](attachments/image-20240718-041947.png)
+![](attachments/image-20240718-041947.png)
 
 1. **Adding a New User**:
 

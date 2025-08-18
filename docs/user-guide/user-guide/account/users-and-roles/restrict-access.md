@@ -12,7 +12,7 @@ This document outlines how GPS devices and information created by users are secu
 
 When a user adds a GPS device, it is effectively created under the Owner’s account, so even after the user is deleted, the GPS device remains in the organization’s account. The Owner can specify which users can view GPS device data, such as trips or sensor data, ensuring that only authorized individuals can view and manage the device.
 
-![image-20240718-040427.png](attachments/image-20240718-040427.png)
+![](attachments/image-20240718-040427.png)
 
 ## Associated Artifacts
 

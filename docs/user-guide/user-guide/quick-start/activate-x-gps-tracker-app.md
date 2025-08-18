@@ -35,7 +35,7 @@ The employee will receive an invitation via text (SMS) or email depending on set
 * A 12-digit personal identifier
 * A link to download the X-GPS Tracker app
 
-![image-20240717-190626.png](attachments/image-20240717-190626.png)
+![](attachments/image-20240717-190626.png)
 
 ### Download and install the app
 
@@ -56,4 +56,6 @@ Upon launching the app, the employee will need to enter the 12-digit identifier 
 
 By following the steps above, you can successfully activate and use the X-GPS Tracker app with the Navixy platform, allowing you to track and manage your mobile device efficiently. If you encounter any issues, please consult the technical support of your service provider.
 
-> \[!INFO] If your employee has trouble, please have them try hitting the “Apply Settings” option from the email.
+{% hint style="info" %}
+If your employee has trouble, please have them try hitting the “Apply Settings” option from the email.
+{% endhint %}

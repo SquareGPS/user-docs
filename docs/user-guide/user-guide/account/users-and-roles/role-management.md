@@ -13,7 +13,7 @@ By assigning roles, the Owner can ensure that users have the appropriate access 
 
 To add a new role, navigate to Account Settings → Users and roles and select the “Role management” tab. Click on the add role button (the button with the ‘+’ sign).
 
-![image-20240718-043236.png](attachments/image-20240718-043236.png)
+![](attachments/image-20240718-043236.png)
 
 2. **Create a New Role**:
 

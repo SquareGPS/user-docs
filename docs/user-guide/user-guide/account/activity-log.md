@@ -4,7 +4,7 @@ Using the Activity Log, the account owner can track the activity of all [users o
 
 Navigate to **Account Settings → Activity Log**.
 
-![image-20241108-172817.png](attachments/image-20241108-172817.png)
+![](attachments/image-20241108-172817.png)
 
 ## Type of Actions
 
