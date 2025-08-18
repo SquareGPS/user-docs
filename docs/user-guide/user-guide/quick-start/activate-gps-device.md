@@ -4,12 +4,12 @@ Activating a device simply means adding a new device to your user account. You c
 
 There are two methods of activating a GPS tracking device:
 
-1. [Activate GPS device automatically (recommended)](activate-gps-device.md#Activate-GPS-device-automatically) — simplifies device setup by automatically configuring your device without any manual intervention. This method is recommended for most cases except when [manual activation is required or preferred](activate-gps-device.md#Activate-GPS-device-manually).
-2. [Activate GPS device manually](activate-gps-device.md#Activate-GPS-device-manually) — requires you to physically enter configuration settings into the device using its configurator, or more direct with SMS. This option is useful if the automatic configuration is not feasible due to specific technical or regional constraints.
+1. [Activate GPS device automatically (recommended)](activate-gps-device.md#activate-gps-device-automatically) — simplifies device setup by automatically configuring your device without any manual intervention. This method is recommended for most cases except when [manual activation is required or preferred](activate-gps-device.md#activate-gps-device-manually).
+2. [Activate GPS device manually](activate-gps-device.md#activate-gps-device-manually) — requires you to physically enter configuration settings into the device using its configurator, or more direct with SMS. This option is useful if the automatic configuration is not feasible due to specific technical or regional constraints.
 
 ## Activate GPS device automatically
 
-Navixy offers the unique advantage of fully automatic device activation, which in most cases frees users from the need to manually configure their devices. The process includes sending initial configuration commands to a device you are connecting via text message (SMS). However, if the automatic activation is not suitable in your case, you can always [configure the device manually](activate-gps-device.md#Activate-GPS-device-manually).
+Navixy offers the unique advantage of fully automatic device activation, which in most cases frees users from the need to manually configure their devices. The process includes sending initial configuration commands to a device you are connecting via text message (SMS). However, if the automatic activation is not suitable in your case, you can always [configure the device manually](activate-gps-device.md#activate-gps-device-manually).
 
 ### Automatic activation steps
 
@@ -27,15 +27,17 @@ Once you log in to your user account, navigate to Device activation in the left 
 
 Within about 15 minutes, the device should come online and be ready for use, depending on default device reporting settings.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Details about automatic configuration
+<summary>Details about automatic configuration</summary>
 
 With automatic activation, setting up your device is simple and user-friendly, with no need for USB cables, drivers, or configuration utilities. The process is quick, allowing the device to be operational within minutes. Configuration parameters, such as APN settings and server details, are sent automatically via SMS from the server to the device. Once connected, the device receives automatic updates, such as tracking mode settings, primarily over the IP channel.
 
+</details>
+
 ## Activate GPS device manually
 
-While Navixy offers [automatic GPS device activation](activate-gps-device.md#Activate-GPS-device-automatically) that simplifies the setup process, there are instances where manual configuration may be required or preferred. This section covers steps for manual device configuration and particular use cases when this method is preferred.
+While Navixy offers [automatic GPS device activation](activate-gps-device.md#activate-gps-device-automatically) that simplifies the setup process, there are instances where manual configuration may be required or preferred. This section covers steps for manual device configuration and particular use cases when this method is preferred.
 
 ### Manual activation steps
 
@@ -53,13 +55,15 @@ Please update those fields within your device configurator to begin connecting t
 
 For SMS activation, please either consult the device manual or the support team for the SMS commands used to activate your specific device.
 
-> \[!INFO] Note: SMS activation highly depends on your SIM provider’s capability. In our experience, SMS commands from a typical phone are unable to reach a device. In such an event, you must utilize your SIM provider’s portal to send the messages.
+{% hint style="info" %}
+SMS activation highly depends on your SIM provider’s capability. In our experience, SMS commands from a typical phone are unable to reach a device. In such an event, you must utilize your SIM provider’s portal to send the messages.
+{% endhint %}
 
 ### When manual activation is required or preferred
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Cellular devices with SMS deliverability issues
+<summary>Cellular devices with SMS deliverability issues</summary>
 
 Although Navixy and its partners utilize SMS gateways with high deliverability and worldwide coverage, some countries have local regulations and technical issues that can hinder the delivery of M2M commands sent via SMS text messages. These issues include:
 
@@ -68,9 +72,11 @@ Although Navixy and its partners utilize SMS gateways with high deliverability a
 
 If automatic setup fails due to these issues, you can manually configure the basic parameters, such as APN credentials, server address, and port. The server port and IP address for a specific device model can be found in the Devices section of our website. For detailed configuration instructions, please refer to the device's manual or consult the technical support of your [service provider](service-provider.md).
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Devices connected via MQTT protocol
+<details>
+
+<summary>Devices connected via MQTT protocol</summary>
 
 MQTT devices, which use the Publisher/Subscriber model for communication, require a unique setup process. These devices must be configured manually because they do not follow the traditional client-server model. You need to:
 
@@ -78,11 +84,13 @@ MQTT devices, which use the Publisher/Subscriber model for communication, requir
 2. Manually set up the device’s connection parameters, such as the MQTT broker address and port.
 3. Ensure the correct topics and security credentials are configured.
 
-Please refer to the[Activate Your MQTT Device on Navixy](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2732589133/Activate+Your+MQTT+Device+on+Navixy) section of our [Expert Center](https://squaregps.atlassian.net/wiki/spaces/SC) for more details.
+Please refer to the [Activate Your MQTT Device on Navixy](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/gps-devices/add-and-manage-devices/activate-your-mqtt-device-on-navixy) section of our [Expert Center](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/IgDb43gtyXcm1Av4h1np/) for more details.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Devices connected via LoRa network
+<details>
+
+<summary>Devices connected via LoRa network</summary>
 
 LoRa (Long Range) networks, which are commonly used for IoT applications due to their low power and long-range capabilities, also require manual configuration. This is because LoRa networks operate differently from standard cellular networks using LoRaWAN gateways and have specific requirements:
 
@@ -91,9 +99,11 @@ LoRa (Long Range) networks, which are commonly used for IoT applications due to 
 
 This setup is somewhat unique for each integration. Therefore please consult with the technical support of your [service provider](service-provider.md) on how to integrate your LoRa devices and LoRaWAN gateway with Navixy.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Devices connected via Satellite network
+<details>
+
+<summary>Devices connected via Satellite network</summary>
 
 Devices using satellite networks such as Iridium, Globalstar or Starlink need manual configuration due to the distinct nature of satellite communication, which differs significantly from terrestrial networks.
 
@@ -107,9 +117,15 @@ To configure a satellite device to be monitoring on Navixy, you need to:
 
 Because each integration can be unique, please consult the technical support of your [service provider](service-provider.md) for guidance on integrating your devices and gateway with Navixy.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Devices connected via other Telematics systems or Gateways
+<details>
+
+<summary>Devices connected via other Telematics systems or Gateways</summary>
+
+
+
+</details>
 
 There are scenarios where devices are already connected to other telematics systems, such as OEM telematics platforms or other GPS servers, and you need them to be monitored on both that platform and Navixy.
 
@@ -120,7 +136,7 @@ To monitor devices that are part of other telematics systems with Navixy, you ne
 * Add a virtual device:\
   Create a virtual device on the Navixy platform that maps to the data source using a unique device identifier.
 
-For more details, please read how to [Integrate IoT Data from Servers and Gateways](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2732621933/Integrate+IoT+Data+from+Servers+and+Gateways).
+For more details, please read how to [Integrate IoT Data from Servers and Gateways](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/gps-devices/add-and-manage-devices/integrate-iot-data-from-servers-and-gateways).
 
 ## FAQ and Troubleshooting
 
