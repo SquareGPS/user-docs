@@ -1,71 +1,73 @@
 # Check-ins
 
-The “Check-in” feature allows you to fix your location on the map, attach up to 9 photos and add a comment.
+The **Check-in** feature allows you to fix your location on the map, attach up to 9 photos, and add a comment.
 
-> *Field employees using X-GPS Tracker can report on visiting checkpoints, report on work performed, and also to transmit more detailed information on various events.*
+{% hint style="info" %}
+_Field employees using X-GPS Tracker can report on visiting checkpoints, report on work performed, and transmit more detailed information on various events._
+{% endhint %}
 
 ### Sending a mark
 
 To send a mark:
 
-1. Open the X-GPS Tracker mobile app;
-2. On the “Map” tab, click “Check in”;
-3. In the opened window add a photo and comment;
-4. Click on the “Check-in” button to send a message to the monitoring system.
+1. Open the **X-GPS Tracker** app
+2. On the **Map** tab and tap **Check in**
+3. In the opened window, add a photo and a comment
+4. Tap the **Check-in** button to send a message to the monitoring system
 
 After that, the information contained in the check-in mark will be transmitted to the server.
 
-About each new mark you will receive:
+You'll receive the following information about each mark:
 
-- Notifications in the web-interface
-- Push-notifications in mobile app
+* Notifications in the web interface
+* Push notifications in the mobile app
 
-![Main features](https://www.navixy.com/wp-content/uploads/2020/04/sgu8vkyi4d-600x374.png)
+![](https://www.navixy.com/wp-content/uploads/2020/04/sgu8vkyi4d-600x374.png)
 
-### Forms in check-ins
+### Forms in Check-ins
 
-You can also attach and fill out the [form](https://www.navixy.com/docs/user/web-interface-docs/tasks/forms/?simple-theme-css=simple&cacsp_bypass=true) before submitting the check-in. This feature can be useful, for example, in cases when an employee performs an emergency unplanned task and the operator has not yet entered it into the system.
+You can also attach and fill out a [form](../../field-service/forms.md) before submitting the Check-in. This feature can be useful, for example, in cases when an employee performs an emergency unplanned task and the operator has not yet entered it into the system.
 
-The process is absolutely identical to how you do it when [performing tasks](https://www.navixy.com/docs/user/web-interface-docs/tasks/forms/how-to-fill-in-a-form/?simple-theme-css=simple&cacsp_bypass=true) in the X-GPS tracker application. However, there are a couple of things to consider when using this feature:
+The process is identical to [performing tasks](https://www.youtube.com/watch?v=FaHJU_EEkUU) in the **X-GPS tracker** application. However, there are a couple of things to consider when using this feature:
 
-- Filling out the form is always optional to submit the check-in.
-- The form, like the check-in itself, can be sent only if tracking is enabled and connection to the server is established.
-- The form can only be submitted at the same time as the checkout. Before submitting, you can edit the form without restrictions. After submitting, you can no longer edit the form.
+* Filling out the form is always optional to submit the Check-in.
+* The form, like the Check-in itself, can be sent only if tracking is enabled and a connection to the server is established.
+* The form can only be submitted at the same time as the checkout. Before submitting, you can edit the form without restrictions. After submitting, you can no longer edit the form.
 
-![Check-ins](https://www.navixy.com/wp-content/uploads/2020/08/oengxvdbed-384x600.png)
+![](https://www.navixy.com/wp-content/uploads/2020/08/oengxvdbed-384x600.png)
 
-Completed forms can be found in the **Field service** -> **Forms** -> \[select the required form\] -> **Submissions**. More information - [View completed forms](https://www.navixy.com/docs/user/web-interface-docs/tasks/forms/how-to-view-completed-forms/?simple-theme-css=simple&cacsp_bypass=true).
+Completed forms can be found in the **Field service** -> **Forms** -> \[select the required form] -> **Submissions**. See [Viewing completed forms](../../field-service/forms.md#viewing-completed-forms) for more information.
 
-### View sent check-ins on the map
+### View sent Check-ins on the map
 
 The monitoring service allows you to view the previously sent marks along with a photo and a comment on the map. To view the marks:
 
-1. Go to the Monitoring app;
-2. Select the required device from the list;
-3. Click on the “Events” button;
-4. Select the type of event;
-5. Specify the time interval;
-6. Click on the "Show Events" icon.
+1. Go to **Monitoring**
+2. Select the required device from the list
+3. Click the **Events** button
+4. Select the type of event
+5. Specify the time interval
+6. Click the **Show Events** icon
 
-![Check-ins](https://www.navixy.com/wp-content/uploads/2019/12/show-events-1-600x263.png)
+![](https://www.navixy.com/wp-content/uploads/2019/12/show-events-1-600x263.png)
 
-On the map you will see all the check-ins for the selected time period. By clicking on them, you can see detailed information:
+On the map, you will see all the Check-ins for the selected time period. By clicking on them, you can see detailed information:
 
-- Time stamp
-- Full address
-- Name of the employee who sent the check-in
-- The form. By clicking on its name, you can view the contents of the submitted form
+* Time stamp
+* Full address
+* Name of the employee who sent the Check-in
+* The form. By clicking on its name, you can view the contents of the submitted form
 
-![Check-ins](https://www.navixy.com/wp-content/uploads/2020/08/chrome_2020-08-06_11-20-08.png)
+![](https://www.navixy.com/wp-content/uploads/2020/08/chrome_2020-08-06_11-20-08.png)
 
-### View sent check-ins in the report
+### View sent Check-ins in the report
 
-If you have multiple check-ins to go through our Check-in report will help you
+If you have multiple Check-ins to go through, you can use **Check-in report:**
 
-1. Go to the Reports app;
-  - Select Check-ins report from the list;
-  - Select trackers that should be included in the report;
-  - Specify the time interval;
-  - Click on the "Build report" button.
+1. Go to **Reports**
+2. Select **Check-ins report** from the list
+3. Select the trackers that should be included in the report
+4. Specify the time interval
+5. Click the **Build report** button
 
-![Check-ins](https://www.navixy.com/wp-content/uploads/2019/12/generate-report-600x368.png)
+![](https://www.navixy.com/wp-content/uploads/2019/12/generate-report-600x368.png)

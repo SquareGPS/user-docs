@@ -10,41 +10,49 @@ When a manager assigns a new task or edits an already assigned one, a remote emp
 
 The system also notifies the employee’s arrival to the task place and the process status, e.g. “accomplished”, “failed” or “overdue”. The notifications are accompanied by a sound signal or vibration.
 
-![Tasks](https://www.navixy.com/wp-content/uploads/2020/04/ukwcesvp2g-600x561.png)
+![](https://www.navixy.com/wp-content/uploads/2020/04/ukwcesvp2g-600x561.png)
 
-### Detailed tasks description and a mark on the map
+### Detailed task description and map location
 
-Employees can click on a new task notification and see the detailed information about it:
+{% columns %}
+{% column %}
+Employees can tap the new task notification and see detailed information about it:
 
-- Title
-- Status (for example, “scheduled”)
-- Task address
-- Route to the place and a direction based on the current location of the remote worker
-- Execution time and the minimum possible delay
-- Additional information on the task
+* Title
+* Status (for example, “scheduled”)
+* Task address
+* Route to the place and a direction based on the current location of the remote worker
+* Execution time and the minimum possible delay
+* Additional information on the task
 
-Tap on an icon next to the task address and the system will get you the direction from the current location to the task point with the following programs:
+Tap on an icon next to the task address, and the system will get you the direction from the current location to the task destination with the following programs:
 
-- Google Maps
-- Yandex Navi
-- Waze
+* Google Maps
+* Yandex Navi
+* Waze
+{% endcolumn %}
 
-![Tasks](https://www.navixy.com/wp-content/uploads/2020/04/cehclq5c85-432x600.png)
+{% column %}
+![](https://www.navixy.com/wp-content/uploads/2020/04/cehclq5c85-432x600.png)
 
-### A tasks list on employee’s screen
 
-Choose the Tasks tab in the Tracker app to see the whole To-Do list. Each task has its process status: “assigned”, “overdue”, “completed” etc.
+{% endcolumn %}
+{% endcolumns %}
 
-Tap on an icon next to the task address and the system will get you the direction from the current location to the task point.
+### The task list on employee’s screen
 
-![Tasks](https://www.navixy.com/wp-content/uploads/2020/04/we1fruf2y5-360x600.png)
+Choose the **Tasks** tab to see the to-do list. Each task has its process status: “Assigned”, “Overdue”, “Completed,” etc.
 
-### Sorting by distance, time and status
+Tap the icon next to the task address, and the system will display the directions from the current location to the task point.
 
-It is also possible to sort the list of tasks alphabetically, by time or by distance from a performer. You should just choose the desired feature in the settings.
+![](https://www.navixy.com/wp-content/uploads/2020/04/we1fruf2y5-360x600.png)
+
+### Sorting by distance, time, and status
+
+It is also possible to sort the list of tasks alphabetically, by time, or by distance from the performer. You should just choose the desired feature in the settings.
 
 ![Tasks](https://www.navixy.com/wp-content/uploads/2020/04/pdcssgrdtu-600x473.png)
 
-You may sort tasks by statuses: finished, unfinished or with any status
+You may sort tasks by status: finished, unfinished, or with any status.
 
 ![Tasks](https://www.navixy.com/wp-content/uploads/2020/04/cahqvprrnd-600x473.png)

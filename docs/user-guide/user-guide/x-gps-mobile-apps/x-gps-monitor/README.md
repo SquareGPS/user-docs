@@ -2,6 +2,8 @@
 
 X-GPS Monitor helps you to stay aware of what’s happening with your objects: every detail of their real-time statuses, location, and vehicle telemetry from your smartphones or tablets.
 
+{% columns %}
+{% column %}
 ### **Basic features**:
 
 * Location of the objects online
@@ -10,10 +12,14 @@ X-GPS Monitor helps you to stay aware of what’s happening with your objects: e
 * Notifications about your geo-events
 * Choosing your map: streets or satellite maps
 * Your balance
+{% endcolumn %}
 
-![image-20250304-161523.png](../attachments/image-20250304-161523.png)
+{% column %}
+<figure><img src="../attachments/image-20250304-161523.png" alt="X-GPS Monitor Logo"><figcaption></figcaption></figure>
 
-**Download Links**:
+<p align="center"><strong>Download Links</strong>:</p>
 
-* [Google Play](https://play.google.com/store/apps/details?id=com.navixy.xgps.client.app)
-* [App Store](https://apps.apple.com/us/app/x-gps-monitor/id883610994)
+<p align="center"><a href="https://play.google.com/store/apps/details?id=com.navixy.xgps.client.app">Google Play</a><br><a href="https://apps.apple.com/us/app/x-gps-monitor/id883610994">App Store</a></p>
+{% endcolumn %}
+{% endcolumns %}
+

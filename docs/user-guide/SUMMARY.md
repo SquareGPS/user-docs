@@ -198,7 +198,7 @@
       * [Video events (Android only)](user-guide/x-gps-mobile-apps/x-gps-monitor/video-events-android-only.md)
     * [X-GPS Tracker](user-guide/x-gps-mobile-apps/x-gps-tracker/README.md)
       * [Invitation to X-GPS Tracker](user-guide/x-gps-mobile-apps/x-gps-tracker/invitation-to-x-gps-tracker.md)
-      * [First start](user-guide/x-gps-mobile-apps/x-gps-tracker/first-start.md)
+      * [First launch](user-guide/x-gps-mobile-apps/x-gps-tracker/first-start.md)
       * [Main features](user-guide/x-gps-mobile-apps/x-gps-tracker/main-features.md)
       * [Application settings](user-guide/x-gps-mobile-apps/x-gps-tracker/application-settings.md)
       * [Task assignment](user-guide/x-gps-mobile-apps/x-gps-tracker/task-assignment.md)

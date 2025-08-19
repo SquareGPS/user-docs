@@ -4,10 +4,50 @@ The Android app is able to provide you with video events from devices' cameras, 
 
 Here you will find how to get video notifications:
 
-1. Choose your device and open notifications for it.![](https://www.navixy.com/wp-content/uploads/2022/05/overall-view-of-tracker-x-gps-monitor-android-with-events-marked.png)
+{% columns %}
+{% column %}
+1. Choose your device and open notifications for it.
+{% endcolumn %}
 
-2. Pick the necessary period where notifications are received.![](https://www.navixy.com/wp-content/uploads/2022/05/chose-event-period-x-gps-monitor-androoid-2.png)
+{% column %}
+<figure><img src="https://www.navixy.com/wp-content/uploads/2022/05/overall-view-of-tracker-x-gps-monitor-android-with-events-marked.png" alt=""><figcaption></figcaption></figure>
 
-3. The app will show you all events per period. On the lift side of each event, there is its type. On the right side, you can choose video from the necessary camera.![](https://www.navixy.com/wp-content/uploads/2022/05/list-of-events-with-videos-x-gps-monitor-android.png)
 
-4. Tap the camera icon, and a video opens in a default browser set on your phone.![](https://www.navixy.com/wp-content/uploads/2022/05/event-video-example-x-gps-monitor-android.png)
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+2. Pick the necessary period where notifications are received.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="https://www.navixy.com/wp-content/uploads/2022/05/chose-event-period-x-gps-monitor-androoid-2.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+3. The app will show you all events for the period. On the left side of each event, its type is displayed. On the right side, you can choose the video you want from the camera.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="https://www.navixy.com/wp-content/uploads/2022/05/list-of-events-with-videos-x-gps-monitor-android.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+4. Tap the camera icon to open the video in your phone's default browser.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="https://www.navixy.com/wp-content/uploads/2022/05/event-video-example-x-gps-monitor-android.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}

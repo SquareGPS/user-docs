@@ -1,6 +1,6 @@
 # Forms
 
-**Forms** are electronic documents that can be attached to tasks, allowing employees to submit task results directly through the X-GPS Tracker mobile app. These forms can include various types of fields such as text fields for client orders, inspection reports, and media sections for uploading photos and videos.
+**Forms** are electronic documents that can be attached to tasks, allowing employees to submit task results directly through the **X-GPS Tracker** mobile app. These forms can include various types of fields such as text fields for client orders, inspection reports, and media sections for uploading photos and videos.
 
 ## Getting started
 
@@ -8,9 +8,9 @@
 
 To begin using forms in Navixy:
 
-1. Launch the Field service application from the main menu.
-2. Click on the "Forms" tab to open the form management interface.
-3. Start the form creation process by clicking on the "+" icon.
+1. Open the **Field service** module from the main menu.
+2. Click on the **Forms** tab to open the form management interface.
+3. Start the form creation process by clicking the **+** icon.
 4. Choose the necessary components (e.g., text fields, checkboxes, dropdowns, date, rating, image, file attachment, signature, and section separators) from the left side of the screen. Customize the form to suit your company's specific workflow and tasks.
 
 This process allows you to create as many forms as needed, ensuring they are tailored to the tasks your employees perform.

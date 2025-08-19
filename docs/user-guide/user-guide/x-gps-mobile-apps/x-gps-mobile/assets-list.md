@@ -56,7 +56,7 @@ You can zoom in and out and center the map on your own GPS coordinates. Tap the 
 
 Tap <img src="attachments/icon5.png" alt="Map options" data-size="line"> to display the map options menu:
 
-| <div><figure><img src="../../../.gitbook/assets/Untitled (2).jpg" alt="Places"><figcaption><p>Places</p></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/Untitled (3).jpg" alt="Geofences"><figcaption><p>Geofences</p></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/Untitled (4).jpg" alt="Map type"><figcaption><p>Map type</p></figcaption></figure></div> |
+| <div><figure><img src="../../../.gitbook/assets/Untitled (4).jpg" alt="Places"><figcaption><p>Places</p></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/Untitled (5).jpg" alt="Geofences"><figcaption><p>Geofences</p></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/Untitled (6).jpg" alt="Map type"><figcaption><p>Map type</p></figcaption></figure></div> |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 
 Here, you can select places (such as client locations for delivery), geofences, and map type. Note that map type selection is currently only available on Android devices.
@@ -69,7 +69,7 @@ The list has two filtering methods: by category and by status.
 
 To filter by category, tap **All**, **Vehicles**, **Staff**, or **Objects**.
 
-To filter by status (moving, stopped, parked, idling, and offline), tap <img src="../../../.gitbook/assets/Untitled (2).png" alt="" data-size="line"> to open the **Filter & Sorting** menu. In addition to filtering, this menu also allows sorting assets by name.
+To filter by status (moving, stopped, parked, idling, and offline), tap <img src="../../../.gitbook/assets/Untitled (4).png" alt="" data-size="line"> to open the **Filter & Sorting** menu. In addition to filtering, this menu also allows sorting assets by name.
 {% endcolumn %}
 
 {% column %}

@@ -6,15 +6,15 @@ A **Task** in Navixy refers to a specific assignment or job that needs to be com
 
 Tasks are essential for managing and coordinating field operations, ensuring that employees are clear about their responsibilities, and allowing managers to monitor progress, optimize routes, and ensure that all jobs are completed efficiently.
 
-## How to create a Task
+## How to create a task
 
-1. Navigate to Tasks tab in Field service application
+1. Navigate to **Tasks** tab in **Field service** module
 2. Click the **“+”** button to begin the process of creating a new task.
-3. **Define the Task name:**
+3. **Define the task name:**
 
 * Enter a descriptive task name that helps identify the purpose of the task. This could be the name of the customer or a brief description of the task, such as "Install Equipment" or "Inspect Communications."
 
-4. **Specify the Task address:**
+4. **Specify the task address:**
 
 * Enter the task address manually, select a point on the map, or use geographic coordinates. This will define the primary location for a single task or the first checkpoint for a route task.
 
@@ -26,11 +26,11 @@ Tasks are essential for managing and coordinating field operations, ensuring tha
 
 * To create a route task, click “Add New Checkpoint” after setting the initial location. Each checkpoint represents an additional stop along the route, and they will be automatically connected in sequence. The employee must complete these checkpoints in the specified order.
 
-7. **Assign the Task to an Employee:**
+7. **Assign the task to an Employee:**
 
 * Select the employee who will be responsible for the task. If necessary, you can assign the task later using the task list or utilize additional tools provided in the interface to make the assignment easier.
 
-8. **Additional Task details:**
+8. **Additional task details:**
 
 * **Task description:** Provide any additional details that might be useful to the employee, such as contact information or special instructions.
 * **Form:** Select the form that the employee needs to complete while performing the task. Forms can be filled out directly in the X-GPS Tracker app.
