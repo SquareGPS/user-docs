@@ -2,7 +2,9 @@
 
 The Navixy ecosystem includes three dedicated mobile applications designed to enhance real-time monitoring and field service management: **X-GPS Mobile**, **X-GPS Monitor,** and **X-GPS Tracker**.
 
-> \[!INFO] X-GPS Mobile is the latest and most up-to-date application, constantly receiving new features. Stay tuned for updates!
+{% hint style="info" %}
+X-GPS Mobile is the latest and most up-to-date application, constantly receiving new features. Stay tuned for updates!
+{% endhint %}
 
 Learn more about the apps, their functionalities, and purposes:
 
