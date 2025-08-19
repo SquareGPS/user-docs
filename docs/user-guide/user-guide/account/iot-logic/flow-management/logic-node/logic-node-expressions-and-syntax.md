@@ -2,7 +2,7 @@
 
 ## Expression fundamentals
 
-The Logic node uses the [Navixy IoT Logic Expression Language](https://www.navixy.com/docs/iot-logic-api/technologies/navixy-iot-logic-expression-language), which is based on Java Expression Language (JEXL). All expressions must return a boolean value (true/false) for proper node operation.
+The Logic node uses the [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language), which is based on Java Expression Language (JEXL). All expressions must return a boolean value (true/false) for proper node operation.
 
 **Expression evaluation**: Expressions are evaluated from left to right, and you can use parentheses to control the order of operations.
 
@@ -16,39 +16,21 @@ condition1 && (condition2 || condition3 > condition4)
 
 ### Comparison operators
 
-| Operator | Description |
-| --- | --- |
-| `==` | Checks if two operands are equal. If operands are of different types, JEXL converts them to one if possible |
-| `!=` | Checks for inequality of two operands. Returns true if operands are not equal |
-| `<` | Checks that the left operand is smaller than the right operand |
-| `<=` | Checks that the left operand is smaller or equal to the right operand |
-| `>` | Checks that the left operand is larger than the right operand |
-| `>=` | Checks that the left operand is larger or equal to the right operand |
+<table><thead><tr><th width="138.54547119140625">Operator</th><th>Description</th></tr></thead><tbody><tr><td><code>==</code></td><td>Checks if two operands are equal. If operands are of different types, JEXL converts them to one if possible</td></tr><tr><td><code>!=</code></td><td>Checks for inequality of two operands. Returns true if operands are not equal</td></tr><tr><td><code>&#x3C;</code></td><td>Checks that the left operand is smaller than the right operand</td></tr><tr><td><code>&#x3C;=</code></td><td>Checks that the left operand is smaller or equal to the right operand</td></tr><tr><td><code>></code></td><td>Checks that the left operand is larger than the right operand</td></tr><tr><td><code>>=</code></td><td>Checks that the left operand is larger or equal to the right operand</td></tr></tbody></table>
 
 ### Logical operators
 
-| Operator | Description |
-| --- | --- |
-| `&&` or `and` | Logical AND - checks if two conditions are true. Returns true if both conditions are true |
-| `\|` or `or` | Logical OR - checking for the truth of at least one of the two conditions |
-| `!` or `not` | Logical NOT - converts the result of the condition to the opposite value |
+<table><thead><tr><th width="139.45458984375">Operator</th><th>Description</th></tr></thead><tbody><tr><td><code>&#x26;&#x26;</code> or <code>and</code></td><td>Logical AND - checks if two conditions are true. Returns true if both conditions are true</td></tr><tr><td><code>|</code> or <code>or</code></td><td>Logical OR - checking for the truth of at least one of the two conditions</td></tr><tr><td><code>!</code> or <code>not</code></td><td>Logical NOT - converts the result of the condition to the opposite value</td></tr></tbody></table>
 
 ### Pattern matching operators
 
-| Operator | Description |
-| --- | --- |
-| `=~` | Checks if the value of the left operand is in the set of the right operand. For strings, checks for regex pattern match |
-| `!~` | Checks if the value of the left operand is not in the set of the right operand. For strings, checks for regex pattern mismatch |
-| `=^` | Checks that the left string operand starts with the right string operand |
-| `!^` | Checks that the left string operand doesn't start with the right string operand |
-| `=$` | Checks that the left string operand ends with the right string operand |
-| `!$` | Checks that the left string operand doesn't end with the right string operand |
+<table><thead><tr><th width="138.54547119140625">Operator</th><th>Description</th></tr></thead><tbody><tr><td><code>=~</code></td><td>Checks if the value of the left operand is in the set of the right operand. For strings, checks for regex pattern match</td></tr><tr><td><code>!~</code></td><td>Checks if the value of the left operand is not in the set of the right operand. For strings, checks for regex pattern mismatch</td></tr><tr><td><code>=^</code></td><td>Checks that the left string operand starts with the right string operand</td></tr><tr><td><code>!^</code></td><td>Checks that the left string operand doesn't start with the right string operand</td></tr><tr><td><code>=$</code></td><td>Checks that the left string operand ends with the right string operand</td></tr><tr><td><code>!$</code></td><td>Checks that the left string operand doesn't end with the right string operand</td></tr></tbody></table>
 
 ## Expression examples
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Basic condition examples
+<summary>Basic condition examples</summary>
 
 **Equality checks**:
 
@@ -105,9 +87,11 @@ value('fuel_level', 0, 'valid') < 20
 
 This expression identifies when fuel levels drop below 20%, enabling proactive refueling.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Logical operator examples
+<details>
+
+<summary>Logical operator examples</summary>
 
 **AND operations**:
 
@@ -130,9 +114,11 @@ temperature < 10 or humidity > 80
 not condition
 ```
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Pattern matching examples
+<details>
+
+<summary>Pattern matching examples</summary>
 
 **Set membership**:
 
@@ -150,9 +136,11 @@ value('engine_hours', 0, 'valid') =$ '1000'
 value('driver_id', 0, 'valid') !$ '8b38851c3c68'
 ```
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Complex multi-condition examples
+<details>
+
+<summary>Complex multi-condition examples</summary>
 
 **After-hours speeding alert**:
 
@@ -194,9 +182,11 @@ value('cargo_temperature', 0, 'valid') < -18 || value('cargo_temperature', 0, 'v
 
 This detects when refrigerated cargo temperatures fall outside the acceptable range.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Expression complexity and parentheses
+<details>
+
+<summary>Expression complexity and parentheses</summary>
 
 You can create complex expressions by combining multiple conditions with parentheses to control evaluation order:
 
@@ -208,25 +198,29 @@ You can create complex expressions by combining multiple conditions with parenth
 
 **Multi-parameter equipment check**:
 
+{% code overflow="wrap" %}
 ```
 (value('oil_pressure', 0, 'valid') < 20 || value('coolant_temp', 0, 'valid') > 95) && value('engine_running', 0, 'valid') == true
 ```
+{% endcode %}
+
+</details>
 
 ## Error handling scenarios
 
-| Scenario | Result | Flow Path | Attribute Value |
-| --- | --- | --- | --- |
-| Expression evaluates to `true` | Success | THEN connection | `true` |
-| Expression evaluates to `false` | Success | ELSE connection | `false` |
-| Referenced attribute is `null` | Treated as `false` | ELSE connection | `false` |
-| Syntax error in expression | Treated as `false` | ELSE connection | `null` |
-| Referenced attribute doesn't exist | Treated as `false` | ELSE connection | `null` |
+| Scenario                           | Result             | Flow Path       | Attribute Value |
+| ---------------------------------- | ------------------ | --------------- | --------------- |
+| Expression evaluates to `true`     | Success            | THEN connection | `true`          |
+| Expression evaluates to `false`    | Success            | ELSE connection | `false`         |
+| Referenced attribute is `null`     | Treated as `false` | ELSE connection | `false`         |
+| Syntax error in expression         | Treated as `false` | ELSE connection | `null`          |
+| Referenced attribute doesn't exist | Treated as `false` | ELSE connection | `null`          |
 
 ## Practical implementation examples
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Fleet temperature monitoring
+<summary>Fleet temperature monitoring</summary>
 
 **Business requirement**: Monitor refrigerated vehicles to ensure cargo temperature compliance
 
@@ -234,12 +228,14 @@ Fleet temperature monitoring
 value('cargo_temperature', 0, 'valid') > 4 || value('cargo_temperature', 0, 'valid') < -18
 ```
 
-- **THEN path**: Send immediate alerts to dispatch, log compliance violations, trigger corrective actions
-- **ELSE path**: Continue normal processing for compliant temperatures, update status dashboards
+* **THEN path**: Send immediate alerts to dispatch, log compliance violations, trigger corrective actions
+* **ELSE path**: Continue normal processing for compliant temperatures, update status dashboards
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Driver safety enforcement
+<details>
+
+<summary>Driver safety enforcement</summary>
 
 **Business requirement**: Identify unsafe driving patterns during active shift hours
 
@@ -247,12 +243,14 @@ Driver safety enforcement
 value('harsh_acceleration', 0, 'valid') == true && value('shift_active', 0, 'valid') == true
 ```
 
-- **THEN path**: Generate driver coaching reports, send safety notifications, log incidents
-- **ELSE path**: Process normal driving behavior data, update performance metrics
+* **THEN path**: Generate driver coaching reports, send safety notifications, log incidents
+* **ELSE path**: Process normal driving behavior data, update performance metrics
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Predictive maintenance alerts
+<details>
+
+<summary>Predictive maintenance alerts</summary>
 
 **Business requirement**: Detect potential equipment failures before they occur
 
@@ -260,12 +258,14 @@ Predictive maintenance alerts
 value('engine_temperature', 0, 'valid') > 95 && value('oil_pressure', 0, 'valid') < 30
 ```
 
-- **THEN path**: Schedule maintenance appointments, send technician alerts, log diagnostic data
-- **ELSE path**: Continue routine monitoring, update equipment health dashboards
+* **THEN path**: Schedule maintenance appointments, send technician alerts, log diagnostic data
+* **ELSE path**: Continue routine monitoring, update equipment health dashboards
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Geofence compliance monitoring
+<details>
+
+<summary>Geofence compliance monitoring</summary>
 
 **Business requirement**: Ensure vehicles operate within authorized areas during business hours
 
@@ -273,5 +273,7 @@ Geofence compliance monitoring
 (value('latitude', 0, 'valid') < 40.7489 || value('latitude', 0, 'valid') > 40.7589) && value('business_hours', 0, 'valid') == true
 ```
 
-- **THEN path**: Generate unauthorized location alerts, notify security, log violations
-- **ELSE path**: Continue normal operations logging, update location tracking
+* **THEN path**: Generate unauthorized location alerts, notify security, log violations
+* **ELSE path**: Continue normal operations logging, update location tracking
+
+</details>
