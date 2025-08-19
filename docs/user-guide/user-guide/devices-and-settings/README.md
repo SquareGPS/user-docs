@@ -2,7 +2,7 @@
 
 The **Devices and settings** section in Navixy is a comprehensive interface that allows fleet managers to configure and manage their tracking devices remotely. This section is essential for fine-tuning device performance, setting up sensors, and applying specific settings tailored to each asset within the fleet.
 
-![image-20240814-225942.png](../attachments/image-20240814-225942.png)
+![](../attachments/image-20240814-225942.png)
 
 #### Key features and configuration options
 

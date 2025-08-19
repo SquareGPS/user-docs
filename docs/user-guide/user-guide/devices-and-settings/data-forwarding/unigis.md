@@ -1,6 +1,6 @@
 # Unigis
 
-The Unigis protocol is a vehicle location data forwarding protocol between Navixy and TMS platform developed by Unigis company. The most frequent use cases relate to real-time collection of GPS tracking and vehicle Telematics data by logistics departments of large manufacturing and retail chain companies. Most of these companies are located in the US, Mexico, Columbia, Chile, Argentina, Brazil and Spain.
+The **Unigis** protocol is a vehicle location data forwarding protocol between Navixy and TMS platform developed by Unigis company. The most frequent use cases relate to real-time collection of GPS tracking and vehicle Telematics data by logistics departments of large manufacturing and retail chain companies. Most of these companies are located in the US, Mexico, Colombia, Chile, Argentina, Brazil and Spain.
 
 _Protocol Category: Enterprise Compliance_
 
@@ -45,12 +45,7 @@ Nature: ASCII
 
 To initiate data forwarding using the Unigis protocol from Navixy, you will need the following parameters:
 
-\| Parameter | Explanation | | --- | --- | | Destination server address and port | URL of endpoint and port that is used by Ungis TMS.\
-\
-Most commonly:\
-\
-\* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx\
-\* Port: 80 | | Login and password | Your Unigis login and password | | External ID | License plate number of an individual vehicle |
+<table><thead><tr><th width="281.6363525390625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Destination server address and port</td><td>URL of endpoint and port that is used by Ungis TMS.<br><br>Most commonly:<br><br>* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx<br>* Port: 80</td></tr><tr><td>Login and password</td><td>Your Unigis login and password</td></tr><tr><td>External ID</td><td>License plate number of an individual vehicle</td></tr></tbody></table>
 
 To set up data forwarding in Unigis protocol, open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen
 
@@ -66,33 +61,29 @@ For the Unigis protocol, input the following information:
 4. Destination server address, e.g. http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx
 5. Destination port, e.g. 80
 
-A Retranslation management screen should look similar to the following, with Unigis login and password. Make sure the "Enabled" button is checked and click the "Save" button to complete the process.
+A Retranslation management screen should look like the following, with Unigis login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
-![Types and parameters](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-600x112.png)
+![](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-600x112.png)
 
-Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the “Link” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
+Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below.
 
-button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
-
-Next, add the ID of the device on the 3rd party system, either by clicking the pencil icon or the external ID field. This value should be the license plate number on the Unigis side. Select “Save” once completed.
+Next, add the ID of the device in the 3rd-party system either by clicking the pencil icon or the external ID field. This value should be the license plate number on the Unigis side. Select **Save** once completed.
 
 #### Managing
 
-To edit or stop data being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, please refer to the following steps:
 
-1. Select the “Pencil” icon or click in the associated box to edit the external ID used to point to the device on the 3rd party system
-2. To stop the data forwarding, click the “Trash” button
-3. Next, acknowledge the change on the popup
+1. Select the **Pencil** icon or click in the associated box to edit the external ID used to point to the device on the 3rd party system.
+2. Click the **Trash** button to stop the data forwarding.
+3. Acknowledge the change in the pop-up.
+4. Click **Protocols** to change retranslator settings such as name, login information, or enabled status
+5. This will open the retranslator management window. Select the row to edit and either click the pencil in the top left or double-click the row in question to allow editing. Save any changes.
 
-To change retranslator settings such as name, login information, or enabled, click “Protocols.”
-
-This will open the retranslator management window. Select the row to edit and either click the pencil in the top left, or double-click the row in question to allow editing. Save any changes.
-
-![data forwarding management](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-1-600x96.png)
+![](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-1-600x96.png)
 
 #### Troubleshooting
 
-If data does not display on the 3rd party Unigis system, please verify:
+If data does not display on the 3rd-party Unigis system, please make sure that:
 
 * Username and password for Unigis are correctly entered
 * URL was entered correctly

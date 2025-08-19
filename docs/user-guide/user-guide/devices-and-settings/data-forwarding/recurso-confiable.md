@@ -1,8 +1,8 @@
 # Recurso Confiable
 
-## Recurso Confiable—GPS tracking/data forwarding for enterprises
+## Recurso Confiable: GPS tracking/data forwarding for enterprises
 
-Recurso Confiable is a security and logistics software that monitors, gives visibility, and generates predictability on transport operations. Navixy created the Recurso Confiable data forwarding protocol to be used by other companies that also work with Recurso Confiable across multiple industries in Mexico, Colombia, the United States, and Central America.
+**Recurso Confiable** is a security and logistics software that monitors, gives visibility, and generates predictability on transport operations. Navixy created the Recurso Confiable data forwarding protocol to be used by other companies that also work with Recurso Confiable across multiple industries in Mexico, Colombia, the United States, and Central America.
 
 _Protocol Category: Enterprise protocol_
 
@@ -43,7 +43,7 @@ Data that’s sent to Recurso Confiable:
 * CustomerName
 * Device ID
 
-### Recurso Confiable Configuration
+### Recurso Confiable configuration
 
 #### Setting up
 
@@ -66,61 +66,56 @@ This will open a popup where you will input the required parameters by pressing 
 
 For the Recurso Confiable protocol, input the following information:
 
-\| Parameter | Explanation | | --- | --- | | Name | Enter a name to make this retranslator easily identifiable | | Protocol and Login | Select the Recurso Confiable protocol from the dropdown;\
-\
-Use Recurso Confiable Login and Password | | Destination server address and port | Address: [http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc](http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc) | Port: 80 |
+<table><thead><tr><th width="236.54541015625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol and login</td><td>Select the Recurso Confiable protocol from the dropdown<br>Use Recurso Confiable login and password</td></tr><tr><td>Destination server address and port</td><td>Address: http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc<br>Port: 80</td></tr></tbody></table>
 
-A Retranslation management screen should look similar to the following, with Recurso Confiable login and password. Make sure the "Enabled" button is checked and click the "Save" button to complete the process.
+The  **Retranslation management** screen should look similar to the following, with Recurso Confiable login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
 
-Next, the retranslator will need to be linked to the device on the Recurso Confiable side. To do so, select the “Link” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
+Next, the retranslator will need to be linked to the device on the Recurso Confiable side. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below.
 
-button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
+Next, add information needed to identify the device on Recurso Confiable in the External ID field either by clicking the pencil icon or the external ID field itself. This value should include the following from the Recurso Confiable side, where only the License Plate is mandatory:
 
-Next, add information needed to identify the device on Recurso Confiable in the External ID field, either by clicking the pencil icon or the external ID field itself. This value should include the following from the Recurso Confiable side, where only the License Plate is mandatory:
-
-License Plate
-
-Route ID
-
-Company ID
-
+License Plate\
+Route ID\
+Company ID\
 Company Name
 
 The format for the External ID field will be separated by a pipe. For example:
 
+```
 ABC123|1|123|John
+```
 
 If only the License Plate is available, the External ID can be entered by itself:
 
+```
 ABC123
+```
 
 Or if any other information is missing, be sure to include the pipes, for example:
 
+```
 ABC123||123|
+```
 
-Select “Save” once completed.
+Select **Save** once completed.
 
 #### Managing
 
-To edit or stop data being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, please refer to the following steps:
 
-Select the “Pencil” icon or click in the associated box to edit the external ID used to point to the device on the 3rd party system.
+1. Select the **Pencil** icon or click in the associated box to edit the external ID used to point to the device on the 3rd party system.
+2. Click the **Trash** button to stop the data forwarding.
+3. Acknowledge the change in the pop-up.
+4. Click **Protocols** to change retranslator settings such as name, login information, or enabled status
+5. This will open the retranslator management window. Select the row to edit and either click the pencil in the top left or double-click the row in question to allow editing. Save any changes.
 
-To stop the data forwarding, click the “Trash” button.
-
-Next, acknowledge the change on the popup.
-
-To change retranslator settings such as name, login information, or enabled, click “Retranslators management.”
-
-This will open the retranslator management window. Select the row to edit and either click the pencil in the top left, or double-click the row in question to allow editing. Save any changes.
-
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-3-600x107.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-3-600x107.png)
 
 #### Troubleshooting
 
-If data does not display on the 3rd party Recurso Confiable system, please verify:
+If data does not display on the 3rd-party Recurso Confiable system, please make sure that:
 
 * Username and password for Recurso Confiable are correctly entered
 * URL was entered correctly
