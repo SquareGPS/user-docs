@@ -4,15 +4,13 @@
 
 {% columns %}
 {% column width="58.333333333333336%" %}
-
+**Output Endpoint node** serves as the data transmission component within IoT Logic flows, defining where processed device data is sent. Its primary function is to standardize heterogeneous device data into a consistent format before transmitting it to external systems or services. All data is transferred in a unified format, enabled by [Navixy Generic Protocol](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-generic-protocol).
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
 ![](attachments/image-20250407-210332.png)
 {% endcolumn %}
 {% endcolumns %}
-
-**Output Endpoint node** serves as the data transmission component within IoT Logic flows, defining where processed device data is sent. Its primary function is to standardize heterogeneous device data into a consistent format before transmitting it to external systems or services. All data is transferred in a unified format, enabled by [Navixy Generic Protocol](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-generic-protocol).
 
 For details on the format in which data is transmitted, see [Output data format](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933239/Output+Endpoint+node#Output-data-format).
 

@@ -11,14 +11,18 @@
 
 Unlike conventional vendor-specific solutions, **Data Stream Analyzer** offers universal device compatibility and remote troubleshooting capabilities through a single technical interface, significantly reducing the time and complexity of device diagnostics.
 
-> \[!NOTE] **Navigation** **Data Stream Analyzer** is available to account **Owners** in the **Account Settings** section. To access it:
->
-> 1. Click the profile icon in the top-left corner of the screen to open your account settings
-> 2. In the settings sidebar select **IoT Logic**
-> 3. Open the flow whose data you want to monitor from the **Data flow** list
-> 4. Click ![DATA\_ANALYZER.png](attachments/DATA_ANALYZER.png)
+{% hint style="info" %}
+### **Navigation**&#x20;
 
-![Data\_Analyzer\_big.png](attachments/Data_Analyzer_big.png)
+**Data Stream Analyzer** is available to account **Owners** in the **Account Settings** section. To access it:
+
+* Click the profile icon in the top-left corner of the screen to open your account settings
+* In the settings sidebar select **IoT Logic**
+* Open the flow whose data you want to monitor from the **Data flow** list
+* Click ![DATA\_ANALYZER.png](attachments/DATA_ANALYZER.png)
+{% endhint %}
+
+![Data Analyzer view](attachments/Data_Analyzer_big.png)
 
 Let's dive deeper into all the possibilities and functions you can find here.
 
@@ -33,7 +37,9 @@ The main control options for the Analyzer tool are gathered in the top menu.
 * **Table view** (default): This mode shows decoded data from devices in a tabular format.
 * **Flow logs** (coming soon): This mode shows overall logs, TCP dumps, and node logs in the chosen flow. It will be added in the next iterations.
 
-> \[!INFO] The options above are inactive at the moment and contain the default selections. They will become available with further enhancements of IoT Logic functionality. Stay tuned!
+{% hint style="info" %}
+The options above are inactive at the moment and contain the default selections. They will become available with further enhancements of IoT Logic functionality. Stay tuned!
+{% endhint %}
 
 Clicking the **Close** button will return you to the main IoT Logic screen.
 
@@ -43,7 +49,7 @@ Now let’s take a closer look at the interface sections and the information ava
 
 ### Top menu bar
 
-![Menu\_bar.png](attachments/Menu_bar.png)
+![Top menu bar controls](attachments/Menu_bar.png)
 
 The top menu contains the main controls for the table view.
 
@@ -64,9 +70,15 @@ The top menu contains the main controls for the table view.
 
 The left menu block contains a list of devices and attributes belonging to the chosen flow. To switch between lists, use the **Devices** and **Attribute** buttons on the top of the list. You may search devices by ID and attributes by their names.
 
-![Devices\_list.png](attachments/Devices_list.png)
+{% columns %}
+{% column %}
+![Adding devices for monitoring](attachments/Devices_list.png)
+{% endcolumn %}
 
-![Attributes\_list.png](attachments/Attributes_list.png)
+{% column %}
+![Adding attributes for monitoring](attachments/Attributes_list.png)
+{% endcolumn %}
+{% endcolumns %}
 
 You can select up to 10 devices. Once selected, all attributes supported by these devices will be displayed, allowing you to choose any number to show in the table. Only attributes relevant to the selected devices will be available.
 
@@ -74,7 +86,7 @@ You can select up to 10 devices. Once selected, all attributes supported by thes
 
 The information about received values per chosen devices and attributes will be displayed in this table.
 
-![Table\_example.png](attachments/Table_example.png)
+![Table view example](attachments/Table_example.png)
 
 The table provides information in the following way:
 

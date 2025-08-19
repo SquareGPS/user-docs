@@ -32,7 +32,9 @@ This flow will transform the raw device data into a format that directly support
 
 Follow these steps to build a comprehensive data transformation and forwarding flow:
 
-### Step 1: Create a new flow
+{% stepper %}
+{% step %}
+### Create a new flow
 
 1. Click the **New flow** button at the top of the IoT Logic interface
 2. Enter _Asset Telemetry Processing_ as the flow name
@@ -40,9 +42,11 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 4. Ensure the **Flow enabled** toggle is switched on
 5. Click **Save** to create the flow
 
-![Create flow dialog with filled-in name and description, Flow enabled toggle on](attachments/image-20250407-200203.png)
+<figure><img src="attachments/image-20250407-200203.png" alt="Create flow dialog with filled-in name and description, Flow enabled toggle on"><figcaption></figcaption></figure>
+{% endstep %}
 
-### Step 2: Configure the data source
+{% step %}
+### Configure the data source
 
 1. Drag a **Data Source** node from the left menu to the workspace
 2. Double-click on the node to open its configuration panel
@@ -53,9 +57,11 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 
 5. Click **Apply** to save node configuration
 
-![Data source node configuration with selected devices](attachments/image-20250407-200511.png)
+<figure><img src="attachments/image-20250407-200511.png" alt="Data source node configuration with selected devices" width="375"><figcaption></figcaption></figure>
+{% endstep %}
 
-### Step 3: Set up basic data transformations
+{% step %}
+### Set up basic data transformations
 
 1. Drag an **Initiate Attribute** node from the left menu to the workspace
 2. Connect the **Data Source** node to this **Initiate Attribute** node
@@ -68,11 +74,17 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 9. Add a new attribute for pressure conversion (PSI to Bar): 1. Attribute name: _pressure\_bar_ 2. Value: `value('pressure_psi') * 0.06895`
 10. Click **Apply** to save node configuration
 
-![First Initiate attribute node showing the unit conversion attributes](attachments/image-20250407-201226.png)
+<figure><img src="attachments/image-20250407-201226.png" alt="First Initiate attribute node showing the unit conversion attributes"><figcaption></figcaption></figure>
 
-> \[!NOTE] For explanations on calculations introduced in this step, see [Basic unit conversions](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933300/Flow+configuration+example#Basic-unit-conversions).
+{% hint style="info" %}
+For explanations on calculations introduced in this step, see [Basic unit conversions](flow-configuration-example.md#basic-unit-conversions)
+{% endhint %}
+{% endstep %}
 
-### Step 4: Create advanced calculated metrics
+{% step %}
+### Create advanced calculated metrics
+
+
 
 1. Drag another **Initiate Attribute** node from the left menu to the workspace
 2. Connect the first **Initiate Attribute** node to this new one
@@ -88,35 +100,39 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 12. Add an attribute for average fuel level from multiple sensors: 1. Attribute name: _avg\_fuel\_level_ 2. Value: `(value('fuel_level_1', 0, 'valid') + value('fuel_level_2', 0, 'valid')) / 2`
 13. Click **Apply** to save node configuration
 
-![Second Initiate attribute node showing the advanced calculated metrics](attachments/image-20250407-202303.png)
+<figure><img src="attachments/image-20250407-202303.png" alt="Second Initiate attribute node showing the advanced calculated metrics"><figcaption></figcaption></figure>
 
-> \[!NOTE] For explanations on calculations introduced in this step, see [Advanced metrics calculations](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933300/Flow+configuration+example#Advanced-metrics-calculations).
+{% hint style="info" %}
+For explanations on calculations introduced in this step, see [Advanced metrics calculations](flow-configuration-example.md#advanced-metrics-calculations).
+{% endhint %}
+{% endstep %}
 
-### Step 5: Configure the output endpoint
+{% step %}
+### Configure the output endpoint
 
 1. Drag an **Output Endpoint** node from the left menu to the workspace
 2. Connect the second **Initiate Attribute** node to this **Output Endpoint** node
 3. Click on the node to open its configuration
 4. Configure the following settings:
-
-* **Endpoint type**: _MQTT endpoint_
-* **Endpoint name**: _Analytics Platform_
-* **Protocol**: default _Navixy Generic Protocol (JSON)_
-* **IP/Domain**: Enter the destination system address (e.g., "_analytics.example.com_")
-* **Port**: _8883_ (default for MQTT, you can leave it empty)
-* **Enable SSL**: _toggle on_
-* **MQTT Version**: _5.0_
-* **MQTT Client ID**: _asset-telemetry-client_
-* **Topic**: _telemetry/assets/raw_
-* **QoS**: _1_
-* **MQTT Authentication**: _Yes_ (if required by your destination system)
-* **MQTT Login and Password**: Enter credentials if applicable
-
+   1. **Endpoint type**: _MQTT endpoint_
+   2. **Endpoint name**: _Analytics Platform_
+   3. **Protocol**: default _Navixy Generic Protocol (JSON)_
+   4. **IP/Domain**: Enter the destination system address (e.g., "_analytics.example.com_")
+   5. **Port**: _8883_ (default for MQTT, you can leave it empty)
+   6. **Enable SSL**: _toggle on_
+   7. **MQTT Version**: _5.0_
+   8. **MQTT Client ID**: _asset-telemetry-client_
+   9. **Topic**: _telemetry/assets/raw_
+   10. **QoS**: _1_
+   11. **MQTT Authentication**: _Yes_ (if required by your destination system)
+   12. **MQTT Login and Password**: Enter credentials if applicable
 5. Click **Create** to save node configuration
 
-![Output endpoint node configuration with filled-in connection settings](attachments/image-20250407-202704.png)
+<figure><img src="attachments/image-20250407-202704.png" alt="Output endpoint node configuration with filled-in connection settings" width="375"><figcaption></figcaption></figure>
+{% endstep %}
 
-### Step 6: Add Default endpoint
+{% step %}
+### Add Default Output endpoint
 
 1. Drag an **Output Endpoint** node from the left menu to the workspace
 2. In **Endpoint type** select **Default Endpoint**
@@ -124,20 +140,31 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 4. Connect the _Asset Trackers_ (**Data Source**) node to it
 
 This ensures that the raw data is sent to Navixy directly from the devices, without any transformations and enrichments.
+{% endstep %}
 
-### Step 7: Save and test the flow
+{% step %}
+### Save and test the flow
 
 Your final configuration will look like this:
 
-![Complete flow configuration with all nodes connected in IoT Logic workspace](attachments/image-20250407-203757.png)
+<figure><img src="attachments/image-20250407-203757.png" alt="Complete flow configuration with all nodes connected in IoT Logic workspace"><figcaption></figcaption></figure>
 
-Click the **Save flow** button on the **Nodes** pane to store your flow configuration
+Click the **Save flow** button on the **Nodes** pane to store your flow configuration.
+{% endstep %}
+{% endstepper %}
 
-> \[!TIP] Use [Data Stream Analyzer (DSA)](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3037332703/Data+Stream+Analyzer?atlOrigin=eyJpIjoiOWE5ZTdiNjQ4Nzc5NGVmOTg0NjI0MDU2NjI1ZjgwNDUiLCJwIjoiYyJ9) to monitor incoming data to verify:
->
-> * Devices are sending data to the flow
-> * Calculations are working as expected
-> * Data is being forwarded to the destination For example, let’s check that speed conversions are calulated correctly on a truck. To do it in DSA, select the **Volvo** device and attributes **speed** and **speed\_mph**: ![Speed attributes for one device in Data Stream Analyzer](attachments/image-20250407-204530.png) All good! Data is received and converted successfully.
+###
+
+{% hint style="success" %}
+Use [Data Stream Analyzer (DSA)](../data-stream-analyzer.md) to monitor incoming data to verify:
+
+* Devices are sending data to the flow
+* Calculations are working as expected
+* Data is being forwarded to the destination For example, let’s check that speed conversions are calulated correctly on a truck. To do it in DSA, select the **Volvo** device and attributes **speed** and **speed\_mph**: \
+  <img src="attachments/image-20250407-204530.png" alt="Speed attributes for one device in Data Stream Analyzer" data-size="original">&#x20;
+
+All good! Data is received and converted successfully.
+{% endhint %}
 
 ## Data transformations explained
 
