@@ -2,35 +2,36 @@
 
 In this article, we will walk through the process of building a dashboard using Streamlit. To make it more illustrative, we will create a dashboard that connects to the analytical database and monitors the real-time status of vehicles.
 
-> [!NOTE]
-> This guide is part of the Private Telematics Lakehouse documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3247505491/Selecting+BI+tools?atlOrigin=eyJpIjoiYjAyYjFjNDVkNjZmNDU5OTk5ZDNjMThhNzMwZTA2YzQiLCJwIjoiYyJ9) overview.
+{% hint style="info" %}
+This guide is part of the Private Telematics Lakehouse documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
+{% endhint %}
 
 ## Dashboard features
 
-- Display total number of objects
-- Visualize movement statuses (moving/stopped/parked)
-- Visualize connection statuses (active/idle/offline)
-- Detailed table with current status of all vehicles
-- Filtering by vehicle type, group, movement status, and connection status
-- Automatic data refresh every 5 minutes
-- Toggle between light and dark themes
+* Display total number of objects
+* Visualize movement statuses (moving/stopped/parked)
+* Visualize connection statuses (active/idle/offline)
+* Detailed table with current status of all vehicles
+* Filtering by vehicle type, group, movement status, and connection status
+* Automatic data refresh every 5 minutes
+* Toggle between light and dark themes
 
 ## Technical requirements
 
-- Python 3.8+
-- Internet access for database connection
-- Minimum 2 GB RAM
+* Python 3.8+
+* Internet access for database connection
+* Minimum 2 GB RAM
 
 ## Installation and setup
 
-### 1\. Clone the repository
+### 1. Clone the repository
 
 ```
 git clone https://github.com/yourusername/moving-status-dashboard.git
 cd moving-status-dashboard
 ```
 
-### 2\. Create a virtual environment
+### 2. Create a virtual environment
 
 ```
 # Windows
@@ -42,10 +43,11 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-> [!WARNING]
-> Make sure you have Python 3.8 or higher installed. You can check the version with the command `python --version`.
+{% hint style="danger" %}
+Make sure you have Python 3.8 or higher installed. You can check the version with the command `python --version`.
+{% endhint %}
 
-### 3\. Install dependencies
+### 3. Install dependencies
 
 After activating the virtual environment, install all necessary libraries:
 
@@ -55,7 +57,7 @@ pip install -r requirements.txt
 
 ## Database connection
 
-### 1\. Create a configuration file
+### 1. Create a configuration file
 
 Create a `.env` file in the project's root directory:
 
@@ -70,22 +72,23 @@ DB_SCHEMA=raw_business_data
 
 #### Connection parameter reference
 
-| **Lakehouse Parameter** | **Streamlit Setting Location** | **Notes** |
-| --- | --- | --- |
-| **Host** | `DB_HOST` in `.env` file | The database server address provided in your welcome email |
-| **Port** | `DB_PORT` in `.env` file | Default is 5432 for PostgreSQL |
-| **Database name** | `DB_NAME` in `.env` file | Your assigned database name |
-| **Username** | `DB_USER` in `.env` file | Your database username |
-| **Password** | `DB_PASS` in `.env` file | Your secure database password |
-| **SSL mode** | Connection string in Python code | Set to **require** in the connection string |
-| **Schema** | `DB_SCHEMA` in `.env` file | Specify schema (**raw\_business\_data** or **raw\_telematics\_data**) |
+| **Lakehouse Parameter** | **Streamlit Setting Location**   | **Notes**                                                             |
+| ----------------------- | -------------------------------- | --------------------------------------------------------------------- |
+| **Host**                | `DB_HOST` in `.env` file         | The database server address provided in your welcome email            |
+| **Port**                | `DB_PORT` in `.env` file         | Default is 5432 for PostgreSQL                                        |
+| **Database name**       | `DB_NAME` in `.env` file         | Your assigned database name                                           |
+| **Username**            | `DB_USER` in `.env` file         | Your database username                                                |
+| **Password**            | `DB_PASS` in `.env` file         | Your secure database password                                         |
+| **SSL mode**            | Connection string in Python code | Set to **require** in the connection string                           |
+| **Schema**              | `DB_SCHEMA` in `.env` file       | Specify schema (**raw\_business\_data** or **raw\_telematics\_data**) |
 
-### 2\. Obtaining credentials
+### 2. Obtaining credentials
 
 Request credentials for connecting to the demonstration database by contacting the administrator.
 
-> [!INFO]
-> The `.env` file should not be included in version control (GitHub) to ensure credentials security. The `.gitignore` file is already configured to exclude this file.
+{% hint style="info" %}
+The `.env` file should not be included in version control (GitHub) to ensure credentials security. The `.gitignore` file is already configured to exclude this file.
+{% endhint %}
 
 ## Running the dashboard
 
@@ -120,16 +123,16 @@ Open the specified URL in your browser. The dashboard will be available at [http
 
 If you want to modify the dashboard or create new components:
 
-### 1\. Modifying the existing dashboard
+### 1. Modifying the existing dashboard
 
 Streamlit automatically reloads the application when you change the source code. Simply edit the `moving_status_dashboard.py` file and save your changes.
 
-### 2\. Adding new visualizations
+### 2. Adding new visualizations
 
 To add new charts and diagrams, use libraries:
 
-- Plotly: `import plotly.express as px` or `import plotly.graph_objects as go`
-- Built-in Streamlit visualizations: `st.bar_chart()`, `st.line_chart()`, etc.
+* Plotly: `import plotly.express as px` or `import plotly.graph_objects as go`
+* Built-in Streamlit visualizations: `st.bar_chart()`, `st.line_chart()`, etc.
 
 Example of adding a new chart:
 
@@ -144,7 +147,7 @@ fig = px.pie(df, values='count', names='status', title='Vehicle Statuses')
 st.plotly_chart(fig, use_container_width=True)
 ```
 
-### 3\. Debugging
+### 3. Debugging
 
 For debugging, use
 
@@ -164,22 +167,22 @@ st.dataframe(pandas_dataframe)
 
 ### Database connection issues
 
-- **Connection error:** Check the correctness of credentials in the `.env` file and database availability
-- **SSL error:** Make sure your IP is on the allowlist for database access
-- **Timeout errors:** Check your internet connection stability and firewall settings
+* **Connection error:** Check the correctness of credentials in the `.env` file and database availability
+* **SSL error:** Make sure your IP is on the allowlist for database access
+* **Timeout errors:** Check your internet connection stability and firewall settings
 
 ### Dependency issues
 
 **Error installing psycopg2-binary:**
 
-- Windows: `pip install pipwin && pipwin install psycopg2-binary`
-- Linux: `sudo apt install python3-dev libpq-dev`
-- macOS: `brew install postgresql`
+* Windows: `pip install pipwin && pipwin install psycopg2-binary`
+* Linux: `sudo apt install python3-dev libpq-dev`
+* macOS: `brew install postgresql`
 
 **Dependency conflicts:**
 
-- Create a new virtual environment
-- Install dependencies one by one, starting with streamlit
+* Create a new virtual environment
+* Install dependencies one by one, starting with streamlit
 
 ### Other issues
 
@@ -188,10 +191,13 @@ Here are some tricks that can help you fix common issues:
 1. Update dependencies: `pip install -r requirements.txt --upgrade`
 2. Check Python compatibility: `python --version` (should be 3.8+)
 3. When changing code, include debug messages:
+
 ```
 st.write(f"Debug: {your_variable}")
 ```
+
 4. Streamlit cache errors: stop the application and run with the `--clear_cache` flag:
+
 ```
 streamlit run moving_status_dashboard.py --clear_cache
 ```
@@ -200,8 +206,8 @@ streamlit run moving_status_dashboard.py --clear_cache
 
 After successfully connecting Power BI to your Private Telematics Lakehouse instance, we recommend you to:
 
-- Explore the available data schemas by reviewing the [Schema overview](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282180/Schema+overview?atlOrigin=eyJpIjoiZWRiMjIyMWY0NTgyNGUyMmFmMjU5YzhlMzQxOWY5MDEiLCJwIjoiYyJ9) section to better understand the data structure and relationships.
-- Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282212/Example+queries?atlOrigin=eyJpIjoiNzQxNmVhZDVkNGUyNGM4Mzk3Y2FjYmY0M2JiMmQ1NjIiLCJwIjoiYyJ9) for reference.
+* Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
+* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../example-queries.md) for reference.
 
 ### **Support**
 

@@ -2,8 +2,9 @@
 
 As you connect to the database you will be able to retrieve data via SQL queries. This section provides sample SQL queries to help you start working with the Private Telematics Lakehouse. These examples demonstrate how to access and analyze data from the Bronze layer, which contains raw business and telematic data with minimal transformation.
 
-> [!WARNING]
-> Please note: Due to the database containing a huge amount of information, please make sure to make test queries based on the limited number of the values retrieved.
+{% hint style="danger" %}
+Please note: Due to the database containing a huge amount of information, please make sure to make test queries based on the limited number of the values retrieved.
+{% endhint %}
 
 ## Basic queries
 
@@ -11,7 +12,7 @@ As you connect to the database you will be able to retrieve data via SQL queries
 
 This query returns information about objects (vehicles/assets) in your system:
 
-```
+```sql
 SELECT
     o.object_id,
     o.object_label,
@@ -32,7 +33,7 @@ ORDER BY
 
 Retrieve the most recent location data for all your devices:
 
-```
+```sql
 SELECT
     t.device_id,
     o.object_label,
@@ -52,8 +53,9 @@ ORDER BY
     t.device_id, t.device_time DESC;
 ```
 
-> [!INFO]
-> Coordinate values are stored as integers scaled by 10^7 for improved storage efficiency in TimescaleDB. When querying, divide by 10000000 to convert back to standard decimal format.
+{% hint style="info" %}
+Coordinate values are stored as integers scaled by 10^7 for improved storage efficiency in TimescaleDB. When querying, divide by 10000000 to convert back to standard decimal format.
+{% endhint %}
 
 ## Joining business and telematic data
 
@@ -61,7 +63,7 @@ ORDER BY
 
 This query generates a daily activity summary by joining business and telematic data:
 
-```
+```sql
 SELECT
     o.object_label AS vehicle,
     v.vehicle_type,
@@ -85,7 +87,7 @@ ORDER BY
 
 Track which employees were assigned to which vehicles and their location history:
 
-```
+```sql
 SELECT 
     o.object_label AS vehicle,
     new_row.changed_datetime AS assignment_time,
@@ -116,7 +118,7 @@ ORDER BY
 
 This query shows how to analyze fuel sensor data:
 
-```
+```sql
 SELECT
     o.object_label AS vehicle,
     t.device_time,
@@ -140,7 +142,7 @@ ORDER BY
 
 Identify which vehicles entered specific geozones:
 
-```
+```sql
 SELECT
     o.object_label AS vehicle,
     z.zone_label AS geozone,
@@ -168,24 +170,25 @@ ORDER BY
     z.zone_label, o.object_label, t.device_time;
 ```
 
-> [!INFO]
-> This query uses PostGIS spatial functions. If you encounter errors, verify that PostGIS extension is enabled in your database.
+{% hint style="info" %}
+This query uses PostGIS spatial functions. If you encounter errors, verify that PostGIS extension is enabled in your database.
+{% endhint %}
 
 ## Performance optimization tips
 
 When working with the Cloud Data Warehouse, consider these optimization techniques:
 
-1. **Use time-based filtering**: Always include a time filter on the `device_time` or `record_added_at` columns to limit the data scanned.  
-**Good practice**:
+1. **Use time-based filtering**: Always include a time filter on the `device_time` or `record_added_at` columns to limit the data scanned.\
+   **Good practice**:
 
-```
+```sql
 SELECT * FROM raw_telematics_data.tracking_data_core 
 WHERE device_time > (CURRENT_DATE - INTERVAL '7 days');
 ```
 
 **Avoid this** (scans entire table)
 
-```
+```sql
 SELECT * FROM raw_telematics_data.tracking_data_core;
 ```
 
@@ -194,7 +197,7 @@ SELECT * FROM raw_telematics_data.tracking_data_core;
 4. **Scale integer conversion**: Remember that coordinate data is stored as scaled integers. Convert only in the final SELECT, not in WHERE clauses.
 5. **Limit result sets**: Always use LIMIT for exploratory queries to avoid returning millions of rows.
 
-```
+```sql
 SELECT * FROM raw_telematics_data.tracking_data_core 
 WHERE device_time > (CURRENT_DATE - INTERVAL '1 day')
 LIMIT 1000;

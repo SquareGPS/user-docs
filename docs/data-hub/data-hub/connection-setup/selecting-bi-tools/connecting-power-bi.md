@@ -2,68 +2,72 @@
 
 In this article, we will walk through the process of connecting Microsoft Power BI to PTL. To make it more illustrative, we will also build a dashboard that connects to the analytical database and monitors the real-time status of vehicles, all using Microsoft Power BI.
 
-> [!NOTE]
-> This guide is part of the Private Telematics Lakehouse documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3247505491/Selecting+BI+tools?atlOrigin=eyJpIjoiYjAyYjFjNDVkNjZmNDU5OTk5ZDNjMThhNzMwZTA2YzQiLCJwIjoiYyJ9) overview.
+{% hint style="info" %}
+This guide is part of the Private Telematics Lakehouse documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
+{% endhint %}
 
 ## Dashboard features
 
-- Display total number of vehicles
-- Visualize vehicle movement statuses (moving/stopped/parked)
-- Visualize connection statuses (active/idle/offline)
-- Detailed table with current status of all vehicles
-- Filtering by vehicle type, group, movement status, and connection status
-- Data and report export capabilities
+* Display total number of vehicles
+* Visualize vehicle movement statuses (moving/stopped/parked)
+* Visualize connection statuses (active/idle/offline)
+* Detailed table with current status of all vehicles
+* Filtering by vehicle type, group, movement status, and connection status
+* Data and report export capabilities
 
 ## Technical requirements
 
-- Windows 10/11 or Windows Server 2016+
-- Microsoft Power BI Desktop (current version)
-- Microsoft account for Power BI Service access (optional)
-- Minimum 4 GB RAM (8 GB recommended)
-- Internet access for database connection
+* Windows 10/11 or Windows Server 2016+
+* Microsoft Power BI Desktop (current version)
+* Microsoft account for Power BI Service access (optional)
+* Minimum 4 GB RAM (8 GB recommended)
+* Internet access for database connection
 
 ## Installation and setup
 
-### 1\. Install Power BI Desktop
+### 1. Install Power BI Desktop
 
 1. Download Power BI Desktop from the official Microsoft website: [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/)
 2. Run the installer and follow its instructions.
 
-### 2\. Download the dashboard file
+### 2. Download the dashboard file
 
 1. Download the `moving_status_dashboard.pbix` file from this repository:
+
 ```
 git clone https://github.com/yourusername/powerbi-dashboard.git
 ```
-Or use the **Download ZIP** button on the repository page.
-2. Open the downloaded `moving_status_dashboard.pbix` file by double-clicking or through the Power BI Desktop menu: **File → Open**.
+
+Or use the **Download ZIP** button on the repository page. 2. Open the downloaded `moving_status_dashboard.pbix` file by double-clicking or through the Power BI Desktop menu: **File → Open**.
 
 ## Database connection
 
-### 1\. Update connection parameters
+### 1. Update connection parameters
 
 1. After opening the dashboard file, go to **Transform data → Edit parameters**.
 2. Update the following parameters:
-  - `DB_HOST` - database server address
-  - `DB_NAME` - database name
-  - `DB_USER` - username
-  - `DB_PASS` - password (do not save files with real credentials in shared access)
-  - `DB_PORT` - connection port (default 5432)
+
+* `DB_HOST` - database server address
+* `DB_NAME` - database name
+* `DB_USER` - username
+* `DB_PASS` - password (do not save files with real credentials in shared access)
+* `DB_PORT` - connection port (default 5432)
+
 3. Click **OK** and apply the changes.
 
 #### Connection parameter reference
 
-| **Lakehouse Parameter** | **Power BI Setting Location** | **Notes** |
-| --- | --- | --- |
-| **Host** | `DB_HOST` parameter | The database server address provided in your welcome email |
-| **Port** | `DB_PORT` parameter | Default is 5432 for PostgreSQL |
-| **Database name** | `DB_NAME` parameter | Your assigned database name |
-| **Username** | `DB_USER` parameter | Your database username |
-| **Password** | `DB_PASS` parameter | Your secure database password |
-| **SSL mode** | Connection Settings | Set to **require** in the Options dialog |
-| **Schema** | Query Editor | Specify schema (**raw\_business\_data** or **raw\_telematics\_data**) in each query |
+| **Lakehouse Parameter** | **Power BI Setting Location** | **Notes**                                                                           |
+| ----------------------- | ----------------------------- | ----------------------------------------------------------------------------------- |
+| **Host**                | `DB_HOST` parameter           | The database server address provided in your welcome email                          |
+| **Port**                | `DB_PORT` parameter           | Default is 5432 for PostgreSQL                                                      |
+| **Database name**       | `DB_NAME` parameter           | Your assigned database name                                                         |
+| **Username**            | `DB_USER` parameter           | Your database username                                                              |
+| **Password**            | `DB_PASS` parameter           | Your secure database password                                                       |
+| **SSL mode**            | Connection Settings           | Set to **require** in the Options dialog                                            |
+| **Schema**              | Query Editor                  | Specify schema (**raw\_business\_data** or **raw\_telematics\_data**) in each query |
 
-### 2\. Configure credentials
+### 2. Configure credentials
 
 1. When connecting for the first time, Power BI will ask for database access credentials.
 2. Select **Database account and password** as the authentication type.
@@ -76,9 +80,11 @@ After setting up the connection, you can:
 
 1. **Refresh data** - click the **Refresh** button on the ribbon or use the keyboard shortcut Ctrl+R.
 2. **Use filters** - apply filters on the right panel or directly on report elements:
-  - Filter by vehicle type
-  - Filter by groups
-  - Filter by movement/connection status
+
+* Filter by vehicle type
+* Filter by groups
+* Filter by movement/connection status
+
 3. **Drill down into data** - click on visualization elements to view detailed information.
 4. **Create bookmarks** - save specific filter settings and views for quick access.
 
@@ -111,18 +117,18 @@ After setting up the connection, you can:
 
 ### Database connection issues
 
-- **Connection error:** Check the correctness of credentials and connection parameters.
-- **Firewall error:** Ensure your IP address is added to the allowlist for database access.
-- **Gateway issues:** When using Power BI Gateway, check the status of the gateway service.
+* **Connection error:** Check the correctness of credentials and connection parameters.
+* **Firewall error:** Ensure your IP address is added to the allowlist for database access.
+* **Gateway issues:** When using Power BI Gateway, check the status of the gateway service.
 
 ### Performance issues
 
-- **Slow visualization loading:**
-  - Reduce the number of simultaneously displayed elements
-  - Check Import/DirectQuery mode in the data model
-- **High memory usage:**
-  - Reduce the amount of imported data by applying filters at the query level
-  - Remove unnecessary columns from the data model
+* **Slow visualization loading:**
+  * Reduce the number of simultaneously displayed elements
+  * Check Import/DirectQuery mode in the data model
+* **High memory usage:**
+  * Reduce the amount of imported data by applying filters at the query level
+  * Remove unnecessary columns from the data model
 
 ### Other issues
 
@@ -137,8 +143,8 @@ Here are some tricks that can help you fix common issues:
 
 After successfully connecting Power BI to your Private Telematics Lakehouse instance, we recommend you to:
 
-- Explore the available data schemas by reviewing the [Schema overview](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282180/Schema+overview?atlOrigin=eyJpIjoiZWRiMjIyMWY0NTgyNGUyMmFmMjU5YzhlMzQxOWY5MDEiLCJwIjoiYyJ9) section to better understand the data structure and relationships.
-- Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282212/Example+queries?atlOrigin=eyJpIjoiNzQxNmVhZDVkNGUyNGM4Mzk3Y2FjYmY0M2JiMmQ1NjIiLCJwIjoiYyJ9) for reference.
+* Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
+* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../example-queries.md) for reference.
 
 ### **Support**
 
