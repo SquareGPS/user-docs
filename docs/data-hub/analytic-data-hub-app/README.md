@@ -1,4 +1,4 @@
-# Analytic Data Hub app
+# Analytics App
 
 The **Analytics App** provides a web-based interface for exploring analytical capabilities available through your Data Hub. Built on Python and Streamlit framework, this application demonstrates capabilities and advantages of the Data Hub such as flexible analytical solutions tailored to your operational requirements.
 
@@ -6,7 +6,7 @@ The **Analytics App** provides a web-based interface for exploring analytical ca
 
 Start with immediate operational needs, discover patterns that reveal optimization opportunities, then build solutions that address your unique business challenges.
 
-![image-20250812-073545.png](./attachments/image-20250812-073545.png)
+![image-20250812-073545.png](../data-hub/analytic-data-hub-app/attachments/image-20250812-073545.png)
 
 ## Main menu items
 
@@ -32,8 +32,8 @@ Advance here for targeted solutions addressing unique operational requirements.
 
 Experience these analytical capabilities to determine whether these templates and visuals are enough with the insights presented or you need more deep insights and comprehensive analytics:
 
-- **Continue using this application** if standard dashboards and reports address your operational requirements, and occasional custom analysis meets specialized needs.
-- **Explore other BI solutions** if you need enterprise security, automated reporting systems, advanced visualization performance, or organization-wide analytical access.
+* **Continue using this application** if standard dashboards and reports address your operational requirements, and occasional custom analysis meets specialized needs.
+* **Explore other BI solutions** if you need enterprise security, automated reporting systems, advanced visualization performance, or organization-wide analytical access.
 
 Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3247505491/Selecting+BI+tools?atlOrigin=eyJpIjoiZjk3MDJmZDA5OWUxNDdlYmJkYjY4MjA0YmQ3NGJmNWYiLCJwIjoiYyJ9).
 
@@ -41,8 +41,8 @@ Use hands-on experience to make informed decisions about analytical infrastructu
 
 Access comprehensive documentation and technical guidance to maximize your analytical capabilities and optimize system performance:
 
-- [Data schema overview](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282180/Schema+overview?atlOrigin=eyJpIjoiYmRiZmYxZGY3NWRiNGIyYmI5MTQwZDFhNjhhOTBlOGUiLCJwIjoiYyJ9) explains data structure and relationships.
-- [Example queries](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282212/Example+queries?atlOrigin=eyJpIjoiNjEzODU5ZjA2MGVjNDVkZGFjYTZkODhlZGNlOWVhOWQiLCJwIjoiYyJ9) provides proven analytical patterns and optimization techniques.
-- [Settings and configuration](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3358163124/Settings+and+configuration?atlOrigin=eyJpIjoiZmYyNjM3NDdiOTAwNDY5MThhOTgwMTgzMTkyZjExOTkiLCJwIjoiYyJ9) covers performance optimization and configuration options.
+* [Data schema overview](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282180/Schema+overview?atlOrigin=eyJpIjoiYmRiZmYxZGY3NWRiNGIyYmI5MTQwZDFhNjhhOTBlOGUiLCJwIjoiYyJ9) explains data structure and relationships.
+* [Example queries](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282212/Example+queries?atlOrigin=eyJpIjoiNjEzODU5ZjA2MGVjNDVkZGFjYTZkODhlZGNlOWVhOWQiLCJwIjoiYyJ9) provides proven analytical patterns and optimization techniques.
+* [Settings and configuration](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3358163124/Settings+and+configuration?atlOrigin=eyJpIjoiZmYyNjM3NDdiOTAwNDY5MThhOTgwMTgzMTkyZjExOTkiLCJwIjoiYyJ9) covers performance optimization and configuration options.
 
 Transform from reactive coordination to proactive, data-driven management. Discover how analytical capabilities evolve from immediate insights to strategic optimization while building understanding of production infrastructure requirements.
