@@ -69,7 +69,7 @@ Expand the section below to see key toolbar buttons that accelerate chart creati
 
 {% stepper %}
 {% step %}
-### Create foundation chart
+#### Create foundation chart
 
 * Drag categorical field (e.g., `category_field`) → **X-Axis**
 * Drag numerical field (e.g., `performance_metric`) → **Y-Axis**
@@ -77,7 +77,7 @@ Expand the section below to see key toolbar buttons that accelerate chart creati
 {% endstep %}
 
 {% step %}
-### Refine visualization type
+#### Refine visualization type
 
 Click **Mark Types** button for alternatives:
 
@@ -87,7 +87,7 @@ Click **Mark Types** button for alternatives:
 {% endstep %}
 
 {% step %}
-### Add analytical depth
+#### Add analytical depth
 
 * Drag additional categorical field → **Color** shelf = visual differentiation
 * Drag numerical field → **Size** shelf = proportional representation
