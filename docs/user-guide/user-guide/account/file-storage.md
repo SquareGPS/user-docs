@@ -2,7 +2,7 @@
 
 Each user account is allocated 1 GB of file storage, which is designed to support essential functions within the Navixy platform. This is found within **Account Settings → Profile → General Settings**.
 
-![File storage](attachments/image-20241111-225720.png)
+![](attachments/image-20241111-225720.png)
 
 **Purpose:**
 

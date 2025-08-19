@@ -2,7 +2,7 @@
 
 API keys are unique and confidential codes that allow access to your Navixy account and data through the application program interface. They enable third-party or personal applications to connect to your account, access data, and perform actions on your behalf.
 
-![image-20240718-175024.png](attachments/image-20240718-175024.png)
+![](attachments/image-20240718-175024.png)
 
 ## How to View and Create API Keys
 

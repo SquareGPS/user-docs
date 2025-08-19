@@ -7,7 +7,7 @@ If you have forgotten your password and need to recover it, follow these steps:
 3. **Enter Your Login Information:** Provide your registered email address and enter the CAPTCHA.
 4. **Follow the Instructions:** Check your email for a password reset link and follow the instructions provided in the email to reset your password.
 
-![image-20240718-181310.png](attachments/image-20240718-181310.png)
+![](attachments/image-20240718-181310.png)
 
 ## FAQs and Troubleshooting
 

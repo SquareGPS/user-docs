@@ -2,7 +2,7 @@
 
 Custom fields allow you to add personalized information to the description of places. Custom fields operate in the same way as standard fields, allowing you to store valuable data that can be used for filtering and improving operational efficiency.
 
-![image-20240718-172504.png](attachments/image-20240718-172504.png)
+![](attachments/image-20240718-172504.png)
 
 **Examples:**
 

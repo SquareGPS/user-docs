@@ -2,26 +2,28 @@
 
 When setting up a new **User application**, you'll work with several key configurations that determine how your external application integrates with the platform. Let's explore each essential component.
 
-Start by clicking the ![chrome\_py0qhiu5p8.webp](attachments/chrome_py0qhiu5p8.webp)
+Start by clicking the <img src="attachments/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list. In the appeared configuration form, proceed with the following steps:
 
-button in the **User applications** list. In the appeared configuration form, proceed with the following steps:
-
-### 1. Set up the URL
+{% stepper %}
+{% step %}
+### Set up the URL
 
 Specify your application URL - the address where your application is hosted, it serves as the foundation for the integration.
 
-> \[!INFO] **Important**
->
-> * Ensure the URL is valid, uses an HTTPS connection, leads to a trustworthy resource, and contains no more than 1000 characters.
-> * Make sure the application has the iFrame setting enabled on its side, otherwise you will not be able to open it in the platform interface.
+{% hint style="danger" %}
+* Ensure the URL is valid, uses an HTTPS connection, leads to a trustworthy resource, and contains no more than 1000 characters.
+* Make sure the application has the iFrame setting enabled on its side, otherwise you will not be able to open it in the platform interface.
+{% endhint %}
+{% endstep %}
 
-### 2. Configure basic Parameters
+{% step %}
+### Configure basic Parameters
 
 To personalize your application, you can include various parameters in the URL. You can manually add parameters in the URL field or use one of our suggestions: language, user ID, or time zone. Click on a parameter suggestion to add it to the end of the URL. Expand the description below to learn more about the suggested parameters and examples.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Understanding suggested URL parameters
+<summary>Understanding suggested URL parameters</summary>
 
 We suggest some basic parameters for personalization
 
@@ -42,30 +44,40 @@ We suggest some basic parameters for personalization
 
 You can edit the suggested parameter name or specify a certain value for it.
 
-![URL\_with\_Params.png](attachments/URL_with_Params.png)
+</details>
 
-> \[!NOTE] Test your configuration to make sure the application loads correctly. Click ![image-20241217-083119.png](attachments/image-20241217-083119.png)
->
-> to display a preview.
+![Application URL example with parameters](attachments/URL_with_Params.png)
 
-### 3. Adjust appearance
+{% hint style="info" %}
+Test your configuration to make sure the application loads correctly. Click <img src="attachments/image-20241217-083119.png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+### Adjust appearance
 
 Create a recognizable identity for your application to make it easy to access. The following settings will help you to do so:
 
 * **Label** – Add a unique, descriptive name for your app (up to 24 characters). It will be shown in the platform sidebar.
 * **Description** – Add a brief explanation with details about the app’s functionality or highlight important information (up to 50 characters). An informative description will help your users to get a clearer understanding of the app’s purpose.
 * **Icon** – Select an icon that represents your application's function for even more native navigation.
+{% endstep %}
 
-### 4. Select display method
+{% step %}
+### Select display method
 
 Decide how your application will open by choosing one of the two options in the **Open in** dropdown:
 
 * **Embedded** – App appears within the platform interface
 * **New tab** – App opens in a separate browser tab
 
-> \[!NOTE] Our platform uses iFrame for embedding. Since not all URLs can be successfully processed with this technology, be sure to preview the embedding result. If you encounter any issues with this display method, please consider using **New tab**.
+{% hint style="info" %}
+Our platform uses iFrame for embedding. Since not all URLs can be successfully processed with this technology, be sure to preview the embedding result. If you encounter any issues with this display method, please consider using **New tab**.
+{% endhint %}
+{% endstep %}
 
-### 5. Set up authentication (optional)
+{% step %}
+### Set up authentication (optional)
 
 Configure authentication if your application relies on the platform’s API. In this case, the platform will provide the authentication data directly to the application when it is opened, eliminating the need to implement additional login functionality on your application side.\
 You can choose one of the two authentication methods:
@@ -78,7 +90,9 @@ You can choose one of the two authentication methods:
   * This method is recommended when role management is involved.
   * Transmits the current user session key to the application.
 
-> \[!NOTE] Selecting the **API key** method will automatically disable the **Session key** method, and vice versa. Only one method can be used at a time.
+{% hint style="info" %}
+Selecting the **API key** method will automatically disable the **Session key** method, and vice versa. Only one method can be used at a time.
+{% endhint %}
 
 When authentication is enabled, the platform appends the `?session_key=` parameter to your application’s URL.
 
@@ -86,21 +100,27 @@ When authentication is enabled, the platform appends the `?session_key=` paramet
 * If you’ve opted for a **Session key**, the parameter value will include the key of the current user session from which the application is being accessed.
 
 Make sure the application is capable of reading and using this parameter.
+{% endstep %}
 
-### 6. Save the new application
+{% step %}
+### Save the new application
 
 Click the **Save** button. Your application will appear in the **User applications** list and the platform sidebar. Enabled applications automatically become available to the account users.
+{% endstep %}
+{% endstepper %}
 
-![](attachments/AD_4nXcpwjKKPWJopdYEoWq9UkdaUJ8hQsYEH-jdEEcUMW2OmPMt2FMh_-isw84AknV-TdEiflAop1IKEOXocfVly4xXBasb72HV1-jmD7ULiSmodnuKp7UigqnXJYExz9qggl-jpdGxTltmRM-OUvOSfSrgLcE6)
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Embedded User application view example</p></figcaption></figure>
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Quick troubleshooting tips
+<summary>Quick troubleshooting tips</summary>
 
 If your application doesn't display properly when embedded, try:
 
 * Opening it in a new tab instead
 * Verifying your URL is correct and accessible
 * Checking that all parameters are properly formatted
+
+</details>
 
 The created applications remain fully configurable after they are saved. You can adjust their parameters and appearance at any time. To learn more about application management, see [Managing existing User applications](managing-existing-user-applications.md).

@@ -33,7 +33,7 @@ The **User applications** space is available to account **Owners** in the **Acco
 
 You'll see a comprehensive list displaying all your existing add-ons, along with options to create new ones.
 
-![User\_Apps\_Navigation.gif](../attachments/User_Apps_Navigation.gif)
+![UI path to User applications](../attachments/User_Apps_Navigation.gif)
 
 ## Section content
 

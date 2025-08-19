@@ -23,7 +23,7 @@ You can create an unlimited number of tags to suit your organizational needs; ho
 
 To create or assign a tag to an object, simply type the tag label in the **Tags** field. If tags with similar starting inputs already exist, they will appear in a dropdown list from which you can select.
 
-![image-20240718-170948.png](attachments/image-20240718-170948.png)
+![](attachments/image-20240718-170948.png)
 
 ### Method 2. In the Tags Directory
 
