@@ -4,7 +4,7 @@ The **Custom Analysis & SQL Configurator** enables direct database access for cu
 
 ## Interface overview
 
-![Database Schema browser showing raw\_business\_data and raw\_telematics\_data schemas with expandable table lists, SQL Query Execution panel with query input area and results display, and Visualization tab for chart creation](../../data-hub/analytic-data-hub-app/attachments/SQL-configurator-and-visualization.webp)
+<figure><img src="../../data-hub/analytic-data-hub-app/attachments/SQL-configurator-and-visualization.webp" alt="Database Schema browser showing raw_business_data and raw_telematics_data schemas with expandable table lists, SQL Query Execution panel with query input area and results display, and Visualization tab for chart creation"><figcaption></figcaption></figure>
 
 The workspace of **SQL Configurator** consists of 3 main sections:
 
@@ -14,52 +14,80 @@ The workspace of **SQL Configurator** consists of 3 main sections:
 
 ## Your data structure
 
+{% hint style="info" %}
+**Configuration impact**: Your system processes different data categories based on configuration settings. If expected tables seem unavailable, verify your data category settings in [system configuration](../../data-hub/analytic-data-hub-app/settings-and-configuration.md).
+{% endhint %}
+
 Your PTL data appears through two primary schemas organized by source and purpose:
 
 | **raw\_business\_data**                                                                                                                                                                                                                                                                                                                                                                    | **raw\_telematics\_data**                                                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p>Organizational and operational information.<br><br>- <strong>Core entities:</strong> users, devices, objects, vehicles, employees<br>- <strong>Operational data:</strong> tasks, forms, zones, places, garages<br>- <strong>Reference data:</strong> models, entities, status information<br>- <strong>Relationship tables:</strong> vehicle-driver assignments, user-zone mappings</p> | <p>Real-time GPS tracking, sensor readings, and device status<br><br>- <strong>tracking_data_core:</strong> GPS coordinates, speed, altitude, event data<br>- <strong>inputs:</strong> Sensor readings (fuel, temperature, voltage)<br>- <strong>states:</strong> Device status indicators (ignition, doors, operational modes)</p> |
 
-> \[!NOTE] **Configuration Impact**: Your system processes different data categories based on configuration settings. If expected tables seem unavailable, verify your data category settings in [system configuration](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3358163124/Settings+and+configuration?atlOrigin=eyJpIjoiOTdkZGIxZmE3N2Q2NDY1MmE3YjgyZGM5N2YxNTdjNDkiLCJwIjoiYyJ9).
-
-> \[!INFO] For details on data schemas available in your Data Hub, see [Schema overview](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282180/Schema+overview?atlOrigin=eyJpIjoiOTcyOGU2M2Y4YjU2NDQxOThmYjA4M2IyYTI1NGU3ODYiLCJwIjoiYyJ9).
+{% hint style="info" %}
+For details on data schemas available in your Data Hub, see [Schema overview](../../data-hub/schema-overview/).
+{% endhint %}
 
 ## Creating visualizations from query results
 
 Transform your SQL query results into interactive visualizations through a structured workflow:
 
-1. Verify data configuration\
-   Check that all required data categories are enabled in your system settings:
-2. Navigate to **PTL Configuration** in the left sidebar
-3. Verify that needed data categories (**Tracking Data**, **Inputs**, **States**) are enabled for your analysis requirements
-4. If changes are needed, update configuration and consider running historical data loading for retroactive application
-5. Develop and execute your query\
-   In the **SQL Query Execution panel**:
-6. Write your analysis query using PostgreSQL syntax and the formatting requirements above
-7. Include appropriate field names, data conversions, and filtering for your visualization needs
-8. Click **Execute** to run your query and generate the dataset
-9. Review results to ensure data quality and expected output format
-10. Access visualization interface\
-    Once your query executes successfully:
-11. Switch to the **Visualization** tab that appears above your query results
-12. Your query results automatically become available as data fields in the visualization interface
-13. The interactive chart builder loads with your dataset ready for drag-and-drop visualization creation
-14. Create interactive visualizations\
-    Use the visualization interface to build charts:
-15. Drag fields from your query results to chart configuration areas (X-axis, Y-axis, filters, colors)
-16. Choose appropriate visualization types based on your data characteristics and analysis objectives
-17. Apply filters and styling to refine your visual presentation
-18. Export completed visualizations in multiple formats (PNG, SVG, CSV, base64) for sharing and reporting
+{% stepper %}
+{% step %}
+Verify data configuration
 
-> \[!NOTE] **Detailed Visualization Guide**: Complete step-by-step instructions for chart creation are covered in the [Create custom visualizations](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3358163096/Creating+custom+visualizations?atlOrigin=eyJpIjoiMzkzNzA2MDkyNjQ2NDM4YmIzMGJmM2FjMDhkYTlmNGMiLCJwIjoiYyJ9).
+Check that all required data categories are enabled in your system settings:
+
+1. Navigate to **PTL Configuration** in the left sidebar
+2. Verify that needed data categories (**Tracking Data**, **Inputs**, **States**) are enabled for your analysis requirements
+3. If changes are needed, update configuration and consider running historical data loading for retroactive application
+{% endstep %}
+
+{% step %}
+Develop and execute your query
+
+In the **SQL Query Execution panel**:
+
+1. Write your analysis query using PostgreSQL syntax and the formatting requirements above
+2. Include appropriate field names, data conversions, and filtering for your visualization needs
+3. Click **Execute** to run your query and generate the dataset
+4. Review results to ensure data quality and expected output format
+{% endstep %}
+
+{% step %}
+Access visualization interface
+
+Once your query executes successfully:
+
+1. Switch to the **Visualization** tab that appears above your query results
+2. Your query results automatically become available as data fields in the visualization interface
+3. The interactive chart builder loads with your dataset ready for drag-and-drop visualization creation
+{% endstep %}
+
+{% step %}
+Create interactive visualizations
+
+Use the visualization interface to build charts:
+
+1. Drag fields from your query results to chart configuration areas (X-axis, Y-axis, filters, colors)
+2. Choose appropriate visualization types based on your data characteristics and analysis objectives
+3. Apply filters and styling to refine your visual presentation
+4. Export completed visualizations in multiple formats (PNG, SVG, CSV, base64) for sharing and reporting\
+
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+**Detailed visualization guide**: Complete step-by-step instructions for chart creation are covered in the [Create custom visualizations](creating-custom-visualizations.md).
+{% endhint %}
 
 ## Query development tips
 
 Expand the sections below to discover recommended practices for working with queries in **SQL Configurator**.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Data format requirements for telematics analysis
+<summary>Data format requirements for telematics analysis</summary>
 
 Your telematics data uses scaled integer storage that requires conversion:
 
@@ -69,11 +97,13 @@ Your telematics data uses scaled integer storage that requires conversion:
 | **Speed values**    | Integer format     | Divide by 100 for km/h                                       |
 | **Timestamps**      | Two variants       | Use `device_time` for events, `platform_time` for processing |
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Performance and data quality optimization
+<details>
 
-### Essential practices for reliable analysis:
+<summary>Performance and data quality optimization</summary>
+
+#### Essential practices for reliable analysis:
 
 * **Apply time-based filtering**: Reduces dataset size and improves response times with `WHERE device_time > now() - INTERVAL '7 days'`
 * **Use indexed fields**: Include `device_id` and `device_time` in WHERE clauses for optimal query performance
@@ -82,24 +112,28 @@ Performance and data quality optimization
 * **Manage result sets**: Add appropriate LIMIT clauses for exploratory queries to avoid performance issues
 * **Handle data gaps**: Expect normal variations like connectivity gaps during poor signal conditions
 
-> \[!NOTE] **Expected Data Characteristics**: Sensor readings require periodic calibration validation, and recent data may still be processing during real-time analysis.
+{% hint style="info" %}
+**Expected Data Characteristics**: Sensor readings require periodic calibration validation, and recent data may still be processing during real-time analysis.
+{% endhint %}
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Cross-schema analysis patterns
+<details>
 
-### Combine organizational and tracking data for comprehensive insights:
+<summary>Cross-schema analysis patterns</summary>
+
+#### Combine organizational and tracking data for comprehensive insights:
 
 * **Business-telematics integration**: Join using `device_id` as primary relationship key between schemas
 * **Employee-vehicle correlation**: Connect through objects table relationships for productivity analysis
 * **Sensor interpretation**: Use description\_parameters reference table to translate coded values to readable labels
 * **Geographic analysis**: Combine tracking coordinates with zone definitions for operational insights
 
-### **Example: Complete fleet overview with LEFT JOIN**
+#### **Example: Complete fleet overview with LEFT JOIN**
 
 When analyzing fleet operations, you often need to see all vehicles regardless of their current activity status. This example demonstrates how `LEFT JOIN` preserves complete vehicle records even when tracking data or driver assignments are missing.
 
-```
+```sql
 -- Show all vehicles with driver assignments and latest activity
 SELECT 
     o.object_label as vehicle_name,
@@ -116,12 +150,18 @@ ORDER BY last_seen DESC NULLS LAST;
 
 **Key insight**: LEFT JOIN ensures all vehicles appear in results, even without recent tracking or driver assignments.
 
-> \[!NOTE] **Query Examples**: Complete use-case-specific patterns are available in the SQL Cookbook\[LINK].
+{% hint style="info" %}
+**Query examples**: Complete use-case-specific patterns are available in the SQL Cookbook\[LINK].
+{% endhint %}
+
+</details>
 
 ## Next steps
 
-* [Create custom visualizations](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3358163096/Creating+custom+visualizations?atlOrigin=eyJpIjoiMzkzNzA2MDkyNjQ2NDM4YmIzMGJmM2FjMDhkYTlmNGMiLCJwIjoiYyJ9) - Complete process for creating charts and visual analysis
+* [Create custom visualizations](creating-custom-visualizations.md) - Complete process for creating charts and visual analysis
 * SQL Cookbook\[LINK] - Advanced query patterns organized by analytical scenario
-* [Bronze layer documentation](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3208282197/Bronze+layer?atlOrigin=eyJpIjoiMjg3ZjNjYTg5ZmFmNDJjZTgxNzllMTk1OTM5NDM3ZWEiLCJwIjoiYyJ9) - Complete database schema reference and field definitions
+* [Bronze layer documentation](../../data-hub/schema-overview/bronze-layer.md) - Complete database schema reference and field definitions
 
-> \[!INFO] **Production Analytics**: For enterprise-scale reporting and dashboards, consider dedicated BI tools that connect directly to your PTL instance for enhanced scalability and collaboration features. Learn more in [Selecting BI tools](https://squaregps.atlassian.net/wiki/spaces/DTP/pages/3247505491/Selecting+BI+tools?atlOrigin=eyJpIjoiZTc2NjFhNjk1YmYyNDY3ZWJmNDVkNGUwNTA1YTVkYTkiLCJwIjoiYyJ9).
+{% hint style="info" %}
+**Production analytics**: For enterprise-scale reporting and dashboards, consider dedicated BI tools that connect directly to your PTL instance for enhanced scalability and collaboration features. Learn more in [Selecting BI tools](../../data-hub/connection-setup/selecting-bi-tools/).
+{% endhint %}

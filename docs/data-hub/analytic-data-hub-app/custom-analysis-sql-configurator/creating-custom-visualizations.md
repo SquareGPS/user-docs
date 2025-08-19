@@ -15,7 +15,7 @@ Click **Visualization** to access the chart builder immediately after query exec
 
 ## Interface overview
 
-![Query execution results showing Data and Visualization tabs with transition to chart builder](../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-101042.png)
+<figure><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-101042.png" alt="Query execution results showing Data and Visualization tabs with transition to chart builder"><figcaption></figcaption></figure>
 
 The visualization workspace consists of three coordinated areas:
 
@@ -39,51 +39,61 @@ The visualization workspace consists of three coordinated areas:
 
 ## Essential controls
 
-![image-20250819-101740.png](../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-101740.png)
+![](../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-101740.png)
 
 Expand the section below to see key toolbar buttons that accelerate chart creation.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-See main cotrols description
+<summary>See main cotrols description</summary>
 
-| **Control**                                                                                                                                                                                             | **Function**                                                    | **Usage**                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| <p><strong>Aggregation</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095023.png" alt="image-20250819-095023.png"></p>      | Raw vs. aggregated data display                                 | Turn OFF to see individual records; keep ON to see totals/averages                    |
-| <p><strong>Mark Types</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095030.png" alt="image-20250819-095030.png"></p>       | Chart type selection (Bar, Line, etc.)                          | Switch between bar charts, line graphs, scatter plots based on your analysis needs    |
-| <p><strong>Stack Mode</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095135.png" alt="image-20250819-095135.png"></p>       | Create a Stack chart or Normalize a chart                       | Stack bars to show totals; normalize to compare percentages across categories         |
-| <p><strong>Transpose</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095215.png" alt="image-20250819-095215.png"></p>        | Switch the x-axis and y-axis of the chart                       | Flip chart orientation when categories are hard to read or compare                    |
-| <p><strong>Sort Order</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095235.png" alt="image-20250819-095235.png"></p>       | Sort in Ascending or Descending Order                           | Arrange data from highest to lowest values (or vice versa) to identify top performers |
-| <p><strong>Axis Resizing</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095259.png" alt="image-20250819-095259.png"></p>    | Resize the axes                                                 | Zoom into specific value ranges to examine data in more detail                        |
-| <p><strong>Layout Mode</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095318.png" alt="image-20250819-095318.png"></p>      | Resize the chart or use the auto-sized chart                    | Switch to manual sizing when you need larger charts for presentations                 |
-| <p><strong>Exploration Mode</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095349.png" alt="image-20250819-095349.png"></p> | Explore data. You can choose either point mode or brush mode    | Select individual data points or drag to select multiple points for detailed analysis |
-| <p><strong>Export</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095401.png" alt="image-20250819-095401.png"></p>           | Save visualizations (PNG or SVG)                                | Download chart images for reports, presentations, or documentation                    |
-| <p><strong>Export as CSV</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095721.png" alt="image-20250819-095721.png"></p>    | Export visualized data in CSV format                            | Download the underlying data to analyze in Excel or other spreadsheet programs        |
-| <p><strong>Export code</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095828.png" alt="image-20250819-095828.png"></p>      | Export visualization as code in Python or JSON (Graphic Walker) | Get code to recreate this exact chart in your own Python scripts                      |
+| **Control**                                                                                                                                                                                                               | **Function**                                                    | **Usage**                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <p><strong>Aggregation</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095023.png" alt="image-20250819-095023.png"></p>                        | Raw vs. aggregated data display                                 | Turn OFF to see individual records; keep ON to see totals/averages                    |
+| <p><strong>Mark Types</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095030.png" alt="image-20250819-095030.png"></p>                         | Chart type selection (Bar, Line, etc.)                          | Switch between bar charts, line graphs, scatter plots based on your analysis needs    |
+| <p><strong>Stack Mode</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095135.png" alt="image-20250819-095135.png"></p>                         | Create a Stack chart or Normalize a chart                       | Stack bars to show totals; normalize to compare percentages across categories         |
+| <p><strong>Transpose</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095215.png" alt="image-20250819-095215.png"></p>                          | Switch the x-axis and y-axis of the chart                       | Flip chart orientation when categories are hard to read or compare                    |
+| <p><strong>Sort Order</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095235.png" alt="image-20250819-095235.png"></p>                         | Sort in Ascending or Descending Order                           | Arrange data from highest to lowest values (or vice versa) to identify top performers |
+| <p><strong>Axis Resizing</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095259.png" alt="image-20250819-095259.png"></p>                      | Resize the axes                                                 | Zoom into specific value ranges to examine data in more detail                        |
+| <p><strong>Layout Mode</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095318.png" alt="image-20250819-095318.png"></p>                        | Resize the chart or use the auto-sized chart                    | Switch to manual sizing when you need larger charts for presentations                 |
+| <p><strong>Exploration Mode</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095349.png" alt="image-20250819-095349.png"></p>                   | Explore data. You can choose either point mode or brush mode    | Select individual data points or drag to select multiple points for detailed analysis |
+| <p><strong>Export</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095401.png" alt="image-20250819-095401.png"></p>                             | Save visualizations (PNG or SVG)                                | Download chart images for reports, presentations, or documentation                    |
+| <p><strong>Export as CSV</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095721.png" alt="image-20250819-095721.png" data-size="original"></p> | Export visualized data in CSV format                            | Download the underlying data to analyze in Excel or other spreadsheet programs        |
+| <p><strong>Export code</strong><br><br><img src="../../data-hub/analytic-data-hub-app/custom-analysis-sql-configurator/attachments/image-20250819-095828.png" alt="image-20250819-095828.png" data-size="original"></p>   | Export visualization as code in Python or JSON (Graphic Walker) | Get code to recreate this exact chart in your own Python scripts                      |
+
+</details>
 
 ## Building visualizations: sample workflow
 
 **Example scenario**: Analyzing operational data with fields like `category_field`, `performance_metric`, `timestamp`, `region`.
 
-### 1. Create foundation chart
+{% stepper %}
+{% step %}
+### Create foundation chart
 
 * Drag categorical field (e.g., `category_field`) → **X-Axis**
 * Drag numerical field (e.g., `performance_metric`) → **Y-Axis**
 * Interface creates aggregated bar chart automatically
+{% endstep %}
 
-### 2. Refine visualization type
+{% step %}
+### Refine visualization type
 
 Click **Mark Types** button for alternatives:
 
 * **Bar charts**: category comparisons
 * **Line charts**: trend analysis over time
 * **Scatter plots**: correlation analysis (turn off aggregation)
+{% endstep %}
 
-### 3. Add analytical depth
+{% step %}
+### Add analytical depth
 
 * Drag additional categorical field → **Color** shelf = visual differentiation
 * Drag numerical field → **Size** shelf = proportional representation
 * Multiple dimensions reveal hidden relationships
+{% endstep %}
+{% endstepper %}
 
 \[SCREENSHOT: Progressive chart building showing basic bar chart evolving into multi-dimensional analysis]
 
@@ -111,7 +121,9 @@ Use **Filters** shelf for targeted analysis:
 * Zoom and pan capabilities for detailed examination
 * Export capabilities for sharing and integration
 
-> \[!NOTE] **Performance tip**: Apply filters before complex visualizations to maintain responsiveness with large datasets.
+{% hint style="info" %}
+**Performance tip**: Apply filters before complex visualizations to maintain responsiveness with large datasets.
+{% endhint %}
 
 ## Evaluating your results
 
@@ -127,4 +139,4 @@ After creating custom visualizations, assess whether this approach meets your an
 
 ## Next steps
 
-Based on your custom visualization experience, you may need more advanced capabilities. For comprehensive guidance on selecting appropriate business intelligence tools that match your specific requirements and organizational needs, see [Selecting BI tools](https://documentation-test-environment.scrollhelp.site/cloud-data-warehouse/Working-version/selecting-bi-tools).
+Based on your custom visualization experience, you may need more advanced capabilities. For comprehensive guidance on selecting appropriate business intelligence tools that match your specific requirements and organizational needs, see [Selecting BI tools](../../data-hub/connection-setup/selecting-bi-tools/).

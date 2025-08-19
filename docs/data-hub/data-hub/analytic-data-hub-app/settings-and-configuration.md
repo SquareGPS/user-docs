@@ -4,18 +4,18 @@ Your **Data Hub App** instance requires management to deliver optimal performanc
 
 ## Understanding your system's health
 
-![image-20250813-134236.png](attachments/image-20250813-134236.png)
+![](attachments/image-20250813-134236.png)
 
 The **System Health** dashboard shows your instance's current operational status. Check these indicators before making configuration changes.
 
-- **Database Healthy** confirms your data storage systems are responding properly.
-- **Streaming Low** indicates current real-time data ingestion rates - this varies naturally based on fleet activity and operational hours.
+* **Database Healthy** confirms your data storage systems are responding properly.
+* **Streaming Low** indicates current real-time data ingestion rates - this varies naturally based on fleet activity and operational hours.
 
 ### Performance metrics explained
 
-- **Database Size** shows current storage utilization and grows as your fleet operates over time.
-- **Open Connections** indicates active users or queries accessing your data - higher numbers during business hours are normal.
-- **Inserts per Minute** reflects real-time data ingestion from active vehicles - rates vary based on fleet operational patterns.
+* **Database Size** shows current storage utilization and grows as your fleet operates over time.
+* **Open Connections** indicates active users or queries accessing your data - higher numbers during business hours are normal.
+* **Inserts per Minute** reflects real-time data ingestion from active vehicles - rates vary based on fleet operational patterns.
 
 ## Configuring data processing
 
@@ -33,17 +33,17 @@ Control which telematics data types your system processes to balance performance
 
 ### Data category selection
 
-- **Tracking Data** (always enabled) provides GPS coordinates, speed, and movement events - the foundation for all fleet analysis.
-- **Inputs** captures sensor readings like fuel levels and temperature - enable for maintenance analysis and operational monitoring.
-- **States** records device status including ignition and operational modes - useful for detailed activity analysis.
+* **Tracking Data** (always enabled) provides GPS coordinates, speed, and movement events - the foundation for all fleet analysis.
+* **Inputs** captures sensor readings like fuel levels and temperature - enable for maintenance analysis and operational monitoring.
+* **States** records device status including ignition and operational modes - useful for detailed activity analysis.
 
 ### Choosing your configuration
 
-| **Configuration** | **Query esponse** | **Storage cost** | **Use case** |
-| --- | --- | --- | --- |
-| Tracking only | Fast (1-2s) | Low | Basic fleet monitoring |
-| Tracking + Inputs | Medium (2-5s) | Medium | Maintenance analysis |
-| All Categories | Slower (5-10s) | High | Comprehensive analysis |
+| **Configuration** | **Query esponse** | **Storage cost** | **Use case**           |
+| ----------------- | ----------------- | ---------------- | ---------------------- |
+| Tracking only     | Fast (1-2s)       | Low              | Basic fleet monitoring |
+| Tracking + Inputs | Medium (2-5s)     | Medium           | Maintenance analysis   |
+| All Categories    | Slower (5-10s)    | High             | Comprehensive analysis |
 
 ### Applying changes
 
