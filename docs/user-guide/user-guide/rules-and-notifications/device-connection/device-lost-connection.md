@@ -6,7 +6,9 @@ The "Device lost connection" rule is designed to monitor and notify users when a
 
 This rule helps users stay informed about the operational status of their tracking devices and enables quick responses to potential issues, such as equipment malfunctions, GSM jamming, or vehicle theft. It also aids in collecting valuable data for optimizing operations, such as identifying areas with poor coverage or detecting faults in the equipment or service provider.
 
-> \[!INFO] For real-time monitoring of device power status, it is recommended to use the ["Device switch ON/OFF" self-reporting feature](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909014203/Device+switched+ON+OFF?atlOrigin=eyJpIjoiMWJmNTEwZDkyNjhjNDBlNzkwZDhiYWQxMWNjYTIyNDQiLCJwIjoiYyJ9), if supported by your GPS device.
+{% hint style="info" %}
+For real-time monitoring of device power status, it is recommended to use the ["Device switch ON/OFF" self-reporting feature](../device-power/device-switched-onoff.md), if supported by your GPS device.
+{% endhint %}
 
 ## Rule settings
 

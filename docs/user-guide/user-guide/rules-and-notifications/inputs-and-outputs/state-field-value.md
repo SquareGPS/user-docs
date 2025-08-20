@@ -74,11 +74,17 @@ Sets a custom reset timer in seconds for event notifications. For example, if yo
 **Working with Virtual Sensors:**
 
 The state field rule allows the selection of not only state fields but also virtual sensors.\
-By selecting the appropriate virtual sensor and specifying the desired event from the virtual sensor table, users can receive notifications and include the event in reports. This allows businesses to customize and control the events they wish to be informed about, tailoring the monitoring system to their specific needs. This flexibility enhances the ability to track and manage critical or custom events, providing valuable insights and facilitating data-driven decision-making for various business operations. All the events from expected values are custom and can be created according to the users' needs. For further details regarding Virtual Sensors, kindly refer to the [Virtual Sensors](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/sensors-and-buttons/virtual-sensors/) article.
+By selecting the appropriate virtual sensor and specifying the desired event from the virtual sensor table, users can receive notifications and include the event in reports. This allows businesses to customize and control the events they wish to be informed about, tailoring the monitoring system to their specific needs. This flexibility enhances the ability to track and manage critical or custom events, providing valuable insights and facilitating data-driven decision-making for various business operations. All the events from expected values are custom and can be created according to the users' needs. For further details regarding Virtual Sensors, kindly refer to the [Virtual Sensors](../../devices-and-settings/vehicle-sensors/virtual-sensors/) article.
 
+{% columns %}
+{% column %}
 ![](attachments/image-20230726-125407.png)
+{% endcolumn %}
 
+{% column %}
 ![](attachments/image-20230726-125535.png)
+{% endcolumn %}
+{% endcolumns %}
 
 ![](attachments/image-20230726-125722.png)
 

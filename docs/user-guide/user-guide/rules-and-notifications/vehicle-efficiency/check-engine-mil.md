@@ -6,7 +6,9 @@ The "Check engine (MIL)" rule is designed to monitor the status of the Malfuncti
 
 The MIL typically illuminates when the vehicle's onboard diagnostic system detects an issue with the engine, emissions, or other critical systems. By receiving timely notifications, users can take immediate action to address potential problems, preventing further damage and ensuring vehicle safety and compliance.
 
-> \[!INFO] To monitor specific DTC codes, you can set up a [State field value](../inputs-and-outputs/state-field-value.md) rule.
+{% hint style="info" %}
+To monitor specific DTC codes, you can set up a [State field value](../inputs-and-outputs/state-field-value.md) rule.
+{% endhint %}
 
 ## Rule settings
 

@@ -6,14 +6,16 @@ A GPS device reports a battery low alert when the charge level of its internal b
 
 In the case of portable trackers, this alert signals that the primary power source is depleting, while for vehicle-mounted trackers, it may indicate that the backup battery is running low, potentially compromising the device's ability to continue tracking if the main power supply is lost.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Role of internal batteries in GPS devices
+<summary>Role of internal batteries in GPS devices</summary>
 
 An internal battery in a GPS device is a built-in power source that plays a crucial role in the device's functionality. Depending on the purpose of the GPS tracker, this internal battery can serve different roles.
 
 * **In portable GPS trackers,** the internal battery is typically the primary power source. These batteries are essential for tracking assets, people, or vehicles in scenarios where external power may not be available.
 * **For vehicle-mounted GPS trackers,** the internal battery usually acts as a backup power source. This backup battery kicks in when the main power supply from the vehicle is interrupted, whether due to disconnection, tampering, or vehicle battery failure. The backup battery ensures continuous tracking and data transmission, providing an extra layer of security and reliability, especially in critical fleet management or anti-theft applications.
+
+</details>
 
 ## Two battery monitoring rules
 

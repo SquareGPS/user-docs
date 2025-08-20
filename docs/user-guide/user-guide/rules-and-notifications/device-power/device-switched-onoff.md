@@ -4,7 +4,9 @@
 
 The "Device switched ON/OFF" rule allows users to monitor when a GPS device is powered on or off. This rule is particularly helpful for managers who need to ensure that employees are using GPS devices according to prescribed policies during work hours. It provides valuable insights into device usage patterns, helping to prevent device misuse and ensuring that the devices are functioning properly.
 
-> \[!WARNING] This rule applies only to devices that have the capability to report their power status. In other words, the GPS device must be able to send notifications to the platform when it is powered on or off. If a device lacks this functionality, the rule cannot be applied, as the platform would not receive the necessary data to trigger notifications, but you can still use the device independent “[Device lost connection](../device-connection/device-lost-connection.md)” rule.
+{% hint style="danger" %}
+This rule applies only to devices that have the capability to report their power status. In other words, the GPS device must be able to send notifications to the platform when it is powered on or off. If a device lacks this functionality, the rule cannot be applied, as the platform would not receive the necessary data to trigger notifications, but you can still use the device independent [Device lost connection](../device-connection/device-lost-connection.md) rule.
+{% endhint %}
 
 ## Rule settings
 

@@ -80,7 +80,7 @@
       * [Unauthorized movement](user-guide/rules-and-notifications/security/unauthorized-movement.md)
       * [Auto-geofencing](user-guide/rules-and-notifications/security/auto-geofencing.md)
       * [Car alarm](user-guide/rules-and-notifications/security/car-alarm.md)
-    * [Safety](user-guide/rules-and-notifications/safety/README.md)
+    * [Driver safety](user-guide/rules-and-notifications/safety/README.md)
       * [ADAS warnings](user-guide/rules-and-notifications/safety/adas-warnings.md)
       * [Distracted driving](user-guide/rules-and-notifications/safety/distracted-driving.md)
       * [Fatigue driving](user-guide/rules-and-notifications/safety/fatigue-driving.md)

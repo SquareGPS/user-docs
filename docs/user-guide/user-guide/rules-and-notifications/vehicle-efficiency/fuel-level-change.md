@@ -6,7 +6,9 @@ Monitoring fuel levels is crucial for managing fuel consumption and detecting un
 
 These notifications can be delivered through the web user interface, SMS, or email, and can be consolidated into reports. This proactive monitoring helps users quickly respond to fuel level changes, potentially lowering fuel costs and resolving disputes among employees.
 
-> \[!INFO] Before setting up this rule, ensure that the fuel level sensor you intend to monitor is properly configured. For detailed instructions on setting up and configuring fuel level sensors, please refer to the [Fuel level sensor section](../../devices-and-settings/vehicle-sensors/measurement-sensors/fuel-level-sensor.md).
+{% hint style="info" %}
+Before setting up this rule, ensure that the fuel level sensor you intend to monitor is properly configured. For detailed instructions on setting up and configuring fuel level sensors, please refer to the [Fuel level sensor section](../../devices-and-settings/vehicle-sensors/measurement-sensors/fuel-level-sensor.md).
+{% endhint %}
 
 ## Rule settings
 

@@ -4,7 +4,7 @@
 
 The Task Performance rule is designed to help companies track and manage the progress and completion of tasks assigned to field employees. Whether you're overseeing a large remote workforce or a smaller team, this rule ensures you stay informed about critical task-related events, such as task completion, delays, failures, and form submissions.
 
-![image-20240808-235145.png](attachments/image-20240808-235145.png)
+![](attachments/image-20240808-235145.png)
 
 The system provides timely notifications via SMS, email, push notifications, or directly within the web user interface. By using this functionality, businesses can maintain control over the task completion process, leading to improved efficiency and decision-making.
 

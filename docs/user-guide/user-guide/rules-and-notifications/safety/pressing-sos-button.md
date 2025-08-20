@@ -10,11 +10,13 @@ The functionality of this rule depends on the device's capabilities and configur
 
 For common settings, please refer to [Rules and Notifications](../).
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Connecting external button to a vehicle’s GPS device input
+<summary>Connecting external button to a vehicle’s GPS device input</summary>
 
 Depending on the device, the SOS button can be connected to either a dedicated input, specifically designed for this function, or to a general discrete input. If connected to a discrete input, you should create the input within the Devices and Settings menu under the Sensors and Buttons section. In this case, select the “Input Triggering” rule type for proper configuration.
+
+</details>
 
 ## System operation details
 

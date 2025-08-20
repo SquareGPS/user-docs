@@ -6,7 +6,9 @@ The "GPS antenna disconnected" rule is designed for GPS devices that utilize an 
 
 For example, if you manage a fleet of delivery vehicles equipped with trackers and external GPS antennas, this rule helps you monitor the integrity of your GPS connections. If an antenna becomes disconnected due to environmental factors or tampering, you'll be immediately notified. This allows you to take corrective action, such as sending a technician to restore the connection, preventing potential delays and maintaining efficient operations.
 
-> \[!INFO] Most modern GPS devices come equipped with built-in high-sensitivity antennas, making external antennas obsolete.
+{% hint style="info" %}
+Most modern GPS devices come equipped with built-in high-sensitivity antennas, making external antennas obsolete.
+{% endhint %}
 
 ## Rule settings
 

@@ -59,11 +59,15 @@ In case, where a virtual sensor is selected as a data source, the user specifies
 
 This can be useful if users need to specify a state field source within a parameter range rule. Say, there is a tracker with an event code range of 1-100, and it is needed to control the codes from 20 to 30. Create the parameter in the range rule and specify the event code as a source for the virtual sensor:
 
-> \[!INFO] The "Parameter in range" notification may contain one or all of the values specified in the rule's range, but it does not include translations from the virtual sensor. For example, if events with values from 20 to 30 occur, each individual event within that range will trigger a separate "Parameter in range" notification, regardless of whether specific values are absent in the virtual sensor table mentioned above.
+{% hint style="info" %}
+The "Parameter in range" notification may contain one or all of the values specified in the rule's range, but it does not include translations from the virtual sensor. For example, if events with values from 20 to 30 occur, each individual event within that range will trigger a separate "Parameter in range" notification, regardless of whether specific values are absent in the virtual sensor table mentioned above.
+{% endhint %}
 
 For example, let's consider a case for a logistics company. The company sends multiple trucks on various routes, and there's a critical section with potential problems, like severe traffic or accidents. To monitor this risky area effectively, they set up a "Parameter in range" rule with virtual sensors using the "event code" as the data source. They define a range from 20 to 30 for events on that particular road section. Whenever a truck encounters an event within this critical range (20-30), they receive notifications. This enables swift actions to tackle potential issues, ensuring safety and efficiency in their operations. This approach allows them to stay informed about critical events that traditional sensors couldn't address, enhancing their control and decision-making.
 
-> \[!INFO] If a user changes the Calculation method of a virtual sensor specified as the data source in a "Parameter in range" rule to any method other than "Source value," the rule will reset its source and stop functioning.
+{% hint style="info" %}
+If a user changes the Calculation method of a virtual sensor specified as the data source in a "Parameter in range" rule to any method other than "Source value," the rule will reset its source and stop functioning.
+{% endhint %}
 
 ## Notifications
 
