@@ -2,6 +2,8 @@
 
 **Forms** are electronic documents that can be attached to tasks, allowing employees to submit task results directly through the **X-GPS Tracker** mobile app. These forms can include various types of fields such as text fields for client orders, inspection reports, and media sections for uploading photos and videos.
 
+{% embed url="https://youtu.be/FaHJU_EEkUU" %}
+
 ## Getting started
 
 ### Create a form
@@ -15,7 +17,7 @@ To begin using forms in Navixy:
 
 This process allows you to create as many forms as needed, ensuring they are tailored to the tasks your employees perform.
 
-![image-20240816-160834.png](attachments/image-20240816-160834.png)
+![](attachments/image-20240816-160834.png)
 
 Two toggles are available when creating a form:
 
@@ -24,7 +26,7 @@ Two toggles are available when creating a form:
 
 After saving, created forms can be accessed in the form list.
 
-![image-20240816-155915.png](attachments/image-20240816-155915.png)
+![List of created forms (example)](attachments/image-20240816-155915.png)
 
 ### Attaching a form to a task
 
@@ -35,7 +37,7 @@ To attach a form to a task, follow these steps:
 3. Provide other task details, such as selecting the employee responsible for completing the task.
 4. Finalize the task creation by clicking "Save."
 
-![image-20240816-161010.png](attachments/image-20240816-161010.png)
+![](attachments/image-20240816-161010.png)
 
 The selected employee will receive the task with the attached form in the X-GPS Tracker mobile app, ensuring all necessary documentation is available during task execution.
 
@@ -53,10 +55,10 @@ Employees are required to fill out forms during or after completing a task. Here
 
 To ensure timely notifications when a form is submitted, configure alerts by following these steps:
 
-1. Navigate to the “[Rules and notifications](../rules-and-notifications/)” section in the platform.
+1. Navigate to the [Rules and notifications](../rules-and-notifications/) section in the platform.
 2. Start creating a new notification rule by clicking the "Add rule" button.
 3. Select the objects (e.g., vehicles, employees) to which this rule will apply.
-4. Choose “[Task performance](../rules-and-notifications/scheduling-and-dispatching/task-performance.md)” from the list of events and proceed.
+4. Choose [Task performance](../rules-and-notifications/scheduling-and-dispatching/task-performance.md) from the list of events and proceed.
 5. In the “Rule options” section, tick the “Form submitted” checkbox.
 6. On the “Notifications” tab, choose how you want to be notified (e.g., SMS, email).
 
