@@ -6,7 +6,6 @@ Welcome to the Navixy User Guide, your comprehensive resource for mastering the 
 * [Account](user-guide/account/)
 * [GPS Tracking](user-guide/gps-tracking/)
 * [Geo links](user-guide/geo-links/)
-* [Video monitoring](user-guide/video-monitoring/)
 * [Solution connectors](user-guide/solution-connectors/)
 * [Rules and notifications](user-guide/rules-and-notifications/)
 * [Reports](user-guide/reports/)
