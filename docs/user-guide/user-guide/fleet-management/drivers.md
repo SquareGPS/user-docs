@@ -2,7 +2,7 @@
 
 The **Drivers** section in the Navixy platform is designed to help fleet managers efficiently manage and monitor their drivers. This section allows you to create and manage detailed driver profiles, linking them to specific objects in your fleet. By maintaining comprehensive driver records, you can streamline fleet operations, improve driver accountability, and enhance overall fleet performance.
 
-![image-20240814-180004.png](attachments/image-20240814-180004.png)
+![](attachments/image-20240814-180004.png)
 
 ## Driver list
 
@@ -30,17 +30,14 @@ Navixy supports automatic driver identification through the use of electronic ke
 
 #### **Setting up automatic identification**
 
-1. **Assigning the hardware key:**
-
-* To enable automatic identification, the driver’s electronic key must be linked to their profile. This involves manually entering the unique Hardware key code, found on the i-Button or RFID device, into the designated field within the driver’s employee card.
-
-2. **Automatic assignment:**
-
-* Once the electronic key is specified in the driver’s profile and connected to the vehicle’s i-Button reader, the platform will automatically identify the driver and assign them to the appropriate vehicle upon key detection. If they were assigned to another device, they will be removed from the previous one and assigned to the most recently scanned device.
+1. **Assigning the hardware key:**\
+   To enable automatic identification, the driver’s electronic key must be linked to their profile. This involves manually entering the unique Hardware key code, found on the i-Button or RFID device, into the designated field within the driver’s employee card.
+2. **Automatic assignment:**\
+   Once the electronic key is specified in the driver’s profile and connected to the vehicle’s i-Button reader, the platform will automatically identify the driver and assign them to the appropriate vehicle upon key detection. If they were assigned to another device, they will be removed from the previous one and assigned to the most recently scanned device.
 
 **Requirements for automatic identification:**
 
-* The "Hardware key" feature must be enabled for the specific tracker model, which can be verified on the [Navixy supported devices page](https://www.navixy.com/devices/). If the "Hardware key" option is available in the **State fields** section for your device, then it supports the Driver Identification feature.
+The "Hardware key" feature must be enabled for the specific tracker model, which can be verified on the [Navixy supported devices page](https://www.navixy.com/devices/). If the "Hardware key" option is available in the **State fields** section for your device, then it supports the Driver Identification feature.
 
 ### Manual driver Identification
 
@@ -48,7 +45,7 @@ In scenarios where automatic identification is not possible or preferred, Navixy
 
 #### Assigning drivers manually
 
-* After creating employee cards for your drivers, you can manually assign them to objects within the Navixy platform. To do this, navigate to the Tracking app, select an object, and assign a driver using the widget panel.
+After creating employee cards for your drivers, you can manually assign them to objects within the Navixy platform. To do this, navigate to the Tracking app, select an object, and assign a driver using the widget panel.
 
 ### Driver-based reporting
 

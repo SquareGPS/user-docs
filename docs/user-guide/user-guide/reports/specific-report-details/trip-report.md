@@ -4,7 +4,7 @@ The **Trip report** in Navixy provides a comprehensive analysis of your vehicle'
 
 This report is invaluable for fleet managers who need to monitor vehicle usage, calculate operational costs, and assess driving efficiency. Below is a detailed guide on how the Trips Report works, the parameters involved, and how to interpret the data effectively.
 
-![image-20240815-010251.png](attachments/image-20240815-010251.png)
+![Trip report example](attachments/image-20240815-010251.png)
 
 ## Overview
 
@@ -35,18 +35,7 @@ The Trip Report offers several configurable parameters to tailor the report to y
 
 The report organizes information into the following columns:
 
-| Column Name                   | Description                                                                                                                                                                        |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Movement start**            | Details when and where the trip began, including the time and address. If coordinates are hidden, only the time and address are shown.                                             |
-| **Movement end**              | Shows when and where the trip concluded. If the trip ends within a geofence or POI, its name is included.                                                                          |
-| **Total trips length**        | Indicates the entire distance of the trip as measured by GPS.                                                                                                                      |
-| **Travel time**               | Shows the total time taken for the trip.                                                                                                                                           |
-| **Average speed**             | The average speed during the trip.                                                                                                                                                 |
-| **Max speed**                 | The peak speed reached during the trip, as recorded by the device.                                                                                                                 |
-| **Fuel consumed by norm**     | Estimated fuel consumption for the trip based on standard rates, requires vehicle fuel consumption data per 100 km in the [vehicle's profile](../../fleet-management/vehicles.md). |
-| **Trip cost by norm**         | Displays the fuel cost based on the standard consumption rate provided in the [vehicle's profile](../../fleet-management/vehicles.md).                                             |
-| **Fuel consumption (sensor)** | Shows actual fuel consumption if a fuel sensor is installed and transmitting data to the platform. The sensor must measure in liters or gallons.                                   |
-| **Parking time**              | Lists the duration of parking between this trip and the next.                                                                                                                      |
+<table><thead><tr><th width="215.8182373046875">Column Name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Movement start</strong></td><td>Details when and where the trip began, including the time and address. If coordinates are hidden, only the time and address are shown.</td></tr><tr><td><strong>Movement end</strong></td><td>Shows when and where the trip concluded. If the trip ends within a geofence or POI, its name is included.</td></tr><tr><td><strong>Total trips length</strong></td><td>Indicates the entire distance of the trip as measured by GPS.</td></tr><tr><td><strong>Travel time</strong></td><td>Shows the total time taken for the trip.</td></tr><tr><td><strong>Average speed</strong></td><td>The average speed during the trip.</td></tr><tr><td><strong>Max speed</strong></td><td>The peak speed reached during the trip, as recorded by the device.</td></tr><tr><td><strong>Fuel consumed by norm</strong></td><td>Estimated fuel consumption for the trip based on standard rates, requires vehicle fuel consumption data per 100 km in the <a href="../../fleet-management/vehicles.md">vehicle's profile</a>.</td></tr><tr><td><strong>Trip cost by norm</strong></td><td>Displays the fuel cost based on the standard consumption rate provided in the <a href="../../fleet-management/vehicles.md">vehicle's profile</a>.</td></tr><tr><td><strong>Fuel consumption (sensor)</strong></td><td>Shows actual fuel consumption if a fuel sensor is installed and transmitting data to the platform. The sensor must measure in liters or gallons.</td></tr><tr><td><strong>Parking time</strong></td><td>Lists the duration of parking between this trip and the next.</td></tr></tbody></table>
 
 **Example:**
 

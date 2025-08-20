@@ -10,21 +10,14 @@ The Equipment Working Time report tracks the operational time of equipment, dist
 
 The report calculates equipment working time based on data points received by the Navixy platform. It considers the state of discrete inputs or virtual sensors and the parking status to accurately distribute working time between motion and idle periods. For accurate calculations, the following configurations and conditions must be met:
 
-1. **Discrete input configuration:**
-
-* The discrete input on the device must be correctly wired and capable of registering the input state accurately.
-
-2. **Virtual sensor configuration:**
-
-* [Virtual sensors](../../devices-and-settings/vehicle-sensors/virtual-sensors/) with two states can also be used. The sensor must be correctly configured to register these states.
-
-3. **Parking detection settings:**
-
-* Parking detection settings are crucial in differentiating between operating time in motion and idle time. If the input state is "on" while the platform detects the vehicle as parked (e.g., moving at less than 3 km/h for over 5 minutes), this time is recorded as idle.
-
-4. **Minimum on-time:**
-
-* The platform calculates the operating time only if the equipment is on for a minimum duration, which you can specify (e.g., 60 seconds).
+1. **Discrete input configuration:**\
+   The discrete input on the device must be correctly wired and capable of registering the input state accurately.
+2. **Virtual sensor configuration:**\
+   [Virtual sensors](../../devices-and-settings/vehicle-sensors/virtual-sensors/) with two states can also be used. The sensor must be correctly configured to register these states.
+3. **Parking detection settings:**\
+   Parking detection settings are crucial in differentiating between operating time in motion and idle time. If the input state is "on" while the platform detects the vehicle as parked (e.g., moving at less than 3 km/h for over 5 minutes), this time is recorded as idle.
+4. **Minimum on-time:**\
+   The platform calculates the operating time only if the equipment is on for a minimum duration, which you can specify (e.g., 60 seconds).
 
 ### Example calculation
 
@@ -55,21 +48,22 @@ The Equipment Working Time report includes several configurable parameters that 
 
 * The histogram breaks down the equipment's working time into daily segments. If idle percentage is tracked, it also shows the division between motion and idle time. Hovering over each day provides a more detailed view of that day’s activity.
 
-![image-20240815-010538.png](attachments/image-20240815-010538.png)
+![Daily activity histogram example with showing idle percentage](attachments/image-20240815-010538.png)
 
 ### Daily sensor operation time table
 
-* This table presents daily statistics on equipment operation, including:
-  * **Date:** The specific day for which the information is calculated.
-  * **Operation Time (Duration of Virtual Sensor State):** The total operational time for the day.
-  * **Average Interval:** The average duration the equipment was operational after each switch-on.
-  * **Mileage:** The distance traveled with the equipment turned on.
-  * **Average Speed:** The average speed for the day.
-  * **Intervals:** The number of times the equipment was turned on during the day.
-  * **In Motion (if idle percentage is enabled):** The duration of work in motion and its percentage of the total work time.
-  * **Idle (if idle percentage is enabled):** The operation time without motion and its percentage of the total operation time.
+This table presents daily statistics on equipment operation, including:
 
-![image-20240815-010619.png](attachments/image-20240815-010619.png)
+* **Date:** The specific day for which the information is calculated.
+* **Operation Time (Duration of Virtual Sensor State):** The total operational time for the day.
+* **Average Interval:** The average duration the equipment was operational after each switch-on.
+* **Mileage:** The distance traveled with the equipment turned on.
+* **Average Speed:** The average speed for the day.
+* **Intervals:** The number of times the equipment was turned on during the day.
+* **In Motion (if idle percentage is enabled):** The duration of work in motion and its percentage of the total work time.
+* **Idle (if idle percentage is enabled):** The operation time without motion and its percentage of the total operation time.
+
+![Daily operation time on sensor with showing idle percentage](attachments/image-20240815-010619.png)
 
 ## Interpreting the report
 

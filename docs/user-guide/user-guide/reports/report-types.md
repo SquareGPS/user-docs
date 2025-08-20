@@ -47,12 +47,12 @@ Transport usage reports allow you to monitor how your vehicles and their resourc
 * **Fuel volume**\
   Provides data on fuel consumption, fillings, and drains, along with initial and final fuel volumes. Read more:
   * [Fuel consumption report](specific-report-details/fuel-volume-report.md)
-  * [Fuel management in Navixy](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2380890113/Fuel+control+in+Navixy)
+  * [Fuel management in Navixy](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy)
 * **Flow meter**\
   Focuses on fuel consumption data gathered from flow meters, without showing fuel levels at specific times.
 * **Vehicle sensors**\
   Displays data received from vehicle sensors via CAN-bus or OBDII, including mileage, RPM, speed, and coolant temperature. Read more:
-  * [Vehicle CAN / OBDII readings report](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909015593/Report+types)
+  * [Vehicle CAN / OBDII readings report](specific-report-details/vehicle-can-obdii-readings-report.md)
 
 ## Driving quality reports
 

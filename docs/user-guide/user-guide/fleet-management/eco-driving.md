@@ -4,7 +4,7 @@ The **Eco Driving report** in Navixy is a powerful tool designed to analyze and 
 
 To access the Eco Driving report, navigate to the **Fleet Management app** and select the **"Eco-Driving" tab.**
 
-![image-20240814-183737.png](attachments/image-20240814-183737.png)
+![](attachments/image-20240814-183737.png)
 
 ## Understanding penalty points
 
@@ -14,7 +14,7 @@ Penalty points are a key component of the Eco Driving report, allowing you to ga
 
 The Eco Driving report can be tailored to fit your specific needs, enabling you to set your own criteria for what constitutes a violation and how severe it is. You can assign different penalty points to various infractions, allowing you to prioritize certain aspects of driving behavior according to your organization’s standards.
 
-![image-20240814-183612.png](attachments/image-20240814-183612.png)
+![Speeding settings example](attachments/image-20240814-183612.png)
 
 **Key features**
 
@@ -22,9 +22,9 @@ The Eco Driving report can be tailored to fit your specific needs, enabling you 
 * **Harsh driving:** Track aggressive maneuvers such as harsh braking, acceleration, or sharp turns, with customizable thresholds based on your fleet's devices.
 * **Excessive idling:** Identify and penalize drivers for long periods of idling, which can waste fuel and reduce vehicle efficiency.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Calculations in the Eco Driving report
+<summary>Calculations in the Eco Driving report</summary>
 
 The Eco Driving report in Navixy is designed to evaluate and score the driving behavior of employees based on a set of criteria. The score for each driver ranges from 0 to 100 and is influenced by penalty points assigned for various violations.
 
@@ -89,6 +89,8 @@ Events recorded within a 5-minute window are grouped, and penalties are calculat
 #### Idle intervals table
 
 This table provides details on each instance of idling with the engine running, including the duration and corresponding penalty points.
+
+</details>
 
 ## Analyzing results
 

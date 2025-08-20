@@ -4,15 +4,7 @@
 
 The Fleet Management section within Navixy platform offers streamlined management of your organization's vehicles, providing detailed insights and control over all aspects of your fleet, from fuel consumption to vehicle specifications, to enhance your operational efficiency.
 
-![image-20240814-173711.png](../attachments/image-20240814-173711.png)
-
-* [Vehicles](vehicles.md)
-* [Garages](garages.md)
-* [Drivers](drivers.md)
-* [Departments](departments.md)
-* [Driver journal](driver-journal.md)
-* [Eco Driving](eco-driving.md)
-* [Maintenance](maintenance.md)
+![](../attachments/image-20240814-173711.png)
 
 All the information about vehicles of your organization is in **Fleet management**.
 
@@ -24,19 +16,13 @@ The **Vehicles** tab displays information about the user's vehicles as a table a
 
 In this tab it is possible to add and edit vehicles, attach them to the depots and link them to trackers activated on the platform.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-600x295.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-1024x503.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-600x295.png" alt=""><figcaption></figcaption></figure>
 
 ### Adding a new vehicle
 
-Press ![chrome\_py0qhiu5p8.webp](../attachments/chrome_py0qhiu5p8.webp)
+Press <img src="../attachments/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button to add a new vehicle.
 
-button to add a new vehicle.
-
-Button ![image-20241127-142058.png](../attachments/image-20241127-142058.png)
-
-allows adding an image of the vehicle.
+Button <img src="../attachments/image-20241127-142058.png" alt="image-20241127-142058.png" data-size="line"> allows adding an image of the vehicle.
 
 The **Main** tab contains all main information about the vehicle and additional information, such as tags or text notes.
 
@@ -46,26 +32,18 @@ The **Fuel** tab is used to fill in information about the type of fuel, tank cap
 
 The **Insurance** tab allows entering the number of insurance with the date of expiration.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q-502x600.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q-502x600.png" alt=""><figcaption></figcaption></figure>
 
 ### Garages
 
 Information on fleet owners is available on the **Garages** tab.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-600x295.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-1024x503.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-600x295.png" alt=""><figcaption></figcaption></figure>
 
 ### Adding a new garage
 
-Press ![chrome\_py0qhiu5p8.webp](../attachments/chrome_py0qhiu5p8.webp)
-
-button to add a new garage.
+Press <img src="../attachments/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button to add a new garage.
 
 The popup contains its name, address, name of the mechanic and name of the dispatcher. This data can be used for more convenient and efficient task management.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz-430x600.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz-430x600.png" alt=""><figcaption></figcaption></figure>

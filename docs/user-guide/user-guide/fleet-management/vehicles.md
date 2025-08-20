@@ -10,14 +10,14 @@ The "Vehicles" tab presents a detailed overview of all vehicles within your flee
 
 To add a new vehicle, simply press the **+** button. You also have the option to upload an image of the vehicle for easy identification.
 
-- **Main tab:** Enter essential vehicle information, including tags and any relevant notes.
-- **Specification tab:** Provide detailed specifications, such as vehicle dimensions, wheelbase size, the number of wheels, permitted speed, trailer availability, and the year of manufacture.
-- **Fuel tab:** Record fuel-related information, including fuel type, tank capacity, and consumption rate per 100 km (or miles). This data is crucial for generating accurate fuel consumption reports.
-- **Insurance tab:** Input the vehicle’s insurance details, including the policy number and expiration date.
+* **Main tab:** Enter essential vehicle information, including tags and any relevant notes.
+* **Specification tab:** Provide detailed specifications, such as vehicle dimensions, wheelbase size, the number of wheels, permitted speed, trailer availability, and the year of manufacture.
+* **Fuel tab:** Record fuel-related information, including fuel type, tank capacity, and consumption rate per 100 km (or miles). This data is crucial for generating accurate fuel consumption reports.
+* **Insurance tab:** Input the vehicle’s insurance details, including the policy number and expiration date.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Fuel consumption in the Vehicle profile and its role in Fuel reports
+<summary>Fuel consumption in the Vehicle profile and its role in Fuel reports</summary>
 
 In Navixy, configuring the **Fuel consumption** in the vehicle profile is a critical step for roughly tracking and reporting fuel usage across your fleet based on mileage driven, without relying on OBDII data or specialized fuel sensors.
 
@@ -25,12 +25,14 @@ This parameter is typically defined in terms of liters per 100 kilometers (L/100
 
 #### How fuel consumption is used in Fuel reports
 
-1. **Estimation of fuel usage:**
-  - The fuel consumption value entered in the vehicle profile serves as a baseline for estimating the fuel usage of a vehicle over a given distance. For instance, if a vehicle is set to consume 10 L/100 km, the system will estimate that it uses 10 liters of fuel for every 100 kilometers driven.
-2. **Calculation of expected Fuel costs:**
-  - Navixy uses the set fuel consumption rate along with the recorded mileage to calculate the expected fuel costs. By inputting the price per liter or gallon in the settings, the system can generate reports that estimate how much you should be spending on fuel, which helps in budgeting and financial planning.
-3. **Comparison with actual fuel data:**
-  - When combined with data from fuel level sensors, Navixy can compare the estimated fuel consumption with actual fuel usage. This comparison helps in identifying discrepancies, such as fuel theft, inefficiencies in driving behavior, or issues with the vehicle's engine that might lead to higher-than-expected fuel consumption.
+1. **Estimation of fuel usage:**\
+   The fuel consumption value entered in the vehicle profile serves as a baseline for estimating the fuel usage of a vehicle over a given distance. For instance, if a vehicle is set to consume 10 L/100 km, the system will estimate that it uses 10 liters of fuel for every 100 kilometers driven.
+2. **Calculation of expected Fuel costs:**\
+   Navixy uses the set fuel consumption rate along with the recorded mileage to calculate the expected fuel costs. By inputting the price per liter or gallon in the settings, the system can generate reports that estimate how much you should be spending on fuel, which helps in budgeting and financial planning.
+3. **Comparison with actual fuel data:**\
+   When combined with data from fuel level sensors, Navixy can compare the estimated fuel consumption with actual fuel usage. This comparison helps in identifying discrepancies, such as fuel theft, inefficiencies in driving behavior, or issues with the vehicle's engine that might lead to higher-than-expected fuel consumption.
+
+</details>
 
 ### Vehicle import
 
@@ -42,9 +44,11 @@ To import vehicle profiles:
 2. In the import window, you'll find an example Excel file that you can use as a template.
 3. Ensure that the columns in your file correspond to the correct fields in the tracking system by entering the appropriate header fields. This can be done either before the import or during the process.
 4. In the loaded file, you’ll need to specify key information such as:
-  - Name
-  - License Plate
-  - TypeAfter completing the form, save the file on your computer.
+   1. Name
+   2. License Plate
+   3. Type\
+      \
+      After completing the form, save the file on your computer.
 
 To upload the file into the system:
 

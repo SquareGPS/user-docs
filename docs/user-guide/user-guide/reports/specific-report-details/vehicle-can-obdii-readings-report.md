@@ -2,7 +2,7 @@
 
 The **Vehicle readings report** in Navixy offers detailed insights into the data received from your vehicle’s instruments through CAN/OBD sensors or virtual sensors over a selected period. This report includes information such as mileage, engine RPMs, speed, fuel consumption, coolant temperature, and other critical metrics, helping fleet managers and vehicle operators monitor and optimize vehicle performance.
 
-![image-20240815-010131.png](attachments/image-20240815-010131.png)
+![Vehicle readings report parameters](attachments/image-20240815-010131.png)
 
 ## Requirements for generating the report
 
@@ -21,9 +21,9 @@ The report uses several parameters to customize the output:
 * **X-axis on the graph:** Choose whether to display the information on the graph relative to time or mileage.
 * **Smooth graph:** Apply smoothing to the graph to filter out peak values and average the data when there is significant variance.
 
-![image-20240815-010045.png](attachments/image-20240815-010045.png)
+![Graph with readings from OBD sensor without smoothing](attachments/image-20240815-010045.png)
 
-![image-20240815-010100.png](attachments/image-20240815-010100.png)
+![Graph with readings from OBD sensor with smoothing](attachments/image-20240815-010100.png)
 
 For each device, you need to select the sensor for which to generate a report. Only devices with configured CAN/OBD or virtual sensors will appear in the list. If a virtual sensor uses a calculation method other than [source value](../../devices-and-settings/vehicle-sensors/virtual-sensors/), the report will indicate "This is not a measurement sensor."
 
@@ -35,9 +35,15 @@ The **graph** displays CAN/OBD or virtual sensor readings in a visual format, pr
 
 * **Hovering over points:** When you hover over a point on the graph with the X-axis set to time, you will see the exact time and sensor value recorded. If the X-axis is set to mileage, you will see the sensor value along with the mileage at which it was recorded.
 
-![image-20240815-005949.png](attachments/image-20240815-005949.png)
+{% columns %}
+{% column %}
+![Example of displaying readings at a point on a graph with time](attachments/image-20240815-005949.png)
+{% endcolumn %}
 
-![image-20240815-010008.png](attachments/image-20240815-010008.png)
+{% column %}
+![Example of displaying readings at a point on a graph with mileage](attachments/image-20240815-010008.png)
+{% endcolumn %}
+{% endcolumns %}
 
 ### Statistics data table
 
