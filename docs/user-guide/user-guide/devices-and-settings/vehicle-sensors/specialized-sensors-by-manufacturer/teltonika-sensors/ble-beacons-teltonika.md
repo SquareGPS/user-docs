@@ -2,9 +2,7 @@
 
 Teltonika BLE beacons are versatile devices that can collect data on temperature, magnetic state, and transmit their identifiers over long distances, reaching up to 200 meters in open areas.
 
-\[![Teltonika bluetooth beacons](https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png" alt="" width="375"><figcaption></figcaption></figure>
 
 These beacons utilize **Bluetooth Low Energy** technology (BLE 4.0+) , known for its energy efficiency, allowing them to operate for extended periods on their internal batteries—up to 2 years for SLIM models, up to 5 years for COIN models, and up to 19 years for PUCK models.
 
@@ -25,8 +23,8 @@ The beacons are housed in cases with an IP68 rating, providing robust protection
 To add a temperature sensor:
 
 1. Navigate to the measuring sensors section in the input tab.
-2. Select **"BLE: Temperature"** as the input type.
-3. Choose **"Temperature"** as the sensor type.
+2. Select **BLE: Temperature** as the input type.
+3. Choose **Temperature** as the sensor type.
 
 \[![Teltonika bluetooth beacons](https://www.navixy.com/wp-content/uploads/2020/10/chrome_zqbp0ajule.png)
 
@@ -34,7 +32,7 @@ To add a temperature sensor:
 
 ### Magnetic sensors
 
-Magnetic sensors display their status in the “Sensor readings” [information widget](../../../../../../../wiki/pages/createpage.action). This widget allows you to monitor whether the sensor is currently active or not.
+Magnetic sensors display their status in the **Sensor readings** block of [Object widget](../../../../gps-tracking/objects-list/object-widget.md). This widget allows you to monitor whether the sensor is currently active or not.
 
 ### Driver identification sensors
 

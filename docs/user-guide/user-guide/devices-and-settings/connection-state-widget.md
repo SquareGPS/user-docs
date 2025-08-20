@@ -5,7 +5,7 @@ Connection state settings allow you to define the time interval after which a GP
 You may need to adjust these settings for devices that report data less frequently. This prevents them from being marked as offline, ensuring their status is shown accurately, especially for devices in power-saving modes.
 
 {% hint style="warning" %}
-You can monitor the [Connection state](../gps-tracking/objects-list/connection-state.md) of your GPS devices in the [Objects list](../gps-tracking/objects-list/) — in the **Tracking module** of the web interface and the **X-GPS Monitor** mobile app. The connection state is displayed as a color-coded circle indicator within each device's widget, giving you a quick visual reference to assess whether the device is currently connected, not connected, or has lost its connection.
+You can monitor the [Connection state](../gps-tracking/objects-list/connection-state.md) of your GPS devices in the [Objects list](../gps-tracking/objects-list/) in the **Tracking module** of the web interface and the **X-GPS Monitor** mobile app. The connection state is displayed as a color-coded circle indicator within each device's widget, giving you a quick visual reference to assess whether the device is currently connected, not connected, or has lost its connection.
 {% endhint %}
 
 The connection state widget in **Devices and settings** has only one setting:

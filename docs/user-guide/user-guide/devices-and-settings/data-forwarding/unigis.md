@@ -47,19 +47,20 @@ To initiate data forwarding using the Unigis protocol from Navixy, you will need
 
 <table><thead><tr><th width="281.6363525390625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Destination server address and port</td><td>URL of endpoint and port that is used by Ungis TMS.<br><br>Most commonly:<br><br>* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx<br>* Port: 80</td></tr><tr><td>Login and password</td><td>Your Unigis login and password</td></tr><tr><td>External ID</td><td>License plate number of an individual vehicle</td></tr></tbody></table>
 
-To set up data forwarding in Unigis protocol, open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen
+To set up data forwarding in Unigis protocol:
 
-1. Then, click the “Data forwarding” widget
-2. Click “Protocols”
-3. This will open a popup where you will input the required parameters by pressing the + button
+1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
+2. Click the **Data forwarding** widget.
+3. Click Protocols.
+4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
 
 For the Unigis protocol, input the following information:
 
-1. Name: Enter a name to make this retranslator easily identifiable
-2. Protocol: Select the Unigis protocol from the dropdown
-3. Unigis Login and Password
-4. Destination server address, e.g. http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx
-5. Destination port, e.g. 80
+1. **Name:** Enter a name to make this retranslator easily identifiable
+2. **Protocol:** Select the Unigis protocol from the dropdown
+3. Unigis login and password
+4. **Destination server address**, e.g. http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx
+5. **Destination port**, e.g. 80
 
 A Retranslation management screen should look like the following, with Unigis login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 

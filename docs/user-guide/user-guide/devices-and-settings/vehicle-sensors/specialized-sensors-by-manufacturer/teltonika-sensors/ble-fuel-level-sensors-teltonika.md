@@ -10,9 +10,9 @@ Many [Teltonika GPS devices](https://www.navixy.com/devices/teltonika/) support 
 
 To prepare your Teltonika GPS device for Bluetooth fuel sensor integration, follow these steps.
 
-\[![Bluetooth fuel sensors](https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator_2019-09-28_13-56-33-600x365.png)
+<div align="left"><figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator_2019-09-28_13-56-33-600x365.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-]\(https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator\_2019-09-28\_13-56-33.png)
+
 
 1. **Download the Teltonika configurator**: Obtain the app from the official Teltonika website.
 2. **Update the firmware**: Ensure that your device is running the latest firmware version.
@@ -31,33 +31,42 @@ To prepare your Teltonika GPS device for Bluetooth fuel sensor integration, foll
 * Go to the **I/O** tab.
 * Ensure that the parameter corresponding to the fuel sensor is enabled.
 
-> \[!INFO] **Codec 8 Extended** is a Teltonika’s proprietary communication protocol that supports up to 65,535 data parameters (AVL IDs), allowing for more detailed data transmission compared to the standard Codec 8, which supports only 255.
+{% hint style="warning" %}
+**Codec 8 Extended** is Teltonika’s proprietary communication protocol that supports up to 65,535 data parameters (AVL IDs), allowing for more detailed data transmission compared to the standard Codec 8, which supports only 255.
+{% endhint %}
 
-## Sensor setup on the Navixy platform
+## Sensor setup in Navixy
 
 Once the tracker is connected and transmitting fuel data, follow these steps to set up the corresponding sensors on the Navixy platform.
 
-\[![Bluetooth fuel sensors](https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png)
+<div align="left"><figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-]\(https://www.navixy.com/wp-content/uploads/2019/09/chrome\_2019-09-28\_13-59-40.png)
+{% stepper %}
+{% step %}
+**Create a new measurement sensor**
 
-1. **Create a new measurement sensor**:
+1. Navigate to Devices and settings → Sensors and buttons.
+2. Click Create a new [measurement sensor](../../measurement-sensors/).
+{% endstep %}
 
-* Navigate to Devices and settings → Sensors and buttons.
-* Click Create a new [measurement sensor](../../measurement-sensors/).
+{% step %}
+**Configure the sensor**
 
-2. **Configure the sensor**:
+1. Select the input labeled "BLE: LLS level".
+2. Set the sensor type and units. If necessary, fill in the calibration table and adjust other settings.
+{% endstep %}
 
-* Select the input labeled "BLE: LLS level".
-* Set the sensor type and units. If necessary, fill in the calibration table and adjust other settings.
+{% step %}
+**Repeat for additional sensors**
 
-3. **Repeat for additional sensors**:
+If you have multiple fuel sensors, repeat the setup process for each sensor, selecting the appropriate input for each.
+{% endstep %}
 
-* If you have multiple fuel sensors, repeat the setup process for each sensor, selecting the appropriate input for each.
+{% step %}
+**Monitor and report**
 
-4. **Monitor and report**:
-
-* Once configured, you can monitor the fuel level in the designated widget on the platform.
-* You can also generate detailed reports on fuel consumption.
+Once configured, you can monitor the fuel level in the designated widget on the platform. You can also generate detailed reports on fuel consumption.
+{% endstep %}
+{% endstepper %}
 
 This setup allows you to fully utilize the capabilities of Teltonika Bluetooth fuel sensors, providing accurate and real-time data on fuel levels, temperature, and more.

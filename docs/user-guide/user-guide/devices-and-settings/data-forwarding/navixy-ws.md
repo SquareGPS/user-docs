@@ -59,31 +59,27 @@ Required Parameters
 * Login and Password
   * This could be anything as long as it’s not taken
 
-To set up data forwarding in Navixy Web Service protocol, open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
+To set up data forwarding in Navixy Web Service protocol:
 
-Then, click the “Data forwarding” widget.
-
-Click “Protocols”.
-
-This will open a popup where you will input the required parameters by pressing the + button.
-
-For the Navixy Web Service protocol, input the following information:
+1. Open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
+2. Click the **Data forwarding** widget.
+3. Click **Protocols**.
+4. This will open a pop-up where you will input the required parameters by pressing the + button.
+5. For the Navixy Web Service protocol, input the following information:
 
 <table><thead><tr><th width="307.8182373046875">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol and Login</td><td>Select the Navixy Web Service protocol from the dropdown;<br><br>Use any login and passcode as long as it's not already in use.</td></tr><tr><td>Destination server address and port</td><td>These aren't needed for the Navixy Web Service protocol, however, you must still fill these in</td></tr></tbody></table>
 
-The **Retranslation management** screen should look similar to the following, with the Navixy Web Service login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
+6. The **Retranslation management** screen should look similar to the following, with the Navixy Web Service login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
 ![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-4-600x112.png)
 
-Next, the retranslator will need to be linked to the device. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
-
-Select the retranslator to be connected, and click **Link**. External ID is not needed for the Navixy Web Service protocol.
-
-Select **Save** once completed.
+7. Next, the retranslator will need to be linked to the device. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
+8. Select the retranslator to be connected and click **Link**. External ID is not needed for the Navixy Web Service protocol.
+9. Click **Save** once completed.
 
 #### External access:
 
-Required parameters"
+Required parameters:
 
 * Login and password
   * This should match what was input above

@@ -31,11 +31,11 @@ Imagine a city bus operator who needs to track the number of passengers for opti
 
 3. **Integration with Navixy:**
 
-* In the Navixy platform, navigate to the "Devices and Settings" section and go to "Sensors and Buttons."
+* In the Navixy platform, navigate to **Devices and Settings** and go to **Sensors and buttons**.
 * Create a new measurement sensor and select the input corresponding to the user tag from the Galileosky device.
 * Map the data from the PP-01 sensor to the Navixy platform, ensuring correct correspondence between the sensor data and the Navixy interface.
 
 ## Monitoring and reporting
 
-* **Realtime view.** Once integrated, the passenger data can be monitored in real-time using the "Sensor readings" widget within [Device information widgets](../../../../../../../wiki/pages/createpage.action).
-* **Reports.** You can also generate detailed [Reports](../../../../reports/specific-report-details/measuring-sensors-report.md) that include passenger count data, allowing for comprehensive analysis and insights into passenger flow.
+* **Real-time view:** Once integrated, the passenger data can be monitored in real-time using the **Sensor readings** block in [Object widget](../../../../gps-tracking/objects-list/object-widget.md).
+* **Reports:** You can also generate detailed [Reports](../../../../reports/specific-report-details/measuring-sensors-report.md) that include passenger count data, allowing for comprehensive analysis and insights into passenger flow.

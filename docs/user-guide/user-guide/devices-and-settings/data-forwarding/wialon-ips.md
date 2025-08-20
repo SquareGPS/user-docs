@@ -43,15 +43,13 @@ Data sent to Wialon IPS:
 
 #### Setting up
 
-To set up data forwarding for the Wialon IPS protocol, open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen
+To set up data forwarding for the Wialon IPS protocol:
 
-Then, click the “Data forwarding” widget
-
-Click “Retranslators management”.
-
-This will open a pop-up where you will input the required parameters by pressing the **+** button.
-
-For the Wialon IPS protocol, input the following information:
+1. Open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
+2. Click the **Data forwarding** widget.
+3. Click **Retranslators management**.
+4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+5. For the Wialon IPS protocol, input the following information:
 
 * Name
   * Enter a name to make this retranslator easily identifiable
@@ -69,13 +67,12 @@ For the Wialon IPS protocol, input the following information:
   * Navixy A to Navixy B, and from Wialon IPS
     * 47768
 
-A Retranslation management screen should look like the following, no password needed. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
+6. The Retranslation management screen should look like the following, no password needed. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips.png" alt="Wialon IPS setup"><figcaption></figcaption></figure>
 
-Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below. External ID is not needed for the Wialon IPS protocol.
-
-Select **Save** once completed.
+7. Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below. External ID is not needed for the Wialon IPS protocol.
+8. Select **Save** once completed.
 
 {% hint style="warning" %}
 If receiving data from Wialon IPS, a related Wialon IPS-compatible device will need to be created on the Navixy platform, such as Bitrek.
@@ -96,5 +93,5 @@ To edit or stop data from being forwarded, please refer to the following steps:
 
 If data does not display on the 3rd-party Wialon IPS system or Navixy platform, please verify:
 
-* URL was entered correctly with the associated port
+* The URL was entered correctly with the associated port
 * Retranslator is enabled
