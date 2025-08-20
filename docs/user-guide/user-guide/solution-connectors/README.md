@@ -14,3 +14,4 @@ Select a solution from the list below to learn more about its specific integrati
 
 * [Mettax](mettax-integration-for-video-telematics.md): Video telematics solution that enhances your fleet monitoring capabilities while maintaining access to Navixy's comprehensive GPS tracking features.
 * [Streamax](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3358392329/Streamax+integration+for+video+telematics?atlOrigin=eyJpIjoiZGEwZDYwNTgwZDhhNGRjNzlmMmYxZjJiZTE3M2Y0ZGQiLCJwIjoiYyJ9): Video telematics solution for 24/7 vehicle monitoring, telematics data collection, and driver safety using ADAS and DSM—fully integrated with Navixy tracking.
+* [Lightmetrics](lightmetrics-integration-for-video-telematics.md): AI-powered video telematics solution with edge AI technology and no-code platform deployment, featuring hardware-agnostic capabilities and real-time driver coaching integrated with Navixy tracking.
