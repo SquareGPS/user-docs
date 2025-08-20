@@ -25,7 +25,7 @@ Geofences are virtual perimeters that allow the system to monitor whether an obj
 
 ## Map layers
 
-You can choose different map layers to suit your needs. Options range from standard street maps to satellite imagery provided by various map vendors and may depend on the subscription plan. You can also [add map overlays using custom layers](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909014434/Layers?atlOrigin=eyJpIjoiNWNhZTE4MDg2NDA1NDNkZmI1NGEyYTE0OGM3MDA5NzQiLCJwIjoiYyJ9).
+You can choose different map layers to suit your needs. Options range from standard street maps to satellite imagery provided by various map vendors and may depend on the subscription plan. You can also [add map overlays using custom layers](layers.md).
 
 ## Map
 

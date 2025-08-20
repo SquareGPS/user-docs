@@ -2,7 +2,7 @@
 
 Map layers allow you to add custom data overlays to your map, enhancing the visualization of specific areas not included in the standard map view. This feature is particularly useful for displaying unique geographic details, such as city districts, responsibility areas, custom routes, and other specialized maps. By using map layers, you can better understand the locations and situations of your fleet.
 
-![image-20240807-205554.png](attachments/image-20240807-205554.png)
+![Layers tool](attachments/image-20240807-205554.png)
 
 ## Practical application
 
@@ -16,25 +16,26 @@ Here are some of the ways you can use the map layers:
 
 There are several instruments available for creating KML layers, ranging from professional GIS software to accessible online mapping services. **Google My Maps** and **Google Earth** are two user-friendly options for creating KML layers, while more advanced tools include **ArcGIS** and **QGIS**.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Creating KML layers with Google Earth
+<summary>Creating KML layers with Google Earth</summary>
 
 1. Open **Google Earth**.
 2. Search for the location you want to map.
 3. Use the top toolbar to select:
+   1. **Placemark** for a point
+   2. **Polygon** for an area
+   3. **Path** for a route
 
-* **Placemark** for a point
-* **Polygon** for an area
-* **Path** for a route
+4) Name your polygon, path, or placemark.
+5) Set the colors and adjust transparency.
+6) Outline the area by clicking the vertex points.
+7) Press OK to finalize your work.
+8) In the **Places** panel, right-click your place.
+9) Select **Save Place As** and choose where to save the file.
+10) Save the file as a KML.
 
-4. Name your polygon, path, or placemark.
-5. Set the colors and adjust transparency.
-6. Outline the area by clicking the vertex points.
-7. Press OK to finalize your work.
-8. In the **Places** panel, right-click your place.
-9. Select **Save Place As** and choose where to save the file.
-10. Save the file as a KML.
+</details>
 
 ## Adding map layers to the Navixy platform
 

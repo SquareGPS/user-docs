@@ -2,13 +2,21 @@
 
 The **Event** tab in **History** provides a detailed log of all events related to selected objects over the specified period. These events vary depending on the type of tracker and monitored activities, offering a comprehensive view of your fleet's operational status and any issues with the tracked objects.
 
-> \[!NOTE] **Navigation** To see the event history for an object, select it and click ![Untitled-20250415-082401.png](attachments/Untitled-20250415-082401.png)
->
-> . You will be prompted to select a time and date range. After choosing the desired period, proceed to the **History** window and select the **Events** tab.
+{% hint style="info" %}
+### **Navigation**&#x20;
 
+To see the event history for an object, select it and click <img src="attachments/Untitled-20250415-082401.png" alt="Untitled-20250415-082401.png" data-size="line">. You will be prompted to select a time and date range. After choosing the desired period, proceed to the **History** window and select the **Events** tab.
+{% endhint %}
+
+{% columns fullWidth="true" %}
+{% column %}
 ![History date range selection](attachments/image-20240807-220924.png)
+{% endcolumn %}
 
+{% column %}
 ![Events list](attachments/image-20240808-192358.png)
+{% endcolumn %}
+{% endcolumns %}
 
 To view events for all devices, click the Alerts tab on the sidebar:
 
@@ -18,9 +26,7 @@ To view events for all devices, click the Alerts tab on the sidebar:
 
 Select a date range to see a summary of events for the chosen objects, grouped by object. The icons and numbers below each object represent the most common event types during the selected period. You can click the icons to filter the list by event type.
 
-By default, each entry’s events are collapsed. Click ![image-20250415-083354.png](attachments/image-20250415-083354.png)
-
-to the right to expand the view.
+By default, each entry’s events are collapsed. Click <img src="attachments/image-20250415-083354.png" alt="image-20250415-083354.png" data-size="line"> to the right to expand the view.
 
 ## Event details
 
@@ -54,4 +60,6 @@ To watch event recordings, follow these steps:
 
 During video playback, the device's movement pattern displays on the right side of the video module, providing comprehensive spatial context that combines visual events with corresponding vehicle location and movement data.
 
-> \[!WARNING] Video monitoring requires compatible devices with camera support and may consume significant bandwidth during streaming and download operations.
+{% hint style="danger" %}
+Video monitoring requires compatible devices with camera support and may consume significant bandwidth during streaming and download operations.
+{% endhint %}
