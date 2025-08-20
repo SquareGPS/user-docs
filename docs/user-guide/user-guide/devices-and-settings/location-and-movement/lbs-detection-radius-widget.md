@@ -7,6 +7,6 @@ The **LBS (Location-Based Service) detection radius** determines how far the sys
 
 Adjust the LBS detection radius based on the device's operating environment to balance between accuracy and signal coverage.
 
-![image-20240815-180931.png](attachments/image-20240815-180931.png)
+![](attachments/image-20240815-180931.png)
 
 In Navixy, LBS locations are displayed on the map as circles. The center indicates the estimated location, while the radius shows the possible inaccuracy. A smaller circle suggests higher accuracy, typically seen in urban areas, while a larger circle indicates more inaccuracy, common in rural areas.

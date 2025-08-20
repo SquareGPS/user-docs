@@ -2,14 +2,16 @@
 
 Engine hours is a tool that allows owners of vehicles and special machinery to monitor engine running time and schedule [maintenance works](../../../fleet-management/maintenance.md) based on this data.
 
-Engine hours activation:
+To activate Engine hours:
 
-1. Open “[Devices and Settings](../../)”, choose the needed object and proceed to the Engine hours portlet.
-2. Click on **Add engine hours** button.
-3. Choose a data source: ignition or engine hours from CAN bus.
-4. Set the initial value for engine hour.
-5. Press save.
+1. Open [Devices and Settings](../../), choose the object you need, and proceed to the **Engine hours** portlet.
+2. Click the **Add engine hours** button.
+3. Choose a data source: ignition or engine hours from the CAN bus.
+4. Set the initial value for engine hours.
+5. Press **Save**.
 
-**Important**: to receive data from the “ignition” sensor, please create it [beforehand.](./)
+{% hint style="warning" %}
+To receive data from the ignition sensor, create it [beforehand.](./)
+{% endhint %}
 
-To display engine hours data in the Tracking app, you need to add the engine hours widget to the widget bar at the bottom of the screen. Just click on “+” sign at the right upper corner of widget bar and add “Engine hours” widget.
+To display engine hours data in the **Tracking** module, add the **Engine hours widget** to the widget bar at the bottom of the screen. Just click the **+** button at the upper-right corner of the widget bar and add the **Engine hours widget**.

@@ -1,8 +1,8 @@
 # Parking detection widget
 
-Parking detection identifies when an object has been stationary for a specified time period and within a set speed threshold, using GPS data.
+Parking detection identifies when an object has been stationary for a specified time period and within a set speed threshold using GPS data.
 
-![image-20240815-183001.png](attachments/image-20240815-183001.png)
+![](attachments/image-20240815-183001.png)
 
 **Parameters for parking detection:**
 
@@ -14,7 +14,7 @@ By default, these parameters are set to 5 minutes and 3 km/h, respectively.
 **Parking detection conditions:**
 
 * **By speed and time**:\
-  Parking status is detected when the object's speed drops below the defined `min_speed` and stays there for longer than `min_parking`. Stops shorter than `min_parking` are not considered as parking and will not interrupt the trip.
+  Parking status is detected when the object's speed drops below the defined `min_speed` and stays there for longer than `min_parking`. Stops shorter than `min_parking` are not considered parking and will not interrupt the trip.
 * **Considering ignition**:
   * The trip starts if the speed is greater than or equal to `min_speed` and the ignition is on.
   * The trip ends if the speed drops below `min_speed` and either the elapsed time exceeds `min_parking` or the ignition is off.

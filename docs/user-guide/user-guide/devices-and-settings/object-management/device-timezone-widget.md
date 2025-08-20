@@ -2,8 +2,9 @@
 
 The **device timezone** widget allows you to adjust the timezone settings for specific device models. A GPS device's timezone offset determines how the timestamps in the messages reported to the platform are interpreted. If the timezone offset is incorrect, it can lead to inaccurate tracking data, as the timestamps will not align correctly with the actual time of events.
 
-> [!WARNING]
-> Navixy strongly recommends keeping the device set to UTC+0h as the standard timezone setting to ensure consistency and accuracy in tracking data. However, if your device is configured with a different timezone, this widget allows you to make the necessary adjustments.
+{% hint style="danger" %}
+Navixy strongly recommends keeping the device set to UTC+0h as the standard timezone setting to ensure consistency and accuracy in tracking data. However, if your device is configured with a different timezone, this widget allows you to make the necessary adjustments.
+{% endhint %}
 
 ### When to use
 

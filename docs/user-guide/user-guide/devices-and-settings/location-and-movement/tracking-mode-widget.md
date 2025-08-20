@@ -2,7 +2,7 @@
 
 The **Tracking mode** widget allows you to configure the data transmission and operating modes for your GPS tracking devices. The settings available in this panel can vary depending on the model of the tracker, its operating principles, and its functionality.
 
-![image-20240815-182719.png](attachments/image-20240815-182719.png)
+<figure><img src="attachments/image-20240815-182719.png" alt="Tracking mode settings widget example" width="310"><figcaption><p>Tracking mode settings widget example</p></figcaption></figure>
 
 #### Configuring tracking mode settings
 
