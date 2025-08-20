@@ -1,12 +1,12 @@
 # Aggregation sensors
 
-The **Aggregation sensor** widget in Navixy is a powerful tool that allows you to combine data from multiple sensors and process it using an aggregation function. This functionality is particularly useful in scenarios where multiple sensors are used to monitor similar parameters, such as fuel levels in a vehicle.
+The **Aggregation sensor** **widget** in Navixy is a powerful tool that allows you to combine data from multiple sensors and process it using an aggregation function. This functionality is particularly useful in scenarios where multiple sensors are used to monitor similar parameters, such as fuel levels in a vehicle.
 
-![image-20240815-205851.png](attachments/image-20240815-205851.png)
+![](attachments/image-20240815-205851.png)
 
 ## Aggregation function options
 
-#### The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
+The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 
 * **AVG (Average)**: This function calculates the average value of the selected sensors. It is useful when you want to smooth out the readings from multiple sensors, providing a more stable and representative value.
 * **SUM (Sum)**: This function adds up the values of the selected sensors. It is ideal when the total value of a parameter needs to be monitored, such as the combined fuel level from two tanks.
@@ -35,10 +35,10 @@ The **Aggregation sensor** widget in Navixy is a powerful tool that allows you t
 
 1. **Label**: Enter a name for your aggregation sensor that clearly identifies its purpose.
 2. **Aggregation Function**: Select either **AVG** (for averaging) or **SUM** (for summing) depending on your needs.
-3. **Sensor Type**: Choose the type of sensor (e.g., fuel level).
-4. **Accuracy**: Specify the acceptable margin of error. For example, if the accuracy is set to 5% and the maximum value is 100 liters, changes of 5 liters or less will be ignored.
-5. **Max Value**: Set the upper limit for the aggregated value. This prevents the aggregated reading from exceeding a certain threshold.
-6. **Units**: Specify the unit of measurement (e.g., liters).
+3. **Sensor type**: Choose the type of sensor (e.g., fuel level).
+4. **Accuracy**: Set the acceptable margin of error. For example, if the accuracy is set to 5% and the maximum value is 100 liters, changes of 5 liters or less will be ignored.
+5. **Max value**: Set the upper limit for the aggregated value. This prevents the aggregated reading from exceeding a certain threshold.
+6. **Units**: Set the unit of measurement (e.g., liters).
 7. **Sensors for Aggregation**: Select the individual sensors whose data you want to aggregate.
 8. **Save**: After configuring the sensor, click **Save** to apply the settings.
 

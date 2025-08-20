@@ -27,7 +27,7 @@ Fuel sensors are categorized as [Measurement sensors](./) on the Navixy platform
 
 #### Advanced fuel sensor settings
 
-* **Ignore in movement**: Automatically exclude any drains or refills that occur while the vehicle is moving. This is determined by the "Parking Detection" setting.
+* **Ignore in movement**: Automatically exclude any drains or refills that occur while the vehicle is moving. This is determined by the **Parking detection** setting.
 * **Filter timeout**: Adjust the timeout period to filter out unstable readings during vehicle movement or immediately after refueling. This setting is especially useful for vehicles with large tanks.
 * **Calibration table**: Convert sensor readings into usable units, such as liters. Accurate calibration is essential for reliable data.
 * **Advanced filters**: Set filters to ignore readings below or above certain thresholds, and apply multipliers to adjust the sensor data as needed.
@@ -53,11 +53,11 @@ Navixy employs advanced statistical methods to assess the quality of fuel sensor
 
 Fuel sensors are a vital component for tracking the fuel levels of various vehicles and static tanks. With the help of platform algorithms, fuel consumption levels, refueling, and discharges can be monitored through the data collected by these sensors. Efficient utilization of this data can lead to significant cost savings by preventing fuel losses and identifying vehicles with excessive fuel consumption, whose profits fail to meet expectations. By leveraging the insights provided by fuel sensors, you can stay ahead of any potential issues and optimize your fuel consumption, thereby boosting overall profitability.
 
-Fuel level sensors come in various types, and each serves a particular purpose. You can find detailed information about them in our [Academy](https://docs.navixy.com/eco-fleet/types-of-fuel-level-sensors). In this article, we will be focusing on the fuel operation of the platform. Additionally, we will be discussing the fuel sensor settings and the impact that they have on the overall fuel management process.
+Fuel level sensors come in various types, and each serves a particular purpose. You can find detailed information about them in our [Expert Center](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management). In this article, we will be focusing on the fuel operation of the platform. Additionally, we will be discussing the fuel sensor settings and the impact that they have on the overall fuel management process.
 
 ### What the fuel sensor readings depend on
 
-The accuracy of fuel data displayed is dependent on several factors including:
+The accuracy of fuel data displayed is dependent on several factors, including:
 
 * **Fuel level sensor**: What kind and how well it is able to read from the tank, and how well it interacts with the GPS tracker.
 * **Tank sensor installation**: If you have a non-standard tank or require a non-standard installation, it is best to consult with the manufacturer on how to install such a sensor.
@@ -80,18 +80,18 @@ Once you choose **Fuel level** as the sensor type, additional settings will appe
   * **By time**: The maximum allowable flow rate is measured in units per hour and can be set in the sensor settings. When calculating the speed change over time, the platform compares the fuel level change between points. If it is not set, the default value is 120 units per hour. It doesn’t mean the fuel must change more than 120 per hour. It means the fuel level should change faster than 120 per hour (equal to 20 L per 10 minutes or 2 L per minute) to determine the drain in a report. This value should be set a few percentage points higher than the likely consumption rate during heavy loads or when the vehicle is ascending uphill.
   * **By mileage**: The maximum allowable fuel level change speed is measured in units per 100 km. It doesn’t mean the fuel must change more than set per 100 km. For example, we set 100 L per 100 km. It means the fuel level should change faster than 100 L per 100 km (equal to 10 L per 10 km or 1 L per km) to determine the drain in a report. This value must be manually entered and should not be based solely on the manufacturer's specified fuel consumption rate. We recommend conducting tests and verifying the actual fuel consumption rate recorded in the reports, then set the necessary values accordingly for maximum accuracy.
 * **Ignore in movement**: The platform will automatically exclude any drains and refills that occur during movement from rules and reports. Movement is determined by the [Parking Detection setting](../../location-and-movement/parking-detection-widget.md).
-  * Drains: Drains in movement will be excluded.
-  * Refills: Refills in movement will be filtered.
-  * Filter timeout: This setting appears when the Ignore feature is enabled. It determines the timeout period in minutes that will be used to shorten the driving intervals for fuel filtering. This option can be helpful if the fuel level stabilizes only after some time has passed since refueling, and the vehicle has already started moving. This is more commonly seen in vehicles with large fuel tanks. The default setting for this feature is 5 minutes.
-* **Calibration table**: This parameter is used to convert the sensor readings into desired units such as liters. Some sensor manufacturers may provide the conversion values for the table. However, in most situations, [calibration](https://docs.navixy.com/eco-fleet/fuel-level-sensors) will be necessary in order to achieve accurate readings.
-  * Tank volume - is the maximum volume of the tank, which is specified in units in the calibration table. If calibration values are not specified, the default value of 100 is assumed, which indicates that the data is being transmitted in percentage.
-  * Even if your sensor already sends data to the platform in liters, it is better to specify the calibration as 0 = 0 liters and maximum fuel tank capacity = X liters.
-  * If it is a sensor that transmits fuel level information in percentages, specify calibration 0 = 0 liters and 100 = maximum fuel tank capacity in liters.
-* Advanced settings - are below the calibration table.
-  * Ignore values - values should be specified the same way they come to the platform from the device.
-    * Less - the filter can be used to ignore any readings that fall below a certain threshold, X. This is helpful in situations where a sensor's readings may fall below a certain value. For example, a loose wire or a sensor that sends a reading of 0 when the ignition is switched off.
-    * More - the filter can be used to ignore any readings that exceed a certain threshold, X. This is valuable when dealing with sensors whose readings may occasionally increase dramatically. For example, if an error is detected or if there is a higher voltage than expected.
-  * Multiplier - multiply the resulting values by a certain coefficient. If you want to divide values, use decimals.
+  * **Drains:** Drains in movement will be excluded.
+  * **Refills:** Refills in movement will be filtered.
+  * **Filter timeout:** This setting appears when the Ignore feature is enabled. It determines the timeout period in minutes that will be used to shorten the driving intervals for fuel filtering. This option can be helpful if the fuel level stabilizes only after some time has passed since refueling, and the vehicle has already started moving. This is more commonly seen in vehicles with large fuel tanks. The default setting for this feature is 5 minutes.
+* **Calibration table**: This parameter is used to convert the sensor readings into desired units such as liters. Some sensor manufacturers may provide the conversion values for the table. However, in most situations, calibration will be necessary in order to achieve accurate readings.
+  * **Tank volume** is the maximum volume of the tank, which is specified in units in the calibration table. If calibration values are not specified, the default value of 100 is assumed, which indicates that the data is being transmitted in percentage.
+  * Even if your sensor already sends data to the platform in liters, set the calibration to 0 = 0 liters and maximum fuel tank capacity = X liters.
+  * If it's a sensor that transmits fuel level information in percentages, set calibration 0 = 0 liters and 100 = maximum fuel tank capacity in liters.
+* Advanced settings are below the calibration table.
+  * **Ignore values:** Values should be specified the same way they come to the platform from the device.
+    * **Less**: the filter can be used to ignore any readings that fall below a certain threshold, X. This is helpful in situations where a sensor's readings may fall below a certain value. For example, a loose wire or a sensor that sends a reading of 0 when the ignition is switched off.
+    * **More**: the filter can be used to ignore any readings that exceed a certain threshold, X. This is valuable when dealing with sensors whose readings may occasionally increase dramatically. For example, if an error is detected or if there is a higher voltage than expected.
+  * **Multiplier**: Multiply the resulting values by a certain coefficient. If you want to divide values, use decimals.
 
 ### How fuel works on the platform
 
@@ -103,11 +103,9 @@ Filters for minima and maxima, calibration tables, and other sensor settings are
 
 #### Drains and refills in rules
 
-Rules for draining and refueling are based on the calibration table and absolute error, which is calculated as
+Rules for draining and refueling are based on the calibration table and absolute error, which is calculated as `tank volume * accuracy` .
 
-`tank volume * accuracy`
-
-The platform will record the last current reading of the sensor for a ten-minute span. Based on this reading, the following events will be triggered:
+The platform will record the last current reading of the sensor for ten minutes. Based on this reading, the following events will be triggered:
 
 * If the fuel level has increased by more than the absolute error, a "filling" event will be recorded.
 * If the fuel level has decreased by more than the absolute error, a "draining" event will be recorded.
@@ -124,7 +122,7 @@ In the report, a "filling" event is recorded when the fuel level increases by mo
 
 #### Ignoring refills and drains in motion
 
-Once you have enabled one or both options for ignoring - the next algorithm will be used for reports and alerts in addition to standard:
+Once you have enabled one or both options for ignoring, the next algorithm will be used for reports and alerts in addition to the standard:
 
 * If refueling begins during the [parking time](../../location-and-movement/parking-detection-widget.md), it will be displayed in the report and logged by the rule. Additionally, if refueling starts within X minutes of the filter timeout before parking or within X minutes of the filter timeout after the trip starts, it will also be logged by the rule and shown in the report.
 * However, if refueling starts earlier than X minutes from the filter timeout before parking or later than X minutes from the filter timeout since the beginning of the trip, it will be filtered out.
@@ -132,10 +130,11 @@ Once you have enabled one or both options for ignoring - the next algorithm will
 
 #### Fuel sensor readings analysis and classification
 
-The application of various statistical methods has resulted in a model for analyzing the quality of sensor data. Navixy team has developed an adaptive algorithm that can classify the quality of raw sensor data readings and provide a score on a 10-point scale: from 1 - the lowest quality, to 10 - high-quality data.\
-To try this innovation, you need to generate a [fuel volume report](https://docs.navixy.com/eco-fleet/fuel-volume-report) for the object(s) under investigation. The quality rating will be available at the bottom of the report both in the interface of the cabinet and in documents (PDF/XLS) downloaded based on the generated report. The rating can also be obtained using API requests.
+The application of various statistical methods has resulted in a model for analyzing the quality of sensor data. The Navixy team has developed an adaptive algorithm that can classify the quality of raw sensor data readings and provide a score on a 10-point scale: from 1 (the lowest quality) to 10 (high-quality data).\
+To try this innovation, you need to generate a [fuel volume report](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/analyzing-fuel-data/fuel-volume-report) for the object(s) under investigation. The quality rating will be available at the bottom of the report both in the interface of the cabinet and in documents (PDF/XLS) downloaded based on the generated report. The rating can also be obtained using API requests.
 
 ### See also
 
 * [Enhancing fuel management accuracy with Fuel Sensor Quality Index](https://www.navixy.com/blog/enhancing-fuel-management-accuracy-with-fuel-sensor-quality-index/)
 * [Mastering calibration tables for accurate fuel management](https://www.navixy.com/blog/calibration-tables/)
+* [Sensors setup and configuration](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/sensors-setup-and-configuration)

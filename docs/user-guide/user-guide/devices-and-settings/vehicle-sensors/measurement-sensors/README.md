@@ -14,7 +14,7 @@ Configure the required sensor parameters:
 
 ### Adding calibration data
 
-After all parameters are set, you must enter the calibration data.
+After all parameters are set, you must enter the calibration data. Learn more about this process in the [Sensors setup and configuration guide](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/sensors-setup-and-configuration).
 
 1. First, create a corresponding list of raw values of the measuring sensor (e.g., volts) and the actual value that the sensor is measuring (e.g., liters).&#x20;
 2. Click ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/add.png) to add rows to the table.
