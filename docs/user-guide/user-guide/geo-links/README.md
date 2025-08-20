@@ -6,9 +6,11 @@ Geo links can be employed across a variety of business and industrial sectors. I
 
 A geo link can be associated with multiple objects, which will be displayed on the map when the generated link is clicked. You can configure both specific objects and the entire link at once. The options include map type (Google Maps, OSM, etc.), duration, object labels, tracked attributes (speed, address, sensor readings, etc.), geofences, POI, history, and other options.
 
-> \[!INFO] Here is an example of a generated geo link URL: `https://tracking.example/ls/#ecdd8c083d52a396ecdd8c083d52a396`
+{% hint style="info" %}
+Here is an example of a generated geo link URL: `https://tracking.example/ls/#ecdd8c083d52a396ecdd8c083d52a396`
+{% endhint %}
 
-![](../attachments/{EB395344-78FF-4FD6-857B-72B0F0F621D3}-20250728-083324.png)
+![List of geo links](../attachments/{EB395344-78FF-4FD6-857B-72B0F0F621D3}-20250728-083324.png)
 
 ## Working with geo links
 

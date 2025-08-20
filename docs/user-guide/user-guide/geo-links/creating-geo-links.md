@@ -2,17 +2,21 @@
 
 To create a geo link, simply click **+** at the top of the page.
 
-![Geo links creation button](attachments/image-20250725-133847.png)
+![New Geo link button](attachments/image-20250725-133847.png)
 
 The creation dialogue window contains the following options:
 
-![Creating a geo link](attachments/image-20250725-120004.png)
+![Creating a Geo link dialog](attachments/image-20250725-120004.png)
 
-1. **Description (Optional)**
+{% stepper %}
+{% step %}
+### Description (optional)
 
 An information field that stores additional custom information about the link. The maximum length is 100 characters.
+{% endstep %}
 
-2. **Select objects and data**
+{% step %}
+### Select objects and data
 
 The list of objects available through the link. Each object has the following list of options to be specified upon adding the object:
 
@@ -32,13 +36,17 @@ The list of objects available through the link. Each object has the following li
 * Connection status
 * Sensor readings
 
-> \[!NOTE] Sensor readings depend on the device’s model. To learn more about sensors and their types, see [Vehicle sensors](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909015048/Vehicle+sensors?atlOrigin=eyJpIjoiMmJmYTk0NWNhNDEwNDFmZjlhMjg0NmJkYTlmMWY4MmMiLCJwIjoiYyJ9).
+{% hint style="info" %}
+Sensor readings depend on the device’s model. To learn more about sensors and their types, see [Vehicle sensors](../devices-and-settings/vehicle-sensors/).
+{% endhint %}
 
 Use the copy button to apply the same attribute list to all other objects in the geo link. This function may save a significant amount of time when configuring attributes for multiple objects.
 
 ![Copying attributes](attachments/image-20250725-123910.png)
+{% endstep %}
 
-3. **Map settings**
+{% step %}
+### Map settings
 
 **Map provider:** Select the map that you want your geo link end users to see by the generated geo link. The list of maps is specified by the platform service provider.
 
@@ -54,18 +62,26 @@ Use the copy button to apply the same attribute list to all other objects in the
 **Tracking options:** You can either show or hide the object location based on the geofence. For instance, if **Track outside geofence** is selected, objects will be shown on the map only when they are outside of the selected geofences. This function may be useful for scenarios such as shipping or delivery, where the end user should not see the asset being loaded with goods before departure. Respectively, **Track inside geofences** will show objects only when they are inside the selected geofences.
 
 ![](https://www.navixy.com/wp-content/uploads/2024/04/7.png)
+{% endstep %}
 
-4. **Show on map**
+{% step %}
+### Show on map
 
 Choose which stationary entities you want to show on the geo link’s map.
 
-**POIs:** The list of Places available for showing on the map. To learn more about this feature, see [Places (POIs)](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909014806/Places+POIs?atlOrigin=eyJpIjoiNTk0MzM0YjhhNGZlNDYxYWIyMmIwZmVlYWU1NDhlZjIiLCJwIjoiYyJ9).
+**POIs:** The list of Places available for showing on the map. To learn more about this feature, see [Places (POIs)](../gps-tracking/map-tools/places-pois.md).
 
-**Geofences:** The list of geofences available for showing on the map. To learn more about this feature, see [Geofences](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909014552/Geofences?atlOrigin=eyJpIjoiMWJjYTQ1Yjc0OTk4NGMzYjhlMDUwNmRkZGRmMDZiYzgiLCJwIjoiYyJ9).
+**Geofences:** The list of geofences available for showing on the map. To learn more about this feature, see [Geofences](../gps-tracking/map-tools/geofences.md).
 
-4. **Limited validity duration**: Specify the link's lifetime. This can be quickly selected from predefined periods or set to a custom period of time. If the lifetime duration is set to start from a future moment, the link will remain inactive until that time arrives. Leave the option unselected for a permanent geo link configuration.
-5. **Preview**: Check what the configured geo link looks like from the geo link web interface from the end user's perspective. The preview feature enables quick swapping between the user and geo link interfaces for a more accurate representation of the geo link configuration.
+* **Limited validity duration**: Specify the link's lifetime. This can be quickly selected from predefined periods or set to a custom period of time. If the lifetime duration is set to start from a future moment, the link will remain inactive until that time arrives. Leave the option unselected for a permanent geo link configuration.
+* **Preview**: Check what the configured geo link looks like from the geo link web interface from the end user's perspective. The preview feature enables quick swapping between the user and geo link interfaces for a more accurate representation of the geo link configuration.
+{% endstep %}
+
+{% step %}
+### Save Geo link
 
 Click **Create** to open a pop-up dialogue with the generated link. The link can be copied and provided to end users or shared via the social network buttons:
 
 ![](https://www.navixy.com/wp-content/uploads/2024/04/9-1.png)
+{% endstep %}
+{% endstepper %}
