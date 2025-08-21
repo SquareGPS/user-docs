@@ -180,4 +180,4 @@ To resolve this issue, you have two options: [manually configure the device](../
 
 ## See also
 
-* [MQTT Device activation guide](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2732589133/Activate+Your+MQTT+Device+on+Navixy)
+* [MQTT Device activation guide](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/gps-devices/add-and-manage-devices/activate-your-mqtt-device-on-navixy)
