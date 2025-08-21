@@ -13,7 +13,7 @@ Setup process:
 3. The application automatically inherits your session credentials
 
 {% hint style="info" %}
-Multiple users can share access to the same **PTL** instance for collaborative analysis.
+Multiple users can share access to the same **Data Hub** instance for collaborative analysis.
 {% endhint %}
 
 Once access is configured, you can proceed to explore the application interface.

@@ -216,7 +216,7 @@ docker-compose restart
 After successfully connecting Power BI to your Private Telematics Lakehouse instance, we recommend you to:
 
 * Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
-* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../example-queries.md) for reference.
+* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../../example-queries/) for reference.
 
 ### **Support**
 

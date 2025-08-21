@@ -159,7 +159,7 @@ ORDER BY last_seen DESC NULLS LAST;
 ## Next steps
 
 * [Create custom visualizations](creating-custom-visualizations.md) - Complete process for creating charts and visual analysis
-* SQL Cookbook\[LINK] - Advanced query patterns organized by analytical scenario
+* [SQL Recipe Book](../../example-queries/) - Advanced query patterns organized by analytical scenario
 * [Bronze layer documentation](../../data-hub/schema-overview/bronze-layer.md) - Complete database schema reference and field definitions
 
 {% hint style="info" %}

@@ -19,7 +19,7 @@ From there, your path forward is straightforward:
    Configure your SQL client or analytics tool
 2. [Explore data schemas](schema-overview/)\
    Discover the tables and relationships in your data
-3. [Check example queries](example-queries.md)\
+3. [Check example queries](../example-queries/)\
    Start with sample SQL that addresses common use cases
 
 We also recommend familiarizing yourself with [Data types and field standards](getting-started.md#data-types-and-field-standards) and [Important considerations](getting-started.md#important-considerations) before proceeding.

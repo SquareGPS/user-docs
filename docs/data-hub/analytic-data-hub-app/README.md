@@ -42,7 +42,7 @@ Use hands-on experience to make informed decisions about analytical infrastructu
 Access comprehensive documentation and technical guidance to maximize your analytical capabilities and optimize system performance:
 
 * [Data schema overview](../data-hub/schema-overview/) explains data structure and relationships.
-* [Example queries](../data-hub/example-queries.md) provides proven analytical patterns and optimization techniques.
+* [Example queries](../example-queries/) provides proven analytical patterns and optimization techniques.
 * [Settings and configuration](../data-hub/analytic-data-hub-app/settings-and-configuration.md) covers performance optimization and configuration options.
 
 Transform from reactive coordination to proactive, data-driven management. Discover how analytical capabilities evolve from immediate insights to strategic optimization while building understanding of production infrastructure requirements.
