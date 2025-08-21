@@ -1,24 +1,16 @@
 # Connection setup
 
-This guide explains how to connect to your Cloud Data Warehouse instance, which is built on **Neon PostgreSQL**.
+This guide explains how to connect to your Data Hub instance, which is built on **Neon PostgreSQL**.
 
 ## Connection parameters
 
-When your Cloud Data Warehouse instance is set up, you'll receive these connection parameters via email:
+When your Data Hub instance is set up, you'll receive these connection parameters via email:
 
-|                   |                                      |
-| ----------------- | ------------------------------------ |
-| **Parameter**     | Description                          |
-| **Host**          | The database server address          |
-| **Port**          | The connection port (typically 5432) |
-| **Database name** | Your assigned database name          |
-| **Username**      | Your database username               |
-| **Password**      | Your secure database password        |
-| **SSL mode**      | The SSL connection mode              |
+<table><thead><tr><th width="164.9091796875"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter</strong></td><td>Description</td></tr><tr><td><strong>Host</strong></td><td>The database server address</td></tr><tr><td><strong>Port</strong></td><td>The connection port (typically 5432)</td></tr><tr><td><strong>Database name</strong></td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td>The SSL connection mode</td></tr></tbody></table>
 
 ## Data architecture
 
-Your Cloud Data Warehouse organizes data in specific schemas:
+Your Data Hub organizes data in specific schemas:
 
 * **raw\_business\_data** - Contains business data tables (users, objects, tasks, etc.)
 * **raw\_telematics\_data** - Contains telematics data from client devices (GPS tracks, sensor readings)
@@ -29,7 +21,7 @@ When querying data, you must specify both the schema (`raw_business_data`) and t
 
 ## PostgreSQL compatibility
 
-The Cloud Data Warehouse is fully compatible with the PostgreSQL protocol. You can connect using:
+Data Hub is fully compatible with the PostgreSQL protocol. You can connect using:
 
 * Standard PostgreSQL clients (pgAdmin, DBeaver, etc.)
 * Programming languages with PostgreSQL drivers (Python, Java, Node.js)
@@ -61,7 +53,7 @@ Important security considerations:
 
 ### Best practices for connections
 
-When working with your Cloud Data Warehouse:
+When working with your Data Hub:
 
 * **Manage idle connections** - Close connections when not in use to free up resources
 * **Use connection pooling** - For applications with frequent database access

@@ -1,9 +1,9 @@
 # Connecting Power BI
 
-In this article, we will walk through the process of connecting Microsoft Power BI to PTL. To make it more illustrative, we will also build a dashboard that connects to the analytical database and monitors the real-time status of vehicles, all using Microsoft Power BI.
+In this article, we will walk through the process of connecting Microsoft Power BI to Data Hub. To make it more illustrative, we will also build a dashboard that connects to the analytical database and monitors the real-time status of vehicles, all using Microsoft Power BI.
 
 {% hint style="info" %}
-This guide is part of the Private Telematics Lakehouse documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
+This guide is part of the Data Hub documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
 {% endhint %}
 
 ## Dashboard features

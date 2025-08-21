@@ -3,7 +3,7 @@
 In this article, we will walk through the process of connecting Apache Superset to the analytical database. To make it more illustrative, we will also build a dashboard that connects to the analytical database and monitors the real-time status of vehicles, all using Apache Superset.
 
 {% hint style="info" %}
-This guide is part of the Private Telematics Lakehouse documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
+This guide is part of the Data Hub documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
 {% endhint %}
 
 ## Dashboard features
@@ -213,7 +213,7 @@ docker-compose restart
 
 ## Next steps
 
-After successfully connecting Power BI to your Private Telematics Lakehouse instance, we recommend you to:
+After successfully connecting Power BI to your Data Hub instance, we recommend you to:
 
 * Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
 * Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../../example-queries/) for reference.

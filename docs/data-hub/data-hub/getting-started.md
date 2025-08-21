@@ -2,7 +2,7 @@
 
 ## First steps
 
-Your journey with Private Telematics Lakehouse begins with the connection credentials provided in your welcome email. These include:
+Your journey with Data Hub begins with the connection credentials provided in your welcome email. These include:
 
 * Database host and port
 * Database name
@@ -10,7 +10,7 @@ Your journey with Private Telematics Lakehouse begins with the connection creden
 * SSL mode settings
 
 {% hint style="info" %}
-If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/user-guide/quick-start/service-provider) for access to Private Telematics Lakehouse.
+If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/user-guide/quick-start/service-provider) for access to Data Hub.
 {% endhint %}
 
 From there, your path forward is straightforward:
@@ -26,7 +26,7 @@ We also recommend familiarizing yourself with [Data types and field standards](g
 
 ## Data types and field standards
 
-The Private Telematics Lakehouse uses consistent data type conventions that may differ from the source systems:
+Data Hub uses consistent data type conventions that may differ from the source systems:
 
 * **Date and time fields** use the `TIMESTAMP` format
 * **Text fields** use `CHARACTER VARYING` or `TEXT` types
@@ -35,7 +35,7 @@ The Private Telematics Lakehouse uses consistent data type conventions that may 
 
 ## Important considerations
 
-While working with the Private Telematics Lakehouse, be aware of these current limitations:
+While working with the Data Hub, be aware of these current limitations:
 
 * **Error messaging** is minimal for SQL query issues
 * **Silver and Gold layers** are still in development and not available yet

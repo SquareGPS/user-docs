@@ -1,6 +1,6 @@
 # Schema overview
 
-This section provides an overview of the Private Telematics Lakehouse data schemas structure, helping you understand how data is organized and how to access it effectively. The warehouse is designed to give you full and flexible access to your Platform data through a structured database system.
+This section provides an overview of the Data Hub data schemas structure, helping you understand how data is organized and how to access it effectively. The warehouse is designed to give you full and flexible access to your Platform data through a structured database system.
 
 **What you'll learn:**
 
@@ -20,7 +20,7 @@ This section provides an overview of the Private Telematics Lakehouse data schem
 
 ## Data structure
 
-The Private Telematics Lakehouse uses a multi-layered storage architecture to organize your data. This architecture provides reliability, performance, and scalability while ensuring proper data isolation between clients.
+The Data Hub uses a multi-layered storage architecture to organize your data. This architecture provides reliability, performance, and scalability while ensuring proper data isolation between clients.
 
 ### Data layers
 

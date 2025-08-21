@@ -2,13 +2,13 @@
 
 ## Introduction
 
-**Private Telematics Lakehouse (PTL)** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. This documentation will help you connect to your data, understand what's available, and start extracting insights right away.
+Navixy's **Data Hub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. This documentation will help you connect to your data, understand what's available, and start extracting insights right away.
 
 ## Your data journey
 
 Every organization collects vast amounts of operational data through the Navixy platform. While the platform's interface provides standard reports and visualizations, your unique business questions often require deeper, more customized analysis.
 
-That's where Private Telematics Lakehouse comes in.
+That's where Data Hub comes in.
 
 We've taken your complete dataset and made it directly accessible through a standard PostgreSQL connection, opening up new possibilities for analysis, integration, and insight discovery.
 
@@ -21,7 +21,7 @@ We've taken your complete dataset and made it directly accessible through a stan
 
 ## What data is available?
 
-Your **Private Telematics Lakehouse** contains two primary types of information:
+Your **Data Hub** contains two primary types of information:
 
 ### **Business data**
 
@@ -69,4 +69,4 @@ Your data flows through a comprehensive pipeline before reaching the warehouse:
 
 ## Support and assistance
 
-For technical support and assistance with Private Telematics Lakehouse please contact our support team at [support@navixy.com](mailto:support@navixy.com).
+For technical support and assistance with Data Hub please contact our support team at [support@navixy.com](mailto:support@navixy.com).

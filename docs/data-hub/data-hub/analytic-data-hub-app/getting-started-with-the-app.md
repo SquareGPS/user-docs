@@ -66,5 +66,3 @@ Based on your specific analytical needs, choose the appropriate section to conti
 **For trend analysis:** Explore [Historical Reports](historical-reports.md) for pattern identification
 
 **For specialized analysis:** Use [Custom Analysis & SQL Configurator](../../analytic-data-hub-app/custom-analysis-sql-configurator/) when standard reports don't meet your requirements
-
-**For business applications:** Review [Use Cases and Business Applications](use-cases-and-business-applications.md) to discover analytical opportunities

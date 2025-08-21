@@ -1,8 +1,8 @@
 # Selecting BI tools
 
-Analyzing and visualizing data stored in your Private Telematics Lakehouse requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.
+Analyzing and visualizing data stored in your Data Hub requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.
 
-## Why use BI tools with your data warehouse
+## Why use BI tools with your Data Hub
 
 While direct SQL access provides flexibility for data exploration, BI tools offer significant advantages:
 
@@ -16,7 +16,7 @@ The right BI tool transforms raw data into actionable insights, supporting bette
 
 ## Comparison of recommended BI tools
 
-We've evaluated three powerful options that work well with the Private Telematics Lakehouse: Power BI, Apache Superset, and Streamlit. Each offers distinct advantages depending on your requirements, technical capabilities, and budget.
+We've evaluated three powerful options that work well with Data Hub: Power BI, Apache Superset, and Streamlit. Each offers distinct advantages depending on your requirements, technical capabilities, and budget.
 
 | **Characteristic**          | **Power BI**                                                                                                                                                                                                                                                                                  | **Apache Superset**                                                                                                                                                                                                          | **Streamlit**                                                                                                                                                                                                                 |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,11 +67,11 @@ Streamlit works best for data science teams that want to quickly create custom v
 
 ## Detailed connection guides
 
-For step-by-step instructions on connecting each BI tool to your Private Telematics Lakehouse, please refer to the following dedicated guides:
+For step-by-step instructions on connecting each BI tool to your Data Hub, please refer to the following dedicated guides:
 
-* [Connecting Power BI to Private Telematics Lakehouse](connecting-power-bi.md)
-* [Connecting Apache Superset to Private Telematics Lakehouse](connecting-apache-superset.md)
-* [Connecting Streamlit to Private Telematics Lakehouse](connecting-streamlit.md)
+* [Connecting Power BI to Data Hub](connecting-power-bi.md)
+* [Connecting Apache Superset to Data Hub](connecting-apache-superset.md)
+* [Connecting Streamlit to Data Hub](connecting-streamlit.md)
 
 Each guide provides detailed configuration steps, recommended settings, and best practices specific to that tool.
 
@@ -81,4 +81,4 @@ The choice of BI tool ultimately depends on your organization's specific needs, 
 
 All three options can effectively visualize your telematics data when properly configured. We recommend starting with a proof-of-concept project using your preferred tool to test its compatibility with your specific use cases before committing to a full-scale implementation.
 
-Remember that the full value of your Private Telematics Lakehouse is realized when you can effectively transform data into actionable insights through visualization and analysis. The right BI tool is a critical component in this journey.
+Remember that the full value of your Data Hub is realized when you can effectively transform data into actionable insights through visualization and analysis. The right BI tool is a critical component in this journey.

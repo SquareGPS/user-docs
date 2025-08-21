@@ -151,7 +151,7 @@ ORDER BY last_seen DESC NULLS LAST;
 **Key insight**: LEFT JOIN ensures all vehicles appear in results, even without recent tracking or driver assignments.
 
 {% hint style="info" %}
-**Query examples**: Complete use-case-specific patterns are available in the SQL Cookbook\[LINK].
+**Query examples**: Complete use-case-specific patterns are available in the [SQL Recipe Book](../../example-queries/).
 {% endhint %}
 
 </details>
