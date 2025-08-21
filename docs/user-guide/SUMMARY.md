@@ -26,6 +26,7 @@
           * [Displaying new calculated attributes on the Navixy platform](user-guide/account/iot-logic/flow-management/initiate-attribute-node/displaying-new-calculated-attributes-on-the-navixy-platform.md)
         * [Logic node](user-guide/account/iot-logic/flow-management/logic-node/README.md)
           * [Logic node expressions and syntax](user-guide/account/iot-logic/flow-management/logic-node/logic-node-expressions-and-syntax.md)
+        * [Action node](user-guide/account/iot-logic/flow-management/action-node.md)
         * [Output Endpoint node](user-guide/account/iot-logic/flow-management/output-endpoint-node.md)
         * [Flow configuration example](user-guide/account/iot-logic/flow-management/flow-configuration-example.md)
       * [Data Stream Analyzer](user-guide/account/iot-logic/data-stream-analyzer.md)

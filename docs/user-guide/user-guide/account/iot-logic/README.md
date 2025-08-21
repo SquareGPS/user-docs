@@ -7,7 +7,9 @@
 ![](../attachments/IoT_Logic_schema.jpg)
 
 {% hint style="info" %}
-**Navigation** IoT logic is accessible to account **Owners** in the **Account Settings** section. To find it:
+### **Navigation**&#x20;
+
+IoT logic is accessible to account **Owners** in the **Account Settings** section. To find it:
 
 * Click the profile icon in the top-left corner of the screen to open your account settings
 * In the settings sidebar, select **IoT Logic**

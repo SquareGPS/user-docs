@@ -29,6 +29,8 @@ Each flow consists of interconnected nodes that define how data moves through yo
 
 ### Data Source node
 
+{% columns %}
+{% column %}
 This node establishes the entry point for device data in your flow. It processes specific devices from your Navixy account that you can:
 
 * Filter by manufacturer and model
@@ -36,37 +38,73 @@ This node establishes the entry point for device data in your flow. It processes
 * Select from one to an unlimited number of devices to send data into the flow
 * Easily select the whole device groups
 
-<figure><img src="../attachments/image-20250403-160159.png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options" width="375"><figcaption></figcaption></figure>
-
 For detailed configuration options, see [Data Source node](data-source-node.md).
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../attachments/image-20250403-160159.png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options" width="375"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 ### Initiate Attribute node
 
+{% columns %}
+{% column %}
 This node enables data transformation through the [Navixy Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language). It allows you to:
 
 * Create new calculated attributes based on device parameters
 * Perform unit conversions and mathematical operations
 * Apply time-based calculations
+{% endcolumn %}
 
+{% column %}
 <figure><img src="../attachments/image-20250403-160516.png" alt="Initiate Attribute node configuration panel showing attribute creation interface"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 For detailed configuration options, syntax, and expression examples, see the [Initiate Attribute node](initiate-attribute-node/).
 
 ### Logic node
 
-<figure><img src="../attachments/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
-
+{% columns %}
+{% column %}
 This node creates intelligent branching points that route data based on logical conditions. It allows you to:
 
 * Create conditional workflows with IF-THEN/ELSE logic
 * Route data through different processing paths based on real-time conditions
 * Generate boolean attributes that record validation results
 * Build complex decision trees with multiple conditions
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../attachments/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 For detailed configuration options, logical operators, and expression examples, see the [Logic node](logic-node/).
 
+### Action node
+
+{% columns %}
+{% column %}
+This node enables automated responses to device data by performing specific operations when conditions are met. It allows you to:
+
+* Send commands back to devices based on data analysis
+* Trigger external system notifications or alerts
+* Execute automated workflows based on device status changes
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+For detailed configuration options, see the [Action node](action-node.md).
+
 ### Output Endpoint node
 
+{% columns %}
+{% column %}
 This node defines where and how your processed data is transmitted. In its configuration, you can:
 
 * Specify destination connection details (IP/domain, port)
@@ -75,9 +113,13 @@ This node defines where and how your processed data is transmitted. In its confi
 * Configure MQTT parameters like client ID, topics, and QoS levels
 * Create reusable endpoint profiles for consistent configurations
 
-<figure><img src="../attachments/image-20250403-160749.png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
-
 For complete details on data transmission options, see the [Output Endpoint node](output-endpoint-node.md).
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../attachments/image-20250403-160749.png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 {% hint style="info" %}
 Your flow should include a **Default Output Endpoint** to send data to the platform. Maintaining this connection ensures your device data remains available for visualization and management in the Navixy interface.
@@ -115,25 +157,39 @@ To change the flow name, description, or enabled status:
 
 ### Removing elements
 
+{% columns %}
+{% column width="58.333333333333336%" %}
 When you need to restructure your flow, you can remove nodes or connections:
-
-<figure><img src="../attachments/image-20250403-161554.png" alt="Node with delete icon"><figcaption></figcaption></figure>
 
 **Deleting a node:**
 
 1. Hover your cursor over the node you want to remove
 2. Click the delete icon that appears in the top right corner of the node
+{% endcolumn %}
+
+{% column width="41.666666666666664%" %}
+<figure><img src="../attachments/image-20250403-161554.png" alt="Node with delete icon"><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
 
 {% hint style="info" %}
 When you delete a node, all of its connections will also be removed.
 {% endhint %}
 
+{% columns %}
+{% column width="58.333333333333336%" %}
 **Deleting a connection:**
 
-<figure><img src="../attachments/image-20250403-161949.png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
+* Click on the connection line you want to remove
+* Click **Unlink** or press the backspace key on your keyboard
+{% endcolumn %}
 
-1. Click on the connection line you want to remove
-2. Click **Unlink** or press the backspace key on your keyboard
+{% column width="41.666666666666664%" %}
+<figure><img src="../attachments/image-20250403-161949.png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 ### Managing multiple flows
 
