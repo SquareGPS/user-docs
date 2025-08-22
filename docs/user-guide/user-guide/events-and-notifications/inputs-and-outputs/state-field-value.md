@@ -10,7 +10,7 @@ Users can generate event reports that summarize the occurrences of specific stat
 
 ## Settings
 
-![](attachments/image-20230707-073455.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230707-073455.png)
 
 For a quick setup of the state change notification:
 
@@ -78,15 +78,15 @@ By selecting the appropriate virtual sensor and specifying the desired event fro
 
 {% columns %}
 {% column %}
-![](attachments/image-20230726-125407.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230726-125407.png)
 {% endcolumn %}
 
 {% column %}
-![](attachments/image-20230726-125535.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230726-125535.png)
 {% endcolumn %}
 {% endcolumns %}
 
-![](attachments/image-20230726-125722.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230726-125722.png)
 
 ### Notifications
 

@@ -9,12 +9,12 @@ X-GPS Mobile is the latest and most up-to-date application, constantly receiving
 Learn more about the apps, their functionalities, and purposes:
 
 * [X-GPS Mobile](x-gps-mobile/)
-  * [X-GPS Mobile quick start](x-gps-mobile/x-gps-mobile-quick-start.md)
+  * [X-GPS Mobile quick start](x-gps-mobile/quick-start.md)
   * [Assets list](x-gps-mobile/assets-list.md)
   * [Asset information](x-gps-mobile/asset-information.md)
   * [Account and settings](x-gps-mobile/account-and-settings.md)
 * [X-GPS Monitor](x-gps-monitor/)
-  * [X-GPS Monitor first start](x-gps-monitor/x-gps-monitor-first-start.md)
+  * [X-GPS Monitor first start](x-gps-monitor/quick-start.md)
   * [Features](x-gps-monitor/features.md)
   * [Video events (Android only)](x-gps-monitor/video-events-android-only.md)
 * [X-GPS Tracker](x-gps-tracker/)

@@ -60,7 +60,7 @@ These reports are essential for monitoring driver behavior, particularly in rela
 
 * **Speed violation**\
   Details instances where the vehicle exceeded the speed limit, including date, location, and actual speed. See also:
-  * [Harsh driving in Rules and notifications](../rules-and-notifications/safety/harsh-driving.md)
+  * [Harsh driving in Rules and notifications](../events-and-notifications/safety/harsh-driving.md)
   * [Eco driving in Fleet management](../fleet-management/eco-driving.md)
 
 ### Device status reports
@@ -69,10 +69,10 @@ Device status reports provide insights into the operational status of your track
 
 * **Device Switching ON/OFF**\
   Tracks instances where the GPS device was manually switched on or off. See also:
-  * [Device switched ON/OFF in Rules and notifications](../rules-and-notifications/device-power/device-switched-onoff.md)
+  * [Device switched ON/OFF in Rules and notifications](../events-and-notifications/device-power/device-switched-onoff.md)
 * **GSM Connection Lost**\
   Reports periods where the GPS device lost its GSM connection, indicating a lack of communication with the monitoring server. See also:
-  * [Device lost connection in Rules and notifications](../rules-and-notifications/device-connection/device-lost-connection.md)
+  * [Device lost connection in Rules and notifications](../events-and-notifications/device-connection/device-lost-connection.md)
 
 ## Connected devices reports
 

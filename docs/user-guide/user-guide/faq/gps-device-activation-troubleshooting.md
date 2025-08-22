@@ -130,7 +130,7 @@ To resolve these issues, verify that your device is on the list of supported dev
 
 * Check our list of supported devices.
 * Update the device firmware to the latest version.
-* If the device is not supported or uses a custom firmware version, please contact the technical support team of your [service provider.](../quick-start/service-provider.md)
+* If the device is not supported or uses a custom firmware version, please contact the technical support team of your [service provider.](../quick-start/about-service-providers.md)
 
 </details>
 
@@ -169,12 +169,12 @@ When using M2M SIM cards from MVNO providers, they often don’t have associated
 
 **Solution:**
 
-To resolve this issue, you have two options: [manually configure the device](../quick-start/activate-gps-device.md#activate-gps-device-manually) and place the device IMEI (or any arbitrary set of digits) as the phone number in the activation dialog, or reach out to your [service provider](../quick-start/service-provider.md) to request integration with the MVNO platform, enabling bi-directional communication over SMS using ICCID instead of a phone number.
+To resolve this issue, you have two options: [manually configure the device](../quick-start/activate-gps-device.md#activate-gps-device-manually) and place the device IMEI (or any arbitrary set of digits) as the phone number in the activation dialog, or reach out to your [service provider](../quick-start/about-service-providers.md) to request integration with the MVNO platform, enabling bi-directional communication over SMS using ICCID instead of a phone number.
 
 **Recommendations for Troubleshooting:**
 
 * [Manually configure the device](../quick-start/activate-gps-device.md#activate-gps-device-manually) and enter the device IMEI as the phone number in the activation dialog.
-* [Contact your server provider](../quick-start/service-provider.md) to request integration with the MVNO platform for enabling communication using ICCID.
+* [Contact your server provider](../quick-start/about-service-providers.md) to request integration with the MVNO platform for enabling communication using ICCID.
 
 </details>
 

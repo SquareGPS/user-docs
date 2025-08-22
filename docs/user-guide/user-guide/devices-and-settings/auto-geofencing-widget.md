@@ -17,4 +17,4 @@ These settings allow for precise control over when and where the auto-geofencing
 
 ## See also
 
-* [Auto-geofencing](../rules-and-notifications/security/auto-geofencing.md) in Rules and notifications
+* [Auto-geofencing](../events-and-notifications/security/auto-geofencing.md) in Rules and notifications

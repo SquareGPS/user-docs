@@ -37,5 +37,5 @@ Imagine a city bus operator who needs to track the number of passengers for opti
 
 ## Monitoring and reporting
 
-* **Real-time view:** Once integrated, the passenger data can be monitored in real-time using the **Sensor readings** block in [Object widget](../../../../gps-tracking/objects-list/object-widget.md).
+* **Real-time view:** Once integrated, the passenger data can be monitored in real-time using the **Sensor readings** block in [Object widget](../../../../tracking/objects-list/object-widget.md).
 * **Reports:** You can also generate detailed [Reports](../../../../reports/specific-report-details/measuring-sensors-report.md) that include passenger count data, allowing for comprehensive analysis and insights into passenger flow.

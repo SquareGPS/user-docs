@@ -5,18 +5,18 @@ Trip history in Navixy allows you to review past activities and routes taken by 
 {% hint style="info" %}
 ### **Navigation**&#x20;
 
-To view your trip history in Navixy, select the objects you're interested in and click <img src="attachments/Untitled-20250414-131158.png" alt="Untitled-20250414-131158.png" data-size="line">. You will be prompted to choose a time and date range. Select the desired date range to proceed.
+To view your trip history in Navixy, select the objects you're interested in and click <img src="../../gps-tracking/history-view/attachments/Untitled-20250414-131158.png" alt="Untitled-20250414-131158.png" data-size="line">. You will be prompted to choose a time and date range. Select the desired date range to proceed.
 {% endhint %}
 
-![Trip history button](attachments/image-20241112-222233.png)
+![Trip history button](../../gps-tracking/history-view/attachments/image-20241112-222233.png)
 
 {% columns fullWidth="true" %}
 {% column %}
-![History date range selection](attachments/image-20240807-220924.png)
+![History date range selection](../../gps-tracking/history-view/attachments/image-20240807-220924.png)
 {% endcolumn %}
 
 {% column %}
-![Trip details](attachments/image-20240807-223844.png)
+![Trip details](../../gps-tracking/history-view/attachments/image-20240807-223844.png)
 {% endcolumn %}
 {% endcolumns %}
 

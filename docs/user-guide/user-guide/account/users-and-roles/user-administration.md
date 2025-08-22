@@ -1,4 +1,4 @@
-# User Administration
+# User administration
 
 The users of the organization’s account include the Owner and Users. The Owner is the main account holder with full control and administrative rights, while Users are additional accounts with specific roles and permissions assigned by the Owner.
 
@@ -11,7 +11,7 @@ The Owner in Navixy is the main account holder with full access and control over
 The owner can limit the operations available to users by:
 
 * [Defining user roles](role-management.md) — specifying what actions users can perform;
-* [Limiting user access to information](restrict-access.md) — controlling which GPS devices and data users can access.
+* [Limiting user access to information](restricting-access.md) — controlling which GPS devices and data users can access.
 
 Users are additional accounts granted access by the Owner. As a subordinate accounts, users cannot have specific owner rights, including:
 
@@ -39,5 +39,5 @@ To add a new user or edit the list of users, navigate to Account Settings → Us
 
 4. **Assigning Items to Users**:
 
-* After selecting a user, you can [assign specific objects, POIs, and geofences](restrict-access.md) to them.
+* After selecting a user, you can [assign specific objects, POIs, and geofences](restricting-access.md) to them.
 * Choose the items from the respective tabs (Objects, POI, Geofences) and assign them to the user.

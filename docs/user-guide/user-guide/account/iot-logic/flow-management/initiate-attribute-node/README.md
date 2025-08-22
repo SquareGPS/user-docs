@@ -71,7 +71,7 @@ Define **Attribute name**
 Add a distinctive identifier of the attribute.&#x20;
 
 * This name will be displayed in [Data Stream Analyzer](../../data-stream-analyzer.md),
-* You can also use this name to create custom sensors in the [Tracking](../../../../gps-tracking/) module. To do it, the **Initiate Attribute** node containing this attribute must be connected to the **Default Output Endpoint** node.
+* You can also use this name to create custom sensors in the [Tracking](../../../../tracking/) module. To do it, the **Initiate Attribute** node containing this attribute must be connected to the **Default Output Endpoint** node.
 {% endstep %}
 
 {% step %}

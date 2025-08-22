@@ -21,7 +21,7 @@ Places, also known as Points of Interest (POI), are specific locations that help
 Geofences are virtual perimeters that allow the system to monitor whether an object has crossed the geofence border ("in" or "out"). They enable users to generate geofence reports, receive alerts, and apply specific rules for events within designated areas.
 
 * [Working with geofences](geofences.md)
-* [Monitoring geofence entrance and exit](../../rules-and-notifications/movement-monitoring/geofence-entrance-or-exit.md)
+* [Monitoring geofence entrance and exit](../../events-and-notifications/movement-monitoring/geofence-entrance-or-exit.md)
 
 ## Map layers
 

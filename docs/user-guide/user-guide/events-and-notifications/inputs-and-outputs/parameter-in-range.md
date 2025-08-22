@@ -6,7 +6,7 @@ This rule is specifically designed for the use of measurement sensors and serves
 
 ## Settings
 
-![](attachments/image-20230706-064405.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230706-064405.png)
 
 **Sensor:**
 
@@ -35,7 +35,7 @@ Case#2, From the **OUT** to the **IN** state:
 
 Whenever the event (the rule) is in the **OUT** range state, this state will only change to the **IN** range when the incoming value hits **in range** (#**1**) but outside the inner buffers (#**2**).
 
-![](attachments/image-20230706-064540.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230706-064540.png)
 
 If the “Value threshold” parameter is not specified, it becomes equal to 0.03 (absolute value) by default. So, as for the example above, the buffers' space would be from 9.97 to 10, from 10 to 10.03, from 23.97 to 24, and from 24 to 24.03.
 
@@ -105,8 +105,8 @@ Set a schedule for when the rule will run. If your schedule indicates that the e
 
 To view the dates when the events were received, you can build the "Report on all events" report.
 
-![](attachments/image-20230706-064944.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230706-064944.png)
 
-![](attachments/image-20230706-065349.png)
+![](../../rules-and-notifications/inputs-and-outputs/attachments/image-20230706-065349.png)
 
 For a graphical representation of a measurement sensor usage over a period of time, use the "Measuring sensors" report.

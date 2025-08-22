@@ -18,7 +18,7 @@ To activate the odometer:
 
 * **Correction factor:** You can set a correction factor to automatically adjust the odometer readings either up or down. Enter a percentage value in the **Correction** field. A positive value will increase the odometer readings, while a negative value will decrease them based on the input sensor.
 * **Updating value:** You can also update the odometer value whenever necessary. Previous odometer values can be viewed by generating the **Report on all events** in the **Reports** module.
-* **Quick access in the Object widget:** For quick access, the **Odometer** value can be accessed and configured in the dedicated section of the [Object widget](../../gps-tracking/objects-list/object-widget.md).
+* **Quick access in the Object widget:** For quick access, the **Odometer** value can be accessed and configured in the dedicated section of the [Object widget](../../tracking/objects-list/object-widget.md).
 
 ## Changing odometer sources
 

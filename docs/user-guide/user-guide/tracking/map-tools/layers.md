@@ -2,7 +2,7 @@
 
 Map layers allow you to add custom data overlays to your map, enhancing the visualization of specific areas not included in the standard map view. This feature is particularly useful for displaying unique geographic details, such as city districts, responsibility areas, custom routes, and other specialized maps. By using map layers, you can better understand the locations and situations of your fleet.
 
-![Layers tool](attachments/image-20240807-205554.png)
+![Layers tool](../../gps-tracking/map-tools/attachments/image-20240807-205554.png)
 
 ## Practical application
 

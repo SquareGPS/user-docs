@@ -1,6 +1,6 @@
-# Account
+# User account
 
-Welcome to the User Account documentation section. This section provides comprehensive information on managing your Navixy user account and customizing settings to suit your needs.
+Welcome to the **User account** module. This section of documentation provides comprehensive information on managing your Navixy user account and customizing settings to suit your needs.
 
 Explore each section in the menu to maximize the benefits of your Navixy user account. Here are some of the most frequently used sections:
 

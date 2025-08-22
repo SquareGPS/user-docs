@@ -1,6 +1,6 @@
 # Harsh driving widget
 
-Many advanced vehicle GPS devices feature a built-in harsh driving detector. This detector continuously monitors acceleration values during acceleration, braking, and turning. When these values exceed predefined thresholds, the system generates a corresponding **Harsh driving** event. These events can be tracked and analyzed using [Notifications](../../rules-and-notifications/safety/harsh-driving.md) and [Eco-driving reports](../../fleet-management/eco-driving.md), allowing for a detailed assessment of driving behavior.
+Many advanced vehicle GPS devices feature a built-in harsh driving detector. This detector continuously monitors acceleration values during acceleration, braking, and turning. When these values exceed predefined thresholds, the system generates a corresponding **Harsh driving** event. These events can be tracked and analyzed using [Notifications](../../events-and-notifications/safety/harsh-driving.md) and [Eco-driving reports](../../fleet-management/eco-driving.md), allowing for a detailed assessment of driving behavior.
 
 ## Configuring harsh driving detector thresholds
 

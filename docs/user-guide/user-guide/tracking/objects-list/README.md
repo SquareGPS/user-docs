@@ -2,7 +2,7 @@
 
 The **Objects list** is your central hub for monitoring all connected devices in real time. It provides a clear, at-a-glance view of every tracked object, displaying its current status and selected key parameters. Designed for efficiency, it opens automatically when you navigate to the **Tracking** module, ensuring instant access to the information you need. From here, you can dive deeper into each entity through its dedicated object widget, making it easy to track, analyze, and manage your objects.
 
-![Objects list](../attachments/Object_list_big.png)
+![Objects list](../../gps-tracking/attachments/Object_list_big.png)
 
 ## List overview
 
@@ -28,9 +28,9 @@ Grouping can be disabled by the **Do not group** option. For details, see [Addit
 
 The **Objects list** includes several features to help you navigate your fleet:
 
-* **Quick search** ![image-20250129-102418.png](../attachments/image-20250129-102418.png) : Allows you to find specific objects by entering their name, [tag](../../account/tags.md), or IMEI.
-* **Filter** ![image-20250129-103218.png](../attachments/image-20250129-103218.png) : Allows you to display only specific objects depending on their **movement status** (e.g., show only moving or stationary objects).
-* **Sorting options**![image-20250129-103257.png](../attachments/image-20250129-103257.png) : Changes the order of entries in the list based on certain parameters:
+* **Quick search** ![image-20250129-102418.png](../../gps-tracking/attachments/image-20250129-102418.png) : Allows you to find specific objects by entering their name, [tag](../../account/tags.md), or IMEI.
+* **Filter** ![image-20250129-103218.png](../../gps-tracking/attachments/image-20250129-103218.png) : Allows you to display only specific objects depending on their **movement status** (e.g., show only moving or stationary objects).
+* **Sorting options**![image-20250129-103257.png](../../gps-tracking/attachments/image-20250129-103257.png) : Changes the order of entries in the list based on certain parameters:
   * By name (A to Z or Z to A)
   * By status
   * By distance (useful for tracking proximity)
@@ -41,7 +41,7 @@ Filtering and sorting do not affect the group structure but reorder objects with
 
 ### Additional settings
 
-The **Objects lis**t also contains the ![image-20250129-104120.png](../attachments/image-20250129-104120.png) menu that provides access to additional settings influencing object visibility and map interactions. It helps you to configure map behavior related to objects and adjust visibility preferences for a more focused tracking experience.
+The **Objects lis**t also contains the ![image-20250129-104120.png](../../gps-tracking/attachments/image-20250129-104120.png) menu that provides access to additional settings influencing object visibility and map interactions. It helps you to configure map behavior related to objects and adjust visibility preferences for a more focused tracking experience.
 
 <details>
 
@@ -57,7 +57,7 @@ The **Objects lis**t also contains the ![image-20250129-104120.png](../attachmen
 
 * **Show only selected objects**: By default, all available objects are visible on the map. When enabled, only the objects selected from the list are displayed.
 
-- **Show info by click**: Defines how the **Object widget** is opened. If enabled, the widget opens after a single click on an object. If disabled, you need to click ![image-20250129-105657.png](../attachments/image-20250129-105657.png) or double-click the object’s icon on the map to open the widget. This button appears to the right of the object when it’s selected.
+- **Show info by click**: Defines how the **Object widget** is opened. If enabled, the widget opens after a single click on an object. If disabled, you need to click ![image-20250129-105657.png](../../gps-tracking/attachments/image-20250129-105657.png) or double-click the object’s icon on the map to open the widget. This button appears to the right of the object when it’s selected.
 
 * **Do not group**: Displays all entries in the list individually instead of grouping them. If enabled, sorting and filtering rules apply to the entire list.
 
@@ -67,7 +67,7 @@ The **Objects lis**t also contains the ![image-20250129-104120.png](../attachmen
 
 ### Trip and event history
 
-**Trip and event history** is accessible through the <img src="../attachments/history.png" alt="history.png" data-size="line"> button in the **Objects list**. This feature allows you to review past movements and events of a tracked object, providing insights into its activity over a selected period. It helps you analyze routes, detect anomalies, and improve operational efficiency.\
+**Trip and event history** is accessible through the <img src="../../gps-tracking/attachments/history.png" alt="history.png" data-size="line"> button in the **Objects list**. This feature allows you to review past movements and events of a tracked object, providing insights into its activity over a selected period. It helps you analyze routes, detect anomalies, and improve operational efficiency.\
 For more details about this feature, see [History view](../history-view/).
 
 ## Objects
@@ -82,11 +82,11 @@ Each entry in the **Objects list** represents a tracking device connected to the
 ### **Object actions**
 
 Clicking on an object in the list centers the map on that device.\
-Each object has a <img src="../attachments/image-20250129-104120.png" alt="image-20250129-104120.png" data-size="line"> menu offering more quick actions:
+Each object has a <img src="../../gps-tracking/attachments/image-20250129-104120.png" alt="image-20250129-104120.png" data-size="line"> menu offering more quick actions:
 
 * **Share location**: Instantly share the object’s location using the [Geo links](../../geo-links/) tool.
 * **Change icon**: Modify the object’s visual representation by selecting [Object icons](object-icons.md).
-* **Open Alert rules**: Manage alerts for specific conditions in the [Alerts](../../rules-and-notifications/) module.
+* **Open Alert rules**: Manage alerts for specific conditions in the [Alerts](../../events-and-notifications/) module.
 * **Device settings**: Quickly navigate to the particular device’s configuration in the [Devices and Settings](../../devices-and-settings/).
 * **View reports**: Access reports related to the object’s activity in the [Reports](../../reports/) module.
 
@@ -94,7 +94,7 @@ These actions allow quick access to essential management tools directly from the
 
 ### **Object widget**
 
-This widget is a detailed view of a selected object, displaying available device parameters, status indicators, and customizable data blocks. To access the **Object widget**, double-click the object’s icon on the map or hover over the object and click the <img src="../attachments/image-20250129-113905.png" alt="image-20250129-113905.png" data-size="line"> icon that appears.
+This widget is a detailed view of a selected object, displaying available device parameters, status indicators, and customizable data blocks. To access the **Object widget**, double-click the object’s icon on the map or hover over the object and click the <img src="../../gps-tracking/attachments/image-20250129-113905.png" alt="image-20250129-113905.png" data-size="line"> icon that appears.
 
 {% hint style="info" %}
 If the **Show info by click** option is enabled in the [Additional settings](./#additional-settings), clicking on an object also opens the [Object widget](./#object-widget).

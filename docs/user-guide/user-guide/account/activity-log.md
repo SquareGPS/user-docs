@@ -1,14 +1,14 @@
 # Activity log
 
-Using the Activity Log, the account owner can track the activity of all [users on the team](users-and-roles/) added through the “Users and roles” section. This feature provides detailed insights into user actions, helping to monitor and manage system usage effectively.
+Using the **Activity log**, the account owner can track the activity of all [users on the team](users-and-roles/) added via **Users and roles**. This feature provides detailed insights into user actions, helping to monitor and manage system usage effectively.
 
-Navigate to **Account Settings → Activity Log**.
+Navigate to **Account settings → Activity log**.
 
 ![](attachments/image-20241108-172817.png)
 
-## Type of Actions
+## Type of actions
 
-The Activity Log tracks a variety of actions performed by users:
+**Activity log** tracks a variety of actions performed by users:
 
 * **Session start:** When a user logs into an account without using authorization
 * **Authorization:** When a user logs in using their username and password
@@ -23,16 +23,16 @@ The Activity Log tracks a variety of actions performed by users:
 * **API key shown/create/deleted**
 * **Device: output update/batch output update/command execute:** When outputs are managed
 
-## Getting the Activity Log
+## Generating Activity log
 
-1. Enter the **Activity Log** section
-2. **Specify Parameters:** Select action types and users
-3. **Set Time Frames:** Define the time frames and click the **Apply** button
+1. Enter the **Activity log** section
+2. **Specify parameters:** Select action types and users
+3. **Set time frames:** Define the time frames and click the **Apply** button
 
-### List Grouping and Filtering
+### List grouping and filtering
 
 Use grouping and filtering to structure the list according to your criteria:
 
-* **By Date:** Group records by date
-* **By User:** Get a list of users who logged into the account
-* **By Action Type:** See the types of actions performed in the account
+* **By date:** Group records by date
+* **By user:** Get a list of users who logged into the account
+* **By action type:** See the types of actions performed in the account

@@ -6,10 +6,31 @@ Navixy offers two-factor authentication (2FA) to bolster security across web and
 
 The OTP is sent to your email and must be entered to complete the login process. The extra step ensures that even if your password is compromised, unauthorized users cannot access your account without having access to your email.
 
-1. **Login with your password**: enter your username and password to start the login process.
-2. **Receive a one-time code**: after verifying your password, you will receive a one-time passcode at the email associated with your Navixy account.
-3. **Enter the code**: enter this OTP to complete your login.
-4. **Access your account**: if the OTP is correct, you will gain access to your account.
+{% stepper %}
+{% step %}
+**Log in with your password**
+
+Enter your username and password to start the login process.
+{% endstep %}
+
+{% step %}
+**Receive a one-time code**
+
+After verifying your password, you will receive a one-time passcode at the email associated with your Navixy account
+{% endstep %}
+
+{% step %}
+**Enter the code**
+
+Enter this OTP to complete your login.
+{% endstep %}
+
+{% step %}
+**Access your account**
+
+If the OTP is correct, you will gain access to your account.
+{% endstep %}
+{% endstepper %}
 
 ![Login verification window](attachments/2fa.png)
 

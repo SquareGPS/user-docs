@@ -32,7 +32,7 @@ To add a temperature sensor:
 
 ### Magnetic sensors
 
-Magnetic sensors display their status in the **Sensor readings** block of [Object widget](../../../../gps-tracking/objects-list/object-widget.md). This widget allows you to monitor whether the sensor is currently active or not.
+Magnetic sensors display their status in the **Sensor readings** block of [Object widget](../../../../tracking/objects-list/object-widget.md). This widget allows you to monitor whether the sensor is currently active or not.
 
 ### Driver identification sensors
 
@@ -41,4 +41,4 @@ Identification sensors function similarly to iButton and RFID but without the ne
 **See also:**
 
 * [Assigning driver ID keys in the Driver’s profile](../../../../fleet-management/drivers.md)
-* [Driver identification (Rules and notifications)](../../../../rules-and-notifications/scheduling-and-dispatching/driver-identification.md)
+* [Driver identification (Rules and notifications)](../../../../events-and-notifications/scheduling-and-dispatching/driver-identification.md)

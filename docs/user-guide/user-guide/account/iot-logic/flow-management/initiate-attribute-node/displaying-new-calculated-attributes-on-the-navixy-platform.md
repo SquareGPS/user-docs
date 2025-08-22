@@ -43,14 +43,14 @@ For more details on troubleshooting with real-time data, see [Data Stream Analyz
 
 ## Adding custom attributes to objects on the Navixy platform
 
-New calculated data attributes from IoT Logic flows can be used as virtual sensors for actual devices in your account and displayed on [Object widget](../../../../gps-tracking/objects-list/object-widget.md) and [Object list](../../../../gps-tracking/objects-list/). This enables you to monitor aggregated metrics along with actual device readings in one place, which significantly expands your [Tracking](../../../../gps-tracking/) possibilities.
+New calculated data attributes from IoT Logic flows can be used as virtual sensors for actual devices in your account and displayed on [Object widget](../../../../tracking/objects-list/object-widget.md) and [Object list](../../../../tracking/objects-list/). This enables you to monitor aggregated metrics along with actual device readings in one place, which significantly expands your [Tracking](../../../../tracking/) possibilities.
 
-To make calculated attributes visible in the [Tracking](../../../../gps-tracking/) module alongside regular device data, you need to add them as virtual sensors to your devices. This allows you to:
+To make calculated attributes visible in the [Tracking](../../../../tracking/) module alongside regular device data, you need to add them as virtual sensors to your devices. This allows you to:
 
-* Monitor calculated metrics in the [Object widget](../../../../gps-tracking/objects-list/object-widget.md)
-* Add important calculations to the [Object list](../../../../gps-tracking/objects-list/) for quick access
+* Monitor calculated metrics in the [Object widget](../../../../tracking/objects-list/object-widget.md)
+* Add important calculations to the [Object list](../../../../tracking/objects-list/) for quick access
 * Include calculated values in [reports](../../../../reports/)
-* Create [rules and notifications](../../../../rules-and-notifications/) based on calculated values
+* Create [rules and notifications](../../../../events-and-notifications/) based on calculated values
 
 ### Creating a custom attribute for a device
 
@@ -94,4 +94,4 @@ To directly display your calculated attributes in the **Object list**:
 3. Click the star icon next to the attribute to add it to **Favorites**.
 4. The attribute will now appear in the **Object list** under the object name.
 
-For instructions on how to display a parameter in **Object list**, see [Object widget - Favorites](../../../../gps-tracking/objects-list/object-widget.md).
+For instructions on how to display a parameter in **Object list**, see [Object widget - Favorites](../../../../tracking/objects-list/object-widget.md).

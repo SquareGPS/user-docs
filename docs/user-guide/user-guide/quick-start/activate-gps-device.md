@@ -1,6 +1,6 @@
 # Activate GPS device
 
-Activating a device simply means adding a new device to your user account. You can activate any [supported GPS tracking device](https://navixy.com/devices/). If your model is not yet supported, please contact your [service provider](service-provider.md) to either get this device integrated with Navixy or finding an alternative device with similar functionality. We also suggest reaching out to your [service provider](service-provider.md) before proceeding, as they may have their own recommendations.
+Activating a device simply means adding a new device to your user account. You can activate any [supported GPS tracking device](https://navixy.com/devices/). If your model is not yet supported, please contact your [service provider](about-service-providers.md) to either get this device integrated with Navixy or finding an alternative device with similar functionality. We also suggest reaching out to your [service provider](about-service-providers.md) before proceeding, as they may have their own recommendations.
 
 There are two methods of activating a GPS tracking device:
 
@@ -20,7 +20,7 @@ Once you log in to your user account, navigate to Device activation in the left 
 3. **Enter SIM card phone number:** Enter the phone number of the SIM card installed in the device.
 4. The Navixy platform will attempt to determine the appropriate APN settings based on the phone number you provided. If the APN settings are not found, you will need to enter them manually.
 5. **Enter device factory ID/IMEI:**
-6. The length of this value can change depending on model. If you have questions, please work with your [service provider](service-provider.md).
+6. The length of this value can change depending on model. If you have questions, please work with your [service provider](about-service-providers.md).
 7. **Activation Code (optional):**
 8. If enforced by your service provider, they may have to provide you with an activation code before you are able to register a device.
 9. **Activate:** After entering the necessary information, click “Next Step”. Then, SMS messages containing configuration commands will be sent to the device. Please ensure the device is powered on and able to receive these messages.
@@ -70,7 +70,7 @@ Although Navixy and its partners utilize SMS gateways with high deliverability a
 * **Anti-spam regulations**: Local restrictions on message sender names, text length, and binary texts.
 * **Technical issues**: Special symbols like $, #, and % that are used in the configuration commands may not pass through all network nodes in the SMS delivery chain successfully.
 
-If automatic setup fails due to these issues, you can manually configure the basic parameters, such as APN credentials, server address, and port. The server port and IP address for a specific device model can be found in the Devices section of our website. For detailed configuration instructions, please refer to the device's manual or consult the technical support of your [service provider](service-provider.md).
+If automatic setup fails due to these issues, you can manually configure the basic parameters, such as APN credentials, server address, and port. The server port and IP address for a specific device model can be found in the Devices section of our website. For detailed configuration instructions, please refer to the device's manual or consult the technical support of your [service provider](about-service-providers.md).
 
 </details>
 
@@ -97,7 +97,7 @@ LoRa (Long Range) networks, which are commonly used for IoT applications due to 
 * Manually enter the device’s LoRaWAN credentials
 * Set up the server address and network parameters to match the LoRa network specifications
 
-This setup is somewhat unique for each integration. Therefore please consult with the technical support of your [service provider](service-provider.md) on how to integrate your LoRa devices and LoRaWAN gateway with Navixy.
+This setup is somewhat unique for each integration. Therefore please consult with the technical support of your [service provider](about-service-providers.md) on how to integrate your LoRa devices and LoRaWAN gateway with Navixy.
 
 </details>
 
@@ -115,7 +115,7 @@ To configure a satellite device to be monitoring on Navixy, you need to:
 2. On the satellite network side, have their system point their data to the Navixy platform
 3. Verify that the device is properly registered and able to communicate with the satellite network.
 
-Because each integration can be unique, please consult the technical support of your [service provider](service-provider.md) for guidance on integrating your devices and gateway with Navixy.
+Because each integration can be unique, please consult the technical support of your [service provider](about-service-providers.md) for guidance on integrating your devices and gateway with Navixy.
 
 </details>
 
@@ -140,4 +140,4 @@ For more details, please read how to [Integrate IoT Data from Servers and Gatewa
 
 ## FAQ and Troubleshooting
 
-If you encounter any issues while activating your devices, please consult our [F.A.Q. and Troubleshooting Guide](../faq/gps-device-activation-troubleshooting.md) or contact your [Service provider](service-provider.md) for assistance.
+If you encounter any issues while activating your devices, please consult our [F.A.Q. and Troubleshooting Guide](../faq/gps-device-activation-troubleshooting.md) or contact your [Service provider](about-service-providers.md) for assistance.

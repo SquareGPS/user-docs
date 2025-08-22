@@ -69,9 +69,9 @@ Use the copy button to apply the same attribute list to all other objects in the
 
 Choose which stationary entities you want to show on the geo link’s map.
 
-**POIs:** The list of Places available for showing on the map. To learn more about this feature, see [Places (POIs)](../gps-tracking/map-tools/places-pois.md).
+**POIs:** The list of Places available for showing on the map. To learn more about this feature, see [Places (POIs)](../tracking/map-tools/places-pois.md).
 
-**Geofences:** The list of geofences available for showing on the map. To learn more about this feature, see [Geofences](../gps-tracking/map-tools/geofences.md).
+**Geofences:** The list of geofences available for showing on the map. To learn more about this feature, see [Geofences](../tracking/map-tools/geofences.md).
 
 * **Limited validity duration**: Specify the link's lifetime. This can be quickly selected from predefined periods or set to a custom period of time. If the lifetime duration is set to start from a future moment, the link will remain inactive until that time arrives. Leave the option unselected for a permanent geo link configuration.
 * **Preview**: Check what the configured geo link looks like from the geo link web interface from the end user's perspective. The preview feature enables quick swapping between the user and geo link interfaces for a more accurate representation of the geo link configuration.
