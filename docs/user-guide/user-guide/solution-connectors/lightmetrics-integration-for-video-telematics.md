@@ -77,7 +77,9 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 1. Create new application\
    Start by clicking the <img src="attachments/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
    1. Configure the new application
-   2. Put the link to your Lightmetrics dashboard in the **App URL** field. Use your organization's Lightmetrics dashboard URL (contact your Lightmetrics administrator if you're unsure of the correct URL).
+   2. Embedding is supported or separate menu elements of Lightmetrics dashboard (**Home**, **Trips**, **Live view**, etc.) Put the link to the selected view of your Lightmetrics dashboard in the **App URL** field, For example:\
+      `http://{your.lightmetrics.instance}/sso?access_token={session_key}&redirect_path=`<mark style="color:green;">**`live-view`**</mark>\
+      Use your organization's Lightmetrics dashboard URL (contact your Lightmetrics administrator if you're unsure of the correct URL).
    3. Enter a **Label** for the application (e.g., Lightmetrics dashboard).
    4. Select **Embedded** in the **Show as** field to display Lightmetrics functionality within Navixy.
    5. Select your pre-configured API key from the dropdown menu in the **API key** field. If you don't have an API key set up, refer to the API keys documentation for setup instructions.
@@ -87,7 +89,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new Lightmetrics application appears automatically in Navixy's left sidebar. Open it to access your comprehensive video telematics dashboard with AI-powered event detection, real-time driver coaching, multi-channel video feeds, and advanced safety analytics - all integrated with your existing Navixy fleet management tools.
 
-<p align="center"> <img src="attachments/a9884048-0649-42a1-8d75-7fc9e44190f5.png" alt="a9884048-0649-42a1-8d75-7fc9e44190f5.png" data-size="original"></p>
+<p align="center"><img src="../../.gitbook/assets/image (8).png" alt=""></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
