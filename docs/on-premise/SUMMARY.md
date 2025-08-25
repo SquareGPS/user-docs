@@ -1,7 +1,7 @@
 # Table of contents
 
 * [On-Premise Home](README.md)
-* [On-premise](on-premise-how-to-guide/README.md)
+* [On-premise guides](on-premise-how-to-guide/README.md)
   * [Requirements](on-premise-how-to-guide/requirements/README.md)
     * [Owning On-Premise: skills and qualifications](on-premise-how-to-guide/requirements/owning-on-premise-skills-and-qualifications.md)
     * [Server hardware](on-premise-how-to-guide/requirements/server-hardware.md)

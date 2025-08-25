@@ -46,7 +46,7 @@ This error means that connection attempts failed.
 Troubleshooting steps:
 
 1. Check that port 80 (HTTP) or 443 (HTTPS) is open and connections are allowed.
-2. [Check that Nginx is launched](https://squaregps.atlassian.net/wiki/spaces/Ponprem/pages/2369814550/Checking+service+statuses#Web-server).
+2. [Check that Nginx is launched](../requirements/domains.md).
 3. On Linux: check if the symlinks for Nginx configs are created in `/etc/nginx/sites-enabled`.
 4. If you have edited any of Nginx configurations - restart Nginx.
 
@@ -107,7 +107,7 @@ Database unavailable message generally means the Java services cannot request da
 
 ![DB unavailable](../../on-premise/on-premise/troubleshooting/attachments/image-20230823-140830.png)
 
-Begin with [checking MySQL status](https://squaregps.atlassian.net/wiki/spaces/Ponprem/pages/2369814550/Checking+service+statuses#Database). If MySQL is down - try restarting it and check its logs to find the cause of the failure.
+Begin with [checking MySQL status](checking-service-statuses.md#database). If MySQL is down - try restarting it and check its logs to find the cause of the failure.
 
 If your database is hosted on a separate server, make sure the connection to it is available on the default MySQL port 3306 (or a custom port if the installation was made this way - check `db.properties` file of any of the Java services).
 

@@ -2,7 +2,7 @@
 
 This section will describe general procedure to follow and things to check when troubleshooting Navixy platform issues. It covers basic troubleshooting of Java services, Web server and Database server. Knowing how to check and restart the services will help you understand the cause of the problem and help you solve the problem more precisely.
 
-It is recommended that you first review the information on [System Components](system-components.md) page to be aware of configuration and service log file locations.
+It is recommended that you first review the information on [System components](system-components.md) page to be aware of configuration and service log file locations.
 
 ## General health check
 
@@ -72,7 +72,7 @@ In this case, you need to look into the logs of the non-working service. By defa
 If a service fails to start, there will usually be associated errors in the logs. Try checking the information before `Server stopped` entry or any recent entries starting with `WARN` or `ERROR`. You can also try restarting the service and check what new entries appear using the command `tail -f log.txt`.
 
 {% hint style="info" %}
-For information on restarting services, check the corresponding page: [Restarting instance - Linux](https://squaregps.atlassian.net/wiki/spaces/Ponprem/pages/2352414745/Restarting+instance#Restarting-on-Linux).
+For information on restarting services, check the corresponding page: [Restarting instance - Linux](../maintenance/restarting-instance.md#restarting-on-linux).
 {% endhint %}
 
 #### Windows
@@ -84,7 +84,7 @@ On Windows, the Navixy Java services are installed as regular Windows NT service
 Services must have a _Running_ status. If this is not the case for any of the services, try starting it and see if it starts working fine. If the service crashes, then the reason should be looked for in the logs. The standard location of the logs is `C:\java\<service_name>\log\`. If a service fails to start, there will usually be associated errors in the logs. Try checking the information before `Server stopped` entry or any recent entries starting with `WARN` or `ERROR`. It is recommended to use some advanced text editors like Notepad++ or Sublime Text to review logs. A standard Notepad generally fails to work with big text files.
 
 {% hint style="info" %}
-For information on restarting services, check the corresponding page: [Restarting instance - Windows.](https://squaregps.atlassian.net/wiki/spaces/Ponprem/pages/2352414745/Restarting+instance#Restarting-on-Windows)
+For information on restarting services, check the corresponding page: [Restarting instance - Windows.](../maintenance/restarting-instance.md#restarting-on-windows)
 {% endhint %}
 
 ## Web server
@@ -123,7 +123,7 @@ start nginx
 ```
 
 {% hint style="info" %}
-If Nginx is up but you still can't access the platform, refer to [admin panel](https://www.navixy.com/docs/admin/troubleshooting/panel/) or [user interface](https://www.navixy.com/docs/admin/troubleshooting/monitoring/) respective troubleshooting guides.
+If Nginx is up but you still can't access the platform, refer to [admin panel](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/KdgeXg71LpaDrwexQYwp/) or [user interface](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/) respective troubleshooting guides.
 {% endhint %}
 
 ## Database

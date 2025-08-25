@@ -10,9 +10,9 @@ If any errors or other difficulties occur during the update process, please cont
 
 Before installing, please make sure that your system meets the following prerequisites:
 
-1. **Java Development Kit 21** \
+1. **Java Development Kit 21**\
    Starting from March 2025, the platform deprecated version 17 and older.
-2. **MySQL 8.0** \
+2. **MySQL 8.0**\
    Starting from March 2024, the platform deprecated MySQL 5.7. This version reached its EOL and is no longer supported.
 
 {% hint style="info" %}
@@ -27,7 +27,7 @@ Extract a platform distribution package received from Navixy, typically it is a 
 tar -zxvf $PACKAGENAME
 ```
 
-_(where $PACKAGENAME is the name of tar.gz file)_
+_(where `$PACKAGENAME` is the name of `tar.gz` file)_
 
 It will be extracted to `/navixy-package` directory, containing all the platform files in it. Hereinafter this will be the main directory of the distribution.
 

@@ -4,7 +4,7 @@ This guide describes Navixy On-Premise platform installation using automated scr
 
 For other Linux distros, only manual installation is available.
 
-For Windows servers, navigate to [the relevant section](broken-reference).
+For Windows servers, navigate to [the relevant section](../windows-installation/windows-installation.md).
 
 ## Checking prerequisites
 

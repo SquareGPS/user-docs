@@ -4,7 +4,7 @@ Activating Navixy on-premise devices follows the same process as the PaaS versio
 
 Hence, the fundamental troubleshooting steps remain consistent, and you can locate them on our Expert Center page.
 
-[Possible issues during the device activation](https://app.gitbook.com/s/SolJ5ajewULXQUKW4Wik/faq-and-troubleshooting/gps-devices/add-and-manage-devices/troubleshoot-device-activation)
+[Possible issues during the device activation](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/gps-devices/add-and-manage-devices/troubleshoot-device-activation)
 
 If you encounter activation issues, we advise referring to this comprehensive manual for troubleshooting guidance. It covers the most prevalent problems and their corresponding solutions.
 
