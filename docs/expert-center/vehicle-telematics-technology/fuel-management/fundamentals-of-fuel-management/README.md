@@ -10,7 +10,7 @@ This article aims to guide you in achieving high-quality results through effecti
 
 In the upcoming articles of this series, we will explore various challenges encountered throughout the customer journey. These include selecting the ideal fuel management device tailored to your unique requirements, refining the platform, and visualizing information for in-depth analysis. By doing so, you will gain a holistic understanding of organizing, planning, controlling, and optimizing fuel usage. Stay tuned for valuable insights on this intricate process.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Drawing from our extensive experience, we emphasize several crucial factors to grasp in order to ensure optimal decision-making and achieve exceptional outcomes from the very beginning. When it comes to dealing with fuel, all calculations revolve around two fundamental aspects:
 
@@ -41,7 +41,7 @@ To mitigate risks associated with the installation of fuel sensors, it is highly
 
 ### Tare (calibration)
 
-Calibration of a sensor is one of the most important steps in the fuel management process. Further calculations depend on how well the sensor is calibrated. The calibration must meet certain requirements to ensure accurate and reliable measurements.&#x20;
+Calibration of a sensor is one of the most important steps in the fuel management process. Further calculations depend on how well the sensor is calibrated. The calibration must meet certain requirements to ensure accurate and reliable measurements.
 
 {% hint style="info" %}
 When conducting calibrations, it is crucial to follow the fuel level gauge manufacturer's standards and recommendations. Additionally, it is recommended to perform a minimum of 20 spills. It's important to remember that taring should not be a one-time event; instead, it should be carried out annually to uphold quality standards. Furthermore, one should take into account environmental and external factors that may impact the functioning of fuel level sensors, including ambient temperature, vibrations, pollution, and more.

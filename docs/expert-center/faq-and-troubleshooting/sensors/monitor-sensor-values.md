@@ -67,7 +67,7 @@ Next, we'll mirror this setup for the humidity sensor.
 
 Excellent, we now have a pair of measurement sensors actively collecting data.
 
-For the door sensor, we recommend establishing [a virtual sensor](https://docs.navixy.com/user-guide/virtual-sensors). This sensor can be configured to use the 'source value' calculation method. You can determine its state and value based on the provided table. This sensor has just two states - indicating whether the doors are open or closed.
+For the door sensor, we recommend establishing [a virtual sensor](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/vehicle-sensors/virtual-sensors). This sensor can be configured to use the 'source value' calculation method. You can determine its state and value based on the provided table. This sensor has just two states - indicating whether the doors are open or closed.
 
 ![Doors sesnor](attachments/image-20231011-060526.png)
 

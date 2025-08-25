@@ -71,7 +71,7 @@ With that in place, you’ll be notified as soon as anything unexpected happens�
 
 Managing alerts in a growing fleet shouldn’t mean more manual work. Whether you're switching out devices often or dealing with complex conditions in the field, Navixy gives you two powerful ways to stay ahead:
 
-* [Navixy API tools](broken-reference) help you automate at scale.
+* [Navixy API tools](https://www.navixy.com/docs/developers) help you automate at scale.
 * [IoT Logic](https://www.navixy.com/iot-logic/) offers flexibility for complex scenarios.
 
 **Final thoughts**
