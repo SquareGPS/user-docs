@@ -3,7 +3,7 @@
 The Navixy platform offers a configuration wizard that users can utilize to configure the platform initially or modify some common settings. While all the settings described below can be directly applied to the database and service configurations, doing so can be risky if not handled with care. To avoid any potential risks, it is strongly recommended to use the configurator.
 
 {% hint style="info" %}
-Configuration wizard can only be used for Navixy instances installed automatically ([Ubuntu 20 and 22](https://squaregps.slite.com/app/docs/PyLRLQz4avkHAB)). For the platforms that installed manually on Linux ([Install on Linux](https://squaregps.slite.com/app/docs/qmvgpEtWfIvpJN)) or Windows ([Install on Windows](https://squaregps.slite.com/app/docs/gKhn4gyNRiKTXO)) the configuration wizard is not available.
+Configuration wizard can only be used for Navixy instances deployed with installation script on Ubuntu. This wizard is not applicable for other deployment methods.
 {% endhint %}
 
 ## Launching configuration wizard
