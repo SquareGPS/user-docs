@@ -1,4 +1,4 @@
-# Mettax integration for video telematics
+# Mettax
 
 Video telematics is a vital functionality for many businesses. There are proprietary solutions that handle video feed from dashcams but offer limited possibilities for telematic readings of such devices. For this reason, we broadened our approach to integrations so our clients can make use of existing 3rd-party applications for video and benefit from Navixy’s extended telematics features at the same time.
 
@@ -6,7 +6,7 @@ Mettax is a great example of this scenario. Let’s see how easy it is to integr
 
 {% stepper %}
 {% step %}
-### Establishing integration
+#### Establishing integration
 
 First, you need to make the necessary preparations on the Mettax side.
 
@@ -26,9 +26,9 @@ In Mettax, device data is stored under individual user accounts. If your organiz
    2. Go to **Details**.
    3. Open the **WEBHOOK** tab.
    4. Find these three webhooks, you will need to edit them:\
-      ![Mettax-webhooks.png](attachments/Mettax-webhooks.png)&#x20;
-      1. **pushDeviceInfo**&#x20;
-      2. **pushAlarm**&#x20;
+      ![Mettax-webhooks.png](attachments/Mettax-webhooks.png)
+      1. **pushDeviceInfo**
+      2. **pushAlarm**
       3. **pushGpsInfo**
    5. Click **Edit** in the needed webhook’s row to open its parameters.
    6. Fill in the URL field with your Navixy instance address, depending on the region: 1. EU - https://mettax-tracker.navixy.com 2. US - https://mettax-tracker.us.navixy.com
@@ -41,7 +41,7 @@ Your Mettax account is ready for the integration!
 {% endstep %}
 
 {% step %}
-### Adding a Mettax device to Navixy
+#### Adding a Mettax device to Navixy
 
 Navixy platform handles the GPS functionality of video devices and their telematic abilities. To make the most of the integration, you need to add your Mettax device to the platform, following the usual procedure:
 
@@ -59,13 +59,13 @@ Your device and Navixy account are ready for the integration!
 {% endstep %}
 
 {% step %}
-### Embedding Mettax in Navixy UI
+#### Embedding Mettax in Navixy UI
 
 At this step, we perform the actual integration.\
 Navixy offers [User applications](../account/user-applications/) functionality that allows embedding 3rd-party apps directly in the platform’s interface. We will use it to embed Mettax.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 **User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -84,8 +84,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy’s left sidebar. Open it and log in with your Mettax credentials.
 
-<p align="center"> <img src="attachments/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original"></p>
+<img src="attachments/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original">
 {% endhint %}
 {% endstep %}
 {% endstepper %}
-

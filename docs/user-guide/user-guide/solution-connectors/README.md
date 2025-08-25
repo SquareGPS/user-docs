@@ -1,4 +1,4 @@
-# Solution connectors
+# Video telematics
 
 Every day businesses struggle with disconnected hardware and software tools that don't work together. In the telematics industry, this fragmentation makes it difficult to collect and analyze data effectively.
 
@@ -6,7 +6,7 @@ Understanding these challenges, Navixy is building a connected ecosystem by inte
 
 By integrating with 3rd-party solutions, we're creating a more unified telematics experience that gives businesses efficient access to comprehensive capabilities without the complexity of managing multiple disconnected systems.
 
-## Available connectors
+## Available video telematics providers
 
 Explore our growing ecosystem of connected solutions below. Each integration page provides detailed information about the solution's capabilities, compatibility specifications, and step-by-step integration instructions to help you extend Navixy's functionality according to your business requirements.
 
