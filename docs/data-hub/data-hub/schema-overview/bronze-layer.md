@@ -11,13 +11,17 @@ Please find detailed information about data schemas below.
 
 This schema contains 40+ carefully selected tables to cover many business aspects and use cases. These tables represent your core business entities, organizational structure, and operational data.
 
-!\[V2 business bronze.svg]\(attachments/V2 business bronze.svg)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The interactive diagram of raw\_business\_data schema is available on **dbdiagram.io** - [https://dbdiagram.io/d/V2-business-bronze-67c1961c263d6cf9a0cb4e97](https://dbdiagram.io/d/V2-business-bronze-67c1961c263d6cf9a0cb4e97)
 {% endhint %}
 
 Find raw business data schema details below.
+
+<details>
+
+<summary>raw_business_data schema</summary>
 
 ```sql
 Table "vehicle_service_tasks" {
@@ -650,6 +654,8 @@ Ref: users.user_id < devices.owner_id
 Ref: users.user_id < objects.client_id
 ```
 
+</details>
+
 ### Update frequency
 
 Data in this schema is synchronized with the core DB. Updates occur incrementally as changes happen in the source MySQL database, typically less than 5 minutes of the source change.
@@ -695,13 +701,17 @@ The tables in the `raw_business_data` schema are organized into functional categ
 
 The `raw_telematics_data` schema contains three primary table types that work together to provide comprehensive device data.
 
-![Navixy PLT - Bronze layer raw telematics data ERD](attachments/image-20250401-075804.png)
+![Bronze layer raw telematics data ERD](attachments/image-20250401-075804.png)
 
 {% hint style="info" %}
 The interactive diagram of raw\_telematics\_data schema is available on **dbdiagram.io** - [https://dbdiagram.io/d/v1-schema-telematik-bd-67a0acef263d6cf9a0d8e750](https://dbdiagram.io/d/v1-schema-telematik-bd-67a0acef263d6cf9a0d8e750)
 {% endhint %}
 
 Find raw telematics data schema details below.
+
+<details>
+
+<summary>raw_telematics_data schema</summary>
 
 ```sql
 Table tracking_data_core {
@@ -747,6 +757,8 @@ Ref: inputs.(device_id, device_time) > tracking_data_core.(device_id, device_tim
 Ref: states.(device_id, device_time) > tracking_data_core.(device_id, device_time)
 
 ```
+
+</details>
 
 Each table serves a specific purpose in capturing different aspects of device information:
 

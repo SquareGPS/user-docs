@@ -10,7 +10,7 @@ Your journey with Data Hub begins with the connection credentials provided in yo
 * SSL mode settings
 
 {% hint style="info" %}
-If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/user-guide/quick-start/service-provider) for access to Data Hub.
+If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/quick-start/about-service-providers) for access to Data Hub.
 {% endhint %}
 
 From there, your path forward is straightforward:
