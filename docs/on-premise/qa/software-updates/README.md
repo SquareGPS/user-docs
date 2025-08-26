@@ -28,8 +28,8 @@ To perform an upgrade for your Navixy On-Premise instance, you need the latest d
 
 To perform updates on Navixy platform, first, upload the distribution package received from technical support to your server(s). Then, follow the update instructions for your specific operating system carefully:
 
-* [Linux – Update](../../on-premise-how-to-guide/installation/update/update-linux/)
-* [Windows – Update](../../on-premise-how-to-guide/installation/update/update-windows/)
+* [Linux – Update](../../readme/on-premise-how-to-guide/installation/update/update-linux/)
+* [Windows – Update](../../readme/on-premise-how-to-guide/installation/update/update-windows/)
 
 It is important to note that updating involves making changes to the database, replacing system files, and restarting services, which may result in users having trouble accessing the platform during that time.
 
