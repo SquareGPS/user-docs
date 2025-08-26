@@ -12,7 +12,7 @@ This section provides an overview of the Data Hub data schemas structure, helpin
 * Upcoming enhancements to the data structure
 
 {% hint style="info" %}
-**Key terms:**
+#### **Key terms:**
 
 * **Layer**: A level in a data warehouse that represents a stage of data processing, organization, or access, each with a distinct function.
 * **Schema**: A logical grouping of database objects (tables, views, etc.)
@@ -50,15 +50,13 @@ Further in this documentation section, you will find more detailed data schemas 
 
 Each client has a dedicated database instance to ensure data isolation and security. Within this database:
 
-| **Schema**                | **Description**                        | **Content**                                                                             |
-| ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------- |
-| **raw\_business\_data**   | Business entities and operational data | Core entity tables, operational data, reference data, history data, relationship tables |
-| **raw\_telematics\_data** | Device tracking and sensor data        | Core tracking data, input data, state data                                              |
-| **Reference data**        | System reference data                  | description\_parameters table                                                           |
+<table><thead><tr><th width="189.9090576171875">Schema</th><th width="225.3636474609375">Description</th><th>Content</th></tr></thead><tbody><tr><td><strong><code>raw_business_data</code></strong></td><td>Business entities and operational data</td><td>Core entity tables, operational data, reference data, history data, relationship tables</td></tr><tr><td><strong><code>raw_telematics_data</code></strong></td><td>Device tracking and sensor data</td><td>Core tracking data, input data, state data</td></tr><tr><td><code>repo</code></td><td>Asset and inventory management</td><td>Asset type definitions, custom fields, asset instances, asset relationships, inventory hierarchies, geospatial data</td></tr><tr><td><strong>Reference data</strong></td><td>System reference data</td><td>description_parameters table</td></tr></tbody></table>
 
-When querying data, you must specify both the schema (`raw_business_data`) and table (`objects`) name:
+When querying data, you must specify both the schema (e.g. `raw_business_data`) and table (e.g. `objects`) name:
 
-`SELECT * FROM raw_business_data.objects;`
+```sql
+SELECT * FROM raw_business_data.objects;
+```
 
 ### Client metadata and data isolation
 
