@@ -64,7 +64,7 @@ We've structured your data using a multi-layered architecture that balances imme
 {% endcolumn %}
 {% endcolumns %}
 
-#### Who can benefit from this platform?
+### Who can benefit from this platform?
 
 **Data analysts** will appreciate direct SQL access to build custom reports and extract insights that answer specific business questions.
 
