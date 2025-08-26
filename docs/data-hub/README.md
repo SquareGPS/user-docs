@@ -64,7 +64,7 @@ We've structured your data using a multi-layered architecture that balances imme
 {% endcolumn %}
 {% endcolumns %}
 
-## Who can benefit from this platform?
+#### Who can benefit from this platform?
 
 **Data analysts** will appreciate direct SQL access to build custom reports and extract insights that answer specific business questions.
 
@@ -72,7 +72,7 @@ We've structured your data using a multi-layered architecture that balances imme
 
 **Developers** gain the ability to create seamless integrations between operational data and other business systems through standard database connections.
 
-## Data Hub demonstration application
+## Data Hub demo application
 
 To showcase the analytical potential of your PTL database, we provide a Data Hub Analytics App - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
 
