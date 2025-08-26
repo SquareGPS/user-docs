@@ -671,7 +671,7 @@ The system includes reference data to standardize values across the database:
 
 The tables in the `raw_business_data` schema are organized into functional categories for easier navigation. The table below summarizes key tables by their business purpose:
 
-## Database Schema Overview
+### Database Schema Overview
 
 <table><thead><tr><th width="154.4544677734375">Category</th><th width="211.45458984375">Table name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Organizational structure</strong></td><td><ol><li>users</li><li>departments</li><li>employees</li><li>groups</li></ol></td><td><ol><li>User accounts with profile information</li><li>Departments with geolocation data</li><li>Employee and driver details</li><li>Tracker organization groups</li></ol></td></tr><tr><td><strong>Objects and devices</strong></td><td><ol><li>devices</li><li>models</li><li>bjects</li><li>vehicles</li><li>sensor_description</li></ol></td><td><ol><li>Physical tracking devices</li><li>Device model specifications</li><li>Monitored objects</li><li>Vehicle details and specifications</li><li>Sensor configuration details</li></ol></td></tr><tr><td><strong>Places and zones</strong></td><td><ol><li>places</li><li>zones</li><li>garages</li><li>tags</li></ol></td><td><ol><li>Points of interest with geolocation</li><li>Geofenced monitoring areas</li><li>Vehicle service locations</li><li>Organizational labels</li></ol></td></tr><tr><td><strong>Operational data</strong></td><td><ol><li>tasks</li><li>forms</li><li>checkins</li><li>events</li><li>statuses</li><li>vehicle_service_tasks</li></ol></td><td><ol><li>Task assignments and tracking </li><li>Data collection forms</li><li>Location-based attendance records</li><li>System events and notifications</li><li>Status definitions</li><li>Vehicle maintenance records</li></ol></td></tr></tbody></table>
 
@@ -737,6 +737,8 @@ Ref: states.(device_id, device_time) > tracking_data_core.(device_id, device_tim
 ```
 
 </details>
+
+### Key tables by category
 
 Each table serves a specific purpose in capturing different aspects of device information:
 
