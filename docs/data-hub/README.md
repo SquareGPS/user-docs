@@ -1,8 +1,21 @@
+---
+cover: .gitbook/assets/Data-Hub-cover.png
+coverY: 0
+---
+
 # Data Hub
 
 ## Introduction
 
+{% columns %}
+{% column width="58.333333333333336%" %}
 Navixy's **Data Hub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
+{% endcolumn %}
+
+{% column width="41.666666666666664%" %}
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 ## Your data journey
 
