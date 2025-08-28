@@ -1,4 +1,4 @@
-# Streamax integration for video telematics
+# Streamax
 
 Streamax is a leading MDVR manufacturer, well-proven in the global market. With their devices, you can enable 24/7 video recording from your vehicles, collect telematics data, remotely access video footage, and monitor driving safety using ADAS (Advanced Driver Assistance Systems) and DSM (Driver Status Monitoring) technologies.
 
@@ -6,11 +6,11 @@ By integrating Streamax with Navixy, you get comprehensive video monitoring comb
 
 {% stepper %}
 {% step %}
-### Establishing integration
+#### Establishing integration
 
 To establish the integration, you'll need to obtain API credentials from your Streamax account and request integration setup from our support team.
 
-#### Get API credentials from Streamax
+**Get API credentials from Streamax**
 
 1. **Obtain API Key and Secret**: Follow the authentication process as described in the [Streamax Sign Authentication documentation](https://ftcloud.streamax.com:20002/DOC/Sign%20Authentication) to obtain your API key and secret.
 2. **Contact Navixy**: Once you have your API credentials, contact your Customer Success Manager or use [this form](https://www.navixy.com/contact/). Send a request to integrate Streamax with your Navixy account, containing the following information:
@@ -28,7 +28,7 @@ After you receive the confirmation from our support, your Streamax account is re
 {% endstep %}
 
 {% step %}
-### Adding a Streamax device to Navixy
+#### Adding a Streamax device to Navixy
 
 After receiving confirmation from our support team that the integration is ready, you can add your Streamax device to the platform. To do it, follow the usual device activation procedure:
 
@@ -46,13 +46,13 @@ Your device and Navixy account are ready for the integration!
 {% endstep %}
 
 {% step %}
-### Embedding Streamax in Navixy UI
+#### Embedding Streamax in Navixy UI
 
 At this step, we perform the actual integration by embedding the Streamax dashboard into your Navixy interface.\
 Navixy offers [User applications](../account/user-applications/) functionality that allows embedding 3rd-party apps directly in the platform’s interface. We will use it to embed Mettax.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 **User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -71,8 +71,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy's left sidebar. Open it and log in with your Streamax credentials to access your comprehensive video telematics dashboard with 360° monitoring, AI-powered event detection, and multi-channel video feeds - all integrated with your existing Navixy fleet management tools.
 
-<p align="center"> <img src="attachments/image-20250714-161156.png" alt="image-20250714-161156.png"></p>
+<img src="attachments/image-20250714-161156.png" alt="image-20250714-161156.png" data-size="original">
 {% endhint %}
 {% endstep %}
 {% endstepper %}
-

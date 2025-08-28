@@ -6,7 +6,7 @@
 Please make sure the platform is configured properly before you create a fuel report, so events could be recognized properly:
 
 * Check [sensor settings](../sensors-setup-and-configuration.md)
-* Check [parking detection settings](https://docs.navixy.com/user-guide/parking-detection)
+* Check [parking detection settings](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/location-and-movement/parking-detection-widget)
 {% endhint %}
 
 ### Refills and drains in reports
@@ -21,7 +21,7 @@ In the report, a "filling" event is documented when the fuel level increases by 
 
 Once you have enabled one or both options for ignoring - the next algorithm will be used for reports and alerts in addition to standard:
 
-* If refueling begins during the [parking time](https://docs.navixy.com/user-guide/parking-detection), it will be displayed in the report and logged by the rule. Additionally, if refueling starts within X minutes of the filter timeout before parking or within X minutes of the filter timeout after the trip starts, it will also be logged by the rule and shown in the report.
+* If refueling begins during the [parking time](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/events-and-notifications/movement-monitoring/parking-state-detection), it will be displayed in the report and logged by the rule. Additionally, if refueling starts within X minutes of the filter timeout before parking or within X minutes of the filter timeout after the trip starts, it will also be logged by the rule and shown in the report.
 * However, if refueling starts earlier than X minutes from the filter timeout before parking or later than X minutes from the filter timeout since the beginning of the trip, it will be filtered out.
 * In cases where no filter timeout is specified, all refills that start during trips will be filtered.
 
@@ -53,7 +53,9 @@ The report displays graphs based on the sensor readings sent by the unit. From t
 * Continuous transmission of fuel level data between the device and platform is crucial. If the data is not consistently received or is inaccurate, it may lead to graph display issues or incorrect calculations on the platform.
 * The recorded values in the report are influenced by the fuel level sensor settings, which are vital for calculating drains and refills. You have the flexibility to modify the sensor settings at any given point and generate a fresh report. Additionally, the results obtained are directly impacted by the report parameters, making them a crucial factor to consider.
 
-> \[!INFO] Once you modify the sensor settings, you have the option to regenerate the report for that specific time frame using different settings. This enables the changes to be implemented into the recorded data seamlessly.
+{% hint style="info" %}
+Once you modify the sensor settings, you have the option to regenerate the report for that specific time frame using different settings. This enables the changes to be implemented into the recorded data seamlessly.
+{% endhint %}
 
 ## How the fuel reading and report works
 
@@ -207,7 +209,7 @@ The information in the table is organized in the following columns:
 * GPS and flow rate data
   * Mileage, km - information about the mileage calculated by GPS on the beacon side.
   * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://docs.navixy.com/user-guide/fleet#Fleetmanagement-Vehicles) card.
+  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/fleet-management/vehicles) card.
 * Fuel level sensor data - data that the platform has received from the fuel level sensor.
   * Initial volume, l - initial fuel level for the day.
   * Final volume, l - final fuel level for the day.
@@ -255,18 +257,18 @@ The data from the string can be read like this:
 
 On September 1, 2023, the minimum fuel level in the tank was 16.5 liters, which was also the highest minimum value for the entire period. And the maximum that day was 47.6 liters. The average value of fuel level in the tank was 33.55 liters.
 
-## Quality of fuel level sensor readings \[LAB]&#x20;
+## Quality of fuel level sensor readings \[LAB]
 
 This section provides information on fuel level sensor reading quality assessment for the sensor raw data and calibration table.
 
-**Fuel sensor quality index (FSQI)** is calculated by analyzing the noise of raw data from all types of fuel level sensors including OEM and standalone fuel level sensors.&#x20;
+**Fuel sensor quality index (FSQI)** is calculated by analyzing the noise of raw data from all types of fuel level sensors including OEM and standalone fuel level sensors.
 
 This information may be useful to customers who are analyzing fuel calculations and graphs and would like to better understand the nature of fuel data, for example, why the graph is jagged.
 
 If there is enough data to calculate a quality score for the sensor indicators, the algorithm will output a quantitative and a qualitative result:
 
 * The quantitative result will be represented as a score from 1.0 to 10.0, where 1 means low quality of sensor indicators, 10 means high quality of fuel level sensor indicators.
-* The qualitative indicator is expressed in one of three characteristics: **low**, for sensors with a quality score from 1.0 to 3.9, **medium** for sensors with a score of 4.0 to 7.9 and **high**, with a score of 8.0 to 10.0 respectively.&#x20;
+* The qualitative indicator is expressed in one of three characteristics: **low**, for sensors with a quality score from 1.0 to 3.9, **medium** for sensors with a score of 4.0 to 7.9 and **high**, with a score of 8.0 to 10.0 respectively.
 
 If there is insufficient data for calculation, for example, if the sensor has been used recently, the system will display the following message: "Insufficient data to assess the quality of fuel sensor readings. The most probable reasons are: insufficient number of car journeys during the selected period, too infrequent interval of fuel data acquisition or poor quality of sensor calibration on the platform. The minimum recommended period to assess the quality of readings is from 14 days of active vehicle operation."
 

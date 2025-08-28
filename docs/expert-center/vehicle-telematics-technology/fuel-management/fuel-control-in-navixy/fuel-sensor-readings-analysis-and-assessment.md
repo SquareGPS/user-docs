@@ -69,8 +69,10 @@ What is important to know about calibration table fulfillment - **the number of 
 
 Here is the example of the good calibration table
 
-![](attachments/image-20231219-113955.png)
+![](<attachments/image-20231219-113955 (2).png>)
 
-> \[!INFO] There is no need to calibrate OEM sensors that transmit data in liters.
+{% hint style="info" %}
+There is no need to calibrate OEM sensors that transmit data in liters.
+{% endhint %}
 
 Please refer to the specialized resource for more information on the [calibration process.](../fundamentals-of-fuel-management/fuel-level-sensor-calibration-tare.md)

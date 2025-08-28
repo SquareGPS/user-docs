@@ -4,7 +4,7 @@
 
 {% columns %}
 {% column %}
-### **Features:**
+#### **Features:**
 
 * Real-time asset location tracking
 * Monitoring sensor data from installed GPS devices
@@ -25,4 +25,3 @@
 <p align="center"><a href="https://apps.apple.com/us/app/x-gps-mobile/id6739621705">App Store</a></p>
 {% endcolumn %}
 {% endcolumns %}
-

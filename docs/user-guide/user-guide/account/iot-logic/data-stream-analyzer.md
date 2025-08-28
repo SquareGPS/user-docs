@@ -12,7 +12,7 @@
 Unlike conventional vendor-specific solutions, **Data Stream Analyzer** offers universal device compatibility and remote troubleshooting capabilities through a single technical interface, significantly reducing the time and complexity of device diagnostics.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 **Data Stream Analyzer** is available to account **Owners** in the **Account Settings** section. To access it:
 

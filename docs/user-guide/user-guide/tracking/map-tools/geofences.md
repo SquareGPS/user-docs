@@ -24,19 +24,19 @@ To create a geofence, follow these steps:
 
 {% stepper %}
 {% step %}
-#### Locate the desired area on the map&#x20;
+**Locate the desired area on the map**
 
 Use **Quick search**.
 {% endstep %}
 
 {% step %}
-#### Open the **Geofences** tool
+**Open the Geofences tool**
 
 Click <img src="../../gps-tracking/map-tools/attachments/image-20250425-083834.png" alt="image-20250425-083834.png" data-size="line"> in the top-right corner of the map.
 {% endstep %}
 
 {% step %}
-#### Select geofence type&#x20;
+**Select geofence type**
 
 Hover the cursor over the <img src="../../gps-tracking/map-tools/attachments/image-20250325-150554-20250425-083602.png" alt="New geofence" data-size="line"> button and select the geofence you want to create:
 
@@ -54,19 +54,19 @@ Hover the cursor over the <img src="../../gps-tracking/map-tools/attachments/ima
 {% endstep %}
 
 {% step %}
-#### Name your new geofence
+**Name your new geofence**
 
 Enter the name of the geofence into the **Geofence label** field.
 {% endstep %}
 
 {% step %}
-#### Select color
+**Select color**
 
 Choose the color for better visualization on the map. This is particularly useful when managing multiple geofences, as different colors can quickly differentiate between various zones. The color selection tool allows setting a specific color and viewing its HEX code.
 {% endstep %}
 
 {% step %}
-### Use tags
+#### Use tags
 
 Add or modify tags to categorize and organize geofences. Tags like "Central" and "West" help in sorting and managing multiple geofences.
 {% endstep %}

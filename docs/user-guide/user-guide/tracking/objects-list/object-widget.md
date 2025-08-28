@@ -3,7 +3,7 @@
 In Navixy, **Object widget** serves as a comprehensive collection of telematics data blocks for monitoring and managing your fleet. It provides an in-depth look at your business assets, GPS devices, and the sensors connected to them.
 
 {% hint style="info" %}
-### **Navigation**
+#### **Navigation**
 
 * By default, to access the detailed view of a specific object, either click the object’s icon on the map or hover your mouse over it and click the appearing <img src="../../gps-tracking/objects-list/attachments/30a5254e-69b1-4b7a-ae95-fe62476c8574" alt="Info_Icon.png" data-size="line"> button.
 * If the **Show info by click** option is enabled in the [Additional settings](./#additional-settings), clicking on an object also opens the **Object widget**.

@@ -1,4 +1,4 @@
-# Lightmetrics integration for video telematics
+# Lightmetrics
 
 Lightmetrics is a leading provider of AI-powered video telematics solutions, specializing in edge AI technology and no-code platform deployment. Their flagship RideView platform is designed specifically for telematics service providers (TSPs) and OEMs, enabling deployment of advanced video telematics in just 3 weeks. With hardware-agnostic capabilities, RideView works across multiple dash camera types, including exclusive access to Suntech ST9730 and support for the popular Jimi JC450, while delivering efficient edge AI for real-time driver coaching and fleet safety management.
 
@@ -6,11 +6,11 @@ By integrating Lightmetrics with Navixy, you get intelligent video analytics wit
 
 {% stepper %}
 {% step %}
-### Establishing integration
+#### Establishing integration
 
 To establish the integration, you'll need to set up your Lightmetrics Master account and configure proper account matching between your Lightmetrics and Navixy systems.
 
-#### Request Master account creation (one-time setup)
+**Request Master account creation (one-time setup)**
 
 1. **Contact Navixy**: Send a request to your Customer Success Manager or use [this form](https://www.navixy.com/contact/) to request Lightmetrics Master account creation. Include the following information:
    1. Your Navixy account details
@@ -19,7 +19,7 @@ To establish the integration, you'll need to set up your Lightmetrics Master acc
 
 After you receive the Master account credentials, you can proceed with the account configuration steps below.
 
-#### Configure Lightmetrics account (per-customer setup)
+**Configure Lightmetrics account (per-customer setup)**
 
 Once you have access to your Lightmetrics Master account, you'll need to create and configure accounts for each of your customers. In Lightmetrics, "Accounts" and "Fleets" refer to the same entity but appear with different names in different UI sections.
 
@@ -38,7 +38,7 @@ After completing these steps, your Lightmetrics Master account is ready for inte
 {% endstep %}
 
 {% step %}
-### Adding devices to Navixy
+#### Adding devices to Navixy
 
 Since Lightmetrics is device-agnostic, you can add any compatible devices to the platform following the standard device activation procedure. The only requirement is that the device should already exist in your Lightmetrics account.
 
@@ -60,13 +60,13 @@ Your device and Navixy account are ready for the integration!
 {% endstep %}
 
 {% step %}
-### Embedding Lightmetrics in Navixy UI
+#### Embedding Lightmetrics in Navixy UI
 
 At this step, we perform the actual integration by embedding the Lightmetrics dashboard into your Navixy interface.\
 Navixy offers [User applications](../account/user-applications/) functionality that allows embedding 3rd-party apps directly in the platform's interface. We will use it to embed Lightmetrics.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 **User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -88,8 +88,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new Lightmetrics application appears automatically in Navixy's left sidebar. Open it to access your comprehensive video telematics dashboard with AI-powered event detection, real-time driver coaching, multi-channel video feeds, and advanced safety analytics - all integrated with your existing Navixy fleet management tools.
 
-<p align="center"><img src="../../.gitbook/assets/Lightmetrics-embedded.webp" alt=""></p>
+<img src="../../.gitbook/assets/Lightmetrics-embedded.webp" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 {% endstepper %}
-
