@@ -50,7 +50,7 @@
       * [Certification in US](vehicle-telematics-technology/legistlation/gps-device-certification/certification-in-us.md)
       * [Certification in Canada](vehicle-telematics-technology/legistlation/gps-device-certification/certification-in-canada.md)
       * [Certification in Mexico and Latin America](vehicle-telematics-technology/legistlation/gps-device-certification/certification-in-mexico-and-latin-america.md)
-* [FAQ and Troubleshooting](faq-and-troubleshooting/README.md)
+* [FAQ and troubleshooting](faq-and-troubleshooting/README.md)
   * [GPS devices](faq-and-troubleshooting/gps-devices/README.md)
     * [Add and manage devices](faq-and-troubleshooting/gps-devices/add-and-manage-devices/README.md)
       * [Device Connection Status](faq-and-troubleshooting/gps-devices/add-and-manage-devices/device-connection-status.md)
