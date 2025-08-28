@@ -62,7 +62,7 @@ We've structured your data using a multi-layered architecture that balances imme
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src=".gitbook/assets/image.png" alt="Data pipeline overview Your data flows through a comprehensive pipeline before reaching the warehouse: Business data is collected from client’s cabinet Telematics data streams directly from devices Reference metadata is loaded to enable proper data mapping and relationships Data is stored in the appropriate layer based on its processing stage"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt="Data pipeline overview Your data flows through a comprehensive pipeline before reaching the warehouse: Business data is collected from client’s cabinet Telematics data streams directly from devices Reference metadata is loaded to enable proper data mapping and relationships Data is stored in the appropriate layer based on its processing stage"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
