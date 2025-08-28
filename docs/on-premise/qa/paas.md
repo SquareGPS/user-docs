@@ -8,7 +8,7 @@ To create Navixy PaaS instance, login to the [Customer portal](https://portal.na
 
 ![](../on-premise/qa/attachments/image-20230810-140538.png)
 
-Continue through the dialog to create your Navixy PaaS instance. The instance will be created momentarily and you will be able to [Manage](../readme/on-premise-how-to-guide/) the platform using the [Admin panel](https://panel.navixy.com), such as changing the URL address of the user web interface (by default it will be `https://*****.navixy.com`), branding, regional settings and more.
+Continue through the dialog to create your Navixy PaaS instance. The instance will be created momentarily and you will be able to [Manage](../on-premise/on-premise-how-to-guide/) the platform using the [Admin panel](https://panel.navixy.com), such as changing the URL address of the user web interface (by default it will be `https://*****.navixy.com`), branding, regional settings and more.
 
 ![](../on-premise/qa/attachments/image-20230810-140557.png)
 
