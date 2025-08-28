@@ -18,7 +18,7 @@ From our research and development, we've made a new tool. This tool lets TSPs, i
 
 We picked the CSV file format for its simplicity and common use. It's easy to turn into tables or give to programs that use artificial intelligence or machine learning.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Raw data export</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Raw data export</p></figcaption></figure>
 
 ### Raw data export features
 

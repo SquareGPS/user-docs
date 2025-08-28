@@ -10,13 +10,13 @@ The creation dialogue window contains the following options:
 
 {% stepper %}
 {% step %}
-### Description (optional)
+#### Description (optional)
 
 An information field that stores additional custom information about the link. The maximum length is 100 characters.
 {% endstep %}
 
 {% step %}
-### Select objects and data
+#### Select objects and data
 
 The list of objects available through the link. Each object has the following list of options to be specified upon adding the object:
 
@@ -46,7 +46,7 @@ Use the copy button to apply the same attribute list to all other objects in the
 {% endstep %}
 
 {% step %}
-### Map settings
+#### Map settings
 
 **Map provider:** Select the map that you want your geo link end users to see by the generated geo link. The list of maps is specified by the platform service provider.
 
@@ -65,7 +65,7 @@ Use the copy button to apply the same attribute list to all other objects in the
 {% endstep %}
 
 {% step %}
-### Show on map
+#### Show on map
 
 Choose which stationary entities you want to show on the geo link’s map.
 
@@ -78,7 +78,7 @@ Choose which stationary entities you want to show on the geo link’s map.
 {% endstep %}
 
 {% step %}
-### Save Geo link
+#### Save Geo link
 
 Click **Create** to open a pop-up dialogue with the generated link. The link can be copied and provided to end users or shared via the social network buttons:
 

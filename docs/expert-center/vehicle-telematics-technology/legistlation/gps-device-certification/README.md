@@ -51,6 +51,6 @@ GPS tracking devices must meet the national standards of every country where the
 
 Read more about GPS tracker certifications in the following countries:
 
-* [United States](https://www.navixy.com/docs/academy/trackers/certification/us/)
-* [Canada](https://www.navixy.com/docs/academy/trackers/certification/canada/)
-* [Mexico & LATAM](https://www.navixy.com/docs/academy/trackers/certification/latin-america-mexico/)
+* [United States](certification-in-us.md)
+* [Canada](certification-in-canada.md)
+* [Mexico & LATAM](certification-in-mexico-and-latin-america.md)

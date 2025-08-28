@@ -54,5 +54,5 @@ First of all, because it is only trips that are taken into account, and not all 
 But most often, this happens due to incorrect settings for "Parking detection". The easiest way to check this is to display all trips for the day on the map and see if there are large gaps between them and if each trip is a continuation of the previous one.
 
 {% hint style="info" %}
-If necessary, read the [Parking detection](https://docs.navixy.com/user-guide/parking-detection) instructions in order to correct possible problems.
+If necessary, read the [Parking detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/location-and-movement/parking-detection-widget) instructions in order to correct possible problems.
 {% endhint %}

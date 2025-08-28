@@ -4,7 +4,7 @@ X-GPS Monitor helps you to stay aware of what’s happening with your objects: e
 
 {% columns %}
 {% column %}
-### **Basic features**:
+#### **Basic features**:
 
 * Location of the objects online
 * The track history for any period
@@ -22,4 +22,3 @@ X-GPS Monitor helps you to stay aware of what’s happening with your objects: e
 <p align="center"><a href="https://play.google.com/store/apps/details?id=com.navixy.xgps.client.app">Google Play</a><br><a href="https://apps.apple.com/us/app/x-gps-monitor/id883610994">App Store</a></p>
 {% endcolumn %}
 {% endcolumns %}
-

@@ -10,7 +10,7 @@ If there is no data received from the sensor on the platform, please follow next
 
 1. First of all please make sure, that sensor has enough power supply and works correctly
 2. Sensor is connected to the device according to the user manuals
-3. Sensor is added and [configured](https://docs.navixy.com/user-guide/devices-and-settings) in the device settings section on the platform
+3. Sensor is added and [configured](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings) in the device settings section on the platform
 4. Please check, that data is parsed and shown in the [air console](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console), if there is no data from the device in the gprs-terminal, it means that currently device is not sending any data
 5. Input number in the device settings and the device’s input number, which is used for this sensor, should be same
 
@@ -26,7 +26,7 @@ This section is for the cases, when your device uses OBDII/CAN interface for the
 
 This section is for the cases, when the real units of measure and the units received from the sensor data are different
 
-1. Make sure, that sensor is configured correctly and [calibration table is filled](https://docs.navixy.com/user-guide/measurement-sensor) (if needed)
+1. Make sure, that sensor is configured correctly and [calibration table is filled](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/vehicle-sensors/measurement-sensors) (if needed)
 2. Follow through the all recommendations from the user manuals, please be advised, that in some cases it is necessary to use dividers
 
 ![Sensors management](attachments/image-20231130-085310.png)
@@ -38,7 +38,7 @@ This sections is for the cases, when the values received from the sensor does no
 ![](https://www.navixy.com/wp-content/uploads/2019/05/fuel-tank-is-inclined.png)
 
 1. Please check, that data is parsed and shown in the [air console](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console), if there is no data from the device in the gprs-terminal, it means that currently device is not sending any data
-2. [Calibration table](https://docs.navixy.com/user-guide/measurement-sensor) should be filled correctly according to the sensor user manual (if needed), also “drains” detection parameters should be specified correctly
+2. [Calibration table](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/vehicle-sensors/measurement-sensors) should be filled correctly according to the sensor user manual (if needed), also “drains” detection parameters should be specified correctly
 
 ![](attachments/image-20231130-085604.png)
 

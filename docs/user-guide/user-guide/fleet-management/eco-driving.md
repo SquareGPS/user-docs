@@ -30,7 +30,7 @@ The Eco Driving report in Navixy is designed to evaluate and score the driving b
 
 Below are detailed explanations of how these penalty points are calculated and how they affect the overall driver score. These detailed calculations and reports allow fleet managers to assess driving behavior comprehensively, promoting safer and more efficient driving practices across their fleet.
 
-### Speeding violations
+#### Speeding violations
 
 Speeding violations are penalized based on how much a driver exceeds the speed limit and for how long. You can either set a universal speed limit or use vehicle-specific speed limits.
 
@@ -44,7 +44,7 @@ For instance, if a vehicle exceeds the speed limit by 21 km/h for a duration of 
 
 `0.616 × 10 = 6.16 penalty points`
 
-### Harsh driving violations
+#### Harsh driving violations
 
 Harsh driving events, such as rapid acceleration, sudden braking, and sharp turns, are recorded by GPS trackers equipped with acceleration sensors. The severity of each harsh driving event can be customized, and penalty points are assigned accordingly.
 
@@ -52,7 +52,7 @@ Harsh driving events, such as rapid acceleration, sudden braking, and sharp turn
 
 Each harsh driving event automatically incurs a preset number of penalty points. These points are deducted from the driver’s overall score based on the frequency of these events.
 
-### Excessive idling violations
+#### Excessive idling violations
 
 Excessive idling is monitored when a vehicle remains stationary with the engine running for an extended period. Penalty points are assigned based on how long the vehicle idles beyond a predefined threshold.
 
@@ -62,7 +62,7 @@ For example, if a vehicle idles for 8 minutes and 14 seconds and the threshold i
 
 `3.23 × 5 = 16.17 penalty points`
 
-### Total for the period page
+#### Total for the period page
 
 The "Total for the period" section provides an overview of all penalties and scores for each driver or vehicle over the selected period. It includes a graphical representation and detailed tables.
 
@@ -74,19 +74,19 @@ This graph displays the cumulative penalty points, color-coded by the type of vi
 
 This graph shows the scores of each driver or device, calculated per 100 kilometers traveled. Scores are adjusted based on penalties, providing a clear understanding of each driver’s performance.
 
-### Tables with detailed information
+#### Tables with detailed information
 
 Each type of violation is further broken down into detailed tables, offering insights into specific events such as speeding, harsh driving, and idling.
 
-#### Speeding table
+**Speeding table**
 
 This table lists all speeding events, with penalty points assigned based on the most severe speed exceeded during the event.
 
-#### Harsh driving table
+**Harsh driving table**
 
 Events recorded within a 5-minute window are grouped, and penalties are calculated for each group.
 
-#### Idle intervals table
+**Idle intervals table**
 
 This table provides details on each instance of idling with the engine running, including the duration and corresponding penalty points.
 

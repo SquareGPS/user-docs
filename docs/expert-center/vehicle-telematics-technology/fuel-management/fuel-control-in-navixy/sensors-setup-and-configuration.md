@@ -6,7 +6,7 @@ With the "Sensors and buttons" portlet, you have the ability to easily incorpora
 
 ## Fuel sensor creation
 
-Fuel sensors are a type of [measuring sensor](https://docs.navixy.com/user-guide/measurement-sensor) that can be created on a GPS tracking platform. To create a fuel sensor, navigate to the Device Management section and click on the Sensors and Buttons panel. Next, click on the “+” icon and select "Measurement sensor" from the drop-down menu.
+Fuel sensors are a type of [measuring sensor](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/vehicle-sensors/measurement-sensors) that can be created on a GPS tracking platform. To create a fuel sensor, navigate to the Device Management section and click on the Sensors and Buttons panel. Next, click on the “+” icon and select "Measurement sensor" from the drop-down menu.
 
 ![Fuel level sensor creation](https://www.navixy.com/wp-content/uploads/2023/03/1-3.png)
 
@@ -18,10 +18,10 @@ Upon selecting Fuel Level as the sensor type, you will be presented with additio
 * **Input** - select the input from which the device transmits fuel data.
 * **Units** – select a unit of measure.
 * **Accuracy** - this refers to the specified percentage used to calculate the percent error in tank volume. This error value will be used to compute the amount for refills and drains.
-* **Thresholds for drain detection** - are used to determine drains in fuel reports. This parameter can be represented as the rate of change in the fuel level. Both thresholds are always checked, and if the fuel level changes faster than at least one of the set thresholds for more than accuracy level, the report will mark the fuel drain. We have described it in detail in [analyzing fuel volume report](https://docs.navixy.com/user-guide/fuel-consumption-report).
+* **Thresholds for drain detection** - are used to determine drains in fuel reports. This parameter can be represented as the rate of change in the fuel level. Both thresholds are always checked, and if the fuel level changes faster than at least one of the set thresholds for more than accuracy level, the report will mark the fuel drain. We have described it in detail in [analyzing fuel volume report](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/reports/specific-report-details/fuel-volume-report).
   * By time - maximum allowable flow rate is measured in units per hour and can be set in the sensor settings. When calculating the speed change over time, the platform compares the fuel level change between points. If it is not set, the default value is 120 units per hour. It doesn’t mean the fuel must change more than 120 per hour. It means the fuel level should change faster than 120 per hour (equal to 20 L per 10 minutes or 2 L per minute) to determine the drain in a report. This value should be set a few percentage points higher than the likely consumption rate during heavy loads or when the vehicle is ascending uphill.
   * By mileage - the maximum allowable fuel level change speed is measured in units per 100 km. It doesn’t mean the fuel must change more than set per 100 km. For example, we set 100 L per 100 km. It means the fuel level should change faster than 100 L per 100 km (equal to 10 L per 10 km or 1 L per km) to determine the drain in a report. This value must be manually entered and should not be based solely on the manufacturer's specified fuel consumption rate. We recommend conducting tests and verifying the actual fuel consumption rate recorded in the reports, then set the necessary values accordingly for maximum accuracy.
-* **Ignore in movement** - the platform will automatically exclude any drains and refills that occur during movement from rules and reports. Movement is determined by the [Parking Detection setting](https://docs.navixy.com/user-guide/parking-detection).
+* **Ignore in movement** - the platform will automatically exclude any drains and refills that occur during movement from rules and reports. Movement is determined by the [Parking Detection setting](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/location-and-movement/parking-detection-widget).
   * Drains – drains in movement will be excluded.
   * Refills – refills in movement will be filtered.
   * Filter timeout - This setting appears when the Ignore feature is enabled. It determines the timeout period in minutes that will be used to shorten the driving intervals for fuel filtering. This option can be helpful if the fuel level stabilizes only after some time has passed since refueling, and the vehicle has already started moving. This is more commonly seen in vehicles with large fuel tanks. The default setting for this feature is 5 minutes.
@@ -39,19 +39,19 @@ Upon selecting Fuel Level as the sensor type, you will be presented with additio
 
 ## Adding calibration data
 
-Once all parameters are configured, it becomes imperative to incorporate calibration data into the table. Begin by obtaining a comprehensive lineup that correlates the raw values of the measurement sensor (e.g. volts) with the corresponding actual measurements (e.g. liters). To append additional rows to the table, simply click the designated button ![](<../../../.gitbook/assets/image (1) (1).png>).
+Once all parameters are configured, it becomes imperative to incorporate calibration data into the table. Begin by obtaining a comprehensive lineup that correlates the raw values of the measurement sensor (e.g. volts) with the corresponding actual measurements (e.g. liters). To append additional rows to the table, simply click the designated button <img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="line">.
 
 In the created line, fill in the "Sensor value" field with the obtained value, and the "Quantity" field with the corresponding measured quantity.
 
-To delete a row, click ![](<../../../.gitbook/assets/image (1) (1) (1).png>).
+To delete a row, click <img src="../../../.gitbook/assets/image (1) (1) (1) (2).png" alt="" data-size="line">.
 
 ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/measurement_sensor_calibration_table_en.png)
 
-To upload the calibration table file, click ![](<../../../.gitbook/assets/image (2).png>). Calibration files can be generated by Omnicomm LLS Monitor utility. Only XML file format is supported.
+To upload the calibration table file, click <img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="line">. Calibration files can be generated by Omnicomm LLS Monitor utility. Only XML file format is supported.
 
 ![](https://www.navixy.com/wp-content/uploads/2021/10/upload_calibration_table_en.png)
 
-For more precise setting, click "Advanced settings" button ![](<../../../.gitbook/assets/image (3).png>). These settings are Ignore values and Multiplier.
+For more precise setting, click "Advanced settings" button <img src="../../../.gitbook/assets/image (3).png" alt="" data-size="line">. These settings are Ignore values and Multiplier.
 
 * **Ignore values –** this setting allows you to adjust a "valid" range of raw measurement values. Any values above and below the range will be omitted. For example, this can be used for skipping zero values of fuel sensor when the vehicle ignition is off.
 * **Multiplier –** used to correct raw data values from the sensor by multiplying them by some number.
