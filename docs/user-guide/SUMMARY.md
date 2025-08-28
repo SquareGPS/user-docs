@@ -58,7 +58,7 @@
     * [Mettax](user-guide/solution-connectors/mettax-integration-for-video-telematics.md)
     * [Streamax](user-guide/solution-connectors/streamax-integration-for-video-telematics.md)
     * [Lightmetrics](user-guide/solution-connectors/lightmetrics-integration-for-video-telematics.md)
-    * [Howen](readme/solution-connectors/howen.md)
+    * [Howen](user-guide/solution-connectors/howen.md)
   * [Alerts](user-guide/events-and-notifications/README.md)
     * [Device power](user-guide/events-and-notifications/device-power/README.md)
       * [Device switched ON/OFF](user-guide/events-and-notifications/device-power/device-switched-onoff.md)
