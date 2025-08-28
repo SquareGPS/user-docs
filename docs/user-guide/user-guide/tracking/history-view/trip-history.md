@@ -3,7 +3,7 @@
 Trip history in Navixy allows you to review past activities and routes taken by your fleet vehicles. This feature provides a detailed log of trips, including timestamps, locations, distances, and duration, helping you monitor vehicle activity and optimize fleet management.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 To view your trip history in Navixy, select the objects you're interested in and click <img src="../../gps-tracking/history-view/attachments/Untitled-20250414-131158.png" alt="Untitled-20250414-131158.png" data-size="line">. You will be prompted to choose a time and date range. Select the desired date range to proceed.
 {% endhint %}

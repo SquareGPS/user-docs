@@ -3,7 +3,7 @@
 The **Event** tab in **History** provides a detailed log of all events related to selected objects over the specified period. These events vary depending on the type of tracker and monitored activities, offering a comprehensive view of your fleet's operational status and any issues with the tracked objects.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 To see the event history for an object, select it and click <img src="../../gps-tracking/history-view/attachments/Untitled-20250415-082401.png" alt="Untitled-20250415-082401.png" data-size="line">. You will be prompted to select a time and date range. After choosing the desired period, proceed to the **History** window and select the **Events** tab.
 {% endhint %}
