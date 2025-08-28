@@ -4,7 +4,7 @@ Real-time dashboards transform raw telematics data streams into operational inte
 
 ## Object status dashboard
 
-![](attachments/image-20250813-105601.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Daily fleet coordination, shift handovers, and identifying vehicles requiring immediate attention.
 
@@ -25,7 +25,9 @@ The dashboard processes live telematics data through a multi-step analysis:
 
 ## Assets intelligence dashboard
 
-![](attachments/image-20250813-105648.png)
+
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Investigating specific vehicles flagged in status monitoring, detailed operational planning, and comprehensive asset verification.
 
@@ -49,7 +51,7 @@ All timestamp data converts to UTC for consistent display regardless of vehicle 
 
 ## Sensor readings dashboard
 
-![](attachments/image-20250813-105703.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Preventive maintenance planning, fuel management monitoring, and identifying potential equipment issues before they impact operations.
 
@@ -69,7 +71,7 @@ The dashboard uses time-based queries with sensor-specific distinctness to ensur
 
 ## Geozones report
 
-![](attachments/image-20250813-105717.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Tracking vehicle visits to specific locations, analyzing route compliance, and monitoring operational area coverage.
 

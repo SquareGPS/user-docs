@@ -34,7 +34,7 @@ The **Information about Data Hub** panel displays your connection details, while
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-![](attachments/image-20250812-084643.png)
+![](../../.gitbook/assets/data-hub-app-sidebar.webp)
 {% endcolumn %}
 {% endcolumns %}
 

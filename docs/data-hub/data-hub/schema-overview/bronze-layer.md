@@ -12,7 +12,7 @@ Each schema is optimized for its specific data domain and access patterns, provi
 
 This schema contains 40+ carefully selected tables to cover many business aspects and use cases. These tables represent your core business entities, organizational structure, and operational data.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The interactive diagram of raw\_business\_data schema is available on **dbdiagram.io** - [https://dbdiagram.io/d/V2-business-bronze-67c1961c263d6cf9a0cb4e97](https://dbdiagram.io/d/V2-business-bronze-67c1961c263d6cf9a0cb4e97)

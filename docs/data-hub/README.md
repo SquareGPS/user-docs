@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Navixy's **Data Hub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
 
@@ -66,7 +66,7 @@ We've structured your data using a multi-layered architecture that balances imme
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src=".gitbook/assets/image (1).png" alt="Data pipeline overview Your data flows through a comprehensive pipeline before reaching the warehouse: Business data is collected from client’s cabinet Telematics data streams directly from devices Reference metadata is loaded to enable proper data mapping and relationships Data is stored in the appropriate layer based on its processing stage"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="Data pipeline overview Your data flows through a comprehensive pipeline before reaching the warehouse: Business data is collected from client’s cabinet Telematics data streams directly from devices Reference metadata is loaded to enable proper data mapping and relationships Data is stored in the appropriate layer based on its processing stage"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
