@@ -4,7 +4,7 @@ description: Logistics Case Study and SQL Recipe Book
 
 # Logistics
 
-## _SQL Recipe Book_
+
 
 Logistics is a complex ecosystem involving the coordination of transport, warehouse operations, inventory, and delivery execution. Integrating telematics into logistics processes allows companies to collect real-time data on vehicles, drivers, routes, and cargo conditions, which significantly improves decision-making and operational efficiency.
 
