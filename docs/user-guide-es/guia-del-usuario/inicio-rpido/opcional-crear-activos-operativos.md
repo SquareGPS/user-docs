@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # (Opcional) Crear activos operativos
 
 ## ¿Qué son los activos operativos?

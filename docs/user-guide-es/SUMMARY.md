@@ -5,7 +5,7 @@
     * [Activar el dispositivo GPS](guia-del-usuario/inicio-rpido/activar-el-dispositivo-gps.md)
     * [Activar la aplicación de seguimiento X-GPS](guia-del-usuario/inicio-rpido/activar-la-aplicacin-de-seguimiento-x-gps.md)
     * [(Opcional) Crear activos operativos](guia-del-usuario/inicio-rpido/opcional-crear-activos-operativos.md)
-    * [Proveedor de servicios](guia-del-usuario/inicio-rpido/proveedor-de-servicios.md)
+    * [Información del proveedor de servicios](guia-del-usuario/inicio-rpido/proveedor-de-servicios.md)
     * [Registro](guia-del-usuario/inicio-rpido/registro.md)
   * [Cuenta](guia-del-usuario/cuenta/README.md)
     * [Preferencias del usuario](guia-del-usuario/cuenta/preferencias-del-usuario.md)
