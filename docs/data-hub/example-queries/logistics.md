@@ -10,14 +10,14 @@ Logistics is a complex ecosystem involving the coordination of transport, wareho
 
 Navixy Data Hub, with its robust data ingestion and time-series analytics capabilities, supports the digital transformation of logistics operations by enabling deep visibility into each lifecycle stage. Its robust telematics ingestion capabilities, provides comprehensive visibility into these operations. Real-time GPS data, sensor data diagnostics, geofencing, and sensor analytics allow logistics operators to digitize workflows, automate controls, and make informed decisions.
 
-| Lifecycle Phase                | Goals                                                                     | Covered Use Cases / Recipes                                                                                                  |
-| ------------------------------ | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Route management**           | Optimize vehicle routing, ensure efficient dispatching, and reduce delays | Trip Counts per Day Mileage Count per Vehicle per Day (Last 7 Days)                                                          |
-| **2. Cargo Monitoring**        | Ensure proper transport conditions for sensitive goods                    | Temperature (and Humidity) Violation Events in the Last 7 Days                                                               |
-| **3. Vehicle Operation**       | Track fleet utilization, ensure maintenance, and reduce downtime          | Engine Hours Summary per Vehicle / Driver / Day (Last 7 Days) Vehicle Downtime Analysis Asset Tracking Without Movement      |
-| **4. Route Security & Safety** | Detect misuse, unauthorized activity, and safety violations               | Route Deviation Detection- Unauthorized Stops (Last 24 Hours) Off-Hour Usage Detection                                       |
-| **5. Compliance Management**   | Monitor driver behavior, enforce policies and operational compliance      | Engine Hours Summary per Vehicle / Driver / Day (Last 7 Days) Off-Hour Usage Detection                                       |
-| **6. Post-Delivery Analysis**  | Evaluate operational efficiency and historical performance                | Vehicle Event Log Report Mileage Count per Vehicle per Day (Last 7 Days) Trip Counts per Day Asset Tracking Without Movement |
+| Lifecycle Phase             | Goals                                                                     | Covered Use Cases / Recipes                                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Route management**        | Optimize vehicle routing, ensure efficient dispatching, and reduce delays | Trip Counts per Day Mileage Count per Vehicle per Day (Last 7 Days)                                                          |
+| **Cargo Monitoring**        | Ensure proper transport conditions for sensitive goods                    | Temperature (and Humidity) Violation Events in the Last 7 Days                                                               |
+| **Vehicle Operation**       | Track fleet utilization, ensure maintenance, and reduce downtime          | Engine Hours Summary per Vehicle / Driver / Day (Last 7 Days) Vehicle Downtime Analysis Asset Tracking Without Movement      |
+| **Route Security & Safety** | Detect misuse, unauthorized activity, and safety violations               | Route Deviation Detection- Unauthorized Stops (Last 24 Hours) Off-Hour Usage Detection                                       |
+| **Compliance Management**   | Monitor driver behavior, enforce policies and operational compliance      | Engine Hours Summary per Vehicle / Driver / Day (Last 7 Days) Off-Hour Usage Detection                                       |
+| **Post-Delivery Analysis**  | Evaluate operational efficiency and historical performance                | Vehicle Event Log Report Mileage Count per Vehicle per Day (Last 7 Days) Trip Counts per Day Asset Tracking Without Movement |
 
 ## **Asset Tracking Without Movement** <a href="#asset-tracking-without-movement" id="asset-tracking-without-movement"></a>
 
