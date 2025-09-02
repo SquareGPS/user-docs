@@ -669,15 +669,15 @@ The system includes reference data to standardize values across the database:
 
 ### Key tables by category
 
-The tables in the `raw_business_data` schema are organized into functional categories for easier navigation. The table below summarizes key tables by their business purpose:
+The tables in the **`raw_business_data`** schema are organized into functional categories for easier navigation. The table below summarizes key tables by their business purpose:
 
 ### Database Schema Overview
 
-<table><thead><tr><th width="154.4544677734375">Category</th><th width="211.45458984375">Table name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Organizational structure</strong></td><td><ol><li>users</li><li>departments</li><li>employees</li><li>groups</li></ol></td><td><ol><li>User accounts with profile information</li><li>Departments with geolocation data</li><li>Employee and driver details</li><li>Tracker organization groups</li></ol></td></tr><tr><td><strong>Objects and devices</strong></td><td><ol><li>devices</li><li>models</li><li>bjects</li><li>vehicles</li><li>sensor_description</li></ol></td><td><ol><li>Physical tracking devices</li><li>Device model specifications</li><li>Monitored objects</li><li>Vehicle details and specifications</li><li>Sensor configuration details</li></ol></td></tr><tr><td><strong>Places and zones</strong></td><td><ol><li>places</li><li>zones</li><li>garages</li><li>tags</li></ol></td><td><ol><li>Points of interest with geolocation</li><li>Geofenced monitoring areas</li><li>Vehicle service locations</li><li>Organizational labels</li></ol></td></tr><tr><td><strong>Operational data</strong></td><td><ol><li>tasks</li><li>forms</li><li>checkins</li><li>events</li><li>statuses</li><li>vehicle_service_tasks</li></ol></td><td><ol><li>Task assignments and tracking </li><li>Data collection forms</li><li>Location-based attendance records</li><li>System events and notifications</li><li>Status definitions</li><li>Vehicle maintenance records</li></ol></td></tr></tbody></table>
+<table><thead><tr><th width="154.4544677734375">Category</th><th width="211.45458984375">Table name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Organizational structure</strong></td><td><ol><li>users</li><li>departments</li><li>employees</li><li>groups</li></ol></td><td><ol><li>User accounts with profile information</li><li>Departments with geolocation data</li><li>Employee and driver details</li><li>Tracker organization groups</li></ol></td></tr><tr><td><strong>Objects and devices</strong></td><td><ol><li>devices</li><li>models</li><li>objects</li><li>vehicles</li><li>sensor_description</li></ol></td><td><ol><li>Physical tracking devices</li><li>Device model specifications</li><li>Monitored objects</li><li>Vehicle details and specifications</li><li>Sensor configuration details</li></ol></td></tr><tr><td><strong>Places and zones</strong></td><td><ol><li>places</li><li>zones</li><li>garages</li><li>tags</li></ol></td><td><ol><li>Points of interest with geolocation</li><li>Geofenced monitoring areas</li><li>Vehicle service locations</li><li>Organizational labels</li></ol></td></tr><tr><td><strong>Operational data</strong></td><td><ol><li>tasks</li><li>forms</li><li>checkins</li><li>events</li><li>statuses</li><li>vehicle_service_tasks</li></ol></td><td><ol><li>Task assignments and tracking </li><li>Data collection forms</li><li>Location-based attendance records</li><li>System events and notifications</li><li>Status definitions</li><li>Vehicle maintenance records</li></ol></td></tr></tbody></table>
 
 ## `raw_telematics_data` structure
 
-The `raw_telematics_data` schema contains three primary table types that work together to provide comprehensive device data.
+The **`raw_telematics_data`** schema contains three primary table types that work together to provide comprehensive device data.
 
 ![Bronze layer raw telematics data ERD](attachments/image-20250401-075804.png)
 
@@ -776,7 +776,7 @@ Data in this schema is ingested directly from devices, with minimal latency (typ
 
 ## `repo` data structure
 
-The `repo` schema provides a comprehensive asset management system that enables organizations to define, track, and manage various types of assets with customizable properties and relationships.
+The **`repo`** schema provides a comprehensive asset management system that enables organizations to define, track, and manage various types of assets with customizable properties and relationships.
 
 <figure><img src="../../.gitbook/assets/Navixy-Repo-data-schema.svg" alt="Asset Management Schema ERD showing 10 interconnected tables with relationships between asset_types, custom_fields, assets, asset_link_history, asset_link_items, geojson_custom_values, inventories, inventory_master_items, inventory_slave_items, and flyway_schema_history"><figcaption></figcaption></figure>
 
