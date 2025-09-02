@@ -4,10 +4,6 @@ description: Leasing Case Study and SQL Recipe Book
 
 # Leasing
 
-_**Narrative summary of common business requirements/workflows from the Leasing industry mapped to concrete SQL implementations based on the data at Navixy Data Hub.**_
-
-## **Lifecycle Coverage with Navixy Data Hub SQL Recipes** <a href="#lifecycle-coverage-with-navixy-data-hub-sql-recipes" id="lifecycle-coverage-with-navixy-data-hub-sql-recipes"></a>
-
 Leasing companies (particularly banks and fleet‑leasing providers) retain ownership of the vehicle or equipment while the client merely rents its use, so they absorb the asset‑related risk throughout the contract. 
 
 To protect residual value, enforce contractual limits (mileage, geography, maintenance), and streamline full‑service obligations, they rely on Navixy.  Real‑time GPS data, sensors based diagnostics, and behavioural analytics let them verify usage conditions, automate service scheduling, detect mechanical issues early, calculate penalties or excess‑kilometre fees, and, when necessary, immobilise or recover the asset—all of which secures their investment, reduces operational cost, and enhances customer transparency across the entire lease lifecycle.
