@@ -6,7 +6,7 @@ Los **campos personalizados** permiten añadir información personalizada a la d
 
 **Ejemplos:**
 
-* En la Gestión de Servicios de Campo, los campos personalizados pueden complementar la información sobre los clientes o las instalaciones atendidas. Un empleado de campo que utilice el [Rastreador X-GPS](https://x-gps.app/). La aplicación móvil puede ver y editar información detallada sobre los lugares, como los datos del cliente y los requisitos del servicio, lo que mejora la realización de las tareas. [Leer más en el blog](https://www.navixy.com/blog/custom-fields-navixy/).
+* En la **Gestión de servicios de campo**, los campos personalizados pueden complementar la información sobre los clientes o las instalaciones atendidas. Un empleado de campo que utilice el [Rastreador X-GPS](https://x-gps.app/). La aplicación móvil puede ver y editar información detallada sobre los lugares, como los datos del cliente y los requisitos del servicio, lo que mejora la realización de las tareas. [Leer más en el blog](https://www.navixy.com/blog/custom-fields-navixy/).
 
 ## Tipos de campos personalizados
 

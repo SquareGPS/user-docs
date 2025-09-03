@@ -31,7 +31,7 @@ Los cambios surten efecto inmediatamente y son visibles para todos los usuarios 
 
 ### **Visibilidad de la conmutación**
 
-La visualización de aplicaciones puede gestionarse mediante el interruptor de activación/desactivación de la interfaz de **la aplicación de usuario**. Cuando una aplicación está:
+La visualización de aplicaciones puede gestionarse mediante el interruptor de activación/desactivación de la interfaz de la aplicación de usuario. Cuando una aplicación está:
 
 * **Activado**: Aparece en las barras laterales de todos los usuarios y puede ser utilizado por ellos.
 * **Desactivado**: permanece en la lista de aplicaciones, pero se oculta de la barra lateral.
@@ -42,9 +42,9 @@ Todos los ajustes de la aplicación se conservan cuando se desactiva y se pueden
 
 Las aplicaciones pueden eliminarse permanentemente de una cuenta:
 
-1. Localice la aplicación en la lista de **aplicaciones de usuario**
+1. Localice la aplicación en la lista de **Aplicaciones de usuario**
 2. Haga clic en **Eliminar** junto a la aplicación deseada. Se le pedirá confirmación de esta acción.
-3. Una vez confirmada, la aplicación se elimina permanentemente tanto de la barra lateral como de la lista de **aplicaciones de usuario**.
+3. Una vez confirmada, la aplicación se elimina permanentemente tanto de la barra lateral como de la lista de **Aplicaciones de usuario**.
 
 {% hint style="danger" %}
 Las aplicaciones eliminadas no se pueden recuperar.

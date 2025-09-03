@@ -12,7 +12,7 @@ Especifique los parámetros necesarios del sensor:
 * **Unidades:** Elija las unidades de medida. Puede seleccionar las unidades disponibles en la lista desplegable o especificar unas personalizadas.
 * **Añadiendo datos de calibración:** Solo aparecen cuando se elige el tipo específico de sensor. Por ejemplo, para un sensor de combustible, los parámetros de precisión y umbrales pueden ajustarse para ser utilizados en la detección de drenaje.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="246"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt="" width="246"><figcaption></figcaption></figure>
 
 #### Datos de calibración
 

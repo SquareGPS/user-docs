@@ -1,8 +1,8 @@
 # Creación para nuevas Aplicaciones de usuario
 
-Al configurar una nueva **aplicación de usuario**, trabajarán con varias configuraciones clave que determinan cómo se integra su aplicación externa con la plataforma. Exploremos cada componente esencial:
+Al configurar una nueva **Aplicación de usuario**, trabajarán con varias configuraciones clave que determinan cómo se integra su aplicación externa con la plataforma. Exploremos cada componente esencial:
 
-Comience haciendo clic en el botón de la lista de **aplicaciones de usuario**. En el formulario de configuración que aparece, siga los siguientes pasos:
+Comience haciendo clic en el botón de la lista de **Aplicaciones de usuario**. En el formulario de configuración que aparece, siga los siguientes pasos:
 
 {% stepper %}
 {% step %}
@@ -98,7 +98,7 @@ Al seleccionar el método de la **clave API** se desactivará automáticamente e
 
 Cuando la autenticación está activada, la plataforma añade el parámetro `?session_key=` a la URL de tu aplicación.
 
-* Si ha seleccionado una **llave API**, el valor del parámetro contendrá esta clave.
+* Si ha seleccionado una **clave API**, el valor del parámetro contendrá esta clave.
 * Si ha optado por una **clave de sesión**, el valor del parámetro incluirá la clave de la sesión de usuario actual desde la que se accede a la aplicación.
 
 Asegúrese de que la aplicación sea capaz de leer y utilizar este parámetro.
@@ -107,7 +107,7 @@ Asegúrese de que la aplicación sea capaz de leer y utilizar este parámetro.
 {% step %}
 ### **Guardar la nueva aplicación**
 
-Haga clic en el botón **Guardar**. Su aplicación aparecerá en la lista de **aplicaciones de usuario** y en la barra lateral de la plataforma. Las aplicaciones activadas estarán disponibles automáticamente para los usuarios de la cuenta.
+Haga clic en el botón **Guardar**. Su aplicación aparecerá en la lista de **Aplicaciones de usuario** y en la barra lateral de la plataforma. Las aplicaciones activadas estarán disponibles automáticamente para los usuarios de la cuenta.
 {% endstep %}
 {% endstepper %}
 

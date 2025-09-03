@@ -1,4 +1,4 @@
-# Conectores de soluciones
+# Videotelemática
 
 Cada día las empresas luchan con herramientas de hardware y software desconectadas que no funcionan juntas. En la industria de la telemática, esta fragmentación hace difícil recopilar y analizar datos de manera efectiva.
 
@@ -14,3 +14,5 @@ Seleccione una solución de la lista a continuación para obtener más informaci
 
 * [Mettax](../../../../wiki/pages/createpage.action): Solución de telemática de video que mejora sus capacidades de monitoreo de flota mientras mantiene el acceso a las características integrales de rastreo GPS de Navixy.
 * [Streamax](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3358392329/Streamax+integration+for+video+telematics?atlOrigin=eyJpIjoiZGEwZDYwNTgwZDhhNGRjNzlmMmYxZjJiZTE3M2Y0ZGQiLCJwIjoiYyJ9): Solución de telemática de video para monitoreo vehicular 24/7, recopilación de datos telemáticos y seguridad del conductor usando ADAS y DSM—completamente integrada con el rastreo de Navixy.
+* [Lightmetrics](lightmetrics.md): AI-powered video telematics solution with edge AI technology and no-code platform deployment, featuring hardware-agnostic capabilities and real-time driver coaching integrated with Navixy tracking.
+* [Howen](howen.md): Cost-effective AI-enhanced video telematics solution with expandable capabilities including facial recognition, driver monitoring, and ADAS—fully integrated with Navixy tracking.

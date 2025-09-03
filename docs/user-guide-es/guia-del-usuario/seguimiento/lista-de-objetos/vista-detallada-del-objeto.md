@@ -6,7 +6,7 @@ En Navixy, el **Widget de objeto** sirve como una colección integral de bloques
 **Navegación**
 
 * Por defecto, para acceder a la vista detallada de un objeto específico, haga clic en el icono del objeto en el mapa o pase el cursor sobre él y haga clic en el botón <img src="../../../.gitbook/assets/Untitled (3).png" alt="" data-size="line"> que aparece.
-* Si la opción **Mostrar información al hacer clic** está habilitada en la [Configuración adicional](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547887/Lista+de+objetos#additional-settings), hacer clic en un objeto también abre el **Widget de objeto**.
+* Si la opción **Mostrar información al hacer clic** está habilitada en la [Configuración adicional](./#configuraciones-adicionales-inlineextension), hacer clic en un objeto también abre el **Widget de objeto**.
 {% endhint %}
 
 Una vez abierto, el panel muestra información extensa sobre el objeto seleccionado, incluyendo el estado actual, ubicación GPS y datos telemáticos adicionales. Todas las herramientas de gestión operacional están convenientemente ubicadas en un solo lugar, permitiendo una gestión eficiente de la flota y respuesta rápida a cualquier problema que surja.

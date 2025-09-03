@@ -27,7 +27,7 @@ Para crear o asignar una etiqueta a un objeto, basta con escribir la etiqueta en
 
 ### Método 2. En el directorio de etiquetas
 
-Vaya a **Configuración de la cuenta → Etiquetas**:
+Vaya a **Ajustes de la cuenta → Etiquetas**:
 
 * Haga clic en el botón **+** para añadir una nueva etiqueta.
 * Introduzca el nombre de la etiqueta deseada.
@@ -35,6 +35,6 @@ Vaya a **Configuración de la cuenta → Etiquetas**:
 
 ## Gestión de etiquetas
 
-Para gestionar sus etiquetas, vaya a **Configuración de la cuenta → Etiquetas**. Accederá a la pantalla de gestión de etiquetas, donde podrá ver, crear, editar y eliminar etiquetas.
+Para gestionar sus etiquetas, vaya a **Ajustes de la cuenta → Etiquetas**. Accederá a la pantalla de gestión de etiquetas, donde podrá ver, crear, editar y eliminar etiquetas.
 
 Al borrar una etiqueta, se elimina el enlace del objeto asociado, pero no se borra el objeto en sí.

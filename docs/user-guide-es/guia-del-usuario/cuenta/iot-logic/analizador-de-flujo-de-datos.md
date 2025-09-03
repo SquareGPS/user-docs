@@ -11,14 +11,18 @@
 
 A diferencia de las soluciones convencionales de proveedores específicos, **Analizador de flujo de datos** ofrece compatibilidad universal de dispositivos y funciones de solución remota de problemas a través de una única interfaz técnica, lo que reduce significativamente el tiempo y la complejidad de los diagnósticos de dispositivos.
 
-> \[!NOTE] **Navegación** **Analizador de flujo de datos** está disponible para los **Propietarios** de cuentas en la sección **Configuración de la cuenta**. Para acceder a él
->
-> 1. Haga clic en el icono de perfil en la esquina superior izquierda de la pantalla para abrir la configuración de su cuenta
-> 2. En la barra lateral de ajustes, seleccione **IoT Logic**
-> 3. Abra el flujo cuyos datos desea supervisar en la lista **Flujo de datos**
-> 4. Haga clic en![image-20250416-092555.png](../../../gua-del-usuario/cuenta/iot-logic/attachments/image-20250416-092555.png)
+{% hint style="info" %}
+**Navegación**&#x20;
 
-![Data\_Analyzer\_big.png](../../../gua-del-usuario/cuenta/iot-logic/attachments/Data_Analyzer_big.png)
+**Analizador de flujo de datos** está disponible para los **Propietarios** de cuentas en la sección **Ajustes** (de la cuenta). Para acceder a él:
+
+1. Haga clic en el icono de perfil en la esquina superior izquierda de la pantalla para abrir la configuración de su cuenta
+2. En la barra lateral de ajustes, seleccione **IoT Logic**
+3. Abra el flujo cuyos datos desea supervisar en la lista **Flujo de datos**
+4. Haga clic en<img src="../../../gua-del-usuario/cuenta/iot-logic/attachments/image-20250416-092555.png" alt="image-20250416-092555.png" data-size="line">
+{% endhint %}
+
+![](../../../gua-del-usuario/cuenta/iot-logic/attachments/Data_Analyzer_big.png)
 
 Profundicemos en todas las posibilidades y funciones que puede encontrar aquí.
 
@@ -33,7 +37,9 @@ Flujo **de datos**: Esta lista le permite seleccionar un flujo ya creado en su c
 * **Vista de tabla** (por defecto): Este modo muestra los datos descodificados de los dispositivos en formato tabular.
 * **Registros de flujo** (próximamente): Este modo muestra registros generales, volcados TCP y registros de nodos en el flujo elegido. Se añadirá en las próximas iteraciones.
 
-> \[!INFO] Las opciones anteriores están inactivas por el momento y contienen las selecciones por defecto. Estarán disponibles con nuevas mejoras de la funcionalidad de IoT Logic. Permanezca atento.
+{% hint style="info" %}
+Las opciones anteriores están inactivas por el momento y contienen las selecciones por defecto. Estarán disponibles con nuevas mejoras de la funcionalidad de IoT Logic. Permanezca atento.
+{% endhint %}
 
 Al hacer clic en el botón **Cerrar**, volverá a la pantalla principal de IoT Logic.
 
@@ -43,7 +49,7 @@ Veamos ahora con más detalle las secciones de la interfaz y la información dis
 
 ### Barra de menú superior
 
-![Menu\_bar.png](../../../gua-del-usuario/cuenta/iot-logic/attachments/Menu_bar.png)
+![](../../../gua-del-usuario/cuenta/iot-logic/attachments/Menu_bar.png)
 
 El menú superior contiene los principales controles de la vista de tabla.
 
@@ -64,9 +70,15 @@ El menú superior contiene los principales controles de la vista de tabla.
 
 El bloque izquierdo del menú contiene una lista de dispositivos y atributos pertenecientes al flujo elegido. Para pasar de una lista a otra, utilice los botones **Dispositivos** y **Atributos** situados en la parte superior de la lista. Puede buscar dispositivos por ID y atributos por su nombre.
 
-![Devices\_list.png](../../../gua-del-usuario/cuenta/iot-logic/attachments/Devices_list.png)
+{% columns %}
+{% column %}
+![](../../../gua-del-usuario/cuenta/iot-logic/attachments/Devices_list.png)
+{% endcolumn %}
 
-![Attributes\_list.png](../../../gua-del-usuario/cuenta/iot-logic/attachments/Attributes_list.png)
+{% column %}
+![](../../../gua-del-usuario/cuenta/iot-logic/attachments/Attributes_list.png)
+{% endcolumn %}
+{% endcolumns %}
 
 Puede seleccionar hasta 10 dispositivos. Una vez seleccionados, se mostrarán todos los atributos soportados por estos dispositivos, permitiéndole elegir cualquier número para mostrar en la tabla. Sólo estarán disponibles los atributos relevantes para los dispositivos seleccionados.
 
@@ -74,7 +86,7 @@ Puede seleccionar hasta 10 dispositivos. Una vez seleccionados, se mostrarán to
 
 La información sobre los valores recibidos por los dispositivos y atributos elegidos se mostrará en esta tabla.
 
-![Table\_example.png](../../../gua-del-usuario/cuenta/iot-logic/attachments/Table_example.png)
+![](../../../gua-del-usuario/cuenta/iot-logic/attachments/Table_example.png)
 
 La tabla proporciona información de la siguiente manera:
 
@@ -84,7 +96,7 @@ La tabla proporciona información de la siguiente manera:
 
 Cuando pase el ratón por encima de cualquier valor, verá datos adicionales sobre cuándo fue generado este atributo por un dispositivo y cuándo fue recibido por la plataforma:
 
-![Value timestamp example](../../../gua-del-usuario/cuenta/iot-logic/attachments/image-20241204-160551.png)
+![](../../../gua-del-usuario/cuenta/iot-logic/attachments/image-20241204-160551.png)
 
 Una vez recibidos los nuevos valores de cualquier dispositivo, se resaltarán en verde durante unos 2 segundos. De este modo, podrá ver qué atributo de qué dispositivo se ha actualizado. Al hacer clic en la fila de un dispositivo se ampliará, mostrando los valores históricos limitados por la **Profundidad** establecida.
 

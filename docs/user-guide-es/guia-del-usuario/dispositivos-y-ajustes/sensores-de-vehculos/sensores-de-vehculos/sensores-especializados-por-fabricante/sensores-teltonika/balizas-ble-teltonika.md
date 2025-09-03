@@ -34,7 +34,7 @@ Para añadir un sensor de temperatura:
 
 ### Sensores magnéticos
 
-Los sensores magnéticos muestran su estado en "Lecturas de los sensores" en el [widget de](broken-reference) [informa](../../../../../../../wiki/pages/createpage.action)[c](broken-reference)[i](../../../../../../../wiki/pages/createpage.action)[ó](broken-reference)[n](../../../../../../../wiki/pages/createpage.action). Este widget permite controlar si el sensor está activo o no.
+Los sensores magnéticos muestran su estado en "Lecturas de los sensores" en el [widget de](broken-reference) [informa](../../../../../../../../wiki/pages/createpage.action)[c](broken-reference)[i](../../../../../../../../wiki/pages/createpage.action)[ó](broken-reference)[n](../../../../../../../../wiki/pages/createpage.action). Este widget permite controlar si el sensor está activo o no.
 
 ### Sensores de identificación del conductor
 
@@ -42,5 +42,5 @@ Los sensores de identificación funcionan de forma similar a iButton y RFID, per
 
 **Véase también:**
 
-* [Asignación de claves de identificación en el perfil del conductor](../../../../../guia-del-usuario/gestin-de-flotas/conductores.md)
-* [Identificación del conductor (Normas y notificaciones)](../../../../../guia-del-usuario/reglas-y-alertas/programacin-y-expedicin/identificacin-del-conductor.md)
+* [Asignación de claves de identificación en el perfil del conductor](../../../../../gestin-de-flotas/conductores.md)
+* [Identificación del conductor (Normas y notificaciones)](../../../../../reglas-y-alertas/programacin-y-expedicin/identificacin-del-conductor.md)

@@ -27,9 +27,9 @@ Para gestionar sus sensores, puede utilizar los siguientes botones:
 Navixy admite varios tipos de sensores, entre ellos:
 
 * [**Sensores discretos**](sensores-discretos/): Se utiliza para entradas binarias como estado de encendido, puerta abierta/cerrada, etc.
-* [**Sensores de medición**](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensor-de-medicin/): Estos sensores miden e informan de valores continuos como la temperatura, el nivel de combustible o las RPM del motor.
-* [**Sensores de agregación**](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-acumulacin.md): Combinar datos de múltiples fuentes en un único valor visible.
-* [**Sensores virtuales**](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-virtuales/): Derivado de datos calculados o valores combinados de sensores.
+* [**Sensores de medición**](sensores-de-vehculos/sensor-de-medicin/): Estos sensores miden e informan de valores continuos como la temperatura, el nivel de combustible o las RPM del motor.
+* [**Sensores de agregación**](sensores-de-vehculos/sensores-de-acumulacin.md): Combinar datos de múltiples fuentes en un único valor visible.
+* [**Sensores virtuales**](sensores-de-vehculos/sensores-virtuales/): Derivado de datos calculados o valores combinados de sensores.
 
 ### Copia de los ajustes del sensor
 

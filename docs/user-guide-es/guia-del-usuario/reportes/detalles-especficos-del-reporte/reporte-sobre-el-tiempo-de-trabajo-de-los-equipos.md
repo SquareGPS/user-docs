@@ -16,7 +16,7 @@ El reporte calcula el tiempo de trabajo de los equipos a partir de los puntos de
 
 2. **Configuración del sensor virtual:**
 
-* [Sensores virtuales](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-virtuales/) con dos estados también puede utilizarse. El sensor debe estar correctamente configurado para registrar estos estados.
+* [Sensores virtuales](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensores-virtuales/) con dos estados también puede utilizarse. El sensor debe estar correctamente configurado para registrar estos estados.
 
 3. **Ajustes de detección de aparcamiento:**
 
