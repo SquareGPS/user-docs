@@ -6,7 +6,7 @@ Mettax is a great example of this scenario. Let’s see how easy it is to integr
 
 {% stepper %}
 {% step %}
-**Establishing integration**
+### **Establishing integration**
 
 First, you need to make the necessary preparations on the Mettax side.
 
@@ -41,7 +41,7 @@ Your Mettax account is ready for the integration!
 {% endstep %}
 
 {% step %}
-**Adding a Mettax device to Navixy**
+### **Adding a Mettax device to Navixy**
 
 Navixy platform handles the GPS functionality of video devices and their telematic abilities. To make the most of the integration, you need to add your Mettax device to the platform, following the usual procedure:
 
@@ -59,13 +59,13 @@ Your device and Navixy account are ready for the integration!
 {% endstep %}
 
 {% step %}
-**Embedding Mettax in Navixy UI**
+### **Embedding Mettax in Navixy UI**
 
 At this step, we perform the actual integration.\
 Navixy offers [User applications](../account/user-applications/) functionality that allows embedding 3rd-party apps directly in the platform’s interface. We will use it to embed Mettax.
 
 {% hint style="info" %}
-**Navigation**
+### **Navigation**
 
 **User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -84,7 +84,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy’s left sidebar. Open it and log in with your Mettax credentials.
 
-<img src="../../user-guide/solution-connectors/attachments/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original">
+<p align="center"><img src="../../user-guide/solution-connectors/attachments/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original"></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}

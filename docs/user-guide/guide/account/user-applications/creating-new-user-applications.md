@@ -109,7 +109,7 @@ Click the **Save** button. Your application will appear in the **User applicatio
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Embedded User application view example</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Embedded User application view example</p></figcaption></figure>
 
 <details>
 

@@ -11,7 +11,7 @@ Follow these steps to learn how to work with X-GPS Mobile.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image.png" alt="X-GPS Mobile in Google Play"><figcaption><p>Search screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="X-GPS Mobile in Google Play"><figcaption><p>Search screen</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

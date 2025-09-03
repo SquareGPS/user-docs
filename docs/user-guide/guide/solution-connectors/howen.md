@@ -6,7 +6,7 @@ Integrating Howen VSS with Navixy combines video surveillance with fleet managem
 
 {% stepper %}
 {% step %}
-#### Establishing integration
+### Establishing integration
 
 To establish the integration, you'll need to provide your Howen account credentials and request integration setup from our support team.
 
@@ -21,7 +21,7 @@ After you receive confirmation from our support team, your Howen account is read
 {% endstep %}
 
 {% step %}
-#### Adding a Howen device to Navixy
+### Adding a Howen device to Navixy
 
 After receiving confirmation from our support team that the integration is ready, you can add your Howen device to the platform. To do this, follow the usual device activation procedure:
 
@@ -39,14 +39,14 @@ Your device and Navixy account are now ready for the integration!
 {% endstep %}
 
 {% step %}
-#### Embedding Howen VSS in Navixy UI
+### Embedding Howen VSS in Navixy UI
 
 At this step, we perform the actual integration by embedding the Howen VSS dashboard into your Navixy interface.
 
 Navixy offers [User applications](../account/user-applications/) functionality that allows embedding 3rd-party apps directly in the platform's interface. We will use it to embed Howen VSS.
 
 {% hint style="info" %}
-**Navigation**
+### **Navigation**
 
 **User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -65,7 +65,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy's left sidebar. Open it and log in with your Howen credentials to access your comprehensive AI-powered video telematics dashboard with advanced driver monitoring, intelligent event detection, multi-channel video feeds, and seamless fleet surveillance - all integrated with your existing Navixy fleet management tools.
 
-<img src="../../.gitbook/assets/image (8).png" alt="" data-size="original">
+<p align="center"><img src="../../.gitbook/assets/image (8).png" alt="" data-size="original"></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
