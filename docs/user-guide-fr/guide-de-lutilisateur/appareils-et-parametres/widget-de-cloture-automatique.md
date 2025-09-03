@@ -2,7 +2,7 @@
 
 L'autoguidage, également connu sous le nom de détection des mouvements non autorisés, est une fonction disponible sur de nombreux traceurs GPS pour véhicules. Lorsque le contact est coupé et que le traceur détecte des coordonnées GPS en dehors d'une zone de clôture automatique prédéfinie, il indique que le véhicule quitte sa zone de stationnement désignée.
 
-Le traceur GPS génère alors immédiatement un événement et l'envoie à la plateforme Navixy. Les utilisateurs peuvent configurer des notifications pour [Événements de clôture automatique](https://squaregps.atlassian.net/wiki/spaces/UDOCFR/pages/3027440130/Widget+de+cl+ture+automatique).
+Le traceur GPS génère alors immédiatement un événement et l'envoie à la plateforme Navixy. Les utilisateurs peuvent configurer des notifications pour événements de clôture automatique.
 
 ## Configuration de l'autorégulation
 
@@ -13,8 +13,8 @@ Dans le cadre de la **Appareils et paramètres** de Navixy, il y a un panneau d�
 
 Ces réglages permettent de contrôler précisément quand et où la fonction de clôture automatique s'active, ce qui garantit que les véhicules restent en sécurité même lorsqu'ils sont sans surveillance.
 
-![image-20241118-024806.png](../../guide-de-litilizateur/appareils-et-parametres/attachments/image-20241118-024806.png)
+![](../../guide-de-litilizateur/appareils-et-parametres/attachments/image-20241118-024806.png)
 
 ## Voir aussi
 
-* [Clôture automatique](https://squaregps.atlassian.net/wiki/spaces/UDOCFR/pages/3027440130/Widget+de+cl+ture+automatique) dans Règles et notifications
+* [Clôture automatique](../regles-et-notifications/securite/cloture-automatique.md) dans Règles et notifications

@@ -10,9 +10,7 @@ Nombreux [Appareils GPS Teltonika](https://www.navixy.com/devices/teltonika/) pr
 
 Pour préparer votre appareil GPS Teltonika à l'intégration d'un capteur de carburant Bluetooth, suivez les étapes suivantes.
 
-\[![Bluetooth fuel sensors](https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator_2019-09-28_13-56-33-600x365.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator\_2019-09-28\_13-56-33.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator_2019-09-28_13-56-33-600x365.png" alt=""><figcaption></figcaption></figure>
 
 1. **Télécharger le configurateur Teltonika**: Obtenez l'application sur le site officiel de Teltonika.
 2. **Mise à jour du micrologiciel**: Assurez-vous que votre appareil fonctionne avec la dernière version du micrologiciel.
@@ -31,20 +29,20 @@ Pour préparer votre appareil GPS Teltonika à l'intégration d'un capteur de ca
 * Aller à la page **E/S** tabulation.
 * Assurez-vous que le paramètre correspondant au capteur de carburant est activé.
 
-> \[!INFO] **Codec 8 étendu** est un protocole de communication propre à Teltonika qui prend en charge jusqu'à 65 535 paramètres de données (ID AVL), ce qui permet une transmission de données plus détaillée par rapport au Codec 8 standard, qui n'en prend en charge que 255.
+{% hint style="info" %}
+**Codec 8 étendu** est un protocole de communication propre à Teltonika qui prend en charge jusqu'à 65 535 paramètres de données (ID AVL), ce qui permet une transmission de données plus détaillée par rapport au Codec 8 standard, qui n'en prend en charge que 255.
+{% endhint %}
 
 ## Installation du capteur sur la plate-forme Navixy
 
 Une fois que le tracker est connecté et qu'il transmet des données sur le carburant, suivez les étapes suivantes pour configurer les capteurs correspondants sur la plateforme Navixy.
 
-\[![Bluetooth fuel sensors](https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2019/09/chrome\_2019-09-28\_13-59-40.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png" alt=""><figcaption></figcaption></figure>
 
 1. **Créer un nouveau capteur de mesure**:
 
 * Naviguer vers Appareils et réglages → Capteurs et boutons.
-* Cliquez sur Créer un nouveau [capteur de mesure](broken-reference).
+* Cliquez sur Créer un nouveau [capteur de mesure](../../measurement-sensors/).
 
 2. **Configurer le capteur**:
 

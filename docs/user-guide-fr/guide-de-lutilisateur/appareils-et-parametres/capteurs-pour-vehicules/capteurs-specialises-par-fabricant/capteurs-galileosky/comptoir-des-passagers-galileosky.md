@@ -37,5 +37,5 @@ Imaginez un opérateur de bus urbain qui a besoin de suivre le nombre de passage
 
 ## Suivi et rapports
 
-* **Vue en temps réel.** Une fois intégrées, les données relatives aux passagers peuvent être contrôlées en temps réel à l'aide du widget "Sensor readings" (relevés des capteurs) dans l'interface utilisateur. [Widgets d'information sur les appareils](../../../../../../../wiki/pages/createpage.action).
+* **Vue en temps réel.** Une fois intégrées, les données relatives aux passagers peuvent être contrôlées en temps réel à l'aide du widget "Sensor readings" (relevés des capteurs) dans l'interface utilisateur. [Widgets d'information sur les appareils](../../../../suivi-par-gps/liste-des-objets/widget-objet.md).
 * **Rapports.** Vous pouvez également générer des [Rapports](../../../../rapports/details-specifiques-du-rapport/rapport-sur-les-capteurs-de-mesure.md) qui comprennent des données sur le nombre de passagers, ce qui permet une analyse complète et une meilleure compréhension des flux de passagers.

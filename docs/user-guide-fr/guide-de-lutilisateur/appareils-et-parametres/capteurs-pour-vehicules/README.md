@@ -8,7 +8,7 @@ Le **Capteurs et boutons** se trouve dans la section **Appareils et paramètres*
 
 Le widget donne un aperçu du nombre de capteurs déjà connectés à l'appareil sélectionné. Le développement du panneau vous permet d'ajouter de nouveaux capteurs ou de modifier les capteurs existants.
 
-![image-20240815-205217.png](../../../guide-de-litilizateur/appareils-et-parametres/attachments/image-20240815-205217.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/attachments/image-20240815-205217.png)
 
 Le nombre et le type de capteurs que vous pouvez connecter dépendent du modèle de l'appareil GPS. Par exemple, certains appareils permettent de configurer les paramètres des données transmises via le bus CAN ou le connecteur de diagnostic OBDII.
 
@@ -24,10 +24,10 @@ Pour gérer vos capteurs, vous pouvez utiliser les boutons suivants :
 
 Navixy prend en charge différents types de capteurs, notamment :
 
-* [**Capteurs discrets**](broken-reference): Utilisé pour les entrées binaires telles que l'état de l'allumage, l'ouverture/la fermeture de la porte, etc.
-* [**Capteurs de mesure**](broken-reference): Ces capteurs mesurent et transmettent des valeurs continues telles que la température, le niveau de carburant ou le régime du moteur.
+*
+* [**Capteurs de mesure**](measurement-sensors/): Ces capteurs mesurent et transmettent des valeurs continues telles que la température, le niveau de carburant ou le régime du moteur.
 * [**Capteurs d'agrégation**](capteurs-dagregation.md): Combiner des données provenant de sources multiples en une seule valeur à déclarer.
-* [**Capteurs virtuels**](broken-reference): Dérivé de données calculées ou de valeurs combinées de capteurs.
+* [**Capteurs virtuels**](capteurs-virtuels/): Dérivé de données calculées ou de valeurs combinées de capteurs.
 
 ### Copie des réglages du capteur
 

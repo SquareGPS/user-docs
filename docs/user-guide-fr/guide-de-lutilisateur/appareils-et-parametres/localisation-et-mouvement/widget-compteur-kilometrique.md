@@ -2,7 +2,7 @@
 
 Les **Widget compteur kilométrique** vous permet de contrôler le kilométrage d'un véhicule en temps réel. Les relevés kilométriques peuvent être dérivés des données reçues via un dispositif de suivi GPS ou le bus CAN. En outre, la fonction de compteur kilométrique s'intègre dans le système de gestion des véhicules de l'entreprise. [Entretien du parc automobile](../../gestion-du-parc-automobile/maintenance.md) qui vous permet de planifier les travaux d'entretien d'un véhicule et de recevoir des rappels en temps voulu.
 
-![image-20240815-181307.png](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-181307.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-181307.png)
 
 ## Activation du compteur kilométrique
 

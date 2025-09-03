@@ -2,11 +2,7 @@
 
 Les capteurs virtuels vous permettent de traiter plus efficacement les données télémétriques. En cartographiant la tension de la carte, ils peuvent vous aider à calculer les heures de fonctionnement du moteur en fonction de conditions et de valeurs définies. En outre, ils vous permettent de convertir plusieurs points de données provenant de différents capteurs connectés à un appareil en indicateurs plus faciles à comprendre tels que "chaud", "froid", "ouvert" et "fermé", quel que soit le fabricant ou le modèle de l'appareil. Cela ouvre de nouvelles possibilités de surveillance, de suivi et de prévision des performances de technologies complexes.
 
-\[![Virtual sensor interface](https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_clvf66ikbi.png)
-
-Interface de capteur virtuel
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt=""><figcaption><p>Interface de capteur virtuel</p></figcaption></figure>
 
 ### Comment créer un capteur virtuel
 
@@ -19,11 +15,7 @@ Les capteurs virtuels peuvent être créés via le portlet "Sensors and Buttons"
 
 Chaque appareil peut avoir jusqu'à 100 capteurs virtuels.
 
-\[![Virtual sensor adding in sensors and buttons portlet](https://www.navixy.com/wp-content/uploads/2024/03/browser_73sv6rayqh.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_73sv6rayqh.png)
-
-Ajout d'un capteur virtuel dans le portlet des capteurs et des boutons
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_73sv6rayqh.png" alt=""><figcaption><p>Ajout d'un capteur virtuel dans le portlet des capteurs et des boutons</p></figcaption></figure>
 
 Les étapes suivantes dépendent du cas d'utilisation qui doit être résolu par le capteur virtuel. Vous trouverez ci-dessous des exemples et des instructions pour différentes méthodes de calcul.
 
@@ -39,7 +31,7 @@ Toutes les valeurs des capteurs virtuels doivent correspondre à la forme sous l
 
 Nous décrivons ici le fonctionnement des différentes méthodes de calcul. Cliquez sur le nom de la méthode de calcul pour la développer.
 
-[**Valeur dans la fourchette**](./#1679329407451-09b70c96-6385)
+#### Valeur dans la plage
 
 Ce type de capteur virtuel aide nos clients à maintenir des paramètres importants tels que l'allumage virtuel, la température, l'humidité et le niveau de carburant dans une plage spécifiée.
 
@@ -61,11 +53,7 @@ Pour créer ce capteur :
 5. Spécifiez une valeur minimale, par exemple 13,2 V. La valeur maximale n'est pas nécessaire puisque la tension de la carte peut varier lorsque l'allumage est activé.
 6. Enfin, définissez la signification des états 0 et 1 - en général, il s'agit respectivement de On et Off.
 
-\[![Example configuration for virtual ignition](https://www.navixy.com/wp-content/uploads/2024/03/browser_7qx9prhhxc.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_7qx9prhhxc.png)
-
-Exemple de configuration pour l'allumage virtuel
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_7qx9prhhxc.png" alt=""><figcaption><p>Exemple de configuration pour l'allumage virtuel</p></figcaption></figure>
 
 Une fois que vous avez défini votre plage de seuil de tension, si la valeur embarquée entrante se situe dans cette plage, la plate-forme commutera l'état d'allumage sur "on". À l'inverse, si elle se situe en dehors de cette fourchette, elle passera à l'état "éteint". L'allumage virtuel créé à l'aide de cette méthode sera également pris en compte dans les rapports et les notifications basés sur son état ; par exemple, vous pouvez l'utiliser pour générer des rapports sur les heures de fonctionnement du moteur ou des alertes en cas de marche au ralenti excessive.
 
@@ -79,13 +67,9 @@ Supposons que vous disposiez d'un capteur analogique qui collecte des données d
 
 Nous pouvons définir notre fourchette : tout ce qui se situe entre 1020 et 1900 sera considéré comme "froid" (1) et tout ce qui est supérieur à 1900 sera considéré comme "chaud" (0).
 
-\[![Example configuration for reading temperature from analog sensor](https://www.navixy.com/wp-content/uploads/2024/03/browser_kgzvrsdzb1.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_kgzvrsdzb1.png" alt=""><figcaption><p>Exemple de configuration pour la lecture de la température à partir d'un capteur analogique</p></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_kgzvrsdzb1.png)
-
-Exemple de configuration pour la lecture de la température à partir d'un capteur analogique
-
-[**Valeur de la source**](./#1679329407460-fa411058-510d)
+#### **Valeur source**
 
 Avec les capteurs virtuels, vous pouvez attribuer votre définition à n'importe quelle valeur reçue. Cette méthode fonctionne avec des ensembles prédéfinis de valeurs et de chaînes, ce qui permet de travailler facilement avec des valeurs statiques sans avoir à spécifier différentes plages. En outre, elle peut fonctionner avec toutes les données dont vous avez besoin. En outre, elle peut fonctionner avec toutes les données dont vous avez besoin :
 
@@ -127,11 +111,7 @@ Pour configurer un tel capteur :
 4. Sélectionnez "Valeur source" comme méthode de calcul.
 5. Remplissez le tableau avec vos propres valeurs sur le côté gauche et les valeurs respectives des capteurs sur le côté droit. Ajoutez des lignes en cliquant sur le signe "+" et supprimez-les en utilisant le bouton "poubelle".
 
-\[![Configuration example for source value calculation method](https://www.navixy.com/wp-content/uploads/2024/03/browser_xlxdl1ak9e.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_xlxdl1ak9e.png)
-
-Exemple de configuration de la méthode de calcul de la valeur de la source
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_xlxdl1ak9e.png" alt=""><figcaption><p>Exemple de configuration de la méthode de calcul de la valeur de la source</p></figcaption></figure>
 
 #### Les clés matérielles pour les conducteurs, l'équipement et les remorques
 
@@ -139,13 +119,9 @@ Certains appareils peuvent être capables de lire les conducteurs et leurs iButt
 
 La méthode d'identification la plus simple est celle des étiquettes : chaque unité connectée à un équipement lourd possède son propre capteur auquel est attachée une étiquette, reconnue par la plate-forme comme une clé matérielle. Lorsqu'elle est connectée à la machine, cette clé est envoyée à la plate-forme et le nom qui lui est associé peut être affiché de manière compréhensible - de la même manière que les valeurs de la prise de force ont été nommées.
 
-\[![Configuration example for source value calculation method for hardware key or state field sensor reading](https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png" alt=""><figcaption><p>Exemple de configuration de la méthode de calcul de la valeur source pour la lecture d'une clé matérielle ou d'un capteur de champ d'état</p></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_vw7hkgdl0n.png)
-
-Exemple de configuration de la méthode de calcul de la valeur source pour la lecture d'une clé matérielle ou d'un capteur de champ d'état
-
-[**Index des bits**](./#1679330119395-5e95e66b-c1e9)
+#### Indice de bit
 
 Certains appareils peuvent fournir des données avancées dans leurs paquets, parfois en fusionnant plusieurs paramètres [en une seule valeur](https://www.navixy.com/blog/sensor-parameters-avl/). L'outil Capteurs virtuels vous permet de travailler avec des parties de valeurs télématiques, en décodant les données transmises par le matériel GPS.
 
@@ -166,10 +142,6 @@ Pour un capteur qui indique l'état du capot de la voiture dans notre exemple, v
 
 Voici un exemple de capteur qui indique l'état du capot de la voiture.
 
-\[![Configuration example for Bit index calculation sensor](https://www.navixy.com/wp-content/uploads/2024/03/browser_2qcam8zclk.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_2qcam8zclk.png)
-
-Exemple de configuration du capteur de calcul de l'indice de bits
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_2qcam8zclk.png" alt=""><figcaption><p>Exemple de configuration du capteur de calcul de l'indice de bits</p></figcaption></figure>
 
 Une fois qu'un capteur virtuel est configuré et que le capteur de l'appareil qui lui est associé a fourni des données, celles-ci peuvent être consultées dans le widget "Lectures du capteur" de l'onglet "Informations" de l'appareil. Les capteurs de votre appareil peuvent désormais parler dans votre langue.

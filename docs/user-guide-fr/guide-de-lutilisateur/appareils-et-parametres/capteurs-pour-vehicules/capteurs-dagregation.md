@@ -2,7 +2,7 @@
 
 Les **Capteur d'agrégation** widget dans Navixy est un outil puissant qui vous permet de combiner des données provenant de plusieurs capteurs et de les traiter à l'aide d'une fonction d'agrégation. Cette fonctionnalité est particulièrement utile dans les scénarios où plusieurs capteurs sont utilisés pour surveiller des paramètres similaires, tels que les niveaux de carburant dans un véhicule.
 
-![image-20240815-205851.png](../../../guide-de-litilizateur/appareils-et-parametres/capteurs-pour-vehicules/attachments/image-20240815-205851.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/capteurs-pour-vehicules/attachments/image-20240815-205851.png)
 
 ## Options de la fonction d'agrégation
 

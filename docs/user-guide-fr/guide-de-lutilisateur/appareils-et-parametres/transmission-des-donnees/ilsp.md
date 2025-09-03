@@ -41,7 +41,7 @@ Data sent to ILSP:
 
 ### ILSP Configuration
 
-#### Setting up
+#### **Setting up**
 
 Required Parameters
 
@@ -51,48 +51,41 @@ Required Parameters
   * Address:https://www.ilspservices.com.mx/
   * Port: 443
 
-To set up data forwarding in ILSP protocol, open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
+To set up data forwarding in ILSP protocol:
 
-Then, click the “Data forwarding” widget.
+1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
+2. Click the **Data forwarding** widget.
+3. Click **Retranslators management**.
+4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+5. For the ILSP protocol, input the following information:
 
-Click “Retranslators management”.
+<table><thead><tr><th width="288.18182373046875">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol</td><td>Select the ILSP protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: https://www.ilspservices.com.mx/<br>* Port: 443</td></tr></tbody></table>
 
-This will open a popup where you will input the required parameters by pressing the + button
+6. The **Retranslation management** screen should look similar to the following, with ILSP login and password. Make sure the "Enabled" button is checked and click the "Save" button to complete the process.
 
-For the ILSP protocol, input the following information:
+![](https://www.navixy.com/wp-content/uploads/2022/10/image-8-600x111.png)
 
-\| Parameter | Explanation | | --- | --- | | Name | Enter a name to make this retranslator easily identifiable | | Protocol | Select the ILSP protocol from the dropdown | | Destination server address and port | \* Address: https://www.ilspservices.com.mx/\
-\* Port: 443 |
+7. Next, the retranslator will need to be linked to the device on the ILSP side. To do so, select the <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link" data-size="line">button in the data forwarding widget. Select the retranslator to be connected and click **Link** below.
+8. Add information needed to identify the device on ILSP in the **External ID** field, either by clicking the pencil icon or the external ID field itself. This value should include the following from the ILSP side:
 
-A Retranslation management screen should look similar to the following, with ILSP login and password. Make sure the "Enabled" button is checked and click the "Save" button to complete the process.
-
-![ILSP](https://www.navixy.com/wp-content/uploads/2022/10/image-8-600x111.png)
-
-Next, the retranslator will need to be linked to the device on the ILSP side. To do so, select the “Link” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
-
-button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
-
-Next, add information needed to identify the device on ILSP in the External ID field, either by clicking the pencil icon or the external ID field itself. This value should include the following from the ILSP side:
-
+```
 UserId|VehicleLicensePlate|RouteID
+```
 
-#### Managing
+#### **Managing**
 
-To edit or stop data being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, please refer to the following steps:
 
-To stop the data forwarding, click the “Trash” button.
-
-Next, acknowledge the change on the popup.
-
-To change retranslator settings such as name, login information, or enabled, click “Retranslators management.”
-
-This will open the retranslator management window. Select the row to edit and either click the pencil in the top left, or double-click the row in question to allow editing. Save any changes.
+1. To stop the data forwarding, click the **Trash** button.
+2. Acknowledge the change via the pop-up.
+3. Click **Retranslators management** to change retranslator settings such as name, login information, or enabled status.
+4. This will open the **Retranslator management** window. Select the row to edit and either click the pencil in the top left or double-click the row in question to allow editing. Save any changes.
 
 ![ILSP](https://www.navixy.com/wp-content/uploads/2022/10/image-9-600x100.png)
 
-#### Troubleshooting
+#### **Troubleshooting**
 
-If data does not display on the 3rd party ILSP system, please verify:
+If data does not display on the 3rd-party ILSP system, please check if:
 
 * Username and password for ILSP are correctly entered
 * URL was entered correctly

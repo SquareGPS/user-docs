@@ -13,7 +13,7 @@ The accuracy of fuel data depends on several key factors:
 
 ### Setting up a fuel sensor
 
-Fuel sensors are categorized as "[Measurement sensors](broken-reference)" on the Navixy platform. To add a fuel sensor:
+Fuel sensors are categorized as "[Measurement sensors](./)" on the Navixy platform. To add a fuel sensor:
 
 1. **Navigate to Devices and settings -> Sensors and buttons**.
 2. Click the **+** icon and select **Measurement sensor**.
@@ -53,7 +53,7 @@ Navixy employs advanced statistical methods to assess the quality of fuel sensor
 
 Fuel sensors are a vital component for tracking the fuel levels of various vehicles and static tanks. With the help of platform algorithms, fuel consumption levels, refueling and discharges can be monitored through the data collected by these sensors. Efficient utilization of this data can lead to significant cost savings by preventing fuel losses and identifying vehicles with excessive fuel consumption, whose profits fail to meet expectations. By leveraging the insights provided by fuel sensors, you can stay ahead of any potential issues and optimize your fuel consumption, thereby boosting overall profitability.
 
-Fuel level sensors come in various types and each serves a particular purpose. You can find detailed information about them in our [Academy](https://docs.navixy.com/eco-fleet/types-of-fuel-level-sensors). For the purpose of this article, we will be focusing on the fuel operation of the platform. Additionally, we will be discussing the fuel sensor settings and the impact that they have on the overall fuel management process.
+Fuel level sensors come in various types and each serves a particular purpose. You can find detailed information about them in our [Expert Center](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management). For the purpose of this article, we will be focusing on the fuel operation of the platform. Additionally, we will be discussing the fuel sensor settings and the impact that they have on the overall fuel management process.
 
 ### What the fuel sensor readings depend on
 
@@ -66,7 +66,7 @@ The accuracy of fuel data displayed is dependent on several factors including:
 
 ### Sensor creation
 
-Fuel sensors are a type of [Measurement sensor](broken-reference) that can be created on a GPS tracking platform. To create a fuel sensor, navigate to the Device Management section and click on the Sensors and Buttons panel. Next, click on the + icon and select "measurement sensor" from the dropdown menu.
+Fuel sensors are a type of [Measurement sensor](./) that can be created on a GPS tracking platform. To create a fuel sensor, navigate to the Device Management section and click on the Sensors and Buttons panel. Next, click on the + icon and select "measurement sensor" from the dropdown menu.
 
 ### Fuel sensor settings
 
@@ -83,7 +83,7 @@ Once you choose Fuel Level as the sensor type, additional settings will appear. 
   * Drains – drains in movement will be excluded.
   * Refills – refills in movement will be filtered.
   * Filter timeout - This setting appears when the Ignore feature is enabled. It determines the timeout period in minutes that will be used to shorten the driving intervals for fuel filtering. This option can be helpful if the fuel level stabilizes only after some time has passed since refueling, and the vehicle has already started moving. This is more commonly seen in vehicles with large fuel tanks. The default setting for this feature is 5 minutes.
-* Calibration table - this parameter is used to convert the sensor readings into desired units such as liters. Some sensor manufacturers may provide the conversion values for the table. However, in most situations, [calibration](https://docs.navixy.com/eco-fleet/fuel-level-sensors) will be necessary in order to achieve accurate readings.
+* Calibration table - this parameter is used to convert the sensor readings into desired units such as liters. Some sensor manufacturers may provide the conversion values for the table. However, in most situations, calibration will be necessary in order to achieve accurate readings.
   * Tank volume - is the maximum volume of the tank, which is specified in units in the calibration table. If calibration values are not specified, the default value of 100 is assumed, which indicates that the data is being transmitted in percentage.
   * Even if your sensor already sends data to the platform in liters, it is better to specify the calibration as 0 = 0 liters and maximum fuel tank capacity = X liters.
   * If it is a sensor that transmits fuel level information in percentages, specify calibration 0 = 0 liters and 100 = maximum fuel tank capacity in liters.
@@ -103,9 +103,7 @@ Filters for minima and maxima, calibration tables, and other sensor settings are
 
 #### Drains and refills in rules
 
-Rules for draining and refueling are based on the calibration table and absolute error, which is calculated as
-
-`tank volume * accuracy`
+Rules for draining and refueling are based on the calibration table and absolute error, which is calculated as `tank volume * accuracy`.
 
 The platform will record the last current reading of the sensor for a ten-minute span. Based on this reading, the following events will be triggered:
 

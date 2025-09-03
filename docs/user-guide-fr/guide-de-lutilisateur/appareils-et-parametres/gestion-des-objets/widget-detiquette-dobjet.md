@@ -13,10 +13,12 @@ Après avoir effectué les modifications, cliquez sur "Enregistrer" pour appliqu
 
 Vous pouvez facilement remplacer un traceur GPS connecté à la plateforme. Qu'il s'agisse d'une mise à niveau ou d'un dysfonctionnement, le mécanisme de remplacement assure une transition en douceur en préservant la configuration, les paramètres et les données historiques de l'appareil d'origine. Accessible par l'intermédiaire de l'application **Appareils et paramètres** Ce processus intuitif et réactif minimise les temps d'arrêt et maximise la commodité, ce qui permet à vos opérations de continuer à fonctionner sans interruption.
 
-> \[!INFO] **Important**
->
-> * Certains appareils, tels que les smartphones utilisés comme traceurs par le biais de l'application X-GPS, ne sont pas pris en charge par le mécanisme de remplacement et ne disposent pas d'une fonction d'identification. **Remplacer le dispositif** disponible pour eux.
-> * Les données historiques ne sont disponibles que lorsque le nouveau dispositif a été activé avec succès.
+{% hint style="info" %}
+### **Important**
+
+* Certains appareils, tels que les smartphones utilisés comme traceurs par le biais de l'application X-GPS, ne sont pas pris en charge par le mécanisme de remplacement et ne disposent pas d'une fonction d'identification. **Remplacer le dispositif** disponible pour eux.
+* Les données historiques ne sont disponibles que lorsque le nouveau dispositif a été activé avec succès.
+{% endhint %}
 
 ### Comment remplacer un appareil
 
@@ -34,7 +36,9 @@ Vous pouvez facilement remplacer un traceur GPS connecté à la plateforme. Qu'i
 9. **Entrez les détails de l'appareil :** Spécifiez le numéro de téléphone, les paramètres APN et l'ID de l'appareil (IMEI) pour le nouvel appareil.
 10. **Compléter le remplacement :** Cliquez sur **Remplacer** pour finaliser le processus. La plateforme enverra des commandes d'activation au nouveau dispositif et surveillera son état d'activation.
 
-> \[!INFO] Il convient de noter qu'une fois que le **Remplacer** est enfoncée, le processus de remplacement ne peut pas être annulé.
+{% hint style="info" %}
+Il convient de noter qu'une fois que le **Remplacer** est enfoncée, le processus de remplacement ne peut pas être annulé.
+{% endhint %}
 
 Ces étapes garantissent que l'appareil de remplacement est correctement configuré et prêt à prendre le relais de l'appareil précédent, ce qui permet de minimiser les temps d'arrêt et de maintenir le bon fonctionnement de la flotte.
 

@@ -4,4 +4,4 @@ Le **Détection de remorquage**Le détecteur de mouvement, disponible dans de no
 
 Dans le logiciel Navixy, vous pouvez configurer cette fonction en accédant à l'option **"Détection de remorquage** dans le widget **"Appareils et paramètres"** section. Ce panneau vous permet de régler la sensibilité du détecteur de mouvement et de spécifier le délai avant le début de la détection.
 
-![image-20240815-214358.png](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-214358.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-214358.png)

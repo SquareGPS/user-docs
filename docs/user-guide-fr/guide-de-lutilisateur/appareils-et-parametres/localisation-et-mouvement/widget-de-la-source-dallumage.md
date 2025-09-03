@@ -7,7 +7,7 @@ De nombreux appareils GPS avancés offrent la possibilité de déterminer la pos
 * **Détection d'allumage basée sur la tension**: Lorsque le moteur tourne, le générateur du véhicule fournit du courant à une tension supérieure à celle de la batterie pour la maintenir chargée. En surveillant cette augmentation de tension, l'appareil peut déterminer avec précision quand le contact est mis.
 * **Détection d'allumage basée sur un capteur de mouvement**: Cette option est utile lorsque l'appareil n'est pas connecté au système électrique du véhicule. L'état de l'allumage est déduit du mouvement du véhicule. Toutefois, il convient de noter que cette méthode peut également détecter l'allumage lorsque le véhicule est remorqué, même si le moteur ne tourne pas.
 
-![image-20240815-213014.png](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-213014.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-213014.png)
 
 ## Configuration de la source d'allumage virtuelle
 
@@ -22,7 +22,7 @@ Cette configuration permet une surveillance souple et précise de l'état de l'a
 
 La capture d'écran ci-dessous illustre les options disponibles pour sélectionner la source d'allumage dans la plateforme Navixy.
 
-![image-20240815-213517.png](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-213517.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-213517.png)
 
 Le widget "Source d'allumage" permet aux utilisateurs de choisir les critères pour déterminer l'état de l'allumage. Vous pouvez choisir parmi les options suivantes :
 

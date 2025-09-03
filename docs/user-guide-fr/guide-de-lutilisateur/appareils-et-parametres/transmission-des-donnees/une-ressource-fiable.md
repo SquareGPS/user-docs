@@ -56,67 +56,56 @@ Paramètres requis
 * Port du serveur de destination
   * 80
 
-Pour configurer la transmission des données dans le protocole Recurso Confiable, ouvrez les paramètres de l'appareil à partir du menu principal en appuyant sur l'icône "Engrenage" en bas à gauche de l'écran.
+Pour configurer la transmission des données dans le protocole Recurso Confiable:&#x20;
 
-Cliquez ensuite sur le widget "Transfert de données".
+1. Ouvrez les paramètres de l'appareil à partir du menu principal en appuyant sur l'icône "Engrenage" en bas à gauche de l'écran.
+2. Cliquez ensuite sur le widget "Transfert de données".
+3. Cliquez sur "Protocoles".
+4. Une fenêtre s'ouvre alors, dans laquelle vous pouvez saisir les paramètres requis en appuyant sur le bouton +.
+5.  Pour le protocole Recurso Confiable, saisissez les informations suivantes :&#x20;
 
-Cliquez sur "Protocoles".
+    <table><thead><tr><th width="187.63641357421875">Paramètre </th><th>Explication </th></tr></thead><tbody><tr><td>Nom </td><td>Entrez un nom pour rendre ce retranslateur facilement identifiable</td></tr><tr><td>Protocole et Login</td><td>Sélectionnez le protocole Recurso Confiable dans la liste déroulante; <br>Utiliser Recurso Confiable Login et Mot de passe </td></tr><tr><td>Adresse et port du serveur de destination </td><td>Adresse : <a href="http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc">http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc</a> <br>Port : 80 </td></tr></tbody></table>
+6.  L'écran de gestion de la retraduction devrait ressembler à ce qui suit, avec le login et le mot de passe de Recurso Confiable. Assurez-vous que le bouton "Activé" est coché et cliquez sur le bouton "Enregistrer" pour terminer le processus.
 
-Une fenêtre s'ouvre alors, dans laquelle vous pouvez saisir les paramètres requis en appuyant sur le bouton +.
+    ![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
+7. Ensuite, le retranslateur devra être lié à l'appareil du côté de Recurso Confiable. Pour ce faire, sélectionnez l'option "Link" <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> dans le widget de transfert de données. Sélectionnez le retraducteur à connecter et cliquez sur "Lien" ci-dessous.
+8.  Ensuite, ajoutez les informations nécessaires à l'identification du dispositif sur Recurso Confiable dans le champ ID externe, soit en cliquant sur l'icône crayon, soit en cliquant sur le champ ID externe lui-même. Cette valeur devrait inclure les éléments suivants du côté de Recurso Confiable, où seule la plaque d'immatriculation est obligatoire :&#x20;
 
-Pour le protocole Recurso Confiable, saisissez les informations suivantes :
+    1. Plaque d'immatriculation
+    2. ID de l'itinéraire
+    3. Numéro d'identification de l'entreprise
+    4. Nom de l'entreprise
 
-\| Paramètre | Explication | --- | --- | Nom | Entrez un nom pour rendre ce retranslateur facilement identifiable | | Protocole et Login | Sélectionnez le protocole Recurso Confiable dans la liste déroulante;\
-\
-Utiliser Recurso Confiable Login et Mot de passe | | Adresse et port du serveur de destination | Adresse : [http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc](http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc) | Port : 80 |
+    Le format du champ ID externe sera séparé par un trait de plume. Par exemple :&#x20;
 
-L'écran de gestion de la retraduction devrait ressembler à ce qui suit, avec le login et le mot de passe de Recurso Confiable. Assurez-vous que le bouton "Activé" est coché et cliquez sur le bouton "Enregistrer" pour terminer le processus.
+    ```
+    ABC123|1|123|John
+    ```
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
+    Si seule la plaque d'immatriculation est disponible, l'identifiant externe peut être saisi seul :
 
-Ensuite, le retranslateur devra être lié à l'appareil du côté de Recurso Confiable. Pour ce faire, sélectionnez l'option "Link" ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
+    ```
+    ABC123
+    ```
 
-dans le widget de transfert de données. Sélectionnez le retraducteur à connecter et cliquez sur "Lien" ci-dessous.
+    Si d'autres informations sont manquantes, veillez à inclure les tuyaux, par exemple :
 
-Ensuite, ajoutez les informations nécessaires à l'identification du dispositif sur Recurso Confiable dans le champ ID externe, soit en cliquant sur l'icône crayon, soit en cliquant sur le champ ID externe lui-même. Cette valeur devrait inclure les éléments suivants du côté de Recurso Confiable, où seule la plaque d'immatriculation est obligatoire :
-
-Plaque d'immatriculation
-
-ID de l'itinéraire
-
-Numéro d'identification de l'entreprise
-
-Nom de l'entreprise
-
-Le format du champ ID externe sera séparé par un trait de plume. Par exemple :
-
-ABC123|1|123|John
-
-Si seule la plaque d'immatriculation est disponible, l'identifiant externe peut être saisi seul :
-
-ABC123
-
-Si d'autres informations sont manquantes, veillez à inclure les tuyaux, par exemple :
-
-ABC123||123|
-
-Sélectionnez "Enregistrer" une fois que vous avez terminé.
+    ```
+    ABC123||123|
+    ```
+9. Sélectionnez "Enregistrer" une fois que vous avez terminé.
 
 #### Gestion
 
 Pour modifier ou arrêter la transmission des données, veuillez suivre les étapes suivantes :
 
-Sélectionnez l'icône "Crayon" ou cliquez dans la case associée pour modifier l'identifiant externe utilisé pour pointer vers l'appareil sur le système tiers.
+1. Sélectionnez l'icône "Crayon" ou cliquez dans la case associée pour modifier l'identifiant externe utilisé pour pointer vers l'appareil sur le système tiers.
+2. Pour arrêter le transfert de données, cliquez sur le bouton "Corbeille".
+3. Ensuite, accusez réception de la modification sur la fenêtre contextuelle.
+4. Pour modifier les paramètres du retranslateur, tels que le nom, les informations de connexion ou l'activation, cliquez sur "Gestion des retranslateurs".
+5. La fenêtre de gestion du retranslateur s'ouvre alors. Sélectionnez la ligne à modifier et cliquez sur le crayon en haut à gauche, ou double-cliquez sur la ligne en question pour autoriser la modification. Enregistrez les modifications.
 
-Pour arrêter le transfert de données, cliquez sur le bouton "Corbeille".
-
-Ensuite, accusez réception de la modification sur la fenêtre contextuelle.
-
-Pour modifier les paramètres du retranslateur, tels que le nom, les informations de connexion ou l'activation, cliquez sur "Gestion des retranslateurs".
-
-La fenêtre de gestion du retranslateur s'ouvre alors. Sélectionnez la ligne à modifier et cliquez sur le crayon en haut à gauche, ou double-cliquez sur la ligne en question pour autoriser la modification. Enregistrez les modifications.
-
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-3-600x107.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-3-600x107.png)
 
 #### Dépannage
 

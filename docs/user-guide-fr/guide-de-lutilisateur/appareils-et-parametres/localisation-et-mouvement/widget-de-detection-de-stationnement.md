@@ -2,7 +2,7 @@
 
 La détection de stationnement permet de savoir si un objet est resté immobile pendant un laps de temps donné et dans les limites d'un seuil de vitesse défini, à l'aide de données GPS.
 
-![image-20240815-183001.png](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-183001.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-183001.png)
 
 **Paramètres pour la détection du stationnement :**
 

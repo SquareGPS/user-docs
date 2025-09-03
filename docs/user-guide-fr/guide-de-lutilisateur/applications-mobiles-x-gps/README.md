@@ -4,6 +4,6 @@ L'écosystème Navixy comprend trois applications mobiles dédiées, conçues po
 
 En savoir plus sur les applications, leurs fonctionnalités et leurs objectifs :
 
-* [X-GPS Mobile](../../guide-de-litilizateur/applications-mobiles-x-gps/applications-mobiles-x-gps/x-gps-mobile.md)
-* [X-GPS Monitor](../../guide-de-litilizateur/applications-mobiles-x-gps/applications-mobiles-x-gps/x-gps-monitor.md)
-* [X-GPS Tracker](../../guide-de-litilizateur/applications-mobiles-x-gps/applications-mobiles-x-gps/x-gps-tracker.md)
+* [X-GPS Mobile](x-gps-mobile/)
+* [X-GPS Monitor](x-gps-monitor.md)
+* [X-GPS Tracker](x-gps-tracker.md)

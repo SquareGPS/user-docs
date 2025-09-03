@@ -2,8 +2,9 @@
 
 Les **fuseau horaire de l'appareil** vous permet d'ajuster les paramètres du fuseau horaire pour des modèles d'appareils spécifiques. Le décalage du fuseau horaire d'un appareil GPS détermine la manière dont sont interprétés les horodatages des messages transmis à la plateforme. Si le décalage du fuseau horaire est incorrect, les données de suivi peuvent être inexactes, car les horodatages ne correspondent pas à l'heure réelle des événements.
 
-> [!WARNING]
-> Navixy recommande fortement que l'appareil soit réglé sur UTC+0h comme fuseau horaire standard pour assurer la cohérence et la précision des données de suivi. Cependant, si votre appareil est configuré avec un fuseau horaire différent, ce widget vous permet d'effectuer les ajustements nécessaires.
+{% hint style="danger" %}
+Navixy recommande fortement que l'appareil soit réglé sur UTC+0h comme fuseau horaire standard pour assurer la cohérence et la précision des données de suivi. Cependant, si votre appareil est configuré avec un fuseau horaire différent, ce widget vous permet d'effectuer les ajustements nécessaires.
+{% endhint %}
 
 ### Quand utiliser
 

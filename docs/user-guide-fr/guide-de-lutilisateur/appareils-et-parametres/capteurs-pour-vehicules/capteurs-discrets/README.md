@@ -1,8 +1,6 @@
 # Capteurs discrets
 
-Pour ajouter un capteur discret, cliquez sur ![Discrete sensor](https://www.navixy.com/wp-content/uploads/2019/06/plus.jpg)
-
-et dans le menu contextuel, sélectionnez "Capteur discret" :
+Pour ajouter un capteur discret, cliquez sur <img src="https://www.navixy.com/wp-content/uploads/2019/06/plus.jpg" alt="Discrete sensor" data-size="line"> et dans le menu contextuel, sélectionnez "Capteur discret" :
 
 Spécifiez les paramètres nécessaires du capteur :
 

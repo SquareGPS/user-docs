@@ -7,6 +7,6 @@ Le **Rayon de détection LBS (Location-Based Service)** détermine la distance �
 
 Ajustez le rayon de détection LBS en fonction de l'environnement de fonctionnement de l'appareil afin de trouver un équilibre entre la précision et la couverture du signal.
 
-![image-20240815-180931.png](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-180931.png)
+![](../../../guide-de-litilizateur/appareils-et-parametres/localisation-et-mouvement/attachments/image-20240815-180931.png)
 
 Dans Navixy, les emplacements LBS sont affichés sur la carte sous forme de cercles. Le centre indique l'emplacement estimé, tandis que le rayon indique l'imprécision possible. Un cercle plus petit indique une plus grande précision, généralement observée dans les zones urbaines, tandis qu'un cercle plus grand indique une plus grande imprécision, fréquente dans les zones rurales.

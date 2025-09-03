@@ -4,7 +4,7 @@ Wialon IPS is a generic, publicly available data forwarding protocol from Gurtam
 
 _Protocol Category: Data consolidation_
 
-#### Table of contents
+**Table of contents**
 
 1. [What is Wialon IPS?](wialon-ips.md#what-is-wialon-ips)
 2. [Wialon IPS general technical information](wialon-ips.md#wialon-ips-general-technical-information)
@@ -41,17 +41,15 @@ Data sent to Wialon IPS:
 
 ### Wialon IPS configuration
 
-#### Setting up
+#### **Setting up**
 
-To set up data forwarding for the Wialon IPS protocol, open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen
+To set up data forwarding for the Wialon IPS protocol:
 
-Then, click the “Data forwarding” widget
-
-Click “Retranslators management”.
-
-This will open a popup where you will input the required parameters by pressing the + button.
-
-For the Wialon IPS protocol, input the following information:
+1. Open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
+2. Click the **Data forwarding** widget.
+3. Click **Retranslators management**.
+4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+5. For the Wialon IPS protocol, input the following information:
 
 * Name
   * Enter a name to make this retranslator easily identifiable
@@ -65,42 +63,35 @@ For the Wialon IPS protocol, input the following information:
     * EU domain: tracker.navixy.com
     * US domain: tracker.us.navixy.com
 * Destination Port
-  * Related information from the 3rd party server
+  * Related information from the 3rd-party server
   * Navixy A to Navixy B, and from Wialon IPS
     * 47768
 
-A Retranslation management screen should look similar to the following, no password needed. Make sure the "Enabled" button is checked and click the "Save" button to complete the process.
+6. The Retranslation management screen should look like the following, no password needed. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
-![Wialon IPS setup](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips.png" alt="Wialon IPS setup"><figcaption></figcaption></figure>
 
-Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the “Link” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
+7. Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below. External ID is not needed for the Wialon IPS protocol.
+8. Select **Save** once completed.
 
-button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
+{% hint style="warning" %}
+If receiving data from Wialon IPS, a related Wialon IPS-compatible device will need to be created on the Navixy platform, such as Bitrek.
+{% endhint %}
 
-External ID is not needed for the Wialon IPS protocol.
+#### **Managing**
 
-Select “Save” once completed.
+To edit or stop data from being forwarded, please refer to the following steps:
 
-Note:\
-If receiving data from Wialon IPS, a related Wialon IPS compatible device will need to be created on the Navixy platform, such as Bitrek.
+1. Click the **Trash** button to stop the data forwarding.
+2. Acknowledge the change in the pop-up.
+3. Click **Protocols** to change retranslator settings such as name, login information, or enabled status
+4. This will open the retranslator management window. Select the row to edit and either click the pencil in the top left or double-click the row in question to allow editing. Save any changes.
 
-#### Managing
+![](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips-management.png)
 
-To edit or stop data being forwarded, please refer to the following steps:
+#### **Troubleshooting**
 
-To stop the data forwarding, click the “Trash” button.
+If data does not display on the 3rd-party Wialon IPS system or Navixy platform, please verify:
 
-Next, acknowledge the change on the popup.
-
-To change retranslator settings such as name, login information, or enabled, click “Retranslators management.”
-
-This will open the retranslator management window. Select the row to edit and either click the pencil in the top left, or double click the row in question to allow editing. Save any changes.
-
-![Wialon IPS management](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips-management.png)
-
-#### Troubleshooting
-
-If data does not display on the 3rd party Wialon IPS system or Navixy platform, please verify:
-
-* URL was entered correctly with associated port
+* The URL was entered correctly with the associated port
 * Retranslator is enabled
