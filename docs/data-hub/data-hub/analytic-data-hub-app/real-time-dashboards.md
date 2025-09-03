@@ -4,7 +4,7 @@ Real-time dashboards transform raw telematics data streams into operational inte
 
 ## Object status dashboard
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Daily fleet coordination, shift handovers, and identifying vehicles requiring immediate attention.
 
@@ -27,7 +27,7 @@ Please note - Analytics App uses its own calculation logic to identify movement 
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Investigating specific vehicles flagged in status monitoring, detailed operational planning, and comprehensive asset verification.
 
