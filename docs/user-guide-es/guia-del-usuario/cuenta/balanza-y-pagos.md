@@ -1,13 +1,13 @@
 # Balanza y pagos
 
-Para gestionar el saldo de su cuenta de usuario, desde el menú principal, navegue hasta Configuración de la cuenta → Saldo. La sección Saldo le permite gestionar sus métodos de pago, configurar AutoPay, configurar alertas de saldo bajo y ver su historial de transacciones.
+Para gestionar el saldo de su cuenta de usuario, desde el menú principal, navegue hasta **Configuración de la cuenta** → **Saldo**. La sección **Saldo** le permite gestionar sus métodos de pago, configurar AutoPay, configurar alertas de saldo bajo y ver su historial de transacciones.
 
 ## Seleccione un método de pago
 
 En el **Seleccione un método de pago** puede elegir cómo desea pagar:
 
-- **Forma de pago:** Seleccione el método de pago que prefiera en el menú desplegable (por ejemplo, tarjeta de crédito).
-- **Importe a pagar:** Introduzca el importe que desea pagar.
+* **Forma de pago:** Seleccione el método de pago que prefiera en el menú desplegable (por ejemplo, tarjeta de crédito).
+* **Importe a pagar:** Introduzca el importe que desea pagar.
 
 Una vez que haya introducido los datos necesarios, haga clic en **Pagar ahora** para completar el pago.
 

@@ -1,6 +1,6 @@
 # Etiquetas
 
-A **"Etiqueta"** es una etiqueta que permite buscar cómoda y rápidamente la información deseada. En Navixy, las etiquetas le ayudan a localizar rápidamente información relacionada con Lugares, Empleados, Vehículos y Tareas. Puede crear etiquetas personalizadas según sus necesidades, y un mismo objeto puede tener varias etiquetas.
+Una **etiqueta** permite buscar cómoda y rápidamente la información deseada. En Navixy, las etiquetas le ayudan a localizar rápidamente información relacionada con **Lugares, Empleados, Vehículos** y **Tareas**. Puede crear etiquetas personalizadas según sus necesidades, y un mismo objeto puede tener varias etiquetas.
 
 ## Uso de etiquetas para la búsqueda
 
@@ -21,16 +21,16 @@ Puede crear un número ilimitado de etiquetas para adaptarlas a sus necesidades 
 
 ### Método 1. En contexto
 
-Para crear o asignar una etiqueta a un objeto, basta con escribir la etiqueta en el campo **Etiquetas** campo. Si ya existen etiquetas con entradas iniciales similares, aparecerán en una lista desplegable en la que podrá seleccionarlas.
+Para crear o asignar una etiqueta a un objeto, basta con escribir la etiqueta en el campo **Etiquetas**. Si ya existen etiquetas con entradas iniciales similares, aparecerán en una lista desplegable en la que podrá seleccionarlas.
 
-![image-20240718-170948.png](../../gua-del-usuario/cuenta/attachments/image-20240718-170948.png)
+![](../../gua-del-usuario/cuenta/attachments/image-20240718-170948.png)
 
 ### Método 2. En el directorio de etiquetas
 
 Vaya a **Configuración de la cuenta → Etiquetas**:
 
-* Haga clic en el botón **"+"** para añadir una nueva etiqueta.
-* Introduzca el nombre de etiqueta deseado.
+* Haga clic en el botón **+** para añadir una nueva etiqueta.
+* Introduzca el nombre de la etiqueta deseada.
 * Opcionalmente, asigne un color a la etiqueta para una mejor diferenciación visual.
 
 ## Gestión de etiquetas

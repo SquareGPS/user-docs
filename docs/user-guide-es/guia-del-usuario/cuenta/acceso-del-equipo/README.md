@@ -6,7 +6,7 @@ Navixy aborda estos retos ofreciendo herramientas que permiten a las organizacio
 
 ## Propietario de la cuenta y usuarios
 
-La jerarquía de cuentas dentro de Navixy incluye al Propietario y a los Usuarios. El Propietario tiene la capacidad de limitar las operaciones disponibles para los Usuarios, garantizando que cada Usuario tenga acceso sólo a las herramientas y datos necesarios para su función.
+La jerarquía de cuentas dentro de Navixy incluye al **Propietario** y a los **Usuarios**. El Propietario tiene la capacidad de limitar las operaciones disponibles para los Usuarios, garantizando que cada Usuario tenga acceso solo a las herramientas y datos necesarios para su función.
 
 * [Añadir usuarios a la cuenta](aadir-usuarios-a-la-cuenta.md)
 

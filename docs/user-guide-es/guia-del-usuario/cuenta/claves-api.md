@@ -2,7 +2,7 @@
 
 Las claves API son códigos únicos y confidenciales que permiten acceder a su cuenta Navixy a través de la interfaz del programa. Permiten a aplicaciones de terceros conectarse a su cuenta, acceder a datos y realizar acciones en su nombre.
 
-![image-20240718-175024.png](../../gua-del-usuario/cuenta/attachments/image-20240718-175024.png)
+![](../../gua-del-usuario/cuenta/attachments/image-20240718-175024.png)
 
 ## Cómo ver y crear claves API
 
@@ -11,12 +11,12 @@ Vaya a **Configuración de la cuenta** → **Claves API** del menú.
 1. **Visualización de claves API existentes:** En la sección Claves API, verá una lista de las claves existentes con los siguientes detalles:
 
 * **Etiqueta:** El nombre de la clave API.
-* **Fecha de creación:** Cuándo se creó la clave API.
+* **Fecha de creación:** Cuando se creó la clave API.
 * **Clave API:** La propia clave única.
 
 2. **Creación de una nueva clave API:**
 
-* Haga clic en el botón **"+"** para añadir una nueva clave API.
+* Haga clic en el botón **+** para añadir una nueva clave API.
 * Introduzca una etiqueta para la nueva clave.
 * Haga clic en **Guardar**.
 * La nueva clave aparecerá inmediatamente en la lista.
