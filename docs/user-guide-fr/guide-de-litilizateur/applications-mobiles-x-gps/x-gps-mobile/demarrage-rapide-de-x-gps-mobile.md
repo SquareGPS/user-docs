@@ -15,8 +15,7 @@ Suivez ces étapes pour apprendre à utiliser X-GPS Mobile.
 2. Saisissez votre nom d'utilisateur et votre mot de passe, puis appuyez sur **Se connecter**.
 3. Si nécessaire, saisissez l'URL de votre serveur (par défaut, le serveur Navixy est utilisé). Vous pouvez également utiliser un code QR pour éviter de saisir l'URL et configurer automatiquement vos paramètres.
 
-> [!INFO]
-> Si vous avez oublié votre mot de passe, appuyez sur le bouton correspondant et saisissez votre adresse e-mail. Vous recevrez un e-mail contenant un lien pour réinitialiser votre mot de passe.
+> \[!INFO] Si vous avez oublié votre mot de passe, appuyez sur le bouton correspondant et saisissez votre adresse e-mail. Vous recevrez un e-mail contenant un lien pour réinitialiser votre mot de passe.
 
 ![Login screen](attachments/7c517dec76d445e3a7b48a37254752dc.jpg)
 
@@ -32,14 +31,14 @@ L'écran principal affiche vos actifs : véhicules, personnel et objets (unités
 
 Vous pouvez les filtrer par catégorie ou par état (en mouvement, en stationnement, etc.) et les trier par nom ou par état.
 
-Pour trier ou filtrer la liste des actifs et accéder aux outils de surveillance, appuyez sur les icônes dans le coin supérieur droit : 
+Pour trier ou filtrer la liste des actifs et accéder aux outils de surveillance, appuyez sur les icônes dans le coin supérieur droit :&#x20;
 
-|     |     |
-| --- | --- |
-| ![Bell](attachments/fcc661fd6c0e47b2888083e34fd000bc.png) | Ouvre le [journal des événements](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#events-list) pour toutes les unités |
-| ![Magnifying glass](attachments/8dc9970674134387bc4e970daf26d71b.png) | Vous permet de saisir une requête de recherche |
-| ![Filter](attachments/7ef4b05a438f4bf5858c99c87e83b5ee.png) | Ouvre le menu de [filtrage et de tri](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#sorting-and-filtering) |
-| ![Map](attachments/5f69693bdf464abab96dac3f317c10a3.png) | Ouvre l'[écran de carte](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#map-fullscreen) |
+|                                                                       |                                                                                                                                                                                            |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Bell](attachments/fcc661fd6c0e47b2888083e34fd000bc.png)             | Ouvre le [journal des événements](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#events-list) pour toutes les unités |
+| ![Magnifying glass](attachments/8dc9970674134387bc4e970daf26d71b.png) | Vous permet de saisir une requête de recherche                                                                                                                                             |
+| ![Filter](attachments/7ef4b05a438f4bf5858c99c87e83b5ee.png)           | Ouvre le menu de [filtrage et de tri](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#sorting-and-filtering)          |
+| ![Map](attachments/5f69693bdf464abab96dac3f317c10a3.png)              | Ouvre l'[écran de carte](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#map-fullscreen)                              |
 
 Utilisez le panneau inférieur pour basculer entre l'écran principal et votre profil.
 

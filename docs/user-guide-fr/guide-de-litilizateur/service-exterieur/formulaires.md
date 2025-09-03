@@ -19,8 +19,8 @@ Ce processus vous permet de créer autant de formulaires que nécessaire, en vei
 
 Deux options sont disponibles lors de la création d'un formulaire :
 
-- **"Utiliser par défaut lors de la création d'une tâche"**: Si cette option est activée, ce formulaire sera automatiquement joint aux nouvelles tâches, à moins qu'un autre formulaire ne soit sélectionné. Dans la liste des formulaires, ce formulaire sera marqué d'une "étoile".
-- **"Soumettre le formulaire uniquement dans la zone"**: Si cette option est activée, le formulaire ne peut être soumis que si l'employé se trouve dans une zone géographique prédéfinie, ce qui garantit que les rapports de tâches sont établis au bon endroit.
+* **"Utiliser par défaut lors de la création d'une tâche"**: Si cette option est activée, ce formulaire sera automatiquement joint aux nouvelles tâches, à moins qu'un autre formulaire ne soit sélectionné. Dans la liste des formulaires, ce formulaire sera marqué d'une "étoile".
+* **"Soumettre le formulaire uniquement dans la zone"**: Si cette option est activée, le formulaire ne peut être soumis que si l'employé se trouve dans une zone géographique prédéfinie, ce qui garantit que les rapports de tâches sont établis au bon endroit.
 
 Après l'enregistrement, les formulaires créés sont accessibles dans la liste des formulaires.
 
@@ -56,7 +56,7 @@ Pour garantir des notifications opportunes lorsqu'un formulaire est soumis, conf
 1. Naviguez jusqu'à la page "[Règles et notifications](../../guide-de-lutilisateur/regles-et-notifications.md)"dans la plateforme.
 2. Commencez à créer une nouvelle règle de notification en cliquant sur le bouton "Ajouter une règle".
 3. Sélectionnez les objets (par exemple, les véhicules, les employés) auxquels cette règle s'appliquera.
-4. Choisir "[Exécution des tâches](../regles-et-notifications/planification-et-repartition/execution-des-taches.md)" de la liste des événements et poursuivre.
+4. Choisir "[Exécution des tâches](../../guide-de-lutilisateur/regles-et-notifications/planification-et-repartition-1/execution-des-taches.md)" de la liste des événements et poursuivre.
 5. Dans la section "Options de la règle", cochez la case "Formulaire soumis".
 6. Dans l'onglet "Notifications", choisissez le mode de notification (par exemple, SMS, courriel).
 
@@ -73,9 +73,9 @@ Vous pouvez examiner et comparer les formulaires remplis pour évaluer les perfo
 
 **Fonctionnalité des soumissions :**
 
-- **Télécharger les formulaires :** Exporter les formulaires aux formats Excel, CSV ou PDF.
-- **Filtrage :** Utilisez des filtres pour limiter les soumissions en fonction de paramètres tels que la date de création de la tâche ou le nom de l'employé.
-- **Personnalisation de la table :** Ajoutez ou masquez des colonnes et des champs de formulaire pour vous concentrer sur les données les plus pertinentes.
+* **Télécharger les formulaires :** Exporter les formulaires aux formats Excel, CSV ou PDF.
+* **Filtrage :** Utilisez des filtres pour limiter les soumissions en fonction de paramètres tels que la date de création de la tâche ou le nom de l'employé.
+* **Personnalisation de la table :** Ajoutez ou masquez des colonnes et des champs de formulaire pour vous concentrer sur les données les plus pertinentes.
 
 ### Rapport de données sur les formulaires de tâches
 
@@ -88,5 +88,5 @@ Le rapport "Données sur les formulaires de tâches" fournit des informations su
 5. Spécifiez la période de temps pour le rapport.
 6. Cliquez sur le bouton "Construire le rapport" pour générer le rapport.
 
-**Détails du rapport :**  
+**Détails du rapport :**\
 Le rapport présente les statistiques du formulaire, y compris la fréquence et les types de composants sélectionnés. Ces données vous permettent d'évaluer plus efficacement les performances des employés et les résultats des tâches.
