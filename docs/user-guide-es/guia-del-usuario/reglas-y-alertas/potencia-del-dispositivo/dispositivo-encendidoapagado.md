@@ -4,7 +4,9 @@
 
 La regla "Dispositivo encendido/apagado" permite a los usuarios controlar cuándo un dispositivo GPS está encendido o apagado. Esta regla es especialmente útil para los administradores que necesitan asegurarse de que los empleados utilizan los dispositivos GPS de acuerdo con las políticas prescritas durante las horas de trabajo. Proporciona información valiosa sobre los patrones de uso de los dispositivos, ayudando a prevenir su uso indebido y garantizando su correcto funcionamiento.
 
-> \[!WARNING] Esta regla sólo se aplica a los dispositivos que tienen la capacidad de informar sobre su estado de encendido. En otras palabras, el dispositivo GPS debe ser capaz de enviar notificaciones a la plataforma cuando está encendido o apagado. Si un dispositivo carece de esta funcionalidad, la regla no se puede aplicar, ya que la plataforma no recibiría los datos necesarios para activar las notificaciones, pero aún se puede utilizar el dispositivo independiente "[El dispositivo ha perdido la conexión](../conexin-de-dispositivos/conexin-de-dispositivos/el-dispositivo-ha-perdido-la-conexin.md)".
+{% hint style="danger" %}
+Esta regla sólo se aplica a los dispositivos que tienen la capacidad de informar sobre su estado de encendido. En otras palabras, el dispositivo GPS debe ser capaz de enviar notificaciones a la plataforma cuando está encendido o apagado. Si un dispositivo carece de esta funcionalidad, la regla no se puede aplicar, ya que la plataforma no recibiría los datos necesarios para activar las notificaciones, pero aún se puede utilizar el dispositivo independiente "[El dispositivo ha perdido la conexión](../conexin-de-dispositivos/conexin-de-dispositivos/el-dispositivo-ha-perdido-la-conexin.md)".
+{% endhint %}
 
 ## Configuración de reglas
 
@@ -28,7 +30,7 @@ La regla "Seguidor apagado" activa una notificación cuando un seguidor se apaga
 * **Reiniciar temporizador:** Esta alerta incluye un Temporizador de reinicio de 10 segundospara garantizar que las alertas no se activen más de una vez cada dos años. 10 segundosevitando el exceso de notificaciones.
 * **Configuración:** Al igual que la regla "Seguidor encendido", esta regla también requiere una configuración mínima y puede aplicarse a varios seguidores que admitan la notificación de eventos de apagado.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

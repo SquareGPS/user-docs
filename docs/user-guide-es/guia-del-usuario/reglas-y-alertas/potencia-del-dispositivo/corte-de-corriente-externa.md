@@ -1,7 +1,5 @@
 # Corte de corriente externa
 
-## Visión general
-
 La regla "Corte de alimentación externa" está diseñada para rastreadores GPS de vehículos con cable que dependen del sistema eléctrico del vehículo. Esta regla es crucial para la gestión de flotas, ya que supervisa el suministro eléctrico del dispositivo GPS y alerta a los usuarios cuando se desconecta la alimentación externa.
 
 Al detectar un corte de energía, el dispositivo GPS cambia automáticamente a su batería interna (si está disponible) para mantener la funcionalidad e informar a la plataforma. La plataforma registra estos eventos y notifica a los usuarios según la configuración de la regla.
@@ -10,7 +8,7 @@ Al detectar un corte de energía, el dispositivo GPS cambia automáticamente a s
 
 Esta regla depende totalmente de las capacidades del dispositivo y de la configuración del hardware. No hay ajustes específicos que configurar dentro de la propia regla.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
