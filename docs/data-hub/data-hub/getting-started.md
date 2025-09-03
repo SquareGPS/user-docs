@@ -2,7 +2,10 @@
 
 ## First steps
 
-Your journey with Data Hub begins with the connection credentials provided in your welcome email. These include:
+Before you can utilize data for comprehensive analytics and integration, you must first enable the Data Hub.\
+
+
+Once it's set up, you'll receive a welcome email containing detailed information. To begin your data journey, you will need:
 
 * Database host and port
 * Database name
@@ -10,7 +13,7 @@ Your journey with Data Hub begins with the connection credentials provided in yo
 * SSL mode settings
 
 {% hint style="info" %}
-If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/quick-start/about-service-providers) for access to Data Hub.
+If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/quick-start/about-service-providers) for access to Data Hub.
 {% endhint %}
 
 From there, your path forward is straight:
