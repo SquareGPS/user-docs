@@ -2,16 +2,22 @@
 
 ### Descripción técnica y capacidades <a href="#descripcion-tecnica-y-capacidades" id="descripcion-tecnica-y-capacidades"></a>
 
+{% columns %}
+{% column %}
 El nodo Logic crea puntos de ramificación inteligentes que enrutan los datos entrantes por diferentes rutas basándose en condiciones lógicas. Recibe datos de otros nodos, los valida contra sus condiciones definidas y enruta los resultados por diferentes rutas según si la validación tiene éxito o falla. El nodo le permite construir flujos de trabajo IF->THEN/ELSE donde diferentes acciones ocurren automáticamente basándose en condiciones de datos en tiempo real.
+{% endcolumn %}
 
-<figure><img src="../../../../../.gitbook/assets/Untitled.jpg" alt="" width="255"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../../.gitbook/assets/Untitled (1).jpg" alt="" width="255"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Los nodos **Logic** se configuran por separado para cada flujo en la interfaz de usuario de la plataforma Navixy. Cada nodo contiene solo una fórmula lógica, basándose en el [Lenguaje de Expresión IoT Logic de Navixy](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language).\
 Para opciones de sintaxis específicas relacionadas con expresiones lógicas, consulte [Expresiones y sintaxis del ](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3383885881/Expresiones+y+sintaxis+del+nodo+Logic?atlOrigin=eyJpIjoiNjQyNWI5MjZlNDA3NGQ3NmJkNDgwMTUzOTQ2Y2MwMzYiLCJwIjoiYyJ9)nodo Logic.
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/Untitled (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Untitled (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 #### Cómo funcionan los nodos Logic <a href="#como-funcionan-los-nodos-logic" id="como-funcionan-los-nodos-logic"></a>
 
@@ -74,9 +80,11 @@ Veamos qué elementos usa este nodo y qué puede configurar al trabajar con él.
    * **Conexión ELSE** (roja): Se conecta a nodos que deben procesar datos cuando la expresión se evalúa como falsa o nula.
    * La conexión THEN es obligatoria, mientras que la conexión ELSE es opcional.
 
+{% hint style="info" %}
 Cuando las expresiones lógicas no pueden evaluarse debido a valores nulos, tipos de datos inválidos o errores de sintaxis, el resultado se trata como `false`, y los datos fluyen a través de la ruta ELSE.
+{% endhint %}
 
-Para información detallada sobre sintaxis de expresiones, operadores y comportamiento de flujo de datos, consulte [Expresiones y sintaxis del nodo Logic](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3383885881/Expresiones+y+sintaxis+del+nodo+Logic?atlOrigin=eyJpIjoiYzU2ZjQ0ZjVhZmQ3NDY3OWFjOTY4NmYxODFiZWRhOTAiLCJwIjoiYyJ9).
+Para información detallada sobre sintaxis de expresiones, operadores y comportamiento de flujo de datos, consulte [Expresiones y sintaxis del nodo Logic](expresiones-y-sintaxis-del-nodo-logic.md).
 
 ### Conexiones de salida y flujo de datos <a href="#conexiones-de-salida-y-flujo-de-datos" id="conexiones-de-salida-y-flujo-de-datos"></a>
 

@@ -10,7 +10,7 @@ Para generar correctamente el **reporte de los sensores de medición** deben cum
 
 * **Compatibilidad con dispositivos:** Asegúrese de que el dispositivo admite la lectura del sensor requerido en la plataforma. Puede verificarlo consultando la lista de entradas admitidas para el modelo específico.
 * **Transmisión activa de datos:** El aparato y sus sensores deben estar configurados correctamente y transmitir datos de forma activa.
-* **Sensores virtuales:** [Sensores virtuales](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensores-virtuales/) debe tener un método de cálculo del valor de origen y proporcionar valores numéricos a la plataforma.
+* **Sensores virtuales:** [Sensores virtuales](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-virtuales/) debe tener un método de cálculo del valor de origen y proporcionar valores numéricos a la plataforma.
 * **Configuración del sensor:** Los sensores de medición deben estar correctamente configurados en la plataforma.
 
 ## Parámetros del reporte
@@ -23,7 +23,7 @@ El reporte utiliza varios parámetros para adaptar el resultado a sus necesidade
 * **Mostrar dirección:** Muestra la dirección recibida por la plataforma junto con los datos del sensor. La dirección mostrada corresponde a la primera lectura del segmento detallado.
 * **Utiliza un filtro inteligente:** Excluir los datos de viajes cortos, definidos como viajes de menos de 300 metros con menos de 4 puntos de datos enviados por el dispositivo.
 
-Para cada dispositivo, debe seleccionar el sensor para el que desea generar el reporte. Solo los dispositivos con [medición](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensor-de-medicin/) o sensores [virtuales](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensores-virtuales/) estarán disponibles en la lista. Si selecciona un sensor virtual de un tipo incorrecto, el reporte indicará "Este no es un sensor de medición".
+Para cada dispositivo, debe seleccionar el sensor para el que desea generar el reporte. Solo los dispositivos con [medición](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensor-de-medicin/) o sensores [virtuales](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-virtuales/) estarán disponibles en la lista. Si selecciona un sensor virtual de un tipo incorrecto, el reporte indicará "Este no es un sensor de medición".
 
 ## Visualizaciones
 

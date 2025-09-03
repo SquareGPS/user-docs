@@ -4,7 +4,7 @@
 
 **IoT Logic** es una herramienta sin necesidad de conocimientos de coding integrada en la plataforma Navixy, diseñada para simplificar la gestión de datos telemáticos. Combina un sistema de flujo visual con un lenguaje de expresión basado en JEXL, lo que permite una transformación eficiente de los datos sin necesidad de conocimientos de coding. Como gestor del tráfico de datos, procesa datos sin procesar procedentes de dispositivos GPS, cámaras de salpicadero y sensores IoT, convirtiéndolos en información práctica a través de canales de datos personalizados.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="Esquema general del componente IoT Logic"><figcaption><p>Esquema general del componente IoT Logic</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="Esquema general del componente IoT Logic"><figcaption><p>Esquema general del componente IoT Logic</p></figcaption></figure>
 
 {% hint style="info" %}
 **Navegación**

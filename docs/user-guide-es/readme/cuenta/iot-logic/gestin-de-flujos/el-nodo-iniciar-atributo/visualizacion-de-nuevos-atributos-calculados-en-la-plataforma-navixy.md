@@ -7,11 +7,13 @@ Después de crear atributos calculados en el nodo **Iniciar Atributo**, puede ha
 * A través del **Analizador de flujo de datos** para solución de problemas
 * Agregándolos como **atributos personalizados** a sus dispositivos para seguimiento continuo
 
+{% hint style="info" %}
 Para producir valores reales, los atributos calculados deben cumplir los siguientes requisitos previos:
 
 1. El flujo que los contiene debe guardarse con una configuración actualizada del nodo **Iniciar Atributo**.
 2. El nodo **Iniciar Atributo** debe estar conectado a al menos 1 nodo **Punto de Salida**.
 3. El dispositivo debe estar enviando datos activamente a través del flujo.
+{% endhint %}
 
 ### Monitoreo de atributos calculados en el Analizador de flujo de datos
 
@@ -22,38 +24,46 @@ Para monitorear atributos calculados en **Analizador de flujo de datos**:
 1. Cree un atributo en un nodo **Iniciar Atributo**.\
    Para este ejemplo, tomemos una fórmula simple para convertir temperatura de C° a F° y guardarla en un atributo con el nombre _temperatureF_.
 2. Asegúrese de conectar este **Iniciar Atributo** a un nodo **Punto de Salida**.
-3. Haga clic en para abrir el Analizador.
+3. Haga clic en <img src="../../../../../.gitbook/assets/Untitled (11).png" alt="" data-size="line"> para abrir el Analizador.
 4. Seleccione un dispositivo que envíe datos al nodo **Iniciar Atributo** que contiene el atributo de interés de la lista **Dispositivos**.
 5. Encuentre el atributo en la tabla y monitoree sus valores. Para nuestro ejemplo, debería verse así:
 
+<figure><img src="../../../../../.gitbook/assets/Untitled.jpg" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
 Si su atributo calculado no aparece en **Analizador de flujo de datos**, verifique que:
 
 * El flujo esté habilitado y guardado correctamente
 * El dispositivo esté enviando datos (verifique que otros atributos se estén actualizando)
 * Las conexiones del nodo **Iniciar Atributo** sean correctas
 * El nombre del atributo esté escrito correctamente en la configuración del nodo
+{% endhint %}
 
-Para más detalles sobre solución de problemas con datos en tiempo real, consulte [Analizador de flujo de datos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334554/Analizador+de+flujo+de+datos?atlOrigin=eyJpIjoiYzEzNmMyYjY5MmJjNGNhN2JhZmRmNTNhNjdmZmJmOGYiLCJwIjoiYyJ9).
+Para más detalles sobre solución de problemas con datos en tiempo real, consulte [Analizador de flujo de datos](../../../../../guia-del-usuario/cuenta/iot-logic/analizador-de-flujo-de-datos.md).
 
 ### Agregar atributos personalizados a objetos en la plataforma Navixy
 
-Los nuevos atributos de datos calculados de los flujos de IoT Logic se pueden usar como sensores virtuales para dispositivos reales en su cuenta y mostrarse en el [Widget de objeto](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547998/Vista+detallada+del+objeto?atlOrigin=eyJpIjoiMzk2MWYxOGI1MDA2NDFhMTkwY2NkMTU1MDU2Mzc4Y2UiLCJwIjoiYyJ9) y la [Lista de objetos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547887/Lista+de+objetos?atlOrigin=eyJpIjoiOTEzOTJhNTJmZWQ1NDllMjhiYmZmMTU1ZWZhOTJkYjMiLCJwIjoiYyJ9). Esto le permite monitorear métricas agregadas junto con lecturas reales del dispositivo en un solo lugar, lo que amplía significativamente sus posibilidades de [Seguimiento](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547869/Seguimiento?atlOrigin=eyJpIjoiZTVmMDJiNTI4ZDVkNDM3YWFkNDg2MmY1NDczNzNjNGIiLCJwIjoiYyJ9).
+Los nuevos atributos de datos calculados de los flujos de IoT Logic se pueden usar como sensores virtuales para dispositivos reales en su cuenta y mostrarse en el [Widget del objeto](../../../../../guia-del-usuario/seguimiento/lista-de-objetos/vista-detallada-del-objeto.md) y la [Lista de objetos](../../../../../guia-del-usuario/seguimiento/lista-de-objetos/). Esto le permite monitorear métricas agregadas junto con lecturas reales del dispositivo en un solo lugar, lo que amplía significativamente sus posibilidades de [Seguimiento](../../../../../guia-del-usuario/seguimiento/).
 
-Para hacer visibles los atributos calculados en el módulo [Seguimiento](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547869/Seguimiento?atlOrigin=eyJpIjoiZTVmMDJiNTI4ZDVkNDM3YWFkNDg2MmY1NDczNzNjNGIiLCJwIjoiYyJ9) junto con los datos regulares del dispositivo, necesita agregarlos como sensores virtuales a sus dispositivos. Esto le permite:
+Para hacer visibles los atributos calculados en el módulo [Seguimiento](../../../../../guia-del-usuario/seguimiento/) junto con los datos regulares del dispositivo, necesita agregarlos como sensores virtuales a sus dispositivos. Esto le permite:
 
-* Monitorear métricas calculadas en el [widget de objeto](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547998/Vista+detallada+del+objeto?atlOrigin=eyJpIjoiMzk2MWYxOGI1MDA2NDFhMTkwY2NkMTU1MDU2Mzc4Y2UiLCJwIjoiYyJ9)
-* Agregar cálculos importantes a la [lista de objetos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922547887/Lista+de+objetos?atlOrigin=eyJpIjoiNzc3ZGFkMzA2OTc3NGIyNmFiMDNmOGVkMjFkMDRlZWMiLCJwIjoiYyJ9) para acceso rápido
-* Incluir valores calculados en [reportes](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922549954/Reportes?atlOrigin=eyJpIjoiNjdmYjU4MTc3Mzc1NDAzM2IxYzUzMmNmZGRmMTAzZDYiLCJwIjoiYyJ9)
-* Crear [reglas y alertas](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/2922548483/Reglas+y+Alertas?atlOrigin=eyJpIjoiOTVhYTZlOTBmMTc5NGUwNTg4ODU2MTc3M2ViMzg3MGQiLCJwIjoiYyJ9) basadas en valores calculados
+* Monitorear métricas calculadas en el [widget del objeto](../../../../../guia-del-usuario/seguimiento/lista-de-objetos/vista-detallada-del-objeto.md)
+* Agregar cálculos importantes a la [lista de objetos](../../../../../guia-del-usuario/seguimiento/lista-de-objetos/) para acceso rápido
+* Incluir valores calculados en [reportes](../../../../../guia-del-usuario/reportes/)
+* Crear [reglas y alertas](../../../../../guia-del-usuario/reglas-y-alertas/) basadas en valores calculados
 
 #### Crear un atributo personalizado para un dispositivo
 
+{% hint style="info" %}
 Un sensor personalizado debe agregarse individualmente a cada dispositivo. Para agregar el mismo atributo a múltiples dispositivos, repita estos pasos para cada uno de ellos.
+{% endhint %}
+
+<figure><img src="../../../../../.gitbook/assets/Untitled (12).png" alt=""><figcaption></figcaption></figure>
 
 1. Vaya al menú **Dispositivos** en la barra lateral izquierda.
 2. Seleccione el dispositivo al que desea agregar un nuevo sensor.
-3. Haga clic en en la sección **Sensores y botones**, luego seleccione una de las opciones:
-   1. **Sensor de medición/Lógica de IoT-** solo para atributos numéricos, como velocidad, temperatura, etc.
+3. Haga clic en <img src="../../../../../.gitbook/assets/Untitled (13).png" alt="" data-size="line"> en la sección **Sensores y botones**, luego seleccione una de las opciones:
+   1. **Sensor de medición/Lógica de IoT -** solo para atributos numéricos, como velocidad, temperatura, etc.
    2. **Sensor virtual/Lógica de IoT** - para cualquier otro valor de atributo no numérico.
 4. Complete los siguientes campos en la pestaña **Main**:
    1. **Etiqueta**\
@@ -65,7 +75,7 @@ Un sensor personalizado debe agregarse individualmente a cada dispositivo. Para 
    4. **Unidades**\
       Seleccione las unidades de medida apropiadas según la naturaleza de su atributo. Las opciones en esta lista varían dependiendo del **tipo de sensor** seleccionado. Puede usar **Custom** si no hay una unidad adecuada para su atributo.
 5. (Opcional) Vaya a la pestaña **Calibración** y configure la calibración si es necesario.\
-   Para instrucciones sobre la configuración de esta pestaña, consulte [Calibración](https://squaregps.atlassian.net/wiki/pages/createpage.action?spaceKey=UDOCES\&title=Measurement%20sensors\&linkCreation=true\&fromPageId=3383984173).
+   Para instrucciones sobre la configuración de esta pestaña, consulte [Calibración](../../../../dispositivos-y-ajustes/sensores-de-vehculos/sensor-de-medicin/#datos-de-calibracion).
 6. Haga clic en **Guardar** para completar el proceso de configuración.
 
 Después de guardar, el nuevo parámetro personalizado aparece automáticamente en el bloque de datos **Sensores** del **widget de objeto**. Por ejemplo, agregamos un parámetro personalizado **TempDelta**:

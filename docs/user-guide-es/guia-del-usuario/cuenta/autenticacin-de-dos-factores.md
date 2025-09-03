@@ -32,6 +32,6 @@ Si la OTP es correcta, se concede el acceso; en caso contrario, se deniega el in
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Cada código de acceso es válido durante 5 minutos, lo que limita las posibilidades de uso indebido. Además, puedes solicitar un nuevo código si es necesario, pero solo una vez por minuto para evitar abusos.

@@ -69,9 +69,17 @@ Este comportamiento dinámico garantiza una cobertura de datos completa en toda 
 
 ### Punto de salida predeterminado
 
+{% columns %}
+{% column %}
+El nodo **Punto de salida predeterminado** proporciona un destino preconfigurado para enviar los datos del dispositivo a la plataforma Navixy. Este nodo está preconfigurado con los ajustes óptimos para la transmisión directa a los servidores de Navixy.
+{% endcolumn %}
+
+{% column %}
 ![Nodo de punto final de salida por defecto Navixy](../../../gua-del-usuario/cuenta/iot-logic/attachments/image-20250403-151042.png)
 
-El nodo **Punto de salida predeterminado** proporciona un destino preconfigurado para enviar los datos del dispositivo a la plataforma Navixy. Este nodo está preconfigurado con los ajustes óptimos para la transmisión directa a los servidores de Navixy.
+
+{% endcolumn %}
+{% endcolumns %}
 
 El punto final garantiza que todos los datos recopilados a través del flujo predeterminado se formateen y transmitan correctamente a la plataforma Navixy, lo que permite una visibilidad completa de sus dispositivos en la interfaz principal de Navixy.
 

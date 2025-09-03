@@ -2,11 +2,19 @@
 
 ## Resumen técnico y capacidades
 
+{% columns %}
+{% column %}
 El nodo **Fuente de Datos** es un punto de entrada para los datos de telemetría procedentes de dispositivos IoT y plataformas OEM en el sistema IoT Logic. Funciona como un traductor universal, recibiendo datos a través de protocolos TCP/UDP/HTTP en interfaces de red y a través de colas MQTT, decodificando a continuación los flujos de datos entrantes según el protocolo seleccionado. El nodo transforma los mensajes del dispositivo en un formato estandarizado que puede procesarse posteriormente en su flujo.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 ### Integración de la arquitectura de flujo
 
-![Data source node included in a flow on workspace](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/Data-source-in-flow.webp)
+![](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/Data-source-in-flow.webp)
 
 El nodo **Fuente de Datos** funciona como punto de entrada de datos en un flujo IoT Logic. Un único flujo puede contener múltiples nodos fuente, cada uno con configuraciones independientes. Esta arquitectura permite:
 
@@ -29,35 +37,55 @@ El nodo **Fuente de Datos** ofrece por sí mismo
 
 El nodo **Fuente de Datos** requiere configuración para establecer qué dispositivos enviarán datos a su flujo. Deberá especificar el protocolo, el protocolo de transporte y seleccionar los dispositivos específicos que desea incluir.
 
-![Data Source node configuration panel showing manufacturer, model, and device selection options](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250403-160159.png)
+![](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250403-160159.png)
 
 Veamos qué elementos utiliza este nodo y qué puede configurar cuando trabaje con él:
 
 ### Pasos de configuración
 
-1. Especifique **nombre de nodo**: Introduzca un nombre descriptivo para esta fuente de datos.
+{% stepper %}
+{% step %}
+Especifique el **nombre de nodo**
+
+Introduzca un nombre descriptivo para esta fuente de datos.
 
 * Utilice un nombre que le ayude a identificar el fabricante, los modelos u otra información relevante.
 * Este nombre se mostrará en el diagrama de flujo para facilitar la identificación.
+{% endstep %}
 
-2. Seleccione el **fabricante**: Elija el protocolo de comunicación utilizado por sus dispositivos.
+{% step %}
+Seleccione el **fabricante**
+
+Elija el protocolo de comunicación utilizado por sus dispositivos.
 
 * Seleccione uno de los protocolos disponibles del fabricante (Teltonika, Queclink, Suntech, Jimi, etc.)
 * La selección del protocolo filtrará los modelos de dispositivos disponibles en el siguiente paso.
 * Los protocolos suelen estar asociados a fabricantes específicos.
+{% endstep %}
 
-3. Elija **modelo**: Especifica cómo se transmiten los datos.
+{% step %}
+Elija **modelo**
+
+Especifica cómo se transmiten los datos.
 
 * Las opciones disponibles incluyen HTTP, TCP, UDP o MQTT.
 * Esta selección debe coincidir con la forma en que sus dispositivos están configurados para comunicarse.
+{% endstep %}
 
-4. Seleccione **Fuentes**: En la lista filtrada de la parte derecha de la interfaz, seleccione los dispositivos que desea incluir.
+{% step %}
+Seleccione **Fuentes**
+
+&#x20;En la lista filtrada de la parte derecha de la interfaz, seleccione los dispositivos que desea incluir.
 
 * Sólo los dispositivos registrados en su cuenta de usuario Navixy estarán disponibles para su selección.
 * La lista se filtra automáticamente en función de sus selecciones de protocolo y modelo.
 * Los dispositivos ya utilizados en otros flujos se marcarán con un signo de exclamación.
+{% endstep %}
+{% endstepper %}
 
-> \[!INFO] Si cambia la configuración del fabricante o del modelo después de seleccionar los dispositivos, el sistema le notificará si alguno de los dispositivos seleccionados no coincide con los nuevos parámetros, pero no los eliminará automáticamente de su selección.
+{% hint style="info" %}
+Si cambia la configuración del fabricante o del modelo después de seleccionar los dispositivos, el sistema le notificará si alguno de los dispositivos seleccionados no coincide con los nuevos parámetros, pero no los eliminará automáticamente de su selección.
+{% endhint %}
 
 ### Procesamiento de datos
 
@@ -92,4 +120,4 @@ El protocolo debe coincidir con el protocolo de comunicación utilizado por el f
 
 Sí, puede conectar un nodo **Fuente de Datos** a varios nodos de transformación para crear rutas de transformación paralelas. Esto le permite aplicar diferentes transformaciones al mismo flujo de datos. He aquí un ejemplo:
 
-![Example showing the Data source node in context with multiple outbound connections and outputs](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250404-075539.png)
+![](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250404-075539.png)

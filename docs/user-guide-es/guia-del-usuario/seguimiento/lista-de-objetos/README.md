@@ -104,4 +104,4 @@ Para más detalles sobre la funcionalidad del widget, véase [Vista detallada de
 * [Vista detallada del objeto](vista-detallada-del-objeto.md)
 * [Estado de la conexión](estado-de-la-conexin.md)
 * [Iconos de objetos](iconos-de-objetos.md)
-* [Widgets de información sobre dispositivos](widgets-de-informacin-sobre-dispositivos.md)
+* [Widgets de información sobre dispositivos](broken-reference)

@@ -25,7 +25,7 @@ El reporte utiliza varios parámetros para personalizar la salida:
 
 ![image-20240815-010100.png](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010100.png)
 
-Para cada dispositivo, debe seleccionar el sensor para el que desea generar un reporte. Solo aparecerán en la lista los dispositivos con sensores CAN/OBD o virtuales configurados. Si un sensor virtual utiliza un método de cálculo distinto de [valor fuente](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensores-virtuales/), el reporte indicará "Este no es un sensor de medición".
+Para cada dispositivo, debe seleccionar el sensor para el que desea generar un reporte. Solo aparecerán en la lista los dispositivos con sensores CAN/OBD o virtuales configurados. Si un sensor virtual utiliza un método de cálculo distinto de [valor fuente](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-virtuales/), el reporte indicará "Este no es un sensor de medición".
 
 ## Visualizaciones
 
