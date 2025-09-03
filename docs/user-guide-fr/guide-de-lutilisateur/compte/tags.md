@@ -23,7 +23,7 @@ Vous pouvez créer un nombre illimité de balises pour répondre à vos besoins 
 
 Pour créer ou attribuer une balise à un objet, il suffit de saisir l'étiquette de la balise dans le champ **Tags** champ. S'il existe déjà des étiquettes avec des entrées de départ similaires, elles apparaîtront dans une liste déroulante à partir de laquelle vous pourrez faire votre choix.
 
-![image-20240718-170948.png](../../guide-de-litilizateur/compte/attachments/image-20240718-170948.png)
+![](../../guide-de-litilizateur/compte/attachments/image-20240718-170948.png)
 
 ### Méthode 2. Dans le répertoire Tags
 

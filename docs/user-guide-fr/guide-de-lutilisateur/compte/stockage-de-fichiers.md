@@ -2,7 +2,7 @@
 
 Chaque compte d'utilisateur dispose d'un espace de stockage de 1 Go, conçu pour prendre en charge les fonctions essentielles de la plateforme Navixy. Ce stockage se trouve à l'intérieur de **Paramètres du compte → Profil → Paramètres généraux**.
 
-![File storage](../../guide-de-litilizateur/compte/attachments/image-20241111-225720.png)
+![](../../guide-de-litilizateur/compte/attachments/image-20241111-225720.png)
 
 **Objet :**
 

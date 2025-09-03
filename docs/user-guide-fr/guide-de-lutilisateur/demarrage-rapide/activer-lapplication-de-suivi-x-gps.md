@@ -35,7 +35,7 @@ L'employé recevra une invitation par texto (SMS) ou par courrier électronique,
 * Un identifiant personnel à 12 chiffres
 * Un lien pour télécharger l'application X-GPS Tracker
 
-![image-20240717-190626.png](../../guide-de-litilizateur/demarrage-rapide/attachments/image-20240717-190626.png)
+![](../../guide-de-litilizateur/demarrage-rapide/attachments/image-20240717-190626.png)
 
 ### Télécharger et installer l'application
 

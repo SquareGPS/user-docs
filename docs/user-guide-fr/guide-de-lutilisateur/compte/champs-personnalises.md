@@ -2,7 +2,7 @@
 
 Les champs personnalisés vous permettent d'ajouter des informations personnalisées à la description des lieux. Les champs personnalisés fonctionnent de la même manière que les champs standard, ce qui vous permet de stocker des données précieuses qui peuvent être utilisées pour le filtrage et l'amélioration de l'efficacité opérationnelle.
 
-![image-20240718-172504.png](../../guide-de-litilizateur/compte/attachments/image-20240718-172504.png)
+![](../../guide-de-litilizateur/compte/attachments/image-20240718-172504.png)
 
 **Exemples :**
 
@@ -49,4 +49,4 @@ Pour ajouter un nouveau champ personnalisé, naviguez vers **Paramètres du comp
 ## FAQ et dépannage
 
 * **Les champs personnalisés peuvent-ils être ajoutés à d'autres objets que les lieux ?** Actuellement, les champs personnalisés ne peuvent être ajoutés qu'aux lieux, mais il est prévu d'étendre cette fonctionnalité à l'avenir.
-* **Comment les champs personnalisés peuvent-ils être remplis à partir de systèmes CRM via l'API Navixy ?** Oui, vous pouvez remplir des champs personnalisés dans Navixy en faisant des appels API pour synchroniser les données de votre CRM. Cela permet un transfert de données et des mises à jour transparentes, garantissant que toutes les informations sont à jour et accessibles dans les deux systèmes. Pour en savoir plus, consultez la page [Navixy API Documentation](https://developers.navixy.com/backend-api/how-to/work-with-POIs/).
+* **Comment les champs personnalisés peuvent-ils être remplis à partir de systèmes CRM via l'API Navixy ?** Oui, vous pouvez remplir des champs personnalisés dans Navixy en faisant des appels API pour synchroniser les données de votre CRM. Cela permet un transfert de données et des mises à jour transparentes, garantissant que toutes les informations sont à jour et accessibles dans les deux systèmes. Pour en savoir plus, consultez la page [Navixy API Documentation](https://www.navixy.com/docs/navixy-api).

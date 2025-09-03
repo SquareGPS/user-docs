@@ -7,8 +7,8 @@ Si vous avez oublié votre mot de passe et que vous devez le récupérer, suivez
 3. **Entrez vos informations de connexion :** Indiquez votre adresse électronique enregistrée et entrez dans le CAPTCHA.
 4. **Suivez les instructions :** Consultez votre courrier électronique pour trouver un lien de réinitialisation du mot de passe et suivez les instructions fournies dans le courrier électronique pour réinitialiser votre mot de passe.
 
-![image-20240718-181310.png](../../guide-de-litilizateur/compte/attachments/image-20240718-181310.png)
+![](../../guide-de-litilizateur/compte/attachments/image-20240718-181310.png)
 
 ## FAQ et dépannage
 
-Si vous n'avez pas accès à l'adresse électronique, essayez de contacter votre [Prestataire de services](../demarrage-rapide/fournisseur-de-services.md) pour retrouver l'accès à votre compte.
+Si vous n'avez pas accès à l'adresse électronique, essayez de contacter votre [Fournisseur de services](../demarrage-rapide/fournisseur-de-services.md) pour retrouver l'accès à votre compte.

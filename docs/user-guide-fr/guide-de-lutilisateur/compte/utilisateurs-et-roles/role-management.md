@@ -13,7 +13,7 @@ En attribuant des rôles, le propriétaire peut s'assurer que les utilisateurs d
 
 Pour ajouter un nouveau rôle, accédez à Paramètres du compte → Utilisateurs et rôles et sélectionnez l'onglet "Gestion des rôles". Cliquez sur le bouton "Ajouter un rôle" (le bouton avec le signe "+").
 
-![image-20240718-043236.png](../../../guide-de-litilizateur/compte/utilisateurs-et-roles/attachments/image-20240718-043236.png)
+![](../../../guide-de-litilizateur/compte/utilisateurs-et-roles/attachments/image-20240718-043236.png)
 
 2. **Créer un nouveau rôle**:
 

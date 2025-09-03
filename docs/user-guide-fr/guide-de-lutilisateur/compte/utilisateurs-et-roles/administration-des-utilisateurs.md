@@ -2,7 +2,7 @@
 
 Les utilisateurs du compte de l'organisation comprennent le propriétaire et les utilisateurs. Le propriétaire est le titulaire principal du compte et dispose de tous les droits de contrôle et d'administration, tandis que les utilisateurs sont des comptes supplémentaires auxquels le propriétaire attribue des rôles et des autorisations spécifiques.
 
-![Access rights (previous version)](https://www.navixy.com/wp-content/uploads/2023/04/roles-en.png)
+![](https://www.navixy.com/wp-content/uploads/2023/04/roles-en.png)
 
 ## Propriétaire et utilisateurs
 
@@ -23,7 +23,7 @@ Les utilisateurs sont des comptes supplémentaires auxquels le propriétaire acc
 
 Pour ajouter un nouvel utilisateur ou modifier la liste des utilisateurs, naviguez vers Paramètres du compte → Utilisateurs et rôles dans le menu principal.
 
-![image-20240718-041947.png](../../../guide-de-litilizateur/compte/utilisateurs-et-roles/attachments/image-20240718-041947.png)
+![](../../../guide-de-litilizateur/compte/utilisateurs-et-roles/attachments/image-20240718-041947.png)
 
 1. **Ajouter un nouvel utilisateur**:
 

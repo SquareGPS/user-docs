@@ -33,7 +33,7 @@ Le **Applications utilisateur** l'espace est disponible pour le compte **Propri�
 
 Vous verrez une liste complète de tous vos modules complémentaires existants, ainsi que des options permettant d'en créer de nouveaux.
 
-![User\_Apps\_Navigation.gif](../../../guide-de-litilizateur/compte/attachments/User_Apps_Navigation.gif)
+![](../../../guide-de-litilizateur/compte/attachments/User_Apps_Navigation.gif)
 
 ## Contenu de la section
 

@@ -2,7 +2,7 @@
 
 Les clés API sont des codes uniques et confidentiels qui permettent d'accéder à votre compte Navixy et à vos données via l'interface du programme d'application. Elles permettent à des applications tierces ou personnelles de se connecter à votre compte, d'accéder aux données et d'effectuer des actions en votre nom.
 
-![image-20240718-175024.png](../../guide-de-litilizateur/compte/attachments/image-20240718-175024.png)
+![](../../guide-de-litilizateur/compte/attachments/image-20240718-175024.png)
 
 ## Comment consulter et créer des clés API
 

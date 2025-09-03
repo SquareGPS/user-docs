@@ -1,10 +1,10 @@
 # Journal d'activité
 
-En utilisant le journal d'activité, le propriétaire du compte peut suivre l'activité de tous les [utilisateurs de l'équipe](broken-reference) ajouté dans la section "Utilisateurs et rôles". Cette fonction fournit des informations détaillées sur les actions des utilisateurs, ce qui permet de surveiller et de gérer efficacement l'utilisation du système.
+En utilisant le journal d'activité, le propriétaire du compte peut suivre l'activité de tous les [utilisateurs de l'équipe](utilisateurs-et-roles/) ajouté dans la section "Utilisateurs et rôles". Cette fonction fournit des informations détaillées sur les actions des utilisateurs, ce qui permet de surveiller et de gérer efficacement l'utilisation du système.
 
 Naviguez jusqu'à **Paramètres du compte → Journal d'activité**.
 
-![image-20241108-172817.png](../../guide-de-litilizateur/compte/attachments/image-20241108-172817.png)
+![](../../guide-de-litilizateur/compte/attachments/image-20241108-172817.png)
 
 ## Type d'actions
 

@@ -12,7 +12,7 @@ Ce document décrit comment les appareils GPS et les informations créées par l
 
 Lorsqu'un utilisateur ajoute un appareil GPS, celui-ci est effectivement créé sous le compte du propriétaire, de sorte que même après la suppression de l'utilisateur, l'appareil GPS reste dans le compte de l'organisation. Le propriétaire peut spécifier quels utilisateurs peuvent consulter les données de l'appareil GPS, telles que les trajets ou les données des capteurs, afin de s'assurer que seules les personnes autorisées peuvent consulter et gérer l'appareil.
 
-![image-20240718-040427.png](../../../guide-de-litilizateur/compte/utilisateurs-et-roles/attachments/image-20240718-040427.png)
+![](../../../guide-de-litilizateur/compte/utilisateurs-et-roles/attachments/image-20240718-040427.png)
 
 ## Artéfacts associés
 
