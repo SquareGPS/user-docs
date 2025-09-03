@@ -15,7 +15,7 @@ Pour commencer à utiliser les formulaires dans Navixy :
 
 Ce processus vous permet de créer autant de formulaires que nécessaire, en veillant à ce qu'ils soient adaptés aux tâches effectuées par vos employés.
 
-![image-20240816-160834.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-160834.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-160834.png)
 
 Deux options sont disponibles lors de la création d'un formulaire :
 
@@ -24,7 +24,7 @@ Deux options sont disponibles lors de la création d'un formulaire :
 
 Après l'enregistrement, les formulaires créés sont accessibles dans la liste des formulaires.
 
-![image-20240816-155915.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-155915.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-155915.png)
 
 ### Attacher un formulaire à une tâche
 
@@ -35,7 +35,7 @@ Pour joindre un formulaire à une tâche, procédez comme suit :
 3. Fournir d'autres détails sur la tâche, tels que la sélection de l'employé responsable de l'exécution de la tâche.
 4. Finalisez la création de la tâche en cliquant sur "Enregistrer".
 
-![image-20240816-161010.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-161010.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-161010.png)
 
 L'employé sélectionné recevra la tâche avec le formulaire joint dans l'application mobile X-GPS Tracker, en veillant à ce que tous les documents nécessaires soient disponibles lors de l'exécution de la tâche.
 
@@ -53,7 +53,7 @@ Les employés doivent remplir des formulaires pendant ou après l'exécution d'u
 
 Pour garantir des notifications opportunes lorsqu'un formulaire est soumis, configurez des alertes en suivant les étapes suivantes :
 
-1. Naviguez jusqu'à la page "[Règles et notifications](../regles-et-notifications.md)"dans la plateforme.
+1. Naviguez jusqu'à la page "[Règles et notifications](../regles-et-notifications/)"dans la plateforme.
 2. Commencez à créer une nouvelle règle de notification en cliquant sur le bouton "Ajouter une règle".
 3. Sélectionnez les objets (par exemple, les véhicules, les employés) auxquels cette règle s'appliquera.
 4. Choisir "[Exécution des tâches](../regles-et-notifications/planification-et-repartition/execution-des-taches.md)" de la liste des événements et poursuivre.
@@ -81,7 +81,7 @@ Vous pouvez examiner et comparer les formulaires remplis pour évaluer les perfo
 
 Le rapport "Données sur les formulaires de tâches" fournit des informations sur les performances des employés sur la base des formulaires remplis. Pour générer ce rapport :
 
-1. Aller à la page [Rapports](../rapports.md) section.
+1. Aller à la page [Rapports](../rapports/) section.
 2. Cliquez sur le bouton "Créer un rapport".
 3. Choisissez l'option "Données du formulaire de tâches".
 4. Cochez les objets pertinents (par exemple, les employés, les tâches) pour lesquels vous avez besoin du rapport.

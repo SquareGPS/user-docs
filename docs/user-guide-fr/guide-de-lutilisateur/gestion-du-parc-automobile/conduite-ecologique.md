@@ -4,7 +4,7 @@ Le **Rapport sur l'éco-conduite** Navixy est un outil puissant conçu pour anal
 
 Pour accéder au rapport sur l'écoconduite, naviguez jusqu'à la page d'accueil du site web de la Commission européenne. **Fleet Management app** et sélectionnez l'option **Onglet "Eco-Driving".**
 
-![image-20240814-183737.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-183737.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-183737.png)
 
 ## Comprendre les points de pénalité
 
@@ -14,7 +14,7 @@ Les points de pénalité sont un élément clé du rapport sur la conduite écol
 
 Le rapport sur l'écoconduite peut être adapté à vos besoins spécifiques, ce qui vous permet de définir vos propres critères pour déterminer ce qui constitue une infraction et sa gravité. Vous pouvez attribuer différents points de pénalité à diverses infractions, ce qui vous permet de donner la priorité à certains aspects du comportement au volant en fonction des normes de votre organisation.
 
-![image-20240814-183612.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-183612.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-183612.png)
 
 **Caractéristiques principales**
 
@@ -22,9 +22,9 @@ Le rapport sur l'écoconduite peut être adapté à vos besoins spécifiques, ce
 * **Conduite difficile :** Suivez les manœuvres agressives telles que les freinages brusques, les accélérations ou les virages serrés, avec des seuils personnalisables en fonction des appareils de votre flotte.
 * **Marche au ralenti excessive :** Identifier et sanctionner les conducteurs qui laissent tourner le moteur au ralenti pendant de longues périodes, ce qui peut entraîner un gaspillage de carburant et réduire l'efficacité du véhicule.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Calculs dans le rapport Eco Driving
+<summary>Calculs dans le rapport Eco Driving</summary>
 
 Le rapport Eco Driving de Navixy est conçu pour évaluer et noter le comportement de conduite des employés sur la base d'un ensemble de critères. Le score de chaque conducteur varie de 0 à 100 et est influencé par les points de pénalité attribués pour diverses infractions.
 
@@ -89,6 +89,8 @@ Les événements enregistrés dans une fenêtre de 5 minutes sont regroupés et 
 #### Tableau des intervalles de repos
 
 Ce tableau fournit des détails sur chaque cas de marche au ralenti avec le moteur en marche, y compris la durée et les points de pénalité correspondants.
+
+</details>
 
 ## Analyse des résultats
 

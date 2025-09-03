@@ -6,7 +6,7 @@ Le **Driver journal** dans Navixy est un outil puissant pour la gestion de flott
 
 Cette fonction permet aux gestionnaires de flotte de surveiller et de classer les déplacements, ce qui fournit des informations précieuses sur l'utilisation des véhicules, les objectifs des déplacements et le comportement des conducteurs. En classant les déplacements avec précision, les entreprises peuvent améliorer l'exactitude des rapports, optimiser les opérations de la flotte et garantir la conformité avec les différentes réglementations. Il est ainsi possible d'identifier plus facilement si un appareil est utilisé à des fins professionnelles ou privées.
 
-![image-20240814-181444.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-181444.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-181444.png)
 
 ## Comment utiliser le journal du conducteur
 

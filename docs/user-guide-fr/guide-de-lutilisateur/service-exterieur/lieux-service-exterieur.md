@@ -2,11 +2,11 @@
 
 **Lieux** dans le **Service extérieur** peut être utilisée pour organiser et gérer les lieux clés que votre personnel de terrain doit visiter, tels que les adresses des clients, les sites de l'entreprise ou d'autres points d'intérêt importants. Cela permet de rationaliser l'attribution des tâches, d'optimiser les itinéraires et de garantir l'efficacité des opérations sur le terrain.
 
-![image-20240816-175137.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-175137.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-175137.png)
 
 En entrant dans la section Lieux, vous verrez une liste de tous les lieux disponibles avec leurs détails, y compris les champs personnalisés que vous avez ajoutés.
 
-![image-20240816-174653.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-174653.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-174653.png)
 
 ## Créer et gérer des lieux
 

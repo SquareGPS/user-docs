@@ -4,15 +4,7 @@
 
 La section Gestion de flotte de la plateforme Navixy offre une gestion rationalisée des véhicules de votre organisation, en fournissant des informations détaillées et un contrôle sur tous les aspects de votre flotte, de la consommation de carburant aux spécifications des véhicules, afin d'améliorer votre efficacité opérationnelle.
 
-![image-20240814-173711.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-173711.png)
-
-* [Véhicules](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/vehicules.md)
-* [Garages](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/garages.md)
-* [Conducteurs](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/conducteurs.md)
-* [Départements](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/departements.md)
-* [Driver journal](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/driver-journal.md)
-* [Conduite écologique](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/conduite-ecologique.md)
-* [Maintenance](../../guide-de-litilizateur/gestion-du-parc-automobile/gestion-du-parc-automobile/maintenance.md)
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Toutes les informations sur les véhicules de votre organisation sont dans **"Gestion de la flotte"**.
 
@@ -24,19 +16,13 @@ Le **«Vehicles»** affiche des informations sur les véhicules de l'utilisateur
 
 Dans cet onglet, il est possible d'ajouter et de modifier des véhicules, de les attacher à des dépôts et de les relier à des traqueurs activés sur la plateforme.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-600x295.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-1024x503.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/ibjhfk4-600x295.png" alt=""><figcaption></figcaption></figure>
 
 ### Ajout d'un nouveau véhicule
 
-Presse ![chrome\_py0qhiu5p8.webp](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/chrome_py0qhiu5p8.webp)
+Presse <img src="../../.gitbook/assets/image (13).png" alt="" data-size="line"> pour ajouter un nouveau véhicule.
 
-pour ajouter un nouveau véhicule.
-
-Bouton ![image-20241127-142058.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20241127-142058.png)
-
-permet d'ajouter une image du véhicule.
+Bouton <img src="../../.gitbook/assets/image (14).png" alt="" data-size="line"> permet d'ajouter une image du véhicule.
 
 Le **"Principal"** contient toutes les informations principales sur le véhicule et des informations supplémentaires, telles que des étiquettes ou des notes de texte.
 
@@ -46,26 +32,18 @@ Le **"Carburant** permet de renseigner les informations relatives au type de car
 
 L'onglet **«Insurance»** permet de saisir le nombre d'assurances avec la date d'expiration.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q-502x600.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/ukhzw1q-502x600.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Garages
 
 Des informations sur les propriétaires de flottes sont disponibles sur le site **«Garages»** tabulation.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-600x295.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-1024x503.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/t7ibvhm-600x295.png" alt=""><figcaption></figcaption></figure>
 
 ### Ajout d'un nouveau garage
 
-Presse ![chrome\_py0qhiu5p8.webp](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/chrome_py0qhiu5p8.webp)
-
-pour ajouter un nouveau garage.
+Presse <img src="../../.gitbook/assets/image (15).png" alt="" data-size="line"> pour ajouter un nouveau garage.
 
 La fenêtre contextuelle contient son nom, son adresse, le nom du mécanicien et le nom du répartiteur. Ces données peuvent être utilisées pour une gestion plus pratique et plus efficace des tâches.
 
-\[![Fleet management](https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz-430x600.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/03/dvdlrlz-430x600.png" alt="" width="375"><figcaption></figcaption></figure>

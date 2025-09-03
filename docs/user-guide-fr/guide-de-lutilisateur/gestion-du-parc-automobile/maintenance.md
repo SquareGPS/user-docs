@@ -2,34 +2,27 @@
 
 Les **Travaux d'entretien** La fonctionnalité "Entretien" de l'application Navixy Fleet Management est un outil complet conçu pour gérer efficacement les tâches d'entretien des véhicules. Ce guide explique comment créer, gérer et contrôler les tâches d'entretien afin de maintenir votre flotte en parfait état.
 
-![image-20240814-185130.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-185130.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-185130.png)
 
 ## Ajouter un travail de service
 
 Pour garantir des performances optimales de votre flotte, commencez par planifier et gérer vos tâches d'entretien.
 
-1. **Aller à la maintenance :**
-
-* Naviguez jusqu'à la page **Gestion du parc automobile** et cliquez sur **Maintenance**.
-
-2. **Créer de nouveaux services :**
-
-* Cliquez sur **Ajouter** dans le coin supérieur gauche.
-* Sélectionnez le véhicule que vous souhaitez entretenir.
-* Choisissez une ou plusieurs des conditions suivantes :
-  * **Par date :** Fixez une date pour le service et recevez des rappels avant la date d'échéance.
-  * **Par kilomètre :** Saisissez le kilométrage auquel le service doit être effectué et définissez un rappel.
-  * **Par moteur Heures :** Précisez les heures d'ouverture du moteur pour le service et soyez prévenu à l'avance.
-
-3. **Ajouter des détails :**
-
-* Si vous le souhaitez, vous pouvez ajouter un **Description** et **Coût**.
-* Configurez des notifications par push, SMS ou e-mail.
-* Joignez des fichiers tels que des factures si nécessaire.
-
-4. **Sauvegarder la tâche :**
-
-* Enregistrez la tâche de service et le système enverra des notifications en fonction de vos paramètres.
+1. **Aller à la maintenance :**\
+   Naviguez jusqu'à la page **Gestion du parc automobile** et cliquez sur **Maintenance**.
+2. **Créer de nouveaux services :**&#x20;
+   1. Cliquez sur **Ajouter** dans le coin supérieur gauche.
+   2. Sélectionnez le véhicule que vous souhaitez entretenir.
+   3. Choisissez une ou plusieurs des conditions suivantes :&#x20;
+      1. **Par date :** Fixez une date pour le service et recevez des rappels avant la date d'échéance.
+      2. **Par kilomètre :** Saisissez le kilométrage auquel le service doit être effectué et définissez un rappel.
+      3. **Par moteur Heures :** Précisez les heures d'ouverture du moteur pour le service et soyez prévenu à l'avance.
+3. **Ajouter des détails :**&#x20;
+   1. Si vous le souhaitez, vous pouvez ajouter un **Description** et **Coût**.
+   2. Configurez des notifications par push, SMS ou e-mail.
+   3. Joignez des fichiers tels que des factures si nécessaire.
+4. **Sauvegarder la tâche :** \
+   Enregistrez la tâche de service et le système enverra des notifications en fonction de vos paramètres.
 
 ## Gérer les travaux de service
 
@@ -51,33 +44,22 @@ Après avoir créé des tâches de service, vous pouvez avoir besoin de les modi
 
 Rationalisez l'entretien de votre flotte en configurant les tâches répétitives, une fonction qui génère automatiquement de nouvelles tâches d'entretien à des intervalles prédéfinis. Suivez les étapes suivantes pour la configurer.
 
-![image-20240814-190748.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-190748.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-190748.png)
 
-1. **Activer la répétition automatique :**
-
-* Allumez le **Répétition automatique** en basculant le commutateur.
-
-2. **Sélectionnez le véhicule :**
-
-* Choisissez un véhicule pour la tâche de service. Le système utilisera les données du traceur GPS pour contrôler les heures de fonctionnement du moteur et le kilométrage.
-
-3. **Saisir les détails de la tâche :**
-
-* Ajouter un **Nom**et, éventuellement, un **Description** et **Coût**.
-
-4. **Définir les notifications :**
-
-* Choisissez qui doit recevoir les notifications.
-
-5. **Définir l'intervalle de service :**
-
-* **Par date :** Planifiez le premier entretien et définissez des intervalles pour les tâches ultérieures.
-* **Par kilomètre :** Saisissez le kilométrage cible et définissez des intervalles récurrents.
-* **Par moteur Heures :** Indiquez le nombre d'heures de fonctionnement du moteur et fixez les intervalles de répétition de l'entretien.
-
-6. **Joindre des fichiers :**
-
-* Joindre tout document pertinent si nécessaire.
+1. **Activer la répétition automatique :** \
+   Allumez le **Répétition automatique** en basculant le commutateur.
+2. **Sélectionnez le véhicule :** \
+   Choisissez un véhicule pour la tâche de service. Le système utilisera les données du traceur GPS pour contrôler les heures de fonctionnement du moteur et le kilométrage.
+3. **Saisir les détails de la tâche :** \
+   Ajouter un **Nom**et, éventuellement, un **Description** et **Coût**.
+4. **Définir les notifications :** \
+   Choisissez qui doit recevoir les notifications.
+5. **Définir l'intervalle de service :**&#x20;
+   1. **Par date :** Planifiez le premier entretien et définissez des intervalles pour les tâches ultérieures.
+   2. **Par kilomètre :** Saisissez le kilométrage cible et définissez des intervalles récurrents.
+   3. **Par moteur Heures :** Indiquez le nombre d'heures de fonctionnement du moteur et fixez les intervalles de répétition de l'entretien.
+6. **Joindre des fichiers :** \
+   Joindre tout document pertinent si nécessaire.
 
 Le système créera automatiquement de nouvelles tâches en fonction des intervalles que vous aurez définis.
 
@@ -90,6 +72,6 @@ Surveillez efficacement les activités de maintenance de votre flotte grâce à 
 * **Complété :** Tâches terminées.
 * **Expiré :** Tâches qui n'ont pas été accomplies dans les délais.
 
-![image-20240814-191110.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-191110.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-191110.png)
 
 Le tableau de bord offre un résumé concis, vous permettant de visualiser instantanément l'état de toutes les tâches d'entretien en un coup d'œil.

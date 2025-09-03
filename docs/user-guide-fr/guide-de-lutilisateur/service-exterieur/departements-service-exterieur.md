@@ -2,7 +2,7 @@
 
 Les **Départements** dans la section **Service extérieur** vous permet d'organiser efficacement votre personnel en classant les employés dans des départements spécifiques. Cette structure organisationnelle permet de rationaliser l'attribution des tâches, l'établissement des rapports et la gestion globale des opérations sur le terrain.
 
-![image-20240816-172857.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-172857.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-172857.png)
 
 ## Gestion des services
 
@@ -12,12 +12,10 @@ Dans la section Départements, vous pouvez créer, afficher et gérer différent
 
 1. **Naviguer vers l'onglet Départements**: Commencez par vous rendre dans la section Départements de l'application Service extérieur.
 2. **Cliquez sur le bouton "+".**: Pour créer un nouveau département, cliquez sur le bouton "+".
-3. **Saisir les coordonnées du service**:
-
-* **Étiquette**: Indiquez un nom pour le département, tel que "Bureau principal" ou "Département de service".
-* **Adresse**: Saisissez l'emplacement physique du service ou utilisez la carte pour sélectionner un emplacement précis.
-* **Rayon**: Définissez un rayon autour de l'emplacement du département. Cela permet d'attribuer des tâches en fonction de la proximité du département.
-
+3. **Saisir les coordonnées du service**:&#x20;
+   1. **Étiquette**: Indiquez un nom pour le département, tel que "Bureau principal" ou "Département de service".
+   2. **Adresse**: Saisissez l'emplacement physique du service ou utilisez la carte pour sélectionner un emplacement précis.
+   3. **Rayon**: Définissez un rayon autour de l'emplacement du département. Cela permet d'attribuer des tâches en fonction de la proximité du département.
 4. **Économiser**: Après avoir rempli les informations nécessaires, cliquez sur "Enregistrer" pour créer le département.
 
 ### Détails du département

@@ -1,6 +1,6 @@
 # Départements
 
-La section "Départements" de la [Gestion du parc automobile](../../guide-de-litilizateur/gestion-du-parc-automobile.md) vous permet d'organiser et de gérer votre flotte en classant les conducteurs dans des départements spécifiques. Cette structure contribue à une gestion efficace de la flotte, en permettant un meilleur contrôle des opérations, des rapports et de l'attribution des tâches.
+La section "Départements" de la [Gestion du parc automobile](./) vous permet d'organiser et de gérer votre flotte en classant les conducteurs dans des départements spécifiques. Cette structure contribue à une gestion efficace de la flotte, en permettant un meilleur contrôle des opérations, des rapports et de l'attribution des tâches.
 
 ## Gestion des services
 

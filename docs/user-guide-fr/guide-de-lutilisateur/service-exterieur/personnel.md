@@ -2,13 +2,13 @@
 
 Les **Personnel** dans la section **Service extérieur** est spécialement conçue pour gérer et organiser efficacement les informations relatives à votre personnel itinérant. Cet outil vous permet de disposer de tout ce dont vous avez besoin pour coordonner efficacement votre personnel mobile.
 
-![image-20240816-171918.png](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-171918.png)
+![](../../guide-de-litilizateur/service-exterieur/attachments/image-20240816-171918.png)
 
 Pour accéder à la section Personnel, connectez-vous à la plateforme Navixy et sélectionnez "Service extérieur" dans le menu principal. Cliquez ensuite sur l'onglet "Personnel". Cette section fournit une vue d'ensemble de tous les employés de votre organisation, en affichant leurs informations essentielles sous forme de liste.
 
 ## Liste des employés
 
-La liste des employés est conçue pour une gestion rapide et pratique de votre personnel. Elle est particulièrement utile en conjonction avec la fonction "[Tâches](taches.md)"Vous pouvez y assigner des tâches, communiquer avec les employés et suivre leurs progrès.
+La liste des employés est conçue pour une gestion rapide et pratique de votre personnel. Elle est particulièrement utile en conjonction avec la fonction "[Tâches](taches.md)" Vous pouvez y assigner des tâches, communiquer avec les employés et suivre leurs progrès.
 
 Les informations relatives à chaque employé comprennent les détails suivants :
 

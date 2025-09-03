@@ -2,7 +2,7 @@
 
 Le **Conducteurs** Cette section de la plateforme Navixy est conçue pour aider les gestionnaires de flotte à gérer et à contrôler efficacement leurs conducteurs. Cette section vous permet de créer et de gérer des profils de conducteurs détaillés, en les reliant à des objets spécifiques de votre flotte. En conservant des dossiers complets sur les conducteurs, vous pouvez rationaliser les opérations de la flotte, améliorer la responsabilité des conducteurs et améliorer les performances globales de la flotte.
 
-![image-20240814-180004.png](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-180004.png)
+![](../../guide-de-litilizateur/gestion-du-parc-automobile/attachments/image-20240814-180004.png)
 
 ## Liste des conducteurs
 
