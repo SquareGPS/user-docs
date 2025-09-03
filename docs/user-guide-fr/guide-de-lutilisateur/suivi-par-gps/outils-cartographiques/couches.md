@@ -4,7 +4,7 @@
 
 Les couches de carte vous permettent d'ajouter des superpositions de données personnalisées à votre carte, améliorant ainsi la visualisation de zones spécifiques qui ne sont pas incluses dans la vue cartographique standard. Cette fonction est particulièrement utile pour afficher des détails géographiques uniques, tels que les quartiers, les zones de responsabilité, les itinéraires personnalisés et d'autres cartes spécialisées. En utilisant des couches cartographiques, vous et votre équipe pouvez mieux comprendre les emplacements et les situations de vos véhicules ou de vos actifs.
 
-![image-20240807-205554.png](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240807-205554.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240807-205554.png)
 
 Voici quelques applications pratiques des couches cartographiques :
 
@@ -16,9 +16,9 @@ Voici quelques applications pratiques des couches cartographiques :
 
 Il existe plusieurs outils pour créer des couches KML, allant des logiciels SIG professionnels aux services de cartographie en ligne accessibles. Google My Maps et Google Earth sont deux options conviviales pour créer des couches KML, tandis que les outils plus avancés comprennent ArcGIS et QGIS.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-La création de couches KML se fait à l'aide de Google Earth
+<summary>La création de couches KML se fait à l'aide de Google Earth</summary>
 
 1. Ouvrir Google Earth
 2. Recherchez le site pour lequel vous souhaitez créer le KML
@@ -30,6 +30,8 @@ La création de couches KML se fait à l'aide de Google Earth
 8. Cliquez avec le bouton droit de la souris sur le nom du site dans la fenêtre Lieux à gauche.
 9. Sélectionnez Enregistrer le lieu sous, choisissez une destination pour l'enregistrement du fichier.
 10. Enregistrer le fichier en tant que KML
+
+</details>
 
 ## Comment ajouter une couche cartographique à votre compte Navixy ?
 

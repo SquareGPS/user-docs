@@ -6,11 +6,11 @@ By integrating Lightmetrics with Navixy, you get intelligent video analytics wit
 
 {% stepper %}
 {% step %}
-#### **Establishing integration**
+### **Establishing integration**
 
 To establish the integration, you'll need to set up your Lightmetrics Master account and configure proper account matching between your Lightmetrics and Navixy systems.
 
-**Request Master account creation (one-time setup)**
+#### **Request Master account creation (one-time setup)**
 
 1. **Contact Navixy**: Send a request to your Customer Success Manager or use [this form](https://www.navixy.com/contact/) to request Lightmetrics Master account creation.
 2. **Wait for confirmation**: Our specialists will coordinate with Lightmetrics to create an account for you. You will receive credentials to log into your Lightmetrics account.
@@ -21,7 +21,7 @@ After completing these steps, your Lightmetrics Master account is ready for inte
 {% endstep %}
 
 {% step %}
-#### **Adding devices to Navixy**
+### **Adding devices to Navixy**
 
 Since Lightmetrics is device-agnostic, you can add any compatible devices to the platform following the standard device activation procedure. The only requirement is that the device should already exist in your Lightmetrics account.
 
@@ -43,9 +43,9 @@ Your device and Navixy account are ready for the integration!
 {% endstep %}
 
 {% step %}
-#### **Embedding Lightmetrics in Navixy UI**
+### **Embedding Lightmetrics in Navixy UI**
 
-**Create API key**
+#### **Create API key**
 
 Before embedding, you need to create an API key for this integration in your Navixy account.
 
@@ -60,7 +60,7 @@ Before embedding, you need to create an API key for this integration in your Nav
 
 For more details on creating an API key in Navixy, see API keys.
 
-**Create new User aplication**
+#### **Create new User aplication**
 
 At this step, we perform the actual integration by embedding the Lightmetrics dashboard into your Navixy interface.\
 Navixy offers User applications functionality that allows embedding 3rd-party apps directly in the platform's interface. We will use it to embed Lightmetrics.

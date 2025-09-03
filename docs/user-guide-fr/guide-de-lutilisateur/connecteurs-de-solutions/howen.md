@@ -6,7 +6,7 @@ Integrating Howen VSS with Navixy combines video surveillance with fleet managem
 
 {% stepper %}
 {% step %}
-#### Establishing integration
+### Establishing integration
 
 To establish the integration, you'll need to provide your Howen account credentials and request integration setup from our support team.
 
@@ -21,7 +21,7 @@ After you receive confirmation from our support team, your Howen account is read
 {% endstep %}
 
 {% step %}
-#### Adding a Howen device to Navixy
+### Adding a Howen device to Navixy
 
 After receiving confirmation from our support team that the integration is ready, you can add your Howen device to the platform. To do this, follow the usual device activation procedure:
 
@@ -39,7 +39,7 @@ Your device and Navixy account are now ready for the integration!
 {% endstep %}
 
 {% step %}
-#### Embedding Howen VSS in Navixy UI
+### Embedding Howen VSS in Navixy UI
 
 At this step, we perform the actual integration by embedding the Howen VSS dashboard into your Navixy interface.
 

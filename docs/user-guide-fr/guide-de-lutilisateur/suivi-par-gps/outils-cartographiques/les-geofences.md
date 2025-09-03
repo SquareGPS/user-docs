@@ -2,9 +2,9 @@
 
 ## Vue d'ensemble
 
-Les géofences sont des périmètres virtuels qui permettent au système de contrôler si un objet a franchi la limite de la géofence ("in" ou "out"). Ces événements sont enregistrés, ce qui permet aux utilisateurs de générer des rapports sur les géofences et des rapports sur la sécurité. [recevoir des alertes](../../regles-et-notifications/surveillance-des-mouvements/entree-ou-sortie-de-la-geofence.md). Les géofences peuvent également être liées à des [règles pour les manifestations](../../regles-et-notifications.md) dans des zones particulières, par exemple en recevant des alertes d'excès de vitesse uniquement dans une ville ou le long d'un itinéraire.
+Les géofences sont des périmètres virtuels qui permettent au système de contrôler si un objet a franchi la limite de la géofence ("in" ou "out"). Ces événements sont enregistrés, ce qui permet aux utilisateurs de générer des rapports sur les géofences et des rapports sur la sécurité. [recevoir des alertes](../../regles-et-notifications/surveillance-des-mouvements/entree-ou-sortie-de-la-geofence.md). Les géofences peuvent également être liées à des [règles pour les manifestations](../../regles-et-notifications/) dans des zones particulières, par exemple en recevant des alertes d'excès de vitesse uniquement dans une ville ou le long d'un itinéraire.
 
-![image-20240807-002528.png](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240807-002528.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240807-002528.png)
 
 ### Voir les détails de la géofence
 
@@ -34,7 +34,7 @@ Une géofence polygonale est une zone définie par un polygone arbitraire à plu
 
 Une géofence d'itinéraire crée un périmètre virtuel entre deux ou plusieurs points. Ce type de géofence est particulièrement utile pour surveiller [le respect des itinéraires prévus](../../regles-et-notifications/planification-et-repartition/deviation-de-litineraire.md) et de s'assurer que les véhicules ne s'écartent pas de la trajectoire prévue. La géofence d'itinéraire est définie par une série de points qui créent un itinéraire continu, avec un rayon spécifié qui détermine l'écart autorisé par rapport à l'itinéraire.
 
-![image-20240806-235506.png](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240806-235506.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240806-235506.png)
 
 ## Comment créer une géofence
 
@@ -49,9 +49,9 @@ Une géofence d'itinéraire crée un périmètre virtuel entre deux ou plusieurs
 
 5. Spécifiez le nom de la géofence et enregistrez-la. Les géofences créées peuvent être modifiées ou supprimées.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Création d'un corridor de géofence
+<summary>Création d'un corridor de géofence</summary>
 
 Procédez comme suit pour créer une géofence de couloir :
 
@@ -62,9 +62,11 @@ Procédez comme suit pour créer une géofence de couloir :
 5. **Définir les points d'itinéraire**: Ajouter le point de départ, plusieurs points intermédiaires et le point d'arrivée de l'itinéraire. Chaque point est défini par ses coordonnées géographiques.
 6. **Mode manuel**: Si nécessaire, vous pouvez ajuster les points manuellement pour un contrôle précis de la trajectoire de l'itinéraire.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+</details>
 
-Création de géofences polygonales
+<details>
+
+<summary>Création de géofences polygonales</summary>
 
 Pour créer une géofence polygonale :
 
@@ -73,6 +75,8 @@ Pour créer une géofence polygonale :
 3. Cliquez sur le bouton "Ajouter une géofence" et sélectionnez "Polygone" comme type de géofence.
 4. Initialement, la géofence se présente sous la forme d'un pentagone. Ajustez la forme en faisant glisser les sommets ou en en ajoutant de nouveaux pour qu'elle corresponde à la zone souhaitée.
 5. Nommez votre géofence et enregistrez-la. Vous pouvez modifier ou supprimer les géofences créées si nécessaire.
+
+</details>
 
 ## Modifier les détails de la géofence
 
@@ -107,4 +111,6 @@ Lorsque vous devez ajouter un grand nombre de géodonnées, il est plus rapide d
 5. Cliquez sur "Télécharger".
 6. Une fois l'importation terminée, les nouvelles géofences apparaissent dans la liste. Notez que le rayon par défaut n'est utilisé que pour les géofences d'itinéraire. Pour les autres types, cette étape peut être ignorée.
 
-> \[!INFO] Nous vous recommandons d'utiliser Google Earth et d'exporter vos géofences dans un fichier KML. Veuillez noter qu'il y a une limite de 500 points par géofence.
+{% hint style="info" %}
+Nous vous recommandons d'utiliser Google Earth et d'exporter vos géofences dans un fichier KML. Veuillez noter qu'il y a une limite de 500 points par géofence.
+{% endhint %}

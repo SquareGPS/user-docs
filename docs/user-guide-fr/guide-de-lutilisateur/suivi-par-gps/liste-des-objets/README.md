@@ -2,7 +2,7 @@
 
 La liste des objets de la plateforme fournit une vue d'ensemble de tous les actifs suivis, ce qui permet aux utilisateurs de contrôler efficacement leurs actifs.
 
-![object-list.png](../../../guide-de-litilizateur/suivi-par-gps/attachments/object-list.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/attachments/object-list.png)
 
 ## Caractéristiques de la liste d'objets
 

@@ -4,17 +4,19 @@ Dans la plateforme Navixy, le widget objet est un hub qui fournit des informatio
 
 ![image-20240814-165933.png](../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/image-20240814-165933.png)
 
-Pour accéder à ce panneau, il suffit d'appuyer sur le bouton "info" ou de double-cliquer sur un appareil dans la liste des appareils. [Liste d'objets](../../../../../wiki/pages/createpage.action). Une fois ouvert, le panneau affiche des données complètes sur l'objet sélectionné, y compris l'état actuel, la position GPS et les données de télémétrie. En outre, il offre divers outils de gestion opérationnelle en fonction de l'appareil, le tout commodément regroupé en un seul endroit.
+Pour accéder à ce panneau, il suffit d'appuyer sur le bouton "info" ou de double-cliquer sur un appareil dans la liste des appareils. [Liste d'objets](./). Une fois ouvert, le panneau affiche des données complètes sur l'objet sélectionné, y compris l'état actuel, la position GPS et les données de télémétrie. En outre, il offre divers outils de gestion opérationnelle en fonction de l'appareil, le tout commodément regroupé en un seul endroit.
 
 ## Personnalisation des widgets
 
 La liste des widgets du panneau de contrôle de l'appareil est hautement personnalisable pour répondre à vos besoins. Vous pouvez facilement développer ou réduire tous les widgets pour obtenir une vue complète ou compacte. Pour ce faire, utilisez le bouton "Afficher tout" pour développer tous les widgets et le bouton "Cacher tout" pour les réduire. Vous pouvez personnaliser les widgets affichés en cliquant sur l'icône en forme de roue dentée et en décochant les cases situées à côté des widgets que vous souhaitez masquer. Si vous préférez un ordre différent pour vos widgets, cliquez sur le bouton "Modifier l'ordre" situé à côté de l'icône en forme de roue dentée pour les faire glisser et les réorganiser comme bon vous semble.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Widgets - vue détaillée (exemple)
+<summary>Widgets - vue détaillée (exemple)</summary>
 
-![image-20240814-170255.png](../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/image-20240814-170255.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/image-20240814-170255.png)
+
+</details>
 
 ### Explication des principaux widgets
 

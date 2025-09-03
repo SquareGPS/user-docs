@@ -4,7 +4,7 @@
 
 Les lieux, également connus sous le nom de points d'intérêt (POI), sont une caractéristique essentielle de la gestion de flotte et du suivi des actifs par GPS. Les entreprises peuvent créer une liste détaillée de lieux, y compris des emplacements clés tels que des bureaux et des entrepôts, ainsi que de nombreux sites cruciaux pour les opérations logistiques. Les lieux améliorent l'efficacité opérationnelle en optimisant la planification des itinéraires et en rationalisant l'attribution des tâches pour les employés sur le terrain.
 
-![image-20240807-005501.png](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240807-005501.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240807-005501.png)
 
 ### Utilisations pratiques des lieux
 
@@ -27,7 +27,9 @@ Lors de la création ou de la modification d'un lieu, vous pouvez spécifier les
 * **Tags :** Ajoutez des étiquettes pour une meilleure organisation et une recherche plus facile.
 * **Description :** Inclure toute information supplémentaire sur le lieu.
 
-> \[!INFO] Les champs de placement peuvent être ajustés dans le [Champs personnalisés](../../compte/champs-personnalises.md) section
+{% hint style="info" %}
+Les champs de placement peuvent être ajustés dans le [Champs personnalisés](../../compte/champs-personnalises.md) section
+{% endhint %}
 
 ### Voir les détails du lieu
 

@@ -4,13 +4,13 @@ L'onglet Événement de la vue Historique fournit un journal détaillé de tous 
 
 Pour consulter l'historique des événements d'un appareil spécifique, sélectionnez les objets que vous souhaitez examiner et cliquez sur le bouton Historique (la flèche circulaire en bas à droite de la liste des objets). Vous serez invité à sélectionner une plage de dates et d'heures. Après avoir choisi la plage souhaitée, passez à la boîte de dialogue Historique et sélectionnez l'option **"Événements"** tabulation.
 
-![image-20240807-220924.png](../../../guide-de-litilizateur/suivi-par-gps/vue-historique/attachments/image-20240807-220924.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/vue-historique/attachments/image-20240807-220924.png)
 
-![image-20240808-192358.png](../../../guide-de-litilizateur/suivi-par-gps/vue-historique/attachments/image-20240808-192358.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/vue-historique/attachments/image-20240808-192358.png)
 
 Pour afficher les événements de tous les appareils, cliquez sur l'onglet Alertes dans la barre latérale :
 
-![image-20241113-192802.png](../../../guide-de-litilizateur/suivi-par-gps/vue-historique/attachments/image-20241113-192802.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/vue-historique/attachments/image-20241113-192802.png)
 
 ## Event list
 
@@ -23,7 +23,7 @@ La liste des événements affiche une séquence chronologique des événements p
 
 ## Types d'événements
 
-Les types d'événements affichés sont déterminés par les événements surveillés. Navixy peut détecter et enregistrer une large gamme d'événements, depuis les notifications de base de mouvement et d'arrêt jusqu'aux alertes plus complexes des capteurs et aux rappels de maintenance. Pour plus de détails sur la configuration et la gestion de ces événements, reportez-vous à la section [Règles et notifications](../../regles-et-notifications.md) section.
+Les types d'événements affichés sont déterminés par les événements surveillés. Navixy peut détecter et enregistrer une large gamme d'événements, depuis les notifications de base de mouvement et d'arrêt jusqu'aux alertes plus complexes des capteurs et aux rappels de maintenance. Pour plus de détails sur la configuration et la gestion de ces événements, reportez-vous à la section [Règles et notifications](../../regles-et-notifications/) section.
 
 ## Actions avec événements
 

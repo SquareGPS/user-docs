@@ -2,11 +2,9 @@
 
 La vue détaillée de l'objet vous donne un aperçu approfondi de vos actifs, ce qui permet d'améliorer la surveillance et la gestion. En offrant des informations complètes telles que l'emplacement, l'état, les données des capteurs et les activités récentes, cette fonction vous permet de prendre des décisions éclairées et de réagir rapidement en cas de problème.
 
-Pour accéder à la vue détaillée d'un objet spécifique, double-cliquez sur l'objet dans la liste ou passez la souris dessus et cliquez sur le bouton apparu ![Info\_Icon.png](../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/Info_Icon.png)
+Pour accéder à la vue détaillée d'un objet spécifique, double-cliquez sur l'objet dans la liste ou passez la souris dessus et cliquez sur le bouton apparu <img src="../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/Info_Icon.png" alt="Info_Icon.png" data-size="line"> icône.
 
-icône.
-
-![image-20240718-224326.png](../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/image-20240718-224326.png)
+![](../../../guide-de-litilizateur/suivi-par-gps/liste-des-objets/attachments/image-20240718-224326.png)
 
 Vous trouverez ci-dessous une explication des différents composants disponibles dans la vue détaillée de l'objet.
 

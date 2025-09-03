@@ -12,5 +12,7 @@ Explorez notre écosystème croissant de solutions connectées ci-dessous. Chaqu
 
 Sélectionnez une solution dans la liste ci-dessous pour en savoir plus sur son processus d'intégration spécifique :
 
-* [Mettax](https://squaregps.atlassian.net/wiki/spaces/UDOCFR/pages/3371139121/Int+gration+Mettax+pour+la+t+l+matique+vid+o?atlOrigin=eyJpIjoiZWJjYjZmNmRhMzg1NGNmZmFjMDZjMjZmNWQ1ODVkMDUiLCJwIjoiYyJ9) : Solution de télématique vidéo qui améliore vos capacités de surveillance de flotte tout en maintenant l'accès aux fonctionnalités complètes de suivi GPS de Navixy.
-* [Streamax](https://squaregps.atlassian.net/wiki/spaces/UDOCFR/pages/3371237413/Int+gration+Streamax+pour+la+t+l+matique+vid+o?atlOrigin=eyJpIjoiM2ZlYzE1MTJhYTRkNDQzOWFmYzk3NGU1MzRhYjRkZjciLCJwIjoiYyJ9) : Solution de télématique vidéo pour la surveillance de véhicules 24h/24 et 7j/7, la collecte de données télématiques et la sécurité du conducteur utilisant ADAS et DSM—entièrement intégrée avec le suivi Navixy.
+* [Mettax](integration-mettax-pour-la-telematique-video.md) : Solution de télématique vidéo qui améliore vos capacités de surveillance de flotte tout en maintenant l'accès aux fonctionnalités complètes de suivi GPS de Navixy.
+* [Streamax](integration-streamax-pour-la-telematique-video.md) : Solution de télématique vidéo pour la surveillance de véhicules 24h/24 et 7j/7, la collecte de données télématiques et la sécurité du conducteur utilisant ADAS et DSM—entièrement intégrée avec le suivi Navixy.
+* [Lightmetrics](lightmetrics.md): AI-powered video telematics solution with edge AI technology and no-code platform deployment, featuring hardware-agnostic capabilities and real-time driver coaching integrated with Navixy tracking.
+* [Howen](howen.md): Cost-effective AI-enhanced video telematics solution with expandable capabilities including facial recognition, driver monitoring, and ADAS—fully integrated with Navixy tracking.
