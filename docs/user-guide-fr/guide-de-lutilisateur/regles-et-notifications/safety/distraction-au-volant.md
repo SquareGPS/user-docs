@@ -12,7 +12,7 @@ Cette règle dépend de l'appareil, c'est-à-dire qu'elle s'appuie sur la config
 
 Comme cette règle est basée sur la configuration du matériel, une configuration minimale est nécessaire au sein de la plateforme elle-même. L'essentiel est de s'assurer que les dispositifs sélectionnés sont configurés pour détecter et signaler les événements de distraction du conducteur.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

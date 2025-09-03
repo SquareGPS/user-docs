@@ -6,13 +6,15 @@ La règle de l'"antenne GPS déconnectée" est conçue pour les appareils GPS qu
 
 Par exemple, si vous gérez une flotte de véhicules de livraison équipés de traceurs et d'antennes GPS externes, cette règle vous aide à contrôler l'intégrité de vos connexions GPS. Si une antenne est déconnectée en raison de facteurs environnementaux ou d'une manipulation, vous en serez immédiatement informé. Cela vous permet de prendre des mesures correctives, telles que l'envoi d'un technicien pour rétablir la connexion, afin d'éviter des retards potentiels et de maintenir des opérations efficaces.
 
-> \[!INFO] La plupart des appareils GPS modernes sont équipés d'antennes intégrées à haute sensibilité, ce qui rend les antennes externes obsolètes.
+{% hint style="info" %}
+La plupart des appareils GPS modernes sont équipés d'antennes intégrées à haute sensibilité, ce qui rend les antennes externes obsolètes.
+{% endhint %}
 
 ## Paramètres des règles
 
 Cette règle dépend entièrement des capacités et de la configuration matérielle de l'appareil. Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

@@ -16,7 +16,7 @@ Le rapport calcule le temps de travail de l'équipement sur la base des points d
 
 2. **Configuration du capteur virtuel :**
 
-* [Capteurs virtuels](broken-reference) avec deux états peuvent également être utilisés. Le capteur doit être correctement configuré pour enregistrer ces états.
+* [Capteurs virtuels](../../appareils-et-parametres/capteurs-pour-vehicules/capteurs-virtuels/) avec deux états peuvent également être utilisés. Le capteur doit être correctement configuré pour enregistrer ces états.
 
 3. **Réglages de la détection de stationnement :**
 
@@ -28,12 +28,7 @@ Le rapport calcule le temps de travail de l'équipement sur la base des points d
 
 ### Exemple de calcul
 
-| Point | L'heure  | État d'entrée | Temps de disponibilité des équipements                |
-| ----- | -------- | ------------- | ----------------------------------------------------- |
-| 1     | 10:00:00 | Arrêt         | 0 minute                                              |
-| 2     | 10:01:00 | Sur           | 0 minute (l'entrée était désactivée au dernier point) |
-| 3     | 10:01:32 | Sur           | 0 minute (moins de 60 secondes)                       |
-| 4     | 10:05:32 | Arrêt         | 4 minutes et 32 secondes                              |
+<table><thead><tr><th width="101">Point</th><th width="99">L'heure</th><th width="125">État d'entrée</th><th>Temps de disponibilité des équipements</th></tr></thead><tbody><tr><td>1</td><td>10:00:00</td><td>Arrêt</td><td>0 minute</td></tr><tr><td>2</td><td>10:01:00</td><td>Sur</td><td>0 minute (l'entrée était désactivée au dernier point)</td></tr><tr><td>3</td><td>10:01:32</td><td>Sur</td><td>0 minute (moins de 60 secondes)</td></tr><tr><td>4</td><td>10:05:32</td><td>Arrêt</td><td>4 minutes et 32 secondes</td></tr></tbody></table>
 
 ## Paramètres du rapport
 
@@ -55,19 +50,20 @@ Le rapport sur le temps de travail des équipements comprend plusieurs paramètr
 
 * L'histogramme décompose le temps de travail de l'équipement en segments quotidiens. Si le pourcentage d'inactivité est suivi, il indique également la répartition entre le temps de mouvement et le temps d'inactivité. En survolant chaque jour, on obtient une vue plus détaillée de l'activité de la journée.
 
-![image-20240815-010538.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010538.png)
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010538.png)
 
 ### Tableau des heures de fonctionnement quotidien des capteurs
 
-* Ce tableau présente des statistiques quotidiennes sur le fonctionnement de l'équipement, notamment :
-  * **Date :** Le jour spécifique pour lequel les informations sont calculées.
-  * **Durée de fonctionnement (durée de l'état du capteur virtuel) :** La durée totale de fonctionnement pour la journée.
-  * **Intervalle moyen :** La durée moyenne pendant laquelle l'équipement a été opérationnel après chaque mise en marche.
-  * **Kilométrage :** La distance parcourue avec l'équipement en marche.
-  * **Vitesse moyenne :** La vitesse moyenne pour la journée.
-  * **Intervalles :** Le nombre de fois où l'équipement a été mis en marche au cours de la journée.
-  * **En mouvement (si le pourcentage d'inactivité est activé) :** La durée du travail en mouvement et son pourcentage par rapport au temps de travail total.
-  * **Ralenti (si le pourcentage de ralenti est activé) :** La durée de fonctionnement sans mouvement et son pourcentage par rapport à la durée totale de fonctionnement.
+Ce tableau présente des statistiques quotidiennes sur le fonctionnement de l'équipement, notamment :
+
+* **Date :** Le jour spécifique pour lequel les informations sont calculées.
+* **Durée de fonctionnement (durée de l'état du capteur virtuel) :** La durée totale de fonctionnement pour la journée.
+* **Intervalle moyen :** La durée moyenne pendant laquelle l'équipement a été opérationnel après chaque mise en marche.
+* **Kilométrage :** La distance parcourue avec l'équipement en marche.
+* **Vitesse moyenne :** La vitesse moyenne pour la journée.
+* **Intervalles :** Le nombre de fois où l'équipement a été mis en marche au cours de la journée.
+* **En mouvement (si le pourcentage d'inactivité est activé) :** La durée du travail en mouvement et son pourcentage par rapport au temps de travail total.
+* **Ralenti (si le pourcentage de ralenti est activé) :** La durée de fonctionnement sans mouvement et son pourcentage par rapport à la durée totale de fonctionnement.
 
 ![image-20240815-010619.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010619.png)
 

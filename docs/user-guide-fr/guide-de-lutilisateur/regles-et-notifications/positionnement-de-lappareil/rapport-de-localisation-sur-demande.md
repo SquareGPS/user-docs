@@ -10,7 +10,7 @@ Pour plus de commodité, Navixy propose un service d'aide à la décision. **Mis
 
 ## Paramètres des règles
 
-Il n'existe pas de règles spécifiques. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Il n'existe pas de règles spécifiques. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

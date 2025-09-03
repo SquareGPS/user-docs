@@ -23,7 +23,7 @@ L'événement "Absence du conducteur" est un élément essentiel de l'améliorat
 
 Aucun paramètre spécifique n'est requis pour cette règle.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

@@ -14,7 +14,7 @@ Ces notifications peuvent être envoyées par l'intermédiaire de l'interface ut
 
 Spécifiez le capteur de niveau de carburant qui sera utilisé comme source pour les notifications et l'analyse. Le nombre de changements de carburant indiqué est régulé par le paramètre de précision du capteur de niveau de carburant, qui est expliqué dans la section [Section du capteur de niveau de carburant](../../appareils-et-parametres/capteurs-pour-vehicules/measurement-sensors/fuel-level-sensor.md).
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

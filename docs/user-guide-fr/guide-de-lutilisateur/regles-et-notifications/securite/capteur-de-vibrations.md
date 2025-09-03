@@ -12,7 +12,7 @@ Il est important de noter que l'efficacité de cette règle dépend du matériel
 
 Cette règle dépend entièrement des capacités et de la configuration matérielle de l'appareil. Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

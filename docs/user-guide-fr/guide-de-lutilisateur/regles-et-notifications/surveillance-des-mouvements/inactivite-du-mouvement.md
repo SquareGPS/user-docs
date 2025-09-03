@@ -14,7 +14,7 @@ Cette règle est particulièrement utile dans trois domaines clés :
 
 Comme l'inactivité du mouvement est un événement détecté par l'appareil, il n'y a pas de paramètre spécifique dans les règles et les notifications. Utilisez plutôt le widget Paramètres de l'appareil pour configurer à distance la limite de vitesse du côté de l'appareil.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

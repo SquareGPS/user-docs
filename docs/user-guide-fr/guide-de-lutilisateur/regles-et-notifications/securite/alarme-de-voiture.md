@@ -8,7 +8,7 @@ Cette règle fonctionne en contrôlant le système d'alarme du véhicule par l'i
 
 ## Paramètres des règles
 
-Aucune règle spécifique n'est requise. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Aucune règle spécifique n'est requise. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

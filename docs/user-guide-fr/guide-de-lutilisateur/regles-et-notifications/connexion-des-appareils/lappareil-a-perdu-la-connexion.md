@@ -6,7 +6,9 @@ La règle "Perte de connexion de l'appareil" est conçue pour surveiller et noti
 
 Cette règle permet aux utilisateurs de rester informés de l'état de fonctionnement de leurs dispositifs de localisation et de réagir rapidement aux problèmes potentiels, tels que les dysfonctionnements de l'équipement, le brouillage GSM ou le vol de véhicules. Elle permet également de collecter des données précieuses pour optimiser les opérations, par exemple en identifiant les zones mal couvertes ou en détectant les défaillances de l'équipement ou du fournisseur de services.
 
-> \[!INFO] Pour la surveillance en temps réel de l'état de l'alimentation de l'appareil, il est recommandé d'utiliser la fonction ["Fonction d'autodéclaration "interrupteur de l'appareil ON/OFF](../../../../../wiki/pages/createpage.action)si elle est prise en charge par votre appareil GPS.
+{% hint style="info" %}
+Pour la surveillance en temps réel de l'état de l'alimentation de l'appareil, il est recommandé d'utiliser la fonction [Dispositif activé/désactivé](../puissance-de-lappareil/dispositif-activedesactive.md) si elle est prise en charge par votre appareil GPS.
+{% endhint %}
 
 ## Paramètres des règles
 
@@ -19,7 +21,7 @@ Le paramètre "Temps de déconnexion supérieur à" permet aux utilisateurs de d
 
 Par exemple, si un appareil perd la connexion à 10h10, après le délai par défaut de 10 minutes, il sera marqué d'un état rouge à 10h20. Si l'utilisateur fixe le délai de déconnexion personnalisé à 7 minutes, la notification sera déclenchée à 10h27.
 
-Pour le paramétrage des règles communes, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour le paramétrage des règles communes, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

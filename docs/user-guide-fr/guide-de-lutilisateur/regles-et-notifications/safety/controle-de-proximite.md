@@ -15,7 +15,7 @@ En appliquant cette règle, les organisations peuvent améliorer la sécurité, 
 
 La fonctionnalité de cette règle dépend des capacités et de la configuration de l'appareil, de sorte qu'aucune configuration spécifique n'est requise.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Les spécificités de la plate-forme :
 

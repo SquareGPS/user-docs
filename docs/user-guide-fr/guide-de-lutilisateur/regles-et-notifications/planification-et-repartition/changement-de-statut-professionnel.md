@@ -12,7 +12,7 @@ Lorsque la règle "Statut de travail" est active, tout changement dans le statut
 
 Définissez les statuts de travail spécifiques qui déclencheront des notifications lorsqu'ils seront sélectionnés par les employés. Les utilisateurs peuvent choisir les statuts à surveiller, ce qui garantit que le système n'émet des alertes que pour les mises à jour de statut les plus pertinentes. Ces statuts sont créés et attribués par le biais du widget "Statuts de travail" dans le menu Dispositifs et paramètres.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

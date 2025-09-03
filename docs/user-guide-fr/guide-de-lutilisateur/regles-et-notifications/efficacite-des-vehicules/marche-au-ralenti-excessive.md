@@ -14,13 +14,13 @@ La marche au ralenti excessive est un événement important à surveiller dans l
 
 * **Durée de la marche au ralenti :** Définir la durée après laquelle la marche au ralenti sera considérée comme excessive. La règle s'applique lorsqu'un véhicule est garé (selon les paramètres de détection de stationnement) et que le contact est mis. Si le véhicule reste dans cet état au-delà de la durée spécifiée, une notification est déclenchée.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ### Matériel informatique
 
 * **Paramètres spécifiques à l'appareil :** Cette règle repose sur la configuration du matériel pour la détection de la marche au ralenti. Vous devez vous référer à la documentation de votre appareil pour configurer la détection de la marche au ralenti sur le traceur. La plateforme recevra et affichera alors les événements liés à la marche au ralenti en fonction de la sortie du dispositif.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

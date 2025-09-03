@@ -4,7 +4,9 @@
 
 La règle "Appareil allumé/éteint" permet aux utilisateurs de contrôler quand un appareil GPS est allumé ou éteint. Cette règle est particulièrement utile pour les responsables qui doivent s'assurer que les employés utilisent les appareils GPS conformément aux politiques prescrites pendant les heures de travail. Elle fournit des informations précieuses sur les habitudes d'utilisation des appareils, ce qui permet d'éviter les abus et de s'assurer que les appareils fonctionnent correctement.
 
-> \[!WARNING] Cette règle ne s'applique qu'aux dispositifs qui ont la capacité de signaler leur état d'alimentation. En d'autres termes, l'appareil GPS doit être en mesure d'envoyer des notifications à la plate-forme lorsqu'il est allumé ou éteint. Si un appareil ne dispose pas de cette fonctionnalité, la règle ne peut pas être appliquée, car la plate-forme ne recevrait pas les données nécessaires pour déclencher des notifications, mais vous pouvez toujours utiliser l'appareil indépendant "[L'appareil a perdu la connexion](../connexion-des-appareils/lappareil-a-perdu-la-connexion.md)La règle ".
+{% hint style="danger" %}
+Cette règle ne s'applique qu'aux dispositifs qui ont la capacité de signaler leur état d'alimentation. En d'autres termes, l'appareil GPS doit être en mesure d'envoyer des notifications à la plate-forme lorsqu'il est allumé ou éteint. Si un appareil ne dispose pas de cette fonctionnalité, la règle ne peut pas être appliquée, car la plate-forme ne recevrait pas les données nécessaires pour déclencher des notifications, mais vous pouvez toujours utiliser la règle indépendante [L'appareil a perdu la connexion](../connexion-des-appareils/lappareil-a-perdu-la-connexion.md).
+{% endhint %}
 
 ## Paramètres des règles
 
@@ -28,7 +30,7 @@ La règle "Traceur éteint" déclenche une notification lorsqu'un traceur est é
 * **Remise à zéro de la minuterie :** Cette alerte comprend un Minuterie de remise à zéro de 10 secondesEn outre, les alertes ne sont pas déclenchées plus d'une fois par an, ce qui permet de s'assurer qu'elles ne sont pas déclenchées plus d'une fois par an. 10 secondesce qui permet d'éviter les notifications excessives.
 * **Configuration :** Similaire à la règle "Tracker switched ON", cette règle nécessite également une configuration minimale et peut être appliquée à plusieurs trackers qui prennent en charge les rapports d'événements de mise hors tension.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

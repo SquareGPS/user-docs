@@ -6,14 +6,16 @@ Un appareil GPS émet une alerte de batterie faible lorsque le niveau de charge 
 
 Dans le cas des traceurs portables, cette alerte signale que la source d'énergie principale est en train de s'épuiser, tandis que pour les traceurs montés sur véhicule, elle peut indiquer que la batterie de secours est faible, ce qui risque de compromettre la capacité de l'appareil à poursuivre le suivi en cas de perte de l'alimentation principale.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Rôle des batteries internes dans les appareils GPS
+<summary>Rôle des batteries internes dans les appareils GPS</summary>
 
 La batterie interne d'un appareil GPS est une source d'énergie intégrée qui joue un rôle crucial dans le fonctionnement de l'appareil. En fonction de l'utilisation du traceur GPS, cette batterie interne peut jouer différents rôles.
 
 * **Dans les traceurs GPS portables,** la batterie interne est généralement la principale source d'énergie. Ces batteries sont essentielles pour suivre les biens, les personnes ou les véhicules dans des scénarios où l'alimentation externe n'est pas disponible.
 * **Pour les traceurs GPS montés sur des véhicules,** la batterie interne sert généralement de source d'alimentation de secours. Cette batterie de secours intervient lorsque l'alimentation principale du véhicule est interrompue, que ce soit en raison d'une déconnexion, d'une manipulation ou d'une défaillance de la batterie du véhicule. La batterie de secours garantit la continuité du suivi et de la transmission des données, offrant ainsi un niveau supplémentaire de sécurité et de fiabilité, en particulier dans les applications critiques de gestion de flotte ou de lutte contre le vol.
+
+</details>
 
 ## Deux règles de surveillance de la batterie
 
@@ -28,7 +30,7 @@ Il s'agit de règles basées sur le matériel, ce qui signifie que l'appareil lu
 
 Cette règle dépend entièrement des capacités et de la configuration matérielle de l'appareil. Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Spécificités de la plate-forme
 

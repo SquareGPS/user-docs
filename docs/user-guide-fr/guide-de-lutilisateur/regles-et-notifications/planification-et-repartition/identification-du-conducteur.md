@@ -17,7 +17,7 @@ La règle utilise les capacités intégrées de l'appareil pour vérifier l'iden
 
 Aucun autre réglage spécifique de la règle n'est nécessaire.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails de l'opération système
 

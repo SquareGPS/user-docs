@@ -10,7 +10,7 @@ Cette règle utilise l'accéléromètre intégré de l'appareil pour surveiller 
 
 Veillez à ce que la fonction de conduite difficile soit configurée dans le module Appareils et paramètres Les utilisateurs peuvent créer des règles à partir du menu de la plateforme, en particulier dans le widget "Conduite difficile", ou par l'intermédiaire de l'outil de configuration de l'appareil. Une fois la règle configurée, les utilisateurs peuvent la créer et la gérer à partir de la plateforme.
 
-Aucun autre paramètre spécifique n'est requis pour cette règle. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Aucun autre paramètre spécifique n'est requis pour cette règle. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

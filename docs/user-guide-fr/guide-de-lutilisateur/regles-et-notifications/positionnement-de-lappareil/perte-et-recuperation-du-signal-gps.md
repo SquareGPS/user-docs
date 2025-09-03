@@ -10,7 +10,7 @@ Cette règle est particulièrement utile dans les environnements où la couvertu
 
 Cette règle est traitée dans le nuage, ce qui signifie que le logiciel du serveur surveille le moment où le signal GPS est perdu et le moment où il est rétabli. Vous pouvez appliquer cette règle à plusieurs traceurs simultanément, à condition que les traceurs prennent en charge ce type d'événement et qu'il soit intégré à la plateforme.
 
-Pour le paramétrage des règles communes, veuillez vous référer à la section [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour le paramétrage des règles communes, veuillez vous référer à la section [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

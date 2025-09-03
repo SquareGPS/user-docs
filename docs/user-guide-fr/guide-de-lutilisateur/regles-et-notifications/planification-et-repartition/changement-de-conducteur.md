@@ -8,7 +8,7 @@ La règle "Changement de conducteur" aide les gestionnaires de flotte à savoir 
 
 Pour utiliser cette règle, commencez par ajouter tous vos pilotes au fichier **Gestion du parc automobile** → **Section conducteurs**. Attribuez à chaque conducteur une clé matérielle unique, telle qu'un iButton ou une étiquette RFID. Lorsqu'un changement de conducteur est détecté, la plateforme associe l'événement au bon conducteur, ce qui garantit la précision des rapports et des alertes.
 
-Aucun autre réglage spécifique de la règle n'est nécessaire. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Aucun autre réglage spécifique de la règle n'est nécessaire. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

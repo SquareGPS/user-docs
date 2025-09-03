@@ -13,7 +13,7 @@ Pour utiliser la règle de déviation d'itinéraire, vous devez d'abord créer u
 1. **Créer des géofences d'itinéraires**: Avant de configurer la règle, assurez-vous que vous avez créé des géofences d'itinéraire catégorisées comme "itinéraire".
 2. **Sélectionner les géofences**: Choisissez les géofences d'itinéraire dont vous souhaitez surveiller les écarts. Seules les géofences classées comme "route" peuvent être utilisées à cette fin.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

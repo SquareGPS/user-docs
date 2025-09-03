@@ -12,7 +12,7 @@ Une détection précise des collisions nécessite une installation correcte du t
 
 Comme cette règle est traitée au niveau de l'appareil GPS et non dans le nuage, aucun paramètre supplémentaire n'est nécessaire.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

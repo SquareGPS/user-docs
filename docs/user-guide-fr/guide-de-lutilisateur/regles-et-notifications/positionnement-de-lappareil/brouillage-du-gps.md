@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Le brouillage du GPS se produit lorsque les fréquences du GPS ou du GNSS sont perturbées par des interférences provenant de sources proches, un processus connu sous le nom de masquage ou de masquage de fréquence. Ces interférences peuvent faire perdre à l'appareil sa connexion avec les satellites, ce qui entraîne une distorsion ou une perte totale des données GPS. Le brouillage du GPS diffère de [Brouillage GSM](../connexion-des-appareils/brouillage-gsm.md)car ils fonctionnent sur des bandes de fréquences distinctes. En cas de brouillage du GPS, l'appareil peut perdre sa connexion satellite, ce qui se traduit par l'absence de satellites visibles ou par des coordonnées invalides que la plateforme de suivi ne peut pas récupérer.
+Le brouillage du GPS se produit lorsque les fréquences du GPS ou du GNSS sont perturbées par des interférences provenant de sources proches, un processus connu sous le nom de masquage ou de masquage de fréquence. Ces interférences peuvent faire perdre à l'appareil sa connexion avec les satellites, ce qui entraîne une distorsion ou une perte totale des données GPS. Le brouillage du GPS diffère de [Brouillage GSM](../connexion-des-appareils/brouillage-gsm.md) car ils fonctionnent sur des bandes de fréquences distinctes. En cas de brouillage du GPS, l'appareil peut perdre sa connexion satellite, ce qui se traduit par l'absence de satellites visibles ou par des coordonnées invalides que la plateforme de suivi ne peut pas récupérer.
 
 La règle de brouillage du GPS renforce la sécurité des véhicules et des biens en empêchant le vol dans les scénarios où l'interférence du signal GPS est utilisée pour désactiver les systèmes de repérage. Par exemple, si un véhicule est la cible d'un vol ou d'un détournement, cette règle donne l'alerte en temps utile, ce qui permet d'agir rapidement pour éviter les pertes ou les dommages. Il s'agit d'un outil essentiel pour les entreprises afin de protéger leurs flottes et leurs biens de valeur.
 
@@ -10,7 +10,7 @@ La règle de brouillage du GPS renforce la sécurité des véhicules et des bien
 
 Cette règle dépend entièrement des capacités et de la configuration matérielle de l'appareil. Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

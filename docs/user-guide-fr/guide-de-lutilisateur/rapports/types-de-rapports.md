@@ -47,12 +47,12 @@ Les rapports d'utilisation des transports vous permettent de contrôler l'utilis
 * **Volume de carburant**\
   Fournit des données sur la consommation de carburant, les remplissages et les vidanges, ainsi que les volumes de carburant initiaux et finaux. En savoir plus :
   * [Rapport sur la consommation de carburant](details-specifiques-du-rapport/rapport-sur-le-volume-de-carburant.md)
-  * [Gestion du carburant dans Navixy](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2380890113/Fuel+control+in+Navixy)
+  * [Gestion du carburant dans Navixy](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy)
 * **Débitmètre**\
   Se concentre sur les données de consommation de carburant recueillies à partir de débitmètres, sans indiquer les niveaux de carburant à des moments précis.
 * **Capteurs pour véhicules**\
   Affiche les données reçues des capteurs du véhicule via CAN-bus ou OBDII, y compris le kilométrage, le régime, la vitesse et la température du liquide de refroidissement. En savoir plus :
-  * [Rapport sur les relevés CAN / OBDII du véhicule](https://squaregps.atlassian.net/wiki/spaces/UDOCFR/pages/3027438928/Types+de+rapports)
+  * [Rapport sur les relevés CAN / OBDII du véhicule](details-specifiques-du-rapport/rapport-sur-les-releves-can-obdii-du-vehicule.md)
 
 ## Rapports sur la qualité de la conduite
 

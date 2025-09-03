@@ -8,13 +8,15 @@ La fonction "Appuyer sur le bouton SOS", communément appelée "bouton SOS", est
 
 La fonctionnalité de cette règle dépend des capacités et de la configuration de l'appareil, de sorte qu'aucune configuration spécifique n'est requise.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Connexion d'un bouton externe à l'entrée du dispositif GPS d'un véhicule
+<summary>Connexion d'un bouton externe à l'entrée du dispositif GPS d'un véhicule</summary>
 
 Selon l'appareil, le bouton SOS peut être connecté soit à une entrée dédiée, spécialement conçue pour cette fonction, soit à une entrée discrète générale. S'il est connecté à une entrée discrète, vous devez créer l'entrée dans le menu Devices and Settings (Appareils et paramètres), dans la section Sensors and Buttons (Capteurs et boutons). Dans ce cas, sélectionnez le type de règle "Déclenchement d'entrée" pour une configuration correcte.
+
+</details>
 
 ## Détails du fonctionnement du système
 

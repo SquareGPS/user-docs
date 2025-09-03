@@ -30,7 +30,7 @@ L'utilisateur spécifie ici le champ à surveiller. Dans notre exemple, il s'agi
 
 Les champs d'état standard (par exemple, coffre, porte, ceinture de sécurité, etc.) ont des variantes de valeur intuitivement attendues. Il s'agit généralement de Ouvert/Fermé ou Verrouillé/Déverrouillé. Toutefois, si vous souhaitez recevoir une notification de champ d'état concernant un événement particulier, l'utilisateur doit connaître le code de l'événement envoyé par l'appareil afin que la plate-forme sache à quoi s'attendre dans le champ entrant event\_code.
 
-![State field value](https://www.navixy.com/wp-content/uploads/2023/03/6-3.png)
+![](https://www.navixy.com/wp-content/uploads/2023/03/6-3.png)
 
 Par exemple, une clé matérielle a une valeur personnalisée que la plateforme attendra et notifiera à l'utilisateur lorsque la valeur A1DD3FC3452904D arrivera dans le champ hardware\_key.
 
@@ -74,7 +74,7 @@ Définit un délai de réinitialisation personnalisé en secondes pour les notif
 **Travailler avec des capteurs virtuels :**
 
 La règle du champ d'état permet de sélectionner non seulement les champs d'état mais aussi les capteurs virtuels.\
-En sélectionnant le capteur virtuel approprié et en spécifiant l'événement souhaité dans le tableau des capteurs virtuels, les utilisateurs peuvent recevoir des notifications et inclure l'événement dans les rapports. Les entreprises peuvent ainsi personnaliser et contrôler les événements dont elles souhaitent être informées, en adaptant le système de surveillance à leurs besoins spécifiques. Cette flexibilité améliore la capacité à suivre et à gérer les événements critiques ou personnalisés, en fournissant des informations précieuses et en facilitant la prise de décisions fondées sur des données pour diverses opérations commerciales. Tous les événements, à partir des valeurs attendues, sont personnalisés et peuvent être créés en fonction des besoins des utilisateurs. Pour plus d'informations sur les capteurs virtuels, veuillez vous référer à la page d'accueil du site web de l'Agence européenne pour la sécurité et la santé au travail. [Capteurs virtuels](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/sensors-and-buttons/virtual-sensors/) article.
+En sélectionnant le capteur virtuel approprié et en spécifiant l'événement souhaité dans le tableau des capteurs virtuels, les utilisateurs peuvent recevoir des notifications et inclure l'événement dans les rapports. Les entreprises peuvent ainsi personnaliser et contrôler les événements dont elles souhaitent être informées, en adaptant le système de surveillance à leurs besoins spécifiques. Cette flexibilité améliore la capacité à suivre et à gérer les événements critiques ou personnalisés, en fournissant des informations précieuses et en facilitant la prise de décisions fondées sur des données pour diverses opérations commerciales. Tous les événements, à partir des valeurs attendues, sont personnalisés et peuvent être créés en fonction des besoins des utilisateurs. Pour plus d'informations sur les capteurs virtuels, veuillez vous référer à la page d'accueil du site web de l'Agence européenne pour la sécurité et la santé au travail. [Capteurs virtuels](../../appareils-et-parametres/capteurs-pour-vehicules/capteurs-virtuels/) article.
 
 ![](../../../guide-de-litilizateur/regles-et-notifications/entrees-et-sorties/attachments/image-20230726-125407.png)
 

@@ -16,7 +16,7 @@ La règle fonctionne en utilisant l'accéléromètre intégré de l'appareil GPS
 
 Cette règle dépend entièrement des capacités du dispositif et de la configuration matérielle. En règle générale, le dispositif doit être capable de détecter si le véhicule n'est pas utilisé, par exemple en contrôlant l'état de l'allumage.
 
-Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même. Pour les paramètres courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

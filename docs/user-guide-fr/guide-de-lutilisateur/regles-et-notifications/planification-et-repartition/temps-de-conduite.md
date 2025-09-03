@@ -16,7 +16,7 @@ Ce paramètre définit la durée maximale pendant laquelle un conducteur peut co
 
 Ce paramètre spécifie la durée minimale de stationnement requise pour réinitialiser la règle de temps de conduite. La minuterie de réinitialisation ne commence que lorsque l'appareil détecte que le véhicule est entré dans un état de stationnement.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

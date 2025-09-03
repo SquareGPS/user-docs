@@ -59,11 +59,15 @@ Dans le cas où un capteur virtuel est sélectionné comme source de données, l
 
 Cela peut être utile si les utilisateurs doivent spécifier une source de champ d'état dans une règle de plage de paramètres. Supposons qu'il y ait un tracker avec une plage de codes d'événements de 1 à 100, et qu'il soit nécessaire de contrôler les codes de 20 à 30. Créez le paramètre dans la règle de plage et spécifiez le code d'événement comme source pour le capteur virtuel :
 
-> \[!INFO] La notification "Paramètre dans la plage" peut contenir une ou toutes les valeurs spécifiées dans la plage de la règle, mais elle n'inclut pas les traductions du capteur virtuel. Par exemple, si des événements dont les valeurs sont comprises entre 20 et 30 se produisent, chaque événement individuel compris dans cette plage déclenchera une notification "Paramètre dans la plage" distincte, que des valeurs spécifiques soient ou non absentes du tableau du capteur virtuel susmentionné.
+{% hint style="info" %}
+La notification "Paramètre dans la plage" peut contenir une ou toutes les valeurs spécifiées dans la plage de la règle, mais elle n'inclut pas les traductions du capteur virtuel. Par exemple, si des événements dont les valeurs sont comprises entre 20 et 30 se produisent, chaque événement individuel compris dans cette plage déclenchera une notification "Paramètre dans la plage" distincte, que des valeurs spécifiques soient ou non absentes du tableau du capteur virtuel susmentionné.
+{% endhint %}
 
 Prenons par exemple le cas d'une entreprise de logistique. L'entreprise envoie plusieurs camions sur différents itinéraires, et il y a une section critique avec des problèmes potentiels, comme un trafic intense ou des accidents. Pour surveiller efficacement cette zone à risque, l'entreprise a mis en place une règle "Paramètre à portée" avec des capteurs virtuels utilisant le "code d'événement" comme source de données. Ils définissent une fourchette de 20 à 30 pour les événements sur ce tronçon de route particulier. Chaque fois qu'un camion rencontre un événement dans cette plage critique (20-30), il reçoit une notification. Cela permet de prendre des mesures rapides pour résoudre les problèmes potentiels, garantissant ainsi la sécurité et l'efficacité de leurs opérations. Cette approche leur permet de rester informés des événements critiques que les capteurs traditionnels ne pourraient pas traiter, améliorant ainsi leur contrôle et leur prise de décision.
 
-> \[!INFO] Si un utilisateur modifie la méthode de calcul d'un capteur virtuel spécifié comme source de données dans une règle "Paramètre dans l'intervalle" pour une méthode autre que "Valeur source", la règle réinitialise sa source et cesse de fonctionner.
+{% hint style="info" %}
+Si un utilisateur modifie la méthode de calcul d'un capteur virtuel spécifié comme source de données dans une règle "Paramètre dans l'intervalle" pour une méthode autre que "Valeur source", la règle réinitialise sa source et cesse de fonctionner.
+{% endhint %}
 
 ## Notifications
 

@@ -16,7 +16,7 @@ Ces avantages peuvent varier en fonction de la marque, du modèle et des caract�
 
 Cette règle ne nécessite pas de paramétrage spécifique.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

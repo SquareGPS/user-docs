@@ -2,7 +2,7 @@
 
 Le **Rapport sur l'état des véhicules** dans Navixy offre un aperçu détaillé des données reçues des instruments de votre véhicule par le biais de capteurs CAN/OBD ou de capteurs virtuels au cours d'une période sélectionnée. Ce rapport comprend des informations telles que le kilométrage, le régime moteur, la vitesse, la consommation de carburant, la température du liquide de refroidissement et d'autres mesures critiques, aidant les gestionnaires de flotte et les opérateurs de véhicules à surveiller et à optimiser les performances du véhicule.
 
-![image-20240815-010131.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010131.png)
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010131.png)
 
 ## Exigences pour la génération du rapport
 
@@ -21,11 +21,11 @@ Le rapport utilise plusieurs paramètres pour personnaliser la sortie :
 * **Axe des X sur le graphique :** Choisissez d'afficher les informations sur le graphique en fonction du temps ou du kilométrage.
 * **Graphique lisse :** Appliquer un lissage au graphique pour filtrer les valeurs maximales et établir une moyenne des données en cas de variance importante.
 
-![image-20240815-010045.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010045.png)
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010045.png)
 
-![image-20240815-010100.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010100.png)
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010100.png)
 
-Pour chaque appareil, vous devez sélectionner le capteur pour lequel vous souhaitez générer un rapport. Seuls les appareils avec des capteurs CAN/OBD ou virtuels configurés apparaîtront dans la liste. Si un capteur virtuel utilise une méthode de calcul autre que le [valeur de la source](broken-reference)le rapport indiquera "Il ne s'agit pas d'un capteur de mesure".
+Pour chaque appareil, vous devez sélectionner le capteur pour lequel vous souhaitez générer un rapport. Seuls les appareils avec des capteurs CAN/OBD ou virtuels configurés apparaîtront dans la liste. Si un capteur virtuel utilise une méthode de calcul autre que le [valeur de la source](../../appareils-et-parametres/capteurs-pour-vehicules/capteurs-virtuels/)le rapport indiquera "Il ne s'agit pas d'un capteur de mesure".
 
 ## Visualisations
 
@@ -35,9 +35,15 @@ Le **graphique** affiche les relevés des capteurs CAN/OBD ou virtuels dans un f
 
 * **Survoler les points :** Lorsque vous survolez un point du graphique dont l'axe X est réglé sur le temps, vous voyez l'heure exacte et la valeur du capteur enregistrée. Si l'axe des X est réglé sur le kilométrage, vous verrez la valeur du capteur ainsi que le kilométrage auquel elle a été enregistrée.
 
-![image-20240815-005949.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-005949.png)
+{% columns %}
+{% column %}
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-005949.png)
+{% endcolumn %}
 
-![image-20240815-010008.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010008.png)
+{% column %}
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010008.png)
+{% endcolumn %}
+{% endcolumns %}
 
 ### Tableau de données statistiques
 

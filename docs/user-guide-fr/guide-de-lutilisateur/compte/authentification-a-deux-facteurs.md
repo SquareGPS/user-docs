@@ -11,6 +11,6 @@ L'OTP sera envoyé à votre adresse électronique et devra être saisi pour term
 3. **Saisir le code**Vous devrez ensuite saisir cet OTP pour compléter votre connexion.
 4. **Accéder à votre compte**Si l'OTP est correct, l'accès est accordé ; dans le cas contraire, la connexion est refusée.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Chaque code est valable pendant 5 minutes, ce qui limite les possibilités d'abus. En outre, vous pouvez demander un nouveau code si nécessaire, mais seulement une fois par minute pour éviter les abus.

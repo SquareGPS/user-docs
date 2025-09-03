@@ -10,7 +10,7 @@ Lorsque la fatigue est détectée, une alerte immédiate est envoyée au dispatc
 
 Comme cette règle dépend du matériel, la configuration est minimale au sein de la plateforme elle-même. L'exigence principale est de s'assurer que les suiveurs sélectionnés sont équipés pour prendre en charge et détecter les événements de conduite en état de fatigue.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

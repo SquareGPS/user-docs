@@ -1,20 +1,20 @@
 # Règles et notifications
 
-Utilisation **Règles et notifications** Dans Navixy, vous pouvez détecter divers événements et en être informé. Ces fonctionnalités aident les utilisateurs à surveiller et à gérer plus efficacement leur flotte, leurs actifs et leurs employés sur le terrain. Les événements peuvent aller de la simple violation d'une géofence à des scénarios complexes tels que les alertes antivol ou la prévention des vols de carburant. Voir les [exemples](broken-reference) pour plus de détails.
+Utilisation **Règles et notifications** Dans Navixy, vous pouvez détecter divers événements et en être informé. Ces fonctionnalités aident les utilisateurs à surveiller et à gérer plus efficacement leur flotte, leurs actifs et leurs employés sur le terrain. Les événements peuvent aller de la simple violation d'une géofence à des scénarios complexes tels que les alertes antivol ou la prévention des vols de carburant. Voir les [exemples](./#exemples) pour plus de détails.
 
 ## Types d'événements détectés
 
 Navixy propose un ensemble complet d'événements structurés en différentes catégories pour vous aider à surveiller et à gérer efficacement votre flotte, vos actifs et vos employés sur le terrain. Vous trouverez ci-dessous les catégories d'événements :
 
-* [**Puissance de l'appareil**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/puissance-de-lappareil.md) - Contrôler l'état de l'alimentation de l'appareil, y compris la batterie et les connexions externes
-* [**Connexion des appareils**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/connexion-des-appareils.md) - Suivi de la connectivité de l'appareil au réseau cellulaire ou à la plate-forme
-* [**Positionnement de l'appareil**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/positionnement-de-lappareil.md) - Contrôler les informations GPS
-* [**Sécurité**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/securite.md) - Événements liés à la sécurité et à la manipulation des véhicules
-* [**Sécurité**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/safety.md) - Événements liés à la sécurité des conducteurs
-* [**Surveillance des mouvements**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/surveillance-des-mouvements.md) - Suivi des mouvements, de la vitesse et de l'itinéraire des véhicules
-* [**Planification et répartition**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/planification-et-repartition.md) - Gérer la planification des véhicules et du personnel
-* [**Efficacité des véhicules**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/efficacite-des-vehicules.md) - Contrôler la consommation de carburant et l'efficacité
-* [**Entrées et sorties**](../../guide-de-litilizateur/regles-et-notifications/regles-et-notifications/entrees-et-sorties.md) - Suivi de l'état des capteurs et des équipements connectés
+* [**Puissance de l'appareil**](puissance-de-lappareil/) - Contrôler l'état de l'alimentation de l'appareil, y compris la batterie et les connexions externes
+* [**Connexion des appareils**](connexion-des-appareils/) - Suivi de la connectivité de l'appareil au réseau cellulaire ou à la plate-forme
+* [**Positionnement de l'appareil**](positionnement-de-lappareil/) - Contrôler les informations GPS
+* [**Sécurité**](securite/) - Événements liés à la sécurité et à la manipulation des véhicules
+* [**Protection des conducteurs**](safety/) - Événements liés à la sécurité des conducteurs
+* [**Surveillance des mouvements**](surveillance-des-mouvements/) - Suivi des mouvements, de la vitesse et de l'itinéraire des véhicules
+* [**Planification et répartition**](planification-et-repartition/) - Gérer la planification des véhicules et du personnel
+* [**Efficacité des véhicules**](efficacite-des-vehicules/) - Contrôler la consommation de carburant et l'efficacité
+* [**Entrées et sorties**](entrees-et-sorties/) - Suivi de l'état des capteurs et des équipements connectés
 
 ### Où les événements sont calculés
 
@@ -27,13 +27,13 @@ Dans les systèmes IdO, les événements peuvent être détectés soit du côté
 
 Dans Navixy, les règles sont des conditions prédéfinies qui déclenchent des événements lorsqu'elles sont remplies. Pour configurer, modifier ou supprimer les règles que vous souhaitez surveiller et dont vous voulez être informé, cliquez sur **Alertes** dans le menu principal.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-En savoir plus
+<summary>En savoir plus</summary>
 
 Pour accéder à la configuration des règles de notification dans Navixy, allez dans le menu de gauche et choisissez **Alertes**. Le panneau de notification s'ouvre. Cliquez sur **Fixer des règles**L'interface des règles d'alerte s'affiche.
 
-![image-20240805-214736.png](../../guide-de-litilizateur/regles-et-notifications/attachments/image-20240805-214736.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Dans l'interface des règles d'alerte, vous pouvez
 
@@ -45,17 +45,21 @@ Dans l'interface des règles d'alerte, vous pouvez
   * **Notifications**: Configurez comment et à qui les notifications seront envoyées.
   * **Calendrier**: Définir l'horaire auquel la règle sera active.
 
+</details>
+
 ### Lier des règles à des objets
 
 Une règle peut être liée à un ou plusieurs objets, tels que des véhicules individuels ou des groupes de véhicules en fonction de l'alerte. Cette flexibilité vous permet d'appliquer la même règle à différents actifs, garantissant ainsi une surveillance et des notifications cohérentes.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Étapes pour lier une règle à des objets
+<summary>Étapes pour lier une règle à des objets</summary>
 
 1. **Ouvrir les paramètres de la règle**: Naviguez jusqu'à l'écran **Alertes** dans le menu principal et sélectionnez la règle que vous souhaitez configurer.
 2. **Sélectionner des objets**: Dans le **Paramètres des règles** vous verrez une liste d'objets disponibles sur le côté gauche. Ces objets peuvent être des véhicules individuels ou des groupes de véhicules organisés par département.
 3. **Choisir des objets**: Cochez les cases en regard des objets ou des groupes auxquels vous souhaitez lier la règle. Par exemple, vous pouvez sélectionner des véhicules individuels comme "Oliver (Chevrolet)" et "Marisol (Nissan)", ou des groupes entiers comme "Département des ventes".
+
+</details>
 
 ### Nom et type
 
@@ -82,9 +86,9 @@ Le texte de la notification permet d'identifier précisément l'alerte qui a ét
 
 Dans le cadre de la **Calendrier** vous pouvez définir quand vos règles de notification sont actives ou inactives. Cela permet de contrôler avec précision le moment où les alertes doivent être déclenchées, en fonction de vos besoins opérationnels spécifiques.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Configuration de l'horaire
+<summary>Configuration de l'horaire</summary>
 
 Voici comment vous pouvez configurer le calendrier :
 
@@ -94,7 +98,9 @@ Voici comment vous pouvez configurer le calendrier :
 
 Pour personnaliser le calendrier, il suffit de cliquer sur les blocs horaires souhaités pour passer de l'état actif à l'état inactif. Cette flexibilité garantit que vous ne recevrez des notifications qu'aux moments opportuns, ce qui réduit le risque de lassitude à l'égard des alertes et améliore l'efficacité de vos efforts de surveillance.
 
-![image-20240805-221914.png](../../guide-de-litilizateur/regles-et-notifications/attachments/image-20240805-221914.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</details>
 
 ## Consulter l'historique des notifications
 
@@ -108,15 +114,17 @@ L'historique des notifications peut être consulté sur différentes plateformes
 
 Les utilisateurs peuvent suspendre temporairement les règles et les reprendre si nécessaire. Cette fonction est utile pendant les périodes où les actions des règles ne sont pas nécessaires, par exemple en cas de maintenance ou d'inactivité saisonnière.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Comment suspendre une règle existante
+<summary>Comment suspendre une règle existante</summary>
 
 1. **Naviguer vers les alertes**: Aller à la page **Alertes** dans le menu principal.
 2. **Sélectionner la règle**: Recherchez la règle que vous souhaitez suspendre dans la liste des règles d'alerte.
 3. **Suspendre la règle**: Cliquez sur l'icône de pause à côté du nom de la règle pour la suspendre.
 
 Pour reprendre la règle, il suffit de cliquer sur l'icône de lecture de la règle. Cela réactivera les actions de la règle.
+
+</details>
 
 ## Exemples
 
@@ -126,9 +134,9 @@ Voici quelques exemples de la manière dont les notifications d'événements peu
 
 Les alertes de géofence sont une fonction puissante de Navixy qui aide les utilisateurs à surveiller les mouvements de leurs véhicules et de leurs biens à l'intérieur de limites géographiques prédéfinies, connues sous le nom de géofences. Cette fonctionnalité est essentielle pour garantir l'efficacité opérationnelle, la sécurité et le respect des politiques de l'organisation.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-En savoir plus
+<summary>En savoir plus</summary>
 
 **QU'EST-CE QU'UNE GÉOFENCE ?**
 
@@ -147,14 +155,12 @@ Lorsqu'un véhicule ou un bien équipé d'un dispositif de suivi GPS franchit la
 * **Route geofence :** Créez une géofence étroite et allongée qui suit un itinéraire ou un chemin spécifique, tel qu'une autoroute, une voie ferrée ou un pipeline, afin de surveiller les mouvements le long de cet itinéraire et de détecter les déviations.
 
 2. **Configurer les conditions d'alerte**:
+   1. **Alertes à la saisie**: Notifier l'entrée d'un véhicule ou d'un bien dans la géofence.
+   2. **Alertes de sortie**: Notifier lorsqu'un véhicule ou un bien quitte le périmètre.
 
-* **Alertes à la saisie**: Notifier l'entrée d'un véhicule ou d'un bien dans la géofence.
-* **Alertes de sortie**: Notifier lorsqu'un véhicule ou un bien quitte le périmètre.
-
-3. **Définir les préférences de notification**:
-
-* Choisissez les canaux par lesquels les notifications seront envoyées, tels que les SMS, les courriels, les notifications push ou les alertes in-app.
-* Personnalisez le contenu du message pour y inclure des détails pertinents tels que l'identification du véhicule, le lieu, l'heure de l'événement, etc.
+3) **Définir les préférences de notification**:
+   1. Choisissez les canaux par lesquels les notifications seront envoyées, tels que les SMS, les courriels, les notifications push ou les alertes in-app.
+   2. Personnalisez le contenu du message pour y inclure des détails pertinents tels que l'identification du véhicule, le lieu, l'heure de l'événement, etc.
 
 **UTILISATIONS PRATIQUES DES ALERTES DE GEOFENCE**
 
@@ -169,13 +175,15 @@ Une société de livraison met en place une géofence autour de son entrepôt pr
 
 En utilisant les alertes de géofence, les organisations peuvent renforcer leur contrôle opérationnel, améliorer la sécurité et assurer la conformité avec les réglementations internes et externes.
 
+</details>
+
 ### Alertes antivol pour les voitures
 
 Les alertes antivol sont une fonction essentielle de Navixy, conçue pour renforcer la sécurité des véhicules en détectant les mouvements non autorisés ou les manipulations. Cette fonctionnalité apporte une tranquillité d'esprit aux propriétaires de véhicules et aux gestionnaires de flottes en garantissant une action immédiate en cas d'activités suspectes.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-En savoir plus
+<summary>En savoir plus</summary>
 
 **COMMENT FONCTIONNENT LES ALERTES ANTIVOL DANS LES VOITURES ?**
 
@@ -184,22 +192,18 @@ Les alertes antivol pour voitures sont déclenchées lorsque des conditions spé
 **MISE EN PLACE D'ALERTES ANTIVOL POUR LES VOITURES**
 
 1. **Définir les critères de mouvement non autorisé**:
-
-* **Détection de l'allumage**: Surveille l'état de l'allumage du véhicule pour détecter si le véhicule est démarré.
-* **Détection des mouvements**: Utilisez le suivi GPS pour identifier les déplacements inattendus d'un véhicule par rapport à son emplacement de stationnement.
-* **Restrictions temporelles**: Définir des alertes pour les mouvements de véhicules en dehors des heures de travail ou en dehors des heures d'ouverture prévues.
-
+   1. **Détection de l'allumage**: Surveille l'état de l'allumage du véhicule pour détecter si le véhicule est démarré.
+   2. **Détection des mouvements**: Utilisez le suivi GPS pour identifier les déplacements inattendus d'un véhicule par rapport à son emplacement de stationnement.
+   3. **Restrictions temporelles**: Définir des alertes pour les mouvements de véhicules en dehors des heures de travail ou en dehors des heures d'ouverture prévues.
 2. **Détection de la falsification**:
+   1. **Détecteurs pour portes et fenêtres**: Installez des capteurs pour détecter si les portes ou les fenêtres sont ouvertes de force ou sans autorisation.
+   2. **Déconnexion de la batterie**: Définir des alertes pour les cas où la batterie du véhicule est déconnectée, ce qui est une méthode couramment utilisée par les voleurs pour désactiver les systèmes de suivi.
+   3. **Interférence du signal GPS**: Surveille le brouillage ou l'interférence avec le signal GPS, ce qui indique une éventuelle falsification.
 
-* **Détecteurs pour portes et fenêtres**: Installez des capteurs pour détecter si les portes ou les fenêtres sont ouvertes de force ou sans autorisation.
-* **Déconnexion de la batterie**: Définir des alertes pour les cas où la batterie du véhicule est déconnectée, ce qui est une méthode couramment utilisée par les voleurs pour désactiver les systèmes de suivi.
-* **Interférence du signal GPS**: Surveille le brouillage ou l'interférence avec le signal GPS, ce qui indique une éventuelle falsification.
-
-3. **Configurer les notifications d'alerte**:
-
-* **Instant notifications**: Configurez des SMS, des courriels, des notifications push ou des alertes in-app pour qu'ils soient envoyés immédiatement lorsqu'une activité non autorisée est détectée.
-* **Destinataires de l'alerte**: Désigner des personnes ou des équipes spécifiques (par exemple, le personnel de sécurité, les gestionnaires de flotte) pour recevoir ces alertes.
-* **Personnalisation du contenu des alertes**: Inclure des détails essentiels dans la notification, tels que l'emplacement actuel du véhicule, l'heure de l'événement et le type d'activité non autorisée détectée.
+3) **Configurer les notifications d'alerte**:
+   1. **Instant notifications**: Configurez des SMS, des courriels, des notifications push ou des alertes in-app pour qu'ils soient envoyés immédiatement lorsqu'une activité non autorisée est détectée.
+   2. **Destinataires de l'alerte**: Désigner des personnes ou des équipes spécifiques (par exemple, le personnel de sécurité, les gestionnaires de flotte) pour recevoir ces alertes.
+   3. **Personnalisation du contenu des alertes**: Inclure des détails essentiels dans la notification, tels que l'emplacement actuel du véhicule, l'heure de l'événement et le type d'activité non autorisée détectée.
 
 **UTILISATIONS PRATIQUES DES ALERTES ANTIVOL POUR LES VOITURES**
 
@@ -216,13 +220,15 @@ Simultanément, le suivi GPS montre que le camion s'éloigne de son emplacement 
 
 En utilisant les alertes antivol, les entreprises peuvent renforcer considérablement la sécurité de leurs véhicules, réagir rapidement en cas de vol potentiel et minimiser le risque de perte d'actifs.
 
+</details>
+
 ### Alertes sur le contrôle de la température
 
 Les alertes de contrôle de la température sont une fonction utile de Navixy, conçue pour garantir que les marchandises sensibles sont transportées dans des conditions optimales. Cette fonctionnalité est cruciale pour les industries telles que les produits pharmaceutiques, les aliments et les boissons, et d'autres secteurs où le maintien d'une plage de température spécifique est essentiel à la préservation de la qualité et de la sécurité des produits.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-En savoir plus
+<summary>En savoir plus</summary>
 
 **COMMENT FONCTIONNENT LES ALERTES DE CONTRÔLE DE LA TEMPÉRATURE ?**
 
@@ -231,26 +237,22 @@ Les alertes de contrôle de la température surveillent la température des marc
 **MISE EN PLACE D'ALERTES DE CONTRÔLE DE LA TEMPÉRATURE**
 
 1. **Installer des capteurs de température**:
+   1. **Placement du capteur**: Placer des capteurs de température à des endroits stratégiques de la zone de chargement pour assurer un contrôle précis et complet.
+   2. **Étalonnage du capteur**: S'assurer que les capteurs sont calibrés correctement pour fournir des relevés de température précis.
 
-* **Placement du capteur**: Placer des capteurs de température à des endroits stratégiques de la zone de chargement pour assurer un contrôle précis et complet.
-* **Étalonnage du capteur**: S'assurer que les capteurs sont calibrés correctement pour fournir des relevés de température précis.
-
-2. **Définir les limites de température**:
-
-* **Seuils supérieurs et inférieurs**: Définir les limites maximales et minimales de température en fonction des exigences de la cargaison spécifique.
-* **Plages de température**: Définir les plages de température acceptables pour répondre aux différents types de cargaison dont les exigences peuvent varier.
+2) **Définir les limites de température**:
+   1. **Seuils supérieurs et inférieurs**: Définir les limites maximales et minimales de température en fonction des exigences de la cargaison spécifique.
+   2. **Plages de température**: Définir les plages de température acceptables pour répondre aux différents types de cargaison dont les exigences peuvent varier.
 
 3. **Configurer les conditions d'alerte**:
+   1. **Contrôle en temps réel**: Surveille en permanence la température et déclenche des alertes si elle s'écarte des limites fixées.
+   2. **Alertes basées sur la durée**: Définir des alertes à déclencher si la température reste en dehors de la plage acceptable pendant une durée spécifiée, ce qui indique un problème persistant.
+   3. **Seuils multiples**: Définir plusieurs seuils pour différents niveaux d'alerte (par exemple, avertissement, critique) en fonction de la gravité de l'écart de température.
 
-* **Contrôle en temps réel**: Surveille en permanence la température et déclenche des alertes si elle s'écarte des limites fixées.
-* **Alertes basées sur la durée**: Définir des alertes à déclencher si la température reste en dehors de la plage acceptable pendant une durée spécifiée, ce qui indique un problème persistant.
-* **Seuils multiples**: Définir plusieurs seuils pour différents niveaux d'alerte (par exemple, avertissement, critique) en fonction de la gravité de l'écart de température.
-
-4. **Définir les préférences de notification**:
-
-* **Canaux de notification**: Choisissez les canaux par lesquels les alertes seront envoyées, tels que les SMS, les courriels, les notifications push ou les alertes in-app.
-* **Destinataires de l'alerte**: Préciser les personnes ou les équipes chargées de répondre aux alertes de température (par exemple, contrôle de la qualité, responsables de la logistique).
-* **Personnalisation du contenu des alertes**: Inclure des détails essentiels dans les notifications, tels que l'étiquette de l'objet, la température actuelle, l'emplacement, l'heure de l'alerte et les actions recommandées.
+4) **Définir les préférences de notification**:
+   1. **Canaux de notification**: Choisissez les canaux par lesquels les alertes seront envoyées, tels que les SMS, les courriels, les notifications push ou les alertes in-app.
+   2. **Destinataires de l'alerte**: Préciser les personnes ou les équipes chargées de répondre aux alertes de température (par exemple, contrôle de la qualité, responsables de la logistique).
+   3. **Personnalisation du contenu des alertes**: Inclure des détails essentiels dans les notifications, tels que l'étiquette de l'objet, la température actuelle, l'emplacement, l'heure de l'alerte et les actions recommandées.
 
 **UTILISATION PRATIQUE DES ALERTES DE CONTRÔLE DE LA TEMPÉRATURE**
 
@@ -271,13 +273,15 @@ En outre, l'équipe met en place un autre véhicule pour poursuivre la livraison
 
 En utilisant les alertes de contrôle de la température, les organisations peuvent garantir un transport sûr et efficace des marchandises sensibles, minimiser le risque de détérioration ou de dommage et se conformer aux réglementations sectorielles.
 
+</details>
+
 ### Alertes pour la prévention du vol de carburant
 
 Les alertes de prévention de vol de carburant sont une fonctionnalité essentielle de Navixy, conçue pour protéger les véhicules contre le siphonnage de carburant non autorisé et pour garantir une utilisation efficace du carburant. Cette fonctionnalité aide les gestionnaires de flotte et les propriétaires de véhicules à surveiller les niveaux de carburant en temps réel et à recevoir des alertes immédiates en cas de baisse suspecte des niveaux de carburant, ce qui permet d'intervenir rapidement et d'atténuer les pertes.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Alertes pour la prévention du vol de carburant
+<summary>Alertes pour la prévention du vol de carburant</summary>
 
 **COMMENT FONCTIONNENT LES ALERTES DE PRÉVENTION DES VOLS DE CARBURANT**
 
@@ -317,9 +321,11 @@ L'alerte comprend l'identification du camion, sa localisation dans le dépôt, l
 
 En utilisant les alertes de prévention du vol de carburant, l'entreprise de logistique peut surveiller et protéger efficacement ses actifs en carburant, en réduisant les pertes dues au vol et en assurant une gestion efficace du carburant. Cette approche proactive permet non seulement de réduire les coûts, mais aussi de préserver l'intégrité des opérations.
 
+</details>
+
 ## Règles créées automatiquement
 
-Lorsque vous [activer](../../guide-de-litilizateur/guide-de-lutilisateur/demarrage-rapide/activer-le-dispositif-gps.md) un nouvel appareil sur la plateforme Navixy, le système crée automatiquement des règles basées sur les capacités de l'appareil, telles que la règle "Appuyer sur le bouton SOS" pour un traceur GPS personnel doté d'un bouton d'urgence. Cette automatisation vous permet de gagner du temps en configurant les fonctions de surveillance essentielles dès le départ, ce qui garantit que votre appareil est prêt à être utilisé immédiatement.
+Lorsque vous [activer](../demarrage-rapide/activer-le-dispositif-gps.md) un nouvel appareil sur la plateforme Navixy, le système crée automatiquement des règles basées sur les capacités de l'appareil, telles que la règle "Appuyer sur le bouton SOS" pour un traceur GPS personnel doté d'un bouton d'urgence. Cette automatisation vous permet de gagner du temps en configurant les fonctions de surveillance essentielles dès le départ, ce qui garantit que votre appareil est prêt à être utilisé immédiatement.
 
 Ces règles préconfigurées sont entièrement personnalisables : vous pouvez facilement ajouter des notifications, ajuster les paramètres ou suspendre une règle si elle n'est pas nécessaire. Cette approche rationalisée améliore la sécurité et l'expérience des utilisateurs, vous permettant de vous concentrer sur ce qui compte le plus sans les tracas d'une configuration manuelle.
 
@@ -327,7 +333,7 @@ Ces règles préconfigurées sont entièrement personnalisables : vous pouvez fa
 
 Vous pouvez personnaliser les notifications d'événements dans le navigateur en cliquant sur l'icône de l'engrenage dans la liste des événements. Pour accéder aux paramètres de notification et les personnaliser, cliquez sur "Alertes" dans le menu de gauche pour ouvrir Notifications, puis cliquez sur l'icône en forme de roue dentée.
 
-![image-20240814-041437.png](../../guide-de-litilizateur/regles-et-notifications/attachments/image-20240814-041437.png)
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="319"><figcaption></figcaption></figure>
 
 * **Notifications du navigateur :** Activez cette option pour recevoir des alertes d'événements directement dans le centre de notification de votre système d'exploitation (par exemple, le Centre d'action Windows). Votre navigateur vous demandera d'autoriser ces notifications.
 * **Afficher les notifications :** Les nouveaux événements apparaîtront sous forme de notifications contextuelles dans le coin supérieur droit de la page de la plateforme de surveillance.

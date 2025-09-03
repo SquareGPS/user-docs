@@ -13,7 +13,7 @@ Le décompte du temps de stationnement commence dès que le véhicule entre en s
 
 Pour surveiller le temps de séjour dans des zones spécifiques, liez la règle aux géofences désignées.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

@@ -24,9 +24,9 @@ Cette règle exploite les données GPS pour suivre en permanence la distance ent
 * **Le déménagement :** Définissez des alertes lorsque des objets secondaires augmentent leur distance par rapport au véhicule principal. Cette fonction est particulièrement utile pour détecter les véhicules qui s'écartent d'un convoi ou les remorques qui se détachent du véhicule de tête.
 * **Portée de la distance :** Définir une plage de distance spécifique autorisée entre les objets primaires et secondaires, allant de 5 à 200 000 mètres. Le système émet des notifications lorsque la distance se situe à l'intérieur ou à l'extérieur de cette plage prédéfinie, ce qui permet une gestion proactive des opérations de la flotte.
 
-![image-20240813-221847.png](../../../guide-de-litilizateur/regles-et-notifications/surveillance-des-mouvements/attachments/image-20240813-221847.png)
+![](../../../guide-de-litilizateur/regles-et-notifications/surveillance-des-mouvements/attachments/image-20240813-221847.png)
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ### Détails du fonctionnement du système
 

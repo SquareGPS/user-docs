@@ -4,7 +4,7 @@
 
 Une géofence est une zone désignée sur une carte qui agit comme une frontière virtuelle. Cette règle permet de suivre l'entrée et la sortie des traceurs dans la zone de géofence spécifiée. Les utilisateurs recevront des notifications lorsque leurs objets franchiront les limites de la géofence. Par exemple, si un engin de chantier quitte la zone désignée, un employé de l'entreprise peut en être informé par l'intermédiaire de l'interface utilisateur, d'un courrier électronique ou d'un SMS, si cela est configuré dans la règle.
 
-![image-20240805-231934.png](../../../guide-de-litilizateur/regles-et-notifications/surveillance-des-mouvements/attachments/image-20240805-231934.png)
+![](../../../guide-de-litilizateur/regles-et-notifications/surveillance-des-mouvements/attachments/image-20240805-231934.png)
 
 Cette fonctionnalité permet d'obtenir des informations précieuses et de contrôler les mouvements d'objets, en garantissant le respect de limites prédéfinies. Elle renforce la sécurité en alertant les utilisateurs de tout mouvement non autorisé ou de tout vol potentiel en dehors de la zone de géofence spécifiée. En outre, elle permet une gestion efficace des actifs en permettant aux utilisateurs de suivre et d'optimiser l'utilisation de leur équipement dans les zones désignées.
 
@@ -14,7 +14,7 @@ Cette fonctionnalité permet d'obtenir des informations précieuses et de contr�
 
 Spécifiez les géofences qui déclencheront des notifications lorsqu'elles seront franchies. Vous pouvez répertorier plusieurs géofences dans une même règle.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

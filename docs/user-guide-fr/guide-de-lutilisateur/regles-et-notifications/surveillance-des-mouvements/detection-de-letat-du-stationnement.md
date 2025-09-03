@@ -12,7 +12,7 @@ La mise en place de cette règle permet aux utilisateurs de rester informés du 
 
 Les paramètres d'une règle de détection de stationnement sont gérés exclusivement dans le widget Détection de stationnement. Pour des informations détaillées sur la configuration de la détection de stationnement, veuillez vous référer à l'article Détection de stationnement.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

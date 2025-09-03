@@ -6,14 +6,7 @@ Les systèmes avancés d'aide à la conduite (ADAS) sont conçus pour améliorer
 
 La plate-forme Navixy enregistre les événements suivants et peut en alerter les utilisateurs :
 
-| **Événement**                                                     | **Description**                                                                                                                                                                                        |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Alerte de franchissement de ligne (LDW)**                       | Alerte le conducteur lorsque le véhicule dérive involontairement de sa voie, ce qui permet d'éviter les collisions potentielles dues à l'inattention du conducteur.                                    |
-| **Avertisseur de collision avant (FCW)**                          | Avertit le conducteur de l'imminence d'une collision avec un véhicule ou un objet situé devant lui, ce qui lui permet de freiner à temps ou de prendre des mesures d'évitement pour éviter l'accident. |
-| **Avertissement de surveillance de la voie de circulation (HMW)** | Surveille la distance par rapport au véhicule qui précède et alerte le conducteur si la distance de suivi devient dangereuse, ce qui favorise des habitudes de conduite plus sûres.                    |
-| **Pedestrian in Danger Zone (PDZ)**                               | Détecte si un piéton se trouve à proximité du véhicule, en particulier dans les angles morts, afin d'éviter les accidents et d'améliorer la sécurité routière.                                         |
-| **Avertissement de collision avec un piéton (PCW)**               | Il émet un avertissement lorsqu'il détecte un risque de collision avec un piéton, ce qui donne au conducteur le temps de réagir et d'éviter l'incident.                                                |
-| **Reconnaissance des panneaux de signalisation (TSR)**            | Identifie et signale au conducteur les panneaux de signalisation importants, tels que les limitations de vitesse ou les panneaux d'arrêt, afin de garantir le respect du code de la route.             |
+<table><thead><tr><th width="266">Événement</th><th>Description</th></tr></thead><tbody><tr><td><strong>Alerte de franchissement de ligne (LDW)</strong></td><td>Alerte le conducteur lorsque le véhicule dérive involontairement de sa voie, ce qui permet d'éviter les collisions potentielles dues à l'inattention du conducteur.</td></tr><tr><td><strong>Avertisseur de collision avant (FCW)</strong></td><td>Avertit le conducteur de l'imminence d'une collision avec un véhicule ou un objet situé devant lui, ce qui lui permet de freiner à temps ou de prendre des mesures d'évitement pour éviter l'accident.</td></tr><tr><td><strong>Avertissement de surveillance de la voie de circulation (HMW)</strong></td><td>Surveille la distance par rapport au véhicule qui précède et alerte le conducteur si la distance de suivi devient dangereuse, ce qui favorise des habitudes de conduite plus sûres.</td></tr><tr><td><strong>Pedestrian in Danger Zone (PDZ)</strong></td><td>Détecte si un piéton se trouve à proximité du véhicule, en particulier dans les angles morts, afin d'éviter les accidents et d'améliorer la sécurité routière.</td></tr><tr><td><strong>Avertissement de collision avec un piéton (PCW)</strong></td><td>Il émet un avertissement lorsqu'il détecte un risque de collision avec un piéton, ce qui donne au conducteur le temps de réagir et d'éviter l'incident.</td></tr><tr><td><strong>Reconnaissance des panneaux de signalisation (TSR)</strong></td><td>Identifie et signale au conducteur les panneaux de signalisation importants, tels que les limitations de vitesse ou les panneaux d'arrêt, afin de garantir le respect du code de la route.</td></tr></tbody></table>
 
 Le suivi de ces événements permet d'améliorer la sensibilisation des conducteurs, de réduire le risque d'accident et de garantir le respect du code de la route. Cela permet d'améliorer les performances des conducteurs, d'atténuer les responsabilités et d'éviter des amendes ou des réparations coûteuses.
 
@@ -23,7 +16,7 @@ Le suivi de ces événements permet d'améliorer la sensibilisation des conducte
 
 Les événements ADAS étant traités au niveau de l'appareil télématique Video et non dans le nuage, aucun réglage supplémentaire n'est nécessaire. Il vous suffit de sélectionner les événements que vous souhaitez surveiller pour assurer un suivi complet du comportement du conducteur.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

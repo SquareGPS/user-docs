@@ -6,13 +6,15 @@ La règle "Check engine (MIL)" est conçue pour surveiller l'état du témoin lu
 
 Le MIL s'allume généralement lorsque le système de diagnostic embarqué du véhicule détecte un problème au niveau du moteur, des émissions ou d'autres systèmes critiques. En recevant des notifications en temps utile, les utilisateurs peuvent prendre des mesures immédiates pour résoudre les problèmes potentiels, ce qui permet d'éviter des dommages supplémentaires et de garantir la sécurité et la conformité du véhicule.
 
-> \[!INFO] Pour surveiller des codes DTC spécifiques, vous pouvez configurer une fonction d'enregistrement des codes DTC. [Valeur du champ État](../entrees-et-sorties/valeur-du-champ-etat.md) règle.
+{% hint style="info" %}
+Pour surveiller des codes DTC spécifiques, vous pouvez configurer une fonction d'enregistrement des codes DTC. [Valeur du champ État](../entrees-et-sorties/valeur-du-champ-etat.md) règle.
+{% endhint %}
 
 ## Paramètres des règles
 
 Cette règle dépend entièrement des capacités et de la configuration de l'appareil. Il n'y a pas de paramètres spécifiques à configurer dans la règle elle-même.
 
-Pour les réglages courants, veuillez vous référer à [Règles et notifications](../../../guide-de-litilizateur/regles-et-notifications.md).
+Pour les réglages courants, veuillez vous référer à [Règles et notifications](../).
 
 ## Détails du fonctionnement du système
 

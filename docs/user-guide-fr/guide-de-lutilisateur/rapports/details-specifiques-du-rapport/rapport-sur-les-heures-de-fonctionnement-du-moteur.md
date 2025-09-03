@@ -10,30 +10,18 @@ Le rapport sur les heures de fonctionnement du moteur est conçu pour vous indiq
 
 Le rapport calcule les heures de fonctionnement du moteur sur la base des points de données reçus par la plate-forme Navixy. Pour des calculs précis, les configurations et conditions suivantes doivent être respectées :
 
-1. **Configuration du capteur d'allumage :**
-
-* Le capteur d'allumage doit être correctement connecté à l'appareil et enregistrer avec précision l'état de l'allumage. Il peut s'agir d'un capteur d'allumage discret ou d'un capteur virtuel basé sur l'allumage sur la plate-forme.
-
-2. **Durée d'allumage :**
-
-* Le contact doit être mis pendant au moins 60 secondes pour que l'heure soit enregistrée dans le rapport.
-
-3. **Détection de stationnement :**
-
-* La plateforme utilise les paramètres de détection de stationnement pour différencier les heures de moteur passées en mouvement et au ralenti. Par exemple, si la vitesse de détection du stationnement est inférieure à 3 km/h et que le véhicule reste à cette vitesse ou à une vitesse inférieure pendant plus de 5 minutes, ce temps sera enregistré comme de la marche au ralenti et non comme du mouvement.
-
-4. **Fréquence des points de données :**
-
-* La fréquence à laquelle votre appareil envoie des points de données influe sur la précision du rapport. Les retards dans la transmission des données peuvent entraîner des inexactitudes, en particulier si l'état de l'allumage change mais n'est pas immédiatement signalé.
+1. **Configuration du capteur d'allumage :** \
+   Le capteur d'allumage doit être correctement connecté à l'appareil et enregistrer avec précision l'état de l'allumage. Il peut s'agir d'un capteur d'allumage discret ou d'un capteur virtuel basé sur l'allumage sur la plate-forme.
+2. **Durée d'allumage :** \
+   Le contact doit être mis pendant au moins 60 secondes pour que l'heure soit enregistrée dans le rapport.
+3. **Détection de stationnement :** \
+   La plateforme utilise les paramètres de détection de stationnement pour différencier les heures de moteur passées en mouvement et au ralenti. Par exemple, si la vitesse de détection du stationnement est inférieure à 3 km/h et que le véhicule reste à cette vitesse ou à une vitesse inférieure pendant plus de 5 minutes, ce temps sera enregistré comme de la marche au ralenti et non comme du mouvement.
+4. **Fréquence des points de données :** \
+   La fréquence à laquelle votre appareil envoie des points de données influe sur la précision du rapport. Les retards dans la transmission des données peuvent entraîner des inexactitudes, en particulier si l'état de l'allumage change mais n'est pas immédiatement signalé.
 
 ### Exemple de calcul
 
-| Point | L'heure  | État d'allumage | Heures de fonctionnement du moteur                  |
-| ----- | -------- | --------------- | --------------------------------------------------- |
-| 1     | 16:00:00 | Arrêt           | 0 minute                                            |
-| 2     | 16:01:00 | Sur             | 0 minute (l'allumage était éteint au dernier point) |
-| 3     | 16:01:32 | Sur             | 0 minute (moins de 60 secondes)                     |
-| 4     | 16:05:32 | Arrêt           | 4 minutes et 32 secondes                            |
+<table><thead><tr><th width="95">Point</th><th width="128">L'heure</th><th width="146">État d'allumage</th><th>Heures de fonctionnement du moteur</th></tr></thead><tbody><tr><td>1</td><td>16:00:00</td><td>Arrêt</td><td>0 minute</td></tr><tr><td>2</td><td>16:01:00</td><td>Sur</td><td>0 minute (l'allumage était éteint au dernier point)</td></tr><tr><td>3</td><td>16:01:32</td><td>Sur</td><td>0 minute (moins de 60 secondes)</td></tr><tr><td>4</td><td>16:05:32</td><td>Arrêt</td><td>4 minutes et 32 secondes</td></tr></tbody></table>
 
 ## Paramètres du rapport
 
@@ -46,7 +34,7 @@ Le rapport sur les heures de fonctionnement du moteur comprend plusieurs paramè
 
 ## Visualisations
 
-![image-20240815-010415.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010415.png)
+![](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010415.png)
 
 ### Diagramme d'activité global
 
@@ -58,20 +46,23 @@ Le rapport sur les heures de fonctionnement du moteur comprend plusieurs paramè
 
 ### Tableau des heures de fonctionnement du moteur
 
-* Le tableau présente des données quotidiennes détaillées, notamment
-  * **Date :** Le jour spécifique pour lequel les données sont calculées.
-  * **Heures de fonctionnement du moteur :** Nombre total d'heures de fonctionnement du moteur pour la journée.
-  * **En mouvement :** Temps passé en mouvement et pourcentage du nombre total d'heures de fonctionnement du moteur.
-  * **La marche au ralenti :** Temps passé au ralenti et pourcentage du nombre total d'heures de fonctionnement du moteur.
-  * **Intervalle moyen :** Durée moyenne pendant laquelle le moteur a fonctionné après chaque événement d'allumage.
-  * **Kilométrage :** Distance parcourue lorsque le moteur est en marche.
-  * **Vitesse moyenne :** La vitesse moyenne pour la journée.
-  * **Intervalles :** Nombre d'intervalles pendant lesquels le moteur a été allumé au cours de la journée.
+Le tableau présente des données quotidiennes détaillées, notamment
 
-> \[!INFO] Si vous constatez une différence entre le kilométrage indiqué dans le rapport de voyage et le rapport sur les heures de fonctionnement du moteur, vérifiez deux choses :
->
-> 1. Veillez à ce que les paramètres du filtre intelligent soient appliqués de manière cohérente dans tous les rapports. Des incohérences dans son utilisation peuvent entraîner des divergences.
-> 2. Vérifiez que l'allumage a été détecté pendant tous les déplacements du véhicule en comparant les heures de début et de fin de voyage avec les données relatives aux heures de fonctionnement du moteur.
+* **Date :** Le jour spécifique pour lequel les données sont calculées.
+* **Heures de fonctionnement du moteur :** Nombre total d'heures de fonctionnement du moteur pour la journée.
+* **En mouvement :** Temps passé en mouvement et pourcentage du nombre total d'heures de fonctionnement du moteur.
+* **La marche au ralenti :** Temps passé au ralenti et pourcentage du nombre total d'heures de fonctionnement du moteur.
+* **Intervalle moyen :** Durée moyenne pendant laquelle le moteur a fonctionné après chaque événement d'allumage.
+* **Kilométrage :** Distance parcourue lorsque le moteur est en marche.
+* **Vitesse moyenne :** La vitesse moyenne pour la journée.
+* **Intervalles :** Nombre d'intervalles pendant lesquels le moteur a été allumé au cours de la journée.
+
+{% hint style="info" %}
+Si vous constatez une différence entre le kilométrage indiqué dans le rapport de voyage et le rapport sur les heures de fonctionnement du moteur, vérifiez deux choses :
+
+1. Veillez à ce que les paramètres du filtre intelligent soient appliqués de manière cohérente dans tous les rapports. Des incohérences dans son utilisation peuvent entraîner des divergences.
+2. Vérifiez que l'allumage a été détecté pendant tous les déplacements du véhicule en comparant les heures de début et de fin de voyage avec les données relatives aux heures de fonctionnement du moteur.
+{% endhint %}
 
 ## Interprétation du rapport
 
