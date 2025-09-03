@@ -53,7 +53,7 @@ The selected attribute is automatically inserted in the ready-to-use format, wit
 * `‘valid'` - validity flag forcing only the non-null values to be considered.
 
 {% hint style="info" %}
-When `'valid'` is specified, the system automatically skips any `null` (empty) hiustoric values. This means the depth index will point to the most recent **valid** value rather than the most recent chronological value. For example, if your most recent reading (index `0`) is `null` but the previous reading (index `1`) contains actual data, the formula will use the index `1` value instead of the null value at index `0`.
+When `'valid'` is specified, the system automatically skips any `null` (empty) historic values. This means the depth index will point to the most recent **valid** value rather than the most recent chronological value. For example, if your most recent reading (index `0`) is `null` but the previous reading (index `1`) contains actual data, the formula will use the index `1` value instead of the null value at index `0`.
 {% endhint %}
 
 You can modify the parameters as needed - change the index number for historical values or adjust the validity flag.
@@ -65,7 +65,7 @@ The autofill list displays only attributes that meet **all** of the following cr
 
 * **Supported by devices** - The attribute must be supported by at least one device currently added to your flow
 * **Actually transmitted** - The device must have sent real data for this attribute (not just support it theoretically)
-* **Available in flow** - This includes both device parameters and calculated attributes from other **Initiate Attribute** nodes within the same flow&#x20;
+* **Available in flow** - This includes both device parameters and calculated attributes from other **Initiate Attribute** nodes within the same flow
 
 **Example**: If your device supports both speed and temperature sensors but has only transmitted speed data (perhaps due to a faulty temperature sensor), the autofill list will show the 'speed' attribute but not 'temperature'. The temperature attribute will only appear once the device actually sends temperature readings, even though the device technically supports it.
 {% endhint %}

@@ -12,14 +12,14 @@
 Unlike conventional vendor-specific solutions, **Data Stream Analyzer** offers universal device compatibility and remote troubleshooting capabilities through a single technical interface, significantly reducing the time and complexity of device diagnostics.
 
 {% hint style="info" %}
-#### **Navigation**
+**Navigation**
 
 **Data Stream Analyzer** is available to account **Owners** in the **Account Settings** section. To access it:
 
-* Click the profile icon in the top-left corner of the screen to open your account settings
-* In the settings sidebar select **IoT Logic**
-* Open the flow whose data you want to monitor from the **Data flow** list
-* Click ![DATA\_ANALYZER.png](attachments/DATA_ANALYZER.png)
+1. Click the profile icon in the top-left corner of the screen to open your account settings
+2. In the settings sidebar, select **IoT Logic**
+3. Open the flow whose data you want to monitor from the **Data flow** list
+4. Click <img src="attachments/DATA_ANALYZER.png" alt="DATA_ANALYZER.png" data-size="line">
 {% endhint %}
 
 ![Data Analyzer view](attachments/Data_Analyzer_big.png)
