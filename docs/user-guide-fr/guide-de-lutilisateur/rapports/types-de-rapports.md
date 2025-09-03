@@ -61,7 +61,7 @@ Ces rapports sont essentiels pour surveiller le comportement des conducteurs, no
 * **Infraction à la vitesse**\
   Détaille les cas où le véhicule a dépassé la limite de vitesse, y compris la date, le lieu et la vitesse réelle. Voir aussi :
   * [Conduite sévère dans les règles et les notifications](../regles-et-notifications/safety/conduite-difficile.md)
-  * [L'éco-conduite dans la gestion du parc automobile](../../guide-de-litilizateur/gestion-du-parc-automobile/conduite-ecologique.md)
+  * [L'éco-conduite dans la gestion du parc automobile](../gestion-du-parc-automobile/conduite-ecologique.md)
 
 ### Rapports sur l'état des appareils
 

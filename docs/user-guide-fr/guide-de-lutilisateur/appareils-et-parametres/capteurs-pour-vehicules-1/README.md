@@ -1,2 +1,0 @@
-# capteurs-pour-vehicules
-

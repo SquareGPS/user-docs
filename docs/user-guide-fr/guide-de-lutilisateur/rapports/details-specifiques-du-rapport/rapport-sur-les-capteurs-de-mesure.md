@@ -10,7 +10,7 @@ Pour réussir à générer le **Rapport sur les capteurs de mesure**les conditio
 
 * **Compatibilité des appareils :** Assurez-vous que l'appareil prend en charge la lecture du capteur requis sur la plate-forme. Vous pouvez le vérifier en consultant la liste des entrées prises en charge pour le modèle spécifique.
 * **Transmission active des données :** L'appareil et ses capteurs doivent être configurés correctement et transmettre activement des données.
-* **Capteurs virtuels :** [Capteurs virtuels](../../appareils-et-parametres/capteurs-pour-vehicules-1/capteurs-virtuels.md) doit disposer d'une méthode de calcul de la valeur de la source et fournir des valeurs numériques à la plateforme.
+* **Capteurs virtuels :** [Capteurs virtuels](broken-reference) doit disposer d'une méthode de calcul de la valeur de la source et fournir des valeurs numériques à la plateforme.
 * **Configuration du capteur :** Les capteurs de mesure doivent être correctement configurés sur la plate-forme.
 
 ## Paramètres du rapport
@@ -23,7 +23,7 @@ Le rapport utilise plusieurs paramètres pour adapter le résultat à vos besoin
 * **Afficher l'adresse :** Affiche l'adresse reçue par la plate-forme avec les données du capteur. L'adresse affichée correspond à la première lecture dans le segment détaillé.
 * **Utilisez un filtre intelligent :** Exclure les données des trajets courts, définis comme des trajets de moins de 300 mètres avec moins de 4 points de données envoyés par l'appareil.
 
-Pour chaque appareil, vous devez sélectionner le capteur pour lequel le rapport doit être généré. Seuls les appareils dont le capteur est configuré [mesure](../../appareils-et-parametres/capteurs-pour-vehicules-1/measurement-sensors.md) ou [virtuel](../../appareils-et-parametres/capteurs-pour-vehicules-1/capteurs-virtuels.md) seront disponibles dans la liste. Si vous sélectionnez un capteur virtuel d'un type incorrect, le rapport indiquera "Ceci n'est pas un capteur de mesure".
+Pour chaque appareil, vous devez sélectionner le capteur pour lequel le rapport doit être généré. Seuls les appareils dont le capteur est configuré [mesure](broken-reference) ou [virtuel](broken-reference) seront disponibles dans la liste. Si vous sélectionnez un capteur virtuel d'un type incorrect, le rapport indiquera "Ceci n'est pas un capteur de mesure".
 
 ## Visualisations
 

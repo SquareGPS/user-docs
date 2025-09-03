@@ -16,7 +16,7 @@ Le rapport calcule le temps de travail de l'équipement sur la base des points d
 
 2. **Configuration du capteur virtuel :**
 
-* [Capteurs virtuels](../../appareils-et-parametres/capteurs-pour-vehicules-1/capteurs-virtuels.md) avec deux états peuvent également être utilisés. Le capteur doit être correctement configuré pour enregistrer ces états.
+* [Capteurs virtuels](broken-reference) avec deux états peuvent également être utilisés. Le capteur doit être correctement configuré pour enregistrer ces états.
 
 3. **Réglages de la détection de stationnement :**
 

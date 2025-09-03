@@ -138,4 +138,4 @@ Pour plus de détails, veuillez lire comment [Intégrer les données IoT des ser
 
 ## FAQ et dépannage
 
-Si vous rencontrez des problèmes lors de l'activation de vos appareils, veuillez consulter notre site web. [F.A.Q. et guide de dépannage](../../guide-de-litilizateur/faq/depannage-de-lactivation-du-dispositif-gps.md) ou contacter votre [Prestataire de services](fournisseur-de-services.md) pour obtenir de l'aide.
+Si vous rencontrez des problèmes lors de l'activation de vos appareils, veuillez consulter notre site web. [F.A.Q. et guide de dépannage](../faq/depannage-de-lactivation-du-dispositif-gps.md) ou contacter votre [Prestataire de services](fournisseur-de-services.md) pour obtenir de l'aide.

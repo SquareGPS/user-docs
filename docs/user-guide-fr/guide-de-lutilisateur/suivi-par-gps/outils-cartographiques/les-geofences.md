@@ -32,7 +32,7 @@ Une géofence polygonale est une zone définie par un polygone arbitraire à plu
 
 ### Route geofence
 
-Une géofence d'itinéraire crée un périmètre virtuel entre deux ou plusieurs points. Ce type de géofence est particulièrement utile pour surveiller [le respect des itinéraires prévus](../../regles-et-notifications/planification-et-repartition-1/deviation-de-litineraire.md) et de s'assurer que les véhicules ne s'écartent pas de la trajectoire prévue. La géofence d'itinéraire est définie par une série de points qui créent un itinéraire continu, avec un rayon spécifié qui détermine l'écart autorisé par rapport à l'itinéraire.
+Une géofence d'itinéraire crée un périmètre virtuel entre deux ou plusieurs points. Ce type de géofence est particulièrement utile pour surveiller [le respect des itinéraires prévus](../../regles-et-notifications/planification-et-repartition/deviation-de-litineraire.md) et de s'assurer que les véhicules ne s'écartent pas de la trajectoire prévue. La géofence d'itinéraire est définie par une série de points qui créent un itinéraire continu, avec un rayon spécifié qui détermine l'écart autorisé par rapport à l'itinéraire.
 
 ![image-20240806-235506.png](../../../guide-de-litilizateur/suivi-par-gps/outils-cartographiques/attachments/image-20240806-235506.png)
 

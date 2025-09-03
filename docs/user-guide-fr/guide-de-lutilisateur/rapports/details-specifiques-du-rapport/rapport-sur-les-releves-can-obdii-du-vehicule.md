@@ -25,7 +25,7 @@ Le rapport utilise plusieurs paramètres pour personnaliser la sortie :
 
 ![image-20240815-010100.png](../../../guide-de-litilizateur/rapports/details-specifiques-du-rapport/attachments/image-20240815-010100.png)
 
-Pour chaque appareil, vous devez sélectionner le capteur pour lequel vous souhaitez générer un rapport. Seuls les appareils avec des capteurs CAN/OBD ou virtuels configurés apparaîtront dans la liste. Si un capteur virtuel utilise une méthode de calcul autre que le [valeur de la source](../../appareils-et-parametres/capteurs-pour-vehicules-1/capteurs-virtuels.md)le rapport indiquera "Il ne s'agit pas d'un capteur de mesure".
+Pour chaque appareil, vous devez sélectionner le capteur pour lequel vous souhaitez générer un rapport. Seuls les appareils avec des capteurs CAN/OBD ou virtuels configurés apparaîtront dans la liste. Si un capteur virtuel utilise une méthode de calcul autre que le [valeur de la source](broken-reference)le rapport indiquera "Il ne s'agit pas d'un capteur de mesure".
 
 ## Visualisations
 

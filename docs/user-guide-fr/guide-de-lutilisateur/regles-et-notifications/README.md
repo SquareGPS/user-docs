@@ -1,6 +1,6 @@
 # Règles et notifications
 
-Utilisation **Règles et notifications** Dans Navixy, vous pouvez détecter divers événements et en être informé. Ces fonctionnalités aident les utilisateurs à surveiller et à gérer plus efficacement leur flotte, leurs actifs et leurs employés sur le terrain. Les événements peuvent aller de la simple violation d'une géofence à des scénarios complexes tels que les alertes antivol ou la prévention des vols de carburant. Voir les [exemples](regles-et-notifications.md) pour plus de détails.
+Utilisation **Règles et notifications** Dans Navixy, vous pouvez détecter divers événements et en être informé. Ces fonctionnalités aident les utilisateurs à surveiller et à gérer plus efficacement leur flotte, leurs actifs et leurs employés sur le terrain. Les événements peuvent aller de la simple violation d'une géofence à des scénarios complexes tels que les alertes antivol ou la prévention des vols de carburant. Voir les [exemples](broken-reference) pour plus de détails.
 
 ## Types d'événements détectés
 
