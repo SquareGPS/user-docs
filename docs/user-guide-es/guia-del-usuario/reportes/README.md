@@ -2,7 +2,7 @@
 
 Navixy ofrece una potente función de reportes que le permite generar reportes detallados sobre diversos aspectos de las operaciones de su flota. Esta guía le apoyará a crear, programar y gestionar reportes utilizando la plataforma Navixy, asegurando que pueda acceder y analizar fácilmente los datos que necesita.
 
-![image-20240814-234904.png](../../gua-del-usuario/attachments/image-20240814-234904.png)
+![](../../gua-del-usuario/attachments/image-20240814-234904.png)
 
 ## Acceder a la sección de reportes
 
@@ -76,3 +76,4 @@ Los reportes programados son reportes automatizados que se generan a intervalos 
 
 * [Tipos de reportes](tipos-de-reportes.md)
 * [Cómo leer y comprender los reportes](leer-y-comprender-los-reportes.md)
+* [Detalles específicos del reporte](detalles-especficos-del-reporte/)

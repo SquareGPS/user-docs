@@ -4,7 +4,7 @@ El **Reporte de viajes** de Navixy proporciona un análisis exhaustivo del histo
 
 Este reporte tiene un valor incalculable para los gestores de flotas que necesitan controlar el uso de los vehículos, calcular los costes operativos y evaluar la eficacia de la conducción. A continuación encontrará una guía detallada sobre el funcionamiento del reporte de trayectos, los parámetros que intervienen y cómo interpretar los datos de forma eficaz.
 
-![image-20240815-010251.png](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010251.png)
+![](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010251.png)
 
 ## Visión general
 
