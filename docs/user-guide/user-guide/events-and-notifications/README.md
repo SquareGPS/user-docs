@@ -1,6 +1,6 @@
-# Rules and notifications
+# Alerts
 
-Using **Rules and Notifications** in Navixy, you can detect various events, view their details, and get notified about them. These features help users monitor and manage their fleet, assets, and field employees more effectively. Events can range from simple geofence breaches to complex scenarios like anti-theft alerts or fuel theft prevention. See the [examples](./#examples) for more details.
+Using **Alerts** in Navixy, you can detect various events, view their details, and get notified about them. These features help users monitor and manage their fleet, assets, and field employees more effectively. Events can range from simple geofence breaches to complex scenarios like anti-theft alerts or fuel theft prevention. See the [examples](./#examples) for more details.
 
 ## Events list
 
