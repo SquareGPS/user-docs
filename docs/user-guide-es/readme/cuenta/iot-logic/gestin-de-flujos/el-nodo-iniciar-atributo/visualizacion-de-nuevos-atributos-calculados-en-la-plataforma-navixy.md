@@ -75,7 +75,7 @@ Un sensor personalizado debe agregarse individualmente a cada dispositivo. Para 
    4. **Unidades**\
       Seleccione las unidades de medida apropiadas según la naturaleza de su atributo. Las opciones en esta lista varían dependiendo del **tipo de sensor** seleccionado. Puede usar **Custom** si no hay una unidad adecuada para su atributo.
 5. (Opcional) Vaya a la pestaña **Calibración** y configure la calibración si es necesario.\
-   Para instrucciones sobre la configuración de esta pestaña, consulte [Calibración](../../../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-medicin/#datos-de-calibracion).
+   Para instrucciones sobre la configuración de esta pestaña, consulte [Calibración](../../../../../guia-del-usuario/dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensor-de-medicin/#datos-de-calibracion).
 6. Haga clic en **Guardar** para completar el proceso de configuración.
 
 Después de guardar, el nuevo parámetro personalizado aparece automáticamente en el bloque de datos **Sensores** del **widget de objeto**. Por ejemplo, agregamos un parámetro personalizado **TempDelta**:

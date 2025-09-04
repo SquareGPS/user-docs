@@ -2,11 +2,9 @@
 
 Las balizas BLE de Teltonika son dispositivos versátiles que pueden recoger datos sobre temperatura, estado magnético y transmitir sus identificadores a largas distancias, alcanzando hasta 200 metros en zonas abiertas.
 
-\[![Teltonika bluetooth beacons](https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png" alt="" width="375"><figcaption></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png)
-
-Estas balizas utilizan **Bluetooth de baja energía** (BLE 4.0+), conocida por su eficiencia energética, que les permite funcionar durante largos periodos con sus bateríasinternas: hasta 2 años en los modelos SLIM, hasta 5 años en los modelos COIN y hasta 19 años en los modelos PUCK.
+Estas balizas utilizan **Bluetooth de baja energía** (BLE 4.0+), conocida por su eficiencia energética, que les permite funcionar durante largos periodos con sus baterías internas: hasta 2 años en los modelos SLIM, hasta 5 años en los modelos COIN y hasta 19 años en los modelos PUCK.
 
 Las balizas se alojan en carcasas con clasificación IP68, que ofrecen una sólida protección contra el polvo y el agua.
 
@@ -28,13 +26,11 @@ Para añadir un sensor de temperatura:
 2. Seleccione **"BLE: Temperatura"** como tipo de entrada.
 3. Elija **"Temperatura"** como tipo de sensor.
 
-\[![Teltonika bluetooth beacons](https://www.navixy.com/wp-content/uploads/2020/10/chrome_zqbp0ajule.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/10/chrome\_zqbp0ajule.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/10/chrome_zqbp0ajule.png" alt=""><figcaption></figcaption></figure>
 
 ### Sensores magnéticos
 
-Los sensores magnéticos muestran su estado en "Lecturas de los sensores" en el [widget de](broken-reference) [informa](../../../../../../../../wiki/pages/createpage.action)[c](broken-reference)[i](../../../../../../../../wiki/pages/createpage.action)[ó](broken-reference)[n](../../../../../../../../wiki/pages/createpage.action). Este widget permite controlar si el sensor está activo o no.
+Los sensores magnéticos muestran su estado en **Lecturas de los sensores** en [Widget del objeto](../../../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md). Este widget permite controlar si el sensor está activo o no.
 
 ### Sensores de identificación del conductor
 

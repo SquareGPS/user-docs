@@ -10,9 +10,7 @@ Muchos [Dispositivos GPS Teltonika](https://www.navixy.com/devices/teltonika/) a
 
 Para preparar su dispositivo GPS Teltonika para la integración del sensor de combustible Bluetooth, siga estos pasos.
 
-\[![Bluetooth fuel sensors](https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator_2019-09-28_13-56-33-600x365.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator\_2019-09-28\_13-56-33.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/teltonika.configurator_2019-09-28_13-56-33-600x365.png" alt=""><figcaption></figcaption></figure>
 
 1. **Descargar el configurador Teltonika**: Obtén la aplicación desde el sitio web oficial de Teltonika.
 2. **Actualizar el firmware**: Asegúrese de que su dispositivo está ejecutando la última versión del firmware.
@@ -31,20 +29,20 @@ Para preparar su dispositivo GPS Teltonika para la integración del sensor de co
 * Ir a la **E/S** ficha.
 * Asegúrese de que el parámetro correspondiente al sensor de combustible está activado.
 
-> \[!INFO] **Codec 8 ampliado** es un protocolo de comunicación propiedad de Teltonika que admite hasta 65.535 parámetros de datos (AVL ID), lo que permite una transmisión de datos más detallada en comparación con el Codec 8 estándar, que sólo admite 255.
+{% hint style="warning" %}
+**Codec 8 ampliado** es un protocolo de comunicación propiedad de Teltonika que admite hasta 65.535 parámetros de datos (AVL ID), lo que permite una transmisión de datos más detallada en comparación con el Codec 8 estándar, que sólo admite 255.
+{% endhint %}
 
 ## Configuración del sensor en la plataforma Navixy
 
 Una vez que el rastreador esté conectado y transmitiendo datos de combustible, sigue estos pasos para configurar los sensores correspondientes en la plataforma Navixy.
 
-\[![Bluetooth fuel sensors](https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2019/09/chrome\_2019-09-28\_13-59-40.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png" alt=""><figcaption></figcaption></figure>
 
 1. **Crear un nuevo sensor de medición**:
 
 * Navega hasta Dispositivos y ajustes → Sensores y botones.
-* Haga clic en Crear un nuevo [sensor de medición](../../../../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-medicin/).
+* Haga clic en Crear un nuevo [sensor de medición](../../sensor-de-medicin/).
 
 2. **Configurar el sensor**:
 

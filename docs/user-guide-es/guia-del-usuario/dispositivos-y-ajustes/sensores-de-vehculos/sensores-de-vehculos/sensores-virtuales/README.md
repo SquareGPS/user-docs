@@ -1,7 +1,5 @@
 # Sensores virtuales
 
-## Sensores virtuales
-
 Los sensores virtuales le permiten procesar los datos de telemetría con mayor eficacia. Al mapear la tensión de la placa, pueden ayudarle a calcular las horas del motor en función de las condiciones y los valores establecidos. Además, permiten convertir múltiples puntos de datos de distintos sensores conectados a un dispositivo en indicadores más fáciles de entender, como "caliente", "frío", "abierto" y "cerrado", independientemente del fabricante o modelo del dispositivo. Esto abre nuevas posibilidades de supervisión, seguimiento y predicción del rendimiento de tecnologías complejas.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt=""><figcaption><p>Interfaz de sensor virtual</p></figcaption></figure>
@@ -33,7 +31,7 @@ Todos los valores de los sensores virtuales deben coincidir con la forma en que 
 
 A continuación describimos cómo funcionan los distintos métodos de cálculo. Haga clic en el nombre del método de cálculo para ampliarlo.
 
-**Valor en rango**
+#### **Valor en rango**
 
 Este tipo de sensor virtual ayuda a nuestros clientes a mantener parámetros importantes como el encendido virtual, la temperatura, la humedad y el nivel de combustible dentro de un rango especificado.
 
@@ -71,7 +69,7 @@ Podemos establecer nuestro rango: todo lo que esté entre 1020 y 1900 se clasifi
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_kgzvrsdzb1.png" alt=""><figcaption><p>Ejemplo de configuración para leer la temperatura del sensor analógico</p></figcaption></figure>
 
-**Fuente valor**
+#### **Fuente valor**
 
 Con los sensores virtuales, puede asignar su definición a cualquier valor recibido. Este método funciona con conjuntos predefinidos de valores y cadenas, lo que facilita el trabajo con valores estáticos sin tener que especificar diferentes rangos. Además, puede trabajar con cualquier dato que necesite. Por ejemplo:
 
@@ -123,7 +121,7 @@ La forma más sencilla de identificación es a través de etiquetas - cada unida
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png" alt=""><figcaption><p>Ejemplo de configuración del método de cálculo del valor de origen para la lectura de la llave hardware o del sensor de campo de estado</p></figcaption></figure>
 
-**Índice de bits**
+#### **Índice de bits**
 
 Algunos dispositivos pueden proporcionar datos avanzados en sus paquetes, a veces fusionando varios parámetros [en un valor](https://www.navixy.com/blog/sensor-parameters-avl/). La herramienta **Sensores virtuales** permite trabajar con partes de valores telemáticos, descodificando así los datos transmitidos por el hardware GPS.
 

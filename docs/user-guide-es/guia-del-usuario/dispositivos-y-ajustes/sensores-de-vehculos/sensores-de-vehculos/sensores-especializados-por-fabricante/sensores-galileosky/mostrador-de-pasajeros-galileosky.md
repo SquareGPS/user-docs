@@ -37,5 +37,5 @@ Imagine un operador de autobuses urbanos que necesita hacer un seguimiento del n
 
 ## Seguimiento e informes
 
-* **Vista en tiempo real.** Una vez integrados, los datos de los pasajeros pueden controlarse en tiempo real mediante el widget "Lecturas de los sensores" dentro de [Widgets de información sobre dispositivos](broken-reference).
-* **Informes.** También puede generar [Informes](../../../../../reportes/detalles-especficos-del-reporte/reporte-de-los-sensores-de-medicin.md) que incluyen datos sobre el recuento de pasajeros, lo que permite realizar análisis exhaustivos y obtener información sobre el flujo de pasajeros.
+* **Vista en tiempo real.** Una vez integrados, los datos de los pasajeros pueden controlarse en tiempo real mediante el widget "Lecturas de los sensores" dentro del [Widget del objeto](../../../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md).
+* **Informes.** También puede generar [Reportes](../../../../../reportes/detalles-especficos-del-reporte/reporte-de-los-sensores-de-medicin.md) que incluyen datos sobre el recuento de pasajeros, lo que permite realizar análisis exhaustivos y obtener información sobre el flujo de pasajeros.

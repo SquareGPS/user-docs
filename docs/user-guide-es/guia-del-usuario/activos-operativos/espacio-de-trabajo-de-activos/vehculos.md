@@ -39,7 +39,7 @@ En Navixy, la configuración del **consumo de combustible** en el perfil del veh
 
 Este parámetro suele expresarse en litros por cada 100 kilómetros (L/100 km) o en millas por galón (MPG), según la preferencia regional.
 
-Para obtener más información sobre la medición de combustible en Navixy, consulte [Sensor de nivel de combustible](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-medicin/sensor-de-nivel-de-combustible.md).
+Para obtener más información sobre la medición de combustible en Navixy, consulte [Sensor de nivel de combustible](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensor-de-medicin/sensor-de-nivel-de-combustible.md).
 
 * **Estimación del consumo de combustible**:\
   El valor ingresado como consumo de combustible sirve como base para estimar el uso del vehículo en función de la distancia recorrida. Por ejemplo, si un vehículo está configurado para consumir 10 L/100 km, el sistema estimará un consumo de 10 litros por cada 100 kilómetros.
