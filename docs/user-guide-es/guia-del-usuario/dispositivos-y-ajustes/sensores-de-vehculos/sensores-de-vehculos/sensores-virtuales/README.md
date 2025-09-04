@@ -4,11 +4,7 @@
 
 Los sensores virtuales le permiten procesar los datos de telemetría con mayor eficacia. Al mapear la tensión de la placa, pueden ayudarle a calcular las horas del motor en función de las condiciones y los valores establecidos. Además, permiten convertir múltiples puntos de datos de distintos sensores conectados a un dispositivo en indicadores más fáciles de entender, como "caliente", "frío", "abierto" y "cerrado", independientemente del fabricante o modelo del dispositivo. Esto abre nuevas posibilidades de supervisión, seguimiento y predicción del rendimiento de tecnologías complejas.
 
-\[![Virtual sensor interface](https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_clvf66ikbi.png)
-
-Interfaz de sensor virtual
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt=""><figcaption><p>Interfaz de sensor virtual</p></figcaption></figure>
 
 ### Cómo crear un sensor virtual
 
@@ -21,11 +17,7 @@ El sensor virtual puede crearse a través del portlet "Sensores y botones" situa
 
 Cada dispositivo puede tener hasta 100 sensores virtuales.
 
-\[![Virtual sensor adding in sensors and buttons portlet](https://www.navixy.com/wp-content/uploads/2024/03/browser_73sv6rayqh.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_73sv6rayqh.png)
-
-Sensor virtual añadiendo en portlet de sensores y botones
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_73sv6rayqh.png" alt=""><figcaption><p>Sensor virtual añadiendo en widget de sensores y botones</p></figcaption></figure>
 
 Los pasos siguientes dependen del caso de uso que deba resolverse mediante el sensor virtual. A continuación encontrará ejemplos e instrucciones para diferentes métodos de cálculo.
 
@@ -41,7 +33,7 @@ Todos los valores de los sensores virtuales deben coincidir con la forma en que 
 
 A continuación describimos cómo funcionan los distintos métodos de cálculo. Haga clic en el nombre del método de cálculo para ampliarlo.
 
-[**Valor en rango**](./#1679329407451-09b70c96-6385)
+**Valor en rango**
 
 Este tipo de sensor virtual ayuda a nuestros clientes a mantener parámetros importantes como el encendido virtual, la temperatura, la humedad y el nivel de combustible dentro de un rango especificado.
 
@@ -63,11 +55,7 @@ Para crear este sensor:
 5. Especifique un valor de rango mínimo, como 13,2 V. El máximo no es necesario ya que el voltaje de la placa puede variar con el encendido activado.
 6. Por último, establece el significado de los estados 0 y 1, que suelen ser Encendido y Apagado respectivamente.
 
-\[![Example configuration for virtual ignition](https://www.navixy.com/wp-content/uploads/2024/03/browser_7qx9prhhxc.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_7qx9prhhxc.png)
-
-Ejemplo de configuración para el encendido virtual
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_7qx9prhhxc.png" alt=""><figcaption><p>Ejemplo de configuración para el encendido virtual</p></figcaption></figure>
 
 Una vez establecido el rango de umbral de tensión, si el valor entrante a bordo se encuentra dentro de ese rango, la plataforma cambiará el estado de encendido a "encendido". Por el contrario, si está fuera de ese rango, pasará a "apagado". El encendido virtual creado mediante este método también se tendrá en cuenta en informes y notificaciones basados en su estado; por ejemplo, puedes utilizarlo para generar informes de horas de motor o alertas por ralentí excesivo.
 
@@ -81,13 +69,9 @@ Supongamos que dispone de un sensor analógico que recoge datos de temperatura: 
 
 Podemos establecer nuestro rango: todo lo que esté entre 1020 y 1900 se clasificaría como "frío" (1) y todo lo que esté por encima de 1900 se consideraría "caliente" (0).
 
-\[![Example configuration for reading temperature from analog sensor](https://www.navixy.com/wp-content/uploads/2024/03/browser_kgzvrsdzb1.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_kgzvrsdzb1.png" alt=""><figcaption><p>Ejemplo de configuración para leer la temperatura del sensor analógico</p></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_kgzvrsdzb1.png)
-
-Ejemplo de configuración para leer la temperatura del sensor analógico
-
-[**Fuente Valor**](./#1679329407460-fa411058-510d)
+**Fuente valor**
 
 Con los sensores virtuales, puede asignar su definición a cualquier valor recibido. Este método funciona con conjuntos predefinidos de valores y cadenas, lo que facilita el trabajo con valores estáticos sin tener que especificar diferentes rangos. Además, puede trabajar con cualquier dato que necesite. Por ejemplo:
 
@@ -129,11 +113,7 @@ Para configurar dicho sensor:
 4. Seleccione "Valor fuente" como método de cálculo.
 5. Rellena la tabla con tus propios valores en la parte izquierda y los valores de sus respectivos sensores en la derecha. Añade filas haciendo clic en el signo "+" y elimínalas con el botón de la papelera.
 
-\[![Configuration example for source value calculation method](https://www.navixy.com/wp-content/uploads/2024/03/browser_xlxdl1ak9e.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_xlxdl1ak9e.png)
-
-Ejemplo de configuración del método de cálculo del valor de la fuente
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_xlxdl1ak9e.png" alt=""><figcaption><p>Ejemplo de configuración del método de cálculo del valor de la fuente</p></figcaption></figure>
 
 #### Lecturas clave de hardware para conductores, equipos y remolques
 
@@ -141,15 +121,11 @@ Algunos dispositivos pueden ser capaces de leer conductores y sus iButtons, llav
 
 La forma más sencilla de identificación es a través de etiquetas - cada unidad conectada a un equipo pesado tiene su propio sensor con una etiqueta adjunta, que es reconocida por la plataforma como una clave de hardware. Cuando se conecta a la máquina, esta clave se envía a la plataforma y su nombre asociado puede mostrarse de forma comprensible - de forma similar a como se nombraron los valores para la toma de fuerza.
 
-\[![Configuration example for source value calculation method for hardware key or state field sensor reading](https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png" alt=""><figcaption><p>Ejemplo de configuración del método de cálculo del valor de origen para la lectura de la llave hardware o del sensor de campo de estado</p></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_vw7hkgdl0n.png)
+**Índice de bits**
 
-Ejemplo de configuración del método de cálculo del valor de origen para la lectura de la llave hardware o del sensor de campo de estado
-
-[**Índice de bits**](./#1679330119395-5e95e66b-c1e9)
-
-Algunos dispositivos pueden proporcionar datos avanzados en sus paquetes, a veces fusionando varios parámetros [en un valor](https://www.navixy.com/blog/sensor-parameters-avl/). La herramienta Sensores Virtuales permite trabajar con partes de valores telemáticos, descodificando así los datos transmitidos por el hardware GPS.
+Algunos dispositivos pueden proporcionar datos avanzados en sus paquetes, a veces fusionando varios parámetros [en un valor](https://www.navixy.com/blog/sensor-parameters-avl/). La herramienta **Sensores virtuales** permite trabajar con partes de valores telemáticos, descodificando así los datos transmitidos por el hardware GPS.
 
 Por ejemplo, digamos que se transmite el valor 011 - primero debemos leer esta información en little endian según el protocolo:
 
@@ -168,10 +144,6 @@ Para un sensor que muestre el estado del capó del coche en nuestro ejemplo, es 
 
 A continuación se muestra un ejemplo de un sensor que muestra el estado del capó del coche.
 
-\[![Configuration example for Bit index calculation sensor](https://www.navixy.com/wp-content/uploads/2024/03/browser_2qcam8zclk.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_2qcam8zclk.png" alt=""><figcaption><p>Ejemplo de configuración del sensor de cálculo del índice de bits</p></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2024/03/browser\_2qcam8zclk.png)
-
-Ejemplo de configuración del sensor de cálculo del índice de bits
-
-Una vez que se ha configurado un sensor virtual y su sensor de dispositivo asociado ha proporcionado datos, éstos pueden verse en el widget "Lecturas del sensor" de la pestaña Información del dispositivo. Los sensores de tu dispositivo ya pueden hablar en tu idioma.
+Una vez que se ha configurado un sensor virtual y su sensor de dispositivo asociado ha proporcionado datos, estos pueden verse en el widget **Lecturas del sensor** de la pestaña **Información** del dispositivo. Los sensores de tu dispositivo ya pueden hablar en tu idioma.

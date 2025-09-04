@@ -44,7 +44,7 @@ Una vez que el rastreador esté conectado y transmitiendo datos de combustible, 
 1. **Crear un nuevo sensor de medición**:
 
 * Navega hasta Dispositivos y ajustes → Sensores y botones.
-* Haga clic en Crear un nuevo [sensor de medición](../../sensor-de-medicin/).
+* Haga clic en Crear un nuevo [sensor de medición](../../../../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-medicin/).
 
 2. **Configurar el sensor**:
 

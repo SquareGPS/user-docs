@@ -1,38 +1,22 @@
 # Configuración del Eye Sensor
 
-## Configuración del Eye Sensor
-
-## Eye Sensor
-
 Como ejemplo adicional del uso de sensores virtuales, nos gustaría presentarle [Sensores oculares Teltonika](https://teltonika-gps.com/products/accessories/sensors-beacons/eye) que son capaces de registrar datos valiosos como la temperatura, la humedad, el movimiento y el estado de los imanes. La información sobre el estado de movimiento, en particular, no estaba disponible anteriormente, pero ahora se puede acceder a ella mediante el uso de sensores virtuales. Si desea saber más sobre estos sensores y cómo configurarlos para obtener información importante, estaremos encantados de proporcionarle instrucciones detalladas.
 
 ### Configuración de sensores en un dispositivo
 
 Para configurar la transmisión de datos del sensor a la plataforma, se recomienda utilizar la función [Configurador Teltonika](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_Introduction). Asegúrese de [descargar la versión](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions) que corresponda al firmware y al modelo de dispositivo actuales. Una vez descargado e iniciado el configurador, vaya a la configuración del sistema y seleccione el protocolo de datos Codec 8 Extended.
 
-\[![Enabling Codec 8 Extended in the Teltonika configurator.](https://www.navixy.com/wp-content/uploads/2023/03/1-4.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/03/1-4.png)
-
-Activación del Codec 8 Extendido en el configurador de Teltonika.
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/1-4.png" alt=""><figcaption><p>Activación del Codec 8 Extendido en el configurador de Teltonika</p></figcaption></figure>
 
 En la sección Bluetooth 4.0, recomendamos desactivar la función de escaneo continuo y ajustar la "Frecuencia de actualización" y la "Duración del escaneo" a cada 30 segundos. Ajustando estas opciones, obtendrás resultados óptimos en el escaneo BLE, garantizando una recopilación de datos fiable y precisa.
 
-\[![Scan frequency for BLE sensors.](https://www.navixy.com/wp-content/uploads/2023/03/2-4.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/03/2-4.png)
-
-Frecuencia de exploración para sensores BLE.
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/2-4.png" alt=""><figcaption><p>Frecuencia de exploración para sensores BLE</p></figcaption></figure>
 
 A continuación, seleccione la Conexión # y establezca el modo de funcionamiento en Avanzado. De este modo accederá a los ajustes detallados del sensor. Busque los botones situados en la esquina superior derecha y seleccione la lista de preajustes. Esto le permitirá agilizar el proceso de configuración del sensor.
 
-\[![Setting the Advanced mode for the sensor and the location of the Preset list button.](https://www.navixy.com/wp-content/uploads/2023/03/3-2.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/3-2.png" alt=""><figcaption><p>Configuración del modo Avanzado para el sensor y la ubicación del botón de lista de Pre ajustes</p></figcaption></figure>
 
-]\(https://www.navixy.com/wp-content/uploads/2023/03/3-2.png)
-
-Configuración del modo Avanzado para el sensor y la ubicación del botón de lista de Pre ajustes.
-
-Cuando hagas clic en el botón de la lista de pre ajustes, se abrirá una nueva ventana con una selección de los sensores disponibles. Sólo tienes que elegir el que estés utilizando en ese momento, como el SENSOR DE OJOS. Esta tabla configurará automáticamente todos los ajustes necesarios. Después, navega a la pestaña E/S para configurar la transmisión de datos desde estos sensores dentro de los paquetes de tu dispositivo.
+Cuando hagas clic en el botón de la lista de pre ajustes, se abrirá una nueva ventana con una selección de los sensores disponibles. Sólo tienes que elegir el que estés utilizando en ese momento, como el **Eye Sensor**. Esta tabla configurará automáticamente todos los ajustes necesarios. Después, navega a la pestaña E/S para configurar la transmisión de datos desde estos sensores dentro de los paquetes de tu dispositivo.
 
 Para configurar la transmisión de datos desde estos sensores dentro de los paquetes de su dispositivo, navegue hasta la pestaña E/S. Aquí, necesitará configurar los parámetros apropiados para su configuración deseada. Por ejemplo, si el número de conexión de su sensor es 1, configure los parámetros con el mismo número. En la mayoría de los casos, es mejor establecer la prioridad en Baja para los parámetros que necesitan ser monitorizados en la plataforma. También es importante asegurarse de que todos los demás ajustes se dejan en sus valores por defecto, a menos que haya cambiado algo previamente. En tales casos, los ajustes recomendados son los siguientes:
 
@@ -42,11 +26,7 @@ Para configurar la transmisión de datos desde estos sensores dentro de los paqu
 * Sólo evento = No
 * Operando = Control
 
-\[![Setting up the sending of sensor data in device packets.](https://www.navixy.com/wp-content/uploads/2023/03/4-2.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/03/4-2.png)
-
-Configuración del envío de datos de sensores en paquetes de dispositivos.
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/4-2.png" alt=""><figcaption><p>Configuración del envío de datos de sensores en paquetes de dispositivos</p></figcaption></figure>
 
 ### Configuración en la plataforma
 

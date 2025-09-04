@@ -1,7 +1,5 @@
 # Sensor de nivel de combustible
 
-## Sensor de nivel de combustible
-
 Los sensores de combustible son esenciales para controlar los niveles de combustible en vehículos y depósitos, proporcionando datos clave para el seguimiento del consumo, la detección de repostajes y vaciados, y la optimización de la gestión del combustible. El uso eficaz de estos datos ayuda a prevenir las pérdidas de combustible, identificar los vehículos con un consumo elevado y mejorar la eficiencia general, lo que se traduce en un importante ahorro de costes.
 
 ### Comprender las lecturas de los sensores de combustible
@@ -15,7 +13,7 @@ La precisión de los datos de combustible depende de varios factores clave:
 
 ### Configuración de un sensor de combustible
 
-Los sensores de combustible se clasifican como «[Sensores de medición](../../../../../../../wiki/pages/createpage.action)» en la plataforma Navixy. Para añadir un sensor de combustible:
+Los sensores de combustible se clasifican como [Sensores de medición](./) en la plataforma Navixy. Para añadir un sensor de combustible:
 
 1. **Vaya a Dispositivos y configuración -> Sensores y botones**.
 2. Haga clic en el icono **+** y seleccione **Sensor** de medición .
@@ -55,7 +53,7 @@ Navixy emplea métodos estadísticos avanzados para evaluar la calidad de los da
 
 Los sensores de combustible son un componente vital para el seguimiento de los niveles de combustible de diversos vehículos y depósitos estáticos. Con la ayuda de algoritmos de plataforma, los niveles de consumo de combustible, repostaje y descargas pueden supervisarse a través de los datos recogidos por estos sensores. La utilización eficiente de estos datos puede suponer un importante ahorro de costes al evitar las pérdidas de combustible e identificar los vehículos con un consumo excesivo, cuyos beneficios no cumplen las expectativas. Aprovechando la información proporcionada por los sensores de combustible, puede anticiparse a cualquier problema potencial y optimizar el consumo de combustible, aumentando así la rentabilidad global.
 
-Los sensores de nivel de combustible son de varios tipos y cada uno sirve para un fin determinado. Puede encontrar información detallada sobre ellos en nuestra [Academia](https://docs.navixy.com/eco-fleet/types-of-fuel-level-sensors). Para el propósito de este artículo, nos centraremos en el funcionamiento del combustible de la plataforma. Además, vamos a discutir los ajustes del sensor de combustible y el impacto que tienen en el proceso general de gestión de combustible.
+Los sensores de nivel de combustible son de varios tipos y cada uno sirve para un fin determinado. Puede encontrar información detallada sobre ellos en nuestra [Expert Center](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management). Para el propósito de este artículo, nos centraremos en el funcionamiento del combustible de la plataforma. Además, vamos a discutir los ajustes del sensor de combustible y el impacto que tienen en el proceso general de gestión de combustible.
 
 ### ¿De qué dependen las lecturas del sensor de combustible?
 
@@ -68,7 +66,7 @@ La precisión de los datos de combustible mostrados depende de varios factores, 
 
 ### Creación de sensores
 
-Los sensores de combustible son un tipo de [sensor de medición](../../../../../../../wiki/pages/createpage.action) que puede crearse en una plataforma de seguimiento GPS. Para crear un sensor de combustible, vaya a la sección Gestión de Dispositivos y haga clic en el panel Sensores y Botones. A continuación, haga clic en el icono + y seleccione «sensor de medición» en el menú desplegable.
+Los sensores de combustible son un tipo de [sensor de medición](./) que puede crearse en una plataforma de seguimiento GPS. Para crear un sensor de combustible, vaya a la sección **Dispositivos** y haga clic en el panel **Sensores y botones**. A continuación, haga clic en el icono + y seleccione **Sensor de medición** en el menú desplegable.
 
 ### Ajustes del sensor de combustible
 
@@ -81,7 +79,7 @@ Una vez que elija Nivel de combustible como tipo de sensor, aparecerán ajustes 
 * Umbrales para la detección de vaciados - se utilizan para determinar los vaciados en los informes de combustible. Este parámetro puede ser representado como la tasa de cambio en el nivel de combustible. Ambos umbrales se comprueban siempre, y si el nivel de combustible cambia más rápido que al menos uno de los umbrales establecidos para más de nivel de precisión, el informe marcará el drenaje de combustible.
   * **Por tiempo**: el flujo máximo permitido se mide en unidades por hora y se puede configurar en los ajustes del sensor. Al calcular el cambio de velocidad en el tiempo, la plataforma compara el cambio de nivel de combustible entre puntos. Si no se configura, el valor por defecto es de 120 unidades por hora. Esto no significa que el combustible deba cambiar más de 120 por hora. Significa que el nivel de combustible debe cambiar más rápido que 120 por hora (igual a 20 L por 10 minutos o 2 L por minuto) para determinar el drenado en un informe. Este valor debe fijarse en unos puntos porcentuales por encima de la tasa de consumo probable durante cargas pesadas o cuando el vehículo está ascendiendo cuesta arriba.
   * **Por kilometraje**: la velocidad máxima permitida de cambio de nivel de combustible se mide en unidades por cada 100 km. No significa que el combustible deba cambiar más de lo establecido por cada 100 km. Por ejemplo, fijamos 100 L por 100 km. Significa que el nivel de combustible debe cambiar más rápido que 100 L por 100 km (igual a 10 L por 10 km o 1 L por km) para determinar el drenado en un informe. Este valor debe introducirse manualmente y no debe basarse únicamente en la tasa de consumo de combustible especificada por el fabricante. Recomendamos realizar pruebas y verificar la tasa de consumo de combustible real registrada en los informes y, a continuación, establecer los valores necesarios en consecuencia para obtener la máxima precisión.
-* **Ignorar en movimiento** - la plataforma excluirá automáticamente de las reglas e informes los vaciados y rellenados que se produzcan durante el movimiento. El movimiento viene determinado por el [ajuste y detección de estacionado](https://www.navixy.com/docs/user/web-interface-docs/devices-doc/parking-detection/).
+* **Ignorar en movimiento** - la plataforma excluirá automáticamente de las reglas e informes los vaciados y rellenados que se produzcan durante el movimiento. El movimiento viene determinado por el [ajuste y detección de estacionado](../../../../guia-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/widget-de-deteccin-de-estacionado.md).
   * Drenajes: se excluirán los drenajes en movimiento.
   * Rellenos: se filtrarán los rellenos en movimiento.
   * Tiempo de espera del filtro: este ajuste aparece cuando está activada la función Ignorar. Determina el periodo de tiempo de espera en minutos que se utilizará para acortar los intervalos de conducción para el filtrado de combustible. Esta opción puede ser útil si el nivel de combustible se estabiliza sólo después de que ha pasado algún tiempo desde el repostaje, y el vehículo ya ha comenzado a moverse. Esto es más común en vehículos con grandes depósitos de combustible. El ajuste por defecto para esta función es de 5 minutos.
@@ -111,8 +109,8 @@ Las reglas de vaciado y repostaje se basan en la tabla de calibración y en el e
 
 La plataforma registrará la última lectura actual del sensor durante un intervalo de diez minutos. Basándose en esta lectura, se activarán los siguientes eventos:
 
-* Si el nivel de combustible ha aumentado más que el error absoluto, se registrará un evento de «llenado».
-* Si el nivel de carburante ha disminuido más que el error absoluto, se registrará un evento de «vaciado».
+* Si el nivel de combustible ha aumentado más que el error absoluto, se registrará un evento de "llenado".
+* Si el nivel de carburante ha disminuido más que el error absoluto, se registrará un evento de "vaciado".
 
 Por ejemplo, si la capacidad del depósito es de 100 litros y la precisión es del 5%, un cambio de 5 litros en el nivel de combustible en un plazo de 10 minutos activará la regla.
 
@@ -120,9 +118,9 @@ Por ejemplo, si la capacidad del depósito es de 100 litros y la precisión es d
 
 El sistema de informes proporciona un método de análisis más avanzado, ya que se basa en un conjunto mayor de datos guardados. Todos los parámetros se tienen en cuenta en el análisis de los informes.
 
-La plataforma utiliza la tasa de disminución del nivel de combustible y el error absoluto para identificar y registrar los vaciados de combustible. Se produce un «vaciado» cuando el nivel de combustible disminuye más que el error absoluto dentro de los umbrales especificados para vaciados por tiempo o kilometraje (si se han establecido).
+La plataforma utiliza la tasa de disminución del nivel de combustible y el error absoluto para identificar y registrar los vaciados de combustible. Se produce un "vaciado" cuando el nivel de combustible disminuye más que el error absoluto dentro de los umbrales especificados para vaciados por tiempo o kilometraje (si se han establecido).
 
-En el informe, se registra un evento de «llenado» cuando el nivel de combustible aumenta más que el error absoluto. La plataforma agrupará los eventos de llenado o vaciado consecutivos, lo que significa que si la misma condición se activa repetidamente, la plataforma los agrupará en un único evento grande de llenado o vaciado.
+En el informe, se registra un evento de llenado cuando el nivel de combustible aumenta más que el error absoluto. La plataforma agrupará los eventos de "llenado" o vaciado consecutivos, lo que significa que si la misma condición se activa repetidamente, la plataforma los agrupará en un único evento grande de llenado o vaciado.
 
 #### Ignorar drenados y repostajes en movimiento
 

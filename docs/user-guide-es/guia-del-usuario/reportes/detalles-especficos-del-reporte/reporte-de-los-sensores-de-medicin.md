@@ -23,7 +23,7 @@ El reporte utiliza varios parámetros para adaptar el resultado a sus necesidade
 * **Mostrar dirección:** Muestra la dirección recibida por la plataforma junto con los datos del sensor. La dirección mostrada corresponde a la primera lectura del segmento detallado.
 * **Utiliza un filtro inteligente:** Excluir los datos de viajes cortos, definidos como viajes de menos de 300 metros con menos de 4 puntos de datos enviados por el dispositivo.
 
-Para cada dispositivo, debe seleccionar el sensor para el que desea generar el reporte. Solo los dispositivos con [medición](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensor-de-medicin/) o sensores [virtuales](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensores-virtuales/) estarán disponibles en la lista. Si selecciona un sensor virtual de un tipo incorrecto, el reporte indicará "Este no es un sensor de medición".
+Para cada dispositivo, debe seleccionar el sensor para el que desea generar el reporte. Solo los dispositivos con [medición](../../../readme/dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-medicin/) o sensores [virtuales](../../dispositivos-y-ajustes/sensores-de-vehculos/sensores-de-vehculos/sensores-virtuales/) estarán disponibles en la lista. Si selecciona un sensor virtual de un tipo incorrecto, el reporte indicará "Este no es un sensor de medición".
 
 ## Visualizaciones
 
