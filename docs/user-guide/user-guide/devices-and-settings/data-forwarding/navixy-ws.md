@@ -4,7 +4,7 @@
 
 **Navixy Web Service** data forwarding protocol transmits fleet data from the Navixy system to any third-party system.
 
-_Protocol Category: Data consolidation protocol_&#x20;
+_Protocol Category: Data consolidation protocol_
 
 #### Table of contents
 
@@ -71,7 +71,7 @@ To set up data forwarding in Navixy Web Service protocol:
 
 6. The **Retranslation management** screen should look similar to the following, with the Navixy Web Service login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-4-600x112.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-4-600x112.png)
 
 7. Next, the retranslator will need to be linked to the device. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click “Link” below.
 8. Select the retranslator to be connected and click **Link**. External ID is not needed for the Navixy Web Service protocol.
