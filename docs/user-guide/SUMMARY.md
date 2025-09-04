@@ -119,7 +119,7 @@
       * [State field value](user-guide/events-and-notifications/inputs-and-outputs/state-field-value.md)
   * [Reports](user-guide/reports/README.md)
     * [Report types](user-guide/reports/report-types.md)
-    * [Read and understand reports](user-guide/reports/read-and-understand-reports.md)
+    * [Reading and understanding reports](user-guide/reports/read-and-understand-reports.md)
     * [Specific report details](user-guide/reports/specific-report-details/README.md)
       * [Trip report](user-guide/reports/specific-report-details/trip-report.md)
       * [Fuel volume report](user-guide/reports/specific-report-details/fuel-volume-report.md)
