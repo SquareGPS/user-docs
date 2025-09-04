@@ -22,7 +22,7 @@ Primero hay que obtener una lista de la correspondencia entre los valores brutos
 
 Para agregar una fila, haga clic en ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/add.png).
 
-En la línea creada, rellene el campo «Valor del sensor» con el valor obtenido, y el campo **Cantidad** con la cantidad medida correspondiente.
+En la línea creada, rellene el campo **Valor del sensor** con el valor obtenido y el campo **Cantidad** con la cantidad medida correspondiente.
 
 Para borrar una fila, haga clic en ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/del.png).
 
@@ -39,7 +39,7 @@ Para un ajuste más preciso, pulse el botón «Ajustes avanzados» ![Measurement
 
 **Orden de filtrado:**
 
-Tenga en cuenta que las restricciones «**menos que**» y «**más que**» se aplican antes que el «Multiplicador».
+Tenga en cuenta que las restricciones **menos que** y **más que** se aplican antes que **Multiplicador**.
 
 Todo el orden de filtrado:
 
@@ -49,9 +49,9 @@ Todo el orden de filtrado:
 
 Ejemplo: Valor bruto entrante - 1000, los límites son 3000 y 100, el multiplicador es igual a 0,2.
 
-En este caso, el valor pasa por el filtro mín/máx, se multiplica por 0,2 y se convierte en 200. Y aquí es donde se aplica la tabla de calibración. La tabla de calibración toma 200 como «Valor del sensor» (valor de origen) y lo convierte en el valor objetivo de «Cantidad» que se mostrará en las instalaciones de la interfaz de usuario. Si un paquete de datos entrante contiene los datos del sensor con un valor superior a 3000, el valor no pasará los límites, se descarta, por lo tanto, no se aplica la multiplicación ni la calibración.
+En este caso, el valor pasa por el filtro mín/máx, se multiplica por 0,2 y se convierte en 200. Y aquí es donde se aplica la tabla de calibración. La tabla de calibración toma 200 como **Valor del sensor** (valor de origen) y lo convierte en el valor objetivo de **Cantidad** que se mostrará en las instalaciones de la interfaz de usuario. Si un paquete de datos entrante contiene los datos del sensor con un valor superior a 3000, el valor no pasará los límites, se descarta, por lo tanto, no se aplica la multiplicación ni la calibración.
 
-Los números aquí son para ejemplo y usted puede tener otras configuraciones pero el principio permanece.
+Los números aquí son para ejemplo y usted puede tener otras configuraciones, pero el principio permanece.
 
 **Gráfica:**
 

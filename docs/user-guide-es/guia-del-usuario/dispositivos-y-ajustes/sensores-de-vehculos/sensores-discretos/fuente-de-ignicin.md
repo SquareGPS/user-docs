@@ -1,7 +1,5 @@
 # Fuente de ignición
 
-## Fuente de ignición
-
 Algunos dispositivos permiten no conectar el cable de encendido a la entrada del dispositivo para transmitir el estado del encendido, sino utilizar un encendido virtual basado en las lecturas del sensor de movimiento o en la tensión de a bordo del vehículo.
 
 Cuando el motor está en marcha, la alimentación del vehículo la proporciona el generador del vehículo, que tiene un voltaje más alto que la batería (para recargar esta última). La tensión es mayor y permite determinar el estado del encendido.

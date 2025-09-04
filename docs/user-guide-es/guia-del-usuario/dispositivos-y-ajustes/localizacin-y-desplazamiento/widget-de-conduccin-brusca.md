@@ -8,6 +8,6 @@ Como los vehículos varían en sus características técnicas -por ejemplo, la c
 
 Para acceder al **Widget de conducción brusca** en Navixy, navegue hasta la sección **Dispositivos y ajustes,** seleccione el dispositivo deseado y a continuación, despliegue el widget "Conducción brusca" para ajustar la configuración.
 
-![image-20240815-214000.png](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-214000.png)
+![](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-214000.png)
 
 En el widget, puedes ajustar los valores del umbral de aceleración, frenado y giro. La superación de estos umbrales activará diferentes tipos de eventos, que pueden analizarse posteriormente mediante reportes de eventos o reportes de eco-conducción. Esta personalización garantiza que el sistema refleje con precisión las condiciones de conducción y los requisitos de seguridad de su flota.

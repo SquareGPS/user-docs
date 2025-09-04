@@ -2,9 +2,7 @@
 
 ## Sensor discreto
 
-Para añadir un sensor discreto pulse ![Discrete sensor](https://www.navixy.com/wp-content/uploads/2019/06/plus.jpg)
-
-y en el menú emergente seleccione "Sensor discreto":
+Para añadir un sensor discreto pulse ![Discrete sensor](https://www.navixy.com/wp-content/uploads/2019/06/plus.jpg) y en el menú emergente seleccione "Sensor discreto":
 
 Especifique los parámetros necesarios del sensor:
 
