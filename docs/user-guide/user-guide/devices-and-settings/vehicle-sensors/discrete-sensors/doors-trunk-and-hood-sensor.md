@@ -1,6 +1,6 @@
-# Doors, trunk and hood sensor
+# Doors, trunk, and hood sensor
 
-## Doors, trunk, and hood state
+
 
 No special configuration is required. However, several factors need to be considered.
 
