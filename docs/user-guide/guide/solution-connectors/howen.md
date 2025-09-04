@@ -57,7 +57,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 1. Create new application\
    Start by clicking the button in the **User applications** list.
    1. Put the Howen VSS dashboard link in the **App URL** field:\
-      `https://vss.howentech.com/vss/#`
+      `https://vss.howentech.com/vss/?tk=hw`
    2. Enter a **Label** for the application (e.g., "Howen VSS Dashboard")
    3. Select **Embedded** in the **Show as** field to display Howen functionality within Navixy
 2. Click **Save** to complete the configuration.
