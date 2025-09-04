@@ -15,9 +15,9 @@ _Protocol Category: Enterprise Compliance_
 
 ### What is Unigis?
 
-Through the Unigis data forwarding protocol, fleet GPS tracking data is streamlined across multiple servers allowing data retransmission between Navixy and Unigis partners.
+Through the Unigis data forwarding protocol, fleet GPS tracking data is streamlined across multiple servers, allowing data retransmission between Navixy and Unigis partners.
 
-Using the Unigis protocol, users can integrate with self-service chains and/or suppliers of products and services within the Unigis network, such as Walmart, Home Depot, and Kimberly Clark. Fleet data can be transmitted between all parties without requiring access to Navixy's platform.
+Using the Unigis protocol, users can integrate with self-service chains and/or suppliers of products and services within the Unigis network, such as Walmart, Home Depot, and Kimberly-Clark. Fleet data can be transmitted between all parties without requiring access to Navixy's platform.
 
 ### Unigis general technical information
 
@@ -37,7 +37,7 @@ Data that’s sent to Unigis:
 * Theft
 * External ID (License Plate)
 
-Nature: ASCII
+Format: ASCII
 
 ### Unigis Configuration
 
@@ -47,7 +47,7 @@ To initiate data forwarding using the Unigis protocol from Navixy, you will need
 
 <table><thead><tr><th width="281.6363525390625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Destination server address and port</td><td>URL of endpoint and port that is used by Ungis TMS.<br><br>Most commonly:<br><br>* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx<br>* Port: 80</td></tr><tr><td>Login and password</td><td>Your Unigis login and password</td></tr><tr><td>External ID</td><td>License plate number of an individual vehicle</td></tr></tbody></table>
 
-To set up data forwarding in Unigis protocol:
+To set up data forwarding in the Unigis protocol:
 
 1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
 2. Click the **Data forwarding** widget.
