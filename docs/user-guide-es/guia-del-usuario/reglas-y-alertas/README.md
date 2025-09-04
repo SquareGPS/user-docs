@@ -10,7 +10,7 @@ Navixy ofrece un amplio conjunto de eventos estructurados en varias categorías 
 * [**Conexión de dispositivos**](conexin-de-dispositivos/) - Seguimiento de la conectividad de los dispositivos a la red
 * [**Posicionamiento del dispositivo**](posicionamiento-del-dispositivo/) - Supervisar la señal GPS
 * [**Seguridad**](seguridad/) - Sucesos relacionados con la seguridad y la manipulación de vehículos
-* [**Seguridad**](safety/) - Eventos relacionados con la seguridad de los conductores
+* [**Seguridad**](../../readme/reglas-y-alertas/conduccion-segura/) - Eventos relacionados con la seguridad de los conductores
 * [**Control de movimientos**](control-de-movimientos/) - Seguimiento del movimiento, la velocidad y la ruta de los vehículos
 * [**Programación y expedición**](programacin-y-expedicin/) - Gestionar la programación de vehículos y personal
 * [**Eficiencia del vehículo**](eficiencia-del-vehculo/) - Controlar el consumo de combustible y la eficiencia

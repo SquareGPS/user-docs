@@ -13,7 +13,7 @@ Para utilizar la regla de desvío de ruta, primero debe crear una o varias geoce
 1. **Crear geocercas de corredores**: Antes de configurar la regla, asegúrese de haber creado geocercas de corredor categorizadas como "ruta".
 2. **Seleccionar geocercas**: Elija las geocercas de corredor que desea supervisar en busca de desviaciones. Solo se pueden utilizar para este fin las geocercas categorizadas como "ruta".
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

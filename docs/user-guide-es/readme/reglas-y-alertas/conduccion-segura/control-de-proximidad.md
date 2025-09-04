@@ -15,10 +15,10 @@ Al emplear esta norma, las organizaciones pueden mejorar la seguridad, garantiza
 
 La funcionalidad de esta regla depende de las capacidades y la configuración del dispositivo, por lo que no es necesario configurar ninguna regla específica.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Los detalles de la plataforma:
 
 * **Reinicia el temporizador:** La alerta "Supervisión de proximidad" tiene un temporizador de reinicio de 10 segundos, lo que significa que el evento de alerta no se producirá más de una vez cada 10 segundos. Si este tipo de evento se produce en el tiempo que la regla ha estado esperando el reinicio, este evento será omitido por la plataforma, incluyendo los informes.
 * **Múltiples dispositivos:** Esta regla permite a los usuarios seleccionar varios dispositivos de los que desean recibir notificaciones. Los rastreadores seleccionados deben admitir el evento "Proximidad cercana", y esta función debe estar integrada en la plataforma para esos rastreadores. De este modo, los usuarios pueden supervisar cómodamente los eventos de varios dispositivos.
-* **Alerta de eventos independiente del GPS:** Siempre que la plataforma identifique un evento de hardware de este tipo a partir de un paquete de datos del rastreador sin coordenadas válidas en él, la plataforma cuenta el evento como válido y lo muestra independientemente de si el evento se produjo dentro o fuera de las geovallas delimitadas para garantizar notificaciones críticas.
+* **Alerta de eventos independiente del GPS:** Siempre que la plataforma identifique un evento de hardware de este tipo a partir de un paquete de datos del rastreador sin coordenadas válidas en él, la plataforma cuenta el evento como válido y lo muestra independientemente de si el evento se produjo dentro o fuera de las geocercas delimitadas para garantizar notificaciones críticas.

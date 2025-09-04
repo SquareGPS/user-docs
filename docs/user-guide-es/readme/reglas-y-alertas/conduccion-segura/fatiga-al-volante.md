@@ -10,10 +10,10 @@ Cuando se detecta cansancio, se envía una alerta inmediata a la central, lo que
 
 Dado que esta norma depende del hardware, la configuración es mínima dentro de la propia plataforma. El principal requisito es garantizar que los rastreadores seleccionados estén equipados para admitir y detectar eventos de conducción por fatiga.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador:** La alerta "Conducción fatigada" se rige por un temporizador de reinicio de 5 segundos, lo que garantiza que las alertas no se activen con más frecuencia que una vez cada 5 segundos. Si se detecta un evento de fatiga durante este periodo de restablecimiento, se omitirá de la plataforma y de los informes.
 * **Múltiples dispositivos:** Esta regla permite seleccionar varios dispositivos para su supervisión. Los dispositivos seleccionados deben ser compatibles con los eventos de conducción fatigosa y tener esta función integrada en la plataforma. Esto permite una supervisión exhaustiva en varios vehículos o dispositivos, lo que garantiza un seguimiento y una gestión coherentes de la fatiga del conductor.
-* **Alerta de eventos independiente del GPS:** La plataforma registrará y mostrará los eventos de Conducción Fatigada incluso si el paquete de datos carece de coordenadas GPS válidas. En tales casos, no se tienen en cuenta los ajustes de geovalla interior/exterior, ya que el sistema prioriza la visualización de los eventos críticos, garantizando que no se pase por alto ninguna información crucial.
+* **Alerta de eventos independiente del GPS:** La plataforma registrará y mostrará los eventos de Conducción Fatigada incluso si el paquete de datos carece de coordenadas GPS válidas. En tales casos, no se tienen en cuenta los ajustes de geocerca Dentro/Fuera, ya que el sistema prioriza la visualización de los eventos críticos, garantizando que no se pase por alto ninguna información crucial.

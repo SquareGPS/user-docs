@@ -10,7 +10,7 @@ Por ejemplo, una empresa de logística que utilice vehículos equipados con GPS 
 
 Esta regla depende totalmente de las capacidades del dispositivo y de la configuración del hardware. No hay ajustes específicos que configurar dentro de la propia regla.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 
@@ -20,4 +20,4 @@ Para los ajustes habituales, consulte [Normas y notificaciones](../../).
 
 ## Ver también
 
-* [Bloqueo del GPS](../../posicionamiento-del-dispositivo/posicionamiento-del-dispositivo/bloqueo-del-gps.md)
+* [Bloqueo del GPS](../posicionamiento-del-dispositivo/bloqueo-del-gps.md)

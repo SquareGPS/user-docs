@@ -12,7 +12,7 @@ La configuración de esta regla ayuda a los usuarios a mantenerse informados sob
 
 La configuración de una regla de detección de aparcamiento se gestiona exclusivamente dentro del widget Detección de aparcamiento. Para obtener información detallada sobre la configuración de la detección de aparcamiento, consulte el artículo Detección de aparcamiento.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2761228324/Rules+and+Notifications#Manage-rules).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

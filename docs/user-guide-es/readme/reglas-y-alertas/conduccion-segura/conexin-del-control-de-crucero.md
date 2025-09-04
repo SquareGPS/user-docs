@@ -16,10 +16,10 @@ Estas prestaciones pueden variar en función de la marca, el modelo y las caract
 
 Esta regla no requiere ninguna configuración específica.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador:** La alerta "Control de crucero conectado/desconectado" tiene un Temporizador de 10 minutos, impidiendo que la alerta se active más de una vez cada 10 minutos. Si se produce otro evento dentro de este periodo de restablecimiento, se omitirá de la plataforma y de los informes.
 * **Múltiples dispositivos:** Los usuarios pueden seleccionar varios rastreadores para recibir notificaciones. Los rastreadores seleccionados deben admitir eventos de Encendido/Apagado del Control de Crucero y tener esta función integrada en la plataforma. Esto permite supervisar los eventos de control de crucero en varios vehículos.
-* **Alerta de eventos independiente del GPS:** La plataforma registra y muestra los eventos de Control de Crucero incluso si el paquete de datos carece de coordenadas GPS válidas. Los ajustes de geovalla Inside/Outside se ignoran para esta regla, lo que garantiza que no se pierdan eventos críticos.
+* **Alerta de eventos independiente del GPS:** La plataforma registra y muestra los eventos de Control de Crucero incluso si el paquete de datos carece de coordenadas GPS válidas. Los ajustes de geocerca Dentro/Fuera se ignoran para esta regla, lo que garantiza que no se pierdan eventos críticos.

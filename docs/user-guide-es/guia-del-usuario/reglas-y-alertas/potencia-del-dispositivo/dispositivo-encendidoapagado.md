@@ -5,7 +5,7 @@
 La regla "Dispositivo encendido/apagado" permite a los usuarios controlar cuándo un dispositivo GPS está encendido o apagado. Esta regla es especialmente útil para los administradores que necesitan asegurarse de que los empleados utilizan los dispositivos GPS de acuerdo con las políticas prescritas durante las horas de trabajo. Proporciona información valiosa sobre los patrones de uso de los dispositivos, ayudando a prevenir su uso indebido y garantizando su correcto funcionamiento.
 
 {% hint style="danger" %}
-Esta regla sólo se aplica a los dispositivos que tienen la capacidad de informar sobre su estado de encendido. En otras palabras, el dispositivo GPS debe ser capaz de enviar notificaciones a la plataforma cuando está encendido o apagado. Si un dispositivo carece de esta funcionalidad, la regla no se puede aplicar, ya que la plataforma no recibiría los datos necesarios para activar las notificaciones, pero aún se puede utilizar el dispositivo independiente "[El dispositivo ha perdido la conexión](../conexin-de-dispositivos/conexin-de-dispositivos/el-dispositivo-ha-perdido-la-conexin.md)".
+Esta regla sólo se aplica a los dispositivos que tienen la capacidad de informar sobre su estado de encendido. En otras palabras, el dispositivo GPS debe ser capaz de enviar notificaciones a la plataforma cuando está encendido o apagado. Si un dispositivo carece de esta funcionalidad, la regla no se puede aplicar, ya que la plataforma no recibiría los datos necesarios para activar las notificaciones, pero aún se puede utilizar el dispositivo independiente "[El dispositivo ha perdido la conexión](../../../readme/reglas-y-alertas/conexin-de-dispositivos/el-dispositivo-ha-perdido-la-conexin.md)".
 {% endhint %}
 
 ## Configuración de reglas

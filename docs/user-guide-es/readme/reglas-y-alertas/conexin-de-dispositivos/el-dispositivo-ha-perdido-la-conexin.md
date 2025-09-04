@@ -6,7 +6,9 @@ La regla "Pérdida de conexión del dispositivo" está diseñada para controlar 
 
 Esta regla ayuda a los usuarios a mantenerse informados sobre el estado operativo de sus dispositivos de seguimiento y permite responder con rapidez a posibles problemas, como averías en los equipos, interferencias GSM o robos de vehículos. También ayuda a recopilar datos valiosos para optimizar las operaciones, como la identificación de zonas con mala cobertura o la detección de fallos en el equipo o el proveedor de servicios.
 
-> \[!INFO] Para supervisar en tiempo real el estado de la alimentación del dispositivo, se recomienda utilizar la función ["Función de autoinforme "Dispositivo interruptor ON/OFF](../../../../../../wiki/pages/createpage.action)si el dispositivo GPS lo admite.
+{% hint style="info" %}
+Para supervisar en tiempo real el estado de la alimentación del dispositivo, se recomienda utilizar la función ["Función de autoinforme "Dispositivo interruptor ON/OFF](../../../guia-del-usuario/reglas-y-alertas/potencia-del-dispositivo/dispositivo-encendidoapagado.md)si el dispositivo GPS lo admite.
+{% endhint %}
 
 ## Configuración de reglas
 
@@ -19,7 +21,7 @@ El ajuste "Tiempo de desconexión superior a" permite a los usuarios definir un 
 
 Por ejemplo, si un dispositivo pierde la conexión a las 10:10 AM, tras el tiempo de espera predeterminado de 10 minutos, se marcará con un estado rojo a las 10:20 AM. Si el usuario establece el tiempo de espera sin conexión personalizado en 7 minutos, la notificación se activará a las 10:27 AM.
 
-Para conocer la configuración habitual de las reglas, consulte [Normas y notificaciones](../../).
+Para conocer la configuración habitual de las reglas, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 

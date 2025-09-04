@@ -10,10 +10,10 @@ Esta regla activa las notificaciones cada vez que se activa la función de llama
 
 La funcionalidad de esta regla depende de las capacidades y la configuración del dispositivo, por lo que no es necesario configurar ninguna regla específica.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador:** La alerta "Llamada de emergencia" tiene un temporizador de restablecimiento de 1 minuto, lo que significa que la alerta no se activará más de una vez por minuto. Si se produce un evento mientras la regla está esperando el reinicio, la plataforma omitirá el evento, incluso en los informes.
 * **Múltiples dispositivos:** Esta regla permite a los usuarios seleccionar varios rastreadores de los que desean recibir notificaciones. Los rastreadores seleccionados deben admitir el evento "Llamada de emergencia", y esta función debe estar integrada en la plataforma para esos rastreadores. Esto permite a los usuarios supervisar los eventos en varios dispositivos cómodamente.
-* **Alerta de eventos independiente del GPS:** La plataforma reconoce y contabiliza este tipo de evento de hardware aunque el paquete de datos carezca de coordenadas GPS válidas. El evento se mostrará independientemente de si se ha producido dentro o fuera de las geovallas definidas. En este caso se ignoran los ajustes de geofence Inside/Outside, lo que garantiza que no se omita ningún evento crítico.
+* **Alerta de eventos independiente del GPS:** La plataforma reconoce y contabiliza este tipo de evento de hardware aunque el paquete de datos carezca de coordenadas GPS válidas. El evento se mostrará independientemente de si se ha producido dentro o fuera de las geocercas definidas. En este caso se ignoran los ajustes de geocerca Dentro/Fuera, lo que garantiza que no se omita ningún evento crítico.

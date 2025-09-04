@@ -6,7 +6,9 @@ La regla "Check engine (MIL)" está diseñada para monitorizar el estado de la l
 
 La MIL se enciende normalmente cuando el sistema de diagnóstico a bordo del vehículo detecta un problema con el motor, las emisiones u otros sistemas críticos. Al recibir notificaciones a tiempo, los usuarios pueden tomar medidas inmediatas para solucionar posibles problemas, evitando daños mayores y garantizando la seguridad y el cumplimiento de las normas del vehículo.
 
-> \[!INFO] Para supervisar códigos DTC específicos, puede configurar un [Valor del campo Estado](../entradas-y-salidas/valor-del-campo-estado.md) regla.
+{% hint style="info" %}
+Para supervisar códigos DTC específicos, puede configurar un [Valor del campo Estado](../entradas-y-salidas/valor-del-campo-estado.md) regla.
+{% endhint %}
 
 ## Configuración de reglas
 

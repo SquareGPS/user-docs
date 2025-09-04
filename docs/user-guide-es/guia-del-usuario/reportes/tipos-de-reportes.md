@@ -59,7 +59,7 @@ Estos reportes son esenciales para controlar el comportamiento de los conductore
 
 * **Infracción de velocidad**\
   Detalla los casos en los que el vehículo superó el límite de velocidad, incluida la fecha, el lugar y la velocidad real. Véase también:
-  * [Conducción brusca en normas y notificaciones](../reglas-y-alertas/safety/conduccin-dura.md)
+  * [Conducción brusca en normas y notificaciones](../../readme/reglas-y-alertas/conduccion-segura/conduccin-dura.md)
   * [Conducción ecológica en la gestión de flotas](../gestin-de-flotas/conduccin-ecolgica-eco-driving.md)
 
 ### Reportes de estado de los dispositivos
@@ -71,7 +71,7 @@ Los reportes de estado de los dispositivos proporcionan información sobre el es
   * [Dispositivo activado/desactivado en Reglas y notificaciones](https://squaregps.atlassian.net/wiki/pages/createpage.action?spaceKey=USERDOCSOLD\&title=Device%20switched%20ON%20%2F%20OFF)
 * **Conexión GSM perdida**\
   Informa de los periodos en los que el dispositivo GPS perdió su conexión GSM, lo que indica una falta de comunicación con el servidor de monitorización. Véase también:
-  * [Dispositivo perdido conexión en Reglas y notificaciones](../reglas-y-alertas/conexin-de-dispositivos/conexin-de-dispositivos/el-dispositivo-ha-perdido-la-conexin.md)
+  * [Dispositivo perdido conexión en Reglas y notificaciones](../../readme/reglas-y-alertas/conexin-de-dispositivos/el-dispositivo-ha-perdido-la-conexin.md)
 
 ## reportes sobre dispositivos conectados
 

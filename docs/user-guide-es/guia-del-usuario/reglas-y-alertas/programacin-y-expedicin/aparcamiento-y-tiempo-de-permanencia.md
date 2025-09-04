@@ -13,7 +13,7 @@ El tiempo de estacionamiento empieza a contar en cuanto el vehículo entra en es
 
 Para controlar el tiempo de permanencia en zonas específicas, vincule la regla a las geocercas designadas.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

@@ -23,10 +23,10 @@ El evento "Ausencia del conductor" es un componente fundamental para mejorar la 
 
 No se requiere ninguna configuración específica para esta regla.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador:** La alerta "Ausencia del conductor" tiene un temporizador de restablecimiento de 10 segundos, lo que significa que la alerta no se activará con más frecuencia que una vez cada 10 segundos. Si se produce un evento mientras la regla está en el periodo de restablecimiento, la plataforma suprimirá la alerta, manteniendo las notificaciones y los informes claros y manejables.
 * **Múltiples dispositivos:** Esta regla puede aplicarse a múltiples rastreadores, siempre que admitan eventos de "Ausencia del conductor" y tengan esta función integrada en la plataforma. Esto permite a los usuarios supervisar estos eventos en varios vehículos o dispositivos cómodamente.
-* **Procesamiento de eventos independiente del GPS:** La plataforma procesa y muestra los incidentes de ausencia del conductor aunque el paquete de datos carezca de coordenadas GPS válidas. Estos eventos se registran independientemente de si se producen dentro o fuera de una geo-valla designada. En este caso, la configuración de la geovalla Inside/Outside se omite, lo que garantiza que no se pierda ningún evento crítico.
+* **Procesamiento de eventos independiente del GPS:** La plataforma procesa y muestra los incidentes de ausencia del conductor aunque el paquete de datos carezca de coordenadas GPS válidas. Estos eventos se registran independientemente de si se producen dentro o fuera de una geocerca designada. En este caso, la configuración de la geocerca Dentro/Fuera se omite, lo que garantiza que no se pierda ningún evento crítico.

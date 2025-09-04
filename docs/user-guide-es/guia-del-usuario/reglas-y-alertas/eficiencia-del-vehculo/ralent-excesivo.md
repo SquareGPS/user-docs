@@ -14,13 +14,13 @@ El ralentí excesivo es un evento importante de controlar en la gestión de flot
 
 * **Duración del ralentí:** Establezca la duración después de la cual el ralentí se considerará excesivo. La regla supervisará cuando un vehículo esté aparcado (según lo determinado por los ajustes de Detección de Aparcamiento) y el encendido esté en ON. Si el vehículo permanece en este estado más allá de la duración especificada, se activará una notificación.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ### Dispositivo detectado
 
 * **Ajustes específicos del dispositivo:** Esta regla se basa en la configuración del hardware para detectar el ralentí. Debe consultar la documentación del dispositivo para configurar la detección de ralentí en el rastreador. La plataforma recibirá y mostrará los eventos de ralentí en función de la salida del dispositivo.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

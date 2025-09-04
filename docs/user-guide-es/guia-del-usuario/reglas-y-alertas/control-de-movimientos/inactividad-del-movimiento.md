@@ -12,11 +12,11 @@ Esta norma es especialmente útil en tres ámbitos clave:
 
 ## Configuración de reglas
 
-Dado que la "Inactividad de movimiento" es un evento detectado por el dispositivo, no hay ningún ajuste específico en las Reglas y Notificaciones. En su lugar, utilice el widget Configuración del dispositivo para configurar remotamente el límite de velocidad en el dispositivo.
+Dado que la "Inactividad de movimiento" es un evento detectado por el dispositivo, no hay ningún ajuste específico en las Reglas y Alertas. En su lugar, utilice el widget **Configuración del dispositivo** para configurar remotamente el límite de velocidad en el dispositivo.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2761228324/Rules+and+Notifications#Manage-rules).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador.** La alerta "Inactividad del movimiento" tiene un temporizador de restablecimiento de 1 minuto, lo que significa que la alerta no se activará con más frecuencia que una vez cada minuto. Si se produce un evento mientras la regla está esperando el reinicio, la plataforma omitirá el evento, incluso en los informes.
-* **Alerta de eventos independiente del GPS.** El sistema puede generar una alerta de "Inactividad de movimiento" aunque no se disponga de datos GPS. Si se detectan coordenadas GPS no válidas, la plataforma seguirá registrando y mostrando el evento, independientemente de si se ha producido dentro o fuera de las geovallas designadas. En estos casos se ignora la lógica de la configuración de la geovalla Dentro/Fuera para garantizar que no se pierdan eventos críticos.
+* **Alerta de eventos independiente del GPS.** El sistema puede generar una alerta de "Inactividad de movimiento" aunque no se disponga de datos GPS. Si se detectan coordenadas GPS no válidas, la plataforma seguirá registrando y mostrando el evento, independientemente de si se ha producido dentro o fuera de las geocercas designadas. En estos casos se ignora la lógica de la configuración de la geocerca Dentro/Fuera para garantizar que no se pierdan eventos críticos.

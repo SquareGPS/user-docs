@@ -23,10 +23,10 @@ La supervisión de estos eventos ayuda a mejorar la concienciación de los condu
 
 Dado que los eventos ADAS se procesan en el dispositivo telemático de vídeo en lugar de en la nube, no se requiere ninguna configuración adicional. Solo tienes que seleccionar los eventos que deseas supervisar para garantizar un seguimiento exhaustivo del comportamiento del conductor.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 
 * **No hay temporizador de reinicio:** La alerta "ADAS" no tiene temporizador de reinicio, lo que significa que se activará una alerta cada vez que se detecte un evento ADAS.
 * **Múltiples dispositivos:** Los usuarios pueden seleccionar varios rastreadores para recibir notificaciones ADAS. El único requisito es que los rastreadores elegidos admitan eventos ADAS y que esta función esté integrada en la plataforma. Esto permite una supervisión eficiente de los comportamientos de conducción en toda una flota de vehículos.
-* **Alerta de evento independiente del GPS:** La plataforma reconocerá y mostrará los eventos ADAS incluso si el paquete de datos del rastreador carece de coordenadas GPS válidas. En estos casos, se ignoran los ajustes de geovalla Inside/Outside, lo que garantiza que no se pierdan eventos críticos.
+* **Alerta de evento independiente del GPS:** La plataforma reconocerá y mostrará los eventos ADAS incluso si el paquete de datos del rastreador carece de coordenadas GPS válidas. En estos casos, se ignoran los ajustes de geocerca **Dentro/Fuera**, lo que garantiza que no se pierdan eventos críticos.

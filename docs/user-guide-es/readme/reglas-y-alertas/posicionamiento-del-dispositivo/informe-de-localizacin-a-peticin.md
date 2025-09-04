@@ -10,7 +10,7 @@ Para aumentar aún más la comodidad, Navixy ofrece un **Regla de actualización
 
 ## Configuración de reglas
 
-No hay ajustes específicos para las reglas. Para conocer los ajustes habituales, consulte [Normas y notificaciones](../../).
+No hay ajustes específicos para las reglas. Para conocer los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 

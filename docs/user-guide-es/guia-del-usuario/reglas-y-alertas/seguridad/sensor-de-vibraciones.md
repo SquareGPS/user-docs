@@ -12,10 +12,10 @@ Es importante señalar que la eficacia de esta regla depende del hardware y de l
 
 Esta regla depende totalmente de las capacidades del dispositivo y de la configuración del hardware. No hay ajustes específicos que configurar dentro de la propia regla.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador:** La alerta "Sensor de vibración" tiene un temporizador de restablecimiento de 1 minuto, lo que significa que la alerta no se activará más de una vez cada minuto. Si se produce un evento mientras la regla está esperando el reinicio, la plataforma omitirá el evento, incluso en los informes.
 * **Múltiples dispositivos:** Los usuarios pueden seleccionar varios rastreadores para recibir notificaciones de esta regla, siempre que los rastreadores admitan eventos del sensor de vibración y la función esté integrada en la plataforma.
-* **Alerta de eventos independiente del GPS:** Si la plataforma recibe un evento de vibración de un rastreador sin coordenadas GPS válidas, el evento se sigue contando como válido y se muestra, independientemente de si se ha producido dentro o fuera de una geovalla. La lógica de los botones de opción Dentro/Fuera se ignora en este caso, ya que es mejor mostrar un evento potencialmente crítico que omitirlo.
+* **Alerta de eventos independiente del GPS:** Si la plataforma recibe un evento de vibración de un rastreador sin coordenadas GPS válidas, el evento se sigue contando como válido y se muestra, independientemente de si se ha producido dentro o fuera de una geocerca. La lógica de los botones de opción Dentro/Fuera se ignora en este caso, ya que es mejor mostrar un evento potencialmente crítico que omitirlo.

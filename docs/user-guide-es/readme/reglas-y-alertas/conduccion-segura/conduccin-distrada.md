@@ -12,7 +12,7 @@ Esta regla depende del dispositivo, lo que significa que depende de la configura
 
 Dado que esta regla se basa en la configuración del hardware, se requiere una configuración mínima dentro de la propia plataforma. La clave es asegurarse de que los dispositivos seleccionados están configurados para detectar y notificar eventos de distracción del conductor.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../../../guia-del-usuario/reglas-y-alertas/).
 
 ## Detalles del funcionamiento del sistema
 

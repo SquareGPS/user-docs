@@ -1,2 +1,0 @@
-# posicionamiento-del-dispositivo
-

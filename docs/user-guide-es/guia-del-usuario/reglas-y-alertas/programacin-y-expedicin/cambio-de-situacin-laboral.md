@@ -1,4 +1,4 @@
-# Cambio de situación laboral
+# Cambio de estado de trabajo
 
 ## Visión general
 
@@ -12,7 +12,7 @@ Cuando la regla "Estado de trabajo" está activa, cualquier cambio en el estado 
 
 Defina los estados de trabajo específicos que activarán las notificaciones cuando sean seleccionados por los empleados. Los usuarios pueden elegir qué estados supervisar, asegurándose de que el sistema sólo alerta sobre las actualizaciones de estado más relevantes. Estos estados se crean y asignan a través del widget "Estados de trabajo" del menú Dispositivos y configuración.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

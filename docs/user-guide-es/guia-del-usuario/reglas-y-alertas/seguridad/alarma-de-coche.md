@@ -8,10 +8,10 @@ Esta regla funciona controlando el sistema de alarma del vehículo a través de 
 
 ## Configuración de reglas
 
-No es necesario configurar reglas específicas. Para los ajustes habituales, consulte [Normas y notificaciones](../).
+No es necesario configurar reglas específicas. Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reiniciar temporizador:** La alerta "Alarma de coche activada" tiene un temporizador de restablecimiento de 5 minutos, lo que significa que la alerta no se activará más de una vez cada 5 minutos. Si se produce un evento durante el periodo de restablecimiento, la plataforma suprimirá la alerta, manteniendo las notificaciones y los informes claros y concisos.
 * **Múltiples dispositivos:** Esta regla puede aplicarse a varios rastreadores, siempre que admitan eventos de "activación de alarma de coche" y tengan esta función integrada en la plataforma. Esto le permite supervisar estas alertas a través de varios vehículos o dispositivos de manera eficiente.
-* **Alerta de evento independiente del GPS:** La plataforma procesa y muestra los eventos de alarma del coche aunque el paquete de datos carezca de coordenadas GPS válidas. Estos eventos se registran independientemente de si se producen dentro o fuera de una geovalla designada. En este caso, la configuración de la geovalla Inside/Outside se omite, lo que garantiza que no se pierda ningún evento crítico.
+* **Alerta de evento independiente del GPS:** La plataforma procesa y muestra los eventos de alarma del coche aunque el paquete de datos carezca de coordenadas GPS válidas. Estos eventos se registran independientemente de si se producen dentro o fuera de una geocerca designada. En este caso, la configuración de la geocerca **Dentro/Fuera** se omite, lo que garantiza que no se pierda ningún evento crítico.
