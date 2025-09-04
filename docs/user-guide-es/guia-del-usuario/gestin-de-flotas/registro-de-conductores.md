@@ -1,12 +1,12 @@
-# Registro de conductores
+# Diario de conductor
 
 ## Visión general
 
-El **Registro de conductores** de Navixy es una potente herramienta para la gestión de flotas, que ofrece un seguimiento detallado y una clasificación de los viajes de los vehículos.
+El **Diario de conductor** de Navixy es una potente herramienta para la gestión de flotas, que ofrece un seguimiento detallado y una clasificación de los viajes de los vehículos.
 
 Esta función permite a los gestores de flotas supervisar y clasificar los viajes, proporcionando información valiosa sobre el uso de los vehículos, la finalidad de los viajes y el comportamiento de los conductores. Al clasificar los viajes con precisión, las organizaciones pueden mejorar la precisión de los reportes, optimizar las operaciones de la flota y garantizar el cumplimiento de diversas normativas.
 
-![image-20240814-181444.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-181444.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-181444.png)
 
 ## Cómo utilizar el Diario del conductor
 

@@ -1,16 +1,12 @@
-# unigis
+# Unigis
 
-## Unigis
-
-## Unigis
-
-El protocolo de Unigis es un protocolo de reenvío de datos de ubicación entre Navixy y la plataforma TMS desarrollada por la empresa Unigis. Los casos de uso más frecuentes se relacionan con la recopilación en tiempo real de seguimiento GPS y datos de telemática de vehículos por parte de los departamentos de logística de grandes empresas de manufactura y retail. La mayoría de estas empresas están ubicadas en Estados Unidos, México, Colombia, Chile, Argentina, Brasil y España
+El protocolo de **Unigis** es un protocolo de reenvío de datos de ubicación entre Navixy y la plataforma TMS desarrollada por la empresa Unigis. Los casos de uso más frecuentes se relacionan con la recopilación en tiempo real de seguimiento GPS y datos de telemática de vehículos por parte de los departamentos de logística de grandes empresas de manufactura y retail. La mayoría de estas empresas están ubicadas en Estados Unidos, México, Colombia, Chile, Argentina, Brasil y España
 
 _Categoría del protocolo: Cumplimiento empresarial_
 
 ### ¿Qué es Unigis?
 
-A través de protocolo de retransmisión de Unigis, la información de seguimiento GPS de una flota, los datos se optimizan y comparten entre múltiples servidores, permitiendo la retransmisión de datos entre Navixy y los socios de Unigis.
+A través del protocolo de retransmisión de Unigis, la información de seguimiento GPS de una flota, los datos se optimizan y comparten entre múltiples servidores, permitiendo la retransmisión de datos entre Navixy y los socios de Unigis.
 
 Al usar el protocolo de Unigis, los usuarios pueden integrarse con cadenas de autoservicio y/o proveedores de productos y servicios dentro de la red Unigis como Walmart, Home Depot y Kimberly Clark. Los datos de la flota podrán ser transmitidos entre todas las partes sin necesidad de acceder a la plataforma de Navixy.
 
@@ -38,7 +34,7 @@ Formato: ASCII
 
 #### Puesta en marcha
 
-Para iniciar la retransmisión de datos usando el protocolo de Unigis para Navixy, necesitará los siguientes parámetros:&#x20;
+Para iniciar la retransmisión de datos usando el protocolo de Unigis para Navixy, necesitará los siguientes parámetros:
 
 |                                           |                                                                                                                                                                                                                      |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -51,7 +47,7 @@ Para configurar el reenvío de datos en Unigis, abra la configuración del dispo
 
 * Después haga clic en el widget "Reenvío de datos"
 * Selecciones “Administración de retransmisores”
-* Esto abrirá una ventana popup donde se le pedirá ingresar los parámetros al seleccionar el botón de +
+* Esto abrirá una ventana popup donde se le pedirá ingresar los parámetros al seleccionar el botón de **+**
 
 For the Unigis protocol, input the following information:
 
@@ -60,20 +56,17 @@ For the Unigis protocol, input the following information:
 * Protocolo
   * Seleccione el protocolo de Unigs de lista desplegable
 * Login y contraseña de Unigis
-* Dirección del servidor de destino
-  * [http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx](http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx)
+* Dirección del servidor de destino, por ejemplo [http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx](http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx)
 * Puerto de destino
   * 80
 
 Una pantalla de administración de retransmisión debería ser similar a la siguiente, con el nombre de usuario y la contraseña de Unigis. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
 
-![Types and parameters](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-600x112.png)
+![](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-600x112.png)
 
-A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
+A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
 
-en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
-
-Después, agregue el ID del dispositivo en el sistema de terceros, ya sea al hacer clic en el ícono de lápiz o en el campo de ID externo. Este valor deberá ser el número de placa/matrícula del lado de Unigis. Selecciones "Guardar" una vez completado.
+Después, agregue el ID del dispositivo en el sistema de terceros, ya sea al hacer clic en el ícono de lápiz o en el campo de ID externo. Este valor deberá ser el número de placa/matrícula del lado de Unigis. Selecciona "Guardar" una vez completado.
 
 #### Administración
 
@@ -86,7 +79,7 @@ Para editar o detener la retransmisión de datos, por favor siga los siguientes 
 
 Esto abrirá la ventana de administración del retransmisor. Seleccione la fila para editar y haga clic en el lápiz en la parte superior izquierda o haga doble clic en la fila en cuestión para permitir la edición. Guarde cualquier cambio.
 
-![data forwarding management](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-1-600x96.png)
+![](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-1-600x96.png)
 
 #### Solución de problemas
 

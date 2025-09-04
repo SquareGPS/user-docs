@@ -2,7 +2,7 @@
 
 El widget de **Modo de seguimiento** le permite configurar la transmisión de datos y los modos de funcionamiento de sus dispositivos de seguimiento GPS. Los ajustes disponibles en este panel pueden variar en función del modelo del rastreador, sus principios de funcionamiento y su funcionalidad.
 
-![image-20240815-182719.png](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-182719.png)
+![](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-182719.png)
 
 #### Configuración de los ajustes del modo de seguimiento
 

@@ -2,9 +2,7 @@
 
 La herramienta de exportación de datos sin procesar de Navixy permite descargar datos sin procesar analizados y descodificados de cualquier rastreador GPS de la plataforma en formato CSV. Esta función es esencial para el diagnóstico de dispositivos, el análisis de datos y la integración de datos con programas de IA / ML.
 
-\[![Raw data export tool](https://www.navixy.com/wp-content/uploads/2023/12/browser_a0qszuge3l.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/12/browser\_a0qszuge3l.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_a0qszuge3l.png" alt=""><figcaption></figcaption></figure>
 
 ## Visión general
 
@@ -21,9 +19,7 @@ Los datos brutos de salida consisten en toda la información descodificada de lo
 
 Para empezar, vaya a la sección "Dispositivos y configuración" y localice el dispositivo. A continuación, haz clic en el botón "Exportar datos" del recuadro "Datos sin procesar".
 
-\[![Raw data export tool file configuration window](https://www.navixy.com/wp-content/uploads/2023/12/browser_ybwmnfdh8h.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/12/browser\_ybwmnfdh8h.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_ybwmnfdh8h.png" alt=""><figcaption></figcaption></figure>
 
 Se abrirá la herramienta "Exportación de datos brutos". Elija el intervalo de fechas, la zona horaria y los parámetros que deben incluirse en un archivo csv.
 
@@ -63,9 +59,7 @@ Para varias entradas del mismo tipo, el sistema da prioridad a la entrada con el
 
 Aparecerá un recuento de los parámetros seleccionados, y cada parámetro elegido añadirá una columna al archivo CSV.
 
-\[![Raw data export tool file configuration window with chosen parameters](https://www.navixy.com/wp-content/uploads/2023/12/browser_imbnj05cft.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/12/browser\_imbnj05cft.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_imbnj05cft.png" alt=""><figcaption></figcaption></figure>
 
 ## Cómo leer el archivo de datos brutos
 
@@ -75,8 +69,6 @@ Tras seleccionar los parámetros necesarios, haga clic en "Descargar CSV" para d
 * El nombre del archivo incluye el ID del dispositivo, la etiqueta del rastreador y el intervalo de fecha y hora especificados.
 * Cada fila (empezando por la segunda) representa un mensaje enviado desde el dispositivo a la plataforma. La primera fila contiene la hora del mensaje en la zona horaria elegida, seguida de los parámetros seleccionados.
 
-\[![Raw data file columns example](https://www.navixy.com/wp-content/uploads/2023/12/nvidia_share_xbgmryofhf.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2023/12/nvidia\_share\_xbgmryofhf.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/nvidia_share_xbgmryofhf.png" alt=""><figcaption></figcaption></figure>
 
 Esta herramienta es esencial para el diagnóstico y el análisis, ya que proporciona información detallada sobre los datos del dispositivo.

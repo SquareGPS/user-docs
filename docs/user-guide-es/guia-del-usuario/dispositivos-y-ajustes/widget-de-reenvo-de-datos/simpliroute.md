@@ -1,10 +1,6 @@
-# simpliroute
+# SimpliRoute
 
-## Simpliroute
-
-## SimpliRoute
-
-SimpliRoute es un protocolo de retransmisión de datos que entrega datos de seguimiento de vehículos para que los usuarios envíen información desde su sistema a SimpliRoute.
+**SimpliRoute** es un protocolo de retransmisión de datos que entrega datos de seguimiento de vehículos para que los usuarios envíen información desde su sistema a SimpliRoute.
 
 _Categoría del Protocolo: Cumplimiento empresarial_
 
@@ -29,7 +25,7 @@ Datos enviados a SimpliRoute:
 * Ignición
 * Proveedor de GPS - número de identificación fiscal especificado en la información del usuario
 
-### Configuración SimpliRoute
+### Configuración de SimpliRoute
 
 #### Puesta en marcha
 
@@ -55,11 +51,9 @@ Para el protocolo SimpliRoute, ingrese la siguiente información:
 
 Una pantalla de gestión de retransmisión debería verse similar a la siguiente, con el inicio de sesión y contraseña de SimpliRoute. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
 
-![SimpliRoute](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-2-600x115.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-2-600x115.png)
 
-A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
-
-en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
+A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
 
 No se necesita ID externo para el protocolo SimpliRoute.
 
@@ -77,7 +71,7 @@ Para cambiar la configuración del retransmisor, como el nombre, la información
 
 Esto abrirá la ventana de gestión de retransmisores. Seleccione la fila para editar y haga clic en el lápiz en la parte superior izquierda, o haga doble clic en la fila en cuestión para permitir la edición. Guarde los cambios realizados.
 
-![SimpliRoute](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-600x116.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-600x116.png)
 
 #### Solución de problemas
 

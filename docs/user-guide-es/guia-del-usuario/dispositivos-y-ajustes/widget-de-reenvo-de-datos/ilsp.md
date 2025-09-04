@@ -1,8 +1,6 @@
-# ilsp
+# ILSP
 
-## ILSP
-
-## ILSP — Protocolo de datos de vehículos de seguridad privada entre servidores
+## ILSP: Protocolo de datos de vehículos de seguridad privada entre servidores
 
 ILSP ofrece servicios de seguridad privada en México. El protocolo de reenvío de datos de ILSP permite que su software comparta datos de vehículos a través de redes.
 
@@ -50,7 +48,7 @@ Luego, haga clic en el widget de “Reenvío de datos”.
 
 Haga clic en “Gestión de retransmisores”.
 
-Esto abrirá una ventana emergente donde ingresará los parámetros requeridos presionando el botón +.
+Esto abrirá una ventana emergente donde ingresará los parámetros requeridos presionando el botón **+**.
 
 Para el protocolo ILSP, ingrese la siguiente información:
 
@@ -60,17 +58,17 @@ Para el protocolo ILSP, ingrese la siguiente información:
 | Protocolo                                  | Seleccione el protocolo ILSP del menú desplegable                                                                    |
 | Dirección y puerto del servidor de destino | <p>- Dirección: <a href="https://www.ilspservices.com.mx/">https://www.ilspservices.com.mx/</a><br>- Puerto: 443</p> |
 
-Una pantalla de gestión de retransmisión debería verse similar a la siguiente, con el usuario y contraseña de ILSP. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
+Una pantalla de gestión de retransmisión debería verse similar a la siguiente, con el usuario y la contraseña de ILSP. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
 
-![ILSP](https://www.navixy.com/wp-content/uploads/2022/10/image-8-600x111.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/image-8-600x111.png)
 
-Posteriormente, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
-
-en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
+Posteriormente, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
 
 Luego, agregue la información necesaria para identificar el dispositivo en ILSP en el campo ID externo, ya sea haciendo clic en el ícono del lápiz o en el campo de ID externo. Este valor debe incluir lo siguiente desde el lado de ILSP:
 
-_UserId|MatrículaDelVehículo|RouteID_
+```
+UserId|MatrículaDelVehículo|RouteID
+```
 
 #### Gestión
 
@@ -84,7 +82,7 @@ Para cambiar la configuración del retransmisor, como el nombre, la información
 
 Esto abrirá la ventana de gestión de retransmisores. Seleccione la fila para editar y haga clic en el lápiz en la parte superior izquierda, o haga doble clic en la fila en cuestión para permitir la edición. Guarde los cambios realizados.
 
-![ILSP](https://www.navixy.com/wp-content/uploads/2022/10/image-9-600x100.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/image-9-600x100.png)
 
 #### Solución de problema
 

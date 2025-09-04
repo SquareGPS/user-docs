@@ -1,6 +1,6 @@
 # Widget de archivos DDD del tacógrafo
 
-En **Widget de archivos DDD** en Navixy está diseñado para gestionar la descarga y el almacenamiento de archivos DDD, que son fundamentales para controlar el cumplimiento de la normativa por parte de los conductores y el descanso a través de los tacógrafos. Estos archivos son esenciales para garantizar que los conductores cumplen la normativa y ayudan a identificar cualquier irregularidad en los datos del tacógrafo.
+El **Widget de archivos DDD** en Navixy está diseñado para gestionar la descarga y el almacenamiento de archivos DDD, que son fundamentales para controlar el cumplimiento de la normativa por parte de los conductores y el descanso a través de los tacógrafos. Estos archivos son esenciales para garantizar que los conductores cumplen la normativa y ayudan a identificar cualquier irregularidad en los datos del tacógrafo.
 
 #### ¿Qué son los archivos DDD?
 

@@ -1,8 +1,8 @@
 # Widget de odómetro
 
-En el **Widget de odómetro** se permite controlar el kilometraje de un vehículo en tiempo real. Las lecturas del kilometraje pueden derivarse de los datos recibidos a través de un dispositivo de seguimiento GPS o del bus CAN. Además, la función de odómetro se integra con el [Mantenimiento de la flota](../../../gestin-de-flotas/mantenimiento.md) que le permite programar el mantenimiento de un vehículo y recibir recordatorios a tiempo.
+En el **Widget de odómetro** se permite controlar el kilometraje de un vehículo en tiempo real. Las lecturas del kilometraje pueden derivarse de los datos recibidos a través de un dispositivo de seguimiento GPS o del bus CAN. Además, la función de odómetro se integra con el [Mantenimiento de la flota](../../../guia-del-usuario/gestin-de-flotas/mantenimiento.md) que le permite programar el mantenimiento de un vehículo y recibir recordatorios a tiempo.
 
-![image-20240815-181307.png](../../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-181307.png)
+![](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-181307.png)
 
 ## Activación del odómetro
 
@@ -18,7 +18,7 @@ Para activar el odómetro siga los siguientes pasos:
 
 * **Factor de corrección.** Puede establecer un factor de corrección para ajustar automáticamente las lecturas del odómetro al alza o a la baja. Introduzca un valor porcentual en el campo "Corrección". Un valor positivo aumentará las lecturas del odómetro, mientras que un valor negativo las disminuirá.
 * **Actualizando valor.** También puede actualizar el valor del odómetro siempre que sea necesario. Los valores anteriores del odómetro se pueden ver generando el "Reporte sobre todos los eventos" en la app Reportes.
-* **Acceso rápido en la vista Objeto.** Para un acceso rápido, se puede acceder al valor del odómetro y configurarlo en el widget específico en [Vista d](../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md)[eta](../../../../../../wiki/pages/createpage.action)[l](../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md)[l](../../../../../../wiki/pages/createpage.action)[a](../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md)[d](../../../../../../wiki/pages/createpage.action)[a del](../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md) [objet](../../../../../../wiki/pages/createpage.action)[o](../../../seguimiento/lista-de-objetos/vista-detallada-del-objeto.md).
+* **Acceso rápido en la vista Objeto.** Para un acceso rápido, se puede acceder al valor del odómetro y configurarlo en el widget específico en [Widget del](../../../guia-del-usuario/seguimiento/lista-de-objetos/vista-detallada-del-objeto.md) [objet](../../../../../wiki/pages/createpage.action)[o](../../../guia-del-usuario/seguimiento/lista-de-objetos/vista-detallada-del-objeto.md).
 
 ## Añadir más fuentes de Odómetros
 

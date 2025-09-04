@@ -13,17 +13,21 @@ Después de realizar cualquier cambio, haga clic en "Guardar" para aplicar las a
 
 Puede sustituir fácilmente un localizador GPS conectado a la plataforma. Tanto si se trata de una actualización como si el dispositivo no funciona correctamente, el mecanismo de sustitución garantiza una transición sin problemas, ya que conserva la configuración, los ajustes y los datos históricos del dispositivo original. Accesible a través de la sección de la interfaz **Dispositivos y ajustes**, este proceso intuitivo y ágil minimiza el tiempo de inactividad y maximiza la comodidad, manteniendo sus operaciones en continuo funcionamiento.
 
-> \[!INFO] **Importante**
->
-> * Algunos dispositivos, como los teléfonos inteligentes utilizados como rastreadores a través de la aplicación X-GPS, no son compatibles con el mecanismo de sustitución y no tienen un botón de **Reemplazar dispositivo** disponible para ellos.
-> * Los datos históricos sólo estarán disponibles una vez que el nuevo dispositivo se haya activado correctamente.
+{% hint style="warning" %}
+**Importante**
+
+* Algunos dispositivos, como los teléfonos inteligentes utilizados como rastreadores a través de la aplicación X-GPS, no son compatibles con el mecanismo de sustitución y no tienen un botón de **Reemplazar dispositivo** disponible para ellos.
+* Los datos históricos sólo estarán disponibles una vez que el nuevo dispositivo se haya activado correctamente.
+{% endhint %}
 
 ### Cómo sustituir un dispositivo
 
 1. **Seleccione el dispositivo**\
    Vaya a la sección Dispositivos y configuración y seleccione el dispositivo deseado de la lista de objetos haciendo clic sobre él.
-2. **Iniciar la sustitución**\
-   Haga clic en Reemplazar dispositivo en el panel de información del dispositivo.![image-20241213-115932.png](../../../gua-del-usuario/dispositivos-y-ajustes/gestin-de-objetos/attachments/image-20241213-115932.png)
+2.  **Iniciar la sustitución**\
+    Haga clic en Reemplazar dispositivo en el panel de información del dispositivo.
+
+    <figure><img src="../../../gua-del-usuario/dispositivos-y-ajustes/gestin-de-objetos/attachments/image-20241213-115932.png" alt=""><figcaption></figcaption></figure>
 3. **Revise las instrucciones del sensor**
 4. Confirme que el nuevo hardware es compatible con la configuración del dispositivo original.
 5. Si se conectaron sensores adicionales al dispositivo original, asegúrese de que se vuelven a conectar a entradas idénticas en el nuevo dispositivo para conservar los datos históricos.
@@ -34,7 +38,9 @@ Puede sustituir fácilmente un localizador GPS conectado a la plataforma. Tanto 
 9. **Introduzca los detalles del dispositivo:** Especifique el número de teléfono, la configuración APN y el ID del dispositivo (IMEI) para el nuevo dispositivo.
 10. **Complete la sustitución:** Haga clic en **Reemplazar** para finalizar el proceso. La plataforma enviará comandos de activación al nuevo dispositivo y supervisará su estado de activación.
 
-> \[!INFO] Tenga en cuenta que una vez pulsado el botón **Reemplazar**, el proceso de reemplazo no se puede cancelar.
+{% hint style="warning" %}
+Tenga en cuenta que una vez pulsado el botón **Reemplazar**, el proceso de reemplazo no se puede cancelar.
+{% endhint %}
 
 Estos pasos garantizan que el dispositivo de sustitución esté correctamente configurado y listo para tomar el relevo del anterior, minimizando el tiempo de inactividad y manteniendo las operaciones de la flota sin problemas.
 

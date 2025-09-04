@@ -7,6 +7,6 @@ En **Radio de detección LBS (Location-Based Service)** determina la distancia a
 
 Ajuste el radio de detección de LBS en función del entorno operativo del dispositivo para equilibrar la precisión y la cobertura de la señal.
 
-![image-20240815-180931.png](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-180931.png)
+![](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-180931.png)
 
 En Navixy, las ubicaciones LBS se muestran en el mapa como círculos. El centro indica la ubicación estimada, mientras que el radio muestra la posible imprecisión. Un círculo más pequeño indica una mayor precisión, lo que suele ocurrir en las zonas urbanas, mientras que un círculo más grande indica una mayor imprecisión, lo que suele ocurrir en las zonas rurales.

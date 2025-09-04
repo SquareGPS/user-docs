@@ -1,12 +1,10 @@
-# navixy-ws
+# Navixy WS
 
-## Navixy WS
-
-## Navixy Web Service— Protocolo de envío de datos XML
+## Navixy Web Service: Protocolo de envío de datos XML
 
 El protocolo de reenvío de datos de Navixy Web Service transmite datos de flotas desde el sistema de Navixy a cualquier sistema de terceros.
 
-_Categoría del Protocolo: Protocolo de consolidación de datos_&#x20;
+_Categoría del Protocolo: Protocolo de consolidación de datos_
 
 ### ¿Qué es Navixy Web Service?
 
@@ -68,11 +66,9 @@ Para el protocolo de Navixy Web Service, ingrese la siguiente información:
 
 Una pantalla de gestión de retransmisión debería verse similar a la siguiente, con el usuario y contraseña de Navixy Web Service. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-4-600x112.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-4-600x112.png)
 
-A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
-
-en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
+A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
 
 No se necesita ID externo para el protocolo de Navixy Web Service.
 
@@ -98,65 +94,45 @@ US [https://soap.us.navixy.com/LocationDataService?wsdl](https://soap.us.navixy.
 
 Se debe realizar una solicitud SOAP utilizando una de las páginas WSDL anteriores. La solicitud XML en sí es la siguiente, reemplazada con la información asociada:
 
-\<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+{% code overflow="wrap" %}
+```xml
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
 
-&#x20;  [soapenv:Header](navixy-ws.md)
+   soapenv:Header
+   tem:authentication
+     <login>username</login>
+     <password>password</password>
+   </tem:authentication>
+   </soapenv:Header>
+   soapenv:Body
+   tem:dataRequest
+      <!--1 to 100 repetitions:-->
+      <deviceIds>IMEI of device</deviceIds>
+      <startDate>2022-08-30T00:00:00Z</startDate>
+      <endDate>2022-08-31T00:00:00Z</endDate>
+   </tem:dataRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+```
+{% endcode %}
 
-&#x20;  [tem:authentication](navixy-ws.md)
+Un ejemplo:
 
-&#x20;   username
-
-&#x20;   password
-
-&#x20;  \</tem:authentication>
-
-&#x20;  \</soapenv:Header>
-
-&#x20;  [soapenv:Body](navixy-ws.md)
-
-&#x20;  [tem:dataRequest](navixy-ws.md)
-
-&#x20;   &#x20;
-
-&#x20;     IMEI of device
-
-&#x20;     2022-08-30T00:00:00Z
-
-&#x20;     2022-08-31T00:00:00Z
-
-&#x20;  \</tem:dataRequest>
-
-&#x20;  \</soapenv:Body>
-
-\</soapenv:Envelope>
-
-Un ejemplo de respuesta puede verse algo así:
-
-&#x20;   &#x20;
-
-&#x20;        2022-08-30T00:02:55.000Z
-
-&#x20;        false
-
-&#x20;        75.9270866
-
-&#x20;        -85.5207616
-
-&#x20;        0.0
-
-&#x20;        ss3ssj
-
-&#x20;        284.0
-
-&#x20;        E
-
-&#x20;        866258048802349
-
-&#x20;        15
-
-&#x20;        59845
-
-&#x20;   &#x20;
+```xml
+      <result>
+         <dateGps>2022-08-30T00:02:55.000Z</dateGps>
+         <ignition>false</ignition>
+         <latitude>75.9270866</latitude>
+         <longitude>-85.5207616</longitude>
+         <speedGps>0.0</speedGps>
+         <unitPlate>ss3ssj</unitPlate>
+         <altitude>284.0</altitude>
+         <course>E</course>
+         <deviceId>866258048802349</deviceId>
+         <numSat>15</numSat>
+         <odometer>59845</odometer>
+      </result>
+```
 
 #### Administración
 
@@ -170,7 +146,7 @@ Para cambiar la configuración del retransmisor, como el nombre, la información
 
 Esto abrirá la ventana de gestión de retransmisores. Seleccione la fila para editar y haga clic en el lápiz en la parte superior izquierda, o haga doble clic en la fila en cuestión para permitir la edición. Guarde los cambios realizados.
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-2-600x106.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-2-600x106.png)
 
 #### Solución de problremas
 

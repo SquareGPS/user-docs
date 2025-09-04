@@ -1,6 +1,6 @@
 # Widget de reenvío de datos
 
-En el widget de **Enviar datos GPS** en Navixy le permite transmitir datos de seguimiento GPS y telemáticos desde Navixy a otros servidores y aplicaciones de terceros mediante API y servicios web.
+En el widget de **Enviar datos GPS** en Navixy se permite transmitir datos de seguimiento GPS y telemáticos desde Navixy a otros servidores y aplicaciones de terceros mediante API y servicios web.
 
 ## ¿Qué es el reenvío de datos?
 
@@ -60,20 +60,20 @@ He aquí algunos ejemplos de protocolos disponibles para diversos fines:
 
 #### Cumplimiento de la normativa por parte de las empresas
 
-| Protocolo                                                                                                       | Descripción                                                                                                               |
-| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Altotrack Chep México**                                                                                       | Reenvía las posiciones de los vehículos desde la plataforma Chep al Altotrack HUB.                                        |
-| **ArmCargo**                                                                                                    | Envía los datos a los servicios de Gestión de Riesgos de Activos para la evaluación de riesgos.                           |
-| **Carga en línea**                                                                                              | Reenvía los datos al servicio CargoOnline.                                                                                |
-| [**ILSP**](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2732064989/Ilsp)                          | Permite que el software de ILSP comparta datos de vehículos a través de redes en México.                                  |
-| **Encuéntrate**                                                                                                 | Remite datos al proyecto logístico de Localizar-t, Forza.                                                                 |
-| **Soluciones ReC**                                                                                              | Sends data to ReC Servicios Consultores servers.                                                                          |
-| [**Recurso Confiable**](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2732130420/Recursoconfiable) | Utilizado para el envío de datos con el software de Recurso Confiable a través de varias industrias en México y más allá. |
-| **SafetyNet pulsian**                                                                                           | Reenvía las alarmas SOS a un servidor CAD SafetyNet para recibir ayuda de emergencia.                                     |
-| [**SimpliRoute**](simpliroute.md)                                                                               | Protocolo de transmisión de datos de seguimiento de vehículos a SimpliRoute.                                              |
-| **TraceReports**                                                                                                | Envía datos al sistema TraceReports.                                                                                      |
-| [**Unigis**](unigis.md)                                                                                         | Permite compartir datos con la plataforma TMS de Unigis, utilizada a menudo por los departamentos de logística.           |
-| **Wirtrack**                                                                                                    | Reenvía los datos a los servicios de Wirsolut.                                                                            |
+| Protocolo                                     | Descripción                                                                                                               |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Altotrack Chep México**                     | Reenvía las posiciones de los vehículos desde la plataforma Chep al Altotrack HUB.                                        |
+| **ArmCargo**                                  | Envía los datos a los servicios de Gestión de Riesgos de Activos para la evaluación de riesgos.                           |
+| **Carga en línea**                            | Reenvía los datos al servicio CargoOnline.                                                                                |
+| [**ILSP**](ilsp.md)                           | Permite que el software de ILSP comparta datos de vehículos a través de redes en México.                                  |
+| **Encuéntrate**                               | Remite datos al proyecto logístico de Localizar-t, Forza.                                                                 |
+| **Soluciones ReC**                            | Sends data to ReC Servicios Consultores servers.                                                                          |
+| [**Recurso Confiable**](recurso-confiable.md) | Utilizado para el envío de datos con el software de Recurso Confiable a través de varias industrias en México y más allá. |
+| **SafetyNet pulsian**                         | Reenvía las alarmas SOS a un servidor CAD SafetyNet para recibir ayuda de emergencia.                                     |
+| [**SimpliRoute**](simpliroute.md)             | Protocolo de transmisión de datos de seguimiento de vehículos a SimpliRoute.                                              |
+| **TraceReports**                              | Envía datos al sistema TraceReports.                                                                                      |
+| [**Unigis**](unigis.md)                       | Permite compartir datos con la plataforma TMS de Unigis, utilizada a menudo por los departamentos de logística.           |
+| **Wirtrack**                                  | Reenvía los datos a los servicios de Wirsolut.                                                                            |
 
 #### Consolidación de datos
 

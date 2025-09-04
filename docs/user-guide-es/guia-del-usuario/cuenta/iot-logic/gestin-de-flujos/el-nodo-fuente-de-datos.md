@@ -8,7 +8,7 @@ El nodo **Fuente de Datos** es un punto de entrada para los datos de telemetría
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

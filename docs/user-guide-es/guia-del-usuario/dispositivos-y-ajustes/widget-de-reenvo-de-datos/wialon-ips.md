@@ -1,10 +1,6 @@
-# wialon-ips
+# Wialon IPS
 
-## Wialon IPS
-
-## Wialon IPS
-
-Wialon IPS es un protocolo de reenvío de datos genérico y de acceso público de Gurtam para retransmitir rastreadores GPS y GLONASS personales y de vehículos que transfieren datos a servidores de monitoreo por satélite/recursos de terceros.
+**Wialon IPS** es un protocolo de reenvío de datos genérico y de acceso público de Gurtam para retransmitir rastreadores GPS y GLONASS personales y de vehículos que transfieren datos a servidores de monitoreo por satélite/recursos de terceros.
 
 _Categoría del Protocolo: Consolidación de datos_
 
@@ -66,11 +62,9 @@ Para el protocolo Wialon IPS, ingrese la siguiente información:
 
 Una pantalla de gestión de retransmisión debería verse similar a la siguiente, no se necesita contraseña. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
 
-![Wialon IPS setup](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips.png)
 
-A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
-
-en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
+A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
 
 No se necesita ID externo para el protocolo Wialon IPS.
 
@@ -91,7 +85,7 @@ Para cambiar la configuración del retransmisor, como el nombre, la información
 
 Esto abrirá la ventana de gestión de retransmisores. Seleccione la fila para editar y haga clic en el lápiz en la parte superior izquierda, o haga doble clic en la fila en cuestión para permitir la edición. Guarde los cambios realizados.
 
-![Wialon IPS management](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips-management.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips-management.png)
 
 #### Solución de problemas
 

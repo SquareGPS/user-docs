@@ -2,7 +2,7 @@
 
 La detección de estacionado identifica cuándo un objeto ha permanecido inmóvil durante un periodo de tiempo determinado y dentro de un umbral de velocidad establecido, utilizando datos GPS.
 
-![image-20240815-183001.png](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-183001.png)
+![](../../../gua-del-usuario/dispositivos-y-ajustes/localizacin-y-desplazamiento/attachments/image-20240815-183001.png)
 
 **Parámetros para la detección de estacionado:**
 
