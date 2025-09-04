@@ -117,7 +117,7 @@
       * [Activación de entrada](guia-del-usuario/reglas-y-alertas/entradas-y-salidas/activacin-de-entrada.md)
       * [Activación de la salida](guia-del-usuario/reglas-y-alertas/entradas-y-salidas/activacin-de-la-salida.md)
       * [Parámetro en rango](guia-del-usuario/reglas-y-alertas/entradas-y-salidas/parmetro-en-rango.md)
-      * [Valor del campo Estado](guia-del-usuario/reglas-y-alertas/entradas-y-salidas/valor-del-campo-estado.md)
+      * [Valor del campo estado](guia-del-usuario/reglas-y-alertas/entradas-y-salidas/valor-del-campo-estado.md)
   * [Reportes](guia-del-usuario/reportes/README.md)
     * [Tipos de reportes](guia-del-usuario/reportes/tipos-de-reportes.md)
     * [Leer y comprender los reportes](guia-del-usuario/reportes/leer-y-comprender-los-reportes.md)
