@@ -4,7 +4,7 @@ Mediante el **Registro de actividad**, el propietario de la cuenta puede realiza
 
 Vaya a **Configuración de la cuenta → Registro de actividad**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Tipos de acciones
 

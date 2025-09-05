@@ -27,7 +27,7 @@
           * [Visualización de nuevos atributos calculados en la plataforma Navixy](readme/cuenta/iot-logic/gestin-de-flujos/el-nodo-iniciar-atributo/visualizacion-de-nuevos-atributos-calculados-en-la-plataforma-navixy.md)
         * [El nodo Logic](readme/cuenta/iot-logic/gestin-de-flujos/el-nodo-logic/README.md)
           * [Expresiones y sintaxis del nodo Logic](readme/cuenta/iot-logic/gestin-de-flujos/el-nodo-logic/expresiones-y-sintaxis-del-nodo-logic.md)
-        * [El nodo de Acción](readme/cuenta/iot-logic/gestin-de-flujos/el-nodo-de-accion.md)
+        * [El nodo de Acción](readme/cuenta/iot-logic/gestin-de-flujos/action-node.md)
         * [El nodo Punto de Salida](guia-del-usuario/cuenta/iot-logic/gestin-de-flujos/el-nodo-punto-de-salida.md)
         * [Ejemplo de configuración de un flujo](guia-del-usuario/cuenta/iot-logic/gestin-de-flujos/ejemplo-de-configuracin-de-un-flujo.md)
       * [Analizador de flujo de datos](guia-del-usuario/cuenta/iot-logic/analizador-de-flujo-de-datos.md)

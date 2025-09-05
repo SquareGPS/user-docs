@@ -1,71 +1,69 @@
 # Howen
 
-Howen Technologies specializes in Vehicle Service Systems (VSS) with a focus on cost-effective, AI-enhanced video telematics solutions. Their devices feature expandable capabilities including facial recognition, driver monitoring, and advanced driver assistance systems.
+Howen Technologies se especializa en Sistemas de Servicio para Vehículos (VSS, por sus siglas en inglés) con un enfoque en soluciones de telemática de video rentables y mejoradas con IA. Sus dispositivos cuentan con capacidades ampliables que incluyen reconocimiento facial, monitorización del conductor y sistemas avanzados de asistencia al conductor.
 
-Integrating Howen VSS with Navixy combines video surveillance with fleet management in one interface. Let's explore how to implement this integration and embed the Howen VSS dashboard into your Navixy interface.
+La integración de Howen VSS con Navixy combina la videovigilancia con la gestión de flotas en una única interfaz. Exploremos cómo implementar esta integración e integrar el panel de Howen VSS en tu interfaz de Navixy.
 
 {% stepper %}
 {% step %}
-#### Establishing integration
+#### Establecimiento de la integración
 
-To establish the integration, you'll need to provide your Howen account credentials and request integration setup from our support team.
+Para establecer la integración, deberás proporcionar las credenciales de tu cuenta de Howen y solicitar la configuración de la integración a nuestro equipo de soporte.
 
-1. **Contact Navixy**: Get in touch with your Customer Success Manager or use [this form](https://www.navixy.com/contact/) to send a request for Howen integration with your Navixy account. Include the following information:
-   1. **Your Howen account information**
-   2. **Request for Howen integration activation**
-2. **Wait for Confirmation**: Our specialists will configure the integration in 1-3 days and confirm when it's ready for use.
+1. **Contacta a Navixy**: Ponte en contacto con tu Gerente de Éxito del Cliente o utiliza [este formulario](https://www.navixy.com/contact/) para enviar una solicitud de integración de Howen con tu cuenta de Navixy. Incluye la siguiente información:
+   1. **La información de tu cuenta de Howen**
+   2. **Solicitud de activación de la integración de Howen**
+2. **Espera la confirmación**: Nuestros especialistas configurarán la integración en un plazo de 1 a 3 días y te confirmarán cuando esté lista para usar.
 
 {% hint style="success" %}
-After you receive confirmation from our support team, your Howen account is ready for the integration!
+¡Después de recibir la confirmación de nuestro equipo de soporte, tu cuenta de Howen está lista para la integración!
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### Adding a Howen device to Navixy
+#### Agregar un dispositivo Howen a Navixy
 
-After receiving confirmation from our support team that the integration is ready, you can add your Howen device to the platform. To do this, follow the usual device activation procedure:
+Después de recibir la confirmación de nuestro equipo de soporte de que la integración está lista, puedes agregar tu dispositivo Howen a la plataforma. Para ello, sigue el procedimiento habitual de activación de dispositivos:
 
-1. Go to **Device activation**
-2. Select your Howen device from the list
-3. Select **SIM card purchased separately** option and proceed to the next step
-4. Enter the correct **Device ID** (device IMEI)
-5. Complete the device configuration
+1. Ve a **Activación de dispositivo**.
+2. Selecciona tu dispositivo Howen de la lista.
+3. Selecciona la opción **Tarjeta SIM comprada por separado** y avanza al siguiente paso.
+4. Introduce el **ID de Dispositivo** correcto (IMEI del dispositivo).
+5. Completa la configuración del dispositivo.
 
-For detailed instructions on how to activate a device in Navixy, see [Activate GPS device](broken-reference).
+Para obtener instrucciones detalladas sobre cómo activar un dispositivo en Navixy, consulta Activar dispositivo GPS.
 
-{% hint style="danger" %}
-Your device and Navixy account are now ready for the integration!
+{% hint style="success" %}
+¡Tu dispositivo y tu cuenta de Navixy ya están listos para la integración!
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### Embedding Howen VSS in Navixy UI
+#### Integrar Howen VSS en la interfaz de usuario de Navixy
 
-At this step, we perform the actual integration by embedding the Howen VSS dashboard into your Navixy interface.
+En este paso, realizamos la integración real incrustando el panel de Howen VSS en tu interfaz de Navixy.
 
-Navixy offers [User applications](broken-reference) functionality that allows embedding 3rd-party apps directly in the platform's interface. We will use it to embed Howen VSS.
+Navixy ofrece la funcionalidad de Aplicaciones de usuario, que permite integrar aplicaciones de terceros directamente en la interfaz de la plataforma. La utilizaremos para integrar Howen VSS.
 
 {% hint style="info" %}
-**Navigation**
+#### **Navegación**
 
-**User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
+La sección **Aplicaciones de usuario** es accesible para los **Propietarios** de la cuenta en la sección **Configuración de la cuenta**. Para encontrarla:
 
-1. Click the profile icon in the top-left corner of the screen to open your account settings
-2. In the settings sidebar, select **User applications**
+1. Haz clic en el ícono de perfil en la esquina superior izquierda de la pantalla para abrir la configuración de tu cuenta.
+2. En la barra lateral de configuración, selecciona **Aplicaciones de usuario**.
 {% endhint %}
 
-1. Create new application\
-   Start by clicking the button in the **User applications** list.
-   1. Put the Howen VSS dashboard link in the **App URL** field:\
-      `https://vss.howentech.com/vss/#`
-   2. Enter a **Label** for the application (e.g., "Howen VSS Dashboard")
-   3. Select **Embedded** in the **Show as** field to display Howen functionality within Navixy
-2. Click **Save** to complete the configuration.
+1. Crear nueva aplicación Comienza haciendo clic en el botón en la lista de **Aplicaciones de usuario**.
+   1. Coloca el enlace del panel de Howen VSS en el campo **URL de la App**: `https://vss.howentech.com/vss/?tk=hw`
+   2. Introduce una **Etiqueta** para la aplicación (p. ej., "Panel de Howen VSS").
+   3. Selecciona **Integrado** en el campo **Mostrar como** para visualizar la funcionalidad de Howen dentro de Navixy.
+2. Haz clic en **Guardar** para completar la configuración.
 
 {% hint style="success" %}
-Your new application appears automatically in Navixy's left sidebar. Open it and log in with your Howen credentials to access your comprehensive AI-powered video telematics dashboard with advanced driver monitoring, intelligent event detection, multi-channel video feeds, and seamless fleet surveillance - all integrated with your existing Navixy fleet management tools.
+Tu nueva aplicación aparecerá automáticamente en la barra lateral izquierda de Navixy. Ábrela e inicia sesión con tus credenciales de Howen para acceder a tu completo panel de telemática de video impulsado por IA, con monitorización avanzada del conductor, detección inteligente de eventos, transmisiones de video multicanal y vigilancia de flota integrada, todo ello unificado con tus herramientas de gestión de flotas de Navixy.
 
-<img src="../../.gitbook/assets/image (8) (1).png" alt="" data-size="original">
+<img src="https://2096203889-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F446mKak1zDrGv70ahuYZ%2Fuploads%2Fgit-blob-cdd0f892f471af40f8c05c2bf8051b8bb1101d42%2Fimage%20(8).png?alt=media" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 {% endstepper %}

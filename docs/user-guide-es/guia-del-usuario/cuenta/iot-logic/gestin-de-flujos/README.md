@@ -97,7 +97,7 @@ Este nodo permite respuestas automatizadas a los datos del dispositivo, realizan
 * Activar notificaciones o alertas de sistemas externos.
 * Ejecutar flujos de trabajo automatizados basados en los cambios de estado del dispositivo.
 
-Para ver las opciones de configuración detalladas, consulte el [Nodo de Acción](../../../../readme/cuenta/iot-logic/gestin-de-flujos/el-nodo-de-accion.md).
+Para ver las opciones de configuración detalladas, consulte el [Nodo de Acción](../../../../readme/cuenta/iot-logic/gestin-de-flujos/action-node.md).
 {% endcolumn %}
 
 {% column %}

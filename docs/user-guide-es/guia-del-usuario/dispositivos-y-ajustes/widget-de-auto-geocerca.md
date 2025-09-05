@@ -13,7 +13,7 @@ En **Dispositivos y ajustes** de Navixy, hay un panel dedicado a configurar la f
 
 Estos ajustes permiten controlar con precisión cuándo y dónde se activa la función de auto geocerca, garantizando que los vehículos permanezcan seguros incluso cuando están desatendidos.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Ver también
 
