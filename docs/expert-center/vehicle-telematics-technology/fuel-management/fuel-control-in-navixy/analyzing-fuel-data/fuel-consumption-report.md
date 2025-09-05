@@ -2,7 +2,7 @@
 
 The report displays statistics on fuel consumption for a certain period, based on data from the flow meters installed in the vehicle. Unlike the previous report, it does not show the fuel level at a certain point in time from conventional fuel sensors, but only the consumption from flow meters. For example, CAN: fuel consumption.
 
-This report provides similar information as the fuel report in the consumption section, but works using data from a different type of sensor and solves the following problems&#x20;
+This report provides similar information as the fuel report in the consumption section, but works using data from a different type of sensor and solves the following problems
 
 * To record the actual fuel consumption of vehicles and compare it with the manufacturer's stated fuel consumption.
 * To calculate depreciation on transportation of goods and cargo, which will be useful for logistics companies and any business to calculate the cost price of goods.
@@ -46,7 +46,7 @@ The information is organized in the following columns:
 * GPS and flow rate data
   * Mileage, km - total mileage for the day or for the whole period for the total.
   * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://docs.navixy.com/user-guide/fleet) card.
+  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/fleet-management/vehicles) card.
 * Flow meter data
   * Initial reading, l - total fuel consumption according to the sensor at the beginning of the day.
   * End reading, l - total fuel consumption according to the sensor at the end of the day.
