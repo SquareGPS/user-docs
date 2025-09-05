@@ -4,7 +4,7 @@
 
 {% columns %}
 {% column %}
-La pantalla de Cuenta muestra su logotipo, nombre, correo electrónico y número de teléfono.
+La pantalla de **Cuenta** muestra su logotipo, nombre, correo electrónico y número de teléfono.
 {% endcolumn %}
 
 {% column %}
