@@ -9,7 +9,7 @@ Access **Analytics App** through the **Navixy User Applications** feature for se
 Setup process:
 
 1. Navigate to **User Applications** in your Navixy platform
-2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications)
+2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications), using **Session key** for authentication
 3. The application automatically inherits your session credentials
 
 {% hint style="info" %}
