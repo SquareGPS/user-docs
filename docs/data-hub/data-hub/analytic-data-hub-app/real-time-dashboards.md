@@ -4,7 +4,7 @@ Real-time dashboards transform raw telematics data streams into operational inte
 
 ## Object status dashboard
 
-![](attachments/image-20250813-105601.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Daily fleet coordination, shift handovers, and identifying vehicles requiring immediate attention.
 
@@ -14,7 +14,7 @@ Real-time dashboards transform raw telematics data streams into operational inte
 
 <summary>Data processing logic</summary>
 
-The dashboard processes live telematics data through a multi-step analysis:
+Please note - Analytics App uses its own calculation logic to identify movement and connection statuses. The dashboard processes live telematics data through a multi-step analysis:
 
 * **Fleet status aggregation**: The system queries the most recent tracking records for each vehicle using `DISTINCT ON (device_id)` to ensure current information. Movement classification combines speed readings with time-based analysis to distinguish between actively moving vehicles, temporarily stopped vehicles, and parked assets.
 * **Connection monitoring**: Vehicle connectivity status derives from communication timestamp analysis, categorizing each device based on how recently it transmitted data to your Data Hub. This enables immediate identification of communication issues or device malfunctions.
@@ -25,11 +25,13 @@ The dashboard processes live telematics data through a multi-step analysis:
 
 ## Assets intelligence dashboard
 
-![](attachments/image-20250813-105648.png)
+
+
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Investigating specific vehicles flagged in status monitoring, detailed operational planning, and comprehensive asset verification.
 
-**What data you see**: Complete asset profiles combining organizational data with current operational status, providing detailed context for each vehicle in your fleet.
+**What data you see**: Complete asset profiles combining organizational data incl groups, tags, departments, etc with current operational status, providing detailed context for each vehicle in your fleet.
 
 <details>
 
@@ -49,7 +51,7 @@ All timestamp data converts to UTC for consistent display regardless of vehicle 
 
 ## Sensor readings dashboard
 
-![](attachments/image-20250813-105703.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Preventive maintenance planning, fuel management monitoring, and identifying potential equipment issues before they impact operations.
 
@@ -69,7 +71,7 @@ The dashboard uses time-based queries with sensor-specific distinctness to ensur
 
 ## Geozones report
 
-![](attachments/image-20250813-105717.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Tracking vehicle visits to specific locations, analyzing route compliance, and monitoring operational area coverage.
 

@@ -6,17 +6,18 @@ This guide explains how to connect to your Data Hub instance, which is built on 
 
 When your Data Hub instance is set up, you'll receive these connection parameters via email:
 
-<table><thead><tr><th width="164.9091796875"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter</strong></td><td>Description</td></tr><tr><td><strong>Host</strong></td><td>The database server address</td></tr><tr><td><strong>Port</strong></td><td>The connection port (typically 5432)</td></tr><tr><td><strong>Database name</strong></td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td>The SSL connection mode</td></tr></tbody></table>
+<table><thead><tr><th width="164.9091796875">Parameter</th><th>Description</th></tr></thead><tbody><tr><td><strong>Host</strong></td><td>The database server address</td></tr><tr><td><strong>Port</strong></td><td>The connection port (typically 5432)</td></tr><tr><td><strong>Database name</strong></td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td>The SSL connection mode</td></tr></tbody></table>
 
 ## Data architecture
 
 Your Data Hub organizes data in specific schemas:
 
-* **raw\_business\_data** - Contains business data tables (users, objects, tasks, etc.)
-* **raw\_telematics\_data** - Contains telematics data from client devices (GPS tracks, sensor readings)
+* [`raw_business_data`](../schema-overview/bronze-layer.md#raw_business_data-structure) - Contains business data tables (users, objects, tasks, etc.)
+* [`raw_telematics_data`](../schema-overview/bronze-layer.md#raw_telematics_data-structure) - Contains telematics data from client devices (GPS tracks, sensor readings)
+* [`repo`](../schema-overview/bronze-layer.md#repo-data-structure) -  Contains asset and inventory management data (asset types, custom fields, asset relationships, inventory hierarchies)
 
 {% hint style="info" %}
-When querying data, you must specify both the schema (`raw_business_data`) and table (`objects`) name: `SELECT * FROM raw_business_data.objects LIMIT 10;`
+When querying data, you must specify both the schema (e.g. `raw_business_data`) and table (e.g. `objects`) name: `SELECT * FROM raw_business_data.objects LIMIT 10;`
 {% endhint %}
 
 ## PostgreSQL compatibility
@@ -70,4 +71,4 @@ If you encounter connection issues:
 
 ## Next steps
 
-After establishing a connection, proceed to the Schema overview section to learn about the available data structures and tables.
+After establishing a connection, proceed to the [Schema overview](../schema-overview/) section to learn about the available data structures and tables.

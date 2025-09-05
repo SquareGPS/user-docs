@@ -4,12 +4,12 @@ This guide helps you set up access and begin using **Data Hub App** effectively.
 
 ## User Applications setup
 
-Access **Data Hub App** through the **Navixy User Applications** feature for seamless authentication and appropriate access to your organization's **PTL** instance.
+Access **Analytics App** through the **Navixy User Applications** feature for seamless authentication and appropriate access to your organization's **PTL** instance.
 
 Setup process:
 
 1. Navigate to **User Applications** in your Navixy platform
-2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/user-guide/account/user-applications)
+2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications), using **Session key** for authentication
 3. The application automatically inherits your session credentials
 
 {% hint style="info" %}
@@ -34,7 +34,7 @@ The **Information about Data Hub** panel displays your connection details, while
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-![](attachments/image-20250812-084643.png)
+![](../../.gitbook/assets/data-hub-app-sidebar.webp)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -42,7 +42,7 @@ With the interface layout understood, you can now begin your initial setup verif
 
 ## First login checklist
 
-Try thhese steps to ensure that your **Data Hub App** environment is properly configured and ready for analytical work:
+Try these steps to ensure that your **Data Hub App** environment is properly configured and ready for analytical work:
 
 1. **Verify connection:** Check **System Health Status** for database and streaming indicators
 2. **Check data availability:** Confirm your **PTL** instance has completed initial data loading
@@ -53,13 +53,13 @@ Try thhese steps to ensure that your **Data Hub App** environment is properly co
 Following these practices will help you achieve productive results from your first analytical sessions:
 
 * **View live operations:** Open any **Realtime Dashboard** to see your fleet status instantly
-* **Focus your analysis:** Use 7-day time filters when exploring historical data
+* **Focus your analysis:** Use time filters when exploring historical data
 * **Verify system performance:** Check **System Health Status** before starting analysis sessions
 * **Work with your team:** Share insights using collaborative access to the same instance
 
 ## Where to go next
 
-Based on your specific analytical needs, choose the appropriate section to continue your **Data Hub App** journey:
+Based on your specific analytical needs, choose the appropriate section to continue your **Analytics App** journey:
 
 **For immediate operational needs:** Start with [Real-time Dashboards](real-time-dashboards.md) for live fleet monitoring
 
