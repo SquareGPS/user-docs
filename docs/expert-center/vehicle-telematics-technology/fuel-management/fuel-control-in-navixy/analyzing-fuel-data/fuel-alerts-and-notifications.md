@@ -2,7 +2,7 @@
 
 ## Fuel level change
 
-Before setting up this rule, make sure to add and configure the fuel level sensor users intend to monitor. For more comprehensive instructions on how to do this, it is advisable to consult the [Measurement sensor](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/vehicle-sensors/measurement-sensors) article.
+Before setting up this rule, make sure to add and configure the fuel level sensor users intend to monitor. For more comprehensive instructions on how to do this, it is advisable to consult the [Measurement sensor](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/vehicle-sensors/measurement-sensors) article.
 
 ## Description
 
@@ -82,7 +82,7 @@ Set a schedule for when the rule will run. If your schedule indicates that the e
 
 ## Event reports
 
-To view the dates when the events were received, you can build the "[Report on all events](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/reports/specific-report-details/report-on-all-events)" report.
+To view the dates when the events were received, you can build the "[Report on all events](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/report-on-all-events)" report.
 
 ![](https://www.navixy.com/wp-content/uploads/2023/07/image-20230711-090501.png)
 

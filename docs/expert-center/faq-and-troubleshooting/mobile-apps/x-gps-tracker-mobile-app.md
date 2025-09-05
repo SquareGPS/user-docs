@@ -8,7 +8,7 @@ Running an open app is one set of permissions, running in the background - anoth
 
 Systems might limit the usage of resources, especially in the background. For these reasons, you need to ensure your phone is setup correctly.
 
-The generic settings are set up during [initial activation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/x-gps-mobile-apps/x-gps-tracker/first-start) process. However, the availability of settings depends on the OS version and phone manufacturer, and model. So your phone might have settings that are model-specific and aren't set by default.
+The generic settings are set up during [initial activation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/x-gps-mobile-apps/x-gps-tracker/first-start) process. However, the availability of settings depends on the OS version and phone manufacturer, and model. So your phone might have settings that are model-specific and aren't set by default.
 
 ### What setting do I need to setup?
 
