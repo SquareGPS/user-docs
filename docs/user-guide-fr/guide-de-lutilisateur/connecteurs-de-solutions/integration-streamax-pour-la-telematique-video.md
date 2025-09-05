@@ -6,14 +6,14 @@ En intégrant Streamax avec Navixy, vous obtenez une surveillance vidéo complè
 
 {% stepper %}
 {% step %}
-### Établissement de l'intégration
+#### Établissement de l'intégration
 
 Pour établir l'intégration, vous devrez obtenir les identifiants API de votre compte Streamax et demander la configuration de l'intégration à notre équipe de support.
 
-### Obtenir les identifiants API de Streamax
+#### Obtenir les identifiants API de Streamax
 
 1. **Obtenez la clé API et le secret** : Suivez le processus d'authentification tel que décrit dans la [documentation d'authentification de signature Streamax](https://ftcloud.streamax.com:20002/DOC/Sign%20Authentication) pour obtenir votre clé API et votre secret.
-2. **Contactez Navixy** : Une fois que vous avez vos identifiants API, contactez votre Responsable de Réussite Client ou utilisez [ce formulaire](https://www.navixy.com/contact/). Envoyez une demande pour intégrer Streamax avec votre compte Navixy, contenant les informations suivantes :&#x20;
+2. **Contactez Navixy** : Une fois que vous avez vos identifiants API, contactez votre Responsable de Réussite Client ou utilisez [ce formulaire](https://www.navixy.com/contact/). Envoyez une demande pour intégrer Streamax avec votre compte Navixy, contenant les informations suivantes :
    1. Votre clé API
    2. Votre secret API
    3. Les détails de votre compte Navixy
@@ -26,7 +26,7 @@ Après avoir reçu la confirmation de notre support, votre compte Streamax est p
 {% endstep %}
 
 {% step %}
-### Ajout d'un appareil Streamax à Navixy
+#### Ajout d'un appareil Streamax à Navixy
 
 Après avoir reçu la confirmation de notre équipe de support que l'intégration est prête, vous pouvez ajouter votre appareil Streamax à la plateforme. Pour ce faire, suivez la procédure habituelle d'activation d'appareil :
 
@@ -44,13 +44,13 @@ Votre appareil et votre compte Navixy sont prêts pour l'intégration !
 {% endstep %}
 
 {% step %}
-## Intégration de Streamax dans l'interface utilisateur Navixy
+### Intégration de Streamax dans l'interface utilisateur Navixy
 
 À cette étape, nous effectuons l'intégration réelle en intégrant le tableau de bord Streamax dans votre interface Navixy.\
 Navixy offre une fonctionnalité [Applications utilisateur](../compte/applications-utilisateur/) qui permet d'intégrer des applications tierces directement dans l'interface de la plateforme. Nous l'utiliserons pour intégrer Mettax.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 La section **Applications utilisateur** est accessible aux **Propriétaires** de compte dans la section **Paramètres du compte**. Pour la trouver :
 
@@ -69,8 +69,7 @@ La section **Applications utilisateur** est accessible aux **Propriétaires** de
 {% hint style="success" %}
 Votre nouvelle application apparaît automatiquement dans la barre latérale gauche de Navixy. Ouvrez-la et connectez-vous avec vos identifiants Streamax pour accéder à votre tableau de bord télématique vidéo complet avec surveillance à 360°, détection d'événements alimentée par IA et flux vidéo multi-canaux - le tout intégré avec vos outils de gestion de flotte Navixy existants.
 
-<p align="center"> <img src="../../guide-de-litilizateur/connecteurs-de-solutions/attachments/ad2ef31528184f07816d99b67b1e4374.png" alt="ad2ef31528184f07816d99b67b1e4374.png"></p>
+<p align="center"><img src="../../guide-de-litilizateur/connecteurs-de-solutions/attachments/ad2ef31528184f07816d99b67b1e4374.png" alt="ad2ef31528184f07816d99b67b1e4374.png" data-size="original"></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
-

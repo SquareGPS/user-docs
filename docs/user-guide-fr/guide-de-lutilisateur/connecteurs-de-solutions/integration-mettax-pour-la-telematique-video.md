@@ -6,7 +6,7 @@ Mettax est un excellent exemple de ce scénario. Voyons à quel point il est fac
 
 {% stepper %}
 {% step %}
-### Établissement de l'intégration
+#### Établissement de l'intégration
 
 Tout d'abord, vous devez effectuer les préparations nécessaires du côté de Mettax.
 
@@ -27,9 +27,9 @@ Dans Mettax, les données des appareils sont stockées sous des comptes utilisat
    2. Allez dans **Détails**.
    3. Ouvrez l'onglet **WEBHOOK**.
    4. Trouvez ces trois webhooks, vous devrez les modifier :\
-      ![d9ee89e7a6be4ee8a8f56e343983b061.png](../../guide-de-litilizateur/connecteurs-de-solutions/attachments/d9ee89e7a6be4ee8a8f56e343983b061.png)&#x20;
-      1. **pushDeviceInfo**&#x20;
-      2. **pushAlarm**&#x20;
+      ![d9ee89e7a6be4ee8a8f56e343983b061.png](../../guide-de-litilizateur/connecteurs-de-solutions/attachments/d9ee89e7a6be4ee8a8f56e343983b061.png)
+      1. **pushDeviceInfo**
+      2. **pushAlarm**
       3. **pushGpsInfo**
    5. Cliquez sur **Modifier** dans la ligne du webhook nécessaire pour ouvrir ses paramètres.
    6. Remplissez le champ URL avec l'adresse de votre instance Navixy, selon la région : 1. EU - https://mettax-tracker.navixy.com 2. US - https://mettax-tracker.us.navixy.com
@@ -42,7 +42,7 @@ Votre compte Mettax est prêt pour l'intégration !
 {% endstep %}
 
 {% step %}
-### Ajout d'un appareil Mettax à Navixy
+#### Ajout d'un appareil Mettax à Navixy
 
 La plateforme Navixy gère la fonctionnalité GPS des appareils vidéo et leurs capacités télématiques. Pour tirer le meilleur parti de l'intégration, vous devez ajouter votre appareil Mettax à la plateforme, en suivant la procédure habituelle :
 
@@ -60,15 +60,13 @@ Votre appareil et votre compte Navixy sont prêts pour l'intégration !
 {% endstep %}
 
 {% step %}
-### Intégration de Mettax dans l'interface utilisateur de Navixy
-
-
+#### Intégration de Mettax dans l'interface utilisateur de Navixy
 
 À cette étape, nous effectuons l'intégration réelle.\
 Navixy offre une fonctionnalité [Applications utilisateur](../compte/applications-utilisateur/) qui permet d'intégrer des applications tierces directement dans l'interface de la plateforme. Nous l'utiliserons pour intégrer Mettax.
 
 {% hint style="info" %}
-### **Navigation**&#x20;
+#### **Navigation**
 
 La section **Applications utilisateur** est accessible aux **Propriétaires** de compte dans la section **Paramètres du compte**. Pour la trouver :
 
@@ -87,8 +85,7 @@ La section **Applications utilisateur** est accessible aux **Propriétaires** de
 {% hint style="success" %}
 Votre nouvelle application apparaît automatiquement dans la barre latérale gauche de Navixy. Ouvrez-la et connectez-vous avec vos identifiants Mettax.
 
-<p align="center"> <img src="../../guide-de-litilizateur/connecteurs-de-solutions/attachments/a770bebe54d04f848fcb9e4d89f3acca.png" alt="a770bebe54d04f848fcb9e4d89f3acca.png"></p>
+<p align="center"><img src="../../guide-de-litilizateur/connecteurs-de-solutions/attachments/a770bebe54d04f848fcb9e4d89f3acca.png" alt="a770bebe54d04f848fcb9e4d89f3acca.png" data-size="original"></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
-
