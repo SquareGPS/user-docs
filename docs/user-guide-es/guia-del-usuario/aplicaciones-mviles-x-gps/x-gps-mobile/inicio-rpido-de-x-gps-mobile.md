@@ -53,8 +53,8 @@ Permita que la aplicación le envíe notificaciones y acceda a la ubicación del
 
 #### Paso 4. Abra la pantalla principal
 
-{% columns fullWidth="true" %}
-{% column width="50%" %}
+{% columns %}
+{% column %}
 La pantalla principal muestra sus activos: vehículos, personal y objetos (unidades que representan dispositivos GPS) con iconos que indican su estado de movimiento.
 
 Puede filtrarlos por categoría o estado (en movimiento, estacionado, etc.) y ordenarlos por nombre o estado.
@@ -72,7 +72,7 @@ Para ordenar o filtrar la lista de activos y acceder a las herramientas de monit
 Use el panel inferior para cambiar entre la pantalla principal y su perfil.
 {% endcolumn %}
 
-{% column width="50%" %}
+{% column %}
 <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
