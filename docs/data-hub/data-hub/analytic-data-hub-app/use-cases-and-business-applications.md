@@ -16,7 +16,7 @@ hidden: true
 **Visual elements suggestion**: _ROI calculation framework showing potential savings: Fuel optimization (8-15%), Maintenance costs (12-18%), Asset utilization (15-25%)_
 
 * **Value identification process**: Framework for discovering analytical opportunities
-* **ROI calculation approaches**: Methods for quantifying Data Hub investment returns
+* **ROI calculation approaches**: Methods for quantifying DataHub investment returns
 * **Implementation roadmap**: Progressive approach from demonstration to production analytics
 
 ### Industry-agnostic analytical patterns
@@ -29,7 +29,7 @@ hidden: true
 ### Scaling analytical capabilities
 
 * **From demonstration to production**: Progression pathway for analytical infrastructure
-* **Integration strategies**: Connecting Data Hub insights with existing business processes
+* **Integration strategies**: Connecting DataHub insights with existing business processes
 * **Technology roadmap**: Evolution from app exploration to enterprise BI implementation
 
 **Visual elements suggestion**: _Analytics maturity progression: Demo app → Custom analysis → BI integration → Enterprise analytics platform_

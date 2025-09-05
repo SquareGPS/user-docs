@@ -1,6 +1,6 @@
 # Getting started with the app
 
-This guide helps you set up access and begin using **Data Hub App** effectively. Follow these steps to connect to your data and start exploring analytical capabilities.
+This guide helps you set up access and begin using **DataHub App** effectively. Follow these steps to connect to your data and start exploring analytical capabilities.
 
 ## User Applications setup
 
@@ -13,21 +13,21 @@ Setup process:
 3. The application automatically inherits your session credentials
 
 {% hint style="info" %}
-Multiple users can share access to the same **Data Hub** instance for collaborative analysis.
+Multiple users can share access to the same **DataHub** instance for collaborative analysis.
 {% endhint %}
 
 Once access is configured, you can proceed to explore the application interface.
 
 ## Interface navigation
 
-After successful connection, you'll see the main **Data Hub App** interface with your connection details displayed prominently. The interface is organized into distinct areas that support different analytical workflows.
+After successful connection, you'll see the main **DataHub App** interface with your connection details displayed prominently. The interface is organized into distinct areas that support different analytical workflows.
 
 {% columns %}
 {% column width="58.333333333333336%" %}
-The **Information about Data Hub** panel displays your connection details, while four main functional areas provide access to different analytical capabilities:
+The **Information about DataHub** panel displays your connection details, while four main functional areas provide access to different analytical capabilities:
 
-1. **Information about Data Hub panel:** Displays database connection details, credentials, and instance status for reference during analysis sessions
-2. **Explore Your Data Hub:** Contains custom analysis tools including Schema & SQL editor for direct database queries and File Explorer for data management tasks
+1. **Information about DataHub panel:** Displays database connection details, credentials, and instance status for reference during analysis sessions
+2. **Explore Your DataHub:** Contains custom analysis tools including Schema & SQL editor for direct database queries and File Explorer for data management tasks
 3. **Realtime Dashboards:** Provides pre-built monitoring interfaces for immediate operational insights without requiring technical configuration
 4. **Historical Data Reports:** Offers time-based analysis tools with configurable periods for trend identification and strategic planning
 5. **System:** Houses monitoring and configuration controls including System Health Status indicators and PTL Configuration management tools
@@ -42,7 +42,7 @@ With the interface layout understood, you can now begin your initial setup verif
 
 ## First login checklist
 
-Try these steps to ensure that your **Data Hub App** environment is properly configured and ready for analytical work:
+Try these steps to ensure that your **DataHub App** environment is properly configured and ready for analytical work:
 
 1. **Verify connection:** Check **System Health Status** for database and streaming indicators
 2. **Check data availability:** Confirm your **PTL** instance has completed initial data loading

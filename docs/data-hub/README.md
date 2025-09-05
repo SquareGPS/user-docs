@@ -1,20 +1,20 @@
-# Data Hub
+# DataHub
 
 ## Introduction
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Navixy's **Data Hub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
+Navixy's **DataHub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
 
 {% hint style="warning" %}
-Data Hub functionality wil become available soon, at the meantime you can get familiar with its features in this documentation.
+DataHub functionality wil become available soon, at the meantime you can get familiar with its features in this documentation.
 {% endhint %}
 
 ## Your data journey
 
 Every organization collects vast amounts of operational data through the Navixy platform. While the platform's interface provides standard reports and visualizations, your unique business questions often require deeper, more customized analysis.
 
-That's where Data Hub comes in.
+That's where DataHub comes in.
 
 We've taken your complete dataset and stored it in our PTL database infrastructure, making it directly accessible through a standard PostgreSQL connection. This opens up new possibilities for analysis, integration, and insight discovery beyond what's possible through standard platform reporting.
 
@@ -28,7 +28,7 @@ We've taken your complete dataset and stored it in our PTL database infrastructu
 
 ### What data is available?
 
-Your **Data Hub** contains two primary types of information:
+Your **DataHub** contains two primary types of information:
 
 {% columns %}
 {% column %}
@@ -79,9 +79,9 @@ We've structured your data using a multi-layered architecture that balances imme
 
 **Developers** gain the ability to create seamless integrations between operational data and other business systems through standard database connections.
 
-## Data Hub demo application
+## DataHub demo application
 
-To showcase the analytical potential of your PTL database, we provide a Data Hub Analytics App - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
+To showcase the analytical potential of your PTL database, we provide a DataHub Analytics App - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
 
 This demonstration application serves multiple purposes:
 
@@ -97,4 +97,4 @@ For scalable production analytics, consider integrating dedicated BI tools like 
 
 ## Support and assistance
 
-For technical support and assistance with Data Hub please contact our support team at [support@navixy.com](mailto:support@navixy.com).
+For technical support and assistance with DataHub please contact our support team at [support@navixy.com](mailto:support@navixy.com).

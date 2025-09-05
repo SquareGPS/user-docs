@@ -17,7 +17,7 @@ Real-time dashboards transform raw telematics data streams into operational inte
 Please note - Analytics App uses its own calculation logic to identify movement and connection statuses. The dashboard processes live telematics data through a multi-step analysis:
 
 * **Fleet status aggregation**: The system queries the most recent tracking records for each vehicle using `DISTINCT ON (device_id)` to ensure current information. Movement classification combines speed readings with time-based analysis to distinguish between actively moving vehicles, temporarily stopped vehicles, and parked assets.
-* **Connection monitoring**: Vehicle connectivity status derives from communication timestamp analysis, categorizing each device based on how recently it transmitted data to your Data Hub. This enables immediate identification of communication issues or device malfunctions.
+* **Connection monitoring**: Vehicle connectivity status derives from communication timestamp analysis, categorizing each device based on how recently it transmitted data to your DataHub. This enables immediate identification of communication issues or device malfunctions.
 * **Geographic visualization**: Raw coordinate data (stored as integers) undergoes conversion to decimal degrees for mapping display, while real-time geofence calculations determine zone presence for operational context.
 * The underlying query joins business entity data (vehicle specifications, employee assignments) with current telematics readings to provide comprehensive operational context in a single view.
 

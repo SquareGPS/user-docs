@@ -1,16 +1,16 @@
 # Connection setup
 
-This guide explains how to connect to your Data Hub instance, which is built on **Neon PostgreSQL**.
+This guide explains how to connect to your DataHub instance, which is built on **Neon PostgreSQL**.
 
 ## Connection parameters
 
-When your Data Hub instance is set up, you'll receive these connection parameters via email:
+When your DataHub instance is set up, you'll receive these connection parameters via email:
 
 <table><thead><tr><th width="164.9091796875">Parameter</th><th>Description</th></tr></thead><tbody><tr><td><strong>Host</strong></td><td>The database server address</td></tr><tr><td><strong>Port</strong></td><td>The connection port (typically 5432)</td></tr><tr><td><strong>Database name</strong></td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td>The SSL connection mode</td></tr></tbody></table>
 
 ## Data architecture
 
-Your Data Hub organizes data in specific schemas:
+Your DataHub organizes data in specific schemas:
 
 * [`raw_business_data`](../schema-overview/bronze-layer.md#raw_business_data-structure) - Contains business data tables (users, objects, tasks, etc.)
 * [`raw_telematics_data`](../schema-overview/bronze-layer.md#raw_telematics_data-structure) - Contains telematics data from client devices (GPS tracks, sensor readings)
@@ -22,7 +22,7 @@ When querying data, you must specify both the schema (e.g. `raw_business_data`) 
 
 ## PostgreSQL compatibility
 
-Data Hub is fully compatible with the PostgreSQL protocol. You can connect using:
+DataHub is fully compatible with the PostgreSQL protocol. You can connect using:
 
 * Standard PostgreSQL clients (pgAdmin, DBeaver, etc.)
 * Programming languages with PostgreSQL drivers (Python, Java, Node.js)
@@ -54,7 +54,7 @@ Important security considerations:
 
 ### Best practices for connections
 
-When working with your Data Hub:
+When working with your DataHub:
 
 * **Manage idle connections** - Close connections when not in use to free up resources
 * **Use connection pooling** - For applications with frequent database access

@@ -8,7 +8,7 @@ Leasing companies (particularly banks and fleet‑leasing providers) retain owne
 
 To protect residual value, enforce contractual limits (mileage, geography, maintenance), and streamline full‑service obligations, they rely on Navixy.  Real‑time GPS data, sensors based diagnostics, and behavioural analytics let them verify usage conditions, automate service scheduling, detect mechanical issues early, calculate penalties or excess‑kilometre fees, and, when necessary, immobilise or recover the asset—all of which secures their investment, reduces operational cost, and enhances customer transparency across the entire lease lifecycle.
 
-Navixy Data Hub will help to organize any kind of analytics at every stage of the leasing contract. A leasing contract passes through several predictable phases: Onboarding & Asset Setup → Operational Phase → Risk & Compliance Oversight
+Navixy DataHub will help to organize any kind of analytics at every stage of the leasing contract. A leasing contract passes through several predictable phases: Onboarding & Asset Setup → Operational Phase → Risk & Compliance Oversight
 
 The following SQL recipes in your book collectively monitor every critical milestone across that lifecycle:
 

@@ -1,8 +1,8 @@
 # Selecting BI tools
 
-Analyzing and visualizing data stored in your Data Hub requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.
+Analyzing and visualizing data stored in your DataHub requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.
 
-## Why use BI tools with your Data Hub
+## Why use BI tools with your DataHub
 
 While direct SQL access provides flexibility for data exploration, BI tools offer significant advantages:
 
@@ -16,7 +16,7 @@ The right BI tool transforms raw data into actionable insights, supporting bette
 
 ## Comparison of recommended BI tools
 
-We've evaluated three powerful options that work well with Data Hub: Power BI, Apache Superset, and Streamlit. Each offers distinct advantages depending on your requirements, technical capabilities, and budget.
+We've evaluated three powerful options that work well with DataHub: Power BI, Apache Superset, and Streamlit. Each offers distinct advantages depending on your requirements, technical capabilities, and budget.
 
 | **Characteristic**          | **Power BI**                                                                                                                                                                                                                                                                                  | **Apache Superset**                                                                                                                                                                                                          | **Streamlit**                                                                                                                                                                                                                 |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,11 +67,11 @@ Streamlit works best for data science teams that want to quickly create custom v
 
 ## Detailed connection guides
 
-For step-by-step instructions on connecting each BI tool to your Data Hub, please refer to the following dedicated guides:
+For step-by-step instructions on connecting each BI tool to your DataHub, please refer to the following dedicated guides:
 
-* [Connecting Power BI to Data Hub](connecting-power-bi.md)
-* [Connecting Apache Superset to Data Hub](connecting-apache-superset.md)
-* [Connecting Streamlit to Data Hub](connecting-streamlit.md)
+* [Connecting Power BI to DataHub](connecting-power-bi.md)
+* [Connecting Apache Superset to DataHub](connecting-apache-superset.md)
+* [Connecting Streamlit to DataHub](connecting-streamlit.md)
 
 Each guide provides detailed configuration steps, recommended settings, and best practices specific to that tool.
 
@@ -83,4 +83,4 @@ All three options can effectively visualize your telematics data when properly c
 
 **There are no limitations on which BI tools you can use — any tool compatible with a PostgreSQL database is supported. You're free to use your preferred BI tools, such as Tableau, Grafana, or others.**
 
-Remember that the full value of your Data Hub is realized when you can effectively transform data into actionable insights through visualization and analysis. The right BI tool is a critical component in this journey.
+Remember that the full value of your DataHub is realized when you can effectively transform data into actionable insights through visualization and analysis. The right BI tool is a critical component in this journey.
