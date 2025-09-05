@@ -91,13 +91,13 @@ Para obtener opciones de configuración detalladas, operadores lógicos y ejempl
 
 {% columns %}
 {% column %}
-This node enables automated responses to device data by performing specific operations when conditions are met. It allows you to:
+Este nodo permite respuestas automatizadas a los datos del dispositivo, realizando operaciones específicas cuando se cumplen las condiciones. Le permite:
 
-* Send commands back to devices based on data analysis
-* Trigger external system notifications or alerts
-* Execute automated workflows based on device status changes
+* Enviar comandos de vuelta a los dispositivos basándose en el análisis de datos.
+* Activar notificaciones o alertas de sistemas externos.
+* Ejecutar flujos de trabajo automatizados basados en los cambios de estado del dispositivo.
 
-For detailed configuration options, see [Action node](../../../../readme/cuenta/iot-logic/gestin-de-flujos/action-node.md).
+Para ver las opciones de configuración detalladas, consulte el [Nodo de Acción](../../../../readme/cuenta/iot-logic/gestin-de-flujos/el-nodo-de-accion.md).
 {% endcolumn %}
 
 {% column %}
