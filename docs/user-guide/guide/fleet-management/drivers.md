@@ -26,14 +26,17 @@ Efficient driver identification is essential for accurate fleet management, ensu
 
 ### Automatic driver identification
 
-Navixy supports automatic driver identification through the use of electronic keys, such as an i-Button or RFID devices. This feature allows for seamless assignment of drivers to vehicles.
+Navixy supports automatic driver identification through electronic keys such as i-Button or RFID devices. When a driver uses their assigned key, the system automatically identifies them and assigns them to the vehicle in real time.
 
-#### **Setting up automatic identification**
+**To set up automatic identification:**
 
-1. **Assigning the hardware key:**\
-   To enable automatic identification, the driver’s electronic key must be linked to their profile. This involves manually entering the unique Hardware key code, found on the i-Button or RFID device, into the designated field within the driver’s employee card.
-2. **Automatic assignment:**\
-   Once the electronic key is specified in the driver’s profile and connected to the vehicle’s i-Button reader, the platform will automatically identify the driver and assign them to the appropriate vehicle upon key detection. If they were assigned to another device, they will be removed from the previous one and assigned to the most recently scanned device.
+1. Go to **Fleet management** and select the **DRIVERS** tab
+2. Click **Add driver** to create a new driver profile
+3. Enter the driver's details, **First name** field is mandatory
+4. In the **Hardware key** field, enter the exact identifier from the physical RFID card, i-Button, or BLE device
+5. Click **Save**
+
+Once configured, go to the [Tracking ](../tracking/)section to see automatic driver identification when the hardware key is used with the vehicle.
 
 **Requirements for automatic identification:**
 
