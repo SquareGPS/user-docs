@@ -26,9 +26,8 @@ This guide is part of the DataHub documentation suite and specifically covers co
 
 ### 1. Clone the repository
 
-```
-git clone https://github.com/yourusername/moving-status-dashboard.git
-cd moving-status-dashboard
+```sh
+git clone https://github.com/SquareGPS/bi-intergrations.git
 ```
 
 ### 2. Create a virtual environment
@@ -51,7 +50,7 @@ Make sure you have Python 3.8 or higher installed. You can check the version wit
 
 After activating the virtual environment, install all necessary libraries:
 
-```
+```sh
 pip install -r requirements.txt
 ```
 
@@ -72,15 +71,7 @@ DB_SCHEMA=raw_business_data
 
 #### Connection parameter reference
 
-| **Lakehouse Parameter** | **Streamlit Setting Location**   | **Notes**                                                             |
-| ----------------------- | -------------------------------- | --------------------------------------------------------------------- |
-| **Host**                | `DB_HOST` in `.env` file         | The database server address provided in your welcome email            |
-| **Port**                | `DB_PORT` in `.env` file         | Default is 5432 for PostgreSQL                                        |
-| **Database name**       | `DB_NAME` in `.env` file         | Your assigned database name                                           |
-| **Username**            | `DB_USER` in `.env` file         | Your database username                                                |
-| **Password**            | `DB_PASS` in `.env` file         | Your secure database password                                         |
-| **SSL mode**            | Connection string in Python code | Set to **require** in the connection string                           |
-| **Schema**              | `DB_SCHEMA` in `.env` file       | Specify schema (**raw\_business\_data** or **raw\_telematics\_data**) |
+<table><thead><tr><th width="188.81817626953125">Lakehouse Parameter</th><th>Streamlit Setting Location</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Host</strong></td><td><code>DB_HOST</code> in <code>.env</code> file</td><td>The database server address provided in your welcome email</td></tr><tr><td><strong>Port</strong></td><td><code>DB_PORT</code> in <code>.env</code> file</td><td>Default is 5432 for PostgreSQL</td></tr><tr><td><strong>Database name</strong></td><td><code>DB_NAME</code> in <code>.env</code> file</td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td><code>DB_USER</code> in <code>.env</code> file</td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td><code>DB_PASS</code> in <code>.env</code> file</td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td>Connection string in Python code</td><td>Set to <strong>require</strong> in the connection string</td></tr><tr><td><strong>Schema</strong></td><td><code>DB_SCHEMA</code> in <code>.env</code> file</td><td>Specify schema (<strong>raw_business_data</strong> or <strong>raw_telematics_data</strong>)</td></tr></tbody></table>
 
 ### 2. Obtaining credentials
 
@@ -109,16 +100,6 @@ After launching, you'll see a message similar to:
 
 Open the specified URL in your browser. The dashboard will be available at [http://localhost:8501](http://localhost:8501) (or at the network URL if you want to open it from another device on the network).
 
-## Project structure
-
-```
-├── moving_status_dashboard.py  # Main application file
-├── style.css                  # Styles for improved appearance
-├── requirements.txt           # Project dependencies
-├── .env                       # Database connection settings (created by the user)
-└── README.md                  # This guide
-```
-
 ## Developing custom components
 
 If you want to modify the dashboard or create new components:
@@ -136,7 +117,7 @@ To add new charts and diagrams, use libraries:
 
 Example of adding a new chart:
 
-```
+```python
 import plotly.express as px
 
 # Get data from the database
@@ -151,7 +132,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 For debugging, use
 
-```
+```python
 # Output to Streamlit interface
 st.write(f"Debug: {your_variable}")
 
@@ -207,7 +188,7 @@ streamlit run moving_status_dashboard.py --clear_cache
 After successfully connecting Power BI to your Private Telematics Lakehouse instance, we recommend you to:
 
 * Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
-* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../../example-queries/) for reference.
+* Start with simple queries focused on specific business entities before building complex dashboards - check our [example queries](../../../example-queries/) for reference.
 
 ### **Support**
 

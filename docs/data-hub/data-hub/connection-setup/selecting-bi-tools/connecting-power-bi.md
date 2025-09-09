@@ -32,13 +32,12 @@ This guide is part of the DataHub documentation suite and specifically covers co
 
 ### 2. Download the dashboard file
 
-1. Download the `moving_status_dashboard.pbix` file from this repository:
+1.  Download the [moving\_status\_dashboard.pbix](https://raw.githubusercontent.com/SquareGPS/bi-intergrations/main/power_bi/moving_status_dashboard.pbix) file from the [bi-intergrations repository](https://github.com/SquareGPS/bi-intergrations) -> `power_bi`. You can clone the whole repository for further interactions:
 
-```
-git clone https://github.com/yourusername/powerbi-dashboard.git
-```
-
-Or use the **Download ZIP** button on the repository page. 2. Open the downloaded `moving_status_dashboard.pbix` file by double-clicking or through the Power BI Desktop menu: **File → Open**.
+    ```sh
+    git clone https://github.com/SquareGPS/bi-intergrations.git
+    ```
+2. Open the downloaded `moving_status_dashboard.pbix` file by double-clicking or through the Power BI Desktop menu: **File → Open**.
 
 ## Database connection
 
@@ -57,15 +56,7 @@ Or use the **Download ZIP** button on the repository page. 2. Open the downloade
 
 #### Connection parameter reference
 
-| **Lakehouse Parameter** | **Power BI Setting Location** | **Notes**                                                                           |
-| ----------------------- | ----------------------------- | ----------------------------------------------------------------------------------- |
-| **Host**                | `DB_HOST` parameter           | The database server address provided in your welcome email                          |
-| **Port**                | `DB_PORT` parameter           | Default is 5432 for PostgreSQL                                                      |
-| **Database name**       | `DB_NAME` parameter           | Your assigned database name                                                         |
-| **Username**            | `DB_USER` parameter           | Your database username                                                              |
-| **Password**            | `DB_PASS` parameter           | Your secure database password                                                       |
-| **SSL mode**            | Connection Settings           | Set to **require** in the Options dialog                                            |
-| **Schema**              | Query Editor                  | Specify schema (**raw\_business\_data** or **raw\_telematics\_data**) in each query |
+<table><thead><tr><th width="189.727294921875">Lakehouse Parameter</th><th width="214.1817626953125">Power BI Setting Location</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Host</strong></td><td><code>DB_HOST</code> parameter</td><td>The database server address provided in your welcome email</td></tr><tr><td><strong>Port</strong></td><td><code>DB_PORT</code> parameter</td><td>Default is 5432 for PostgreSQL</td></tr><tr><td><strong>Database name</strong></td><td><code>DB_NAME</code> parameter</td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td><code>DB_USER</code> parameter</td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td><code>DB_PASS</code> parameter</td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td>Connection Settings</td><td>Set to <strong>require</strong> in the Options dialog</td></tr><tr><td><strong>Schema</strong></td><td>Query Editor</td><td>Specify schema (<strong>raw_business_data</strong> or <strong>raw_telematics_data</strong>) in each query</td></tr></tbody></table>
 
 ### 2. Configure credentials
 
@@ -80,24 +71,11 @@ After setting up the connection, you can:
 
 1. **Refresh data** - click the **Refresh** button on the ribbon or use the keyboard shortcut Ctrl+R.
 2. **Use filters** - apply filters on the right panel or directly on report elements:
-
-* Filter by vehicle type
-* Filter by groups
-* Filter by movement/connection status
-
+   1. Filter by vehicle type
+   2. Filter by groups
+   3. Filter by movement/connection status
 3. **Drill down into data** - click on visualization elements to view detailed information.
 4. **Create bookmarks** - save specific filter settings and views for quick access.
-
-## Project structure
-
-```
-├── moving_status_dashboard.pbix  # Main Power BI dashboard file
-├── data_model_documentation.pdf  # Data model documentation
-├── sample_data/                  # Folder with sample data for testing
-│   ├── tracking_sample.csv
-│   └── vehicles_sample.csv
-└── README.md                     # This guide
-```
 
 ## Data refresh configuration
 
@@ -144,7 +122,7 @@ Here are some tricks that can help you fix common issues:
 After successfully connecting Power BI to your Private Telematics Lakehouse instance, we recommend you to:
 
 * Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
-* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../../example-queries/) for reference.
+* Start with simple queries focused on specific business entities before building complex dashboards - check our [example queries](../../../example-queries/) for reference.
 
 ### **Support**
 

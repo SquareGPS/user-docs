@@ -6,24 +6,34 @@ This guide helps you set up access and begin using **DataHub App** effectively. 
 
 Access **Analytics App** through the **Navixy User Applications** feature for seamless authentication and appropriate access to your organization's **PTL** instance.
 
+{% hint style="warning" %}
+Only Account Owners can create user applications. For detailed setup instructions, see [User applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/account/user-applications).
+{% endhint %}
+
 Setup process:
 
-1. Navigate to **User Applications** in your Navixy platform
-2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications), using **Session key** for authentication
-3. The application automatically inherits your session credentials
+1. Navigate to **User Applications** in your Navixy platform.
+2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/account/user-applications/creating-new-user-applications) to configure the new application and use these specific settings:
+   1. **App URL:** `https://analytics.datahub.navixy.com/`
+   2. **Show as:** Select **Embedded**
+   3. **GET parameters:** Enable **Session key** for authentication\
+      The application automatically inherits your session credentials.
+3. **Save** your new application.
+
+Once configured, the application appears immediately in your platform sidebar and automatically inherits your session credentials for access to your PTL instance.
 
 {% hint style="info" %}
 Multiple users can share access to the same **DataHub** instance for collaborative analysis.
 {% endhint %}
 
-Once access is configured, you can proceed to explore the application interface.
+Once the configuration is finalized, you can proceed to explore the application interface.
 
 ## Interface navigation
 
-After successful connection, you'll see the main **DataHub App** interface with your connection details displayed prominently. The interface is organized into distinct areas that support different analytical workflows.
+After a successful connection, you'll see the main **DataHub App** interface with your connection details displayed prominently. The interface is organized into distinct areas that support different analytical workflows.
 
 {% columns %}
-{% column width="58.333333333333336%" %}
+{% column %}
 The **Information about DataHub** panel displays your connection details, while four main functional areas provide access to different analytical capabilities:
 
 1. **Information about DataHub panel:** Displays database connection details, credentials, and instance status for reference during analysis sessions
@@ -33,7 +43,7 @@ The **Information about DataHub** panel displays your connection details, while 
 5. **System:** Houses monitoring and configuration controls including System Health Status indicators and PTL Configuration management tools
 {% endcolumn %}
 
-{% column width="41.666666666666664%" %}
+{% column %}
 ![](../../.gitbook/assets/data-hub-app-sidebar.webp)
 {% endcolumn %}
 {% endcolumns %}

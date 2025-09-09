@@ -75,7 +75,7 @@ docker-compose exec superset superset init
 
 1. Create a virtual environment:
 
-```
+```sh
 python -m venv venv
 source venv/bin/activate  # for Linux/macOS
 # or
@@ -84,32 +84,32 @@ source venv/bin/activate  # for Linux/macOS
 
 2. Install Superset:
 
-```
+```sh
 pip install apache-superset
 ```
 
 3. Initialize the database:
 
-```
+```sh
 superset db upgrade
 ```
 
 4. Create an administrator:
 
-```
+```sh
 export FLASK_APP=superset
 superset fab create-admin
 ```
 
 5. Load examples and initialize roles:
 
-```
+```sh
 superset init
 ```
 
 6. Start Superset:
 
-```
+```sh
 superset run -p 8088 --with-threads --reload --debugger
 ```
 
@@ -119,60 +119,31 @@ superset run -p 8088 --with-threads --reload --debugger
 2. Navigate to Data → Databases
 3. Click "+" to add a new database
 4. Fill in the connection parameters:
-
-* Database: PostgreSQL
-* SQLAlchemy URI: `postgresql://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}`
-* Display Name: Analytics Database
-* Extra: `{"engine_params": {"connect_args": {"sslmode": "require"}}}`
-
+   1. Database: PostgreSQL
+   2. SQLAlchemy URI: `postgresql://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}`
+   3. Display Name: Analytics Database
+   4. Extra: `{"engine_params": {"connect_args": {"sslmode": "require"}}}`
 5. Click **Test Connection** to verify the connection
 6. Save the settings
 
 ### Connection parameter reference
 
-| **Lakehouse Parameter** | **Apache Superset Setting Location** | **Notes**                                                                     |
-| ----------------------- | ------------------------------------ | ----------------------------------------------------------------------------- |
-| **Host**                | `DB_HOST` in SQLAlchemy URI          | The database server address provided in your welcome email                    |
-| **Port**                | `DB_PORT` in SQLAlchemy URI          | Default is 5432 for PostgreSQL                                                |
-| **Database name**       | `DB_NAME` in SQLAlchemy URI          | Your assigned database name                                                   |
-| **Username**            | `DB_USER` in SQLAlchemy URI          | Your database username                                                        |
-| **Password**            | `DB_PASS` in SQLAlchemy URI          | Your secure database password                                                 |
-| **SSL mode**            | `connect_args` in Extra parameters   | Set to **require** in the Extra JSON configuration                            |
-| **Schema**              | Dataset configuration                | Specify schema (`raw_business_data` or `raw_telematics_data`) in each dataset |
+<table><thead><tr><th width="177.9090576171875">Lakehouse Parameter</th><th>Apache Superset Setting Location</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Host</strong></td><td><code>DB_HOST</code> in SQLAlchemy URI</td><td>The database server address provided in your welcome email</td></tr><tr><td><strong>Port</strong></td><td><code>DB_PORT</code> in SQLAlchemy URI</td><td>Default is 5432 for PostgreSQL</td></tr><tr><td><strong>Database name</strong></td><td><code>DB_NAME</code> in SQLAlchemy URI</td><td>Your assigned database name</td></tr><tr><td><strong>Username</strong></td><td><code>DB_USER</code> in SQLAlchemy URI</td><td>Your database username</td></tr><tr><td><strong>Password</strong></td><td><code>DB_PASS</code> in SQLAlchemy URI</td><td>Your secure database password</td></tr><tr><td><strong>SSL mode</strong></td><td><code>connect_args</code> in Extra parameters</td><td>Set to <strong>require</strong> in the Extra JSON configuration</td></tr><tr><td><strong>Schema</strong></td><td>Dataset configuration</td><td>Specify schema (<code>raw_business_data</code> or <code>raw_telematics_data</code>) in each dataset</td></tr></tbody></table>
 
 ## Dashboard and chart import
 
-1. Download the files from the repository:
+1. Clone the [bi-integratons](https://github.com/SquareGPS/bi-intergrations) repository:
 
-```
-git clone https://github.com/yourusername/superset-dashboard.git
+```sh
+git clone https://github.com/SquareGPS/bi-intergrations.git
 ```
 
 2. In Superset, go to **Settings → Import/Export**
 3. Import the files in the following order:
-
-* `datasets.json` - datasets
-* `charts.json` - charts
-* `dashboards.json` - dashboards
-
+   1. `datasets.json` - datasets
+   2. `charts.json` - charts
+   3. `dashboards.json` - dashboards
 4. After importing, update the database connections in each dataset
-
-## Project structure
-
-```
-├── datasets/                    # Folder with datasets
-│   ├── vehicles.json           # Vehicle data dataset
-│   └── tracking.json           # Tracking data dataset
-├── charts/                      # Folder with charts
-│   ├── status_charts.json      # Status charts
-│   └── movement_charts.json    # Movement charts
-├── dashboards/                  # Folder with dashboards
-│   └── main_dashboard.json     # Main dashboard
-├── documentation/               # Documentation
-│   ├── data_model.md           # Data model description
-│   └── setup_guide.md          # Setup guide
-└── README.md                    # This guide
-```
 
 ## Troubleshooting
 
@@ -216,7 +187,7 @@ docker-compose restart
 After successfully connecting Power BI to your DataHub instance, we recommend you to:
 
 * Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) section to better understand the data structure and relationships.
-* Start with simple queries focused on specific business entities before building complex dashboards - check our [Example queries](../../../example-queries/) for reference.
+* Start with simple queries focused on specific business entities before building complex dashboards - check our [example queries](../../../example-queries/) for reference.
 
 ### **Support**
 
