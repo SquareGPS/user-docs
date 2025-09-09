@@ -11,7 +11,7 @@ This guide will provide you with step-by-step instructions, best practices, and 
 * [Tracking](guide/tracking/)
 * [Geo links](guide/geo-links/)
 * [Solution connectors](guide/solution-connectors/)
-* [Rules and notifications](guide/events-and-notifications/)
+* [Rules and Alerts](guide/events-and-notifications/)
 * [Reports](guide/reports/)
 * [Fleet management](guide/fleet-management/)
 * [Field service](guide/field-service/)

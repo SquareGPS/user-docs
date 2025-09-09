@@ -59,7 +59,7 @@
     * [Streamax](guide/solution-connectors/streamax-integration-for-video-telematics.md)
     * [Lightmetrics](guide/solution-connectors/lightmetrics-integration-for-video-telematics.md)
     * [Howen](guide/solution-connectors/howen.md)
-  * [Alerts](guide/events-and-notifications/README.md)
+  * [Rules and Alerts](guide/events-and-notifications/README.md)
     * [Device power](guide/events-and-notifications/device-power/README.md)
       * [Device switched ON/OFF](guide/events-and-notifications/device-power/device-switched-onoff.md)
       * [OBDII device plug/unplug](guide/events-and-notifications/device-power/obdii-device-plugunplug.md)
