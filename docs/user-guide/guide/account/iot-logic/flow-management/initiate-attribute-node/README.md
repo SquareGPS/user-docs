@@ -80,7 +80,7 @@ Define **Formula**
 Add mathematical expressions to calculate attribute values.
 
 * Use `value('parameter_name' 0, 'valid')` format to reference existing device parameters.\
-  **Note**. Click ![image-20250605-115154.png](../../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).
+  **Note**. Click ![image-20250605-115154.png](../../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](broken-reference).
 * Apply mathematical operations based on [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) to transform values.
 * Use different depth index values to access historical values (the default is 0).
 {% endstep %}
@@ -139,10 +139,10 @@ The attribute will no longer be calculated for newly received data, but historic
 
 #### Can I use attributes created in one Initiate attribute node in another?
 
-Yes. Attributes created earlier in the flow can be referenced in subsequent **Initiate Attribute** nodes, allowing for multi-stage calculations. All created attributes are also available using the [autofill feature](managing-attributes.md#autofill-attribute-names) to ensure correct naming.
+Yes. Attributes created earlier in the flow can be referenced in subsequent **Initiate Attribute** nodes, allowing for multi-stage calculations. All created attributes are also available using the [autofill feature](broken-reference) to ensure correct naming.
 
 <figure><img src="../../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250404-084039.png" alt="Example of a complete flow with two Initiate attribute nodes consecutively"><figcaption></figcaption></figure>
 
 #### **How do I avoid typos when referencing attribute names in formulas?**
 
-Use the autofill feature in the Formula field to select from available attributes. For detailed instructions, see [Autofill attribute names](managing-attributes.md).
+Use the autofill feature in the Formula field to select from available attributes. For detailed instructions, see [Autofill attribute names](broken-reference).

@@ -86,7 +86,7 @@ Each object has a <img src="../../../user-guide/gps-tracking/attachments/image-2
 
 * **Share location**: Instantly share the object’s location using the [Geo links](../../geo-links/) tool.
 * **Change icon**: Modify the object’s visual representation by selecting [Object icons](object-icons.md).
-* **Open Alert rules**: Manage alerts for specific conditions in the [Alerts](../../events-and-notifications/) module.
+* **Open Alert rules**: Manage alerts for specific conditions in the [Alerts](broken-reference) module.
 * **Device settings**: Quickly navigate to the particular device’s configuration in the [Devices and Settings](../../devices-and-settings/).
 * **View reports**: Access reports related to the object’s activity in the [Reports](../../reports/) module.
 

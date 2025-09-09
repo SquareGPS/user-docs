@@ -41,7 +41,7 @@ By clicking on an event in the events list, you will see the following informati
 ## Event types
 
 The types of events displayed are determined by the events being monitored. Navixy can detect and log a wide range of events, from basic movement and stop notifications to more complex sensor alerts and maintenance reminders.\
-For more details on setting up and managing these events, refer to [Rules and Notifications](../../events-and-notifications/).
+For more details on setting up and managing these events, refer to [Rules and Notifications](broken-reference).
 
 ## Event-triggered video monitoring
 

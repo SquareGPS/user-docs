@@ -12,7 +12,7 @@ When the "Work status" rule is active, any changes in an employee’s status wil
 
 Define the specific work statuses that will trigger notifications when selected by employees. Users can choose which statuses to monitor, ensuring that the system only alerts on the most relevant status updates. These statuses are created and assigned through the "Working statuses" widget in the Devices and Settings menu.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

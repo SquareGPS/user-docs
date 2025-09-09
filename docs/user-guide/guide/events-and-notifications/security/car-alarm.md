@@ -8,7 +8,7 @@ This rule works by monitoring the vehicle’s alarm system through a connected G
 
 ## Rule settings
 
-No specific rule settings are required. For common settings, please refer to [Rules and notifications](../).
+No specific rule settings are required. For common settings, please refer to [Rules and notifications](broken-reference).
 
 ## System operation details
 

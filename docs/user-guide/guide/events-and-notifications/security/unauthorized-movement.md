@@ -16,7 +16,7 @@ The rule works by utilizing the GPS device's built-in accelerometer and other co
 
 This rule is entirely dependent on the device’s capabilities and hardware configuration. Typically, the device must be able to detect when the vehicle is not in use, such as by monitoring the ignition state.
 
-There are no specific settings to configure within the rule itself. For common settings, please refer to [Rules and Notifications](../).
+There are no specific settings to configure within the rule itself. For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

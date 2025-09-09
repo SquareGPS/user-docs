@@ -28,6 +28,10 @@ Efficient driver identification is essential for accurate fleet management, ensu
 
 Navixy supports automatic driver identification through electronic keys such as i-Button or RFID devices. When a driver uses their assigned key, the system automatically identifies them and assigns them to the vehicle in real time.
 
+{% columns %}
+{% column %}
+
+
 **To set up automatic identification:**
 
 1. Go to **Fleet management** and select the **DRIVERS** tab
@@ -37,6 +41,12 @@ Navixy supports automatic driver identification through electronic keys such as 
 5. Click **Save**
 
 Once configured, go to the [Tracking ](../tracking/)section to see automatic driver identification when the hardware key is used with the vehicle.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/hardware-key.webp" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 **Requirements for automatic identification:**
 

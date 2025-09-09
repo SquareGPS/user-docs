@@ -14,7 +14,7 @@ This functionality provides valuable insights and control over the movement of o
 
 Specify the geofences that will trigger notifications when crossed. You can list multiple geofences within a single rule.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

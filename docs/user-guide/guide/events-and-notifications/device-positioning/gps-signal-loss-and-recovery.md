@@ -10,7 +10,7 @@ This rule is particularly useful in environments where GPS signal coverage is un
 
 This rule is cloud-processed, meaning the server software monitors when the GPS signal is lost and when it is recovered. You can apply this rule to multiple trackers simultaneously, as long as the trackers support this event type and it is integrated into the platform.
 
-For common rule settings, please refer to the [Rules and Notifications](../).
+For common rule settings, please refer to the [Rules and Notifications](broken-reference).
 
 ## System operation details
 

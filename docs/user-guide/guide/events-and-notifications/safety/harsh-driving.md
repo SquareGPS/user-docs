@@ -10,7 +10,7 @@ This rule works by utilizing the devices’s built-in accelerometer to monitor s
 
 Ensure that the harsh driving feature is configured in the Devices and settings menu, specifically in the Harsh Driving widget, or through the device’s configuration tool. Once set up, users can create and manage the rule from the platform.
 
-No other specific settings are required for this rule. For common settings, please refer to [Rules and Notifications](../).
+No other specific settings are required for this rule. For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

@@ -77,7 +77,7 @@ For details on the node configuration, see [Data Source node](flow-management/da
 
 * **Attribute name** - A clear, descriptive name (e.g., "speed\_mph")
 * **Formula** - The calculation expression (e.g., `value('speed')/1.609` to convert km/h to mph)\
-  **Note**. Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to ensure correct naming
+  **Note**. Attribute names [can be autofilled](broken-reference) to ensure correct naming
 * **Generation time** - When the data entry was created on the device (defaults to `now()`)
 * **Server time** - When the data was received by the server (defaults to `now()`)
 
@@ -95,7 +95,7 @@ The **Reset form** button discards all created attributes within a node. If you 
 
 For details on node configuration, see [Initiate Attribute node](flow-management/initiate-attribute-node/).
 
-For details on actions with attributes, see [Managing attributes](flow-management/initiate-attribute-node/managing-attributes.md).
+For details on actions with attributes, see [Managing attributes](broken-reference).
 
 For sample calculation formulas, see [Calculation examples](flow-management/initiate-attribute-node/calculation-examples.md).
 

@@ -10,7 +10,7 @@ For example, a logistics company using GPS-equipped vehicles to transport valuab
 
 This rule is entirely dependent on the device's capabilities and hardware configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

@@ -12,7 +12,7 @@ It's important to note that the effectiveness of this rule depends on the hardwa
 
 This rule is entirely dependent on the device's capabilities and hardware configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

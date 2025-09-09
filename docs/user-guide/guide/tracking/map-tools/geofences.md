@@ -1,6 +1,6 @@
 # Geofences
 
-Geofences are virtual perimeters that allow the system to monitor whether an object has crossed the geofence border ("in" or "out"). These events are logged, enabling users to generate geofence reports and [receive alerts](../../events-and-notifications/movement-monitoring/geofence-entrance-or-exit.md). Geofences can also be related to specific [rules for events](../../events-and-notifications/) within particular areas, such as receiving speeding alerts only within a city or along a route.
+Geofences are virtual perimeters that allow the system to monitor whether an object has crossed the geofence border ("in" or "out"). These events are logged, enabling users to generate geofence reports and [receive alerts](../../events-and-notifications/movement-monitoring/geofence-entrance-or-exit.md). Geofences can also be related to specific [rules for events](broken-reference) within particular areas, such as receiving speeding alerts only within a city or along a route.
 
 To access the **Geofences** tool, click <img src="../../../user-guide/gps-tracking/map-tools/attachments/image-20250425-083834.png" alt="image-20250425-083834.png" data-size="line"> in the upper-right corner of the map. Selecting any of the geofences will display the objects currently located within its borders.
 

@@ -8,16 +8,16 @@ Navixy addresses these challenges by offering tools that allow organizations to 
 
 The hierarchy of accounts within Navixy includes the Owner and Users. The Owner has the ability to limit the operations available to Users, ensuring that each User has access only to the tools and data necessary for their role.
 
-* [Add users to account](user-administration.md)
+* [Add users to account](broken-reference)
 
 ## Role management
 
 User roles in Navixy allow you to define different access levels and permissions for users based on their roles within the organization. These roles determine what actions users can perform and which data they can view and modify within the system. This customization ensures that employees have the appropriate level of access needed to perform their tasks without compromising security.
 
-* [Define user roles](role-management.md)
+* [Define user roles](broken-reference)
 
 ## Limiting user access to relevant information
 
 In organizations with multiple divisions (such as business units operating in different regions), controlling access to information is crucial. Navixy enables you to grant user access to specific assets only. This means that users from one business unit can access information related only to the assets that pertain to their division, ensuring that sensitive data is protected and users can focus on relevant information.
 
-* [Restrict access to information](restricting-access.md)
+* [Restrict access to information](broken-reference)

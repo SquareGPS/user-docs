@@ -37,7 +37,7 @@ The boolean attributes created by **Logic** nodes extend beyond flow routing and
 
 As custom sensors, these Logic-generated attributes enable two key capabilities:
 
-* **Triggering alerts**: You can create custom rules based on a sensor’s value to receive notifications in case of deviations. For details on rule creation, see [Rules and notifications](../../../../events-and-notifications/).
+* **Triggering alerts**: You can create custom rules based on a sensor’s value to receive notifications in case of deviations. For details on rule creation, see [Rules and notifications](broken-reference).
 * **Monitoring entities**: You can add an attribute to the [Object list](../../../../tracking/objects-list/) widget to monitor its value along with other device readings. For details on how to create a custom sensor from an IoT Logic attribute, see [Displaying new calculated attributes on the Navixy platform](../initiate-attribute-node/displaying-new-calculated-attributes-on-the-navixy-platform.md).
 
 {% hint style="info" %}
@@ -91,7 +91,7 @@ Build your conditional statement using the expression field.
 
 * Use [logical operators according to Navixy Expression Language syntax](logic-node-expressions-and-syntax.md) to reference device parameters and calculated attributes.
 * The expression must return a boolean value (true/false) for proper node operation.
-* Use the [autocomplete feature](../initiate-attribute-node/managing-attributes.md) to select available attributes from connected data sources.
+* Use the [autocomplete feature](broken-reference) to select available attributes from connected data sources.
 {% endstep %}
 
 {% step %}

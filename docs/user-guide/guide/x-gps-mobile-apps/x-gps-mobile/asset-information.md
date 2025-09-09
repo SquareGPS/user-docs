@@ -73,7 +73,7 @@ Tap the **Sensors** button to see the readings provided by the asset’s GPS dev
 
 Outputs allow sending control commands to devices, such as stopping the engine. To send a command, tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/image-20250508-093253.png" alt="image-20250508-093253.png" data-size="line"> and choose **Send** in the confirmation prompt.
 
-Vehicle sensors are configured via the main Navixy platform. To learn about them, see [Navixy User Documentation](../../devices-and-settings/vehicle-sensors/).
+Vehicle sensors are configured via the main Navixy platform. To learn about them, see [Navixy User Documentation](broken-reference).
 {% endcolumn %}
 
 {% column %}

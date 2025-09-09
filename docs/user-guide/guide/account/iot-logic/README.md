@@ -64,7 +64,7 @@ For complete API documentation, parameters, request/response formats, and code e
 * [Flow management](flow-management/)
   * [Data Source node](flow-management/data-source-node.md)
   * [Initiate Attribute node](flow-management/initiate-attribute-node/)
-    * [Managing attributes](flow-management/initiate-attribute-node/managing-attributes.md)
+    * [Managing attributes](broken-reference)
     * [Calculation examples](flow-management/initiate-attribute-node/calculation-examples.md)
     * [Displaying new calculated attributes on the Navixy platform](flow-management/initiate-attribute-node/displaying-new-calculated-attributes-on-the-navixy-platform.md)
   * [Logic node](flow-management/logic-node/)

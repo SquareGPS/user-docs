@@ -10,7 +10,7 @@ The GPS jamming rule enhances vehicle and asset security by preventing theft in 
 
 This rule is entirely dependent on the device's capabilities and hardware configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and notifications](../).
+For common settings, please refer to [Rules and notifications](broken-reference).
 
 ## System operation details
 

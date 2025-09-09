@@ -1,4 +1,4 @@
-# Call Button Pressed
+# Call button pressed
 
 ## Overview
 
@@ -10,7 +10,7 @@ This rule triggers notifications whenever the device's phone call function is ac
 
 The functionality of this rule depends on the device's capabilities and configuration, so no specific rule settings are required.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

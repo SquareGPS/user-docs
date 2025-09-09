@@ -22,7 +22,7 @@ The speed limit setting defines the threshold at which the rule is triggered. Wh
 
 For device-detected speeding events, there is no specific setting in the Rules and Notifications. Instead, use the Device Settings widget to remotely configure the speed limit on the device side.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

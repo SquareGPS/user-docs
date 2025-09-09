@@ -13,7 +13,7 @@ To utilize the route deviation rule, you must first create one or more route geo
 1. **Create route Geofences**: Before setting up the rule, ensure you have created route geofences categorized as "route."
 2. **Select Geofences**: Choose the route geofences you want to monitor for deviations. Only geofences categorized as "route" can be used for this purpose.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

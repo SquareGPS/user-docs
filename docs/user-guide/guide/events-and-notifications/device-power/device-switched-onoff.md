@@ -30,7 +30,7 @@ The "Tracker switched OFF" rule triggers a notification when a tracker is powere
 * **Reset Timer:** This alert includes a 10-second reset timer, ensuring that alerts are not triggered more frequently than once every 10 seconds, preventing excessive notifications.
 * **Configuration:** Similar to the "Tracker switched ON" rule, this rule also requires minimal configuration and can be applied to multiple trackers that support power-off event reporting.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

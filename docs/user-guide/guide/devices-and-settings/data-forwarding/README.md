@@ -72,21 +72,21 @@ Here are some examples of protocols available for various purposes:
 | **SafetyNet pulsian**                         | Forwards SOS alarms to a SafetyNet CAD server for emergency assistance.                                    |
 | [**SimpliRoute**](simpliroute.md)             | Protocol for transmitting vehicle tracking data to SimpliRoute.                                            |
 | **TraceReports**                              | Sends data to the TraceReports system.                                                                     |
-| [**Unigis**](unigis.md)                       | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
+| [**Unigis**](broken-reference)                | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
 | **Wirtrack**                                  | Forwards data to Wirsolut services.                                                                        |
 
 #### Data consolidation
 
-| Protocol                               | Description                                                                  |
-| -------------------------------------- | ---------------------------------------------------------------------------- |
-| **AVL Control**                        | Sends data to AVL Control servers for security management and statistics.    |
-| **Granit3**                            | Forwards data to Santel navigation servers.                                  |
-| **Startrack**                          | SOAP-based protocol for sending data to Startrack's logistics system.        |
-| **Lacak.io**                           | Data forwarding protocol for Lacak.io.                                       |
-| [**Navixy Web Service**](navixy-ws.md) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
-| **SA-RM**                              | General data forwarding protocol.                                            |
-| **Transnavigation**                    | Forwards data to Transnavigation servers.                                    |
-| [**Wialon IPS**](wialon-ips.md)        | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
-| **Wisetrack**                          | Forwards data to Wisetrack servers.                                          |
+| Protocol                                   | Description                                                                  |
+| ------------------------------------------ | ---------------------------------------------------------------------------- |
+| **AVL Control**                            | Sends data to AVL Control servers for security management and statistics.    |
+| **Granit3**                                | Forwards data to Santel navigation servers.                                  |
+| **Startrack**                              | SOAP-based protocol for sending data to Startrack's logistics system.        |
+| **Lacak.io**                               | Data forwarding protocol for Lacak.io.                                       |
+| [**Navixy Web Service**](broken-reference) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
+| **SA-RM**                                  | General data forwarding protocol.                                            |
+| **Transnavigation**                        | Forwards data to Transnavigation servers.                                    |
+| [**Wialon IPS**](wialon-ips.md)            | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
+| **Wisetrack**                              | Forwards data to Wisetrack servers.                                          |
 
 These options provide a robust framework for data sharing, helping you meet regulatory requirements, integrate with enterprise systems, and consolidate data for comprehensive analysis.

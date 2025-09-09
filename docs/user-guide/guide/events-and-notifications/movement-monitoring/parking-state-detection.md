@@ -12,7 +12,7 @@ Setting up this rule helps users stay informed about the beginning and end of tr
 
 The settings for a parking detection rule are managed exclusively within the Parking Detection widget. For detailed information on configuring parking detection, please refer to the Parking Detection article.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

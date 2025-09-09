@@ -55,7 +55,7 @@ Employees are required to fill out forms during or after completing a task. Here
 
 To ensure timely notifications when a form is submitted, configure alerts by following these steps:
 
-1. Navigate to the [Rules and notifications](../events-and-notifications/) section in the platform.
+1. Navigate to the [Rules and notifications](broken-reference) section in the platform.
 2. Start creating a new notification rule by clicking the "Add rule" button.
 3. Select the objects (e.g., vehicles, employees) to which this rule will apply.
 4. Choose [Task performance](../events-and-notifications/scheduling-and-dispatching/task-performance.md) from the list of events and proceed.

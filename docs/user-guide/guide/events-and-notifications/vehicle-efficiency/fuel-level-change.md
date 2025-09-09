@@ -16,7 +16,7 @@ Before setting up this rule, ensure that the fuel level sensor you intend to mon
 
 Specify the fuel level sensor that will be used as the source for notifications and analysis. The number of fuel changes indicated is regulated by the Accuracy parameter of the fuel level sensor, which is explained in the [Fuel level sensor section](../../devices-and-settings/vehicle-sensors/measurement-sensors/fuel-level-sensor.md).
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

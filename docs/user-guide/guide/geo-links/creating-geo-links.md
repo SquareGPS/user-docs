@@ -37,7 +37,7 @@ The list of objects available through the link. Each object has the following li
 * Sensor readings
 
 {% hint style="info" %}
-Sensor readings depend on the device’s model. To learn more about sensors and their types, see [Vehicle sensors](../devices-and-settings/vehicle-sensors/).
+Sensor readings depend on the device’s model. To learn more about sensors and their types, see [Vehicle sensors](broken-reference).
 {% endhint %}
 
 Use the copy button to apply the same attribute list to all other objects in the geo link. This function may save a significant amount of time when configuring attributes for multiple objects.

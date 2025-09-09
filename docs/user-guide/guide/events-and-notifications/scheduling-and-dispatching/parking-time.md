@@ -13,7 +13,7 @@ The parking time begins counting as soon as the vehicle enters a parked state. U
 
 To monitor dwell time in specific areas, bind the rule to the designated geofences.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

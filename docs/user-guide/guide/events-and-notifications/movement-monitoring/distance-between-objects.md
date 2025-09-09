@@ -26,7 +26,7 @@ This rule leverages GPS data to continuously track the distance between a design
 
 ![](../../../user-guide/rules-and-notifications/movement-monitoring/attachments/image-20240813-221847.png)
 
-For common settings, please refer to [Rules and notifications](../).
+For common settings, please refer to [Rules and notifications](broken-reference).
 
 ### System operation details
 

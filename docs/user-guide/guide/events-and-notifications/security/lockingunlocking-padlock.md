@@ -1,4 +1,4 @@
-# Locking/Unlocking Padlock
+# Locking and unlocking padlock
 
 ## Locking/Unlocking PadlockOverview
 
@@ -10,7 +10,7 @@ Specifically designed for GPS locks, this rule provides real-time alerts for all
 
 This rule is entirely dependent on the device's capabilities and hardware configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and notifications](../).
+For common settings, please refer to [Rules and notifications](broken-reference).
 
 ## System operation details
 

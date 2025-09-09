@@ -1,4 +1,4 @@
-# Fall Detection
+# Fall detection
 
 ## Overview
 
@@ -12,7 +12,7 @@ This functionality is especially valuable for monitoring elderly individuals, lo
 
 The functionality of this rule depends on the device's capabilities and configuration, so no specific rule settings are required.
 
-For common settings, please refer to [Rules and Notifications](../).
+For common settings, please refer to [Rules and Notifications](broken-reference).
 
 ## System operation details
 

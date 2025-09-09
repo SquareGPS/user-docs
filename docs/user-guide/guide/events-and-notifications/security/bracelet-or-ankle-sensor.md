@@ -1,4 +1,4 @@
-# Bracelet (or ankle) sensor
+# Bracelet or ankle sensor
 
 The “Bracelet sensor” (or “Ankle sensor”) rule is specifically designed for legal monitoring applications involving specialized GPS trackers. It is an essential tool for security in contexts such as house arrest or parole.
 
@@ -8,7 +8,7 @@ This rule is designed to immediately notify security personnel if a GPS device i
 
 This rule is entirely dependent on the device's capabilities and hardware configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and notifications](../).
+For common settings, please refer to [Rules and notifications](broken-reference).
 
 ## System operation details
 
