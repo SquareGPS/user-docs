@@ -16,10 +16,10 @@ La regla funciona utilizando el acelerómetro integrado del dispositivo GPS y ot
 
 Esta norma depende totalmente de las capacidades del dispositivo y de la configuración del hardware. Normalmente, el dispositivo debe ser capaz de detectar cuándo el vehículo no está en uso, por ejemplo, controlando el estado del encendido.
 
-No hay ajustes específicos que configurar dentro de la propia regla. Para los ajustes habituales, consulte [Normas y notificaciones](../).
+No hay ajustes específicos que configurar dentro de la propia regla. Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
 * **Reinicia el temporizador:** La alerta "Movimiento no autorizado" tiene un temporizador de restablecimiento de 5 minutos, lo que significa que la alerta no se activará con más frecuencia que una vez cada 5 minutos. Si se produce un evento mientras la regla está en el periodo de restablecimiento, la plataforma suprimirá la alerta, garantizando que las notificaciones y los informes sigan siendo claros y manejables.
 * **Múltiples dispositivos:** Esta regla puede aplicarse a varios rastreadores, siempre que admitan eventos de "Movimiento no autorizado" y tengan esta función integrada en la plataforma. Esto permite a los usuarios controlar los movimientos no autorizados en varios vehículos, garantizando una cobertura de seguridad completa.
-* **Procesamiento de eventos independiente del GPS:** La plataforma procesa y muestra los eventos de movimiento no autorizados aunque el paquete de datos carezca de coordenadas GPS válidas. Estos eventos se registran independientemente de si ocurren dentro o fuera de una geo-valla designada. En este caso, la configuración de la geovalla Inside/Outside se omite, lo que garantiza que no se pierda ningún evento crítico.
+* **Procesamiento de eventos independiente del GPS:** La plataforma procesa y muestra los eventos de movimiento no autorizados aunque el paquete de datos carezca de coordenadas GPS válidas. Estos eventos se registran independientemente de si ocurren dentro o fuera de una geocerca designada. En este caso, la configuración de la geocerca Dentro/Fuera se omite, lo que garantiza que no se pierda ningún evento crítico.

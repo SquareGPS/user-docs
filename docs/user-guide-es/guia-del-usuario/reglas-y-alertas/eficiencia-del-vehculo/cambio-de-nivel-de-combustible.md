@@ -6,7 +6,9 @@ Controlar los niveles de combustible es crucial para gestionar su consumo y dete
 
 Estas notificaciones pueden enviarse a través de la interfaz de usuario web, SMS o correo electrónico, y pueden consolidarse en informes. Esta supervisión proactiva ayuda a los usuarios a responder rápidamente a los cambios en el nivel de combustible, lo que puede reducir los costes de combustible y resolver disputas entre los empleados.
 
-> \[!INFO] Antes de configurar esta regla, asegúrese de que el sensor de nivel de combustible que pretende monitorizar está correctamente configurado. Para obtener instrucciones detalladas sobre la instalación y configuración de los sensores de nivel de combustible, consulte la página Sensor de medición.
+{% hint style="info" %}
+Antes de configurar esta regla, asegúrese de que el sensor de nivel de combustible que pretende monitorizar está correctamente configurado. Para obtener instrucciones detalladas sobre la instalación y configuración de los sensores de nivel de combustible, consulte la página Sensor de medición.
+{% endhint %}
 
 ## Configuración de reglas
 
@@ -14,7 +16,7 @@ Estas notificaciones pueden enviarse a través de la interfaz de usuario web, SM
 
 Especifique el sensor de nivel de combustible que se utilizará como fuente de notificaciones y análisis. El número de cambios de combustible indicados está regulado por el parámetro Precisión del sensor de nivel de combustible, que puede ajustarse en el menú Sensores y botones widget.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

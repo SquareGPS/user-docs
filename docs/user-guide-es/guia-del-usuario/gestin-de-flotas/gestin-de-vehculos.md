@@ -15,9 +15,9 @@ Para añadir un nuevo vehículo, basta con pulsar la tecla **Añadir vehículo**
 * **Pestaña de combustible:** Registre la información relacionada con el combustible, incluido el tipo de combustible, la capacidad del depósito y la tasa de consumo por cada 100 km (o millas). Estos datos son cruciales para generar reportes precisos sobre el consumo de combustible.
 * **Ficha del seguro:** Introduzca los datos del seguro del vehículo, incluido el número de póliza y la fecha de vigencia.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Consumo de combustible en el perfil del vehículo y su función en los informes de combustible
+<summary>Consumo de combustible en el perfil del vehículo y su función en los informes de combustible</summary>
 
 En Navixy, la configuración del **Consumo de combustible** en el perfil del vehículo es un paso fundamental para realizar un seguimiento preciso e informar sobre el uso de combustible en toda la flota en función del kilometraje recorrido, incluso sin depender de los datos OBDII o de sensores de combustible especializados.
 
@@ -37,6 +37,8 @@ Este parámetro suele definirse en términos de litros por cada 100 kilómetros 
 
 * Cuando se combina con los datos de los sensores de nivel de combustible, Navixy puede comparar el consumo de combustible estimado con el consumo real. Esta comparación ayuda a identificar discrepancias, como el robo de combustible, ineficiencias en el comportamiento de conducción o problemas con el motor del vehículo que podrían dar lugar a un consumo de combustible superior al previsto.
 
+</details>
+
 ### Importación de vehículos
 
 Si tiene una flota grande y necesita crear perfiles para varios vehículos, es más eficiente importar toda la información a la vez utilizando un único archivo, en lugar de crear perfiles de vehículos uno por uno. Los datos deben estar en formatos de archivo XLS, XLSX o CSV.
@@ -51,7 +53,9 @@ Para importar perfiles de vehículos:
 * Etiqueta
 * Modelo
 * Tipo
-* Tipo de combustibleUna vez cumplimentado el formulario, guarde el archivo en su ordenador.
+* Tipo de combustible
+
+Una vez cumplimentado el formulario, guarde el archivo en su ordenador.
 
 Para cargar el archivo en el sistema:
 

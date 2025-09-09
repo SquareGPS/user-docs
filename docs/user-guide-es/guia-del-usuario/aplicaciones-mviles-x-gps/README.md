@@ -23,8 +23,3 @@ X-GPS Tracker está destinada a los empleados sobre el terreno, permitiéndoles 
 
 * [Google Play](https://play.google.com/store/apps/details?id=com.navixy.xgps.tracker)
 * [App Store](https://apps.apple.com/app/x-gps-tracker/id1612047534)
-* [X-GPS Mobile](x-gps-mobile/)
-  * [Inicio rápido de X-GPS Mobile](x-gps-mobile/inicio-rpido-de-x-gps-mobile.md)
-  * [Lista de activos](x-gps-mobile/lista-de-activos.md)
-  * [Información del activo](x-gps-mobile/informacin-del-activo.md)
-  * [Cuenta y configuración](x-gps-mobile/cuenta-y-configuracin.md)

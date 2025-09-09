@@ -28,9 +28,9 @@ Esta regla aprovecha los datos GPS para realizar un seguimiento continuo de la d
 * **Mudanza:** Establezca alertas para cuando los objetos secundarios aumenten su distancia con respecto al vehículo principal. Esto resulta especialmente útil para detectar si los vehículos se alejan de un convoy o si los remolques se separan del vehículo principal.
 * **Rango de distancia:** Defina un rango específico de distancia permitida entre los objetos primario y secundario, que oscila entre 5 y 200.000 metros. El sistema generará notificaciones cada vez que la distancia se sitúe dentro o fuera de este rango predefinido, lo que permitirá una gestión proactiva de las operaciones de la flota.
 
-![image-20240813-221847.png](../../../gua-del-usuario/reglas-y-alertas/control-de-movimientos/attachments/image-20240813-221847.png)
+![](../../../gua-del-usuario/reglas-y-alertas/control-de-movimientos/attachments/image-20240813-221847.png)
 
-Para los ajustes habituales, consulte [Normas y notificaciones](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2761228324/Rules+and+Notifications#Manage-rules).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ### Detalles del funcionamiento del sistema
 

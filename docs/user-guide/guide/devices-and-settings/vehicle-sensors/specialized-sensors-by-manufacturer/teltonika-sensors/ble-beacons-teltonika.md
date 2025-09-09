@@ -26,9 +26,7 @@ To add a temperature sensor:
 2. Select **BLE: Temperature** as the input type.
 3. Choose **Temperature** as the sensor type.
 
-\[![Teltonika bluetooth beacons](https://www.navixy.com/wp-content/uploads/2020/10/chrome_zqbp0ajule.png)
-
-]\(https://www.navixy.com/wp-content/uploads/2020/10/chrome\_zqbp0ajule.png)
+<figure><img src="https://www.navixy.com/wp-content/uploads/2020/10/chrome_zqbp0ajule.png" alt=""><figcaption></figcaption></figure>
 
 ### Magnetic sensors
 

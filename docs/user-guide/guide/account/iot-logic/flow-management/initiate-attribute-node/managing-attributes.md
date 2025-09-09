@@ -53,7 +53,7 @@ The selected attribute is automatically inserted in the ready-to-use format, wit
 * `‘valid'` - validity flag forcing only the non-null values to be considered.
 
 {% hint style="info" %}
-When `'valid'` is specified, the system automatically skips any `null` (empty) hiustoric values. This means the depth index will point to the most recent **valid** value rather than the most recent chronological value. For example, if your most recent reading (index `0`) is `null` but the previous reading (index `1`) contains actual data, the formula will use the index `1` value instead of the null value at index `0`.
+When `'valid'` is specified, the system automatically skips any `null` (empty) historic values. This means the depth index will point to the most recent **valid** value rather than the most recent chronological value. For example, if your most recent reading (index `0`) is `null` but the previous reading (index `1`) contains actual data, the formula will use the index `1` value instead of the null value at index `0`.
 {% endhint %}
 
 You can modify the parameters as needed - change the index number for historical values or adjust the validity flag.

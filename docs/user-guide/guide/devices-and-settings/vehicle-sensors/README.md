@@ -39,4 +39,6 @@ To streamline configuration, you can copy sensor settings from one device to ano
 2. Select the devices to which you want to apply the copied settings.
 3. Click **Apply**.
 
-**Note:** Copying sensor settings will overwrite the current settings on the selected devices. Ensure that you only select the devices you intend to update.
+{% hint style="danger" %}
+Copying sensor settings will overwrite the current settings on the selected devices. Ensure that you only select the devices you intend to update.
+{% endhint %}

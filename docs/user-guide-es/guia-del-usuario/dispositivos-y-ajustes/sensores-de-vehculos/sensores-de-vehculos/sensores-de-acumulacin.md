@@ -2,7 +2,7 @@
 
 El widget de **Sensor de acumulación** es una potente herramienta que permite combinar datos de varios sensores y procesarlos mediante una función de acumulación. Esta funcionalidad es especialmente útil en situaciones en las que se utilizan varios sensores para controlar parámetros similares, como los niveles de combustible de un vehículo.
 
-![image-20240815-205851.png](../../../../gua-del-usuario/dispositivos-y-ajustes/sensores-de-vehculos/attachments/image-20240815-205851.png)
+![](../../../../gua-del-usuario/dispositivos-y-ajustes/sensores-de-vehculos/attachments/image-20240815-205851.png)
 
 ## Opciones de la función de acumulación
 

@@ -1,12 +1,10 @@
-# Aplicaciones
-
-**Visión general**
+# Aplicaciones de usuario
 
 Esta función le permite ampliar y personalizar la funcionalidad de su plataforma integrando a la perfección herramientas de terceros y complementos personalizados. Las aplicaciones son bloques de construcción que le permiten crear un espacio de trabajo personalizado en el que todas sus herramientas esenciales están al alcance de un clic. Si necesita analizar datos complejos, agilizar la comunicación o integrar herramientas especializadas del sector, esta funcionalidad lo hace posible sin necesidad de conocimientos técnicos.
 
-Tú eliges cómo se integran las herramientas externas en tu espacio de trabajo. Algunas aplicaciones funcionan mejor si se integran directamente en la interfaz y pasan a formar parte de tu flujo de trabajo diario. A otras les conviene abrirse en nuevas pestañas, ofreciéndote la experiencia de pantalla completa cuando sea necesario. El sistema se adapta a sus preferencias, manteniendo la seguridad y la facilidad de uso gracias a funciones como los parámetros de URL, la identificación de usuarios y la gestión segura de sesiones.
+Usted elige cómo se integran las herramientas externas en su espacio de trabajo. Algunas aplicaciones funcionan mejor si se integran directamente en la interfaz y pasan a formar parte de tu flujo de trabajo diario. A otras les conviene abrirse en nuevas pestañas, ofreciéndose la experiencia de pantalla completa cuando sea necesario. El sistema se adapta a sus preferencias, manteniendo la seguridad y la facilidad de uso gracias a funciones como los parámetros de URL, la identificación de usuarios y la gestión segura de sesiones.
 
-Estas son las principales ventajas de utilizar las **aplicaciones de usuario**:
+Estas son las principales ventajas de utilizar las **Aplicaciones de usuario**:
 
 * **Personalización a medida**\
   Amplíe la plataforma para satisfacer necesidades empresariales específicas con funciones y flujos de trabajo personalizados.
@@ -19,21 +17,21 @@ Estas son las principales ventajas de utilizar las **aplicaciones de usuario**:
 * **Crecimiento de la comunidad**\
   Amplíe nuestra red telemática profesional y comparta información valiosa de sus desarrollos personalizados.
 
-2. **Acceso a las aplicaciones de usuario**
+### **Acceso a las Aplicaciones de usuario**
 
 En función del nivel de acceso definido por el rol del usuario, la disponibilidad de la función puede variar:
 
-* **Los Propietarios de Cuenta** tienen acceso completo a la gestión de aplicaciones. Pueden crear nuevas aplicaciones, ver todas las aplicaciones existentes en la cuenta y y ellas.
-* **Los usuarios** con cuenta sólo pueden ver las aplicaciones habilitadas para ellos en la barra lateral de la plataforma.
+* **Los propietarios de cuenta** tienen acceso completo a la gestión de aplicaciones. Pueden crear nuevas aplicaciones, ver todas las aplicaciones existentes en la cuenta y y ellas.
+* **Los usuarios** con cuenta solo pueden ver las aplicaciones habilitadas para ellos en la barra lateral de la plataforma.
 
-El espacio **Aplicaciones de usuario** está disponible para **los Propietarios de cuenta** en la sección **Configuración de la cuenta**. Para acceder a él:
+El espacio **Aplicaciones de usuario** está disponible para los propietarios de cuenta en la sección **Ajustes**. Para acceder a él:
 
-1. Haga clic en el icono de perfil situado en la esquina superior izquierda de la pantalla para abrir la configuración de su cuenta.
-2. En la barra lateral de configuración, seleccione **Aplicaciones de usuario**
+1. Haga clic en el icono de perfil situado en la esquina superior izquierda de la pantalla para abrir los **Ajustes**.
+2. En la barra lateral de configuración, seleccione **Aplicaciones de usuario.**
 
 Verás una lista completa con todos los complementos existentes y la posibilidad de crear otros nuevos.
 
-![User\_Apps\_Navigation\_ES.gif](../../../gua-del-usuario/cuenta/attachments/User_Apps_Navigation_ES.gif)
+![](../../../gua-del-usuario/cuenta/attachments/User_Apps_Navigation_ES.gif)
 
 **Contenido de la sección**
 

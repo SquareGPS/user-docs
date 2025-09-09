@@ -2,7 +2,7 @@
 
 La pestaña de **Conductores** en la plataforma Navixy está diseñada para ayudar a los administradores de flotas a gestionar y supervisar eficazmente a sus conductores. Esta sección le permite crear y gestionar perfiles detallados de conductores, vinculándolos a vehículos u objetos específicos de su flota. Al mantener registros completos de los conductores, puede agilizar las operaciones de la flota, mejorar la responsabilidad de los conductores y mejorar el rendimiento general de la flota.
 
-![image-20240814-180004.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-180004.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-180004.png)
 
 ## Lista de controladores
 
@@ -43,7 +43,7 @@ Navixy admite la identificación automática del conductor mediante el uso de ll
 **Requisitos para la identificación automática:**
 
 * El dispositivo de seguimiento debe soportar la interfaz 1-Wire para la conexión de la llave electrónica.
-* La función "Llave de hardware" debe estar activada para el modelo de seguidor específico, lo que puede comprobarse en [Página de dispositivos compatibles con Navixy](https://www.navixy.com/devices/). Si la opción "Llave hardware" está disponible en el **Campos estatales** de su dispositivo, entonces es compatible con la función de identificación de controladores.
+* La función "Llave de hardware" debe estar activada para el modelo de seguidor específico, lo que puede comprobarse en [Página de dispositivos compatibles con Navixy](https://www.navixy.com/devices/es/). Si la opción "Llave hardware" está disponible en el **Campos estatales** de su dispositivo, entonces es compatible con la función de identificación de controladores.
 
 ### Identificación manual del conductor
 

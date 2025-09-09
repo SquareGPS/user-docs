@@ -34,7 +34,9 @@ Este flujo transformará los datos brutos del dispositivo en un formato que apoy
 
 Siga estos pasos para crear un flujo completo de transformación y reenvío de datos:
 
-### Paso 1: Cree un nuevo flujo
+{% stepper %}
+{% step %}
+### Cree un nuevo flujo
 
 1. Haga clic en el botón **Nuevo flujo** en la parte superior de la interfaz de IoT Logic
 2. Introduzca _Procesamiento de telemetría de activos_ como nombre del flujo
@@ -42,9 +44,11 @@ Siga estos pasos para crear un flujo completo de transformación y reenvío de d
 4. Asegúrese de que el conmutador **Flujo habilitado** está activado
 5. Haga clic en **Guardar** para crear el flujo
 
-![Create flow dialog with filled-in name and description, Flow enabled toggle on](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-200203.png)
+<figure><img src="../../../../.gitbook/assets/image (18).png" alt="" width="563"><figcaption></figcaption></figure>
+{% endstep %}
 
-### Paso 2: Configure la Fuente de Datos
+{% step %}
+### Configure la Fuente de Datos
 
 1. Arrastre un nodo **Fuente de Datos** del menú de la izquierda al área de trabajo
 2. Haga doble clic en el nodo para abrir su panel de configuración
@@ -54,10 +58,10 @@ Siga estos pasos para crear un flujo completo de transformación y reenvío de d
 * Para este ejemplo, seleccione al menos dos dispositivos con capacidades similares
 
 5. Haga clic en **Crear** para guardar la configuración del nodo
+{% endstep %}
 
-![Data source node configuration with selected devices](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-200511.png)
-
-### Paso 3: Configure transformaciones básicas de datos
+{% step %}
+### Configure transformaciones básicas de datos
 
 1. Arrastre un nodo **Iniciar Atributo** del menú de la izquierda al área de trabajo
 2. Conecte el nodo **Fuente de Datos** a este nodo **Iniciar Atributo**
@@ -70,11 +74,15 @@ Siga estos pasos para crear un flujo completo de transformación y reenvío de d
 9. Añada un nuevo atributo para la conversión de presión (PSI a Bar): 1. Nombre del atributo _presión\_bar_ 2. Valor: `value('pressure_psi') * 0.06895`
 10. Haga clic en **Aplicar** para guardar la configuración del nodo
 
-![First Initiate attribute node showing the unit conversion attributes](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-201226.png)
+![](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-201226.png)
 
-> \[!NOTE] Para obtener explicaciones sobre los cálculos introducidos en este paso, consulte [Conversiones básicas de unidades](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334496/Ejemplo+de+configuraci+n+de+un+flujo#Conversiones-b%C3%A1sicas-de-unidades).
+{% hint style="info" %}
+Para obtener explicaciones sobre los cálculos introducidos en este paso, consulte [Conversiones básicas de unidades](ejemplo-de-configuracin-de-un-flujo.md#conversiones-basicas-de-unidades).
+{% endhint %}
+{% endstep %}
 
-### Paso 4: Cree métricas calculadas avanzadas
+{% step %}
+### Cree métricas calculadas avanzadas
 
 1. Arrastre otro nodo **Iniciar Atributo** del menú de la izquierda al área de trabajo.
 2. Conecte el primer nodo **Iniciar Atributo** a este nuevo nodo.
@@ -92,9 +100,13 @@ Siga estos pasos para crear un flujo completo de transformación y reenvío de d
 
 ![Second Initiate attribute node showing the advanced calculated metrics](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-202303.png)
 
-> \[!NOTE] Para obtener explicaciones sobre los cálculos introducidos en este paso, consulte [Cálculos avanzados de métricas](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334496/Ejemplo+de+configuraci+n+de+un+flujo#C%C3%A1lculos-avanzados-de-m%C3%A9tricas).
+{% hint style="info" %}
+Para obtener explicaciones sobre los cálculos introducidos en este paso, consulte [Cálculos avanzados de métricas](ejemplo-de-configuracin-de-un-flujo.md#calculos-avanzados-de-metricas).
+{% endhint %}
+{% endstep %}
 
-### Paso 5: Configure el Punto de Salida
+{% step %}
+### Configure el Punto de Salida
 
 1. Arrastre un nodo **Punto de Salida** desde el menú de la izquierda al área de trabajo.
 2. Conecte el segundo nodo **de atributo Initiate** a este nodo **Output endpoint**
@@ -116,9 +128,13 @@ Siga estos pasos para crear un flujo completo de transformación y reenvío de d
 
 5. Haga clic en **Crear** para guardar la configuración del nodo
 
-![Output endpoint node configuration with filled-in connection settings](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-202704.png)
+![](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-202704.png)
+{% endstep %}
 
-### Paso 6: Añada punto final por defecto
+{% step %}
+### Añada punto final por defecto
+
+
 
 1. Arrastre un nodo **Punto de Salida** desde el menú de la izquierda al área de trabajo.
 2. En **Tipo de punto de salida** seleccione **Punto de salida predeterminado**
@@ -126,20 +142,30 @@ Siga estos pasos para crear un flujo completo de transformación y reenvío de d
 4. Conecte el nodo _Rastreadores de activos_ (**Fuente de Datos**) a él
 
 Esto garantiza que los datos sin procesar se envían a Navixy directamente desde los dispositivos, sin transformaciones ni enriquecimientos.
+{% endstep %}
 
-### Paso 7: Guarde y probar el flujo
+{% step %}
+### Guarde y probar el flujo
 
 Su configuración final tendrá este aspecto:
 
-![Complete flow configuration with all nodes connected in IoT Logic workspace](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-203757.png)
+![](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-203757.png)
 
 Haga clic en el botón **Guardar flujo** del panel **Nodos** para guardar la configuración del flujo.
+{% endstep %}
+{% endstepper %}
 
-> \[!TIP] Utilice [Analizador de flujo de datos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334554/Data+Stream+Analyzer?atlOrigin=eyJpIjoiOWE5ZTdiNjQ4Nzc5NGVmOTg0NjI0MDU2NjI1ZjgwNDUiLCJwIjoiYyJ9) para supervisar los datos entrantes y verificar:
->
-> * Los dispositivos envían datos al flujo
-> * Los cálculos funcionan según lo previsto
-> * Los datos se envían al destino Por ejemplo, comprobemos que las conversiones de velocidad se calculan correctamente en un camión. Para hacerlo en DSA, necesitamos seleccionar el dispositivo **Volvo** y los atributos **speed** y **speed\_mph**: ![Speed attributes for one device in Data Stream Analyzer](../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-204530.png) ¡Todo bien! Los datos se reciben y se convierten correctamente.
+{% hint style="success" %}
+Utilice [Analizador de flujo de datos](../analizador-de-flujo-de-datos.md) para supervisar los datos entrantes y verificar:
+
+* Los dispositivos envían datos al flujo
+* Los cálculos funcionan según lo previsto
+*   Los datos se envían al destino. Por ejemplo, comprobemos que las conversiones de velocidad se calculan correctamente en un camión. Para hacerlo en DSA, necesitamos seleccionar el dispositivo **Volvo** y los atributos **speed** y **speed\_mph**:&#x20;
+
+    <figure><img src="../../../../gua-del-usuario/cuenta/iot-logic/gestin-de-flujos/attachments/image-20250407-204530.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    ¡Todo bien! Los datos se reciben y se convierten correctamente.
+{% endhint %}
 
 ## Explicación de las transformaciones de datos
 

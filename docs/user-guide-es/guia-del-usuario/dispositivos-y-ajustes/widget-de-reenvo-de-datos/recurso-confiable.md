@@ -1,8 +1,6 @@
-# recurso-confiable
+# Recurso Confiable
 
-## Recurso Confiable
-
-## Recurso Confiable—Seguimiento GPS y envío de datos para empresas
+## Recurso Confiable: Seguimiento GPS y envío de datos para empresas
 
 Recurso Confiable es un software de seguridad y logística que monitorea, da visibilidad y genera predictibilidad en las operaciones de transporte. Navixy creó el protocolo de reenvío de datos de Recurso Confiable para ser utilizado por otras empresas que también trabajan con Recurso Confiable en múltiples industrias en México, Colombia, Estados Unidos y Centroamérica.
 
@@ -67,11 +65,9 @@ Para el protocolo Recurso Confiable, ingrese la siguiente información:
 
 Una pantalla de gestión de retransmisión debería verse similar a la siguiente, con el usuario y contraseña de Recurso Confiable. Asegúrese de que el botón "Habilitado" esté marcado y haga clic en el botón "Guardar" para completar el proceso.
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
 
-A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png)
-
-en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
+A continuación, será necesario vincular el retransmisor al dispositivo en el lado de Unigis. Para hacerlo, seleccione el botón “Vincular” ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) en el widget de reenvío de datos. Seleccione el retransmisor a conectar y haga clic en “Vincular” a continuación.
 
 Luego, agregue la información necesaria para identificar el dispositivo en Recurso Confiable en el campo ID externo, ya sea haciendo clic en el ícono del lápiz o en el campo de ID externo. Este valor debe incluir lo siguiente desde el lado de Recurso Confiable, donde solo la matrícula es obligatoria:
 
@@ -80,17 +76,23 @@ Luego, agregue la información necesaria para identificar el dispositivo en Recu
 * ID de la Empresa
 * Nombre de la Empresa
 
-&#x20;El formato para el campo ID externo estará separado por una barra vertical. Por ejemplo:
+El formato para el campo ID externo estará separado por una barra vertical. Por ejemplo:
 
-_ABC123|1|123|John_
+```
+ABC123|1|123|John
+```
 
-&#x20;Si solo está disponible la Matrícula, el ID externo se puede ingresar por sí solo:
+Si solo está disponible la Matrícula, el ID externo se puede ingresar por sí solo:
 
-_ABC123_
+```
+ABC123
+```
 
 O si falta cualquier otra información, asegúrese de incluir las barras verticales, por ejemplo:
 
-_ABC123||123|_
+```
+ABC123||123|
+```
 
 Seleccione “Guardar” una vez completado.
 
@@ -108,7 +110,7 @@ Para cambiar la configuración del retransmisor, como nombre, información de in
 
 Esto abrirá la ventana de gestión de retransmisores. Seleccione la fila para editar y haga clic en el lápiz en la parte superior izquierda, o haga doble clic en la fila en cuestión para permitir la edición. Guarde los cambios realizados.
 
-![Recurso Confiable](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-3-600x107.png)
+![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-3-600x107.png)
 
 #### Solución de problemas
 

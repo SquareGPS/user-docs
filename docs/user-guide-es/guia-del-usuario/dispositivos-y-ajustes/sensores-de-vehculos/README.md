@@ -8,9 +8,7 @@ En **Sensores y botones** se encuentra en el widget **Dispositivos y ajustes** a
 
 El widget plegado ofrece una visión general del número de sensores ya conectados al dispositivo seleccionado. Si amplía el panel, podrá añadir nuevos sensores o editar los existentes.
 
-![image-20240815-205201.png](../../../gua-del-usuario/dispositivos-y-ajustes/attachments/image-20240815-205201.png)
-
-![image-20240815-205217.png](../../../gua-del-usuario/dispositivos-y-ajustes/attachments/image-20240815-205217.png)
+![](../../../gua-del-usuario/dispositivos-y-ajustes/attachments/image-20240815-205217.png)
 
 El número y el tipo de sensores que puedes conectar dependen del modelo de dispositivo GPS. Por ejemplo, algunos dispositivos permiten configurar parámetros de datos transmitidos a través del bus CAN o del conector de diagnóstico OBDII.
 
@@ -41,4 +39,6 @@ Para agilizar la configuración, puede copiar los ajustes de los sensores de un 
 2. Seleccione los dispositivos a los que desea aplicar la configuración copiada.
 3. Haga clic en **Solicitar**.
 
-**Nota:** Al copiar los ajustes de los sensores, se sobrescribirán los ajustes actuales de los dispositivos seleccionados. Asegúrese de seleccionar únicamente los dispositivos que desea actualizar.
+{% hint style="danger" %}
+Al copiar los ajustes de los sensores, se sobrescribirán los ajustes actuales de los dispositivos seleccionados. Asegúrese de seleccionar únicamente los dispositivos que desea actualizar.
+{% endhint %}

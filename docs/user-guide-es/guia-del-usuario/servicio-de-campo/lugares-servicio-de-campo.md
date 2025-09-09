@@ -1,12 +1,12 @@
-# Lugares - Servicio de campo
+# Lugares en Servicio de campo
 
 La pestaña de **Lugares** en **Servicio de campo** puede utilizarse para organizar y gestionar las ubicaciones clave que el personal de campo debe visitar, como direcciones de clientes, sedes de la empresa u otros puntos de interés importantes. Esto ayuda a racionalizar la asignación de tareas, optimizar las rutas y garantizar la eficacia de las operaciones sobre el terreno.
 
-![image-20240816-175137.png](../../gua-del-usuario/servicio-de-campo/attachments/image-20240816-175137.png)
+![](../../gua-del-usuario/servicio-de-campo/attachments/image-20240816-175137.png)
 
 Al entrar en la sección Lugares, verás una lista de todos los lugares disponibles junto con sus detalles, incluidos los campos personalizados que hayas añadido.
 
-![image-20240816-174653.png](../../gua-del-usuario/servicio-de-campo/attachments/image-20240816-174653.png)
+![](../../gua-del-usuario/servicio-de-campo/attachments/image-20240816-174653.png)
 
 ## Crear y gestionar lugares
 
