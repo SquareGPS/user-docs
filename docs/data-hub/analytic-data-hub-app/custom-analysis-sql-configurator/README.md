@@ -25,7 +25,7 @@ Your PTL data appears through two primary schemas organized by source and purpos
 | <p>Organizational and operational information.<br><br>- <strong>Core entities:</strong> users, devices, objects, vehicles, employees<br>- <strong>Operational data:</strong> tasks, forms, zones, places, garages<br>- <strong>Reference data:</strong> models, entities, status information<br>- <strong>Relationship tables:</strong> vehicle-driver assignments, user-zone mappings</p> | <p>Real-time GPS tracking, sensor readings, and device status<br><br>- <strong>tracking_data_core:</strong> GPS coordinates, speed, altitude, event data<br>- <strong>inputs:</strong> Sensor readings (fuel, temperature, voltage)<br>- <strong>states:</strong> Device status indicators (ignition, doors, operational modes)</p> |
 
 {% hint style="info" %}
-For details on data schemas available in your Data Hub, see [Schema overview](../../data-hub/schema-overview/).
+For details on data schemas available in your DataHub, see [Schema overview](../../data-hub/schema-overview/).
 {% endhint %}
 
 ## Creating visualizations from query results

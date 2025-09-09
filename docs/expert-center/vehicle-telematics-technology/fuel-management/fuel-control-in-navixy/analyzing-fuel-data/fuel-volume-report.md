@@ -6,7 +6,7 @@
 Please make sure the platform is configured properly before you create a fuel report, so events could be recognized properly:
 
 * Check [sensor settings](../sensors-setup-and-configuration.md)
-* Check [parking detection settings](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/devices-and-settings/location-and-movement/parking-detection-widget)
+* Check [parking detection settings](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-widget)
 {% endhint %}
 
 ### Refills and drains in reports
@@ -21,7 +21,7 @@ In the report, a "filling" event is documented when the fuel level increases by 
 
 Once you have enabled one or both options for ignoring - the next algorithm will be used for reports and alerts in addition to standard:
 
-* If refueling begins during the [parking time](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/events-and-notifications/movement-monitoring/parking-state-detection), it will be displayed in the report and logged by the rule. Additionally, if refueling starts within X minutes of the filter timeout before parking or within X minutes of the filter timeout after the trip starts, it will also be logged by the rule and shown in the report.
+* If refueling begins during the [parking time](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications/movement-monitoring/parking-state-detection), it will be displayed in the report and logged by the rule. Additionally, if refueling starts within X minutes of the filter timeout before parking or within X minutes of the filter timeout after the trip starts, it will also be logged by the rule and shown in the report.
 * However, if refueling starts earlier than X minutes from the filter timeout before parking or later than X minutes from the filter timeout since the beginning of the trip, it will be filtered out.
 * In cases where no filter timeout is specified, all refills that start during trips will be filtered.
 
@@ -209,7 +209,7 @@ The information in the table is organized in the following columns:
 * GPS and flow rate data
   * Mileage, km - information about the mileage calculated by GPS on the beacon side.
   * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/fleet-management/vehicles) card.
+  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/fleet-management/vehicles) card.
 * Fuel level sensor data - data that the platform has received from the fuel level sensor.
   * Initial volume, l - initial fuel level for the day.
   * Final volume, l - final fuel level for the day.

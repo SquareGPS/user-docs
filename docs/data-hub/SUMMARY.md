@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Data Hub](README.md)
+* [DataHub](README.md)
   * [Getting started](data-hub/getting-started.md)
   * [Connection setup](data-hub/connection-setup/README.md)
     * [Selecting BI tools](data-hub/connection-setup/selecting-bi-tools/README.md)

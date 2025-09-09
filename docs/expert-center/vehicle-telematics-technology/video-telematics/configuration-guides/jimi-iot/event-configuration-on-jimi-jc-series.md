@@ -1,6 +1,6 @@
 # Event configuration on Jimi JC series
 
-Jimi JC devices can send various event codes to the platform. While the platform has its own notification system with already predefined alerts, you can set up additional custom alerts based on specific event codes from your devices using [state field alert type](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/events-and-notifications/inputs-and-outputs/state-field-value). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/reports/specific-report-details/report-on-all-events).
+Jimi JC devices can send various event codes to the platform. While the platform has its own notification system with already predefined alerts, you can set up additional custom alerts based on specific event codes from your devices using [state field alert type](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications/inputs-and-outputs/state-field-value). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/report-on-all-events).
 
 ## How to set up event code alerts
 

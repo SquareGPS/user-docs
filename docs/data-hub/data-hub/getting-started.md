@@ -2,7 +2,10 @@
 
 ## First steps
 
-Your journey with Data Hub begins with the connection credentials provided in your welcome email. These include:
+Before you can utilize data for comprehensive analytics and integration, you must first enable the DataHub.\
+
+
+Once it's set up, you'll receive a welcome email containing detailed information. To begin your data journey, you will need:
 
 * Database host and port
 * Database name
@@ -10,23 +13,23 @@ Your journey with Data Hub begins with the connection credentials provided in yo
 * SSL mode settings
 
 {% hint style="info" %}
-If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/user-guide/quick-start/service-provider) for access to Data Hub.
+If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/quick-start/about-service-providers) for access to DataHub.
 {% endhint %}
 
-From there, your path forward is straightforward:
+From there, your path forward is straight:
 
 1. [Set up your connection](connection-setup/)\
    Configure your SQL client or analytics tool
 2. [Explore data schemas](schema-overview/)\
    Discover the tables and relationships in your data
-3. [Check example queries](../example-queries/)\
-   Start with sample SQL that addresses common use cases
+3. [Check SQL example queries](../example-queries/)\
+   Use ready-made queries from our comprehensive recipe collection
 
 We also recommend familiarizing yourself with [Data types and field standards](getting-started.md#data-types-and-field-standards) and [Important considerations](getting-started.md#important-considerations) before proceeding.
 
 ## Data types and field standards
 
-Data Hub uses consistent data type conventions that may differ from the source systems:
+DataHub uses consistent data type conventions that may differ from the source systems:
 
 * **Date and time fields** use the `TIMESTAMP` format
 * **Text fields** use `CHARACTER VARYING` or `TEXT` types
@@ -35,7 +38,7 @@ Data Hub uses consistent data type conventions that may differ from the source s
 
 ## Important considerations
 
-While working with the Data Hub, be aware of these current limitations:
+While working with the DataHub, be aware of these current limitations:
 
 * **Error messaging** is minimal for SQL query issues
 * **Silver and Gold layers** are still in development and not available yet

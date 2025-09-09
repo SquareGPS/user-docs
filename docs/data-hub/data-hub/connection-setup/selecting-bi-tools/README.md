@@ -1,8 +1,8 @@
 # Selecting BI tools
 
-Analyzing and visualizing data stored in your Data Hub requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.
+Analyzing and visualizing data stored in your DataHub requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.
 
-## Why use BI tools with your Data Hub
+## Why use BI tools with your DataHub
 
 While direct SQL access provides flexibility for data exploration, BI tools offer significant advantages:
 
@@ -16,12 +16,12 @@ The right BI tool transforms raw data into actionable insights, supporting bette
 
 ## Comparison of recommended BI tools
 
-We've evaluated three powerful options that work well with Data Hub: Power BI, Apache Superset, and Streamlit. Each offers distinct advantages depending on your requirements, technical capabilities, and budget.
+We've evaluated three powerful options that work well with DataHub: Power BI, Apache Superset, and Streamlit. Each offers distinct advantages depending on your requirements, technical capabilities, and budget.
 
 | **Characteristic**          | **Power BI**                                                                                                                                                                                                                                                                                  | **Apache Superset**                                                                                                                                                                                                          | **Streamlit**                                                                                                                                                                                                                 |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Solution type**           | Professional BI tool from Microsoft for data analysis and reporting                                                                                                                                                                                                                           | Enterprise BI platform with open source code                                                                                                                                                                                 | Python framework for creating web applications                                                                                                                                                                                |
-| **Availability**            | Commercial BI tool                                                                                                                                                                                                                                                                            | Open source BI platform                                                                                                                                                                                                      | Python framework for dashboards                                                                                                                                                                                               |
+| **Availability**            | Commercial BI tool                                                                                                                                                                                                                                                                            | Open source BI platform                                                                                                                                                                                                      | Python framework for data analytics                                                                                                                                                                                           |
 | **Cost**                    | Basic version free, Premium from $10/user/month                                                                                                                                                                                                                                               | Free (open source)                                                                                                                                                                                                           | Free (open source)                                                                                                                                                                                                            |
 | **Advantages**              | <p>- Ready-made visualization templates (50+ types)<br>- Microsoft 365 integration (Teams, SharePoint)<br>- Simple access management through Azure AD<br>- Automatic data refresh (up to 48 times daily)<br>- Ready connectors to 100+ data sources<br>- Built-in analytics (AI Insights)</p> | <p>- Full customization through Python/React<br>- Scalability up to 10,000+ users<br>- Support for 50+ database types<br>- 40+ visualization types<br>- Multi-user access with RBAC<br>- SQL editor with auto-completion</p> | <p>- Complete development freedom through Python<br>- Integration with any Python libraries<br>- Rapid prototype development<br>- Support for all database types via Python drivers<br>- Ability to incorporate ML models</p> |
 | **Disadvantages**           | <p>- Limited visualization customization<br>- Tied to Microsoft ecosystem<br>- Limited support for non-relational databases</p>                                                                                                                                                               | <p>- Complex installation (requires Docker)<br>- Requires technical knowledge for configuration<br>- Server maintenance needed<br>- Limited documentation in some languages</p>                                              | <p>- Requires Python programming skills<br>- Limited scalability<br>- Needs custom security system development<br>- No built-in data refresh system</p>                                                                       |
@@ -55,7 +55,7 @@ Power BI excels in corporate environments where integration with Microsoft produ
 
 Apache Superset is ideal for organizations that value flexibility and control over their BI infrastructure, have technical resources available, and prefer not to be tied to proprietary software.
 
-### Choose Streamlit if:
+### Choose Python+Streamlit if:
 
 * You need maximum flexibility
 * You have Python developers on staff
@@ -67,18 +67,20 @@ Streamlit works best for data science teams that want to quickly create custom v
 
 ## Detailed connection guides
 
-For step-by-step instructions on connecting each BI tool to your Data Hub, please refer to the following dedicated guides:
+For step-by-step instructions on connecting each BI tool to your DataHub, please refer to the following dedicated guides:
 
-* [Connecting Power BI to Data Hub](connecting-power-bi.md)
-* [Connecting Apache Superset to Data Hub](connecting-apache-superset.md)
-* [Connecting Streamlit to Data Hub](connecting-streamlit.md)
+* [Connecting Power BI to DataHub](connecting-power-bi.md)
+* [Connecting Apache Superset to DataHub](connecting-apache-superset.md)
+* [Connecting Streamlit to DataHub](connecting-streamlit.md)
 
 Each guide provides detailed configuration steps, recommended settings, and best practices specific to that tool.
 
 ## Conclusion
 
-The choice of BI tool ultimately depends on your organization's specific needs, technical capabilities, and resources. Power BI offers a polished, enterprise-ready experience with minimal setup; Apache Superset provides maximum flexibility and scalability with some technical overhead; and Streamlit delivers unmatched customization for Python-savvy teams.
+The choice of BI tool ultimately depends on your organization's specific needs, technical capabilities, and resources. Power BI offers a polished, enterprise-ready experience with minimal setup; Apache Superset provides maximum flexibility and scalability with some technical overhead; and Streamlit delivers unmatched customization for Python-savvy teams.&#x20;
 
 All three options can effectively visualize your telematics data when properly configured. We recommend starting with a proof-of-concept project using your preferred tool to test its compatibility with your specific use cases before committing to a full-scale implementation.
 
-Remember that the full value of your Data Hub is realized when you can effectively transform data into actionable insights through visualization and analysis. The right BI tool is a critical component in this journey.
+**There are no limitations on which BI tools you can use — any tool compatible with a PostgreSQL database is supported. You're free to use your preferred BI tools, such as Tableau, Grafana, or others.**
+
+Remember that the full value of your DataHub is realized when you can effectively transform data into actionable insights through visualization and analysis. The right BI tool is a critical component in this journey.

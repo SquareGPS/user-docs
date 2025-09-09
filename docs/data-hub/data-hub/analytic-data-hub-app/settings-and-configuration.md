@@ -1,6 +1,6 @@
 # Settings and configuration
 
-Your **Data Hub App** instance requires management to deliver optimal performance. Configuration controls what data flows into your system and how efficiently your queries perform - like tuning a system to get the clearest analytical signal.
+Your **Analytics App** instance requires management to deliver optimal performance. Configuration controls what data flows into your system and how efficiently your queries perform - like tuning a system to get the clearest analytical signal.
 
 ## Understanding your system's health
 
@@ -23,7 +23,7 @@ Your **PTL Configuration** panel shows your **Dealer ID** and **Client ID**, con
 
 ### Historical data loading
 
-Use **Run History Load** when automatic synchronization encounters issues or after changing data processing settings. The slider ranges from 7 to 62 days - choose timeframes that represent meaningful operational patterns for your analysis.
+This feature is provided on demand. Use **Run History Load** when automatic synchronization encounters issues or after changing data processing settings. The slider ranges up to 30 days - choose timeframes that represent meaningful operational patterns for your analysis.
 
 Larger timeframes provide more historical context but require more processing time and storage. Processing runs in the background with progress shown in the upper-right corner.
 
@@ -39,11 +39,11 @@ Control which telematics data types your system processes to balance performance
 
 ### Choosing your configuration
 
-| **Configuration** | **Query esponse** | **Storage cost** | **Use case**           |
-| ----------------- | ----------------- | ---------------- | ---------------------- |
-| Tracking only     | Fast (1-2s)       | Low              | Basic fleet monitoring |
-| Tracking + Inputs | Medium (2-5s)     | Medium           | Maintenance analysis   |
-| All Categories    | Slower (5-10s)    | High             | Comprehensive analysis |
+| **Configuration** | **Query response** | **Storage cost** | **Use case**           |
+| ----------------- | ------------------ | ---------------- | ---------------------- |
+| Tracking only     | Fast (1-2s)        | Low              | Basic fleet monitoring |
+| Tracking + Inputs | Medium (2-5s)      | Medium           | Maintenance analysis   |
+| All Categories    | Slower (5-10s)     | High             | Comprehensive analysis |
 
 ### Applying changes
 

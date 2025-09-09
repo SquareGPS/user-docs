@@ -46,7 +46,7 @@ The information is organized in the following columns:
 * GPS and flow rate data
   * Mileage, km - total mileage for the day or for the whole period for the total.
   * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/fleet-management/vehicles) card.
+  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/fleet-management/vehicles) card.
 * Flow meter data
   * Initial reading, l - total fuel consumption according to the sensor at the beginning of the day.
   * End reading, l - total fuel consumption according to the sensor at the end of the day.

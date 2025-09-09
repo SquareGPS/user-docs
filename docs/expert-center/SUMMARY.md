@@ -43,6 +43,8 @@
       * [Howen](vehicle-telematics-technology/video-telematics/configuration-guides/howen/README.md)
         * [Howen MDVR configuration](vehicle-telematics-technology/video-telematics/configuration-guides/howen/howen-mdvr-configuration.md)
         * [Event configuration on Howen MDVR](vehicle-telematics-technology/video-telematics/configuration-guides/howen/event-configuration-on-howen-mdvr.md)
+    * [Vehicle Video Telematics Device Compliance: What You Need to Know](vehicle-telematics-technology/video-telematics/vehicle-video-telematics-device-compliance-what-you-need-to-know.md)
+    * [Beyond the Spec Sheet: The Hidden Role of SoCs in Video Telematics](vehicle-telematics-technology/video-telematics/beyond-the-spec-sheet-the-hidden-role-of-socs-in-video-telematics.md)
   * [Sustainable fleet management](vehicle-telematics-technology/sustainable-fleet-management/README.md)
     * [EV fleets management](vehicle-telematics-technology/sustainable-fleet-management/ev-fleets-management.md)
   * [Legistlation](vehicle-telematics-technology/legistlation/README.md)

@@ -3,7 +3,7 @@
 In this article, we will walk through the process of building a dashboard using Streamlit. To make it more illustrative, we will create a dashboard that connects to the analytical database and monitors the real-time status of vehicles.
 
 {% hint style="info" %}
-This guide is part of the Data Hub documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
+This guide is part of the DataHub documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](./) overview.
 {% endhint %}
 
 ## Dashboard features
