@@ -10,4 +10,4 @@ You can allow the status to be changed by different people:
 
 **By user:** the status can be changed by the employee on their phone using the **X-GPS tracker** app.
 
-**By observer**: the status can be changed by the operator in the **X-GPS Monitoring** app.
+**By manager**: the status can be changed by the operator in the **X-GPS Monitor** app.
