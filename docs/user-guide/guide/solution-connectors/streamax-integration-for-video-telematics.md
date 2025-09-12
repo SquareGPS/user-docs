@@ -12,12 +12,13 @@ To establish the integration, you'll need to obtain API credentials from your St
 
 **Get API credentials from Streamax**
 
-1. **Obtain API Key and Secret**: Follow the authentication process as described in the [Streamax Sign Authentication documentation](https://ftcloud.streamax.com:20002/DOC/Sign%20Authentication) to obtain your API key and secret.
+1. **Obtain Tenant Name and Secret**: Follow the authentication process as described in the [Streamax Sign Authentication documentation](https://ftcloud.streamax.com:20002/DOC/Sign%20Authentication) to obtain your API key and secret.
 2. **Contact Navixy**: Once you have your API credentials, contact your Customer Success Manager or use [this form](https://www.navixy.com/contact/). Send a request to integrate Streamax with your Navixy account, containing the following information:
+   1. Streamax connection details for your account
+      1. **Tenant Name**
+      2. **Secret**
+   2. Your Navixy account details
 
-* Your API key
-* Your API secret
-* Your Navixy account details
 * Request for Streamax integration activation
 
 3. **Wait for confirmation**: Our specialists will configure the integration in 1-3 days on our side and confirm when it's ready for use.
