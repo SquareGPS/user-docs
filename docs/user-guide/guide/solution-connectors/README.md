@@ -1,3 +1,7 @@
+---
+description: Embedded solutions for video feed.
+---
+
 # Video telematics
 
 Every day businesses struggle with disconnected hardware and software tools that don't work together. In the telematics industry, this fragmentation makes it difficult to collect and analyze data effectively.
