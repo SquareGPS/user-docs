@@ -48,6 +48,7 @@
     * [What makes Dash Cam video reliable for fleets? A Benchmarking guide](vehicle-telematics-technology/video-telematics/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide.md)
       * [Test framework checklist to videocameras in Navixy](vehicle-telematics-technology/video-telematics/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/test-framework-checklist-to-videocameras-in-navixy.md)
       * [Building a Video Telematics Test Lab: Key Components and Considerations](vehicle-telematics-technology/video-telematics/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/building-a-video-telematics-test-lab-key-components-and-considerations.md)
+    * [Turning Feedback Into Benchmarks: Ranking Fleet Camera Priorities](vehicle-telematics-technology/video-telematics/turning-feedback-into-benchmarks-ranking-fleet-camera-priorities.md)
   * [Sustainable fleet management](vehicle-telematics-technology/sustainable-fleet-management/README.md)
     * [EV fleets management](vehicle-telematics-technology/sustainable-fleet-management/ev-fleets-management.md)
   * [Legistlation](vehicle-telematics-technology/legistlation/README.md)
