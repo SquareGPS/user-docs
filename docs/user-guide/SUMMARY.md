@@ -210,8 +210,3 @@
       * [Offline mode](guide/x-gps-mobile-apps/x-gps-tracker/offline-mode.md)
   * [F.A.Q.](guide/faq/README.md)
     * [GPS device activation troubleshooting](guide/faq/gps-device-activation-troubleshooting.md)
-  * [Video monitoring](guide/video-monitoring/README.md)
-    * [video-monitoring](guide/video-monitoring/video-monitoring/README.md)
-      * [Event-triggered video recording](guide/video-monitoring/video-monitoring/event-triggered-video-recording.md)
-      * [Live stream monitoring](guide/video-monitoring/video-monitoring/live-stream-monitoring.md)
-      * [Video playback](guide/video-monitoring/video-monitoring/video-playback.md)
