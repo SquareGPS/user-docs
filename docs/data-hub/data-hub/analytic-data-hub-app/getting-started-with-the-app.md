@@ -1,6 +1,6 @@
 # Getting started with the app
 
-This guide helps you set up access and begin using **DataHub App** effectively. Follow these steps to connect to your data and start exploring analytical capabilities.
+This guide helps you set up access and begin using **Explorer for DataHub** effectively. Follow these steps to connect to your data and start exploring analytical capabilities.
 
 ## User Applications setup
 
@@ -30,7 +30,7 @@ Once the configuration is finalized, you can proceed to explore the application 
 
 ## Interface navigation
 
-After a successful connection, you'll see the main **DataHub App** interface with your connection details displayed prominently. The interface is organized into distinct areas that support different analytical workflows.
+After a successful connection, you'll see the main **Explorer for** **DataHub** interface with your connection details displayed prominently. The interface is organized into distinct areas that support different analytical workflows.
 
 {% columns %}
 {% column %}
@@ -52,7 +52,7 @@ With the interface layout understood, you can now begin your initial setup verif
 
 ## First login checklist
 
-Try these steps to ensure that your **DataHub App** environment is properly configured and ready for analytical work:
+Try these steps to ensure that your **Explorer for** **DataHub** environment is properly configured and ready for analytical work:
 
 1. **Verify connection:** Check **System Health Status** for database and streaming indicators
 2. **Check data availability:** Confirm your **PTL** instance has completed initial data loading

@@ -16,7 +16,6 @@
   * [Historical reports](data-hub/analytic-data-hub-app/historical-reports.md)
   * [Custom analysis & SQL Configurator](explorer-for-datahub/custom-analysis-sql-configurator/README.md)
     * [Creating custom visualizations](explorer-for-datahub/custom-analysis-sql-configurator/creating-custom-visualizations.md)
-  * [Use cases and business applications](data-hub/analytic-data-hub-app/use-cases-and-business-applications.md)
 * [SQL Recipe Book](example-queries/README.md)
   * [Common queries](example-queries/common-queries.md)
   * [Logistics](example-queries/logistics.md)

@@ -1,8 +1,10 @@
 # Explorer for DataHub
 
-The **Explorer for DataHublication** provides a web-based interface for exploring analytical capabilities available through your DataHub. Built on Python and Streamlit framework, this application demonstrates capabilities and advantages of the DataHub such as flexible analytical solutions tailored to your operational requirements.
+The **Explorer for DataHub** application provides a web-based interface for exploring analytical capabilities available through your DataHub. Built on Python and Streamlit framework, this application demonstrates the capabilities and advantages of the DataHub such as flexible analytical solutions tailored to your operational requirements.
 
-**Please note that this application is intended for demonstration purposes only. It offers a quick reference of how Python and Streamlit can be used to build your own application with underlying data and custom calculation logic inside.**
+{% hint style="warning" %}
+Please note that this application is intended for demonstration purposes only. It offers a quick reference of how Python and Streamlit can be used to build your own application with underlying data and custom calculation logic inside.
+{% endhint %}
 
 ## Your analytical journey: templates to custom insights
 
@@ -12,13 +14,13 @@ Start with immediate operational needs, discover patterns that reveal optimizati
 
 ## Main menu items
 
-Users can start their journey in the Data analytics using predefined dashboards and reports covered common use cases and expectations or explore custom data retrievals for further analysis.
+Users can start their journey in the Data analytics using predefined dashboards and reports covered common use cases and expectations, or explore custom data retrievals for further analysis.
 
 ### Real-time operational intelligence
 
 **Dashboards** provide immediate visibility of the monitoring objects its statuses, attributes and values.
 
-DataHub contains near realtime data needed for general operations. In this section you can find three dashboards showcasting insights and context for different purposed. Those provide info with the latest custom calculated **movement and connection statuses** of the monitoring objects, **sensor data values** and the assets intelligence summary table which includes business and telematics data last statuses in one place.
+DataHub contains near-realtime data needed for general operations. In this section you can find three dashboards showcasting insights and context for different purposed. Those provide info with the latest custom calculated **movement and connection statuses** of the monitoring objects, **sensor data values** and the assets intelligence summary table which includes business and telematics data last statuses in one place.
 
 ### Historical pattern analysis
 

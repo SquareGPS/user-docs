@@ -24,7 +24,7 @@ We've taken your complete dataset and stored it in our PTL database infrastructu
 | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | <p><strong>Direct SQL access</strong><br><br>Query your data directly via PostgreSQL without API constraints</p>            | <p><strong>Complete data access</strong><br><br>Work with your full dataset of data available on the Navixy Platform</p>                                                                                                     | <p><strong>Customization</strong><br><br>Build custom analytics, reports, and integrations for your specific scenarios</p> |
 | <p><strong>Data integration</strong><br><br>Connect with BI and analytics tools for advanced visualization and research</p> | <p><strong>Structured data model</strong><br><br>Leverage a well-organized <a href="./#how-data-is-organized">multi-layer architecture</a>:<br><strong>Bronze</strong> → <strong>Silver</strong> → <strong>Gold</strong></p> | <p><strong>Client isolation</strong><br><br>Secure data environment with proper access controls at all levels</p>          |
-| <p><strong>Near real-time streaming</strong> </p><p></p><p>Monitor near real-time data for immediate insights</p>           | <p><strong>Longitudinal storage</strong> </p><p></p><p>Access historical data for analysis and model training</p>                                                                                                            | <p></p><p><strong>Cross-joins</strong></p><p></p><p>Connect telematics and business data <br></p>                          |
+| <p><strong>Near real-time streaming</strong></p><p>Monitor near real-time data for immediate insights</p>                   | <p><strong>Longitudinal storage</strong></p><p>Access historical data for analysis and model training</p>                                                                                                                    | <p><strong>Cross-joins</strong></p><p>Connect telematics and business data<br></p>                                         |
 
 ### What data is available?
 
@@ -32,7 +32,7 @@ Your **DataHub** contains two primary types of information:
 
 {% columns %}
 {% column %}
-### **Business data**
+#### **Business data**
 
 Includes approximately 40 tables containing your organization's structural information:
 
@@ -43,7 +43,7 @@ Includes approximately 40 tables containing your organization's structural infor
 {% endcolumn %}
 
 {% column %}
-### **Telematics data**
+#### **Telematics data**
 
 Contains the continuous stream of information from your tracking devices:
 
@@ -58,7 +58,7 @@ The combination of data types enables both operational reporting and deeper anal
 ### How data is organized?
 
 {% columns %}
-{% column width="58.333333333333336%" %}
+{% column %}
 We've structured your data using a multi-layered architecture that balances immediate access with analytical performance. Each layer itself is sufficient for different scenarios:
 
 1. [**Bronze layer**](data-hub/schema-overview/bronze-layer.md) (Available now) – A complete dataset , comprising telematics and business data, with minimal transformation, ready for exploration and detailed analysis
@@ -66,7 +66,7 @@ We've structured your data using a multi-layered architecture that balances imme
 3. **Gold layer** (Coming soon) – Business-ready data marts and aggregated metrics for specific use cases
 {% endcolumn %}
 
-{% column width="41.666666666666664%" %}
+{% column %}
 <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="Data pipeline overview Your data flows through a comprehensive pipeline before reaching the warehouse: Business data is collected from client’s cabinet Telematics data streams directly from devices Reference metadata is loaded to enable proper data mapping and relationships Data is stored in the appropriate layer based on its processing stage"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
