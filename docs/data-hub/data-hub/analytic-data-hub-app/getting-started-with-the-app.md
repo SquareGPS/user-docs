@@ -4,7 +4,7 @@ This guide helps you set up access and begin using **DataHub App** effectively. 
 
 ## User Applications setup
 
-Access **Analytics App** through the **Navixy User Applications** feature for seamless authentication and appropriate access to your organization's **PTL** instance.
+Access **Explorer for DataHub** through the **Navixy User Applications** feature for seamless authentication and appropriate access to your organization's **PTL** instance.
 
 {% hint style="warning" %}
 Only Account Owners can create user applications. For detailed setup instructions, see [User applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/account/user-applications).
@@ -69,10 +69,10 @@ Following these practices will help you achieve productive results from your fir
 
 ## Where to go next
 
-Based on your specific analytical needs, choose the appropriate section to continue your **Analytics App** journey:
+Based on your specific analytical needs, choose the appropriate section to continue your **Explorer for DataHub** journey:
 
 **For immediate operational needs:** Start with [Real-time Dashboards](real-time-dashboards.md) for live fleet monitoring
 
 **For trend analysis:** Explore [Historical Reports](historical-reports.md) for pattern identification
 
-**For specialized analysis:** Use [Custom Analysis & SQL Configurator](../../analytic-data-hub-app/custom-analysis-sql-configurator/) when standard reports don't meet your requirements
+**For specialized analysis:** Use [Custom Analysis & SQL Configurator](../../explorer-for-datahub/custom-analysis-sql-configurator/) when standard reports don't meet your requirements

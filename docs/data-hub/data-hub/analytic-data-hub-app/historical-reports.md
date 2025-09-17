@@ -96,4 +96,4 @@ GPS coordinate validation ensures only quality positioning data contributes to d
 
 ## Next steps
 
-When historical analysis reveals optimization opportunities or raises specific operational questions, progress to [Custom Analysis & SQL Configurator](../../analytic-data-hub-app/custom-analysis-sql-configurator/) to create tailored investigations that address your unique fleet management requirements and develop custom analytical solutions.
+When historical analysis reveals optimization opportunities or raises specific operational questions, progress to [Custom Analysis & SQL Configurator](../../explorer-for-datahub/custom-analysis-sql-configurator/) to create tailored investigations that address your unique fleet management requirements and develop custom analytical solutions.

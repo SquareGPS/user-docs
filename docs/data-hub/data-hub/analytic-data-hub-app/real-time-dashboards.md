@@ -14,7 +14,7 @@ Real-time dashboards transform raw telematics data streams into operational inte
 
 <summary>Data processing logic</summary>
 
-Please note - Analytics App uses its own calculation logic to identify movement and connection statuses. The dashboard processes live telematics data through a multi-step analysis:
+Please note - Explorer for DataHub uses its own calculation logic to identify movement and connection statuses. The dashboard processes live telematics data through a multi-step analysis:
 
 * **Fleet status aggregation**: The system queries the most recent tracking records for each vehicle using `DISTINCT ON (device_id)` to ensure current information. Movement classification combines speed readings with time-based analysis to distinguish between actively moving vehicles, temporarily stopped vehicles, and parked assets.
 * **Connection monitoring**: Vehicle connectivity status derives from communication timestamp analysis, categorizing each device based on how recently it transmitted data to your DataHub. This enables immediate identification of communication issues or device malfunctions.

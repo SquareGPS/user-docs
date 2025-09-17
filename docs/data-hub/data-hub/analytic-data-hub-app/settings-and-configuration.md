@@ -1,6 +1,6 @@
 # Settings and configuration
 
-Your **Analytics App** instance requires management to deliver optimal performance. Configuration controls what data flows into your system and how efficiently your queries perform - like tuning a system to get the clearest analytical signal.
+Your **Explorer for DataHub** instance requires management to deliver optimal performance. Configuration controls what data flows into your system and how efficiently your queries perform - like tuning a system to get the clearest analytical signal.
 
 ## Understanding your system's health
 

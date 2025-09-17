@@ -1,6 +1,6 @@
-# Analytics App
+# Explorer for DataHub
 
-The **Analytics Application** provides a web-based interface for exploring analytical capabilities available through your DataHub. Built on Python and Streamlit framework, this application demonstrates capabilities and advantages of the DataHub such as flexible analytical solutions tailored to your operational requirements.
+The **Explorer for DataHublication** provides a web-based interface for exploring analytical capabilities available through your DataHub. Built on Python and Streamlit framework, this application demonstrates capabilities and advantages of the DataHub such as flexible analytical solutions tailored to your operational requirements.
 
 **Please note that this application is intended for demonstration purposes only. It offers a quick reference of how Python and Streamlit can be used to build your own application with underlying data and custom calculation logic inside.**
 

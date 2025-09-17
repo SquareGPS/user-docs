@@ -81,7 +81,7 @@ We've structured your data using a multi-layered architecture that balances imme
 
 ## DataHub demo application
 
-To showcase the analytical potential of your PTL database, we provide a DataHub Analytics App - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
+To showcase the analytical potential of your PTL database, we provide a DataHub Explorer for DataHub - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
 
 This demonstration application serves multiple purposes:
 
