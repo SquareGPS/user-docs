@@ -2,13 +2,9 @@
 
 ## Introduction
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/DataHub.png" alt=""><figcaption></figcaption></figure>
 
 Navixy's **DataHub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
-
-{% hint style="warning" %}
-DataHub functionality wil become available soon, at the meantime you can get familiar with its features in this documentation.
-{% endhint %}
 
 ## Your data journey
 
