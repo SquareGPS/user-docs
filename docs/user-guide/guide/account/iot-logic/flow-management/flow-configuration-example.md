@@ -34,7 +34,7 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 
 {% stepper %}
 {% step %}
-**Create a new flow**
+### **Create a new flow**
 
 1. Click the **New flow** button at the top of the IoT Logic interface
 2. Enter _Asset Telemetry Processing_ as the flow name
@@ -46,7 +46,7 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 {% endstep %}
 
 {% step %}
-**Configure the data source**
+### **Configure the data source**
 
 1. Drag a **Data Source** node from the left menu to the workspace
 2. Double-click on the node to open its configuration panel
@@ -61,7 +61,7 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 {% endstep %}
 
 {% step %}
-**Set up basic data transformations**
+### **Set up basic data transformations**
 
 1. Drag an **Initiate Attribute** node from the left menu to the workspace
 2. Connect the **Data Source** node to this **Initiate Attribute** node
@@ -82,7 +82,7 @@ For explanations on calculations introduced in this step, see [Basic unit conver
 {% endstep %}
 
 {% step %}
-**Create advanced calculated metrics**
+### **Create advanced calculated metrics**
 
 1. Drag another **Initiate Attribute** node from the left menu to the workspace
 2. Connect the first **Initiate Attribute** node to this new one
@@ -106,7 +106,7 @@ For explanations on calculations introduced in this step, see [Advanced metrics 
 {% endstep %}
 
 {% step %}
-**Configure the output endpoint**
+### **Configure the output endpoint**
 
 1. Drag an **Output Endpoint** node from the left menu to the workspace
 2. Connect the second **Initiate Attribute** node to this **Output Endpoint** node
@@ -130,7 +130,7 @@ For explanations on calculations introduced in this step, see [Advanced metrics 
 {% endstep %}
 
 {% step %}
-**Add Default Output endpoint**
+### **Add Default Output endpoint**
 
 1. Drag an **Output Endpoint** node from the left menu to the workspace
 2. In **Endpoint type** select **Default Endpoint**
@@ -141,7 +141,7 @@ This ensures that the raw data is sent to Navixy directly from the devices, with
 {% endstep %}
 
 {% step %}
-**Save and test the flow**
+### **Save and test the flow**
 
 Your final configuration will look like this:
 
@@ -150,8 +150,6 @@ Your final configuration will look like this:
 Click the **Save flow** button on the **Nodes** pane to store your flow configuration.
 {% endstep %}
 {% endstepper %}
-
-###
 
 {% hint style="success" %}
 Use [Data Stream Analyzer (DSA)](../data-stream-analyzer.md) to monitor incoming data to verify:

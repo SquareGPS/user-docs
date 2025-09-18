@@ -12,7 +12,7 @@
 Unlike conventional vendor-specific solutions, **Data Stream Analyzer** offers universal device compatibility and remote troubleshooting capabilities through a single technical interface, significantly reducing the time and complexity of device diagnostics.
 
 {% hint style="info" %}
-**Navigation**
+### **Navigation**
 
 **Data Stream Analyzer** is available to account **Owners** in the **Account Settings** section. To access it:
 
@@ -53,18 +53,13 @@ Now let’s take a closer look at the interface sections and the information ava
 
 The top menu contains the main controls for the table view.
 
-**Exclude null toggle**: This setting allows you to switch between two data display modes:
-
-* **Off** — Displays all values based on packets received from the device, including those where the selected attribute has null (missing) values. This mode provides a complete view of all packet data.
-* **On** — Displays only the packets where information was actually received from devices for the selected attribute, with valid, non-null values. In other words, it filters out incomplete data.
-
-**Depth**: This control is responsible for the depth of history data and defines the range of recent data to display. For example, how many steps into the past do we need to go through to show attribute values. The maximum is 12 steps into the past. You can choose how many steps you want to see and check how values change. For example, if you set depth=4, you will see values for three steps from the past \[3], \[2], \[1] and the last received values \[0].
-
-**Play/Pause**: This button allows you to start getting updates of values into the table in real-time, or pause the updates.
-
-**Search value**: This field is used to find a specific value from all attributes in the table. The maximum is 100 symbols to search. For example, if you're checking the work of events and looking for a specific one from a device that should be triggered, the searched value will be highlighted.
-
-**Export**: You can export all logs using the export button to share information with other specialists. The information will be in JSON format to make it easier to read.
+* **Exclude null toggle**: This setting allows you to switch between two data display modes:
+  * **Off** — Displays all values based on packets received from the device, including those where the selected attribute has null (missing) values. This mode provides a complete view of all packet data.
+  * **On** — Displays only the packets where information was actually received from devices for the selected attribute, with valid, non-null values. In other words, it filters out incomplete data.
+* **Depth**: This control is responsible for the depth of history data and defines the range of recent data to display. For example, how many steps into the past do we need to go through to show attribute values. The maximum is 12 steps into the past. You can choose how many steps you want to see and check how values change. For example, if you set depth=4, you will see values for three steps from the past \[3], \[2], \[1] and the last received values \[0].
+* **Play/Pause**: This button allows you to start getting updates of values into the table in real-time, or pause the updates.
+* **Search value**: This field is used to find a specific value from all attributes in the table. The maximum is 100 symbols to search. For example, if you're checking the work of events and looking for a specific one from a device that should be triggered, the searched value will be highlighted.
+* **Export**: You can export all logs using the export button to share information with other specialists. The information will be in JSON format to make it easier to read.
 
 ### Devices and Attributes block
 

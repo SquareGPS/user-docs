@@ -27,7 +27,7 @@ Flow is the central functional element of IoT Logic, providing a structured fram
   [Data Source node](flow-management/data-source-node.md) manages data reception by connecting trackers to the Navixy platform for seamless input.
 * **Data enrichment**\
   [Initiate Attribute node](flow-management/initiate-attribute-node/) enables data enrichment by renaming and customizing incoming parameters to meet various application requirements.\
-  [Logic node](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3361832995/Logic+node?atlOrigin=eyJpIjoiNDIwN2QzMmRiMDAzNDI4MmJkMGVlODVmODcxYWIzMjAiLCJwIjoiYyJ9) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
+  [Logic node](flow-management/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
 * **Data transmitting**\
   [Output Endpoint node](flow-management/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
 
@@ -64,7 +64,7 @@ For complete API documentation, parameters, request/response formats, and code e
 * [Flow management](flow-management/)
   * [Data Source node](flow-management/data-source-node.md)
   * [Initiate Attribute node](flow-management/initiate-attribute-node/)
-    * [Managing attributes](broken-reference)
+    * [Managing attributes](flow-management/initiate-attribute-node/managing-attributes.md)
     * [Calculation examples](flow-management/initiate-attribute-node/calculation-examples.md)
     * [Displaying new calculated attributes on the Navixy platform](flow-management/initiate-attribute-node/displaying-new-calculated-attributes-on-the-navixy-platform.md)
   * [Logic node](flow-management/logic-node/)

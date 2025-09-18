@@ -12,7 +12,7 @@
 {% endcolumn %}
 {% endcolumns %}
 
-For details on the format in which data is transmitted, see [Output data format](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/3216933239/Output+Endpoint+node#Output-data-format).
+For details on the format in which data is transmitted, see [Output data format](output-endpoint-node.md#output-data-format).
 
 ### Flow architecture integration
 

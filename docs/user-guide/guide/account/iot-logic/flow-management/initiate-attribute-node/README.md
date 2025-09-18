@@ -80,7 +80,7 @@ Define **Formula**
 Add mathematical expressions to calculate attribute values.
 
 * Use `value('parameter_name' 0, 'valid')` format to reference existing device parameters.\
-  **Note**. Click ![image-20250605-115154.png](../../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](broken-reference).
+  **Note**. Click ![image-20250605-115154.png](../../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).
 * Apply mathematical operations based on [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) to transform values.
 * Use different depth index values to access historical values (the default is 0).
 {% endstep %}

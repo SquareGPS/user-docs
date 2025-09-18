@@ -149,7 +149,7 @@ Yes. Both THEN and ELSE connections support multiple outgoing connections, allow
 
 Logic node results appear as boolean attributes in the [Data Stream Analyzer](../../data-stream-analyzer.md) table. Select your devices and look for the attribute name you specified in the expression name field. The values will display as `true` or `false` based on the evaluation results.
 
-### Can I chain multiple Logic nodes together?
+#### Can I chain multiple Logic nodes together?
 
 Yes. You can connect **Logic** nodes sequentially to create complex decision trees. Each **Logic** node can reference the boolean attributes created by previous **Logic** nodes, enabling sophisticated multi-stage validation workflows.
 
