@@ -62,7 +62,7 @@ You can create custom solutions for your customers. For instance, a customer oft
 
 First, you need to go to the 'devices and settings' section and look for the device you're interested in on the user interface:
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Devices and settings tab UI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Devices and settings tab UI</p></figcaption></figure>
 
 Or, find the tracker settings for a specific device in the admin panel:
 

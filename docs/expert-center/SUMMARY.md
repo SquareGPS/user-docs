@@ -44,7 +44,7 @@
         * [Howen MDVR configuration](vehicle-telematics-technology/video-telematics/configuration-guides/howen/howen-mdvr-configuration.md)
         * [Event configuration on Howen MDVR](vehicle-telematics-technology/video-telematics/configuration-guides/howen/event-configuration-on-howen-mdvr.md)
     * [Vehicle Video Telematics Device Compliance: What You Need to Know](vehicle-telematics-technology/video-telematics/vehicle-video-telematics-device-compliance-what-you-need-to-know.md)
-    * [Beyond the Spec Sheet: The Hidden Role of SoCs in Video Telematics](vehicle-telematics-technology/video-telematics/beyond-the-spec-sheet-the-hidden-role-of-socs-in-video-telematics.md)
+    * [Inside the Dashcam: What really powers Video Telematics](vehicle-telematics-technology/video-telematics/inside-the-dashcam-what-really-powers-video-telematics.md)
     * [What makes Dash Cam video reliable for fleets? A Benchmarking guide](vehicle-telematics-technology/video-telematics/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide.md)
       * [Test framework checklist to videocameras in Navixy](vehicle-telematics-technology/video-telematics/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/test-framework-checklist-to-videocameras-in-navixy.md)
       * [Building a Video Telematics Test Lab: Key Components and Considerations](vehicle-telematics-technology/video-telematics/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/building-a-video-telematics-test-lab-key-components-and-considerations.md)
