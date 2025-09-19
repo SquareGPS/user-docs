@@ -1,3 +1,7 @@
+---
+description: Video Telematics 101
+---
+
 # Inside the Dashcam: What really powers Video Telematics
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
