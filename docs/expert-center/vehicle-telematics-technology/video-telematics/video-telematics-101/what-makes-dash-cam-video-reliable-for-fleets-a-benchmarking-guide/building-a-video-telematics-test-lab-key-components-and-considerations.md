@@ -21,7 +21,7 @@ With that in mind, here’s a proposal for a simple yet effective lab setup, alo
     \
 
 
-    <figure><img src="../../../.gitbook/assets/Screenshot at Sep 12 11-05-19.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot at Sep 12 11-05-19.png" alt=""><figcaption></figcaption></figure>
 
 #### Why It Matters
 
