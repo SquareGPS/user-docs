@@ -1,8 +1,10 @@
 ---
-description: Video Telematics 101
+description: Video Telematics 101 — Navixy Academy
 ---
 
 # Inside the dashcam: What really powers video telematics
+
+
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

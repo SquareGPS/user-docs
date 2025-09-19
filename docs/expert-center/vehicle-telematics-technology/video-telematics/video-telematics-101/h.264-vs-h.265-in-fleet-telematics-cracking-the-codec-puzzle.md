@@ -1,3 +1,7 @@
+---
+description: Video Telematics 101 — Navixy Academy
+---
+
 # H.264 vs H.265 in fleet telematics: Cracking the codec puzzle
 
 <figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
