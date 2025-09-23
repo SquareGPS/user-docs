@@ -56,7 +56,7 @@ The combination of data types enables both operational reporting and deeper anal
 {% column %}
 We've structured your data using a multi-layered architecture that balances immediate access with analytical performance. Each layer itself is sufficient for different scenarios:
 
-1. [**Bronze layer**](data-hub/schema-overview/bronze-layer.md) (Available now) – A complete dataset , comprising telematics and business data, with minimal transformation, ready for exploration and detailed analysis
+1. [**Bronze layer**](datahub/schema-overview/bronze-layer.md) (Available now) – A complete dataset , comprising telematics and business data, with minimal transformation, ready for exploration and detailed analysis
 2. **Silver layer** (Coming soon) – Cleansed and transformed data optimized for reporting and analytics
 3. **Gold layer** (Coming soon) – Business-ready data marts and aggregated metrics for specific use cases
 {% endcolumn %}
@@ -87,7 +87,7 @@ This demonstration application serves multiple purposes:
 The application connects directly to your PTL database and shows how organizations can move from standard platform constraints to custom analytics solutions tailored to specific business requirements.
 
 {% hint style="info" %}
-For scalable production analytics, consider integrating dedicated BI tools like Power BI, Apache Superset, or Streamlit directly with your PTL database. If in doubt which solution fits you, see [Selecting BI tools](data-hub/connection-setup/selecting-bi-tools/).
+For scalable production analytics, consider integrating dedicated BI tools like Power BI, Apache Superset, or Streamlit directly with your PTL database. If in doubt which solution fits you, see [Selecting BI tools](datahub/connection-setup/selecting-bi-tools/).
 {% endhint %}
 
 ## Support and assistance

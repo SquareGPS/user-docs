@@ -39,13 +39,13 @@ Experience these analytical capabilities to determine whether these templates an
 * **Continue using this application** if standard dashboards and reports address your operational requirements, and occasional custom analysis meets specialized needs.
 * **Explore other BI solutions** if you need enterprise security, automated reporting systems, advanced visualization performance, or organization-wide analytical access.
 
-Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](../data-hub/connection-setup/selecting-bi-tools/).
+Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](../datahub/connection-setup/selecting-bi-tools/).
 
 ## Supporting resources
 
 Access comprehensive documentation and technical guidance to maximize your analytical capabilities and optimize system performance:
 
-* [Data schema overview](../data-hub/schema-overview/) explains data structure and relationships.
+* [Data schema overview](../datahub/schema-overview/) explains data structure and relationships.
 * [Example queries](../example-queries/) provides proven analytical patterns and optimization techniques.
 * [Settings and configuration](../data-hub/analytic-data-hub-app/settings-and-configuration.md) covers performance optimization and configuration options.
 

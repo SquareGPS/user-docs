@@ -25,7 +25,7 @@ Your PTL data appears through two primary schemas organized by source and purpos
 | <p>Organizational and operational information.<br><br>- <strong>Core entities:</strong> users, devices, objects, vehicles, employees<br>- <strong>Operational data:</strong> tasks, forms, zones, places, garages<br>- <strong>Reference data:</strong> models, entities, status information<br>- <strong>Relationship tables:</strong> vehicle-driver assignments, user-zone mappings</p> | <p>Real-time GPS tracking, sensor readings, and device status<br><br>- <strong>tracking_data_core:</strong> GPS coordinates, speed, altitude, event data<br>- <strong>inputs:</strong> Sensor readings (fuel, temperature, voltage)<br>- <strong>states:</strong> Device status indicators (ignition, doors, operational modes)</p> |
 
 {% hint style="info" %}
-For details on data schemas available in your DataHub, see [Schema overview](../../data-hub/schema-overview/).
+For details on data schemas available in your DataHub, see [Schema overview](../../datahub/schema-overview/).
 {% endhint %}
 
 ## Creating visualizations from query results
@@ -72,8 +72,7 @@ Use the visualization interface to build charts:
 1. Drag fields from your query results to chart configuration areas (X-axis, Y-axis, filters, colors)
 2. Choose appropriate visualization types based on your data characteristics and analysis objectives
 3. Apply filters and styling to refine your visual presentation
-4. Export completed visualizations in multiple formats (PNG, SVG, CSV, base64) for sharing and reporting\
-
+4. Export completed visualizations in multiple formats (PNG, SVG, CSV, base64) for sharing and reporting\\
 {% endstep %}
 {% endstepper %}
 
@@ -103,7 +102,7 @@ Your telematics data uses scaled integer storage that requires conversion:
 
 <summary>Performance and data quality optimization</summary>
 
-#### Essential practices for reliable analysis:
+**Essential practices for reliable analysis:**
 
 * **Apply time-based filtering**: Reduces dataset size and improves response times with `WHERE device_time > now() - INTERVAL '7 days'`
 * **Use indexed fields**: Include `device_id` and `device_time` in WHERE clauses for optimal query performance
@@ -122,14 +121,14 @@ Your telematics data uses scaled integer storage that requires conversion:
 
 <summary>Cross-schema analysis patterns</summary>
 
-#### Combine organizational and tracking data for comprehensive insights:
+**Combine organizational and tracking data for comprehensive insights:**
 
 * **Business-telematics integration**: Join using `device_id` as primary relationship key between schemas
 * **Employee-vehicle correlation**: Connect through objects table relationships for productivity analysis
 * **Sensor interpretation**: Use description\_parameters reference table to translate coded values to readable labels
 * **Geographic analysis**: Combine tracking coordinates with zone definitions for operational insights
 
-#### **Example: Complete fleet overview with LEFT JOIN**
+**Example: Complete fleet overview with LEFT JOIN**
 
 When analyzing fleet operations, you often need to see all vehicles regardless of their current activity status. This example demonstrates how `LEFT JOIN` preserves complete vehicle records even when tracking data or driver assignments are missing.
 
@@ -160,8 +159,8 @@ ORDER BY last_seen DESC NULLS LAST;
 
 * [Create custom visualizations](creating-custom-visualizations.md) - Complete process for creating charts and visual analysis
 * [SQL Recipe Book](../../example-queries/) - Advanced query patterns organized by analytical scenario
-* [Bronze layer documentation](../../data-hub/schema-overview/bronze-layer.md) - Complete database schema reference and field definitions
+* [Bronze layer documentation](../../datahub/schema-overview/bronze-layer.md) - Complete database schema reference and field definitions
 
 {% hint style="info" %}
-**Production analytics**: For enterprise-scale reporting and dashboards, consider dedicated BI tools that connect directly to your PTL instance for enhanced scalability and collaboration features. Learn more in [Selecting BI tools](../../data-hub/connection-setup/selecting-bi-tools/).
+**Production analytics**: For enterprise-scale reporting and dashboards, consider dedicated BI tools that connect directly to your PTL instance for enhanced scalability and collaboration features. Learn more in [Selecting BI tools](../../datahub/connection-setup/selecting-bi-tools/).
 {% endhint %}
