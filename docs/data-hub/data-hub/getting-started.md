@@ -2,8 +2,7 @@
 
 ## First steps
 
-Before you can utilize data for comprehensive analytics and integration, you must first enable the DataHub.\
-
+Before you can utilize data for comprehensive analytics and integration, you must first enable DataHub. If you don't have it yet, contact us for enablement details - [datahub@navixy.com](mailto:datahub@navixy.com)
 
 Once it's set up, you'll receive a welcome email containing detailed information. To begin your data journey, you will need:
 
