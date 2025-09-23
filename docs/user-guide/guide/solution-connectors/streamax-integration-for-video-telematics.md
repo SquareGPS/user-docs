@@ -15,8 +15,10 @@ To establish the integration, you'll need to obtain API credentials from your St
 1. **Obtain Tenant Name and Secret**: Follow the authentication process as described in the [Streamax Sign Authentication documentation](https://ftcloud.streamax.com:20002/DOC/Sign%20Authentication) to obtain your API key and secret.
 2. **Contact Navixy**: Once you have your API credentials, contact your Customer Success Manager or use [this form](https://www.navixy.com/contact/). Send a request to integrate Streamax with your Navixy account, containing the following information:
    1. Streamax connection details for your account
-      1. **Tenant Name**
-      2. **Secret**
+      1. **Full Streamax account URL** \
+         (e.g. `https://{your_streamax_instance}.ifleetvision.com`)
+      2. **Tenant Name**
+      3. **Secret**
    2. Your Navixy account details
 
 * Request for Streamax integration activation

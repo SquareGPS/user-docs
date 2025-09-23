@@ -1,4 +1,4 @@
-# Lightmetrics
+# LightMetrics
 
 Lightmetrics is a leading provider of AI-powered video telematics solutions, specializing in edge AI technology and no-code platform deployment. Their flagship RideView platform is designed specifically for telematics service providers (TSPs) and OEMs, enabling deployment of advanced video telematics in just 3 weeks. With hardware-agnostic capabilities, RideView works across multiple dash camera types, including exclusive access to Suntech ST9730 and support for the popular Jimi JC450, while delivering efficient edge AI for real-time driver coaching and fleet safety management.
 
@@ -31,9 +31,8 @@ Ensure that your device is properly configured in your Lightmetrics account befo
 
 1. Go to **Device activation**.
 2. Select your device from the list.
-3. Select **SIM card purchased separately** option and go to the next step.
-4. Enter a correct **Device ID** (device IMEI).
-5. Complete the device configuration.
+3. Enter a correct **Device ID** (device IMEI).
+4. Complete the device configuration.
 
 For detailed instructions on how to activate a device in Navixy, see [Activate GPS device](../quick-start/activate-gps-device.md).
 
@@ -77,9 +76,9 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 1. Create new application\
    Start by clicking the <img src="../../user-guide/solution-connectors/attachments/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
    1. Configure the new application
-   2. Embedding is supported or separate menu elements of Lightmetrics dashboard (**Home**, **Trips**, **Live view**, etc.) Put the link to the selected view of your Lightmetrics dashboard in the **App URL** field, and customize redirect path to define which Lightmetrics page opens after login by adding a `redirect_path` parameter.&#x20;
+   2. Embedding is supported for separate menu elements of Lightmetrics dashboard ([full table of views and redirect paths](lightmetrics-integration-for-video-telematics.md#lightmetrics-views)). Put the link to the selected view of your Lightmetrics dashboard in the **App URL** field, and customize redirect path to define which Lightmetrics page opens after login by adding a `redirect_path` parameter.
       1. EU server - `video-telematics.eu.navixy.com/sso?access_token={session_key}&redirect_path=`<mark style="color:green;">`home`</mark>
-      2. US server - `video-telematics.us.navixy.com/sso?access_token={session_key}&redirect_path=`<mark style="color:green;">`home`</mark>
+      2. US server - `video-telematics.us.navixy.com/sso?access_token={session_key}&redirect_path=`<mark style="color:green;">`home`</mark>&#x20;
    3. Enter a **Label** for the application (e.g., Lightmetrics dashboard).
    4. Select **Embedded** in the **Show as** field to display Lightmetrics functionality within Navixy.
    5. Select your pre-configured API key from the dropdown menu in the **API key** field. \
@@ -93,3 +92,10 @@ Your new Lightmetrics application appears automatically in Navixy's left sidebar
 {% endhint %}
 {% endstep %}
 {% endstepper %}
+
+### Lightmetrics views table
+
+A table with all Lightmetrics views and their redirect paths.
+
+<table><thead><tr><th width="374">View</th><th>Redirect path</th></tr></thead><tbody><tr><td>Home</td><td>home</td></tr><tr><td>Trips</td><td>trips</td></tr><tr><td>Live view</td><td>live-view</td></tr><tr><td>Safety events</td><td>safety-events</td></tr><tr><td>Video requests</td><td>video-requests</td></tr><tr><td>Drivers</td><td>drivers</td></tr><tr><td>Coaching</td><td>coaching</td></tr><tr><td>Challenges</td><td>challenges</td></tr><tr><td>Reports</td><td>reports</td></tr><tr><td>Assets</td><td>assets</td></tr><tr><td>User management</td><td>user-management</td></tr><tr><td>Configurations</td><td>configurations</td></tr></tbody></table>
+
