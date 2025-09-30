@@ -8,7 +8,7 @@ The Account screen displays your logo, name, email, and phone number.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/profile.jpg" alt="Account"><figcaption><p>Account</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt="Account"><figcaption><p>Account</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -20,6 +20,6 @@ The Settings screen allows you to configure the application and quickly access y
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/Settings.jpg" alt="Settings"><figcaption><p>Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

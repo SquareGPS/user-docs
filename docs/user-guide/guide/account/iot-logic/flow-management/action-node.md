@@ -3,12 +3,12 @@
 ## Technical overview and capabilities
 
 {% columns %}
-{% column width="58.333333333333336%" %}
-**Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.&#x20;
+{% column %}
+**Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.
 {% endcolumn %}
 
-{% column width="41.666666666666664%" %}
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -16,7 +16,7 @@ While Action nodes can receive data from any node type, they are most commonly c
 
 The **Action** nodes are configured separately for each flow in the Navixy platform UI. Each node can contain multiple actions that execute sequentially when triggered by incoming data.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How Action nodes work
 
@@ -46,7 +46,7 @@ This targeting mechanism ensures that actions execute only for relevant devices.
 
 Setting up an **Action** node determines what automated responses will be executed when the node receives triggers from upstream processing nodes.
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -54,7 +54,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### Specify Node name
+**Specify Node name**
 
 Enter a descriptive name that identifies the automated actions this node will perform
 
@@ -63,7 +63,7 @@ Enter a descriptive name that identifies the automated actions this node will pe
 {% endstep %}
 
 {% step %}
-#### Select Action type
+**Select Action type**
 
 Choose the type of automated response from the dropdown menu
 
@@ -72,7 +72,7 @@ Choose the type of automated response from the dropdown menu
 {% endstep %}
 
 {% step %}
-#### Configure action parameters
+**Configure action parameters**
 
 Set up the specific details based on your selected action type:
 
@@ -80,7 +80,7 @@ Set up the specific details based on your selected action type:
 
 <summary>Switch Output configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 When configuring Switch Output actions:
 
@@ -96,7 +96,7 @@ When configuring Switch Output actions:
 
 <summary>Send GPRS Command configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 When configuring GPRS Command actions:
 
@@ -113,7 +113,7 @@ Action execution depends on individual device capabilities. Ensure your devices 
 {% endstep %}
 
 {% step %}
-#### Add additional actions (optional)
+**Add additional actions (optional)**
 
 Click **ADD ACTION** to create multiple actions within the same node
 
@@ -123,7 +123,7 @@ Click **ADD ACTION** to create multiple actions within the same node
 {% endstep %}
 
 {% step %}
-#### Save configuration
+**Save configuration**
 
 Click **APPLY** to save your node configuration
 

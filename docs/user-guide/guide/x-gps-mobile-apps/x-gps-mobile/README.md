@@ -4,7 +4,7 @@
 
 {% columns %}
 {% column %}
-#### **Features:**
+**Features:**
 
 * Real-time asset location tracking
 * Monitoring sensor data from installed GPS devices
@@ -13,6 +13,7 @@
 * Your current location in relation to your assets
 * Multiple map layers
 * Quick access to your account balance
+* Access to integrated User applications
 {% endcolumn %}
 
 {% column %}

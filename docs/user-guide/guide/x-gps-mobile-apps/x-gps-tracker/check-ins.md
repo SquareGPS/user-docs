@@ -6,18 +6,18 @@ The **Check-in** feature allows you to fix your location on the map, attach up t
 _Field employees using X-GPS Tracker can report on visiting checkpoints, report on work performed, and transmit more detailed information on various events._
 {% endhint %}
 
-### Sending a mark
+### Checking in
 
-To send a mark:
+To check in:
 
-1. Open the **X-GPS Tracker** app
-2. On the **Map** tab and tap **Check in**
-3. In the opened window, add a photo and a comment
-4. Tap the **Check-in** button to send a message to the monitoring system
+1. Open the **X-GPS Tracker** app.
+2. Go to the **Map** tab and tap **Check in.**
+3. In the **Check-in** window, add a photo and a comment.
+4. Tap the **Check-in** button to send a message to the monitoring system.
 
-After that, the information contained in the check-in mark will be transmitted to the server.
+After that, the information contained in the Check-in will be transmitted to the server.
 
-You'll receive the following information about each mark:
+You'll receive the following information about each Check-in:
 
 * Notifications in the web interface
 * Push notifications in the mobile app
@@ -40,14 +40,14 @@ Completed forms can be found in the **Field service** -> **Forms** -> \[select t
 
 ### View sent Check-ins on the map
 
-The monitoring service allows you to view the previously sent marks along with a photo and a comment on the map. To view the marks:
+The monitoring service allows you to view the previously sent Check-ins along with a photo and a comment on the map. To view the Check-ins:
 
-1. Go to **Monitoring**
-2. Select the required device from the list
-3. Click the **Events** button
-4. Select the type of event
-5. Specify the time interval
-6. Click the **Show Events** icon
+1. Go to **Monitoring.**
+2. Select the required device from the list.
+3. Click the **Events** button.
+4. Select the type of event.
+5. Specify the time interval.
+6. Click the **Show Events** icon.
 
 ![](https://www.navixy.com/wp-content/uploads/2019/12/show-events-1-600x263.png)
 
@@ -64,10 +64,10 @@ On the map, you will see all the Check-ins for the selected time period. By clic
 
 If you have multiple Check-ins to go through, you can use **Check-in report:**
 
-1. Go to **Reports**
-2. Select **Check-ins report** from the list
-3. Select the trackers that should be included in the report
-4. Specify the time interval
-5. Click the **Build report** button
+1. Go to **Reports.**
+2. Select **Check-ins report** from the list.
+3. Select the trackers that should be included in the report.
+4. Specify the time interval.
+5. Click the **Build report** button.
 
 ![](https://www.navixy.com/wp-content/uploads/2019/12/generate-report-600x368.png)

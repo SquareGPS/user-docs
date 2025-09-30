@@ -54,7 +54,7 @@ Before embedding, you need to create an API key for this integration in your Nav
    `Lightmetrics FleetID = [ID]`\
    \
    Replace **\[ID]** with the actual Fleet ID from Lightmetrics fleet. For example:\
-   ![](../../.gitbook/assets/image.png)
+   ![](<../../.gitbook/assets/image (23).png>)
 4. Click **Save** and keep this key available for the next step.
 
 For more details on creating an API key in Navixy, see [API keys](../account/api-keys.md).

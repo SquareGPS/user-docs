@@ -194,6 +194,7 @@
       * [Assets list](guide/x-gps-mobile-apps/x-gps-mobile/assets-list.md)
       * [Asset information](guide/x-gps-mobile-apps/x-gps-mobile/asset-information.md)
       * [Account and settings](guide/x-gps-mobile-apps/x-gps-mobile/account-and-settings.md)
+      * [User applications](guide/x-gps-mobile-apps/x-gps-mobile/user-applications.md)
     * [X-GPS Monitor](guide/x-gps-mobile-apps/x-gps-monitor/README.md)
       * [Quick start](guide/x-gps-mobile-apps/x-gps-monitor/quick-start.md)
       * [Features](guide/x-gps-mobile-apps/x-gps-monitor/features.md)

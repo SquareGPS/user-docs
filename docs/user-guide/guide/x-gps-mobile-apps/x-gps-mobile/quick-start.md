@@ -11,7 +11,7 @@ Follow these steps to learn how to work with X-GPS Mobile.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="X-GPS Mobile in Google Play"><figcaption><p>Search screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="X-GPS Mobile in Google Play"><figcaption><p>Search screen</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -21,7 +21,8 @@ Follow these steps to learn how to work with X-GPS Mobile.
 {% column %}
 1. Open the app.
 2. Enter your username and password and tap **Sign in**.
-3. If required, enter your server URL (by default, the Navixy server is used). Alternatively, use a QR code to bypass entering the URL and automatically configure your settings.
+3. If required, enter your server URL (by default, the Navixy server is used). Alternatively, use a QR code to bypass entering the URL and automatically configure your settings.\
+   To view the QR code, click the <img src="../../../.gitbook/assets/image (34).png" alt="" data-size="line">button under the Navixy platform's [login form](https://tracking.navixy.com/).
 {% endcolumn %}
 
 {% column %}
@@ -67,18 +68,18 @@ Use the bottom panel to switch between the main screen and your profile.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/Screenshot_20250528_104252-20250528-090654.png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 ### Step 5. Start working
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 Tap on an asset to view its location, status, trip and event history, sensors, reminders, GPS device details, and other information.
 {% endcolumn %}
 
-{% column %}
-<figure><img src="../../../.gitbook/assets/Untitled (6).png" alt="Vehicle asset" width="375"><figcaption><p>Vehicle asset</p></figcaption></figure>
+{% column width="50%" %}
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Asset information</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

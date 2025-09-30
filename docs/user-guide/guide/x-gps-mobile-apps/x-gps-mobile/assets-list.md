@@ -8,7 +8,7 @@ The icon to the right of each asset indicates its movement status, such as movin
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/Screenshot_20250528_104252-20250528-090654.png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -24,7 +24,7 @@ The second menu shows your current filters, all of which can be configured: time
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/image-20250404-102729.png" alt="Events"><figcaption><p>Events</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Events</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -38,14 +38,13 @@ You can zoom in and out and center the map on your own GPS coordinates. Tap the 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/image-20250404-102815.png" alt="Map"><figcaption><p>Map</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Fullscreen map</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 Tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/icon5.png" alt="Map options" data-size="line"> to display the map options menu:
 
-| <div><figure><img src="../../../.gitbook/assets/Untitled (4).jpg" alt="Places"><figcaption><p>Places</p></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/Untitled (5).jpg" alt="Geofences"><figcaption><p>Geofences</p></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/Untitled (6).jpg" alt="Map type"><figcaption><p>Map type</p></figcaption></figure></div> |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Places</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Geofences</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Map types</p></figcaption></figure></div></td></tr></tbody></table>
 
 Here, you can select places (such as client locations for delivery), geofences, and map type. Note that map type selection is currently only available on Android devices.
 
