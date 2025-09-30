@@ -34,7 +34,7 @@
     * [Custom fields](guide/account/custom-fields.md)
     * [API keys](guide/account/api-keys.md)
     * [Password recovery](guide/account/password-recovery.md)
-    * [File storage](guide/account/file-storage.md)
+    * [File Manager](guide/account/file-storage.md)
     * [User applications](guide/account/user-applications/README.md)
       * [Creating new User applications](guide/account/user-applications/creating-new-user-applications.md)
       * [Managing existing User applications](guide/account/user-applications/managing-existing-user-applications.md)
