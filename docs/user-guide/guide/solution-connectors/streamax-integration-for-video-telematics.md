@@ -33,12 +33,20 @@ After you receive the confirmation from our support, your Streamax account is re
 {% step %}
 ### **Adding a Streamax device to Navixy**
 
-After receiving confirmation from our support team that the integration is ready, you can add your Streamax device to the platform. To do it, follow the usual device activation procedure:
+After receiving confirmation from our support team that the integration is ready, you can add your Streamax device to the platform. To do it, first find its **Device ID** in your Streamax dashboard:
+
+1. Go to Maintenance tab in your Streamax account
+2. Expand the **Device** section and select **Device Management**
+3. Copy the needed **Device ID** value&#x20;
+
+<figure><img src="../../.gitbook/assets/Streamax_DeviceID.webp" alt=""><figcaption></figcaption></figure>
+
+To activate the device on Navixy's side, follow the usual activation procedure:
 
 1. Go to **Device activation**.
 2. Select your Streamax device from the list.
 3. Select **SIM card purchased separately** option and go to the next step.
-4. Enter a correct **Device ID** (device IMEI)
+4. Enter a correct **Device ID**&#x20;
 5. Complete the device configuration
 
 For detailed instructions on how to activate a device in Navixy, see [Activate GPS device](../quick-start/activate-gps-device.md).
