@@ -24,6 +24,8 @@ Process of creating a new flow with data attribute calculations and adding custo
 
 Now, let’s break down the flow configuration process step by step.
 
+{% stepper %}
+{% step %}
 ### Step 1: Access IoT Logic workspace
 
 1. Log into your Navixy account
@@ -37,7 +39,9 @@ The IoT Logic workspace appears with three main sections:
 * **Canvas** - The main workspace where you design your flow
 
 For details on the workspace, see [Workspace and default flow](workspace-and-default-flow.md).
+{% endstep %}
 
+{% step %}
 ### Step 2: Create a new flow
 
 1. Click the **New flow** button in the flow settings bar
@@ -54,7 +58,9 @@ For additional information on flow configuration, see [Flow management -> Creati
 {% hint style="info" %}
 Disabled flows don't process any data. When a flow is disabled, devices in that flow will not transmit data to any destination, including the Navixy platform.
 {% endhint %}
+{% endstep %}
 
+{% step %}
 ### Step 3: Configure a Data Source node
 
 1. From the **Nodes** pane, drag a **Data Source** node onto the canvas
@@ -67,38 +73,35 @@ Disabled flows don't process any data. When a flow is disabled, devices in that 
 4. Click **Save** to apply the configuration
 
 For details on the node configuration, see [Data Source node](flow-management/data-source-node.md).
+{% endstep %}
 
+{% step %}
 ### Step 4: Add data enrichment (Optional)
 
 1. Drag an **Initiate Attribute** node onto the canvas
 2. Hover your mouse over the node to display quick actions, or double-click the node to open its configuration panel
 3. Add a descriptive **Node name** to specify its purpose and calculations it makes (e.g. _Temperature °F to °C_)
 4. Define your attribute:
-
-* **Attribute name** - A clear, descriptive name (e.g., "speed\_mph")
-* **Formula** - The calculation expression (e.g., `value('speed')/1.609` to convert km/h to mph)\
-  **Note**. Attribute names [can be autofilled](broken-reference) to ensure correct naming
-* **Generation time** - When the data entry was created on the device (defaults to `now()`)
-* **Server time** - When the data was received by the server (defaults to `now()`)
-
-5. Add additional attributes if needed by clicking **Add attribute**
-
-{% hint style="danger" %}
-The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
-{% endhint %}
-
-7. Click **Save** to apply the configuration
-8. Create a connection:
-
-* Click the output connector of the **Data Source** node
-* Drag the transition to the input connector of the **Initiate Attribute** node
+   1. **Attribute name** - A clear, descriptive name (e.g., "speed\_mph")
+   2. **Formula** - The calculation expression (e.g., `value('speed')/1.609` to convert km/h to mph)\
+      :bulb:**Note**: Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to ensure correct naming. Autofill uses short syntax by default, which addresses the latest attribute value.
+   3. **Generation time** - When the data entry was created on the device (defaults to `now()`)
+   4. **Server time** - When the data was received by the server (defaults to `now()`)
+5. Add additional attributes if needed by clicking **Add attribute**\
+   :bulb:**Note**: The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
+6. Click **Save** to apply the configuration
+7. Create a connection:
+   1. Click the output connector of the **Data Source** node
+   2. Drag the transition to the input connector of the **Initiate Attribute** node
 
 For details on node configuration, see [Initiate Attribute node](flow-management/initiate-attribute-node/).
 
-For details on actions with attributes, see [Managing attributes](broken-reference).
+For details on actions with attributes, see [Managing attributes](flow-management/initiate-attribute-node/managing-attributes.md).
 
 For sample calculation formulas, see [Calculation examples](flow-management/initiate-attribute-node/calculation-examples.md).
+{% endstep %}
 
+{% step %}
 ### Step 5: Configure data output
 
 1. Drag an **Output Endpoint** node onto the canvas
@@ -113,17 +116,15 @@ Endpoints created within the account are available as **Presets**. You can selec
 {% endhint %}
 
 4. Configure the following settings:
-
-* **Endpoint name** - Enter a descriptive name to specify the destination where the data is sent
-* **Protocol** - Select the data protocol (only “Navixy Generic Protocol (JSON)" is available at the moment)
-* **IP/Domain** - Enter the destination address
-* **Port** - Specify the port number (default: 1883 for standard MQTT, 8883 for SSL)
-* (optional) **Enable SSL** - Toggle ON for secure connections
-* **MQTT Version** - Select the appropriate version (**3.1.1** or 5.0)
-* **Client ID** - Enter the identifier for your client to ensure the data is accepted by the receiving party
-* (optional) **Topics** - Specify the MQTT topics for data transmission
-* **QoS** - Select the Quality of Service level to determine the logic of data transmission (**0**, **1**, or **2**)
-
+   1. **Endpoint name** - Enter a descriptive name to specify the destination where the data is sent
+   2. **Protocol** - Select the data protocol (only “Navixy Generic Protocol (JSON)" is available at the moment)
+   3. **IP/Domain** - Enter the destination address
+   4. **Port** - Specify the port number (default: 1883 for standard MQTT, 8883 for SSL)
+   5. (optional) **Enable SSL** - Toggle ON for secure connections
+   6. **MQTT Version** - Select the appropriate version (**3.1.1** or 5.0)
+   7. **Client ID** - Enter the identifier for your client to ensure the data is accepted by the receiving party
+   8. (optional) **Topics** - Specify the MQTT topics for data transmission
+   9. **QoS** - Select the Quality of Service level to determine the logic of data transmission (**0**, **1**, or **2**)
 5. If authentication is required on the receiving side, toggle **MQTT Authentication** ON\
    The appearing fields are pre-filled automatically with your platform account credentials
 
@@ -139,12 +140,19 @@ Each flow should include a **Default Endpoint** node to ensure data is sent to t
 {% endhint %}
 
 For details on node configuration, see [Output Endpoint node](flow-management/output-endpoint-node.md).
+{% endstep %}
 
+{% step %}
 ### Step 6: Save and activate your flow
 
 1. Verify all nodes are properly connected in your flow
 2. Click the **Save flow** button in the **Nodes** pane
-3. Your flow is now active and processing data in real-time
+
+{% hint style="success" %}
+Your flow is now active and processing data in real-time!
+{% endhint %}
+{% endstep %}
+{% endstepper %}
 
 ## Flow validation
 

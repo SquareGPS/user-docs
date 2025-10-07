@@ -145,4 +145,4 @@ Yes. Attributes created earlier in the flow can be referenced in subsequent **In
 
 #### **How do I avoid typos when referencing attribute names in formulas?**
 
-Use the autofill feature in the Formula field to select from available attributes. For detailed instructions, see [Autofill attribute names](broken-reference).
+Use the autofill feature in the Formula field to select from available attributes. For detailed instructions, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).

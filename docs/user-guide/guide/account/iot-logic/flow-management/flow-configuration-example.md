@@ -67,12 +67,12 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 2. Connect the **Data Source** node to this **Initiate Attribute** node
 3. Double-click the node to open its configuration
 4. In **Node name** type _Unit conversions_
-5. Create the following attributes for unit conversion:
-6. Add a new attribute for speed conversion (km/h to mph): 1. Attribute name: _speed\_mph_ 2. Value: `value('speed')/1.609`
-7. Add a new attribute for temperature conversion (Celsius to Fahrenheit): 1. Attribute name: _temperature\_F_ 2. Value: `value('temperature')*1.8 + 32`
-8. Add a new attribute for distance conversion (kilometers to miles): 1. Attribute name: _distance\_miles_ 2. Value: `value('odometer')/1.609`
-9. Add a new attribute for pressure conversion (PSI to Bar): 1. Attribute name: _pressure\_bar_ 2. Value: `value('pressure_psi') * 0.06895`
-10. Click **Apply** to save node configuration
+5. Create the following attributes for unit conversion (all examples use short syntax, referring to the latest attribute values without validity check):
+   1. Add a new attribute for speed conversion (km/h to mph): 1. Attribute name: _speed\_mph_ 2. Value: `speed/1.609`
+   2. Add a new attribute for temperature conversion (Celsius to Fahrenheit): 1. Attribute name: _temperature\_F_ 2. Value: `temperature*1.8 + 32`
+   3. Add a new attribute for distance conversion (kilometers to miles): 1. Attribute name: _distance\_miles_ 2. Value: `odometer/1.609`
+   4. Add a new attribute for pressure conversion (PSI to Bar): 1. Attribute name: _pressure\_bar_ 2. Value: `pressure_psi * 0.06895`
+6. Click **Apply** to save node configuration
 
 <figure><img src="../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250407-201226.png" alt="First Initiate attribute node showing the unit conversion attributes"><figcaption></figcaption></figure>
 
@@ -89,14 +89,30 @@ For explanations on calculations introduced in this step, see [Basic unit conver
 3. Double-click on the node to open its configuration
 4. In **Node name** type _Advanced calculations_
 5. Create the following attributes for advanced metrics:
-6. Add an attribute for temperature change detection: 1. Attribute name: _temperature\_change_ 2. Value: `value('temperature', 0, 'valid') - value('temperature', 1, 'valid')` 3. Generation time: `genTime('temperature', 0, 'valid')`
-7. Add an attribute for finding time elapsed between two last readings: 1. Attribute name: _time\_between\_readings\_ms_ 2. Value: `srvTime('speed', 0, 'valid') - srvTime('speed', 1, 'valid')` 3. Generation time: `genTime('speed', 0, 'valid')`
-8. Add an attribute for round temperature to nearest integer: 1. Attribute name: _temperature\_rounded_ 2. Value: `math:round(value('temperature', 0, 'valid'))`
-9. Add an attribute for standardized value calculation (normalizing fuel level to 0-100%): 1. Attribute name: _fuel\_level\_percent_ 2. Value: `(value('fuel_level', 0, 'valid') - 0) / (100 - 0) * 100`
-10. Add an attribute for battery charge percentage calculation: 1. Attribute name: _battery\_percentage_ 2. Value: `(value('voltage', 0, 'valid') - 11) / (14 - 11) * 100`
-11. Add an attribute for throttle position calculation: 1. Attribute name: _throttle\_percentage_ 2. Value: `value('throttle', 0, 'valid') / 255 * 100`
-12. Add an attribute for average fuel level from multiple sensors: 1. Attribute name: _avg\_fuel\_level_ 2. Value: `(value('fuel_level_1', 0, 'valid') + value('fuel_level_2', 0, 'valid')) / 2`
-13. Click **Apply** to save node configuration
+   1. Add an attribute for temperature change detection:
+      1. Attribute name: _temperature\_change_
+      2. Value: `value('temperature', 0, 'valid') - value('temperature', 1, 'valid')`&#x20;
+      3. `genTime('temperature', 0, 'valid')`
+   2. Add an attribute for finding time elapsed between two last readings:&#x20;
+      1. &#x20;Attribute name: _time\_between\_readings\_ms_&#x20;
+      2. Value: `srvTime('speed', 0, 'valid') - srvTime('speed', 1, 'valid')`&#x20;
+      3. Generation time: `genTime('speed', 0, 'valid')`
+   3. Add an attribute for round temperature to nearest integer:
+      1. Attribute name: _temperature\_rounded_&#x20;
+      2. Value: `math:round(value('temperature', 0, 'valid'))`
+   4. Add an attribute for standardized value calculation (normalizing fuel level to 0-100%):&#x20;
+      1. Attribute name: _fuel\_level\_percent_&#x20;
+      2. Value: `(value('fuel_level', 0, 'valid') - 0) / (100 - 0) * 100`
+   5. Add an attribute for battery charge percentage calculation:&#x20;
+      1. Attribute name: _battery\_percentage_&#x20;
+      2. Value: `(value('voltage', 0, 'valid') - 11) / (14 - 11) * 100`
+   6. Add an attribute for throttle position calculation:&#x20;
+      1. Attribute name: _throttle\_percentage_&#x20;
+      2. Value: `value('throttle', 0, 'valid') / 255 * 100`
+   7. Add an attribute for average fuel level from multiple sensors:&#x20;
+      1. Attribute name: _avg\_fuel\_level_&#x20;
+      2. Value: `(value('fuel_level_1', 0, 'valid') + value('fuel_level_2', 0, 'valid')) / 2`
+6. Click **Apply** to save node configuration
 
 <figure><img src="../../../../user-guide/account/iot-logic/flow-management/attachments/image-20250407-202303.png" alt="Second Initiate attribute node showing the advanced calculated metrics"><figcaption></figcaption></figure>
 

@@ -6,11 +6,11 @@ The Initiate attribute node in IoT Logic supports a wide range of calculations t
 
 When creating calculations, keep these points in mind:
 
-* **Attribute names validity**: Make sure you use correct attribute names in calculations. You can look up existing attribute names using [Data Stream Analyzer](../../data-stream-analyzer.md).
+* **Attribute names validity**: Make sure you use correct attribute names in calculations. You can look up existing attribute names using [Data Stream Analyzer](../../data-stream-analyzer.md), or insert them with g[#short-syntax](managing-attributes.md#short-syntax "mention") using [autocomplete](managing-attributes.md#autofill-attribute-names).
 * **Data validity**: Ensure your expressions handle potential null values or invalid readings gracefully
 * **Performance impact**: Complex calculations with many nested functions may impact processing speed for high-frequency data
 * **Mathematical constraints**: Functions like logarithm and square root require positive input values
-* **Historical references**: When using indexed values (e.g., `value('param', 1, 'valid')`), ensure you have sufficient historical data
+* **Historical references**: When using indexed values (e.g., `value('param', 1, 'valid')`), ensure you have sufficient historical data and use [full expression syntax](managing-attributes.md#full-syntax)
 
 {% hint style="info" %}
 Mathematical functions can be applied to any numeric parameter or previously calculated attribute. Always validate your calculations with test data before deploying to production flows.
@@ -24,16 +24,16 @@ Converting measurements between different units is one of the most common operat
 
 #### **Speed conversion (km/h to mph)**
 
-```
-value('can_speed')/1.609
+```jexl
+can_speed/1.609
 ```
 
 **Practical application:** This conversion standardizes vehicle speed data for regions using imperial measurements. By performing this calculation in IoT Logic rather than in downstream applications, you ensure consistency across all systems consuming the data.
 
 **Temperature conversion (Celsius to Fahrenheit)**
 
-```
-value('temperature')*1.8 + 32
+```jexl
+temperature * 1.8 + 32
 ```
 
 **Practical application:** This conversion makes temperature readings comprehensible for users more familiar with Fahrenheit measurements. It's especially valuable for multinational organizations that operate across regions with different measurement standards.
@@ -44,8 +44,8 @@ Comparing current readings with previous values helps identify changes and trend
 
 #### **Temperature change detection**
 
-```
-value('temperature', 0, 'valid') - value('temperature', 1, 'valid')
+```jexl
+temperature - value('temperature', 1, 'valid')
 ```
 
 **Practical application:** This calculation helps detect rapid temperature fluctuations that might indicate equipment issues or environmental changes. By creating a dedicated attribute for this difference, you can set up alerts for sudden changes without complex downstream processing.
@@ -60,7 +60,7 @@ Time calculations help you understand device behavior over time and measure oper
 
 #### **Finding time elapsed between last valid readings**
 
-```
+```jexl
 srvTime('avl_25', 0, 'valid') - srvTime('avl_25', 1, 'valid')
 ```
 
@@ -72,7 +72,7 @@ srvTime('avl_25', 0, 'valid') - srvTime('avl_25', 1, 'valid')
 
 #### **Converting timestamp to human-readable format**
 
-```
+```jexl
 dtFormat(genTime('can_fuel_1', 0, 'all'))
 ```
 
@@ -86,7 +86,7 @@ IoT Logic supports sophisticated mathematical operations through its built-in ma
 
 **Round temperature to nearest integer**
 
-```
+```jexl
 math:round(value('temperature_2', 0, 'valid'))
 ```
 
@@ -100,7 +100,7 @@ math:round(value('temperature_2', 0, 'valid'))
 
 **Natural logarithm of a value**
 
-```
+```jexl
 math:log(value('temperature_2', 0, 'valid'))
 ```
 
@@ -120,7 +120,7 @@ math:log(value('temperature_2', 0, 'valid'))
 
 **Calculate square root of a reading**
 
-```
+```jexl
 math:sqrt(value('temperature_2', 0, 'valid'))
 ```
 
@@ -143,7 +143,7 @@ You can create even more complex calculations by combining multiple functions an
 ### **Geometric mean with rounding**
 
 {% code overflow="wrap" %}
-```
+```jexl
 math:round(math:sqrt(value('temperature_1', 0, 'valid') * value('temperature_2', 0, 'valid')))
 ```
 {% endcode %}
@@ -157,7 +157,7 @@ math:round(math:sqrt(value('temperature_1', 0, 'valid') * value('temperature_2',
 ### **Standardized value calculation**
 
 {% code overflow="wrap" %}
-```
+```jexl
 (value('sensor_reading', 0, 'valid') - value('sensor_min', 0, 'valid')) / (value('sensor_max', 0, 'valid') - value('sensor_min', 0, 'valid')) * 100
 ```
 {% endcode %}

@@ -6,18 +6,44 @@ The **Initiate Attribute** node allows you to create, edit, and manage data attr
 
 Here's how to create a new attribute in the Initiate attribute node:
 
-1. Click the **Add attribute** button
-2. Enter a name for your attribute (e.g., "Speed mph")
-3. Define the value expression (e.g., `value('can_speed')/1.609`)
-4. Optionally configure generation time and server time, to do it, enable the **Specify time attributes** toggle\
-   For details, see [Time settings for attributes](managing-attributes.md#time-settings-for-attributes)
-5. Click **Save** to confirm the node configuration
+{% stepper %}
+{% step %}
+#### Add new attribute
 
-The new attribute is saved in the node and the configured calculation is applied immediately in the flow.
+Click the **Add attribute** button
+{% endstep %}
+
+{% step %}
+#### Name the attribute
+
+Enter a name for your attribute (e.g., "Speed mph"). This name will be displayed in [Data Stream Analyzer](../../data-stream-analyzer.md) and act as a [custom sensor name in Navixy](displaying-new-calculated-attributes-on-the-navixy-platform.md).&#x20;
+{% endstep %}
+
+{% step %}
+#### Define formula
+
+Define the value expression. For faster formula building, use [autofill](managing-attributes.md#autofill-attribute-names).
 
 {% hint style="info" %}
-Short syntax is also supported for attribute names in formulas. When referencing only the latest valid value of an attribute, you can omit the full `value()` function syntax and quotation marks. For example, the temperature conversion formula can be written as `temperature*1.8 + 32` instead of `value('temperature', 0, 'valid')*1.8 + 32`.
+Short syntax is default for autofilled attribute names in formulas, and you can also use it for manual formula input. When referencing only the latest valid value of an attribute, you can omit the full `value()` function syntax and quotation marks. For example, the temperature conversion formula can be written as `temperature*1.8 + 32` instead of `value('temperature', 0, 'valid')*1.8 + 32`.
 {% endhint %}
+{% endstep %}
+
+{% step %}
+#### Add time settings (optional)
+
+Optionally configure generation time and server time, to do it, enable the **Specify time attributes** toggle\
+For details, see [Time settings for attributes](managing-attributes.md#time-settings-for-attributes)
+{% endstep %}
+
+{% step %}
+#### Finalize configuration
+
+Click **Save** to confirm the node configuration
+{% endstep %}
+{% endstepper %}
+
+The new attribute is saved in the node and the configured calculation is applied immediately in the flow.
 
 ### Time settings for attributes
 
@@ -45,18 +71,9 @@ To use autofill when building formulas:
 2. Select the desired attribute from the appeared list, it supports manual text input for search purposes.
 3. Click on the attribute name to insert it into your formula.
 
-The selected attribute is automatically inserted in the ready-to-use format, with the highlighted attribute name: _value('attribute\_name', 0, ‘valid')_. For your convenience, here’s the breakdown of autofilled elements:
+The selected attribute is automatically inserted in the ready-to-use format, using the [short syntax](managing-attributes.md#short-syntax) of Navixy IoT Logic Expression Language. It means that autofilled entries access any latest value of the selected attribute.&#x20;
 
-* `value` - a syntax element of [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language).
-* `'attribute_name'` - the actual name of the data attribute coming from a physical device or another **Initiate Attribute** node.
-* `0` - depth index, defining the exact historical value from 0 (the latest) to 12 (the oldest). It reflects the indexes shown in [Data Stream Analyzer](../../data-stream-analyzer.md).
-* `‘valid'` - validity flag forcing only the non-null values to be considered.
-
-{% hint style="info" %}
-When `'valid'` is specified, the system automatically skips any `null` (empty) historic values. This means the depth index will point to the most recent **valid** value rather than the most recent chronological value. For example, if your most recent reading (index `0`) is `null` but the previous reading (index `1`) contains actual data, the formula will use the index `1` value instead of the null value at index `0`.
-{% endhint %}
-
-You can modify the parameters as needed - change the index number for historical values or adjust the validity flag.
+You can modify the parameters as needed - change the index number for historical values or adjust the validity flag. To do it, you need to define the formula using the [full synax](managing-attributes.md#full-syntax) explicitly, inside the `vaue()` function.
 
 The list is filtered based on your flow's data sources and matches what's visible in [Data Stream Analyzer](../../data-stream-analyzer.md).
 
@@ -81,6 +98,65 @@ Autofill handles this scenario for you as well:
 * Indexed attributes are marked with ![image-20250606-123725.png](../../../../../user-guide/account/iot-logic/flow-management/initiate-attribute-node/attachments/image-20250606-123725.png) icon in the autofill list.
 * These entries display the available index range in square brackets, such as `analog_[1..4]` for attributes supporting five indexed values (indexes 1 through 4).
 * When you select an indexed attribute, the cursor automatically positions at the end of the attribute name within the quotes, allowing you to immediately type the specific index number you need.
+
+## Expression language
+
+All formulas in IoT Logic follow the specifications of [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language). Below, you will find a brief referense to the language syntax.
+
+### Short syntax
+
+Short formula option accesses the latest attribute value, without checking validity. It is handy when you don't need historical values in a formula and don't want to filter out `null` values.
+
+{% hint style="info" %}
+[Autofill ](managing-attributes.md#autofill-attribute-names)feature always uses the short syntax.
+{% endhint %}
+
+**Syntax:** `attribute_name`
+
+**Defaults:**
+
+* Index: `0` (current value)
+* Validation: `'all'` (includes null values)
+
+For example, the short form `temperature` equals the full formula `value('temperature', 0, 'all')`. This means you can easily create calculations wihout adding the default parameters explicitly:
+
+```jexl
+temperature * 1.8 + 32
+```
+
+### Full syntax
+
+Using full formula syntax allows you to access historical values or explicit validation mode. This helps when you need to use the non-latest values and handle nulls. In the case of full syntax, you need to tefine the complete `value()` function.
+
+**Function:** `value(attribute_name, index, validation)`
+
+**Parameters:**
+
+<table><thead><tr><th width="152.54547119140625">Parameter</th><th width="176.45452880859375">Range/Values</th><th>Description</th></tr></thead><tbody><tr><td><code>attribute_name</code></td><td>Any valid attribute</td><td>Exact name from device telemetry (can be <a href="managing-attributes.md#autofill-attribute-names">autofilled</a>)</td></tr><tr><td><code>index</code></td><td>0-12</td><td>Historical position: 0=current, 1=previous, 12=12 readings ago</td></tr><tr><td><code>validation</code></td><td><code>'all'</code> or <code>'valid'</code></td><td><code>'all'</code>=includes nulls (exact index), <code>'valid'</code>=excludes nulls (Nth valid reading)</td></tr></tbody></table>
+
+**Examples:**
+
+* Any previous reading
+
+```jexl
+value('temperature', 1, 'all')
+```
+
+* 5th valid reading back
+
+```jexl
+value('speed', 5, 'valid')
+```
+
+* Temperature change (short and full syntaxes used in the same formula)
+
+```jexl
+temperature - value('temperature', 1, 'all')
+```
+
+{% hint style="info" %}
+For more formula samples, see [Calculation examples](calculation-examples.md).
+{% endhint %}
 
 ## Editing existing attributes
 

@@ -8,7 +8,7 @@ The Logic node uses the [Navixy IoT Logic Expression Language](https://app.gitbo
 
 **Basic syntax example**:
 
-```
+```jexl
 condition1 && (condition2 || condition3 > condition4)
 ```
 

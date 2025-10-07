@@ -50,7 +50,7 @@ To make calculated attributes visible in the [Tracking](../../../../tracking/) m
 * Monitor calculated metrics in the [Object widget](../../../../tracking/objects-list/object-widget.md)
 * Add important calculations to the [Object list](../../../../tracking/objects-list/) for quick access
 * Include calculated values in [reports](../../../../reports/)
-* Create [rules and notifications](broken-reference) based on calculated values
+* Create [rules and notifications](../../../../events-and-notifications/) based on calculated values
 
 ### Creating a custom attribute for a device
 
