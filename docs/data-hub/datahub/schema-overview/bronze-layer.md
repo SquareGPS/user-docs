@@ -1,21 +1,20 @@
 # Bronze layer
 
-The Bronze layer contains three distinct data schemas, each serving different aspects of the telematics and business intelligence platform:
+The Bronze layer contains two distinct data schemas, each serving different aspects of the telematics and business intelligence platform:
 
-* [**raw\_business\_data**](bronze-layer.md#raw_business_data-structure) - containing tables, attributes and values related to business information, such as vehicles, employees, geofences added by users, etc.
-* [**raw\_telematics\_data**](bronze-layer.md#raw_telematics_data-structure) - containing tables, attributes and values related to the telematics data transmitting from devices under monitoring, such as locations, inputs, outputs, events.
-* [**repo**](bronze-layer.md#repo-data-structure) - containing tables for asset and inventory management, including configurable asset types, custom fields, asset relationships, and geospatial data for organizational resource tracking.
+* [**raw\_business\_data**](bronze-layer.md#raw_business_data-structure) - containing tables, attributes, and values related to business information, such as vehicles, employees, geofences added by users, etc.
+* [**raw\_telematics\_data**](bronze-layer.md#raw_telematics_data-structure) - containing tables, attributes, and values related to the telematics data transmitting from devices under monitoring, such as locations, inputs, outputs, and events.
 
 Each schema is optimized for its specific data domain and access patterns, providing comprehensive coverage of operational, telematic, and asset management needs.
 
 ## `raw_business_data` structure
 
-This schema contains 40+ carefully selected tables to cover many business aspects and use cases. These tables represent your core business entities, organizational structure, and operational data.
+This schema contains 40+ carefully selected tables to cover various business aspects and use cases. These tables represent your core business entities, organizational structure, and operational data.
 
 <figure><img src="../../.gitbook/assets/raw_business_data.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-The interactive diagram of raw\_business\_data schema is available on **dbdiagram.io** - [https://dbdiagram.io/d/V3-bronze-layer-68ecfd1c2e68d21b4131089a](https://dbdiagram.io/d/V3-bronze-layer-68ecfd1c2e68d21b4131089a)
+The interactive diagram of raw\_business\_data schema is available on **dbdiagram.io**: [https://dbdiagram.io/d/V3-bronze-layer-68ecfd1c2e68d21b4131089a](https://dbdiagram.io/d/V3-bronze-layer-68ecfd1c2e68d21b4131089a)
 {% endhint %}
 
 Find raw business data schema details below.
@@ -1463,7 +1462,7 @@ The **`raw_telematics_data`** schema contains three primary table types that wor
 <figure><img src="../../.gitbook/assets/v1 schema telematics bd.svg" alt="Bronze layer raw telematics data ERD"><figcaption><p>Bronze layer raw telematics data ERD</p></figcaption></figure>
 
 {% hint style="info" %}
-The interactive diagram of raw\_telematics\_data schema is available on **dbdiagram.io** - [https://dbdiagram.io/d/v1-schema-telematics-bd-67a0acef263d6cf9a0d8e750](https://dbdiagram.io/d/v1-schema-telematics-bd-67a0acef263d6cf9a0d8e750)
+The interactive diagram of raw\_telematics\_data schema is available on **dbdiagram.io**: [https://dbdiagram.io/d/v1-schema-telematics-bd-67a0acef263d6cf9a0d8e750](https://dbdiagram.io/d/v1-schema-telematics-bd-67a0acef263d6cf9a0d8e750)
 {% endhint %}
 
 Find raw telematics data schema details below.
@@ -1581,246 +1580,7 @@ JOIN raw_telematics_data.tacking_data_core AS tdc
 
 <table><thead><tr><th width="174.800048828125">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key Fields</strong></td><td><code>state_id</code>, <code>device_id</code>, <code>device_time</code>, <code>state_name</code>, <code>value</code></td></tr><tr><td><strong>Content</strong></td><td>Operating mode indicators (working, idle, off), component statuses (ignition, doors)</td></tr><tr><td><strong>Value Format</strong></td><td>Boolean values (1/0) or specific status codes</td></tr></tbody></table>
 
-Data in this schema is ingested directly from devices, with minimal latency (typically seconds) . The schema is optimized for time-series data using TimescaleDB for efficient storage and retrieval.
-
-## `repo` data structure
-
-The **`repo`** schema provides a comprehensive asset management system that enables organizations to define, track, and manage various types of assets with customizable properties and relationships.
-
-<figure><img src="../../.gitbook/assets/Navixy-Repo-data-schema.svg" alt="Asset Management Schema ERD showing 10 interconnected tables with relationships between asset_types, custom_fields, assets, asset_link_history, asset_link_items, geojson_custom_values, inventories, inventory_master_items, inventory_slave_items, and flyway_schema_history"><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-The interactive diagram of repo schema is available on **dbdiagram.io** - [https://dbdiagram.io/d/Navixy-Repo-data-schema-68ad788c1e7a611967a0930e](https://dbdiagram.io/d/Navixy-Repo-data-schema-68ad788c1e7a611967a0930e)
-{% endhint %}
-
-Find raw asset data schema details below.
-
-<details>
-
-<summary>repo schema</summary>
-
-```sql
-Table asset_types {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  label varchar(100) [not null]
-  category varchar(20) [not null]
-  settings jsonb [not null]
-  
-  indexes {
-    (org_id, id) [unique, name: 'asset_type_idx']
-  }
-}
-
-Table custom_fields {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  asset_type_id bigint [not null]
-  label varchar(100) [not null]
-  description varchar(1024)
-  required boolean [not null]
-  type varchar(20) [not null]
-  
-  indexes {
-    (org_id, asset_type_id) [name: 'custom_fields_org_asset_type_idx']
-  }
-}
-
-Table assets {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  type_id bigint [not null]
-  label varchar(100) [not null]
-  fields jsonb [not null]
-  
-  indexes {
-    (org_id, type_id) [name: 'assets_org_type_idx']
-  }
-}
-
-Table asset_link_history {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  link_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  label varchar(100) [not null]
-  actual boolean [not null]
-  
-  indexes {
-    (org_id, link_id) [name: 'asset_link_org_link_id_idx']
-  }
-}
-
-Table asset_link_items {
-  org_id bigint [not null]
-  link_history_id bigint [not null, pk]
-  asset_id bigint [not null, pk]
-  
-  Note: 'Composite primary key on (link_history_id, asset_id)'
-}
-
-Table geojson_custom_values {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  asset_id bigint [not null]
-  field_id bigint [not null]
-  path varchar(200) [not null, note: 'path to geometry in GeoJSON']
-  value geometry [not null, note: 'GEOMETRY(GEOMETRY, 4326)']
-  
-  indexes {
-    (asset_id) [name: 'geojson_values_asset_idx']
-    (value) [type: gist, name: 'geojson_values_spatial_idx']
-  }
-}
-
-Table inventories {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  label varchar(100) [not null]
-  description varchar(1024)
-  
-  indexes {
-    (org_id) [name: 'inventories_org_idx']
-  }
-}
-
-Table inventory_master_items {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  model varchar(40)
-  device_id varchar(64) [unique]
-  label varchar(100) [not null]
-  inventory_id bigint
-  asset_id bigint
-  external_id bigint
-  archived boolean [not null]
-  
-  indexes {
-    (org_id, inventory_id) [name: 'master_items_org_inventory_idx']
-  }
-}
-
-Table inventory_slave_items {
-  id bigserial [primary key]
-  org_id bigint [not null]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  updated_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
-  label varchar(100) [not null]
-  description varchar(1024)
-  inventory_id bigint
-  asset_id bigint
-  master_id bigint
-  
-  indexes {
-    (org_id, inventory_id) [name: 'slave_items_org_inventory_idx']
-  }
-}
-
-Table flyway_schema_history {
-  installed_rank int [primary key]
-  version varchar(50)
-  description varchar(200) [not null]
-  type varchar(20) [not null]
-  script varchar(1000) [not null]
-  checksum int
-  installed_by varchar(100) [not null]
-  installed_on timestamp [not null, default: `now()`]
-  execution_time int [not null]
-  success boolean [not null]
-  
-  indexes {
-    (success) [name: 'flyway_schema_history_s_idx']
-  }
-}
-
-// Relationships
-Ref: custom_fields.asset_type_id > asset_types.id
-Ref: assets.type_id > asset_types.id
-Ref: asset_link_items.link_history_id > asset_link_history.id
-Ref: asset_link_items.asset_id > assets.id
-Ref: geojson_custom_values.asset_id > assets.id
-Ref: geojson_custom_values.field_id > custom_fields.id
-Ref: inventory_master_items.inventory_id > inventories.id
-Ref: inventory_master_items.asset_id > assets.id
-Ref: inventory_slave_items.inventory_id > inventories.id
-Ref: inventory_slave_items.asset_id > assets.id
-Ref: inventory_slave_items.master_id > inventory_master_items.id
-```
-
-</details>
-
-### Update frequency
-
-Data in this schema is synchronized with operational asset management systems. Updates occur as asset configurations change, new assets are registered, or relationships are modified, typically within minutes of source changes.
-
-### Key tables by category
-
-The tables in the `repo` schema are organized into functional categories for managing different aspects of asset operations:
-
-<table><thead><tr><th width="203.54541015625">Category</th><th width="230.1817626953125">Table name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Asset definition</strong></td><td><ol><li>asset_types</li><li>custom_fields</li><li>assets</li></ol></td><td><ol><li>Configurable asset categories and types</li><li>Field definitions for each asset type</li><li>Individual asset instances with properties</li></ol></td></tr><tr><td><strong>Asset relationships</strong></td><td><ol><li>asset_link_history</li><li>asset_link_items</li></ol></td><td><ol><li>Historical record of asset relationships</li><li>Junction table linking assets together</li></ol></td></tr><tr><td><strong>Geospatial data</strong></td><td>geojson_custom_values</td><td>Geographic information for asset locations</td></tr><tr><td><strong>Inventory management</strong></td><td><ol><li>inventories</li><li>inventory_master_items</li><li>inventory_slave_items</li></ol></td><td><ol><li>Logical groupings of inventory items</li><li>Primary inventory items with device integration</li><li>Sub-components and related inventory items</li></ol></td></tr><tr><td><strong>System management</strong></td><td>flyway_schema_history</td><td>Database migration tracking</td></tr></tbody></table>
-
-Each table serves a specific purpose in the asset management ecosystem:
-
-**`asset_types` and `custom_fields`**
-
-**Purpose**: Define flexible asset schemas
-
-<table><thead><tr><th width="200.36376953125">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><ul><li><code>asset_types</code>: <code>id</code>, <code>org_id</code>, <code>label</code>, <code>category</code>, <code>settings</code></li><li><code>custom_fields</code>: <code>asset_type_id</code>, <code>label</code>, <code>type</code>, <code>required</code></li></ul></td></tr><tr><td><strong>Flexibility</strong></td><td>Organizations can define custom asset types with configurable field schemas</td></tr><tr><td><strong>Data storage</strong></td><td>Asset type settings stored as JSONB for maximum configurability</td></tr></tbody></table>
-
-**`assets`**
-
-**Purpose**: Store actual asset instances
-
-<table><thead><tr><th width="200.3636474609375">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key Fields</strong></td><td><code>id</code>, <code>org_id</code>, <code>type_id</code>, <code>label</code>, <code>fields</code></td></tr><tr><td><strong>Data Model</strong></td><td>Asset-specific data stored in JSONB <code>fields</code> column based on custom field definitions</td></tr><tr><td><strong>Relationships</strong></td><td>Links to asset types for schema validation and field interpretation</td></tr></tbody></table>
-
-**`asset_link_history` and `asset_link_items`**
-
-**Purpose**: Track relationships between assets over time
-
-<table><thead><tr><th width="200.3636474609375">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Versioning</strong></td><td>Historical tracking of asset relationship changes</td></tr><tr><td><strong>Junction model</strong></td><td>Many-to-many relationships through <code>asset_link_items</code></td></tr><tr><td><strong>Audit trail</strong></td><td>Complete history of when relationships were created, modified, or dissolved</td></tr></tbody></table>
-
-**`geojson_custom_values`**
-
-**Purpose**: Geographic asset data management
-
-<table><thead><tr><th width="200.3636474609375">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Spatial support</strong></td><td>PostGIS geometry storage with SRID 4326 (WGS84)</td></tr><tr><td><strong>GeoJSON integration</strong></td><td>Path-based reference to specific geometry within GeoJSON structures</td></tr><tr><td><strong>Indexing</strong></td><td>Spatial indexing for efficient geographic queries</td></tr></tbody></table>
-
-**`inventory_master_items` and `inventory_slave_items`**
-
-**Purpose**: Hierarchical inventory organization
-
-<table><thead><tr><th width="200.3636474609375">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Device Integration</strong></td><td>Master items can reference physical devices via <code>device_id</code></td></tr><tr><td><strong>Hierarchical Structure</strong></td><td>Slave items can belong to master items creating parent-child relationships</td></tr><tr><td><strong>Asset Linkage</strong></td><td>Both item types can reference assets for additional metadata</td></tr></tbody></table>
-
-### Schema-specific tips
-
-#### Data validation
-
-The schema enforces organizational data integrity through:
-
-* **Multi-tenancy**: All core tables include `org_id` for data isolation
-* **Referential integrity**: Foreign key constraints maintain relationship consistency
-* **Temporal tracking**: Created/updated timestamps on all operational tables
-* **Flexible validation**: JSONB storage allows for schema evolution while maintaining structure
-
-#### Query optimization
-
-Tables are optimized for asset management operations:
-
-* **Composite indexes** on (`org_id`, related\_id) for tenant-specific queries
-* **Spatial indexing** on geographic data for location-based searches
-* **Time-based indexes** for audit trail and change tracking queries
-* **Unique constraints** where business logic requires data uniqueness
+Data in this schema is ingested directly from devices, with minimal latency (typically seconds). The schema is optimized for time-series data using TimescaleDB for efficient storage and retrieval.
 
 ## Additional information
 

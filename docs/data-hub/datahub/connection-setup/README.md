@@ -14,7 +14,6 @@ Your DataHub organizes data in specific schemas:
 
 * [`raw_business_data`](../schema-overview/bronze-layer.md#raw_business_data-structure) - Contains business data tables (users, objects, tasks, etc.)
 * [`raw_telematics_data`](../schema-overview/bronze-layer.md#raw_telematics_data-structure) - Contains telematics data from client devices (GPS tracks, sensor readings)
-* [`repo`](../schema-overview/bronze-layer.md#repo-data-structure) -  Contains asset and inventory management data (asset types, custom fields, asset relationships, inventory hierarchies)
 
 {% hint style="info" %}
 When querying data, you must specify both the schema (e.g. `raw_business_data`) and table (e.g. `objects`) name: `SELECT * FROM raw_business_data.objects LIMIT 10;`
