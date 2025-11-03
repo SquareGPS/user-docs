@@ -1,0 +1,19 @@
+---
+description: Updates and improvements for standalone builds
+hidden: true
+---
+
+# Release Notes
+
+Track version history and updates for Navixy on-premise deployments. Each release note documents integrations, improvements, and resolved issues for standalone builds.
+
+**What's included:**
+
+* New device integrations and third-party solution support
+* Platform improvements and feature enhancements
+* Bug fixes and stability updates
+* Installation and update facilitation scripts
+
+Browse by year: <a href="2025.md" class="button primary">2025</a>
+
+For questions about specific updates or deployment assistance, contact Navixy support team - [support@navixy.com](mailto:support@navixy.com)
