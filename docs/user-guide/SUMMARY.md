@@ -148,7 +148,7 @@
     * [Tachograph DDD files widget](guide/devices-and-settings/tachograph-ddd-files-widget.md)
     * [Data forwarding](guide/devices-and-settings/data-forwarding/README.md)
       * [ILSP](guide/devices-and-settings/data-forwarding/ilsp.md)
-      * [Navixy WS](guide/devices-and-settings/data-forwarding/navixy-ws.md)
+      * [Navixy Web Service](guide/devices-and-settings/data-forwarding/navixy-ws.md)
       * [Recurso Confiable](guide/devices-and-settings/data-forwarding/recurso-confiable.md)
       * [Simpliroute](guide/devices-and-settings/data-forwarding/simpliroute.md)
       * [Unigis](guide/devices-and-settings/data-forwarding/unigis.md)
