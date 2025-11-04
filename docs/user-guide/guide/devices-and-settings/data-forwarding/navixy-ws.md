@@ -1,5 +1,5 @@
 ---
-description: A protocol for sending XML data
+description: SOAP endpoint for requesting tracking data for a specified period
 ---
 
 # Navixy Web Service
@@ -120,6 +120,7 @@ An example response may look like this:
          <deviceId>866258048802349</deviceId>
          <numSat>15</numSat>
          <odometer>59845</odometer>
+         <eventId>401</eventId>
       </result>
 ```
 
