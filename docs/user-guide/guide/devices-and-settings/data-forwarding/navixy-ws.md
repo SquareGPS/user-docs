@@ -29,17 +29,17 @@ The Navixy Web Service protocol utilizes SOAP to allow the pulling of XML data f
 
 Data fields that are sent:
 
-* `DateGPS`: Date and time in UTC
-* `Ignition`: Boolean ignition status
-* `Latitude`
-* `Longitude`
-* `SpeedGPS`: km/h
-* `UnitPlate`: License plate
-* `Altitude`: Meters
-* `Course`: Vehicle direction, for example: **N,S,E,O,NO,NE,SO,SE**
-* `DeviceID`: IMEI
-* `NumSat`: Number of GNSS satellites the device is utilizing
-* `Odometer`: Traveled distance in km
+* `dateGPS`: Date and time in UTC
+* `ignition`: Boolean ignition status
+* `latitude`
+* `longitude`
+* `speedGPS`: km/h
+* `unitPlate`: License plate
+* `altitude`: Meters
+* `course`: Vehicle direction, for example: **N,S,E,O,NO,NE,SO,SE**
+* `deviceId`: IMEI
+* `numSat`: Number of GNSS satellites the device is utilizing
+* `odometer`: Traveled distance in km
 * `eventid`: the event code according to the [Navixy Generic Protocol's event ID](https://www.navixy.com/docs/iot-logic-api/technologies/navixy-generic-protocol/navixy-generic-protocol-10/predefined-event-identifiers)
 
 ### Navixy Web Service Configuration
@@ -87,14 +87,14 @@ A SOAP request must be made utilizing one of the above WSDL pages. The XML reque
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
 
-   soapenv:Header
-   tem:authentication
+   <soapenv:Header>
+   <tem:authentication>
      <login>username</login>
      <password>password</password>
    </tem:authentication>
    </soapenv:Header>
-   soapenv:Body
-   tem:dataRequest
+   <soapenv:Body>
+   <tem:dataRequest>
       <!--1 to 100 repetitions:-->
       <deviceIds>IMEI of device</deviceIds>
       <startDate>2022-08-30T00:00:00Z</startDate>
@@ -108,20 +108,26 @@ A SOAP request must be made utilizing one of the above WSDL pages. The XML reque
 An example response may look like this:
 
 ```xml
-      <result>
-         <dateGps>2022-08-30T00:02:55.000Z</dateGps>
-         <ignition>false</ignition>
-         <latitude>75.9270866</latitude>
-         <longitude>-85.5207616</longitude>
-         <speedGps>0.0</speedGps>
-         <unitPlate>ss3ssj</unitPlate>
-         <altitude>284.0</altitude>
-         <course>E</course>
-         <deviceId>866258048802349</deviceId>
-         <numSat>15</numSat>
-         <odometer>59845</odometer>
-         <eventId>401</eventId>
-      </result>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Body>
+        <ns:getLocationDataResponse xmlns:ns="http://tempuri.org">
+            <result>
+                <dateGps>2019-10-15T08:48:50.000Z</dateGps>
+                <ignition>false</ignition>
+                <latitude>75.9270866</latitude>
+                <longitude>-85.5207616</longitude>
+                <speedGps>0.0</speedGps>
+                <unitPlate>JRT1550</unitPlate>
+                <altitude>284.0</altitude>
+                <course>N</course>
+                <deviceId>866258048802349</deviceId>
+                <numSat>15</numSat>
+                <odometer>59845</odometer>
+                <eventId>401</eventId>
+            </result>
+        </ns:getLocationDataResponse>
+    </S:Body>
+</S:Envelope>
 ```
 
 #### Managing
