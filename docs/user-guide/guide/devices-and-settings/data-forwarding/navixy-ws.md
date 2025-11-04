@@ -40,7 +40,7 @@ Data fields that are sent:
 * `deviceId`: IMEI
 * `numSat`: Number of GNSS satellites the device is utilizing
 * `odometer`: Traveled distance in km
-* `eventid`: the event code according to the [Navixy Generic Protocol's event ID](https://www.navixy.com/docs/iot-logic-api/technologies/navixy-generic-protocol/navixy-generic-protocol-10/predefined-event-identifiers)
+* `eventId`: the event code according to the [Navixy Generic Protocol's event ID](https://www.navixy.com/docs/iot-logic-api/technologies/navixy-generic-protocol/navixy-generic-protocol-10/predefined-event-identifiers)
 
 ### Navixy Web Service Configuration
 
