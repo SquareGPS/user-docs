@@ -3,9 +3,9 @@ description: Updates and improvements for standalone builds
 hidden: true
 ---
 
-# Release Notes
+# Standalone versions
 
-Track version history and updates for Navixy on-premise deployments. Each release note documents integrations, improvements, and resolved issues for standalone builds.
+Track version history and updates for Navixy on-premise deployments. The changelog documents integrations, improvements, and resolved issues for standalone builds.
 
 **What's included:**
 
