@@ -7,6 +7,7 @@
       * [Connecting Power BI](datahub/connection-setup/selecting-bi-tools/connecting-power-bi.md)
       * [Connecting Apache Superset](datahub/connection-setup/selecting-bi-tools/connecting-apache-superset.md)
       * [Connecting Streamlit](datahub/connection-setup/selecting-bi-tools/connecting-streamlit.md)
+      * [Connecting Grafana](datahub/connection-setup/selecting-bi-tools/connecting-grafana.md)
   * [Schema overview](datahub/schema-overview/README.md)
     * [Bronze layer](datahub/schema-overview/bronze-layer.md)
 * [Explorer for DataHub](explorer-for-datahub/README.md)
