@@ -21,6 +21,10 @@ We've taken your complete dataset and stored it in our PTL database infrastructu
 | <p><strong>Data integration</strong><br><br>Connect with BI and analytics tools for advanced visualization and research</p> | <p><strong>Structured data model</strong><br><br>Leverage a well-organized <a href="./#how-data-is-organized">multi-layer architecture</a>:<br><strong>Bronze</strong> → <strong>Silver</strong> → <strong>Gold</strong></p> | <p><strong>Client isolation</strong><br><br>Secure data environment with proper access controls at all levels</p>          |
 | <p><strong>Near real-time streaming</strong></p><p>Monitor near real-time data for immediate insights</p>                   | <p><strong>Longitudinal storage</strong></p><p>Access historical data for analysis and model training</p>                                                                                                                    | <p><strong>Cross-joins</strong></p><p>Connect telematics and business data<br></p>                                         |
 
+{% hint style="info" %}
+Want to get the most out of your analytics? Enable DataHub first to unlock comprehensive data insights. Contact us for activation details at [datahub@navixy.com](mailto:datahub@navixy.com).
+{% endhint %}
+
 ### What data is available?
 
 Your **DataHub** contains two primary types of information:
