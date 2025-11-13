@@ -6,6 +6,8 @@ Ready-made SQL query templates for common analytical tasks and industry-specific
 
 **Complete SQL templates** with business context, parameter guidance, and optimization tips for the most frequent fleet management and telematics analytical challenges. All queries work with standard DataHub schema structures and are optimized for PostgreSQL environments.
 
+{% include "../.gitbook/includes/enable-datahub-before-utili....md" %}
+
 ### Navigation
 
 * [**Common queries**](common-queries.md) - Essential SQL templates for everyday fleet management tasks including device status, user activity, location analysis, and basic reporting functions.

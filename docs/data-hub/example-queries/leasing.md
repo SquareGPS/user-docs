@@ -4,6 +4,8 @@ description: Leasing Case Study and SQL Recipe Book
 
 # Leasing
 
+{% include "../.gitbook/includes/enable-datahub-before-utili....md" %}
+
 Leasing companies (particularly banks and fleet‑leasing providers) retain ownership of the vehicle or equipment while the client merely rents its use, so they absorb the asset‑related risk throughout the contract. 
 
 To protect residual value, enforce contractual limits (mileage, geography, maintenance), and streamline full‑service obligations, they rely on Navixy.  Real‑time GPS data, sensors based diagnostics, and behavioural analytics let them verify usage conditions, automate service scheduling, detect mechanical issues early, calculate penalties or excess‑kilometre fees, and, when necessary, immobilise or recover the asset—all of which secures their investment, reduces operational cost, and enhances customer transparency across the entire lease lifecycle.
