@@ -1,6 +1,6 @@
 ---
 description: Updates and improvements for standalone builds
-hidden: true
+icon: clock-rotate-left
 ---
 
 # Standalone versions
