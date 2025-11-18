@@ -112,5 +112,5 @@
       * [Trackers migration from Wialon](qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/README.md)
         * [Tracker data](qa/migrating-users/migrating-from-wialon/trackers-migration-from-wialon/tracker-data.md)
       * [Sensors migration from Wialon](qa/migrating-users/migrating-from-wialon/sensors-migration-from-wialon.md)
-* [On-premise versions](versions/README.md)
+* [Versions](versions/README.md)
   * [2025](versions/2025.md)
