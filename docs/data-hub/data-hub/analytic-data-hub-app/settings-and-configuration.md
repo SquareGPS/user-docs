@@ -4,7 +4,7 @@ Your **Explorer for DataHub** instance requires management to deliver optimal pe
 
 ## Understanding your system's health
 
-![](attachments/image-20250813-134236.png)
+![](../../.gitbook/assets/image-20250813-134236.png)
 
 The **System Health** dashboard shows your instance's current operational status. Check these indicators before making configuration changes.
 

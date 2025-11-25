@@ -4,7 +4,7 @@ Historical reports transform your operational data into strategic insights by an
 
 ## Measurement sensor report
 
-![](attachments/image-20250813-124709.png)
+![](../../.gitbook/assets/image-20250813-124709.png)
 
 **When to use**: Fuel management planning, predictive maintenance scheduling, and identifying equipment performance patterns across multiple vehicles and time periods.
 
@@ -27,7 +27,7 @@ All timestamps convert to UTC for consistent analysis regardless of vehicle geog
 
 ## Object activity report
 
-![](attachments/image-20250813-124725.png)
+![](../../.gitbook/assets/image-20250813-124725.png)
 
 **When to use**: Route optimization analysis, vehicle utilization assessment, and operational efficiency measurement across defined time periods and fleet segments.
 
@@ -50,7 +50,7 @@ The underlying query structure adapts based on your selected parameters, optimiz
 
 ## Eco-driving report
 
-![](attachments/image-20250813-124745.png)
+![](../../.gitbook/assets/image-20250813-124745.png)
 
 **When to use**: Driver safety analysis, insurance compliance reporting, and fleet risk management assessment for developing targeted training programs and reducing operational costs.
 
@@ -73,7 +73,7 @@ The underlying algorithm processes 15-second aggregated GPS data from `raw_telem
 
 ## Shifts report
 
-![](attachments/image-20250813-124757.png)
+![](../../.gitbook/assets/image-20250813-124757.png)
 
 **When to use**: Workforce productivity analysis, operational pattern identification, and shift efficiency measurement for fleet scheduling optimization.
 
@@ -91,6 +91,55 @@ The shifts analysis processes raw tracking data through operational pattern dete
 * **Performance metrics**: The system generates utilization statistics by comparing active operational time against total elapsed time, providing efficiency insights for fleet management decisions.
 
 GPS coordinate validation ensures only quality positioning data contributes to distance and speed calculations, while timestamp standardization to UTC enables consistent shift analysis across different geographic locations.
+
+</details>
+
+### Mileage report
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+**When to use**: Fleet utilization analysis, operational efficiency assessment, and work time versus non-work time usage pattern identification for optimizing vehicle deployment and identifying unauthorized usage.
+
+**What data you see**: Distance traveled categorized by work hours, non-work hours, and weekends, with weekly distribution trends, department comparisons, and detailed breakdowns showing active days and maximum trip distances.
+
+<details>
+
+<summary>Data processing logic</summary>
+
+The vehicle mileage analysis processes GPS track data through time-based classification and distance aggregation:
+
+* **Time category classification**: The system evaluates each GPS track segment against configurable work hours and calendar days to classify mileage into three distinct categories. Work time mileage captures distance traveled during configured business hours on weekdays, non-work time represents after-hours weekday travel, and weekend mileage encompasses all Saturday and Sunday movement regardless of time. This classification occurs at the track segment level, with each portion of a journey assigned based on its timestamp.
+* **Distance calculation**: Geographic distance measurements use coordinate geometry algorithms to calculate distance the traveled between consecutive GPS points. The system processes raw position data from `raw_telematics_data.tracking_data_core`, converting integer-stored coordinates (divided by 10,000,000) to decimal degrees for accurate haversine distance calculations.
+* **Temporal aggregation**: Weekly pattern analysis groups track segments by ISO week number, summing distances within each time category. The system generates both absolute mileage totals (in kilometers) and percentage distributions to reveal how operational patterns shift across weeks.
+* **Grouping analysis**: Department, object, and driver comparisons aggregate individual vehicle data into organizational units. The system calculates average monthly mileage per vehicle by dividing total distance by the number of active days and normalizing to 30-day months, enabling fair comparison across different analysis periods.
+* **Activity detection**: Active day calculations identify calendar dates with recorded mileage by analyzing track timestamps. Maximum track distance determination processes individual trip segments to identify the longest continuous journey for each grouping, using movement detection thresholds (≥3 km/h) and time gap analysis (>300 seconds) to separate distinct trips.
+
+GPS quality validation ensures only reliable positioning data (satellites > 3, non-zero coordinates) contributes to distance calculations, while timestamp standardization to UTC enables consistent time classification regardless of vehicle geographic location.
+
+</details>
+
+### Trips report
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**When to use**: Journey pattern analysis, route optimization assessment, and operational behavior evaluation for understanding trip frequency, distance distribution, and identifying unusual travel patterns.
+
+**What data you see**: Individual trip metrics including distance, duration, and average speed, with weekly volume trends, group-level comparisons, and complete trip-by-trip details showing start/end times and driver assignments.
+
+<details>
+
+<summary>Data processing logic</summary>
+
+The vehicle trips analysis identifies and processes individual journeys through intelligent movement detection:
+
+* **Trip detection algorithm**: The system analyzes GPS track data and vehicle state information to identify distinct trips using speed and time thresholds. A trip begins when vehicle speed exceeds the minimum idle speed threshold (default 3 km/h) and ends when speed drops below this threshold for the minimum idle time duration (default 5 minutes). Brief stops shorter than the idle time threshold are treated as pauses within the same trip rather than trip boundaries, filtering out momentary traffic stops or loading delays.
+* **Enhanced detection parameters**: When available, the system incorporates ignition status and motion sensor data to refine trip detection accuracy. This multi-factor approach prevents false trip endings during brief stationary periods where the engine remains running, ensuring only meaningful parking events trigger trip completion.
+* **Distance and duration calculation**: For each detected trip, the system calculates total distance using PostGIS geographic functions between consecutive GPS points from `raw_telematics_data.tracking_data_core`. Trip duration derives from the time difference between the first and last track point of the journey. Average speed calculations divide total distance by duration, providing realistic operational velocity that includes any brief in-trip stops.
+* **Temporal aggregation**: Weekly analysis groups trips by ISO week number, calculating both trip counts and cumulative distances. This dual metric approach reveals whether operational volume changes correlate with average trip length variations—high trip counts with low total distance indicate many short journeys, while the inverse suggests fewer but longer trips.
+* **Group comparison analytics**: Department, object, driver, and garage groupings aggregate trip data to enable comparative analysis. The system sums total distances, counts individual trips, and calculates mean trip durations for each unit. These metrics enable identification of operational role differences—delivery fleets show many short trips while field service vehicles may exhibit fewer but longer journeys.
+* **Speed data availability**: When GPS signal quality is insufficient or speed data capture fails, the system cannot reliably calculate average speeds. This condition typically occurs during GPS signal loss in areas with poor satellite visibility (tunnels, dense urban areas, underground parking) or during data processing anomalies. The report displays "No speed data available" for affected periods, indicating these trips require investigation or have incomplete telematics records.
+
+All trip timestamps convert to UTC for consistent analysis across different operational zones, while GPS quality validation (satellites > 3, non-zero coordinates) ensures only reliable positioning data contributes to trip detection and distance calculations.
 
 </details>
 
