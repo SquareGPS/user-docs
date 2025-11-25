@@ -94,7 +94,7 @@ GPS coordinate validation ensures only quality positioning data contributes to d
 
 </details>
 
-### Mileage report
+## Mileage report
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -118,7 +118,7 @@ GPS quality validation ensures only reliable positioning data (satellites > 3, n
 
 </details>
 
-### Trips report
+## Trips report
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
