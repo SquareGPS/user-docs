@@ -143,6 +143,33 @@ All trip timestamps convert to UTC for consistent analysis across different oper
 
 </details>
 
+## Downtime report
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+**When to use**: Vehicle utilization optimization, idle time cost analysis, operational efficiency assessment, and identifying excessive downtime at specific locations for improving fleet productivity and reducing fuel waste.
+
+**What data you see**: Comprehensive idle time analysis showing stopped and parked hours, utilization percentages, activity status distributions across time and zones, and detailed breakdowns identifying primary downtime locations for each vehicle.
+
+<details>
+
+<summary>Data processing logic</summary>
+
+The downtime analysis processes GPS and speed data through sophisticated movement classification to identify and quantify non-productive vehicle time:
+
+* **Movement threshold detection**: The system applies a configurable minimum speed threshold (default 3 km/h) to classify vehicle activity states. When speed drops below this threshold, the vehicle enters a stopped state. This threshold adapts to different operational contexts—construction vehicles may use lower thresholds while highway fleets use higher values to accurately capture meaningful idle periods.
+* **Stopped versus parked classification**: The system distinguishes between brief stops and extended parking through time-based analysis. A vehicle remains in stopped status when stationary, but only transitions to parked after maintaining zero or near-zero speed for the minimum parking duration (default 5 minutes). This hierarchical classification ensures brief traffic stops, loading delays, or momentary pauses don't trigger parking classifications while genuine parking events are accurately captured. All parked time is also stopped time, but not all stopped time qualifies as parking.
+* **Activity state aggregation**: For each vehicle, the system calculates total hours spent in each state—moving, stopped, and parked—by processing GPS track data from `raw_telematics_data.tracking_data_core`. Speed readings undergo continuous evaluation against the movement threshold, with state transitions recorded at precise timestamps. Duration calculations sum the time elapsed in each state across the analysis period.
+* **Downtime calculation**: Total downtime represents all non-moving time (stopped + parked hours). The system calculates downtime as the inverse of utilization—when a vehicle is not in motion, it accumulates downtime. This metric provides a comprehensive view of idle time regardless of whether the vehicle is briefly stopped or fully parked.
+* **Utilization metrics**: Utilization percentage derives from the ratio of moving time to total activity time: (moving hours / total hours) × 100. Average utilization across multiple vehicles uses weighted calculation based on each vehicle's total activity time. These metrics enable fair comparison of productivity across vehicles with different operational patterns or analysis periods.
+* **Geographic downtime analysis**: The system cross-references stopped and parked locations with defined geofences from `business_data.zones_geom` using PostGIS spatial functions. For each idle period, GPS coordinates are evaluated against zone boundaries to determine if downtime occurred within a known location. The primary downtime zone represents the geofence where the vehicle accumulated the most stopped or parked hours during the analysis period.
+* **Timeline visualization modes**: The Status display mode shows temporal activity patterns colored by movement state (moving, stopped, parked), revealing when vehicles transition between states throughout the day. The Zones display mode colors timeline segments by geographic location rather than activity state, showing which zones the vehicle occupied over time. This dual visualization approach enables both temporal pattern analysis and geographic distribution assessment.
+* **Zone-based aggregation**: When analyzing downtime by zones, the system groups all idle periods by their geographic location, calculating total stopped and parked hours within each geofence. This aggregation identifies bottleneck locations where vehicles spend excessive time idle—such as loading docks with long wait times, customer sites with inefficient processes, or unauthorized stop locations.
+
+GPS quality validation ensures only reliable positioning data (satellites > 3, non-zero coordinates) contributes to state classification and geographic analysis, while timestamp standardization to UTC enables consistent downtime tracking across different operational zones.
+
+</details>
+
 ## Next steps
 
 When historical analysis reveals optimization opportunities or raises specific operational questions, progress to [Custom Analysis & SQL Configurator](../../explorer-for-datahub/custom-analysis-sql-configurator/) to create tailored investigations that address your unique fleet management requirements and develop custom analytical solutions.
