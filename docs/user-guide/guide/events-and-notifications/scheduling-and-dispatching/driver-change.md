@@ -8,7 +8,7 @@ The “Driver change” rule helps fleet managers track which driver is operatin
 
 To use this rule, start by adding all your drivers to the **Fleet Management** → **Drivers section**. Assign each driver their unique hardware key, such as an iButton or RFID tag. When a driver change is detected, the platform matches the event to the correct driver, ensuring accurate reports and alerts.
 
-No other specific Rule settings are required. For common settings, please refer to [Rules and Notifications](broken-reference).
+No other specific Rule settings are required. For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

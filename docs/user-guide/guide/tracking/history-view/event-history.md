@@ -5,28 +5,28 @@ The **Event** tab in **History** provides a detailed log of all events related t
 {% hint style="info" %}
 **Navigation**
 
-To see the event history for an object, select it and click <img src="../../../user-guide/gps-tracking/history-view/attachments/Untitled-20250415-082401.png" alt="Untitled-20250415-082401.png" data-size="line">. You will be prompted to select a time and date range. After choosing the desired period, proceed to the **History** window and select the **Events** tab.
+To see the event history for an object, select it and click <img src="../../../.gitbook/assets/Untitled-20250415-082401.png" alt="Untitled-20250415-082401.png" data-size="line">. You will be prompted to select a time and date range. After choosing the desired period, proceed to the **History** window and select the **Events** tab.
 {% endhint %}
 
 {% columns fullWidth="true" %}
 {% column %}
-![History date range selection](../../../user-guide/gps-tracking/history-view/attachments/image-20240807-220924.png)
+![History date range selection](../../../.gitbook/assets/image-20240807-220924.png)
 {% endcolumn %}
 
 {% column %}
-![Events list](../../../user-guide/gps-tracking/history-view/attachments/image-20240808-192358.png)
+![Events list](../../../.gitbook/assets/image-20240808-192358.png)
 {% endcolumn %}
 {% endcolumns %}
 
 To view events for all devices, click the Alerts tab on the sidebar:
 
-![Alerts module](../../../user-guide/gps-tracking/history-view/attachments/image-20241113-192802.png)
+![Alerts module](../../../.gitbook/assets/image-20241113-192802.png)
 
 ## Events list
 
 Select a date range to see a summary of events for the chosen objects, grouped by object. The icons and numbers below each object represent the most common event types during the selected period. You can click the icons to filter the list by event type.
 
-By default, each entry’s events are collapsed. Click <img src="../../../user-guide/gps-tracking/history-view/attachments/image-20250415-083354.png" alt="image-20250415-083354.png" data-size="line"> to the right to expand the view.
+By default, each entry’s events are collapsed. Click <img src="../../../.gitbook/assets/image-20250415-083354.png" alt="image-20250415-083354.png" data-size="line"> to the right to expand the view.
 
 ## Event details
 
@@ -41,7 +41,7 @@ By clicking on an event in the events list, you will see the following informati
 ## Event types
 
 The types of events displayed are determined by the events being monitored. Navixy can detect and log a wide range of events, from basic movement and stop notifications to more complex sensor alerts and maintenance reminders.\
-For more details on setting up and managing these events, refer to [Rules and Notifications](broken-reference).
+For more details on setting up and managing these events, refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## Event-triggered video monitoring
 

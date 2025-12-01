@@ -14,7 +14,7 @@ This rule is especially useful in three key areas:
 
 As the "Movement Inactivity" is a device-detected event, there is no specific setting in the Rules and Notifications. Instead, use the Device Settings widget to remotely configure the speed limit on the device side.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

@@ -16,7 +16,7 @@ These benefits may vary depending on the vehicle's make, model, and additional f
 
 This rule does not require any specific settings.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

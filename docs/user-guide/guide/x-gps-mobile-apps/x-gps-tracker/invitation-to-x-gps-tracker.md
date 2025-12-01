@@ -22,7 +22,7 @@ The activation process is the same for both iOS and Android devices.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-171019.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-20250304-171019.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

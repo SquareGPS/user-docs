@@ -21,7 +21,7 @@ The "Offline time more than" setting allows users to define a custom timer that 
 
 For example, if a device loses connection at 10:10 AM, after the default timeout of 10 minutes, it will be marked with a red status at 10:20 AM. If the user sets the custom offline timeout to 7 minutes, the notification will be triggered at 10:27 AM.
 
-For common rule settings, please refer to [Rules and Notifications](broken-reference).
+For common rule settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

@@ -16,7 +16,7 @@ Monitoring these events helps improve driver awareness, reduce the risk of accid
 
 As ADAS events are processed on the Video telematics device side rather than in the cloud, no additional settings are required. Simply select the events you want to monitor to ensure comprehensive driver behavior tracking.
 
-For common settings, please refer to [Rules and notifications](broken-reference).
+For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

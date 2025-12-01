@@ -60,33 +60,33 @@ Here are some examples of protocols available for various purposes:
 
 #### Enterprise compliance
 
-| Protocol                                      | Description                                                                                                |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Altotrack Chep Mexico**                     | Forwards vehicle positions from the Chep platform to the Altotrack HUB.                                    |
-| **ArmCargo**                                  | Sends data to Asset Risk Management services for risk assessment.                                          |
-| **Cargo online**                              | Forwards data to the CargoOnline service.                                                                  |
-| [**ILSP**](ilsp.md)                           | Enables ILSP’s software to share vehicle data across networks in Mexico.                                   |
-| **Localizar-t**                               | Forwards data to Localizar-t's logistics project, Forza.                                                   |
-| **ReC Solutions**                             | Sends data to ReC Servicios Consultores servers.                                                           |
-| [**Recurso Confiable**](recurso-confiable.md) | Used for data forwarding with Recurso Confiable’s software across various industries in Mexico and beyond. |
-| **SafetyNet pulsian**                         | Forwards SOS alarms to a SafetyNet CAD server for emergency assistance.                                    |
-| [**SimpliRoute**](simpliroute.md)             | Protocol for transmitting vehicle tracking data to SimpliRoute.                                            |
-| **TraceReports**                              | Sends data to the TraceReports system.                                                                     |
-| [**Unigis**](broken-reference)                | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
-| **Wirtrack**                                  | Forwards data to Wirsolut services.                                                                        |
+| Protocol                                         | Description                                                                                                |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Altotrack Chep Mexico**                        | Forwards vehicle positions from the Chep platform to the Altotrack HUB.                                    |
+| **ArmCargo**                                     | Sends data to Asset Risk Management services for risk assessment.                                          |
+| **Cargo online**                                 | Forwards data to the CargoOnline service.                                                                  |
+| [**ILSP**](ilsp.md)                              | Enables ILSP’s software to share vehicle data across networks in Mexico.                                   |
+| **Localizar-t**                                  | Forwards data to Localizar-t's logistics project, Forza.                                                   |
+| **ReC Solutions**                                | Sends data to ReC Servicios Consultores servers.                                                           |
+| [**Recurso Confiable**](recurso-confiable.md)    | Used for data forwarding with Recurso Confiable’s software across various industries in Mexico and beyond. |
+| **SafetyNet pulsian**                            | Forwards SOS alarms to a SafetyNet CAD server for emergency assistance.                                    |
+| [**SimpliRoute**](simpliroute.md)                | Protocol for transmitting vehicle tracking data to SimpliRoute.                                            |
+| **TraceReports**                                 | Sends data to the TraceReports system.                                                                     |
+| [**Unigis**](/broken/pages/WEJQsDMBQ41YJ4Q2gk84) | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
+| **Wirtrack**                                     | Forwards data to Wirsolut services.                                                                        |
 
 #### Data consolidation
 
-| Protocol                                   | Description                                                                  |
-| ------------------------------------------ | ---------------------------------------------------------------------------- |
-| **AVL Control**                            | Sends data to AVL Control servers for security management and statistics.    |
-| **Granit3**                                | Forwards data to Santel navigation servers.                                  |
-| **Startrack**                              | SOAP-based protocol for sending data to Startrack's logistics system.        |
-| **Lacak.io**                               | Data forwarding protocol for Lacak.io.                                       |
-| [**Navixy Web Service**](broken-reference) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
-| **SA-RM**                                  | General data forwarding protocol.                                            |
-| **Transnavigation**                        | Forwards data to Transnavigation servers.                                    |
-| [**Wialon IPS**](wialon-ips.md)            | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
-| **Wisetrack**                              | Forwards data to Wisetrack servers.                                          |
+| Protocol                                                     | Description                                                                  |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| **AVL Control**                                              | Sends data to AVL Control servers for security management and statistics.    |
+| **Granit3**                                                  | Forwards data to Santel navigation servers.                                  |
+| **Startrack**                                                | SOAP-based protocol for sending data to Startrack's logistics system.        |
+| **Lacak.io**                                                 | Data forwarding protocol for Lacak.io.                                       |
+| [**Navixy Web Service**](/broken/pages/Kx9Hxng0GPrKcIiuZ0S4) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
+| **SA-RM**                                                    | General data forwarding protocol.                                            |
+| **Transnavigation**                                          | Forwards data to Transnavigation servers.                                    |
+| [**Wialon IPS**](wialon-ips.md)                              | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
+| **Wisetrack**                                                | Forwards data to Wisetrack servers.                                          |
 
 These options provide a robust framework for data sharing, helping you meet regulatory requirements, integrate with enterprise systems, and consolidate data for comprehensive analysis.

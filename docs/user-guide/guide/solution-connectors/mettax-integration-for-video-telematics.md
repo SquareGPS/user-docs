@@ -1,4 +1,4 @@
-# Mettax
+# MettaX
 
 Video telematics is a vital functionality for many businesses. There are proprietary solutions that handle video feed from dashcams but offer limited possibilities for telematic readings of such devices. For this reason, we broadened our approach to integrations so our clients can make use of existing 3rd-party applications for video and benefit from Navixy’s extended telematics features at the same time.
 
@@ -15,18 +15,18 @@ In Mettax, device data is stored under individual user accounts. If your organiz
 {% endhint %}
 
 1. Log in to a user account that contains actual devices.
-2. Turn on **Developer** mode to enable the necessary settings for our integration:![Mettax-UI.png](../../user-guide/solution-connectors/attachments/Mettax-UI.png)
+2. Turn on **Developer** mode to enable the necessary settings for our integration:![Mettax-UI.png](../../.gitbook/assets/Mettax-UI.png)
    1. Click your account name in the upper-right corner of the window.
    2. Go to **Customer Settings**.
    3. Open the **App Settings** tab.
    4. Enable the **Developer** option.
 3. Install **Webhooks** to establish a connection between the two solutions:
    1. Click the apps icon and select **Developer**.\
-      ![image-20250428-102043.png](../../user-guide/solution-connectors/attachments/image-20250428-102043.png)
+      ![image-20250428-102043.png](../../.gitbook/assets/image-20250428-102043.png)
    2. Go to **Details**.
    3. Open the **WEBHOOK** tab.
    4. Find these three webhooks, you will need to edit them:\
-      ![Mettax-webhooks.png](../../user-guide/solution-connectors/attachments/Mettax-webhooks.png)
+      ![Mettax-webhooks.png](../../.gitbook/assets/Mettax-webhooks.png)
       1. **pushDeviceInfo**
       2. **pushAlarm**
       3. **pushGpsInfo**
@@ -74,7 +74,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% endhint %}
 
 1. Create new application\
-   Start by clicking the <img src="../../user-guide/solution-connectors/attachments/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
+   Start by clicking the <img src="../../.gitbook/assets/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
 2. Configure the new application
 3. Put [https://www.mettaxiot.com/#/dashboard](https://www.mettaxiot.com/#/dashboard) in the **App URL** field.
 4. Enter a **Label** for the application (e.g., Mettax dashboard).
@@ -84,7 +84,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy’s left sidebar. Open it and log in with your Mettax credentials.
 
-<p align="center"><img src="../../user-guide/solution-connectors/attachments/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original"></p>
+<p align="center"><img src="../../.gitbook/assets/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original"></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}

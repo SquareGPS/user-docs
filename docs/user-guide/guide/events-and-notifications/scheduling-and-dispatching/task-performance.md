@@ -4,7 +4,7 @@
 
 The Task Performance rule is designed to help companies track and manage the progress and completion of tasks assigned to field employees. Whether you're overseeing a large remote workforce or a smaller team, this rule ensures you stay informed about critical task-related events, such as task completion, delays, failures, and form submissions.
 
-![](../../../user-guide/rules-and-notifications/scheduling-and-dispatching/attachments/image-20240808-235145.png)
+![](../../../.gitbook/assets/image-20240808-235145.png)
 
 The system provides timely notifications via SMS, email, push notifications, or directly within the web user interface. By using this functionality, businesses can maintain control over the task completion process, leading to improved efficiency and decision-making.
 
@@ -14,7 +14,7 @@ The system provides timely notifications via SMS, email, push notifications, or 
 
 In the rule settings, specify the task statuses and events for which you want to receive notifications. You can choose from options such as task completion, delays, failures, arrivals, and form submissions. By selecting the relevant options, companies can stay informed about key developments in their field operations, helping to minimize disruptions and ensure smooth task execution.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

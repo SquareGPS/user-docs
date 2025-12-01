@@ -4,7 +4,7 @@
 
 The Fleet Management section within Navixy platform offers streamlined management of your organization's vehicles, providing detailed insights and control over all aspects of your fleet, from fuel consumption to vehicle specifications, to enhance your operational efficiency.
 
-![](../../user-guide/attachments/image-20240814-173711.png)
+![](../../.gitbook/assets/image-20240814-173711.png)
 
 All the information about vehicles of your organization is in **Fleet management**.
 
@@ -20,9 +20,9 @@ In this tab it is possible to add and edit vehicles, attach them to the depots a
 
 ### Adding a new vehicle
 
-Press <img src="../../user-guide/attachments/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button to add a new vehicle.
+Press <img src="../../.gitbook/assets/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button to add a new vehicle.
 
-Button <img src="../../user-guide/attachments/image-20241127-142058.png" alt="image-20241127-142058.png" data-size="line"> allows adding an image of the vehicle.
+Button <img src="../../.gitbook/assets/image-20241127-142058.png" alt="image-20241127-142058.png" data-size="line"> allows adding an image of the vehicle.
 
 The **Main** tab contains all main information about the vehicle and additional information, such as tags or text notes.
 
@@ -42,7 +42,7 @@ Information on fleet owners is available on the **Garages** tab.
 
 ### Adding a new garage
 
-Press <img src="../../user-guide/attachments/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button to add a new garage.
+Press <img src="../../.gitbook/assets/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button to add a new garage.
 
 The popup contains its name, address, name of the mechanic and name of the dispatcher. This data can be used for more convenient and efficient task management.
 

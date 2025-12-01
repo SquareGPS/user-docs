@@ -17,7 +17,7 @@ The rule operates using the device’s built-in capabilities to verify driver id
 
 No other specific Rule settings are required.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System Operation Details
 

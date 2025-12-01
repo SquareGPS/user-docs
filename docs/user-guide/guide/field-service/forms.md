@@ -17,7 +17,7 @@ To begin using forms in Navixy:
 
 This process allows you to create as many forms as needed, ensuring they are tailored to the tasks your employees perform.
 
-![](../../user-guide/field-service/attachments/image-20240816-160834.png)
+![](../../.gitbook/assets/image-20240816-160834.png)
 
 Two toggles are available when creating a form:
 
@@ -26,7 +26,7 @@ Two toggles are available when creating a form:
 
 After saving, created forms can be accessed in the form list.
 
-![List of created forms (example)](../../user-guide/field-service/attachments/image-20240816-155915.png)
+![List of created forms (example)](../../.gitbook/assets/image-20240816-155915.png)
 
 ### Attaching a form to a task
 
@@ -37,7 +37,7 @@ To attach a form to a task, follow these steps:
 3. Provide other task details, such as selecting the employee responsible for completing the task.
 4. Finalize the task creation by clicking "Save."
 
-![](../../user-guide/field-service/attachments/image-20240816-161010.png)
+![](../../.gitbook/assets/image-20240816-161010.png)
 
 The selected employee will receive the task with the attached form in the X-GPS Tracker mobile app, ensuring all necessary documentation is available during task execution.
 
@@ -55,7 +55,7 @@ Employees are required to fill out forms during or after completing a task. Here
 
 To ensure timely notifications when a form is submitted, configure alerts by following these steps:
 
-1. Navigate to the [Rules and notifications](broken-reference) section in the platform.
+1. Navigate to the [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e) section in the platform.
 2. Start creating a new notification rule by clicking the "Add rule" button.
 3. Select the objects (e.g., vehicles, employees) to which this rule will apply.
 4. Choose [Task performance](../events-and-notifications/scheduling-and-dispatching/task-performance.md) from the list of events and proceed.

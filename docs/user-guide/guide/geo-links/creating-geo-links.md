@@ -2,11 +2,11 @@
 
 To create a geo link, simply click **+** at the top of the page.
 
-![New Geo link button](../../user-guide/geo-links/attachments/image-20250725-133847.png)
+![New Geo link button](../../.gitbook/assets/image-20250725-133847.png)
 
 The creation dialogue window contains the following options:
 
-![Creating a Geo link dialog](../../user-guide/geo-links/attachments/image-20250725-120004.png)
+![Creating a Geo link dialog](../../.gitbook/assets/image-20250725-120004.png)
 
 {% stepper %}
 {% step %}
@@ -37,12 +37,12 @@ The list of objects available through the link. Each object has the following li
 * Sensor readings
 
 {% hint style="info" %}
-Sensor readings depend on the device’s model. To learn more about sensors and their types, see [Vehicle sensors](broken-reference).
+Sensor readings depend on the device’s model. To learn more about sensors and their types, see [Vehicle sensors](/broken/pages/4ROLyRqpFDX7ACU7GmuC).
 {% endhint %}
 
 Use the copy button to apply the same attribute list to all other objects in the geo link. This function may save a significant amount of time when configuring attributes for multiple objects.
 
-![Copying attributes](../../user-guide/geo-links/attachments/image-20250725-123910.png)
+![Copying attributes](../../.gitbook/assets/image-20250725-123910.png)
 {% endstep %}
 
 {% step %}

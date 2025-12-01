@@ -23,7 +23,7 @@ The "Driver Absence" event is a critical component in enhancing fleet safety and
 
 No specific settings are required for this rule.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

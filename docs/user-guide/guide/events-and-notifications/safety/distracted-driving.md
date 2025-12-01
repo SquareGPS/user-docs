@@ -12,7 +12,7 @@ This rule is device-dependent, meaning it relies on the configuration of the har
 
 Since this rule is based on hardware configuration, minimal setup is required within the platform itself. The key is ensuring that the selected devices are configured to detect and report Driver distraction events.
 
-For common settings, please refer to [Rules and notifications](broken-reference).
+For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

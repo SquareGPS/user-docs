@@ -12,7 +12,7 @@ This functionality is especially valuable for monitoring elderly individuals, lo
 
 The functionality of this rule depends on the device's capabilities and configuration, so no specific rule settings are required.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

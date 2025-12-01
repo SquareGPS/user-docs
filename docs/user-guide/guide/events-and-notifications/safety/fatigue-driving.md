@@ -10,7 +10,7 @@ When fatigue is detected, an immediate alert is sent to dispatch, allowing for p
 
 Since this rule is hardware-dependent, configuration is minimal within the platform itself. The primary requirement is ensuring that the selected trackers are equipped to support and detect Fatigue Driving events.
 
-For common settings, please refer to [Rules and notifications](broken-reference).
+For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

@@ -54,4 +54,4 @@ A storage usage diagram in the lower-left corner of the screen displays current 
 
 **Automatic deletion:** Enable this option to automatically delete files when the storage limit is reached. This option deletes the oldest files first to maintain storage within limits while preserving the most recent uploads. Configure this setting in [Account settings → Profile](profile.md).
 
-![](../../user-guide/account/attachments/image-20241111-225720.png)
+![](../../.gitbook/assets/image-20241111-225720.png)

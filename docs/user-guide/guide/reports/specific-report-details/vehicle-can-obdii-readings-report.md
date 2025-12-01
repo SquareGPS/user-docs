@@ -2,7 +2,7 @@
 
 The **Vehicle readings report** in Navixy offers detailed insights into the data received from your vehicle’s instruments through CAN/OBD sensors or virtual sensors over a selected period. This report includes information such as mileage, engine RPMs, speed, fuel consumption, coolant temperature, and other critical metrics, helping fleet managers and vehicle operators monitor and optimize vehicle performance.
 
-![Vehicle readings report parameters](../../../user-guide/reports/specific-report-details/attachments/image-20240815-010131.png)
+![Vehicle readings report parameters](../../../.gitbook/assets/image-20240815-010131.png)
 
 ## Requirements for generating the report
 
@@ -21,9 +21,9 @@ The report uses several parameters to customize the output:
 * **X-axis on the graph:** Choose whether to display the information on the graph relative to time or mileage.
 * **Smooth graph:** Apply smoothing to the graph to filter out peak values and average the data when there is significant variance.
 
-![Graph with readings from OBD sensor without smoothing](../../../user-guide/reports/specific-report-details/attachments/image-20240815-010045.png)
+![Graph with readings from OBD sensor without smoothing](../../../.gitbook/assets/image-20240815-010045.png)
 
-![Graph with readings from OBD sensor with smoothing](../../../user-guide/reports/specific-report-details/attachments/image-20240815-010100.png)
+![Graph with readings from OBD sensor with smoothing](../../../.gitbook/assets/image-20240815-010100.png)
 
 For each device, you need to select the sensor for which to generate a report. Only devices with configured CAN/OBD or virtual sensors will appear in the list. If a virtual sensor uses a calculation method other than [source value](../../devices-and-settings/vehicle-sensors/virtual-sensors/), the report will indicate "This is not a measurement sensor."
 
@@ -37,11 +37,11 @@ The **graph** displays CAN/OBD or virtual sensor readings in a visual format, pr
 
 {% columns %}
 {% column %}
-![Example of displaying readings at a point on a graph with time](../../../user-guide/reports/specific-report-details/attachments/image-20240815-005949.png)
+![Example of displaying readings at a point on a graph with time](../../../.gitbook/assets/image-20240815-005949.png)
 {% endcolumn %}
 
 {% column %}
-![Example of displaying readings at a point on a graph with mileage](../../../user-guide/reports/specific-report-details/attachments/image-20240815-010008.png)
+![Example of displaying readings at a point on a graph with mileage](../../../.gitbook/assets/image-20240815-010008.png)
 {% endcolumn %}
 {% endcolumns %}
 

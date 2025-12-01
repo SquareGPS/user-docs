@@ -14,13 +14,13 @@ Excessive idling is an important event to monitor in fleet management, as it dir
 
 * **Idling duration:** Set the duration after which idling will be considered excessive. The rule will monitor when a vehicle is parked (as determined by the Parking Detection settings) and the ignition is ON. If the vehicle remains in this state beyond the specified duration, a notification will be triggered.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ### Hardware related
 
 * **Device-specific settings:** This rule relies on the hardware’s configuration for detecting idling. You should refer to your device documentation to set up idling detection on the tracker. The platform will then receive and display idling events based on the device’s output.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

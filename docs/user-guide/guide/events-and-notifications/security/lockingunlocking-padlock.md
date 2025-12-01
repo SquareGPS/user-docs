@@ -10,7 +10,7 @@ Specifically designed for GPS locks, this rule provides real-time alerts for all
 
 This rule is entirely dependent on the device's capabilities and hardware configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and notifications](broken-reference).
+For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

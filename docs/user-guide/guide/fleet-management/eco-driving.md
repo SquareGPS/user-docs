@@ -4,7 +4,7 @@ The **Eco Driving report** in Navixy is a powerful tool designed to analyze and 
 
 To access the Eco Driving report, navigate to the **Fleet Management app** and select the **"Eco-Driving" tab.**
 
-![](../../user-guide/fleet-management/attachments/image-20240814-183737.png)
+![](../../.gitbook/assets/image-20240814-183737.png)
 
 ## Understanding penalty points
 
@@ -14,7 +14,7 @@ Penalty points are a key component of the Eco Driving report, allowing you to ga
 
 The Eco Driving report can be tailored to fit your specific needs, enabling you to set your own criteria for what constitutes a violation and how severe it is. You can assign different penalty points to various infractions, allowing you to prioritize certain aspects of driving behavior according to your organization’s standards.
 
-![Speeding settings example](../../user-guide/fleet-management/attachments/image-20240814-183612.png)
+![Speeding settings example](../../.gitbook/assets/image-20240814-183612.png)
 
 **Key features**
 

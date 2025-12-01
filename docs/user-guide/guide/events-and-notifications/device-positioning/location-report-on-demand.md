@@ -10,7 +10,7 @@ To further enhance convenience, Navixy offers a **Location Update via SMS Rule**
 
 ## Rule settings
 
-There are no specific rule settings. For common settings, please refer to [Rules and notifications](broken-reference).
+There are no specific rule settings. For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

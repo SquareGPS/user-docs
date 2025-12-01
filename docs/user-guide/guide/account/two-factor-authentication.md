@@ -32,6 +32,6 @@ If the OTP is correct, you will gain access to your account.
 {% endstep %}
 {% endstepper %}
 
-![Login verification window](../../user-guide/account/attachments/2fa.png)
+![Login verification window](../../.gitbook/assets/2fa.png)
 
 Each passcode is valid for 5 minutes, limiting the opportunity for misuse. Additionally, you can request a new code if needed, but only once per minute to prevent abuse.

@@ -16,7 +16,7 @@ This setting defines the maximum duration a driver can continuously drive before
 
 This setting specifies the minimum parking duration required to reset the driving time rule. The reset timer begins only when the device detects that the vehicle has entered a parking state.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

@@ -2,7 +2,7 @@
 
 {% columns %}
 {% column %}
-This screen displays all your assets: vehicles, staff, and objects (unassigned GPS devices). To view more information about any of your assets, tap its entry. To find a specific asset, tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/icon2.png" alt="Search" data-size="line"> and enter its name.
+This screen displays all your assets: vehicles, staff, and objects (unassigned GPS devices). To view more information about any of your assets, tap its entry. To find a specific asset, tap <img src="../../../.gitbook/assets/icon2.png" alt="Search" data-size="line"> and enter its name.
 
 The icon to the right of each asset indicates its movement status, such as moving or parked.
 {% endcolumn %}
@@ -16,7 +16,7 @@ The icon to the right of each asset indicates its movement status, such as movin
 
 {% columns %}
 {% column %}
-Tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/icon1.png" alt="Bell" data-size="line"> to view the events.
+Tap <img src="../../../.gitbook/assets/icon1.png" alt="Bell" data-size="line"> to view the events.
 
 This screen shows various events occurring to your assets, such as leaving or entering a geofence, going idle, speeding, completing tasks, and more. To filter by category type, tap **All**, **Vehicles**, **Staff**, or **Objects**.
 
@@ -32,9 +32,9 @@ The second menu shows your current filters, all of which can be configured: time
 
 {% columns %}
 {% column %}
-Tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/icon4.png" alt="Map" data-size="line"> to open an interactive map displaying your assets.
+Tap <img src="../../../.gitbook/assets/icon4.png" alt="Map" data-size="line"> to open an interactive map displaying your assets.
 
-You can zoom in and out and center the map on your own GPS coordinates. Tap the vehicle’s icon to follow its route and view its current status and location. Tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/icon4.png" alt="Map" data-size="line"> again to open the vehicle’s details.
+You can zoom in and out and center the map on your own GPS coordinates. Tap the vehicle’s icon to follow its route and view its current status and location. Tap <img src="../../../.gitbook/assets/icon4.png" alt="Map" data-size="line"> again to open the vehicle’s details.
 {% endcolumn %}
 
 {% column %}
@@ -42,7 +42,7 @@ You can zoom in and out and center the map on your own GPS coordinates. Tap the 
 {% endcolumn %}
 {% endcolumns %}
 
-Tap <img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/icon5.png" alt="Map options" data-size="line"> to display the map options menu:
+Tap <img src="../../../.gitbook/assets/icon5.png" alt="Map options" data-size="line"> to display the map options menu:
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Places</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Geofences</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Map types</p></figcaption></figure></div></td></tr></tbody></table>
 
@@ -60,6 +60,6 @@ To filter by status (moving, stopped, parked, idling, and offline), tap <img src
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/image-20250404-102956.png" alt="Filter &#x26; sorting"><figcaption><p>Filter &#x26; sorting</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-20250404-102956.png" alt="Filter &#x26; sorting"><figcaption><p>Filter &#x26; sorting</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

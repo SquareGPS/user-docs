@@ -49,7 +49,7 @@ Your device and Navixy account are ready for the integration!
 Before embedding, you need to create an API key for this integration in your Navixy account.
 
 1. In Navixy, go to **Account settings** → **API keys**.
-2. Click <img src="../../user-guide/account/iot-logic/flow-management/initiate-attribute-node/attachments/image-20250422-143344.png" alt="" data-size="line"> to add a new key.
+2. Click <img src="../../.gitbook/assets/image-20250422-143344.png" alt="" data-size="line"> to add a new key.
 3. In the **Label** field, enter:\
    `Lightmetrics FleetID = [ID]`\
    \
@@ -74,7 +74,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% endhint %}
 
 1. Create new application\
-   Start by clicking the <img src="../../user-guide/solution-connectors/attachments/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
+   Start by clicking the <img src="../../.gitbook/assets/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
    1. Configure the new application
    2. Embedding is supported for separate menu elements of Lightmetrics dashboard ([full table of views and redirect paths](lightmetrics-integration-for-video-telematics.md#lightmetrics-views)). Put the link to the selected view of your Lightmetrics dashboard in the **App URL** field, and customize redirect path to define which Lightmetrics page opens after login by adding a `redirect_path` parameter.
       1. EU server - `video-telematics.eu.navixy.com/sso?access_token={session_key}&redirect_path=`<mark style="color:green;">`home`</mark>

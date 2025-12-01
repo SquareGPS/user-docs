@@ -10,7 +10,7 @@ This rule is essential for asset security and loss prevention, enabling business
 
 This rule is entirely dependent on the device's capabilities and configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and notifications](broken-reference).
+For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

@@ -42,7 +42,7 @@ Allow the app to send you notifications and access the device’s location while
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../user-guide/x-gps-mobile-apps/x-gps-mobile/attachments/allow.jpg" alt="Permission prompt"><figcaption><p>Permission prompt</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/allow.jpg" alt="Permission prompt"><figcaption><p>Permission prompt</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

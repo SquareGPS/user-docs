@@ -2,7 +2,7 @@
 
 The **Aggregation sensor** **widget** in Navixy is a powerful tool that allows you to combine data from multiple sensors and process it using an aggregation function. This functionality is particularly useful in scenarios where multiple sensors are used to monitor similar parameters, such as fuel levels in a vehicle.
 
-![](../../../user-guide/devices-and-settings/vehicle-sensors/attachments/image-20240815-205851.png)
+![](../../../.gitbook/assets/image-20240815-205851.png)
 
 ## Aggregation function options
 

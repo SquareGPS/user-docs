@@ -72,7 +72,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% endhint %}
 
 1. Create new application\
-   Start by clicking the <img src="../../user-guide/solution-connectors/attachments/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
+   Start by clicking the <img src="../../.gitbook/assets/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
 2. Configure the new application
    1. Put the link to your Streamax account in the **App URL** field, for example: `https://{your_instance}.ifleetvision.com/ftv/ft/dashboard#`.
    2. Enter a **Label** for the application (e.g., Streamax dashboard).
@@ -82,7 +82,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy's left sidebar. Open it and log in with your Streamax credentials to access your comprehensive video telematics dashboard with 360° monitoring, AI-powered event detection, and multi-channel video feeds - all integrated with your existing Navixy fleet management tools.
 
-<p align="center"><img src="../../user-guide/solution-connectors/attachments/image-20250714-161156.png" alt="image-20250714-161156.png" data-size="original"></p>
+<p align="center"><img src="../../.gitbook/assets/image-20250714-161156.png" alt="image-20250714-161156.png" data-size="original"></p>
 {% endhint %}
 {% endstep %}
 {% endstepper %}

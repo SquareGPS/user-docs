@@ -135,8 +135,8 @@ An example response may look like this:
 To edit or stop data being forwarded, follow this steps steps:
 
 1. In any **Data forwarding** portlet, click <img src="../../../.gitbook/assets/image (39).png" alt="" data-size="line"> to open the list of available protocols.
-2. Click <img src="../../../user-guide/gps-tracking/map-tools/attachments/Untitled-20250425-103233.png" alt="" data-size="line"> to change retranslator settings such as name, login information, or enabled status.
-3. Click <img src="../../../user-guide/gps-tracking/map-tools/attachments/image-20250425-104605.png" alt="" data-size="line"> and confirm to delete a retranslator
+2. Click <img src="../../../.gitbook/assets/Untitled-20250425-103233.png" alt="" data-size="line"> to change retranslator settings such as name, login information, or enabled status.
+3. Click <img src="../../../.gitbook/assets/image-20250425-104605.png" alt="" data-size="line"> and confirm to delete a retranslator
 
 All changes are saved automatically.
 

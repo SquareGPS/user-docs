@@ -27,7 +27,7 @@ You can choose one of three operating modes:
 {% endcolumn %}
 
 {% column %}
-![](../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-164009.png)
+![](../../../.gitbook/assets/image-20250304-164009.png)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -47,9 +47,9 @@ Please note that all three conditions work according to the OR function. This me
 {% endcolumn %}
 
 {% column %}
-![](../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-164438.png)
+![](../../../.gitbook/assets/image-20250304-164438.png)
 
-![](../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-164401.png)
+![](../../../.gitbook/assets/image-20250304-164401.png)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -67,7 +67,7 @@ If tracking is enabled according to the schedule, you can turn it off at any tim
 {% endcolumn %}
 
 {% column %}
-![](../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-164559.png)
+![](../../../.gitbook/assets/image-20250304-164559.png)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -100,8 +100,8 @@ If tracking is enabled according to the schedule, you can turn it off at any tim
 {% endcolumn %}
 
 {% column %}
-![](../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-164817.png)
+![](../../../.gitbook/assets/image-20250304-164817.png)
 
-![](../../../user-guide/x-gps-mobile-apps/x-gps-tracker/attachments/image-20250304-164909.png)
+![](../../../.gitbook/assets/image-20250304-164909.png)
 {% endcolumn %}
 {% endcolumns %}

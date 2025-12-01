@@ -12,7 +12,7 @@ Accurate collision detection requires proper installation of the tracker, includ
 
 As this rule is processed on the GPS device side rather than in the cloud, no additional settings are required.
 
-For common settings, please refer to [Rules and Notifications](broken-reference).
+For common settings, please refer to [Rules and Notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
 
 ## System operation details
 

@@ -7,10 +7,10 @@ This guide will provide you with step-by-step instructions, best practices, and 
 ### Contents:
 
 * [Quick start](guide/quick-start/)
-* [Account](guide/account/)
+* [User account](guide/account/)
 * [Tracking](guide/tracking/)
 * [Geo links](guide/geo-links/)
-* [Solution connectors](guide/solution-connectors/)
+* [Video telematics](guide/solution-connectors/)
 * [Rules and Alerts](guide/events-and-notifications/)
 * [Reports](guide/reports/)
 * [Fleet management](guide/fleet-management/)
