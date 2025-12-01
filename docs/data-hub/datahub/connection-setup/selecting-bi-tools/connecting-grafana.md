@@ -6,6 +6,22 @@ This guide demonstrates how to connect Grafana to DataHub for visualizing telema
 This guide is part of the DataHub documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](https://www.navixy.com/docs/analytics/datahub/connection-setup/selecting-bi-tools) overview.
 {% endhint %}
 
+Watch a quick video overview to see what is possible with DataHub+Grafana combination (available in English and Spanish):
+
+{% tabs %}
+{% tab title="English" %}
+{% embed url="https://youtu.be/jGO3hIAjPCo?si=7bzWO4XrTwGnTq3c" %}
+DataHub + Grafana overview and setup tutorial.
+{% endembed %}
+{% endtab %}
+
+{% tab title="Español" %}
+{% embed url="https://youtu.be/jEf7i_mAWPE?si=pru7QyYHzyoqK79Q" %}
+Descripción general y tutorial de configuración de DataHub + Grafana.
+{% endembed %}
+{% endtab %}
+{% endtabs %}
+
 ## Dashboard features
 
 * Real-time sensor data visualization
