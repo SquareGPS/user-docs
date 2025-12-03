@@ -3,18 +3,20 @@
 ## Technical overview and capabilities
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 **Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
 <figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 While Action nodes can receive data from any node type, they are most commonly connected to [Logic nodes](logic-node/) that evaluate conditions and trigger actions only when specific criteria are met, such as temperature thresholds, unauthorized movement, or harsh driving incidents.
 
+{% hint style="info" %}
 The **Action** nodes are configured separately for each flow in the Navixy platform UI. Each node can contain multiple actions that execute sequentially when triggered by incoming data.
+{% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 

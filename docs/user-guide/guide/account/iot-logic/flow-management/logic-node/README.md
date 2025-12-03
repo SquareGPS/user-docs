@@ -115,6 +115,8 @@ For detailed information on expression syntax, operators, and data flow behavior
 
 The Logic node creates two distinct output paths based on the expression evaluation results.
 
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091115.png" alt="Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
+
 ### THEN connection (<mark style="color:green;">green</mark>)
 
 * **Activates when**: The logical expression returns `true`.
@@ -129,7 +131,21 @@ The Logic node creates two distinct output paths based on the expression evaluat
 * **Error handling**: Processes cases where expressions cannot be evaluated due to missing data or syntax errors.
 * **Typical uses**: Logging failed validations, routing data through alternative processing paths, or continuing normal operations.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091115.png" alt="Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
+### **Terminal node requirement**
+
+When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../webhook-node.md)) that don't support outbound connections, create parallel connections to ensure both the terminal node and an Output Endpoint receive data:
+
+<figure><img src="../../../../../.gitbook/assets/logic-validation.png" alt=""><figcaption></figcaption></figure>
+
+**Why both branches need Output Endpoints:**
+
+* Ensures data persistence and system visibility
+* Enables flow validation
+* Both branches can share the same Output Endpoint node
+
+{% hint style="danger" %}
+**Validation error:** Flows without Output Endpoints on all branches will fail to save with the error.
+{% endhint %}
 
 ## Frequently asked questions
 
@@ -154,3 +170,7 @@ Logic node results appear as boolean attributes in the [Data Stream Analyzer](..
 Yes. You can connect **Logic** nodes sequentially to create complex decision trees. Each **Logic** node can reference the boolean attributes created by previous **Logic** nodes, enabling sophisticated multi-stage validation workflows.
 
 <figure><img src="../../../../../.gitbook/assets/image-20250721-091554.png" alt="Example flow showing multiple Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
+
+#### Why must Logic branches connect to Output Endpoints?
+
+Every Logic branch must terminate in an Output Endpoint for data flow validation and system visibility. When using terminal nodes (Action, Webhook) that don't support outbound connections, create a parallel connection from the Logic node directly to an Output Endpoint. Both branches can share the same Output Endpoint if needed.
