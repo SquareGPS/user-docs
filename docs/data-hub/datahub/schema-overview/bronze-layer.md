@@ -24,1412 +24,695 @@ Find raw business data schema details below.
 <summary>raw_business_data schema</summary>
 
 ```sql
-
 Table "vehicle_service_tasks" {
-
-  "record_added_at" timestamp [not null]
-
-  "start_mileage" numeric
-
-  "comment" "character varying(255)"
-
-  "status" "character varying(10)" [not null]
-
-  "completion_date" timestamp
-
-  "start_engine_hours" numeric
-
-  "service_task_id" integer [not null]
-
-  "is_notification_push_enabled" boolean [not null]
-
-  "date_notification_interval" interval
-
-  "predicted_datetime" timestamp
-
-  "cost" numeric [not null]
-
-  "mileage_limit" numeric
-
-  "notification_emails" text
-
-  "is_unplanned" boolean [not null]
-
-  "is_repeat" boolean [not null]
-
-  "completion_engine_hours" integer
-
-  "engine_hours_limit" numeric
-
-  "mileage_repeat_interval" integer
-
-  "vehicle_id" integer [not null]
-
-  "engine_hours_notification_interval" integer
-
-  "start_date" timestamp
-
-  "mileage_notification_interval" integer
-
-  "date_repeat_interval" interval
-
-  "description" "character varying(255)"
-
-  "notification_sms_phone_numbers" text
-
-  "end_date" timestamp
-
-  "engine_hours_repeat_interval" integer
-
-  "completion_mileage" integer
-
+  "record_added_at" timestamp [not null]
+  "start_mileage" numeric
+  "comment" "character varying(255)"
+  "status" "character varying(10)" [not null]
+  "completion_date" timestamp
+  "start_engine_hours" numeric
+  "service_task_id" integer [not null]
+  "is_notification_push_enabled" boolean [not null]
+  "date_notification_interval" interval
+  "predicted_datetime" timestamp
+  "cost" numeric [not null]
+  "mileage_limit" numeric
+  "notification_emails" text
+  "is_unplanned" boolean [not null]
+  "is_repeat" boolean [not null]
+  "completion_engine_hours" integer
+  "engine_hours_limit" numeric
+  "mileage_repeat_interval" integer
+  "vehicle_id" integer [not null]
+  "engine_hours_notification_interval" integer
+  "start_date" timestamp
+  "mileage_notification_interval" integer
+  "date_repeat_interval" interval
+  "description" "character varying(255)"
+  "notification_sms_phone_numbers" text
+  "end_date" timestamp
+  "engine_hours_repeat_interval" integer
+  "completion_mileage" integer
 }
-
-  
 
 Table "garages" {
-
-  "record_added_at" timestamp [not null]
-
-  "garage_id" integer [not null]
-
-  "longitude" numeric
-
-  "mechanic_name" "character varying(255)"
-
-  "radius" integer [not null]
-
-  "latitude" numeric
-
-  "organization_label" "character varying(255)"
-
-  "user_id" integer [not null]
-
-  "dispatcher_name" "character varying(255)"
-
-  "address" "character varying(255)"
-
+  "record_added_at" timestamp [not null]
+  "garage_id" integer [not null]
+  "longitude" numeric
+  "mechanic_name" "character varying(255)"
+  "radius" integer [not null]
+  "latitude" numeric
+  "organization_label" "character varying(255)"
+  "user_id" integer [not null]
+  "dispatcher_name" "character varying(255)"
+  "address" "character varying(255)"
 }
-
-  
 
 Table "driver_history" {
-
-  "server_datetime" timestamp [not null]
-
-  "address" "character varying(255)"
-
-  "updated_by" integer [not null]
-
-  "object_id" integer
-
-  "longitude" numeric
-
-  "latitude" numeric
-
-  "driver_history_id" integer [not null]
-
-  "hardware_key" "character varying(64)"
-
-  "new_employee_id" integer
-
-  "changed_datetime" timestamp
-
-  "record_added_at" timestamp [not null]
-
-  "old_employee_id" integer
-
+  "server_datetime" timestamp [not null]
+  "address" "character varying(255)"
+  "updated_by" integer [not null]
+  "object_id" integer
+  "longitude" numeric
+  "latitude" numeric
+  "driver_history_id" integer [not null]
+  "hardware_key" "character varying(64)"
+  "new_employee_id" integer
+  "changed_datetime" timestamp
+  "record_added_at" timestamp [not null]
+  "old_employee_id" integer
 }
-
-  
 
 Table "departments" {
-
-  "record_added_at" timestamp [not null]
-
-  "department_label" "character varying(255)" [not null]
-
-  "latitude" numeric
-
-  "department_id" integer [not null]
-
-  "address" "character varying(255)"
-
-  "radius" integer [not null]
-
-  "longitude" numeric
-
-  "user_id" integer [not null]
-
+  "record_added_at" timestamp [not null]
+  "department_label" "character varying(255)" [not null]
+  "latitude" numeric
+  "department_id" integer [not null]
+  "address" "character varying(255)"
+  "radius" integer [not null]
+  "longitude" numeric
+  "user_id" integer [not null]
 }
-
-  
 
 Table "checkins" {
-
-  "radius" integer [not null]
-
-  "latitude" numeric [not null]
-
-  "employee_id" integer [not null]
-
-  "longitude" numeric [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "actual_datetime" timestamp [not null]
-
-  "user_id" integer [not null]
-
-  "form_id" integer [not null]
-
-  "address" "character varying(255)"
-
-  "planned_datetime" timestamp [not null]
-
-  "object_id" integer [not null]
-
-  "checkin_id" integer [not null]
-
-  "comment" text
-
+  "radius" integer [not null]
+  "latitude" numeric [not null]
+  "employee_id" integer [not null]
+  "longitude" numeric [not null]
+  "record_added_at" timestamp [not null]
+  "actual_datetime" timestamp [not null]
+  "user_id" integer [not null]
+  "form_id" integer [not null]
+  "address" "character varying(255)"
+  "planned_datetime" timestamp [not null]
+  "object_id" integer [not null]
+  "checkin_id" integer [not null]
+  "comment" text
 }
-
-  
 
 Table "statuses" {
-
-  "order_sort" integer [not null]
-
-  "listing_id" integer [not null]
-
-  "color" "character varying(6)" [not null]
-
-  "status_id" integer [not null]
-
-  "status_label" "character varying(200)" [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "is_deleted" boolean [not null]
-
+  "order_sort" integer [not null]
+  "listing_id" integer [not null]
+  "color" "character varying(6)" [not null]
+  "status_id" integer [not null]
+  "status_label" "character varying(200)" [not null]
+  "record_added_at" timestamp [not null]
+  "is_deleted" boolean [not null]
 }
-
-  
 
 Table "places_linked_entity_fields" {
-
-  "value" bigint [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "place_id" integer [not null]
-
-  "field_id" integer [not null]
-
+  "value" bigint [not null]
+  "record_added_at" timestamp [not null]
+  "place_id" integer [not null]
+  "field_id" integer [not null]
 }
-
-  
 
 Table "places_text_fields" {
-
-  "place_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "value" text [not null]
-
-  "field_id" integer [not null]
-
+  "place_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "value" text [not null]
+  "field_id" integer [not null]
 }
-
-  
 
 Table "users2zones" {
-
-  "zone_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "user_id" integer [not null]
-
+  "zone_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "user_id" integer [not null]
 }
-
-  
 
 Table "objects" {
-
-  "record_added_at" timestamp [not null]
-
-  "create_datetime" timestamp [not null]
-
-  "client_id" integer [not null]
-
-  "group_id" integer
-
-  "object_label" "character varying(100)"
-
-  "model" "character varying(64)"
-
-  "is_clone" boolean [not null]
-
-  "is_deleted" boolean [not null]
-
-  "device_id" integer [not null]
-
-  "object_id" integer [not null]
-
+  "record_added_at" timestamp [not null]
+  "create_datetime" timestamp [not null]
+  "client_id" integer [not null]
+  "group_id" integer
+  "object_label" "character varying(100)"
+  "model" "character varying(64)"
+  "is_clone" boolean [not null]
+  "is_deleted" boolean [not null]
+  "device_id" integer [not null]
+  "object_id" integer [not null]
 }
-
-  
 
 Table "device_output_name" {
-
-  "device_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "label" "character varying(100)" [not null]
-
-  "number" integer [not null]
-
+  "device_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "label" "character varying(100)" [not null]
+  "number" integer [not null]
 }
-
-  
 
 Table "geofence_points" {
-
-  "longitude" numeric [not null]
-
-  "number" integer [not null]
-
-  "zone_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "latitude" numeric [not null]
-
+  "longitude" numeric [not null]
+  "number" integer [not null]
+  "zone_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "latitude" numeric [not null]
 }
-
-  
 
 Table "custom_fields" {
-
-  "record_added_at" timestamp [not null]
-
-  "entity_id" integer [not null]
-
-  "is_required" boolean [not null]
-
-  "custom_field_label" text [not null]
-
-  "parameters" jsonb
-
-  "custom_field_type" integer [not null]
-
-  "description" text
-
-  "custom_field_id" integer [not null]
-
+  "record_added_at" timestamp [not null]
+  "entity_id" integer [not null]
+  "is_required" boolean [not null]
+  "custom_field_label" text [not null]
+  "parameters" jsonb
+  "custom_field_type" integer [not null]
+  "description" text
+  "custom_field_id" integer [not null]
 }
-
-  
 
 Table "places_decimal_fields" {
-
-  "field_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "place_id" integer [not null]
-
-  "value" numeric [not null]
-
+  "field_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "place_id" integer [not null]
+  "value" numeric [not null]
 }
-
-  
 
 Table "task_history" {
-
-  "task_id" integer [not null]
-
-  "activity" integer [not null]
-
-  "task_history_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "user_id" integer [not null]
-
-  "event_datetime" timestamp [not null]
-
-  "payload" text
-
+  "task_id" integer [not null]
+  "activity" integer [not null]
+  "task_history_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "user_id" integer [not null]
+  "event_datetime" timestamp [not null]
+  "payload" text
 }
-
-  
 
 Table "tags" {
-
-  "tag_label" "character varying(64)" [not null]
-
-  "color" "character varying(6)"
-
-  "user_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "tag_id" integer [not null]
-
+  "tag_label" "character varying(64)" [not null]
+  "color" "character varying(6)"
+  "user_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "tag_id" integer [not null]
 }
-
-  
 
 Table "places" {
-
-  "description" text
-
-  "custom_fields" jsonb
-
-  "place_id" integer [not null]
-
-  "external_id" "character varying(32)"
-
-  "record_added_at" timestamp [not null]
-
-  "user_id" integer
-
-  "latitude" numeric
-
-  "radius" integer
-
-  "place_label" "character varying(256)"
-
-  "assigned_datetime" timestamp
-
-  "address" "character varying(256)"
-
-  "longitude" numeric
-
+  "description" text
+  "custom_fields" jsonb
+  "place_id" integer [not null]
+  "external_id" "character varying(32)"
+  "record_added_at" timestamp [not null]
+  "user_id" integer
+  "latitude" numeric
+  "radius" integer
+  "place_label" "character varying(256)"
+  "assigned_datetime" timestamp
+  "address" "character varying(256)"
+  "longitude" numeric
 }
-
-  
 
 Table "status_listings" {
-
-  "user_id" integer [not null]
-
-  "is_supervisor_controlled" boolean [not null]
-
-  "is_deleted" boolean [not null]
-
-  "status_listing_id" integer [not null]
-
-  "is_employee_controlled" boolean [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "status_listing_label" "character varying(200)" [not null]
-
+  "user_id" integer [not null]
+  "is_supervisor_controlled" boolean [not null]
+  "is_deleted" boolean [not null]
+  "status_listing_id" integer [not null]
+  "is_employee_controlled" boolean [not null]
+  "record_added_at" timestamp [not null]
+  "status_listing_label" "character varying(200)" [not null]
 }
-
-  
 
 Table "models" {
-
-  "record_added_at" timestamp [not null]
-
-  "model_id" integer [not null]
-
-  "has_battery_level" boolean [not null]
-
-  "alternative_label" "character varying(50)" [not null]
-
-  "vendor" "character varying(30)" [not null]
-
-  "is_clone" boolean
-
-  "has_altitude" boolean [not null]
-
-  "has_phone" boolean [not null]
-
-  "type_output_control" "character varying(30)" [not null]
-
-  "has_gsm_roaming" boolean [not null]
-
-  "has_gsm_level" boolean [not null]
-
-  "model" "character varying(255)" [not null]
-
-  "type_special_control" "character varying(255)" [not null]
-
-  "digital_amount" integer [not null]
-
-  "has_detach_button" boolean [not null]
-
-  "has_gsm_name" boolean [not null]
-
-  "analog_amount" integer [not null]
-
-  "outputs_amount" integer [not null]
-
+  "record_added_at" timestamp [not null]
+  "model_id" integer [not null]
+  "has_battery_level" boolean [not null]
+  "alternative_label" "character varying(50)" [not null]
+  "vendor" "character varying(30)" [not null]
+  "is_clone" boolean
+  "has_altitude" boolean [not null]
+  "has_phone" boolean [not null]
+  "type_output_control" "character varying(30)" [not null]
+  "has_gsm_roaming" boolean [not null]
+  "has_gsm_level" boolean [not null]
+  "model" "character varying(255)" [not null]
+  "type_special_control" "character varying(255)" [not null]
+  "digital_amount" integer [not null]
+  "has_detach_button" boolean [not null]
+  "has_gsm_name" boolean [not null]
+  "analog_amount" integer [not null]
+  "outputs_amount" integer [not null]
 }
-
-  
 
 Table "vehicle_trackers_history" {
-
-  "vehicle_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "object_id" integer [not null]
-
-  "changed_datetime" timestamp [not null]
-
-  "vehicle_tracker_history_id" integer [not null]
-
+  "vehicle_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "object_id" integer [not null]
+  "changed_datetime" timestamp [not null]
+  "vehicle_tracker_history_id" integer [not null]
 }
-
-  
 
 Table "groups" {
-
-  "group_id" integer [not null]
-
-  "group_color" "character varying(6)" [not null]
-
-  "group_label" "character varying(255)" [not null]
-
-  "client_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
+  "group_id" integer [not null]
+  "group_color" "character varying(6)" [not null]
+  "group_label" "character varying(255)" [not null]
+  "client_id" integer [not null]
+  "record_added_at" timestamp [not null]
 }
-
-  
 
 Table "sensor_description" {
-
-  "record_added_at" timestamp [not null]
-
-  "parameters" jsonb
-
-  "input_id" integer [not null]
-
-  "accuracy" numeric [not null]
-
-  "sensor_units" "character varying(10)"
-
-  "multiplier" doubleprecision [not null]
-
-  "input_label" "character varying(64)"
-
-  "sensor_label" "character varying(100)"
-
-  "units_type" integer [not null]
-
-  "divider" doubleprecision [not null]
-
-  "group_id" integer [not null]
-
-  "sensor_id" integer [not null]
-
-  "device_id" integer [not null]
-
-  "sensor_type" "character varying(45)" [not null]
-
-  "group_type" integer [not null]
-
+  "record_added_at" timestamp [not null]
+  "parameters" jsonb
+  "input_id" integer [not null]
+  "accuracy" numeric [not null]
+  "sensor_units" "character varying(10)"
+  "multiplier" doubleprecision [not null]
+  "input_label" "character varying(64)"
+  "sensor_label" "character varying(100)"
+  "units_type" integer [not null]
+  "divider" doubleprecision [not null]
+  "group_id" integer [not null]
+  "sensor_id" integer [not null]
+  "device_id" integer [not null]
+  "sensor_type" "character varying(45)" [not null]
+  "group_type" integer [not null]
+  "calibration_data" jsonb
 }
-
-  
 
 Table "entities" {
-
-  "entity_label" jsonb
-
-  "record_added_at" timestamp [not null]
-
-  "entity_id" integer [not null]
-
-  "builtin_type" integer [not null]
-
-  "user_id" integer [not null]
-
+  "entity_label" jsonb
+  "record_added_at" timestamp [not null]
+  "entity_id" integer [not null]
+  "builtin_type" integer [not null]
+  "user_id" integer [not null]
 }
-
-  
 
 Table "zones" {
-
-  "address" "character varying(255)"
-
-  "radius" integer [not null]
-
-  "zone_id" integer [not null]
-
-  "circle_center_latitude" numeric [not null]
-
-  "client_id" integer [not null]
-
-  "zone_label" "character varying(100)"
-
-  "color" "character varying(6)" [not null]
-
-  "zone_type" "character varying(20)" [not null]
-
-  "circle_center_longitude" numeric [not null]
-
-  "latitude" numeric [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "longitude" numeric [not null]
-
+  "address" "character varying(255)"
+  "radius" integer [not null]
+  "zone_id" integer [not null]
+  "circle_center_latitude" numeric [not null]
+  "client_id" integer [not null]
+  "zone_label" "character varying(100)"
+  "color" "character varying(6)" [not null]
+  "zone_type" "character varying(20)" [not null]
+  "circle_center_longitude" numeric [not null]
+  "latitude" numeric [not null]
+  "record_added_at" timestamp [not null]
+  "longitude" numeric [not null]
 }
-
-  
 
 Table "vehicles" {
-
-  "vehicle_id" integer [not null]
-
-  "payload_length" numeric
-
-  "vin" "character varying(20)"
-
-  "free_insurance_policy_number" "character varying(50)"
-
-  "vehicle_label" "character varying(100)"
-
-  "payload_width" numeric
-
-  "color" "character varying(6)"
-
-  "trailer" "character varying(255)"
-
-  "object_id" integer
-
-  "vehicle_status_id" integer
-
-  "liability_insurance_valid_till" timestamp
-
-  "manufacture_year" integer
-
-  "fuel_grade" "character varying(16)"
-
-  "fuel_cost" numeric
-
-  "fuel_tank_volume" numeric
-
-  "model" "character varying(100)"
-
-  "garage_id" integer
-
-  "payload_height" numeric
-
-  "max_speed" numeric
-
-  "registration_number" "character varying(32)"
-
-  "tyre_size" "character varying(50)"
-
-  "passenger_capacity" integer
-
-  "record_added_at" timestamp [not null]
-
-  "trailer_reg_number" "character varying(32)"
-
-  "free_insurance_valid_till_date" timestamp
-
-  "gross_weight" numeric
-
-  "standard_fuel_consumption" numeric
-
-  "fuel_type" integer
-
-  "payload_weight" numeric
-
-  "additional_info" text
-
-  "vehicle_subtype" "character varying(32)"
-
-  "liability_insurance_policy_number" "character varying(50)"
-
-  "frame_number" "character varying(32)"
-
-  "user_id" integer [not null]
-
-  "vehicle_type" integer [not null]
-
-  "chassis_number" "character varying(32)"
-
-  "tyres_number" integer
-
-  "wheel_arrangement" "character varying(16)"
-
+  "vehicle_id" integer [not null]
+  "payload_length" numeric
+  "vin" "character varying(20)"
+  "free_insurance_policy_number" "character varying(50)"
+  "vehicle_label" "character varying(100)"
+  "payload_width" numeric
+  "color" "character varying(6)"
+  "trailer" "character varying(255)"
+  "object_id" integer
+  "vehicle_status_id" integer
+  "liability_insurance_valid_till" timestamp
+  "manufacture_year" integer
+  "fuel_grade" "character varying(16)"
+  "fuel_cost" numeric
+  "fuel_tank_volume" numeric
+  "model" "character varying(100)"
+  "garage_id" integer
+  "payload_height" numeric
+  "max_speed" numeric
+  "registration_number" "character varying(32)"
+  "tyre_size" "character varying(50)"
+  "passenger_capacity" integer
+  "record_added_at" timestamp [not null]
+  "trailer_reg_number" "character varying(32)"
+  "free_insurance_valid_till_date" timestamp
+  "gross_weight" numeric
+  "standard_fuel_consumption" numeric
+  "fuel_type" integer
+  "payload_weight" numeric
+  "additional_info" text
+  "vehicle_subtype" "character varying(32)"
+  "liability_insurance_policy_number" "character varying(50)"
+  "frame_number" "character varying(32)"
+  "user_id" integer [not null]
+  "vehicle_type" integer [not null]
+  "chassis_number" "character varying(32)"
+  "tyres_number" integer
+  "wheel_arrangement" "character varying(16)"
 }
-
-  
 
 Table "tag_links" {
-
-  "entity_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "entity_type" integer [not null]
-
-  "ordinal" integer [not null]
-
-  "tag_id" integer [not null]
-
+  "entity_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "entity_type" integer [not null]
+  "ordinal" integer [not null]
+  "tag_id" integer [not null]
 }
-
-  
 
 Table "rules" {
-
-  "rule_id" integer [not null]
-
-  "object_id" integer [not null]
-
-  "parameters" jsonb
-
-  "alert_phone" "character varying(210)" [not null]
-
-  "event_type" "character varying(100)" [not null]
-
-  "client_id" integer [not null]
-
-  "is_push_enabled" boolean [not null]
-
-  "event_comment1" "character varying(255)" [not null]
-
-  "event_label" "character varying(255)" [not null]
-
-  "description" "character varying(255)" [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "alert_sms" text [not null]
-
-  "event_group" integer [not null]
-
-  "created_at" timestamp [not null]
-
-  "maximum" integer [not null]
-
-  "is_deleted" boolean [not null]
-
-  "alert_email" text [not null]
-
-  "event_comment2" "character varying(255)" [not null]
-
+  "rule_id" integer [not null]
+  "object_id" integer [not null]
+  "parameters" jsonb
+  "alert_phone" "character varying(210)" [not null]
+  "event_type" "character varying(100)" [not null]
+  "client_id" integer [not null]
+  "is_push_enabled" boolean [not null]
+  "event_comment1" "character varying(255)" [not null]
+  "event_label" "character varying(255)" [not null]
+  "description" "character varying(255)" [not null]
+  "record_added_at" timestamp [not null]
+  "alert_sms" text [not null]
+  "event_group" integer [not null]
+  "created_at" timestamp [not null]
+  "maximum" integer [not null]
+  "is_deleted" boolean [not null]
+  "alert_email" text [not null]
+  "event_comment2" "character varying(255)" [not null]
 }
-
-  
 
 Table "status_history" {
-
-  "longitude" numeric
-
-  "new_status_id" integer
-
-  "status_history_id" integer [not null]
-
-  "device_id" integer [not null]
-
-  "updated_by" integer [not null]
-
-  "address" "character varying(255)"
-
-  "latitude" numeric
-
-  "record_added_at" timestamp [not null]
-
-  "server_datetime" timestamp [not null]
-
-  "changed_datetime" timestamp
-
-  "old_status_id" integer
-
+  "longitude" numeric
+  "new_status_id" integer
+  "status_history_id" integer [not null]
+  "device_id" integer [not null]
+  "updated_by" integer [not null]
+  "address" "character varying(255)"
+  "latitude" numeric
+  "record_added_at" timestamp [not null]
+  "server_datetime" timestamp [not null]
+  "changed_datetime" timestamp
+  "old_status_id" integer
 }
-
-  
 
 Table "rules2zones" {
-
-  "zone_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "rule_id" integer [not null]
-
+  "zone_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "rule_id" integer [not null]
 }
-
-  
 
 Table "forms" {
-
-  "object_id" integer [not null]
-
-  "description" text
-
-  "form_label" "character varying(255)" [not null]
-
-  "fields" text
-
-  "created_at" timestamp [not null]
-
-  "submission_address" "character varying(255)"
-
-  "submission_latitude" numeric
-
-  "form_id" integer [not null]
-
-  "submission_longitude" numeric
-
-  "is_submission_in_zone" boolean [not null]
-
-  "values" text
-
-  "record_added_at" timestamp [not null]
-
-  "task_id" integer
-
-  "submitted_at" timestamp
-
+  "object_id" integer [not null]
+  "description" text
+  "form_label" "character varying(255)" [not null]
+  "fields" text
+  "created_at" timestamp [not null]
+  "submission_address" "character varying(255)"
+  "submission_latitude" numeric
+  "form_id" integer [not null]
+  "submission_longitude" numeric
+  "is_submission_in_zone" boolean [not null]
+  "values" text
+  "record_added_at" timestamp [not null]
+  "task_id" integer
+  "submitted_at" timestamp
 }
 
-  
-
-Table "sensor_calibration_data" {
-
-  "value" numeric [not null]
-
-  "sensor_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "volume" numeric [not null]
-
-  "device_id" integer [not null]
-
-  "sensor_calibration_id" bigint [not null]
-
-}
-
-  
 
 Table "rules2objects" {
-
-  "object_params" jsonb
-
-  "param_group_number" integer [not null]
-
-  "object_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "rule_id" integer [not null]
-
+  "object_params" jsonb
+  "param_group_number" integer [not null]
+  "object_id" integer [not null]
+  "record_added_at" timestamp [not null]
+  "rule_id" integer [not null]
 }
-
-  
 
 Table "tasks" {
-
-  "time_from" timestamp
-
-  "stay_duration_minutes" interval
-
-  "external_id" "character varying(100)"
-
-  "object_id" integer
-
-  "task_type" integer
-
-  "arrival_duration_minutes" interval
-
-  "status" integer
-
-  "arrival_datetime" timestamp
-
-  "record_added_at" timestamp [not null]
-
-  "task_id" integer [not null]
-
-  "user_id" integer
-
-  "status_change_datetime" timestamp
-
-  "order_sort" integer
-
-  "time_to" timestamp
-
-  "max_delay_minuts" integer
-
-  "is_stay_control_enabled" boolean
-
-  "address" "character varying(255)"
-
-  "task_label" "character varying(200)" [not null]
-
-  "longitude" numeric
-
-  "created_by" integer
-
-  "description" text [not null]
-
-  "radius" integer
-
-  "latitude" numeric
-
-  "stay_duration" integer
-
-  "created_at" timestamp [not null]
-
-  "custom_fields" jsonb
-
-  "parent_task_id" integer
-
+  "time_from" timestamp
+  "stay_duration_minutes" interval
+  "external_id" "character varying(100)"
+  "object_id" integer
+  "task_type" integer
+  "arrival_duration_minutes" interval
+  "status" integer
+  "arrival_datetime" timestamp
+  "record_added_at" timestamp [not null]
+  "task_id" integer [not null]
+  "user_id" integer
+  "status_change_datetime" timestamp
+  "order_sort" integer
+  "time_to" timestamp
+  "max_delay_minuts" integer
+  "is_stay_control_enabled" boolean
+  "address" "character varying(255)"
+  "task_label" "character varying(200)" [not null]
+  "longitude" numeric
+  "created_by" integer
+  "description" text [not null]
+  "radius" integer
+  "latitude" numeric
+  "stay_duration" integer
+  "created_at" timestamp [not null]
+  "custom_fields" jsonb
+  "parent_task_id" integer
 }
-
-  
 
 Table "places_bigint_fields" {
-
-  "field_id" integer [not null]
-
-  "value" bigint [not null]
-
-  "place_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
+  "field_id" integer [not null]
+  "value" bigint [not null]
+  "place_id" integer [not null]
+  "record_added_at" timestamp [not null]
 }
-
-  
 
 Table "devices" {
-
-  "is_sim_blocked" boolean [not null]
-
-  "device_id" integer [not null]
-
-  "device_imei" "character varying(64)" [not null]
-
-  "network_label" "character varying(50)" [not null]
-
-  "status_listing_id" integer [not null]
-
-  "signal_level" numeric [not null]
-
-  "phone" "character varying(32)" [not null]
-
-  "has_roaming" boolean [not null]
-
-  "created_at" timestamp [not null]
-
-  "owner_id" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
+  "is_sim_blocked" boolean [not null]
+  "device_id" integer [not null]
+  "device_imei" "character varying(64)" [not null]
+  "network_label" "character varying(50)" [not null]
+  "status_listing_id" integer [not null]
+  "signal_level" numeric [not null]
+  "phone" "character varying(32)" [not null]
+  "has_roaming" boolean [not null]
+  "created_at" timestamp [not null]
+  "owner_id" integer [not null]
+  "record_added_at" timestamp [not null]
 }
-
-  
 
 Table "description_parametrs" {
-
-  "description" "character varying(150)"
-
-  "record_added_at" timestamp [not null]
-
-  "type" "character varying(100)" [not null]
-
-  "key" integer [not null]
-
+  "description" "character varying(150)"
+  "record_added_at" timestamp [not null]
+  "type" "character varying(100)" [not null]
+  "key" integer [not null]
 }
-
-  
 
 Table "users" {
-
-  "company_label" "character varying(255)" [not null]
-
-  "registration_datetime" timestamp
-
-  "first_name" "character varying(100)" [not null]
-
-  "master_id" integer
-
-  "last_name" "character varying(100)" [not null]
-
-  "birth_date" timestamp
-
-  "timezone_label" "character varying(30)"
-
-  "middle_name" "character varying(100)" [not null]
-
-  "user_id" integer [not null]
-
-  "locale" "character varying(10)" [not null]
-
-  "record_added_at" timestamp [not null]
-
+  "company_label" "character varying(255)" [not null]
+  "registration_datetime" timestamp
+  "first_name" "character varying(100)" [not null]
+  "master_id" integer
+  "last_name" "character varying(100)" [not null]
+  "birth_date" timestamp
+  "timezone_label" "character varying(30)"
+  "middle_name" "character varying(100)" [not null]
+  "user_id" integer [not null]
+  "locale" "character varying(10)" [not null]
+  "record_added_at" timestamp [not null]
 }
-
-  
 
 Table "counters" {
-
-  "sensor_id" integer
-
-  "multiplier" numeric [not null]
-
-  "counter_id" integer [not null]
-
-  "device_id" integer [not null]
-
-  "counter_type" integer [not null]
-
-  "record_added_at" timestamp [not null]
-
+  "sensor_id" integer
+  "multiplier" numeric [not null]
+  "counter_id" integer [not null]
+  "device_id" integer [not null]
+  "counter_type" integer [not null]
+  "record_added_at" timestamp [not null]
 }
-
-  
 
 Table "employees" {
-
-  "driver_license_valid_till" timestamp
-
-  "record_added_at" timestamp [not null]
-
-  "last_name" "character varying(100)"
-
-  "department_id" integer
-
-  "citizen_id_number" "character varying(32)"
-
-  "first_name" "character varying(100)"
-
-  "driver_license_categories" "character varying(32)"
-
-  "user_id" integer [not null]
-
-  "phone_number" "character varying(32)"
-
-  "object_id" integer
-
-  "is_deleted" boolean [not null]
-
-  "driver_license_issue_date" boolean
-
-  "hardware_key" "character varying(64)"
-
-  "middle_name" "character varying(100)"
-
-  "address" "character varying(255)"
-
-  "latitude" numeric
-
-  "employee_id" integer [not null]
-
-  "personnel_number" "character varying(15)"
-
-  "fuel_cost" doubleprecision
-
-  "driver_license_number" "character varying(32)"
-
-  "email" "character varying(100)"
-
-  "fuel_consumption" doubleprecision
-
-  "radius" integer [not null]
-
-  "longitude" numeric
-
+  "driver_license_valid_till" timestamp
+  "record_added_at" timestamp [not null]
+  "last_name" "character varying(100)"
+  "department_id" integer
+  "citizen_id_number" "character varying(32)"
+  "first_name" "character varying(100)"
+  "driver_license_categories" "character varying(32)"
+  "user_id" integer [not null]
+  "phone_number" "character varying(32)"
+  "object_id" integer
+  "is_deleted" boolean [not null]
+  "driver_license_issue_date" boolean
+  "hardware_key" "character varying(64)"
+  "middle_name" "character varying(100)"
+  "address" "character varying(255)"
+  "latitude" numeric
+  "employee_id" integer [not null]
+  "personnel_number" "character varying(15)"
+  "fuel_cost" doubleprecision
+  "driver_license_number" "character varying(32)"
+  "email" "character varying(100)"
+  "fuel_consumption" doubleprecision
+  "radius" integer [not null]
+  "longitude" numeric
 }
-
-  
 
 Table "places_longtext_fields" {
-
-  "field_id" integer [not null]
-
-  "value" text [not null]
-
-  "record_added_at" timestamp [not null]
-
-  "place_id" integer [not null]
-
+  "field_id" integer [not null]
+  "value" text [not null]
+  "record_added_at" timestamp [not null]
+  "place_id" integer [not null]
 }
-
-  
 
 Table "raw_device_data" {
-
-  "device_id" integer
-
-  "device_time" timestamp
-
-  "created_at" timestamp
-
-  "gps_fix_type" integer
-
-  "longitude" integer
-
-  "latitude" integer
-
-  "altitude" integer
-
-  "speed" integer
-
-  "satellites" integer
-
-  "hdop" integer
-
-  "event_id" integer
-
-  "inputs" jsonb
-
-  "states" jsonb
-
+  "device_id" integer
+  "device_time" timestamp
+  "created_at" timestamp
+  "gps_fix_type" integer
+  "longitude" integer
+  "latitude" integer
+  "altitude" integer
+  "speed" integer
+  "satellites" integer
+  "hdop" integer
+  "event_id" integer
+  "inputs" jsonb
+  "states" jsonb
 }
-
-  
 
 Table "groups_objects" {
+  "groups_client_id" integer
+  "objects_client_id" integer
 
-  "groups_client_id" integer
-
-  "objects_client_id" integer
-
-  
-
-  Indexes {
-
-    (groups_client_id, objects_client_id) [pk]
-
-  }
-
+  Indexes {
+    (groups_client_id, objects_client_id) [pk]
+  }
 }
-
-  
 
 Ref:"employees"."employee_id" < "checkins"."employee_id"
 
-  
-
 Ref:"objects"."object_id" < "checkins"."object_id"
-
-  
 
 Ref:"forms"."form_id" < "checkins"."form_id"
 
-  
-
 Ref:"sensor_description"."sensor_id" < "counters"."sensor_id"
-
-  
 
 Ref:"devices"."device_id" < "counters"."device_id"
 
-  
-
 Ref:"entities"."entity_id" < "custom_fields"."entity_id"
-
-  
 
 Ref:"departments"."department_id" < "employees"."department_id"
 
-  
-
 Ref:"users"."user_id" < "departments"."user_id"
-
-  
 
 Ref:"description_parametrs"."key" < "counters"."counter_type"
 
-  
-
 Ref:"description_parametrs"."key" < "custom_fields"."custom_field_type"
-
-  
 
 Ref:"description_parametrs"."key" < "driver_history"."updated_by"
 
-  
-
 Ref:"description_parametrs"."key" < "entities"."builtin_type"
-
-  
 
 Ref:"description_parametrs"."key" < "sensor_description"."units_type"
 
-  
-
 Ref:"description_parametrs"."key" < "status_history"."updated_by"
-
-  
 
 Ref:"description_parametrs"."key" < "tasks"."status"
 
-  
-
 Ref:"description_parametrs"."key" < "tasks"."created_at"
-
-  
 
 Ref:"description_parametrs"."key" < "tasks"."task_type"
 
-  
-
 Ref:"description_parametrs"."key" < "vehicles"."fuel_type"
-
-  
 
 Ref:"description_parametrs"."key" < "task_history"."activity"
 
-  
-
 Ref:"description_parametrs"."key" < "sensor_description"."group_type"
-
-  
 
 Ref:"devices"."device_id" < "device_output_name"."device_id"
 
-  
-
 Ref:"status_listings"."status_listing_id" < "devices"."status_listing_id"
-
-  
 
 Ref:"employees"."employee_id" < "driver_history"."new_employee_id"
 
-  
-
 Ref:"employees"."employee_id" < "driver_history"."old_employee_id"
-
-  
 
 Ref:"objects"."object_id" < "driver_history"."object_id"
 
-  
-
 Ref:"objects"."object_id" < "employees"."object_id"
-
-  
 
 Ref:"users"."user_id" < "employees"."user_id"
 
-  
-
 Ref:"users"."user_id" < "entities"."user_id"
-
-  
 
 Ref:"tasks"."task_id" < "forms"."task_id"
 
-  
-
 Ref:"objects"."object_id" < "forms"."object_id"
-
-  
 
 Ref:"objects"."object_id" < "tasks"."object_id"
 
-  
-
 Ref:"users"."user_id" < "garages"."user_id"
-
-  
 
 Ref:"groups"."client_id" < "groups_objects"."groups_client_id"
 
-  
-
 Ref:"objects"."client_id" < "groups_objects"."objects_client_id"
-
-  
 
 Ref:"models"."model" < "objects"."model"
 
-  
-
 Ref:"devices"."device_id" < "objects"."device_id"
-
-  
 
 Ref:"users"."user_id" < "places"."user_id"
 
-  
-
 Ref:"custom_fields"."custom_field_id" < "places_bigint_fields"."field_id"
-
-  
 
 Ref:"places"."place_id" < "places_bigint_fields"."place_id"
 
-  
-
 Ref:"custom_fields"."custom_field_id" < "places_decimal_fields"."field_id"
-
-  
 
 Ref:"places"."place_id" < "places_decimal_fields"."place_id"
 
-  
-
 Ref:"custom_fields"."custom_field_id" < "places_linked_entity_fields"."field_id"
-
-  
 
 Ref:"places"."place_id" < "places_linked_entity_fields"."place_id"
 
-  
-
 Ref:"custom_fields"."custom_field_id" < "places_longtext_fields"."field_id"
-
-  
 
 Ref:"places"."place_id" < "places_longtext_fields"."place_id"
 
-  
-
 Ref:"custom_fields"."custom_field_id" < "places_text_fields"."field_id"
-
-  
 
 Ref:"places"."place_id" < "places_text_fields"."place_id"
 
-  
-
 Ref:"rules"."rule_id" < "rules2zones"."rule_id"
-
-  
 
 Ref:"objects"."object_id" < "rules2objects"."object_id"
 
-  
-
 Ref:"rules"."rule_id" < "rules2objects"."object_id"
-
-  
 
 Ref:"zones"."zone_id" < "rules2zones"."zone_id"
 
-  
-
-Ref:"sensor_description"."sensor_id" < "sensor_calibration_data"."device_id"
-
-  
-
-Ref:"sensor_description"."device_id" < "sensor_calibration_data"."sensor_id"
-
-  
-
 Ref:"devices"."device_id" < "sensor_description"."device_id"
-
-  
 
 Ref:"statuses"."status_id" < "status_history"."new_status_id"
 
-  
-
 Ref:"statuses"."status_id" < "status_history"."old_status_id"
-
-  
 
 Ref:"devices"."device_id" < "status_history"."device_id"
 
-  
-
 Ref:"users"."user_id" < "status_listings"."user_id"
-
-  
 
 Ref:"status_listings"."status_listing_id" < "statuses"."listing_id"
 
-  
-
 Ref:"tags"."tag_id" < "tag_links"."tag_id"
-
-  
 
 Ref:"users"."user_id" < "tags"."user_id"
 
-  
-
 Ref:"tasks"."task_id" < "task_history"."task_id"
-
-  
 
 Ref:"users"."user_id" < "task_history"."user_id"
 
-  
-
 Ref:"tasks"."parent_task_id" < "tasks"."task_id"
-
-  
 
 Ref:"users"."user_id" < "tasks"."user_id"
 
-  
-
 Ref:"users"."master_id" < "users"."user_id"
-
-  
 
 Ref:"users"."user_id" < "users2zones"."user_id"
 
-  
-
 Ref:"zones"."zone_id" < "users2zones"."zone_id"
-
-  
 
 Ref:"vehicles"."vehicle_id" < "vehicle_service_tasks"."vehicle_id"
 
-  
-
 Ref:"objects"."object_id" < "vehicle_trackers_history"."object_id"
-
-  
 
 Ref:"vehicles"."vehicle_id" < "vehicle_trackers_history"."vehicle_id"
 
-  
-
 Ref:"garages"."garage_id" < "vehicles"."garage_id"
-
-  
 
 Ref:"objects"."object_id" < "vehicles"."object_id"
 
-  
-
 Ref:"users"."user_id" < "vehicles"."user_id"
-
-  
 
 Ref:"zones"."zone_id" < "geofence_points"."zone_id"
 
-  
-
-Ref:"sensor_calibration_data"."value" < "sensor_calibration_data"."device_id"
-
-  
-
 Ref:"devices"."device_id" < "raw_device_data"."device_id"
 
-  
-
 Ref:"users"."user_id" < "devices"."owner_id"
-
-  
 
 Ref:"users"."user_id" < "objects"."client_id"
 
@@ -1451,9 +734,369 @@ The system includes reference data to standardize values across the database:
 
 The tables in the **`raw_business_data`** schema are organized into functional categories for easier navigation. The table below summarizes key tables by their business purpose:
 
-### Database Schema Overview
+#### **Core business entities**
 
-<table><thead><tr><th width="154.4544677734375">Category</th><th width="211.45458984375">Table name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Organizational structure</strong></td><td><ol><li>users</li><li>departments</li><li>employees</li><li>groups</li></ol></td><td><ol><li>User accounts with profile information</li><li>Departments with geolocation data</li><li>Employee and driver details</li><li>Tracker organization groups</li></ol></td></tr><tr><td><strong>Objects and devices</strong></td><td><ol><li>devices</li><li>models</li><li>objects</li><li>vehicles</li><li>sensor_description</li></ol></td><td><ol><li>Physical tracking devices</li><li>Device model specifications</li><li>Monitored objects</li><li>Vehicle details and specifications</li><li>Sensor configuration details</li></ol></td></tr><tr><td><strong>Places and zones</strong></td><td><ol><li>places</li><li>zones</li><li>garages</li><li>tags</li></ol></td><td><ol><li>Points of interest with geolocation</li><li>Geofenced monitoring areas</li><li>Vehicle service locations</li><li>Organizational labels</li></ol></td></tr><tr><td><strong>Operational data</strong></td><td><ol><li>tasks</li><li>forms</li><li>checkins</li><li>events</li><li>statuses</li><li>vehicle_service_tasks</li></ol></td><td><ol><li>Task assignments and tracking</li><li>Data collection forms</li><li>Location-based attendance records</li><li>System events and notifications</li><li>Status definitions</li><li>Vehicle maintenance records</li></ol></td></tr></tbody></table>
+<details>
+
+<summary><strong><code>users</code></strong></summary>
+
+**Purpose**: User account and profile information
+
+<table><thead><tr><th width="145">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>user_id</code>, <code>company_label</code>, <code>first_name</code>, <code>last_name</code>, <code>middle_name</code>, <code>locale</code>, <code>timezone_label</code>, <code>master_id</code>, <code>registration_datetime</code></td></tr><tr><td><strong>Relationships</strong></td><td>Parent user via <code>master_id</code>, linked to <code>employees</code>, <code>departments</code>, <code>places</code>, <code>tasks</code> through <code>user_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Central entity connecting organizational data; <code>master_id</code> enables user hierarchies for multi-level account structures</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>employees</code></strong></summary>
+
+**Purpose**: Employee and driver records with licensing and assignment details
+
+<table><thead><tr><th width="143">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>employee_id</code>, <code>user_id</code>, <code>object_id</code>, <code>department_id</code>, <code>first_name</code>, <code>last_name</code>, <code>driver_license_number</code>, <code>driver_license_valid_till</code>, <code>hardware_key</code></td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>users</code>, <code>departments</code>, <code>objects</code> (assigned tracker), tracked in <code>driver_history</code> and <code>checkins</code></td></tr><tr><td><strong>Special notes</strong></td><td>Hardware key enables driver identification via iButton or RFID; supports geofencing with <code>latitude</code>, <code>longitude</code>, <code>radius</code> fields</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>departments</code></strong></summary>
+
+**Purpose**: Organizational units with geographic location
+
+<table><thead><tr><th width="156">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>department_id</code>, <code>user_id</code>, <code>department_label</code>, <code>latitude</code>, <code>longitude</code>, <code>radius</code>, <code>address</code></td></tr><tr><td><strong>Relationships</strong></td><td>Links employees to organizational structure through <code>department_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Location fields support geofence-based analytics for department-level reporting</td></tr></tbody></table>
+
+</details>
+
+#### **Tracking and monitoring**
+
+<details>
+
+<summary><strong><code>devices</code></strong></summary>
+
+**Purpose**: Physical tracking device information and network status
+
+<table><thead><tr><th width="138">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>device_id</code>, <code>owner_id</code>, <code>device_imei</code>, <code>phone</code>, <code>status_listing_id</code>, <code>network_label</code>, <code>signal_level</code>, <code>has_roaming</code>, <code>created_at</code></td></tr><tr><td><strong>Relationships</strong></td><td>Core entity linking to <code>objects</code>, <code>models</code>, <code>sensor_description</code>, <code>counters</code>; <code>owner_id</code> references <code>users.user_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>All telematic data in <code>raw_telematics_data</code> schema references this table via <code>device_id</code></td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>objects</code></strong></summary>
+
+**Purpose**: Monitored entities (vehicles, assets, personnel)
+
+<table><thead><tr><th width="148">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>object_id</code>, <code>client_id</code>, <code>device_id</code>, <code>object_label</code>, <code>model</code>, <code>group_id</code>, <code>create_datetime</code>, <code>is_deleted</code></td></tr><tr><td><strong>Relationships</strong></td><td>Central hub connecting devices to users (<code>client_id</code>), vehicle details, tracking history, tasks, and rules</td></tr><tr><td><strong>Special notes</strong></td><td>Represents the "trackable unit" in the system; one object per device in active use</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>models</code></strong></summary>
+
+**Purpose**: Device hardware specifications and capabilities
+
+<table><thead><tr><th width="135">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>model_id</code>, <code>model</code>, <code>vendor</code>, <code>alternative_label</code>, <code>analog_amount</code>, <code>digital_amount</code>, <code>outputs_amount</code>, <code>has_battery_level</code>, <code>has_altitude</code>, <code>has_phone</code></td></tr><tr><td><strong>Content</strong></td><td>Boolean capability flags indicate which data fields are available from this device type</td></tr><tr><td><strong>Special notes</strong></td><td>Use capability flags to determine valid sensors and inputs when querying telematic data</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>sensor_description</code></strong></summary>
+
+**Purpose**: Sensor configuration and calibration data
+
+<table><thead><tr><th width="142">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>sensor_id</code>, <code>device_id</code>, <code>sensor_label</code>, <code>input_label</code>, <code>sensor_type</code>, <code>units_type</code>, <code>multiplier</code>, <code>divider</code>, <code>accuracy</code>, <code>calibration_data</code></td></tr><tr><td><strong>Relationships</strong></td><td>Links device inputs (from <code>raw_telematics_data.inputs</code>) to business logic through <code>device_id</code> and <code>input_label</code> matching</td></tr><tr><td><strong>Special notes</strong></td><td><code>calibration_data</code> (JSONB) stores sensor-specific calibration tables for fuel level sensors; <code>multiplier</code> and <code>divider</code> convert raw values to units</td></tr></tbody></table>
+
+</details>
+
+#### **Asset management**
+
+<details>
+
+<summary><strong><code>vehicles</code></strong></summary>
+
+**Purpose**: Vehicle specifications, documentation, and operational parameters
+
+<table><thead><tr><th width="144">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>vehicle_id</code>, <code>user_id</code>, <code>object_id</code>, <code>garage_id</code>, <code>vehicle_label</code>, <code>registration_number</code>, <code>vin</code>, <code>manufacture_year</code>, <code>fuel_type</code>, <code>fuel_cost</code>, <code>standard_fuel_consumption</code>, <code>max_speed</code></td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>objects</code> (current tracker), <code>garages</code> (service location), <code>vehicle_service_tasks</code>; tracked in <code>vehicle_trackers_history</code></td></tr><tr><td><strong>Special notes</strong></td><td>Physical dimension fields (<code>payload_length</code>, <code>payload_width</code>, <code>payload_height</code>, <code>gross_weight</code>) support load planning analytics; insurance dates enable compliance tracking</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>garages</code></strong></summary>
+
+**Purpose**: Service and maintenance facility locations
+
+<table><thead><tr><th width="135">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>garage_id</code>, <code>user_id</code>, <code>latitude</code>, <code>longitude</code>, <code>radius</code>, <code>address</code>, <code>organization_label</code>, <code>mechanic_name</code>, <code>dispatcher_name</code></td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>vehicles.garage_id</code> for service location assignment</td></tr><tr><td><strong>Special notes</strong></td><td>Location fields enable geofence-based service visit detection and proximity analysis</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>vehicle_service_tasks</code></strong></summary>
+
+**Purpose**: Maintenance schedules and service history
+
+<table><thead><tr><th width="132">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>service_task_id</code>, <code>vehicle_id</code>, <code>description</code>, <code>status</code>, <code>cost</code>, <code>start_date</code>, <code>end_date</code>, <code>completion_date</code>, <code>predicted_datetime</code>, <code>mileage_limit</code>, <code>engine_hours_limit</code></td></tr><tr><td><strong>Content</strong></td><td>Supports three trigger types: date-based, mileage-based, engine-hours-based; notification settings for email, SMS, push</td></tr><tr><td><strong>Special notes</strong></td><td><code>is_repeat</code> and interval fields enable recurring maintenance schedules; <code>is_unplanned</code> distinguishes scheduled vs. reactive maintenance</td></tr></tbody></table>
+
+</details>
+
+#### **Location and routing**
+
+<details>
+
+<summary><strong><code>zones</code></strong></summary>
+
+**Purpose**: Geofenced areas for monitoring and automation
+
+<table><thead><tr><th width="150">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>zone_id</code>, <code>client_id</code>, <code>zone_label</code>, <code>zone_type</code>, <code>latitude</code>, <code>longitude</code>, <code>circle_center_latitude</code>, <code>circle_center_longitude</code>, <code>radius</code>, <code>address</code>, <code>color</code></td></tr><tr><td><strong>Content</strong></td><td>Zone types include circle, polygon (defined via <code>geofence_points</code>), and special area classifications</td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>rules2zones</code>, <code>users2zones</code>; polygon vertices stored in <code>geofence_points</code></td></tr><tr><td><strong>Special notes</strong></td><td>PostGIS functions can be used to check point-in-polygon for complex geofence analysis</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>places</code></strong></summary>
+
+**Purpose**: Points of interest with custom attributes
+
+<table><thead><tr><th width="129">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>place_id</code>, <code>user_id</code>, <code>place_label</code>, <code>latitude</code>, <code>longitude</code>, <code>radius</code>, <code>address</code>, <code>description</code>, <code>external_id</code>, <code>custom_fields</code></td></tr><tr><td><strong>Relationships</strong></td><td>Extended with custom field values through <code>places_text_fields</code>, <code>places_decimal_fields</code>, <code>places_bigint_fields</code>, <code>places_longtext_fields</code>, <code>places_linked_entity_fields</code></td></tr><tr><td><strong>Special notes</strong></td><td><code>custom_fields</code> JSONB provides quick access; related tables enable filtering and sorting on custom attributes</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>geofence_points</code></strong></summary>
+
+**Purpose**: Polygon vertex coordinates for complex geofence shapes
+
+<table><thead><tr><th width="133">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>zone_id</code>, <code>number</code>, <code>latitude</code>, <code>longitude</code></td></tr><tr><td><strong>Relationships</strong></td><td>Multiple records per <code>zone_id</code> define polygon boundaries; <code>number</code> field determines vertex order</td></tr><tr><td><strong>Special notes</strong></td><td>Query with <code>ORDER BY number</code> to reconstruct polygon path; use with PostGIS ST_MakePolygon for geometric operations</td></tr></tbody></table>
+
+</details>
+
+#### **Task and workflow management**
+
+<details>
+
+<summary><strong><code>tasks</code></strong></summary>
+
+**Purpose**: Work order assignments and execution tracking
+
+<table><thead><tr><th width="130">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>task_id</code>, <code>user_id</code>, <code>object_id</code>, <code>parent_task_id</code>, <code>task_label</code>, <code>status</code>, <code>task_type</code>, <code>latitude</code>, <code>longitude</code>, <code>radius</code>, <code>arrival_datetime</code>, <code>created_at</code>, <code>status_change_datetime</code>, <code>custom_fields</code></td></tr><tr><td><strong>Content</strong></td><td>Supports hierarchical tasks via <code>parent_task_id</code>; time windows defined by <code>time_from</code>/<code>time_to</code>; geofence validation with location and radius</td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>forms</code> (data collection), <code>task_history</code> (status changes), <code>objects</code> (assigned tracker)</td></tr><tr><td><strong>Special notes</strong></td><td><code>stay_duration</code> and <code>arrival_duration_minutes</code> enable compliance monitoring for delivery and service tasks</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>forms</code></strong></summary>
+
+**Purpose**: Data collection forms and submissions
+
+<table><thead><tr><th width="141">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>form_id</code>, <code>task_id</code>, <code>object_id</code>, <code>form_label</code>, <code>fields</code>, <code>values</code>, <code>submitted_at</code>, <code>submission_latitude</code>, <code>submission_longitude</code>, <code>is_submission_in_zone</code></td></tr><tr><td><strong>Content</strong></td><td><code>fields</code> defines form structure (JSON); <code>values</code> contains submitted data (JSON)</td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>tasks</code> (associated work order), <code>objects</code> (submitter), referenced in <code>checkins</code></td></tr><tr><td><strong>Special notes</strong></td><td>Location validation flag <code>is_submission_in_zone</code> enables geofence-based form submission rules</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>checkins</code></strong></summary>
+
+**Purpose**: Location-based attendance and activity records
+
+<table><thead><tr><th width="129">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>checkin_id</code>, <code>employee_id</code>, <code>object_id</code>, <code>form_id</code>, <code>user_id</code>, <code>planned_datetime</code>, <code>actual_datetime</code>, <code>latitude</code>, <code>longitude</code>, <code>radius</code>, <code>address</code>, <code>comment</code></td></tr><tr><td><strong>Relationships</strong></td><td>Connects employees to forms and locations; tracks deviation from planned schedule</td></tr><tr><td><strong>Special notes</strong></td><td>Time variance between <code>planned_datetime</code> and <code>actual_datetime</code> enables punctuality reporting; radius defines acceptable location tolerance</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>task_history</code></strong></summary>
+
+**Purpose**: Audit trail for task lifecycle events
+
+<table><thead><tr><th width="137">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>task_history_id</code>, <code>task_id</code>, <code>user_id</code>, <code>activity</code>, <code>event_datetime</code>, <code>payload</code></td></tr><tr><td><strong>Content</strong></td><td>Activity types defined in <code>description_parametrs</code>; <code>payload</code> stores event-specific details (text)</td></tr><tr><td><strong>Special notes</strong></td><td>Essential for task completion analysis, status transition reporting, and user activity tracking</td></tr></tbody></table>
+
+</details>
+
+#### **Rules and automation**
+
+<details>
+
+<summary><strong><code>rules</code></strong></summary>
+
+**Purpose**: Event triggers and alert configurations
+
+<table><thead><tr><th width="131">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>rule_id</code>, <code>object_id</code>, <code>client_id</code>, <code>event_type</code>, <code>event_label</code>, <code>event_group</code>, <code>description</code>, <code>parameters</code>, <code>alert_email</code>, <code>alert_sms</code>, <code>alert_phone</code>, <code>is_push_enabled</code>, <code>created_at</code>, <code>is_deleted</code></td></tr><tr><td><strong>Content</strong></td><td>Rule parameters (JSONB) define trigger conditions; supports email, SMS, phone, and push notifications</td></tr><tr><td><strong>Relationships</strong></td><td>Links to objects via <code>rules2objects</code>, zones via <code>rules2zones</code></td></tr><tr><td><strong>Special notes</strong></td><td><code>event_type</code> defines specific monitoring scenario (speeding, geofence breach, sensor threshold); <code>maximum</code> field enables event aggregation for threshold-based alerting</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>rules2objects</code></strong></summary>
+
+**Purpose**: Rule-to-object associations with instance-specific parameters
+
+<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>rule_id</code>, <code>object_id</code>, <code>param_group_number</code>, <code>object_params</code></td></tr><tr><td><strong>Content</strong></td><td><code>object_params</code> (JSONB) enables per-object rule customization (e.g., different speed limits per vehicle)</td></tr><tr><td><strong>Special notes</strong></td><td>Many-to-many relationship allows one rule to monitor multiple objects with different parameters</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>rules2zones</code></strong></summary>
+
+**Purpose**: Associates rules with geofence triggers
+
+<table><thead><tr><th width="144">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>rule_id</code>, <code>zone_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Many-to-many relationship enables multi-zone monitoring for a single rule (e.g., alert when entering any of several restricted areas)</td></tr></tbody></table>
+
+</details>
+
+#### **Status and categorization**
+
+<details>
+
+<summary><strong><code>statuses</code></strong></summary>
+
+**Purpose**: Custom status definitions for status listings
+
+<table><thead><tr><th width="128">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>status_id</code>, <code>listing_id</code>, <code>status_label</code>, <code>color</code>, <code>order_sort</code>, <code>is_deleted</code></td></tr><tr><td><strong>Relationships</strong></td><td>Groups of statuses organized by <code>listing_id</code> (references <code>status_listings</code>); used in <code>status_history</code></td></tr><tr><td><strong>Special notes</strong></td><td><code>order_sort</code> defines display sequence; color enables visual differentiation in reporting</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>status_listings</code></strong></summary>
+
+**Purpose**: Status set definitions for devices or employees
+
+<table><thead><tr><th width="144">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>status_listing_id</code>, <code>user_id</code>, <code>status_listing_label</code>, <code>is_supervisor_controlled</code>, <code>is_employee_controlled</code>, <code>is_deleted</code></td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>devices.status_listing_id</code> and <code>statuses.listing_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Control flags determine who can change statuses: supervisor-only, employee self-service, or both</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>status_history</code></strong></summary>
+
+**Purpose**: Audit trail for status changes
+
+<table><thead><tr><th width="143">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>status_history_id</code>, <code>device_id</code>, <code>old_status_id</code>, <code>new_status_id</code>, <code>updated_by</code>, <code>changed_datetime</code>, <code>server_datetime</code>, <code>latitude</code>, <code>longitude</code>, <code>address</code></td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>devices</code>, <code>statuses</code> (old and new), <code>description_parametrs</code> (for <code>updated_by</code> role)</td></tr><tr><td><strong>Special notes</strong></td><td>Location capture enables geographic analysis of status transitions; useful for workday start/end location reporting</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>tags</code></strong></summary>
+
+**Purpose**: User-defined categorization labels
+
+<table><thead><tr><th width="149">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>tag_id</code>, <code>user_id</code>, <code>tag_label</code>, <code>color</code></td></tr><tr><td><strong>Relationships</strong></td><td>Applied to entities via <code>tag_links</code>; scope defined by user</td></tr><tr><td><strong>Special notes</strong></td><td>Flexible categorization system supporting multiple tags per entity</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>tag_links</code></strong></summary>
+
+P**urpose**: Associates tags with tagged entities
+
+<table><thead><tr><th width="127">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>tag_id</code>, <code>entity_type</code>, <code>entity_id</code>, <code>ordinal</code></td></tr><tr><td><strong>Content</strong></td><td><code>entity_type</code> identifies table (vehicle, employee, task, etc.); <code>ordinal</code> defines display order</td></tr><tr><td><strong>Special notes</strong></td><td>Polymorphic relationship enables tagging across different entity types</td></tr></tbody></table>
+
+
+
+</details>
+
+#### **Groups and hierarchy**
+
+<details>
+
+<summary><strong><code>groups</code></strong></summary>
+
+**Purpose**: Organizational grouping for objects (trackers)
+
+<table><thead><tr><th width="148">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>group_id</code>, <code>client_id</code>, <code>group_label</code>, <code>group_color</code></td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>objects.group_id</code>; client ownership via <code>client_id</code> (references <code>users</code>)</td></tr><tr><td><strong>Special notes</strong></td><td>Enables folder-like organization of monitoring entities for reporting and permissions</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>groups_objects</code></strong></summary>
+
+**Purpose**: Many-to-many relationship between groups and objects
+
+<table><thead><tr><th width="135">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>Composite primary key: <code>groups_client_id</code>, <code>objects_client_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Enables objects to belong to multiple groups simultaneously; query with both <code>client_id</code> values for group membership</td></tr></tbody></table>
+
+</details>
+
+#### **Custom fields and entities**
+
+<details>
+
+<summary><strong><code>entities</code></strong></summary>
+
+**Purpose**: Entity type definitions for custom field framework
+
+<table><thead><tr><th width="141">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>entity_id</code>, <code>user_id</code>, <code>entity_label</code>, <code>builtin_type</code></td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>custom_fields</code> to define which custom fields apply to which entity types</td></tr><tr><td><strong>Special notes</strong></td><td><code>builtin_type</code> links to <code>description_parametrs</code> for system-defined entity classifications</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>custom_fields</code></strong></summary>
+
+**Purpose**: Custom field definitions
+
+<table><thead><tr><th width="146">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>custom_field_id</code>, <code>entity_id</code>, <code>custom_field_label</code>, <code>custom_field_type</code>, <code>description</code>, <code>is_required</code>, <code>parameters</code></td></tr><tr><td><strong>Content</strong></td><td><code>parameters</code> (JSONB) stores field-type-specific configuration (validation rules, dropdown options, etc.)</td></tr><tr><td><strong>Relationships</strong></td><td>Defines available custom attributes for entities; field type links to <code>description_parametrs</code></td></tr><tr><td><strong>Special notes</strong></td><td>Enables dynamic schema extension without database changes; used extensively in <code>places</code> and <code>tasks</code></td></tr></tbody></table>
+
+</details>
+
+#### **Historical tracking**
+
+<details>
+
+<summary><strong><code>driver_history</code></strong></summary>
+
+**Purpose**: Employee-to-object assignment change log
+
+<table><thead><tr><th width="146">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>driver_history_id</code>, <code>object_id</code>, <code>old_employee_id</code>, <code>new_employee_id</code>, <code>hardware_key</code>, <code>changed_datetime</code>, <code>server_datetime</code>, <code>updated_by</code>, <code>latitude</code>, <code>longitude</code>, <code>address</code></td></tr><tr><td><strong>Relationships</strong></td><td>Tracks driver assignments to vehicles over time; links to <code>employees</code> and <code>objects</code></td></tr><tr><td><strong>Special notes</strong></td><td>Essential for driver-specific reporting when drivers switch vehicles; location capture enables assignment change location analysis</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>vehicle_trackers_history</code></strong></summary>
+
+**Purpose**: Vehicle-to-tracker assignment change log
+
+<table><thead><tr><th width="144">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>vehicle_tracker_history_id</code>, <code>vehicle_id</code>, <code>object_id</code>, <code>changed_datetime</code></td></tr><tr><td><strong>Relationships</strong></td><td>Tracks which GPS device was installed in which vehicle over time</td></tr><tr><td><strong>Special notes</strong></td><td>Critical for historical data analysis when trackers are moved between vehicles; enables accurate mileage and usage attribution</td></tr></tbody></table>
+
+</details>
+
+#### **Reference and lookup data**
+
+<details>
+
+<summary><strong><code>description_parametrs</code></strong></summary>
+
+**Purpose**: System reference data and enumeration values
+
+<table><thead><tr><th width="146">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>key</code>, <code>type</code>, <code>description</code></td></tr><tr><td><strong>Content</strong></td><td>Provides human-readable labels for coded values throughout the database (task status, fuel types, counter types, etc.)</td></tr><tr><td><strong>Relationships</strong></td><td>Referenced via foreign keys from multiple tables for standardized categorization</td></tr><tr><td><strong>Special notes</strong></td><td>Essential for translating integer codes to readable values in reporting; <code>type</code> field groups related enumerations</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>counters</code></strong></summary>
+
+**Purpose**: Odometer and engine-hour tracking configuration
+
+<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>counter_id</code>, <code>device_id</code>, <code>counter_type</code>, <code>sensor_id</code>, <code>multiplier</code></td></tr><tr><td><strong>Relationships</strong></td><td>Links devices to sensor readings that represent distance or time counters</td></tr><tr><td><strong>Special notes</strong></td><td><code>multiplier</code> converts sensor pulses to actual units (km, miles, hours); <code>counter_type</code> from <code>description_parametrs</code> defines measurement type</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>device_output_name</code></strong></summary>
+
+**Purpose**: Custom labels for device output channels
+
+<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>device_id</code>, <code>number</code>, <code>label</code></td></tr><tr><td><strong>Content</strong></td><td>Maps output channel numbers to user-defined names (e.g., "Door Lock", "Engine Block")</td></tr><tr><td><strong>Special notes</strong></td><td>Enables readable reporting when analyzing device output commands and states</td></tr></tbody></table>
+
+</details>
 
 ## `raw_telematics_data` structure
 
@@ -1557,13 +1200,19 @@ Ref: states.(device_id, device_time) > tracking_data_core.(device_id, device_tim
 
 Each table serves a specific purpose in capturing different aspects of device information:
 
-#### `tracking_data_core`
+<details>
+
+<summary><code>tracking_data_core</code></summary>
 
 **Purpose**: Core location and motion data
 
 <table><thead><tr><th width="181.20001220703125">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>device_id</code>, <code>device_time</code>, <code>platform_time</code>, <code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>altitude</code>, <code>satellites</code>, <code>hdop</code>, <code>event_id</code></td></tr><tr><td><strong>Indexing</strong></td><td>Optimized with index on (<code>device_id</code>, <code>device_time</code>)</td></tr><tr><td><strong>Special notes</strong></td><td>Location data (latitude and longitude) uses integer format with 10⁷ precision for optimal TimescaleDB performance<br><br>Speed is also stored in integer, so you need to divide it with 100</td></tr></tbody></table>
 
-#### `inputs`
+</details>
+
+<details>
+
+<summary><code>inputs</code></summary>
 
 **Purpose**: Sensor readings from devices
 
@@ -1574,11 +1223,17 @@ JOIN raw_telematics_data.tacking_data_core AS tdc
     ON i.device_id = tdc.device_id AND i.device_time = tdc.device_time
 </code></pre></td></tr></tbody></table>
 
-#### `states`
+</details>
+
+<details>
+
+<summary><code>states</code></summary>
 
 **Purpose**: Device status indicators and operational modes
 
 <table><thead><tr><th width="174.800048828125">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key Fields</strong></td><td><code>state_id</code>, <code>device_id</code>, <code>device_time</code>, <code>state_name</code>, <code>value</code></td></tr><tr><td><strong>Content</strong></td><td>Operating mode indicators (working, idle, off), component statuses (ignition, doors)</td></tr><tr><td><strong>Value Format</strong></td><td>Boolean values (1/0) or specific status codes</td></tr></tbody></table>
+
+</details>
 
 Data in this schema is ingested directly from devices, with minimal latency (typically seconds). The schema is optimized for time-series data using TimescaleDB for efficient storage and retrieval.
 
@@ -2352,59 +2007,95 @@ ORDER BY cb.path;
 
 The tables in the `repo` schema are organized into functional categories. The descriptions below summarize the most important tables by their business purpose.
 
-#### `organization`
+<details>
+
+<summary><code>organization</code></summary>
 
 **Purpose:** Hierarchical organization management
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>parent_id</code>, <code>path</code>, <code>organization_type_id</code>, <code>title_en</code>, <code>is_active</code>, <code>deleted_at</code></td></tr><tr><td><strong>Indexing</strong></td><td>GiST index on <code>path</code> for hierarchical queries, indexes on <code>parent_id</code> and <code>organization_type_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Uses ltree for multi-level hierarchies, inherits from <code>customizable_entity</code> for custom fields support</td></tr></tbody></table>
 
-#### `user`
+</details>
+
+<details>
+
+<summary><code>user</code></summary>
 
 **Purpose:** User accounts and authentication
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>organization_id</code>, <code>user_type_id</code>, <code>identity_provider</code>, <code>identity_provider_id</code>, <code>full_name</code>, <code>is_active</code></td></tr><tr><td><strong>Indexing</strong></td><td>Unique index on (<code>organization_id</code>, <code>identity_provider</code>, <code>identity_provider_id</code>)</td></tr><tr><td><strong>Special notes</strong></td><td>External identity provider integration (Keycloak, Auth0, Okta), inherits from <code>customizable_entity</code></td></tr></tbody></table>
 
-#### `device`
+</details>
+
+<details>
+
+<summary><code>device</code></summary>
 
 **Purpose:** Physical tracking devices
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>organization_id</code>, <code>device_type_id</code>, <code>status_id</code>, <code>hw_id</code>, <code>label</code></td></tr><tr><td><strong>Indexing</strong></td><td>Indexes on <code>organization_id</code>, <code>device_type_id</code>, <code>status_id</code>, <code>hw_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Hardware identifier for device tracking, inherits from <code>customizable_entity</code> for custom fields</td></tr></tbody></table>
 
-#### `asset`
+</details>
+
+<details>
+
+<summary><code>asset</code></summary>
 
 **Purpose:** Physical or virtual assets
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>organization_id</code>, <code>asset_type_id</code>, <code>label</code>, <code>description</code></td></tr><tr><td><strong>Indexing</strong></td><td>Indexes on <code>organization_id</code> and <code>asset_type_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Inherits from <code>customizable_entity</code>, linked to devices via <code>device_asset_link</code></td></tr></tbody></table>
 
-#### `inventory`
+</details>
+
+<details>
+
+<summary><code>inventory</code></summary>
 
 **Purpose:** Inventory and warehouse records
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>organization_id</code>, <code>inventory_type_id</code>, <code>code</code></td></tr><tr><td><strong>Indexing</strong></td><td>Unique index on (<code>organization_id</code>, <code>code</code>)</td></tr><tr><td><strong>Special notes</strong></td><td>Unique codes within organization, linked to devices via <code>device_inventory_link</code></td></tr></tbody></table>
 
-#### `asset_group`
+</details>
+
+<details>
+
+<summary><code>asset_group</code></summary>
 
 **Purpose:** Asset grouping with historical tracking
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>organization_id</code>, <code>group_type_id</code>, <code>title_en</code>, <code>description</code></td></tr><tr><td><strong>Relationships</strong></td><td><code>FROM repo.asset_group AS ag JOIN repo.asset_group_item AS agi ON agi.group_id = ag.id JOIN repo.asset AS a ON a.id = agi.asset_id WHERE agi.detached_at IS NULL</code></td></tr><tr><td><strong>Special notes</strong></td><td>Time-based membership via <code>asset_group_item</code>, query current members with <code>WHERE detached_at IS NULL</code></td></tr></tbody></table>
 
-#### `custom_field_def`
+</details>
+
+<details>
+
+<summary><code>custom_field_def</code></summary>
 
 **Purpose:** Custom field definitions and metadata
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>organization_id</code>, <code>owner_entity_type_id</code>, <code>code</code>, <code>field_type</code>, <code>is_multi</code>, <code>is_required</code></td></tr><tr><td><strong>Content</strong></td><td>Field types include text, number, boolean, date, datetime, entity_ref, catalog_item_ref</td></tr><tr><td><strong>Special notes</strong></td><td>Enables flexible custom fields for any entity type, values stored in type-specific <code>custom_field_value_*</code> tables</td></tr></tbody></table>
 
-#### `acl_role_permission`
+</details>
+
+<details>
+
+<summary><code>acl_role_permission</code></summary>
 
 **Purpose:** Role-based permission management
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>role_id</code>, <code>permission_scope_id</code>, <code>target_entity_id</code>, <code>actions</code></td></tr><tr><td><strong>Content</strong></td><td>Action bitmask (READ=1, UPDATE=2, DELETE=4, CREATE=8), target-specific or entity-type-wide permissions</td></tr><tr><td><strong>Relationships</strong></td><td><code>FROM repo.user_role AS ur JOIN repo.acl_role_permission AS rp ON rp.role_id = ur.role_id WHERE ur.user_id = $user_id</code></td></tr><tr><td><strong>Special notes</strong></td><td>Works with <code>user_role</code> and <code>acl_user_scope</code> to determine final user permissions</td></tr></tbody></table>
 
-#### `audit_event`
+</details>
+
+<details>
+
+<summary><code>audit_event</code></summary>
 
 **Purpose:** Unified audit log for all system changes
 
 <table><thead><tr><th width="139">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td><code>id</code>, <code>event_category</code>, <code>user_id</code>, <code>aggregate_type</code>, <code>aggregate_id</code>, <code>event_type</code>, <code>event_data</code>, <code>occurred_at</code></td></tr><tr><td><strong>Indexing</strong></td><td>Indexes on (<code>user_id</code>, <code>occurred_at</code>), (<code>aggregate_type</code>, <code>aggregate_id</code>, <code>occurred_at</code>), (<code>event_category</code>, <code>occurred_at</code>)</td></tr><tr><td><strong>Special notes</strong></td><td>Partitioned by <code>occurred_at</code> (monthly), two categories: <code>auth</code> (authentication) and <code>domain</code> (business events), stores field-level change deltas in <code>event_data</code> JSONB</td></tr></tbody></table>
+
+</details>
 
 ### Data relationships
 

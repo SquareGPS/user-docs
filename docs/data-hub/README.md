@@ -61,7 +61,7 @@ The combination of data types enables both operational reporting and deeper anal
 We've structured your data using a multi-layered architecture that balances immediate access with analytical performance. Each layer itself is sufficient for different scenarios:
 
 1. [**Bronze layer**](datahub/schema-overview/bronze-layer.md) (Available now) – A complete dataset , comprising telematics and business data, with minimal transformation, ready for exploration and detailed analysis
-2. **Silver layer** (Coming soon) – Cleansed and transformed data optimized for reporting and analytics
+2. [**Silver layer**](datahub/schema-overview/silver-layer.md) (Coming soon) – Cleansed and transformed data optimized for reporting and analytics
 3. **Gold layer** (Coming soon) – Business-ready data marts and aggregated metrics for specific use cases
 {% endcolumn %}
 

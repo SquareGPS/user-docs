@@ -10,6 +10,7 @@
       * [Connecting Grafana](datahub/connection-setup/selecting-bi-tools/connecting-grafana.md)
   * [Schema overview](datahub/schema-overview/README.md)
     * [Bronze layer](datahub/schema-overview/bronze-layer.md)
+    * [Silver layer](datahub/schema-overview/silver-layer.md)
 * [Explorer for DataHub](explorer-for-datahub/README.md)
   * [Getting started with the app](data-hub/analytic-data-hub-app/getting-started-with-the-app.md)
   * [Settings and configuration](data-hub/analytic-data-hub-app/settings-and-configuration.md)
