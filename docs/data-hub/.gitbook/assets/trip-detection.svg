@@ -1,164 +1,100 @@
-<svg viewBox="0 0 1400 750" width="2000" height="1071" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1400 900" width="2000" height="1286" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Simplified gradients without filters -->
-    <radialGradient id="grad-gray-zone">
-      <stop offset="0%" style="stop-color:#546E7A;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#455A64;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#37474F;stop-opacity:0.8" />
+    <radialGradient id="grad-purple">
+      <stop offset="0%" stop-color="#9D4EDD" stop-opacity="1" />
+      <stop offset="100%" stop-color="#5A189A" stop-opacity="0.8" />
     </radialGradient>
     
-    <radialGradient id="grad-green-zone">
-      <stop offset="0%" style="stop-color:#66BB6A;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#4CAF50;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:0.8" />
+    <radialGradient id="grad-orange">
+      <stop offset="0%" stop-color="#FFB347" stop-opacity="1" />
+      <stop offset="100%" stop-color="#E67E00" stop-opacity="0.8" />
     </radialGradient>
     
-    <radialGradient id="grad-purple-zone">
-      <stop offset="0%" style="stop-color:#9D4EDD;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#7B2CBF;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#5A189A;stop-opacity:0.8" />
+    <radialGradient id="grad-cyan">
+      <stop offset="0%" stop-color="#4DD4E8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0097A7" stop-opacity="0.8" />
     </radialGradient>
     
-    <radialGradient id="grad-amber-zone">
-      <stop offset="0%" style="stop-color:#FFD54F;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#FFCA28;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#FFB300;stop-opacity:0.8" />
+    <radialGradient id="grad-gray">
+      <stop offset="0%" stop-color="#546E7A" stop-opacity="1" />
+      <stop offset="100%" stop-color="#37474F" stop-opacity="0.8" />
     </radialGradient>
-    
-    <radialGradient id="grad-orange-zone">
-      <stop offset="0%" style="stop-color:#FFB347;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#FF9500;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#E67E00;stop-opacity:0.8" />
-    </radialGradient>
-    
-    <radialGradient id="grad-cyan-zone">
-      <stop offset="0%" style="stop-color:#4DD4E8;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#00BCD4;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#0097A7;stop-opacity:0.8" />
-    </radialGradient>
-    
-    <!-- Arrow markers -->
-    <marker id="arrow-zone-light" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#78909C" />
-    </marker>
-    <marker id="arrow-purple-zone" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#9D4EDD" />
-    </marker>
   </defs>
   
-  <!-- Dark background -->
-  <rect width="1400" height="750" fill="#1A1D2E"/>
+  <rect width="1400" height="900" fill="#1A1D2E"/>
   
-  <!-- Title -->
-  <text x="700" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#E0E0E0" opacity="0.9">Zone Visit Lifecycle</text>
+  <text x="700" y="50" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#E0E0E0">Trip Detection State Machine</text>
   
-  <!-- State 1: Device Outside Zone - with manual glow -->
-  <rect x="36" y="126" width="208" height="98" rx="12" fill="#607D8B" opacity="0.3"/>
-  <rect x="38" y="128" width="204" height="94" rx="12" fill="#546E7A" opacity="0.5"/>
-  <rect x="40" y="130" width="200" height="90" rx="12" fill="url(#grad-gray-zone)" stroke="#607D8B" stroke-width="2" opacity="0.9"/>
-  <rect x="46" y="136" width="188" height="78" rx="10" fill="none" stroke="#78909C" stroke-width="1" opacity="0.3"/>
-  <circle cx="140" cy="175" r="12" fill="none" stroke="#90A4AE" stroke-width="2"/>
-  <circle cx="140" cy="175" r="7" fill="#1A1D2E" stroke="#B0BEC5" stroke-width="2"/>
-  <text x="140" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#B0BEC5">Device Outside Zone</text>
+  <!-- State 1: No Trip -->
+  <ellipse cx="250" cy="220" rx="138" ry="83" fill="#607D8B" opacity="0.3"/>
+  <ellipse cx="250" cy="220" rx="130" ry="75" fill="url(#grad-gray)" stroke="#607D8B" stroke-width="2"/>
+  <circle cx="250" cy="220" r="15" fill="none" stroke="#90A4AE" stroke-width="2"/>
+  <circle cx="250" cy="220" r="10" fill="#1A1D2E" stroke="#B0BEC5" stroke-width="2"/>
+  <text x="250" y="270" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#B0BEC5">No Trip</text>
   
-  <!-- Arrow to Entry Event -->
-  <path d="M 240 175 L 290 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  <!-- Transition labels -->
+  <text x="480" y="110" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#E0E0E0">First tracking point</text>
+  <text x="480" y="135" text-anchor="middle" font-family="Arial" font-size="10" fill="#90A4AE">Movement after parking</text>
+  <text x="480" y="152" text-anchor="middle" font-family="Arial" font-size="10" fill="#7B68EE">≥ min_parking_seconds</text>
+  <text x="480" y="190" text-anchor="middle" font-family="Arial" font-size="10" fill="#90A4AE">OR</text>
+  <text x="480" y="210" text-anchor="middle" font-family="Arial" font-size="10" fill="#90A4AE">Movement after gap</text>
+  <text x="480" y="227" text-anchor="middle" font-family="Arial" font-size="10" fill="#7B68EE">≥ tracks_split_timeout_seconds</text>
   
-  <!-- Entry Event - with manual glow -->
-  <rect x="286" y="121" width="208" height="108" rx="12" fill="#66BB6A" opacity="0.3"/>
-  <rect x="288" y="123" width="204" height="104" rx="12" fill="#4CAF50" opacity="0.5"/>
-  <rect x="290" y="125" width="200" height="100" rx="12" fill="url(#grad-green-zone)" stroke="#66BB6A" stroke-width="2"/>
-  <rect x="296" y="131" width="188" height="88" rx="10" fill="none" stroke="#81C784" stroke-width="1" opacity="0.4"/>
-  <text x="390" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Entry Event</text>
-  <line x1="310" y1="177" x2="470" y2="177" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
-  <text x="390" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#E8F5E9">Timestamp recorded</text>
-  <text x="390" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#E8F5E9">Zone ID captured</text>
+  <path d="M 380 200 Q 480 160, 560 200" stroke="#78909C" stroke-width="2" fill="none"/>
+  <polygon points="560 200, 552 196, 552 204" fill="#78909C"/>
   
-  <!-- Arrow to Device in Zone -->
-  <path d="M 490 175 L 540 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  <!-- State 2: Trip In Progress -->
+  <ellipse cx="700" cy="220" rx="158" ry="93" fill="#9D4EDD" opacity="0.3"/>
+  <ellipse cx="700" cy="220" rx="150" ry="85" fill="url(#grad-purple)" stroke="#9D4EDD" stroke-width="2"/>
+  <text x="700" y="220" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Trip In</text>
+  <text x="700" y="242" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Progress</text>
   
-  <!-- Device in Zone - with manual glow -->
-  <rect x="536" y="126" width="208" height="98" rx="12" fill="#9D4EDD" opacity="0.3"/>
-  <rect x="538" y="128" width="204" height="94" rx="12" fill="#7B2CBF" opacity="0.5"/>
-  <rect x="540" y="130" width="200" height="90" rx="12" fill="url(#grad-purple-zone)" stroke="#9D4EDD" stroke-width="2"/>
-  <rect x="546" y="136" width="188" height="78" rx="10" fill="none" stroke="#C77DFF" stroke-width="1" opacity="0.4"/>
-  <text x="640" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Device in Zone</text>
-  <text x="640" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#E1BEE7" font-style="italic">⏱ Monitoring...</text>
+  <text x="925" y="135" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#E0E0E0">Parking detected</text>
+  <text x="925" y="155" text-anchor="middle" font-family="Arial" font-size="10" fill="#7B68EE">≥ min_parking_seconds</text>
+  <text x="925" y="185" text-anchor="middle" font-family="Arial" font-size="10" fill="#90A4AE">OR</text>
+  <text x="925" y="205" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#E0E0E0">Data gap detected</text>
+  <text x="925" y="225" text-anchor="middle" font-family="Arial" font-size="10" fill="#7B68EE">≥ tracks_split_timeout_seconds</text>
   
-  <!-- Arrow to Decision -->
-  <path d="M 740 175 L 810 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  <path d="M 850 220 L 960 220" stroke="#78909C" stroke-width="2" fill="none"/>
+  <polygon points="960 220, 952 216, 952 224" fill="#78909C"/>
   
-  <!-- Decision Diamond - with manual glow -->
-  <polygon points="920,105 995,175 920,245 845,175" fill="#FFD54F" opacity="0.3"/>
-  <polygon points="920,108 992,175 920,242 848,175" fill="#FFCA28" opacity="0.5"/>
-  <polygon points="920,110 990,175 920,240 850,175" fill="url(#grad-amber-zone)" stroke="#FFD54F" stroke-width="2"/>
-  <polygon points="920,118 982,175 920,232 858,175" fill="none" stroke="#FFE082" stroke-width="1" opacity="0.4"/>
-  <text x="920" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4037">Exit</text>
-  <text x="920" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4037">detected?</text>
+  <!-- State 3: Trip Ended -->
+  <ellipse cx="1100" cy="220" rx="138" ry="83" fill="#FFB347" opacity="0.3"/>
+  <ellipse cx="1100" cy="220" rx="130" ry="75" fill="url(#grad-orange)" stroke="#FFB347" stroke-width="2"/>
+  <circle cx="1100" cy="220" r="15" fill="none" stroke="#FFD699" stroke-width="2"/>
+  <circle cx="1100" cy="220" r="8" fill="#FF9500"/>
+  <text x="1100" y="270" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF">Trip Ended</text>
   
-  <!-- Branch Yes → Exit Event -->
-  <path d="M 990 175 L 1050 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
-  <text x="1020" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E0E0E0">Yes</text>
+  <path d="M 1100 295 L 1100 450 Q 1100 500, 850 580" stroke="#78909C" stroke-width="2" fill="none"/>
+  <polygon points="850 580, 854 572, 846 575" fill="#78909C"/>
   
-  <!-- Exit Event - with manual glow -->
-  <rect x="1046" y="121" width="188" height="108" rx="12" fill="#FFB347" opacity="0.3"/>
-  <rect x="1048" y="123" width="184" height="104" rx="12" fill="#FF9500" opacity="0.5"/>
-  <rect x="1050" y="125" width="180" height="100" rx="12" fill="url(#grad-orange-zone)" stroke="#FFB347" stroke-width="2"/>
-  <rect x="1056" y="131" width="168" height="88" rx="10" fill="none" stroke="#FFCF87" stroke-width="1" opacity="0.4"/>
-  <circle cx="1140" cy="175" r="12" fill="none" stroke="#FFD699" stroke-width="2"/>
-  <circle cx="1140" cy="175" r="6" fill="#FF9500"/>
-  <text x="1140" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Exit Event</text>
-  <line x1="1070" y1="177" x2="1210" y2="177" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
-  <text x="1140" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFF3E0">Timestamp recorded</text>
-  <text x="1140" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFF3E0">Visit completed</text>
+  <!-- State 4: Validate & Save -->
+  <polygon points="700,545 875,650 700,755 525,650" fill="#4DD4E8" opacity="0.3"/>
+  <polygon points="700,550 870,650 700,750 530,650" fill="url(#grad-cyan)" stroke="#4DD4E8" stroke-width="2"/>
+  <text x="700" y="645" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#FFFFFF">Validate &amp;</text>
+  <text x="700" y="668" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#FFFFFF">Save</text>
   
-  <!-- Arrow to Closed Visit -->
-  <path d="M 1140 225 L 1140 305" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  <!-- Quality checks box -->
+  <rect x="950" y="580" width="280" height="140" rx="8" fill="#252836" stroke="#7B68EE" stroke-width="1.5"/>
+  <text x="1090" y="610" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#B0B0C0">QUALITY CHECKS:</text>
+  <line x1="970" y1="620" x2="1210" y2="620" stroke="#7B68EE" stroke-width="1" opacity="0.3"/>
+  <text x="970" y="645" font-family="Arial" font-size="11" fill="#90A4AE">▸  2 points</text>
+  <text x="970" y="670" font-family="Arial" font-size="11" fill="#90A4AE">▸  min_distance_meters</text>
+  <text x="970" y="695" font-family="Arial" font-size="11" fill="#90A4AE">▸  min_speed_kmh</text>
   
-  <!-- Closed Visit Record - with manual glow -->
-  <rect x="1036" y="301" width="208" height="138" rx="12" fill="#4DD4E8" opacity="0.3"/>
-  <rect x="1038" y="303" width="204" height="134" rx="12" fill="#00BCD4" opacity="0.5"/>
-  <rect x="1040" y="305" width="200" height="130" rx="12" fill="url(#grad-cyan-zone)" stroke="#4DD4E8" stroke-width="2"/>
-  <rect x="1046" y="311" width="188" height="118" rx="10" fill="none" stroke="#87E8F7" stroke-width="1" opacity="0.4"/>
-  <text x="1140" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Closed Visit</text>
-  <line x1="1060" y1="347" x2="1220" y2="347" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
-  <text x="1140" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#E0F7FA">enter_time: timestamp</text>
-  <text x="1140" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#E0F7FA">exit_time: timestamp</text>
-  <text x="1140" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#E0F7FA">duration: calculated</text>
-  <text x="1140" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#B2EBF2" font-style="italic">Complete visit record</text>
+  <!-- Success path -->
+  <path d="M 530 650 Q 380 650, 300 500 Q 250 400, 250 295" stroke="#4CAF50" stroke-width="2.5" fill="none"/>
+  <polygon points="250 295, 246 303, 254 303" fill="#4CAF50"/>
   
-  <!-- Branch No → Open Visit -->
-  <path d="M 920 240 L 920 395" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
-  <text x="945" y="315" text-anchor="start" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E0E0E0">No</text>
+  <text x="350" y="638" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#4CAF50">Save trip</text>
+  <rect x="310" y="653" width="120" height="20" rx="4" fill="#1A1D2E" stroke="#4CAF50" stroke-width="1"/>
+  <text x="370" y="667" text-anchor="middle" font-family="Arial" font-size="10" fill="#66BB6A">☑ Pass quality checks</text>
   
-  <!-- Open Visit - with manual glow -->
-  <rect x="796" y="391" width="248" height="138" rx="12" fill="#FFD54F" opacity="0.3"/>
-  <rect x="798" y="393" width="244" height="134" rx="12" fill="#FFCA28" opacity="0.5"/>
-  <rect x="800" y="395" width="240" height="130" rx="12" fill="url(#grad-amber-zone)" stroke="#FFD54F" stroke-width="2"/>
-  <rect x="806" y="401" width="228" height="118" rx="10" fill="none" stroke="#FFE082" stroke-width="1" opacity="0.4"/>
-  <text x="920" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5D4037">Open Visit</text>
-  <line x1="820" y1="442" x2="1020" y2="442" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
-  <text x="920" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5D4037">enter_time: timestamp</text>
-  <text x="920" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5D4037">exit_time: NULL</text>
-  <text x="920" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5D4037">duration: NULL</text>
-  <text x="920" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6D4C41" font-style="italic">Visit in progress</text>
+  <!-- Failure path -->
+  <path d="M 600 570 Q 450 450, 350 370 Q 250 310, 250 295" stroke="#F44336" stroke-width="2.5" fill="none" stroke-dasharray="6,4"/>
+  <polygon points="250 295, 246 303, 254 303" fill="#F44336"/>
   
-  <!-- Loop back arrow -->
-  <path d="M 800 460 Q 640 460, 640 305 Q 640 220, 640 220" stroke="#9D4EDD" stroke-width="2.5" stroke-dasharray="6,3" fill="none" marker-end="url(#arrow-purple-zone)" opacity="0.8"/>
-  
-  <text x="615" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C77DFF">Continue monitoring</text>
-  
-  <!-- Legend Box -->
-  <rect x="40" y="570" width="300" height="140" rx="10" fill="#252836" stroke="#7B68EE" stroke-width="1.5" opacity="0.9"/>
-  <text x="190" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#B0B0C0">STATE FLOW LEGEND</text>
-  <line x1="60" y1="610" x2="320" y2="610" stroke="#7B68EE" stroke-width="1" opacity="0.3"/>
-  
-  <rect x="60" y="625" width="20" height="20" rx="4" fill="url(#grad-gray-zone)" stroke="#607D8B" stroke-width="1"/>
-  <text x="90" y="640" font-family="Arial, sans-serif" font-size="11" fill="#90A4AE">Initial / Outside state</text>
-  
-  <rect x="60" y="655" width="20" height="20" rx="4" fill="url(#grad-green-zone)" stroke="#66BB6A" stroke-width="1"/>
-  <text x="90" y="670" font-family="Arial, sans-serif" font-size="11" fill="#90A4AE">Entry / Exit events</text>
-  
-  <rect x="60" y="685" width="20" height="20" rx="4" fill="url(#grad-purple-zone)" stroke="#9D4EDD" stroke-width="1"/>
-  <text x="90" y="700" font-family="Arial, sans-serif" font-size="11" fill="#90A4AE">Active monitoring state</text>
+  <text x="380" y="448" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#F44336">Discard trip</text>
+  <rect x="325" y="460" width="110" height="20" rx="4" fill="#1A1D2E" stroke="#F44336" stroke-width="1"/>
+  <text x="380" y="474" text-anchor="middle" font-family="Arial" font-size="10" fill="#EF5350">☒ Fail quality checks</text>
 </svg>
