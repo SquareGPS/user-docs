@@ -1,9 +1,5 @@
 # Webhook node
 
-{% hint style="danger" %}
-**This functionality is in the latest stage of development and testing, it will become available very soon!** If you want to learn more or have questions  <a href="https://www.navixy.com/contact/" class="button secondary">Contact us!</a>
-{% endhint %}
-
 ## Technical overview and capabilities
 
 {% columns %}
