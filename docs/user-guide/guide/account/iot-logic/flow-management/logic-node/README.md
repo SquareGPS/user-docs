@@ -135,7 +135,7 @@ The Logic node creates two distinct output paths based on the expression evaluat
 
 When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../webhook-node.md)) that don't support outbound connections, create parallel connections to ensure both the terminal node and an Output Endpoint receive data:
 
-<figure><img src="../../../../../.gitbook/assets/logic-validation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/flow_branches.webp" alt=""><figcaption></figcaption></figure>
 
 **Why both branches need Output Endpoints:**
 

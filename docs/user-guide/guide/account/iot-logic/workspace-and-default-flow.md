@@ -4,7 +4,7 @@
 
 The workspace consists of three sections: **Flow settings bar (1)**, **Node pane (2)**, and **Canvas (3)**.
 
-<figure><img src="../../../.gitbook/assets/IoT_Logic_workspace_example (1).webp" alt="IoT Logic workspace example (with a basic 3-step flow) visually divided by the numbered sections"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Workspace.webp" alt="IoT Logic workspace example (with a basic 3-step flow) visually divided by the numbered sections"><figcaption></figcaption></figure>
 
 ### 1 - Flow settings bar
 
@@ -13,8 +13,9 @@ The main controls for managing your data flows are gathered in the top menu bar:
 * **Data flow:** Shows a list of existing flows. If you have some data flows created already, you can select the necessary flow from the dropdown to open its configuration.
   * **Pencil icon:** Allows editing flow information like **Flow name** and **Description**, and also switching it on/off. The button becomes active only if a flow is selected and is not default.
   * **Bin icon:** Deletes the current flow configuration. If you don’t need a flow anymore, you can delete it from the platform completely.
-* **New flow:** This button opens the [flow creation window](flow-management/) where you can specify all information about your new flow.
+* **New flow:** This button opens the [flow creation window](flow-management/), where you can specify all information about your new flow.
 * **Data analyzer:** This button opens the [Data Stream Analyzer tool](data-stream-analyzer.md), which will help you see data from different sources and attributes and will be useful for diagnostics.
+* **Devices mapping**: Opens a table listing all devices in your account with their flow assignments, model information, and data source details. Use the search field to filter devices and quickly identify which flows contain specific devices.&#x20;
 
 ### 2 - Nodes pane
 
@@ -44,7 +45,7 @@ This is the main interactive element of the workspace where your flows are visua
 
 ## Default flow
 
-<figure><img src="../../../.gitbook/assets/default-flow.webp" alt="Default flow configuration showing the Default input and Default output endpoint nodes connected"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Navixy offers a pre-configured data flow that includes all devices connected to the account and sends their data directly to the platform. This flow is available in every account and cannot be edited. It consists of two basic nodes: **Default Input** and **Default Output Endpoint**.
 

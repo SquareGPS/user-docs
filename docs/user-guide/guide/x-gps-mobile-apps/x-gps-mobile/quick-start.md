@@ -80,6 +80,6 @@ Tap on an asset to view its location, status, trip and event history, sensors, r
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Asset information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Asset information</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
