@@ -4,7 +4,7 @@
 ### **Coming soon!**&#x20;
 
 The Silver layer architecture described in this document is currently in development. While the core transformation capabilities are operational, the configuration system and its implementation details may evolve before final release. \
-If you're interested in early access or have questions about this functionality, please contact [datahub@navixy.com](mailto:datahub@navixy.com).
+If you're interested in early access or have questions about this functionality, please contact [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}
 
 The Silver layer transforms raw telematic data and business information into normalized, query-ready entities with predefined metrics and structures. The Bronze layer contains everything captured from devices and systems—individual points, events, and field values convenient for verification and troubleshooting. The Silver layer processes this raw data into meaningful entities like trips, zone visits, and operational states through configurable transformations that clean, standardize, and aggregate data into understandable analytical objects.
@@ -19,7 +19,7 @@ The Silver layer organizes processed data into two distinct schemas that reflect
 
 #### Schema structure
 
-The Silver layer uses a dynamic schema approach where database structures form automatically based on active transformations. Unlike the Bronze layer with its fixed schema definitions, Silver layer schemas contain only the tables that correspond to configured and deployed transformations. This means the available tables and their structures depend on which transformations are currently active in your DataHub instance.
+The Silver layer uses a dynamic schema approach where database structures form automatically based on active transformations. Unlike the Bronze layer with its fixed schema definitions, Silver layer schemas contain only the tables that correspond to configured and deployed transformations. This means the available tables and their structures depend on which transformations are currently active in your **IoT Query** instance.
 
 <figure><img src="../../.gitbook/assets/remixed-49bebaae.svg" alt=""><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Silver layer data is organized into two PostgreSQL schemas:
 Both schemas operate through JSON-based transformation configurations. When a transformation is configured and activated, the system automatically creates the corresponding table structure within the appropriate schema. When transformations are removed or deactivated, their tables may be archived or removed based on data retention policies.
 
 {% hint style="info" %}
-This dynamic formation is why Silver layer documentation does not provide fixed schema descriptions like the Bronze layer does. Instead, the available tables and their structures reflect the specific transformations configured for your DataHub instance. To understand what data is available in your Silver layer, review the transformation documentation for entities that have been deployed to your instance.
+This dynamic formation is why Silver layer documentation does not provide fixed schema descriptions like the Bronze layer does. Instead, the available tables and their structures reflect the specific transformations configured for your IoT Query instance. To understand what data is available in your Silver layer, review the transformation documentation for entities that have been deployed to your instance.
 {% endhint %}
 
 ### Processing architecture
@@ -699,6 +699,6 @@ SELECT ... FROM aggregated_entities;
 
 ## Additional resources
 
-For detailed query patterns and working with Silver layer data, refer to the [DataHub SQL Recipe Book](https://www.navixy.com/docs/analytics/example-queries).
+For detailed query patterns and working with Silver layer data, refer to the [IoT Query SQL Recipe Book](https://www.navixy.com/docs/analytics/example-queries).
 
-If you're interested in early access or have questions about this functionality, please contact [datahub@navixy.com](mailto:datahub@navixy.com).
+If you're interested in early access or have questions about this functionality, please contact [iotquery@navixy.com](mailto:iotquery@navixy.com).

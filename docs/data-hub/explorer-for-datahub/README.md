@@ -1,6 +1,6 @@
-# Explorer for DataHub
+# Explorer for IoT Query
 
-The **Explorer for DataHub** application provides a web-based interface for exploring analytical capabilities available through your DataHub. Built on Python and Streamlit framework, this application demonstrates the capabilities and advantages of the DataHub such as flexible analytical solutions tailored to your operational requirements.
+The **Explorer for IoT Query** application provides a web-based interface for exploring analytical capabilities available through your **IoT Query**. Built on Python and Streamlit framework, this application demonstrates the capabilities and advantages of the **IoT Query** such as flexible analytical solutions tailored to your operational requirements.
 
 {% hint style="warning" %}
 Please note that this application is intended for demonstration purposes only. It offers a quick reference of how Python and Streamlit can be used to build your own application with underlying data and custom calculation logic inside.
@@ -20,7 +20,7 @@ Users can start their journey in the Data analytics using predefined dashboards 
 
 **Dashboards** provide immediate visibility of the monitoring objects its statuses, attributes and values.
 
-DataHub contains near-realtime data needed for general operations. In this section you can find three dashboards showcasting insights and context for different purposed. Those provide info with the latest custom calculated **movement and connection statuses** of the monitoring objects, **sensor data values** and the assets intelligence summary table which includes business and telematics data last statuses in one place.
+**IoT Query** contains near-realtime data needed for general operations. In this section you can find three dashboards showcasting insights and context for different purposed. Those provide info with the latest custom calculated **movement and connection statuses** of the monitoring objects, **sensor data values** and the assets intelligence summary table which includes business and telematics data last statuses in one place.
 
 ### Historical pattern analysis
 
@@ -39,13 +39,13 @@ Experience these analytical capabilities to determine whether these templates an
 * **Continue using this application** if standard dashboards and reports address your operational requirements, and occasional custom analysis meets specialized needs.
 * **Explore other BI solutions** if you need enterprise security, automated reporting systems, advanced visualization performance, or organization-wide analytical access.
 
-Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](../datahub/connection-setup/selecting-bi-tools/).
+Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](../iotquery/connection-setup/selecting-bi-tools/).
 
 ## Supporting resources
 
 Access comprehensive documentation and technical guidance to maximize your analytical capabilities and optimize system performance:
 
-* [Data schema overview](../datahub/schema-overview/) explains data structure and relationships.
+* [Data schema overview](../iotquery/schema-overview/) explains data structure and relationships.
 * [Example queries](../example-queries/) provides proven analytical patterns and optimization techniques.
 * [Settings and configuration](../data-hub/analytic-data-hub-app/settings-and-configuration.md) covers performance optimization and configuration options.
 

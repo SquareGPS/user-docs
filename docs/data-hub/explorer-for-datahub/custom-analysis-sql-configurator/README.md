@@ -25,7 +25,7 @@ Your PTL data appears through two primary schemas organized by source and purpos
 | <p>Organizational and operational information.<br><br>- <strong>Core entities:</strong> users, devices, objects, vehicles, employees<br>- <strong>Operational data:</strong> tasks, forms, zones, places, garages<br>- <strong>Reference data:</strong> models, entities, status information<br>- <strong>Relationship tables:</strong> vehicle-driver assignments, user-zone mappings</p> | <p>Real-time GPS tracking, sensor readings, and device status<br><br>- <strong>tracking_data_core:</strong> GPS coordinates, speed, altitude, event data<br>- <strong>inputs:</strong> Sensor readings (fuel, temperature, voltage)<br>- <strong>states:</strong> Device status indicators (ignition, doors, operational modes)</p> |
 
 {% hint style="info" %}
-For details on data schemas available in your DataHub, see [Schema overview](../../datahub/schema-overview/).
+For details on data schemas available in your **IoT Query**, see [Schema overview](../../iotquery/schema-overview/).
 {% endhint %}
 
 ## Creating visualizations from query results
@@ -159,8 +159,8 @@ ORDER BY last_seen DESC NULLS LAST;
 
 * [Create custom visualizations](creating-custom-visualizations.md) - Complete process for creating charts and visual analysis
 * [SQL Recipe Book](../../example-queries/) - Advanced query patterns organized by analytical scenario
-* [Bronze layer documentation](../../datahub/schema-overview/bronze-layer.md) - Complete database schema reference and field definitions
+* [Bronze layer documentation](../../iotquery/schema-overview/bronze-layer.md) - Complete database schema reference and field definitions
 
 {% hint style="info" %}
-**Production analytics**: For enterprise-scale reporting and dashboards, consider dedicated BI tools that connect directly to your PTL instance for enhanced scalability and collaboration features. Learn more in [Selecting BI tools](../../datahub/connection-setup/selecting-bi-tools/).
+**Production analytics**: For enterprise-scale reporting and dashboards, consider dedicated BI tools that connect directly to your PTL instance for enhanced scalability and collaboration features. Learn more in [Selecting BI tools](../../iotquery/connection-setup/selecting-bi-tools/).
 {% endhint %}

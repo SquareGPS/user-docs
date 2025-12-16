@@ -1260,7 +1260,7 @@ Tables are organized with specific indexing strategies:
 ## `repo` data structure
 
 {% hint style="warning" %}
-**This schema is currently in development.** If you're interested in early access or have questions about this functionality, please contact **datahub@navixy.com**.
+**This schema is currently in development.** If you're interested in early access or have questions about this functionality, please contact [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}
 
 The `repo` schema provides a comprehensive framework for managing organizational structures, assets, devices, and their relationships in multi-tenant environments. Built on PostgreSQL 14+ with the ltree extension, the schema supports hierarchical organizations, custom field definitions for any entity type, role-based access control with object-level restrictions, and complete audit trails with field-level change tracking. All entities can be extended without schema modifications, localized for international deployments, and linked through flexible polymorphic relationships.

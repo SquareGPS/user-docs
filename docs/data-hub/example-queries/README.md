@@ -1,16 +1,16 @@
 # SQL Recipe Book
 
-Ready-made SQL query templates for common analytical tasks and industry-specific use cases in the **Navixy DataHub**. Each recipe provides complete, functional SQL code that you can customize and execute directly against your data warehouse instance.
+Ready-made SQL query templates for common analytical tasks and industry-specific use cases in the **Navixy IoT Query**. Each recipe provides complete, functional SQL code that you can customize and execute directly against your data warehouse instance.
 
 ### What you'll find
 
-**Complete SQL templates** with business context, parameter guidance, and optimization tips for the most frequent fleet management and telematics analytical challenges. All queries work with standard DataHub schema structures and are optimized for PostgreSQL environments.
+**Complete SQL templates** with business context, parameter guidance, and optimization tips for the most frequent fleet management and telematics analytical challenges. All queries work with standard **IoT Query** schema structures and are optimized for PostgreSQL environments.
 
 {% include "../.gitbook/includes/enable-datahub-before-utili....md" %}
 
 ### Navigation
 
-* [**Common queries**](common-queries.md) - Essential SQL templates for everyday fleet management tasks including device status, user activity, location analysis, and basic reporting functions.
+* [**Common queries**](common-queries.md) - Essential SQL templates for everyday fleet management tasks, including device status, user activity, location analysis, and basic reporting functions.
 * [**Logistics**](logistics.md) - Transportation and supply chain queries covering route optimization, cargo monitoring, fleet utilization, compliance tracking, and delivery performance analytics.
 * [**Leasing**](leasing.md) - Banking and leasing templates for asset lifecycle management, contract compliance, maintenance scheduling, usage limit enforcement, and risk assessment workflows.
 
@@ -22,4 +22,4 @@ Ready-made SQL query templates for common analytical tasks and industry-specific
 
 ### Support
 
-For technical assistance with SQL implementation or DataHub connectivity, contact support at support@navixy.com with your specific query requirements and system configuration details.
+For technical assistance with SQL implementation or **IoT Query** connectivity, contact support at support@navixy.com with your specific query requirements and system configuration details.

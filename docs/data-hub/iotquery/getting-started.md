@@ -2,7 +2,9 @@
 
 ## First steps
 
-Before you can utilize data for comprehensive analytics and integration, you must first enable DataHub. If you don't have it yet, contact us for enablement details - [datahub@navixy.com](mailto:datahub@navixy.com)
+{% hint style="warning" %}
+Before you can utilize data for comprehensive analytics and integration, you must first enable **IoT Query**. If you don't have it yet, contact us for enablement details - [iotquery@navixy.com](mailto:iotquery@navixy.com)
+{% endhint %}
 
 Once it's set up, you'll receive a welcome email containing detailed information. To begin your data journey, you will need:
 
@@ -12,7 +14,7 @@ Once it's set up, you'll receive a welcome email containing detailed information
 * SSL mode settings
 
 {% hint style="info" %}
-If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/quick-start/about-service-providers) for access to DataHub.
+If you are not administering your Platform accounts yourself, contact your [GPS / Telematics service provider](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/quick-start/about-service-providers) for access to **IoT Query**.
 {% endhint %}
 
 From there, your path forward is straight:
@@ -28,7 +30,7 @@ We also recommend familiarizing yourself with [Data types and field standards](g
 
 ## Data types and field standards
 
-DataHub uses consistent data type conventions that may differ from the source systems:
+**IoT Query** uses consistent data type conventions that may differ from the source systems:
 
 * **Date and time fields** use the `TIMESTAMP` format
 * **Text fields** use `CHARACTER VARYING` or `TEXT` types
@@ -37,7 +39,7 @@ DataHub uses consistent data type conventions that may differ from the source sy
 
 ## Important considerations
 
-While working with the DataHub, be aware of these current limitations:
+While working with the **IoT Query**, be aware of these current limitations:
 
 * **Error messaging** is minimal for SQL query issues
 * **Silver and Gold layers** are still in development and not available yet

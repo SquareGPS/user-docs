@@ -1,23 +1,23 @@
 # Connecting Grafana
 
-This guide demonstrates how to connect Grafana to DataHub for visualizing telematics and fleet data. Grafana provides powerful visualization capabilities for monitoring vehicle status, sensor data, and other metrics in real-time.
+This guide demonstrates how to connect Grafana to **IoT Query** for visualizing telematics and fleet data. Grafana provides powerful visualization capabilities for monitoring vehicle status, sensor data, and other metrics in real-time.
 
 {% hint style="info" %}
-This guide is part of the DataHub documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](https://www.navixy.com/docs/analytics/datahub/connection-setup/selecting-bi-tools) overview.
+This guide is part of the **IoT Query** documentation suite and specifically covers connecting Power BI to your data warehouse. If you're still deciding which BI tool to use, refer to the [Selecting BI tools](https://www.navixy.com/docs/analytics/datahub/connection-setup/selecting-bi-tools) overview.
 {% endhint %}
 
-Watch a quick video overview to see what is possible with DataHub+Grafana combination (available in English and Spanish):
+Watch a quick video overview to see what is possible with **IoT Query**+Grafana combination (available in English and Spanish):
 
 {% tabs %}
 {% tab title="English" %}
 {% embed url="https://youtu.be/jGO3hIAjPCo?si=7bzWO4XrTwGnTq3c" %}
-DataHub + Grafana overview and setup tutorial.
+**IoT Query** + Grafana overview and setup tutorial.
 {% endembed %}
 {% endtab %}
 
 {% tab title="Español" %}
 {% embed url="https://youtu.be/jEf7i_mAWPE?si=pru7QyYHzyoqK79Q" %}
-Descripción general y tutorial de configuración de DataHub + Grafana.
+Descripción general y tutorial de configuración de **IoT Query** + Grafana.
 {% endembed %}
 {% endtab %}
 {% endtabs %}
@@ -36,11 +36,11 @@ Descripción general y tutorial de configuración de DataHub + Grafana.
 * Grafana 9.3 or later
 * PostgreSQL data source plugin (included by default)
 * Internet access for database connection
-* Active DataHub instance with connection credentials
+* Active **IoT Query** instance with connection credentials
 
 ## Installation and setup
 
-Grafana must be installed on your system before you can connect to DataHub.
+Grafana must be installed on your system before you can connect to **IoT Query**.
 
 {% stepper %}
 {% step %}
@@ -66,13 +66,13 @@ Check the `grafana` folder for available dashboard JSON files.
 
 ## Database connection
 
-The Connections section in Grafana is where you manage all data source integrations. DataHub runs on PostgreSQL, so you'll need to add a PostgreSQL data source to enable Grafana to query your telematics data.
+The Connections section in Grafana is where you manage all data source integrations.&#x20;
 
 {% stepper %}
 {% step %}
 ### Access the Connections tab
 
-Open Grafana and navigate to **Connections** in the left sidebar. DataHub runs on PostgreSQL, so you need to add a PostgreSQL data source enable Grafana to query your telematics data.
+Open Grafana and navigate to **Connections** in the left sidebar. **IoT Query** runs on PostgreSQL, so you need to add a PostgreSQL data source enable Grafana to query your telematics data.
 {% endstep %}
 
 {% step %}
@@ -90,15 +90,15 @@ To add the data source:
 {% step %}
 ### Configure connection parameters
 
-Your DataHub connection details contain all the information needed to establish a secure connection. These parameters are unique to your instance and ensure Grafana can access your telematics data.
+Your **IoT Query** connection details contain all the information needed to establish a secure connection. These parameters are unique to your instance and ensure Grafana can access your telematics data.
 
-Locate your connection parameters in your Navixy account and the DataHub welcome emai&#x6C;**.**
+Locate your connection parameters in your Navixy account and the **IoT Query** welcome emai&#x6C;**.**
 
 **Connection parameter reference**
 
 | Parameter          | Configuration Field | Description                                                                   |
 | ------------------ | ------------------- | ----------------------------------------------------------------------------- |
-| Host               | `Host`              | Database server address provided in your DataHub connection details           |
+| Host               | `Host`              | Database server address provided in your **IoT Query** connection details     |
 | Port               | `Port`              | Default is 5432 for PostgreSQL                                                |
 | Database name      | `Database`          | Your assigned database name                                                   |
 | Username           | `User`              | Your database username (referred to as "database user" in connection details) |
@@ -118,11 +118,11 @@ Leave all other fields at their default values for initial setup. You don't need
 {% step %}
 ### Test the connection
 
-Testing the connection before saving ensures that all parameters are correct and that Grafana can successfully communicate with your DataHub instance.
+Testing the connection before saving ensures that all parameters are correct and that Grafana can successfully communicate with your **IoT Query** instance.
 
 To verify and save:
 
-1. Name your connection with a descriptive identifier (for example, "DataHub Production" or "Fleet Analytics")
+1. Name your connection with a descriptive identifier (for example, "**IoT Query** Production" or "Fleet Analytics")
 2. Click **Save & Test** to verify your connection
 3. A green success message indicates the connection is working correctly
 {% endstep %}
@@ -130,7 +130,7 @@ To verify and save:
 
 ## Creating your first visualization
 
-Building your first visualization helps you understand how Grafana queries DataHub and displays telematics data. This process involves creating a dashboard, adding a panel, configuring a query, and selecting an appropriate visualization format.
+Building your first visualization helps you understand how Grafana queries **IoT Query** and displays telematics data. This process involves creating a dashboard, adding a panel, configuring a query, and selecting an appropriate visualization format.
 
 {% stepper %}
 {% step %}
@@ -149,7 +149,7 @@ To create a dashboard:
 {% step %}
 #### Configure the query
 
-Grafana provides two query modes: a visual Builder and a Code editor. For DataHub connections, the Code editor gives you full control over SQL queries and is recommended for telematics data analysis.
+Grafana provides two query modes: a visual Builder and a Code editor. For **IoT Query** connections, the Code editor gives you full control over SQL queries and is recommended for telematics data analysis.
 
 To write your query:
 
@@ -227,7 +227,7 @@ To begin:
 {% step %}
 #### Configure a variable
 
-Each variable needs a name, a data source, and a query that returns the possible values users can select. The variable values are populated dynamically by querying your DataHub instance.
+Each variable needs a name, a data source, and a query that returns the possible values users can select. The variable values are populated dynamically by querying your **IoT Query** instance.
 
 To create a variable:
 
@@ -238,7 +238,7 @@ To create a variable:
       2. **Label**: Same as name for consistency, this is what users see on the dashboard
       3. **Type**: Select **Query** to populate values from database
    2. **Query options:**
-      1. **Data source**: Select your PostgreSQL DataHub connection from the dropdown
+      1. **Data source**: Select your PostgreSQL **IoT Query** connection from the dropdown
       2. **Query**: Enter a SQL query to populate variable values
 
 Example query to list all sensors for a specific device:
@@ -301,7 +301,7 @@ If the visualization doesn't update when you change the variable selection, veri
 
 ### Importing pre-built dashboards
 
-Pre-built dashboards provide a fast way to start visualizing your data without building everything from scratch. These dashboards are designed by experienced users and include best practices for visualization, layout, and query optimization. However, they require configuration to connect to your specific DataHub instance.
+Pre-built dashboards provide a fast way to start visualizing your data without building everything from scratch. These dashboards are designed by experienced users and include best practices for visualization, layout, and query optimization. However, they require configuration to connect to your specific **IoT Query** instance.
 
 {% stepper %}
 {% step %}
@@ -338,14 +338,14 @@ Wait for the dashboard template to finish uploading. Once complete, the dashboar
 {% step %}
 #### Update data source connections
 
-This is a critical step. Imported dashboards are initially connected to external data sources that don't have access to your DataHub data. You must update each visualization to use your PostgreSQL DataHub connection.
+This is a critical step. Imported dashboards are initially connected to external data sources that don't have access to your **IoT Query** data. You must update each visualization to use your PostgreSQL **IoT Query** connection.
 
 To update visualizations:
 
 1. Open the imported dashboard
 2. Click **Edit** on the first visualization panel (look for the edit icon or three-dot menu)
 3. In the query editor, locate the data source selector
-4. Change the data source from the template's original source to your PostgreSQL DataHub connection
+4. Change the data source from the template's original source to your PostgreSQL **IoT Query** connection
 5. Click **Run query** to verify the visualization retrieves data successfully
 6. Click **Save** to preserve the changes
 7. Repeat this process for each visualization panel on the dashboard
@@ -358,7 +358,7 @@ Save your work frequently during this process. You may have multiple visualizati
 {% step %}
 #### Update dashboard variables
 
-Many pre-built dashboards use variables for filtering and interactivity. These variables are also connected to the original data source and must be updated to query your DataHub instance.
+Many pre-built dashboards use variables for filtering and interactivity. These variables are also connected to the original data source and must be updated to query your **IoT Query** instance.
 
 To update variables:
 
@@ -366,12 +366,12 @@ To update variables:
 2. You'll see a list of all variables used in the dashboard
 3. Click **Edit** on the first variable
 4. Locate the **Data source** dropdown in the Query options section
-5. Change it to your PostgreSQL DataHub connection
+5. Change it to your PostgreSQL **IoT Query** connection
 6. Verify that the preview at the bottom shows the expected values from your database
 7. Click **Apply** to confirm changes
 8. Repeat for each variable in the list
 
-After updating all variables, save the dashboard again. The variables should now populate with values from your DataHub instance.
+After updating all variables, save the dashboard again. The variables should now populate with values from your **IoT Query** instance.
 {% endstep %}
 
 {% step %}
@@ -396,7 +396,7 @@ If any visualizations remain empty or show errors, return to the edit mode and v
 
 ### Database connection issues
 
-**Connection error**: Verify credentials and connection parameters match your DataHub details exactly. Check that host, port, database name, username, and password are correct.
+**Connection error**: Verify credentials and connection parameters match your **IoT Query** details exactly. Check that host, port, database name, username, and password are correct.
 
 **Firewall error**: Ensure your network allows connections to the specified host and port. Contact your network administrator if connection attempts are blocked.
 
@@ -414,15 +414,15 @@ If any visualizations remain empty or show errors, return to the edit mode and v
 
 ### Import issues
 
-**Missing data after import**: Verify that data source connections are updated for all panels and variables. Don't skip any panels during the update process. Check that schema names (`raw_business_data` or `raw_telematics_data`) specified in queries are correct for your DataHub instance. Ensure table and column names match your actual database structure.
+**Missing data after import**: Verify that data source connections are updated for all panels and variables. Don't skip any panels during the update process. Check that schema names (`raw_business_data` or `raw_telematics_data`) specified in queries are correct for your **IoT Query** instance. Ensure table and column names match your actual database structure.
 
-**Dashboard shows errors**: Open each panel's query editor and click "Query inspector" to see detailed error messages. Review error messages carefully—they often indicate specific issues like missing columns, incorrect data types, or syntax errors. Ensure field names in queries match your DataHub schema exactly (field names are case-sensitive). Verify that data types returned by queries are compatible with the visualization type.
+**Dashboard shows errors**: Open each panel's query editor and click "Query inspector" to see detailed error messages. Review error messages carefully—they often indicate specific issues like missing columns, incorrect data types, or syntax errors. Ensure field names in queries match your **IoT Query** schema exactly (field names are case-sensitive). Verify that data types returned by queries are compatible with the visualization type.
 
 **Variables not populating**: Check that you've updated the data source for each variable, not just the visualization panels. Verify variable queries are syntactically correct and return data when executed directly. Ensure the variable type is set to "Query" rather than "Custom" or other types.
 
 ## Next steps
 
-After successfully connecting Grafana to your DataHub instance:
+After successfully connecting Grafana to your **IoT Query** instance:
 
 * Explore the available data schemas by reviewing the [Schema overview](../../schema-overview/) to understand data structure, relationships between tables, and available fields.
 * Start with simple queries focused on specific business entities before building complex dashboards, this helps you learn the data structure and avoid performance issues.
@@ -432,4 +432,4 @@ After successfully connecting Grafana to your DataHub instance:
 
 ### Support
 
-For technical questions or assistance with DataHub connections, contact support at [support@navixy.com](mailto:support@navixy.com).
+For technical questions or assistance with **IoT Query** connections, contact support at [support@navixy.com](mailto:support@navixy.com).

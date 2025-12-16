@@ -1,16 +1,33 @@
-# DataHub
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
+# IoT Query
 
 ## Introduction
 
-<figure><img src=".gitbook/assets/DataHub.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/BA_Introducing_IoTQuery.jpg" alt=""><figcaption></figcaption></figure>
 
-Navixy's **DataHub** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
+Navixy's **IoT Query** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
 
 ## Your data journey
 
 Every organization collects vast amounts of operational data through the Navixy platform. While the platform's interface provides standard reports and visualizations, your unique business questions often require deeper, more customized analysis.
 
-That's where DataHub comes in.
+That's where **IoT Query** comes in.
 
 We've taken your complete dataset and stored it in our PTL database infrastructure, making it directly accessible through a standard PostgreSQL connection. This opens up new possibilities for analysis, integration, and insight discovery beyond what's possible through standard platform reporting.
 
@@ -22,12 +39,12 @@ We've taken your complete dataset and stored it in our PTL database infrastructu
 | <p><strong>Near real-time streaming</strong></p><p>Monitor near real-time data for immediate insights</p>                   | <p><strong>Longitudinal storage</strong></p><p>Access historical data for analysis and model training</p>                                                                                                                    | <p><strong>Cross-joins</strong></p><p>Connect telematics and business data<br></p>                                         |
 
 {% hint style="info" %}
-Want to get the most out of your analytics? Enable DataHub first to unlock comprehensive data insights. Contact us for activation details at [datahub@navixy.com](mailto:datahub@navixy.com).
+Want to get the most out of your analytics? Enable **IoT Query** first to unlock comprehensive data insights. Contact us for activation details at [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}
 
 ### What data is available?
 
-Your **DataHub** contains two primary types of information:
+Your **IoT Query** contains two primary types of information:
 
 {% columns %}
 {% column %}
@@ -60,8 +77,8 @@ The combination of data types enables both operational reporting and deeper anal
 {% column %}
 We've structured your data using a multi-layered architecture that balances immediate access with analytical performance. Each layer itself is sufficient for different scenarios:
 
-1. [**Bronze layer**](datahub/schema-overview/bronze-layer.md) (Available now) – A complete dataset , comprising telematics and business data, with minimal transformation, ready for exploration and detailed analysis
-2. [**Silver layer**](datahub/schema-overview/silver-layer.md) (Coming soon) – Cleansed and transformed data optimized for reporting and analytics
+1. [**Bronze layer**](iotquery/schema-overview/bronze-layer.md) (Available now) – A complete dataset, comprising telematics and business data, with minimal transformation, ready for exploration and detailed analysis
+2. [**Silver layer**](iotquery/schema-overview/silver-layer.md) (Coming soon) – Cleansed and transformed data optimized for reporting and analytics
 3. **Gold layer** (Coming soon) – Business-ready data marts and aggregated metrics for specific use cases
 {% endcolumn %}
 
@@ -78,9 +95,9 @@ We've structured your data using a multi-layered architecture that balances imme
 
 **Developers** gain the ability to create seamless integrations between operational data and other business systems through standard database connections.
 
-## DataHub demo application
+## **IoT Query** demo application
 
-To showcase the analytical potential of your PTL database, we provide a DataHub Explorer for DataHub - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
+To showcase the analytical potential of your PTL database, we provide Explorer for **IoT Query** - a Streamlit-based web interface that illustrates what becomes possible when you have direct access to your complete telematics and business dataset.
 
 This demonstration application serves multiple purposes:
 
@@ -91,9 +108,9 @@ This demonstration application serves multiple purposes:
 The application connects directly to your PTL database and shows how organizations can move from standard platform constraints to custom analytics solutions tailored to specific business requirements.
 
 {% hint style="info" %}
-For scalable production analytics, consider integrating dedicated BI tools like Power BI, Apache Superset, or Streamlit directly with your PTL database. If in doubt which solution fits you, see [Selecting BI tools](datahub/connection-setup/selecting-bi-tools/).
+For scalable production analytics, consider integrating dedicated BI tools like Power BI, Apache Superset, or Streamlit directly with your PTL database. If in doubt which solution fits you, see [Selecting BI tools](iotquery/connection-setup/selecting-bi-tools/).
 {% endhint %}
 
 ## Support and assistance
 
-For technical support and assistance with DataHub please contact our support team at [support@navixy.com](mailto:support@navixy.com).
+For technical support and assistance with **IoT Query** please contact our support team at [support@navixy.com](mailto:support@navixy.com).
