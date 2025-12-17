@@ -44,7 +44,7 @@ The **Information about IoT Query** panel displays your connection details, whil
 {% endcolumn %}
 
 {% column %}
-![](../../.gitbook/assets/data-hub-app-sidebar.webp)
+![](../.gitbook/assets/data-hub-app-sidebar.webp)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -75,4 +75,4 @@ Based on your specific analytical needs, choose the appropriate section to conti
 
 **For trend analysis:** Explore [Historical Reports](historical-reports.md) for pattern identification
 
-**For specialized analysis:** Use [Custom Analysis & SQL Configurator](../../explorer-for-datahub/custom-analysis-sql-configurator/) when standard reports don't meet your requirements
+**For specialized analysis:** Use [Custom Analysis & SQL Configurator](custom-analysis-sql-configurator/) when standard reports don't meet your requirements

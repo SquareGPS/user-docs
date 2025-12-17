@@ -24,7 +24,7 @@ Users can start their journey in the Data analytics using predefined dashboards 
 
 ### Historical pattern analysis
 
-**Reports** reveal optimization opportunities across time periods through [historical reports](../data-hub/analytic-data-hub-app/historical-reports.md). Measurement Sensor Report identifies maintenance patterns through fuel, temperature and other types of sensors for deep analysis. Object Activity Report gives a visibility of the pre-aggregated activities could have to identify route inefficiencies. Shifts Report analyzes workforce productivity.
+**Reports** reveal optimization opportunities across time periods through [historical reports](historical-reports.md). Measurement Sensor Report identifies maintenance patterns through fuel, temperature and other types of sensors for deep analysis. Object Activity Report gives a visibility of the pre-aggregated activities could have to identify route inefficiencies. Shifts Report analyzes workforce productivity.
 
 ### Custom analytical development
 
@@ -47,6 +47,6 @@ Access comprehensive documentation and technical guidance to maximize your analy
 
 * [Data schema overview](../iotquery/schema-overview/) explains data structure and relationships.
 * [Example queries](../example-queries/) provides proven analytical patterns and optimization techniques.
-* [Settings and configuration](../data-hub/analytic-data-hub-app/settings-and-configuration.md) covers performance optimization and configuration options.
+* [Settings and configuration](settings-and-configuration.md) covers performance optimization and configuration options.
 
 Transform from reactive coordination to proactive, data-driven management. Discover how analytical capabilities evolve from immediate insights to strategic optimization while building understanding of production infrastructure requirements.

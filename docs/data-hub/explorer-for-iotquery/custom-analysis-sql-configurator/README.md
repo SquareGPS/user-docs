@@ -15,7 +15,7 @@ The workspace of **SQL Configurator** consists of 3 main sections:
 ## Your data structure
 
 {% hint style="info" %}
-**Configuration impact**: Your system processes different data categories based on configuration settings. If expected tables seem unavailable, verify your data category settings in [system configuration](../../data-hub/analytic-data-hub-app/settings-and-configuration.md).
+**Configuration impact**: Your system processes different data categories based on configuration settings. If expected tables seem unavailable, verify your data category settings in [system configuration](../settings-and-configuration.md).
 {% endhint %}
 
 Your PTL data appears through two primary schemas organized by source and purpose:
