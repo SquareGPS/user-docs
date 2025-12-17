@@ -44,7 +44,7 @@ The **Information about IoT Query** panel displays your connection details, whil
 {% endcolumn %}
 
 {% column %}
-![](../.gitbook/assets/data-hub-app-sidebar.webp)
+![](../.gitbook/assets/Explorer_menu.webp)
 {% endcolumn %}
 {% endcolumns %}
 
