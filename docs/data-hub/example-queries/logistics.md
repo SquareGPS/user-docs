@@ -4,7 +4,9 @@ description: Logistics Case Study and SQL Recipe Book
 
 # Logistics
 
-{% include "../.gitbook/includes/enable-datahub-before-utili....md" %}
+{% hint style="warning" %}
+Enable **IoT Query** before utilizing data for building comprehensive analytics. If you don't have it yet, contact us for activation details - [iotquery@navixy.com](mailto:iotquery@navixy.com)
+{% endhint %}
 
 Logistics is a complex ecosystem involving the coordination of transport, warehouse operations, inventory, and delivery execution. Integrating telematics into logistics processes allows companies to collect real-time data on vehicles, drivers, routes, and cargo conditions, which significantly improves decision-making and operational efficiency.
 

@@ -4,7 +4,9 @@ description: Leasing Case Study and SQL Recipe Book
 
 # Leasing
 
-{% include "../.gitbook/includes/enable-datahub-before-utili....md" %}
+{% hint style="warning" %}
+Enable **IoT Query** before utilizing data for building comprehensive analytics. If you don't have it yet, contact us for activation details - [iotquery@navixy.com](mailto:iotquery@navixy.com)
+{% endhint %}
 
 Leasing companies (particularly banks and fleet‑leasing providers) retain ownership of the vehicle or equipment while the client merely rents its use, so they absorb the asset‑related risk throughout the contract. 
 
