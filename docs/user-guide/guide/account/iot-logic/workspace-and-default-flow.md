@@ -4,7 +4,7 @@
 
 The workspace consists of three sections: **Flow settings bar (1)**, **Node pane (2)**, and **Canvas (3)**.
 
-<figure><img src="../../../.gitbook/assets/Workspace.webp" alt="IoT Logic workspace example (with a basic 3-step flow) visually divided by the numbered sections"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/IoT_Logic_workspace_example.webp" alt="IoT Logic workspace example (with a basic 3-step flow) visually divided by the numbered sections"><figcaption></figcaption></figure>
 
 ### 1 - Flow settings bar
 
@@ -14,6 +14,7 @@ The main controls for managing your data flows are gathered in the top menu bar:
   * **Pencil icon:** Allows editing flow information like **Flow name** and **Description**, and also switching it on/off. The button becomes active only if a flow is selected and is not default.
   * **Bin icon:** Deletes the current flow configuration. If you don’t need a flow anymore, you can delete it from the platform completely.
 * **New flow:** This button opens the [flow creation window](flow-management/), where you can specify all information about your new flow.
+* **Upload:** This button allows you to import an existing flow configuration from a JSON file. This enables you to quickly replicate flow structures or migrate configurations between accounts.
 * **Data analyzer:** This button opens the [Data Stream Analyzer tool](data-stream-analyzer.md), which will help you see data from different sources and attributes and will be useful for diagnostics.
 * **Devices mapping**: Opens a table listing all devices in your account with their flow assignments, model information, and data source details. Use the search field to filter devices and quickly identify which flows contain specific devices.&#x20;
 
@@ -28,6 +29,11 @@ Available nodes are located in a separate pane on the left. You can drag-and-dro
 * [Output Endpoint](flow-management/output-endpoint-node.md): An outbound transmitting node that defines where the data is sent from the current flow.
 
 A flow can contain multiple nodes of each type. Combining various nodes in the same flow allows you to create complex data pipelines.
+
+The nodes pane also includes flow management options at the bottom:
+
+* **Save flow** button saves the current flow configuration. If you edit something in the flow, don't forget to save the changes. Unsaved changes can be discarded by the page reload.
+* **Download flow** button exports the current flow configuration as a JSON file. This is useful for backing up your flow configurations, sharing them with team members, or migrating flows to other accounts.
 
 {% hint style="info" %}
 The **Save flow** button saves the current flow configuration. If you edit something in the flow, don’t forget to save the changes. Unsaved changes can be discarded by the page reload.
