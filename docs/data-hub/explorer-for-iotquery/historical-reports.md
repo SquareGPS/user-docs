@@ -96,7 +96,7 @@ GPS coordinate validation ensures only quality positioning data contributes to d
 
 ## Mileage report
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Fleet utilization analysis, operational efficiency assessment, and work time versus non-work time usage pattern identification for optimizing vehicle deployment and identifying unauthorized usage.
 
@@ -120,7 +120,7 @@ GPS quality validation ensures only reliable positioning data (satellites > 3, n
 
 ## Trips report
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Journey pattern analysis, route optimization assessment, and operational behavior evaluation for understanding trip frequency, distance distribution, and identifying unusual travel patterns.
 
@@ -145,7 +145,7 @@ All trip timestamps convert to UTC for consistent analysis across different oper
 
 ## Downtime report
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use**: Vehicle utilization optimization, idle time cost analysis, operational efficiency assessment, and identifying excessive downtime at specific locations for improving fleet productivity and reducing fuel waste.
 

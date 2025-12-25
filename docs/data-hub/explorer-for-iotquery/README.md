@@ -10,7 +10,7 @@ Please note that this application is intended for demonstration purposes only. I
 
 Start with immediate operational needs, discover patterns that reveal optimization opportunities, then build solutions that address your unique business challenges.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Main menu items
 
