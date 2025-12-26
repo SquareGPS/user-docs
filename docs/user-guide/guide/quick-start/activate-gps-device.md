@@ -5,7 +5,9 @@ Activating a device simply means adding a new device to your user account. You c
 There are two methods of activating a GPS tracking device:
 
 1. [Activate GPS device automatically (recommended)](activate-gps-device.md#activate-gps-device-automatically) — simplifies device setup by automatically configuring your device without any manual intervention. This method is recommended for most cases except when [manual activation is required or preferred](activate-gps-device.md#activate-gps-device-manually).
-2. [Activate GPS device manually](activate-gps-device.md#activate-gps-device-manually) — requires you to physically enter configuration settings into the device using its configurator, or more direct with SMS. This option is useful if the automatic configuration is not feasible due to specific technical or regional constraints.
+2. [Activate GPS device manually](activate-gps-device.md#activate-gps-device-manually) — requires you to physically enter configuration settings into the device using its configurator, or more directly through SMS. This option is useful if the automatic configuration is not feasible due to specific technical or regional constraints.
+
+{% include "../../.gitbook/includes/device-limit-hint.md" %}
 
 ## Activate GPS device automatically
 
