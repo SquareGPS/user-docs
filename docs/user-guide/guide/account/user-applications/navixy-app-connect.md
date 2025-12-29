@@ -45,7 +45,7 @@ Developers building custom applications that work with Navixy data can integrate
 
 #### System administrators
 
-Platform administrators can control which applications users can access through the [User applications](https://www.navixy.com/docs/user/guide/account/user-applications/) feature. This provides centralized management of your application ecosystem while maintaining security standards.
+Platform administrators can control which applications users can access through the [User applications](./) feature. This provides centralized management of your application ecosystem while maintaining security standards.
 
 #### End users
 
