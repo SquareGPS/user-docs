@@ -46,7 +46,7 @@ Webhook nodes function as termination points that convert processed device data 
 The **Webhook node** offers:
 
 * **HTTP POST execution**: Sends customized HTTP POST requests to any accessible endpoint using HTTP or HTTPS protocols (HTTPS recommended)
-* **Dynamic payload construction**: Builds JSON request bodies combining static values with dynamic attributes from anywhere in the flow using `$"attribute_name"` syntax
+* **Dynamic payload construction**: Builds JSON request bodies combining static values with dynamic attributes from anywhere in the flow using `{{attribute_name}}` syntax
 * **Custom header configuration**: Supports up to 10 user-defined HTTP headers for authentication, and API-specific requirements
 * **Nested attribute support**: References complex attribute structures including nested objects and arrays within the JSON payload
 * **Independent execution**: Fires without waiting for responses or blocking the flow, enabling reliable operation regardless of external system availability
@@ -105,7 +105,7 @@ Maximum of 10 headers supported
 Define the JSON structure that will be posted to the endpoint.
 
 1. Enter valid JSON syntax in the Body field
-2. Use `$"attribute_name"` to reference any attribute from connected nodes
+2. Use `{{attribute_name}}` to reference any attribute from connected nodes
 3. Supports nested JSON structures and arrays
 4. Attribute references work with nested paths (e.g., `$"location.latitude"`)
 5. If a referenced attribute is null or doesn't exist, the value `null` will be sent in the JSON
@@ -115,15 +115,15 @@ Define the JSON structure that will be posted to the endpoint.
 ```json
 {
   "alert_type": "speed_violation",
-  "device_id": $"device_id",
-  "current_speed": $"speed_mph",
+  "device_id": "{{device_id}}",
+  "current_speed": "{{speed_mph}}",
   "threshold_exceeded": 80,
   "location": {
-    "lat": $"latitude",
-    "lng": $"longitude"
+    "lat": "{{latitude}}",
+    "lng": "{{longitude}}"
   },
-  "timestamp": $"message_time",
-  "driver": $"hardware_key"
+  "timestamp": "{{message_time}}",
+  "driver": "{{hardware_key}}"
 }
 ```
 {% endstep %}
@@ -198,7 +198,7 @@ Yes. The webhook node can access attributes from any node connected to it, inclu
 You can include any combination of:
 
 * Static values defined directly in your JSON configuration
-* Dynamic attributes from the flow using `$"attribute_name"` syntax
+* Dynamic attributes from the flow using `{{attribute_name}}` syntax
 * Nested attributes from complex data structures
 * Attributes calculated in **Initiate Attribute nodes** or processed through **Logic nodes**
 
