@@ -39,6 +39,7 @@
     * [User applications](guide/account/user-applications/README.md)
       * [Creating new User applications](guide/account/user-applications/creating-new-user-applications.md)
       * [Managing existing User applications](guide/account/user-applications/managing-existing-user-applications.md)
+      * [Navixy App Connect](guide/account/user-applications/navixy-app-connect.md)
   * [Tracking](guide/tracking/README.md)
     * [Objects list](guide/tracking/objects-list/README.md)
       * [Object widget](guide/tracking/objects-list/object-widget.md)
