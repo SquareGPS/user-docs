@@ -48,7 +48,7 @@ Dashboard Studio addresses the gap between basic reporting and full business int
 
 Dashboard Studio requires active **IoT Query** access to function. The application queries your IoT Query database directly, using the same schemas, tables, and layered architecture you access through SQL clients or other analytics tools.&#x20;
 
-Contact your service provider to request IoT Query activation if you don't have access yet. The [Getting started with IoT Query](https://claude.ai/chat/764f0b9a-f0fd-4935-b36e-4631e28d74dd) guide explains connection requirements and describes available data schemas across the Bronze, Silver, and Gold layers.
+Contact your service provider to request IoT Query activation if you don't have access yet. The [Getting started with IoT Query](../) guide explains connection requirements and describes available data schemas across the Bronze, Silver, and Gold layers.
 
 ### How to access Dashboard Studio
 
@@ -70,7 +70,7 @@ For details about open-source usage of Dashboard Studio, see [Open-source Studio
 The application source code and deployment documentation are available through the project repository at [https://github.com/SquareGPS/navixy-iot-query-dashboard](https://github.com/SquareGPS/navixy-iot-query-dashboard).
 
 {% hint style="info" %}
-Use Navixy's [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/authentication-gateway) for seamless user authentication!
+Use Navixy's [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect) for seamless user authentication!
 {% endhint %}
 
 ## Next steps
