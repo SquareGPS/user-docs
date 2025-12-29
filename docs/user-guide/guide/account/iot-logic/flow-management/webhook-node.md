@@ -25,7 +25,7 @@ The webhook nodes are configured separately for each flow in the Navixy platform
 When data reaches a Webhook node through an incoming connection, it immediately executes an HTTP POST request to the configured endpoint. The node:
 
 1. Collects current values for all attributes from connected upstream nodes
-2. Replaces dynamic attribute references (e.g., `$"speed"`) with actual values from the incoming message
+2. Replaces dynamic attribute references (e.g., `{{speed}}`) with actual values from the incoming message
 3. Constructs the complete JSON payload preserving your defined structure
 4. Sends the HTTP POST request with specified headers to the target endpoint
 5. Continues without waiting for a response, allowing the flow to proceed immediately
@@ -107,7 +107,7 @@ Define the JSON structure that will be posted to the endpoint.
 1. Enter valid JSON syntax in the Body field
 2. Use `{{attribute_name}}` to reference any attribute from connected nodes
 3. Supports nested JSON structures and arrays
-4. Attribute references work with nested paths (e.g., `$"location.latitude"`)
+4. Attribute references work with nested paths (e.g., `{{location.latitude}}`)
 5. If a referenced attribute is null or doesn't exist, the value `null` will be sent in the JSON
 
 **Example webhook body with dynamic attributes:**
