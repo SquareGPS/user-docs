@@ -25,12 +25,20 @@ After saving, your new flow appears in the workspace, and you can begin adding p
 
 ## Configuring flow components
 
-Each flow consists of interconnected nodes that define how data moves through your system. The basic components available in the **Nodes** pane include:
+IoT Logic flows are built from interconnected nodes that define how data moves through your system. Data enters through **Data Source** nodes, can be transformed by processing nodes like **Initiate Attribute**, and exits through **Output Endpoint** nodes. Additional specialized nodes, like **Action** and **Webhook** provide specific functions for automation and integration.
 
-### Data Source node
+This modular architecture supports both simple data forwarding and complex multi-stage transformations. Every functional flow requires at least one input node and one output node, with optional processing nodes in between to enrich your data according to specific business requirements.
 
-{% columns %}
-{% column %}
+### Available nodes
+
+The basic components available in the **Nodes** pane include:
+
+<details>
+
+<summary>Data Source node</summary>
+
+<figure><img src="../../../../.gitbook/assets/image-20250403-160159.png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options"><figcaption></figcaption></figure>
+
 This node establishes the entry point for device data in your flow. It processes specific devices from your Navixy account that you can:
 
 * Filter by manufacturer and model
@@ -39,72 +47,81 @@ This node establishes the entry point for device data in your flow. It processes
 * Easily select the whole device groups
 
 For detailed configuration options, see [Data Source node](data-source-node.md).
-{% endcolumn %}
 
-{% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-160159.png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options" width="375"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+</details>
 
-### Initiate Attribute node
+<details>
 
-{% columns %}
-{% column %}
+<summary>Initiate Attribute node</summary>
+
+<figure><img src="../../../../.gitbook/assets/image-20250403-160516.png" alt="Initiate Attribute node configuration panel showing attribute creation interface"><figcaption></figcaption></figure>
+
 This node enables data transformation through the [Navixy Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language). It allows you to:
 
 * Create new calculated attributes based on device parameters
 * Perform unit conversions and mathematical operations
 * Apply time-based calculations
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-160516.png" alt="Initiate Attribute node configuration panel showing attribute creation interface"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
 
 For detailed configuration options, syntax, and expression examples, see the [Initiate Attribute node](initiate-attribute-node/).
 
-### Logic node
+</details>
 
-{% columns %}
-{% column %}
+<details>
+
+<summary>Logic node</summary>
+
+<figure><img src="../../../../.gitbook/assets/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+
 This node creates intelligent branching points that route data based on logical conditions. It allows you to:
 
 * Create conditional workflows with IF-THEN/ELSE logic
 * Route data through different processing paths based on real-time conditions
 * Generate boolean attributes that record validation results
 * Build complex decision trees with multiple conditions
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
 
 For detailed configuration options, logical operators, and expression examples, see the [Logic node](logic-node/).
 
-### Action node
+</details>
 
-{% columns %}
-{% column %}
+<details>
+
+<summary>Action node</summary>
+
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+
 This node enables automated responses to device data by performing specific operations when conditions are met. It allows you to:
 
 * Send commands back to devices based on data analysis
 * Trigger external system notifications or alerts
 * Execute automated workflows based on device status changes
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
 
 For detailed configuration options, see the [Action node](action-node.md).
 
-### Output Endpoint node
+</details>
 
-{% columns %}
-{% column %}
+<details>
+
+<summary>Webhoook node</summary>
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+This node provides flexible integration with virtually any third-party application that offers API access, enabling powerful automation capabilities. It allows you to:
+
+* Connect processed device data to external systems through HTTP POST requests
+* Integrate with any service that accepts webhooks - from business intelligence platforms to custom automation tools
+* Configure custom HTTP headers and authentication methods
+* Transform data using JSON templates before transmission
+
+For detailed configuration options, authentication setup, and request/response handling, see [Webhook node](webhook-node.md).
+
+</details>
+
+<details>
+
+<summary>Output Endpoint node</summary>
+
+<figure><img src="../../../../.gitbook/assets/image-20250403-160749.png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
+
 This node defines where and how your processed data is transmitted. In its configuration, you can:
 
 * Specify destination connection details (IP/domain, port)
@@ -114,12 +131,8 @@ This node defines where and how your processed data is transmitted. In its confi
 * Create reusable endpoint profiles for consistent configurations
 
 For complete details on data transmission options, see the [Output Endpoint node](output-endpoint-node.md).
-{% endcolumn %}
 
-{% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-160749.png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+</details>
 
 {% hint style="info" %}
 Your flow should include a **Default Output Endpoint** to send data to the platform. Maintaining this connection ensures your device data remains available for visualization and management in the Navixy interface.
@@ -199,6 +212,53 @@ To switch between different flows:
 {% hint style="info" %}
 Any unsaved changes in the current flow will be lost when switching, you will be asked to confirm the action.
 {% endhint %}
+
+## Importing and exporting flows
+
+IoT Logic allows you to export flow configurations for backup purposes or to share them with other accounts. You can also import previously exported configurations to quickly set up new flows.
+
+### Exporting a flow
+
+To export your flow configuration:
+
+1. Open the flow you want to export
+2. Click the **Download flow** button in the **Nodes** pane
+3. The flow configuration downloads as a JSON file
+
+#### What gets exported
+
+The following table shows what is included and excluded from flow exports:
+
+| Component                                |       Exported       |
+| ---------------------------------------- | :------------------: |
+| Node structure and connections           | :white\_check\_mark: |
+| Attribute calculations and expressions   | :white\_check\_mark: |
+| Node names and descriptions              | :white\_check\_mark: |
+| Flow metadata                            | :white\_check\_mark: |
+| Device selections (Data Source nodes)    |           ❌          |
+| Authentication headers (Webhook nodes)   |           ❌          |
+| MQTT credentials (Output Endpoint nodes) |           ❌          |
+
+{% hint style="warning" %}
+Device selections are excluded because devices can only belong to one flow at a time. Authentication data is excluded to protect sensitive information.&#x20;
+
+After importing a flow, you need to manually add the excluded data before you can save the flow.
+{% endhint %}
+
+### Importing a flow
+
+To import a flow configuration:
+
+1. Click the **Upload** button in the flow settings bar
+2. Select the JSON file containing the exported flow configuration
+3. Review the imported flow structure
+4. Configure the excluded elements:
+   * Assign devices to Data Source nodes
+   * Add authentication headers to Webhook nodes (if applicable)
+   * Enter MQTT credentials for Output Endpoint nodes (if applicable)
+5. Save the flow
+
+The import process creates a new flow with the structure and calculations from the exported configuration, allowing you to quickly replicate complex data processing pipelines across different environments.
 
 ## Saving and activating flows
 
