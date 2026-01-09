@@ -6,7 +6,7 @@
 
 When you access an integrated application, Navixy App Connect validates your session and provides the application with secure access to your data. All authentication and authorization is handled automatically through your Navixy account.
 
-The middleware operates through a standardized [Integration Contract](https://github.com/SquareGPS/navixy-app-connect) that defines how external applications authenticate with Navixy.
+The middleware operates through a standardized, API accessible [integration contract](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect) that defines how external applications authenticate with Navixy.
 
 ## How it works
 
@@ -66,7 +66,6 @@ Dashboard Studio serves as an example of what's possible with Navixy App Connect
 
 If you're a developer interested in integrating your application with Navixy App Connect, the following resources provide complete implementation guidance:
 
-* [Integration Contract on GitHub](https://github.com/SquareGPS/navixy-app-connect) - Technical specifications and implementation guidelines
-* [API Documentation](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/commons/user/applications/authentication-gateway) - Authentication gateway endpoints and parameters
+* [API Documentation](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect#required-api-endpoint) - Technical specifications and implementation guidelines, endpoints and parameters
 
 Applications you develop can be used privately within your organization or published to the [Navixy Marketplace](https://marketplace.navixy.com/) for broader distribution. Marketplace applications undergo review to ensure they meet platform standards and security requirements.
