@@ -4,11 +4,11 @@ The asset information screen displays detailed information about the asset, incl
 
 {% columns %}
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="Vehicle information"><figcaption><p>Vehicle information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt="Vehicle information"><figcaption><p>Vehicle information</p></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="Staff information"><figcaption><p>Staff information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt="Staff information"><figcaption><p>Staff information</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -20,19 +20,19 @@ By default, the map appears at the top of the information screen. Tap and hold t
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="Fullscreen map"><figcaption><p>Fullscreen map</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="Fullscreen map"><figcaption><p>Fullscreen map</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 Tap <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13" alt="icon5.png" data-size="line"> to display the map options menu, where you can select places, geofences, and map type. Note that map type selection is currently only available on Android devices.
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><p></p><div><figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Places</p></figcaption></figure></div></td><td valign="top"><p></p><div><figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Geofences</p></figcaption></figure></div></td><td valign="top"><p></p><div><figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Map types</p></figcaption></figure></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><p></p><p><img src="../../../.gitbook/assets/image (4) (2).png" alt="Places" data-size="original"></p></td><td valign="top"><p></p><p><img src="../../../.gitbook/assets/image (5) (2).png" alt="Geofences" data-size="original"></p></td><td valign="top"><p></p><p><img src="../../../.gitbook/assets/image (6) (2).png" alt="Map types" data-size="original"></p></td></tr></tbody></table>
 
 ### Trips
 
 Tap **Trips** to display the list of trips taken by your asset. Tap any trip to view its details, including any visited POIs and geofences. You can also view the route of one or several trips on the map in fullscreen.
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div></td><td><div><figure><img src="../../../.gitbook/assets/image (11).png" alt="Trip information"><figcaption><p>Trip information</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (12).png" alt="Trip route"><figcaption><p>Trip route</p></figcaption></figure></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (10) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1).png" alt="Trip information" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (12) (1).png" alt="Trip route" data-size="original"></td></tr></tbody></table>
 
 To filter the display of trips, such as by time period and other parameters, tap <img src="../../../.gitbook/assets/image-20250328-095604.png" alt="Settings" data-size="line"> and open the **Date range and settings**:
 
@@ -50,7 +50,7 @@ Tap an event to display its details. You can also tap the map on top of the scre
 Map type selection is currently only available on Android devices.
 {% endhint %}
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (20).png" alt="Events list"><figcaption><p>Events list</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (17).png" alt="Event information"><figcaption><p>Event information</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (19).png" alt="Event map"><figcaption><p>Event map</p></figcaption></figure></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (20).png" alt="Events list" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (17).png" alt="Event information" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (19).png" alt="Event map" data-size="original"></td></tr></tbody></table>
 
 ### Reminders
 

@@ -53,7 +53,7 @@ Here are some examples of protocols available for various purposes:
 
 | Protocol                       | Description                                                                                                                   |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| **Maquinaria Amarilla** (🇨🇴) | SOAP-based protocol mandatory for yellow machinery, reporting to police servers.                                              |
+| **Maquinaria Amarilla** (🇨🇴) | SOAP-based protocol mandatory for Colombia, reporting to police servers.                                                      |
 | **Olympstroy** (🇷🇺)          | SOAP-based protocol used during the preparation for the 2014 Olympic Games.                                                   |
 | **OSINERGMIN** (🇵🇪)          | Protocol for sending telematic information to the Peruvian government for monitoring units in industries like mining and gas. |
 | **RNIS** (🇷🇺)                | Used in Moscow's regional navigation and information system for vehicle movement control.                                     |
@@ -77,16 +77,16 @@ Here are some examples of protocols available for various purposes:
 
 #### Data consolidation
 
-| Protocol                                                     | Description                                                                  |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| **AVL Control**                                              | Sends data to AVL Control servers for security management and statistics.    |
-| **Granit3**                                                  | Forwards data to Santel navigation servers.                                  |
-| **Startrack**                                                | SOAP-based protocol for sending data to Startrack's logistics system.        |
-| **Lacak.io**                                                 | Data forwarding protocol for Lacak.io.                                       |
-| [**Navixy Web Service**](/broken/pages/Kx9Hxng0GPrKcIiuZ0S4) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
-| **SA-RM**                                                    | General data forwarding protocol.                                            |
-| **Transnavigation**                                          | Forwards data to Transnavigation servers.                                    |
-| [**Wialon IPS**](wialon-ips.md)                              | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
-| **Wisetrack**                                                | Forwards data to Wisetrack servers.                                          |
+| Protocol                               | Description                                                                  |
+| -------------------------------------- | ---------------------------------------------------------------------------- |
+| **AVL Control**                        | Sends data to AVL Control servers for security management and statistics.    |
+| **Granit3**                            | Forwards data to Santel navigation servers.                                  |
+| **Startrack**                          | SOAP-based protocol for sending data to Startrack's logistics system.        |
+| **Lacak.io**                           | Data forwarding protocol for Lacak.io.                                       |
+| [**Navixy Web Service**](navixy-ws.md) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
+| **SA-RM**                              | General data forwarding protocol.                                            |
+| **Transnavigation**                    | Forwards data to Transnavigation servers.                                    |
+| [**Wialon IPS**](wialon-ips.md)        | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
+| **Wisetrack**                          | Forwards data to Wisetrack servers.                                          |
 
 These options provide a robust framework for data sharing, helping you meet regulatory requirements, integrate with enterprise systems, and consolidate data for comprehensive analysis.

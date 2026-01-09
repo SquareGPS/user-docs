@@ -24,7 +24,7 @@ The second menu shows your current filters, all of which can be configured: time
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Events</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Events</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -38,13 +38,13 @@ You can zoom in and out and center the map on your own GPS coordinates. Tap the 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Fullscreen map</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Fullscreen map</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 Tap <img src="../../../.gitbook/assets/icon5.png" alt="Map options" data-size="line"> to display the map options menu:
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Places</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Geofences</p></figcaption></figure></div></td><td valign="top"><div><figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Map types</p></figcaption></figure></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (4) (2).png" alt="Places" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (5) (2).png" alt="Geofences" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (6) (2).png" alt="Map types" data-size="original"></td></tr></tbody></table>
 
 Here, you can select places (such as client locations for delivery), geofences, and map type. Note that map type selection is currently only available on Android devices.
 

@@ -103,7 +103,7 @@ For detailed configuration options, see the [Action node](action-node.md).
 
 <summary>Webhoook node</summary>
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 This node provides flexible integration with virtually any third-party application that offers API access, enabling powerful automation capabilities. It allows you to:
 

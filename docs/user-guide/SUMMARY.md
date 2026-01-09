@@ -155,6 +155,7 @@
       * [Simpliroute](guide/devices-and-settings/data-forwarding/simpliroute.md)
       * [Unigis](guide/devices-and-settings/data-forwarding/unigis.md)
       * [Wialon IPS](guide/devices-and-settings/data-forwarding/wialon-ips.md)
+      * [Maquinaria Amarilla](guide/devices-and-settings/data-forwarding/maquinaria-amarilla.md)
     * [Auto-geofencing widget](guide/devices-and-settings/auto-geofencing-widget.md)
     * [Object management](guide/devices-and-settings/object-management/README.md)
       * [Object label widget](guide/devices-and-settings/object-management/object-label-widget.md)
