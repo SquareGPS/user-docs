@@ -1,0 +1,13 @@
+# Is there an anti-jammer device?
+
+### Question
+
+Is there an anti-jammer device?
+
+### Answer
+
+Unfortunately, there is no GPS device that can be protected from jammers. Nevertheless, if the device has assisted GPS (LBS detection), it could provide a radius in which it is possible to locate it, directly aiding in the device search.
+
+### Links
+
+* [Using GSM signals (LBS) for acquiring location](https://www.navixy.com/blog/using-gsm-signals-lbs-for-acquiring-location/)
