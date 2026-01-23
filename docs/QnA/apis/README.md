@@ -4,13 +4,58 @@ This section provides guidance for integrating with Navixy's RESTful APIs and re
 
 Essential for developers building on the Navixy platform—whether you're creating a custom mobile app, integrating GPS tracking into existing software, automating fleet operations, or extracting data for analytics. Topics include choosing between WebSockets and REST polling, handling pagination, working with events and sensors, and implementing secure authentication.
 
-### What's covered
+### Browse guides
 
-* Authentication methods and security
-* Real-time vs polling data access
-* Data retrieval and pagination
-* Events, sensors, and telemetry
-* Error handling and rate limiting
-* Batch operations
-* WebSocket connections
-* Common integration patterns
+<details>
+
+<summary>Authentication and session handling</summary>
+
+* [User session hash vs admin panel hash vs API key](user-session-hash-vs-admin-panel-hash-vs-api-key.md)
+
+</details>
+
+<details>
+
+<summary>Real-time and telemetry</summary>
+
+* [WebSockets vs get\_states API for real-time tracking data](websockets-vs-get_states-api-for-real-time-tracking-data.md)
+* [Get relevant telemetry in one API call (get\_state)](get-relevant-telemetry-in-one-api-call-get_state.md)
+* [Retrieve latest sensor readings for multiple trackers](retrieve-latest-sensor-readings-for-multiple-trackers.md)
+
+</details>
+
+<details>
+
+<summary>Errors and troubleshooting</summary>
+
+* [API error codes and HTTP statuses](api-error-codes-and-http-statuses.md)
+* [Empty list in API response](empty-list-in-api-response.md)
+
+</details>
+
+<details>
+
+<summary>Location and geocoding</summary>
+
+* [Batch geocoding support for search\_location](batch-geocoding-support-for-search_location.md)
+* [Identify a usual / longest parking location via API](identify-a-usual-longest-parking-location-via-api.md)
+
+</details>
+
+<details>
+
+<summary>Events and remote control</summary>
+
+* [Get tracker events history via API](get-tracker-events-history-via-api.md)
+* [Track when output control was changed via API](track-when-output-control-was-changed-via-api.md)
+* [Update tracker label via API](update-tracker-label-via-api.md)
+
+</details>
+
+<details>
+
+<summary>Video</summary>
+
+* [API to retrieve videos from the platform](api-to-retrieve-videos-from-the-platform.md)
+
+</details>
