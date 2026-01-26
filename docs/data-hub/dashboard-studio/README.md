@@ -46,7 +46,7 @@ Dashboard Studio addresses the gap between basic reporting and full business int
 
 ## What you need to get started
 
-Dashboard Studio requires active **IoT Query** access to function. The application queries your IoT Query database directly, using the same schemas, tables, and layered architecture you access through SQL clients or other analytics tools.&#x20;
+Dashboard Studio requires active **IoT Query** access to function. The application queries your IoT Query database directly, using the same schemas, tables, and layered architecture you access through SQL clients or other analytics tools.
 
 Contact your service provider to request IoT Query activation if you don't have access yet. The [Getting started with IoT Query](../) guide explains connection requirements and describes available data schemas across the Bronze, Silver, and Gold layers.
 
@@ -58,9 +58,39 @@ Both deployment options connect to the same IoT Query database and support ident
 
 #### Navixy-hosted
 
-Navixy-hosted deployment integrates Dashboard Studio into the Navixy platform through the [User Applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications) mechanism. This integration embeds dashboards directly within your Navixy interface, so you access analytics without leaving the platform. Authentication happens automatically through your existing Navixy session - no separate login required.
+Navixy-hosted deployment embeds Dashboard Studio into your Navixy cabinet through [User Applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications). Authentication uses the active Navixy session, so you don’t need a separate login.
+
+To begin using the Navixy Dashboard Studio:
+
+{% stepper %}
+{% step %}
+**Verify prerequisites**
+
+Ensure that IoT Query is enabled in your environment.
+{% endstep %}
+
+{% step %}
+**Add Dashboard Studio as a User Application**
+
+1. In Navixy, go to **Account settings ->**  [**User Applications**](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications) and create a new application.
+2. Set the application **URL** to [https://dashboard.tools.datahub.navixy.com/](https://dashboard.tools.datahub.navixy.com/).
+3. Add a descriptive name to your new app.
+4. Enable the **session key** authentication parameter.
+5. Save.
+{% endstep %}
+
+{% step %}
+**Use Dashboard Studio**
+
+Open the application from the main Navixy sidebar create their own analytics through the visual constructor or [SQL queries](../example-queries/).
+{% endstep %}
+{% endstepper %}
 
 Visit the [Dashboard Studio marketplace page](https://marketplace.navixy.com/shop/dashboard-studio/) for access instructions and activation details.
+
+{% hint style="info" %}
+If you need help enabling IoT Query, embedding the dashboard, or configuring curated analytics, our team can support you throughout the setup. Please [contact us](mailto:iotquery@navixy.com) to assist you with the setup process.
+{% endhint %}
 
 #### Open-source
 

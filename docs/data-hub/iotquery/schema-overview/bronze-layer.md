@@ -19,10 +19,7 @@ The interactive diagram of raw\_business\_data schema is available on **dbdiagra
 
 Find raw business data schema details below.
 
-<details>
-
-<summary>raw_business_data schema</summary>
-
+{% code title="raw_business_data schema" expandable="true" %}
 ```sql
 Table "vehicle_service_tasks" {
   "record_added_at" timestamp [not null]
@@ -717,8 +714,7 @@ Ref:"users"."user_id" < "devices"."owner_id"
 Ref:"users"."user_id" < "objects"."client_id"
 
 ```
-
-</details>
+{% endcode %}
 
 ### Update frequency
 
@@ -1108,10 +1104,7 @@ The interactive diagram of raw\_telematics\_data schema is available on **dbdiag
 
 Find raw telematics data schema details below.
 
-<details>
-
-<summary>raw_telematics_data schema</summary>
-
+{% code title="raw_telematics_data schema" expandable="true" %}
 ```sql
 Table tracking_data_core {
 
@@ -1191,8 +1184,7 @@ Ref: inputs.(device_id, device_time) > tracking_data_core.(device_id, device_tim
 
 Ref: states.(device_id, device_time) > tracking_data_core.(device_id, device_time)
 ```
-
-</details>
+{% endcode %}
 
 ### Key tables by category
 
@@ -1273,10 +1265,7 @@ The interactive diagram of`repo` data schema is available on **dbdiagram.io**: [
 
 Find the `repo` schema details below.
 
-<details>
-
-<summary><code>repo</code> data schema</summary>
-
+{% code title="repo data schema" expandable="true" %}
 ```sql
 // ============================================
 // New DataHub Schema - Customer Journey
@@ -1926,8 +1915,7 @@ Ref: custom_field_value_catalog.ref_item_id > ci_base.id
 
 Ref: audit_event.user_id > user.id
 ```
-
-</details>
+{% endcode %}
 
 ### Update frequency
 
