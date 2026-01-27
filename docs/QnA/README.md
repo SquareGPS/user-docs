@@ -19,7 +19,7 @@ layout:
     visible: true
 ---
 
-# ❔ QnA
+# Q\&A
 
 This is a comprehensive community-driven knowledge base containing solutions to common questions, troubleshooting guides, and best practices for the Navixy GPS tracking platform. Whether you're an end user managing a fleet, an administrator configuring the system, a developer integrating via APIs, or running an on-premise deployment, you'll find practical answers here.
 

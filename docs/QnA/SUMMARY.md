@@ -1,6 +1,6 @@
 # Table of contents
 
-* [❔ QnA](README.md)
+* [Q\&A](README.md)
 * [Users](users/README.md)
   * [A device is showing as moving on the platform even though it is offline](users/a-device-is-showing-as-moving-on-the-platform-even-though-it-is-offline.md)
   * [Teltonika device shows “GPS not updated” status](users/teltonika-device-shows-gps-not-updated-status.md)
