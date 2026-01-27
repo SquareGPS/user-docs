@@ -21,7 +21,7 @@ Common scenarios, when open-source approach can be useful:
 | **Technical skills**        | React, TypeScript, PostgreSQL, modern web development |
 
 {% hint style="info" %}
-See [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/authentication-gateway) in our developer documentation for authentication implementation details.
+See [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect) in our developer documentation for authentication implementation details.
 {% endhint %}
 
 ## Open-source components
@@ -40,7 +40,7 @@ Streamlined distribution for JavaScript project integration. The package mirrors
 
 ### Authentication gateway
 
-JWT token generation through Navixy authentication gateway. Backend handles session management transparently. See [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/authentication-gateway) in our developer documentation for implementation details.
+JWT token generation through Navixy authentication gateway. Backend handles session management transparently. See [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect) in our developer documentation for implementation details.
 
 ## Getting started
 
