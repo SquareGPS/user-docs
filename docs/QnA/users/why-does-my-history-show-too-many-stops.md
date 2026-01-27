@@ -1,8 +1,8 @@
-# My device has too many gaps
+# Why does my history show too many stops?
 
 ### Question
 
-My device has too many gaps. How do I fix this?
+My device has too many short stops. How do I fix this?
 
 ### Answer
 

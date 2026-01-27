@@ -13,7 +13,7 @@ Use this list when you don't know where to start.
 <summary>Tracking, connectivity, and data freshness</summary>
 
 * [My device isn't sending data to the platform](my-device-isnt-sending-data-to-the-platform.md)
-* [My device has too many gaps](my-device-has-too-many-gaps.md)
+* [My device has too many gaps](why-does-my-history-show-too-many-stops.md)
 * [A device is showing as moving on the platform even though it is offline](a-device-is-showing-as-moving-on-the-platform-even-though-it-is-offline.md)
 * [My device moves along the map without physically moving](my-device-moves-along-the-map-without-physically-moving.md)
 * [Accuracy and freshness of tracker data](accuracy-and-freshness-of-tracker-data.md)
@@ -116,7 +116,7 @@ Use this list when you don't know where to start.
 * [Not all devices are shown in the objects list](not-all-devices-are-shown-in-the-objects-list.md)
 * [How to match icon colors with group colors](how-to-match-icon-colors-with-group-colors.md)
 * [Scheduling a valid geo link](scheduling-a-valid-geo-link.md)
-* [Addresses are not geocoding (coordinates only)](addresses-are-not-geocoding-coordinates-only.md)
+* [Addresses are not geocoding (coordinates only)](addresses-arent-geocoded-shown-only-as-coordinates.md)
 
 </details>
 

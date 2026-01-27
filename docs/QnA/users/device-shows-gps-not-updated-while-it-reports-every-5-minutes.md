@@ -10,7 +10,7 @@ Why is my device showing “GPS not updated” even though it’s reporting ever
 
 When a device goes into the “GPS not updated status,” it generally means that the device hasn’t sent the platform a recent data packet with new, valid coordinates. This can be due to a number of things, including:
 
-* The device is only sending a heartbeat, meaning no coordinate data is being sent. Please look into the device settings and verify it’s set to send coordinates even when not moving.
+* The device is only sending a heartbeat (a keep-alive signal), meaning no coordinate data is being sent. Please look into the device settings and verify it’s set to send coordinates even when not moving.
 * If the time doesn’t currently match real-time, such as if the device is sending data from its buffer or the device isn’t in UTC+0, the device will also display as “GPS not updated.” Simply wait for the buffer to clear or adjust the timezone and the device will go back “Online.”
 
 ### Links

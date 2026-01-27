@@ -8,8 +8,6 @@ How can I read data from an eye sensor on the Navixy platform?
 
 Once we have confirmed information through Teltonika´s configurator, then it will be necessary to go to Device Settings, select the device linked to the Eye Sensor, and create a measurement sensor selecting the AVL input where we are reading the humidity, temperature, magnetism or speed information.
 
-(insert image)
-
 ### Links
 
 * [Configuring Eye Sensor on Teltonika tracker](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/sensors/configuring-eye-sensor-on-teltonika-tracker)

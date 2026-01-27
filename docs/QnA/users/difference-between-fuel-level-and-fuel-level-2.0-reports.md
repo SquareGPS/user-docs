@@ -24,3 +24,8 @@ The new fuel report should be used in these cases:
 
 * Your fuel sensor data is inaccurate, fluctuates constantly, and produces a sawtooth-like fuel level graph.
 * You need to track actual fuel consumption and refueling, compare how much fuel was refilled versus receipt records, and check whether the vehicle's fuel usage stays within normal limits to detect possible theft through more subtle methods than direct draining.
+
+### Links
+
+* [Fuel management](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management)
+* [Fuel control in Navixy](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy)
