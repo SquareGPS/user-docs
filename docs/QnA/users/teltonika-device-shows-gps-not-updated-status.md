@@ -70,4 +70,4 @@ To fix the issue, you can:
 
 [Teltonika Wiki for one model](https://wiki.teltonika-gps.com/view/FMB920_Parameter_list)
 
-[Static navigation feature explanatio](https://wiki.teltonika-gps.com/view/FMB920_System_settings#Static_Navigation_Settings).
+[Static navigation feature explanation](https://wiki.teltonika-gps.com/view/FMB920_System_settings#Static_Navigation_Settings).
