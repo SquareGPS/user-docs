@@ -2,6 +2,12 @@
 
 Dashboard Studio transforms IoT Query data into interactive visual reports. You build reports by adding panels to a canvas, writing SQL queries, and organizing the results into a navigable menu structure.
 
+Watch this video to get familiar with the Dashboard Studio app interface and learn how to create your own custom fleet dashboard:
+
+{% embed url="https://youtu.be/dyBk7XAZsWs?si=RIaMyZBXO1Gdl817" %}
+Dashboard Studio app interface, built-in dashboard templates, custom dashboard creation.
+{% endembed %}
+
 ### What are reports
 
 Reports contain panels that display data visualizations. Each panel runs a SQL query against your IoT Query database, the same Bronze and Silver layers you access through SQL clients. You arrange panels on a canvas, configure their appearance, and save the complete report to your menu. Dashboard Studio updates panels continuously to reflect current IoT Query data.
