@@ -10,6 +10,10 @@ Dashboard Studio extends your **IoT Query** access with an advanced analytics la
 
 The visual editor separates dashboard design from SQL knowledge. Advanced users write queries once against the structured data model you already access through SQL clients, while dashboard viewers interact with visualizations without touching code. You arrange panels through drag-and-drop, configure visualizations through form-based interfaces, and organize completed dashboards into logical menu structures.
 
+{% hint style="info" %}
+You can test the Dashboard Studio's functionality on mock data yourselves, <a href="https://demo.tools.iotquery.navixy.com/" class="button primary">Try demo</a>&#x20;
+{% endhint %}
+
 ## What are the key benefits?
 
 Dashboard Studio addresses common analytics challenges faced by fleet operations. The platform combines direct database access with visual simplicity, creating an analytics environment that serves both technical and operational users.
@@ -77,6 +81,10 @@ Ensure that IoT Query is enabled in your environment.
 3. Add a descriptive name to your new app.
 4. Enable the **session key** authentication parameter.
 5. Save.
+
+{% hint style="info" %}
+Dashboard Studio requires IoT Query access to be functional. You can test the integration and the app functionality on mock data by using this link in application URL - [https://demo.tools.iotquery.navixy.com/](https://demo.tools.iotquery.navixy.com/)
+{% endhint %}
 {% endstep %}
 
 {% step %}
