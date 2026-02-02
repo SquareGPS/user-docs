@@ -73,7 +73,7 @@ Ensure that IoT Query is enabled in your environment.
 **Add Dashboard Studio as a User Application**
 
 1. In Navixy, go to **Account settings ->**  [**User Applications**](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications) and create a new application.
-2. Set the application **URL** to [https://dashboard.tools.datahub.navixy.com/](https://dashboard.tools.datahub.navixy.com/).
+2. Set the application **URL** to [https://dashboard.tools.iotquery.navixy.com/](https://dashboard.tools.iotquery.navixy.com/).
 3. Add a descriptive name to your new app.
 4. Enable the **session key** authentication parameter.
 5. Save.
@@ -100,7 +100,7 @@ For details about open-source usage of Dashboard Studio, see [Open-source Studio
 The application source code and deployment documentation are available through the project repository at [https://github.com/SquareGPS/navixy-iot-query-dashboard](https://github.com/SquareGPS/navixy-iot-query-dashboard).
 
 {% hint style="info" %}
-Use Navixy's [Authentication Gateway](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect) for seamless user authentication!
+Use Navixy's [App Connect](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/user/applications/app-connect) for seamless user authentication!
 {% endhint %}
 
 ## Next steps
