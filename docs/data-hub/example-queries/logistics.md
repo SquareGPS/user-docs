@@ -25,6 +25,7 @@ Navixy **IoT Query**, with its robust data ingestion and time-series analytics c
 
 This case identifies assets (e.g., vehicles or trailers) that have not changed their GPS compare the **minimum and maximum coordinates** during the period. If both values fall within a very narrow range (a tolerance threshold, e.g., ±0.01 degrees), we flag the asset as non-moving. The query also joins with the objects and vehicles tables in raw\_business\_data to retrieve meaningful asset labels for the result output.
 
+{% code expandable="true" %}
 ```sql
 WITH gps_bounds AS (
     SELECT
@@ -45,7 +46,7 @@ stationary_devices AS (
     WHERE location_records > 10 -- exclude devices with very sparse data
 	AND((max_lat - min_lat) <= 2000 -- ~10 meters
 		OR
-      	(max_lon - min_lon) <= 1000  -- ~10 meters
+      	(max_lon - min_lon) <= 1000)  -- ~10 meters
     		)
 SELECT
     v.vehicle_id,
@@ -62,6 +63,7 @@ JOIN raw_business_data.objects o ON o.device_id = sd.device_id
 LEFT JOIN raw_business_data.vehicles v ON v.object_id = o.object_id
 ORDER BY gb.location_records DESC;
 ```
+{% endcode %}
 
 ## **Vehicle Downtime Analysis** <a href="#vehicle-downtime-analysis" id="vehicle-downtime-analysis"></a>
 
@@ -71,6 +73,7 @@ The core of the downtime analysis lies in leveraging the vehicle\_service\_tasks
 
 The query calculates total downtime per vehicle by summing up the durations of all its service tasks (in hours). It also allows breakdown by planned vs unplanned maintenance by using the is\_unplanned flag. To make the results more actionable, it joins with the vehicles table to include vehicle labels, registration numbers, and model information.
 
+{% code expandable="true" %}
 ```sql
 WITH downtime_durations AS (
     SELECT
@@ -98,6 +101,7 @@ JOIN raw_business_data.vehicles v ON v.vehicle_id = dd.vehicle_id
 GROUP BY v.vehicle_id, v.vehicle_label, v.registration_number, v.model
 ORDER BY total_downtime_hours DESC;
 ```
+{% endcode %}
 
 ## **Route Deviation Detection** <a href="#route-deviation-detection" id="route-deviation-detection"></a>
 
@@ -107,6 +111,7 @@ This logic compares the vehicle’s actual GPS positions from tracking\_data\_co
 
 The query joins each GPS position with every known route zone using a spatial **CROSS JOIN**, then applies ST\_DWithin() to check if the vehicle was within the permitted corridor. We isolate the rows where the vehicle was **outside all geofenced routes** and flag them as deviations. The final output lists these deviations, including the device, timestamp, vehicle label, and how far the point was from the nearest zone center.
 
+{% code expandable="true" %}
 ```sql
 WITH positions AS (
     SELECT
@@ -152,6 +157,7 @@ SELECT
 FROM deviations_only
 ORDER BY device_time DESC;
 ```
+{% endcode %}
 
 ## **Engine Hours Summary per Vehicle / Driver / Day (Last 7 Days)** <a href="#engine-hours-summary-per-vehicle-driver-day-last-7-days" id="engine-hours-summary-per-vehicle-driver-day-last-7-days"></a>
 
@@ -161,6 +167,7 @@ The states table in raw\_telematics\_data records **time-series engine state ind
 
 To tie engine activity to both **vehicles and drivers**, we use the objects, vehicles, and driver\_history tables from raw\_business\_data. We associate each state record to the current driver on that object (via driver assignment history) and to the corresponding vehicle. We then group the data by day, vehicle, and driver, summing total active engine time (in hours).
 
+{% code expandable="true" %}
 ```sql
 WITH inputs_core AS (
    SELECT
@@ -239,6 +246,7 @@ GROUP BY activity_day, vehicle_label, registration_number, object_label, driver_
 ORDER BY activity_day DESC, vehicle_label;
 
 ```
+{% endcode %}
 
 ## **Temperature (and Humidity) Violation Events in the Last 7 Days** <a href="#temperature-and-humidity-violation-events-in-the-last-7-days" id="temperature-and-humidity-violation-events-in-the-last-7-days"></a>
 
@@ -248,37 +256,36 @@ This query extracts **sensor input data** from the inputs table in the raw\_tele
 
 The main filtering logic is based on **sensor name patterns** and a comparison of their **numeric values against thresholds** (e.g., >25°C for temperature, >80% for humidity). Because value is stored as text, we cast it to numeric before applying the threshold conditions. To enrich the results, we join with the objects table to retrieve vehicle or asset labels, which improves interpretability for fleet managers.
 
+{% code expandable="true" %}
 ```sql
 WITH recent_sensor_data AS (
    SELECT
        i.device_id,
        i.device_time,
        i.sensor_name,
-       i.value::float
+       i.value::float AS value
    FROM raw_telematics_data.inputs i
    WHERE i.device_time >= now() - interval '1 hour'
-),
-calibration_data AS (
-   SELECT
-       sensor_id,
-       value AS cal_value,
-       volume AS cal_volume
-   FROM raw_business_data.sensor_calibration_data
 ),
 sensor_meta AS (
    SELECT
        sd.device_id,
        sd.input_label,
-       sd.sensor_id
+       sd.sensor_id,
+       sd.sensor_type,
+       sd.calibration_data
    FROM raw_business_data.sensor_description sd
 ),
 joined_data AS (
    SELECT
        rsd.*,
-       sm.sensor_id
+       sm.sensor_id,
+       sm.sensor_type,
+       sm.calibration_data
    FROM recent_sensor_data rsd
    LEFT JOIN sensor_meta sm
-       ON rsd.device_id = sm.device_id AND rsd.sensor_name = sm.input_label
+       ON rsd.device_id = sm.device_id
+      AND rsd.sensor_name = sm.input_label
 ),
 calibrated_data AS (
    SELECT
@@ -287,6 +294,7 @@ calibrated_data AS (
        jd.sensor_name,
        jd.value,
        jd.sensor_id,
+       jd.sensor_type,
        CASE
            WHEN cd_low.cal_value IS NOT NULL AND cd_high.cal_value IS NOT NULL THEN
                CASE
@@ -299,14 +307,22 @@ calibrated_data AS (
        END AS calibrated_value
    FROM joined_data jd
    LEFT JOIN LATERAL (
-       SELECT * FROM calibration_data
-       WHERE sensor_id = jd.sensor_id AND cal_value <= jd.value
-       ORDER BY cal_value DESC LIMIT 1
+       SELECT
+           (p->>'in')::float  AS cal_value,
+           (p->>'out')::float AS cal_volume
+       FROM jsonb_array_elements(jd.calibration_data) AS p
+       WHERE (p->>'in')::float <= jd.value
+       ORDER BY (p->>'in')::float DESC
+       LIMIT 1
    ) cd_low ON TRUE
    LEFT JOIN LATERAL (
-       SELECT * FROM calibration_data
-       WHERE sensor_id = jd.sensor_id AND cal_value >= jd.value
-       ORDER BY cal_value ASC LIMIT 1
+       SELECT
+           (p->>'in')::float  AS cal_value,
+           (p->>'out')::float AS cal_volume
+       FROM jsonb_array_elements(jd.calibration_data) AS p
+       WHERE (p->>'in')::float >= jd.value
+       ORDER BY (p->>'in')::float ASC
+       LIMIT 1
    ) cd_high ON TRUE
 ),
 violations AS (
@@ -316,15 +332,14 @@ violations AS (
        cd.sensor_name,
        cd.calibrated_value,
        CASE
-           WHEN sd.sensor_type = 'temperature' AND cd.calibrated_value > 25 THEN 'High Temperature'
-           WHEN sd.sensor_type = 'temperature' AND cd.calibrated_value < 0 THEN 'Low Temperature'
-           WHEN sd.sensor_type = 'humidity' AND cd.calibrated_value > 80 THEN 'High Humidity'
+           WHEN cd.sensor_type = 'temperature' AND cd.calibrated_value > 25 THEN 'High Temperature'
+           WHEN cd.sensor_type = 'temperature' AND cd.calibrated_value < 0 THEN 'Low Temperature'
+           WHEN cd.sensor_type = 'humidity' AND cd.calibrated_value > 80 THEN 'High Humidity'
            ELSE NULL
        END AS violation_type
    FROM calibrated_data cd
-   left join raw_business_data.sensor_description sd on sd.device_id = cd.device_id and sd.input_label = cd.sensor_name
-   WHERE sensor_type in ('temperature', 'humidity')
-   )
+   WHERE cd.sensor_type IN ('temperature', 'humidity')
+)
 SELECT
    v.vehicle_label,
    o.object_label,
@@ -335,11 +350,14 @@ SELECT
    vio.calibrated_value,
    vio.violation_type
 FROM violations vio
-JOIN raw_business_data.objects o ON o.device_id = vio.device_id
-LEFT JOIN raw_business_data.vehicles v ON v.object_id = o.object_id
+JOIN raw_business_data.objects o
+  ON o.device_id = vio.device_id
+LEFT JOIN raw_business_data.vehicles v
+  ON v.object_id = o.object_id
 ORDER BY vio.device_time DESC;
 
 ```
+{% endcode %}
 
 ## **Unauthorized Stops (Last 24 Hours)** <a href="#unauthorized-stops-last-24-hours" id="unauthorized-stops-last-24-hours"></a>
 
@@ -349,6 +367,7 @@ The query analyzes **location points with low or zero speed** using the The quer
 
 To detect **unauthorized stops**, it filters out locations that fall within known **geofenced zones** (zones table) using PostGIS's ST\_DWithin. Only stops **outside of any zone buffer** are reported. The result includes vehicle ID, object label, registration, timestamps, duration, and coordinates for each stop.
 
+{% code expandable="true" %}
 ```sql
 WITH speed_data AS (
     SELECT
@@ -425,6 +444,7 @@ SELECT
 FROM with_metadata
 ORDER BY stop_start_time DESC;
 ```
+{% endcode %}
 
 ## **Off-Hour Usage Detection** <a href="#off-hour-usage-detection" id="off-hour-usage-detection"></a>
 
@@ -434,6 +454,7 @@ The logic is built on the tracking\_data\_core table from raw\_telematics\_data,
 
 To provide clarity, we enrich the GPS data with object and vehicle metadata from raw\_business\_data (e.g., vehicle label, registration, object ID). For more meaningful summaries, we optionally aggregate the usage to count **how many off-hour events** occurred per vehicle and when they happened. This can help in identifying patterns or repeat offenders.
 
+{% code expandable="true" %}
 ```sql
 WITH gps_events AS (
     SELECT
@@ -489,6 +510,7 @@ SELECT
 FROM with_metadata
 ORDER BY device_time DESC;
 ```
+{% endcode %}
 
 ## **Trip counts per day** <a href="#trip-counts-per-day" id="trip-counts-per-day"></a>
 
@@ -504,6 +526,7 @@ Each trip includes:
 
 We calculate the trip count and total distance per day per vehicle, optionally enriched with vehicle labels from the vehicles table.
 
+{% code expandable="true" %}
 ```sql
 WITH base_points AS (
     SELECT
@@ -549,7 +572,7 @@ trip_metrics AS (
         tp.end_lon,
         tp.trip_start_time::date AS trip_day,
         -- Approximate distance using Haversine formula (in km)
-        111 * SQRT(POWER(tp.end_lat - tp.start_lat, 2) + POWER((tp.end_lon - tp.start_lon) * COS(RADIANS(tp.start_lat)), 2)) AS distance_km
+        111 * SQRT(POWER(tp.end_lat - tp.start_lat, 2) + POWER((tp.end_lon - tp.start_lon) * COS(RADIANS(tp.start_lat)), 2))::numeric AS distance_km
     FROM trip_points tp
     WHERE tp.trip_end_time IS NOT NULL
 )
@@ -566,6 +589,7 @@ LEFT JOIN raw_business_data.vehicles v ON v.object_id = o.object_id
 GROUP BY v.vehicle_label, v.registration_number, tm.device_id, tm.trip_day
 ORDER BY tm.trip_day DESC, v.vehicle_label;
 ```
+{% endcode %}
 
 ## **Mileage Count per Vehicle per Day (Last 7 Days)** <a href="#mileage-count-per-vehicle-per-day-last-7-days" id="mileage-count-per-vehicle-per-day-last-7-days"></a>
 
@@ -579,6 +603,7 @@ We extract all GPS records from tracking\_data\_core for the past 7 days. Each G
 
 This approach provides high accuracy without relying on external odometer sensors. Optionally, the query joins with objects and vehicles to enrich results with asset metadata.
 
+{% code expandable="true" %}
 ```sql
 WITH gps_points AS (
     SELECT
@@ -615,6 +640,7 @@ LEFT JOIN raw_business_data.vehicles v ON v.object_id = o.object_id
 GROUP BY v.vehicle_label, v.registration_number, o.object_label, d.device_id, d.trip_day
 ORDER BY d.trip_day DESC, v.vehicle_label;
 ```
+{% endcode %}
 
 ## **Vehicle Event Log Report** <a href="#vehicle-event-log-report" id="vehicle-event-log-report"></a>
 
@@ -630,6 +656,7 @@ To create a usable report:
 
 This gives a **daily event timeline** across the fleet - essential for diagnostics, behavioral analysis, and proactive maintenance.
 
+{% code expandable="true" %}
 ```sql
 WITH raw_events AS (
     SELECT
@@ -680,3 +707,4 @@ SELECT
 FROM event_summary
 ORDER BY event_day DESC, vehicle_label, state_name;
 ```
+{% endcode %}

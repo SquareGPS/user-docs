@@ -809,14 +809,25 @@ For setup assistance, contact [iotquery@navixy.com](mailto:iotquery@navixy.com).
 
 Banks must track upcoming registration and insurance expirations because they’re responsible for technical inspections, registration, and insurance. Timely alerts prevent fines and vehicle downtime.
 
+{% code expandable="true" %}
 ```sql
-SELECT v.vehicle_id,       v.vehicle_label,       v.registration_number,       v.free_insurance_valid_till_date,       v.liability_insurance_valid_tillFROM raw_business_data.vehicles vWHERE v.free_insurance_valid_till_date BETWEEN CURRENT_DATE AND CURRENT_DATE + (30 * INTERVAL '1 day')   OR v.liability_insurance_valid_till   BETWEEN CURRENT_DATE1 AND CURRENT_DATE + (30 * INTERVAL '1 day');
+SELECT 
+    v.vehicle_id,
+    v.vehicle_label,
+    v.registration_number,
+    v.free_insurance_valid_till_date,
+    v.liability_insurance_valid_till
+FROM raw_business_data.vehicles v
+WHERE v.free_insurance_valid_till_date BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '30 days'
+    OR v.liability_insurance_valid_till BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '30 days';
 ```
+{% endcode %}
 
 ## **Driver License Expiry**
 
 Although not always mandatory, offering proactive license-expiry alerts is a value-add service. Early warnings let clients renew licenses before they lapse. Please note you
 
+{% code expandable="true" %}
 ```sql
 SELECT e.employee_id,
        e.first_name || ' ' || e.last_name AS driver_name,
@@ -825,6 +836,7 @@ SELECT e.employee_id,
 FROM raw_business_data.employees e
 WHERE e.driver_license_valid_till BETWEEN CURRENT_DATE AND CURRENT_DATE + (30 * INTERVAL '1 day');
 ```
+{% endcode %}
 
 ## Geofence Exit (Country Border) <a href="#geofence-exit-country-border" id="geofence-exit-country-border"></a>
 
@@ -834,6 +846,7 @@ This SQL query is designed to monitor and identify when a device exits a predefi
 
 The query then retrieves device tracking data within a specified time range, converting raw latitude and longitude values into geographic points. It calculates whether each device point is inside or outside the predefined zone using the ST\_Contains function, which checks for spatial containment. The calculated parameter pos indicates 'inside' if the point is within the zone and 'outside' otherwise. Finally, the query filters these results to detect transitions where a device moves from inside the zone to outside, using a window function to compare the current position with the previous one. This logic helps in monitoring device movements and detecting exit events from specific geographic areas. Make sure you add the correct value for the parameter: `z.zone_label = 'your_zone_label'.`
 
+{% code expandable="true" %}
 ```sql
 WITH zone AS (
   SELECT z.zone_id,
@@ -868,14 +881,57 @@ FROM filtered_states
 WHERE prev_pos = 'inside' AND pos = 'outside';
 
 ```
+{% endcode %}
 
 ## **Routine Inspections by Time Interval**
 
 Some maintenance tasks recur on fixed time schedules. The system should flag vehicles whose next inspection/check is due within a defined interval.
 
+{% code expandable="true" %}
 ```sql
-SELECT vehicle_id,       description,       start_date,       date_repeat_interval,       start_date + date_repeat_interval * floor(EXTRACT(EPOCH FROM (CURRENT_DATE - start_date)) /                                                 EXTRACT(EPOCH FROM date_repeat_interval)) AS last_due,       start_date + date_repeat_interval * (floor(EXTRACT(EPOCH FROM (CURRENT_DATE - start_date)) /                                                  EXTRACT(EPOCH FROM date_repeat_interval)) + 1) AS next_dueFROM raw_business_data.vehicle_service_tasksWHERE date_repeat_interval IS NOT NULL  AND start_date + date_repeat_interval * (floor(EXTRACT(EPOCH FROM (CURRENT_DATE - start_date)) /                                                 EXTRACT(EPOCH FROM date_repeat_interval)) + 1)      BETWEEN CURRENT_DATE AND CURRENT_DATE + (30 * INTERVAL '1 day');
+WITH t AS (
+    SELECT
+        vehicle_id,
+        description,
+        start_date,
+        date_repeat_interval,
+        make_interval(days => date_repeat_interval) AS repeat_interval
+    FROM raw_business_data.vehicle_service_tasks
+    WHERE date_repeat_interval IS NOT NULL
+)
+SELECT
+    vehicle_id,
+    description,
+    start_date,
+    date_repeat_interval,
+    start_date
+        + repeat_interval
+            * floor(
+                extract(epoch from (current_date::timestamp - start_date))
+                / extract(epoch from repeat_interval)
+              ) AS last_due,
+    start_date
+        + repeat_interval
+            * (
+                floor(
+                    extract(epoch from (current_date::timestamp - start_date))
+                    / extract(epoch from repeat_interval)
+                ) + 1
+              ) AS next_due
+FROM t
+WHERE (
+        start_date
+            + repeat_interval
+                * (
+                    floor(
+                        extract(epoch from (current_date::timestamp - start_date))
+                        / extract(epoch from repeat_interval)
+                    ) + 1
+                  )
+      ) BETWEEN current_date
+          AND (current_date + interval '30 days');
 ```
+{% endcode %}
 
 ## **Service by Mileage Threshold (Minor/Major)**
 
@@ -883,6 +939,7 @@ Minor and major services are triggered by mileage since the last service event. 
 
 Please note the `vst.description field should have relevant comments / description to use it for the filters in the SQL code below.`
 
+{% code expandable="true" %}
 ```sql
 SELECT
   v.vehicle_id,
@@ -911,11 +968,13 @@ FROM
     AND (vst.description ILIKE '%minor%' OR vst.description ILIKE '%major%')
 
 ```
+{% endcode %}
 
 ## **Mileage Cap & Penalties**
 
 Leasing contracts often cap mileage (e.g., 25,000 km/year). If the limit is exceeded, penalty clauses apply. The system must compare actual mileage over the contract period with the agreed limit and calculate fees.
 
+{% code expandable="true" %}
 ```sql
 WITH driven AS (
   SELECT
@@ -950,11 +1009,13 @@ FROM
   driven d
   JOIN limits l ON d.object_id = l.object_id;
 ```
+{% endcode %}
 
 ## **Engine Hours Monitoring**
 
 For machinery and agricultural equipment, operating hours—not mileage—drive maintenance and billing. Engine-hour data (e.g., from CAN-Bus) must be monitored and summarized.
 
+{% code expandable="true" %}
 ```sql
 WITH last_service AS (
   SELECT
@@ -995,6 +1056,7 @@ FROM
     ON vst.vehicle_id = v.vehicle_id
     AND vst.completion_date = ls.last_service_date
 ```
+{% endcode %}
 
 ## **Harsh Braking Events**
 
@@ -1002,6 +1064,7 @@ Driving behavior affects wear and contract compliance. Detecting harsh braking h
 
 SQL query below first calculates the speed in kilometers per hour and the time difference between consecutive data points for each device. Using this information, it then computes the deceleration rate in kilometers per hour per second. Finally, it filters and returns records where the deceleration rate is 20 km/h per second or higher, indicating significant deceleration events.
 
+{% code expandable="true" %}
 ```sql
 WITH spd AS (
   SELECT
@@ -1029,6 +1092,7 @@ SELECT *
 FROM decels
 WHERE decel_kmh_per_sec >= 20;
 ```
+{% endcode %}
 
 ## **Harsh Acceleration Events**
 
@@ -1036,6 +1100,7 @@ Aggressive acceleration increases wear on tires, transmissions, drivetrains, and
 
 The SQL query below is designed to identify significant acceleration events from a dataset of tracking data. It first calculates the speed in kilometers per hour and the time difference between consecutive data points for each device. Using this information, it then computes the acceleration rate in kilometers per hour per second. Finally, it filters and returns records where the acceleration rate meets or exceeds a specified threshold, indicating significant acceleration events.
 
+{% code expandable="true" %}
 ```sql
 WITH spd AS (
   SELECT
@@ -1059,6 +1124,7 @@ WHERE
   prev_kmh IS NOT NULL
   AND (kmh - prev_kmh) / NULLIF(dt_sec, 0) >= 20;
 ```
+{% endcode %}
 
 ## **Sudden Turns / Cornering**
 
@@ -1066,6 +1132,7 @@ Sharp turns combined with abrupt speed changes indicate risky driving. Tracking 
 
 This SQL query is designed to identify significant changes in direction and speed from tracking data over a specified time period. It first converts raw latitude and longitude values into decimal degrees and calculates the speed in kilometers per hour. Using the LAG function, it retrieves previous location and speed data for each device, allowing for the computation of changes over time. The query then calculates the heading change in degrees using trigonometric functions to determine the bearing between consecutive points. It also computes the change in speed between these points. Finally, the query filters the results to include only those records where the absolute change in heading is 10 degrees or more and the absolute change in speed is 5 km/h or more, identifying significant maneuvers or events in the tracking data.
 
+{% code expandable="true" %}
 ```sql
 WITH pts AS (
   SELECT
@@ -1098,11 +1165,63 @@ WHERE abs(heading_change) >= 10
   AND abs(delta_speed) >= 5;
 
 ```
+{% endcode %}
 
 ## **Ignition & Idle Detection**
 
 Measuring idle time (ignition on, low/no speed) helps reduce fuel waste and identify misuse. Long idling periods should be reported and managed.
 
+{% hint style="info" %}
+[Dashboard Studio](../dashboard-studio/) and similar tools do not support variable substitution (`:variable` syntax). Replace all parameters with literal values before running this query. See the example below for the correct format.
+{% endhint %}
+
+{% code expandable="true" %}
 ```sql
-WITH ign AS (  SELECT device_id,         device_time,         value::int AS ign_on  FROM raw_telematics_data.states  WHERE state_name = 'ignition'    AND device_time BETWEEN :from_ts AND :to_ts),spd AS (  SELECT device_id, device_time, speed/100.0 AS kmh  FROM raw_telematics_data.tracking_data_core  WHERE device_time BETWEEN :from_ts AND :to_ts),merged AS (  SELECT i.device_id,         i.device_time,         i.ign_on,         s.kmh,         LEAD(i.device_time) OVER (PARTITION BY i.device_id ORDER BY i.device_time) AS next_time  FROM ign i  LEFT JOIN spd s USING (device_id, device_time))SELECT device_id,       device_time AS idle_start,       next_time   AS idle_end,       EXTRACT(EPOCH FROM (next_time - device_time))/60 AS idle_minutesFROM mergedWHERE ign_on = 1 AND kmh < :idle_speed AND next_time - device_time >= INTERVAL ':idle_min minutes';
+WITH ign AS (
+    SELECT
+        device_id,
+        device_time,
+        value::int AS ign_on
+    FROM raw_telematics_data.states
+    WHERE state_name = 'ignition'
+      AND device_time BETWEEN :from_ts::timestamptz AND :to_ts::timestamptz
+      -- For Dashboard Studio, replace :from_ts and :to_ts with literal timestamps:
+      -- TIMESTAMPTZ '2024-01-01 00:00:00+00' AND TIMESTAMPTZ '2024-01-07 00:00:00+00'
+),
+spd AS (
+    SELECT
+        device_id,
+        device_time,
+        speed / 100.0 AS kmh
+    FROM raw_telematics_data.tracking_data_core
+    WHERE device_time BETWEEN :from_ts AND :to_ts
+    -- For Dashboard Studio, replace :from_ts and :to_ts with literal timestamps:
+    -- TIMESTAMPTZ '2024-01-01 00:00:00+00' AND TIMESTAMPTZ '2024-01-07 00:00:00+00'
+),
+merged AS (
+    SELECT
+        i.device_id,
+        i.device_time,
+        i.ign_on,
+        s.kmh,
+        LEAD(i.device_time) OVER (
+            PARTITION BY i.device_id
+            ORDER BY i.device_time
+        ) AS next_time
+    FROM ign i
+    LEFT JOIN spd s USING (device_id, device_time)
+)
+SELECT
+    device_id,
+    device_time AS idle_start,
+    next_time   AS idle_end,
+    EXTRACT(EPOCH FROM (next_time - device_time)) / 60.0 AS idle_minutes
+FROM merged
+WHERE ign_on = 1
+  AND kmh < :idle_speed
+  -- For Dashboard Studio, replace :idle_speed with a numeric value, e.g., 5
+  AND next_time IS NOT NULL
+  AND (next_time - device_time) >= (:idle_min::int * INTERVAL '1 minute');
+  -- For Dashboard Studio, replace :idle_min with a numeric value, e.g., (5 * INTERVAL '1 minute')
 ```
+{% endcode %}
