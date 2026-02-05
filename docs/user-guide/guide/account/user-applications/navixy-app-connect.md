@@ -19,6 +19,10 @@ Navixy App Connect operates through a standardized integration contract that ext
 
 This process is transparent to you as a user. You simply access the application through your Navixy account without additional authentication steps.
 
+Watch this video to get a quick and visual walkthrough of authenticating a 3rd-party app with Navixy session using App Connect:
+
+{% embed url="https://youtu.be/y8Wwob-Uw3I?si=6sbQXkTvQW2bgmb8" %}
+
 ## What value does it provide?
 
 #### Unified access control
