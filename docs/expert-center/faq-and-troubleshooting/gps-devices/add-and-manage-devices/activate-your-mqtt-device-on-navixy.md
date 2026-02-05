@@ -155,7 +155,7 @@ When configuring an MQTT-compatible device, the user must specify the username a
 * **Specify the IMEI:** Enter the IMEI of the device.
 * **Activate the Device:** Click the “Activate” button.
 
-![](<../../../.gitbook/assets/unknown (5).png>)
+<figure><img src="../../../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
 
 <br>
 
