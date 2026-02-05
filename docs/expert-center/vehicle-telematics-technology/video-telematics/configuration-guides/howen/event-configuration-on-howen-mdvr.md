@@ -32,9 +32,9 @@ Let's walk through setting up an alert for lane departure warnings:
 
 1. Create a new alert
 2. Select "State Field Value" as the alert type\
-   ![Live example - State field value alert rule type](attachments/image-20240417-091335.png)
+   ![Live example - State field value alert rule type](../../../../.gitbook/assets/image-20240417-091335.png)
 3. In the settings tab:\
-   ![Live example - State field and expected value settings](attachments/image-20240417-091116.png)
+   ![Live example - State field and expected value settings](../../../../.gitbook/assets/image-20240417-091116.png)
 
 * State Field: `sub_event_code`
 * Expected Value: `30_2` (lane departure warning code)

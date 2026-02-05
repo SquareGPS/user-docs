@@ -100,7 +100,7 @@ Many businesses use [geofences](https://www.navixy.com/blog/improve-fleet-oversi
 
 Many fleets are concerned with safety, which is why OBD trackers are often used to improve driver behavior behind the wheel. For instance, many of these devices can detect harsh braking events, which a fleet manager can use to both monitor vehicle wear and determine which drivers have the most violations. Certain OBD devices are even capable of monitoring speed and detecting crashes for additional alerts.
 
-Navixy’s [Eco Driving](broken-reference) system offers adjustable penalty settings for speeding and harsh driving to help companies score employees on safety. They can then address which drivers need coaching in which areas.
+Navixy’s [Eco Driving](/broken/spaces/446mKak1zDrGv70ahuYZ/pages/XNkW24afnMe547IH7tqf) system offers adjustable penalty settings for speeding and harsh driving to help companies score employees on safety. They can then address which drivers need coaching in which areas.
 
 ### Harsh driving
 

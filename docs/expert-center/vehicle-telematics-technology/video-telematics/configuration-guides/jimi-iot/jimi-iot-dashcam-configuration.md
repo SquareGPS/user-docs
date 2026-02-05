@@ -39,7 +39,7 @@ Otherwise, here are step-by-step instructions for configuring your Jimi IoT devi
 1. Find the device’s IMEI number. Then, log in to the platform and navigate to the user account where you want to add the new device. Click the 'Device Activation' button.
 2. Enter the device's name, assign it to a group if necessary, and type your device's model into the search line (for example, Jimi JC261).
 
-![Device configuration](attachments/image-20231023-134921.png)
+![Device configuration](<../../../../.gitbook/assets/image-20231023-134921 (2).png>)
 
 * Send the following SMS commands to your tracker (this is why we needed a SIM card with SMS functionality):
   * `COREKITSW,0#`
@@ -53,7 +53,7 @@ Note: APN settings depend on your device’s SIM card and should be entered with
 2. Check that the device is online several minutes after sending the SMS commands. If the device is not online, ensure the SIM card has sufficient credit and can receive SMS commands. You can also check the full list of [potential issues and solutions here](../../../../faq-and-troubleshooting/gps-devices/add-and-manage-devices/troubleshoot-device-activation.md).
 3. The process is fully automated and doesn't require manual configuration. However, should you prefer to set up the device manually or if default commands sending is disabled in the Admin panel settings, you can use the following list of commands as a reference. These are sent to the device after it connects to the platform:
 
-* `COREKITSW,0`  - allows setting a custom server for video,
+* `COREKITSW,0` - allows setting a custom server for video,
 * `UPLOAD,http://<server>:7514/upload/<IMEI>` - sets the server for uploading video like playback and event videos,
 * `FILELIST,http://<server>:7514/filelist/<IMEI>` - sets the server where the platform can access a list of videos for playback requests,
 * `RSERVICE,rtmp.x-gpsmail.com:1935/encoder` - sets the live stream server,
@@ -81,7 +81,7 @@ Replace with your device’s IMEI and with the server IP, both without <> signs.
 
 5. After setting the timezone, open the devices and settings tab and change the device’s timezone to match the one you've set on your device.
 
-![](attachments/image-20231030-145358.png)
+![](../../../../.gitbook/assets/image-20231030-145358.png)
 
 ## Configuration Tips
 

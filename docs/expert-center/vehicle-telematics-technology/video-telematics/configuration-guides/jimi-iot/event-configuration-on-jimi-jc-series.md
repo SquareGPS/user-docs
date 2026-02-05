@@ -18,9 +18,9 @@ Let's walk through setting up an alert for when a seat belt is unplugged:
 
 1. Create a new alert
 2. Select "State Field Value" as the alert type\
-   ![Example Use Case Seat Belt Alert - Setting alert type](attachments/browser_KjcUn9UmiH.png)\
+   ![Example Use Case Seat Belt Alert - Setting alert type](../../../../.gitbook/assets/browser_KjcUn9UmiH.png)\
    3\. In the settings tab:\
-   ![Live example - Setting event code 167 for seat belt unplug detection](attachments/image-20241024-092818.png)
+   ![Live example - Setting event code 167 for seat belt unplug detection](../../../../.gitbook/assets/image-20241024-092818.png)
 
 * State Field: `event_code`
 * Expected Value: `167` (seat belt unplugged code)

@@ -52,8 +52,7 @@ By adjusting the sensitivity settings of the camera, tables were created to show
 | Driver Detection                  | ✅    | ✅           | <p><br></p> | <p><br></p> |
 | Camera Cover                      | ✅    | ✅           | <p><br></p> | <p><br></p> |
 
-\
-
+<br>
 
 **Low Sensitivity**
 
@@ -87,8 +86,7 @@ From a benchmarking perspective, HDR can be evaluated through measurable factors
 
 By incorporating these benchmarks, fleet managers can differentiate between cameras that truly deliver reliable evidence and those that may fail in critical scenarios. Ultimately, this means greater trust in incident reports, stronger insurance claims, and safer fleet operations.
 
-Let’s look at an example from two cameras in the laboratory and compare how they respond to a flashlight.\
-
+Let’s look at an example from two cameras in the laboratory and compare how they respond to a flashlight.<br>
 
 <figure><img src="../../../../.gitbook/assets/Screenshot at Sep 12 10-53-57.png" alt=""><figcaption></figcaption></figure>
 
@@ -107,8 +105,7 @@ Let’s look at an example from two cameras in the laboratory and compare how th
 
 
 
-Camera 2 clearly struggles to execute the necessary contrast adjustments during image processing. However, additional field-testing could determine whether its image sharpness improves under different conditions.\
-
+Camera 2 clearly struggles to execute the necessary contrast adjustments during image processing. However, additional field-testing could determine whether its image sharpness improves under different conditions.<br>
 
 <figure><img src="../../../../.gitbook/assets/Screenshot at Sep 12 10-54-30.png" alt=""><figcaption></figcaption></figure>
 
@@ -125,8 +122,7 @@ Both events—triggered at the same location on different days—were flagged as
 
 When fleet vehicles travel through tunnels, cameras face one of the toughest tests of video reliability. The sudden shift from bright daylight to near darkness, and back to intense sunlight, pushes HDR (High Dynamic Range) and light response to the limit. If a camera fails here, critical details like road signs, license plates, or surrounding vehicles can be lost—making footage unreliable for coaching, safety, or insurance claims. Camera 2 shows this response from the change light crossing in a tunnel.&#x20;
 
-\
-
+<br>
 
 <figure><img src="../../../../.gitbook/assets/output (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -137,8 +133,7 @@ In a 14-second tunnel crossing, we tracked brightness across frames:
 * Minimum brightness (inside tunnel): \~58
 * Maximum brightness (exit glare): \~103
 * Mean brightness: \~89
-* Standard deviation: \~15.3\
-
+* Standard deviation: \~15.3<br>
 
 This fluctuation shows that while the camera adapts, transitions are not perfectly smooth. Some detail is sacrificed at both ends of the brightness range.
 
@@ -156,4 +151,4 @@ Our benchmarking results highlight three core insights:
 
 For fleet managers, the lesson is clear: a reliable dash cam is not the one with the flashiest specification sheet, but the one proven through structured benchmarking to deliver clarity, consistency, and trust across real-world conditions. Establishing standardized benchmarks gives operators the confidence that their investment will hold up under pressure—ensuring safer drivers, stronger claims support, and more resilient fleet operations.
 
-\
+<br>

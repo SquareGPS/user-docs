@@ -27,7 +27,7 @@ Bluetooth Low Energy uses many protocols to transmit data, interact with all par
 
 Separately, we note the GATT and ATT protocols:
 
-![](attachments/imagen-20231019-232843.png)
+![](../../.gitbook/assets/imagen-20231019-232843.png)
 
 **GATT** is an acronym for Generic Attribute Profile, which defines the way data is transferred between two low-energy Bluetooth devices using concepts called services and characteristics.
 
@@ -35,7 +35,7 @@ It uses a common data protocol called the **attribute protocol (ATT)**, which is
 
 Profile structure
 
-![](attachments/imagen-20231019-232914.png)
+![](../../.gitbook/assets/imagen-20231019-232914.png)
 
 * Attribute Handle – table index corresponding to the attribute;
 * Attribute Type – UUID that describes the type;
@@ -84,7 +84,7 @@ This TPMS sensor is called a “Direct TPMS” system. It provides more accurate
 
 Each TPMS sensor should be installed into the tire. This sensor establishes the connection with an antenna that is connected to a receiver. This system provides a stable monitoring of pressure in the tires.
 
-![](attachments/imagen-20231019-232937.png)
+![](../../.gitbook/assets/imagen-20231019-232937.png)
 
 ## Types of BLE sensors
 
@@ -106,7 +106,7 @@ The sensors can also send an additional parameter "BLE: Battery Level", which sh
 1. Configure a sensor according to the user manual
 2. Select needed sensor from the list. Usually BLE sensors have "BLE" in the label, e.g. BLE: Temperature #, BLE: Fuel etc.
 
-![](attachments/imagen-20231019-233836.png)
+![](../../.gitbook/assets/imagen-20231019-233836.png)
 
 1. Then specify other settings according to your needs.
 2. That’s all! Now the platform will show data from the BLE sensor as soon as data is received on the server.

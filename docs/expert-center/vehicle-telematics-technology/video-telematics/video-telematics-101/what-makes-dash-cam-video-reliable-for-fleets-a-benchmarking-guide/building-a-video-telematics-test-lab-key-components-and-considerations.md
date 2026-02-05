@@ -18,8 +18,7 @@ With that in mind, here’s a proposal for a simple yet effective lab setup, alo
   Ideally connected to a gaming console, it allows for realistic driving actions, recreating driver movements and interactions during tests.
 *   Dimmer / Lighting Control\
     Light management is critical. With a dimmer, you can darken or brighten the room to replicate day, night, or transitional lighting conditions. This is invaluable for checking how cameras react to sudden light changes.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot at Sep 12 11-05-19.png" alt=""><figcaption></figcaption></figure>
 
@@ -27,4 +26,4 @@ With that in mind, here’s a proposal for a simple yet effective lab setup, alo
 
 This lab design provides a controlled way to evaluate how cameras perform in different telematics scenarios: from ADAS and DMS events to general video capture quality. Of course, there are limits—some events like G-sensor triggers (rollovers, harsh braking, or aggressive cornering) are harder to replicate in a static lab. Still, for many critical use cases, this environment makes it possible to run consistent, reproducible, and insightful tests.
 
-\
+<br>

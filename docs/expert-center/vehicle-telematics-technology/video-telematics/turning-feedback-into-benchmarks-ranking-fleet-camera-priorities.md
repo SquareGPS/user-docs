@@ -36,4 +36,4 @@ For fleet managers, the true value of video telematics lies not in the promise o
 
 A well-structured benchmarking process goes further: it measures critical factors such as driver monitoring accuracy, real-time alert responsiveness, resolution, frame rate, low-light sensitivity, compression efficiency and dynamic range. By testing against real operational environments, decision-makers gain a clear understanding of how a device will actually perform, ensuring results that go beyond marketing promises and truly support safer, more efficient fleet operations.
 
-\
+<br>

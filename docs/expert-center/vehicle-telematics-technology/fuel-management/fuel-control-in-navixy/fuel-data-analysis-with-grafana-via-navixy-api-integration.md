@@ -16,7 +16,7 @@ Start by logging into your Navixy account and navigating to the Account settings
 
 ### Step 2: Launching Grafana
 
-Grafana provides 2 types of access: cloud or deployed. Cloud access could be obtained on their official website [https://grafana.com/](https://grafana.com/). Below we are going to explore how to install the package on your own server or local computer.&#x20;
+Grafana provides 2 types of access: cloud or deployed. Cloud access could be obtained on their official website [https://grafana.com/](https://grafana.com/). Below we are going to explore how to install the package on your own server or local computer.
 
 To deploy Grafana on a local Windows machine, follow these simple steps:
 
@@ -34,7 +34,7 @@ Once Grafana is launched, proceed to the "Connections" or "Plugins" menu in the 
 
 ### Step 4: Setting up the JSON API data source connection
 
-After installing the "JSON API" plugin, your Grafana instance is ready to connect with the Navixy API using the API key.&#x20;
+After installing the "JSON API" plugin, your Grafana instance is ready to connect with the Navixy API using the API key.
 
 Follow these steps to set up the connection:
 
@@ -52,9 +52,9 @@ Follow these steps to set up the connection:
 
 5. Customize any additional settings as required, and then click "Save & Test" to verify the connection.
 
-![Grafana and Navixy API - choosing data source](attachments/image-20231017-075916.png)
+![Grafana and Navixy API - choosing data source](../../../.gitbook/assets/image-20231017-075916.png)
 
-![Grafana and Navixy API - data source setting up](attachments/image-20231017-080330.png)
+![Grafana and Navixy API - data source setting up](../../../.gitbook/assets/image-20231017-080330.png)
 
 ### Step 5: Importing the Navixy dashboard template
 
@@ -64,7 +64,7 @@ To expedite the setup process, import the Navixy [dashboard template](https://gi
 
 Grafana provides a complete set of visualization objects and tools, enabling telematics professionals to effortlessly analyze and interpret complex telematics data. Let's delve into the main elements of the demo dashboard offered by Navixy which are marked in blue.
 
-![](attachments/image-20231017-083157.png)
+![](../../../.gitbook/assets/image-20231017-083157.png)
 
 ### Trackers and sensors to analyze
 
