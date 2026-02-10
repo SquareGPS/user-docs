@@ -1,97 +1,124 @@
+---
+description: >-
+  Configure Navixy-provided or custom SMTP email delivery for notifications,
+  reports, and billing alerts, including sender settings.
+---
+
 # Email gateway
 
-There are a number of situations where GPS tracking system users receive automated emails. Examples include:
+**Email gateway** is a messaging service that enables automated communication with your customers. Users receive automated emails in several key scenarios:
 
-* Event notifications (if email notification is selected)
-* Excel / PDF reports by customized schedule
-* Notifications about the need to top up the balance, etc.
+* Event notifications: Alerts triggered by specific device activities or geofence breaches.
+* Scheduled reports: Excel or PDF reports delivered according to a customized schedule.
+* Billing alerts: Notifications regarding low balances or the need to top up funds.
 
-In this case, you, as the service operator, can define through which Email gateway the mail will be delivered, as well as set the sender's address (the 'from' field).
+As the service operator, you can define which gateway handles these deliveries and customize the sender address.
 
-### **Selecting an Email Gateway**
+<figure><img src="../../.gitbook/assets/image (58).png" alt="Email gateway page" width="563"><figcaption><p>Email gateway page</p></figcaption></figure>
 
-Depending on the type of Navixy product you use and your preferences, you can choose between two options:
+The **Email gateway** page consists of two sections:
 
-* **Navixy Email Gateway** - available and free for all ServerMate users. The gateway is organized on the basis of mandrill service, which provides email delivery with high speed and guarantee. So if you are using Navixy ServerMate product, this is the recommended option.
-* **Your SMTP gateway** is an option available to users of all products: ServerMate, Cloud and On-Premise. This is a universal method where you specify through which server email messages will be delivered: your own SMTP server, any of the public services (i.e Gmail, etc.) or a specialized one (mandrill, sendgrid, mailgun, etc.).
+* **SMTP server configuration**: Choose between Navixy's email service or enter a custom gateway
+* **Email settings**: Enter sender's email address and a signature automatically applied to all sent emails
 
-### **Selecting the sender address**
+## How to select an email gateway
 
-You can choose which address will be specified in the 'From' field as the sender's address and set it in the Administrator panel. The most common address is 'no-reply@yourdomain.com', where yourdomain.com is the domain where your GPS monitoring service is running.
+Depending on your product and specific needs, you can choose between two options:
 
-However, in order for SPAM filters not to block automated messages and for emails to be delivered to users with a high guarantee, the sender's address must fulfill certain requirements (see the links above in the relevant sections for details).
+* **Navixy Email Gateway**: This is the recommended option for **ServerMate** users. It is a free, high-speed service organized via Mandrill to ensure high deliverability and inbox placement. This service is integrated with Navixy and ensures that your emails are delivered to your users' inboxes without being marked as spam.
+* **Third-party SMTP gateway**: This universal method is available for **ServerMate**, **Cloud**, and **On-Premise** products. It allows you to specify a custom server for email delivery, such as your own dedicated mail server, public services like Gmail, or specialized delivery services like SendGrid, Mailgun, or Mandrill.
 
-## **Navixy Gateway**
+## Navixy Email Gateway
 
-Navixy Email Gateway is available and free for all ServerMate users. The gateway is organized based on Mandrill, which ensures email delivery with high speed and guarantee. So if you are using the Navixy ServerMate product, this is the recommended option.
+{% hint style="warning" %}
+This option is available only for **Navixy ServerMate** deployments.
+{% endhint %}
 
-By default, the 'From' field (sender address) is set to 'no-reply@x-gpsmail.com'. In this default case, you don't need to make any special settings and mail will be guaranteed to be delivered to users.
+### How to change sender address
 
-If you want to specify your address in the 'From' field as well, you need to authorize your domain for mail delivery. Only then will your address be used and your emails will be guaranteed to be skipped by spam filters.
+By default, the **From** field is set to `no-reply@x-gpsmail.com`. In this configuration, no additional setup is required. If you want to use your own address (e.g., `no-reply@yourdomain.com`), you must authorize your domain to prevent emails from being flagged as spam. Tp authenticate and authorize mail delivery, follow these steps:
 
-#### **Your Own 'From' Address**
+{% stepper %}
+{% step %}
+### Authenticate your domain
 
-Setting up your own sender address (the 'From' field) is done in three steps: (1), Authenticating your domain (2) Authorizing the domain and (3) assigning the sender address.
+Contact [Navixy support](mailto:support@navixy.com) with the domain name you intend to use. It doesn’t have to be your platform’s domain name, though you must have access to it to make DNS changes. You will receive a TXT record to add to your DNS settings to prove ownership.
 
-#### **Step 1: Authenticating your domain**
+Format: `yourdomain.com. 1 IN TXT "mandrill_verify.KEY_PROVIDED_HERE"`.
 
-For this you need to reach out to Navixy Support ([support@navixy.com](mailto:support@navixy.com)) and provide the name of the domain you are going to use for outgoing e-mail. This doesn’t need to be the same as your platform’s domain, however it needs to be one that you have access to make DNS changes to. Once you reach out to Support with your domain, you will receive a TXT record to add to your DNS which proves to the World Wide Web that you own the domain and will allow Mandrill to use it to send outgoing emails. The record will look similar to the below, with “yourdomain.com” being the domain you provided, and KEY\_PROVIDED\_HERE being the key Support gives you:
+DNS settings are provided by your DNS provider. Every DNS provider has their own tools and settings. If you need assistance in changing these settings, contact your DNS provider.
+{% endstep %}
 
-`yourdomain.com. 1 IN TXT "mandrill_verify.KEY_PROVIDED_HERE"`
+{% step %}
+### Authorize your domain
 
-This is done within the DNS settings provided by your DNS provider. Every DNS provider has their own tools and way their settings look. If you need assistance adding the records in question, please reach out to your DNS provider.
+Add five additional DNS records to your domain to verify authorization:
 
-#### **Step 2: Authorizing your domain**
+*   SPF record: Add `v=spf1 include:spf.mandrillapp.com -all`. If an SPF record already exists, insert `include:spf.mandrillapp.com` before the terminating mechanism.\
+    For example, if your current SPF record looks like `v=spf1 a -all`, update it to
 
-The second change you need to make is to add four more DNS records for your domain: one SPF, two DKIM, and one DMARC record.
+    `v=spf1 a include:spf.mandrillapp.com -all` .
+* DKIM Records: Create two CNAME records. Set one name to `mte1._domainkey.yourdomain.com` with the value of `dkim1.mandrillapp.com` and the second to `mte2._domainkey.yourdomain.com` with the value of `dkim2.mandrillapp.com`, replacing `yourdomain.com` with your associated domain nam&#x65;**.**
+* DMARC record: In your DNS settings, create and save a TXT record named `_dmarc.yourdomain.com` with the value of `v=DMARC1; p=none;`, replacing `yourdomain.com` with your associated domain nam&#x65;**.**
 
-**SPF field.**\
-You need to create a new TXT record or update your existing SPF TXT record on your domain:
+After creating the records, remember to save the DNS information. The settings take 30 minutes or up to 4 hours to take effect.
+{% endstep %}
 
-if you have no SPF configured on your domain, simply publish the following TXT record on it:
+{% step %}
+### Assign sender address
 
-`v=spf1 include:spf.mandrillapp.com -all`
+Once DNS records have propagated, email [support@navixy.com](mailto:support@navixy.com) with your Admin Panel login and desired sender address. The support team will test the configuration and confirm when the setup is complete.
+{% endstep %}
+{% endstepper %}
 
-if you already have an SPF record, simply insert `include:spf.mandrillapp.com` right before the terminating mechanism in that record.
+### How to verify your DKIM configuration
 
-For example, if your current SPF record looks like this:
+Once you have completed the DNS setup, you should verify that your emails are being digitally signed correctly. This ensures your messages are recognized as authentic by recipient mail servers.
 
-`v=spf1 a -all`
+1. From the Admin Panel, send a test message to a personal email account (such as Gmail or Outlook).
+2. Open the received email, click the **More** options (usually three dots), and select **Show original** or **View message details**.
+3. Use the search function to find the phrase `dkim=pass`. Finding it means that the field is configured correctly. Otherwise, the message is either unsigned or the signature is incorrect.
 
-update it to:
+## **Third-party gateway**
 
-`v=spf1 a include:spf.mandrillapp.com -all`
+{% hint style="info" %}
+If you use a custom SMTP service, you're responsible for ensuring the emails are delivered to your users' inboxes and not marked as spam.
+{% endhint %}
 
-**DKIM field.** Create two CNAME records for your domain: one with the name `mte1._domainkey.yourdomain.com` with the value `dkim1.mandrillapp.com`, and another with the name `mte2._domainkey.yourdomain.com` and the value `dkim2.mandrillapp.com` **Replacing “yourdomain.com” with your associated domain name.**
+To use your own SMTP provider, log in to the **Admin Panel** and navigate to **Settings** > **Email gateway**.
 
-**DMARC field.** Create and save a TXT record in your DNS with a name of `_dmarc.yourdomain.com` and a value of `v=DMARC1; p=none;` **Replacing “yourdomain.com” with your associated domain name.**
+{% stepper %}
+{% step %}
+### Select gateway type
 
-After creating the records, remember to save the DNS information. It then takes 30 minutes or up to 4 hours to propagate the settings out to the Internet, so you should wait before proceeding to the next step.
+In the **SMTP server** section, select **Custom SMTP**.
+{% endstep %}
 
-#### **Step 3: Assigning the sender address**
+{% step %}
+### Configure server and security
 
-After some time has passed and the fields you have created in the DNS record have propagated, you can assign Navixy's 'From' field value to an address that is convenient for you (like \*@yourdomain.com).
+Enter the host address provided by your service (e.g., `smtp.gmail.com`).
 
-To do this, write an e-mail to the technical support service ([support@navixy.com](mailto:support@navixy.com)), specify your admin panel login and the desired e-mail address. Support specialists will promptly set up and test sending messages from the specified address, after which they will inform you about the completion of the settings by e-mail.
+1. Specify if you are using a secure data transfer protocol (SSL or TLS).
+2. Once a security protocol is selected, the SMTP port field will automatically populate based on standard recommendations for public email services. You may manually override this port number if your provider requires a non-standard configuration.
+3. When using SSL/TLS, you will see the **Trust all** checkbox. This is used to bypass errors if your SMTP server uses a self-signed certificate or one that isn't recognized by standard certificate authorities. Only enable this if you are sure of your server's security.
+{% endstep %}
 
-#### **How to check if the DKIM field is correct**
+{% step %}
+### Configure authorization
 
-After all the settings have been made, the user should receive emails with a confirmed digital signature. You can check this by sending a test message to your personal email. In the received message, select "Show original" and try to find _dkim=pass_ - finding this means that the field is configured correctly. Otherwise, the message is either not signed or the signature is incorrect.
+If your provider requires a login (as most public services like Gmail do), check the authorization box and enter your username and password.
+{% endstep %}
 
-## **3rd party gateway**
+{% step %}
+### Enter sender information
 
-With all Navixy products (ServerMate, Cloud and On-Premise), you can use an arbitrary SMTP server for mail delivery.
+Enter the sender email and a custom signature that the system will automatically append to every outgoing email.
+{% endstep %}
 
-It can be your own daemon service, public mail service (i.e. Gmail) or specialized guaranteed message delivery service (mandrill, sendgrid, mailgun, etc.). In all these cases you need to specify access details to the SMTP server.
+{% step %}
+### Test your setup
 
-To configure it, log in to the administrator panel and go to the "Site Settings" section. In the "Email messages" subsection, select "Your SMTP server". Specify whether you use a secure data transfer protocol, after that the SMTP port field will be filled in automatically in accordance with the recommendations for configuring public email services. If necessary, you can change the SMTP port number manually. You can find out the SMTP server address when using public email services in the support section of the corresponding service, for example, for the gmail server the settings are available [here](https://support.google.com/a/answer/176600?hl=ru).
-
-If the server you are using asks for authorization, tick the appropriate checkbox and provide a login and password. Public email services usually do not require a login and password for authorization on the server.
-
-After entering the SMTP server settings, specify the email on behalf of which notifications will be sent and the signature that will be automatically inserted into each email.
-
-Now save the settings, the window will look something like the one in the screenshot.
-
-To check the correctness of the setting use sending a test email, click the "Send Test Email" button and specify the address to which you want to send it.
-
-If the setting is correct, a test email will be sent to the specified address.
+Click **Send Test Email** and enter a destination address to verify the connection. If everything is configured correctly, you will receive a test message at the specified address.
+{% endstep %}
+{% endstepper %}

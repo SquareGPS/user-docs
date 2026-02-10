@@ -1,47 +1,49 @@
+---
+description: Troubleshooting plan issues.
+---
+
 # Pricing plans conflicts
 
-Pricing plans are very useful for device and user control, but there are some peculiarities, which are not obvious. This article will help you to understand pricing plans features, and make the platform more comfortable for using.
+While pricing plans are essential for managing devices and users, they include several nuanced features. This article clarifies these details to help you optimize your configuration and improve the user experience.
 
 {% hint style="info" %}
-If there are assets on different plans within same user account, some maps and options (which are not selected in all the pricing plans) might become unavailable for that user.
-
-You can avoid such a collision by nesting similar plans into groups, thus making impossible for users to have devices on incompatible plans. We consider that is the only possible way to offer your flexible configuration of your pricing plans and, at the same time, not giving your users the opportunity to cheat with your pricing.
+if a user account has assets under different plans, maps and options not included into all plans might become unavailable for that user. You can solve this issue by putting similar plans into groups, making it impossible for users to have devices under incompatible plans. This is the only way to allow flexible plan configuration without giving users the ability to bypass the set prices.
 {% endhint %}
 
-### Devices do not appear in the UI
+### Devices not displayed in UI
 
-If number of devices which actually appear in the user account are not equal to number of devices specified in the admin panel, please check that pricing plan settings are correct. If there are different devices with different pricing plans assigned to them in the user account, the system will automatically apply restrictions of the most strict one:
+If the device count in a user’s account doesn't match the Admin Panel, verify the pricing plan settings. Note that when an account contains devices on different plans, the system automatically applies the restrictions of the most limited plan to the entire account.
 
-![maximum devices](attachments/not-appear-20230811-205527.webp)
+<figure><img src="../.gitbook/assets/image (3).png" alt="Maximum devices"><figcaption><p>Maximum devices</p></figcaption></figure>
 
-So if you have devices with pricing plans which allow 100 and devices with pricing plans which allow 30 devices, only 30 devices will be shown in the user account.
+If you have devices with pricing plans that allow 100 and devices with pricing plans that allow 30 devices, only 30 devices will be shown in the user account.
 
-### Tracks history is limited with pricing plan
+### History limits for the plan
 
-There is “Store history for” option in pricing plan settings which affects the possibility of tracks history monitoring
+The **Store history for** option in plan settings determines how history works for the plan:&#x20;
 
-![history storage](attachments/option-in-tariff-20230811-205541.webp)
+<figure><img src="../.gitbook/assets/image (4).png" alt="Store history"><figcaption><p>Store history</p></figcaption></figure>
 
-This option defines the time period during which tracking points will be stored. If you will try to get tracks which were made earlier, you will get the error below:
+This option defines the time period during which tracking points will be stored. If you will try to get tracks made earlier, you will get the error below:
 
-![tracking error](attachments/tracks-history-is-limited-20230811-205552.webp)
+<figure><img src="../.gitbook/assets/tracks-history-is-limited-20230811-205552.webp" alt="Tracking error"><figcaption><p>Tracking error</p></figcaption></figure>
 
-### Customer cannot change / create roles and sub-users
+### User can't create or edit roles and sub-users
 
-There is a feature, which allow your customers to create/change sub-users and their roles. If there is a pricing plan with “Users and roles” function disabled, feature also will be not available for the whole account:
+Users can create and manage sub-accounts and custom roles, provided their pricing plan supports it. If any device within an account is assigned a plan where the **Users and roles** feature is disabled, this functionality will be restricted for the entire account.
 
-![users and roles function](attachments/change-create-roles-20230811-205605.png)
+<figure><img src="../.gitbook/assets/image (5).png" alt="Users and roles checkbox"><figcaption><p>Users and roles checkbox</p></figcaption></figure>
 
-And corresponding section will be also removed from the menu:
+The corresponding section will be also removed from the menu:
 
-![access rights](attachments/access-rights-20230811-205616.png)
+<figure><img src="../.gitbook/assets/access-rights-20230811-205616.png" alt="Access rights"><figcaption><p>Access rights</p></figcaption></figure>
 
-So please pay attention and triple-check all pricing plans parameters.
+Make sure to pay attention and triple-check all pricing plans parameters.
 
-### Customer cannot select maps
+### User can't select maps
 
-If some maps are not available for choosing in the user account, please check the tariff plans which are used in this account, because there is a possibility that some maps are disabled:
+If some maps can't be selected in the user account, check which tariff plan is used. The unavailable maps might be disabled:
 
-![map selection](attachments/maps-20230811-205625.png)
+<figure><img src="../.gitbook/assets/image (6).png" alt="Map checkboxes"><figcaption><p>Map checkboxes</p></figcaption></figure>
 
-Please select needed maps in the settings of user’s pricing plans. The list of all available maps is defined by the preferences for your service
+Select the available maps in the user’s plan settings.

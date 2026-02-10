@@ -1,19 +1,39 @@
+---
+description: >-
+  Create and manage user accounts in the Admin Panel, including search,
+  edit/delete, and CSV/XLSX export.
+---
+
 # Users
 
-In the [Users](https://panel.navixy.com/#users) section you can create and manage user accounts. The main screen displays a list of your existing users. You can easily add, delete, or edit accounts. To find a particular user, simply use the search box provided below.
+The **Users** page of the Admin Panel allows creating and managing user accounts.
 
-![Admin Panel Users Overview](../attachments/panel-users-1-20230811-200848.jpg)
+<figure><img src="../.gitbook/assets/image (94).png" alt="Users page"><figcaption><p>Users page</p></figcaption></figure>
 
-## Export user list
+It consists of three main sections:
 
-Managing and keeping track of a large number of users on the platform can be challenging. To make this task easier, we have added a function that allows you to download a list of your users in CSV or XLSX format. This feature enables you to quickly obtain a list of all your users, including their email addresses and phone numbers.
+* **User toolbar:** A toolbar used to easily create, find, delete, and edit user accounts and import/export user data
+* **User list:** A list of existing users formatted as a table
+* **User details:** Information about the selected user with a list of related actions
 
-The CSV and XLSX formats are convenient for importing the data into CRMs or mailing providers without requiring any additional editing. To export the user list, follow these steps:
+## User toolbar
 
-1. Go to the Users tab in the admin panel
-2. Scroll to the end of the list
-3. Click the Download user list button and select the desired format
+The toolbar on top of the **Users** page allows you to create, find, edit, and delete users and [upload](create-user.md#how-to-import-user-data) and [download](./#how-to-export-user-data) user data. You can also customize the user list view below by removing unnecessary columns and filtering to show only active users.
 
-![Export Users Admin Panel Zoom](../attachments/image-20230811-201158.png)
+To start creating a user, click <img src="../.gitbook/assets/image (75).png" alt="" data-size="line">. For more information about this process, see [Creating users](create-user.md).
 
-The download will start automatically, and you can use the exported data as needed.
+## User list
+
+**User list** is a table describing your existing users, including their ID, system login, balance, and the number of devices on their account. Each user created using the <img src="../.gitbook/assets/image (76).png" alt="" data-size="line"> button will be displayed here.
+
+## User details
+
+**User details** is a window opened by selecting a user in the user list. It shows all information about the user, including your comments, and allows performing various actions related to the user's account. To learn more about this window, see [User details](user-details.md).
+
+## How to export user data
+
+Managing and keeping track of a large number of users on the platform can be challenging. To solve this issue, Admin Panel allows you to download a list of your users in CSV or XLSX format. This feature can be used to quickly obtain a list of all your users, including their email addresses and phone numbers.
+
+CSV and XLSX formats allow importing files into CRMs or mailing providers without any additional editing. To download the user data, click <img src="../.gitbook/assets/image (18).png" alt="Download user data" data-size="line"> and select the file format. The download will start automatically, and you can use the exported data as you see fit.
+
+<figure><img src="../.gitbook/assets/image (17).png" alt="Downloading user data" width="375"><figcaption><p>Downloading user data</p></figcaption></figure>

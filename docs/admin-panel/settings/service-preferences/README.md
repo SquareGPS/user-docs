@@ -1,15 +1,20 @@
+---
+description: >-
+  Configure core service UI settings like domain/URLs, language/currency, login
+  page, demo account, activation, and support links.
+---
+
 # Service preferences
 
-This page allows you to configure the main settings of your UI. They will be used as the default settings for all users. Access them via Account Management → [Service preferences](https://panel.navixy.com/#settings).
+This page allows you to configure your main UI settings. Access it via **Settings** → **Service preferences.**
 
-![Service preferences](../attachments/image-20250317-095511.png)
+<figure><img src="../../.gitbook/assets/image (13).png" alt="Service preferences page"><figcaption><p>Service preferences page</p></figcaption></figure>
 
-Here, you can set up the following parameters:
+The page consists of the following sections:
 
-1. Domain and URLs: Set a domain to be used for your UI.
-2. [Regional settings](regional-settings.md): Choose the language and currency for your service.
-3. Login page settings: Configure your login page.
-4. [Demo user account](demo-user-account.md): Navixy allows you to create a demo user account to showcase the platform's features to your customers.
-5. Device activation: Configure the device activation settings.
-6. Maps: Select the maps that will be available to your users and set the default map settings.
-7. Support: Add links to your own release notes and support documentation (if enabled, Navixy information will be displayed by default).
+* **Domain and URLs**: Set a domain to be used for your service, payment system URL, and emails to receive daily reports. For more information on customizing the domain name, see [Domain name](../domain-name.md). For information on configuring the payment system, see [Payment gateway](../payment-gateway.md).
+* **Regional settings:** Choose the language and currency for your service. For more information, see [Regional settings](regional-settings.md).
+* **Login page settings:** Configure your [login page](login-page-settings.md) settings.
+* **Demo user account:** Navixy allows you to create a [demo user account](demo-user-account.md) to showcase the platform's features to your customers.
+* **Device activation:** Configure device activation settings for your users.
+* **Support**: Add links to your own release notes and support documentation (Navixy information will be displayed by default).

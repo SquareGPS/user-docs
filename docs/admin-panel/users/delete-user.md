@@ -1,9 +1,17 @@
-# Delete user
+---
+description: >-
+  Permanently delete a user account in Admin Panel, including all associated
+  devices and sub-users.
+---
 
-Any user account can be deleted via the Admin Panel by clicking on the "Remove User" button in the user information section.
+# Deleting users
 
-Please note that this operation is irreversible and will permanently delete the user account and all associated data, including registered devices and sub-users, from the database.
+To remove a user account in Admin Panel, select it and click <img src="../.gitbook/assets/image (30).png" alt="Delete user" data-size="line"> on the [User toolbar](./#user-toolbar) or in the selected user's rightmost column.
 
-![Remove User Admin Panel](attachments/Untitled-20230811-201536.png)
+{% hint style="danger" %}
+This operation is irreversible and will permanently delete the user account and all associated data, including registered devices and sub-users, from the database.
+{% endhint %}
 
-Alternatively, it is possible to delete a user account through the Navixy API by using the [corrupt()](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/panel-api/resources/user#corrupt) call.
+You will see the **Remove user** dialogue window. To proceed, confirm your intentions by checking the checkbox and enter the user's login. The account will be deleted.
+
+<figure><img src="../.gitbook/assets/image (31).png" alt="Remove user window" width="268"><figcaption><p>Remove user window</p></figcaption></figure>

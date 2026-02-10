@@ -1,13 +1,21 @@
-# Create user
+---
+description: >-
+  Create a user in the Admin panel or bulk-import users from an XLSX/CSV
+  template.
+---
 
-## Manually add a user
+# Creating users
 
-When adding a new user from the Admin panel, you will need to enter an email address which will be used as their login to the platform and a password. Additionally, you have the option to enter their legal status such as individual, legal entity, sole trader and their contact details, and their legal entity information for business purposes.
+To add a new user to the Admin panel, click <img src="../.gitbook/assets/image (78).png" alt="" data-size="line"> on the Users page. This will open the **New user** window:
 
-![User Information](./attachments/chrome_up36ooqdci-20230811-201350.png)
+<div data-full-width="true"><figure><img src="../.gitbook/assets/{D375DB25-ED59-489C-A474-67EC065963B6}.png" alt="New user pt1" width="504"><figcaption></figcaption></figure></div>
 
-## Importing users from Excel file
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (79).png" alt="New user pt2" width="514"><figcaption><p>New user window</p></figcaption></figure></div>
 
-To add multiple new users at once, you can use the import feature in the [Users](https://panel.navixy.com/#users) tab. Simply click on "Import Users" and upload an Excel file containing the user data. To ensure that the file is properly formatted, you can download a template from the same window or via [this link](https://panel.navixy.com/app/resources/users_import_template_en.xlsx).
+Enter an email address that will be used as the user's login to the platform and a password. Depending on the user's legal status (individual, legal entity, or sole trader), the required fields may also include their name, contact details, and legal and postal address.
 
-![User Import](./attachments/chrome_cqprstgima-20230811-201413.png)
+## How to import user data
+
+To add multiple new users at once, you can use the **Import user data** feature in the [User toolbar](./#user-toolbar). Simply click <img src="../.gitbook/assets/image (15).png" alt="Import user data" data-size="line"> and upload an XLSX or CSV file no larger than 10 Mb. To ensure that the file is properly formatted, download a template by clicking the link.
+
+<figure><img src="../.gitbook/assets/image (16).png" alt="User data import" width="375"><figcaption><p>Importing user data</p></figcaption></figure>

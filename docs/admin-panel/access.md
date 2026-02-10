@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn Admin vs Employee roles in the Admin Panel, including what
+  limited-rights employees can and can’t do.
+---
+
 # Access
 
 Navixy allows you to create multiple accounts for your employees to access the admin panel. There are two user roles available:
@@ -9,23 +15,23 @@ When creating admin panel instances, it's important to know which role to choose
 
 ## Employee role with limited rights
 
-You can create additional user accounts that can access Navixy Admin panel with limited rights. It allows you to delegate the use of the admin panel to your employees with restricted access to sensitive information and critical actions. This feature can be useful for teams with multiple members, such as sales representatives and technical support specialists, who need access to the platform without granting them full administrator privileges.
+You can create additional user accounts that can access Navixy Admin Panel with limited rights. It allows you to delegate the use of the admin panel to your employees with restricted access to sensitive information and critical actions. This feature can be useful for teams with multiple members, such as sales representatives and technical support specialists, who need access to the platform without granting them full administrator privileges.
 
-The capabilities of this user role include:
+This user role is permitted to:
 
-* Adding new users
-* Modifying data of current users
-* Adding new trackers
-* Cloning current trackers
-* Changing the owner of a tracker
-* Changing tracker data plan
-* Analyzing incoming data with the air console
+* Add new users
+* Modify the data of current users
+* Add new trackers
+* Clone current trackers
+* Change the owner of a tracker
+* Change tracker data plan
+* Analyze incoming data with Air Console
 
-Users accounts of this type are not allowed to:
+User accounts of this type are not allowed to:
 
 * Delete users
 * Remove trackers
 * Add, change, or delete plans
 * Change platform settings
 
-To add an employee account with limited rights to your Navixy Admin Panel, please contact our customer success team.
+To add an employee account with limited rights to your Navixy Admin Panel, contact our customer success team.

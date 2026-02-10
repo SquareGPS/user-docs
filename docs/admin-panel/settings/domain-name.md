@@ -1,116 +1,129 @@
+---
+description: >-
+  Point your custom subdomain to Navixy via CNAME, update instance settings, and
+  enable SSL for secure access.
+---
+
 # Domain name
 
-When you create a new Navixy ServerMate trial account, you are given a default URL in the format of **https://\*\*\*\*\*.navixy.com**. However, it is common to want to customize this URL and use your own domain name instead. This is a straightforward process that we will guide you through step-by-step.
+When you create a new Navixy trial account, you are given a default URL in the format of `https://*****.navixy.com`. However, you may want to customize this URL to use your own domain name.
 
-## Setting up your domain name for Navixy account
+## How to configure a custom domain
 
-To set up your own domain name for your Navixy cloud account, you can follow these simple steps. Let's say you have a domain called company.com and you want the subdomain **my.company.com** to point to the user web-interface.
+To set up a custom domain (e.g., `my.company.com`) to point to the user web interface, follow the steps below:
 
-**Step 1: Create a CNAME record on your DNS server.** You need to create a CNAME (Canonical Name) record on your DNS server that points to the Navixy server. This record serves as an alias to your domain. Once this is done, your domain (e.g. **www.company.com**) will always point to the user web-interface. _For instructions on how to create a CNAME record and examples, please refer to the section below or documentation provided by your DNS server provider._
+{% stepper %}
+{% step %}
+### Create a CNAME record
 
-**Step 2: Set your domain name in the Navixy Admin panel.** After you have set up your CNAME record, log in to the Navixy Admin panel and navigate to Settings > Domain. Enter the domain name you want to use (e.g. **www.company.com**). It is important to note that you should not change this parameter until you have finished Step 1 and your CNAME record is ready to use. _Read below on how to check if your CNAME record is properly configured._
+First, you must create a CNAME (Canonical Name) record on your DNS server that points to the Navixy server. This record acts as an alias, ensuring your custom subdomain redirects to the platform. In “www.navixy.com”, “navixy.com” is the domain name, and “www” is the CNAME. If either option is entered into the address bar, both will take you to the same place. The “www” is simply another way to get there. However, in this case, you can also use a CNAME record to redirect your DNS to another domain.
 
-![domain name](attachments/domain-name-20230811-204031.png)
+{% hint style="info" %}
+CNAME records cannot be created for the root domain (e.g., `company.com`). You must use a subdomain, such as `my.company.com` or `www.company.com`.
+{% endhint %}
 
-### CNAME Basics
+**Configuration details**
 
-Regarding DNS, a CNAME is simply a domain name that is a nickname or alias for another domain name. In simpler terms, let’s take “www.navixy.com” for example. “navixy.com” is the domain name, and the “www” is the CNAME. If either option is input into the address bar, both will take you to the same place. The “www” is simply another way to get there. However, for our case here, you can also use a CNAME record to redirect your DNS to another domain.
+Access your DNS configuration via your hosting provider or registrar and add a new CNAME record pointing to one of the following, depending on your platform location:
 
-Please note that CNAME records cannot be the default domain: navixy.com cannot be the CNAME record, you _must_ have a subdomain such as “**my**” or “**www**” be the CNAME record.
+* EU Platform: `saas.navixy.com`
+* US Platform: `saas.us.navixy.com`
 
-### Configuring a CNAME record
+If you are unsure which platform your account uses, check your current Admin panel URL. If it contains "https://www.google.com/search?q=us.navixy.com", use the US address. Otherwise, use the EU address.
 
-If you have a corporate website running on your domain, you likely have a Domain Name Service (DNS) that handles all requests to your domain name. To configure the CNAME record for Navixy, you need to access your DNS configuration and add a new CNAME record pointing to:
-
-* `saas.navixy.com` – if your Navixy account runs on the platform in the European Union;
-* `saas.us.navixy.com` – if your Navixy account runs on the platform in the United States.
-
-If you are unsure which platform your account is running on, you can refer to the address of your Admin panel. If your panel address is [http://panel.navixy.com](http://panel.navixy.com) , then you are using the EU platform; if your panel address is [http://panel.us.navixy.com](http://panel.us.navixy.com) , then you are using the US platform.
-
-Here are some hints to help you set up the CNAME record:
+**Requirements**
 
 * Primary DNS service must be enabled, and you need to have access to edit the domain zone. Usually, registrars or hosting providers give access via a web interface to edit zones.
 * Secondary DNS service must also be enabled, but editing the zone on the secondary server is usually not required.
-* You can use any domain level, but we recommend using a third-level domain. The second-level domain usually serves your company's site and cannot be used for anything else.
+* You can use any domain level, but we recommend using a third-level domain. The second-level domain is usually reserved for your company's website and cannot be used for anything else.
 
-After you have modified your DNS records, it may take up to several hours for the changes to propagate worldwide. You can check the status of your CNAME records with the **ping** command with your domain (e.g. **ping my.company.com**) or online DNS lookup tools like [this one](https://mxtoolbox.com/DNSLookup.aspx).
+**Examples of DNS record configuration**
 
-#### Examples of DNS record configuration
+Below are examples of how to configure a domain using common registrars.
 
-Here, we will show you how to create a third-level domain using two popular domain registrars: [http://GoDaddy.com](http://godaddy.com)  and [http://Enom.com](http://enom.com) . As an example, let's use the domain "http://company.com " and the subdomain "**my.company.com**"
+[**GoDaddy**](http://godaddy.com)
 
-**Example 1: GoDaddy**
+1. Log in to your GoDaddy account.
+2. Click **Launch** next to **Domains**.
+3. Click the gear icon for the target domain and select **Domain Details**.
+4. Select the **DNS Zone File** tab and click **Add Record**.
+5. Select **CNAME**.
+6. Enter the following information:
+   * **Host**: Enter your subdomain prefix (e.g., enter `my` to create `my.company.com`).
+   * **Points To**: Enter `saas.navixy.com` (or the US equivalent).
+7. Click **Save** and then **Save Changes**.
 
-1. Log in to your GoDaddy account
-2. Click the "Launch" button next to "Domains." If you don't see the domain options, you may have to click the "My Account" link.
-3. Click on the gear icon for the domain you're going to use.
-4. Select "Domain Details" from the menu.
-5. Click the "DNS Zone File" tab.
-6. Click "Add Record."
-7. Select "CNAME."
-8. In the two boxes, enter the following information:
+[**Enom**](http://enom.com)
 
-* Host - this field can be anything you would like your platform to point to. For example here we will be using “**my**” for example “**my**.company.com” will be the link to the platform.
-* Points To: saas.navixy.com
+1. Log in to your **Enom** account.
+2. Navigate to **Domains** and select **My Domain**.
+3. Click the domain you wish to use.
+4. Click **Host Settings**.
+5. Click **New Row** to add a record.
+6. Enter the subdomain prefix (e.g., `my`) in the first field.
+7. Enter `saas.navixy.com` (or the US equivalent) as the host name.
+8. Click **Save**.
+{% endstep %}
 
-1. Press "Save."
-2. Click "Save Changes" toward the top right.
+{% step %}
+### Verify the CNAME record
 
-**Example 2:** [http://Enom.com](http://enom.com)
+Before changing settings in the Navixy interface, make sure your DNS record is configured correctly.
 
-1. Log in to your account at [http://Enom.com](http://enom.com)
-2. From the drop-down menu at the "Domains" tab, select "My Domain." You'll be directed to the Manage Domains page.
-3. Click the domain that you'd like to use with Navixy.
-4. Click "Host Settings."
-5. To add a CNAME record, click "New Row." If you've already created a CNAME record for the address, simply edit the existing CNAME record.
-6. Enter the first part of the address that you picked as your custom domain. For example, if you picked "**my.company.com**" as your address, enter "**my**" for step one.
-7. As the host name, enter "saas.navixy.com"
-8. Click "Save"
+**Option A: Terminal command**
 
-#### Checking your settings for CNAME record
+You can query DNS servers using the `nslookup` command from your terminal: `nslookup my.company.com`
 
-To check that you configured your CNAME record properly (on Step 1) you can query the DNS servers using **NSLOOKUP** command from your terminal – it should resolve as saas.navixy.com :
+Expected response:
 
-`nslookup my.company.com`
-
-You should get something like this in response:my.company.com canonical name = saas.navixy.com .
-
+```
+my.company.com canonical name = saas.navixy.com.
 Name: saas.navixy.com
-
 Address: 3.121.166.173
+```
 
-Name: saas.navixy.com
+**Option B: Online lookup tools**
 
-Address: 52.28.24.77
+You can use online tools such as [MxToolBox ](https://mxtoolbox.com/)to perform a CNAME lookup. If the result shows your custom domain pointing to `saas.navixy.com`, the setup is correct.
 
-Another option is to use the CNAME lookup from MxToolBox:
+{% hint style="info" %}
+If the lookup does not return the correct CNAME, you must wait for the DNS records to propagate. Navixy cannot control this duration. Do not proceed to the next step until the record is verified.
+{% endhint %}
+{% endstep %}
 
-![MxToolBox](attachments/image-20231107-222354.png)
+{% step %}
+### Update Navixy settings
 
-If you see your CNAME (saas.navixy.com or saas.us.navixy.com) returned from either option, it means your new domain is set correctly and you can now proceed with Step 2 and change the domain name in your Navixy Admin panel.
+Once the CNAME record is active:
 
-Please note that if you aren’t seeing the CNAME with either lookup option, it sometimes takes hours for DNS records to update out to the world wide web. This is not something Navixy can control and you must simply wait for the DNS record to update before we can continue.
+1. Log in to the Navixy Admin Panel.
+2. Navigate to **Settings** **→** **Service preferences → Domain and URLs**.
+3. Enter your custom domain name (e.g., `my.company.com`).
+4. Save your changes.
+{% endstep %}
+{% endstepper %}
 
-#### Using multiple domain names with the same Navixy instance
+## Using multiple domain names with the same instance
 
-Unfortunately, it is not allowed to allowed to use more that one domain name with the same Navixy ServerMate instance. Please also note, that once you set up own domain name, the previous URL **#####.navixy.com** (e.g. http://1234.navixy.com ) will stop working.
+You cannot use more than one domain name with a single Navixy ServerMate instance. Once you configure a custom domain, the previous default URL (e.g., `1234.navixy.com`) will stop working.
 
-**Please note that while we have recommendations on how to set up your DNS record, Navixy isn’t responsible for your domain name as that is a separate third-party system.**
+{% hint style="warning" %}
+While we provide recommendations for DNS configuration, Navixy is not responsible for the management of your third-party domain settings.
+{% endhint %}
 
-### Using SSL encryption
+## SSL encryption
 
 SSL encryption is a proven way to protect web traffic between your customers and your server by encrypting it, which prevents a man in the middle from intercepting the web traffic and accessing sensitive information about your customers. To use SSL encryption, you need to have a valid SSL certificate for your domain that is signed by a trusted Certificate Authority (CA).
 
-It is highly advisable to use SSL encryption for your domain due to the following reasons:
+We highly recommend enabling SSL encryption for your domain due to the following reasons:
 
-* SSL encryption may be a mandatory requirement when handling sensitive data for government or large clients.
-* When customers click on a link from a secure site to an unsecured one, some browsers may display a warning that can discourage customers from continuing.
-* The X-GPS Monitor app for Apple devices requires SSL encryption to function.
+* It may be a mandatory requirement when handling sensitive data for government or large clients.
+* It prevents browsers from displaying "Not Secure" warnings to your users.
+* The [X-GPS Monitor](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/x-gps-mobile-apps/x-gps-monitor) app for iOS devices requires SSL encryption to function.
 
 After enabling SSL encryption, the protocol in the address bar will change from http to https, and a lock icon will appear next to it, indicating that the connection is secure.
 
-#### Installing SSL certificate
+### How to install SSL certificate
 
-The easiest way to obtain a SSL certificate is to contact our technical support. We will issue a Letsencrypt certificate for you and will make sure that it is automatically renewed. This is free of charge and only requires your consent.
-
-If you prefer obtaining your own certificate from another certification authority, please feel free to provide our technical support team with the certificate and the private key. We will install it on your server with no charge. If you already have a wildcard certificate for your higher-level domain, you can also provide it along with the private key.
+* Navixy-managed (recommended): Contact our technical support team. We can issue a Let's Encrypt certificate for you and ensure it is automatically renewed. This service is free of charge.
+* Self-managed: If you prefer to obtain your own certificate from a different authority, provide the certificate and private key to our technical support team. We will install it on your server free of charge. You may also use a wildcard certificate if you possess one for your higher-level domain.
