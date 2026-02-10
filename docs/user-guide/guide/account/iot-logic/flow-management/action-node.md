@@ -12,7 +12,7 @@
 {% endcolumn %}
 {% endcolumns %}
 
-While Action nodes can receive data from any node type, they are most commonly connected to [Logic nodes](logic-node/) that evaluate conditions and trigger actions only when specific criteria are met, such as temperature thresholds, unauthorized movement, or harsh driving incidents.
+While Action nodes can receive data from any node type, they are most commonly connected to [IF/THEN Logic](logic-node/) nodes that evaluate conditions and trigger actions only when specific criteria are met, such as temperature thresholds, unauthorized movement, or harsh driving incidents.
 
 {% hint style="info" %}
 The **Action** nodes are configured separately for each flow in the Navixy platform UI. Each node can contain multiple actions that execute sequentially when triggered by incoming data.
@@ -29,13 +29,13 @@ When data reaches an **Action** node, the system executes the configured actions
 * **Command transmission**: Actions are sent only to the identified devices, ensuring targeted responses
 * **Device processing**: Individual devices receive and process commands according to their capabilities
 
-This targeting mechanism ensures that actions execute only for relevant devices. When connected to [Logic nodes](logic-node/), actions trigger only for devices that caused the logical condition to evaluate as true, providing precise automation control.
+This targeting mechanism ensures that actions execute only for relevant devices. When connected to [IF/THEN Logic](logic-node/) nodes, actions trigger only for devices that caused the logical condition to evaluate as true, providing precise automation control.
 
 ## Flow architecture integration
 
 **Action** nodes function as terminal nodes within the flow architecture, receiving triggers from upstream nodes without passing data forward. The automation capabilities integrate with Navixy's broader device management system through:
 
-* **Conditional automation**: Integration with [Logic nodes](logic-node/) enables sophisticated IF-THEN workflows where actions execute only when specific conditions are validated
+* **Conditional automation**: Integration with [IF/THEN Logic](logic-node/) nodes enables sophisticated IF-THEN workflows where actions execute only when specific conditions are validated
 * **Real-time device control**: Commands are transmitted within seconds of receiving triggers, ensuring immediate response to critical conditions
 * **Fleet-wide coordination**: When connected to multiple device sources, actions can coordinate responses across entire vehicle groups simultaneously
 * **Device capability respect**: Individual device limitations are honored, with unsupported commands being received but not executed
@@ -159,7 +159,7 @@ When triggered, the Action node follows this execution pattern:
 
 ### Connection behavior
 
-**Logic node integration**: When connected to [Logic nodes](logic-node/), actions execute only for devices where the logical condition evaluated to `true`. This provides precise conditional automation.
+**IF/THEN Logic node integration**: When connected to [IF/THEN Logic](logic-node/) nodes, actions execute only for devices where the logical condition evaluated to `true`. This provides precise conditional automation.
 
 **Direct connections**: When connected directly to other node types (Data Source, Initiate Attribute), actions execute for all devices in the data stream each time data is received.
 
@@ -175,4 +175,4 @@ Yes. Action nodes can receive triggers from multiple upstream nodes, but be awar
 
 #### What happens if I connect an Action node directly to a Data Source?
 
-The Action node will execute its configured actions every time any device in the Data Source sends data. This creates continuous action execution rather than conditional responses. For most use cases, connecting Action nodes to [Logic nodes](logic-node/) provides better control over when actions should execute.
+The Action node will execute its configured actions every time any device in the Data Source sends data. This creates continuous action execution rather than conditional responses. For most use cases, connecting Action nodes to [IF/THEN Logic](logic-node/) nodes provides better control over when actions should execute.

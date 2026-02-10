@@ -1,27 +1,27 @@
-# Logic node
+# IF/THEN Logic
 
 ## Technical overview and capabilities
 
 {% columns %}
 {% column %}
-The **Logic** node creates intelligent branching points that route incoming data down different paths based on logical conditions. It receives data from other nodes, validates it against your defined conditions, and routes the results down different paths based on whether the validation succeeds or fails. The node enables you to build IF->THEN/ELSE workflows where different actions occur automatically based on real-time data conditions.
+The **IF/THEN Logic** node creates intelligent branching points that route incoming data down different paths based on logical conditions. It receives data from other nodes, validates it against your defined conditions, and routes the results down different paths based on whether the validation succeeds or fails. The node enables you to build IF->THEN/ELSE workflows where different actions occur automatically based on real-time data conditions.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../../.gitbook/assets/Logic_node.webp" alt="Logic node in the flow workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Logic_node.webp" alt="IF/THEN Logic node in the flow workspace"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 {% hint style="info" %}
-The **Logic** nodes are configured separately for each flow in the Navixy platform UI. Each node contains only one logical formula, relying on [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language).\
-For specific syntax options related to logical expressions, see [Logic node expressions and syntax](logic-node-expressions-and-syntax.md).
+The **IF/THEN Logic** nodes are configured separately for each flow in the Navixy platform UI. Each node contains only one logical formula, relying on [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language).\
+For specific syntax options related to logical expressions, see [IF/THEN Logic expressions and syntax](logic-node-expressions-and-syntax.md).
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/Logic-node-in-flow.webp" alt="Logic node in flow context with other nodes showing connections"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Logic-node-in-flow.webp" alt="IF/THEN Logic node in flow context with other nodes showing connections"><figcaption></figcaption></figure>
 
-### How Logic nodes work
+### How IF/THEN Logic nodes work
 
-When data first reaches a **Logic** node, the system creates a user-defined boolean attribute that stores the evaluation results. Each subsequent data packet is evaluated against your logical expression, updating this attribute's value and routing the data accordingly:
+When data first reaches an **IF/THEN Logic** node, the system creates a user-defined boolean attribute that stores the evaluation results. Each subsequent data packet is evaluated against your logical expression, updating this attribute's value and routing the data accordingly:
 
 * **True results**: Data flows through the THEN connection (green) with the boolean attribute set to `true`
 * **False results**: Data flows through the ELSE connection (red) with the boolean attribute set to `false`
@@ -30,23 +30,23 @@ This evaluation happens independently for each data packet, allowing different r
 
 ### Flow architecture integration
 
-The boolean attributes created by **Logic** nodes extend beyond flow routing and integrate with Navixy's broader monitoring capabilities. Since these are user-defined custom attributes, they can be:
+The boolean attributes created by **IF/THEN Logic** nodes extend beyond flow routing and integrate with Navixy's broader monitoring capabilities. Since these are user-defined custom attributes, they can be:
 
 * **Monitored in real-time**: View evaluation results in [Data Stream Analyzer](../../data-stream-analyzer.md) to troubleshoot conditions and verify logic
 * **Added as custom sensors**: Integrate with Navixy's main interface for ongoing monitoring
 
-As custom sensors, these Logic-generated attributes enable two key capabilities:
+As custom sensors, these attributes enable two key capabilities:
 
 * **Triggering alerts**: You can create custom rules based on a sensor’s value to receive notifications in case of deviations. For details on rule creation, see [Rules and notifications](../../../../events-and-notifications/).
 * **Monitoring entities**: You can add an attribute to the [Object list](../../../../tracking/objects-list/) widget to monitor its value along with other device readings. For details on how to create a custom sensor from an IoT Logic attribute, see [Displaying new calculated attributes on the Navixy platform](../initiate-attribute-node/displaying-new-calculated-attributes-on-the-navixy-platform.md).
 
 {% hint style="info" %}
-The **Logic** node requires a connection to at least one preceding node (**Data Source** or other processing nodes) to receive input data for validation.
+The **IF/THEN Logic** node requires a connection to at least one preceding node (**Data Source** or other processing nodes) to receive input data for validation.
 {% endhint %}
 
 ### Node capabilities
 
-The **Logic** node offers:
+The **IF/THEN Logic** node offers:
 
 * **Conditional data routing**: Create branching workflows that automatically direct data based on logical expressions returning true or false results.
 * **Real-time validation**: Test incoming device data against business rules and operational thresholds as data arrives.
@@ -56,9 +56,9 @@ The **Logic** node offers:
 
 ## Configuration options
 
-The **Logic** node allows you to define conditional expressions that evaluate incoming data and create branching paths in your flow based on the results.
+The **IF/THEN Logic** node allows you to define conditional expressions that evaluate incoming data and create branching paths in your flow based on the results.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-090630 (1).png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-090630 (1).png" alt="IF/THEN Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
 
 Let's see what elements this node uses and what you can configure when working with it.
 
@@ -68,7 +68,7 @@ Let's see what elements this node uses and what you can configure when working w
 {% step %}
 **Specify node title**
 
-Enter a descriptive name for this **Logic** node.
+Enter a descriptive name for this **IF/THEN Logic** node.
 
 * Use a name that clearly identifies the validation purpose (e.g., _Temperature Alert Check_, _Speed Violation Detection_).
 * This name will be displayed in the flow diagram for easy identification.
@@ -109,18 +109,18 @@ Establish connections for the validation results.
 When logical expressions cannot be evaluated due to null values, invalid data types, or syntax errors, the result is treated as `false`, and data flows through the ELSE path.
 {% endhint %}
 
-For detailed information on expression syntax, operators, and data flow behavior, see [Logic node expressions and syntax](logic-node-expressions-and-syntax.md).
+For detailed information on expression syntax, operators, and data flow behavior, see [IF/THEN Logic expressions and syntax](logic-node-expressions-and-syntax.md).
 
 ## Output connections and data flow
 
-The Logic node creates two distinct output paths based on the expression evaluation results.
+The **IF/THEN Logic** node creates two distinct output paths based on the expression evaluation results.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091115.png" alt="Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091115.png" alt="IF/THEN Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
 
 ### THEN connection (<mark style="color:green;">green</mark>)
 
 * **Activates when**: The logical expression returns `true`.
-* **Connection requirement**: Mandatory — every Logic node must have at least one THEN output.
+* **Connection requirement**: Mandatory — every IF/THEN Logic node must have at least one THEN output.
 * **Multiple connections**: Can connect to multiple subsequent nodes for parallel processing.
 * **Typical uses**: Triggering alerts, special processing, conditional calculations, or routing data to specific endpoints.
 
@@ -149,28 +149,28 @@ When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../web
 
 ## Frequently asked questions
 
-#### Can I use attributes created by other nodes in Logic expressions?
+#### Can I use attributes created by other nodes in IF/THEN Logic expressions?
 
-Yes. **Logic** nodes can reference any attributes available from connected data sources, including original device parameters and attributes calculated by preceding **Initiate Attribute** nodes. The autocomplete feature helps you select from all available attributes.
+Yes. **IF/THEN Logic** nodes can reference any attributes available from connected data sources, including original device parameters and attributes calculated by preceding **Initiate Attribute** nodes. The autocomplete feature helps you select from all available attributes.
 
 #### What happens if my expression contains syntax errors?
 
-If an expression contains syntax errors or cannot be evaluated, the **Logic** node treats the result as `false` and routes data through the ELSE connection. Check the expression syntax and ensure all referenced attributes exist in your data stream.
+If an expression contains syntax errors or cannot be evaluated, the **IF/THEN Logic** node treats the result as `false` and routes data through the ELSE connection. Check the expression syntax and ensure all referenced attributes exist in your data stream.
 
-#### Can I connect multiple nodes to the same Logic node output?
+#### Can I connect multiple nodes to the same IF/THEN Logic node output?
 
 Yes. Both THEN and ELSE connections support multiple outgoing connections, allowing you to trigger several different actions based on the same logical condition. This enables parallel processing for complex business workflows.
 
-#### How do I monitor Logic node results?
+#### How do I monitor IF/THEN Logic node results?
 
-Logic node results appear as boolean attributes in the [Data Stream Analyzer](../../data-stream-analyzer.md) table. Select your devices and look for the attribute name you specified in the expression name field. The values will display as `true` or `false` based on the evaluation results.
+IF/THEN Logic node results appear as boolean attributes in the [Data Stream Analyzer](../../data-stream-analyzer.md) table. Select your devices and look for the attribute name you specified in the expression name field. The values will display as `true` or `false` based on the evaluation results.
 
-#### Can I chain multiple Logic nodes together?
+#### Can I chain multiple IF/THEN Logic nodes together?
 
-Yes. You can connect **Logic** nodes sequentially to create complex decision trees. Each **Logic** node can reference the boolean attributes created by previous **Logic** nodes, enabling sophisticated multi-stage validation workflows.
+Yes. You can connect **IF/THEN Logic** nodes sequentially to create complex decision trees. Each **IF/THEN Logic** node can reference the boolean attributes created by previous **IF/THEN Logic** nodes, enabling sophisticated multi-stage validation workflows.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091554.png" alt="Example flow showing multiple Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091554.png" alt="Example flow showing multiple IF/THEN Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
 
-#### Why must Logic branches connect to Output Endpoints?
+#### Why must IF/THEN Logic branches connect to Output Endpoints?
 
-Every Logic branch must terminate in an Output Endpoint for data flow validation and system visibility. When using terminal nodes (Action, Webhook) that don't support outbound connections, create a parallel connection from the Logic node directly to an Output Endpoint. Both branches can share the same Output Endpoint if needed.
+Every IF/THEN Logic branch must terminate in an Output Endpoint for data flow validation and system visibility. When using terminal nodes (Action, Webhook) that don't support outbound connections, create a parallel connection from the IF/THEN Logic node directly to an Output Endpoint. Both branches can share the same Output Endpoint if needed.

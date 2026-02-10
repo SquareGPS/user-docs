@@ -68,9 +68,9 @@ For detailed configuration options, syntax, and expression examples, see the [In
 
 <details>
 
-<summary>Logic node</summary>
+<summary>IF/THEN Logic</summary>
 
-<figure><img src="../../../../.gitbook/assets/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250721-090630.png" alt="IF/THEN Logic configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
 
 This node creates intelligent branching points that route data based on logical conditions. It allows you to:
 
@@ -79,7 +79,7 @@ This node creates intelligent branching points that route data based on logical 
 * Generate boolean attributes that record validation results
 * Build complex decision trees with multiple conditions
 
-For detailed configuration options, logical operators, and expression examples, see the [Logic node](logic-node/).
+For detailed configuration options, logical operators, and expression examples, see [IF/THEN Logic](logic-node/).
 
 </details>
 
@@ -240,7 +240,7 @@ The following table shows what is included and excluded from flow exports:
 | MQTT credentials (Output Endpoint nodes) |           ❌          |
 
 {% hint style="warning" %}
-Device selections are excluded because devices can only belong to one flow at a time. Authentication data is excluded to protect sensitive information.&#x20;
+Device selections are excluded because devices can only belong to one flow at a time. Authentication data is excluded to protect sensitive information.
 
 After importing a flow, you need to manually add the excluded data before you can save the flow.
 {% endhint %}

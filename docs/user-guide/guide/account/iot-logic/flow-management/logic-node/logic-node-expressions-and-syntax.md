@@ -1,8 +1,8 @@
-# Logic node expressions and syntax
+# IF/THEN Logic expressions and syntax
 
 ## Expression fundamentals
 
-The Logic node uses the [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language), which is based on Java Expression Language (JEXL). All expressions must return a boolean value (true/false) for proper node operation.
+The IF/THEN Logic node uses the [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language), which is based on Java Expression Language (JEXL). All expressions must return a boolean value (true/false) for proper node operation.
 
 **Expression evaluation**: Expressions are evaluated from left to right, and you can use parentheses to control the order of operations.
 

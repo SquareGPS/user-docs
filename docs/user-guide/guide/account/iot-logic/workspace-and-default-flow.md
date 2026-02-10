@@ -16,7 +16,7 @@ The main controls for managing your data flows are gathered in the top menu bar:
 * **New flow:** This button opens the [flow creation window](flow-management/), where you can specify all information about your new flow.
 * **Upload:** This button allows you to import an existing flow configuration from a JSON file. This enables you to quickly replicate flow structures or migrate configurations between accounts.
 * **Data analyzer:** This button opens the [Data Stream Analyzer tool](data-stream-analyzer.md), which will help you see data from different sources and attributes and will be useful for diagnostics.
-* **Devices mapping**: Opens a table listing all devices in your account with their flow assignments, model information, and data source details. Use the search field to filter devices and quickly identify which flows contain specific devices.&#x20;
+* **Devices mapping**: Opens a table listing all devices in your account with their flow assignments, model information, and data source details. Use the search field to filter devices and quickly identify which flows contain specific devices.
 
 ### 2 - Nodes pane
 
@@ -24,7 +24,7 @@ Available nodes are located in a separate pane on the left. You can drag-and-dro
 
 * [Data Source](flow-management/data-source-node.md)**:** A node that defines where the data is coming from to the current flow. A flow can contain multiple actual sources.
 * [Initiate Attribute](flow-management/initiate-attribute-node/): A node that handles data enrichment through custom calculations before sending to a destination.
-* [Logic](flow-management/logic-node/): A node that creates conditional branching based on logical expressions, routing data through different paths depending on real-time conditions.
+* [IF/THEN Logic](flow-management/logic-node/): A node that creates conditional branching based on logical expressions, routing data through different paths depending on real-time conditions.
 * [Action](flow-management/action-node.md): A node that performs automated operations on device data, such as sending commands back to devices or triggering external system actions based on defined conditions.
 * [Output Endpoint](flow-management/output-endpoint-node.md): An outbound transmitting node that defines where the data is sent from the current flow.
 

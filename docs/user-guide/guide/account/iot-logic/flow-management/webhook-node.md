@@ -4,7 +4,7 @@
 
 {% columns %}
 {% column width="58.333333333333336%" %}
-**Webhook** node enables real-time triggering of specific actions in external systems. It sends HTTP POST requests to specified endpoints upon receiving data from connected nodes. It then constructs custom JSON payloads with both static and dynamic attributes, and executes API calls to third-party services.&#x20;
+**Webhook** node enables real-time triggering of specific actions in external systems. It sends HTTP POST requests to specified endpoints upon receiving data from connected nodes. It then constructs custom JSON payloads with both static and dynamic attributes, and executes API calls to third-party services.
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
@@ -169,7 +169,7 @@ Webhook nodes excel at triggering event-driven actions in systems that provide R
 
 #### How do I trigger webhooks only under specific conditions?
 
-Use the **Logic node** to implement conditional logic before the webhook. The Logic node can evaluate device attributes and route data to the webhook only when conditions are met. For details, see [Logic node documentation](logic-node/).
+Use the **IF/THEN Logic** node to implement conditional logic before the webhook. The **IF/THEN Logic** node can evaluate device attributes and route data to the webhook only when conditions are met. For details, see [IF/THEN Logic](logic-node/).
 
 #### Can I use multiple Webhook nodes in the same flow?
 
@@ -200,7 +200,7 @@ You can include any combination of:
 * Static values defined directly in your JSON configuration
 * Dynamic attributes from the flow using `{{attribute_name}}` syntax
 * Nested attributes from complex data structures
-* Attributes calculated in **Initiate Attribute nodes** or processed through **Logic nodes**
+* Attributes calculated in **Initiate Attribute nodes** or processed through **IF/THEN Logic** nodes
 
 The body must be valid JSON. If a referenced attribute doesn't exist or contains a null value, `null` will be sent in the JSON.
 

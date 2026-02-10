@@ -27,7 +27,7 @@ Flow is the central functional element of IoT Logic, providing a structured fram
   [Data Source node](flow-management/data-source-node.md) manages data reception by connecting trackers to the Navixy platform for seamless input.
 * **Data enrichment**\
   [Initiate Attribute node](flow-management/initiate-attribute-node/) enables data enrichment by renaming and customizing incoming parameters to meet various application requirements.\
-  [Logic node](flow-management/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
+  [IF/THEN Logic](flow-management/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
 * **Data transmitting**\
   [Output Endpoint node](flow-management/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
 
