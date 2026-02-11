@@ -472,7 +472,7 @@ Table "devices" {
   "record_added_at" timestamp [not null]
 }
 
-Table "description_parametrs" {
+Table "description_parameters" {
   "description" "character varying(150)"
   "record_added_at" timestamp [not null]
   "type" "character varying(100)" [not null]
@@ -577,29 +577,29 @@ Ref:"departments"."department_id" < "employees"."department_id"
 
 Ref:"users"."user_id" < "departments"."user_id"
 
-Ref:"description_parametrs"."key" < "counters"."counter_type"
+Ref:"description_parameters"."key" < "counters"."counter_type"
 
-Ref:"description_parametrs"."key" < "custom_fields"."custom_field_type"
+Ref:"description_parameters"."key" < "custom_fields"."custom_field_type"
 
-Ref:"description_parametrs"."key" < "driver_history"."updated_by"
+Ref:"description_parameters"."key" < "driver_history"."updated_by"
 
-Ref:"description_parametrs"."key" < "entities"."builtin_type"
+Ref:"description_parameters"."key" < "entities"."builtin_type"
 
-Ref:"description_parametrs"."key" < "sensor_description"."units_type"
+Ref:"description_parameters"."key" < "sensor_description"."units_type"
 
-Ref:"description_parametrs"."key" < "status_history"."updated_by"
+Ref:"description_parameters"."key" < "status_history"."updated_by"
 
-Ref:"description_parametrs"."key" < "tasks"."status"
+Ref:"description_parameters"."key" < "tasks"."status"
 
-Ref:"description_parametrs"."key" < "tasks"."created_at"
+Ref:"description_parameters"."key" < "tasks"."created_at"
 
-Ref:"description_parametrs"."key" < "tasks"."task_type"
+Ref:"description_parameters"."key" < "tasks"."task_type"
 
-Ref:"description_parametrs"."key" < "vehicles"."fuel_type"
+Ref:"description_parameters"."key" < "vehicles"."fuel_type"
 
-Ref:"description_parametrs"."key" < "task_history"."activity"
+Ref:"description_parameters"."key" < "task_history"."activity"
 
-Ref:"description_parametrs"."key" < "sensor_description"."group_type"
+Ref:"description_parameters"."key" < "sensor_description"."group_type"
 
 Ref:"devices"."device_id" < "device_output_name"."device_id"
 
@@ -906,7 +906,7 @@ Task and workflow management
 
 **Description**: Complete audit trail of task lifecycle events capturing all status changes, assignments, updates, and field modifications with timestamps (event\_datetime), user attribution, and activity types (create, update, assign, status\_change) stored in payload field for compliance and workflow analysis
 
-<table><thead><tr><th width="137">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>task_history_id</code> - Task history entity identifier<br>- <code>task_id</code> - Task entity identifier<br>- <code>user_id</code> - User entity identifier<br>- <code>activity</code> - Operation which happened. Can be "create", "update", "assign" or "status_change"<br>- <code>event_datetime</code> - Date and time of the event<br>- <code>payload</code> - Depends on operation. Typically, contains fields which were changed during operation</td></tr><tr><td><strong>Content</strong></td><td>Activity types defined in <code>description_parametrs</code>; <code>payload</code> stores event-specific details (text)</td></tr><tr><td><strong>Special notes</strong></td><td>Essential for task completion analysis, status transition reporting, and user activity tracking</td></tr></tbody></table>
+<table><thead><tr><th width="137">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>task_history_id</code> - Task history entity identifier<br>- <code>task_id</code> - Task entity identifier<br>- <code>user_id</code> - User entity identifier<br>- <code>activity</code> - Operation which happened. Can be "create", "update", "assign" or "status_change"<br>- <code>event_datetime</code> - Date and time of the event<br>- <code>payload</code> - Depends on operation. Typically, contains fields which were changed during operation</td></tr><tr><td><strong>Content</strong></td><td>Activity types defined in <code>description_parameters</code>; <code>payload</code> stores event-specific details (text)</td></tr><tr><td><strong>Special notes</strong></td><td>Essential for task completion analysis, status transition reporting, and user activity tracking</td></tr></tbody></table>
 
 </details>
 
@@ -970,7 +970,7 @@ Status and categorization
 
 **Description**: Audit trail of all device status transitions with timestamps (changed\_datetime on device, server\_datetime on server), user attribution (updated\_by), and location capture (latitude, longitude, address) enabling geographic analysis of status changes and workday start/end location reporting
 
-<table><thead><tr><th width="143">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>status_history_id</code> - Entity identifier status history<br>- <code>device_id</code> - Device entity identifier<br>- <code>old_status_id</code> - Entity identifier old status<br>- <code>new_status_id</code> - Entity identifier new status<br>- <code>updated_by</code> - The date and time associated with the updated_by attribute<br>- <code>changed_datetime</code> - Date and time of assigning a new status on the device<br>- <code>server_datetime</code> - Date and time of assigning the new server status<br>- <code>latitude</code> - Locating devices during status changes<br>- <code>longitude</code> - Locating devices during status changes<br>- <code>address</code> - Locating devices during status changes</td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>devices</code>, <code>statuses</code> (old and new), <code>description_parametrs</code> (for <code>updated_by</code> role)</td></tr><tr><td><strong>Special notes</strong></td><td>Location capture enables geographic analysis of status transitions; useful for workday start/end location reporting</td></tr></tbody></table>
+<table><thead><tr><th width="143">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>status_history_id</code> - Entity identifier status history<br>- <code>device_id</code> - Device entity identifier<br>- <code>old_status_id</code> - Entity identifier old status<br>- <code>new_status_id</code> - Entity identifier new status<br>- <code>updated_by</code> - The date and time associated with the updated_by attribute<br>- <code>changed_datetime</code> - Date and time of assigning a new status on the device<br>- <code>server_datetime</code> - Date and time of assigning the new server status<br>- <code>latitude</code> - Locating devices during status changes<br>- <code>longitude</code> - Locating devices during status changes<br>- <code>address</code> - Locating devices during status changes</td></tr><tr><td><strong>Relationships</strong></td><td>Links to <code>devices</code>, <code>statuses</code> (old and new), <code>description_parameters</code> (for <code>updated_by</code> role)</td></tr><tr><td><strong>Special notes</strong></td><td>Location capture enables geographic analysis of status transitions; useful for workday start/end location reporting</td></tr></tbody></table>
 
 </details>
 
@@ -1024,7 +1024,7 @@ Custom fields and entities
 
 **Description**: Entity type registry defining which business entities support custom fields and their field layout structure (sections, field\_order) stored in entity\_label (JSONB), enabling dynamic schema extension across places, tasks, and other entities without database changes
 
-<table><thead><tr><th width="141">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>entity_id</code> - Entity identifier<br>- <code>user_id</code> - User entity identifier<br>- <code>entity_label</code> - id - int. Entity identifier. type - enum. Currently, only "place" is supported. layout - object describes the layout of fields for entity. sections - array of objects. Each section can contain one or more fields. At least one section must exist in a layout. label - string. Name of section. field_order - string array. Built-in fields and IDs of custom fields (as strings)<br>- <code>builtin_type</code> - The builtin_type attribute of the entities table</td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>custom_fields</code> to define which custom fields apply to which entity types</td></tr><tr><td><strong>Special notes</strong></td><td><code>builtin_type</code> links to <code>description_parametrs</code> for system-defined entity classifications</td></tr></tbody></table>
+<table><thead><tr><th width="141">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>entity_id</code> - Entity identifier<br>- <code>user_id</code> - User entity identifier<br>- <code>entity_label</code> - id - int. Entity identifier. type - enum. Currently, only "place" is supported. layout - object describes the layout of fields for entity. sections - array of objects. Each section can contain one or more fields. At least one section must exist in a layout. label - string. Name of section. field_order - string array. Built-in fields and IDs of custom fields (as strings)<br>- <code>builtin_type</code> - The builtin_type attribute of the entities table</td></tr><tr><td><strong>Relationships</strong></td><td>Referenced by <code>custom_fields</code> to define which custom fields apply to which entity types</td></tr><tr><td><strong>Special notes</strong></td><td><code>builtin_type</code> links to <code>description_parameters</code> for system-defined entity classifications</td></tr></tbody></table>
 
 </details>
 
@@ -1034,7 +1034,7 @@ Custom fields and entities
 
 **Description**: Custom field definitions enabling dynamic schema extension for entity types, with configurable field types (custom\_field\_type), validation rules and options in parameters (JSONB), and requirement flags (is\_required) for flexible data capture across places, tasks, and other entities
 
-<table><thead><tr><th width="146">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>custom_field_id</code> - Custom field entity identifier<br>- <code>entity_id</code> - Entity identifier<br>- <code>custom_field_label</code> - Field name<br>- <code>custom_field_type</code> - Data type in the field<br>- <code>description</code> - Field Description<br>- <code>is_required</code> - Is this required or not?<br>- <code>parameters</code> - Field parameters</td></tr><tr><td><strong>Content</strong></td><td><code>parameters</code> (JSONB) stores field-type-specific configuration (validation rules, dropdown options, etc.)</td></tr><tr><td><strong>Relationships</strong></td><td>Defines available custom attributes for entities; field type links to <code>description_parametrs</code></td></tr><tr><td><strong>Special notes</strong></td><td>Enables dynamic schema extension without database changes; used extensively in <code>places</code> and <code>tasks</code></td></tr></tbody></table>
+<table><thead><tr><th width="146">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>custom_field_id</code> - Custom field entity identifier<br>- <code>entity_id</code> - Entity identifier<br>- <code>custom_field_label</code> - Field name<br>- <code>custom_field_type</code> - Data type in the field<br>- <code>description</code> - Field Description<br>- <code>is_required</code> - Is this required or not?<br>- <code>parameters</code> - Field parameters</td></tr><tr><td><strong>Content</strong></td><td><code>parameters</code> (JSONB) stores field-type-specific configuration (validation rules, dropdown options, etc.)</td></tr><tr><td><strong>Relationships</strong></td><td>Defines available custom attributes for entities; field type links to <code>description_parameters</code></td></tr><tr><td><strong>Special notes</strong></td><td>Enables dynamic schema extension without database changes; used extensively in <code>places</code> and <code>tasks</code></td></tr></tbody></table>
 
 </details>
 
@@ -1064,7 +1064,7 @@ Reference and lookup data
 
 <details>
 
-<summary><strong><code>description_parametrs</code></strong></summary>
+<summary><strong><code>description_parameters</code></strong></summary>
 
 **Description**: System-wide reference data providing human-readable labels (description) for enumerated integer values (key) used throughout the database, organized by type field (e.g., task\_status, fuel\_type, counter\_type, entity\_classification) for consistent value translation in reporting and UI display
 
@@ -1076,9 +1076,9 @@ Reference and lookup data
 
 <summary><strong><code>counters</code></strong></summary>
 
-**Description**: Odometer and engine-hour counter configurations linking device sensor readings (sensor\_id) to distance or time measurements with multiplier coefficients for unit conversion (km, miles, hours) and counter\_type from description\_parametrs defining measurement type
+**Description**: Odometer and engine-hour counter configurations linking device sensor readings (sensor\_id) to distance or time measurements with multiplier coefficients for unit conversion (km, miles, hours) and counter\_type from description\_parameters defining measurement type
 
-<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>counter_id</code> - Internal ID<br>- <code>device_id</code> - Device entity identifier<br>- <code>counter_type</code> - Counter type<br>- <code>sensor_id</code> - Sensor entity identifier<br>- <code>multiplier</code> - Coefficient for converting values into one of the metrics (km, l, etc.)</td></tr><tr><td><strong>Relationships</strong></td><td>Links devices to sensor readings that represent distance or time counters</td></tr><tr><td><strong>Special notes</strong></td><td><code>multiplier</code> converts sensor pulses to actual units (km, miles, hours); <code>counter_type</code> from <code>description_parametrs</code> defines measurement type</td></tr></tbody></table>
+<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>counter_id</code> - Internal ID<br>- <code>device_id</code> - Device entity identifier<br>- <code>counter_type</code> - Counter type<br>- <code>sensor_id</code> - Sensor entity identifier<br>- <code>multiplier</code> - Coefficient for converting values into one of the metrics (km, l, etc.)</td></tr><tr><td><strong>Relationships</strong></td><td>Links devices to sensor readings that represent distance or time counters</td></tr><tr><td><strong>Special notes</strong></td><td><code>multiplier</code> converts sensor pulses to actual units (km, miles, hours); <code>counter_type</code> from <code>description_parameters</code> defines measurement type</td></tr></tbody></table>
 
 </details>
 
@@ -2152,4 +2152,3 @@ Tables are organized with specific indexing strategies:
 * Regular VACUUM maintenance for large tables
 * Possible future partitioning for `device` table by `organization_id`
 * Materialized views for complex access control calculations
-
