@@ -27,9 +27,8 @@ After receiving confirmation from our support team that the integration is ready
 
 1. Go to **Device activation**
 2. Select your Howen device from the list
-3. Select **SIM card purchased separately** option and proceed to the next step
-4. Enter the correct **Device ID** (device IMEI)
-5. Complete the device configuration
+3. Enter the correct **Device ID** (device IMEI)
+4. Complete the device configuration
 
 For detailed instructions on how to activate a device in Navixy, see [Activate GPS device](../quick-start/activate-gps-device.md).
 

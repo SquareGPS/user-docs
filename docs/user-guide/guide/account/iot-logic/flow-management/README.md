@@ -112,7 +112,7 @@ This node provides flexible integration with virtually any third-party applicati
 * Configure custom HTTP headers and authentication methods
 * Transform data using JSON templates before transmission
 
-For detailed configuration options, authentication setup, and request/response handling, see [Webhook node](webhook.md).
+For detailed configuration options, authentication setup, and request/response handling, see [Webhook node](webhook-node.md).
 
 </details>
 

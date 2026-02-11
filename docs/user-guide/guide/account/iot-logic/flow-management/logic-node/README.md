@@ -145,7 +145,7 @@ The **IF/THEN Logic** node creates two distinct output paths based on the expres
 
 ### **Terminal node requirement**
 
-When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../webhook.md)) that don't support outbound connections, create parallel connections to ensure both the terminal node and an Output Endpoint receive data:
+When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../webhook-node.md)) that don't support outbound connections, create parallel connections to ensure both the terminal node and an Output Endpoint receive data:
 
 <figure><img src="../../../../../.gitbook/assets/flow_branches.webp" alt=""><figcaption></figcaption></figure>
 

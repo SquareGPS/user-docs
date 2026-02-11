@@ -30,7 +30,7 @@ Ensure that your device is properly configured in your Lightmetrics account befo
 {% endhint %}
 
 1. Go to **Device activation**.
-2. Select your device from the list.
+2. Select your Lightmetrics device from the list.
 3. Enter a correct **Device ID** (device IMEI).
 4. Complete the device configuration.
 

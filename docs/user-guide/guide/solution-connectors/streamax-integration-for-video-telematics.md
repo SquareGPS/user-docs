@@ -52,9 +52,8 @@ To activate the device on Navixy's side, follow the usual activation procedure:
 
 1. Go to **Device activation**.
 2. Select your Streamax device from the list.
-3. Select **SIM card purchased separately** option and go to the next step.
-4. Enter a correct **Device ID**&#x20;
-5. Complete the device configuration
+3. Enter a correct **Device ID**&#x20;
+4. Complete the device configuration
 
 For detailed instructions on how to activate a device in Navixy, see [Activate GPS device](../quick-start/activate-gps-device.md).
 

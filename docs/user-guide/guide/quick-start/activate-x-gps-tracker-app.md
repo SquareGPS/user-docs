@@ -1,61 +1,83 @@
 # Activate X-GPS tracker app
 
+## What is X-GPS tracker app?
+
 The [X-GPS Tracker app](https://x-gps.app) transforms a smartphone or tablet into a GPS tracker, providing real-time tracking for field staff such as drivers, couriers, service technicians, construction workers, sales representatives, and more. Utilizing a combination of satellite navigation signals (GPS), GSM, and Wi-Fi networks, the app accurately determines the device owner’s location while maintaining low energy consumption depending on settings.
 
-Additionally, the X-GPS Tracker app allows field employees to report their location, status, and task completion in real-time. It enables users to share their locations, upload photos, and fill out forms, making it easier for companies to track the progress of their workforce, manage tasks efficiently, and ensure that field operations run smoothly.
+Additionally, the app allows field employees to report their location, status, and task completion in real-time. It enables users to share their locations, upload photos, and fill out forms, making it easier for companies to track the progress of their workforce, manage tasks efficiently, and ensure that field operations run smoothly.
 
-Activating the X-GPS Tracker app on the Navixy platform involves two general steps: inviting an employee and configuring the application on the employee’s side.
+Activating the X-GPS Tracker app on the Navixy platform involves two general steps: [inviting an employee](activate-x-gps-tracker-app.md#step-1-send-an-invitation-to-an-employee) and [configuring the application on the employee’s side](activate-x-gps-tracker-app.md#step-2-accept-the-invitation-and-configure-the-app).
 
 ## Step 1: Send an invitation to an employee
 
 Invite an employee to install the X-GPS Tracker App first. You can do that from the Navixy Web Interface or X-GPS Monitor App.
 
-### **Using Navixy web internface:**
+{% tabs %}
+{% tab title="Using Navixy web interface" %}
+* Log in to your Navixy user account.
+* In the left menu, click **Device activation.**
+* Find and select the **X-GPS Tracker** option.
+* Create a label for the device (e.g., "Driver John Smith") and, optionally, add it to a [group](../devices-and-settings/).
+* Enter the phone number and/or email address of your employee where to send them an invitation.
+* Go to the next step and click **Activate**.
+{% endtab %}
 
-1. Log in to your Navixy user account
-2. In the left menu, click on the "Activate Device" icon
-3. Select the "X-GPS Tracker" option
-4. Create a label for the device (e.g., "Driver John Smith")
-5. Enter the phone number and/or email address of your employee where to send them an invitation
+{% tab title="Using X-GPS Monitor app" %}
+* Open the X-GPS Monitor app on your mobile device.
+* Select **Add object** from the menu.
+* Choose the **Mobile App** option.
+* Enter the phone number and/or email address of your employee where to send them an invitation.
+* Tap **Add and invite**.
+{% endtab %}
+{% endtabs %}
 
-### **Using X-GPS Monitor app:**
+{% columns %}
+{% column %}
 
-Open the X-GPS Monitor app on your mobile device
 
-1. Select "Activate Device" from the menu
-2. Choose the "X-GPS Tracker" option
-3. Enter the contact information to send the invitation
-
-## Step 2: Accept the invitation and configure the app
-
-### Receive the invitation
+The new device will appear in Navixy with **Just registered** status waiting for the employee to complete the activation.
 
 The employee will receive an invitation via text (SMS) or email depending on setup. The invitation includes:
 
 * A 12-digit personal identifier
 * A link to download the X-GPS Tracker app
+{% endcolumn %}
 
+{% column %}
 ![](../../.gitbook/assets/image-20240717-190626.png)
+{% endcolumn %}
+{% endcolumns %}
 
-### Download and install the app
+## Step 2: Accept the invitation and configure the app
 
-Ask your employee to proceed with the invitation, that also involves downloading the X-GPS Tracker App to the employee’s mobile device:
+After the invitation is sent, employees should proceed on their end by downloading the app and configure it.&#x20;
 
-1. Visit the [App Store (iOS)](https://apps.apple.com/us/app/x-gps-tracker/id1612047534) or [Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.navixy.xgps.tracker)
-2. Search for "X-GPS Tracker" (do not confuse it with X-GPS Monitor, which is another app)
-3. Download and install the app on your mobile device
+{% stepper %}
+{% step %}
+#### Download and install the app
 
-### Configure the app
+Download and install the app on their  mobile device from the related store:&#x20;
+
+* [App Store (iOS)](https://apps.apple.com/app/x-gps-tracker/id1612047534)&#x20;
+* [Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.navixy.xgps.tracker)
+{% endstep %}
+
+{% step %}
+#### Configure the app
 
 Upon launching the app, the employee will need to enter the 12-digit identifier from the invitation to complete the setup. After that, just a few more steps to finish the configuration are needed:
 
-1. In the X-GPS Tracker app, start the tracking function
+1. Start the tracking function, to do it:
+   1. Go to <i class="fa-gear">:gear:</i> -> General
+   2. Toggle on Tracker On/Off
 2. Ensure that the app has the necessary permissions to access your device’s location
+{% endstep %}
+{% endstepper %}
 
-### Help and support
+## Help and support
 
-By following the steps above, you can successfully activate and use the X-GPS Tracker app with the Navixy platform, allowing you to track and manage your mobile device efficiently. If you encounter any issues, please consult the technical support of your service provider.
+By following the steps above, you can successfully activate and use the X-GPS Tracker app with the Navixy platform, allowing you to track and manage your mobile device efficiently. If you encounter any issues, please consult with your [service provider](about-service-providers.md).
 
 {% hint style="info" %}
-If your employee has trouble, please have them try hitting the “Apply Settings” option from the email.
+If your employee has issues, please have them try hitting the “Apply Settings” option from the email.
 {% endhint %}
