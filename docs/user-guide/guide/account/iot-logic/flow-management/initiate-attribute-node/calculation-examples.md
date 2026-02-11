@@ -6,7 +6,7 @@ The Initiate attribute node in IoT Logic supports a wide range of calculations t
 
 When creating calculations, keep these points in mind:
 
-* **Attribute names validity**: Make sure you use correct attribute names in calculations. You can look up existing attribute names using [Data Stream Analyzer](../../data-stream-analyzer.md), or insert them with g[#short-syntax](managing-attributes.md#short-syntax "mention") using [autocomplete](managing-attributes.md#autofill-attribute-names).
+* **Attribute names validity**: Make sure you use correct attribute names in calculations. You can look up existing attribute names using [Data Stream Analyzer](../../data-stream-analyzer.md), or insert them with [#short-syntax](managing-attributes.md#short-syntax "mention") using [autocomplete](managing-attributes.md#autofill-attribute-names).
 * **Data validity**: Ensure your expressions handle potential null values or invalid readings gracefully
 * **Performance impact**: Complex calculations with many nested functions may impact processing speed for high-frequency data
 * **Mathematical constraints**: Functions like logarithm and square root require positive input values

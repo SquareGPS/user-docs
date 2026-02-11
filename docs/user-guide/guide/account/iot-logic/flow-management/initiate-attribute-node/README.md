@@ -1,4 +1,4 @@
-# Initiate Attribute node
+# Initiate Attribute
 
 ## Technical overview and capabilities
 
@@ -41,9 +41,15 @@ The **Initiate Attribute** node by itself offers:
 
 ## Configuration options
 
+{% columns %}
+{% column valign="middle" %}
 **Initiate Attribute** node allows you to define how device parameters are transformed into attributes, which will be available for further processing in your data flow.
+{% endcolumn %}
 
-<figure><img src="../../../../../.gitbook/assets/image-20250606-091235.png" alt="Initiate attribute node configuration panel showing the list of attributes and the Add New Attribute button"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../../.gitbook/assets/Initiate_Attribute_node_edit.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -51,22 +57,13 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-Specify **Node name**
+#### Specify node **Name**
 
 Enter a descriptive name to highlight the node’s purpose. Use a name that helps you identify the calculations that will be made within this node, it will be displayed in the flow diagram for easy identification.
 {% endstep %}
 
 {% step %}
-Toggle on **Specify time attributes**
-
-if you need to manipulate event timestamps, it enables two more options:
-
-* **Generation time**: When the data was created (defaults to `now()`)
-* **Server time**: When the data was received by IoT Logic (defaults to `now()`)
-{% endstep %}
-
-{% step %}
-Define **Attribute name**
+#### Define **Attribute name**
 
 Add a distinctive identifier of the attribute.
 
@@ -75,7 +72,7 @@ Add a distinctive identifier of the attribute.
 {% endstep %}
 
 {% step %}
-Define **Formula**
+#### Define **Formula**
 
 Add mathematical expressions to calculate attribute values.
 
@@ -86,21 +83,33 @@ Add mathematical expressions to calculate attribute values.
 {% endstep %}
 
 {% step %}
-(optional) Click **Add Attribute**
+#### (optional) Add more attributes
 
-Open a new attribute configuration dialog. Here you can create a new data attribute if you need multiple calculations to be performed within the same node.
+Click **Add Attribute** to open a new attribute configuration dialog. Here you can create a new data attribute if you need multiple calculations to be performed within the same node.
+{% endstep %}
+
+{% step %}
+#### Save the node configuration
+
+Click **Apply changes** to complete the node creation.
 {% endstep %}
 {% endstepper %}
 
 Let's look at a practical example of configuring attributes:
 
-<figure><img src="../../../../../.gitbook/assets/image-20250606-090926.png" alt="Iniatiate attribute node configuration window with node name Speed conversions, Attribute name KMPH to MPH and formula"><figcaption></figcaption></figure>
-
+{% columns %}
+{% column valign="middle" %}
 In this example, we're creating an attribute that converts speed from kilometers to miles per hour by dividing the CAN speed parameter by 1.609.
 
 For details on calculations for new attributes, see [Calculation examples](calculation-examples.md).
 
 Also, you can find a detailed example of using calculated attributes in a flow in [Flow configuration example → steps 3 and 4](../flow-configuration-example.md#flow-configuration-steps).
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../../.gitbook/assets/Iitiate_Attribute_example.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 ## Display options
 
@@ -139,7 +148,7 @@ The attribute will no longer be calculated for newly received data, but historic
 
 #### Can I use attributes created in one Initiate attribute node in another?
 
-Yes. Attributes created earlier in the flow can be referenced in subsequent **Initiate Attribute** nodes, allowing for multi-stage calculations. All created attributes are also available using the [autofill feature](/broken/pages/7fWsEyG2UZbBe04TogPC#autofill-attribute-names) to ensure correct naming.
+Yes. Attributes created earlier in the flow can be referenced in subsequent **Initiate Attribute** nodes, allowing for multi-stage calculations. All created attributes are also available using the [autofill feature](managing-attributes.md#autofill-attribute-names) to ensure correct naming.
 
 <figure><img src="../../../../../.gitbook/assets/image-20250404-084039.png" alt="Example of a complete flow with two Initiate attribute nodes consecutively"><figcaption></figcaption></figure>
 

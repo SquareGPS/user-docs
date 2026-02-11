@@ -41,8 +41,6 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 3. Add a description: "_Collects device data, calculates derived metrics, and forwards to analytics platform._"
 4. Ensure the **Flow enabled** toggle is switched on
 5. Click **Save** to create the flow
-
-<figure><img src="../../../../.gitbook/assets/image-20250407-200203.png" alt="Create flow dialog with filled-in name and description, Flow enabled toggle on"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -56,8 +54,6 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 * For this example, select at least two devices with similar capabilities
 
 5. Click **Apply** to save node configuration
-
-<figure><img src="../../../../.gitbook/assets/image-20250407-200511.png" alt="Data source node configuration with selected devices" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -73,8 +69,6 @@ Follow these steps to build a comprehensive data transformation and forwarding f
    3. Add a new attribute for distance conversion (kilometers to miles): 1. Attribute name: _distance\_miles_ 2. Value: `odometer/1.609`
    4. Add a new attribute for pressure conversion (PSI to Bar): 1. Attribute name: _pressure\_bar_ 2. Value: `pressure_psi * 0.06895`
 6. Click **Apply** to save node configuration
-
-<figure><img src="../../../../.gitbook/assets/image-20250407-201226.png" alt="First Initiate attribute node showing the unit conversion attributes"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For explanations on calculations introduced in this step, see [Basic unit conversions](flow-configuration-example.md#basic-unit-conversions)
@@ -114,8 +108,6 @@ For explanations on calculations introduced in this step, see [Basic unit conver
       2. Value: `(value('fuel_level_1', 0, 'valid') + value('fuel_level_2', 0, 'valid')) / 2`
 6. Click **Apply** to save node configuration
 
-<figure><img src="../../../../.gitbook/assets/image-20250407-202303.png" alt="Second Initiate attribute node showing the advanced calculated metrics"><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 For explanations on calculations introduced in this step, see [Advanced metrics calculations](flow-configuration-example.md#advanced-metrics-calculations).
 {% endhint %}
@@ -141,8 +133,6 @@ For explanations on calculations introduced in this step, see [Advanced metrics 
    11. **MQTT Authentication**: _Yes_ (if required by your destination system)
    12. **MQTT Login and Password**: Enter credentials if applicable
 5. Click **Create** to save node configuration
-
-<figure><img src="../../../../.gitbook/assets/image-20250407-202704.png" alt="Output endpoint node configuration with filled-in connection settings" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

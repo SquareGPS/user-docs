@@ -6,7 +6,7 @@ IoT Logic provides a flexible canvas environment where you can build custom data
 
 IoT Logic starts with an empty workspace where you can design your data processing flow.
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-155742.png" alt="Create flow dialog showing name field, description field, and enabled toggle"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/New_flow_dialog.png" alt=""><figcaption></figcaption></figure>
 
 Follow these simple steps to create a flow:
 
@@ -37,7 +37,7 @@ The basic components available in the **Nodes** pane include:
 
 <summary>Data Source node</summary>
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-160159.png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Data_source_node_edit.png" alt="" width="218"><figcaption></figcaption></figure>
 
 This node establishes the entry point for device data in your flow. It processes specific devices from your Navixy account that you can:
 
@@ -54,7 +54,7 @@ For detailed configuration options, see [Data Source node](data-source-node.md).
 
 <summary>Initiate Attribute node</summary>
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-160516.png" alt="Initiate Attribute node configuration panel showing attribute creation interface"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Initiate_Attribute_node_edit.png" alt="" width="375"><figcaption></figcaption></figure>
 
 This node enables data transformation through the [Navixy Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language). It allows you to:
 
@@ -70,7 +70,7 @@ For detailed configuration options, syntax, and expression examples, see the [In
 
 <summary>IF/THEN Logic</summary>
 
-<figure><img src="../../../../.gitbook/assets/image-20250721-090630.png" alt="IF/THEN Logic configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Logic_node_edit.png" alt="" width="375"><figcaption></figcaption></figure>
 
 This node creates intelligent branching points that route data based on logical conditions. It allows you to:
 
@@ -87,7 +87,7 @@ For detailed configuration options, logical operators, and expression examples, 
 
 <summary>Action node</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action_node_edit.png" alt="" width="375"><figcaption></figcaption></figure>
 
 This node enables automated responses to device data by performing specific operations when conditions are met. It allows you to:
 
@@ -101,9 +101,9 @@ For detailed configuration options, see the [Action node](action-node.md).
 
 <details>
 
-<summary>Webhoook node</summary>
+<summary>Webhook node</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Webhook_node_edit.png" alt="" width="375"><figcaption></figcaption></figure>
 
 This node provides flexible integration with virtually any third-party application that offers API access, enabling powerful automation capabilities. It allows you to:
 
@@ -112,7 +112,7 @@ This node provides flexible integration with virtually any third-party applicati
 * Configure custom HTTP headers and authentication methods
 * Transform data using JSON templates before transmission
 
-For detailed configuration options, authentication setup, and request/response handling, see [Webhook node](webhook-node.md).
+For detailed configuration options, authentication setup, and request/response handling, see [Webhook node](webhook.md).
 
 </details>
 
@@ -120,7 +120,7 @@ For detailed configuration options, authentication setup, and request/response h
 
 <summary>Output Endpoint node</summary>
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-160749.png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Output_Endpoint_node_edit.png" alt="" width="236"><figcaption></figcaption></figure>
 
 This node defines where and how your processed data is transmitted. In its configuration, you can:
 

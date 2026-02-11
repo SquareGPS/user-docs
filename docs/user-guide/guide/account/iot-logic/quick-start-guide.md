@@ -68,9 +68,9 @@ Disabled flows don't process any data. When a flow is disabled, devices in that 
 3. Configure the following settings:
 
 * **Node name** - Enter a descriptive name, specifying the sent data origin (e.g., _Staff vehicles_)
-* **Sources** - Select devices whose readings you want to send to this flow. You can filter your available devices by data **Manufacturer** and device **Model**.
+* **Sources** - Select devices whose readings you want to send to this flow.
 
-4. Click **Save** to apply the configuration
+4. Click **Apply changes** to apply the configuration
 
 For details on the node configuration, see [Data Source node](flow-management/data-source-node.md).
 {% endstep %}
@@ -83,13 +83,11 @@ For details on the node configuration, see [Data Source node](flow-management/da
 3. Add a descriptive **Node name** to specify its purpose and calculations it makes (e.g. _Temperature °F to °C_)
 4. Define your attribute:
    1. **Attribute name** - A clear, descriptive name (e.g., "speed\_mph")
-   2. **Formula** - The calculation expression (e.g., `value('speed')/1.609` to convert km/h to mph)\
-      :bulb:**Note**: Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to ensure correct naming. Autofill uses short syntax by default, which addresses the latest attribute value.
-   3. **Generation time** - When the data entry was created on the device (defaults to `now()`)
-   4. **Server time** - When the data was received by the server (defaults to `now()`)
-5. Add additional attributes if needed by clicking **Add attribute**\
-   :bulb:**Note**: The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
-6. Click **Save** to apply the configuration
+   2. **Formula** - The calculation expression (e.g., `speed/1.609` to convert km/h to mph)\
+      :bulb:**Note**: Short syntax is the primary option. Use full syntax when you need historical/indexed values or explicit validity checks (e.g., `value('speed', 1, 'valid')`).\
+      Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to avoid typos.
+5. Add additional attributes if needed by clicking **Add Attribute**. To remove an attribute, click the delete icon next to it.
+6. Click **Apply changes** to apply the configuration
 7. Create a connection:
    1. Click the output connector of the **Data Source** node
    2. Drag the transition to the input connector of the **Initiate Attribute** node
@@ -106,37 +104,26 @@ For sample calculation formulas, see [Calculation examples](flow-management/init
 
 1. Drag an **Output Endpoint** node onto the canvas
 2. Hover your mouse over the node to display quick actions, or double-click the node to open its configuration panel
-3. Select **Endpoint type**:
+3. Select endpoint **Mode**:
 
-* **Navixy endpoint** - default endpoint for sending processed data to Navixy platform. It is pre-configured and does not allow any changes
-* **MQTT endpoint** - endpoint for sending data to 3rd-party destinations, using MQTT as a transport protocol. Requires manual configuration described in further steps
-
-{% hint style="info" %}
-Endpoints created within the account are available as **Presets**. You can select an already existing configuration instead of setting it up from scratch. **Navixy Output Endpoint** is always available as a preset.
-{% endhint %}
+* **Default endpoint** - a standard output for sending flow data to the Navixy platform. It is pre-configured and cannot be edited.
+* **MQTT endpoint** - a custom output for sending flow data to 3rd-party destinations over MQTT.
 
 4. Configure the following settings:
-   1. **Endpoint name** - Enter a descriptive name to specify the destination where the data is sent
-   2. **Protocol** - Select the data protocol (only “Navixy Generic Protocol (JSON)" is available at the moment)
-   3. **IP/Domain** - Enter the destination address
-   4. **Port** - Specify the port number (default: 1883 for standard MQTT, 8883 for SSL)
-   5. (optional) **Enable SSL** - Toggle ON for secure connections
-   6. **MQTT Version** - Select the appropriate version (**3.1.1** or 5.0)
-   7. **Client ID** - Enter the identifier for your client to ensure the data is accepted by the receiving party
-   8. (optional) **Topics** - Specify the MQTT topics for data transmission
-   9. **QoS** - Select the Quality of Service level to determine the logic of data transmission (**0**, **1**, or **2**)
-5. If authentication is required on the receiving side, toggle **MQTT Authentication** ON\
-   The appearing fields are pre-filled automatically with your platform account credentials
-
-{% hint style="danger" %}
-The **Reset form** button discards all created attributes within a node. If you want to remove a certain attribute, click the three dots on the right of the attribute row and select **Delete**.
-{% endhint %}
-
-6. Click **Create** to apply the configuration
-7. Connect your other nodes to this output node in needed order to finalize the flow structure
+   1. **Endpoint name** - enter a descriptive name for this output
+   2. **MQTT Version** - select **3.1.1** or **5.0**
+   3. **IP** - enter the destination IP address
+   4. **Port** - specify the port number (commonly _1883_ for MQTT, _8883_ for MQTT over TLS)
+   5. **Topic** - specify the topic used for data transmission
+   6. **QoS** - select **0**, **1**, or **2**
+   7. **MQTT Client ID** - enter the client ID expected by the receiving side
+   8. (optional) **Use Authentication** - toggle on, then enter **MQTT username** and **MQTT password**
+   9. (optional) **Use SSL** - toggle on for TLS
+5. Click **Apply changes** to apply the configuration
+6. Connect your other nodes to this output node in needed order to finalize the flow structure
 
 {% hint style="info" %}
-Each flow should include a **Default Endpoint** node to ensure data is sent to the platform. Without this connection, device data won't be visible in the Navixy interface.
+Each flow should include a **Default endpoint** node to ensure data is sent to the platform. Without this connection, device data won't be visible in the Navixy interface.
 {% endhint %}
 
 For details on node configuration, see [Output Endpoint node](flow-management/output-endpoint-node.md).

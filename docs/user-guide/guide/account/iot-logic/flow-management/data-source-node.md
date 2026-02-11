@@ -1,4 +1,4 @@
-# Data Source node
+# Data Source
 
 ## Technical overview and capabilities
 
@@ -35,9 +35,15 @@ The **Data Source node** by itself offers:
 
 ## Configuration options
 
+{% columns %}
+{% column width="58.333333333333336%" valign="middle" %}
 **Data source node** requires configuration to establish which devices will send data to your flow. You'll need to specify the protocol, transport protocol, and select the specific devices you want to include.
+{% endcolumn %}
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-160159 (1).png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options"><figcaption></figcaption></figure>
+{% column width="41.666666666666664%" %}
+<figure><img src="../../../../.gitbook/assets/Data_source_node_edit.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -45,41 +51,24 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-Specify **Node name**
+#### Specify **Node name**
 
-Enter a descriptive name for this data source
+Enter a descriptive name for this data source:
 
-* Use a name that helps you identify the manufacturer, models, or other relevant information
-* This name will be displayed in the flow diagram for easy identification
+* Use a name that helps you identify the manufacturer, models, or other relevant information.
+* This name will be displayed in the flow diagram for easy identification.
 {% endstep %}
 
 {% step %}
-Select **Manufacturer**
+#### Select **Sources**
 
-Choose the communication protocol used by your devices
-
-* Select from available manufacturer protocols (Teltonika, Queclink, Suntech, Jimi, etc.)
-* The protocol selection will filter the available device models in the next step
-* Protocols are typically associated with specific manufacturers
+From the filtered list, select the devices to include. Only devices registered in your Navixy user account will be available for selection.
 {% endstep %}
 
 {% step %}
-Choose **Model**
+#### Save the node configuration
 
-Specify how data is transmitted
-
-* Available options include HTTP, TCP, UDP, or MQTT
-* This selection must match how your devices are configured to communicate
-{% endstep %}
-
-{% step %}
-Select **Sources**
-
-From the filtered list on the right side of the interface, select the devices to include
-
-* Only devices registered in your Navixy user account will be available for selection
-* The list is automatically filtered based on your protocol and model selections
-* Devices already used in other flows will be marked with an exclamation mark "!" icon
+Click **Apply changes** to complete the node creation.
 {% endstep %}
 {% endstepper %}
 

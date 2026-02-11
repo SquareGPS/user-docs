@@ -1,4 +1,4 @@
-# Webhook node
+# Webhook
 
 ## Technical overview and capabilities
 
@@ -53,9 +53,15 @@ The **Webhook node** offers:
 
 ## Configuration options
 
+{% columns %}
+{% column valign="middle" %}
 The Webhook node allows you to define how your flow will communicate with external systems through HTTP API calls.
+{% endcolumn %}
 
-<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Webhook_node_edit.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it.
 
@@ -63,36 +69,35 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-**Specify Node title**
+#### **Specify node Name**
 
 Enter a descriptive name that identifies the webhook's purpose.
 
-1. Use names that indicate the target service or action (e.g., "Slack Speed Alerts" or "CRM Ticket Creation")
-2. This name appears in the flow diagram for easy identification
+* Use names that indicate the target service or action (e.g., "Slack Speed Alerts" or "CRM Ticket Creation")
+* This name appears in the flow diagram for easy identification
 {% endstep %}
 
 {% step %}
-**Configure the endpoint URL**
+#### **Configure the endpoint URL**
 
 Enter the complete URL where POST requests will be sent.
 
-1. Include the protocol: `http://` or `https://` (HTTPS strongly recommended)
-2. Ensure the URL points to a valid API endpoint that accepts POST requests
-3. Example: `https://api.example.com/v1/webhooks/device-alerts`
+* Include the protocol: `http://` or `https://` (HTTPS strongly recommended)
+* Ensure the URL points to a valid API endpoint that accepts POST requests
+* Example: `https://api.example.com/v1/webhooks/device-alerts`
 {% endstep %}
 
 {% step %}
-**Define HTTP headers**
+#### **Define HTTP headers**
 
 Add any headers required by your target API.
 
-1. Click **Add new** to create header key-value pairs
-2. All headers are user-configured, including Content-Type
-3. Common headers include:
-   1. `Content-Type: application/json` (required for JSON payloads)
-   2. `Authorization: Bearer <token>` (for API authentication)
-   3. Custom API keys or authentication headers per service requirements
-4. Click the delete icon to remove individual headers
+1. Click **Add header** to create header key-value pairs\
+   All headers are user-configured, including Content-Type. Common headers include:
+   * `Content-Type: application/json` (required for JSON payloads)
+   * `Authorization: Bearer <token>` (for API authentication)
+   * Custom API keys or authentication headers per service requirements
+2. Click the delete icon to remove individual headers
 
 {% hint style="info" %}
 Maximum of 10 headers supported
@@ -100,15 +105,15 @@ Maximum of 10 headers supported
 {% endstep %}
 
 {% step %}
-**Build the request body**
+#### **Build the request body**
 
-Define the JSON structure that will be posted to the endpoint.
+Switch to the **Body** tab and define the JSON structure that will be posted to the endpoint:
 
-1. Enter valid JSON syntax in the Body field
-2. Use `{{attribute_name}}` to reference any attribute from connected nodes
-3. Supports nested JSON structures and arrays
-4. Attribute references work with nested paths (e.g., `{{location.latitude}}`)
-5. If a referenced attribute is null or doesn't exist, the value `null` will be sent in the JSON
+* Enter valid JSON syntax in the Body field
+* Use `{{attribute_name}}` to reference any attribute from connected nodes
+* Supports nested JSON structures and arrays
+* Attribute references work with nested paths (e.g., `{{location.latitude}}`)
+* If a referenced attribute is null or doesn't exist, the value `null` will be sent in the JSON
 
 **Example webhook body with dynamic attributes:**
 
@@ -129,9 +134,9 @@ Define the JSON structure that will be posted to the endpoint.
 {% endstep %}
 
 {% step %}
-**Save your configuration**
+#### **Save your configuration**
 
-Click **Apply** to store the webhook node settings.
+Click **Apply changes** to store the webhook node settings.
 {% endstep %}
 {% endstepper %}
 

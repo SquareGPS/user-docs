@@ -56,9 +56,15 @@ The **IF/THEN Logic** node offers:
 
 ## Configuration options
 
+{% columns %}
+{% column valign="middle" %}
 The **IF/THEN Logic** node allows you to define conditional expressions that evaluate incoming data and create branching paths in your flow based on the results.
+{% endcolumn %}
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-090630 (1).png" alt="IF/THEN Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../../.gitbook/assets/Logic_node_edit.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it.
 
@@ -66,7 +72,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-**Specify node title**
+#### **Specify node name**
 
 Enter a descriptive name for this **IF/THEN Logic** node.
 
@@ -75,7 +81,7 @@ Enter a descriptive name for this **IF/THEN Logic** node.
 {% endstep %}
 
 {% step %}
-**Define expression name**
+#### **Define expression name**
 
 Enter the name for the boolean attribute that will store the validation result.
 
@@ -85,9 +91,9 @@ Enter the name for the boolean attribute that will store the validation result.
 {% endstep %}
 
 {% step %}
-**Create a logical expression**
+#### **Create a conditional expression**
 
-Build your conditional statement using the expression field.
+Build your logical statement using the expression field.
 
 * Use [logical operators according to Navixy Expression Language syntax](logic-node-expressions-and-syntax.md) to reference device parameters and calculated attributes.
 * The expression must return a boolean value (true/false) for proper node operation.
@@ -95,9 +101,15 @@ Build your conditional statement using the expression field.
 {% endstep %}
 
 {% step %}
-**Connect output paths**
+#### Save the node configuration
 
-Establish connections for the validation results.
+Click **Apply changes** to complete the node creation.
+{% endstep %}
+
+{% step %}
+#### **Connect output paths**
+
+After you configured the node, you need to establish connections for the validation results.
 
 * **THEN connection** (green): Connects to nodes that should process data when the expression evaluates to true.
 * **ELSE connection** (red): Connects to nodes that should process data when the expression evaluates to false or null.
@@ -133,7 +145,7 @@ The **IF/THEN Logic** node creates two distinct output paths based on the expres
 
 ### **Terminal node requirement**
 
-When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../webhook-node.md)) that don't support outbound connections, create parallel connections to ensure both the terminal node and an Output Endpoint receive data:
+When connecting to terminal nodes ([Action](../action-node.md), [Webhook](../webhook.md)) that don't support outbound connections, create parallel connections to ensure both the terminal node and an Output Endpoint receive data:
 
 <figure><img src="../../../../../.gitbook/assets/flow_branches.webp" alt=""><figcaption></figcaption></figure>
 

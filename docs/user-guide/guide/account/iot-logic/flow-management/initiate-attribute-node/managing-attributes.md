@@ -30,13 +30,6 @@ Short syntax is default for autofilled attribute names in formulas, and you can 
 {% endstep %}
 
 {% step %}
-#### Add time settings (optional)
-
-Optionally configure generation time and server time, to do it, enable the **Specify time attributes** toggle\
-For details, see [Time settings for attributes](managing-attributes.md#time-settings-for-attributes)
-{% endstep %}
-
-{% step %}
 #### Finalize configuration
 
 Click **Save** to confirm the node configuration
@@ -177,12 +170,8 @@ When you edit an attribute, the changes will only apply to new data received aft
 To remove an attribute that is no longer needed:
 
 1. Open the node configuration window by hovering your mouse over the node to display quick actions, or double-clicking the node
-2. Find the attribute you wish to delete in the attribute list and hover your mouse over it to display a ![image-20250402-101431.png](../../../../../.gitbook/assets/image-20250402-101431.png) menu
-3. Click the appeared menu and select **Delete**
-4. **Confirm** your decision to delete the attribute
-5. Click **Save** to apply your changes to the node configuration
-
-<figure><img src="../../../../../.gitbook/assets/image-20250402-102052.png" alt="Deleting attributes in the Initiate attribute node using the trash icon"><figcaption></figcaption></figure>
+2. Find the attribute you wish to remove and click <img src="../../../../../.gitbook/assets/image (12).png" alt="" data-size="line">
+3. Click **Apply changes** to cofirm the node configuration
 
 {% hint style="info" %}
 When you delete an attribute, it will no longer be calculated for new data, but historical data containing this attribute will remain unchanged in the database.

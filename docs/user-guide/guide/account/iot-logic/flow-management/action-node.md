@@ -1,4 +1,4 @@
-# Action node
+# Action
 
 ## Technical overview and capabilities
 
@@ -46,9 +46,15 @@ This targeting mechanism ensures that actions execute only for relevant devices.
 
 ## Configuration options
 
+{% columns %}
+{% column valign="middle" %}
 Setting up an **Action** node determines what automated responses will be executed when the node receives triggers from upstream processing nodes.
+{% endcolumn %}
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Action_node_edit.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -56,7 +62,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-**Specify Node name**
+**Specify node Name**
 
 Enter a descriptive name that identifies the automated actions this node will perform
 
@@ -82,7 +88,7 @@ Set up the specific details based on your selected action type:
 
 <summary>Switch Output configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action_node_edit_switch_output.png" alt="" width="375"><figcaption></figcaption></figure>
 
 When configuring Switch Output actions:
 
@@ -98,7 +104,7 @@ When configuring Switch Output actions:
 
 <summary>Send GPRS Command configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action_node_edit_GPRS.png" alt="" width="375"><figcaption></figcaption></figure>
 
 When configuring GPRS Command actions:
 
@@ -117,7 +123,7 @@ Action execution depends on individual device capabilities. Ensure your devices 
 {% step %}
 **Add additional actions (optional)**
 
-Click **ADD ACTION** to create multiple actions within the same node
+Click **Add Actiona**to create multiple actions within the same node
 
 * Actions execute sequentially in the order they appear in the configuration
 * Each action can be a different type (Switch Output or GPRS Command)
@@ -127,10 +133,9 @@ Click **ADD ACTION** to create multiple actions within the same node
 {% step %}
 **Save configuration**
 
-Click **APPLY** to save your node configuration
+Click **Apply changes** to save your node configuration
 
-* Use **CANCEL** to discard changes
-* Use **RESET FORM** to clear all configured actions and start over
+* Use **Cacel** to discard changes
 {% endstep %}
 {% endstepper %}
 

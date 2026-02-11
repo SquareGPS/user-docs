@@ -1,4 +1,4 @@
-# Output Endpoint node
+# Output Endpoint
 
 ## Technical overview and capabilities
 
@@ -40,9 +40,15 @@ The **Output Endpoint** node by itself offers:
 
 ## Configuration options
 
+{% columns %}
+{% column valign="middle" %}
 Setting up an **Output endpoint node** determines how and where data will be delivered from a particular flow. Each configuration option serves a specific purpose in establishing reliable data transmission.
+{% endcolumn %}
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-160749 (1).png" alt="Output Endpoint node configuration panel in its default appearance" width="375"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Output_Endpoint_node_edit.png" alt="" width="236"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -50,26 +56,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-Select Endpoint type
-
-Choose what type of transmitting to use for this endpoint
-
-* **Default endpoint** - standard configuration for sending flow data to the Navixy platform that cannot be edited
-* **MQTT endpoint** - custom configuration that uses MQTT as transport for sending flow data to 3rd-party systems.
-{% endstep %}
-
-{% step %}
-Select a **Preset** (optional)
-
-Open the **Preset** dropdown and select a template that fits your needs. Several ready-made configurations are available for common destinations, like Navixy servers.
-
-{% hint style="info" %}
-After an endpoint is saved, it can be used as a preset for creating new outputs.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-**Specify Endpoint Name**
+#### **Specify endpoint Name**
 
 Enter a unique, descriptive name for this endpoint configuration
 
@@ -78,46 +65,50 @@ Enter a unique, descriptive name for this endpoint configuration
 {% endstep %}
 
 {% step %}
-**Select protocols**
+#### Select endpoint Mode
 
-Choose a protocol for data transmission to third-party services from a dropdown list. Currently, only the **Navixy Generic Protocol (JSON)** is supported. In the future, other formats can be considered as additional options for data transmission.
+Choose what type of transmitting to use for this endpoint
+
+* **Default endpoint** - standard configuration for sending flow data to the Navixy platform that cannot be edited
+* **MQTT endpoint** - custom configuration that uses MQTT as transport for sending flow data to 3rd-party systems. For te specific configuration parameters of this mode, see [MQTT](output-endpoint-node.md#mqtt).
 {% endstep %}
 
 {% step %}
-**Configure connection parameters**
+#### **Save** your configuration
 
-* Enter the target **IP/Domain** in the format: _123.123.123.123_ or _example.example.com_.
-* Specify the **Port** number. By default, _1883_ is used for standard MQTT, _8883_ – for SSL).
-* Toggle **Enable SSL** for secure connections. This action automatically sets the port to _8883_ if it wasn’t changed manually.
-{% endstep %}
-
-{% step %}
-**Set MQTT parameters**
-
-* Enter **Client ID**. The receiving side has a fixed list of clients. In this field, the correct value must be specified so that the data is not rejected.
-* Select **MQTT Version**: 3.1.1 or 5.0.
-* Specify **Topics** in the form of tags that will be used for data transmission.
-* Choose **QoS** level that determines the logic of data transmission:
-  * **QoS 0** – no delivery confirmation.
-  * **QoS 1** – guaranteed delivery with possible duplication.
-  * **QoS 2** – guaranteed delivery without duplication.
-{% endstep %}
-
-{% step %}
-**Configure MQTT authentication** (optional)
-
-* Toggle **MQTT Authentication** on.
-* Enter **MQTT Login** and **MQTT Password** for the receiving party in the appeared fields.
-{% endstep %}
-
-{% step %}
-**Save** your configuration.
+Click **Apply changes** to finalize the node creation.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="info" %}
 Make sure to connect the relevant data nodes to your new output; otherwise, it won’t receive any data.
 {% endhint %}
+
+### Mode-specific configurations
+
+<details>
+
+<summary>MQTT</summary>
+
+If you plan to use an MQTT output, you need to configure these parameters:
+
+1. **Endpoint settings**
+   1. Select **MQTT Version**: 3.1.1 or 5.0.
+   2. Enter the target **IP** in the format: _123.123.123.123_ or _example.example.com_.
+   3. Specify the **Port** number. By default, _1883_ is used for standard MQTT.
+   4. Specify **Topic** in the form of tags that will be used for data transmission.
+   5. Choose **QoS** level that determines the logic of data transmission:
+      1. **QoS 0** – no delivery confirmation.
+      2. **QoS 1** – guaranteed delivery with possible duplication.
+      3. **QoS 2** – guaranteed delivery without duplication.
+   6. Enter **MQTT Client ID**. The receiving side has a fixed list of clients. In this field, the correct value must be specified so that the data is not rejected.
+2. **MQTT authentication** (optional)
+   1. Toggle **Use Authentication** on.
+   2. Enter **MQTT username** and **MQTT password** for the receiving party in the appeared fields.
+3. **SSL** (optional)
+   1. Toggle-on **Use SSL** for secure connections. This action automatically sets the port to &#x31;_&#x38;83_ if it wasn’t changed manually.
+
+</details>
 
 ## Output data format
 

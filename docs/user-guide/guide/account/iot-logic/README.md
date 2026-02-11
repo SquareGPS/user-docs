@@ -7,7 +7,7 @@
 ![](../../../.gitbook/assets/IoT_Logic_schema.jpg)
 
 {% hint style="info" %}
-**Navigation**
+### **Navigation**
 
 IoT logic is accessible to account **Owners** in the **Account Settings** section. To find it:
 
