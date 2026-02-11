@@ -14,7 +14,7 @@ You will also see the following operations below:
 
 * **Edit tracker:** Allows you to change the tracker's name and owner or make it hidden. See [Editing tracker](basic-operations.md#editing-tracker) for more information.
 * **Air Console:** Opens [Air Console](air-console.md) for the tracker.
-* **Tracker settings**: Opens the **Tracker settings** window for the tracker that shows its information. Only available to activated trackers.\
+* **Tracker settings**: Opens the **Tracker settings** window for the tracker that shows its information. Only available to activated and non-suspended trackers.\
   This information can also be viewed in the **Devices and settings** module of the Navixy platform. To learn more, see [Devices and settings](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings).
 
 <figure><img src="../.gitbook/assets/{9B1DA52F-55E2-47FC-B79E-234D63D0C19A}.png" alt="" width="291"><figcaption></figcaption></figure>
@@ -22,7 +22,7 @@ You will also see the following operations below:
 * **Create clone:** Creates a [tracker clone](tracker-clones.md). Only available to trackers that aren't clones.
 * **Remove clone**: Deletes a [tracker clone](tracker-clones.md). Only available to trackers that are clones.
 * **Change plan:** Opens the [Change plan](change-plan.md) window for the tracker. Only available to trackers that aren't hidden.
-* **Retry activation**: Sends an activation command to the device.
+* **Retry activation**: Sends default activation commands to the device.
 * **Cancel activation:** Permanently removes the device from the database.
 
 ## Editing tracker

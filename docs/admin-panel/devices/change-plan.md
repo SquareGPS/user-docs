@@ -32,16 +32,16 @@ Select the tracker and click **Change plan** (located in the right side panel). 
 {% step %}
 ### Select the tracker plan
 
-In the drop-down menu, select the new pricing plan for your tracker.
+In the drop-down menu, select the new pricing plan for your tracker. Plan names have the following format:  `name | billing cycle | price` .
 {% endstep %}
 
 {% step %}
 ### Configure payment options
 
-You will have the option to choose how to charge the user with monthly-based plans. There are two options:
+You can choose how to handle switching from an old plan to a new one. There are two options:
 
-* **Repay remainder of current plan payment**: Select this option if you want to charge the user (according to the current plan) up to the end of the month.
-* **Charge user now (according to the new plan)**: Select this option if you want to take money from the user's account according to the previous plan up to the current date, and then start to charge the user according to the new plan. If the user has zero balance, the plan will be changed, but all services will be blocked.
+* **Repay remainder of current plan payment**: Select this option to be refunded for the remaining period under the old pricing plan.
+* **Charge user now (according to the new plan)**: Only for monthly-based plans. Select this option if you want to start charging the user under the new plan from the next day after the change. If the user has zero balance, the plan will be changed, but all services will be blocked.
 {% endstep %}
 
 {% step %}
@@ -51,8 +51,8 @@ Save the new configuration and close the **Change plan** window.
 {% endstep %}
 {% endstepper %}
 
-{% hint style="warning" %}
-When changing a plan for a tracker, the new plan will only take effect after the current plan's billing cycle ends. This means that the user will continue to be charged according to the current plan until the end of the current billing cycle, at which point the new plan will take effect.
+{% hint style="danger" %}
+When changing a plan to non-monthly billing (such as daily or annual), the new plan will only take effect after the current plan's billing cycle ends. This means that the user will continue to be charged according to the current plan until the end of the current billing cycle, at which point the new plan will take effect.
 {% endhint %}
 
 For more information on plans, see the [Plans](../plans/) documentation.

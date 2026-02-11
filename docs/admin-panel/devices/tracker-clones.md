@@ -60,4 +60,6 @@ The clone will be created and ready to be monitored by the assigned user account
 
 You can also clone a device across Admin Panels, though this will require reaching out to our support team for assistance.
 
-Since clones are virtual reflections of trackers, there is no additional charge for creating and using them. You will only be charged for the original trackers, not their clones.
+{% hint style="danger" %}
+Users will be charged for clones according to a plan assigned to the original tracker.
+{% endhint %}

@@ -24,9 +24,9 @@ To manually update the balance of a specific user, click **Change balance** loca
 
 You will be redirected to a new page where you can view the current balance of the selected user and enter the following transaction details:
 
-* **Transaction description**: Although you may use any description, we recommend following a standardized system to avoid confusion.
-* **Balance changes**: The amount of money you wish to add to the current balance.
-* **Bonus changes**: The sum of bonuses to add to the balance of your user.
+* **Transaction description**: The description of the transaction. You may use any description or choose a naming system to follow.
+* **Balance changes**: The amount you wish to add to the current balance. Set as negative ("-") to withdraw money.
+* **Bonus changes**: The sum of bonuses to add to the balance of your user. Set as negative ("-") to withdraw money.
 
 There are two types of user balances: the actual balance and the bonus balance.
 

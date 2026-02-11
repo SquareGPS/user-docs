@@ -10,13 +10,16 @@ Navixy's channel partners have the ability to expand their business by creating 
 
 With the reseller feature, partners can invite new organizations to become their sub-dealers and assign them a set of permissions that fit their specific needs. The reseller will have access to a dedicated Admin Panel with the ability to manage their own customers, IoT devices, and billing.
 
-<figure><img src=".gitbook/assets/image (66).png" alt="Resellers page"><figcaption><p>Resellers page</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (96).png" alt="Resellers page"><figcaption><p>Resellers page</p></figcaption></figure>
 
-The Resellers page consists of the following sections:
+The **Resellers** page consists of the following sections:
 
 * **Reseller toolbar**: A toolbar used to easily create, edit, delete, and find resellers
 * **Reseller list:** A list of existing resellers formatted as a table
-* **Reseller details:** Information about the selected reseller
+* **Reseller details:** Information about the selected reseller with a list of related actions:
+  * **Edit reseller**: Opens the **Edit reseller** window to change their details (also available by clicking <img src=".gitbook/assets/image (71).png" alt="Edit reseller" data-size="line"> in the toolbar)
+  * **Change password**: Opens the **Change password** window for the reseller
+  * **Access admin** panel: Opens the reseller's Admin Panel
 
 ## Reseller options and restrictions
 
@@ -32,7 +35,7 @@ Resellers are not allowed:
 
 * Modify the GIS package. The GIS package will be inherited from the partner's account.
 * Create their own resellers. To do this, they will need to become a partner.
-* Submit tickets to Navixy technical support: for any technical questions, they should contact the partner first.
+* Submit tickets to Navixy support: for any technical questions, they should contact the partner first.
 
 ## How to create a reseller
 
@@ -40,9 +43,9 @@ Click <img src=".gitbook/assets/image (70).png" alt="Add reseller" data-size="li
 
 <figure><img src=".gitbook/assets/image (67).png" alt="Creating a reseller" width="216"><figcaption><p>Creating a reseller</p></figcaption></figure>
 
-## Managing reseller status
+## Reseller status
 
-Once a reseller profile has been created, the partner can configure it by clicking <img src=".gitbook/assets/image (71).png" alt="Edit reseller" data-size="line">. The partner can change the reseller's status to one of the following:
+Resellers can have the following statuses:
 
 **Not paid**
 
@@ -60,4 +63,4 @@ In case of a violation of the cooperation conditions, the partner can restrict t
 
 Both the reseller's Admin Panel and user interface are suspended.
 
-In addition, channel partners can install an SMS gateway for their resellers. To set this up, please contact Navixy technical support
+In addition, channel partners can install an SMS gateway for their resellers. To set it up, contact [Navixy support](mailto:support@navixy.com).
