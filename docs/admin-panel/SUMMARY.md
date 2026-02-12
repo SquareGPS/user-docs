@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Admin Panel](README.md)
-* [Access](access.md)
+* [Access roles](access.md)
 * [Overview](overview.md)
 * [Users](users/README.md)
   * [User details](users/user-details.md)
@@ -15,7 +15,6 @@
   * [Bulk activation](devices/bulk-activation.md)
   * [Air Console](devices/air-console.md)
 * [Plans](plans/README.md)
-  * [Pricing plans conflicts](plans/pricing-plans-conflicts.md)
   * [Suspending a tracker](plans/suspending-service-for-a-device.md)
 * [Activation codes](activation-codes.md)
 * [Resellers](resellers.md)
@@ -34,6 +33,5 @@
   * [User defaults](settings/user-defaults.md)
   * [Security](settings/two-factor-authentication.md)
   * [Messaging gateways](settings/messaging-gateways/README.md)
-    * [SMS commands are not delivered](settings/messaging-gateways/sms-commands-are-not-delivered.md)
     * [SMS gateway](settings/messaging-gateways/sms-gateway.md)
     * [Email gateway](settings/messaging-gateways/email-gateway.md)
