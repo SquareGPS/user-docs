@@ -20,7 +20,7 @@ Additionally, there are cases where trip history is repeatedly interrupted, resu
 
 Try starting from adjusting the Tracking Mode settings in the user cabinet (if such a portlet is available for the given tracker in the Devices and Settings menu):
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="287"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt="" width="287"><figcaption></figcaption></figure>
 
 Set up the On Moving and On Idle parameters to make the tracker record and send data more frequently. In case you use Teltonika, you can adjust more parameters directly in the device configuration:
 

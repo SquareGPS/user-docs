@@ -27,4 +27,4 @@ In this case, the user will only see **5 trackers**, because the plan with the 5
 ### Links
 
 * [Object list](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/tracking/objects-list)
-* [Assets are not displayed in the account](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/plans/assets-are-not-displayed-in-the-account)
+* [Assets are not displayed in the account](/broken/spaces/KdgeXg71LpaDrwexQYwp/pages/0FIVWZ31DUtlU0h5Ew7z)

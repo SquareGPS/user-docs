@@ -3,20 +3,6 @@ description: >-
   Navixy GPS tracking platform Q&A hub with troubleshooting guides,
   configuration walkthroughs, best practices, API integration notes, and
   on-premise deployment tips.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Q\&A
