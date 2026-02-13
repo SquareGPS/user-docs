@@ -29,7 +29,14 @@ You will also see the following operations below:
 
 Click **Edit tracker** to modify the tracker's parameters. The following parameters can be changed:
 
-1. **Label**: Change the tracker's name to better identify it on the platform.
-2. **Tracker owner:** You can assign the device to a new user.
-3. **Hidden:** If you need to deactivate a tracker and remove it from billing, you can check this box. You can reactivate the tracker at any time. You can't change the plan for a tracker that's hidden.
+1. **Label**: Update the tracker's name for easier identification on the platform.
+2. **Tracker owner:** Reassign the device to a different user within your organization.
+3. **Hidden:** Check this box to deactivate the tracker and remove it from future billing cycles.
+
+{% hint style="info" %}
+While a tracker is hidden, it will not be included in the next billing period. The tracker remains active until the end of the current paid period. If the device continues to transmit data during this time, it is still considered active for the billing purposes for the current cycle.
+
+You cannot change the subscription plan for a tracker while it is set to hidden.
+{% endhint %}
+
 4. **Comments:** You can add a few words about the tracker for reference purposes.
