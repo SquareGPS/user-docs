@@ -23,7 +23,7 @@ To configure Xirgo Global devices to work via MQTT:
 * Host: your host for Navixy User Interface (e.g. [ui.mydomain.com](http://ui.mydomain.com))
 * Port: 1883
 
-![](../../../on-premise/on-premise/configuration/attachments/image-20230810-133722.png)
+![](../../../.gitbook/assets/image-20230810-133722.png)
 
 3. Add the default user in MQTT Security -> Authorization
 
@@ -31,14 +31,14 @@ To configure Xirgo Global devices to work via MQTT:
 * Username: bce\_device
 * Password: secretword
 
-![](../../../on-premise/on-premise/configuration/attachments/image-20230810-133739.png)
+![](../../../.gitbook/assets/image-20230810-133739.png)
 
 4. Check that your topic configuration is correct:
 
 * All topics except for Output control topic name are set to default values
 * Output control topic name must be set to %IMEI%/OUTC
 
-![](../../../on-premise/on-premise/configuration/attachments/image-20230810-133800.png)
+![](../../../.gitbook/assets/image-20230810-133800.png)
 
 5. Save your configuration
 
@@ -52,4 +52,4 @@ To configure the Globalmatix device to work via MQTT:
 * Password: secretword
 * Topic: globalmatix/in
 
-![](../../../on-premise/on-premise/configuration/attachments/image-20230810-133819.png)
+![](../../../.gitbook/assets/image-20230810-133819.png)

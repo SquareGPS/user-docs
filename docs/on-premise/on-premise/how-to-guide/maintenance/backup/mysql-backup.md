@@ -76,7 +76,7 @@ du -sh /your_path_to_database
 
 **Example of calculation**
 
-![](../../../../on-premise/on-premise/maintenance/backup/attachments/image-20230810-134206.png)
+![](../../../../.gitbook/assets/image-20230810-134206.png)
 
 In the screenshot we can see that the current size of the MySQL database is 181 GB Therefore, the volume size for backing up this database must be at least 181 \* 1.5 = 271.5 GB, rounded up to 272 GB
 
@@ -113,7 +113,7 @@ apt-get update
 
 On Debian 10 the above step returns an error:
 
-![](../../../../on-premise/on-premise/maintenance/backup/attachments/image-20230810-134240.png)
+![](../../../../.gitbook/assets/image-20230810-134240.png)
 
 To fix this error, you need to edit the file _/etc/apt/sources.list_
 

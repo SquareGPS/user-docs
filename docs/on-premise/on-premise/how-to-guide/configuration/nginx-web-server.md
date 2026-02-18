@@ -2,7 +2,7 @@
 
 Nginx is the web server used by Navixy platform to run the website. It is freeware designed to run on Linux and is also compatible with Windows.
 
-<div align="center"><img src="../../../on-premise/on-premise/configuration/attachments/Nginx_server.png" alt="Nginx logo"></div>
+<div align="center"><img src="../../../.gitbook/assets/Nginx_server.png" alt="Nginx logo"></div>
 
 Nginx is used for both Navixy On-premise solution and Navixy PaaS servers. It is the only type of web server that is guaranteed to be compatible with the platform. No other web servers (Apache, IIS, etc.) are supported.
 

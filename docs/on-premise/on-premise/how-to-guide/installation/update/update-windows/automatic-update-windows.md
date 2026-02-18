@@ -37,17 +37,17 @@ Unpack the newly downloaded archive and navigate to the folder named `\navixy-pa
 
 Proceed to `\navixy-package\windows` folder and run the `NavixyUpdater.ps1` script with Powershell:
 
-![NavixyUpdater](../../../../../on-premise/on-premise/platform-installation/update/update-windows/attachments/image-20250604-135031.png)
+![NavixyUpdater](../../../../../.gitbook/assets/image-20250604-135031.png)
 
 This will initiate the update process. The script will check the environment, and if all the required software is up to date, you will see the installation type selection menu:
 
-![Update menu](../../../../../on-premise/on-premise/platform-installation/update/update-windows/attachments/image-20250604-135854.png)
+![Update menu](../../../../../.gitbook/assets/image-20250604-135854.png)
 
 If Java and MySQL of the required versions are not detected, the script will terminate.
 
 If one of the required software is detected, the script will continue execution, but will show a warning:
 
-![Error - service not found](../../../../../on-premise/on-premise/platform-installation/update/update-windows/attachments/image-20250604-135235.png)
+![Error - service not found](../../../../../.gitbook/assets/image-20250604-135235.png)
 
 You can continue the installation in the following cases:
 
@@ -62,7 +62,7 @@ After selecting the desired option, the script will start the update process. If
 
 The update process is fully automated, all you need to do is keep an eye on the screen and wait.
 
-![Update process](../../../../../on-premise/on-premise/platform-installation/update/update-windows/attachments/image-20250605-120128.png)
+![Update process](../../../../../.gitbook/assets/image-20250605-120128.png)
 
 After a successful update, the script will notify you of completion and terminate.
 

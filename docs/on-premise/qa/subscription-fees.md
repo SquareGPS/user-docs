@@ -12,7 +12,7 @@ If you have any questions related to payment processing or platform suspension d
 
 When payment is not received on time, access to the Navixy platform is suspended, which is indicated by an authentication error displayed to the user.
 
-![](../on-premise/qa/attachments/image-20230810-140723.png)
+![](../.gitbook/assets/image-20230810-140723.png)
 
 The subscription process involves two stages of suspending access in the event of not receiving the monthly payment:
 

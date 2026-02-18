@@ -27,7 +27,7 @@ Inside of each of these three directories you will find these subdirectories:
 * `./conf` - configuration files of the service.
 * `./log` - log files of the service.
 
-![](../../../../on-premise/on-premise/configuration/dockered-configuration/attachments/image-20230906-122950.png)
+![](../../../../.gitbook/assets/image-20230906-122950.png)
 
 ## Frontend
 

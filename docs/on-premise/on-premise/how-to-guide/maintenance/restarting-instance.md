@@ -34,4 +34,4 @@ If Navixy instance is installed on Windows, the platform backend services will w
 
 To restart any required service or all of them, simply right-click on the corresponding service(s) and select "Restart".
 
-![](../../../on-premise/on-premise/maintenance/attachments/image-20230810-134010.png)
+![](../../../.gitbook/assets/image-20230810-134010.png)

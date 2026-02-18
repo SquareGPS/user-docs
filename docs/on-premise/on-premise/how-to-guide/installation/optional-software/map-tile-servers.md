@@ -14,7 +14,7 @@ An available cartographic document needs to be converted to tile graphics – un
 
 Regardless of the format, all the tile files must be imported in the [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection). It can guarantee correct user’s layer overlapping on any type of map that is used by Navixy, because all the maps are made in the Mercator projection. A tile size may vary, thus, it will be converted to the most common size – 256 ppi.
 
-![Map tiles](../../../../on-premise/on-premise/platform-installation/optional-software/attachments/image-20230810-131010.png)
+![Map tiles](../../../../.gitbook/assets/image-20230810-131010.png)
 
 ## Launching a tile server
 

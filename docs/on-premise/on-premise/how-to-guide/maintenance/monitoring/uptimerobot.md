@@ -13,9 +13,9 @@ The main benefit of UptimeRobot is its simplicity, as anyone can operate the ser
 
 The paid version of the service offers some interesting features, such as SSL certificate checks and certificate expiration notifications, as well as SMS notifications.
 
-![](../../../../on-premise/on-premise/maintenance/monitoring/attachments/image-20230810-134401.png)
+![](../../../../.gitbook/assets/image-20230810-134401.png)
 
-![](../../../../on-premise/on-premise/maintenance/monitoring/attachments/image-20230810-134407.png)
+![](../../../../.gitbook/assets/image-20230810-134407.png)
 
 The main disadvantage of UptimeRobot is that it has no hosted solution that can be deployed on your own server. Thus it becomes barely applicable for secure and classified infrastructures as well as most of local data centers. Also, the free version is severely limited in functionality, which may make it of little benefit to your business.
 

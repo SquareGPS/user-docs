@@ -17,9 +17,9 @@ To create Google API keys for use with the Navixy platform, please follow the gu
 2. API keys are created within a project. If you already have a project, you can choose it from the list. If you do not have any existing projects, click "Create project" to create a new one.
 3. Name your project appropriately and click the "Create" button to create a new project
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132227.png)
+![](../../../../.gitbook/assets/image-20230810-132227.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132250.png)
+![](../../../../.gitbook/assets/image-20230810-132250.png)
 
 4. Ensure that your newly created project is selected and click “Enable APIs and Services”. You will be taken to Google API library.
 5. Type the name of the API you need, select it and click “Enable”. In this case we are adding Maps Javascript API (used for google maps)
@@ -31,15 +31,15 @@ To create Google API keys for use with the Navixy platform, please follow the gu
 * Google Maps Directions API - Route creation
 * Google Static Maps API - Static maps in email
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132312.png)
+![](../../../../.gitbook/assets/image-20230810-132312.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132330.png)
+![](../../../../.gitbook/assets/image-20230810-132330.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132338.png)
+![](../../../../.gitbook/assets/image-20230810-132338.png)
 
 Ensure all enabled APIs are displayed in your dashboard:
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132352.png)
+![](../../../../.gitbook/assets/image-20230810-132352.png)
 
 ### Generating Google keys
 
@@ -60,15 +60,15 @@ To enable the full range of Navixy functionality, you will need a total of three
 7. In _API restrictions_ select _Restrict key_ and choose Maps JavaScript API
 8. Press _Save_ to apply the changes
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132440.png)
+![](../../../../.gitbook/assets/image-20230810-132440.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132450.png)
+![](../../../../.gitbook/assets/image-20230810-132450.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132458.png)
+![](../../../../.gitbook/assets/image-20230810-132458.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132505.png)
+![](../../../../.gitbook/assets/image-20230810-132505.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132513.png)
+![](../../../../.gitbook/assets/image-20230810-132513.png)
 
 #### Generating Google Key #2 for Geocoding, Routing and Geolocation
 
@@ -81,15 +81,15 @@ To enable the full range of Navixy functionality, you will need a total of three
 7. In _API restrictions_ select _Restrict key_ and choose Maps Geocoding API, Maps Geolocation API, Maps Directions API
 8. Press _Save_ to apply the changes
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132553.png)
+![](../../../../.gitbook/assets/image-20230810-132553.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132557.png)
+![](../../../../.gitbook/assets/image-20230810-132557.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132602.png)
+![](../../../../.gitbook/assets/image-20230810-132602.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132607.png)
+![](../../../../.gitbook/assets/image-20230810-132607.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132612.png)
+![](../../../../.gitbook/assets/image-20230810-132612.png)
 
 #### **Generating Google Key #3 for Static maps in email notifications**
 
@@ -102,15 +102,15 @@ To enable the full range of Navixy functionality, you will need a total of three
 7. In _API restrictions_ select _Restrict key_ and choose Maps Static API
 8. Press _Save_ to apply the changes
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132642.png)
+![](../../../../.gitbook/assets/image-20230810-132642.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132652.png)
+![](../../../../.gitbook/assets/image-20230810-132652.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132657.png)
+![](../../../../.gitbook/assets/image-20230810-132657.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132704.png)
+![](../../../../.gitbook/assets/image-20230810-132704.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132709.png)
+![](../../../../.gitbook/assets/image-20230810-132709.png)
 
 For the Google key #3 you will also need an _URL signing secret_. Please refer to the guide below to generate a URL signing secret for your Static maps key:
 
@@ -121,9 +121,9 @@ For the Google key #3 you will also need an _URL signing secret_. Please refer t
 5. Check that Maps Static API is selected
 6. Scroll down to URL signing secret to see your current one.
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132741.png)
+![](../../../../.gitbook/assets/image-20230810-132741.png)
 
-![](../../../../on-premise/on-premise/configuration/maps-and-gis/attachments/image-20230810-132749.png)
+![](../../../../.gitbook/assets/image-20230810-132749.png)
 
 ## Applying Google Maps API keys
 

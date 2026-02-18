@@ -63,7 +63,7 @@ Inside this file, you can see the various sections that set the startup options 
 
 Below is an example of how this is done for _api-server_ on an existing instance:
 
-![](../../../on-premise/on-premise/maintenance/attachments/image-20230921-082139.png)
+![](../../../.gitbook/assets/image-20230921-082139.png)
 
 Save the file.
 

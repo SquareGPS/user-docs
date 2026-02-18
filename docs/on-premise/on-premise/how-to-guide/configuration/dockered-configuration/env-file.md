@@ -2,7 +2,7 @@
 
 To run Navixy platform dockered version, the **.env** file is the primary configuration file. It contains such important parameters as database credentials, domain names, platform installation working folder and others.
 
-![](../../../../on-premise/on-premise/configuration/dockered-configuration/attachments/image-20230907-140128.png)
+![](../../../../.gitbook/assets/image-20230907-140128.png)
 
 The **.env** file is mainly used during the initial installation of the platform. However, if you need to change something in the configuration of an existing platform, you will need to modify this file as well.
 
