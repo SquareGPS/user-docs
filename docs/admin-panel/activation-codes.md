@@ -34,7 +34,7 @@ Here, you can create any number of codes, set the bonus and free days for them, 
 
 If you enforce the usage of activation codes for your users, the activation process is generally the same as for other methods. The only difference is the user will have to enter the provided code into the **Activation code** field during step 3 of the device activation process:
 
-<figure><img src=".gitbook/assets/image.png" alt="Activation code in device activation wizard" width="335"><figcaption><p>Activation code in the device activation wizard</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt="Activation code in device activation wizard" width="335"><figcaption><p>Activation code in the device activation wizard</p></figcaption></figure>
 
 You can link activation codes directly to specific [device plans](plans/) to automate the onboarding process. When a user activates a device using a code, the system automatically configures the appropriate access levels and features.
 

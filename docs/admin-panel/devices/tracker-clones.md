@@ -42,7 +42,7 @@ Select the tracker or trackers that you want to clone.
 
 Click **Clone tracker** on the right side panel to open the **Create clone** window.
 
-<div align="left"><figure><img src="../.gitbook/assets/{94C599F0-C9D3-4143-9B81-68BA54F0DDEF}.png" alt="Create clone window" width="509"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/{78B9BB33-6DC8-4647-BF65-52AD66866069}.png" alt="" width="563"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -61,5 +61,5 @@ The clone will be created and ready to be monitored by the assigned user account
 You can also clone a device across Admin Panels, though this will require reaching out to our support team for assistance.
 
 {% hint style="danger" %}
-Users will be charged for clones according to a plan assigned to the original tracker.
+Users will be charged for clones under the plan assigned to the original tracker.
 {% endhint %}

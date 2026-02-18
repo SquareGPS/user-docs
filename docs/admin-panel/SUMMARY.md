@@ -35,3 +35,4 @@
   * [Messaging gateways](settings/messaging-gateways/README.md)
     * [SMS gateway](settings/messaging-gateways/sms-gateway.md)
     * [Email gateway](settings/messaging-gateways/email-gateway.md)
+* [Report](report.md)
