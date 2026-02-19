@@ -8,6 +8,8 @@ Dashboard Studio provides two SQL environments for different purposes. Understan
 
 [**Visualization queries**](writing-sql-queries.md#how-to-write-sql-for-visualizations) power individual panels in reports. You write these statements in the panel editor's **SQL Query** tab. Each panel runs one statement that must return data in a specific structure matching the visualization type. These statements execute when reports load or refresh, so performance matters for user experience. Visualization SQL cannot modify data; all statements run as read-only SELECT operations against IoT Query schemas.
 
+**Reports** use the same visualization SQL approach as dashboard panels. A report runs one query that powers three views simultaneously: the data table, chart, and location map. The statement must return all columns needed across all three components, so include coordinate, time, and metric columns together in a single SELECT.
+
 [**SQL Editor**](writing-sql-queries.md#how-to-use-the-sql-editor) supports data exploration and export. Access the SQL Editor from the left sidebar under Tools. Write any SELECT statement to examine data structure, validate assumptions, or export results as CSV. The SQL Editor shows full result tables with column sorting and provides execution metrics. Use this for testing logic before adding SQL to visualization panels, or for ad-hoc data extraction that doesn't need visualization.
 
 {% hint style="info" %}
@@ -152,6 +154,61 @@ FROM bronze.tracking_data_core;
 {% endcode %}
 
 </details>
+
+Report queries follow the same structural rules as visualization queries in dashboard panels. Because a single statement powers the data table, chart, and location map together, you may need to combine columns that would be written as separate panel queries in a dashboard. For example, a bar chart panel query returning two columns is not sufficient for a report that also needs GPS coordinates for the location map. Include all required columns for every component in one statement. The core filtering and JOIN logic remains the same as in panel queries; only the SELECT clause needs to be wider.
+
+### How to write SQL for reports
+
+A report runs one SQL query that powers three components simultaneously: the data table, chart, and location map. Unlike dashboard panels, where each panel has its own focused query, a report query must return all columns needed across every component in a single SELECT statement.
+
+#### Column requirements per component
+
+Each report component has specific column requirements. Your query must satisfy all components you have enabled.
+
+| Component    | Required columns                                                  | Notes                                            |
+| ------------ | ----------------------------------------------------------------- | ------------------------------------------------ |
+| Data table   | Any columns                                                       | All returned columns appear as table columns     |
+| Chart        | At least one time or category column, at least one numeric column | Axis columns are selected in the chart settings  |
+| Location map | Latitude and longitude as decimal degrees                         | Dashboard Studio auto-detects coordinate columns |
+
+Because the data table accepts any columns, it imposes no additional constraints. The chart and location map drive most of the structural decisions.
+
+#### Combining components in one query
+
+A query that returns only the columns needed for a chart (two columns: category and value) cannot also power a location map. You must include all required columns together.
+
+The following example returns columns for all three components: a time column and numeric column for the chart, coordinate columns for the location map, and additional attributes that appear in the data table.
+
+```sql
+SELECT
+    t.device_id,
+    o.object_label,
+    t.device_time,
+    t.latitude::float / 10000000 AS latitude,
+    t.longitude::float / 10000000 AS longitude,
+    t.speed::float / 100 AS speed
+FROM raw_telematics_data.tracking_data_core t
+JOIN raw_business_data.objects o ON t.device_id = o.device_id
+WHERE t.device_time >= NOW() - INTERVAL '24 hours'
+ORDER BY t.device_time DESC
+LIMIT 1000
+```
+
+In this query, `device_time` and `speed` serve the chart, `latitude` and `longitude` serve the location map, and all columns appear in the data table.
+
+{% hint style="info" %}
+The raw telematics tables store coordinates and speed as scaled integers. Coordinates are divided by 10,000,000 (10⁷) to convert to decimal degrees, and speed is divided by 100 (10²) to convert to km/h. Apply these conversions in any query that reads from `raw_telematics_data` tables.
+{% endhint %}
+
+#### Adapting dashboard panel queries for reports
+
+Any panel query from a dashboard is a valid starting point for a report. The adjustment needed depends on which components you want to enable.
+
+If the panel query is already a table visualization returning multiple columns, it may already include everything needed. Add coordinate columns if the location map is required.
+
+If the panel query is a bar chart or stat tile query returning aggregated results, it likely lacks the row-level detail needed for the data table and location map. In that case, remove the aggregation and work from the underlying raw or Silver layer data instead.
+
+[SQL Recipe Book](../example-queries/) contains ready-to-use query examples for common fleet analyses. Recipes from the book can be adapted for reports by adding coordinate columns where the location map is needed. The core WHERE and JOIN logic transfers directly; adjust only the SELECT clause to cover all required components.
 
 ### How to use global variables
 

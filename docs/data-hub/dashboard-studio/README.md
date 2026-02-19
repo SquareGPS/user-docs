@@ -10,6 +10,8 @@ Dashboard Studio extends your **IoT Query** access with an advanced analytics la
 
 The visual editor separates dashboard design from SQL knowledge. Advanced users write queries once against the structured data model you already access through SQL clients, while dashboard viewers interact with visualizations without touching code. You arrange panels through drag-and-drop, configure visualizations through form-based interfaces, and organize completed dashboards into logical menu structures.
 
+Dashboard Studio also provides [Reports](creating-reports.md): a format that generates a data table, chart, and location map from a single SQL query, with export to HTML, Excel, and PDF.
+
 {% hint style="info" %}
 You can test the Dashboard Studio's functionality on mock data yourselves, <a href="https://demo.tools.iotquery.navixy.com/" class="button primary">Try demo</a>&#x20;
 {% endhint %}
@@ -42,7 +44,7 @@ Organize your dashboards into folders and subfolders in the sidebar menu. Group 
 
 Dashboard Studio addresses the gap between basic reporting and full business intelligence platform investment, providing self-service analytics that scale with team expertise.
 
-* **Data analysts** will find Dashboard Studio effective for creating custom reports that answer business questions without building a separate BI infrastructure. Transform your **IoT Query** SQL access into shareable visual dashboards that update automatically.
+* **Data analysts** will find Dashboard Studio effective for creating custom reports that answer business questions without building a separate BI infrastructure. Transform your **IoT Query** SQL access into shareable visual dashboards or reports that update automatically.
 * **Operations analysts** can use Dashboard Studio to build dashboards that track indicators across routes, vehicles, and drivers. Create reusable dashboards that update automatically, replacing manual Excel exports and one-off data requests.
 * **Fleet managers** get immediate answers about fleet operations through self-service access to visualizations built on your telemetry data, without waiting for scheduled reports or data analyst availability.
 
@@ -114,6 +116,8 @@ Use Navixy's [App Connect](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-a
 ## Next steps
 
 [Creating dashboards](creating-dashboards.md) - Understand the dashboard editor interface and panel configuration workflow. Learn how to add panels, configure visualizations, and arrange dashboard layouts.
+
+[Creating reports](creating-reports.md): Learn how to build a report from a single SQL query with coordinated data table, chart, and location map views. Export results to HTML, Excel, or PDF.
 
 [Writing SQL queries](writing-sql-queries.md) - Review query patterns that work effectively with Dashboard Studio visualizations. Learn query requirements for each visualization type and common data transformations.
 

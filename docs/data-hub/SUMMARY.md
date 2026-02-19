@@ -13,6 +13,7 @@
     * [Silver layer](iotquery/schema-overview/silver-layer.md)
 * [Dashboard Studio](dashboard-studio/README.md)
   * [Creating dashboards](dashboard-studio/creating-dashboards.md)
+  * [Creating reports](dashboard-studio/creating-reports.md)
   * [Writing SQL queries](dashboard-studio/writing-sql-queries.md)
   * [Open-source Studio](dashboard-studio/open-source-studio.md)
 * [Explorer for IoT Query](explorer-for-iotquery/README.md)

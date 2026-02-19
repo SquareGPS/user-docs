@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Explorer for IoT Query
 
 The **Explorer for IoT Query** application provides a web-based interface for exploring analytical capabilities available through your **IoT Query**. Built on Python and Streamlit framework, this application demonstrates the capabilities and advantages of the **IoT Query** such as flexible analytical solutions tailored to your operational requirements.

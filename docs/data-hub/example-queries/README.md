@@ -8,6 +8,8 @@ Ready-made SQL query templates for common analytical tasks and industry-specific
 
 **Complete SQL templates** with business context, parameter guidance, and optimization tips for the most frequent fleet management and telematics analytical challenges. All queries work with standard **IoT Query** schema structures and are optimized for PostgreSQL environments.
 
+The queries in this book work for both dashboard panels and reports. When adapting a recipe for a report, include all columns needed across the data table, chart, and location map in a single query. See [Creating reports](../dashboard-studio/creating-reports.md) for column requirements per component.
+
 {% hint style="warning" %}
 Enable **IoT Query** before utilizing data for building comprehensive analytics. If you don't have it yet, contact us for activation details - [iotquery@navixy.com](mailto:iotquery@navixy.com)
 {% endhint %}
