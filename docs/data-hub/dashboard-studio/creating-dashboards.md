@@ -2,6 +2,13 @@
 
 Dashboard Studio transforms IoT Query data into interactive visual reports. You build reports by adding panels to a canvas, writing SQL queries, and organizing the results into a navigable menu structure.
 
+Custom Dashboards provide real-time operational visibility by consolidating key metrics, KPIs, and live data streams into a single, unified workspace.<br>
+
+* **Instant situational awareness** is achieved through live widgets that automatically refresh, helping teams monitor fleet performance, assets, and operations without running manual reports.
+* **Action-oriented decision-making** is supported by interactive filters, drill-down capabilities, and dynamic components that allow users to quickly identify trends, anomalies, and bottlenecks.
+* **Personalized workspace configuration** enables teams to tailor layouts, widgets, and metrics to specific roles, departments, or business objectives.
+* **Continuous performance tracking** ensures stakeholders always have up-to-date insights, turning data into a proactive management tool rather than a retrospective analysis.
+
 Watch this video to get familiar with the Dashboard Studio app interface and learn how to create your own custom fleet dashboard:
 
 {% embed url="https://youtu.be/dyBk7XAZsWs?si=RIaMyZBXO1Gdl817" %}

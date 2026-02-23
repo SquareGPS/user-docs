@@ -2,6 +2,13 @@
 
 Reports give you a structured way to analyze IoT Query data through three coordinated views from a single SQL query: a paginated data table, a chart, and an interactive map. Use reports when you need a fixed, exportable output rather than a free-form dashboard canvas.
 
+Custom SQL reports adapt instantly to any business question by adjusting queries and parameters:
+
+* **Automation** saves time by reusing queries and integrating with BI tools for quick updates.
+* **Deep analysis** is possible by combining, aggregating, and segmenting data from multiple sources.
+* **Accuracy and relevance** are ensured by working directly with raw, up-to-date database information.
+* **Interactive visualizations** let users explore data dynamically by tweaking axes, filters, and metrics.
+
 Watch this video to get familiar with report creation in the Dashboard Studio app interface:
 
 {% embed url="https://youtu.be/o2j96_0gp-w?si=yBE9SrsET6gZa-EN" %}
