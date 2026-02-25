@@ -48,6 +48,11 @@ Setting up an **Action** node determines what automated responses will be execut
 
 <figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+The configuration dialog is organized into two tabs:
+
+* **Standard**: defines what commands to execute. Works independently, with no dependency on the Advanced tab.
+* **Advanced**: defines which additional devices receive the same commands when the node is triggered. Optional.
+
 Let's see what elements this node uses and what you can configure when working with it:
 
 ### Configuration steps
@@ -120,6 +125,23 @@ Click **ADD ACTION** to create multiple actions within the same node
 * Actions execute sequentially in the order they appear in the configuration
 * Each action can be a different type (Switch Output or GPRS Command)
 * Use the bin icon to remove unnecessary actions
+{% endstep %}
+
+{% step %}
+#### Configure recipient mappings (optional)
+
+Open the **Advanced** tab to define which additional devices receive the same commands when the node is triggered.
+
+<figure><img src="../../../../.gitbook/assets/action-node-advanced-tab.png" alt=""><figcaption></figcaption></figure>
+
+* Use the **Source device** dropdown to select the device whose incoming data triggers the node. This must be a device present in the flow's **Data Source node**.
+* Use the **Target devices** dropdown to select one or more devices that will receive the same commands.
+* Click **+ Custom mapping** to add additional source-to-target pairs if different source devices should propagate commands to different sets of target devices.
+* Click **Delete** next to any mapping row to remove it.
+
+{% hint style="info" %}
+The Advanced tab is optional. Without it, the node behaves exactly as before — commands execute only for the triggering device.
+{% endhint %}
 {% endstep %}
 
 {% step %}
