@@ -20,18 +20,15 @@ The **Action** nodes are configured separately for each flow in the Navixy platf
 
 <figure><img src="../../../../.gitbook/assets/Action-node-in-flow.webp" alt=""><figcaption></figcaption></figure>
 
-## How Action nodes work
+### How Action nodes work
 
-When data reaches an **Action** node, the system executes the configured actions for the devices that provided the incoming data. The execution process follows these steps:
+When data reaches an **Action** node, the system identifies which devices provided the incoming data and executes the configured actions for those devices only. For full details on execution sequence and targeting, see [Action execution and targeting](#action-execution-and-targeting) below.
 
-* **Device identification**: The node identifies which specific devices sent the data that triggered the action
-* **Sequential execution**: All configured actions within the node execute in the order they appear (top to bottom)
-* **Command transmission**: Actions are sent only to the identified devices, ensuring targeted responses
-* **Device processing**: Individual devices receive and process commands according to their capabilities
+{% hint style="info" %}
+**Device connectivity requirement**: Actions are sent only to devices that are confirmed online (those providing recent data), ensuring reliable command delivery.
+{% endhint %}
 
-This targeting mechanism ensures that actions execute only for relevant devices. When connected to [IF/THEN Logic](logic-node/) nodes, actions trigger only for devices that caused the logical condition to evaluate as true, providing precise automation control.
-
-## Flow architecture integration
+### Flow architecture integration
 
 **Action** nodes function as terminal nodes within the flow architecture, receiving triggers from upstream nodes without passing data forward. The automation capabilities integrate with Navixy's broader device management system through:
 
@@ -40,20 +37,22 @@ This targeting mechanism ensures that actions execute only for relevant devices.
 * **Fleet-wide coordination**: When connected to multiple device sources, actions can coordinate responses across entire vehicle groups simultaneously
 * **Device capability respect**: Individual device limitations are honored, with unsupported commands being received but not executed
 
-{% hint style="info" %}
-**Device connectivity requirement**: Actions are sent only to devices that are confirmed online (those providing recent data), ensuring reliable command delivery. In the rare event that a device goes offline immediately after sending data, or if multiple commands are pending, the actions are queued and executed as soon as the device is available again.
-{% endhint %}
-
 ## Configuration options
 
-Configuring a **Device action** node determines what commands execute and, optionally, which additional devices receive those same commands.
-
-<figure><img src="../../../../.gitbook/assets/action-node-edit.png" alt=""><figcaption></figcaption></figure>
+{% columns %}
+{% column valign="middle" %}
+Configuring an **Action** node determines what commands execute and, optionally, which additional devices receive those same commands.
 
 The configuration dialog is organized into two tabs:
 
 * **Standard**: defines what commands to execute. Works independently, with no dependency on the Advanced tab.
 * **Advanced**: defines which additional devices receive the same commands when the node is triggered. Optional.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/action-node-edit.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -61,7 +60,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-**Specify Node name**
+#### **Specify Node name**
 
 Enter a descriptive name that identifies the automated actions this node will perform
 
@@ -70,7 +69,7 @@ Enter a descriptive name that identifies the automated actions this node will pe
 {% endstep %}
 
 {% step %}
-**Select Action type**
+#### **Select Action type**
 
 In the **Standard** tab, choose the type of automated response from the dropdown menu
 
@@ -79,7 +78,7 @@ In the **Standard** tab, choose the type of automated response from the dropdown
 {% endstep %}
 
 {% step %}
-**Configure action parameters**
+#### **Configure action parameters**
 
 Set up the specific details based on your selected action type:
 
@@ -112,15 +111,11 @@ When configuring GPRS Command actions:
   * Consult device documentation for available commands and proper formatting
   * There are no character restrictions in the input field
 
-{% hint style="danger" %}
-Action execution depends on individual device capabilities. Ensure your devices support the specific commands you're configuring. Information on the commands supported by a specific device is available in manufacturer resources like device documentation.
-{% endhint %}
-
 </details>
 {% endstep %}
 
 {% step %}
-**Add additional actions (optional)**
+#### **Add additional actions (optional)**
 
 Click **Add action** to create multiple actions within the same node.
 
@@ -133,7 +128,7 @@ Click **Add action** to create multiple actions within the same node.
 {% endstep %}
 
 {% step %}
-**Configure recipient mappings (optional)**
+#### **Configure recipient mappings (optional)**
 
 Open the **Advanced** tab to define which additional devices receive the same commands when the node is triggered.
 
@@ -149,7 +144,7 @@ The Advanced tab is optional. Without it, the node behaves exactly as before —
 {% endstep %}
 
 {% step %}
-**Save configuration**
+#### **Save configuration**
 
 Click **APPLY** to save your node configuration
 {% endstep %}
@@ -188,7 +183,7 @@ When triggered, the Action node follows this execution pattern:
 
 #### How do I know if my actions were executed successfully?
 
-Currently, action execution feedback is limited. Commands are sent to devices that are confirmed online (those providing recent data) without execution time gap, which eliminates the possibilityu of the device going offline between trigger and execution. You can monitor device behavior during test stage, or use separate test flows to verify action results in a controllable environement.
+Currently, action execution feedback is limited. Commands are sent to devices that are confirmed online (those providing recent data) without execution time gap, which eliminates the possibility of the device going offline between trigger and execution. You can monitor device behavior during test stage, or use separate test flows to verify action results in a controllable environment.
 
 #### Can I connect multiple nodes to the same Action node?
 
