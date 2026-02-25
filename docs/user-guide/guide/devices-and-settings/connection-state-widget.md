@@ -12,7 +12,7 @@ The connection state widget in **Devices and settings** has only one setting:
 
 * **Time interval**: Set the duration after which a device is considered disconnected if it stops transmitting data. You can choose from minutes, hours, or days.
 
-![](../../.gitbook/assets/image-20240815-034950.png)
+![](<../../.gitbook/assets/image-20240815-034950 (3).png>)
 
 The **Reset to defaults** button reverts the settings to the default timeout if changes were made. Typically, this is 10 minutes, but it may vary depending on the device model.
 

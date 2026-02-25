@@ -34,7 +34,7 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 
 {% stepper %}
 {% step %}
-### **Create a new flow**
+#### **Create a new flow**
 
 1. Click the **New flow** button at the top of the IoT Logic interface
 2. Enter _Asset Telemetry Processing_ as the flow name
@@ -44,7 +44,7 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 {% endstep %}
 
 {% step %}
-### **Configure the data source**
+#### **Configure the data source**
 
 1. Drag a **Data Source** node from the left menu to the workspace
 2. Double-click on the node to open its configuration panel
@@ -57,7 +57,7 @@ Follow these steps to build a comprehensive data transformation and forwarding f
 {% endstep %}
 
 {% step %}
-### **Set up basic data transformations**
+#### **Set up basic data transformations**
 
 1. Drag an **Initiate Attribute** node from the left menu to the workspace
 2. Connect the **Data Source** node to this **Initiate Attribute** node
@@ -76,7 +76,7 @@ For explanations on calculations introduced in this step, see [Basic unit conver
 {% endstep %}
 
 {% step %}
-### **Create advanced calculated metrics**
+#### **Create advanced calculated metrics**
 
 1. Drag another **Initiate Attribute** node from the left menu to the workspace
 2. Connect the first **Initiate Attribute** node to this new one
@@ -85,26 +85,26 @@ For explanations on calculations introduced in this step, see [Basic unit conver
 5. Create the following attributes for advanced metrics:
    1. Add an attribute for temperature change detection:
       1. Attribute name: _temperature\_change_
-      2. Value: `value('temperature', 0, 'valid') - value('temperature', 1, 'valid')`&#x20;
+      2. Value: `value('temperature', 0, 'valid') - value('temperature', 1, 'valid')`
       3. `genTime('temperature', 0, 'valid')`
-   2. Add an attribute for finding time elapsed between two last readings:&#x20;
-      1. &#x20;Attribute name: _time\_between\_readings\_ms_&#x20;
-      2. Value: `srvTime('speed', 0, 'valid') - srvTime('speed', 1, 'valid')`&#x20;
+   2. Add an attribute for finding time elapsed between two last readings:
+      1. Attribute name: _time\_between\_readings\_ms_
+      2. Value: `srvTime('speed', 0, 'valid') - srvTime('speed', 1, 'valid')`
       3. Generation time: `genTime('speed', 0, 'valid')`
    3. Add an attribute for round temperature to nearest integer:
-      1. Attribute name: _temperature\_rounded_&#x20;
+      1. Attribute name: _temperature\_rounded_
       2. Value: `math:round(value('temperature', 0, 'valid'))`
-   4. Add an attribute for standardized value calculation (normalizing fuel level to 0-100%):&#x20;
-      1. Attribute name: _fuel\_level\_percent_&#x20;
+   4. Add an attribute for standardized value calculation (normalizing fuel level to 0-100%):
+      1. Attribute name: _fuel\_level\_percent_
       2. Value: `(value('fuel_level', 0, 'valid') - 0) / (100 - 0) * 100`
-   5. Add an attribute for battery charge percentage calculation:&#x20;
-      1. Attribute name: _battery\_percentage_&#x20;
+   5. Add an attribute for battery charge percentage calculation:
+      1. Attribute name: _battery\_percentage_
       2. Value: `(value('voltage', 0, 'valid') - 11) / (14 - 11) * 100`
-   6. Add an attribute for throttle position calculation:&#x20;
-      1. Attribute name: _throttle\_percentage_&#x20;
+   6. Add an attribute for throttle position calculation:
+      1. Attribute name: _throttle\_percentage_
       2. Value: `value('throttle', 0, 'valid') / 255 * 100`
-   7. Add an attribute for average fuel level from multiple sensors:&#x20;
-      1. Attribute name: _avg\_fuel\_level_&#x20;
+   7. Add an attribute for average fuel level from multiple sensors:
+      1. Attribute name: _avg\_fuel\_level_
       2. Value: `(value('fuel_level_1', 0, 'valid') + value('fuel_level_2', 0, 'valid')) / 2`
 6. Click **Apply** to save node configuration
 
@@ -114,7 +114,7 @@ For explanations on calculations introduced in this step, see [Advanced metrics 
 {% endstep %}
 
 {% step %}
-### **Configure the output endpoint**
+#### **Configure the output endpoint**
 
 1. Drag an **Output Endpoint** node from the left menu to the workspace
 2. Connect the second **Initiate Attribute** node to this **Output Endpoint** node
@@ -136,7 +136,7 @@ For explanations on calculations introduced in this step, see [Advanced metrics 
 {% endstep %}
 
 {% step %}
-### **Add Default Output endpoint**
+#### **Add Default Output endpoint**
 
 1. Drag an **Output Endpoint** node from the left menu to the workspace
 2. In **Endpoint type** select **Default Endpoint**
@@ -147,11 +147,11 @@ This ensures that the raw data is sent to Navixy directly from the devices, with
 {% endstep %}
 
 {% step %}
-### **Save and test the flow**
+#### **Save and test the flow**
 
 Your final configuration will look like this:
 
-<figure><img src="../../../../.gitbook/assets/image-20250407-203757.png" alt="Complete flow configuration with all nodes connected in IoT Logic workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250407-203757 (3).png" alt="Complete flow configuration with all nodes connected in IoT Logic workspace"><figcaption></figcaption></figure>
 
 Click the **Save flow** button on the **Nodes** pane to store your flow configuration.
 {% endstep %}
@@ -163,7 +163,7 @@ Use [Data Stream Analyzer (DSA)](../data-stream-analyzer.md) to monitor incoming
 * Devices are sending data to the flow
 * Calculations are working as expected
 * Data is being forwarded to the destination For example, let’s check that speed conversions are calulated correctly on a truck. To do it in DSA, select the **Volvo** device and attributes **speed** and **speed\_mph**:\
-  <img src="../../../../.gitbook/assets/image-20250407-204530.png" alt="Speed attributes for one device in Data Stream Analyzer" data-size="original">
+  <img src="../../../../.gitbook/assets/image-20250407-204530 (3).png" alt="Speed attributes for one device in Data Stream Analyzer" data-size="original">
 
 All good! Data is received and converted successfully.
 {% endhint %}

@@ -2,7 +2,7 @@
 
 Map layers allow you to add custom data overlays to your map, enhancing the visualization of specific areas not included in the standard map view. This feature is particularly useful for displaying unique geographic details, such as city districts, responsibility areas, custom routes, and other specialized maps. By using map layers, you can better understand the locations and situations of your fleet.
 
-![Layers tool](../../../.gitbook/assets/image-20240807-205554.png)
+![Layers tool](<../../../.gitbook/assets/image-20240807-205554 (3).png>)
 
 ## Practical application
 
@@ -26,14 +26,13 @@ There are several instruments available for creating KML layers, ranging from pr
    1. **Placemark** for a point
    2. **Polygon** for an area
    3. **Path** for a route
-
-4) Name your polygon, path, or placemark.
-5) Set the colors and adjust transparency.
-6) Outline the area by clicking the vertex points.
-7) Press OK to finalize your work.
-8) In the **Places** panel, right-click your place.
-9) Select **Save Place As** and choose where to save the file.
-10) Save the file as a KML.
+4. Name your polygon, path, or placemark.
+5. Set the colors and adjust transparency.
+6. Outline the area by clicking the vertex points.
+7. Press OK to finalize your work.
+8. In the **Places** panel, right-click your place.
+9. Select **Save Place As** and choose where to save the file.
+10. Save the file as a KML.
 
 </details>
 

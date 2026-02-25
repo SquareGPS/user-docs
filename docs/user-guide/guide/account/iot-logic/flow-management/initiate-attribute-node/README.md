@@ -8,13 +8,13 @@ In IoT Logic, **Initiate Attribute** node transforms device readings by creating
 {% endcolumn %}
 
 {% column %}
-![](../../../../../.gitbook/assets/image-20250404-083140.png)
+![](<../../../../../.gitbook/assets/image-20250404-083140 (3).png>)
 {% endcolumn %}
 {% endcolumns %}
 
 **Initiate Attribute** node is configured for each flow in the Navixy platform UI. For specific syntax options and detailed expression language reference, see [Navixy Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) in the user documentation.
 
-<figure><img src="../../../../../.gitbook/assets/Initiate-attribute-in-flow.webp" alt="Initiate attribute node in the flow workspace showing the node connected to other nodes in the flow"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Initiate-attribute-in-flow (3).webp" alt="Initiate attribute node in the flow workspace showing the node connected to other nodes in the flow"><figcaption></figcaption></figure>
 
 ### Flow architecture integration
 
@@ -57,13 +57,13 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### Specify node **Name**
+**Specify node Name**
 
 Enter a descriptive name to highlight the node’s purpose. Use a name that helps you identify the calculations that will be made within this node, it will be displayed in the flow diagram for easy identification.
 {% endstep %}
 
 {% step %}
-#### Define **Attribute name**
+**Define Attribute name**
 
 Add a distinctive identifier of the attribute.
 
@@ -72,24 +72,24 @@ Add a distinctive identifier of the attribute.
 {% endstep %}
 
 {% step %}
-#### Define **Formula**
+**Define Formula**
 
 Add mathematical expressions to calculate attribute values.
 
 * Use `value('parameter_name' 0, 'valid')` format to reference existing device parameters.\
-  **Note**. Click ![image-20250605-115154.png](../../../../../.gitbook/assets/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).
+  **Note**. Click ![image-20250605-115154.png](<../../../../../.gitbook/assets/image-20250605-115154 (1).png>) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).
 * Apply mathematical operations based on [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) to transform values.
 * Use different depth index values to access historical values (the default is 0).
 {% endstep %}
 
 {% step %}
-#### (optional) Add more attributes
+**(optional) Add more attributes**
 
 Click **Add Attribute** to open a new attribute configuration dialog. Here you can create a new data attribute if you need multiple calculations to be performed within the same node.
 {% endstep %}
 
 {% step %}
-#### Save the node configuration
+**Save the node configuration**
 
 Click **Apply changes** to complete the node creation.
 {% endstep %}
@@ -150,7 +150,7 @@ The attribute will no longer be calculated for newly received data, but historic
 
 Yes. Attributes created earlier in the flow can be referenced in subsequent **Initiate Attribute** nodes, allowing for multi-stage calculations. All created attributes are also available using the [autofill feature](managing-attributes.md#autofill-attribute-names) to ensure correct naming.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250404-084039.png" alt="Example of a complete flow with two Initiate attribute nodes consecutively"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250404-084039 (3).png" alt="Example of a complete flow with two Initiate attribute nodes consecutively"><figcaption></figcaption></figure>
 
 #### **How do I avoid typos when referencing attribute names in formulas?**
 

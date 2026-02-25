@@ -46,8 +46,8 @@ This is the main interactive element of the workspace where your flows are visua
 * **Node blocks**: All nodes you drag-and-drop to the canvas appear as blocks. You can place them however you like to make the image of your flow clear and intuitive. Hovering your mouse over a node displays an edit window.\
   **Note**. You can also open the editing window by double-clicking a node.
 * **Transitions**: The arrows represent connections between nodes, defining the path your data follows within the flow. Node blocks also show hints on which connection directions they support. To create a transition, simply click a connection element on a start node and drag it to the target one. If you try to connect nodes in an unsupported direction (e.g. from an **Output Endpoint** to a **Data Source**), the attempt will fail. This way, the platform prevents an accidental configuration of an incorrect data flow.
-* **Center** <img src="../../../.gitbook/assets/image-20250403-153008.png" alt="image-20250403-153008.png" data-size="line">: This button allows you to quickly focus on the canvas area that contains actual elements, ensuring that the whole flow is visible. It is especially helpful for large and complex flows, but at the same time offers a handy shortcut to autosize the flowchart to fit the window.
-* **Zoom in/out** <img src="../../../.gitbook/assets/image-20250403-153042.png" alt="image-20250403-153042.png" data-size="line">: Common functionality to manage the scale of the flowchart. You can also zoom in or out using your mouse wheel.
+* **Center** <img src="../../../.gitbook/assets/image-20250403-153008 (3).png" alt="image-20250403-153008.png" data-size="line">: This button allows you to quickly focus on the canvas area that contains actual elements, ensuring that the whole flow is visible. It is especially helpful for large and complex flows, but at the same time offers a handy shortcut to autosize the flowchart to fit the window.
+* **Zoom in/out** <img src="../../../.gitbook/assets/image-20250403-153042 (3).png" alt="image-20250403-153042.png" data-size="line">: Common functionality to manage the scale of the flowchart. You can also zoom in or out using your mouse wheel.
 
 ## Default flow
 
@@ -83,7 +83,7 @@ The **Default Output Endpoint** node provides a pre-configured destination for s
 {% endcolumn %}
 
 {% column %}
-<div align="right"><figure><img src="../../../.gitbook/assets/image-20250403-151042.png" alt="Navixy Default output endpoint node"><figcaption></figcaption></figure></div>
+<div align="right"><figure><img src="../../../.gitbook/assets/image-20250403-151042 (3).png" alt="Navixy Default output endpoint node"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -97,7 +97,7 @@ The **Default Output Endpoint** node is also available for use in custom flows. 
 
 **Data Stream Analyzer** is flow-responsive, which means that it monitors only the data within the flow where it was opened. Using the tool within the default flow allows you to troubleshoot and monitor data transmission for all the devices in this account that are not assigned to any custom flows. In case there are no custom flows in the account at all, you can monitor every device in the account through the default flow. This functionality is particularly useful for diagnosing connectivity or data issues with devices that are not assigned to any custom flows.
 
-To access this feature, select the default flow and click <img src="../../../.gitbook/assets/image-20250403-151357.png" alt="image-20250403-151357.png" data-size="line"> button in the top menu.
+To access this feature, select the default flow and click <img src="../../../.gitbook/assets/image-20250403-151357 (3).png" alt="image-20250403-151357.png" data-size="line"> button in the top menu.
 
 For detailed instructions on using the tool, refer to [Data Stream Analyzer](data-stream-analyzer.md).
 
