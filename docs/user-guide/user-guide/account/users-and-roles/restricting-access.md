@@ -1,4 +1,4 @@
-# Restricting access
+# Restrict Access
 
 Navixy enables organizations to effectively manage access to user-created information, including GPS devices and associated artifacts such as geofences, places, and notification rules. This capability is vital for maintaining data security and operational efficiency, especially in organizations with multiple divisions or business units. This approach ensures that:
 
@@ -12,7 +12,7 @@ This document outlines how GPS devices and information created by users are secu
 
 When a user adds a GPS device, it is effectively created under the Owner’s account, so even after the user is deleted, the GPS device remains in the organization’s account. The Owner can specify which users can view GPS device data, such as trips or sensor data, ensuring that only authorized individuals can view and manage the device.
 
-![](<../../../.gitbook/assets/image-20240718-040427 (1).png>)
+![](attachments/image-20240718-040427.png)
 
 ## Associated Artifacts
 

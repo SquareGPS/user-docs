@@ -41,7 +41,7 @@ When creating calculation formulas, you need to reference existing attribute nam
 
 To use autofill when building formulas:
 
-1. Click ![image-20250605-130755.png](../../../../../.gitbook/assets/image-20250605-130755.png) in the **Formula** field.
+1. Click ![image-20250605-130755.png](attachments/image-20250605-130755.png) in the **Formula** field.
 2. Select the desired attribute from the appeared list, it supports manual text input for search purposes.
 3. Click on the attribute name to insert it into your formula.
 
@@ -65,7 +65,7 @@ The autofill list displays only attributes that meet **all** of the following cr
 
 * **Supported by devices** - The attribute must be supported by at least one device currently added to your flow
 * **Actually transmitted** - The device must have sent real data for this attribute (not just support it theoretically)
-* **Available in flow** - This includes both device parameters and calculated attributes from other **Initiate Attribute** nodes within the same flow
+* **Available in flow** - This includes both device parameters and calculated attributes from other **Initiate Attribute** nodes within the same flow&#x20;
 
 **Example**: If your device supports both speed and temperature sensors but has only transmitted speed data (perhaps due to a faulty temperature sensor), the autofill list will show the 'speed' attribute but not 'temperature'. The temperature attribute will only appear once the device actually sends temperature readings, even though the device technically supports it.
 {% endhint %}
@@ -78,7 +78,7 @@ For example, if you need to work with voltage readings from the third analog inp
 
 Autofill handles this scenario for you as well:
 
-* Indexed attributes are marked with ![image-20250606-123725.png](../../../../../.gitbook/assets/image-20250606-123725.png) icon in the autofill list.
+* Indexed attributes are marked with ![image-20250606-123725.png](attachments/image-20250606-123725.png) icon in the autofill list.
 * These entries display the available index range in square brackets, such as `analog_[1..4]` for attributes supporting five indexed values (indexes 1 through 4).
 * When you select an indexed attribute, the cursor automatically positions at the end of the attribute name within the quotes, allowing you to immediately type the specific index number you need.
 
@@ -101,12 +101,12 @@ When you edit an attribute, the changes will only apply to new data received aft
 To remove an attribute that is no longer needed:
 
 1. Open the node configuration window by hovering your mouse over the node to display quick actions, or double-clicking the node
-2. Find the attribute you wish to delete in the attribute list and hover your mouse over it to display a ![image-20250402-101431.png](<../../../../../.gitbook/assets/image-20250402-101431 (1).png>) menu
+2. Find the attribute you wish to delete in the attribute list and hover your mouse over it to display a ![image-20250402-101431.png](attachments/image-20250402-101431.png) menu
 3. Click the appeared menu and select **Delete**
 4. **Confirm** your decision to delete the attribute
 5. Click **Save** to apply your changes to the node configuration
 
-<figure><img src="../../../../../.gitbook/assets/image-20250402-102052 (1).png" alt="Deleting attributes in the Initiate attribute node using the trash icon"><figcaption></figcaption></figure>
+<figure><img src="attachments/image-20250402-102052.png" alt="Deleting attributes in the Initiate attribute node using the trash icon"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When you delete an attribute, it will no longer be calculated for new data, but historical data containing this attribute will remain unchanged in the database.

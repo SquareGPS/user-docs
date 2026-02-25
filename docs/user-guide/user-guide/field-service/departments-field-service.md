@@ -1,8 +1,8 @@
-# Departments in Field service
+# Departments — Field service
 
 The **Departments** section in Navixy's **Field service** application allows you to organize your workforce effectively by categorizing employees into specific departments. This organizational structure helps streamline task assignments, reporting, and overall management of field operations.
 
-![Creating new department (example)](<../../.gitbook/assets/image-20240816-172857 (1).png>)
+![Creating new department (example)](attachments/image-20240816-172857.png)
 
 ## Managing departments
 

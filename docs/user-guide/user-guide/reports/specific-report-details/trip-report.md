@@ -4,7 +4,7 @@ The **Trip report** in Navixy provides a comprehensive analysis of your vehicle'
 
 This report is invaluable for fleet managers who need to monitor vehicle usage, calculate operational costs, and assess driving efficiency. Below is a detailed guide on how the Trips Report works, the parameters involved, and how to interpret the data effectively.
 
-![Trip report example](<../../../.gitbook/assets/image-20240815-010251 (1).png>)
+![Trip report example](attachments/image-20240815-010251.png)
 
 ## Overview
 

@@ -22,7 +22,9 @@ The activation process is the same for both iOS and Android devices.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image-20250304-171019.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="attachments/image-20250304-171019.png" alt=""><figcaption></figcaption></figure>
+
+
 {% endcolumn %}
 {% endcolumns %}
 
@@ -43,6 +45,8 @@ The activation process is the same for both iOS and Android devices.
 
 {% column %}
 <figure><img src="https://www.navixy.com/wp-content/uploads/2019/06/invite.jpg" alt=""><figcaption></figcaption></figure>
+
+
 {% endcolumn %}
 {% endcolumns %}
 
@@ -63,5 +67,7 @@ The activation process is the same for both iOS and Android devices.
 
 {% column %}
 <figure><img src="https://www.navixy.com/wp-content/uploads/2021/03/chrome_q37t9e0ltx-331x600.png" alt=""><figcaption></figcaption></figure>
+
+
 {% endcolumn %}
 {% endcolumns %}

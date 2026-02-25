@@ -23,7 +23,7 @@ Users are additional accounts granted access by the Owner. As a subordinate acco
 
 To add a new user or edit the list of users, navigate to Account Settings → Users and Roles in the main menu.
 
-![](<../../../.gitbook/assets/image-20240718-041947 (1).png>)
+![](attachments/image-20240718-041947.png)
 
 1. **Adding a New User**:
 

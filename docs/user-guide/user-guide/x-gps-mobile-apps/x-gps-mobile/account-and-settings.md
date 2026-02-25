@@ -8,9 +8,13 @@ The Account screen displays your logo, name, email, and phone number.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/profile.jpg" alt="Account"><figcaption><p>Account</p></figcaption></figure>
+<figure><img src="attachments/profile.jpg" alt="Account"><figcaption><p>Account</p></figcaption></figure>
+
+
 {% endcolumn %}
 {% endcolumns %}
+
+
 
 ### Settings
 
@@ -20,6 +24,9 @@ The Settings screen allows you to configure the application and quickly access y
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/Settings.jpg" alt="Settings"><figcaption><p>Settings</p></figcaption></figure>
+<figure><img src="attachments/Settings.jpg" alt="Settings"><figcaption><p>Settings</p></figcaption></figure>
+
+
 {% endcolumn %}
 {% endcolumns %}
+
