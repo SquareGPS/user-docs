@@ -10,10 +10,10 @@ Esta regla es vital para mejorar la seguridad y la protección de cargas valiosa
 
 Esta regla depende totalmente de las capacidades del dispositivo y de la configuración del hardware. No hay ajustes específicos que configurar dentro de la propia regla.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
 * **Temporizador de descanso.** La alerta "Detección de manipulaciones" tiene un temporizador de restablecimiento de 1 minuto, lo que significa que la alerta no se activará más de una vez cada minuto. Si se produce un evento durante el periodo de restablecimiento, se omitirá de la plataforma, incluso en los informes.
 * **Múltiples dispositivos.** Puede seleccionar varios rastreadores GPS que activarán notificaciones cuando se produzca un evento de manipulación. El único requisito es que los rastreadores seleccionados admitan eventos de detección de manipulación y tengan esta función integrada en la plataforma.
-* **Alerta de eventos independiente del GPS.** Esta regla funciona independientemente de las coordenadas GPS. Si la plataforma recibe un evento de manipulación de un rastreador sin datos GPS válidos, el evento se sigue contando como válido y se muestra, independientemente de si ocurrió dentro o fuera de una geovalla. En tales casos, se ignoran los ajustes de los botones de opción Dentro/Fuera de las geocercas para garantizar que no se pierdan eventos potencialmente críticos.
+* **Alerta de eventos independiente del GPS.** Esta regla funciona independientemente de las coordenadas GPS. Si la plataforma recibe un evento de manipulación de un rastreador sin datos GPS válidos, el evento se sigue contando como válido y se muestra, independientemente de si ocurrió dentro o fuera de una geocerca. En tales casos, se ignoran los ajustes de los botones de opción **Dentro/Fuera** de las geocercas para garantizar que no se pierdan eventos potencialmente críticos.

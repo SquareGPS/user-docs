@@ -1,24 +1,61 @@
-# Suspending service for a device
+---
+description: >-
+  Suspend a tracker by switching it to a restricted pricing plan, stopping new
+  tracking while keeping historical data.
+---
 
-When providing monitoring services to your customers, there may arise situations where temporarily suspending the service for a device becomes necessary. For instance, if a customer has missed a payment. In such cases, switching the device to a pricing plan that limits its usage can be an appropriate action.
+# Suspending a tracker
 
-While a device is suspended, it is unavailable for use and does not record any data until the restriction is lifted. However, it's important to note that the data recorded prior to the suspension remains intact.
+In certain situation, you might need to temporarily suspend service for a tracker — for example, due to a missed payment. In these cases, you can transition the tracker to a restricted pricing plan. While suspended, it will stop tracking and recording new data until the restriction is lifted.
 
-**To create a pricing plan that suspends the service for a device, follow these steps:**
+{% hint style="warning" %}
+All historical data recorded prior to the suspension remains securely stored and accessible.
+{% endhint %}
 
-1. Open the Admin Panel and navigate to the "Plans" section.
-2. Click on "Add Plan" to create a new pricing plan and give it a name (e.g., "Suspended Plan").
+To create a pricing plan that suspends the service for a device, follow these steps:
 
-![Adding plan](./attachments/blocking_tariff_start_en-600x181-20230811-205726.webp)
+{% stepper %}
+{% step %}
+### Open the Plans page
 
-2. Set the billing cycle for the plan to "Monthly (Daily Debit)" and set the monthly fee to a very high value, such as $999,999. This prevents the customer from being charged during the suspension period.
+Open the Admin Panel and navigate to the **Plans** page.
+{% endstep %}
 
-![setting the billing cycle](./attachments/blocking_tariff_create_en-600x381-20230811-205738.webp)
+{% step %}
+### Create a new plan
 
-4. In the pricing plan settings, disable the features of your choice or leave the default settings to restrict device use.
-5. Assign the new pricing plan to the device that you want to suspend service for.
-6. The device will be suspended starting the next day after the pricing plan change.
+Click <img src="../.gitbook/assets/image (7).png" alt="Add plan" data-size="line"> to create a new pricing plan and give it a name (e.g., "Suspended Plan").
 
-You should enable the check boxes "Repay Remainder of Current Pricing Plan Payment" and "Charge User Now (According to the New Plan)" when changing the pricing plan.
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-![payment options when changing plan](./attachments/change-plan-600x281-20230811-205752.webp)
+{% step %}
+### Set up billing
+
+Select **Monthly (daily debit)** as the billing cycle and set the monthly fee to a very high value, such as $999,999. This prevents the customer from being charged during the suspension period.<br>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Configure the rest of the plan
+
+In the pricing plan settings, disable the features of your choice or leave the default settings to restrict device use.
+{% endstep %}
+
+{% step %}
+### Finish the creation process
+
+Click **Create** to finish creating the plan.
+{% endstep %}
+
+{% step %}
+### Assign the plan to a device
+
+Assign the new pricing plan to the device that you want to suspend service for. The device will be suspended starting the next day after the pricing plan change.
+{% endstep %}
+{% endstepper %}
+
+You should check **Repay remainder of current pricing plan payment** and **Charge user now (according to the new plan)** when changing the pricing plan.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt="Payment options when changing plan" width="365"><figcaption><p>Payment options when changing plan</p></figcaption></figure>

@@ -1,30 +1,38 @@
+---
+description: >-
+  View user transactions and manually adjust balances and bonuses from Admin
+  Panel.
+---
+
 # Billing operations
 
-## List of transactions
+## User's transactions
 
-The list of transactions allows you to check operations that affect a user's balance. You can access the list of transactions on the "Transactions" tab for a selected user. In this tab, you can see all of the user's billing operations, along with a short description of each transaction, including its type, subtype, date, amount, and old and new balance.
+The list of transactions allows you to check operations that affect a user's balance. To view it, select a user and click **User's transactions** in the right side panel. This window shows all of the user's billing operations, along with a short description of each transaction.
 
-![User Transactions](attachments/Untitled-20230811-201615.png)
+<figure><img src="../.gitbook/assets/image (88).png" alt="User&#x27;s transactions window"><figcaption><p>User's transactions window</p></figcaption></figure>
+
+To access detailed information about a transaction, select it and click <img src="../.gitbook/assets/image (95).png" alt="" data-size="line"> in the rightmost column. This will open the **Transaction** window:
+
+<figure><img src="../.gitbook/assets/{5E363FC7-C9C5-483A-A3D4-9A8FF5C91EB7}.png" alt="Transaction details window" width="269"><figcaption><p>Transaction details</p></figcaption></figure>
 
 ## Changing user balance
 
-To modify users' balances, you can either do it manually from the [Admin Panel](https://panel.navixy.com/#users) or use the Navixy Billing API for automatic updates.
+To manually update the balance of a specific user, click **Change balance** located in [User details](user-details.md).
 
-To manually update the balance of a specific user, click on "Change balance" located on the right side of the screen.
-
-![Change User Balance](attachments/Untitled-20230811-201643.png)
+<figure><img src="../.gitbook/assets/{6E1075EB-FA83-4D59-90B5-C780FF71F568}.png" alt="Change balance window" width="322"><figcaption><p>Change balance window</p></figcaption></figure>
 
 You will be redirected to a new page where you can view the current balance of the selected user and enter the following transaction details:
 
-* Transaction description: Although you may use any description, we recommend following a standardized system to avoid confusion.
-* Balance changes: The amount of money you wish to add to the current balance.
-* Bonus changes: The sum of bonuses to add to the balance of your user.
+* **Transaction description**: The description of the transaction. You may use any description or choose a naming system to follow.
+* **Balance changes**: The amount you wish to add to the current balance. Set as negative ("-") to withdraw money.
+* **Bonus changes**: The sum of bonuses to add to the balance of your user. Set as negative ("-") to withdraw money.
 
-![User Transaction - Changing Balance](attachments/Untitled-20230811-201704.png)
+There are two types of user balances: the actual balance and the bonus balance.
 
-There are two types of user balances: the real balance and the bonus balance.
+* The actual balance displays the amount of money that a user actually has in their account. The system automatically deducts money from this balance for subscriptions and services, as this is set by the user's pricing plan.
+* The bonus balance is an additional optional balance that allows you to gift users bonuses they can use for any services except subscription, such as SMS (e.g., sending out free SMS commands during the IoT device activation) or other services your company provides to customers.
 
-* **The real balance** displays the amount of money that a user actually has in their account. The system automatically deducts money from this balance for subscriptions and services as this is set by the user pricing plan.
-* **The bonus balance (optional)**, on the other hand, is an additional (optional) balance that allows you to give users gift bonuses that they can use for any services except subscriptions. You may use bonus balance for free SMS (e.g. to send free SMS commands during the IoT device activation) or other services your company provides to customers.
-
-It is worth noting that money is debited from the bonus balance first, followed by the real balance.
+{% hint style="warning" %}
+Money is debited from the bonus balance first, followed by the actual balance.
+{% endhint %}

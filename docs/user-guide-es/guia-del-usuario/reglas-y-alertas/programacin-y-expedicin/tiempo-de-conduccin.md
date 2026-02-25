@@ -16,7 +16,7 @@ Este ajuste define la duración máxima que un conductor puede conducir de forma
 
 Este ajuste especifica la duración mínima de estacionamiento necesaria para restablecer la regla de tiempo de conducción. El temporizador de restablecimiento comienza solo cuando el dispositivo detecta que el vehículo ha entrado en estado de estacionamiento.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

@@ -1,8 +1,10 @@
 # Widget de zona horaria del dispositivo
 
-En la **zona horaria del dispositivo** le permite ajustar la configuración de la zona horaria para modelos de dispositivos específicos. El desfase horario de un dispositivo GPS determina cómo se interpretan las marcas de tiempo en los mensajes enviados a la plataforma. Si el desfase horario es incorrecto, puede dar lugar a datos de seguimiento inexactos, ya que las marcas de tiempo no se alinearán correctamente con la hora real de los eventos.
+En la **zona horaria del dispositivo** se permite ajustar la configuración de la zona horaria para modelos de dispositivos específicos. El desfase horario de un dispositivo GPS determina cómo se interpretan las marcas de tiempo en los mensajes enviados a la plataforma. Si el desfase horario es incorrecto, puede dar lugar a datos de seguimiento inexactos, ya que las marcas de tiempo no se alinearán correctamente con la hora real de los eventos.
 
-> \[!WARNING] Navixy recomienda encarecidamente mantener el dispositivo configurado con UTC+0h como zona horaria estándar para garantizar la coherencia y precisión de los datos de seguimiento. Sin embargo, si su dispositivo está configurado con una zona horaria diferente, este widget le permite realizar los ajustes necesarios.
+{% hint style="danger" %}
+Navixy recomienda encarecidamente mantener el dispositivo configurado con UTC+0h como zona horaria estándar para garantizar la coherencia y precisión de los datos de seguimiento. Sin embargo, si su dispositivo está configurado con una zona horaria diferente, este widget le permite realizar los ajustes necesarios.
+{% endhint %}
 
 ### Cuándo utilizar
 

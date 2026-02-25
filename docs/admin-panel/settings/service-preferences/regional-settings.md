@@ -1,24 +1,28 @@
+---
+description: >-
+  Set default UI language for new users and choose service currency in Service
+  preferences.
+---
+
 # Regional settings
 
-## Setting up regional settings
-
-Navixy allows you to choose regional preferences for your service, including language, currency, and measurement system. You may set them up in Account Management → Service preferences.
+Navixy allows you to choose regional preferences for your service: language and currency. You may set them up in the **Regional settings** block of the **Service preferences** page.
 
 {% hint style="info" %}
-Changing User interface language will set the default language for all new user accounts. Users can also change their preferred language in their [account profile](https://docs.navixy.com/user-guide/user-prefernces).
+Changing UI language will set it as the default language for all new user accounts. Users can also change their preferred language in their [account profile](https://docs.navixy.com/user-guide/user-prefernces).
 {% endhint %}
 
-![Regional Settings](<attachments/screen shot 2023-05-07 at 3.37.21 pm-20230811-204329.png>)
+<figure><img src="../../.gitbook/assets/image (14).png" alt="Regional settings" width="405"><figcaption><p>Regional settings</p></figcaption></figure>
 
-### Language
+## User interface language
 
-Navixy is dedicated to global accessibility, currently supporting dozens of languages with more being added regularly. Our platform’s versatility is enhanced by contributions from our vibrant community of translators. If the language you need isn’t yet supported, we invite you to [add a new language](regional-settings.md) and help expand our multilingual capabilities.
+Navixy is dedicated to global accessibility, currently supporting dozens of languages with more being added regularly. Our platform’s versatility is enhanced by contributions from our vibrant community of translators. If the language you need isn’t yet supported, we invite you to [add a new language and help expand our multilingual capabilities](https://www.navixy.com/docs/navixy-api/general/contribute/translation).
 
-**The current list of supported languages:**
+**Current list of supported languages:**
 
 <details>
 
-<summary>List of supported languages</summary>
+<summary>Supported languages</summary>
 
 1. Albanian
 2. Arabic
@@ -74,22 +78,3 @@ Navixy is dedicated to global accessibility, currently supporting dozens of lang
 52. Ukrainian
 
 </details>
-
-### Time zone and date / time format
-
-You can define the default time zone and date / time format. You users will have these settings by default when they first time log in to the system. However, they will be able to change these settings in their profile.
-
-![time and measurement settings](<attachments/screen shot 2023-05-07 at 3.36.26 pm-20230811-204345.png>)
-
-### Currencies
-
-Navixy supports all the national currencies used worldwide with 0 to 4 digits after the decimal point.
-
-### Measurement system
-
-Navixy gives you an opportunity to choose the measurement system and switch on transliteration for SMS. You may set it up in Account Management→User Defaults→Regional Settings. You may choose from the following measurement systems:
-
-* Metric
-* Imperial
-* US
-* Nautical

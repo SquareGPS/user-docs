@@ -1,8 +1,12 @@
 # Historia del viaje
 
-El historial de viajes en Navixy le permite revisar las actividades pasadas y las rutas tomadas por los vehículos de su flota. Esta función proporciona un registro detallado de los viajes, incluidas marcas de tiempo, ubicaciones, distancias y duraciones, lo que le ayuda a supervisar la actividad de los vehículos y optimizar la gestión de la flota.
+El historial de viajes en Navixy le permite revisar las actividades pasadas y las rutas tomadas por los vehículos de su flota. Esta función proporciona un registro detallado de los viajes, incluyendo marcas de tiempo, ubicaciones, distancias y duración, ayudándole a monitorear la actividad de los vehículos y optimizar la gestión de la flota.
 
-Para ver el historial de viajes en Navixy, seleccione los objetos que le interesan y, a continuación, haga clic en el botón de historial (la flecha circular azul situada en la parte inferior derecha de la lista de objetos). Se le pedirá que elija un intervalo de fechas y horas. Seleccione el intervalo de fechas deseado para continuar.
+{% hint style="info" %}
+**Navegación**
+
+Para ver su historial de viajes en Navixy, seleccione los objetos que le interesan y haga clic en <img src="../../../.gitbook/assets/Untitled (3).jpg" alt="" data-size="line">. Se le pedirá que elija un rango de fecha y hora. Seleccione el rango de fechas deseado para continuar.
+{% endhint %}
 
 ![image-20240807-220924.png](../../../gua-del-usuario/seguimiento/historial/attachments/image-20240807-220924.png)
 

@@ -2,7 +2,7 @@
 
 En **Dispositivos y ajustes** de Navixy es una interfaz completa que permite a los gestores de flotas configurar y gestionar sus dispositivos de seguimiento a distancia. Esta sección es esencial para ajustar el rendimiento del dispositivo, configurar los sensores y aplicar ajustes específicos adaptados a cada activo de la flota.
 
-![image-20240814-225942.png](../../gua-del-usuario/attachments/image-20240814-225942.png)
+![](../../gua-del-usuario/attachments/image-20240814-225942.png)
 
 #### Características principales y opciones de configuración
 

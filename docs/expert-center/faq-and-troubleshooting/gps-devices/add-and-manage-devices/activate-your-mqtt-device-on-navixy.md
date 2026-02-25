@@ -24,7 +24,7 @@ MQTT devices are becoming increasingly prevalent in GPS tracking and telematics 
 
 In the traditional client-server model, the device (client) sends data packets directly to the server, which then processes the data and sends responses back to the device. This model is straightforward but limited to one-to-one communication.
 
-![](attachments/image-20240717-170644.png)
+![](../../../.gitbook/assets/image-20240717-170644.png)
 
 In contrast, the Publisher/Subscriber model used by MQTT devices allows for more flexible and scalable communication. Here’s how it works:
 
@@ -32,7 +32,7 @@ In contrast, the Publisher/Subscriber model used by MQTT devices allows for more
 * **Broker**: The broker stores these data packets.
 * **Subscriber**: The Navixy server subscribes to the data packets from specific devices using their IMEI numbers and the broker’s address.
 
-![](attachments/image-20240717-170707.png)
+![](../../../.gitbook/assets/image-20240717-170707.png)
 
 ## MQTT Device Configuration Steps
 
@@ -48,7 +48,7 @@ We’ll demonstrate how to configure your MQTT device on the Navixy platform thr
   US platform: `mqtt.us.navixy.com` port `1883`\
   EU platform: `mqtt.eu.navixy.com` port `1883`
 
-![](attachments/image-20240717-165930.png)
+![](<../../../.gitbook/assets/image-20240717-165930 (2).png>)
 
 In MQTT Security → Authorization, add a user with the following settings:
 
@@ -56,14 +56,14 @@ In MQTT Security → Authorization, add a user with the following settings:
 * **Username**: `bce_device`
 * **Password**: `secretword`
 
-![](attachments/image-20240717-170022.png)
+![](<../../../.gitbook/assets/image-20240717-170022 (2).png>)
 
 Ensure your topic configuration is correct:
 
 * All topics except for Output Control Topic Name are set to default values.
 * Output Control Topic Name: `%IMEI%/OUTC`
 
-![](attachments/image-20240717-170207.png)
+![](../../../.gitbook/assets/image-20240717-170207.png)
 
 Save your configuration.
 
@@ -81,7 +81,7 @@ When configuring an MQTT-compatible device, the user must specify the username a
 4. **Specify the IMEI**: Enter the IMEI of the device.
 5. **Activate the Device**: Click the “Activate” button.
 
-![](attachments/image-20240717-170552.png)
+![](../../../.gitbook/assets/image-20240717-170552.png)
 
 ### Example 2. Globalmatix xTCU Devices
 
@@ -94,14 +94,68 @@ When configuring an MQTT-compatible device, the user must specify the username a
 * **Login/Password**: `globalmatix_device/secretword`
 * Save the configuration.
 
-![](attachments/image-20240717-170804.png)
+![](../../../.gitbook/assets/image-20240717-170804.png)
 
 #### Add Device on the Navixy Platform
 
-* Enter your user account.
-* Select the Globalmatix device in the list.
-* Click the “Next Step” button.
-* Specify the IMEI of the device.
-* Click the “Activate” button.
+* **Enter your user account.**
+* **Select the Globalmatix device in the list.**
+* **Click the “Next Step” button.**
+* **Specify the IMEI of the device.**
+* **Click the “Activate” button.**
 
-![](attachments/image-20240717-170828.png)
+![](../../../.gitbook/assets/image-20240717-170828.png)
+
+
+
+### Example #3 Xirgo Global XG37/XG40/GX47 Devices
+
+#### #Configure the device&#x20;
+
+1. **Set up the APN.**
+2. **Verify the session settings.**
+3. **Configure the server address:**
+
+* Server: `devices.xgfleet.eu`
+* Port: `1888`
+* Protocol: `TCP`
+
+4. **Verify the MQTT topic name settings.**
+5. **Configure the MQTT broker settings:**
+
+* Domain name / IP: _Domain configured in Navixy Admin Panel_
+* Port: `1883`
+* Protocol: `TCP`
+
+**APN set up**
+
+<figure><img src="../../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+
+**Session Settings.**&#x20;
+
+<figure><img src="../../../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+
+**Configuration server address.**&#x20;
+
+<figure><img src="../../../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
+
+**MQTT topic names settings**
+
+<figure><img src="../../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+
+**MQTT broker address settings.**
+
+<figure><img src="../../../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
+
+#### **Add the Device to the Navixy platform**
+
+* **Enter Your User Account:** Log in to your Navixy user account.
+* **Select the Device:** Choose the Xirgo XG37/XG40/GX47 MQTT-compatible device (marked as IOTM).
+* **Proceed to the Next Step:** Click the “Next Step” button.
+* **Specify the IMEI:** Enter the IMEI of the device.
+* **Activate the Device:** Click the “Activate” button.
+
+<figure><img src="../../../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
+
+<br>
+

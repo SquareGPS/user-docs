@@ -1,10 +1,8 @@
-# widget-del-nmero-de-telfono
-
-## Widget del número de teléfono
+# Widget del número de teléfono
 
 ## Número de teléfono
 
-La red GSM se utiliza para comunicar un terminal con el centro de datos (servidor), principalmente los canales de comunicación GPRS/EDGE, y además - el canal SMS. Para ello se instala una tarjeta SIM en el rastreador GPS. Puede ser una tarjeta SIM comprada a cualquier operador de telecomunicaciones o una tarjeta SIM comprada con un dispositivo, proporcionada por el operador de servicios de seguimiento.
+La red GSM se utiliza para comunicar un terminal con el centro de datos (servidor), principalmente los canales de comunicación GPRS/EDGE, y además el canal SMS. Para ello se instala una tarjeta SIM en el rastreador GPS. Puede ser una tarjeta SIM comprada a cualquier operador de telecomunicaciones o una tarjeta SIM comprada con un dispositivo, proporcionada por el operador de servicios de seguimiento.
 
 Si necesita cambiar la tarjeta SIM en el dispositivo, tendrá que escribir un nuevo número de teléfono para cambiar la configuración. Puedes hacerlo en el panel correspondiente:
 

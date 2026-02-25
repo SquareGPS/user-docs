@@ -1,21 +1,27 @@
+---
+description: >-
+  Configure login page behavior, including self-registration, mobile app
+  download prompts, and demo user credentials.
+---
+
 # Login page settings
 
-In addition to the [Branding options](../../settings/branding-options.md) there are other options available for you to customize the login page.
+In addition to the [Branding options](../branding-options.md), there are other options available to customize your login page.
 
-![login options](./attachments/login-20230811-204544.png)
+<figure><img src="../../.gitbook/assets/image (62).png" alt="Login page settings" width="415"><figcaption><p>Login page settings</p></figcaption></figure>
 
-## Enabling user sign-up
+## Allow users to create accounts
 
-If this option is enabled, users can create new accounts from both the UI and mobile apps. A registration button will appear on the UI. If this option is disabled, user creation will only be possible through the Admin Panel or using the Admin Panel API.
+If this option is enabled, users can create new accounts from both the UI and mobile apps. A registration button will appear on the UI. If this option is disabled, user creation is be possible through Admin Panel or the Admin Panel API.
 
-![registration](./attachments/register-20230811-204559.png)
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-## Prompting users to download mobile apps
+## Show mobile apps download buttons
 
-If this option is enabled, users accessing the web version from a mobile device will be prompted to download the app. An additional button will appear on the login page that leads to a QR code for the app download.
+Enabling this option adds mobile app download buttons to the login page. Clicking them displays a QR code for a quick and easy app installation.
 
-![mobile application download](./attachments/apps-20230811-204610.png)
+<figure><img src="../../.gitbook/assets/image (63).png" alt="Mobile app download buttons" width="297"><figcaption><p>Mobile app download buttons</p></figcaption></figure>
 
-## Demo user account
+## Demo user credentials
 
-This option adds the link for easy access of the demo account from the login page. The demo account provides read-only access to visitors. Read more about how to create a [Demo user account](../service-preferences/demo-user-account.md).
+Enter the login and password you want to use for a demo account to demonstrate your product to customers. For more information, see [Demo user account](demo-user-account.md).

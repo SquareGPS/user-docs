@@ -14,7 +14,7 @@ This report provides similar information as the fuel report in the consumption s
 To create a comprehensive report, utilize Navixy API and leverage the capabilities of plugin 78.
 {% endhint %}
 
-![](attachments/image-20230905-093059.png)
+![](../../../../.gitbook/assets/image-20230905-093059.png)
 
 In order to get the information in the report you need to:
 
@@ -32,7 +32,7 @@ The following parameters are used in the report:
 
 Only devices with a sensor with the flow meter type installed will be available for selection.
 
-![](attachments/image-20230905-085021.png)
+![](../../../../.gitbook/assets/image-20230905-085021.png)
 
 ## Table fuel consumption by date for the sensor
 
@@ -46,7 +46,7 @@ The information is organized in the following columns:
 * GPS and flow rate data
   * Mileage, km - total mileage for the day or for the whole period for the total.
   * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/fleet-management/vehicles) card.
+  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/fleet-management/vehicles) card.
 * Flow meter data
   * Initial reading, l - total fuel consumption according to the sensor at the beginning of the day.
   * End reading, l - total fuel consumption according to the sensor at the end of the day.
@@ -71,6 +71,6 @@ The total mileage for the period was 792.68 km. The actual fuel consumption for 
 The tab displays general information on all devices.There is only one column in this tab, which should be noted separately:\
 Fuel saving/overconsumption, l - displays information about the difference between the standard and actual fuel consumption. If the actual consumption is higher, the values will be negative.
 
-![](attachments/image-20230905-093548.png)
+![](../../../../.gitbook/assets/image-20230905-093548.png)
 
 The Total for Period tab displays fuel data only for beacons that have fuel consumption measured in liters or gallons. To add a beacon to the report, change the fuel gauge units to liters or gallons.

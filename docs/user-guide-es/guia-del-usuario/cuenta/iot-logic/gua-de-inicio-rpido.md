@@ -10,13 +10,15 @@ Antes de proceder a la creación de su primer flujo, asegúrese de que dispone d
 * Dispositivos activados en su cuenta
 * Comprensión de las fuentes de datos que desea procesar
 
-> \[!INFO] El espacio de trabajo IoT Logic sólo está disponible para los **Propietarios** de cuentas y no se muestra para los **Usuarios** normales . Para obtener más información sobre los roles de usuario, consulte [Usuarios y roles](https://squaregps.atlassian.net/wiki/spaces/USERDOCSOLD/pages/2909012400/Users+and+Roles).
+{% hint style="info" %}
+El espacio de trabajo IoT Logic solo está disponible para los propietarios de cuentas y no se muestra para los usuarios normales. Para obtener más información sobre los roles de usuario, consulte [Usuarios y roles](../acceso-del-equipo/).
+{% endhint %}
 
 ## Configuración de flujos
 
 Eche un vistazo a un breve vídeo que muestra el proceso de creación de un nuevo flujo con cálculos de atributos de datos y la adición de atributos personalizados a los dispositivos de la plataforma:
 
-![video\_1280.mp4](../../../gua-del-usuario/cuenta/iot-logic/attachments/video_1280.mp4)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F446mKak1zDrGv70ahuYZ%2Fuploads%2FGAVD9gNxaRYpHDSAlOmf%2FIot%20Logic%20Demo%20Screencast.mp4?alt=media&token=94fd4cf6-bd45-4953-9263-52863288d9b9" %}
 
 Ahora, vamos a desglosar el proceso de configuración del flujo paso a paso.
 
@@ -32,7 +34,7 @@ El espacio de trabajo de IoT Logic aparece con tres secciones principales:
 * **Panel de nodos** - Enumera los nodos disponibles para construir su flujo
 * **Lienzo** - El espacio de trabajo principal donde diseñará su flujo
 
-Para obtener más información sobre el espacio de trabajo, consulte [Espacio de trabajo y flujo por defecto](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232333880/Workspace+and+default+flow?atlOrigin=eyJpIjoiMmIyZDY3ZjExMTIzNDdhN2E3N2M2M2NmYzFmYTNiOTkiLCJwIjoiYyJ9).
+Para obtener más información sobre el espacio de trabajo, consulte [Espacio de trabajo y flujo por defecto](espacio-de-trabajo-y-flujo-por-defecto.md).
 
 ### Paso 2: Crear un nuevo flujo
 
@@ -47,7 +49,9 @@ Para obtener más información sobre el espacio de trabajo, consulte [Espacio de
 
 Para más información sobre la configuración de flujos, consulte [Gestión de flujos -> Creación de un nuevo flujo](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334081/Flow+management#Creating-a-new-flow).
 
-> \[!INFO] Los flujos desactivados no procesan ningún dato. Cuando se desactiva un flujo, los dispositivos de ese flujo no transmitirán datos a ningún destino, incluida la plataforma Navixy.
+{% hint style="info" %}
+Los flujos desactivados no procesan ningún dato. Cuando se desactiva un flujo, los dispositivos de ese flujo no transmitirán datos a ningún destino, incluida la plataforma Navixy.
+{% endhint %}
 
 ### Paso 3: Configurar un nodo de Fuente de datos
 
@@ -60,7 +64,7 @@ Para más información sobre la configuración de flujos, consulte [Gestión de 
 
 4. Haga clic en **Guardar** para aplicar la configuración
 
-Para obtener más información sobre la configuración del nodo, consulte [Nodo de origen de datos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334220/Data+Source+node?atlOrigin=eyJpIjoiMTlmNWM1ZmNmN2IxNDEwYTg3YzRiMzAwMjA1YjI0MDEiLCJwIjoiYyJ9).
+Para obtener más información sobre la configuración del nodo, consulte [El nodo Fuente de Datos.](gestin-de-flujos/el-nodo-fuente-de-datos.md)
 
 ### Paso 4: Añadir enriquecimiento de datos (Opcional)
 
@@ -76,7 +80,9 @@ Para obtener más información sobre la configuración del nodo, consulte [Nodo 
 
 5. Añada atributos adicionales si es necesario haciendo clic en **Agregar atributo**
 
-> \[!WARNING] El botón **Restablecer formulario** descarta todos los atributos creados dentro de un nodo. Si desea eliminar un determinado atributo, haga clic en los tres puntos situados a la derecha de la fila del atributo y seleccione **Eliminar**.
+{% hint style="danger" %}
+El botón **Restablecer formulario** descarta todos los atributos creados dentro de un nodo. Si desea eliminar un determinado atributo, haga clic en los tres puntos situados a la derecha de la fila del atributo y seleccione **Eliminar**.
+{% endhint %}
 
 7. Haga clic en **Guardar** para aplicar la configuración
 8. Cree una conexión:
@@ -84,11 +90,11 @@ Para obtener más información sobre la configuración del nodo, consulte [Nodo 
 * Haga clic en el conector de salida del nodo **Fuente de Datos**
 * Arrastre la transición al conector de entrada del nodo **Iniciar Atributo**
 
-Para obtener más información sobre la configuración del nodo, consulte [Iniciar nodo de atributos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334272/Initiate+Attribute+node?atlOrigin=eyJpIjoiNjcyYzBhNzU3ZWNmNDIwOWIxYTVhNjc4YjA4YThlMGUiLCJwIjoiYyJ9).
+Para obtener más información sobre la configuración del nodo, consulte [El nodo Iniciar Atributo](gestin-de-flujos/el-nodo-iniciar-atributo/).
 
-Para obtener más información sobre las acciones con atributos, consulte [Gestión de atributos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334380/Managing+attributes?atlOrigin=eyJpIjoiYWM0NmVhOGNhYzUwNDA0MzlkNjhmOTRkZGRiODI3YzkiLCJwIjoiYyJ9).
+Para obtener más información sobre las acciones con atributos, consulte [Gestión de atributos](gestin-de-flujos/el-nodo-iniciar-atributo/gestin-de-atributos.md).
 
-Para ver ejemplos de fórmulas de cálculo, consulte [Ejemplos de cálculo](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334409/Calculation+examples?atlOrigin=eyJpIjoiMjI1OTI1ZGViMDM0NDI2MGJiNzhhNTkyODY2YWNjODMiLCJwIjoiYyJ9).
+Para ver ejemplos de fórmulas de cálculo, consulte [Ejemplos de cálculo](gestin-de-flujos/el-nodo-iniciar-atributo/ejemplos-de-clculo.md).
 
 ### Paso 5: Configurar la salida de datos
 
@@ -99,7 +105,9 @@ Para ver ejemplos de fórmulas de cálculo, consulte [Ejemplos de cálculo](http
 * **Punto de salida predeterminado**: punto final predeterminado para enviar los datos procesados a la plataforma Navixy. Está preconfigurado y no permite cambios.
 * **Punto de Salida MQTT** - endpoint para enviar datos a destinos de terceros, utilizando MQTT como protocolo de transporte. Requiere la configuración manual descrita en los pasos siguientes
 
-> \[!INFO] Los puntos finales creados dentro de la cuenta están disponibles como **Preconfiguraciones**. Puede seleccionar una configuración ya existente en lugar de configurarla desde cero. **Punto de salida predeterminado** siempre está disponible como configuración preestablecida.
+{% hint style="info" %}
+Los puntos finales creados dentro de la cuenta están disponibles como **Preconfiguraciones**. Puede seleccionar una configuración ya existente en lugar de configurarla desde cero. **Punto de salida predeterminado** siempre está disponible como configuración preestablecida.
+{% endhint %}
 
 4. Configure los siguientes ajustes:
 
@@ -116,14 +124,18 @@ Para ver ejemplos de fórmulas de cálculo, consulte [Ejemplos de cálculo](http
 5. Si se requiere autenticación en el lado receptor, active la **autenticación MQTT**\
    Los campos que aparecen se rellenan automáticamente con las credenciales de su cuenta de la plataforma.
 
-> \[!WARNING] El botón **Restablecer formulario** descarta todos los atributos creados dentro de un nodo. Si desea eliminar un determinado atributo, haga clic en los tres puntos situados a la derecha de la fila del atributo y seleccione **Eliminar**.
+{% hint style="danger" %}
+El botón **Restablecer formulario** descarta todos los atributos creados dentro de un nodo. Si desea eliminar un determinado atributo, haga clic en los tres puntos situados a la derecha de la fila del atributo y seleccione **Eliminar**.
+{% endhint %}
 
 6. Haga clic en **Crear** para aplicar la configuración
 7. Conecte sus otros nodos a este nodo de salida en el orden necesario para finalizar la estructura del flujo
 
-> \[!INFO] Cada flujo debe incluir un nodo **Punto de Salida Predeterminado** para garantizar que los datos se envían a la plataforma. Sin esta conexión, los datos del dispositivo no serán visibles en la interfaz Navixy.
+{% hint style="info" %}
+Cada flujo debe incluir un nodo **Punto de Salida Predeterminado** para garantizar que los datos se envían a la plataforma. Sin esta conexión, los datos del dispositivo no serán visibles en la interfaz Navixy.
+{% endhint %}
 
-Para obtener más información sobre la configuración del nodo, consulte [Nodo Punto de Salida](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334428/Output+Endpoint+node?atlOrigin=eyJpIjoiMWRhODIxODViOTVlNDhmYTkxZTU0YjdiYTQ2NjgxMWUiLCJwIjoiYyJ9).
+Para obtener más información sobre la configuración del nodo, consulte [El nodo Punto de Salida](gestin-de-flujos/el-nodo-punto-de-salida.md).
 
 ### Paso 6: Guarde y active su flujo
 
@@ -141,19 +153,21 @@ Para confirmar que su flujo funciona correctamente, utilice la herramienta **Ana
 4. Utilice las opciones de filtrado para centrarse en parámetros específicos
 5. Comprobar que los atributos calculados muestran los valores correctos
 
-Para obtener más información sobre el uso de la herramienta, consulte [Analizador de flujo de datos](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334554/Data+Stream+Analyzer?atlOrigin=eyJpIjoiZThhNDJjODJjYjFmNDNiMzhiMmVlMGZkMzQyYjkzOTciLCJwIjoiYyJ9).
+Para obtener más información sobre el uso de la herramienta, consulte [Analizador de flujo de datos](analizador-de-flujo-de-datos.md).
 
-> \[!TIP] ¡Enhorabuena! Su primer flujo de datos de IoT Logic ya está en marcha.
+{% hint style="success" %}
+¡Enhorabuena! Su primer flujo de datos de IoT Logic ya está en marcha.
+{% endhint %}
 
 ## Pasos siguientes
 
 Ahora que ha creado su primer flujo de IoT Logic, puede
 
-* [Adaptar este ejemplo de inicio rápido](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334029/Quick+start+guide#Adapting-this-example) a sus necesidades empresariales
-* Cree transformaciones de datos más complejas con múltiples [nodos Iniciar Atributo](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334272/Initiate+Attribute+node?atlOrigin=eyJpIjoiMTliMWExNWE3MzBlNGZlMTkzZmM5YTk0MDMwM2JjYzIiLCJwIjoiYyJ9)
-* Establezca [destinos de salida](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3192816141/Output+endpoint+node) adicionales para sus datos que puedan convertirse en perfiles reutilizables para configuraciones coherentes
-* [Gestionar flujos ya creados](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334081/Flow+management?atlOrigin=eyJpIjoiZmNkYWEyYzQ0NDNkNGMxZGI4NDI3OThmNzc1ZDg3M2YiLCJwIjoiYyJ9) para ajustar el procesamiento de datos a cualquier cambio al que se enfrente
-* [Diseñar flujos avanzados](https://squaregps.atlassian.net/wiki/spaces/UDOCES/pages/3232334496/Flow+configuration+example?atlOrigin=eyJpIjoiYmIxZDIyZDAyODk1NGYzZmE2NGFlOGU3ZWI4ZmUxNzgiLCJwIjoiYyJ9) para escenarios empresariales específicos utilizando diferentes combinaciones y configuraciones de nodos
+* [Adaptar este ejemplo de inicio rápido](gua-de-inicio-rpido.md#adaptacion-de-este-ejemplo) a sus necesidades empresariales
+* Cree transformaciones de datos más complejas con múltiples [nodos Iniciar Atributo](gestin-de-flujos/el-nodo-iniciar-atributo/)
+* Establezca [destinos de salida](gestin-de-flujos/el-nodo-punto-de-salida.md) adicionales para sus datos que puedan convertirse en perfiles reutilizables para configuraciones coherentes
+* [Gestionar flujos ya creados](gestin-de-flujos/) para ajustar el procesamiento de datos a cualquier cambio al que se enfrente
+* [Diseñar flujos avanzados](gestin-de-flujos/ejemplo-de-configuracin-de-un-flujo.md) para escenarios empresariales específicos utilizando diferentes combinaciones y configuraciones de nodos
 
 ### Adaptación de este ejemplo
 
@@ -170,9 +184,11 @@ El patrón básico de recopilación, transformación y reenvío sigue siendo coh
 
 También se puede acceder a las funciones de IoT Logic mediante programación a través de la API de Navixy. Esto permite a los desarrolladores automatizar la creación, gestión y supervisión de flujos.
 
-> \[!INFO] Por motivos de seguridad, el acceso a la API requiere los permisos adecuados. Póngase en contacto con el administrador de su cuenta para asegurarse de que dispone de los derechos de acceso necesarios.
+{% hint style="info" %}
+Por motivos de seguridad, el acceso a la API requiere los permisos adecuados. Póngase en contacto con el administrador de su cuenta para asegurarse de que dispone de los derechos de acceso necesarios.
+{% endhint %}
 
-Para obtener la documentación completa de la API, parámetros, formatos de solicitud/respuesta y ejemplos de código, consulte la [documentación de la Navixy IoT Logic API](https://developers.navixy.com/docs/iot-logic-api) .
+Para obtener la documentación completa de la API, parámetros, formatos de solicitud/respuesta y ejemplos de código, consulte la [documentación de la Navixy IoT Logic API](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/) .
 
 ## Preguntas más frecuentes
 

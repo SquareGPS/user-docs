@@ -2,15 +2,15 @@
 
 La pestaña de **Tareas** en Navixy se refiere a una tarea o trabajo específico que debe realizar un empleado o un trabajador sobre el terreno. Incluye instrucciones detalladas sobre lo que hay que hacer, dónde hay que hacerlo y en qué plazo. Las tareas pueden ir desde asignaciones sencillas y puntuales, como la entrega de un paquete en un único lugar, hasta operaciones más complejas, como la visita a varios puntos de control a lo largo de una ruta para realizar inspecciones, instalaciones u otros servicios.
 
-![image-20240815-215838.png](../../gua-del-usuario/servicio-de-campo/attachments/image-20240815-215838.png)
+![](../../gua-del-usuario/servicio-de-campo/attachments/image-20240815-215838.png)
 
 Las tareas son esenciales para gestionar y coordinar las operaciones sobre el terreno, garantizar que los empleados tengan claras sus responsabilidades y permitir a los directivos supervisar los progresos, optimizar las rutas y asegurarse de que todos los trabajos se realizan con eficacia.
 
 ## Cómo crear una tarea
 
-1. Vaya a la pestaña Tareas de la aplicación Servicio de campo.
-2. Haga clic en el botón **"+"** para iniciar el proceso de creación de una nueva tarea.
-3. **Defina el nombre de la Tarea:**
+1. **Vaya a la pestaña Tareas** del módulo de **Servicio de campo**.
+2. **Haga clic en el botón +** para iniciar el proceso de creación de una nueva tarea.
+3. **Defina el nombre de la tarea:**
 
 * Introduzca un nombre de tarea descriptivo que ayude a identificar el propósito de la tarea. Puede ser el nombre del cliente o una breve descripción de la tarea, como "Instalar equipos" o "Inspeccionar comunicaciones".
 
@@ -62,7 +62,7 @@ La plataforma puede optimizar hasta 25 puntos en una sola tarea de ruta, garanti
 
 Cuando se gestiona una plantilla numerosa o numerosas tareas, importar tareas desde un archivo Excel es más eficaz que crearlas manualmente y asignarlas una a una. Esto resulta especialmente útil cuando las tareas son generadas por sistemas externos, como los CRM.
 
-![image-20240815-220011.png](../../gua-del-usuario/servicio-de-campo/attachments/image-20240815-220011.png)
+![](../../gua-del-usuario/servicio-de-campo/attachments/image-20240815-220011.png)
 
 ### Importar desde archivo Excel
 
@@ -106,7 +106,7 @@ Utilizando estos ajustes, puede agilizar el proceso de asignación de tareas, ga
 
 1. **Inicie el proceso de importación:**
 
-* Pase el ratón por encima del **"+"** en la sección de tareas.
+* Pase el ratón por encima del **+** en la sección de tareas.
 * Haga clic en el botón **TXT** opción.
 
 2. **Ventana de importación de tareas:**

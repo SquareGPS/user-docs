@@ -1,35 +1,58 @@
-# Custom Menu Editor
+---
+description: >-
+  Create menu presets to rename/reorder items, add/remove tabs, and assign
+  custom menus to specific users.
+---
 
-## Overview
+# Menu editor
 
-The Menu Editor is an Admin Panel tool that allows admins to control what their end users can see on the platform. Thus allowing for more consistent and standard use among their users and providing access control. With this functionality, admins can reorder and rename tabs as well as grouping users with specific builds so control is more organized.
+**Menu editor** is a tool that allows owners to control what their end users can see. It provides more consistent and standard user experience and access control. With this feature, admins can reorder and rename tabs as well as group users with specific builds.
 
-![Menu Editor Example](attachments/Untitled-20240811-031917.gif)
+<figure><img src="../.gitbook/assets/Untitled-20240811-031917.gif" alt="Working with Menu editor"><figcaption><p>Working with Menu editor</p></figcaption></figure>
 
-## Creating a Menu Template
+## How to create a menu template
 
-To begin, first navigate to the Admin Panel → Account Management → Menu editor. Once there, the below screen will be visible:
+Navigate to **Settings → Menu editor**. You will see this screen, or a variation of it:
 
-![Menu Editor Still](attachments/Untitled-20240811-040942.png)
+<figure><img src="../.gitbook/assets/image (49).png" alt="Menu editor"><figcaption><p>Menu editor</p></figcaption></figure>
 
-1. **Menu presets** - a list of created menu presets. By default, this only contains the basic template created by Navixy.
+The page consists of the following sections:
 
-To create a new preset, click “Add new preset” and enter the name you wish. Clicking the “copy” icon will allow you to adjust an already created preset, the “trashcan” will delete the preset, and the star will allow you to set the preset as default. The chosen default will automatically be applied to all users unless specifically changed.
+* **Menu presets**
+* **Assigned to** (displayed only for non-default presets)
+* **Visual editor**
+* **Item selector**
 
-![Untitled-20240811-041453.png](attachments/Untitled-20240811-041453.png)
+### **Menu presets**
 
-2. **Applied to** - select which users to apply the template to.
+A list of created menu presets. By default, this only contains the default template created by Navixy.
+
+To create a new preset, click <img src="../.gitbook/assets/image (42).png" alt="Add new preset" data-size="line"> and enter the name you wish. To duplicate an existing preset, select it in the drop-down menu and click <img src="../.gitbook/assets/image (43).png" alt="Duplicate preset" data-size="line">. To rename it, click <img src="../.gitbook/assets/image (47).png" alt="Rename preset" data-size="line">. To delete it, click <img src="../.gitbook/assets/image (44).png" alt="Delete preset" data-size="line">. Clicking <img src="../.gitbook/assets/image (45).png" alt="Star" data-size="line"> will make the preset default, automatically applying it to all users unless they change their settings.
+
+<figure><img src="../.gitbook/assets/image (46).png" alt="Selecting a preset" width="267"><figcaption><p>Selecting a preset</p></figcaption></figure>
+
+### **Assigned to**
+
+This section is used for applying the template to specific users.
 
 Presets can be applied to any chosen user. If you delete a preset, the user will be assigned the template marked as default.
 
-![Applied to](attachments/Untitled-20240811-041557.png)
+### **Visual editor**
 
-3. **Visual editor** - As items are rearranged or renamed, a visual can be instantly seen on the right
+An interactive editor of your side menu. As items are rearranged or renamed, you will see the changes both in the menu and in the **Item selector** section on the right of the page.
 
-All menu items can be dragged-and-dropped to order them as needed and can also be renamed. Tabs within each menu option can also be renamed and dragged where needed within the window. Groups and subheadings can also be used.
+All menu items can be renamed and dragged-and-dropped to order them as you see fit. Tabs inside each module can also be renamed and moved.
 
-![Visual Editor](attachments/Untitled-20240811-042814.png)
+<figure><img src="../.gitbook/assets/image (50).png" alt="Visual editor"><figcaption><p>Visual editor</p></figcaption></figure>
+
+### **Item selector**
+
+This section shows a preview of the item you select or add to the menu and allows you to add new items to your groups.
+
+To add a new menu item, click **Add item** on top of the section and select it from the drop-down list. You can add multiple items to a menu group.
+
+<figure><img src="../.gitbook/assets/image (52).png" alt="Adding items"><figcaption><p>Adding items</p></figcaption></figure>
 
 ## API
 
-For instruction on using the API, please see our documentation here: [Custom menu on Developers portal](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/panel-api/resources/user/preset)
+For instructions on using the API, see [Menu preset](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/panel-api/resources/user/preset) in Developer documentation.

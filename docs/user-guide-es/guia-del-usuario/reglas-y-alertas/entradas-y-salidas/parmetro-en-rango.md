@@ -22,18 +22,20 @@ Establece el límite inferior del intervalo aceptable.
 
 Establece el límite superior del intervalo aceptable.
 
-#### Valor Umbral
+#### Valor umbral
 
-Este parámetro añade un búfer alrededor de los límites definidos para tener en cuenta el ruido o las imprecisiones del sensor. El umbral ayuda a distinguir entre los estados "EN rango" y "FUERA de rango" creando una zona de tolerancia alrededor de los valores establecidos. Si no se especifica ningún umbral, el valor predeterminado es 0,03. De este modo se evitan frecuentes disparos de eventos debidos a pequeñas fluctuaciones en las lecturas de los sensores.
+Este parámetro añade un búfer alrededor de los límites definidos para tener en cuenta el ruido o las imprecisiones del sensor. El umbral ayuda a distinguir entre los estados "En rango" y "Fuera de rango", creando una zona de tolerancia alrededor de los valores establecidos. Si no se especifica ningún umbral, el valor predeterminado es 0,03. De este modo se evitan frecuentes disparos de eventos debidos a pequeñas fluctuaciones en las lecturas de los sensores.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 
-* **Transiciones de rango:**
-  * **IN a OUT:** El estado cambia de "IN range" a "OUT range" cuando el valor del sensor sobrepasa el búfer exterior.
-  * **OUT a IN:** El estado cambia de "FUERA de rango" a "DENTRO de rango" cuando el valor del sensor se mueve dentro del rango pero fuera del búfer interior.
+* **Cambios de estado**:
+  * Salida de rango: Ocurre cuando el valor supera el umbral exterior.
+  * Entrada a rango: Ocurre cuando el valor regresa por debajo del umbral exterior, pero sin cruzar el umbral interior.
+  * Salida de rango: Ocurre cuando el valor supera el umbral exterior.
+  * Entrada a rango: Ocurre cuando el valor regresa por debajo del umbral exterior, pero sin cruzar el umbral interior.
 * **Sensores virtuales:** Cuando se utiliza un sensor virtual como fuente de datos, el rango se define según el valor original del sensor virtual. Esto resulta útil para controlar campos de estado o códigos de evento específicos dentro de un rango especificado.
 * **Reinicia el temporizador:** La alerta "Parámetro dentro del intervalo" tiene un temporizador de reinicio de 10 segundos, lo que garantiza que las alertas no se activen con más frecuencia que cada 10 segundos, lo que ayuda a evitar notificaciones redundantes.
 * **Compatible con un solo dispositivo:** Cada regla sólo admite un dispositivo debido a la complejidad de cruzar múltiples sensores, rastreadores y datos de calibración.
-* **Procesamiento independiente del GPS:** La plataforma procesa y muestra los eventos incluso si el paquete de datos carece de coordenadas GPS válidas, garantizando que todos los eventos relevantes se capturen y muestren independientemente de la configuración de la geovalla.
+* **Procesamiento independiente del GPS:** La plataforma procesa y muestra los eventos incluso si el paquete de datos carece de coordenadas GPS válidas, garantizando que todos los eventos relevantes se capturen y muestren independientemente de la configuración de la geocerca.

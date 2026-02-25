@@ -1,6 +1,12 @@
-# Change plan
+---
+description: >-
+  Change a tracker’s pricing plan in Admin Panel and choose how billing is
+  handled during the switch.
+---
 
-Changing the pricing plan for a tracker in the Navixy platform is a straightforward process that can be completed in just a few steps via the Admin Panel.
+# Changing plan
+
+Changing the pricing plan for a tracker in the Navixy platform is a straightforward process that can be completed in just a few steps via Admin Panel.
 
 ## Pricing plans for users
 
@@ -14,15 +20,39 @@ Navixy's pricing plans are designed to be flexible and scalable, allowing custom
 
 To change the pricing plan for your GPS tracker in the Navixy platform, follow these steps:
 
-1. Click on the "Change Plan" button located in the right-hand side of the tracker's card
-2. This will open a new tab where you can assign the new pricing plan for your tracker
-3. You will have the option to choose how to charge the user with monthly-based plans. There are two options:
-4. Repay remainder of current plan payment: Select this option if you want to charge the user (according to the current plan) up to the end of the month.
+{% stepper %}
+{% step %}
+### Open the Change plan window
 
-* Charge user now (according to the new plan): Select this option if you want to take money from the user's account according to the previous plan up to the current date, and then start to charge the user according to the new plan. If the user has a zero balance, the plan will be changed, but all services will be blocked.
+Select the tracker and click **Change plan** (located in the right side panel). This will open the **Change plan** window:
 
-![Change plan and payment options](attachments/Untitled-20230811-203045.png)
+<div align="left"><figure><img src="../.gitbook/assets/{12CB99F1-067E-43E2-8569-5A8856A2811F}.png" alt="Change plan window" width="366"><figcaption></figcaption></figure></div>
+{% endstep %}
 
-It's important to note that when changing a plan for a tracker, the new plan will only take effect after the current plan's billing cycle ends. This means that the user will continue to be charged according to the current plan until the end of the current billing cycle, at which point the new plan will take effect.
+{% step %}
+### Select the tracker plan
 
-For further details on Plans, please see our documentation [here](../plans/).
+In the drop-down menu, select the new pricing plan for your tracker. Plan names have the following format:  `name | billing cycle | price` .
+{% endstep %}
+
+{% step %}
+### Configure payment options
+
+You can choose how to handle switching from an old plan to a new one. There are two options:
+
+* **Repay remainder of current plan payment**: Select this option to be refunded for the remaining period under the old pricing plan.
+* **Charge user now (according to the new plan)**: Only for monthly-based plans. Select this option if you want to start charging the user under the new plan from the next day after the change. If the user has zero balance, the plan will be changed, but all services will be blocked.
+{% endstep %}
+
+{% step %}
+### Save and exit
+
+Save the new configuration and close the **Change plan** window.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="danger" %}
+When changing a plan to non-monthly billing (such as daily or annual), the new plan will only take effect after the current plan's billing cycle ends. This means that the user will continue to be charged according to the current plan until the end of the current billing cycle, at which point the new plan will take effect.
+{% endhint %}
+
+For more information on plans, see the [Plans](../plans/) documentation.

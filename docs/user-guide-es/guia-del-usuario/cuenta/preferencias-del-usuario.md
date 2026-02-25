@@ -1,8 +1,8 @@
 # Preferencias del usuario
 
-La sección Preferencias del usuario situada en **Configuración de la cuenta → Perfil permite** puedes personalizar varios ajustes para adaptarlos mejor a tus necesidades y preferencias individuales. Esto incluye opciones de idioma, sistema de medición, zona horaria, formato de fecha y gestión de almacenamiento de archivos.
+La sección **Preferencias del usuario** situada en **Configuración de la cuenta → Perfil** permite que personalice varios ajustes para adaptarlos mejor a sus necesidades y preferencias individuales. Esto incluye opciones de idioma, sistema de medición, zona horaria, formato de fecha y gestión de almacenamiento de archivos.
 
-![image-20240718-180427.png](../../gua-del-usuario/cuenta/attachments/image-20240718-180427.png)
+![](../../gua-del-usuario/cuenta/attachments/image-20240718-180427.png)
 
 ## Preferencias generales del usuario
 

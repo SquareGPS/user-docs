@@ -1,33 +1,33 @@
 # Definir las funciones de los usuarios
 
-Un rol de usuario en Navixy es un conjunto de permisos y derechos de acceso asignados a un usuario, definiendo lo que puede ver y gestionar dentro de la plataforma. Los roles de usuario son personalizables y permiten al Propietario controlar el nivel de acceso que cada usuario tiene a diferentes funciones y datos. Los roles determinan la capacidad de un usuario para:
+Un **rol de usuario** en Navixy es un conjunto de permisos y derechos de acceso asignados a un usuario, definiendo lo que puede ver y gestionar dentro de la plataforma. Los roles de usuario son personalizables y permiten al propietario controlar el nivel de acceso que cada usuario tiene a diferentes funciones y datos. Los roles determinan la capacidad de un usuario para:
 
 * Gestionar vehículos, empleados y activos
 * Ver datos telemáticos de dispositivos GPS y sensores
 * Trabajar con geocercas y puntos de interés (POI)
 * Generar informes, utilizar complementos y herramientas específicos de la aplicación
 
-Mediante la asignación de roles, el Propietario puede garantizar que los usuarios tengan el acceso adecuado necesario para realizar sus tareas sin comprometer la seguridad o la integridad de los datos y las operaciones de la empresa. Cada función puede incluir derechos básicos disponibles para todos los usuarios, así como derechos adicionales adaptados a las necesidades y responsabilidades específicas de los distintos usuarios.
+Mediante la asignación de roles, el propietario puede garantizar que los usuarios tengan el acceso adecuado necesario para realizar sus tareas sin comprometer la seguridad o la integridad de los datos y las operaciones de la empresa. Cada función puede incluir derechos básicos disponibles para todos los usuarios, así como derechos adicionales adaptados a las necesidades y responsabilidades específicas de los distintos usuarios.
 
 ## Añadir y gestionar funciones
 
-Para añadir un nuevo rol, vaya a Configuración de la cuenta → Usuarios y roles y seleccione la pestaña "Gestión de roles". Haga clic en el botón de añadir rol (el botón con el signo "+").
+Para añadir un nuevo rol, vaya a **Configuración de la cuenta → Usuarios y roles** y seleccione la pestaña **Gestión de roles**. Haga clic en el botón de **Añadir rol** (el botón con el signo **+**).
 
-![image-20240718-043236.png](../../../gua-del-usuario/cuenta/acceso-del-equipo/attachments/image-20240718-043236.png)
+![](../../../gua-del-usuario/cuenta/acceso-del-equipo/attachments/image-20240718-043236.png)
 
 2. **Crear un nuevo rol**:
 
 * Piensa en un nombre para el papel.
 * Seleccione los derechos de acceso necesarios para esta función.
-* Pulse "Guardar" para crear el rol.
+* Pulse **Guardar** para crear el rol.
 
 ### Tipos de derechos
 
-Todos los derechos se dividen en tres categorías: Propietario, Básico y Adicional.
+Todos los derechos se dividen en tres categorías: **Propietario, Básico** y **Adicional**.
 
 #### Derechos del propietario
 
-Los derechos de propietario sólo están disponibles para el propietario de la cuenta (usuario principal) y no pueden asignarse a otros roles. Entre ellos se incluyen:
+Los derechos de propietario solo están disponibles para el propietario de la cuenta (usuario principal) y no pueden asignarse a otros roles. Entre ellos se incluyen:
 
 * Añadir y editar usuarios
 * Gestionar grupos de objetos

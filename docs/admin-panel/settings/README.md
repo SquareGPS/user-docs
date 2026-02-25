@@ -1,6 +1,18 @@
+---
+description: >-
+  Central hub for configuring your Navixy instance, including service, maps,
+  branding, menus, defaults, security, and gateways.
+---
+
 # Settings
 
-Navixy Admin Panel allows you to set up the configuration of your platform. You can access Admin panel in either way:
+The **Settings** page consists of the following tabs, each describing various customization options:
 
-- login through your customer portal [https://portal.navixy.com](https://portal.navixy.com) (recommended)
-- login directly at [https://panel.navixy.com](https://panel.navixy.com)
+* [Service preferences](service-preferences/)
+* [Maps preferences](maps/)
+* [Branding](branding-options.md)
+* [Menu editor](custom-menu-editor.md)
+* [User defaults](user-defaults.md)
+* [Security](two-factor-authentication.md)
+* [Email gateways](messaging-gateways/#email-gateway)
+* [SMS messages](messaging-gateways/#sms-gateway)

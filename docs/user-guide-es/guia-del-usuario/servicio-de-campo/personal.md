@@ -2,7 +2,7 @@
 
 En la pestaña de **Personal,** en la sección **Servicio de campo** está específicamente diseñada para gestionar y organizar eficazmente la información sobre su personal de campo. Esta herramienta le garantiza que dispone de todo lo necesario para coordinar eficazmente a su personal móvil.
 
-![image-20240816-171918.png](../../gua-del-usuario/servicio-de-campo/attachments/image-20240816-171918.png)
+![](../../gua-del-usuario/servicio-de-campo/attachments/image-20240816-171918.png)
 
 Para acceder a la sección Personal, seleccione "Servicio de campo" en el menú principal. A continuación, haga clic en la pestaña "Personal". Esta sección proporciona una visión general de todos los empleados de su organización, mostrando su información esencial en un formato de lista.
 
@@ -37,7 +37,7 @@ Para añadir de forma eficaz varios empleados a su aplicación Field service, si
 1. **Abrir la sección Personal**: Vaya a la sección "Personal" de la aplicación del Servicio Exterior.
 2. **Iniciar el proceso de importación**: Haz clic en el botón "+" y selecciona "XLS" en el desplegable.
 3. **Cargar el archivo Excel**: Haga clic en "Examinar" para seleccionar su archivo Excel (XLS, XLSX o CSV). Asegúrese de que la casilla "Utilizar encabezados de archivo" está marcada si su archivo incluye encabezados.
-4. **Revisar y continuar**: Verifique los campos obligatorios como "Nombre" y campos adicionales. Haga clic en "Continuar" para completar la importación.
+4. **Revisar y continuar**: Verifique los campos obligatorios como "Nombre" y los campos adicionales. Haga clic en "Continuar" para completar la importación.
 
 Este proceso añade rápidamente empleados a su directorio, ahorrando tiempo y garantizando la precisión.
 

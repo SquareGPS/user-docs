@@ -1,0 +1,191 @@
+<svg viewBox="0 0 1400 750" width="1800" height="963" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Glow filters -->
+    <filter id="glow-state" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.8"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glow-dim" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Gradients -->
+    <radialGradient id="grad-gray-zone">
+      <stop offset="0%" style="stop-color:#546E7A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#455A64;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#37474F;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <radialGradient id="grad-green-zone">
+      <stop offset="0%" style="stop-color:#66BB6A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4CAF50;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <radialGradient id="grad-purple-zone">
+      <stop offset="0%" style="stop-color:#9D4EDD;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7B2CBF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#5A189A;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <radialGradient id="grad-amber-zone">
+      <stop offset="0%" style="stop-color:#FFD54F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFCA28;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FFB300;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <radialGradient id="grad-orange-zone">
+      <stop offset="0%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF9500;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#E67E00;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <radialGradient id="grad-cyan-zone">
+      <stop offset="0%" style="stop-color:#4DD4E8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00BCD4;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0097A7;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <!-- Arrow markers -->
+    <marker id="arrow-zone-light" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#78909C" />
+    </marker>
+    <marker id="arrow-purple-zone" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9D4EDD" />
+    </marker>
+  </defs>
+  
+  <!-- Dark background -->
+  <rect width="1400" height="750" fill="#1A1D2E"/>
+  
+  <!-- Title -->
+  <text x="700" y="45" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="28" font-weight="600" fill="#E0E0E0" opacity="0.9">Zone Visit Lifecycle</text>
+  
+  <!-- State 1: Device Outside Zone -->
+  <g filter="url(#glow-dim)">
+    <rect x="40" y="130" width="200" height="90" rx="12" fill="url(#grad-gray-zone)" stroke="#607D8B" stroke-width="2" opacity="0.9"/>
+    <rect x="46" y="136" width="188" height="78" rx="10" fill="none" stroke="#78909C" stroke-width="1" opacity="0.3"/>
+  </g>
+  <circle cx="140" cy="175" r="12" fill="none" stroke="#90A4AE" stroke-width="2"/>
+  <circle cx="140" cy="175" r="7" fill="#1A1D2E" stroke="#B0BEC5" stroke-width="2"/>
+  <text x="140" y="210" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#B0BEC5">Device Outside Zone</text>
+  
+  <!-- Arrow to Entry Event -->
+  <path d="M 240 175 L 290 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  
+  <!-- Entry Event -->
+  <g filter="url(#glow-state)">
+    <rect x="290" y="125" width="200" height="100" rx="12" fill="url(#grad-green-zone)" stroke="#66BB6A" stroke-width="2"/>
+    <rect x="296" y="131" width="188" height="88" rx="10" fill="none" stroke="#81C784" stroke-width="1" opacity="0.4"/>
+  </g>
+  <text x="390" y="165" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Entry Event</text>
+  <line x1="310" y1="177" x2="470" y2="177" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <text x="390" y="195" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F5E9">Timestamp recorded</text>
+  <text x="390" y="212" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8F5E9">Zone ID captured</text>
+  
+  <!-- Arrow to Device in Zone -->
+  <path d="M 490 175 L 540 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  
+  <!-- Device in Zone -->
+  <g filter="url(#glow-state)">
+    <rect x="540" y="130" width="200" height="90" rx="12" fill="url(#grad-purple-zone)" stroke="#9D4EDD" stroke-width="2"/>
+    <rect x="546" y="136" width="188" height="78" rx="10" fill="none" stroke="#C77DFF" stroke-width="1" opacity="0.4"/>
+  </g>
+  <text x="640" y="170" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Device in Zone</text>
+  <text x="640" y="195" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12" fill="#E1BEE7" font-style="italic">⏱ Monitoring...</text>
+  
+  <!-- Arrow to Decision -->
+  <path d="M 740 175 L 810 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  
+  <!-- Decision Diamond -->
+  <g filter="url(#glow-state)">
+    <polygon points="920,110 990,175 920,240 850,175" fill="url(#grad-amber-zone)" stroke="#FFD54F" stroke-width="2"/>
+    <polygon points="920,118 982,175 920,232 858,175" fill="none" stroke="#FFE082" stroke-width="1" opacity="0.4"/>
+  </g>
+  <text x="920" y="170" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#5D4037">Exit</text>
+  <text x="920" y="188" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#5D4037">detected?</text>
+  
+  <!-- Branch Yes → Exit Event -->
+  <path d="M 990 175 L 1050 175" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  <text x="1020" y="160" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#E0E0E0">Yes</text>
+  
+  <!-- Exit Event -->
+  <g filter="url(#glow-state)">
+    <rect x="1050" y="125" width="180" height="100" rx="12" fill="url(#grad-orange-zone)" stroke="#FFB347" stroke-width="2"/>
+    <rect x="1056" y="131" width="168" height="88" rx="10" fill="none" stroke="#FFCF87" stroke-width="1" opacity="0.4"/>
+  </g>
+  <circle cx="1140" cy="175" r="12" fill="none" stroke="#FFD699" stroke-width="2"/>
+  <circle cx="1140" cy="175" r="6" fill="#FF9500"/>
+  <text x="1140" y="160" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Exit Event</text>
+  <line x1="1070" y1="177" x2="1210" y2="177" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <text x="1140" y="195" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#FFF3E0">Timestamp recorded</text>
+  <text x="1140" y="212" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#FFF3E0">Visit completed</text>
+  
+  <!-- Arrow to Closed Visit -->
+  <path d="M 1140 225 L 1140 305" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  
+  <!-- Closed Visit Record -->
+  <g filter="url(#glow-state)">
+    <rect x="1040" y="305" width="200" height="130" rx="12" fill="url(#grad-cyan-zone)" stroke="#4DD4E8" stroke-width="2"/>
+    <rect x="1046" y="311" width="188" height="118" rx="10" fill="none" stroke="#87E8F7" stroke-width="1" opacity="0.4"/>
+  </g>
+  <text x="1140" y="335" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Closed Visit</text>
+  <line x1="1060" y1="347" x2="1220" y2="347" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <text x="1140" y="370" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#E0F7FA">enter_time: timestamp</text>
+  <text x="1140" y="390" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#E0F7FA">exit_time: timestamp</text>
+  <text x="1140" y="410" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#E0F7FA">duration: calculated</text>
+  <text x="1140" y="427" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#B2EBF2" font-style="italic">Complete visit record</text>
+  
+  <!-- Branch No → Open Visit -->
+  <path d="M 920 240 L 920 395" stroke="#78909C" stroke-width="2" fill="none" marker-end="url(#arrow-zone-light)" opacity="0.7"/>
+  <text x="945" y="315" text-anchor="start" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#E0E0E0">No</text>
+  
+  <!-- Open Visit -->
+  <g filter="url(#glow-state)">
+    <rect x="800" y="395" width="240" height="130" rx="12" fill="url(#grad-amber-zone)" stroke="#FFD54F" stroke-width="2"/>
+    <rect x="806" y="401" width="228" height="118" rx="10" fill="none" stroke="#FFE082" stroke-width="1" opacity="0.4"/>
+  </g>
+  <text x="920" y="430" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#5D4037">Open Visit</text>
+  <line x1="820" y1="442" x2="1020" y2="442" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
+  <text x="920" y="465" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#5D4037">enter_time: timestamp</text>
+  <text x="920" y="485" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#5D4037">exit_time: NULL</text>
+  <text x="920" y="505" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#5D4037">duration: NULL</text>
+  <text x="920" y="520" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#6D4C41" font-style="italic">Visit in progress</text>
+  
+  <!-- Loop back arrow -->
+  <path d="M 800 460 Q 640 460, 640 305 Q 640 220, 640 220" stroke="#9D4EDD" stroke-width="2.5" stroke-dasharray="6,3" fill="none" marker-end="url(#arrow-purple-zone)" opacity="0.8"/>
+  
+  <text x="615" y="455" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" fill="#C77DFF">Continue monitoring</text>
+  
+  <!-- Legend Box -->
+  <g filter="url(#glow-dim)">
+    <rect x="40" y="570" width="300" height="140" rx="10" fill="#252836" stroke="#7B68EE" stroke-width="1.5" opacity="0.9"/>
+  </g>
+  <text x="190" y="600" text-anchor="middle" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B0C0">STATE FLOW LEGEND</text>
+  <line x1="60" y1="610" x2="320" y2="610" stroke="#7B68EE" stroke-width="1" opacity="0.3"/>
+  
+  <rect x="60" y="625" width="20" height="20" rx="4" fill="url(#grad-gray-zone)" stroke="#607D8B" stroke-width="1"/>
+  <text x="90" y="640" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#90A4AE">Initial / Outside state</text>
+  
+  <rect x="60" y="655" width="20" height="20" rx="4" fill="url(#grad-green-zone)" stroke="#66BB6A" stroke-width="1"/>
+  <text x="90" y="670" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#90A4AE">Entry / Exit events</text>
+  
+  <rect x="60" y="685" width="20" height="20" rx="4" fill="url(#grad-purple-zone)" stroke="#9D4EDD" stroke-width="1"/>
+  <text x="90" y="700" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#90A4AE">Active monitoring state</text>
+</svg>

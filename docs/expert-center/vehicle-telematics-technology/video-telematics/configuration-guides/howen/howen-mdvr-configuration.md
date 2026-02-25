@@ -46,8 +46,8 @@ Here, you can set server information, select the appropriate protocol, and set t
 
 * Choose H-protocol - H.264. The platform supports both H.264 and H.265 protocols. However, H.264 is universally compatible with all browsers, ensuring seamless user experience. H.265 is not universally supported, requiring users to find and learn how to use compatible browsers.
 * IP address. This is where your device sends information:
-  * &#x20;For EU server: IP 52.57.1.136
-  * &#x20;For US server (your account ID starts with 1000): IP 13.52.37.2
+  * For EU server: IP 52.57.1.136
+  * For US server (your account ID starts with 1000): IP 13.52.37.2
 * Port should be set to 47670.
 * GPS interval. This determines how frequently the device sends GPS points to the platform. The default is 60 seconds.
 
@@ -58,15 +58,15 @@ Once you've configured the device settings, start the registration process on th
 1. Open the user account where you wish to register the device and click the device activation button.
 2. Next, input the device's name, assign it to a group if necessary, and type your device's model into the search line. For example, Hero ME40-04.
 
-![](attachments/image-20231019-140201.png)
+![](<../../../../.gitbook/assets/image-20231019-140201 (2).png>)
 
 3. Enter the device ID that you initially set in the Dev ID on your device. If the platform indicates that the given device ID is already being used, modify it in the device's settings and attempt using the new ID on the platform.
 
-![](attachments/image-20231019-135850.png)
+![](../../../../.gitbook/assets/image-20231019-135850.png)
 
 Once the device has been added to the platform, navigate to the devices and settings tab to adjust the device’s timezone. This should correspond with the timezone you selected in the Time options of the device's configurator.
 
-![](attachments/image-20231020-063327.png)
+![](../../../../.gitbook/assets/image-20231020-063327.png)
 
 The final step to get your device online involves sending its first packet, complete with a valid timestamp and coordinates, to the platform. As we've configured the power mode to be triggered by ignition, starting your vehicle's engine will prompt the device to begin sending packets to the platform.
 

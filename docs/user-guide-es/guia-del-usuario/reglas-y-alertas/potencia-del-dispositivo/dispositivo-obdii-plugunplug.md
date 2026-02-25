@@ -1,7 +1,5 @@
 # Dispositivo OBDII plug/unplug
 
-## Visión general
-
 La regla "Conectar / Desconectar Dispositivo OBDII" está diseñada para proporcionar alertas inmediatas cada vez que un rastreador GPS OBDII se conecta o desconecta del puerto OBDII del vehículo. Esta regla garantiza que los usuarios puedan tomar medidas inmediatas para mantener el rastreo continuo y la funcionalidad del dispositivo.
 
 Por ejemplo, cuando el rastreador se desconecta, pasa a utilizar su batería interna, que tiene una vida útil limitada. Las notificaciones inmediatas en caso de desconexión permiten a los usuarios responder rápidamente, garantizando un seguimiento y una transmisión de datos ininterrumpidos.
@@ -10,7 +8,7 @@ Por ejemplo, cuando el rastreador se desconecta, pasa a utilizar su batería int
 
 Esta regla depende totalmente de las capacidades del dispositivo y de la configuración del hardware. No hay ajustes específicos que configurar dentro de la propia regla.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

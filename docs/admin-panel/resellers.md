@@ -1,52 +1,66 @@
+---
+description: >-
+  Create and manage resellers (sub-dealers), configure permissions, and control
+  activation and suspension statuses.
+---
+
 # Resellers
 
-Navixy's channel partners have the ability to expand their business by creating a network of sub-dealers or resellers. This section describes how to create a reseller in the Admin panel and the various capabilities that partners have to manage reseller settings.
+Navixy's channel partners have the ability to expand their business by creating a network of sub-dealers or resellers. This section describes how to create a reseller and the various option of configuring them.
 
-With the reseller feature, partners can invite new organizations to become their sub-dealers and assign them a set of permissions that fit their specific needs. The reseller will have access to a dedicated Admin panel, with the ability to manage their own customers, IoT devices, and billing.
+With the reseller feature, partners can invite new organizations to become their sub-dealers and assign them a set of permissions that fit their specific needs. The reseller will have access to a dedicated Admin Panel with the ability to manage their own customers, IoT devices, and billing.
 
-## Reseller capabilities and restrictions
+<figure><img src=".gitbook/assets/image (96).png" alt="Resellers page"><figcaption><p>Resellers page</p></figcaption></figure>
 
-Resellers can perform the following actions in their Admin panel:
+The **Resellers** page consists of the following sections:
 
-- Brand and customize their web services and mobile apps
-- Setup service preferences, such as language and currency
-- Create their own pricing plans
-- Manage list of devices
-- Add and manage users
-- Activate, configure and diagnose devices
+* **Reseller toolbar**: A toolbar used to easily create, edit, delete, and find resellers
+* **Reseller list:** A list of existing resellers formatted as a table
+* **Reseller details:** Information about the selected reseller with a list of related actions:
+  * **Edit reseller**: Opens the **Edit reseller** window to change their details (also available by clicking <img src=".gitbook/assets/image (71).png" alt="Edit reseller" data-size="line"> in the toolbar)
+  * **Change password**: Opens the **Change password** window for the reseller
+  * **Access admin** panel: Opens the reseller's Admin Panel
+
+## Reseller options and restrictions
+
+Resellers can perform the following actions in their Admin Panel:
+
+* Brand and customize their web services and mobile apps
+* Set up service preferences, such as language and currency
+* Create their own pricing plans
+* Manage their GPS devices
+* Add and manage users
 
 Resellers are not allowed:
 
-- Modify the GIS package. The GIS package will be inherited from the partner's account.
-- Create their own resellers. To do this, they will need to become a partner.
-- Submit tickets to Navixy technical support: for any technical questions, they should contact the partner first.
+* Modify the GIS package. The GIS package will be inherited from the partner's account.
+* Create their own resellers. To do this, they will need to become a partner.
+* Submit tickets to Navixy support: for any technical questions, they should contact the partner first.
 
-## Creating a reseller
+## How to create a reseller
 
-To create a new reseller, go to the "Resellers" section in the Navixy Admin Panel and click on the "Add reseller" button. Fill in the required information, such as the reseller's company name and contact details. After creating the reseller profile, the reseller's status will be "Not paid", which means their profile is not yet activated and their access to the admin panel is limited.
+Click <img src=".gitbook/assets/image (70).png" alt="Add reseller" data-size="line"> to create a new reseller. Enter the required information, such as the reseller's company name and contact details. After creating the reseller profile, the reseller's status will be "Not paid", which means their profile is not yet activated and their access to the admin panel is limited.
 
-![create a reseller](./attachments/create-1024x646-1-20230811-205847.png)
+<figure><img src=".gitbook/assets/image (67).png" alt="Creating a reseller" width="216"><figcaption><p>Creating a reseller</p></figcaption></figure>
 
-![edit the reseller information](./attachments/resellerinformation-1024x543-1-20230811-205859.png)
+## Reseller status
 
-## Managing resellers
-
-Once a reseller profile is created, the partner can manage its settings by clicking on the "Edit reseller" button. The partner can change the reseller's status, which can be one of the following:
+Resellers can have the following statuses:
 
 **Not paid**
 
-The reseller profile is not activated and access to the reseller's admin panel is limited. This status is automatically assigned to newly created resellers. If a reseller has the "Not paid" status, the partner cannot create new resellers until the payment is completed. Navixy manager will change the status to "Active" after the payment is received.
+The reseller profile isn't active, and access to the reseller's Admin Panel is limited. This status is automatically assigned to newly created resellers. If a reseller has the **Not paid** status, the partner cannot create new resellers until the payment is completed. After the payment is received, Navixy will change the status to **Active**.
 
 **Active**
 
-The reseller profile is activated and the reseller has full access to their admin panel.
+The reseller profile is activated, and the reseller has full access to their Admin Panel.
 
-**Admin panel suspended**
+**Admin Panel suspended**
 
-In case of a violation of the cooperation conditions, the partner can restrict the reseller's access to their admin panel. However, the reseller's user interface is not suspended.
+In case of a violation of the cooperation conditions, the partner can restrict the reseller's access to their Admin Panel. However, the reseller's user interface is not suspended.
 
 **Service fully suspended**
 
-Both the reseller's admin panel and user interface are suspended.
+Both the reseller's Admin Panel and user interface are suspended.
 
-Additionally, channel partners can install an SMS gateway for their resellers. To set this up, please contact Navixy technical support
+In addition, channel partners can install an SMS gateway for their resellers. To set it up, contact [Navixy support](mailto:support@navixy.com).
