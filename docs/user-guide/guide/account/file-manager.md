@@ -16,7 +16,7 @@ Files are automatically stored when users upload attachments through these featu
 
 **Service works:** Files attached to [maintenance tasks](../fleet-management/maintenance.md), such as invoices, service documentation, and completion photos.
 
-**Check-ins:** Photos uploaded during [Check-in submissions from X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/check-ins.md).  When both a photo and a Form are attached during a Check-in, files directly attached to the Check-in appear in this section, while Form-related files are categorized under Forms.
+**Check-ins:** Photos uploaded during [Check-in submissions from X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/check-ins.md). When both a photo and a Form are attached during a Check-in, files directly attached to the Check-in appear in this section, while Form-related files are categorized under Forms.
 
 {% hint style="info" %}
 Not all feature usage requires file uploads. For example, you can create a service work without attaching any files. In that case, no files will be added to File Manager.
@@ -54,4 +54,4 @@ A storage usage diagram in the lower-left corner of the screen displays current 
 
 **Automatic deletion:** Enable this option to automatically delete files when the storage limit is reached. This option deletes the oldest files first to maintain storage within limits while preserving the most recent uploads. Configure this setting in [Account settings → Profile](profile.md).
 
-![](../../.gitbook/assets/image-20241111-225720.png)
+![](<../../.gitbook/assets/image-20241111-225720 (1).png>)

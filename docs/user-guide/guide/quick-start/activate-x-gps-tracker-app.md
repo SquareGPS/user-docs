@@ -33,8 +33,6 @@ Invite an employee to install the X-GPS Tracker App first. You can do that from 
 
 {% columns %}
 {% column %}
-
-
 The new device will appear in Navixy with **Just registered** status waiting for the employee to complete the activation.
 
 The employee will receive an invitation via text (SMS) or email depending on setup. The invitation includes:
@@ -44,26 +42,26 @@ The employee will receive an invitation via text (SMS) or email depending on set
 {% endcolumn %}
 
 {% column %}
-![](../../.gitbook/assets/image-20240717-190626.png)
+![](<../../.gitbook/assets/image-20240717-190626 (3).png>)
 {% endcolumn %}
 {% endcolumns %}
 
 ## Step 2: Accept the invitation and configure the app
 
-After the invitation is sent, employees should proceed on their end by downloading the app and configure it.&#x20;
+After the invitation is sent, employees should proceed on their end by downloading the app and configure it.
 
 {% stepper %}
 {% step %}
-#### Download and install the app
+**Download and install the app**
 
-Download and install the app on their  mobile device from the related store:&#x20;
+Download and install the app on their mobile device from the related store:
 
-* [App Store (iOS)](https://apps.apple.com/app/x-gps-tracker/id1612047534)&#x20;
+* [App Store (iOS)](https://apps.apple.com/app/x-gps-tracker/id1612047534)
 * [Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.navixy.xgps.tracker)
 {% endstep %}
 
 {% step %}
-#### Configure the app
+**Configure the app**
 
 Upon launching the app, the employee will need to enter the 12-digit identifier from the invitation to complete the setup. After that, just a few more steps to finish the configuration are needed:
 

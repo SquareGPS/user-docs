@@ -10,7 +10,7 @@ Users can generate event reports that summarize the occurrences of specific stat
 
 ## Settings
 
-![](../../../.gitbook/assets/image-20230707-073455.png)
+![](<../../../.gitbook/assets/image-20230707-073455 (1).png>)
 
 For a quick setup of the state change notification:
 
@@ -78,15 +78,15 @@ By selecting the appropriate virtual sensor and specifying the desired event fro
 
 {% columns %}
 {% column %}
-![](../../../.gitbook/assets/image-20230726-125407.png)
+![](<../../../.gitbook/assets/image-20230726-125407 (1).png>)
 {% endcolumn %}
 
 {% column %}
-![](../../../.gitbook/assets/image-20230726-125535.png)
+![](<../../../.gitbook/assets/image-20230726-125535 (1).png>)
 {% endcolumn %}
 {% endcolumns %}
 
-![](../../../.gitbook/assets/image-20230726-125722.png)
+![](<../../../.gitbook/assets/image-20230726-125722 (1).png>)
 
 ### Notifications
 

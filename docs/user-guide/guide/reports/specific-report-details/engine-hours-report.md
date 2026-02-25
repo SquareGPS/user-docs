@@ -39,7 +39,7 @@ The Engine Hours report includes several configurable parameters that allow you 
 
 ## Visualizations
 
-![Overall engine activity diagram](../../../.gitbook/assets/image-20240815-010415.png)
+![Overall engine activity diagram](<../../../.gitbook/assets/image-20240815-010415 (3).png>)
 
 ### Overall activity diagram
 

@@ -2,7 +2,7 @@
 
 When setting up a new **User application**, you'll work with several key configurations that determine how your external application integrates with the platform. Let's explore each essential component.
 
-Start by clicking the <img src="../../../.gitbook/assets/chrome_py0qhiu5p8 (1).webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list. In the appeared configuration form, proceed with the following steps:
+Start by clicking the <img src="../../../.gitbook/assets/chrome_py0qhiu5p8 (1) (1).webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list. In the appeared configuration form, proceed with the following steps:
 
 {% stepper %}
 {% step %}
@@ -46,10 +46,10 @@ You can edit the suggested parameter name or specify a certain value for it.
 
 </details>
 
-![Application URL example with parameters](../../../.gitbook/assets/URL_with_Params.png)
+![Application URL example with parameters](<../../../.gitbook/assets/URL_with_Params (1).png>)
 
 {% hint style="info" %}
-Test your configuration to make sure the application loads correctly. Click <img src="../../../.gitbook/assets/image-20241217-083119.png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
+Test your configuration to make sure the application loads correctly. Click <img src="../../../.gitbook/assets/image-20241217-083119 (3).png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
 {% endhint %}
 {% endstep %}
 

@@ -26,7 +26,7 @@ Now, let’s break down the flow configuration process step by step.
 
 {% stepper %}
 {% step %}
-### Step 1: Access IoT Logic workspace
+#### Step 1: Access IoT Logic workspace
 
 1. Log into your Navixy account
 2. Click your profile icon in the top-left corner of the screen to access **Account settings**
@@ -42,7 +42,7 @@ For details on the workspace, see [Workspace and default flow](workspace-and-def
 {% endstep %}
 
 {% step %}
-### Step 2: Create a new flow
+#### Step 2: Create a new flow
 
 1. Click the **New flow** button in the flow settings bar
 2. In the **New flow** dialog:
@@ -61,7 +61,7 @@ Disabled flows don't process any data. When a flow is disabled, devices in that 
 {% endstep %}
 
 {% step %}
-### Step 3: Configure a Data Source node
+#### Step 3: Configure a Data Source node
 
 1. From the **Nodes** pane, drag a **Data Source** node onto the canvas
 2. Hover your mouse over the node to display quick actions, or double-click the node to open its configuration panel
@@ -76,7 +76,7 @@ For details on the node configuration, see [Data Source node](flow-management/da
 {% endstep %}
 
 {% step %}
-### Step 4: Add data enrichment (Optional)
+#### Step 4: Add data enrichment (Optional)
 
 1. Drag an **Initiate Attribute** node onto the canvas
 2. Hover your mouse over the node to display quick actions, or double-click the node to open its configuration panel
@@ -100,7 +100,7 @@ For sample calculation formulas, see [Calculation examples](flow-management/init
 {% endstep %}
 
 {% step %}
-### Step 5: Configure data output
+#### Step 5: Configure data output
 
 1. Drag an **Output Endpoint** node onto the canvas
 2. Hover your mouse over the node to display quick actions, or double-click the node to open its configuration panel
@@ -130,7 +130,7 @@ For details on node configuration, see [Output Endpoint node](flow-management/ou
 {% endstep %}
 
 {% step %}
-### Step 6: Save and activate your flow
+#### Step 6: Save and activate your flow
 
 1. Verify all nodes are properly connected in your flow
 2. Click the **Save flow** button in the **Nodes** pane

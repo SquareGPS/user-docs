@@ -33,7 +33,7 @@ Navigate to the **Devices and settings** section and select the required device 
 
 Click **Replace device** on the device information pane.
 
-<figure><img src="../../../.gitbook/assets/image-20241213-115932.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-20241213-115932 (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

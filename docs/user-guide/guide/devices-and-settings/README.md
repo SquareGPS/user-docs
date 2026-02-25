@@ -4,7 +4,7 @@ The **Devices and settings** section in Navixy is a comprehensive interface that
 
 {% include "../../.gitbook/includes/device-limit-hint.md" %}
 
-![](../../.gitbook/assets/image-20240814-225942.png)
+![](<../../.gitbook/assets/image-20240814-225942 (3).png>)
 
 ### Key features and configuration options
 

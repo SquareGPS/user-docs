@@ -2,7 +2,7 @@
 
 The **Staff** section in the **Field service** application is specifically designed to manage and organize information about your field staff effectively. This tool ensures that you have everything you need to coordinate your mobile workforce efficiently.
 
-![](../../.gitbook/assets/image-20240816-171918.png)
+![](<../../.gitbook/assets/image-20240816-171918 (3).png>)
 
 To access the Staff section, log in to the Navixy platform and select "Field service" from the main menu. From there, click on the "Staff" tab. This section provides an overview of all employees in your organization, displaying their essential information in a list format.
 

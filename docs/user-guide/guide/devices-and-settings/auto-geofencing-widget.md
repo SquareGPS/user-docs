@@ -13,7 +13,7 @@ The **Devices and settings** module has a dedicated panel for configuring the au
 
 These settings allow for precise control over when and where the auto-geofencing feature activates, ensuring vehicles remain secure even when unattended.
 
-![](../../.gitbook/assets/image-20241118-024806.png)
+![](<../../.gitbook/assets/image-20241118-024806 (1).png>)
 
 ## See also
 

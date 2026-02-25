@@ -8,19 +8,19 @@ Here's how to create a new attribute in the Initiate attribute node:
 
 {% stepper %}
 {% step %}
-#### Add new attribute
+**Add new attribute**
 
 Click the **Add attribute** button
 {% endstep %}
 
 {% step %}
-#### Name the attribute
+**Name the attribute**
 
-Enter a name for your attribute (e.g., "Speed mph"). This name will be displayed in [Data Stream Analyzer](../../data-stream-analyzer.md) and act as a [custom sensor name in Navixy](displaying-new-calculated-attributes-on-the-navixy-platform.md).&#x20;
+Enter a name for your attribute (e.g., "Speed mph"). This name will be displayed in [Data Stream Analyzer](../../data-stream-analyzer.md) and act as a [custom sensor name in Navixy](displaying-new-calculated-attributes-on-the-navixy-platform.md).
 {% endstep %}
 
 {% step %}
-#### Define formula
+**Define formula**
 
 Define the value expression. For faster formula building, use [autofill](managing-attributes.md#autofill-attribute-names).
 
@@ -30,7 +30,7 @@ Short syntax is default for autofilled attribute names in formulas, and you can 
 {% endstep %}
 
 {% step %}
-#### Finalize configuration
+**Finalize configuration**
 
 Click **Save** to confirm the node configuration
 {% endstep %}
@@ -60,11 +60,11 @@ When creating calculation formulas, you need to reference existing attribute nam
 
 To use autofill when building formulas:
 
-1. Click ![image-20250605-130755.png](../../../../../.gitbook/assets/image-20250605-130755.png) in the **Formula** field.
+1. Click ![image-20250605-130755.png](<../../../../../.gitbook/assets/image-20250605-130755 (1).png>) in the **Formula** field.
 2. Select the desired attribute from the appeared list, it supports manual text input for search purposes.
 3. Click on the attribute name to insert it into your formula.
 
-The selected attribute is automatically inserted in the ready-to-use format, using the [short syntax](managing-attributes.md#short-syntax) of Navixy IoT Logic Expression Language. It means that autofilled entries access any latest value of the selected attribute.&#x20;
+The selected attribute is automatically inserted in the ready-to-use format, using the [short syntax](managing-attributes.md#short-syntax) of Navixy IoT Logic Expression Language. It means that autofilled entries access any latest value of the selected attribute.
 
 You can modify the parameters as needed - change the index number for historical values or adjust the validity flag. To do it, you need to define the formula using the [full synax](managing-attributes.md#full-syntax) explicitly, inside the `vaue()` function.
 
@@ -88,7 +88,7 @@ For example, if you need to work with voltage readings from the third analog inp
 
 Autofill handles this scenario for you as well:
 
-* Indexed attributes are marked with ![image-20250606-123725.png](../../../../../.gitbook/assets/image-20250606-123725.png) icon in the autofill list.
+* Indexed attributes are marked with ![image-20250606-123725.png](<../../../../../.gitbook/assets/image-20250606-123725 (1).png>) icon in the autofill list.
 * These entries display the available index range in square brackets, such as `analog_[1..4]` for attributes supporting five indexed values (indexes 1 through 4).
 * When you select an indexed attribute, the cursor automatically positions at the end of the attribute name within the quotes, allowing you to immediately type the specific index number you need.
 

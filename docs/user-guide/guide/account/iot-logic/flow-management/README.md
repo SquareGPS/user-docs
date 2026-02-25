@@ -146,7 +146,7 @@ To assemble your data processing sequence:
 2. Click on each node to open its configuration panel and set up the required parameters.
 3. Connect nodes by clicking on a node's output connector and dragging it to the input connector of the destination node.
 
-<figure><img src="../../../../.gitbook/assets/image-20250403-161201.png" alt="Flow workspace showing connected nodes with visible connectors between them"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-161201 (3).png" alt="Flow workspace showing connected nodes with visible connectors between them"><figcaption></figcaption></figure>
 
 Your flow must begin with at least one **Data Source** node and end with one or more **Output Endpoint** nodes. Between these, you can add transformation nodes to manipulate the data according to your requirements.
 
@@ -164,7 +164,7 @@ After creating a flow, you can modify its configuration as your requirements evo
 
 To change the flow name, description, or enabled status:
 
-1. Click ![image-20250403-161404.png](../../../../.gitbook/assets/image-20250403-161404.png) next to the flow name
+1. Click ![image-20250403-161404.png](<../../../../.gitbook/assets/image-20250403-161404 (3).png>) next to the flow name
 2. Update the desired fields
 3. Save your changes
 
@@ -181,7 +181,7 @@ When you need to restructure your flow, you can remove nodes or connections:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-161554.png" alt="Node with delete icon"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-161554 (3).png" alt="Node with delete icon"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -198,7 +198,7 @@ When you delete a node, all of its connections will also be removed.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-161949.png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-161949 (3).png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
