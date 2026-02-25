@@ -2,7 +2,7 @@
 
 The **Odometer widget** allows you to monitor a vehicle’s mileage in real-time. The mileage readings can be derived from data received via a GPS device or the CAN bus. Additionally, the odometer function integrates with the [Fleet maintenance](../../fleet-management/maintenance.md) feature, enabling you to schedule service works for a vehicle and receive timely reminders.
 
-![](attachments/image-20240815-181307.png)
+![](../../../.gitbook/assets/image-20240815-181307.png)
 
 ## Odometer activation
 

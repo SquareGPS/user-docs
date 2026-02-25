@@ -4,7 +4,7 @@
 
 {% columns %}
 {% column width="58.333333333333336%" %}
-**Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.&#x20;
+**Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
@@ -44,9 +44,9 @@ This targeting mechanism ensures that actions execute only for relevant devices.
 
 ## Configuration options
 
-Setting up an **Action** node determines what automated responses will be executed when the node receives triggers from upstream processing nodes.
+Configuring a **Device action** node determines what commands execute and, optionally, which additional devices receive those same commands.
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action-node-edit.png" alt="" width="375"><figcaption></figcaption></figure>
 
 The configuration dialog is organized into two tabs:
 
@@ -59,7 +59,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### Specify Node name
+**Specify Node name**
 
 Enter a descriptive name that identifies the automated actions this node will perform
 
@@ -68,7 +68,7 @@ Enter a descriptive name that identifies the automated actions this node will pe
 {% endstep %}
 
 {% step %}
-#### Select Action type
+**Select Action type**
 
 Choose the type of automated response from the dropdown menu
 
@@ -77,7 +77,7 @@ Choose the type of automated response from the dropdown menu
 {% endstep %}
 
 {% step %}
-#### Configure action parameters
+**Configure action parameters**
 
 Set up the specific details based on your selected action type:
 
@@ -85,7 +85,7 @@ Set up the specific details based on your selected action type:
 
 <summary>Switch Output configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action-node-switch-output.png" alt="" width="268"><figcaption></figcaption></figure>
 
 When configuring Switch Output actions:
 
@@ -101,7 +101,7 @@ When configuring Switch Output actions:
 
 <summary>Send GPRS Command configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action-node-GPRS.png" alt="" width="266"><figcaption></figcaption></figure>
 
 When configuring GPRS Command actions:
 
@@ -118,26 +118,28 @@ Action execution depends on individual device capabilities. Ensure your devices 
 {% endstep %}
 
 {% step %}
-#### Add additional actions (optional)
+**Add additional actions (optional)**
 
-Click **ADD ACTION** to create multiple actions within the same node
+Click **Add action** to create multiple actions within the same node.
 
-* Actions execute sequentially in the order they appear in the configuration
+{% hint style="info" %}
+* Action commands are sent upon receiving a pata package from the device according to the flow configuration
+* Commands execute sequentially in the order they appear in the configuration
 * Each action can be a different type (Switch Output or GPRS Command)
 * Use the bin icon to remove unnecessary actions
+{% endhint %}
 {% endstep %}
 
 {% step %}
-#### Configure recipient mappings (optional)
+**Configure recipient mappings (optional)**
 
 Open the **Advanced** tab to define which additional devices receive the same commands when the node is triggered.
 
 <figure><img src="../../../../.gitbook/assets/action-node-advanced-tab.png" alt=""><figcaption></figcaption></figure>
 
-* Use the **Source device** dropdown to select the device whose incoming data triggers the node. This must be a device present in the flow's **Data Source node**.
-* Use the **Target devices** dropdown to select one or more devices that will receive the same commands.
-* Click **+ Custom mapping** to add additional source-to-target pairs if different source devices should propagate commands to different sets of target devices.
-* Click **Delete** next to any mapping row to remove it.
+1. Use the **Source device** dropdown to select the device whose incoming data triggers the node. This must be a device present in the flow's **Data Source node**.
+2. Use the **Target devices** dropdown to select one or more devices that will receive the same commands.
+3. Click **+ Custom mapping** to add additional source-to-target pairs if different source devices should propagate commands to different sets of target devices.
 
 {% hint style="info" %}
 The Advanced tab is optional. Without it, the node behaves exactly as before — commands execute only for the triggering device.
@@ -145,7 +147,7 @@ The Advanced tab is optional. Without it, the node behaves exactly as before —
 {% endstep %}
 
 {% step %}
-#### Save configuration
+**Save configuration**
 
 Click **APPLY** to save your node configuration
 

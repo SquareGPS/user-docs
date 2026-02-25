@@ -1,4 +1,4 @@
-# X-GPS Mobile quick start
+# Quick start
 
 Follow these steps to learn how to work with X-GPS Mobile.
 
@@ -41,13 +41,9 @@ Allow the app to send you notifications and access the device’s location while
 {% endcolumn %}
 
 {% column %}
-<figure><img src="attachments/allow.jpg" alt="Permission prompt"><figcaption><p>Permission prompt</p></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/allow.jpg" alt="Permission prompt"><figcaption><p>Permission prompt</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 ### Step 4. Open the main screen
 
@@ -59,7 +55,7 @@ You can filter them by category or status (moving, parked, etc.) and sort them b
 
 To sort or filter the list of assets and access the monitoring tools, tap the icons in the top-right corner:
 
-&#x20;![](<../../../.gitbook/assets/Untitled (2).png>) Allows you to enter a search query
+![](<../../../.gitbook/assets/Untitled (2).png>) Allows you to enter a search query
 
 ![](<../../../.gitbook/assets/Untitled (3).png>) Opens the [event log ](https://squaregps.atlassian.net/wiki/spaces/~7120201a6252f8d34242e3bdb7409b5d34d953/pages/3182821465/new+Assets+list#events-list)for all units
 
@@ -71,13 +67,9 @@ Use the bottom panel to switch between the main screen and your profile.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="attachments/Screenshot_20250528_104252-20250528-090654.png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/Screenshot_20250528_104252-20250528-090654.png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 ### Step 5. Start working
 
@@ -90,4 +82,3 @@ Tap on an asset to view its location, status, trip and event history, sensors, r
 <figure><img src="../../../.gitbook/assets/Untitled (6).png" alt="Vehicle asset" width="375"><figcaption><p>Vehicle asset</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-

@@ -2,7 +2,7 @@
 
 Navixy offers a powerful reporting feature that allows you to generate detailed reports on various aspects of your fleet's operations. This guide will walk you through the steps of creating, scheduling, and managing reports using the Navixy platform, ensuring you can easily access and analyze the data you need.
 
-![](../attachments/image-20240814-234904.png)
+![](../../.gitbook/assets/image-20240814-234904.png)
 
 ## Accessing the reports section
 

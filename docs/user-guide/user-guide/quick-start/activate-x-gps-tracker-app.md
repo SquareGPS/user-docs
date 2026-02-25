@@ -35,7 +35,7 @@ The employee will receive an invitation via text (SMS) or email depending on set
 * A 12-digit personal identifier
 * A link to download the X-GPS Tracker app
 
-![](attachments/image-20240717-190626.png)
+![](../../.gitbook/assets/image-20240717-190626.png)
 
 ### Download and install the app
 

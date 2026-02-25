@@ -4,7 +4,7 @@ The **Fuel Volume Report** in Navixy offers comprehensive insights into fuel usa
 
 This report is essential for fleet managers aiming to monitor fuel efficiency, detect potential fuel theft, and manage fuel costs effectively. Below is a detailed guide on how this report works, the parameters involved, and how to interpret the data.
 
-![Fuel volume report example](attachments/image-20240815-003825.png)
+![Fuel volume report example](../../../.gitbook/assets/image-20240815-003825.png)
 
 ## Overview
 

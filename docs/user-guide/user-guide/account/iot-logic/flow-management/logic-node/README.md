@@ -8,7 +8,7 @@ The **Logic** node creates intelligent branching points that route incoming data
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src="../attachments/Logic_node.webp" alt="Logic node in the flow workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Logic_node.webp" alt="Logic node in the flow workspace"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -17,7 +17,7 @@ The **Logic** nodes are configured separately for each flow in the Navixy platfo
 For specific syntax options related to logical expressions, see [Logic node expressions and syntax](logic-node-expressions-and-syntax.md).
 {% endhint %}
 
-<figure><img src="../attachments/Logic-node-in-flow.webp" alt="Logic node in flow context with other nodes showing connections"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Logic-node-in-flow.webp" alt="Logic node in flow context with other nodes showing connections"><figcaption></figcaption></figure>
 
 ### How Logic nodes work
 
@@ -58,7 +58,7 @@ The **Logic** node offers:
 
 The **Logic** node allows you to define conditional expressions that evaluate incoming data and create branching paths in your flow based on the results.
 
-<figure><img src="../attachments/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-090630 (1).png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
 
 Let's see what elements this node uses and what you can configure when working with it.
 
@@ -129,7 +129,7 @@ The Logic node creates two distinct output paths based on the expression evaluat
 * **Error handling**: Processes cases where expressions cannot be evaluated due to missing data or syntax errors.
 * **Typical uses**: Logging failed validations, routing data through alternative processing paths, or continuing normal operations.
 
-<figure><img src="../attachments/image-20250721-091115.png" alt="Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091115.png" alt="Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
 
 ## Frequently asked questions
 
@@ -153,4 +153,4 @@ Logic node results appear as boolean attributes in the [Data Stream Analyzer](..
 
 Yes. You can connect **Logic** nodes sequentially to create complex decision trees. Each **Logic** node can reference the boolean attributes created by previous **Logic** nodes, enabling sophisticated multi-stage validation workflows.
 
-<figure><img src="../attachments/image-20250721-091554.png" alt="Example flow showing multiple Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091554.png" alt="Example flow showing multiple Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>

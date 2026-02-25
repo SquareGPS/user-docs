@@ -8,7 +8,7 @@ The **Sensors and buttons** widget is located in the **Devices and settings** mo
 
 The widget provides an overview of the number of sensors already connected to the selected device. Expanding the panel lets you add new sensors or edit existing ones.
 
-![](../attachments/image-20240815-205217.png)
+![](../../../.gitbook/assets/image-20240815-205217.png)
 
 The number and type of sensors you can connect depend on the GPS device model. For example, certain devices allow you to configure data parameters transmitted via the CAN bus or OBDII diagnostic connector.
 
