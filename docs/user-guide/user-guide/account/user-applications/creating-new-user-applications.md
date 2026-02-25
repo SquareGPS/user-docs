@@ -2,11 +2,11 @@
 
 When setting up a new **User application**, you'll work with several key configurations that determine how your external application integrates with the platform. Let's explore each essential component.
 
-Start by clicking the <img src="../../../.gitbook/assets/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list. In the appeared configuration form, proceed with the following steps:
+Start by clicking the <img src="attachments/chrome_py0qhiu5p8.webp" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list. In the appeared configuration form, proceed with the following steps:
 
 {% stepper %}
 {% step %}
-**Set up the URL**
+#### Set up the URL
 
 Specify your application URL - the address where your application is hosted, it serves as the foundation for the integration.
 
@@ -17,7 +17,7 @@ Specify your application URL - the address where your application is hosted, it 
 {% endstep %}
 
 {% step %}
-**Configure basic Parameters**
+#### Configure basic Parameters
 
 To personalize your application, you can include various parameters in the URL. You can manually add parameters in the URL field or use one of our suggestions: language, user ID, or time zone. Click on a parameter suggestion to add it to the end of the URL. Expand the description below to learn more about the suggested parameters and examples.
 
@@ -46,15 +46,15 @@ You can edit the suggested parameter name or specify a certain value for it.
 
 </details>
 
-![Application URL example with parameters](../../../.gitbook/assets/URL_with_Params.png)
+![Application URL example with parameters](attachments/URL_with_Params.png)
 
 {% hint style="info" %}
-Test your configuration to make sure the application loads correctly. Click <img src="../../../.gitbook/assets/image-20241217-083119.png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
+Test your configuration to make sure the application loads correctly. Click <img src="attachments/image-20241217-083119.png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-**Adjust appearance**
+#### Adjust appearance
 
 Create a recognizable identity for your application to make it easy to access. The following settings will help you to do so:
 
@@ -64,7 +64,7 @@ Create a recognizable identity for your application to make it easy to access. T
 {% endstep %}
 
 {% step %}
-**Select display method**
+#### Select display method
 
 Decide how your application will open by choosing one of the two options in the **Open in** dropdown:
 
@@ -77,7 +77,7 @@ Our platform uses iFrame for embedding. Since not all URLs can be successfully p
 {% endstep %}
 
 {% step %}
-**Set up authentication (optional)**
+#### Set up authentication (optional)
 
 Configure authentication if your application relies on the platform’s API. In this case, the platform will provide the authentication data directly to the application when it is opened, eliminating the need to implement additional login functionality on your application side.\
 You can choose one of the two authentication methods:
@@ -103,7 +103,7 @@ Make sure the application is capable of reading and using this parameter.
 {% endstep %}
 
 {% step %}
-**Save the new application**
+#### Save the new application
 
 Click the **Save** button. Your application will appear in the **User applications** list and the platform sidebar. Enabled applications automatically become available to the account users.
 {% endstep %}

@@ -8,13 +8,13 @@ In IoT Logic, **Initiate Attribute** node transforms device readings by creating
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-![](../../../../../.gitbook/assets/image-20250404-083140.png)
+![](../attachments/image-20250404-083140.png)
 {% endcolumn %}
 {% endcolumns %}
 
 **Initiate Attribute** node is configured for each flow in the Navixy platform UI. For specific syntax options and detailed expression language reference, see [Navixy Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) in the user documentation.
 
-<figure><img src="../../../../../.gitbook/assets/Initiate-attribute-in-flow.webp" alt="Initiate attribute node in the flow workspace showing the node connected to other nodes in the flow"><figcaption></figcaption></figure>
+<figure><img src="../attachments/Initiate-attribute-in-flow.webp" alt="Initiate attribute node in the flow workspace showing the node connected to other nodes in the flow"><figcaption></figcaption></figure>
 
 ### Flow architecture integration
 
@@ -43,7 +43,7 @@ The **Initiate Attribute** node by itself offers:
 
 **Initiate Attribute** node allows you to define how device parameters are transformed into attributes, which will be available for further processing in your data flow.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250606-091235.png" alt="Initiate attribute node configuration panel showing the list of attributes and the Add New Attribute button"><figcaption></figcaption></figure>
+<figure><img src="../attachments/image-20250606-091235.png" alt="Initiate attribute node configuration panel showing the list of attributes and the Add New Attribute button"><figcaption></figcaption></figure>
 
 Let's see what elements this node uses and what you can configure when working with it:
 
@@ -68,7 +68,7 @@ if you need to manipulate event timestamps, it enables two more options:
 {% step %}
 Define **Attribute name**
 
-Add a distinctive identifier of the attribute.
+Add a distinctive identifier of the attribute.&#x20;
 
 * This name will be displayed in [Data Stream Analyzer](../../data-stream-analyzer.md),
 * You can also use this name to create custom sensors in the [Tracking](../../../../tracking/) module. To do it, the **Initiate Attribute** node containing this attribute must be connected to the **Default Output Endpoint** node.
@@ -80,7 +80,7 @@ Define **Formula**
 Add mathematical expressions to calculate attribute values.
 
 * Use `value('parameter_name' 0, 'valid')` format to reference existing device parameters.\
-  **Note**. Click ![image-20250605-115154.png](../../../../../.gitbook/assets/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).
+  **Note**. Click ![image-20250605-115154.png](../attachments/image-20250605-115154.png) inside the **Formula** field to open the list of available attributes and select the needed one. It will be added to the field automatically in the ready-to-use format. For details on autofilling attribute names, see [Autofill attribute names](managing-attributes.md#autofill-attribute-names).
 * Apply mathematical operations based on [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) to transform values.
 * Use different depth index values to access historical values (the default is 0).
 {% endstep %}
@@ -94,7 +94,7 @@ Open a new attribute configuration dialog. Here you can create a new data attrib
 
 Let's look at a practical example of configuring attributes:
 
-<figure><img src="../../../../../.gitbook/assets/image-20250606-090926.png" alt="Iniatiate attribute node configuration window with node name Speed conversions, Attribute name KMPH to MPH and formula"><figcaption></figcaption></figure>
+<figure><img src="../attachments/image-20250606-090926.png" alt="Iniatiate attribute node configuration window with node name Speed conversions, Attribute name KMPH to MPH and formula"><figcaption></figcaption></figure>
 
 In this example, we're creating an attribute that converts speed from kilometers to miles per hour by dividing the CAN speed parameter by 1.609.
 
@@ -141,7 +141,7 @@ The attribute will no longer be calculated for newly received data, but historic
 
 Yes. Attributes created earlier in the flow can be referenced in subsequent **Initiate Attribute** nodes, allowing for multi-stage calculations. All created attributes are also available using the [autofill feature](managing-attributes.md#autofill-attribute-names) to ensure correct naming.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250404-084039.png" alt="Example of a complete flow with two Initiate attribute nodes consecutively"><figcaption></figcaption></figure>
+<figure><img src="../attachments/image-20250404-084039.png" alt="Example of a complete flow with two Initiate attribute nodes consecutively"><figcaption></figcaption></figure>
 
 #### **How do I avoid typos when referencing attribute names in formulas?**
 

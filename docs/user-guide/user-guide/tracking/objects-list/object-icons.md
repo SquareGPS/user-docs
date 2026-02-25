@@ -10,7 +10,7 @@ Depending on the current state of the object (moving, stopped, parked), its icon
 
 Below are the different icons and their meanings:
 
-<table><thead><tr><th width="102.18182373046875">Icon</th><th>Moving status and description</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image-20240718-221255.png" alt="image-20240718-221255.png"></td><td><strong>Moving</strong><br>The tracker is moving, and the trip is being recorded.</td></tr><tr><td><img src="../../../.gitbook/assets/image-20240718-221249.png" alt="image-20240718-221249.png"></td><td><strong>Stopped (not parked yet)</strong><br>The object has stopped moving, its speed is zero, but the trip is not yet complete.</td></tr><tr><td><img src="../../../.gitbook/assets/image-20240718-221243.png" alt="image-20240718-221243.png"></td><td><strong>Parked</strong><br>The trip is over, and the object is parked.</td></tr><tr><td><img src="../../../.gitbook/assets/image-20240718-221219.png" alt="image-20240718-221219.png"></td><td><strong>Approximate location ( no GPS signals</strong>, <strong>using LBS)</strong><br>No GPS signal. The location is determined by cellular base stations and/or Wi-Fi access points. Route, parking, and stops aren’t recorded in this status due to low coordinate accuracy.</td></tr></tbody></table>
+<table><thead><tr><th width="102.18182373046875">Icon</th><th>Moving status and description</th></tr></thead><tbody><tr><td><img src="../../gps-tracking/objects-list/attachments/image-20240718-221255.png" alt="image-20240718-221255.png"></td><td><strong>Moving</strong><br>The tracker is moving, and the trip is being recorded.</td></tr><tr><td><img src="../../gps-tracking/objects-list/attachments/image-20240718-221249.png" alt="image-20240718-221249.png"></td><td><strong>Stopped (not parked yet)</strong><br>The object has stopped moving, its speed is zero, but the trip is not yet complete.</td></tr><tr><td><img src="../../gps-tracking/objects-list/attachments/image-20240718-221243.png" alt="image-20240718-221243.png"></td><td><strong>Parked</strong><br>The trip is over, and the object is parked.</td></tr><tr><td><img src="../../gps-tracking/objects-list/attachments/image-20240718-221219.png" alt="image-20240718-221219.png"></td><td><strong>Approximate location ( no GPS signals</strong>, <strong>using LBS)</strong><br>No GPS signal. The location is determined by cellular base stations and/or Wi-Fi access points. Route, parking, and stops aren’t recorded in this status due to low coordinate accuracy.</td></tr></tbody></table>
 
 ## Curated icons
 
@@ -18,17 +18,17 @@ Your choice of icon can improve visual identification, allowing for quick differ
 
 To change the icon of an object in the Navixy platform, follow these steps:
 
-![Change icon option](../../../.gitbook/assets/Change_icon.png)
+![Change icon option](../../gps-tracking/objects-list/attachments/Change_icon.png)
 
 1. Go to the **Tracking** module from the main menu.
 2. In the **Objects list**, select the object whose icon you want to change.
-3. Click <img src="../../../.gitbook/assets/Untitled-20250407-124610.png" alt="Untitled-20250407-124610.png" data-size="line"> to open the menu.
+3. Click <img src="../../gps-tracking/objects-list/attachments/Untitled-20250407-124610.png" alt="Untitled-20250407-124610.png" data-size="line"> to open the menu.
 4. Select **Change icon** to open the icon selection window.
-5.  Choose a new icon from the available options:
+5.  Choose a new icon from the available options:&#x20;
 
-    <div align="left"><img src="../../../.gitbook/assets/image-20240718-222003.png" alt="" width="177"></div>
+    <div align="left"><img src="../../gps-tracking/objects-list/attachments/image-20240718-222003.png" alt="" width="177"></div>
 6. Confirm your selection to apply the new icon to the object.
 
 If you choose to use one of our curated icons, the object’s state will be displayed next to the object’s label.
 
-![](../../../.gitbook/assets/image-20240718-221420.png)
+![](../../gps-tracking/objects-list/attachments/image-20240718-221420.png)

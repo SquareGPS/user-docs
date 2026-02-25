@@ -4,7 +4,7 @@ The X-GPS Monitor mobile application provides a wide range of tools for working 
 
 ## Object list
 
-Click the <img src="../../../.gitbook/assets/image-20250304-153340.png" alt="image-20250304-153340.png" data-size="line"> icon in the upper left corner of the screen to display the side menu.\
+Click the <img src="attachments/image-20250304-153340.png" alt="image-20250304-153340.png" data-size="line"> icon in the upper left corner of the screen to display the side menu.\
 The following items are available in the menu:
 
 {% columns %}
@@ -19,7 +19,9 @@ The following items are available in the menu:
 {% endcolumn %}
 
 {% column %}
-![](../../../.gitbook/assets/image-20250304-152237.png)
+![](attachments/image-20250304-152237.png)
+
+
 {% endcolumn %}
 {% endcolumns %}
 
@@ -36,13 +38,15 @@ If you click on the object in the list, the application will show you its locati
 {% endcolumn %}
 
 {% column %}
-![](../../../.gitbook/assets/image-20250304-152338.png)
+![](attachments/image-20250304-152338.png)
+
+
 {% endcolumn %}
 {% endcolumns %}
 
 ## Object status
 
-By clicking on the <img src="../../../.gitbook/assets/image-20250304-153652.png" alt="image-20250304-153652.png" data-size="line"> icon, you will get complete information about the current status of the device and its settings:
+By clicking on the <img src="attachments/image-20250304-153652.png" alt="image-20250304-153652.png" data-size="line"> icon, you will get complete information about the current status of the device and its settings:
 
 {% columns %}
 {% column %}
@@ -60,6 +64,8 @@ And other information specific to certain tracker models.
 {% endcolumn %}
 
 {% column %}
-![](../../../.gitbook/assets/image-20250304-152800.png)
+![](attachments/image-20250304-152800.png)
+
+
 {% endcolumn %}
 {% endcolumns %}

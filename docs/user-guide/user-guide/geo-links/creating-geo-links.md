@@ -2,21 +2,21 @@
 
 To create a geo link, simply click **+** at the top of the page.
 
-![New Geo link button](../../.gitbook/assets/image-20250725-133847.png)
+![New Geo link button](attachments/image-20250725-133847.png)
 
 The creation dialogue window contains the following options:
 
-![Creating a Geo link dialog](../../.gitbook/assets/image-20250725-120004.png)
+![Creating a Geo link dialog](attachments/image-20250725-120004.png)
 
 {% stepper %}
 {% step %}
-**Description (optional)**
+#### Description (optional)
 
 An information field that stores additional custom information about the link. The maximum length is 100 characters.
 {% endstep %}
 
 {% step %}
-**Select objects and data**
+#### Select objects and data
 
 The list of objects available through the link. Each object has the following list of options to be specified upon adding the object:
 
@@ -42,11 +42,11 @@ Sensor readings depend on the device’s model. To learn more about sensors and 
 
 Use the copy button to apply the same attribute list to all other objects in the geo link. This function may save a significant amount of time when configuring attributes for multiple objects.
 
-![Copying attributes](../../.gitbook/assets/image-20250725-123910.png)
+![Copying attributes](attachments/image-20250725-123910.png)
 {% endstep %}
 
 {% step %}
-**Map settings**
+#### Map settings
 
 **Map provider:** Select the map that you want your geo link end users to see by the generated geo link. The list of maps is specified by the platform service provider.
 
@@ -65,7 +65,7 @@ Use the copy button to apply the same attribute list to all other objects in the
 {% endstep %}
 
 {% step %}
-**Show on map**
+#### Show on map
 
 Choose which stationary entities you want to show on the geo link’s map.
 
@@ -78,7 +78,7 @@ Choose which stationary entities you want to show on the geo link’s map.
 {% endstep %}
 
 {% step %}
-**Save Geo link**
+#### Save Geo link
 
 Click **Create** to open a pop-up dialogue with the generated link. The link can be copied and provided to end users or shared via the social network buttons:
 

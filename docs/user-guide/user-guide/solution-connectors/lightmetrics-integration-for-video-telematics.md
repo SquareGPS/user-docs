@@ -6,7 +6,7 @@ By integrating Lightmetrics with Navixy, you get intelligent video analytics wit
 
 {% stepper %}
 {% step %}
-**Establishing integration**
+#### Establishing integration
 
 To establish the integration, you'll need to set up your Lightmetrics Master account and configure proper account matching between your Lightmetrics and Navixy systems.
 
@@ -38,7 +38,7 @@ After completing these steps, your Lightmetrics Master account is ready for inte
 {% endstep %}
 
 {% step %}
-**Adding devices to Navixy**
+#### Adding devices to Navixy
 
 Since Lightmetrics is device-agnostic, you can add any compatible devices to the platform following the standard device activation procedure. The only requirement is that the device should already exist in your Lightmetrics account.
 
@@ -60,13 +60,13 @@ Your device and Navixy account are ready for the integration!
 {% endstep %}
 
 {% step %}
-**Embedding Lightmetrics in Navixy UI**
+#### Embedding Lightmetrics in Navixy UI
 
 At this step, we perform the actual integration by embedding the Lightmetrics dashboard into your Navixy interface.\
 Navixy offers [User applications](../account/user-applications/) functionality that allows embedding 3rd-party apps directly in the platform's interface. We will use it to embed Lightmetrics.
 
 {% hint style="info" %}
-**Navigation**
+#### **Navigation**
 
 **User applications** section is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -75,7 +75,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% endhint %}
 
 1. Create new application\
-   Start by clicking the <img src="../../.gitbook/assets/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
+   Start by clicking the <img src="attachments/5c189486-fbcd-47f6-ae65-953cb70ff9b2" alt="chrome_py0qhiu5p8.webp" data-size="line"> button in the **User applications** list.
    1. Configure the new application
    2. Embedding is supported or separate menu elements of Lightmetrics dashboard (**Home**, **Trips**, **Live view**, etc.) Put the link to the selected view of your Lightmetrics dashboard in the **App URL** field, and customize redirect path to define which Lightmetrics page opens after login by adding a `redirect_path` parameter. For example:\
       `http://{your.lightmetrics.instance}/sso?access_token={session_key}&redirect_path=`<mark style="color:green;">**`live-view`**</mark>\
