@@ -70,7 +70,7 @@ Enter a descriptive name that identifies the automated actions this node will pe
 {% step %}
 **Select Action type**
 
-Choose the type of automated response from the dropdown menu
+In the **Standard** tab, choose the type of automated response from the dropdown menu
 
 1. **Switch Output**: Control device outputs by switching them on or off
 2. **Send GPRS Command**: Transmit custom commands directly to devices
@@ -150,8 +150,6 @@ The Advanced tab is optional. Without it, the node behaves exactly as before —
 **Save configuration**
 
 Click **APPLY** to save your node configuration
-
-* Use **RESET FORM** to clear all configured actions and start over
 {% endstep %}
 {% endstepper %}
 

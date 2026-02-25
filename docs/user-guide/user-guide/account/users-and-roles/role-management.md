@@ -1,4 +1,4 @@
-# Role Management
+# Role management
 
 A User Role in Navixy is a set of permissions and access rights assigned to a user, defining what they can view and manage within the platform. User roles are customizable and allow the Owner to control the level of access each user has to different features and data. Roles determine a user’s ability to:
 
@@ -13,7 +13,7 @@ By assigning roles, the Owner can ensure that users have the appropriate access 
 
 To add a new role, navigate to Account Settings → Users and roles and select the “Role management” tab. Click on the add role button (the button with the ‘+’ sign).
 
-![](attachments/image-20240718-043236.png)
+![](<../../../.gitbook/assets/image-20240718-043236 (1).png>)
 
 2. **Create a New Role**:
 

@@ -48,7 +48,7 @@ The Equipment Working Time report includes several configurable parameters that 
 
 * The histogram breaks down the equipment's working time into daily segments. If idle percentage is tracked, it also shows the division between motion and idle time. Hovering over each day provides a more detailed view of that day’s activity.
 
-![Daily activity histogram example with showing idle percentage](attachments/image-20240815-010538.png)
+![Daily activity histogram example with showing idle percentage](<../../../.gitbook/assets/image-20240815-010538 (1).png>)
 
 ### Daily sensor operation time table
 
@@ -63,7 +63,7 @@ This table presents daily statistics on equipment operation, including:
 * **In Motion (if idle percentage is enabled):** The duration of work in motion and its percentage of the total work time.
 * **Idle (if idle percentage is enabled):** The operation time without motion and its percentage of the total operation time.
 
-![Daily operation time on sensor with showing idle percentage](attachments/image-20240815-010619.png)
+![Daily operation time on sensor with showing idle percentage](<../../../.gitbook/assets/image-20240815-010619 (1).png>)
 
 ## Interpreting the report
 

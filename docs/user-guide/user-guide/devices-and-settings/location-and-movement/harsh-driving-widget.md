@@ -8,6 +8,6 @@ As vehicles vary in their technical characteristics, such as the ability of a se
 
 To access the **Harsh driving widget** in Navixy, navigate to the **Devices and settings** module, select the desired device, and then expand the **Harsh driving widget** to adjust the settings.
 
-![](attachments/image-20240815-214000.png)
+![](<../../../.gitbook/assets/image-20240815-214000 (1).png>)
 
 In the widget, you can adjust the threshold values for acceleration, braking, and turning. Exceeding these thresholds will trigger different event types, which can be analyzed later through event reports or eco-driving reports. This customization ensures that the system accurately reflects the driving conditions and safety requirements of your fleet.

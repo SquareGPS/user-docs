@@ -4,4 +4,4 @@ The **Tow detection feature**, available in many vehicle GPS devices, is designe
 
 In Navixy, you can configure this function by accessing the **Tow detection** **widget** in the **Devices and settings** module. This panel allows you to adjust the motion sensor sensitivity and specify the time delay before detection begins.
 
-![](attachments/image-20240815-214358.png)
+![](<../../../.gitbook/assets/image-20240815-214358 (1).png>)

@@ -4,7 +4,7 @@ Using the **Activity log**, the account owner can track the activity of all [use
 
 Navigate to **Account settings → Activity log**.
 
-![](attachments/image-20241108-172817.png)
+![](../../.gitbook/assets/image-20241108-172817.png)
 
 ## Type of actions
 

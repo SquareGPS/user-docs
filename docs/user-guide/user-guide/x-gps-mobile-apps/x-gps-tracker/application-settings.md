@@ -2,8 +2,6 @@
 
 ### Geolocation
 
-
-
 {% columns %}
 {% column %}
 **Tracking on/off.** Using this switch, you can turn tracking on or off. When it's off, the tracking stops, chat does not work, and new tasks are not loading from the server.
@@ -18,7 +16,7 @@ You can choose one of three operating modes:
 
 **Driving.** Recommended when driving a vehicle or motorcycle with the ability to connect a mobile device to external power.
 
-* Maximum location accuracy  - GPS
+* Maximum location accuracy - GPS
 * Points are recorded every 80 meters, 90 seconds, or 30-degree turn
 * High battery consumption
 
@@ -29,13 +27,9 @@ You can choose one of three operating modes:
 {% endcolumn %}
 
 {% column %}
-![](attachments/image-20250304-164009.png)
-
-
+![](../../../.gitbook/assets/image-20250304-164009.png)
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 In **Special**, tap **Advanced tracking** to access advanced settings.
 
@@ -53,15 +47,11 @@ Please note that all three conditions work according to the OR function. This me
 {% endcolumn %}
 
 {% column %}
-![](attachments/image-20250304-164438.png)
+![](../../../.gitbook/assets/image-20250304-164438.png)
 
-![](attachments/image-20250304-164401.png)
-
-
+![](../../../.gitbook/assets/image-20250304-164401.png)
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 ### Schedule
 
@@ -77,13 +67,9 @@ If tracking is enabled according to the schedule, you can turn it off at any tim
 {% endcolumn %}
 
 {% column %}
-![](attachments/image-20250304-164559.png)
-
-
+![](../../../.gitbook/assets/image-20250304-164559.png)
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 ### Advanced settings
 
@@ -114,11 +100,8 @@ If tracking is enabled according to the schedule, you can turn it off at any tim
 {% endcolumn %}
 
 {% column %}
-![](attachments/image-20250304-164817.png)
+![](../../../.gitbook/assets/image-20250304-164817.png)
 
-![](attachments/image-20250304-164909.png)
-
-
+![](../../../.gitbook/assets/image-20250304-164909.png)
 {% endcolumn %}
 {% endcolumns %}
-

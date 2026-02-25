@@ -17,7 +17,7 @@ To begin using forms in Navixy:
 
 This process allows you to create as many forms as needed, ensuring they are tailored to the tasks your employees perform.
 
-![](attachments/image-20240816-160834.png)
+![](<../../.gitbook/assets/image-20240816-160834 (1).png>)
 
 Two toggles are available when creating a form:
 
@@ -26,7 +26,7 @@ Two toggles are available when creating a form:
 
 After saving, created forms can be accessed in the form list.
 
-![List of created forms (example)](attachments/image-20240816-155915.png)
+![List of created forms (example)](<../../.gitbook/assets/image-20240816-155915 (1).png>)
 
 ### Attaching a form to a task
 
@@ -37,7 +37,7 @@ To attach a form to a task, follow these steps:
 3. Provide other task details, such as selecting the employee responsible for completing the task.
 4. Finalize the task creation by clicking "Save."
 
-![](attachments/image-20240816-161010.png)
+![](<../../.gitbook/assets/image-20240816-161010 (1).png>)
 
 The selected employee will receive the task with the attached form in the X-GPS Tracker mobile app, ensuring all necessary documentation is available during task execution.
 

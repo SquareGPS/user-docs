@@ -6,7 +6,7 @@ IoT Logic provides a flexible canvas environment where you can build custom data
 
 IoT Logic starts with an empty workspace where you can design your data processing flow.
 
-<figure><img src="../attachments/image-20250403-155742.png" alt="Create flow dialog showing name field, description field, and enabled toggle"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-155742 (1).png" alt="Create flow dialog showing name field, description field, and enabled toggle"><figcaption></figcaption></figure>
 
 Follow these simple steps to create a flow:
 
@@ -42,7 +42,7 @@ For detailed configuration options, see [Data Source node](data-source-node.md).
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../attachments/image-20250403-160159.png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-160159 (3).png" alt="Data Source node configuration panel showing manufacturer, model, and device selection options" width="375"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -58,7 +58,7 @@ This node enables data transformation through the [Navixy Expression Language](h
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../attachments/image-20250403-160516.png" alt="Initiate Attribute node configuration panel showing attribute creation interface"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-160516 (1).png" alt="Initiate Attribute node configuration panel showing attribute creation interface"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -77,7 +77,7 @@ This node creates intelligent branching points that route data based on logical 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../attachments/image-20250721-090630.png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250721-090630 (1).png" alt="Logic node configuration panel showing title, expression name, and expression fields"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -117,7 +117,7 @@ For complete details on data transmission options, see the [Output Endpoint node
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../attachments/image-20250403-160749.png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-160749 (2).png" alt="Output Endpoint node configuration panel showing connection settings and MQTT parameters"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -133,7 +133,7 @@ To assemble your data processing sequence:
 2. Click on each node to open its configuration panel and set up the required parameters.
 3. Connect nodes by clicking on a node's output connector and dragging it to the input connector of the destination node.
 
-<figure><img src="../attachments/image-20250403-161201.png" alt="Flow workspace showing connected nodes with visible connectors between them"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-161201 (1).png" alt="Flow workspace showing connected nodes with visible connectors between them"><figcaption></figcaption></figure>
 
 Your flow must begin with at least one **Data Source** node and end with one or more **Output Endpoint** nodes. Between these, you can add transformation nodes to manipulate the data according to your requirements.
 
@@ -151,7 +151,7 @@ After creating a flow, you can modify its configuration as your requirements evo
 
 To change the flow name, description, or enabled status:
 
-1. Click ![image-20250403-161404.png](../attachments/image-20250403-161404.png) next to the flow name
+1. Click ![image-20250403-161404.png](<../../../../.gitbook/assets/image-20250403-161404 (1).png>) next to the flow name
 2. Update the desired fields
 3. Save your changes
 
@@ -168,9 +168,7 @@ When you need to restructure your flow, you can remove nodes or connections:
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src="../attachments/image-20250403-161554.png" alt="Node with delete icon"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../../.gitbook/assets/image-20250403-161554 (1).png" alt="Node with delete icon"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -187,7 +185,7 @@ When you delete a node, all of its connections will also be removed.
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src="../attachments/image-20250403-161949.png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-161949 (1).png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

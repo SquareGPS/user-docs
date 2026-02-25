@@ -2,7 +2,7 @@
 
 The **Drivers** section in the Navixy platform is designed to help fleet managers efficiently manage and monitor their drivers. This section allows you to create and manage detailed driver profiles, linking them to specific objects in your fleet. By maintaining comprehensive driver records, you can streamline fleet operations, improve driver accountability, and enhance overall fleet performance.
 
-![](attachments/image-20240814-180004.png)
+![](<../../.gitbook/assets/image-20240814-180004 (1).png>)
 
 ## Driver list
 

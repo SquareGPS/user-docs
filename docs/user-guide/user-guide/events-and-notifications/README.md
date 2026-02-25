@@ -1,4 +1,4 @@
-# Rules and notifications
+# Alerts
 
 Using **Rules and Notifications** in Navixy, you can detect various events, view their details, and get notified about them. These features help users monitor and manage their fleet, assets, and field employees more effectively. Events can range from simple geofence breaches to complex scenarios like anti-theft alerts or fuel theft prevention. See the [examples](./#examples) for more details.
 
@@ -55,7 +55,7 @@ Rules in Navixy are predefined conditions that trigger events when met. To set u
 
 To access the notification rules setup in Navixy, go to the left menu and choose **Alerts**. This will open the Notification panel. Click on **Set rules**, and the Alert rules interface will appear.
 
-![](../attachments/image-20240805-214736.png)
+![](<../../.gitbook/assets/image-20240805-214736 (1).png>)
 
 In the **Rules** interface, you can:
 
@@ -78,9 +78,7 @@ A rule can be bound to one or multiple objects, such as individual vehicles or g
 <summary>How to bind a rule to objects</summary>
 
 * **Open the rule settings**: Navigate to the **Alerts** section from the main menu and select the rule you want to configure.
-
-- **Select objects**: In the **Rule settings** panel, you will see a list of available objects on the left side. These objects can be individual vehicles or groups of vehicles organized by departments.
-
+* **Select objects**: In the **Rule settings** panel, you will see a list of available objects on the left side. These objects can be individual vehicles or groups of vehicles organized by departments.
 * **Choose objects**: Check the boxes next to the objects or groups you want to bind the rule to. For example, you can select individual vehicles like "Oliver (Chevrolet)" and "Marisol (Nissan)," or entire groups such as "Sales department."
 
 </details>
@@ -122,7 +120,7 @@ Here’s how you can configure the schedule:
 
 To customize the schedule, simply click on the desired time blocks to toggle between active and inactive states. This flexibility ensures that you receive notifications only during relevant times, reducing the chances of alert fatigue and enhancing the effectiveness of your monitoring efforts.
 
-![](../attachments/image-20240805-221914.png)
+![](../../.gitbook/assets/image-20240805-221914.png)
 
 </details>
 
@@ -164,11 +162,9 @@ When a vehicle or asset equipped with a GPS tracking device crosses the boundary
    1. **Circular geofence**: Set a radius around a central point, such as a warehouse or office.
    2. **Polygonal geofence**: Draw a complex shape on the map to cover areas like construction sites, delivery zones, or city districts.
    3. **Route geofence:** Create a narrow, elongated geofence that follows a specific route or path, such as a highway, railway, or pipeline, to monitor movement along that route and detect deviations.
-
-2) **Configure alert conditions**:
+2. **Configure alert conditions**:
    1. **Entry alerts**: Notify when a vehicle or asset enters the geofence.
    2. **Exit alerts**: Notify when a vehicle or asset leaves the geofence.
-
 3. **Set notification preferences**:
    1. Choose the channels through which notifications will be sent, such as SMS, email, push notifications, or in-app alerts.
    2. Customize the message content to include relevant details like vehicle ID, location, time of the event, and more.
@@ -204,12 +200,10 @@ Car anti-theft alerts are triggered when specific conditions indicative of unaut
    1. **Ignition detection**: Monitor the vehicle's ignition status to detect if the vehicle is started.
    2. **Movement detection**: Use GPS tracking to identify when a vehicle moves from its parked location unexpectedly.
    3. **Time-based restrictions**: Set alerts for vehicle movement during off-hours or outside of designated operating times.
-
-2) **Detecting tampering**:
+2. **Detecting tampering**:
    1. **Door and window sensors**: Install sensors to detect if doors or windows are opened forcefully or without proper authorization.
    2. **Battery disconnection**: Set alerts for instances when the vehicle’s battery is disconnected, which is a common method used by thieves to disable tracking systems.
    3. **GPS signal interference**: Monitor for jamming or interference with the GPS signal, indicating possible tampering.
-
 3. **Configure alert notifications**:
    1. **Instant notifications**: Set up SMS, email, push notifications, or in-app alerts to be sent immediately when unauthorized activity is detected.
    2. **Alert recipients**: Designate specific individuals or teams (e.g., security personnel, fleet managers) to receive these alerts.
@@ -247,17 +241,14 @@ Temperature control alerts monitor the temperature of cargo in real-time using s
 1. **Install temperature sensors**:
    1. **Sensor placement**: Place temperature sensors in strategic locations within the cargo area to ensure accurate and comprehensive monitoring.
    2. **Sensor calibration**: Ensure sensors are calibrated correctly to provide precise temperature readings.
-
-2) **Define temperature limits**:
+2. **Define temperature limits**:
    1. **Upper and lower thresholds**: Set maximum and minimum temperature limits based on the requirements of the specific cargo.
    2. **Temperature ranges**: Define acceptable temperature ranges to cater to different types of cargo that may have varying requirements.
-
 3. **Configure alert conditions**:
    1. **Real-time monitoring**: Continuously monitor the temperature and trigger alerts if it deviates from the set limits.
    2. **Duration-based alerts**: Set alerts to trigger if the temperature remains outside the acceptable range for a specified duration, indicating a persistent issue.
    3. **Multiple thresholds**: Define multiple thresholds for different levels of alerts (e.g., warning, critical) based on the severity of the temperature deviation.
-
-4) **Set notification preferences**:
+4. **Set notification preferences**:
    1. **Notification channels**: Choose the channels through which alerts will be sent, such as SMS, email, push notifications, or in-app alerts.
    2. **Alert recipients**: Specify individuals or teams responsible for responding to temperature alerts (e.g., quality control, logistics managers).
    3. **Alert content customization**: Include essential details in the notifications, such as object label, current temperature, location, time of the alert, and recommended actions.
@@ -298,12 +289,10 @@ Fuel theft prevention alerts are triggered when the fuel level in a vehicle's ta
 1. **Install fuel level sensors**:
    1. **Sensor placement**: Install sensors within the fuel tank to provide accurate readings of the fuel level.
    2. **Sensor calibration**: Ensure that the sensors are correctly calibrated to reflect precise fuel levels, accounting for the tank's shape and size.
-
-2) **Define alert conditions**:
+2. **Define alert conditions**:
    1. **Unexpected drops**: Set conditions to detect significant drops in fuel levels that occur outside of normal usage patterns, such as when the vehicle is parked or not in use.
    2. **Threshold limits**: Establish specific thresholds for fuel drops (e.g., more than 10 liters in a short period) to trigger alerts.
    3. **Time-based alerts**: Configure alerts to be more sensitive during times when the vehicle should not be in use, such as after hours or during weekends.
-
 3. **Configure notification settings**:
    1. **Notification channels**: Choose the channels for receiving alerts, such as SMS, email, push notifications, or in-app alerts.
    2. **Alert recipients**: Designate individuals or teams (e.g., fleet managers, security personnel) responsible for responding to fuel theft alerts.
@@ -336,7 +325,7 @@ These pre-configured rules are fully customizable—you can easily add notificat
 
 You can customize your in-browser event notifications by clicking the gear icon in the event list. To access and customize notification settings, click “Alerts” in the left menu to open Notifications, then click the gear icon.
 
-![](../attachments/image-20240814-041437.png)
+![](<../../.gitbook/assets/image-20240814-041437 (1).png>)
 
 * **Browser notifications:** Enable this to receive event alerts directly within your operating system's notification center (e.g., Windows Action Center). Your browser will prompt you to allow these notifications.
 * **Display notifications:** New events will appear as pop-up notifications in the upper right corner of the monitoring platform page.

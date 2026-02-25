@@ -1,6 +1,4 @@
-# X-GPS Monitor first start
-
-
+# Quick start
 
 {% columns %}
 {% column %}
@@ -13,8 +11,6 @@ Select **X-GPS Monitor** and click "Install".
 
 {% column %}
 ![](https://www.navixy.com/wp-content/uploads/2020/02/2020-02-28_16-44-46-600x399.png)
-
-
 {% endcolumn %}
 {% endcolumns %}
 
@@ -33,8 +29,6 @@ After successful login, you will see the map screen.
 
 {% column %}
 ![](https://www.navixy.com/wp-content/uploads/2020/02/2020-02-28_16-45-53-453x600.png)
-
-
 {% endcolumn %}
 {% endcolumns %}
 
@@ -53,9 +47,6 @@ The following items are available on the main screen:
 {% endcolumn %}
 
 {% column %}
-![](attachments/x-monitor-interface.png)
-
-
+![](../../../.gitbook/assets/x-monitor-interface.png)
 {% endcolumn %}
 {% endcolumns %}
-
