@@ -2,7 +2,7 @@
 
 Several device models come equipped with the capability to control the state of connected devices or engines. This feature can be applied to a variety of components, including locks, buzzers, immobilizers, oil/engine cutoff systems, and automatic engine warming systems like Webasto. It can even extend to smart home applications, such as smart sockets and smart bulbs, among others. It may be used, for instance, in your mobile home that is better to track and control via GPS tracker. The primary concept here is the ability to turn on or off a specific function or device remotely through a command transmitted over the air. Of course, the actual scope of this control depends on what is connected to the device’s output.
 
-![Output control widget example](attachments/imagen-20230727-155729.png)
+![Output control widget example](../../.gitbook/assets/imagen-20230727-155729.png)
 
 ## How the output control works
 
@@ -12,19 +12,19 @@ The user opens the device’s widget in the UI or the X-GPS monitor application.
 
 * If a device model can relay its output state information back to the platform, the last received output state from the device is displayed. For example, if the output was 'on', the user will only have the option to send an 'output switch off' command and vice versa. On the next screenshot all 4 outputs are disabled and user can only enable them.
 
-![How output control works with online device and known states](attachments/image-20240125-094039.png)
+![How output control works with online device and known states](../../.gitbook/assets/image-20240125-094039.png)
 
 * If the device model doesn’t provide a response to the platform or doesn’t include the output state in its messages, the platform can send any command, either to switch on or off the output state. The user can click the red zone to send an 'output off' command, and the green zone to send an 'output on' command.
 
-![How output control works with stateless devices](attachments/image-20240125-093603.png)
+![How output control works with stateless devices](<../../.gitbook/assets/image-20240125-093603 (2).png>)
 
 * If the device is offline and SMS control of the outputs is not available for the model, the widget displays the last known states of the output in a faded mode, indicating that output control is not possible.
 
-![How output control works on offline device](attachments/image-20240125-093342.png)
+![How output control works on offline device](../../.gitbook/assets/image-20240125-093342.png)
 
 Then the customer selects the desired output and alters its state. For instance, if the user decides to switch off output 1, the platform will request confirmation to prevent accidental activation.
 
-![Outputs state change confirmation](attachments/image-20240125-095825.png)
+![Outputs state change confirmation](../../.gitbook/assets/image-20240125-095825.png)
 
 Confirming is equivalent to sending an API request:
 

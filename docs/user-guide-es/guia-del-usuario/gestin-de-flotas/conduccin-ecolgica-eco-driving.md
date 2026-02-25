@@ -1,20 +1,20 @@
-# Conducción ecológica-Eco Driving
+# Conducción ecológica - Eco Driving
 
-El **reporte sobre conducción ecológica** en Navixy es una potente herramienta diseñada para analizar y mejorar el comportamiento al volante de los conductores de su flota. Al asignar una puntuación entre 0 y 100 a cada conductor, el sistema proporciona una métrica clara del rendimiento de la conducción basada en los puntos de penalización acumulados por diversas infracciones de conducción. Estas infracciones se evalúan en función de su frecuencia y gravedad por cada 100 kilómetros recorridos, lo que garantiza una evaluación exhaustiva de los hábitos de cada conductor.
+El **reporte de Eco Driving** en Navixy es una potente herramienta diseñada para analizar y mejorar el comportamiento al volante de los conductores de su flota. Al asignar una puntuación entre 0 y 100 a cada conductor, el sistema proporciona una métrica clara del rendimiento de la conducción basada en los puntos de penalización acumulados por diversas infracciones de conducción. Estas infracciones se evalúan en función de su frecuencia y gravedad por cada 100 kilómetros recorridos, lo que garantiza una evaluación exhaustiva de los hábitos de cada conductor.
 
-Para acceder al reporte Eco Driving, navegue hasta la sección **Aplicación de gestión de flotas** y seleccione la Pestaña **"Conducción ecológica".**
+Para acceder al reporte Eco Driving, navegue hasta la sección **Aplicación de gestión de flotas** y seleccione la pestaña **"**&#x45;co Drivin&#x67;**".**
 
-![image-20240814-183737.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-183737.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-183737.png)
 
 ## Comprender los puntos de penalización
 
-Los puntos de penalización son un componente clave del reporte de conducción ecológica, ya que permiten calibrar el impacto de los distintos tipos de infracciones en el rendimiento del conductor. El sistema hace un seguimiento de tres categorías principales de infracciones al volante: exceso de velocidad, conducción brusca y ralentí excesivo. Cada tipo de infracción contribuye a la puntuación global, y las puntuaciones más bajas indican infracciones más frecuentes o graves.
+Los puntos de penalización son un componente clave del reporte de Eco Driving, ya que permiten calibrar el impacto de los distintos tipos de infracciones en el rendimiento del conductor. El sistema hace un seguimiento de tres categorías principales de infracciones al volante: exceso de velocidad, conducción brusca y ralentí excesivo. Cada tipo de infracción contribuye a la puntuación global, y las puntuaciones más bajas indican infracciones más frecuentes o graves.
 
 ## Personalización de reporte
 
-El reporte de conducción ecológica puede adaptarse a sus necesidades específicas, permitiéndole establecer sus propios criterios sobre lo que constituye una infracción y su gravedad. Puede asignar distintos puntos de penalización a diversas infracciones, lo que le permite dar prioridad a determinados aspectos del comportamiento al volante según las normas de su organización.
+El reporte de Eco Driving puede adaptarse a sus necesidades específicas, permitiéndole establecer sus propios criterios sobre lo que constituye una infracción y su gravedad. Puede asignar distintos puntos de penalización a diversas infracciones, lo que le permite dar prioridad a determinados aspectos del comportamiento al volante según las normas de su organización.
 
-![image-20240814-183612.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-183612.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-183612.png)
 
 **Características principales**
 
@@ -22,9 +22,9 @@ El reporte de conducción ecológica puede adaptarse a sus necesidades específi
 * **Conducción dura:** Realice un seguimiento de las maniobras agresivas, como frenadas bruscas, aceleraciones o giros bruscos, con umbrales personalizables basados en los dispositivos de su flota.
 * **Ralentí excesivo:** Identificar y penalizar a los conductores por largos periodos de ralentí, que pueden desperdiciar combustible y reducir la eficiencia del vehículo.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Cálculos del informe Eco Driving
+<summary>Cálculos del reporte de Eco Driving</summary>
 
 El reporte Eco Driving de Navixy está diseñado para evaluar y puntuar el comportamiento al volante de los empleados en función de una serie de criterios. La puntuación de cada conductor oscila entre 0 y 100 y está basada en los puntos de penalización asignados por diversas infracciones.
 
@@ -88,7 +88,9 @@ Los eventos registrados dentro de una ventana de 5 minutos se agrupan y se calcu
 
 #### Tabla de intervalos de inactividad
 
-Esta tabla proporciona detalles sobre cada caso de ralentí con el motor en marcha, incluida la duración y los puntos de penalización correspondientes.
+Esta tabla proporciona detalles sobre cada caso de ralentí con el motor en marcha, incluidas la duración y los puntos de penalización correspondientes.
+
+</details>
 
 ## Análisis de resultados
 
@@ -96,11 +98,11 @@ El reporte Eco Driving ofrece datos tanto gráficos como tabulares, lo que facil
 
 ### Ajustes y personalización
 
-Puede ajustar el reporte de conducción ecológica para centrarse en periodos de tiempo, días de la semana u horas del día concretos que sean más relevantes para su empresa. Además, el sistema le permite elegir si desea generar reportes basados en conductores individuales o en los vehículos que utilizan, lo que proporciona flexibilidad en función de sus preferencias de seguimiento.
+Puede ajustar el reporte de Eco Driving para centrarse en periodos de tiempo, días de la semana u horas del día concretos que sean más relevantes para su empresa. Además, el sistema le permite elegir si desea generar reportes basados en conductores individuales o en los vehículos que utilizan, lo que proporciona flexibilidad en función de sus preferencias de seguimiento.
 
-### Programación del reporte de conducción ecológica
+### Programación del reporte de Eco Driving
 
-El reporte de conducción ecológica de Navixy puede programarse para que se ejecute automáticamente a intervalos especificados, lo que le permite supervisar y evaluar regularmente el comportamiento al volante sin intervención manual. Esta función le garantiza que recibirá información coherente y puntual sobre el rendimiento de su flota, lo que le ayudará a identificar tendencias y a abordar los problemas de forma proactiva.
+El reporte de Eco Driving de Navixy puede programarse para que se ejecute automáticamente a intervalos especificados, lo que le permite supervisar y evaluar regularmente el comportamiento al volante sin intervención manual. Esta función le garantiza que recibirá información coherente y puntual sobre el rendimiento de su flota, lo que le ayudará a identificar tendencias y a abordar los problemas de forma proactiva.
 
 Para programar el reporte, vaya a la pestaña "Programar" dentro de la sección Eco Driving, establezca la frecuencia deseada y especifique los destinatarios. El sistema generará el reporte de acuerdo con su configuración y lo entregará directamente en su bandeja de entrada o lo pondrá a su disposición para su descarga en la plataforma.
 
@@ -108,4 +110,4 @@ Para programar el reporte, vaya a la pestaña "Programar" dentro de la sección 
 
 El reporte Eco Driving es especialmente útil para las empresas que necesitan controlar de cerca el comportamiento de los conductores, como las de transporte de pasajeros, transporte de materiales peligrosos o servicios de emergencia. Mediante el análisis de este reporte, las organizaciones pueden prolongar la vida útil de los vehículos, reducir la probabilidad de accidentes y garantizar que los vehículos se utilicen de forma eficiente y responsable.
 
-En general, el reporte de conducción ecológica es una función esencial para cualquier gestor de flotas que desee mantener altos niveles de seguridad, eficiencia y cumplimiento de la normativa por parte de los conductores.
+En general, el reporte de Eco Driving es una función esencial para cualquier gestor de flotas que desee mantener altos niveles de seguridad, eficiencia y cumplimiento de la normativa por parte de los conductores.

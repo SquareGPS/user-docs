@@ -46,7 +46,7 @@ El reporte de horas de motor incluye varios parámetros configurables que le per
 
 ## Visualizaciones
 
-![image-20240815-010415.png](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010415.png)
+![](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010415.png)
 
 ### Diagrama general de actividades
 
@@ -68,10 +68,12 @@ El reporte de horas de motor incluye varios parámetros configurables que le per
   * **Velocidad media:** La velocidad media del día.
   * **Intervalos:** El número de intervalos durante los cuales el motor estuvo encendido a lo largo del día.
 
-> \[!INFO] Si observa una discrepancia entre el kilometraje en el reporte de Viaje y el reporte de Horas de motor, compruebe dos cosas:
->
-> 1. Asegúrese de que la configuración del filtro inteligente se aplica de forma coherente en todos los reportes. Las incoherencias en su uso pueden causar discrepancias.
-> 2. Verifique que el encendido fue detectado durante todos los movimientos del vehículo comparando las horas de inicio y fin del viaje con los datos de horas motor.
+{% hint style="info" %}
+Si observa una discrepancia entre el kilometraje en el reporte de Viaje y el reporte de Horas de motor, compruebe dos cosas:
+
+1. Asegúrese de que la configuración del filtro inteligente se aplica de forma coherente en todos los reportes. Las incoherencias en su uso pueden causar discrepancias.
+2. Verifique que el encendido fue detectado durante todos los movimientos del vehículo comparando las horas de inicio y fin del viaje con los datos de horas motor.
+{% endhint %}
 
 ## Interpretación del reporte
 

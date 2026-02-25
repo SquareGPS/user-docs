@@ -4,7 +4,7 @@
 
 La regla Desempeño de tareas está diseñada para ayudar a las empresas a realizar un seguimiento y gestionar el progreso y la finalización de las tareas asignadas a los empleados de campo. Tanto si supervisa una gran plantilla remota como un equipo más pequeño, esta regla le garantiza que se mantendrá informado sobre los eventos críticos relacionados con las tareas, como la finalización de tareas, los retrasos, los fallos y los envíos de formularios.
 
-![image-20240808-235145.png](../../../gua-del-usuario/reglas-y-alertas/programacin-y-expedicin/attachments/image-20240808-235145.png)
+![](../../../gua-del-usuario/reglas-y-alertas/programacin-y-expedicin/attachments/image-20240808-235145.png)
 
 El sistema proporciona notificaciones puntuales a través de SMS, correo electrónico, notificaciones push o directamente en la interfaz de usuario web. Gracias a esta funcionalidad, las empresas pueden mantener el control sobre el proceso de finalización de tareas, lo que mejora la eficiencia y la toma de decisiones.
 
@@ -14,7 +14,7 @@ El sistema proporciona notificaciones puntuales a través de SMS, correo electr�
 
 En la configuración de las reglas, especifique los estados de las tareas y los eventos para los que desea recibir notificaciones. Puede elegir entre opciones como finalización de tareas, retrasos, fallos, llegadas y envío de formularios. Seleccionando las opciones pertinentes, las empresas pueden mantenerse informadas de los acontecimientos clave en sus operaciones sobre el terreno, lo que ayuda a minimizar las interrupciones y a garantizar una ejecución fluida de las tareas.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

@@ -4,7 +4,7 @@ En el **Reporte sobre el volumen de combustible** de Navixy, ofrece una visión 
 
 Este reporte es esencial para los gestores de flotas que deseen controlar la eficiencia del combustible, detectar posibles robos de combustible y gestionar eficazmente los costes de combustible. A continuación encontrará una guía detallada sobre el funcionamiento de este reporte, los parámetros que intervienen y cómo interpretar los datos.
 
-![image-20240815-003825.png](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-003825.png)
+![](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-003825.png)
 
 ## Visión general
 

@@ -1,2 +1,0 @@
-# sensores-de-vehculos
-

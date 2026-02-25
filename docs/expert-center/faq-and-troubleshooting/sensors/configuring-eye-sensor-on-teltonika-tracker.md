@@ -14,7 +14,7 @@ Let's get started on configuring your Teltonika Eye Sensors to maximize their po
 
 Download Teltonika´s Eye App from the Google Store or App Store.
 
-![](attachments/image-20240819-201555.png)
+![](../../.gitbook/assets/image-20240819-201555.png)
 
 Get into the Eye Application and turn on Bluetooth. Your mobile device will start scanning any Eye Sensor device around the cellphone. Every device will show the decibels and the distances from the cellphone to the sensors. Select the Eye sensor, which shows the active sensors on the screen, then PIN the code, if it is the first time configuring it, the PIN would be 123456.
 

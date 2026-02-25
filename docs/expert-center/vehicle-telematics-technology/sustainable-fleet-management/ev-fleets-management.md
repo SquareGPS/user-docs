@@ -2,7 +2,7 @@
 
 Electric vehicles (EVs) are gaining popularity, with over 100,000 EVs sold globally each month, amounting to more than 1,000,000 annually. People, both individuals and companies, are choosing EVs for their numerous benefits: economic, environmental, and social. However, it is important to acknowledge that the electric vehicle industry also faces certain challenges, such as high initial costs and a lack of charging stations.
 
-Undoubtedly, the transition towards electric vehicles heralds a transformation in the machinery-related industries. It necessitates a fresh approach to fleet management, encompassing various factors such as the power and energy requirements of electric cars. This article aims to enhance your understanding of key aspects of electric vehicles. It highlights what businesses need to take into consideration and how Navixy utilizes technology advancements on the platform and transform the EV's data into the insights you need to manage your electric fleet effectively.&#x20;
+Undoubtedly, the transition towards electric vehicles heralds a transformation in the machinery-related industries. It necessitates a fresh approach to fleet management, encompassing various factors such as the power and energy requirements of electric cars. This article aims to enhance your understanding of key aspects of electric vehicles. It highlights what businesses need to take into consideration and how Navixy utilizes technology advancements on the platform and transform the EV's data into the insights you need to manage your electric fleet effectively.
 
 ## About electric vehicles
 
@@ -18,7 +18,7 @@ An EV fleet comprises electric vehicles owned or leased by businesses, governmen
 
 When transitioning from internal combustion engine (ICE) vehicles to electric vehicles for a fleet, careful consideration of the advantages and disadvantages is crucial. Online materials provide a comprehensive list of pros and cons, such as lower running costs versus higher initial costs, decreased maintenance time and costs versus longer recharging time or range limitations. However, it is crucial to highlight the practical aspects that need to be taken into account.
 
-Managing an electric vehicle fleet encompasses various facets. In addition to standard fleet management tasks such as tracking, maintenance, and driver management, managing electric fleets presents unique challenges. Even maintenance, for instance, requires a different approach, considering the limited lifetime of batteries, particularly in regions with low temperature conditions. Effective vehicle charging management is also crucial to ensure each vehicle has sufficient charge for daily operations.&#x20;
+Managing an electric vehicle fleet encompasses various facets. In addition to standard fleet management tasks such as tracking, maintenance, and driver management, managing electric fleets presents unique challenges. Even maintenance, for instance, requires a different approach, considering the limited lifetime of batteries, particularly in regions with low temperature conditions. Effective vehicle charging management is also crucial to ensure each vehicle has sufficient charge for daily operations.
 
 ### Electric vehicles charging
 
@@ -60,7 +60,7 @@ Battery SoH gradually declines due to multiple factors over time:
 * **Chemical Degradation**: The chemical reactions taking place within the battery during charge and discharge cycles can result in the creation of undesirable by-products impacting capacity and efficiency.
 * **Age**: Regardless of how they are used, batteries degrade over time due to chemical reactions. This natural deterioration process is often termed "calendar aging."
 
-## Electric vehicles tracking&#x20;
+## Electric vehicles tracking
 
 When it comes to tracking electric vehicles, you might wonder if there's a difference compared to tracking traditional internal combustion engine vehicles. There are indeed some variations in GPS trackers for each type.
 
@@ -78,9 +78,9 @@ The battery is a crucial component of every electric vehicle, and maintaining it
 If the battery charge drops below 20%, it indicates that the battery is under significant strain and nearing depletion.
 {% endhint %}
 
-To make sure you're keeping an eye on your VE battery life you can utilize those Navixy features:&#x20;
+To make sure you're keeping an eye on your VE battery life you can utilize those Navixy features:
 
-* **Voltage alerts:** By setting up voltage alerts, EV owners or fleet managers can receive notifications when the battery voltage reaches certain thresholds. This helps identify situations where overcharging or undercharging may occur. For example, if a driver consistently receives voltage alerts at a specific location, it could indicate that they are overcharging the EV. The manager can then intervene and provide training to prevent overcharging, thus optimizing battery usage. Go to the Alerts menu and add a new rule for the voltage thresholds.&#x20;
+* **Voltage alerts:** By setting up voltage alerts, EV owners or fleet managers can receive notifications when the battery voltage reaches certain thresholds. This helps identify situations where overcharging or undercharging may occur. For example, if a driver consistently receives voltage alerts at a specific location, it could indicate that they are overcharging the EV. The manager can then intervene and provide training to prevent overcharging, thus optimizing battery usage. Go to the Alerts menu and add a new rule for the voltage thresholds.
 * **SoC alerts:** Overcharging a car battery can potentially cause overheating or even a fire, as well as reduce its lifespan and discharge capacity. Although modern electric vehicles are equipped with Battery Management Systems (BMS) to prevent overcharging by automatically stopping the charge at maximum capacity, it's still important to take preventive measures. Consider using available apps that send alerts when your device's battery reaches a specific level. Access the Alerts menu and create a new rule for the SoC parameter thresholds (i.e 98%).
 * **Sensor report:** To improve battery life and preserve its capacity, it is advisable to prevent the battery charge from dropping too low. By doing so, owners can minimize stress on the battery cells and extend its overall lifespan. This approach helps reduce the need for premature battery replacements. To gain insights into the battery level changes over a specific timeframe, users can generate a Sensor report. This report provides a visual representation of the minimum and maximum battery levels, aiding in tracking and monitoring the battery's health and usage patterns&
 
@@ -93,7 +93,7 @@ The typical range for an electric vehicle is 100-300 miles. Waiting is more than
 {% endhint %}
 
 * **Real Time monitoring:** Real-time monitoring technology offers valuable insights beyond just battery charge level for electric vehicle (EV) owners. One significant advantage is the displaying of remaining distance data. This crucial information allows fleet managers and EV owners to adopt a more strategic approach to route planning. By taking into account both the battery charge level and the remaining distance, owners can make informed decisions to avoid potential situations where the battery runs out of charge before reaching a charging point. This proactive approach significantly reduces the risk of getting stranded on the road.
-* **POIs - Charging stations.** Adding and using points of interest (POI) with charging stations can greatly assist in route planning for electric vehicles  and ensure that the battery does not run out. By incorporating the locations of charging stations into route calculations, EV owners can strategically plan their journeys and avoid the risk of running out of battery power. Clients can choose routes that have charging stations conveniently located along the way or opt for shorter trips to conserve battery power.&#x20;
+* **POIs - Charging stations.** Adding and using points of interest (POI) with charging stations can greatly assist in route planning for electric vehicles and ensure that the battery does not run out. By incorporating the locations of charging stations into route calculations, EV owners can strategically plan their journeys and avoid the risk of running out of battery power. Clients can choose routes that have charging stations conveniently located along the way or opt for shorter trips to conserve battery power.
 
 ### Effective maintenance
 
@@ -102,7 +102,7 @@ Telematics parameters can play a significant role in facilitating effective main
 * **Battery Health Monitoring:** Telematics parameters can provide detailed information about the State of health (SoH) and overall performance. By monitoring these parameters, maintenance professionals can identify any anomalies or degradation in the battery's performance. This helps in scheduling timely maintenance, optimizing charging practices, and ensuring the longevity and efficiency of the battery.
 * **Motor Performance Analysis**: Telematics parameters can provide comprehensive data on the motor's operating conditions, including temperature, voltage, current, and power consumption. By analyzing this data, maintenance professionals can assess the motor's performance and detect any potential issues or deviations. Proactive maintenance and troubleshooting can then be conducted to prevent motor failures and optimize its efficiency.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="250"><figcaption><p>Teltonika GPS tracker AVL 1151 to monitor State of Health</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="250"><figcaption><p>Teltonika GPS tracker AVL 1151 to monitor State of Health</p></figcaption></figure>
 
 ## Wrapping up
 

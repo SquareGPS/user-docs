@@ -1,6 +1,12 @@
+---
+description: >-
+  Clone a tracker into other user accounts for shared monitoring, with read-only
+  access for clone owners.
+---
+
 # Tracker clones
 
-A *clone* is a virtual instance of an existing GPS tracker in the Navixy platform. Clones allow you to create one or more copies of an existing tracker and place them in multiple independent user accounts. This means that several users can monitor the same GPS tracker from their individual accounts.
+A _clone_ is a virtual instance of an existing GPS tracker in the Navixy platform. Clones allow you to create one or more copies of an existing tracker and place them in multiple independent user accounts. This means that several users can monitor the same GPS tracker from their individual accounts.
 
 Cloning a tracker is a useful feature when you want to provide access to the same GPS tracker to multiple users while still maintaining separate user accounts. For example, if you have registered all your trackers in one user account but need your colleagues to monitor and supervise particular groups of trackers, you can create separate user accounts for them in the Admin Panel and clone the necessary trackers into their accounts.
 
@@ -20,21 +26,40 @@ A clone in the Navixy platform is a virtual instance of an existing GPS tracker.
 
 In summary, while both trackers and clones in the Navixy platform are used for GPS device monitoring, the major difference lies in the level of control and access that the owner has. The tracker owner has full control over the device's configuration and settings, while the clone has limited actions and cannot change any of the device's configurations and settings
 
-## Creating and Managing Clones
+## Creating and managing clones
 
 Here are the steps to create and manage clones in Navixy:
 
-1. Log in to the Navixy Admin Panel and select the tracker(s) that you want to clone.
-2. Click on the "Clone" button and give your clone a name.
-3. Assign the clone to the desired user account (i.e. the clone owner) by selecting the account from the drop-down list.
-4. Save your changes, and the clone will be created and ready to be monitored by the assigned user account.
+{% stepper %}
+{% step %}
+### Choose the trackers for cloning
 
-To manage your clones, simply click on the clone that you want to edit and click on the "Edit Tracker" button. From there, you can change the clone owner or other details as necessary.
+Select the tracker or trackers that you want to clone.
+{% endstep %}
 
-![create clone](./attachments/Untitled-20230811-203002.png)
+{% step %}
+### Open the clone creation window
 
-![clone appearance](./attachments/Untitled-20230811-203015.png)
+Click **Clone tracker** on the right side panel to open the **Create clone** window.
 
-You can also clone a device across Admin Panels, however you will need to reach out to Support team for assistance.
+<figure><img src="../.gitbook/assets/{78B9BB33-6DC8-4647-BF65-52AD66866069}.png" alt="" width="563"><figcaption></figcaption></figure>
+{% endstep %}
 
-Since clones are virtual reflections of trackers, there is no additional charge for creating and using them. You will only be charged for the original trackers, and not for their clones.
+{% step %}
+### Configure the clone
+
+Give the clone a name and assign it to a user account (the clone owner) by selecting it from the drop-down list.
+{% endstep %}
+
+{% step %}
+### Save your changes
+
+The clone will be created and ready to be monitored by the assigned user account.
+{% endstep %}
+{% endstepper %}
+
+You can also clone a device across Admin Panels, though this will require reaching out to our support team for assistance.
+
+{% hint style="danger" %}
+Users will be charged for clones under the plan assigned to the original tracker.
+{% endhint %}

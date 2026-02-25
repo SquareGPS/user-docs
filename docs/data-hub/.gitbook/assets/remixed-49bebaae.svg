@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 500" width="1300" height="500">
+  <defs>
+    <!-- Фоновый градиент -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4FC"/>
+      <stop offset="100%" style="stop-color:#F0F7FB"/>
+    </linearGradient>
+    
+    <!-- Градиент для Bronze блоков -->
+    <linearGradient id="bronzeBlockGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F5FAFD"/>
+    </linearGradient>
+    
+    <!-- Градиент для Transformation блока -->
+    <linearGradient id="transformBlockGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F0F8FF"/>
+    </linearGradient>
+    
+    <!-- Градиент для Silver блоков -->
+    <linearGradient id="silverBlockGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D6EDFA"/>
+      <stop offset="100%" style="stop-color:#C4E4F7"/>
+    </linearGradient>
+    
+    <!-- Градиент для внутренних карточек -->
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F8FCFF"/>
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0088CC" flood-opacity="0.08"/>
+    </filter>
+    
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0088CC" flood-opacity="0.1"/>
+    </filter>
+    
+    <!-- Маркер стрелки -->
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <path d="M 0 0 L 12 4 L 0 8 L 3 4 Z" fill="#0099DD"/>
+    </marker>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  
+  <!-- === BRONZE СЕКЦИЯ === -->
+  
+  <!-- Основной контейнер Bronze -->
+  <rect x="40" y="80" width="280" height="340" rx="20" ry="20" fill="url(#bronzeBlockGradient)" stroke="#B8DCF0" stroke-width="2" filter="url(#dropShadow)"/>
+  
+  <!-- Заголовок Bronze -->
+  <text x="180" y="125" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#0088CC">Bronze</text>
+  <text x="180" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#6BB8E0">Raw telematics &amp; business data</text>
+  
+  <!-- raw_telematics_data карточка -->
+  <rect x="60" y="175" width="240" height="85" rx="12" ry="12" fill="url(#cardGradient)" stroke="#A8D4F0" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="180" y="205" text-anchor="middle" font-family="'Consolas', 'Monaco', monospace" font-size="14" font-weight="600" fill="#0077BB">raw_telematics_data</text>
+  <text x="180" y="225" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#0099DD">schema</text>
+  <text x="180" y="248" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#88BBDD">Tracking points, inputs, states</text>
+  
+  <!-- raw_business_data карточка -->
+  <rect x="60" y="280" width="240" height="105" rx="12" ry="12" fill="url(#cardGradient)" stroke="#A8D4F0" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="180" y="315" text-anchor="middle" font-family="'Consolas', 'Monaco', monospace" font-size="14" font-weight="600" fill="#0077BB">raw_business_data</text>
+  <text x="180" y="335" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#0099DD">schema</text>
+  <text x="180" y="358" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#88BBDD">Devices, vehicles, zones,</text>
+  <text x="180" y="373" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#88BBDD">reference data</text>
+  
+  <!-- === TRANSFORMATION СЕКЦИЯ === -->
+  
+  <!-- Основной контейнер Transformation -->
+  <rect x="420" y="80" width="380" height="340" rx="20" ry="20" fill="url(#transformBlockGradient)" stroke="#B8DCF0" stroke-width="2" filter="url(#dropShadow)"/>
+  
+  <!-- Заголовок Transformation -->
+  <text x="610" y="125" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#0088CC">Transformation</text>
+  <text x="610" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#6BB8E0">Config + SQL orchestration</text>
+  
+  <!-- Внутренняя карточка -->
+  <rect x="445" y="175" width="330" height="220" rx="14" ry="14" fill="url(#cardGradient)" stroke="#A8D4F0" stroke-width="1.5" filter="url(#softShadow)"/>
+  
+  <text x="610" y="210" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#0077BB">JSON configuration &amp; orchestration</text>
+  
+  <text x="610" y="245" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#0099DD">Includes</text>
+  
+  <!-- Теги включений -->
+  <rect x="490" y="260" width="90" height="28" rx="14" ry="14" fill="#E6F4FB" stroke="#B8DCF0" stroke-width="1"/>
+  <text x="535" y="279" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#0088CC">SQL scripts</text>
+  
+  <rect x="590" y="260" width="90" height="28" rx="14" ry="14" fill="#E6F4FB" stroke="#B8DCF0" stroke-width="1"/>
+  <text x="635" y="279" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#0088CC">Parameters</text>
+  
+  <rect x="540" y="295" width="90" height="28" rx="14" ry="14" fill="#E6F4FB" stroke="#B8DCF0" stroke-width="1"/>
+  <text x="585" y="314" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#0088CC">Scheduling</text>
+  
+  <text x="610" y="355" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#0099DD">Purpose</text>
+  <text x="610" y="378" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#6BB8E0">Transforms raw data into analytical structures</text>
+  
+  <!-- === SILVER СЕКЦИЯ === -->
+  
+  <!-- Основной контейнер Silver -->
+  <rect x="900" y="80" width="320" height="340" rx="20" ry="20" fill="url(#silverBlockGradient)" stroke="#88C8E8" stroke-width="2" filter="url(#dropShadow)"/>
+  
+  <!-- Заголовок Silver -->
+  <text x="1060" y="125" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#0077AA">Silver</text>
+  <text x="1060" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#4499BB">Processed schemas</text>
+  
+  <!-- processed_common_data карточка -->
+  <rect x="925" y="175" width="270" height="100" rx="12" ry="12" fill="url(#cardGradient)" stroke="#88C8E8" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="1060" y="205" text-anchor="middle" font-family="'Consolas', 'Monaco', monospace" font-size="13" font-weight="600" fill="#0077BB">processed_common_data</text>
+  <text x="1060" y="225" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#0099DD">schema</text>
+  <text x="1060" y="248" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#6BB8E0">Navixy-maintained transformations</text>
+  <text x="1060" y="263" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#6BB8E0">Shared across all clients</text>
+  
+  <!-- processed_custom_data карточка -->
+  <rect x="925" y="295" width="270" height="100" rx="12" ry="12" fill="url(#cardGradient)" stroke="#88C8E8" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="1060" y="325" text-anchor="middle" font-family="'Consolas', 'Monaco', monospace" font-size="13" font-weight="600" fill="#0077BB">processed_custom_data</text>
+  <text x="1060" y="345" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#0099DD">schema</text>
+  <text x="1060" y="373" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#6BB8E0">Client-specific transformations</text>
+  
+  <!-- === СТРЕЛКИ === -->
+  
+  <!-- Метка "defines" -->
+  <text x="370" y="195" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-style="italic" fill="#0099DD">defines</text>
+  
+  <!-- Стрелка от Bronze к Transformation -->
+  <path d="M 320 250 L 420 250" stroke="#0099DD" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Метка "grouped into" -->
+  <text x="855" y="195" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-style="italic" fill="#0099DD">grouped into</text>
+  
+  <!-- Стрелка от Transformation к Silver -->
+  <path d="M 800 250 L 900 250" stroke="#0099DD" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+</svg>

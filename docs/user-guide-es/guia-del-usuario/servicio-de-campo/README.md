@@ -1,6 +1,6 @@
 # Servicio de campo
 
-La **Pestaña de Servicio de Campo** en Navixy permite a los gestores y despachadores gestionar y supervisar eficazmente su mano de obra móvil. A través de la aplicación, se pueden asignar tareas a los empleados, realizar un seguimiento de su finalización y analizar su rendimiento, lo que la convierte en una herramienta esencial para optimizar las operaciones sobre el terreno.
+La pestaña de **Servicio de campo** en Navixy permite a los gestores y despachadores gestionar y supervisar eficazmente su mano de obra móvil. A través de la aplicación, se pueden asignar tareas a los empleados, realizar un seguimiento de su finalización y analizar su rendimiento, lo que la convierte en una herramienta esencial para optimizar las operaciones sobre el terreno.
 
 ### Características principales
 

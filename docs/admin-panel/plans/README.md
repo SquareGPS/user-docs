@@ -1,63 +1,55 @@
+---
+description: >-
+  Create and manage pricing plans: billing cycles, fees, rates, limits,
+  available maps, and feature access.
+---
+
 # Plans
 
-In this tab, you can view, edit, or create new pricing plans for your Navixy account. The pricing plans allow you to offer your end-users flexible packages that can make your service more attractive. You can create any number of pricing plans to choose from.
+The **Plans** page is used to view, create, and edit new pricing plans for your Navixy account. The pricing plans allow you to manage features available to your end users and set up billing. You can create any number of pricing plans.
 
-![plans](../attachments/tarifen-20230811-205337.png)
+<figure><img src="../.gitbook/assets/image (82).png" alt="Plans page"><figcaption><p>Plans page</p></figcaption></figure>
 
-## Advance payments
+It consists of three main sections:
 
+* **Plan toolbar:** A toolbar used to easily create, find, and edit plans
+* **Plan list:** A list of existing plans formatted as a table
+* **Plan details:** Information about the selected plan
+
+{% hint style="warning" %}
 The billing system uses an advance payment method, where users can only access the services when they have enough funds in their personal account.
+{% endhint %}
 
 ## Plan settings
 
 A pricing plan is a set of commercial terms that defines the structure of the service packages and their prices available to a user. Each tracker can be assigned its own pricing plan, allowing users to track assets with different pricing plans.
 
-When a user creates an account, Navixy Server automatically creates a test Demo pricing plan, which is recommended for use only during the test period.
+When a user creates an account, Navixy server automatically creates a test Demo pricing plan, which is recommended for use only during the test period.
 
-Here, you can:
+## How to create a plan
 
-* Assign a label to the pricing plan that will be available in the user's account
-* Set up the billing cycle (monthly, daily debit, daily)
-* Set up monthly fee and proportional charge
-* Set a pricing plan as the default for all devices
-* Set rates for SMS and GPS traffic and restrict usage if necessary
+Click <img src="../.gitbook/assets/image (87).png" alt="" data-size="line"> to create a new plan. This will open the **New plan** window:
 
-![plan billing options](../attachments/details-20230811-205350.png)
+<figure><img src="../.gitbook/assets/image (91).png" alt="New plan window"><figcaption></figcaption></figure>
 
-## Billing cycles
+This window contains the following settings:
 
-Billing Cycles There are four billing cycle types to choose from:
+* **Label:** The plan's name.
+* **Billing cycle:** Payment frequence. There are four billing cycle types to choose from:
+  * **Monthly:** The user is charged on the first day of the month at 00:05 UTC or immediately after applying the pricing plan. If you check **Monthly fee proportional charge**, the user will be charged for the number of days left in the month. Otherwise, they will be charged for the full month.
+  * **Monthly (daily debit):** The user is charged each day at 00:05 UTC proportionally to the monthly fee.
+  * **Daily:** The user is charged each day at 00:05 UTC. This is a post-paid plan, meaning the user will be charged only if the tracker connected to the server at least once in the last 24 hours.
+  * **Annual:** The user is charged on the first day of the year at 00:05 UTC. This is a pre-paid plan, meaning the user will be charged for the year ahead regardless of whether the device will be used or not.
+* **Fee:** Your fee.
+* **Use this plan as default**: Check if you want to set the created plan as default. The default pricing plan will be automatically assigned to all new devices in the account and applied to trackers when transferring trackers between user accounts.
+* **Rates:** Rates for various services used by your users. Includes the option to forbid some of them.
+* **Plan options:**
+  * **Maximum number of devices:** If a user reaches this limit, they will not be able to add or track any additional assets. If a user has assets under different plans, the plan with the minimum value will be applied.
+  * **Store history:** Users can also set up a period for which data will be stored in the system, ranging from one or several days to months or years.
+* **Available maps:** Select which maps will be available to users who track devices under this plan.
+* **Available features:** Plan settings also include the range of additional applications, such as Reports, Field service, and Fleet, as well as other features and miscellaneous options.
+* **Plan availability:** Group similar plans to organize your offerings and enable user self-service. Plans within the same group allow users to switch between them independently, provided the **User are allowed to select this plan** checkbox is enabled. Nesting similar plans into groups ensures account compatibility and prevents users from mixing incompatible plans on a single account, which can cause map or feature errors, while maintaining control over your pricing structure.
 
-* **Monthly:** the user is charged on the first day of the month at 00:05 UTC, or immediately after applying the pricing plan. If you set the "proportional charge" checkbox, the user is charged for the number of days left in the month; otherwise, they will be charged for the full month.
-* **Monthly (daily debit):** the user is charged each day at 00:05 UTC proportionally to the monthly fee.
-* **Daily:** the user is charged each day at 00:05 UTC. This is a post-paid plan, meaning the user will be charged only if the tracker connected to the server at least once in the last 24 hours.
-* **Annual:** the user is charged on the first day of the year at 00:05 UTC. This is a pre-paid plan, meaning the user will be charged for the year ahead regardless of whether the device will be used or not.
+## How to edit a plan
 
-## Plan options
-
-In this field, service providers can set up all the features and options that will be applicable for trackers on the pricing plan, including the maximum number of devices allowed on the plan, storage period, maps available, and other options.
-
-1. **Maximum number of devices** – if a user reaches this limit, they will not be able to add or track any additional assets. If a user has assets on different plans, the plan with the minimum value will be applied.
-2. Users can also set up a **period for which data will be stored** in the system, ranging from one or several days to months or years.
-3. Service providers can select **which maps will be available to users** who track assets on this plan.
-4. Plan settings also include the range of **desired applications**, such as Reports, Tasks, and Fleet, as well as other features and miscellaneous options.
-
-![plan abilities](../attachments/options-20230811-205407.png)
-
-## Plan availability
-
-In this section you can set up a _group_ that the pricing plan belongs to. By combining pricing plans into groups, you can organize them better and allow your users to switch plans on their own within the same group. While you can assign any pricing plan for any asset in the Admin panel, users are only able to switch between plans that are marked with the appropriate checkbox.
-
-If there are assets on different plans within the same user account, some maps and options might become unavailable for that user. You can avoid this by nesting similar plans into groups, thus making it impossible for users to have devices on incompatible plans. This way, you can offer flexible plan configurations without giving your users the opportunity to manipulate your pricing.
-
-![plan availablity](../attachments/availability-20230811-205419.png)
-
-## Default pricing plan
-
-You can set the _default pricing plan_ that will be automatically assigned to all new devices in the account. It will be also applied to trackers when transferring trackers between user accounts.
-
-To set a default plan:
-
-1. Go to the admin panel and open the list of users
-2. Select a user and click "Edit User"
-3. Select "Basic Tracker Tariff" and assign the required pricing plan You can also set a default plan when creating a new user.
+To edit an existing plan, double-click its entry in the list or select it and click <img src="../.gitbook/assets/image (92).png" alt="" data-size="line"> on the toolbar. This will open the **Edit plan** window, which is identical to the **Create plan** window. You can change all the settings except for the billing cycle.

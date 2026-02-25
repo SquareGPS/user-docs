@@ -55,7 +55,7 @@ El reporte Tiempo de trabajo del equipo incluye varios parámetros configurables
 
 * El histograma desglosa el tiempo de trabajo del equipo en segmentos diarios. Si se controla el porcentaje de inactividad, también muestra la división entre tiempo de movimiento y de inactividad. Si se pasa el mouse por encima de cada día, se obtiene una vista más detallada de la actividad de ese día.
 
-![image-20240815-010538.png](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010538.png)
+![](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010538.png)
 
 ### Tabla horaria de funcionamiento diario del sensor
 
@@ -69,7 +69,7 @@ El reporte Tiempo de trabajo del equipo incluye varios parámetros configurables
   * **En movimiento (si el porcentaje de inactividad está activado):** La duración del trabajo en movimiento y su porcentaje sobre el tiempo total de trabajo.
   * **Ralentí (si el porcentaje de ralentí está activado):** El tiempo de funcionamiento sin movimiento y su porcentaje del tiempo total de funcionamiento.
 
-![image-20240815-010619.png](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010619.png)
+![](../../../gua-del-usuario/reportes/detalles-especficos-del-reporte/attachments/image-20240815-010619.png)
 
 ## Interpretación del reporte
 

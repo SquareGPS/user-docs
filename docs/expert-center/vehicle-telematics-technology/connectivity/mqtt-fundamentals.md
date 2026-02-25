@@ -16,9 +16,9 @@ Thus, MQTT has become a protocol for streaming data between devices with limited
 
 ### The publish and subscribe model
 
-There are 2 main definitions in the MQTT: MQTT Broker and MQTT client.&#x20;
+There are 2 main definitions in the MQTT: MQTT Broker and MQTT client.
 
-An MQTT broker is a server that receives all messages from the clients and then routes the messages to the appropriate destination clients.  In simple words, the broker acts as a post office, MQTT doesn't use the address of the intended recipient but uses the subject line called “Topic”, and anyone who wants a copy of that message will subscribe to that topic. Multiple clients can receive the message from a single broker (one to many capabilities). Similarly, multiple publishers can publish topics to a single subscriber (many to one).
+An MQTT broker is a server that receives all messages from the clients and then routes the messages to the appropriate destination clients. In simple words, the broker acts as a post office, MQTT doesn't use the address of the intended recipient but uses the subject line called “Topic”, and anyone who wants a copy of that message will subscribe to that topic. Multiple clients can receive the message from a single broker (one to many capabilities). Similarly, multiple publishers can publish topics to a single subscriber (many to one).
 
 An MQTT client is any device (from a microcontroller up to a fully-fledged server) that runs an MQTT library and connects to an MQTT broker over a network.
 
@@ -40,7 +40,7 @@ Because the MQTT protocol aims to be a protocol for resource-constrained and IoT
 
 MQTT is considered a lightweight protocol because all its messages have a small code footprint. The packet consists of a 2-byte fixed header + a variable header and a payload. In this first 2-byte, the fixed header will be always present in all the packets and the other two, variable header and payload are not always present.
 
-![MQTT message format](attachments/imagen-20231019-231143.png)
+![MQTT message format](../../.gitbook/assets/imagen-20231019-231143.png)
 
 Out of the two-byte fixed header, the first byte is the control field. This 8-bit control field Is divided into two 4 bit fields. The first 4 MSB bits are the command type field. This type determines the action that will be performed: the client wants to subscribe to the topic, a new message is published for subscribers and others.
 
@@ -114,19 +114,19 @@ As IoT applications are now being implemented on a huge scale, MQTT has come int
 To configure the Xirgo & BCE device on working with MQTT:
 
 * Inside FMSET: Choose connectivity → Telemetry server → MQTT broker address settings) specify host: [mqtt.eu.navixy.com](http://mqtt.eu.navixy.com/) for EU server and [mqtt.us.navixy.com](http://mqtt.eu.navixy.com/) for US server, port 1883.
-* And  add the default user in MQTT Security -> Authorization\
-  ![MQTT device configuration](attachments/imagen-20231019-231034.png)
+* And add the default user in MQTT Security -> Authorization\
+  ![MQTT device configuration](../../.gitbook/assets/imagen-20231019-231034.png)
 
 ### Globalmatix MQTT device configuration
 
 To configure the Globalmatix device on working with MQTT:
 
-* Specify server [http://mqtt.navixy.com](http://mqtt.navixy.com) port 1883 for EU and [http://mqtt.us.navixy.com](http://mqtt.us.navixy.com) port 1883  for US
+* Specify server [http://mqtt.navixy.com](http://mqtt.navixy.com) port 1883 for EU and [http://mqtt.us.navixy.com](http://mqtt.us.navixy.com) port 1883 for US
 * User/password - globalmatix/secretword
 * Topic globalmatix/in
 
 To configure the Globalmatix device on working with MQTTS:
 
-* Specify server [http://mqtt.navixy.com](http://mqtt.navixy.com) port 8883 for EU and [http://mqtt.us.navixy.com](http://mqtt.us.navixy.com) port 8883  for US
+* Specify server [http://mqtt.navixy.com](http://mqtt.navixy.com) port 8883 for EU and [http://mqtt.us.navixy.com](http://mqtt.us.navixy.com) port 8883 for US
 * User/password - globalmatix/secretword
 * Topic globalmatix/in

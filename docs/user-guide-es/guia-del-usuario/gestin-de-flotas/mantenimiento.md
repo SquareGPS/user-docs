@@ -1,8 +1,8 @@
 # Mantenimiento
 
-La pestaña de **Mantenimiento,** en el apartado de Gestión de Flotas, es una completa herramienta diseñada para gestionar eficazmente las tareas de servicio de los vehículos. Esta guía explica cómo crear, gestionar y supervisar las tareas de servicio para mantener su flota en las mejores condiciones.
+La pestaña de **Mantenimiento,** en el apartado de **Gestión de Flotas**, es una completa herramienta diseñada para gestionar eficazmente las tareas de servicio de los vehículos. Esta guía explica cómo crear, gestionar y supervisar las tareas de servicio para mantener su flota en las mejores condiciones.
 
-![image-20240814-185130.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-185130.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-185130.png)
 
 ## Añadir trabajo de servicio
 
@@ -51,7 +51,7 @@ Después de crear tareas de servicio, es posible que necesite modificarlas, elim
 
 Agilice el mantenimiento de su flota configurando tareas repetibles, una función que genera automáticamente nuevas tareas de servicio a intervalos predefinidos. Siga estos pasos para configurarla.
 
-![image-20240814-190748.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-190748.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-190748.png)
 
 1. **Activar la repetición automática:**
 
@@ -110,6 +110,6 @@ Supervise eficazmente las actividades de mantenimiento de su flota con el comple
 * **Completado:** Tareas finalizadas.
 * **Caducado:** Tareas que no se completaron a tiempo.
 
-![image-20240814-191110.png](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-191110.png)
+![](../../gua-del-usuario/gestin-de-flotas/attachments/image-20240814-191110.png)
 
 El cuadro de mandos ofrece un resumen conciso que permite ver al instante el estado de todas las tareas de mantenimiento de un vistazo.

@@ -7,7 +7,7 @@ Si has olvidado tu contraseña y necesitas recuperarla, sigue estos pasos:
 3. **Introduzca sus datos de acceso:** Indique su dirección de correo electrónico registrada o su nombre de usuario.
 4. **Siga las instrucciones:** Busque en su correo electrónico un enlace para restablecer la contraseña y siga las instrucciones del mensaje.
 
-![image-20240718-181310.png](../../gua-del-usuario/cuenta/attachments/image-20240718-181310.png)
+![](../../gua-del-usuario/cuenta/attachments/image-20240718-181310.png)
 
 ## Preguntas frecuentes y solución de problemas
 

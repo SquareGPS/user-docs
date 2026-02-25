@@ -34,6 +34,12 @@
     * [OBD Tracker Fundamentals](vehicle-telematics-technology/can-and-obdii/obd-tracker-fundamentals.md)
     * [DTC (Diagnostic Trouble Codes)](vehicle-telematics-technology/can-and-obdii/dtc-diagnostic-trouble-codes.md)
   * [Video telematics](vehicle-telematics-technology/video-telematics/README.md)
+    * [Video Telematics 101](vehicle-telematics-technology/video-telematics/video-telematics-101/README.md)
+      * [Inside the dashcam: What really powers video telematics](vehicle-telematics-technology/video-telematics/video-telematics-101/inside-the-dashcam-what-really-powers-video-telematics.md)
+      * [H.264 vs H.265 in fleet telematics: Cracking the codec puzzle](vehicle-telematics-technology/video-telematics/video-telematics-101/h.264-vs-h.265-in-fleet-telematics-cracking-the-codec-puzzle.md)
+      * [What makes Dash Cam video reliable for fleets? A Benchmarking guide](vehicle-telematics-technology/video-telematics/video-telematics-101/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/README.md)
+        * [Test framework checklist to videocameras in Navixy](vehicle-telematics-technology/video-telematics/video-telematics-101/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/test-framework-checklist-to-videocameras-in-navixy.md)
+        * [Building a Video Telematics Test Lab: Key Components and Considerations](vehicle-telematics-technology/video-telematics/video-telematics-101/what-makes-dash-cam-video-reliable-for-fleets-a-benchmarking-guide/building-a-video-telematics-test-lab-key-components-and-considerations.md)
     * [Dash cam installation](vehicle-telematics-technology/video-telematics/dash-cam-installation.md)
     * [Configuration guides](vehicle-telematics-technology/video-telematics/configuration-guides/README.md)
       * [Jimi IoT](vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/README.md)
@@ -43,6 +49,7 @@
       * [Howen](vehicle-telematics-technology/video-telematics/configuration-guides/howen/README.md)
         * [Howen MDVR configuration](vehicle-telematics-technology/video-telematics/configuration-guides/howen/howen-mdvr-configuration.md)
         * [Event configuration on Howen MDVR](vehicle-telematics-technology/video-telematics/configuration-guides/howen/event-configuration-on-howen-mdvr.md)
+    * [Turning Feedback Into Benchmarks: Ranking Fleet Camera Priorities](vehicle-telematics-technology/video-telematics/turning-feedback-into-benchmarks-ranking-fleet-camera-priorities.md)
   * [Sustainable fleet management](vehicle-telematics-technology/sustainable-fleet-management/README.md)
     * [EV fleets management](vehicle-telematics-technology/sustainable-fleet-management/ev-fleets-management.md)
   * [Legistlation](vehicle-telematics-technology/legistlation/README.md)
@@ -76,3 +83,7 @@
       * [Columns in CSV File](faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file.md)
   * [Mobile apps](faq-and-troubleshooting/mobile-apps/README.md)
     * [X-GPS Tracker mobile app](faq-and-troubleshooting/mobile-apps/x-gps-tracker-mobile-app.md)
+
+## Platform essentials
+
+* [How to integrate your devices](platform-essentials/how-to-integrate-your-devices.md)

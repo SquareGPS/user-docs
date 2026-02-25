@@ -17,7 +17,7 @@ Para generar correctamente el **reporte de los sensores de medición** deben cum
 
 El reporte utiliza varios parámetros para adaptar el resultado a sus necesidades:
 
-* **Detalles intervalo de tiempo:** Muestra las lecturas recibidas en incrementos de 5, 30 minutos, 1, 3 ó 6 horas en la tabla de detalle de datos.
+* **Detalles intervalo de tiempo:** Muestra las lecturas recibidas en incrementos de 5, 30 minutos, 1, 3 o 6 horas en la tabla de detalle de datos.
 * **Eje X del gráfico:** Elija si desea mostrar la información por tiempo o por kilometraje.
 * **Datos suaves:** Aplica suavizado al gráfico para filtrar los valores máximos y promediar los datos cuando haya una variación significativa.
 * **Mostrar dirección:** Muestra la dirección recibida por la plataforma junto con los datos del sensor. La dirección mostrada corresponde a la primera lectura del segmento detallado.
@@ -48,6 +48,6 @@ Nota: Las unidades de medida variarán en función de la configuración del sens
 
 ### Tabla de desglose de datos
 
-En **tabla de desglose de datos** presenta las lecturas de los sensores en intervalos de tiempo especificados, como cada 30 minutos, a partir de una hora determinada. Ofrece una visión detallada de los datos de los sensores, lo que ayuda a identificar tendencias o problemas durante periodos concretos.
+La **tabla de desglose de datos** presenta las lecturas de los sensores en intervalos de tiempo especificados, como cada 30 minutos, a partir de una hora determinada. Ofrece una visión detallada de los datos de los sensores, lo que ayuda a identificar tendencias o problemas durante periodos concretos.
 
 * **Interpretación de la tabla:** Si aparece "Sin datos", significa que no se han recibido lecturas durante ese tiempo. Esto puede deberse a que el dispositivo no transmite datos, está apagado o el sensor está desconectado.

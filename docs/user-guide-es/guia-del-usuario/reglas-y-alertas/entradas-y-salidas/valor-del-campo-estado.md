@@ -1,8 +1,8 @@
-# Valor del campo Estado
+# Valor del campo estado
 
 ## Visión general
 
-En telemática, un **ámbito estatal** representa el estado actual de un componente o sistema específico del vehículo, como por ejemplo si una puerta está abierta o cerrada, si el freno de mano está accionado o si se ha desplegado un airbag. Proporciona datos en tiempo real sobre estos elementos, lo que permite supervisarlos y alertarlos en función de los cambios en su estado.
+En telemática, un **valor del** **campo estado** representa el estado actual de un componente o sistema específico del vehículo, como por ejemplo si una puerta está abierta o cerrada, si el freno de mano está accionado o si se ha desplegado un airbag. Proporciona datos en tiempo real sobre estos elementos, lo que permite supervisarlos y alertarlos en función de los cambios en su estado.
 
 La regla "Valor de campo de estado" está diseñada para utilizar estos datos mediante la supervisión de campos de estado específicos y la activación de alertas cuando se cumplen condiciones predefinidas. Esta regla es esencial para mantener informados a los usuarios sobre eventos críticos, como cuando se abre inesperadamente una puerta, se suelta el freno de mano o se activa un sistema avanzado de asistencia al conductor (ADAS).
 
@@ -15,7 +15,7 @@ Mediante el uso de esta norma, las organizaciones pueden aumentar la seguridad, 
 
 ## Configuración de reglas
 
-![image-20240814-032608.png](../../../gua-del-usuario/reglas-y-alertas/entradas-y-salidas/attachments/image-20240814-032608.png)
+![](../../../gua-del-usuario/reglas-y-alertas/entradas-y-salidas/attachments/image-20240814-032608.png)
 
 ### Campo estatal
 
@@ -25,13 +25,15 @@ Especifique el campo que se va a supervisar (por ejemplo, Troncal). Establezca e
 
 Elija el valor que debe coincidir con el campo de estado para activar una notificación (por ejemplo, Abierto/Cerrado). Para eventos especiales, como una llave hardware o un código de evento, introduzca el valor específico proporcionado por el fabricante del dispositivo.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Ejemplo
+<summary>Ejemplo</summary>
 
 En el siguiente ejemplo, si una clave de hardware tiene un valor personalizado, como A1DD3FC3452904D, la plataforma supervisará este valor específico en el campo hardware\_key y notificará al usuario cuando se detecte.
 
-![image-20240814-033823.png](../../../gua-del-usuario/reglas-y-alertas/entradas-y-salidas/attachments/image-20240814-033823.png)
+![](../../../gua-del-usuario/reglas-y-alertas/entradas-y-salidas/attachments/image-20240814-033823.png)
+
+</details>
 
 ### Permitir la repetición
 
@@ -42,9 +44,9 @@ En el siguiente ejemplo, si una clave de hardware tiene un valor personalizado, 
 
 Establece el temporizador de reinicio en segundos para controlar la frecuencia con la que el evento puede activar las notificaciones. Por ejemplo, si se establece en 1800 segundos, las notificaciones se limitan a una vez cada 30 minutos.
 
-![](https://squaregps.atlassian.net/wiki/images/icons/grey_arrow_down.png)
+<details>
 
-Ejemplo - Funcionamiento de la opción "Permitir repetición
+<summary>Ejemplo: funcionamiento de la opción "Permitir repetición"</summary>
 
 **Si la opción "Permitir repetición" no está seleccionada:**
 
@@ -71,7 +73,9 @@ En resumen, con la opción "Permitir repetición" seleccionada, las notificacion
 
 **Nota:** Si se selecciona "Permitir repetición", el evento sólo se activará tantas veces como lo permita el temporizador de "Retardo de repetición". Para este tipo de regla, el temporizador de repetición por defecto es de 5 minutos, pero puede ajustarse mediante el campo "Retraso de repetición".
 
-Para los ajustes habituales, consulte [Normas y notificaciones](../).
+</details>
+
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

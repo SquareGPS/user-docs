@@ -20,9 +20,9 @@ La configuración del límite de velocidad define el umbral a partir del cual se
 
 #### Límite de velocidad, Dispositivos procesados
 
-Para los eventos de exceso de velocidad detectados por el dispositivo, no hay una configuración específica en las Reglas y Notificaciones. En su lugar, utilice el widget Configuración del dispositivo para configurar remotamente el límite de velocidad en el dispositivo.
+Para los eventos de exceso de velocidad detectados por el dispositivo, no hay una configuración específica en las Reglas y Alertas. En su lugar, utilice el widget Configuración del dispositivo para configurar remotamente el límite de velocidad en el dispositivo.
 
-Para los ajustes habituales, consulte [Normas y notificaciones](https://squaregps.atlassian.net/wiki/spaces/USERDOCS/pages/2761228324/Rules+and+Notifications#Manage-rules).
+Para los ajustes habituales, consulte [Reglas y alertas](../).
 
 ## Detalles del funcionamiento del sistema
 

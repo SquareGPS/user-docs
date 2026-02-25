@@ -12,9 +12,9 @@ Este documento describe cómo se protegen los dispositivos GPS y la información
 
 Cuando un usuario añade un dispositivo GPS, éste se crea efectivamente bajo la cuenta del Propietario, por lo que incluso después de que se elimine el usuario, el dispositivo GPS permanece en la cuenta de la organización. El Propietario puede especificar qué usuarios pueden ver los datos del dispositivo GPS, como los viajes o los datos de los sensores, lo que garantiza que sólo las personas autorizadas puedan ver y gestionar el dispositivo.
 
-![image-20240718-040427.png](../../../gua-del-usuario/cuenta/acceso-del-equipo/attachments/image-20240718-040427.png)
+![](../../../gua-del-usuario/cuenta/acceso-del-equipo/attachments/image-20240718-040427.png)
 
 ## Artefactos asociados
 
-* **Normas de notificación**: Las reglas de notificación permiten a los usuarios configurar alertas basadas en diversos criterios, como el exceso de velocidad o la salida de una geo-valla. Cuando un usuario crea una regla, ésta se crea efectivamente en la cuenta del Propietario. Otros usuarios que tengan acceso al dispositivo en cuestión también podrán ver y utilizar estas reglas.
-* **Lugares y geocercas**: Los usuarios pueden crear Lugares y Geocercas para definir áreas específicas de interés. Aunque estos artefactos son gestionados por el usuario que los creó, están efectivamente vinculados a la cuenta del Propietario. El Propietario puede conceder acceso a estas geo-vallas a otros usuarios dentro de la organización. Sólo los usuarios con los permisos adecuados pueden ver y modificar estas geovallas.
+* **Normas de notificación**: Las reglas de notificación permiten a los usuarios configurar alertas basadas en diversos criterios, como el exceso de velocidad o la salida de una geocerca. Cuando un usuario crea una regla, esta se crea efectivamente en la cuenta del propietario. Otros usuarios que tengan acceso al dispositivo en cuestión también podrán ver y utilizar estas reglas.
+* **Lugares y geocercas**: Los usuarios pueden crear Lugares (POI) y geocercas para definir áreas específicas de interés. Aunque estos artefactos son gestionados por el usuario que los creó, están efectivamente vinculados a la cuenta del propietario. El propietario puede conceder acceso a estas geocercas a otros usuarios dentro de la organización. Solo los usuarios con los permisos adecuados pueden ver y modificar estas geovallas.
