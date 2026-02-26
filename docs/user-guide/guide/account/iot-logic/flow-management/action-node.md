@@ -3,12 +3,12 @@
 ## Technical overview and capabilities
 
 {% columns %}
-{% column width="50%" %}
+{% column width="58.333333333333336%" %}
 **Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/action-node.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -18,20 +18,17 @@ While Action nodes can receive data from any node type, they are most commonly c
 The **Action** nodes are configured separately for each flow in the Navixy platform UI. Each node can contain multiple actions that execute sequentially when triggered by incoming data.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Action-node-in-flow.webp" alt=""><figcaption></figcaption></figure>
 
-## How Action nodes work
+### How Action nodes work
 
-When data reaches an **Action** node, the system executes the configured actions for the devices that provided the incoming data. The execution process follows these steps:
+When data reaches an **Action** node, the system identifies which devices provided the incoming data and executes the configured actions for those devices only. For full details on execution sequence and targeting, see [Action execution and targeting](#action-execution-and-targeting) below.
 
-* **Device identification**: The node identifies which specific devices sent the data that triggered the action
-* **Sequential execution**: All configured actions within the node execute in the order they appear (top to bottom)
-* **Command transmission**: Actions are sent only to the identified devices, ensuring targeted responses
-* **Device processing**: Individual devices receive and process commands according to their capabilities
+{% hint style="info" %}
+**Device connectivity requirement**: Actions are sent only to devices that are confirmed online (those providing recent data), ensuring reliable command delivery.
+{% endhint %}
 
-This targeting mechanism ensures that actions execute only for relevant devices. When connected to [IF/THEN Logic](logic-node/) nodes, actions trigger only for devices that caused the logical condition to evaluate as true, providing precise automation control.
-
-## Flow architecture integration
+### Flow architecture integration
 
 **Action** nodes function as terminal nodes within the flow architecture, receiving triggers from upstream nodes without passing data forward. The automation capabilities integrate with Navixy's broader device management system through:
 
@@ -40,19 +37,20 @@ This targeting mechanism ensures that actions execute only for relevant devices.
 * **Fleet-wide coordination**: When connected to multiple device sources, actions can coordinate responses across entire vehicle groups simultaneously
 * **Device capability respect**: Individual device limitations are honored, with unsupported commands being received but not executed
 
-{% hint style="info" %}
-**Device connectivity requirement**: Actions are sent only to devices that are confirmed online (those providing recent data), ensuring reliable command delivery. In the rare event that a device goes offline immediately after sending data, or if multiple commands are pending, the actions are queued and executed as soon as the device is available again.
-{% endhint %}
-
 ## Configuration options
 
 {% columns %}
 {% column valign="middle" %}
-Setting up an **Action** node determines what automated responses will be executed when the node receives triggers from upstream processing nodes.
+Configuring an **Action** node determines what commands execute and, optionally, which additional devices receive those same commands.
+
+The configuration dialog is organized into two tabs:
+
+* **Standard**: defines what commands to execute. Works independently, with no dependency on the Advanced tab.
+* **Advanced**: defines which additional devices receive the same commands when the node is triggered. Optional.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/Action_node_edit.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/action-node-edit.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -62,7 +60,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-**Specify node Name**
+#### **Specify Node name**
 
 Enter a descriptive name that identifies the automated actions this node will perform
 
@@ -71,16 +69,16 @@ Enter a descriptive name that identifies the automated actions this node will pe
 {% endstep %}
 
 {% step %}
-**Select Action type**
+#### **Select Action type**
 
-Choose the type of automated response from the dropdown menu
+In the **Standard** tab, choose the type of automated response from the dropdown menu
 
 1. **Switch Output**: Control device outputs by switching them on or off
 2. **Send GPRS Command**: Transmit custom commands directly to devices
 {% endstep %}
 
 {% step %}
-**Configure action parameters**
+#### **Configure action parameters**
 
 Set up the specific details based on your selected action type:
 
@@ -88,7 +86,7 @@ Set up the specific details based on your selected action type:
 
 <summary>Switch Output configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/Action_node_edit_switch_output.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/action-node-switch-output.png" alt=""><figcaption></figcaption></figure>
 
 When configuring Switch Output actions:
 
@@ -104,7 +102,7 @@ When configuring Switch Output actions:
 
 <summary>Send GPRS Command configuration</summary>
 
-<figure><img src="../../../../.gitbook/assets/Action_node_edit_GPRS.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/action-node-gprs.png" alt=""><figcaption></figcaption></figure>
 
 When configuring GPRS Command actions:
 
@@ -113,29 +111,42 @@ When configuring GPRS Command actions:
   * Consult device documentation for available commands and proper formatting
   * There are no character restrictions in the input field
 
-{% hint style="danger" %}
-Action execution depends on individual device capabilities. Ensure your devices support the specific commands you're configuring. Information on the commands supported by a specific device is available in manufacturer resources like device documentation.
-{% endhint %}
-
 </details>
 {% endstep %}
 
 {% step %}
-**Add additional actions (optional)**
+#### **Add additional actions (optional)**
 
-Click **Add Actiona**to create multiple actions within the same node
+Click **Add action** to create multiple actions within the same node.
 
-* Actions execute sequentially in the order they appear in the configuration
+{% hint style="info" %}
+* Action commands are sent upon receiving a data package from the device according to the flow configuration
+* Commands execute sequentially in the order they appear in the configuration
 * Each action can be a different type (Switch Output or GPRS Command)
 * Use the bin icon to remove unnecessary actions
+{% endhint %}
 {% endstep %}
 
 {% step %}
-**Save configuration**
+#### **Configure recipient mappings (optional)**
 
-Click **Apply changes** to save your node configuration
+Open the **Advanced** tab to define which additional devices receive the same commands when the node is triggered.
 
-* Use **Cacel** to discard changes
+<figure><img src="../../../../.gitbook/assets/action-node-advanced-tab.png" alt=""><figcaption></figcaption></figure>
+
+1. Use the **Source device** dropdown to select the device whose incoming data triggers the node. This must be a device present in the flow's **Data Source node**.
+2. Use the **Target devices** dropdown to select one or more devices that will receive the same commands.
+3. Click **+ Custom mapping** to add additional source-to-target pairs if different source devices should propagate commands to different sets of target devices.
+
+{% hint style="info" %}
+The Advanced tab is optional. Without it, the node behaves exactly as before — commands execute only for the triggering device.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+#### **Save configuration**
+
+Click **APPLY** to save your node configuration
 {% endstep %}
 {% endstepper %}
 
@@ -172,7 +183,7 @@ When triggered, the Action node follows this execution pattern:
 
 #### How do I know if my actions were executed successfully?
 
-Currently, action execution feedback is limited. Commands are sent to devices that are confirmed online (those providing recent data) without execution time gap, which eliminates the possibilityu of the device going offline between trigger and execution. You can monitor device behavior during test stage, or use separate test flows to verify action results in a controllable environement.
+Currently, action execution feedback is limited. Commands are sent to devices that are confirmed online (those providing recent data) without execution time gap, which eliminates the possibility of the device going offline between trigger and execution. You can monitor device behavior during test stage, or use separate test flows to verify action results in a controllable environment.
 
 #### Can I connect multiple nodes to the same Action node?
 

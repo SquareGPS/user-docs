@@ -8,13 +8,13 @@
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-162909.png" alt="Data source node in the flow workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-162909 (3).png" alt="Data source node in the flow workspace"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 ### Flow architecture integration
 
-<figure><img src="../../../../.gitbook/assets/Data-source-in-flow.webp" alt="Data source node included in a flow on workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Data-source-in-flow (3).webp" alt="Data source node included in a flow on workspace"><figcaption></figcaption></figure>
 
 **Data Source node** functions as the entry point for data in an IoT Logic flow. A single flow can contain multiple source nodes, each with independent configurations. This architecture enables:
 
@@ -51,7 +51,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### Specify **Node name**
+**Specify Node name**
 
 Enter a descriptive name for this data source:
 
@@ -60,13 +60,13 @@ Enter a descriptive name for this data source:
 {% endstep %}
 
 {% step %}
-#### Select **Sources**
+**Select Sources**
 
 From the filtered list, select the devices to include. Only devices registered in your Navixy user account will be available for selection.
 {% endstep %}
 
 {% step %}
-#### Save the node configuration
+**Save the node configuration**
 
 Click **Apply changes** to complete the node creation.
 {% endstep %}
@@ -109,4 +109,4 @@ The protocol should match the communication protocol used by your device manufac
 
 Yes, you can connect a **Data Source node** to multiple processing nodes to create parallel processing paths. This allows you to apply different transformations to the same data stream. Here’s an example:
 
-<figure><img src="../../../../.gitbook/assets/image-20250404-075539.png" alt="Example showing the Data source node in context with multiple outbound connections and outputs"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250404-075539 (3).png" alt="Example showing the Data source node in context with multiple outbound connections and outputs"><figcaption></figcaption></figure>

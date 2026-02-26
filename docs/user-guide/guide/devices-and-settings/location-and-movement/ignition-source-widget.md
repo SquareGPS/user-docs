@@ -7,7 +7,7 @@ Many advanced GPS devices offer the flexibility to determine the ignition status
 * **Voltage-based ignition detection**: When the engine is running, the vehicle's generator supplies power at a higher voltage than the battery to keep it charged. By monitoring this voltage increase, the device can accurately determine when the ignition is on.
 * **Motion sensor-based ignition detection**: This option is useful when the device isn't connected to the vehicle's electrical system. The ignition status is inferred from the vehicle's movement. However, note that this method may also detect ignition when the vehicle is being towed, even if the engine isn't running.
 
-![](../../../.gitbook/assets/image-20240815-213014.png)
+![](<../../../.gitbook/assets/image-20240815-213014 (3).png>)
 
 ## Virtual ignition source configuration
 
@@ -20,7 +20,7 @@ This configuration allows for flexible and accurate monitoring of the vehicle's 
 
 #### Example configuration
 
-![](../../../.gitbook/assets/image-20240815-213517.png)
+![](<../../../.gitbook/assets/image-20240815-213517 (3).png>)
 
 The **Ignition source widget** allows users to choose the criteria for determining the ignition status. You can select from the following options:
 

@@ -2,11 +2,11 @@
 
 **Places** in the **Field service** application can be used for organizing and managing key locations that your field staff need to visit, such as customer addresses, company sites, or other important points of interest. This helps streamline task assignments, optimize routes, and ensure efficient field operations.
 
-![](../../.gitbook/assets/image-20240816-175137.png)
+![](<../../.gitbook/assets/image-20240816-175137 (3).png>)
 
 Upon entering the Places section, you will see a list of all available places along with their details, including custom fields you've added.
 
-![](../../.gitbook/assets/image-20240816-174653.png)
+![](<../../.gitbook/assets/image-20240816-174653 (3).png>)
 
 ## Creating and Managing Places
 

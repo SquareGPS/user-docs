@@ -6,7 +6,7 @@
 {% endcolumn %}
 
 {% column %}
-![](../../../.gitbook/assets/image-20250304-162123.png)
+![](<../../../.gitbook/assets/image-20250304-162123 (1).png>)
 
 <p align="center"><strong>Download Links</strong></p>
 

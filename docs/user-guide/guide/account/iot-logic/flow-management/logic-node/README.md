@@ -8,7 +8,7 @@ The **IF/THEN Logic** node creates intelligent branching points that route incom
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../../.gitbook/assets/Logic_node.webp" alt="IF/THEN Logic node in the flow workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/logic-node.png" alt="IF/THEN Logic node tile"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -17,7 +17,7 @@ The **IF/THEN Logic** nodes are configured separately for each flow in the Navix
 For specific syntax options related to logical expressions, see [IF/THEN Logic expressions and syntax](logic-node-expressions-and-syntax.md).
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/Logic-node-in-flow.webp" alt="IF/THEN Logic node in flow context with other nodes showing connections"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Logic-node-in-flow (1).webp" alt="IF/THEN Logic node positioning in the flow architecture (with inbound and outbound connections)"><figcaption></figcaption></figure>
 
 ### How IF/THEN Logic nodes work
 
@@ -72,7 +72,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### **Specify node name**
+**Specify node name**
 
 Enter a descriptive name for this **IF/THEN Logic** node.
 
@@ -81,7 +81,7 @@ Enter a descriptive name for this **IF/THEN Logic** node.
 {% endstep %}
 
 {% step %}
-#### **Define expression name**
+**Define expression name**
 
 Enter the name for the boolean attribute that will store the validation result.
 
@@ -91,7 +91,7 @@ Enter the name for the boolean attribute that will store the validation result.
 {% endstep %}
 
 {% step %}
-#### **Create a conditional expression**
+**Create a conditional expression**
 
 Build your logical statement using the expression field.
 
@@ -101,13 +101,13 @@ Build your logical statement using the expression field.
 {% endstep %}
 
 {% step %}
-#### Save the node configuration
+**Save the node configuration**
 
 Click **Apply changes** to complete the node creation.
 {% endstep %}
 
 {% step %}
-#### **Connect output paths**
+**Connect output paths**
 
 After you configured the node, you need to establish connections for the validation results.
 
@@ -127,7 +127,7 @@ For detailed information on expression syntax, operators, and data flow behavior
 
 The **IF/THEN Logic** node creates two distinct output paths based on the expression evaluation results.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091115.png" alt="IF/THEN Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091115 (1).png" alt="IF/THEN Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
 
 ### THEN connection (<mark style="color:green;">green</mark>)
 
@@ -181,7 +181,7 @@ IF/THEN Logic node results appear as boolean attributes in the [Data Stream Anal
 
 Yes. You can connect **IF/THEN Logic** nodes sequentially to create complex decision trees. Each **IF/THEN Logic** node can reference the boolean attributes created by previous **IF/THEN Logic** nodes, enabling sophisticated multi-stage validation workflows.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091554.png" alt="Example flow showing multiple IF/THEN Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091554 (1).png" alt="Example flow showing multiple IF/THEN Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
 
 #### Why must IF/THEN Logic branches connect to Output Endpoints?
 
