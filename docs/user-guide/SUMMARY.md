@@ -26,7 +26,7 @@
           * [Displaying new calculated attributes on the Navixy platform](guide/account/iot-logic/flow-management/initiate-attribute-node/displaying-new-calculated-attributes-on-the-navixy-platform.md)
         * [IF/THEN Logic](guide/account/iot-logic/flow-management/logic-node/README.md)
           * [IF/THEN Logic expressions and syntax](guide/account/iot-logic/flow-management/logic-node/logic-node-expressions-and-syntax.md)
-        * [Action](guide/account/iot-logic/flow-management/action-node.md)
+        * [Device action](guide/account/iot-logic/flow-management/action-node.md)
         * [Webhook](guide/account/iot-logic/flow-management/webhook-node.md)
         * [Output Endpoint](guide/account/iot-logic/flow-management/output-endpoint-node.md)
         * [Flow configuration example](guide/account/iot-logic/flow-management/flow-configuration-example.md)

@@ -1,10 +1,10 @@
-# Action
+# Device action
 
 ## Technical overview and capabilities
 
 {% columns %}
 {% column width="58.333333333333336%" %}
-**Action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.
+**Device action** nodes in IoT Logic enable automated device control by executing specific commands when triggered by incoming data flows. These nodes transform passive fleet monitoring into active automation systems, performing critical operations like output switching and GPRS command transmission.
 {% endcolumn %}
 
 {% column width="50%" %}
@@ -12,17 +12,17 @@
 {% endcolumn %}
 {% endcolumns %}
 
-While Action nodes can receive data from any node type, they are most commonly connected to [IF/THEN Logic](logic-node/) nodes that evaluate conditions and trigger actions only when specific criteria are met, such as temperature thresholds, unauthorized movement, or harsh driving incidents.
+While Device action nodes can receive data from any node type, they are most commonly connected to [IF/THEN Logic](logic-node/) nodes that evaluate conditions and trigger actions only when specific criteria are met, such as temperature thresholds, unauthorized movement, or harsh driving incidents.
 
 {% hint style="info" %}
-The **Action** nodes are configured separately for each flow in the Navixy platform UI. Each node can contain multiple actions that execute sequentially when triggered by incoming data.
+The **Device action** nodes are configured separately for each flow in the Navixy platform UI. Each node can contain multiple actions that execute sequentially when triggered by incoming data.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/Action-node-in-flow.webp" alt=""><figcaption></figcaption></figure>
 
-### How Action nodes work
+### How Device action nodes work
 
-When data reaches an **Action** node, the system identifies which devices provided the incoming data and executes the configured actions for those devices only. For full details on execution sequence and targeting, see [Action execution and targeting](#action-execution-and-targeting) below.
+When data reaches a **Device action** node, the system identifies which devices provided the incoming data and executes the configured actions for those devices only. For full details on execution sequence and targeting, see [Action execution and targeting](action-node.md#action-execution-and-targeting) below.
 
 {% hint style="info" %}
 **Device connectivity requirement**: Actions are sent only to devices that are confirmed online (those providing recent data), ensuring reliable command delivery.
@@ -30,7 +30,7 @@ When data reaches an **Action** node, the system identifies which devices provid
 
 ### Flow architecture integration
 
-**Action** nodes function as terminal nodes within the flow architecture, receiving triggers from upstream nodes without passing data forward. The automation capabilities integrate with Navixy's broader device management system through:
+**Device action** nodes function as terminal nodes within the flow architecture, receiving triggers from upstream nodes without passing data forward. The automation capabilities integrate with Navixy's broader device management system through:
 
 * **Conditional automation**: Integration with [IF/THEN Logic](logic-node/) nodes enables sophisticated IF-THEN workflows where actions execute only when specific conditions are validated
 * **Real-time device control**: Commands are transmitted within seconds of receiving triggers, ensuring immediate response to critical conditions
@@ -41,7 +41,7 @@ When data reaches an **Action** node, the system identifies which devices provid
 
 {% columns %}
 {% column valign="middle" %}
-Configuring an **Action** node determines what commands execute and, optionally, which additional devices receive those same commands.
+Configuring a **Device action** node determines what commands execute and, optionally, which additional devices receive those same commands.
 
 The configuration dialog is organized into two tabs:
 
@@ -60,7 +60,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### **Specify Node name**
+**Specify node Name**
 
 Enter a descriptive name that identifies the automated actions this node will perform
 
@@ -69,7 +69,7 @@ Enter a descriptive name that identifies the automated actions this node will pe
 {% endstep %}
 
 {% step %}
-#### **Select Action type**
+**Select Action type**
 
 In the **Standard** tab, choose the type of automated response from the dropdown menu
 
@@ -78,7 +78,7 @@ In the **Standard** tab, choose the type of automated response from the dropdown
 {% endstep %}
 
 {% step %}
-#### **Configure action parameters**
+**Configure action parameters**
 
 Set up the specific details based on your selected action type:
 
@@ -115,7 +115,7 @@ When configuring GPRS Command actions:
 {% endstep %}
 
 {% step %}
-#### **Add additional actions (optional)**
+**Add additional actions (optional)**
 
 Click **Add action** to create multiple actions within the same node.
 
@@ -128,7 +128,7 @@ Click **Add action** to create multiple actions within the same node.
 {% endstep %}
 
 {% step %}
-#### **Configure recipient mappings (optional)**
+**Configure recipient mappings (optional)**
 
 Open the **Advanced** tab to define which additional devices receive the same commands when the node is triggered.
 
@@ -144,9 +144,9 @@ The Advanced tab is optional. Without it, the node behaves exactly as before —
 {% endstep %}
 
 {% step %}
-#### **Save configuration**
+**Save configuration**
 
-Click **APPLY** to save your node configuration
+Click **Apply changes** to save your node configuration
 {% endstep %}
 {% endstepper %}
 
@@ -156,11 +156,11 @@ Click **APPLY** to save your node configuration
 
 ## Action execution and targeting
 
-The Action node provides precise control over when and where commands are executed, ensuring efficient and targeted automation responses.
+The **Device action** node provides precise control over when and where commands are executed, ensuring efficient and targeted automation responses.
 
 ### Execution sequence
 
-When triggered, the Action node follows this execution pattern:
+When triggered, the **Device action** node follows this execution pattern:
 
 1. **Device targeting**: Actions are sent only to devices that provided data in the current trigger event
    1. This ensures commands reach only the specific devices involved in the condition
@@ -185,10 +185,10 @@ When triggered, the Action node follows this execution pattern:
 
 Currently, action execution feedback is limited. Commands are sent to devices that are confirmed online (those providing recent data) without execution time gap, which eliminates the possibility of the device going offline between trigger and execution. You can monitor device behavior during test stage, or use separate test flows to verify action results in a controllable environment.
 
-#### Can I connect multiple nodes to the same Action node?
+#### Can I connect multiple nodes to the same Device action node?
 
-Yes. Action nodes can receive triggers from multiple upstream nodes, but be aware that actions will execute for any device that triggers any connected node. When designing complex flows, consider the cumulative effect of multiple trigger sources to ensure actions execute only for intended scenarios.
+Yes. Device action nodes can receive triggers from multiple upstream nodes, but be aware that actions will execute for any device that triggers any connected node. When designing complex flows, consider the cumulative effect of multiple trigger sources to ensure actions execute only for intended scenarios.
 
-#### What happens if I connect an Action node directly to a Data Source?
+#### What happens if I connect a Device action node directly to a Data Source?
 
-The Action node will execute its configured actions every time any device in the Data Source sends data. This creates continuous action execution rather than conditional responses. For most use cases, connecting Action nodes to [IF/THEN Logic](logic-node/) nodes provides better control over when actions should execute.
+The Device action node will execute its configured actions every time any device in the Data Source sends data. This creates continuous action execution rather than conditional responses. For most use cases, connecting Device action nodes to [IF/THEN Logic](logic-node/) nodes provides better control over when actions should execute.
