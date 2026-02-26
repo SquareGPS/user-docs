@@ -217,6 +217,10 @@ Any unsaved changes in the current flow will be lost when switching, you will be
 
 IoT Logic allows you to export flow configurations for backup purposes or to share them with other accounts. You can also import previously exported configurations to quickly set up new flows.
 
+Here's an example of an exported/ready-to-import flow JSON file:
+
+{% file src="../../../../.gitbook/assets/iot-logic-full-example-exported-flow.json" %}
+
 ### Exporting a flow
 
 To export your flow configuration:
