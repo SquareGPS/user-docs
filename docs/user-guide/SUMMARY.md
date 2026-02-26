@@ -5,6 +5,7 @@
     * [Sign up](guide/quick-start/sign-up.md)
     * [Activate GPS device](guide/quick-start/activate-gps-device.md)
     * [Activate X-GPS tracker app](guide/quick-start/activate-x-gps-tracker-app.md)
+    * [Activate OEM device](guide/quick-start/activate-oem-device.md)
     * [About service providers](guide/quick-start/about-service-providers.md)
   * [User account](guide/account/README.md)
     * [Profile](guide/account/profile.md)
