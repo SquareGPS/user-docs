@@ -7,8 +7,9 @@ How can I customize my web address for the platform?
 ### Answer
 
 1. Create a CNAME record pointing to:
-   * `saas.navixy.com`, or
+   * `saas.navixy.com` (EU instance)
    * `saas.us.navixy.com` (US instance)
+   * `saas.me.navixy.com` (Middle east instance)
 2. The CNAME must be a subdomain (for example `platform.yourdomain.com`).
    * It cannot be a parent domain like `yourdomain.com`.
 3.  In Admin Panel, set:
