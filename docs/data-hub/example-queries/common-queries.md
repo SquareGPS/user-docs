@@ -1,6 +1,6 @@
 # Common queries
 
-As you connect to the database, you will be able to retrieve data via SQL queries. This section provides sample SQL queries to help you start working with the Private Telematics Lakehouse. These examples demonstrate how to access and analyze data from the Bronze layer, which contains raw business and telematic data with minimal transformation.
+As you connect to the database, you will be able to retrieve data via SQL queries. This section provides sample SQL queries to help you start working with the Private Telematics Lakehouse. These examples demonstrate how to access and analyze data from the **Raw data** layer, which contains raw business and telematic data with minimal transformation.
 
 {% hint style="danger" %}
 Please note: Due to the database containing a huge amount of information, please make sure to make test queries based on a limited number of values retrieved.

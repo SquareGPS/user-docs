@@ -17,7 +17,7 @@ Dashboard Studio app interface, built-in dashboard templates, custom dashboard c
 
 ## What are dashboards
 
-Dashboards contain panels that display data visualizations. Each panel runs a SQL query against your IoT Query database, the same Bronze and Silver layers you access through SQL clients. You arrange panels on a canvas, configure their appearance, and save the complete report to your menu. Dashboard Studio updates panels continuously to reflect current IoT Query data.
+Dashboards contain panels that display data visualizations. Each panel runs a SQL query against your IoT Query database, the same Raw data and Transformation layers you access through SQL clients. You arrange panels on a canvas, configure their appearance, and save the complete report to your menu. Dashboard Studio updates panels continuously to reflect current IoT Query data.
 
 {% hint style="info" %}
 ### Before you start
@@ -106,7 +106,7 @@ Now it's time to add the diagram settings:
 
 ### How to write effective SQL queries
 
-Now that you understand the basic workflow, let's explore SQL queries in detail. Write PostgreSQL queries that reference IoT Query tables in the SQL Query tab. All Bronze and Silver layer tables are available. Test queries before applying them to verify results match your visualization requirements.
+Now that you understand the basic workflow, let's explore SQL queries in detail. Write PostgreSQL queries that reference IoT Query tables in the SQL Query tab. All Raw data and Transformation layer tables are available. Test queries before applying them to verify results match your visualization requirements.
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

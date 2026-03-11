@@ -262,13 +262,13 @@ This pattern combines global variables (date ranges) with statement-specific par
 
 ### How to access IoT Query schemas
 
-IoT Query organizes data in Bronze, Silver, and Gold layers. Understanding which layer to use saves time and improves SQL clarity. For complete schema details, see the [IoT Query Schema Overview](https://www.navixy.com/docs/analytics/iotquery/schema-overview).
+IoT Query organizes data in Raw data, Transformation, and Insight layers. Understanding which layer to use saves time and improves SQL clarity. For complete schema details, see the [IoT Query Schema Overview](https://www.navixy.com/docs/analytics/iotquery/schema-overview).
 
-**Bronze layer** contains raw tracking points from devices: `bronze.tracking_data_core` stores every GPS position with timestamps, coordinates, and sensor readings. Use Bronze for point-level analysis or when you need raw sensor values not processed into higher layers.
+**Raw data layer** contains raw tracking points from devices: `bronze.tracking_data_core` stores every GPS position with timestamps, coordinates, and sensor readings. Use Raw data for point-level analysis or when you need raw sensor values not processed into higher layers.
 
-**Silver layer** provides processed entities: `silver.trips` aggregates tracking points into trip records with start/end times, distance, and duration. `silver.zone_visits` records when devices enter and exit geofences. `silver.idle_events` identifies periods when vehicles remain stationary with engines running. Use Silver for most visualization needs since it provides analysis-ready structures.
+**Transformation layer** provides processed entities: `silver.trips` aggregates tracking points into trip records with start/end times, distance, and duration. `silver.zone_visits` records when devices enter and exit geofences. `silver.idle_events` identifies periods when vehicles remain stationary with engines running. Use Transformation for most visualization needs since it provides analysis-ready structures.
 
-**Gold layer** offers pre-aggregated metrics and dimensional models for complex analytics. Use Gold for fleet-wide statistics or multi-dimensional analysis that would require complex joins against Silver tables.
+**Insight layer** offers pre-aggregated metrics and dimensional models for complex analytics. Use Insight for fleet-wide statistics or multi-dimensional analysis that would require complex joins against Silver tables.
 
 Reference tables using `schema.table` format: `silver.trips`, not just `trips`. Include date range filters in WHERE clauses to limit data scanned:
 
@@ -459,4 +459,4 @@ You just need to:
 
 The core WHERE and JOIN logic remains the same; you adjust only the output structure.
 
-For schema details, see the [IoT Query Schema Overview](https://www.navixy.com/docs/analytics/iotquery/schema-overview). This reference explains available tables, column definitions, and relationships between Bronze, Silver, and Gold layers.
+For schema details, see the [IoT Query Schema Overview](https://www.navixy.com/docs/analytics/iotquery/schema-overview). This reference explains available tables, column definitions, and relationships between Raw data, Transformation, and Insight layers.

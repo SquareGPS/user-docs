@@ -4,7 +4,7 @@
 
 ## What Dashboard Studio offers
 
-Dashboard Studio extends your **IoT Query** access with an advanced analytics layer, delivering fleet-optimized visualizations through a web-based interface. You execute SQL queries against your **IoT Query** database across **Bronze**, **Silver**, and **Gold** layers, and Dashboard Studio renders results as interactive dashboards. The dashboards update automatically as new telemetry data arrives, providing current views of fleet operations without manual data exports.
+Dashboard Studio extends your **IoT Query** access with an advanced analytics layer, delivering fleet-optimized visualizations through a web-based interface. You execute SQL queries against your **IoT Query** database across **Raw data**, **Transformation**, and **Insight** layers, and Dashboard Studio renders results as interactive dashboards. The dashboards update automatically as new telemetry data arrives, providing current views of fleet operations without manual data exports.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,7 +22,7 @@ Dashboard Studio addresses common analytics challenges faced by fleet operations
 
 * **Self-service analytics:** Build and modify dashboards with minimal SQL knowledge using LLMs and examples from our [Recipe Book](../example-queries/)
 * **Fleet-optimized visualizations:** Four chart types designed for telematics and operational workflows
-* **Integrated with your data architecture:** Query across Bronze, Silver, and Gold layers based on your analysis needs, from detailed exploration to pre-aggregated metrics
+* **Integrated with your data architecture:** Query across Raw data, Transformation, and Insight layers based on your analysis needs, from detailed exploration to pre-aggregated metrics
 * **No external BI investment:** Analytics layer that uses your existing IoT Query access without a separate BI platform infrastructure
 
 ## Core capabilities
@@ -54,7 +54,7 @@ Dashboard Studio addresses the gap between basic reporting and full business int
 
 Dashboard Studio requires active **IoT Query** access to function. The application queries your IoT Query database directly, using the same schemas, tables, and layered architecture you access through SQL clients or other analytics tools.
 
-Contact your service provider to request IoT Query activation if you don't have access yet. The [Getting started with IoT Query](../) guide explains connection requirements and describes available data schemas across the Bronze, Silver, and Gold layers.
+Contact your service provider to request IoT Query activation if you don't have access yet. The [Getting started with IoT Query](../) guide explains connection requirements and describes available data schemas across the Raw data, Transformation, and Insight layers.
 
 ### How to access Dashboard Studio
 

@@ -1,9 +1,16 @@
-# Bronze layer
+---
+description: >-
+  See the source datasets for business entities, device telemetry, and
+  asset/inventory, plus key tables and update timing.
+---
 
-The Bronze layer contains two distinct data schemas, each serving different aspects of the telematics and business intelligence platform:
+# Raw data layer
 
-* [**raw\_business\_data**](bronze-layer.md#raw_business_data-structure) - containing tables, attributes, and values related to business information, such as vehicles, employees, geofences added by users, etc.
-* [**raw\_telematics\_data**](bronze-layer.md#raw_telematics_data-structure) - containing tables, attributes, and values related to the telematics data transmitting from devices under monitoring, such as locations, inputs, outputs, and events.
+The Raw data layer contains 3 distinct data schemas, each serving different aspects of the telematics and business intelligence platform:
+
+* [`raw_business_data`](bronze-layer.md#raw_business_data-structure) - containing tables, attributes, and values related to business information, such as vehicles, employees, geofences added by users, etc.
+* [`raw_telematics_data`](bronze-layer.md#raw_telematics_data-structure) - containing tables, attributes, and values related to the telematics data transmitting from devices under monitoring, such as locations, inputs, outputs, and events.
+* [`repo`](bronze-layer.md#repo-data-structure) - containing tables for asset and inventory management, including configurable asset types, custom fields, asset relationships, and geospatial data for organizational resource tracking.
 
 Each schema is optimized for its specific data domain and access patterns, providing comprehensive coverage of operational, telematic, and asset management needs.
 
