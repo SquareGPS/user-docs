@@ -139,4 +139,4 @@ After creating custom visualizations, assess whether this approach meets your an
 
 ## Next steps
 
-Based on your custom visualization experience, you may need more advanced capabilities. For comprehensive guidance on selecting appropriate business intelligence tools that match your specific requirements and organizational needs, see [Selecting BI tools](../../iotquery/connection-setup/selecting-bi-tools/).
+Based on your custom visualization experience, you may need more advanced capabilities. For comprehensive guidance on selecting appropriate business intelligence tools that match your specific requirements and organizational needs, see [Selecting BI tools](../../iot-query/connection-setup/selecting-bi-tools/).

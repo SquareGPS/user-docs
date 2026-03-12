@@ -44,13 +44,13 @@ Experience these analytical capabilities to determine whether these templates an
 * **Continue using this application** if standard dashboards and reports address your operational requirements, and occasional custom analysis meets specialized needs.
 * **Explore other BI solutions** if you need enterprise security, automated reporting systems, advanced visualization performance, or organization-wide analytical access.
 
-Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](../iotquery/connection-setup/selecting-bi-tools/).
+Use hands-on experience to make informed decisions about analytical infrastructure. For production options, see [BI tools selection guide](../iot-query/connection-setup/selecting-bi-tools/).
 
 ## Supporting resources
 
 Access comprehensive documentation and technical guidance to maximize your analytical capabilities and optimize system performance:
 
-* [Data schema overview](../iotquery/schema-overview/) explains data structure and relationships.
+* [Data schema overview](../iot-query/schema-overview/) explains data structure and relationships.
 * [Example queries](../example-queries/) provides proven analytical patterns and optimization techniques.
 * [Settings and configuration](settings-and-configuration.md) covers performance optimization and configuration options.
 
