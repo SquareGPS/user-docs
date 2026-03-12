@@ -215,3 +215,4 @@
       * [Offline mode](guide/x-gps-mobile-apps/x-gps-tracker/offline-mode.md)
   * [F.A.Q.](guide/faq/README.md)
     * [GPS device activation troubleshooting](guide/faq/gps-device-activation-troubleshooting.md)
+  * [Navixy AI assistant](guide/navixy-ai-assistant.md)

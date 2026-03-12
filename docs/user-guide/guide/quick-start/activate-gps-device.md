@@ -104,6 +104,7 @@ To manually activate your device, you must either send the SMS activation comman
 2. **Server address**: Choose the server address based on your data residency preferences and/or your Service Provider recommendations:
    1. EU platform: `tracker.navixy.com` (recommended) or `52.57.1.136`
    2. US platform: `tracker.us.navixy.com` (recommended) or `13.52.37.2`
+   3. ME platform: tracker.me.navixy.com (recommended) or `34.166.104.189`
 3. **Server port**: This parameter depends on your device make and model and can be found in the [Devices section](https://navixy.com/devices/) of our website. For example, for [Queclink GV65](https://www.navixy.com/devices/queclink/queclink-gv65/) device the server port would be `47764`.
 
 Please update those fields within your device configurator to begin connecting to our platform.
@@ -178,10 +179,6 @@ Because each integration can be unique, please consult the technical support of 
 
 <summary>Devices connected via other Telematics systems or Gateways</summary>
 
-
-
-</details>
-
 There are scenarios where devices are already connected to other telematics systems, such as OEM telematics platforms or other GPS servers, and you need them to be monitored on both that platform and Navixy.
 
 To monitor devices that are part of other telematics systems with Navixy, you need to:
@@ -191,7 +188,9 @@ To monitor devices that are part of other telematics systems with Navixy, you ne
 * Add a virtual device:\
   Create a virtual device on the Navixy platform that maps to the data source using a unique device identifier.
 
-For more details, please read how to [Integrate IoT Data from Servers and Gateways](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/gps-devices/add-and-manage-devices/integrate-iot-data-from-servers-and-gateways).
+For more details, please read how to [Integrate IoT Data from Servers and Gateways](https://squaregps.atlassian.net/wiki/spaces/SC/pages/2732621933).
+
+</details>
 
 ## FAQ and Troubleshooting
 
