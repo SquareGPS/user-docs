@@ -165,6 +165,7 @@
       * [Raw data widget](guide/devices-and-settings/object-management/raw-data-widget.md)
       * [Working statuses widget](guide/devices-and-settings/object-management/working-statuses-widget.md)
       * [Device timezone widget](guide/devices-and-settings/object-management/device-timezone-widget.md)
+      * [Output control widget](guide/devices-and-settings/object-management/output-control-widget.md)
     * [Location and movement](guide/devices-and-settings/location-and-movement/README.md)
       * [Tracking mode widget](guide/devices-and-settings/location-and-movement/tracking-mode-widget.md)
       * [Parking detection widget](guide/devices-and-settings/location-and-movement/parking-detection-widget.md)
