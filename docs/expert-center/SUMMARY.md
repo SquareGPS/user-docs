@@ -79,6 +79,7 @@
   * [Access IoT Data](faq-and-troubleshooting/access-iot-data/README.md)
     * [View tracks recorded in interval tracking mode](faq-and-troubleshooting/access-iot-data/view-tracks-recorded-in-interval-tracking-mode.md)
     * [GPS tracking of stationary assets with BLE tags](faq-and-troubleshooting/access-iot-data/gps-tracking-of-stationary-assets-with-ble-tags.md)
+    * [How to connect Telegram with Navixy-IoT Logic.](faq-and-troubleshooting/access-iot-data/how-to-connect-telegram-with-navixy-iot-logic..md)
     * [Save IoT data to CSV file](faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/README.md)
       * [Columns in CSV File](faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file.md)
   * [Mobile apps](faq-and-troubleshooting/mobile-apps/README.md)
