@@ -25,7 +25,9 @@ Clicking a template creates a flow immediately, with no separate confirmation st
 
 ## Available templates
 
-### Device healthcheck and reboot
+<details>
+
+<summary>Device healthcheck and reboot</summary>
 
 This template monitors GPS signal quality, coordinate availability, and board voltage on each incoming data packet. If any parameter falls outside the defined thresholds, the flow sends a reboot command to the device to recover from potential hardware or software issues. The template includes reboot commands for Teltonika and Jimi/Concox devices.
 
@@ -38,9 +40,11 @@ This template monitors GPS signal quality, coordinate availability, and board vo
 - Remove the **Device action** node that does not match your hardware, or replace both commands with the correct ones for your device.
 - Adjust the health check thresholds in the **IF/THEN Logic** node to match your requirements. The defaults are: satellites ≥ 4 and board voltage ≥ 11.5 V.
 
----
+</details>
 
-### Metric to Imperial Universal Unit Converter
+<details>
+
+<summary>Metric to Imperial Universal Unit Converter</summary>
 
 This template converts device telemetry between metric and imperial units, adding the converted values to each data packet. It covers temperature, speed, and fuel level in both directions. The two **Initiate Attribute** nodes convert in opposite directions; keep only the one that matches your use case.
 
@@ -54,9 +58,11 @@ This template converts device telemetry between metric and imperial units, addin
 - Remove any individual conversions from the remaining node that do not apply to your data.
 - Verify that the parameter names in the formulas match your device's actual parameter names.
 
----
+</details>
 
-### Perform an action in external system
+<details>
+
+<summary>Perform an action in external system</summary>
 
 This template triggers a webhook to an external system when a condition is met. It is pre-configured with a speed threshold (speed > 120 km/h) and a Slack webhook as an example. You can adapt it to any device parameter and any system that accepts webhooks.
 
@@ -70,9 +76,11 @@ This template triggers a webhook to an external system when a condition is met. 
 - Replace the **Webhook** node URL, headers, and body with your target system's endpoint configuration.
 - Update the request body to include the device parameters relevant to your use case.
 
----
+</details>
 
-### Idling detection
+<details>
+
+<summary>Idling detection</summary>
 
 This template detects excessive idling by monitoring ignition state and speed. When a vehicle stays stationary with the engine on for more than 10 minutes, the flow sets an alert custom parameter in the data packet. You can use that parameter to trigger alerts or reports in the tracking system. The same pattern works for any duration-based condition.
 
@@ -85,9 +93,11 @@ This template detects excessive idling by monitoring ignition state and speed. W
 - Adjust the idle duration threshold in the "Idle for 10 min" **IF/THEN Logic** node. The default is 600,000 ms (10 minutes).
 - To track a different condition, replace the ignition and speed check in the "Idle condition" **IF/THEN Logic** node with your own expression.
 
----
+</details>
 
-### Driver access control
+<details>
+
+<summary>Driver access control</summary>
 
 This template monitors hardware key authentication (iBeacon, RFID, or Dallas) on each ignition event. If the key is not on the authorized list, the flow blocks the engine and sends a messenger notification. The template is pre-configured for Telegram notifications and Teltonika engine block and unblock commands.
 
@@ -100,3 +110,5 @@ This template monitors hardware key authentication (iBeacon, RFID, or Dallas) on
 - Replace `ALLOWED_HW_KEY_1`, `ALLOWED_HW_KEY_2`, and `ALLOWED_HW_KEY_3` in the **IF/THEN Logic** node with your authorized key IDs.
 - To use a different messenger, replace the **Webhook** node configuration entirely with your target system's endpoint configuration.
 - For non-Teltonika devices, replace the engine block and unblock commands in the **Device action** nodes with the correct commands from your manufacturer's documentation.
+
+</details>
