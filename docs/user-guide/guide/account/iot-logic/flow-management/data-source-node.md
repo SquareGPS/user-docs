@@ -95,11 +95,7 @@ Yes, you can use several **Data source nodes** in one workspace. This is useful 
 
 #### What happens if a device is already used in another flow?
 
-Devices that are already used in other flows are not listed, so you cannot select same device twice in different flows.
-
-{% hint style="info" %}
-**Note for editors:** The answer above assumes one device can only belong to one flow at a time. Review and rewrite it in Stage 2 once multi-flow device behavior is confirmed.
-{% endhint %}
+A device can belong to multiple flows at the same time. If you add a device that is already used in another flow, both flows process its data simultaneously and results are merged to avoid data loss. Being assigned to another flow is not a restriction.
 
 #### Are all my Navixy devices automatically available in IoT Logic?
 

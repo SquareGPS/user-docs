@@ -33,19 +33,12 @@ This flow will transform the raw device data into a format that directly support
 Follow these steps to build a comprehensive data transformation and forwarding flow:
 
 {% stepper %}
-
-{% hint style="info" %}
-**Note for editors:** Step 1 references the old canvas-level New flow button and dialog. Rewrite it in Stage 2 to reflect flow creation starting on the start page.
-{% endhint %}
-
 {% step %}
 #### **Create a new flow**
 
-1. Click the **New flow** button at the top of the IoT Logic interface
-2. Enter _Asset Telemetry Processing_ as the flow name
-3. Add a description: "_Collects device data, calculates derived metrics, and forwards to analytics platform._"
-4. Ensure the **Flow enabled** toggle is switched on
-5. Click **Save** to create the flow
+Open IoT Logic. On the start page, click **Create Flow**. Enter _Asset Telemetry Processing_ as the flow name, add a description (_"Collects device data, calculates derived metrics, and forwards to analytics platform."_), and ensure the **Flow enabled** toggle is switched on. Click **Confirm** to open the canvas.
+
+[SCREENSHOT: Create Flow dialog with name and description fields filled in]
 {% endstep %}
 
 {% step %}

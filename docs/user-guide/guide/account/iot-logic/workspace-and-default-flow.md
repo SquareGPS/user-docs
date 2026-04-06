@@ -1,28 +1,40 @@
 # Workspace
 
+## Start page
+
+When you open IoT Logic, you land on the start page. The start page is the central hub for accessing your flows and creating new ones from scratch or from a template.
+
+[SCREENSHOT: IoT Logic start page showing both the Flow templates gallery and the Created flows table]
+
+### Flow templates
+
+The **Flow templates** gallery shows five pre-configured flow structures for common data processing scenarios. Each template card displays the template name and a brief description.
+
+Clicking a template card immediately creates a flow from that template and opens it on the canvas. A description modal appears over the canvas explaining the flow and its required setup steps.
+
+[SCREENSHOT: Template open on canvas with description modal visible]
+
+{% hint style="info" %}
+Clicking a template creates a flow immediately. You still need to assign devices to the **Data Source** node and configure any credentials, such as Webhook URLs or Device action commands, before the flow can process data.
+{% endhint %}
+
+### Created flows
+
+The **Created flows** table lists all existing flows in your account. The table includes the following columns: Flow name, Last modified, Connected devices, and Status.
+
+Each row provides the following controls: a status toggle to enable or disable the flow, a download icon to export the flow as a file, and a **"..."** menu with the options **Edit**, **Download**, and **Delete**.
+
+[SCREENSHOT: Created flows table with per-row controls visible]
+
+The page-level buttons at the top of the table are **Upload Flow** and **Create Flow**.
+
 ## IoT Logic workspace
 
-The workspace consists of three sections: **Flow settings bar (1)**, **Node pane (2)**, and **Canvas (3)**.
+The flow workspace consists of two sections: **Nodes pane (1)** and **Canvas (2)**.
 
 <figure><img src="../../../.gitbook/assets/IoT_Logic_workspace_example.webp" alt="IoT Logic workspace example (with a basic 3-step flow) visually divided by the numbered sections"><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-**Note for editors:** This section describes the pre-update UI. Rewrite it in Stage 2 once new screenshots are available and the new start page UI is confirmed.
-{% endhint %}
-
-### 1 - Flow settings bar
-
-The main controls for managing your data flows are gathered in the top menu bar:
-
-* **Data flow:** Shows a list of existing flows. If you have some data flows created already, you can select the necessary flow from the dropdown to open its configuration.
-  * **Pencil icon:** Allows editing flow information like **Flow name** and **Description**, and also switching it on/off. The button becomes active only if a flow is selected and is not default.
-  * **Bin icon:** Deletes the current flow configuration. If you don’t need a flow anymore, you can delete it from the platform completely.
-* **New flow:** This button opens the [flow creation window](flow-management/), where you can specify all information about your new flow.
-* **Upload:** This button allows you to import an existing flow configuration from a JSON file. This enables you to quickly replicate flow structures or migrate configurations between accounts.
-* **Data analyzer:** This button opens the [Data Stream Analyzer tool](data-stream-analyzer.md), which will help you see data from different sources and attributes and will be useful for diagnostics.
-* **Devices mapping**: Opens a table listing all devices in your account with their flow assignments, model information, and data source details. Use the search field to filter devices and quickly identify which flows contain specific devices.
-
-### 2 - Nodes pane
+### 1 - Nodes pane
 
 Available nodes are located in a separate pane on the left. You can drag-and-drop them onto the canvas of the current flow. The option to save the current flow configuration is also located on this pane. At the moment, the following nodes are available:
 
@@ -43,7 +55,7 @@ The nodes pane also includes flow management options at the bottom:
 The **Save flow** button saves the current flow configuration. If you edit something in the flow, don’t forget to save the changes. Unsaved changes can be discarded by the page reload.
 {% endhint %}
 
-### 3 - Canvas
+### 2 - Canvas
 
 This is the main interactive element of the workspace where your flows are visualized:
 
@@ -65,19 +77,13 @@ The default flow serves as a foundational data transmission path in the Navixy s
 
 * Present in every Navixy account regardless of whether IoT Logic is actively used
 * Cannot be deleted, edited, or modified in any way
-* Automatically includes all devices not assigned to custom flows
+* Processes all devices in the account, including those assigned to custom flows
 * Provides direct data transmission without transformations
 * Maintains system stability by protecting the default data transmission path
 
-When you create custom flows and assign specific data sources to them, those devices are automatically removed from the default flow to prevent data duplication. This ensures each device's data is processed through exactly one flow at any given time.
-
 ### Default input
 
-The **Default Input** node serves as the universal data collector for your account. It automatically receives data from all active devices that are not explicitly assigned to custom flows.
-
-This node functions as a dynamic container that adjusts its scope based on your custom flow configurations. As you create new custom flows and assign devices to them, those devices are removed from the default input's scope. Similarly, if you delete a custom flow, any devices previously managed by that flow return to the default input's scope.
-
-This dynamic behavior ensures complete data coverage across your account while preventing duplicate data processing.
+The **Default Input** node serves as the universal data collector for your account. It receives data from all devices, including those assigned to custom flows. Assigning a device to a custom flow does not affect its membership in the default flow.
 
 ### Default Output Endpoint
 
@@ -99,9 +105,9 @@ The **Default Output Endpoint** node is also available for use in custom flows. 
 
 ## Using Data Stream Analyzer with the default flow
 
-**Data Stream Analyzer** is flow-responsive, which means that it monitors only the data within the flow where it was opened. Using the tool within the default flow allows you to troubleshoot and monitor data transmission for all the devices in this account that are not assigned to any custom flows. In case there are no custom flows in the account at all, you can monitor every device in the account through the default flow. This functionality is particularly useful for diagnosing connectivity or data issues with devices that are not assigned to any custom flows.
+**Data Stream Analyzer** is flow-responsive, which means that it monitors only the data within the flow where it was opened. Using the tool within the default flow allows you to troubleshoot and monitor data transmission for all devices in the account, since the default flow processes every device. This functionality is particularly useful for diagnosing connectivity or data issues across your fleet.
 
-To access this feature, select the default flow and click <img src="../../../.gitbook/assets/image-20250403-151357 (3).png" alt="image-20250403-151357.png" data-size="line"> button in the top menu.
+To access this feature, go to the IoT Logic start page, click the default flow name in the **Created flows** table to open it on the canvas, then click the **Data Analyzer** tab at the top of the canvas.
 
 For detailed instructions on using the tool, refer to [Data Stream Analyzer](data-stream-analyzer.md).
 
@@ -110,12 +116,11 @@ For detailed instructions on using the tool, refer to [Data Stream Analyzer](dat
 The relationship between the default flow and custom flows follows these principles:
 
 1. **Every device in your account must have a path to transmit data** - The IoT Logic system ensures that all devices connected to your account always have a defined route for their data. This guarantees no device data is ever lost due to routing configuration issues, maintaining complete visibility of your device fleet.
-2. **Each device can only be assigned to one flow at a time** - To prevent duplicate data processing and ensure consistent handling, devices are exclusively assigned to a single flow. This creates clear data pathways and eliminates potential conflicts between different processing configurations.
-3. **The default flow automatically handles any device not explicitly assigned elsewhere** - The default flow serves as a "catch-all" mechanism that automatically manages all devices not specifically configured in custom flows. This ensures that newly added devices or devices removed from custom flows always have an immediate path for data transmission.
-4. **Custom flows take precedence over the default flow for device assignment** - When you create a custom flow and include specific devices, those devices are automatically removed from the default flow. This prioritization system allows you to implement specialized processing for selected devices while maintaining the default handling for others.
+2. **A device can belong to multiple flows at the same time** - All flows that include the device process its data simultaneously, and results are merged to avoid data loss. There are no constraints on how many flows a device can belong to.
+3. **The default flow processes all devices** - The default flow receives data from every device in your account, including those assigned to custom flows.
 
-This systematic approach ensures complete data coverage while allowing for customized data processing where needed.
+This approach ensures complete data coverage while allowing for customized data processing where needed.
 
 ## Default flow
 
-Navixy includes a pre-configured flow in every account that automatically collects data from all devices not assigned to any custom flow and sends it to the Navixy platform. This flow cannot be edited or deleted. For full details on how it works and how it relates to your custom flows, see [Default flow](flow-management/default-flow.md).
+Navixy includes a pre-configured flow in every account that processes data from all devices and sends it to the Navixy platform. This flow cannot be edited or deleted. For full details on how it works and how it relates to your custom flows, see [Default flow](flow-management/default-flow.md).

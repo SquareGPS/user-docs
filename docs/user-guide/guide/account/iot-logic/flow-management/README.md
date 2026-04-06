@@ -2,30 +2,20 @@
 
 IoT Logic provides a flexible canvas environment where you can build custom data flows to process, transform, and route device telemetry. Each flow consists of interconnected nodes that perform specific functions within your data processing pipeline, from receiving raw device data to forwarding enriched information to external systems.
 
-{% hint style="info" %}
-**Note for editors:** This section references the old canvas-level New flow button and dialog. Rewrite it in Stage 2 to reflect flow creation starting on the start page.
-{% endhint %}
-
 ## Creating a new flow
 
-IoT Logic starts with an empty workspace where you can design your data processing flow.
+You create flows from the IoT Logic start page using the **Create Flow** button.
 
-<figure><img src="../../../../.gitbook/assets/New_flow_dialog.png" alt=""><figcaption></figcaption></figure>
+1. Open IoT Logic. The start page opens with the **Created flows** table.
+2. Click **Create Flow**.
+3. Enter a name and description for the flow and set its initial enabled state.
+4. Click **Confirm**. The canvas opens and the new flow is ready to edit.
 
-Follow these simple steps to create a flow:
-
-1. Click the **New flow** button at the top of the screen to open the flow creation dialog.
-2. Enter a **Flow name** and provide an optional **Description** to clearly show specific details about this flow's functionality or purpose.
-3. Ensure the **Flow enabled** toggle is switched on (unless you're creating a flow that should initially remain inactive).
-4. Click **Save** to create your flow and access the flow workspace.
-
-The flow name and description help you identify each flow when you have multiple configurations. The enabled/disabled toggle provides a convenient way to temporarily stop data processing without deleting the entire flow configuration.
+[SCREENSHOT: Create Flow dialog with name, description, and enabled state fields]
 
 {% hint style="danger" %}
 Disabled flows don't send any data! The readings from the devices involved in a disabled flow do not reach any destination, including the Navixy platform. This means that disabling a flow can interrupt your monitoring capabilities and data collection for the affected devices. Only disable flows when you deliberately want to stop data transmission completely.
 {% endhint %}
-
-After saving, your new flow appears in the workspace, and you can begin adding processing nodes from the left menu panel.
 
 ## Configuring flow components
 
@@ -164,17 +154,16 @@ Nodes can be connected in various configurations:
 
 After creating a flow, you can modify its configuration as your requirements evolve.
 
-{% hint style="info" %}
-**Note for editors:** This section references the old pencil icon in the canvas toolbar. Rewrite it in Stage 2 to reflect flow editing on the start page.
-{% endhint %}
-
 ### Modifying flow details
 
-To change the flow name, description, or enabled status:
+You can edit a flow's name, description, and enabled state from the IoT Logic start page.
 
-1. Click ![image-20250403-161404.png](<../../../../.gitbook/assets/image-20250403-161404 (3).png>) next to the flow name
-2. Update the desired fields
-3. Save your changes
+1. Open IoT Logic. Locate the flow in the **Created flows** table.
+2. Click the **"..."** menu for that flow and select **Edit**.
+3. Update the name, description, or enabled state in the dialog.
+4. Click **Confirm** to save the changes.
+
+[SCREENSHOT: "..." menu open on the Created flows table with Edit option highlighted]
 
 ### Removing elements
 
@@ -210,20 +199,15 @@ When you delete a node, all of its connections will also be removed.
 {% endcolumn %}
 {% endcolumns %}
 
-{% hint style="info" %}
-**Note for editors:** This section references the old flow dropdown in the canvas toolbar. Rewrite it in Stage 2 to reflect the flows list on the start page.
-{% endhint %}
-
 ### Managing multiple flows
 
-To switch between different flows:
+All flows are listed in the **Created flows** table on the IoT Logic start page. The table shows each flow's name, last modified date, number of connected devices, and current status.
 
-1. Click the **Data flow** dropdown
-2. Select the flow you want to view or edit, it opens on the workspace
+Each row provides a status toggle to enable or disable the flow without opening it, a download icon to export the flow as a file, and a **"..."** menu with the options **Edit**, **Download**, and **Delete**.
 
-{% hint style="info" %}
-Any unsaved changes in the current flow will be lost when switching, you will be asked to confirm the action.
-{% endhint %}
+To open a flow on the canvas, click its name in the table or select **Edit** from its **"..."** menu.
+
+[SCREENSHOT: Created flows table with multiple flows, per-row controls visible]
 
 ## Importing and exporting flows
 
@@ -251,8 +235,8 @@ The following table shows what is included and excluded from flow exports:
 | Authentication headers (Webhook nodes)   |           ❌          |
 | MQTT credentials (Output Endpoint nodes) |           ❌          |
 
-{% hint style="warning" %}
-Device selections are excluded because devices can only belong to one flow at a time. Authentication data is excluded to protect sensitive information.
+{% hint style="info" %}
+Device selections and authentication data are excluded from exports. Device selections are excluded to avoid conflicts when importing into a different account. Authentication data is excluded to protect sensitive information.
 
 After importing a flow, you need to manually add the excluded data before you can save the flow.
 {% endhint %}

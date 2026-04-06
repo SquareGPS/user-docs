@@ -30,43 +30,24 @@ Now, let’s break down the flow configuration process step by step.
 
 {% stepper %}
 {% step %}
-#### Step 1: Access IoT Logic workspace
+## Open IoT Logic
 
-1. Log into your Navixy account
-2. Click your profile icon in the top-left corner of the screen to access **Account settings**
-3. Select **IoT Logic** in the settings sidebar
+In the main menu, navigate to **IoT Logic**. The start page opens with two sections: **Flow templates**, a gallery of pre-configured flow structures, and **Created flows**, a table listing all existing flows in your account.
 
-The IoT Logic workspace appears with three main sections:
-
-* **Flow settings bar** - Contains controls for managing flows
-* **Nodes pane** - Lists available nodes for building your flow
-* **Canvas** - The main workspace where you design your flow
-
-For details on the workspace, see [Workspace and default flow](workspace-and-default-flow.md).
+[SCREENSHOT: IoT Logic start page showing Flow templates gallery and Created flows table]
 {% endstep %}
-
-{% hint style="info" %}
-**Note for editors:** Step 2 currently describes the old canvas-level flow creation dialog. Rewrite it in Stage 2 to reflect flow creation starting on the start page.
-{% endhint %}
 
 {% step %}
-#### Step 2: Create a new flow
+## Create a new flow
 
-1. Click the **New flow** button in the flow settings bar
-2. In the **New flow** dialog:
+Click **Create Flow**. In the dialog that opens, enter a name and description for your flow and set its enabled state. Click **Confirm** to open the canvas and begin building the flow.
 
-* Enter a descriptive name for your flow (e.g., "Fleet Telemetry Processing")
-* Add a brief description explaining the flow's purpose
-* Ensure the **Flow enabled** toggle is switched ON
-
-3. Click **Save** to create the flow
-
-For additional information on flow configuration, see [Flow management -> Creating a new flow](flow-management/#creating-a-new-flow).
+[SCREENSHOT: Create Flow dialog with name, description, and enabled state fields]
+{% endstep %}
 
 {% hint style="info" %}
-Disabled flows don't process any data. When a flow is disabled, devices in that flow will not transmit data to any destination, including the Navixy platform.
+If you prefer to start from a pre-configured structure, you can use a template instead of building a flow from scratch. Templates are pre-configured flows for common data processing scenarios. See [Templates](quick-start-guide/templates.md) for the full list and setup instructions.
 {% endhint %}
-{% endstep %}
 
 {% step %}
 #### Step 3: Configure a Data Source node
@@ -200,11 +181,11 @@ For complete API documentation, parameters, request/response formats, and code e
 
 #### What happens to devices not assigned to a custom flow?
 
-Devices not explicitly assigned to any custom flow are automatically handled by the default flow, which sends their data directly to the Navixy platform.
+The default flow processes all devices, including those assigned to custom flows. There is no auto-exclusion: a device in a custom flow continues to be processed by the default flow as well.
 
 #### Can I use the same device in multiple flows?
 
-No, each device can only be assigned to one flow at a time. When added to a custom flow, a device is automatically removed from the default flow to prevent duplicate data processing.
+Yes. A device can belong to multiple flows at the same time. All flows that include the device process its data simultaneously, and results are merged to avoid data loss. There are no constraints on how many flows a device can belong to.
 
 #### Will my flow continue working if I log out?
 
