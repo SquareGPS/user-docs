@@ -25,7 +25,7 @@ A single IoT Logic flow can contain multiple output nodes, each with independent
 * Selective data routing that enables flexible data flow scenarios
 
 {% hint style="info" %}
-Each flow includes a default Navixy endpoint node. It is recommended to maintain connections between your **Data Source** nodes and this output. The connection ensures device data is sent to the platform, enabling monitoring capabilities using Navixy tools. If the Navixy output is removed, data from the devices involved in the flow will no longer reach the platform.
+Each flow should include a **Default Output Endpoint** node to send data to the Navixy platform. Maintain connections between your **Data Source** nodes and this output. The connection ensures device data is sent to the platform, enabling monitoring capabilities using Navixy tools. If the Navixy output is removed, data from the devices involved in the flow will no longer reach the platform.
 {% endhint %}
 
 ### Node capabilities

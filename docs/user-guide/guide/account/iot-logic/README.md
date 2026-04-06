@@ -31,7 +31,7 @@ Flow is the central functional element of IoT Logic, providing a structured fram
 * **Data transmitting**\
   [Output Endpoint node](flow-management/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
 
-When you open IoT Logic, you land on a start page showing available templates and your existing flows. [PLACEHOLDER — confirm exact UI label for the start page]
+When you open IoT Logic, you land on the start page showing the **Flow templates** gallery and the **Created flows** table.
 
 {% hint style="info" %}
 These nodes can be interacted with directly from Navixy’s interface. For descriptions of each node type and UI instructions, see the [Nodes](nodes.md) reference page.

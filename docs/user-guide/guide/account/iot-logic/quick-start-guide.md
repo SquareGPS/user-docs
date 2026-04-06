@@ -16,7 +16,7 @@ IoT Logic workspace is available only to account **Owners** and is not displayed
 
 ## Starting from a template
 
-Templates are an alternative to building a flow manually from scratch. Each template is a pre-configured flow structure for a common data processing scenario that you can select from the IoT Logic start page and adapt to your needs. For details on available templates and how to use them, see [Templates](quick-start-guide/templates.md). [PLACEHOLDER — full Templates page coming in Stage 2]
+Templates are an alternative to building a flow manually from scratch. Each template is a pre-configured flow structure for a common data processing scenario that you can select from the IoT Logic start page and adapt to your needs. For details on available templates and how to use them, see [Templates](quick-start-guide/templates.md).
 
 ## Flow configuration
 
@@ -197,4 +197,4 @@ Use the Data Stream Analyzer to monitor real-time data transmission. This tool s
 
 #### What happens if I disable a flow?
 
-When you disable a flow, devices assigned to that flow will not transmit data to any destination, including the Navixy platform. The devices will appear offline in the Navixy interface until you re-enable the flow.
+When you disable a flow, the custom processing and any MQTT outputs configured in that flow stop. However, the default flow remains active and continues to send data from all devices to the Navixy platform, so devices will still be visible in the interface. Only disable a flow when you deliberately want to stop its specific transformations or external outputs.
