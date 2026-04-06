@@ -134,7 +134,7 @@ Your flow is now active and processing data in real-time!
 
 To confirm your flow is working correctly, use the **Data Stream Analyzer** tool:
 
-1. Click the **Data analyzer** button in the flow settings bar
+1. Click the **Data Analyzer** tab at the top of the canvas
 2. Select the devices you want to monitor from the dropdown list
 3. Observe the incoming data attributes and their values
 4. Use filtering options to focus on specific parameters

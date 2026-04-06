@@ -245,7 +245,7 @@ After importing a flow, you need to manually add the excluded data before you ca
 
 To import a flow configuration:
 
-1. Click the **Upload** button in the flow settings bar
+1. On the IoT Logic start page, click **Upload Flow**
 2. Select the JSON file containing the exported flow configuration
 3. Review the imported flow structure
 4. Configure the excluded elements:
