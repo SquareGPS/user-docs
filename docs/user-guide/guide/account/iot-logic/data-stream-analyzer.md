@@ -22,6 +22,10 @@ Unlike conventional vendor-specific solutions, **Data Stream Analyzer** offers u
 * Click ![DATA\_ANALYZER.png](<../../../.gitbook/assets/DATA_ANALYZER (6).png>)
 {% endhint %}
 
+{% hint style="info" %}
+**Note for editors:** The navigation instructions above reference the old flow dropdown in the canvas toolbar. Rewrite them in Stage 2 to reflect start page navigation once the new UI is confirmed.
+{% endhint %}
+
 ![Data Analyzer view](<../../../.gitbook/assets/Data_Analyzer_big (1).png>)
 
 Let's dive deeper into all the possibilities and functions you can find here.

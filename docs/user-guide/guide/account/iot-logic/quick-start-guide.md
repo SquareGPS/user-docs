@@ -14,6 +14,10 @@ Before proceeding with creating your first flow, ensure you have:
 IoT Logic workspace is available only to account **Owners** and is not displayed for regular **Users**. For details on user roles, see [Users and Roles](../users-and-roles/).
 {% endhint %}
 
+## Starting from a template
+
+Templates are an alternative to building a flow manually from scratch. Each template is a pre-configured flow structure for a common data processing scenario that you can select from the IoT Logic start page and adapt to your needs. For details on available templates and how to use them, see [Templates](quick-start-guide/templates.md). [PLACEHOLDER — full Templates page coming in Stage 2]
+
 ## Flow configuration
 
 Take a look at a short video that showcases the process of creating a new flow with data attribute calculations and adding custom attributes to devices on the platform:
@@ -40,6 +44,10 @@ The IoT Logic workspace appears with three main sections:
 
 For details on the workspace, see [Workspace and default flow](workspace-and-default-flow.md).
 {% endstep %}
+
+{% hint style="info" %}
+**Note for editors:** Step 2 currently describes the old canvas-level flow creation dialog. Rewrite it in Stage 2 to reflect flow creation starting on the start page.
+{% endhint %}
 
 {% step %}
 #### Step 2: Create a new flow

@@ -31,8 +31,10 @@ Flow is the central functional element of IoT Logic, providing a structured fram
 * **Data transmitting**\
   [Output Endpoint node](flow-management/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
 
+When you open IoT Logic, you land on a start page showing available templates and your existing flows. [PLACEHOLDER — confirm exact UI label for the start page]
+
 {% hint style="info" %}
-These nodes can be interacted with directly from Navixy’s interface. For a detailed breakdown of each node and usage instructions within the UI, redirect to the dedicated descriptions in [Flow management ](flow-management/)section.
+These nodes can be interacted with directly from Navixy’s interface. For descriptions of each node type and UI instructions, see the [Nodes](nodes.md) reference page.
 {% endhint %}
 
 ### Data Stream Analyzer
@@ -59,7 +61,17 @@ For complete API documentation, parameters, request/response formats, and code e
 
 ## Section content
 
-* [Workspace and default flow](workspace-and-default-flow.md)
+* [Workspace](workspace-and-default-flow.md)
 * [Quick start guide](quick-start-guide.md)
+  * [Templates](quick-start-guide/templates.md)
 * [Flow management](flow-management/)
+  * [Default flow](flow-management/default-flow.md)
+  * [Flow configuration example](flow-management/flow-configuration-example.md)
+* [Nodes](nodes.md)
+  * [Data Source node](flow-management/data-source-node.md)
+  * [Initiate Attribute node](flow-management/initiate-attribute-node/)
+  * [IF/THEN Logic](flow-management/logic-node/)
+  * [Device action](flow-management/action-node.md)
+  * [Webhook](flow-management/webhook-node.md)
+  * [Output Endpoint node](flow-management/output-endpoint-node.md)
 * [Data Stream Analyzer](data-stream-analyzer.md)

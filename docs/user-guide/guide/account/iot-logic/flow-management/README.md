@@ -2,6 +2,10 @@
 
 IoT Logic provides a flexible canvas environment where you can build custom data flows to process, transform, and route device telemetry. Each flow consists of interconnected nodes that perform specific functions within your data processing pipeline, from receiving raw device data to forwarding enriched information to external systems.
 
+{% hint style="info" %}
+**Note for editors:** This section references the old canvas-level New flow button and dialog. Rewrite it in Stage 2 to reflect flow creation starting on the start page.
+{% endhint %}
+
 ## Creating a new flow
 
 IoT Logic starts with an empty workspace where you can design your data processing flow.
@@ -160,6 +164,10 @@ Nodes can be connected in various configurations:
 
 After creating a flow, you can modify its configuration as your requirements evolve.
 
+{% hint style="info" %}
+**Note for editors:** This section references the old pencil icon in the canvas toolbar. Rewrite it in Stage 2 to reflect flow editing on the start page.
+{% endhint %}
+
 ### Modifying flow details
 
 To change the flow name, description, or enabled status:
@@ -201,6 +209,10 @@ When you delete a node, all of its connections will also be removed.
 <figure><img src="../../../../.gitbook/assets/image-20250403-161949 (3).png" alt="Selected connection highlighted for deletion"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
+
+{% hint style="info" %}
+**Note for editors:** This section references the old flow dropdown in the canvas toolbar. Rewrite it in Stage 2 to reflect the flows list on the start page.
+{% endhint %}
 
 ### Managing multiple flows
 
@@ -278,3 +290,5 @@ If you need to temporarily disable data processing, you can toggle the flow's en
 ## Example configurations
 
 You can find detailed step-by-step descriptions of an example flow creation in [Flow configuration example](flow-configuration-example.md). The example also contains explanations on some common data enrichment options. Feel free to use this example as a template for your custom flows.
+
+For reference documentation on individual node types, including capabilities and configuration options, see the [Nodes](../nodes.md) reference page.

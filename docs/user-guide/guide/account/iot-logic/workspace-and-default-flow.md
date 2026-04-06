@@ -1,10 +1,14 @@
-# Workspace and default flow
+# Workspace
 
 ## IoT Logic workspace
 
 The workspace consists of three sections: **Flow settings bar (1)**, **Node pane (2)**, and **Canvas (3)**.
 
 <figure><img src="../../../.gitbook/assets/IoT_Logic_workspace_example.webp" alt="IoT Logic workspace example (with a basic 3-step flow) visually divided by the numbered sections"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Note for editors:** This section describes the pre-update UI. Rewrite it in Stage 2 once new screenshots are available and the new start page UI is confirmed.
+{% endhint %}
 
 ### 1 - Flow settings bar
 
@@ -111,3 +115,7 @@ The relationship between the default flow and custom flows follows these princip
 4. **Custom flows take precedence over the default flow for device assignment** - When you create a custom flow and include specific devices, those devices are automatically removed from the default flow. This prioritization system allows you to implement specialized processing for selected devices while maintaining the default handling for others.
 
 This systematic approach ensures complete data coverage while allowing for customized data processing where needed.
+
+## Default flow
+
+Navixy includes a pre-configured flow in every account that automatically collects data from all devices not assigned to any custom flow and sends it to the Navixy platform. This flow cannot be edited or deleted. For full details on how it works and how it relates to your custom flows, see [Default flow](flow-management/default-flow.md).

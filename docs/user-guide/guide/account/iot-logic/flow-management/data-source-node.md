@@ -97,6 +97,10 @@ Yes, you can use several **Data source nodes** in one workspace. This is useful 
 
 Devices that are already used in other flows are not listed, so you cannot select same device twice in different flows.
 
+{% hint style="info" %}
+**Note for editors:** The answer above assumes one device can only belong to one flow at a time. Review and rewrite it in Stage 2 once multi-flow device behavior is confirmed.
+{% endhint %}
+
 #### Are all my Navixy devices automatically available in IoT Logic?
 
 Yes, all devices from your Navixy user account can be used in IoT Logic processing. This includes GPS devices, OEM platforms, MQTT devices and gateways, and MQTT/Kafka connectors.

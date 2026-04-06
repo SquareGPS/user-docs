@@ -33,6 +33,11 @@ This flow will transform the raw device data into a format that directly support
 Follow these steps to build a comprehensive data transformation and forwarding flow:
 
 {% stepper %}
+
+{% hint style="info" %}
+**Note for editors:** Step 1 references the old canvas-level New flow button and dialog. Rewrite it in Stage 2 to reflect flow creation starting on the start page.
+{% endhint %}
+
 {% step %}
 #### **Create a new flow**
 
