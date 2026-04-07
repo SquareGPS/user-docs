@@ -2,9 +2,9 @@
 
 Places, also known as Points of Interest (POI), are an essential feature of fleet management and asset tracking. Organizations can create a detailed list of Places, including key locations like offices and warehouses, as well as numerous sites crucial for logistics operations. Places improve operational efficiency by optimizing route planning and streamlining task assignments for field employees.
 
-To access the **Places** tool, click <img src="../../../.gitbook/assets/image-20250425-112111 (1).png" alt="Places button" data-size="line"> in the toolbar in the top-right corner of the map.
+To access the **Places** tool, click <img src="../../../.gitbook/assets/image-20250425-112111 (1) (1).png" alt="Places button" data-size="line"> in the toolbar in the top-right corner of the map.
 
-![Places tool](<../../../.gitbook/assets/image-20240807-005501 (3).png>)
+![Places tool](<../../../.gitbook/assets/image-20240807-005501 (3) (1).png>)
 
 ### Practical application
 
@@ -18,7 +18,7 @@ To access the **Places** tool, click <img src="../../../.gitbook/assets/image-20
 
 To create a Place, follow these steps:
 
-1. Open the **Place** tool by clicking <img src="../../../.gitbook/assets/image-20250425-112111 (1).png" alt="Places button" data-size="line"> in the top-right corner of the map.
+1. Open the **Place** tool by clicking <img src="../../../.gitbook/assets/image-20250425-112111 (1) (1).png" alt="Places button" data-size="line"> in the top-right corner of the map.
 2. Click <img src="../../../.gitbook/assets/Untitled-20250425-135403 (1).png" alt="New place" data-size="line"> to open the Place creation form.
 3. Assign it a name such as "Office" or "Warehouse" in the **Label** field.
 4. In the top-left corner, choose from a library of icons or upload your own.
@@ -34,7 +34,7 @@ Fields in the Place form can be adjusted in the [Custom Fields](../../account/cu
 
 ### Editing Places
 
-To edit a Place, click <img src="../../../.gitbook/assets/Untitled-20250425-103233 (1).png" alt="Untitled-20250425-103233.png" data-size="line"> next to the geofence you want to edit in the **Places** tool. When editing a Place, you can adjust the same fields as during its creation.\
+To edit a Place, click <img src="../../../.gitbook/assets/Untitled-20250425-103233 (1) (1).png" alt="Untitled-20250425-103233.png" data-size="line"> next to the geofence you want to edit in the **Places** tool. When editing a Place, you can adjust the same fields as during its creation.\
 For the list of those fields, see [Creating Places](places-pois.md#creating-places).
 
 ## Place details
@@ -45,8 +45,8 @@ To view details about the selected Place, click <img src="../../../.gitbook/asse
 
 If you need to add a large number of Places quickly, you can import them from an Excel file. To do it, follow these steps:
 
-1. Open the **Place** tool by clicking <img src="../../../.gitbook/assets/image-20250425-112111 (1).png" alt="Places button" data-size="line"> in the top-right corner of the map.
-2. Click <img src="../../../.gitbook/assets/Untitled-20250425-144748 (1).png" alt="Import POI" data-size="line"> in the top-right corner to open the **POI import** dialogue.
+1. Open the **Place** tool by clicking <img src="../../../.gitbook/assets/image-20250425-112111 (1) (1).png" alt="Places button" data-size="line"> in the top-right corner of the map.
+2. Click <img src="../../../.gitbook/assets/Untitled-20250425-144748 (1) (1).png" alt="Import POI" data-size="line"> in the top-right corner to open the **POI import** dialogue.
 3. Download the provided Excel template.
 4. Enter information as specified in the template and save the file.
 5. Navigate to the file in your system and click **Select**.

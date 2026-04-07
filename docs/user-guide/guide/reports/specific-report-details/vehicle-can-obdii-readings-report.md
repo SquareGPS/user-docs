@@ -2,7 +2,7 @@
 
 The **Vehicle readings report** in Navixy offers detailed insights into the data received from your vehicle’s instruments through CAN/OBD sensors or virtual sensors over a selected period. This report includes information such as mileage, engine RPMs, speed, fuel consumption, coolant temperature, and other critical metrics, helping fleet managers and vehicle operators monitor and optimize vehicle performance.
 
-![Vehicle readings report parameters](<../../../.gitbook/assets/image-20240815-010131 (3).png>)
+![Vehicle readings report parameters](<../../../.gitbook/assets/image-20240815-010131 (3) (1).png>)
 
 ## Requirements for generating the report
 
@@ -21,7 +21,7 @@ The report uses several parameters to customize the output:
 * **X-axis on the graph:** Choose whether to display the information on the graph relative to time or mileage.
 * **Smooth graph:** Apply smoothing to the graph to filter out peak values and average the data when there is significant variance.
 
-![Graph with readings from OBD sensor without smoothing](<../../../.gitbook/assets/image-20240815-010045 (3).png>)
+![Graph with readings from OBD sensor without smoothing](<../../../.gitbook/assets/image-20240815-010045 (3) (1).png>)
 
 ![Graph with readings from OBD sensor with smoothing](<../../../.gitbook/assets/image-20240815-010100 (1).png>)
 
@@ -37,11 +37,11 @@ The **graph** displays CAN/OBD or virtual sensor readings in a visual format, pr
 
 {% columns %}
 {% column %}
-![Example of displaying readings at a point on a graph with time](<../../../.gitbook/assets/image-20240815-005949 (3).png>)
+![Example of displaying readings at a point on a graph with time](<../../../.gitbook/assets/image-20240815-005949 (3) (1).png>)
 {% endcolumn %}
 
 {% column %}
-![Example of displaying readings at a point on a graph with mileage](<../../../.gitbook/assets/image-20240815-010008 (3).png>)
+![Example of displaying readings at a point on a graph with mileage](<../../../.gitbook/assets/image-20240815-010008 (3) (1).png>)
 {% endcolumn %}
 {% endcolumns %}
 

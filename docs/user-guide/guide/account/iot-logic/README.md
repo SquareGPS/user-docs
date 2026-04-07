@@ -4,10 +4,10 @@
 
 **IoT Logic** is a no-code/low-code tool integrated into Navixy platform, designed to simplify telematics data management. It combines a visual flow system with a JEXL-based expression language, enabling efficient data transformation without requiring coding expertise. Acting as a data traffic manager, it processes raw input from GPS devices, dash cams, and IoT sensors, converting it into actionable insights through custom data pipelines.
 
-![](<../../../.gitbook/assets/IoT_Logic_schema (3).jpg>)
+![](<../../../.gitbook/assets/IoT_Logic_schema (3) (1).jpg>)
 
 {% hint style="info" %}
-#### **Navigation**
+**Navigation**
 
 IoT logic is accessible to account **Owners** in the **Account Settings** section. To find it:
 
@@ -17,25 +17,33 @@ IoT logic is accessible to account **Owners** in the **Account Settings** sectio
 
 ## IoT Logic components
 
-**IoT Logic** leverages its components to process, decode, enrich, and convert incoming data in real time, ensuring compatibility with various platforms and services. By optimizing data flow management, the solution enhances accuracy and customization of your data-related activities and offers more control over the data involved in your processes in general.
+**IoT Logic** relies on its components to process, decode, enrich, and convert incoming data in real time, ensuring compatibility with various platforms and services. By optimizing data flow management, the solution enhances accuracy and customization of your data-related activities and offers more control over the data involved in your processes in general.
 
 ### Flow
 
-Flow is the central functional element of IoT Logic, providing a structured framework for designing, customizing, and managing data processing. It introduces an intuitive drag-and-drop workspace that simplifies the creation of data pipelines. The process is built around three key stages of data interaction, each handled by specific nodes:
+**Flow** is the central functional element of IoT Logic, providing a structured framework for designing, customizing, and managing data processing. It introduces an intuitive drag-and-drop workspace that simplifies the creation of data pipelines through a sequence of data processing steps - **Nodes**.&#x20;
 
-* **Data reception**\
-  [Data Source node](flow-management/data-source-node.md) manages data reception by connecting trackers to the Navixy platform for seamless input.
-* **Data enrichment**\
-  [Initiate Attribute node](flow-management/initiate-attribute-node/) enables data enrichment by renaming and customizing incoming parameters to meet various application requirements.\
-  [IF/THEN Logic](flow-management/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
-* **Data transmitting**\
-  [Output Endpoint node](flow-management/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
+The process is built around three key stages of data interaction: data reception, data enrichment, and data transmitting, each handled by specific nodes. Here are the most common ones:
 
-When you open IoT Logic, you land on the start page showing the **Flow templates** gallery and the **Created flows** table.
+* [Data Source node](nodes/data-source-node.md) manages data reception by connecting trackers to the Navixy platform for seamless input.
+* [Initiate Attribute node](nodes/initiate-attribute-node/) enables data enrichment by renaming and customizing incoming parameters to meet various application requirements.
+* [IF/THEN Logic node](nodes/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
+* [Output Endpoint node](nodes/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
+
+You can build data flows covering your specific use cases or scenarios from scratch, start from a pre-configured template on the IoT Logic start page, or import an existing flow.
 
 {% hint style="info" %}
-These nodes can be interacted with directly from Navixy’s interface. For descriptions of each node type and UI instructions, see the [Nodes](nodes.md) reference page.
+For a full list of available nodes with descriptions and guides, see the [Nodes](nodes/) reference page.
 {% endhint %}
+
+### Expression language
+
+IoT Logic uses a built-in expression language based on JEXL (Java Expression Language) with telematics-specific extensions. It powers the data transformation and conditional routing logic inside flows, without requiring scripting or coding.
+
+* **Calculation formulas:** compute new data attributes from existing ones using mathematical operations, unit conversions, and bit-level binary decoding. Used in **Initiate Attribute** nodes.
+* **Condition formulas:** evaluate logical conditions to validate data or branch a flow based on real-time values. Used in **IF/THEN Logic** nodes.
+
+For the full syntax reference and function catalog, see the [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language) documentation.
 
 ### Data Stream Analyzer
 
@@ -61,17 +69,16 @@ For complete API documentation, parameters, request/response formats, and code e
 
 ## Section content
 
-* [Workspace](workspace-and-default-flow.md)
-* [Quick start guide](quick-start-guide.md)
+* [Quick start guide](quick-start-guide/)
   * [Templates](quick-start-guide/templates.md)
 * [Flow management](flow-management/)
   * [Default flow](flow-management/default-flow.md)
   * [Flow configuration example](flow-management/flow-configuration-example.md)
-* [Nodes](nodes.md)
-  * [Data Source node](flow-management/data-source-node.md)
-  * [Initiate Attribute node](flow-management/initiate-attribute-node/)
-  * [IF/THEN Logic](flow-management/logic-node/)
-  * [Device action](flow-management/action-node.md)
-  * [Webhook](flow-management/webhook-node.md)
-  * [Output Endpoint node](flow-management/output-endpoint-node.md)
+* [Nodes](nodes/)
+  * [Data Source node](nodes/data-source-node.md)
+  * [Initiate Attribute node](nodes/initiate-attribute-node/)
+  * [IF/THEN Logic](nodes/logic-node/)
+  * [Device action](nodes/action-node.md)
+  * [Webhook](nodes/webhook-node.md)
+  * [Output Endpoint node](nodes/output-endpoint-node.md)
 * [Data Stream Analyzer](data-stream-analyzer.md)

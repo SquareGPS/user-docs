@@ -5,10 +5,10 @@ Trip history in Navixy allows you to review past activities and routes taken by 
 {% hint style="info" %}
 **Navigation**
 
-To view your trip history in Navixy, select the objects you're interested in and click <img src="../../../.gitbook/assets/Untitled-20250414-131158 (3).png" alt="Untitled-20250414-131158.png" data-size="line">. You will be prompted to choose a time and date range. Select the desired date range to proceed.
+To view your trip history in Navixy, select the objects you're interested in and click <img src="../../../.gitbook/assets/Untitled-20250414-131158 (3) (1).png" alt="Untitled-20250414-131158.png" data-size="line">. You will be prompted to choose a time and date range. Select the desired date range to proceed.
 {% endhint %}
 
-![Trip history button](<../../../.gitbook/assets/image-20241112-222233 (1).png>)
+![Trip history button](<../../../.gitbook/assets/image-20241112-222233 (1) (1).png>)
 
 {% columns fullWidth="true" %}
 {% column %}

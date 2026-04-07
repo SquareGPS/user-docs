@@ -46,10 +46,10 @@ You can edit the suggested parameter name or specify a certain value for it.
 
 </details>
 
-![Application URL example with parameters](<../../../.gitbook/assets/URL_with_Params (1).png>)
+![Application URL example with parameters](<../../../.gitbook/assets/URL_with_Params (1) (1).png>)
 
 {% hint style="info" %}
-Test your configuration to make sure the application loads correctly. Click <img src="../../../.gitbook/assets/image-20241217-083119 (3).png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
+Test your configuration to make sure the application loads correctly. Click <img src="../../../.gitbook/assets/image-20241217-083119 (3) (1).png" alt="image-20241217-083119.png" data-size="line"> to display a preview.
 {% endhint %}
 {% endstep %}
 

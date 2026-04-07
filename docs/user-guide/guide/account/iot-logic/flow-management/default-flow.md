@@ -1,5 +1,7 @@
 ---
-description: Learn how the default flow works in IoT Logic, what devices it covers, and how it relates to your custom flows.
+description: >-
+  Learn how the default flow works in IoT Logic, what devices it covers, and how
+  it relates to your custom flows.
 ---
 
 # Default flow
@@ -20,7 +22,15 @@ The default flow serves as a foundational data transmission path in the Navixy s
 
 ## Default input
 
-The **Default Input** node serves as the universal data collector for your account. It automatically receives data from all active devices that are not explicitly assigned to custom flows.
+{% columns %}
+{% column %}
+The **Default Input** node serves as the universal data collector for your account. It automatically receives data from all active devices without any alterations or enrichments. It ensures that the raw device readings always reach the platform.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 The default flow receives data from all devices, including those assigned to custom flows. Assigning a device to a custom flow does not affect its membership in the default flow.
 
@@ -32,7 +42,6 @@ The **Default Output Endpoint** node provides a pre-configured destination for s
 {% endcolumn %}
 
 {% column %}
-
 <div align="right"><figure><img src="https://2096203889-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F446mKak1zDrGv70ahuYZ%2Fuploads%2Fgit-blob-e565ed3421fbe577455090d76ccc1e184c548b09%2Fimage-20250403-151042%20(3).png?alt=media" alt="Navixy Default output endpoint node"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}

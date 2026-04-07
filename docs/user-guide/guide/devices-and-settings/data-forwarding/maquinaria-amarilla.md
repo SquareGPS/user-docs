@@ -58,7 +58,7 @@ Click **Import** and upload the previously downloaded XML file
 {% step %}
 Select the call for token generation and go to the **ValIngreso** section
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -153,7 +153,7 @@ Enter the following parameters:
 * **Login**: Enter the login provided by the Colombian Police
 * **Password**: Enter the password provided by the Colombian Police
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="270"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="270"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

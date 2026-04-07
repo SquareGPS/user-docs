@@ -24,7 +24,7 @@ By default, the map appears at the top of the information screen. Tap and hold t
 {% endcolumn %}
 {% endcolumns %}
 
-Tap <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13 (3)" alt="icon5.png" data-size="line"> to display the map options menu, where you can select places, geofences, and map type. Note that map type selection is currently only available on Android devices.
+Tap <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13 (3) (1)" alt="icon5.png" data-size="line"> to display the map options menu, where you can select places, geofences, and map type. Note that map type selection is currently only available on Android devices.
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (4) (2).png" alt="Places" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (5) (2).png" alt="Geofences" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (6) (2).png" alt="Map types" data-size="original"></td></tr></tbody></table>
 
@@ -44,7 +44,7 @@ Tap **Events** to view the asset’s event history, such as leaving or entering 
 
 The menu below the asset’s name shows your current filters, all of which can be configured: time period, specific vehicles or staff, and event types. The **Unread** filter will display only unread notifications, while **Emergency** will narrow down your search to urgent events.
 
-Tap an event to display its details. You can also tap the map on top of the screen to view it in fullscreen. The <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13 (3)" alt="icon5.png" data-size="line"> button allows switching between different maps.
+Tap an event to display its details. You can also tap the map on top of the screen to view it in fullscreen. The <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13 (3) (1)" alt="icon5.png" data-size="line"> button allows switching between different maps.
 
 {% hint style="danger" %}
 Map type selection is currently only available on Android devices.

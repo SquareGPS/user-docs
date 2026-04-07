@@ -1,5 +1,7 @@
 ---
-description: Connect factory-installed vehicle telematics to Navixy without installing additional hardware.
+description: >-
+  Connect factory-installed vehicle telematics to Navixy without installing
+  additional hardware.
 ---
 
 # Activate OEM device
@@ -10,9 +12,9 @@ Modern vehicles from manufacturers such as Ford come equipped with factory-insta
 
 Compared to installing aftermarket GPS devices, connecting via an OEM integration offers three practical advantages:
 
-- **No hardware installation.** The telematics module is already in the vehicle from the factory. There is nothing to fit, wire, or configure physically.
-- **Richer vehicle data.** OEM modules report data that aftermarket devices typically cannot access, including fuel level, engine diagnostics, odometer readings, and other vehicle health signals available through the manufacturer's system.
-- **Lower total cost.** Eliminating hardware procurement and installation reduces both upfront spend and ongoing maintenance effort.
+* **No hardware installation.** The telematics module is already in the vehicle from the factory. There is nothing to fit, wire, or configure physically.
+* **Richer vehicle data.** OEM modules report data that aftermarket devices typically cannot access, including fuel level, engine diagnostics, odometer readings, and other vehicle health signals available through the manufacturer's system.
+* **Lower total cost.** Eliminating hardware procurement and installation reduces both upfront spend and ongoing maintenance effort.
 
 ## How it works
 
@@ -26,13 +28,13 @@ Ford vehicles with the FordPass Connect modem are currently supported. Support f
 
 You will need the following credentials to hand when you contact your service provider. These are issued by the vehicle manufacturer or their API program administrator:
 
-| Credential | Description |
-|---|---|
-| Token endpoint | URL used to obtain an access token for the OEM API |
-| Client ID | Identifier assigned to your application by the OEM |
-| Client secret | Secret key paired with the client ID |
-| gRPC Feed Service endpoint | Address of the gRPC service that streams vehicle data |
-| Feed flow name | Name of the specific data feed configured for your account |
+| Credential                 | Description                                                |
+| -------------------------- | ---------------------------------------------------------- |
+| Token endpoint             | URL used to obtain an access token for the OEM API         |
+| Client ID                  | Identifier assigned to your application by the OEM         |
+| Client secret              | Secret key paired with the client ID                       |
+| gRPC Feed Service endpoint | Address of the gRPC service that streams vehicle data      |
+| Feed flow name             | Name of the specific data feed configured for your account |
 
 If you do not have these credentials, contact your OEM program administrator before proceeding.
 
@@ -40,7 +42,7 @@ If you do not have these credentials, contact your OEM program administrator bef
 
 {% stepper %}
 {% step %}
-## Contact your service provider
+### Contact your service provider
 
 Send your service provider the five credentials listed above and ask them to configure the OEM data feed for your account. This step happens entirely on their side, so you do not need to interact with the vehicle or Navixy yet.
 
@@ -48,7 +50,7 @@ Wait for your service provider to confirm that the feed is active before continu
 {% endstep %}
 
 {% step %}
-## Add the vehicle in Navixy
+### Add the vehicle in Navixy
 
 Once your service provider confirms the feed is ready, add the vehicle using the standard activation wizard:
 
@@ -59,11 +61,11 @@ Once your service provider confirms the feed is ready, add the vehicle using the
 5. Enter the **Device ID** as instructed in the activation dialog for your specific model.
 6. Click **Activate**.
 
-For full details on each wizard step, see [Activate GPS device automatically](./activate-gps-device#activate-gps-device-automatically).
+For full details on each wizard step, see [Activate GPS device automatically](activate-gps-device/#activate-gps-device-automatically).
 {% endstep %}
 
 {% step %}
-## Verify the connection
+### Verify the connection
 
 Within about 15 minutes of activation, the vehicle should appear online in Navixy with its current location and available vehicle data.
 
