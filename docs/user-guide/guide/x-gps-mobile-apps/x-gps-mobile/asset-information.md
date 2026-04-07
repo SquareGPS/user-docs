@@ -20,7 +20,7 @@ By default, the map appears at the top of the information screen. Tap and hold t
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="Fullscreen map"><figcaption><p>Fullscreen map</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt="Fullscreen map"><figcaption><p>Fullscreen map</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -32,7 +32,7 @@ Tap <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13 (3)"
 
 Tap **Trips** to display the list of trips taken by your asset. Tap any trip to view its details, including any visited POIs and geofences. You can also view the route of one or several trips on the map in fullscreen.
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (10) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1).png" alt="Trip information" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (12) (1).png" alt="Trip route" data-size="original"></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1).png" alt="Trip information" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (12) (1).png" alt="Trip route" data-size="original"></td></tr></tbody></table>
 
 To filter the display of trips, such as by time period and other parameters, tap <img src="../../../.gitbook/assets/image-20250328-095604 (1).png" alt="Settings" data-size="line"> and open the **Date range and settings**:
 

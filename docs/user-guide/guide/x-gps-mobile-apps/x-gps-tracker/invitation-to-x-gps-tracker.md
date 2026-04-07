@@ -8,7 +8,7 @@ The activation process is the same for both iOS and Android devices.
 
 {% columns %}
 {% column %}
-1. Login to the user account
+1. Log in to the user account.
 {% endcolumn %}
 
 {% column %}
@@ -28,11 +28,21 @@ The activation process is the same for both iOS and Android devices.
 
 {% columns %}
 {% column %}
-3. Enter the object name, e.g. _My phone_, and select the **X-GPS Tracker** model.
+3. Enter **X-GPS Tracker** into the **Select model** field and select it. Click **Next.**
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://www.navixy.com/wp-content/uploads/2019/11/chrome_2019-11-27_15-27-49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/{47980F96-E479-4969-B1A2-485067FF2E82}.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+3. Enter the name of the object you're creating. Click **Next**.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/{A4EC3F5F-87B6-4A10-A04E-021C6AEB53B3}.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -42,23 +52,23 @@ The activation process is the same for both iOS and Android devices.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://www.navixy.com/wp-content/uploads/2019/06/invite.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/{B050B02F-E7F2-4B3F-AAD9-FB67AAAD4F08}.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
 {% column %}
-5. Follow the link and click **Continue**.
+5. You will receive instructions for automatic and manual setup. Click **Activate.**
 {% endcolumn %}
 
 {% column %}
-
+<figure><img src="../../../.gitbook/assets/{5B28612B-2A38-42BF-B889-F9A7E244A923}.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
 {% column %}
-6. After installing **X-GPS Tracker,** the app will be configured, and the cell phone or tablet will be turned into a **tracking device** displayed on the platform.
+6. After installing **X-GPS Tracker,** the app will be configured, and the cell phone or tablet will be turned into a **tracking device** displayed on the platform. Alternatively, enter the ID you've received by email.
 {% endcolumn %}
 
 {% column %}
