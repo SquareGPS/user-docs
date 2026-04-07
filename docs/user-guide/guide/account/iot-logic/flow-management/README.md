@@ -23,7 +23,7 @@ IoT Logic flows are built from interconnected nodes that define how data moves t
 
 This modular architecture supports both simple data forwarding and complex multi-stage transformations. Every functional flow requires at least one input node and one output node, with optional processing nodes in between to enrich your data according to specific business requirements.
 
-For complete node reference and configuration instructions, see [Nodes](../nodes/).
+For complete node reference and configuration instructions, see [Nodes](../nodes.md).
 
 {% hint style="info" %}
 Your flow should include a **Default Output Endpoint** to send data to the platform. Maintaining this connection ensures your device data remains available for visualization and management in the Navixy interface.
@@ -173,5 +173,5 @@ If you need to temporarily disable data processing, you can toggle the flow's en
 You can find detailed step-by-step descriptions of an example flow creation in [Flow configuration example](flow-configuration-example.md). The example also contains explanations on some common data enrichment options. Feel free to use this example as a template for your custom flows.
 
 {% hint style="info" %}
-For reference documentation on individual node types, including capabilities and configuration options, see the [Nodes](../nodes/) reference page.
+For reference documentation on individual node types, including capabilities and configuration options, see the [Nodes](../nodes.md) reference page.
 {% endhint %}

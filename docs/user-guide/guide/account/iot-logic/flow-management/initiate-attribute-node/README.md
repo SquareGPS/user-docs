@@ -103,7 +103,7 @@ In this example, we're creating an attribute that converts speed from kilometers
 
 For details on calculations for new attributes, see [Calculation examples](calculation-examples.md).
 
-Also, you can find a detailed example of using calculated attributes in a flow in [Flow configuration example → steps 3 and 4](../../flow-management/flow-configuration-example.md#flow-configuration-steps).
+Also, you can find a detailed example of using calculated attributes in a flow in [Flow configuration example → steps 3 and 4](../flow-configuration-example.md#flow-configuration-steps).
 {% endcolumn %}
 
 {% column %}

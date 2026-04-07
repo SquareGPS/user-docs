@@ -25,15 +25,15 @@ IoT logic is accessible to account **Owners** in the **Account Settings** sectio
 
 The process is built around three key stages of data interaction: data reception, data enrichment, and data transmitting, each handled by specific nodes. Here are the most common ones:
 
-* [Data Source node](nodes/data-source-node.md) manages data reception by connecting trackers to the Navixy platform for seamless input.
-* [Initiate Attribute node](nodes/initiate-attribute-node/) enables data enrichment by renaming and customizing incoming parameters to meet various application requirements.
-* [IF/THEN Logic node](nodes/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
-* [Output Endpoint node](nodes/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
+* [Data Source node](flow-management/data-source-node.md) manages data reception by connecting trackers to the Navixy platform for seamless input.
+* [Initiate Attribute node](flow-management/initiate-attribute-node/) enables data enrichment by renaming and customizing incoming parameters to meet various application requirements.
+* [IF/THEN Logic node](flow-management/logic-node/) enables conditional data routing by creating branching points that direct data flow based on logical expressions and real-time conditions.
+* [Output Endpoint node](flow-management/output-endpoint-node.md) handles data transmission by forwarding processed data to third-party servers and applications, ensuring efficient delivery.
 
 You can build data flows covering your specific use cases or scenarios from scratch, start from a pre-configured template on the IoT Logic start page, or import an existing flow.
 
 {% hint style="info" %}
-For a full list of available nodes with descriptions and guides, see the [Nodes](nodes/) reference page.
+For a full list of available nodes with descriptions and guides, see the [Nodes](nodes.md) reference page.
 {% endhint %}
 
 ### Expression language
@@ -69,16 +69,16 @@ For complete API documentation, parameters, request/response formats, and code e
 
 ## Section content
 
-* [Quick start guide](quick-start-guide/)
+* [Quick start guide](quick-start-guide.md)
   * [Templates](quick-start-guide/templates.md)
 * [Flow management](flow-management/)
   * [Default flow](flow-management/default-flow.md)
   * [Flow configuration example](flow-management/flow-configuration-example.md)
-* [Nodes](nodes/)
-  * [Data Source node](nodes/data-source-node.md)
-  * [Initiate Attribute node](nodes/initiate-attribute-node/)
-  * [IF/THEN Logic](nodes/logic-node/)
-  * [Device action](nodes/action-node.md)
-  * [Webhook](nodes/webhook-node.md)
-  * [Output Endpoint node](nodes/output-endpoint-node.md)
+* [Nodes](nodes.md)
+  * [Data Source node](flow-management/data-source-node.md)
+  * [Initiate Attribute node](flow-management/initiate-attribute-node/)
+  * [IF/THEN Logic](flow-management/logic-node/)
+  * [Device action](flow-management/action-node.md)
+  * [Webhook](flow-management/webhook-node.md)
+  * [Output Endpoint node](flow-management/output-endpoint-node.md)
 * [Data Stream Analyzer](data-stream-analyzer.md)

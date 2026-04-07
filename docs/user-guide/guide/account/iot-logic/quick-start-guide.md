@@ -11,12 +11,12 @@ Before proceeding with creating your first flow, ensure you have:
 * Understanding of what data sources you want to process
 
 {% hint style="info" %}
-IoT Logic workspace is available only to account **Owners** and is not displayed for regular **Users**. For details on user roles, see [Users and Roles](../../users-and-roles/).
+IoT Logic workspace is available only to account **Owners** and is not displayed for regular **Users**. For details on user roles, see [Users and Roles](../users-and-roles/).
 {% endhint %}
 
 ## Starting from a template
 
-Templates are an alternative to building a flow manually from scratch. Each template is a pre-configured flow structure for a common data processing scenario that you can select from the IoT Logic start page and adapt to your needs. For details on available templates and how to use them, see [Templates](templates.md).
+Templates are an alternative to building a flow manually from scratch. Each template is a pre-configured flow structure for a common data processing scenario that you can select from the IoT Logic start page and adapt to your needs. For details on available templates and how to use them, see [Templates](quick-start-guide/templates.md).
 
 ## Flow configuration
 
@@ -28,19 +28,19 @@ Now, let’s break down the basic flow configuration process step by step.
 
 In the main menu, navigate to **IoT Logic**. The start page opens with two sections: **Flow templates**, a gallery of pre-configured flow structures, and **Created flows**, a table listing all existing flows in your account.
 
-<figure><img src="../../../../.gitbook/assets/iot-logic-start.png" alt="IoT Logic start page showing Flow templates gallery and Created flows table"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/iot-logic-start.png" alt="IoT Logic start page showing Flow templates gallery and Created flows table"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Create a new flow
 
-1. Click **Create Flow**. In the dialog that opens, enter a name and description for your flow and set its enabled state. \\
+1. Click **Create Flow**. In the dialog that opens, enter a name and description for your flow and set its enabled state.&#x20;
 2. Click **Confirm** to open the canvas and begin building the flow.
 
-<figure><img src="../../../../.gitbook/assets/new-flow.png" alt="Create Flow dialog with name, description, and enabled state fields"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/new-flow.png" alt="Create Flow dialog with name, description, and enabled state fields"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-If you prefer to start from a pre-configured structure, you can use a template instead of building a flow from scratch. Templates are pre-configured flows for common data processing scenarios. See [Templates](templates.md) for the full list and setup instructions.
+If you prefer to start from a pre-configured structure, you can use a template instead of building a flow from scratch. Templates are pre-configured flows for common data processing scenarios. See [Templates](quick-start-guide/templates.md) for the full list and setup instructions.
 {% endhint %}
 {% endstep %}
 
@@ -57,7 +57,7 @@ This step defines what devices will send their readings to this flow. It is esse
 4. Click **Apply changes** to apply the configuration
 
 {% hint style="info" %}
-For details on the node configuration, see [Data Source node](../nodes/data-source-node.md).
+For details on the node configuration, see [Data Source node](flow-management/data-source-node.md).
 {% endhint %}
 {% endstep %}
 
@@ -73,7 +73,7 @@ At this step, we configure the calculations to enrich the raw data or even creat
    1. **Attribute name** - A clear, descriptive name (e.g., "speed\_mph")
    2. **Formula** - The calculation expression (e.g., `speed/1.609` to convert km/h to mph)\
       :bulb:**Note**: Short syntax is the primary option. Use full syntax when you need historical/indexed values or explicit validity checks (e.g., `value('speed', 1, 'valid')`).\
-      Attribute names [can be autofilled](../nodes/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to avoid typos.
+      Attribute names [can be autofilled](flow-management/initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to avoid typos.
 5. Add additional attributes if needed by clicking **Add Attribute**. To remove an attribute, click the delete icon next to it.
 6. Click **Apply changes** to apply the configuration
 7. Create a connection:
@@ -81,11 +81,11 @@ At this step, we configure the calculations to enrich the raw data or even creat
    2. Drag the transition to the input connector of the **Initiate Attribute** node
 
 {% hint style="info" %}
-For details on node configuration, see [Initiate Attribute node](../nodes/initiate-attribute-node/).
+For details on node configuration, see [Initiate Attribute node](flow-management/initiate-attribute-node/).
 
-For details on actions with attributes, see [Managing attributes](../nodes/initiate-attribute-node/managing-attributes.md).
+For details on actions with attributes, see [Managing attributes](flow-management/initiate-attribute-node/managing-attributes.md).
 
-For sample calculation formulas, see [Calculation examples](../nodes/initiate-attribute-node/calculation-examples.md).
+For sample calculation formulas, see [Calculation examples](flow-management/initiate-attribute-node/calculation-examples.md).
 {% endhint %}
 {% endstep %}
 
@@ -101,14 +101,14 @@ This step defines where the data will be sent from this flow. You can point it t
 * **Default endpoint** - a standard output for sending flow data to the Navixy platform. It is pre-configured and cannot be edited.
 * **MQTT endpoint** - a custom output for sending flow data to 3rd-party destinations over MQTT.
 
-4. Configure the preset-specific settings. Default output is pre-configured, for instructions on other preset configuration and parameters, see [Mode-specific configurations](../nodes/output-endpoint-node.md#mode-specific-configurations).
+4. Configure the preset-specific settings. Default output is pre-configured, for instructions on other preset configuration and parameters, see [Mode-specific configurations](flow-management/output-endpoint-node.md#mode-specific-configurations).
 5. Click **Apply changes** to apply the configuration
 6. Connect your other nodes to this one in the needed order to finalize the flow structure
 
 {% hint style="info" %}
 Each flow should include a **Default endpoint** node to ensure data is sent to the platform. Without this connection, device data won't be visible in the Navixy interface.
 
-For details on node configuration, see [Output Endpoint node](../nodes/output-endpoint-node.md).
+For details on node configuration, see [Output Endpoint node](flow-management/output-endpoint-node.md).
 {% endhint %}
 {% endstep %}
 
@@ -136,7 +136,7 @@ To confirm the data is processed correctly, use the **Data Stream Analyzer** too
 4. Use filtering options to focus on specific parameters
 5. Verify that any calculated attributes show the correct values
 
-For details on using the tool, see [Data Stream Analyzer](../data-stream-analyzer.md).
+For details on using the tool, see [Data Stream Analyzer](data-stream-analyzer.md).
 
 {% hint style="success" %}
 Congratulations! Your first IoT Logic data flow is up and running.
@@ -147,10 +147,10 @@ Congratulations! Your first IoT Logic data flow is up and running.
 Now that you've created your first IoT Logic flow, you can:
 
 * Adapt this quick start example to your business needs
-* Create more complex data transformations with multiple [Initiate Attribute nodes](../nodes/initiate-attribute-node/)
-* Set up additional [output destinations](../nodes/output-endpoint-node.md) for your data that can become reusable profiles for consistent configurations
-* [Manage already created flows](../flow-management/) to adjust data processing to any changes you face
-* [Design advanced flows](../flow-management/flow-configuration-example.md) for specific business scenarios using different node combinations and configurations
+* Create more complex data transformations with multiple [Initiate Attribute nodes](flow-management/initiate-attribute-node/)
+* Set up additional [output destinations](flow-management/output-endpoint-node.md) for your data that can become reusable profiles for consistent configurations
+* [Manage already created flows](flow-management/) to adjust data processing to any changes you face
+* [Design advanced flows](flow-management/flow-configuration-example.md) for specific business scenarios using different node combinations and configurations
 
 ## Frequently asked questions
 
