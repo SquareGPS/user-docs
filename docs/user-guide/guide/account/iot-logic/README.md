@@ -1,8 +1,17 @@
+---
+description: >-
+  No-code telematics data processing built into Navixy. Receive data from GPS
+  trackers, IoT sensors, and telematics servers, transform it, and route it to
+  Navixy or external systems in real time.
+---
+
 # IoT Logic
 
-## Your complete data management solution
+**IoT Logic** is a no-code/low-code data processing tool built into the Navixy platform. It gives telematics operators direct control over how device data is received, processed, and distributed, without involving a developer for every new requirement.
 
-**IoT Logic** is a no-code/low-code tool integrated into Navixy platform, designed to simplify telematics data management. It combines a visual flow system with a JEXL-based expression language, enabling efficient data transformation without requiring coding expertise. Acting as a data traffic manager, it processes raw input from GPS devices, dash cams, and IoT sensors, converting it into actionable insights through custom data pipelines.
+It can work with GPS trackers, dash cams, IoT sensors, or third-party telematics servers forwarding device data into Navixy. Incoming data is normalized into a consistent format regardless of its origin, and can then be enriched with calculated attributes and routed to the Navixy platform, external systems, or both.
+
+Inside the flow, you can transform and route data based on real-time conditions, trigger automated actions on devices, and deliver results to the Navixy platform, third-party systems, or both. Continuous data streams, targeted event-driven notifications, and parallel outputs to multiple destinations are all supported within a single flow.
 
 ![](<../../../.gitbook/assets/IoT_Logic_schema (3) (1).jpg>)
 
