@@ -543,22 +543,6 @@ Table "places_longtext_fields" {
   "place_id" integer [not null]
 }
 
-Table "raw_device_data" {
-  "device_id" integer
-  "device_time" timestamp
-  "created_at" timestamp
-  "gps_fix_type" integer
-  "longitude" integer
-  "latitude" integer
-  "altitude" integer
-  "speed" integer
-  "satellites" integer
-  "hdop" integer
-  "event_id" integer
-  "inputs" jsonb
-  "states" jsonb
-}
-
 Table "groups_objects" {
   "groups_client_id" integer
   "objects_client_id" integer
@@ -713,8 +697,6 @@ Ref:"objects"."object_id" < "vehicles"."object_id"
 Ref:"users"."user_id" < "vehicles"."user_id"
 
 Ref:"zones"."zone_id" < "geofence_points"."zone_id"
-
-Ref:"devices"."device_id" < "raw_device_data"."device_id"
 
 Ref:"users"."user_id" < "devices"."owner_id"
 
