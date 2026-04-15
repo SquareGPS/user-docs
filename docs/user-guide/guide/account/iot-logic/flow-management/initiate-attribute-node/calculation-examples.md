@@ -167,3 +167,21 @@ math:round(math:sqrt(value('temperature_1', 0, 'valid') * value('temperature_2',
 {% hint style="info" %}
 **Example:** A fleet manager oversees vehicles from multiple manufacturers, each with different fuel sensor readings (ohms, volts, raw digital values). By normalizing these diverse readings to a consistent percentage scale, the manager can apply the same low-fuel alerts across the entire fleet and generate standardized fuel consumption reports without having to account for the specific sensor characteristics of each vehicle model.
 {% endhint %}
+
+## String operations
+
+String operations let you combine multiple attribute values into a single string output.
+
+### Joining attribute values
+
+Combining values from multiple attributes is useful when you need to consolidate data from several sources into one field for display or transmission.
+
+```jexl
+util:joinNonNull(', ', ble_name_1, ble_name_2, ble_name_3, ble_name_4, ble_name_5, ble_name_6, ble_name_7, ble_name_8)
+```
+
+**Practical application:** Devices with BLE scanning capability can detect multiple peripheral sensors simultaneously, but not all sensor slots are always occupied. This calculation produces a clean, comma-separated list of active sensors, skipping unpaired slots automatically. The result is ready for display or forwarding to external systems without additional cleanup.
+
+{% hint style="info" %}
+**Example**: A refrigerated truck supports up to eight BLE temperature sensors placed throughout the cargo area, but only three are currently installed. Instead of producing "Sensor A, Sensor B, Sensor C, , , , , " with empty entries for the unused slots, `util:joinNonNull` outputs "Sensor A, Sensor B, Sensor C" — a clean list that updates automatically as sensors are added or removed. If you need empty positions preserved in the output, use `util:join` instead, which treats null values as empty strings rather than skipping them.
+{% endhint %}
