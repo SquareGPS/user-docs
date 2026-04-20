@@ -16,15 +16,15 @@ Transformation Builder is currently under development. The feature description o
 
 **Transformation Builder** is a visual tool for designing data transformation workflows without the need to develop and maintain complex data pipelines. You assemble processing logic as a graph where each step is represented by a separate block (node), and the tool compiles your graph into executable SQL.
 
-Transformation Builder is designed for analysts, BI specialists, and anyone with basic SQL knowledge who wants to control data preparation logic independently. It helps you answer the key questions of data preparation: where the data comes from, how it is joined, which filters and transformations are applied, how time series are aggregated, and in what form the data should appear in the [Transformation layer](./).
+Transformation Builder is designed for analysts, BI specialists, and anyone with basic SQL knowledge who wants to control data preparation logic independently. It helps you answer the key questions of data preparation: where the data comes from, how it is joined, which filters and transformations are applied, how time series are aggregated, and in what form the data should appear in the [Transformation layer](../).
 
-Transformation Builder is not a full ETL orchestrator or a data platform. It is a focused workflow designer that generates configuration and SQL for external runtime execution.
+Transformation Builder is not a full ETL orchestrator or a data platform. It is a focused workflow designer that compiles your node graph into a SQL query and a scheduled database function. Pre-built workflow templates for common Navixy transformations are available on the [Templates](templates.md) page.
 
 ## How it works
 
 A workflow in Transformation Builder is a directed graph of nodes arranged from data sources to output:
 
-<figure><img src="../../../.gitbook/assets/Basic-flow-example.png" alt="workflow graph example showing sources, transformations, and output"><figcaption><p align="center"><strong>Raw data sources → Transformation nodes → Output</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Basic-flow-example.png" alt="workflow graph example showing sources, transformations, and output"><figcaption><p align="center"><strong>Raw data sources → Transformation nodes → Output</strong></p></figcaption></figure>
 
 Each node corresponds to one logical processing step. You can combine multiple sources into one transformation node, and the result of one node can feed into several downstream nodes. The graph gives you a clear visual representation of the entire data path from source tables to the target analytical entity.
 
@@ -38,14 +38,14 @@ Data in the graph must flow in one direction only. Cycles are not allowed. If th
 
 Before you start building a workflow, you need to connect to your PostgreSQL database. Without an active connection, data preview and table discovery are unavailable.
 
-The connection panel allows you to specify your [Connection URL](../../connection-setup/#connection-string-format), connect or disconnect, and see the number of tables found in each category. The Builder uses two schemas in your database:
+The connection panel allows you to specify your [Connection URL](../../../connection-setup/#connection-string-format), connect or disconnect, and see the number of tables found in each category. The Builder uses two schemas in your database:
 
 * `raw_telematics_data` for telematics and device sensor data
 * `raw_business_data` for business reference data (vehicles, employees, geofences, and similar entities)
 
 Once connected, the Builder automatically discovers available tables and columns, which you can then select when configuring data source nodes.
 
-<figure><img src="../../../.gitbook/assets/Connection-url.png" alt="connection panel showing URL input and discovered table counts"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Connection-url.png" alt="connection panel showing URL input and discovered table counts"><figcaption></figcaption></figure>
 
 ### Data source nodes
 
@@ -202,7 +202,7 @@ Enter your PostgreSQL connection URL and establish the connection. The Builder d
 {% step %}
 #### Add data source nodes
 
-Add a [**Raw data: Telematics**](transformation-builder.md#raw-data-telematics) node and select the table and columns you want to work with. If you need reference data (for example, vehicle details or sensor descriptions), add a [**Raw data: Business**](transformation-builder.md#raw-data-business) node as well.
+Add a [**Raw data: Telematics**](./#raw-data-telematics) node and select the table and columns you want to work with. If you need reference data (for example, vehicle details or sensor descriptions), add a [**Raw data: Business**](./#raw-data-business) node as well.
 {% endstep %}
 
 {% step %}
@@ -210,17 +210,17 @@ Add a [**Raw data: Telematics**](transformation-builder.md#raw-data-telematics) 
 
 Insert the transformation nodes your workflow requires:&#x20;
 
-* [**SQL Transform**](transformation-builder.md#sql-transform) to join data
-* [**Filter**](transformation-builder.md#filter) to narrow results
-* [**Resampling**](transformation-builder.md#resampling) to aggregate time series
-* [**Arithmetic**](transformation-builder.md#arithmetic) to add computed columns
-* [**Custom SQL**](transformation-builder.md#custom-sql) for complex logic.
+* [**SQL Transform**](./#sql-transform) to join data
+* [**Filter**](./#filter) to narrow results
+* [**Resampling**](./#resampling) to aggregate time series
+* [**Arithmetic**](./#arithmetic) to add computed columns
+* [**Custom SQL**](./#custom-sql) for complex logic.
 {% endstep %}
 
 {% step %}
 #### Configure the Output node
 
-Add [Output](transformation-builder.md#output) node and set the target table name, primary key columns, and write mode for your analytical entity.
+Add [Output](./#output) node and set the target table name, primary key columns, and write mode for your analytical entity.
 {% endstep %}
 
 {% step %}
@@ -254,7 +254,7 @@ Click **Schedule** to open the configuration dialog, where you can determine exa
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../../.gitbook/assets/Complete-flow-example.png" alt="completed workflow graph with all node types connected"><figcaption><p>Complete transformation flow example</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Complete-flow-example.png" alt="completed workflow graph with all node types connected"><figcaption><p>Complete transformation flow example</p></figcaption></figure>
 
 ### Results preview
 
@@ -277,7 +277,7 @@ After you click **Execute** in the toolbar, the Builder compiles your workflow g
 Results preview requires an active PostgreSQL connection. Without a connection, the preview returns an empty result with no SQL executed. The preview always uses real data from your database, not mock data.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Executed-flow-result.png" alt="Results preview panel showing successful execution with result table and SQL"><figcaption><p>Executed flow result</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Executed-flow-result.png" alt="Results preview panel showing successful execution with result table and SQL"><figcaption><p>Executed flow result</p></figcaption></figure>
 
 ## Validation and compilation
 
@@ -307,6 +307,7 @@ Transformation Builder is currently in its initial release, and several constrai
 
 ## Next steps
 
-* [**Transformation layer**](./): Learn how the Transformation layer organizes processed data into schemas and how to query it.
+* [**Templates**](templates.md): Pre-built workflow configurations you can import and adapt in Transformation Builder.
+* [**Transformation layer**](../): Learn how the Transformation layer organizes processed data into schemas and how to query it.
 * [**Workflow YAML reference**](workflow-yaml-reference.md): Review the full specification for the YAML export and import format.
-* [**Raw data layer**](../bronze-layer.md): Explore the source schemas (`raw_telematics_data` and `raw_business_data`) that provide input data for your workflows.
+* [**Raw data layer**](../../bronze-layer.md): Explore the source schemas (`raw_telematics_data` and `raw_business_data`) that provide input data for your workflows.

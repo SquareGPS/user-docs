@@ -6,7 +6,16 @@ description: >-
 
 # Workflow YAML reference
 
-This page documents the YAML format that [Transformation Builder](transformation-builder.md) uses for exporting and importing workflows. Use this reference when you need to share workflows between environments, store them in version control, or integrate with external runtime systems.
+This page documents the YAML format that Transformation Builder uses to save and load\
+workflow configurations. The YAML is the Builder's internal representation of a workflow\
+design: it captures the node graph, parameters, and edges so a workflow can be exported,\
+stored, shared, or re-imported into the Builder.
+
+When you schedule a workflow, the Builder compiles the node graph into a single SQL query\
+and registers it as a scheduled database function. That SQL query and its pg\_cron job are\
+what execute on your database. The YAML is not involved at runtime. If you want to build\
+or run transformations independently of the Builder, write and schedule the SQL directly\
+on your database without using this format.
 
 The format has two versions. **Version 2** is the current format that Transformation Builder produces on export. It organizes nodes as a flat array in topological order (`cte_nodes`) with a separate `edges` array for connections. **Version 1** is an older format that uses a `nodes` key with inline `depends_on` references for connections. Transformation Builder can import both versions, but always exports version 2.
 
@@ -14,7 +23,8 @@ The format has two versions. **Version 2** is the current format that Transforma
 {% column %}
 #### **Export**&#x20;
 
-Produces a YAML file in version 2 format. You can trigger an export from the **Export** button in the Transformation Builder toolbar, or through the API. The exported file can be stored in a repository, shared with colleagues, or passed to an external runtime for execution.
+Produces a YAML file in version 2 format. You can trigger an export from the **Export** button in the Transformation Builder toolbar, or through the API. The exported file can be stored in a repository, shared with colleagues, or re-imported\
+into Transformation Builder in another environment.
 {% endcolumn %}
 
 {% column %}
@@ -52,16 +62,16 @@ The root of a version 2 YAML file contains the following keys:
 
 Each entry in the `cte_nodes` array represents one node in the workflow graph.
 
-| Field             | Description                                                                                                                                                                                |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `id`              | Unique node identifier (string).                                                                                                                                                           |
-| `type`            | Node type. One of: `telematics`, `business`, `filter`, `resample`, `sql`, `arithmetic`, `custom`, `output`.                                                                                |
-| `label`           | Display name shown on the canvas. Falls back to the node ID if not set.                                                                                                                    |
-| `description`     | Node description. May be an empty string.                                                                                                                                                  |
-| `position`        | Canvas coordinates as `{ x, y }`.                                                                                                                                                          |
-| `sources`         | Ordered list of predecessor node IDs, derived from the graph edges. Empty for source nodes.                                                                                                |
-| `params`          | Node configuration parameters. The specific fields depend on the node type. See the [Transformation Builder](transformation-builder.md) documentation for parameter details per node type. |
-| `width`, `height` | Optional. Canvas dimensions for the node, included only when explicitly set.                                                                                                               |
+| Field             | Description                                                                                                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`              | Unique node identifier (string).                                                                                                                                    |
+| `type`            | Node type. One of: `telematics`, `business`, `filter`, `resample`, `sql`, `arithmetic`, `custom`, `output`.                                                         |
+| `label`           | Display name shown on the canvas. Falls back to the node ID if not set.                                                                                             |
+| `description`     | Node description. May be an empty string.                                                                                                                           |
+| `position`        | Canvas coordinates as `{ x, y }`.                                                                                                                                   |
+| `sources`         | Ordered list of predecessor node IDs, derived from the graph edges. Empty for source nodes.                                                                         |
+| `params`          | Node configuration parameters. The specific fields depend on the node type. See the [Transformation Builder](./) documentation for parameter details per node type. |
+| `width`, `height` | Optional. Canvas dimensions for the node, included only when explicitly set.                                                                                        |
 
 **Params cleaning.** The `available_tables` and `available_columns` fields are removed from `params` during export. These fields are populated at runtime when the Builder connects to the database and should not be stored in YAML.
 
@@ -280,5 +290,6 @@ The export does not include `available_tables` or `available_columns` in `params
 
 ## Next steps
 
-* [**Transformation Builder**](transformation-builder.md): Learn how to design workflows using the visual interface.
-* [**Transformation layer**](./): Understand how processed data is organized into schemas and how to query it.
+* [**Transformation Builder**](./): Learn how to design workflows using the visual interface.
+* [**Templates**](templates.md): Pre-built workflow configurations you can import and adapt in Transformation Builder.
+* [**Transformation layer**](../): Understand how processed data is organized into schemas and how to query it.

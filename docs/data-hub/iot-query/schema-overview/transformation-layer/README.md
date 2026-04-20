@@ -22,7 +22,9 @@ Transformation layer in brief: the Raw data layer is everything collected, the T
 
 This intermediate layer eliminates repetitive manual data preparation and makes your data ready for practical analytics. Fleet operators can answer common operational questions without extensive data processing, and integrators gain a stable foundation for building scalable reporting and BI solutions.
 
-Transformations can be designed and configured using the [**Transformation Builder**](transformation-builder.md), a visual tool that allows you to create custom analytical entities through a drag-and-drop workflow interface. For details on how to build and manage transformations, see the Transformation Builder documentation.
+Transformations can be designed and configured using the [**Transformation Builder**](transformation-builder/), a visual tool that allows you to create custom analytical entities through a drag-and-drop workflow interface. For details on how to build and manage transformations, see the Transformation Builder documentation.
+
+Navixy provides a set of ready-made common transformations that run automatically and populate the `processed_common_data` schema without any configuration on your part. You can query this data immediately after connecting to IoT Query. Each common transformation also comes with a workflow template you can load into Transformation Builder to inspect the processing logic or adapt it to your specific scenario. See [Common transformations](common-transformations/) for available entities and their output schemas.
 
 ## How data is organized
 
@@ -35,12 +37,12 @@ Transformation layer data is organized into two PostgreSQL schemas: `processed_c
 The `processed_common_data` schema contains transformations developed and maintained by Navixy. This schema is shared across all clients and provides standardized analytical entities that address common telematics use cases. Tables appear in this schema as Navixy deploys new transformations to serve widely applicable analytical requirements.
 
 {% hint style="warning" %}
-The `processed_common_data` schema is **read-only for external clients**. You can query the data freely, but you cannot modify tables, insert records, or alter structures in this schema. To build your own analytical entities, use the `processed_custom_data` schema through the [Transformation Builder](transformation-builder.md).
+The `processed_common_data` schema is **read-only for external clients**. You can query the data freely, but you cannot modify tables, insert records, or alter structures in this schema. To build your own analytical entities, use the `processed_custom_data` schema through the [Transformation Builder](transformation-builder/).
 {% endhint %}
 
 ### processed\_custom\_data
 
-The `processed_custom_data` schema contains client-specific transformations created to address unique business requirements. Each client has an isolated instance of this schema, so your data is not visible to other organizations. Tables in this schema correspond to transformations you configure and manage through the [Transformation Builder](transformation-builder.md).
+The `processed_custom_data` schema contains client-specific transformations created to address unique business requirements. Each client has an isolated instance of this schema, so your data is not visible to other organizations. Tables in this schema correspond to transformations you configure and manage through the [Transformation Builder](transformation-builder/).
 
 You have full ownership of this schema: you decide which transformations to create, how they process data, and when they run. The Transformation Builder generates the configuration and SQL needed to produce your custom analytical entities.
 
@@ -73,10 +75,11 @@ WHERE device_time >= CURRENT_DATE - INTERVAL '7 days';
 
 * **Include time-range filters.** Add time-based conditions in your `WHERE` clauses to limit the volume of data scanned. This improves query performance and reduces execution time.
 * **Check transformation schedules.** The data in Transformation layer tables reflects the most recent completed processing cycle. If you need data that is only a few minutes old, the Raw data layer may be more appropriate until the next transformation cycle runs.
-* **Remember that `processed_common_data` is read-only.** Use this schema for querying standardized entities maintained by Navixy. To create your own analytical entities, configure transformations in the `processed_custom_data` schema through the [Transformation Builder](transformation-builder.md).
+* **Remember that `processed_common_data` is read-only.** Use this schema for querying standardized entities maintained by Navixy. To create your own analytical entities, configure transformations in the `processed_custom_data` schema through the [Transformation Builder](transformation-builder/).
 
 ## Next steps
 
-* [**Transformation Builder**](transformation-builder.md): Design custom analytical entities using the visual workflow interface.
+* [**Transformation Builder**](transformation-builder/): Design custom analytical entities using the visual workflow interface.
 * [**Raw data layer**](../bronze-layer.md): Explore the source schemas (`raw_telematics_data` and `raw_business_data`) that feed into transformations.
 * [**SQL Recipe Book**](../../../example-queries/): Learn query patterns and best practices for working with Transformation layer tables in Dashboard Studio.
+* [**Common transformations**](common-transformations/): Explore the ready-made analytical entities available in `processed_common_data`, including output schemas, query examples, and Transformation Builder templates.
