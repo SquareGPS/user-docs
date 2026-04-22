@@ -78,6 +78,7 @@
     * [Mileage and odometer](faq-and-troubleshooting/sensors/mileage-and-odometer.md)
   * [IoT Logic](faq-and-troubleshooting/iot-logic/README.md)
     * [How to connect Telegram with Navixy-IoT Logic.](faq-and-troubleshooting/iot-logic/how-to-connect-telegram-with-navixy-iot-logic..md)
+    * [How to Implement Event-Driven Scheduling Using Unix Time in IoT Logic](faq-and-troubleshooting/iot-logic/how-to-implement-event-driven-scheduling-using-unix-time-in-iot-logic.md)
   * [Access IoT Data](faq-and-troubleshooting/access-iot-data/README.md)
     * [View tracks recorded in interval tracking mode](faq-and-troubleshooting/access-iot-data/view-tracks-recorded-in-interval-tracking-mode.md)
     * [GPS tracking of stationary assets with BLE tags](faq-and-troubleshooting/access-iot-data/gps-tracking-of-stationary-assets-with-ble-tags.md)
