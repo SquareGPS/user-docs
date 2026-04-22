@@ -80,6 +80,8 @@ The system does not store future trigger times; it relies entirely on real-time 
 
 
 
+This solution simulates a scheduler in an event-driven system by using Unix timestamps and detecting time transitions between consecutive data packets. While it is not a true scheduler, it provides a reliable and scalable way to implement time-based automation without requiring native scheduling support.
+
 
 
 
