@@ -42,7 +42,7 @@ We also recommend familiarizing yourself with [Data types and field standards](g
 While working with the **IoT Query**, be aware of these current limitations:
 
 * **Error messaging** is minimal for SQL query issues
-* **Silver and Gold layers** are still in development and not available yet
+* **Transformation and Insight layers** are still in development and not available yet
 * **Historical data** availability depends on your Platform subscription plan
 
 For detailed information on structure and capability, see [Schema overview](schema-overview/).

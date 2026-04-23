@@ -28,8 +28,9 @@ Access your DNS configuration via your hosting provider or registrar and add a n
 
 * EU Platform: `saas.navixy.com`
 * US Platform: `saas.us.navixy.com`
+* ME Platform: `saas.me.navixy.com`
 
-If you are unsure which platform your account uses, check your current Admin panel URL. If it contains "https://www.google.com/search?q=us.navixy.com", use the US address. Otherwise, use the EU address.
+If you are unsure which platform your account uses, check your current Admin panel URL. If it contains "https://www.google.com/search?q=us.navixy.com", use the US address. Otherwise, use the EU or ME address.
 
 **Requirements**
 
@@ -50,7 +51,7 @@ Below are examples of how to configure a domain using common registrars.
 5. Select **CNAME**.
 6. Enter the following information:
    * **Host**: Enter your subdomain prefix (e.g., enter `my` to create `my.company.com`).
-   * **Points To**: Enter `saas.navixy.com` (or the US equivalent).
+   * **Points To**: Enter `saas.navixy.com` (or the US/ME equivalent).
 7. Click **Save** and then **Save Changes**.
 
 [**Enom**](http://enom.com)
@@ -61,7 +62,7 @@ Below are examples of how to configure a domain using common registrars.
 4. Click **Host Settings**.
 5. Click **New Row** to add a record.
 6. Enter the subdomain prefix (e.g., `my`) in the first field.
-7. Enter `saas.navixy.com` (or the US equivalent) as the host name.
+7. Enter `saas.navixy.com` (or the US/ME equivalent) as the host name.
 8. Click **Save**.
 {% endstep %}
 

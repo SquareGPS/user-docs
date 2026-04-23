@@ -18,7 +18,7 @@ Compared to installing aftermarket GPS devices, connecting via an OEM integratio
 
 ## How it works
 
-OEM-connected vehicles do not use a SIM card that Navixy can configure directly. Instead, data flows from the manufacturer's connected-vehicle system to Navixy through a feed set up by your service provider. This means the activation process has two stages: your service provider prepares the data feed, then you add the vehicle in Navixy using the standard activation wizard.
+OEM-connected vehicles send data from the manufacturer's connected-vehicle system to Navixy through a feed set up by your service provider. This means the activation process has two stages: your service provider prepares the data feed, then you add the vehicle in Navixy using the standard activation wizard.
 
 {% hint style="info" %}
 Ford vehicles with the FordPass Connect modem are currently supported. Support for other OEM manufacturers is available on request. Contact your service provider to find out whether your vehicle make can be integrated.
