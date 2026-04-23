@@ -11,7 +11,7 @@ Follow these steps to learn how to work with X-GPS Mobile.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (2).png" alt="X-GPS Mobile in Google Play"><figcaption><p>Search screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="X-GPS Mobile in Google Play"><figcaption><p>Search screen</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -42,7 +42,7 @@ Allow the app to send you notifications and access the device’s location while
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/allow (1).jpg" alt="Permission prompt"><figcaption><p>Permission prompt</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/allow.jpg" alt="Permission prompt"><figcaption><p>Permission prompt</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -68,7 +68,7 @@ Use the bottom panel to switch between the main screen and your profile.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../../.gitbook/assets/image (27).png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt="Assets list"><figcaption><p>Assets list</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

@@ -64,7 +64,7 @@ Select the call for token generation and go to the **ValIngreso** section
 {% step %}
 Go to the **Body** tab and select **Raw**
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -153,7 +153,7 @@ Enter the following parameters:
 * **Login**: Enter the login provided by the Colombian Police
 * **Password**: Enter the password provided by the Colombian Police
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="270"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="270"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

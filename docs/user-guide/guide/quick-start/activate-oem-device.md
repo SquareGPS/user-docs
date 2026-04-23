@@ -42,7 +42,7 @@ If you do not have these credentials, contact your OEM program administrator bef
 
 {% stepper %}
 {% step %}
-### Contact your service provider
+#### Contact your service provider
 
 Send your service provider the five credentials listed above and ask them to configure the OEM data feed for your account. This step happens entirely on their side, so you do not need to interact with the vehicle or Navixy yet.
 
@@ -50,7 +50,7 @@ Wait for your service provider to confirm that the feed is active before continu
 {% endstep %}
 
 {% step %}
-### Add the vehicle in Navixy
+#### Add the vehicle in Navixy
 
 Once your service provider confirms the feed is ready, add the vehicle using the standard activation wizard:
 
@@ -65,7 +65,7 @@ For full details on each wizard step, see [Activate GPS device automatically](ac
 {% endstep %}
 
 {% step %}
-### Verify the connection
+#### Verify the connection
 
 Within about 15 minutes of activation, the vehicle should appear online in Navixy with its current location and available vehicle data.
 

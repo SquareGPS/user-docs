@@ -8,13 +8,13 @@
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image-20250403-162909 (3) (1).png" alt="Data source node in the flow workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250403-162909.png" alt="Data source node in the flow workspace"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 ### Flow architecture integration
 
-<figure><img src="../../../../.gitbook/assets/Data-source-in-flow (3) (1).webp" alt="Data source node included in a flow on workspace"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Data-source-in-flow.webp" alt="Data source node included in a flow on workspace"><figcaption></figcaption></figure>
 
 **Data Source node** functions as the entry point for data in an IoT Logic flow. A single flow can contain multiple source nodes, each with independent configurations. This architecture enables:
 
@@ -109,4 +109,4 @@ The protocol should match the communication protocol used by your device manufac
 
 Yes, you can connect a **Data Source node** to multiple processing nodes to create parallel processing paths. This allows you to apply different transformations to the same data stream. Here’s an example:
 
-<figure><img src="../../../../.gitbook/assets/image-20250404-075539 (3) (1).png" alt="Example showing the Data source node in context with multiple outbound connections and outputs"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-20250404-075539.png" alt="Example showing the Data source node in context with multiple outbound connections and outputs"><figcaption></figcaption></figure>

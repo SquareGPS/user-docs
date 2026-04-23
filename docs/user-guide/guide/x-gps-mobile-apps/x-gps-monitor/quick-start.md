@@ -47,6 +47,6 @@ The following items are available on the main screen:
 {% endcolumn %}
 
 {% column %}
-![](<../../../.gitbook/assets/x-monitor-interface (1) (1).png>)
+![](../../../.gitbook/assets/x-monitor-interface.png)
 {% endcolumn %}
 {% endcolumns %}

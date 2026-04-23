@@ -18,7 +18,7 @@ Output control supports two command types:
 Commands are saved per device and remain available for repeated use.
 
 {% hint style="info" %}
-### When to use Output control vs. IoT Logic
+#### When to use Output control vs. IoT Logic
 
 **Output control** is designed for ad-hoc, manual actions targeting a single device. Use it when you need to send a one-off command without configuring an automation flow.
 
