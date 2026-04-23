@@ -1,94 +1,44 @@
 # Tasks
 
-A **Task** in Navixy refers to a specific assignment or job that needs to be completed by an employee or field worker. It includes detailed instructions about what needs to be done, where it should be done, and within what timeframe. Tasks can range from simple one-off assignments, such as delivering a package to a single location, to more complex operations, like visiting multiple checkpoints along a route to perform inspections, installations, or other services.
+A **Task** in Navixy refers to a specific assignment or job that needs to be completed by an employee or field worker. It includes detailed instructions about what needs to be done, where it should be done, and within what timeframe. Tasks can range from simple, one-off assignments like delivering a package to a single location, to more complex operations like visiting multiple checkpoints along a route to perform inspections, installations, or other services.
 
-Tasks are essential for managing and coordinating field operations, ensuring that employees are clear about their responsibilities, and allowing managers to monitor progress, optimize routes, and ensure that all jobs are completed efficiently. In the field, employees can view their task using the [X-GPS ](../x-gps-mobile-apps/x-gps-tracker/task-assignment.md)Tracker app.
+![](<../../.gitbook/assets/image-20240815-215838 (3) (1).png>)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="Tasks list"><figcaption><p>Tasks page</p></figcaption></figure>
+Tasks are essential for managing and coordinating field operations, ensuring that employees are clear about their responsibilities, and allowing managers to monitor progress, optimize routes, and ensure that all jobs are completed efficiently.
 
 ## How to create a task
 
-To create a task in Navixy, follow these steps:
+1. Navigate to **Tasks** tab in **Field service** module
+2. Click the **“+”** button to begin the process of creating a new task.
+3. **Define the task name:**\
+   Enter a descriptive task name that helps identify the purpose of the task. This could be the name of the customer or a brief description of the task, such as "Install Equipment" or "Inspect Communications."
+4. **Specify the task address:**\
+   Enter the task address manually, select a point on the map, or use geographic coordinates. This will define the primary location for a single task or the first checkpoint for a route task.
+5. **Set the task time:**\
+   Define the date and time range during which the employee should complete the task. This ensures that the task is completed within the designated timeframe.
+6. **Add Checkpoints for Route tasks:**\
+   To create a route task, click “Add New Checkpoint” after setting the initial location. Each checkpoint represents an additional stop along the route, and they will be automatically connected in sequence. The employee must complete these checkpoints in the specified order.
+7. **Assign the task to an Employee:**\
+   Select the employee who will be responsible for the task. If necessary, you can assign the task later using the task list or utilize additional tools provided in the interface to make the assignment easier.
+8. **Additional task details:**
+   1. **Task description:** Provide any additional details that might be useful to the employee, such as contact information or special instructions.
+   2. **Form:** Select the form that the employee needs to complete while performing the task. Forms can be filled out directly in the X-GPS Tracker app.
+   3. **Tags:** Add relevant tags to the task to facilitate easy searching and categorization later.
+   4. **Order ID:** Assign an order ID that the client can use to track the status of the task via the “Courier on the Map” feature.
+9. Click **“Save”** to finalize and send the task to the employee’s mobile device.
 
-{% hint style="info" %}
-The only required fields are task name and address.
-{% endhint %}
+### Single and Route tasks
 
-{% stepper %}
-{% step %}
-### Go to Tasks
+* **Single tasks:** These are straightforward tasks where the employee visits a single location to perform the assigned duties. The task is completed once the employee has arrived at the specified address and performed the required actions.
+* **Route tasks:** These involve multiple checkpoints that the employee must visit in a specific order. This type of task is ideal for situations where the employee needs to visit several locations along a planned route, such as deliveries or inspections.
 
-Navigate to the **Tasks** tab in the **Field service** module.
-{% endstep %}
+The interface is designed to be intuitive, allowing managers and dispatchers to quickly create and manage both single and route tasks with ease, ensuring that all field operations are handled efficiently and effectively.
 
-{% step %}
-### Start creating a task
+### Route optimization feature
 
-Click **+** to open the task creation dialogue.
+Navixy’s **Route Optimization** feature helps couriers deliver packages efficiently by determining the best sequence for visiting multiple addresses across a city. It considers the location of each address, specific delivery time windows, and the starting point of the task to create the most optimal route.
 
-![](<../../.gitbook/assets/image-20240815-215838 (3).png>)
-{% endstep %}
-
-{% step %}
-### Enter task name
-
-Enter a descriptive task name that helps identify the purpose of the task. This could be the name of the customer or a brief description of the task, such as "Install Equipment" or "Inspect Communications."
-{% endstep %}
-
-{% step %}
-### Set task address
-
-Manually enter the task address, select a point on the map, or use geographic coordinates. This will define the primary location for a single task or the first checkpoint for a route task.
-{% endstep %}
-
-{% step %}
-### Add checkpoints for route tasks
-
-To create a route task (a task that consists of multiple subtasks), click **Add new checkpoint**. Each checkpoint represents an additional stop along the route, and they will be automatically connected in sequence. The employee must complete these checkpoints in the set order.
-{% endstep %}
-
-{% step %}
-### Set task date and time
-
-Click **Task date** to open the **Execution period** window and define the date and time range during which the employee should complete the task. You can also configure additional options, such as admissible delay, visit duration, and ignore random visits with a set duration.
-{% endstep %}
-
-{% step %}
-### Select the employee responsible for completing the task
-
-Select the driver who performs the task. You can add or configure drivers in **Fleet management → Drivers.**
-{% endstep %}
-
-{% step %}
-### Add task information
-
-Provide other task details, including:
-
-* **Task description:** Add any additional details that might be useful to the employee, such as contact information or special instructions.
-* **Radius:** Defines the permissible deviation from the specified location. If the employee or vehicle arrives within this radius, their status will be set to **Arrived**, allowing them to complete the task.
-* **Form:** Select the form that the employee needs to submit to complete the task. Forms can be filled out directly in the [X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/) app.
-* **Tags:** Add relevant tags to the task to facilitate easy searching and categorization later.
-* **Order ID:** Assign an order ID that the client can use to track the status of the task via the **Courier on the map** feature.
-{% endstep %}
-
-{% step %}
-### Finalize task creation
-
-Click **Save** to finish creating the task. The selected employee will receive the task with the attached form in the X-GPS Tracker mobile app, ensuring all necessary documentation is available during task execution.
-{% endstep %}
-{% endstepper %}
-
-## Single and route tasks
-
-**Single tasks** are straightforward tasks where the employee visits a single location to perform the assigned duties. The task is completed once the employee has arrived at the specified address (status: **Arrived**) and performed the required actions, such as submitting the attached [form](forms.md).
-
-**Route tasks** involve multiple checkpoints that the employee must visit in a specific order. This type of task is ideal for situations where the employee needs to visit several locations along a planned route, such as deliveries or inspections.
-
-## Optimize route
-
-**Optimize route** is a feature that helps couriers deliver packages efficiently by determining the best sequence for visiting multiple addresses across a city. It considers the location of each address, specific delivery time windows, and the starting point of the task to create the most optimal route. To use it, click **Optimize route** at the bottom of the left panel of a configured route task. You'll be prompted to enter the start address and time.
-
-**Key benefits:**
+#### Key benefits:
 
 * **Fuel savings:** Minimizes travel distance, reducing fuel consumption.
 * **Faster deliveries:** Optimizes the sequence for quicker task completion.
@@ -96,188 +46,50 @@ Click **Save** to finish creating the task. The selected employee will receive t
 
 The platform can optimize up to 25 points in a single route task, ensuring all deliveries are made on time and in the most efficient order.
 
-## How to import tasks
+## Tasks import
 
 When managing a large workforce or numerous tasks, importing tasks from an Excel file is more efficient than manually creating and assigning them one by one. This is particularly useful when tasks are generated by external systems such as CRMs.
 
-![](<../../.gitbook/assets/image-20240815-220011 (3).png>)
+![](<../../.gitbook/assets/image-20240815-220011 (3) (1).png>)
 
-## How to import tasks from an Excel file
+### Import from Excel file
 
-While developers can import tasks using [Navixy API](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/6dtcPLayxXVB2qaaiuIL/), there’s a simpler method: importing tasks from an Excel file. Follow these steps to import your tasks to the Navixy platform:
+While developers can use an API for task import, there’s a simpler method available—importing tasks from an Excel file. Data should be presented in XLS, XLSX, or CSV spreadsheet formats.
 
-{% stepper %}
-{% step %}
-### Start the import process
+#### How to import tasks from an Excel file
 
-Hover your mouse over the **+** button in the tasks section and click **XLS**.
-{% endstep %}
+1. **Start the import process:**
+   1. Hover your mouse over the “+” button in the tasks section.
+   2. Click on the **XLS** option.
+2. **Tasks import window:**
+   1. In the "Tasks import" window, you can download a **File example** template.
+   2. Set task parameters as needed.
+3. **Required fields:**\
+   Fields marked as "Required" must be filled in for the import to succeed. The system will reject the import if any required fields are missing.
+4. **Address vs. Coordinates:**\
+   You can specify an address instead of coordinates; the system will automatically determine the location.
 
-{% step %}
-### Prepare the file
+#### Import settings
 
-In the **Tasks import** window, click **File example** template to download a template. Adjust your files to match it.
-{% endstep %}
+In addition to individual task settings, you can configure the following global settings:
 
-{% step %}
-### Upload the file
+* **Default Radius:** Defines the permissible deviation from the specified location. If the employee (or vehicle) arrives within this radius, the task will be considered completed even if they don’t reach the exact location.
+* **Auto-Assign Tasks:**
+  * **Ignore Address:** Tasks are evenly assigned to all employees.
+  * **Use Employee Address:** Tasks are assigned based on proximity to the employee's home address.
+  * **Use Department Address:** Tasks are assigned according to the distance from the employee's department._Note:_ The addresses of departments and employees should be specified on their respective profile cards.
 
-The only required field is the file itself. Max size is 10 Mb. Allowed formats are XLS, XLSX, and CSV.
-{% endstep %}
+By using these settings, you can streamline the task assignment process, ensuring tasks are efficiently distributed and completed.
 
-{% step %}
-### Configure import settings
+### Import from TXT file
 
-You can configure the following settings for uploaded tasks:
+#### How to import Tasks from a TXT file
 
-* **Default radius:** Defines the permissible deviation from the specified location. If the employee or vehicle arrives within this radius, the task will be considered completed even if they don’t reach the exact location.
-* **Auto-assign tasks:**
-  * **Do not assign:** Tasks are assigned to all employees.
-  * **To employees:** Check the employees you want to be assigned the task or tasks.
-    * **Ignore address:** Tasks are assigned without regard for the employee's address.
-    * **Use employee address**: Tasks are assigned based on proximity to the employee's home address.
-    * **Use department address:** Tasks are assigned according to the distance from the employee's department.
-  * **To vehicles:**
-    * **Ignore address:** Tasks are assigned without regard for the vehicle's address.
-    * **Use garage address:** Tasks are assigned based on proximity to the garage.
+1. **Start the Import Process:**
+   1. Hover your mouse over the **“+”** button in the tasks section.
+   2. Click on the **TXT** option.
+2. **Tasks import window:**
+   1. You will see the “Tasks import” window, which contains a large field.
+   2. Paste the task list from your spreadsheet directly into this field using clipboard (copy-paste).
 
-{% hint style="info" %}
-The addresses of departments and employees should be specified on their respective profile cards.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Finalize import
-
-Click **Next** to finish importing the task or tasks.
-{% endstep %}
-{% endstepper %}
-
-## How to import tasks from a TXT file
-
-{% stepper %}
-{% step %}
-### Start the import process
-
-Hover your mouse over the **+** button in the tasks section and click **TXT.**
-{% endstep %}
-
-{% step %}
-### Enter your tasks
-
-Paste your tasks directly from the spreadsheet into the large field on the left of the **Tasks import** window (the only required field). Pay attention to the column headers.
-{% endstep %}
-
-{% step %}
-### Configure import settings
-
-Just like with importing from an Excel file, you can set the following options:
-
-* **Default radius:** Defines the permissible deviation from the specified location. If the employee or vehicle arrives within this radius, the task will be considered completed even if they don’t reach the exact location.
-* **Auto-assign tasks:**
-  * **Do not assign:** Tasks are assigned to all employees.
-  * **To employees:** Check the employees you want to be assigned the task or tasks.
-    * **Ignore address:** Tasks are assigned without regard for the employee's address.
-    * **Use employee address**: Tasks are assigned based on proximity to the employee's home address.
-    * **Use department address:** Tasks are assigned according to the distance from the employee's department.
-  * **To vehicles:**
-    * **Ignore address:** Tasks are assigned without regard for the vehicle's address.
-    * **Use garage address:** Tasks are assigned based on proximity to the garage.
-
-{% hint style="info" %}
-The addresses of departments and employees should be specified on their respective profile cards.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Finalize import
-
-Click **Next** to finish importing the task or tasks.
-{% endstep %}
-{% endstepper %}
-
-## Recurring tasks
-
-Recurring tasks are tasks that are automatically repeated in set intervals. They are displayed on the **Recurring tasks** page of the **Field service** module.
-
-<figure><img src="../../.gitbook/assets/{B12DF7B4-4E70-4566-96CB-EAFF88061175}.png" alt=""><figcaption></figcaption></figure>
-
-## How to create a recurring task
-
-To create a recurring task, follow these steps:
-
-{% hint style="danger" %}
-At the moment, recurring tasks aren't supported by [X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/).
-{% endhint %}
-
-{% stepper %}
-{% step %}
-### Go to Recurring tasks
-
-Navigate to the **Recurring tasks** tab in the **Field service** module.
-{% endstep %}
-
-{% step %}
-### Start creating a recurring task
-
-Click **+** to open the task creation dialogue.
-
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Enter task name
-
-Enter a descriptive task name that helps identify the purpose of the task. This could be the name of the customer or a brief description of the task, such as "Install Equipment" or "Inspect Communications."
-{% endstep %}
-
-{% step %}
-### Set task address
-
-Manually enter the task address, select a point on the map, or use geographic coordinates. This will define the primary location for a single task or the first checkpoint for a route task.
-{% endstep %}
-
-{% step %}
-### Configure repeat frequency
-
-Click the **Repeat** block to open the recurrence settings and choose a preset or manually configure the dates when the task will be performed.
-{% endstep %}
-
-{% step %}
-### Add checkpoints for route tasks
-
-To create a route task (a task that consists of multiple subtasks), click **Add new checkpoint**. Each checkpoint represents an additional stop along the route, and they will be automatically connected in sequence. The employee must complete these checkpoints in the set order.
-{% endstep %}
-
-{% step %}
-### Set task time and duration
-
-Define the date and time range during which the employee should complete the task. This ensures that the task is completed within the designated timeframe.
-
-Click **Additionally** to display additional options, such as admissible delay, visit duration, and ignore random visits with a set duration.
-{% endstep %}
-
-{% step %}
-### Select the employee responsible for completing the task
-
-Select the driver who performs the task. You can add or configure drivers in **Fleet management → Drivers.**
-{% endstep %}
-
-{% step %}
-### Add task information
-
-Provide other task details, including:
-
-* **Description:** Add any additional details that might be useful to the employee, such as contact information or special instructions.
-* **Radius:** Defines the permissible deviation from the specified location. If the employee or vehicle arrives within this radius, their status will be set to **Arrived**, allowing them to complete the task.
-* **Form:** Select the form that the employee needs to submit to complete the task.
-* **Tags:** Add relevant tags to the task to facilitate easy searching and categorization later.
-* **Order ID:** Assign an order ID that the client can use to track the status of the task via the **Courier on the map** feature.
-{% endstep %}
-
-{% step %}
-### Finalize task creation
-
-Click **Save** to finish creating the task.
-{% endstep %}
-{% endstepper %}
+This process allows you to efficiently import multiple tasks at once, streamlining your task management workflow.

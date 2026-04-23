@@ -127,7 +127,7 @@ For detailed information on expression syntax, operators, and data flow behavior
 
 The **IF/THEN Logic** node creates two distinct output paths based on the expression evaluation results.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091115 (1).png" alt="IF/THEN Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091115 (1) (1).png" alt="IF/THEN Logic node showing THEN and ELSE connections with green and red color coding"><figcaption></figcaption></figure>
 
 ### THEN connection (<mark style="color:green;">green</mark>)
 
@@ -181,7 +181,7 @@ IF/THEN Logic node results appear as boolean attributes in the [Data Stream Anal
 
 Yes. You can connect **IF/THEN Logic** nodes sequentially to create complex decision trees. Each **IF/THEN Logic** node can reference the boolean attributes created by previous **IF/THEN Logic** nodes, enabling sophisticated multi-stage validation workflows.
 
-<figure><img src="../../../../../.gitbook/assets/image-20250721-091554 (1).png" alt="Example flow showing multiple IF/THEN Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image-20250721-091554 (1) (1).png" alt="Example flow showing multiple IF/THEN Logic nodes connected in sequence for complex decision trees"><figcaption></figcaption></figure>
 
 #### Why must IF/THEN Logic branches connect to Output Endpoints?
 

@@ -20,13 +20,13 @@ To see the event history for an object, select it and click <img src="../../../.
 
 To view events for all devices, click the Alerts tab on the sidebar:
 
-![Alerts module](<../../../.gitbook/assets/image-20241113-192802 (1).png>)
+![Alerts module](<../../../.gitbook/assets/image-20241113-192802 (1) (1).png>)
 
 ## Events list
 
 Select a date range to see a summary of events for the chosen objects, grouped by object. The icons and numbers below each object represent the most common event types during the selected period. You can click the icons to filter the list by event type.
 
-By default, each entry’s events are collapsed. Click <img src="../../../.gitbook/assets/image-20250415-083354 (1).png" alt="image-20250415-083354.png" data-size="line"> to the right to expand the view.
+By default, each entry’s events are collapsed. Click <img src="../../../.gitbook/assets/image-20250415-083354 (1) (1).png" alt="image-20250415-083354.png" data-size="line"> to the right to expand the view.
 
 ## Event details
 

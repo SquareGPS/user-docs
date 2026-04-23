@@ -69,7 +69,7 @@ Let's see what elements this node uses and what you can configure when working w
 
 {% stepper %}
 {% step %}
-#### **Specify node Name**
+**Specify node Name**
 
 Enter a descriptive name that identifies the webhook's purpose.
 
@@ -78,7 +78,7 @@ Enter a descriptive name that identifies the webhook's purpose.
 {% endstep %}
 
 {% step %}
-#### **Configure the endpoint URL**
+**Configure the endpoint URL**
 
 Enter the complete URL where POST requests will be sent.
 
@@ -88,7 +88,7 @@ Enter the complete URL where POST requests will be sent.
 {% endstep %}
 
 {% step %}
-#### **Define HTTP headers**
+**Define HTTP headers**
 
 Add any headers required by your target API.
 
@@ -105,7 +105,7 @@ Maximum of 10 headers supported
 {% endstep %}
 
 {% step %}
-#### **Build the request body**
+**Build the request body**
 
 Switch to the **Body** tab and define the JSON structure that will be posted to the endpoint:
 
@@ -134,7 +134,7 @@ Switch to the **Body** tab and define the JSON structure that will be posted to 
 {% endstep %}
 
 {% step %}
-#### **Save your configuration**
+**Save your configuration**
 
 Click **Apply changes** to store the webhook node settings.
 {% endstep %}

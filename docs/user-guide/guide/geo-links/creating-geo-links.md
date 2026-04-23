@@ -6,7 +6,7 @@ To create a geo link, simply click **+** at the top of the page.
 
 The creation dialogue window contains the following options:
 
-![Creating a Geo link dialog](<../../.gitbook/assets/image-20250725-120004 (1).png>)
+![Creating a Geo link dialog](<../../.gitbook/assets/image-20250725-120004 (1) (1).png>)
 
 {% stepper %}
 {% step %}

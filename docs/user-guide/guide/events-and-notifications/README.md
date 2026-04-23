@@ -55,7 +55,7 @@ Rules in Navixy are predefined conditions that trigger events when met. To set u
 
 To access the notification rules setup in Navixy, go to the left menu and choose **Alerts**. This will open the Notification panel. Click on **Set rules**, and the Alert rules interface will appear.
 
-![](<../../.gitbook/assets/image-20240805-214736 (3).png>)
+![](<../../.gitbook/assets/image-20240805-214736 (3) (1).png>)
 
 In the **Rules** interface, you can:
 
@@ -325,7 +325,7 @@ These pre-configured rules are fully customizable—you can easily add notificat
 
 You can customize your in-browser event notifications by clicking the gear icon in the event list. To access and customize notification settings, click “Alerts” in the left menu to open Notifications, then click the gear icon.
 
-![](<../../.gitbook/assets/image-20240814-041437 (3).png>)
+![](<../../.gitbook/assets/image-20240814-041437 (3) (1).png>)
 
 * **Browser notifications:** Enable this to receive event alerts directly within your operating system's notification center (e.g., Windows Action Center). Your browser will prompt you to allow these notifications.
 * **Display notifications:** New events will appear as pop-up notifications in the upper right corner of the monitoring platform page.
