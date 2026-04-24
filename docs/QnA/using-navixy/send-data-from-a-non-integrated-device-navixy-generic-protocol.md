@@ -16,4 +16,4 @@ The minimum required JSON is like so:
 ### Links
 
 * [Navixy Generic Protocol](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-generic-protocol)
-* [Message structure and attributes](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-generic-protocol/navixy-generic-protocol-10/message-structure-and-attributes)
+* [Message structure and attributes](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-generic-protocol/message-structure-and-attributes)
