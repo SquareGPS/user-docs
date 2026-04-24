@@ -127,6 +127,7 @@
   * [API to retrieve videos from the platform](apis/api-to-retrieve-videos-from-the-platform.md)
   * [User session hash vs admin panel hash vs API key](apis/user-session-hash-vs-admin-panel-hash-vs-api-key.md)
   * [Get relevant telemetry in one API call (get\_state)](apis/get-relevant-telemetry-in-one-api-call-get_state.md)
+  * [Missing Customer ID and Customer Name in RC-Walmart](apis/missing-customer-id-and-customer-name-in-rc-walmart.md)
 * [Device-related questions](device-related-questions/README.md)
   * [How to troubleshoot Jimi JC400 video streaming and playback](device-related-questions/how-to-troubleshoot-jimi-jc400-video-streaming-and-playback.md)
   * [Configuring sensors on Teltonika trackers](device-related-questions/configuring-sensors-on-teltonika-trackers.md)
