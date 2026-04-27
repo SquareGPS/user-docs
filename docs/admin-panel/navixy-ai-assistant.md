@@ -25,9 +25,9 @@ The assistant searches official Navixy documentation, the knowledge base, blog p
 You can ask questions by typing or by speaking. Select the microphone icon in the input field to switch to voice input.
 {% endhint %}
 
-You can also open the assistant directly at [navixy.com/ai-assistant](https://www.navixy.com/ai-assistant) without signing in. In standalone mode, all the topics above are fully available: API documentation, device specifications, user guides, platform features, integration help, and technical FAQs. Only live account data requires an active session.
+You can also open the assistant directly at [assistant.navixy.com](https://assistant.navixy.com/) without signing in. In standalone mode, all the topics above are fully available: API documentation, device specifications, user guides, platform features, integration help, and technical FAQs. Only live account data requires an active session.
 
-<p align="center"><a href="https://www.navixy.com/ai-assistant/?utm_source=gitbook&#x26;utm_medium=docs&#x26;utm_campaign=ai_assistant" class="button primary">Ask Navixy AI Assistant</a></p>
+<p align="center"><a href="https://assistant.navixy.com/" class="button primary">Ask Navixy AI Assistant</a></p>
 
 ### What you can ask about your dealer account
 
