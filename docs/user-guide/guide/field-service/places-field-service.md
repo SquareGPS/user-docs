@@ -1,24 +1,43 @@
 # Places
 
-**Places** in the **Field service** application can be used for organizing and managing key locations that your field staff need to visit, such as customer addresses, company sites, or other important points of interest. This helps streamline task assignments, optimize routes, and ensure efficient field operations.
+**Places (or POIs)** in the **Field service** module can be used for organizing and managing key locations that your field staff need to visit, such as customer addresses, company sites, or other important points of interest. This helps streamline task assignments, optimize routes, and ensure efficient field operations.
 
-![](../../.gitbook/assets/image-20240816-175137.png)
+The page contains the list of all available Places along with their details, including custom fields you've added.
 
-Upon entering the Places section, you will see a list of all available places along with their details, including custom fields you've added.
+<figure><img src="../../.gitbook/assets/image-20240816-174653 (3).png" alt="Places page"><figcaption><p>Places page</p></figcaption></figure>
 
-![](../../.gitbook/assets/image-20240816-174653.png)
+## How to create a Place
 
-## Creating and Managing Places
+{% stepper %}
+{% step %}
+### Go to Places
 
-When you create a new Place in Navixy's Field Service application, you can enter all the necessary information to make it easy to identify and manage. Start by giving the Place a name, specifying its address or selecting its location on the map. You can also add details like a description, tags, and any instructions relevant to the site.
+Open the **Places** page in the **Field service** module.
+{% endstep %}
 
-### Custom Fields
+{% step %}
+### Start creating a Place
 
-Custom fields let you add extra details that aren't covered by the standard options. These fields are tailored to your business needs, ensuring you have all the important information at your fingertips. For example:
+Click **+** to open the place creation dialogue.
+{% endstep %}
 
-* **Equipment type**: Record what equipment is at the site, like "4G antenna" or "Power generator."
-* **Maintenance schedule**: Note how often the site needs maintenance, such as "Monthly" or "Quarterly."
-* **Access code**: Store any security codes or instructions needed to access the site.
-* **Manager contact**: Include the contact details of the person responsible for the location.
+{% step %}
+### Enter Place details
 
-Using custom fields ensures that all the necessary information is organized and easily accessible, making field operations more efficient.
+<figure><img src="../../.gitbook/assets/image-20240816-175137 (3).png" alt="Creating a Place" width="563"><figcaption><p>Creating a Place</p></figcaption></figure>
+
+Enter the Place's label, address, and radius. You can also add a description, tags, and a file.&#x20;
+{% endstep %}
+
+{% step %}
+### (Optional) Add custom fields
+
+Custom fields let you add extra details that aren't covered by the standard options. These fields are tailored to your business needs. They can include equipment type stored at the site, site maintenance schedule, security code, or manager contacts.
+
+To manage custom fields, save the place, then reopen it and click **Custom fields** to open the **Custom fields** page for Places. Learn how to configure them in the [Custom fields](../account/custom-fields.md) article.
+{% endstep %}
+{% endstepper %}
+
+## How to use Places
+
+Places are used as a map tool to help you track your objects in the **Tracking** module. To learn more about their use for monitoring the map, see [Places (POIs)](../tracking/map-tools/places-pois.md). The **Tracking** module also allows [importing them](../tracking/map-tools/places-pois.md#importing-places-from-an-excel-file).
