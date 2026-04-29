@@ -1,113 +1,207 @@
 # Eco Driving
 
-The **Eco Driving report** in Navixy is a powerful tool designed to analyze and improve the driving behavior of your fleet's drivers. By assigning a score between 0 and 100 to each driver, the system provides a clear metric of driving performance based on penalty points accumulated from various driving violations. These violations are assessed according to their frequency and severity over every 100 kilometers driven, ensuring a comprehensive evaluation of each driver’s habits.
+The **Eco Driving** report scores how safely and efficiently your drivers behave on the road. Each driver gets a rating from 0 to 100, calculated from the penalty points given for speeding, harsh driving, and excessive idling. The score is normalized by distance traveled, so it stays fair regardless of how much each driver drove during the period.
 
-To access the Eco Driving report, navigate to the **Fleet Management app** and select the **"Eco-Driving" tab.**
+To open the report, go to the **Fleet Management** app and select the **Eco Driving** tab.
 
-![](../../.gitbook/assets/image-20240814-183737.png)
+<figure><img src="../../.gitbook/assets/image.png" alt="Eco Driving page"><figcaption><p>Eco Driving page</p></figcaption></figure>
 
-## Understanding penalty points
+## Eco Driving report use cases
 
-Penalty points are a key component of the Eco Driving report, allowing you to gauge the impact of different types of violations on driver performance. The system tracks three main categories of driving violations: speeding, harsh driving, and excessive idling. Each violation type contributes to the overall score, with lower scores indicating more frequent or severe violations.
+**Eco Driving** is particularly useful for companies that need to monitor driver behavior closely, such as those in passenger transport, hazardous material transport, or emergency services. By analyzing this report, organizations can extend vehicle lifespans, reduce the likelihood of accidents, and ensure that vehicles are used efficiently and responsibly.
 
-## Customizing the report
+It's an essential feature for any fleet manager looking to maintain high standards of driver safety, efficiency, and regulatory compliance.
 
-The Eco Driving report can be tailored to fit your specific needs, enabling you to set your own criteria for what constitutes a violation and how severe it is. You can assign different penalty points to various infractions, allowing you to prioritize certain aspects of driving behavior according to your organization’s standards.
+## How Eco Driving rating is calculated
 
-![Speeding settings example](../../.gitbook/assets/image-20240814-183612.png)
+The system records every speeding, harsh driving and excessive idling event during the report period, multiplies each one by the penalty you have configured, sums them up, and then divides the total by the distance the vehicle actually drove.
 
-**Key features**
+In simple terms, `rating = 100 − (penalty points per 100 km)`, between 0 and 100.
 
-* **Speeding violations:** Monitor instances where drivers exceed set speed limits, with penalties adjusted based on the extent and duration of the speeding.
-* **Harsh driving:** Track aggressive maneuvers such as harsh braking, acceleration, or sharp turns, with customizable thresholds based on your fleet's devices.
-* **Excessive idling:** Identify and penalize drivers for long periods of idling, which can waste fuel and reduce vehicle efficiency.
+So a driver who drove a long distance with very few violations will score close to 100, while a driver who racks up a lot of penalty points relative to their mileage will score closer to 0. The same number is also displayed as a 1-to-5 star rating next to the score.
+
+{% hint style="info" %}
+To receive a rating, the driver of vehicle needs at least 1 km of recorded movement during the period. Otherwise, the message "No movements found for the specified period" will be displayed.
+{% endhint %}
+
+## What counts as a violation
+
+The report tracks three categories of violations. You decide how each one is penalized in **Penalty settings**.
+
+### Speeding
+
+A speeding violation is recorded when the driver's speed exceeds the applicable limit for longer than the **Speeding duration** you set. Brief excursions over the limit are ignored, and only sustained speeding counts.
+
+The **Use speed limit** setting determines where the limit comes from. Select one of the following options:
+
+* **Specified**: Enter a single speed value that applies to every vehicle in the report.
+* **From vehicle parameters**: Use the **Permitted speed** value from each vehicle's profile in the **Vehicles** module. This lets different vehicles have different limits without changing the report.
+* **From road rules**: Use the map-based speed limit of the road the vehicle is driving on. A fallback value can be entered for road segments where no official limit is known.
+
+Penalty points are configured per minute, in tiers under **Penalty amount for speed limit overrun**. You decide how many points per minute apply depending on how much the driver exceeds the limit. Slight overspeed can be left at zero penalty so it doesn't pollute the report.
+
+The penalty rate that gets applied to a whole speeding episode is the one for the highest tier the driver actually reached during it, even if only briefly.
 
 <details>
 
-<summary>Calculations in the Eco Driving report</summary>
+<summary>How the math works</summary>
 
-The Eco Driving report in Navixy is designed to evaluate and score the driving behavior of employees based on a set of criteria. The score for each driver ranges from 0 to 100 and is influenced by penalty points assigned for various violations.
+Let's say your settings say:
 
-Below are detailed explanations of how these penalty points are calculated and how they affect the overall driver score. These detailed calculations and reports allow fleet managers to assess driving behavior comprehensively, promoting safer and more efficient driving practices across their fleet.
+* **Speeding duration**: 1 minute.
+* **Penalty amount for speed limit overrun**: 10 points per minute when over the limit by 20 km/h or more.
 
-**Speeding violations**
+A vehicle then exceeds the limit by 21 km/h for 1 minute and 37 seconds.
 
-Speeding violations are penalized based on how much a driver exceeds the speed limit and for how long. You can either set a universal speed limit or use vehicle-specific speed limits.
-
-**Calculation of speeding penalties:**
-
-The penalty points for speeding are calculated using the following formula:
-
-`Time Factor × Penalty Points = Total Penalty Points`
-
-For instance, if a vehicle exceeds the speed limit by 21 km/h for a duration of 1 minute and 37 seconds, the system will exclude the first minute (not penalized) and calculate the penalty for the remaining 37 seconds. If the penalty for exceeding the speed limit by 20-30 km/h is set at 10 points, the formula would be:
-
-`0.616 × 10 = 6.16 penalty points`
-
-**Harsh driving violations**
-
-Harsh driving events, such as rapid acceleration, sudden braking, and sharp turns, are recorded by GPS trackers equipped with acceleration sensors. The severity of each harsh driving event can be customized, and penalty points are assigned accordingly.
-
-**Calculation of penalties for harsh driving**
-
-Each harsh driving event automatically incurs a preset number of penalty points. These points are deducted from the driver’s overall score based on the frequency of these events.
-
-**Excessive idling violations**
-
-Excessive idling is monitored when a vehicle remains stationary with the engine running for an extended period. Penalty points are assigned based on how long the vehicle idles beyond a predefined threshold.
-
-**Calculation of penalties for idling**
-
-For example, if a vehicle idles for 8 minutes and 14 seconds and the threshold is set at 5 minutes, the penalty calculation would exclude the initial 5 minutes and only penalize the remaining 3 minutes and 14 seconds. If the penalty for idling is set at 5 points per minute, the calculation would be:
-
-`3.23 × 5 = 16.17 penalty points`
-
-**Total for the period page**
-
-The "Total for the period" section provides an overview of all penalties and scores for each driver or vehicle over the selected period. It includes a graphical representation and detailed tables.
-
-**Graph of penalty amount**
-
-This graph displays the cumulative penalty points, color-coded by the type of violation (red for speeding, blue for harsh driving, and green for idling).
-
-**Rating graph**
-
-This graph shows the scores of each driver or device, calculated per 100 kilometers traveled. Scores are adjusted based on penalties, providing a clear understanding of each driver’s performance.
-
-**Tables with detailed information**
-
-Each type of violation is further broken down into detailed tables, offering insights into specific events such as speeding, harsh driving, and idling.
-
-**Speeding table**
-
-This table lists all speeding events, with penalty points assigned based on the most severe speed exceeded during the event.
-
-**Harsh driving table**
-
-Events recorded within a 5-minute window are grouped, and penalties are calculated for each group.
-
-**Idle intervals table**
-
-This table provides details on each instance of idling with the engine running, including the duration and corresponding penalty points.
+* The first minute is excluded by the **Speeding duration** setting.
+* The remaining time is 37 seconds ≈ 0.62 of a minute.
+* Penalty = 0.62 × 10 = about 6.2 points for that episode.
 
 </details>
 
-## Analyzing results
+### Harsh driving
 
-The Eco Driving report provides both graphical and tabular data, making it easy to see at a glance which drivers are performing well and which may need further training. The graphical interface uses color-coding to distinguish between different types of violations, while the tables offer detailed breakdowns of penalties by driver or device.
+Harsh driving covers aggressive maneuvers picked up by the GPS tracker's motion sensors:
 
-### Settings and customization
+* Harsh acceleration
+* Harsh braking
+* Harsh turn
+* Braking in turn
+* Acceleration in turn
+* Quick lane change
 
-You can fine-tune the Eco Driving report to focus on specific time periods, days of the week, or times of day that are most relevant to your operation. Additionally, the system allows you to choose whether to generate reports based on individual drivers or the vehicles they use, providing flexibility depending on your tracking preferences.
+Combined maneuvers (like braking in a turn) typically deserve a higher penalty than a simple harsh acceleration on a straight road, but the values are entirely up to you.
 
-### Scheduling the Eco Driving report
+{% hint style="info" %}
+The detection thresholds for harsh maneuvers (how strong a brake or how sharp a turn has to be) are configured in [Devices and Settings](../devices-and-settings/), not in the Eco Driving report. The report only controls how much each event type is penalized.
 
-The Eco Driving report in Navixy can be scheduled to run automatically at specified intervals, allowing you to regularly monitor and evaluate driving behavior without manual intervention. This feature ensures that you receive consistent and timely insights into your fleet's performance, helping you to identify trends and address issues proactively.
+Not every device model supports every event type. Some report only a subset, and a few don't report harsh events at all. Vehicles whose GPS devices don't report a given event simply won't contribute that type of penalty.
+{% endhint %}
 
-To schedule the report, navigate to the "Schedule" tab within the Eco Driving section, set the desired frequency, and specify the recipients. The system will generate the report according to your settings and deliver it directly to your inbox or make it available for download on the platform.
+Keep in mind the following:
 
-### Practical applications
+* Events while the vehicle is essentially stopped are ignored. If the device reports a harsh event but the vehicle is parked or barely moving, it is dropped. This filters out spurious shocks (like potholes, doors slamming, or loading work) on stationary vehicles.
+* Repeated events of the same type within a few minutes are merged into a single row, with their penalties summed. Events of different types stay separate: a harsh braking followed shortly by a harsh acceleration still appears as two rows.
 
-The Eco Driving report is particularly useful for companies that need to monitor driver behavior closely, such as those in passenger transport, hazardous material transport, or emergency services. By analyzing this report, organizations can extend vehicle lifespans, reduce the likelihood of accidents, and ensure that vehicles are used efficiently and responsibly.
+### Excessive idling
 
-Overall, the Eco Driving report is an essential feature for any fleet manager looking to maintain high standards of driver safety, efficiency, and regulatory compliance.
+Excessive idling is detected when the vehicle is stationary with the engine running for longer than the threshold you set. The penalty is then charged per minute for the time spent idling beyond that threshold.
+
+{% hint style="warning" %}
+Idling detection requires the GPS device to report engine state / ignition status (or an equivalent input). If the device doesn't provide this signal, idle periods cannot be distinguished from regular stops, and no idling penalties will be calculated for that vehicle.
+{% endhint %}
+
+<details>
+
+<summary>How the math works</summary>
+
+Let's say your settings say:
+
+* **Idling threshold**: 5 minutes.
+* **Idling penalty**: 5 points per minute.
+
+A vehicle then idles for 8 minutes and 14 seconds.
+
+* The first 5 minutes are excluded by the threshold.
+* The remaining time is 3 minutes and 14 seconds, which is about 3.23 minutes.
+* Penalty = 3.23 × 5 = about 16.2 points for that idle interval.
+
+</details>
+
+## How to generate the Eco Driving report
+
+To create an Eco Driving report, follow these steps:
+
+{% stepper %}
+{% step %}
+### Go to Eco Driving
+
+Navigate to **Fleet Management → Eco Driving**.
+{% endstep %}
+
+{% step %}
+### Configure main report settings
+
+Select the reporting period, with optional filters for specific days of the week or times of day, and choose the drivers for which the report will be generated.
+{% endstep %}
+
+{% step %}
+### Configure penalties
+
+Open **Penalty settings** to customize the report.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="Violation rigidity settings"><figcaption><p>Penalty settings</p></figcaption></figure>
+
+The following settings can be configured:
+
+* **Speeding:** Monitor instances where drivers exceed set speed limits, with penalties adjusted based on the extent and duration of the speeding.
+* **Harsh driving:** Track aggressive maneuvers such as harsh braking, acceleration, or sharp turns, with customizable thresholds based on your fleet's devices.
+* **Excessive idling:** Identify and penalize drivers for long periods of idling, which can waste fuel and reduce vehicle efficiency.
+{% endstep %}
+
+{% step %}
+### Create the report
+
+Click **Generate report** and wait for the report to be created to view or download it as a PDF file.
+{% endstep %}
+{% endstepper %}
+
+## How to read Eco Driving report
+
+### Summary page
+
+The first page of the report aggregates all drivers included in the run. It contains:
+
+* **Total penalty chart**: A stacked bar chart showing how many penalty points each driver or vehicle accumulated, color-coded by violation type:
+  * **Speeding**
+  * **Harsh driving**
+  * **Excessive idling**
+* **Rating chart**: A simple bar chart of the 0–100 rating per driver or vehicle, ideal for spotting outliers at a glance.
+* **Period summary table**: Rating, mileage, number of penalties, and average penalty per driver or vehicle.
+
+### Driver/vehicle page
+
+Each driver or vehicle receives a separate page with the following:
+
+* A stacked bar chart of penalty points by day, broken down by violation type.
+* A summary table with the rating, total penalty, number of penalties, mileage, average penalty, and penalty per 100 km.
+* A **Speed violations** table: One row per speeding episode, with start time, address, speed limit, max speed, overspeed amount, duration, and penalty.
+* A **Harsh driving** table: One row per harsh event (or grouped events), with start time, address, event type, and penalty.
+* An **Excessive idling** table: One row per idle interval, with start time, address, duration, and penalty.
+* An **Object** column: A column showing which vehicle the driver was using at the time.
+
+## How to schedule Eco Driving reports
+
+To set up automatic reporting, follow these steps:
+
+{% stepper %}
+{% step %}
+### Open the Schedule tab
+
+Navigate to **Field management → Eco Driving → Schedule**.
+{% endstep %}
+
+{% step %}
+### Pick frequency
+
+Choose how often the report should run (daily, weekly, monthly, or a custom interval) and its delivery time.
+{% endstep %}
+
+{% step %}
+### Configure other settings
+
+Select drivers or vehicles for which the report will be generated and configure **Penalty settings,** including **Speeding, Harsh driving,** and **Excessive idling.**
+{% endstep %}
+
+{% step %}
+### (Optional) Select recipients
+
+Add the email addresses of everyone who should receive the report.
+{% endstep %}
+
+{% step %}
+### Save the schedule
+
+The report will be generated automatically on the chosen schedule and emailed to the recipients, if any. It will also be available for downloading as a PDF file.
+{% endstep %}
+{% endstepper %}
