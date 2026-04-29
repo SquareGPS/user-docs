@@ -170,7 +170,7 @@ When you edit an attribute, the changes will only apply to new data received aft
 To remove an attribute that is no longer needed:
 
 1. Open the node configuration window by hovering your mouse over the node to display quick actions, or double-clicking the node
-2. Find the attribute you wish to remove and click <img src="../../../../../.gitbook/assets/image (12).png" alt="" data-size="line">
+2. Find the attribute you wish to remove and click <img src="../../../../../.gitbook/assets/image (12) (2).png" alt="" data-size="line">
 3. Click **Apply changes** to cofirm the node configuration
 
 {% hint style="info" %}

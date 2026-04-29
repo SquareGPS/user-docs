@@ -2,7 +2,7 @@
 
 The **Staff** page in the **Field service** module is designed to manage and organize information about your field staff. This tool ensures that you have everything you need to efficiently coordinate your mobile workforce.
 
-<figure><img src="../../.gitbook/assets/image-20240816-171918 (3).png" alt="Staff page"><figcaption><p>Staff page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-20240816-171918.png" alt="Staff page"><figcaption><p>Staff page</p></figcaption></figure>
 
 To access the **Staff** page, log in to the Navixy platform and click **Field service** in the main menu. From there, click the **Staff** tab. This section provides an overview of all employees in your organization, displaying their essential information in a list format.
 
@@ -27,31 +27,31 @@ To add a new employee to the system, follow these steps:
 
 {% stepper %}
 {% step %}
-### Go to Staff
+#### Go to Staff
 
 Go to the **Staff** page in the **Field Service** module.
 {% endstep %}
 
 {% step %}
-### Start employee creation
+#### Start employee creation
 
 Click **+** to open the employee creation dialogue.
 {% endstep %}
 
 {% step %}
-### Fill in employee details
+#### Fill in employee details
 
 Enter the employee's name, contact information, location, and any other relevant details.
 {% endstep %}
 
 {% step %}
-### Assign employee to department
+#### Assign employee to department
 
 Select the appropriate department or branch from the dropdown menu.
 {% endstep %}
 
 {% step %}
-### Save
+#### Save
 
 Once all the details have been entered, click **Save** to create the employee record.
 {% endstep %}
@@ -63,31 +63,31 @@ To add multiple employees to your staff list, follow these steps:
 
 {% stepper %}
 {% step %}
-### Go to Staff
+#### Go to Staff
 
 Go to the **Staff** page in the **Field Service** module.
 {% endstep %}
 
 {% step %}
-### Start import
+#### Start import
 
 Hover your cursor over **+** and select XLS.
 {% endstep %}
 
 {% step %}
-### Prepare employee list
+#### Prepare employee list
 
 Download the template by clicking **Example file** and enter the required information.
 {% endstep %}
 
 {% step %}
-### Upload employee list
+#### Upload employee list
 
 Click **Browse** to select your Excel file (XLS, XLSX, or CSV). Ensure the **Use file headers** box is checked if your file includes headers.
 {% endstep %}
 
 {% step %}
-### Complete import
+#### Complete import
 
 Click **Continue** to finish the import process.
 {% endstep %}

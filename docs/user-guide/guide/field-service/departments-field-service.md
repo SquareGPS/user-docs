@@ -12,21 +12,21 @@ The department list is used to manage different departments in your organization
 
 {% stepper %}
 {% step %}
-### Go to Departments
+#### Go to Departments
 
 Open the **Departments** page in the **Field service** module.
 {% endstep %}
 
 {% step %}
-### Start creating a department
+#### Start creating a department
 
 Click **+** to open the department creation dialogue.
 {% endstep %}
 
 {% step %}
-### Enter department details
+#### Enter department details
 
-![Creating a new department](<../../.gitbook/assets/image-20240816-172857 (3).png>)
+![Creating a new department](../../.gitbook/assets/image-20240816-172857.png)
 
 * **Label**: Provide a name for the department.
 * **Address**: Enter the department's physical location or use the map to select a point.
@@ -34,7 +34,7 @@ Click **+** to open the department creation dialogue.
 {% endstep %}
 
 {% step %}
-### Finish creating the department
+#### Finish creating the department
 
 After filling in the necessary details, click **Save** to create the department.
 {% endstep %}

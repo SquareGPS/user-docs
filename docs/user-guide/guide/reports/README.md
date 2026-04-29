@@ -1,52 +1,91 @@
+---
+description: >-
+  Create, schedule, and manage fleet reports in Navixy. Learn report types,
+  report settings, and how to interpret report data.
+---
+
 # Reports
 
 Navixy offers a powerful reporting feature that allows you to generate detailed reports on various aspects of your fleet's operations. This guide will walk you through the steps of creating, scheduling, and managing reports using the Navixy platform, ensuring you can easily access and analyze the data you need.
 
-![](../../.gitbook/assets/image-20240814-234904.png)
+<figure><img src="../../.gitbook/assets/image (27).png" alt="Reports module"><figcaption><p>Reports module</p></figcaption></figure>
 
-## Accessing the reports section
+## How to create a report
 
-1. **Navigate to the Reports application:**\
-   From the main menu on the left side of the Navixy interface, click on the "Reports" item. This will take you to the section where you can view, create, and manage your reports.
-2. **Viewing generated reports:**\
-   The "Generated reports" section displays a list of the previous 10 reports that have been created. You can quickly access and review any of these reports by clicking on their titles.
-3. **Creating a new report:**\
-   To generate a new report, click on the "Create report" button at the top of the generated reports list. This will open the report creation interface.
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Creating a report</p></figcaption></figure>
 
-## Generating a single report
+A report is a custom-generated document that provides detailed insights into specific aspects of your fleet's operations, such as vehicle activity, fuel consumption, or driver behavior, based on selected criteria and time frames. Follow these steps to generate a single report:
 
-A single report is a custom-generated document that provides detailed insights into specific aspects of your fleet's operations, such as vehicle activity, fuel consumption, or driver behavior, based on selected criteria and time frames. Here’s how to generate a single report:
+{% stepper %}
+{% step %}
+### Choose report type
 
-1. **Choose a report type:**\
-   In the "Available reports" panel, you will find various report types grouped by categories such as Activity, Landmarks, Safety and Security, and Transport Usage. Select the report you want to generate by clicking on it.
-2. **Select objects:**\
-   After choosing the report type, you will need to select the objects (vehicles, drivers, etc.) for which the report will be generated. Use the "Objects" panel to check the appropriate boxes next to the desired items.
-3. **Customize report settings:**\
-   In the report settings panel, enter a title for the report and select the date range. You can also choose specific control days and times, and decide whether to include summaries or advanced settings.
-4. **Build the report:**\
-   Once all settings are configured, click the "Build report" button. The report will be generated and added to the top of the "Generated reports" list for immediate access.
+The **Available reports** panel contains various report types grouped by categories such as **Activity**, **Landmarks**, **Safety and Security**, **Transport usage, Driving quality, Device status, Connected devices,** and **Business**. Click the report you want to generate it.
+{% endstep %}
 
-## Scheduling reports
+{% step %}
+### Select the objects
 
-Scheduled reports are automated reports that are generated at predefined intervals, such as daily, weekly, or monthly, allowing you to regularly receive insights on your fleet's operations without manual intervention. Here’s how you can schedule a report:
+After choosing the report type, select the objects (vehicles, drivers, etc.) for which the report will be generated. Use the **Objects** panel to check the appropriate boxes.
+{% endstep %}
 
-1. **Access scheduled reports:**\
-   In the “Reports” application, click on the "Scheduled reports" tab next to the "Reports" tab. This section allows you to automate the generation of reports based on a set schedule.
-2. **Add a new schedule:**\
-   To set up a new scheduled report, click on "Add new schedule for report."
-3. **Configure schedule parameters:**\
-   Select the report type, objects, and customize the schedule parameters such as control days, time of delivery, and the interval (e.g., every week, every month). You can also opt to send the reports directly to specified email addresses.
-4. **Save the schedule:**\
-   After configuring all the settings, click "Save schedule." The scheduled report will now be automatically generated according to the specified parameters and can be accessed or modified in the "Scheduled Reports" section.
+{% step %}
+### Customize report settings
 
-## Managing reports
+In the rightmost panel, enter the title for the report and select the date range. You can also choose specific control days and time and decide whether to include summaries or advanced settings, such as dividing by stops, showing stop duration and coordinates, grouping by driver, and using the smart filter. For more information about these options, see [Understanding reports](read-and-understand-reports.md#common-report-parameters).
+{% endstep %}
 
-1. **Download reports:**\
-   To download a report, simply click on it from the "Generated reports" list and choose the download option. You can save the report in various formats such as XLS or PDF.
-2. **Print reports:**\
-   If you need a hard copy of a report, you can print it directly from the browser without downloading it by clicking the "Print" button.
-3. **Delete reports:**\
-   To remove a report that is no longer needed, select it from the list and click the delete option. Confirm the deletion when prompted.
+{% step %}
+### Build the report
+
+Once all settings are configured, click **Create report**. The report will be generated and added to the top of the **Generated reports** list for immediate access.
+
+{% hint style="info" %}
+Depending on the number of objects you selected and the actions performed during the period, the report may take some time to generate.
+{% endhint %}
+{% endstep %}
+{% endstepper %}
+
+## How to create scheduled reports
+
+Scheduled reports are automated reports generated at predefined intervals, such as daily, weekly, or monthly, allowing you to regularly receive insights on your fleet's operations without manual intervention. Follow these steps to schedule a report:
+
+{% stepper %}
+{% step %}
+### Access scheduled reports
+
+In the **Reports** module, navigate to the **Scheduled reports** tab. This section allows you to automate the generation of reports based on a set schedule.
+{% endstep %}
+
+{% step %}
+### Add a new scheduled report
+
+Click **+** next to the **Scheduled reports** title.
+{% endstep %}
+
+{% step %}
+### Configure schedule parameters
+
+Select report type and objects and set schedule parameters such as days of week, time of delivery, and interval (e.g., every week, every month). You can also opt to send the reports directly to specified email addresses.
+{% endstep %}
+
+{% step %}
+### Save the report
+
+After configuring all settings, click **Create**. The scheduled report will now be automatically generated according to the specified parameters and can be accessed or modified in the **Scheduled reports** section.
+{% endstep %}
+{% endstepper %}
+
+## How to manage reports
+
+The following options are available in the report interface after opening it:
+
+* **Download reports:**\
+  To download a report, select it from the list and choose <img src="../../.gitbook/assets/image (4).png" alt="Download" data-size="line">. You can save the report in XLSX or PDF.
+* **Print reports:**\
+  If you need a hard copy of a report, you can print it directly from the browser without downloading it by clicking <img src="../../.gitbook/assets/image (5).png" alt="" data-size="line">.
+* **Delete reports:**\
+  To remove a report that is no longer needed, select it from the list and click <img src="../../.gitbook/assets/image (8).png" alt="Delete" data-size="line">. Confirm the deletion when prompted.
 
 ## See also
 

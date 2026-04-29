@@ -2,37 +2,37 @@
 
 **Forms** are electronic documents that can be attached to tasks, allowing employees to submit task results directly through the [X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/) mobile app. These forms can include various types of fields such as text fields for client orders, inspection reports, and media sections for uploading photos and videos.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="Forms page"><figcaption><p>Forms page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt="Forms page"><figcaption><p>Forms page</p></figcaption></figure>
 
 {% embed url="https://youtu.be/FaHJU_EEkUU" %}
 
 ## How to create a form
 
-<figure><img src="../../.gitbook/assets/image-20240816-160834 (3).png" alt="Form creation dialogue"><figcaption><p>Creating a new form</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-20240816-160834.png" alt="Form creation dialogue"><figcaption><p>Creating a new form</p></figcaption></figure>
 
 To create a form in Navixy, follow the steps below. This process allows you to create as many forms as needed, ensuring they are tailored to the tasks your employees perform.
 
 {% stepper %}
 {% step %}
-### Go to Forms
+#### Go to Forms
 
 Open the **Field service** module from the main menu and select the **Forms** tab.
 {% endstep %}
 
 {% step %}
-### Start creating a form
+#### Start creating a form
 
 Click **+** to open the form creation dialogue.
 {% endstep %}
 
 {% step %}
-### Configure a form
+#### Configure a form
 
 Choose the necessary components (e.g., text fields, checkboxes, dropdowns, date, rating, image, file attachment, signature, and section separators) from the left side of the screen. Customize the form to suit your company's specific workflow and tasks.
 {% endstep %}
 
 {% step %}
-### Save the form
+#### Save the form
 {% endstep %}
 {% endstepper %}
 
@@ -43,11 +43,11 @@ Two toggles are available when creating a form:
 
 After saving, the created forms can be accessed through the form list.
 
-![List of created forms](<../../.gitbook/assets/image-20240816-155915 (3).png>)
+![List of created forms](../../.gitbook/assets/image-20240816-155915.png)
 
 ## How to attach a form to a task
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 To attach a form to a task, follow these steps:
 
@@ -57,31 +57,31 @@ For detailed information about creating a task, see [How to create a task](tasks
 
 {% stepper %}
 {% step %}
-### Open the Task creation window
+#### Open the Task creation window
 
 Navigate to **Tasks** tab and click **+** to open the task creation dialogue.
 {% endstep %}
 
 {% step %}
-### Select the employee responsible for completing the task
+#### Select the employee responsible for completing the task
 
 Select the driver who performs the task. You can add or configure drivers in **Fleet management → Drivers.**
 {% endstep %}
 
 {% step %}
-### Select the task form
+#### Select the task form
 
-&#x20;Choose the form you created earlier from the dropdown list at the bottom of the window.
+Choose the form you created earlier from the dropdown list at the bottom of the window.
 {% endstep %}
 
 {% step %}
-### Add task information
+#### Add task information
 
 Provide other task details.
 {% endstep %}
 
 {% step %}
-### Finalize task creation
+#### Finalize task creation
 
 Click **Save** to finish creating the task. The selected employee will receive the task with the attached form in the X-GPS Tracker mobile app, ensuring all necessary documentation is available during task execution.
 {% endstep %}
@@ -93,34 +93,34 @@ Employees are required to fill out forms during or after completing a task. Foll
 
 {% stepper %}
 {% step %}
-### Open X-GPS Tracker
+#### Open X-GPS Tracker
 
 Open the X-GPS Tracker app on your mobile device. If you don't have it set up, see [Invitation to X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/invitation-to-x-gps-tracker.md) to learn how to receive access.
 {% endstep %}
 
 {% step %}
-### Switch to Tasks
+#### Switch to Tasks
 
 Switch to the **Tasks** screen to view the list of assigned tasks:\
 ![](../../.gitbook/assets/Screenshot_20260403_140150.png)
 {% endstep %}
 
 {% step %}
-### Select the task to open it
+#### Select the task to open it
 
 Tap the task to open its details:\
 ![](../../.gitbook/assets/Screenshot_20260403_140202.png)
 {% endstep %}
 
 {% step %}
-### Open the form
+#### Open the form
 
 Tap the form attached to the task and fill in all mandatory fields:\
 ![](../../.gitbook/assets/Screenshot_20260403_140803.png)
 {% endstep %}
 
 {% step %}
-### Submit the form
+#### Submit the form
 
 Once all fields are filled, click **Submit** to send the form to the monitoring service. If your status is **Arrived**, the task status will automatically change to **Complete**.
 {% endstep %}
@@ -132,43 +132,43 @@ To ensure timely notifications when a form is submitted, configure alerts by fol
 
 {% stepper %}
 {% step %}
-### Go to Rules and alerts
+#### Go to Rules and alerts
 
 Navigate to the [Rules and alerts](../events-and-notifications/) module.
 {% endstep %}
 
 {% step %}
-### Go to **Alert rules**
+#### Go to **Alert rules**
 
 Click **Set rules** to open the **Alert rules** section.
 {% endstep %}
 
 {% step %}
-### Add a new rule
+#### Add a new rule
 
 Start creating a new notification rule by clicking **+**.
 {% endstep %}
 
 {% step %}
-### Select the objects
+#### Select the objects
 
 Select the objects to which the rule will apply.
 {% endstep %}
 
 {% step %}
-### Select the rule type
+#### Select the rule type
 
 Choose [Task performance](../events-and-notifications/scheduling-and-dispatching/task-performance.md) in the **Type** drop-down menu. You can also give the rule a name.
 {% endstep %}
 
 {% step %}
-### Configure the rule
+#### Configure the rule
 
 Check the **Form submitted** checkbox in the second alert group. You can also enable the **Form resubmitted** option that appears if **Form submitted** is checked.
 {% endstep %}
 
 {% step %}
-### Configure notifications
+#### Configure notifications
 
 Enter notification text, notification type (emergency or push), and notification recipients by SMS or email.
 {% endstep %}
@@ -182,27 +182,27 @@ You can review and compare completed forms to assess employee performance and ta
 
 {% stepper %}
 {% step %}
-### Go to Forms
+#### Go to Forms
 
 Open the **Field service** module from the main menu and select the **Forms** tab.
 {% endstep %}
 
 {% step %}
-### Select the form
+#### Select the form
 
 Select the form you wish to review and click **Submissions** on the right side or the **Submissions** button on the toolbar.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### View the submission page
+#### View the submission page
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-The submission page allows you to review and download the submitted form or forms.&#x20;
+The submission page allows you to review and download the submitted form or forms.
 
-To download the selected form in XLSX or PDF, click <img src="../../.gitbook/assets/image (7).png" alt="" data-size="line"> next to the form name. <img src="../../.gitbook/assets/image (8).png" alt="" data-size="line"> locks and unlocks form editing.
+To download the selected form in XLSX or PDF, click <img src="../../.gitbook/assets/image (7) (1).png" alt="" data-size="line"> next to the form name. <img src="../../.gitbook/assets/image (8) (1).png" alt="" data-size="line"> locks and unlocks form editing.
 
 If multiple forms have been submitted, you can download the form list in XLSX, CSV, or PDF format. The forms table supports filtering submissions based on parameters like task creation date or employee name and customization by adding or hiding columns and form fields to focus on the most relevant data.
 {% endstep %}
@@ -210,37 +210,37 @@ If multiple forms have been submitted, you can download the form list in XLSX, C
 
 ## How to create task form values report
 
-The task form values report provides insights into employee performance based on completed forms.  It shows form statistics, including the frequency and types of components selected. This data helps you evaluate employee performance and task outcomes more effectively.
+The task form values report provides insights into employee performance based on completed forms. It shows form statistics, including the frequency and types of components selected. This data helps you evaluate employee performance and task outcomes more effectively.
 
 To generate this report, follow these steps:
 
 {% stepper %}
 {% step %}
-### Go to Reports
+#### Go to Reports
 
 Navigate to the [Reports](../reports/) module.
 {% endstep %}
 
 {% step %}
-### Start creating the report
+#### Start creating the report
 
 Click **Create report** to open the report generation dialogue.
 {% endstep %}
 
 {% step %}
-### Choose the report type
+#### Choose the report type
 
 Select **Task form values**.
 {% endstep %}
 
 {% step %}
-### Configure the report
+#### Configure the report
 
 Check the objects for which you need the report and select the timeframe. You can also choose to hide empty tabs and show unselected options.
 {% endstep %}
 
 {% step %}
-### Finish creating the report
+#### Finish creating the report
 
 Click **Build report** to generate the report. After it's ready, it will appear on the reports list.<br>
 {% endstep %}

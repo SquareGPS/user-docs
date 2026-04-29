@@ -28,7 +28,7 @@ The **Default Input** node serves as the universal data collector for your accou
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

@@ -1,39 +1,49 @@
-# Vehicle CAN / OBDII readings report
+---
+description: >-
+  Learn how to analyze CAN, OBD, and virtual sensor readings, configure report
+  parameters, and interpret vehicle sensor graphs, statistics, and detailed data
+  tables.
+---
 
-The **Vehicle readings report** in Navixy offers detailed insights into the data received from your vehicle’s instruments through CAN/OBD sensors or virtual sensors over a selected period. This report includes information such as mileage, engine RPMs, speed, fuel consumption, coolant temperature, and other critical metrics, helping fleet managers and vehicle operators monitor and optimize vehicle performance.
+# Vehicle sensors report
 
-![Vehicle readings report parameters](../../../.gitbook/assets/image-20240815-010131.png)
+The **Vehicle sensors report** offers detailed insights into the data received from your vehicle’s instruments through CAN/OBD sensors or [virtual sensors](../../devices-and-settings/vehicle-sensors/virtual-sensors/) over a selected period. This report includes information such as mileage, engine RPMs, speed, fuel consumption, coolant temperature, and other critical metrics, helping fleet managers and vehicle operators monitor and optimize vehicle performance.
 
-## Requirements for generating the report
+<figure><img src="../../../.gitbook/assets/image (43).png" alt="Vehicle sensors report"><figcaption><p>Vehicle sensors report</p></figcaption></figure>
+
+## Prerequisites for generating Vehicle sensors report
 
 To generate the **Vehicle readings report**, the following prerequisites must be met:
 
-* **Device compatibility:** The device must support CAN/OBD readings on the platform. You can check if a specific type of sensor is supported by reviewing the list of supported inputs for your [device model](https://www.navixy.com/devices/).
-* **Vehicle capability:** The vehicle must be capable of transmitting the required CAN/OBD data to the installed device model. This can be confirmed with the vehicle manufacturer.
-* **Active data transmission:** The device and sensors must be configured to transmit data and actively sending it to the platform.
-* **Sensor configuration:** The CAN/OBD or virtual sensors must be properly configured on the platform.
+* The device must support CAN/OBD readings on the platform. You can check if a specific type of sensor is supported by reviewing the list of supported inputs for your [device model](https://www.navixy.com/devices/).
+* The vehicle must be capable of transmitting the required CAN/OBD data to the installed device model. This can be confirmed with the vehicle manufacturer.
+* The device and sensors must be configured to transmit data and actively sending it to the platform.
+* The CAN/OBD or virtual sensors must be properly configured on the platform.
 
-## Report parameters
+## Vehicle sensors report parameters
 
 The report uses several parameters to customize the output:
 
-* **Detail interval:** Displays the received readings in the data detail table in increments of 30 minutes, 1 hour, 3 hours, or 6 hours. The graph will display all points received from the sensor.
-* **X-axis on the graph:** Choose whether to display the information on the graph relative to time or mileage.
-* **Smooth graph:** Apply smoothing to the graph to filter out peak values and average the data when there is significant variance.
+* **Hide empty tabs:** Omits tabs for devices that have no trips in any configured shift during the selected period.
+* **Details time range:** Displays the received readings in the data detail table in increments of 30 minutes, 1 hour, 3 hours, or 6 hours. The graph will display all points received from the sensor.
+* **X-axis:** Choose whether to display the information on the graph relative to time or mileage.
+*   **Smooth data:** Apply smoothing to average sensor readings on the graph, providing a cleaner view of trends.
+
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>Smoothing may reduce accuracy when analyzing sudden changes such as fuel refills or drains.</p></div>
 
 ![Graph with readings from OBD sensor without smoothing](../../../.gitbook/assets/image-20240815-010045.png)
 
 ![Graph with readings from OBD sensor with smoothing](../../../.gitbook/assets/image-20240815-010100.png)
 
-For each device, you need to select the sensor for which to generate a report. Only devices with configured CAN/OBD or virtual sensors will appear in the list. If a virtual sensor uses a calculation method other than [source value](../../devices-and-settings/vehicle-sensors/virtual-sensors/), the report will indicate "This is not a measurement sensor."
+For each device, you need to select the sensor for which to generate a report. Only devices with configured CAN/OBD or virtual sensors will appear in the list.If the selected sensor is not a metering sensor or a virtual sensor (for example, a state sensor), the report will display the message: "The sensor is not a measuring sensor"
 
-## Visualizations
+## How to read Vehicle sensors report
 
-### Graph with sensor readings
+### Sensor readings graph
 
 The **graph** displays CAN/OBD or virtual sensor readings in a visual format, providing a clear view of data trends over time or distance.
 
-* **Hovering over points:** When you hover over a point on the graph with the X-axis set to time, you will see the exact time and sensor value recorded. If the X-axis is set to mileage, you will see the sensor value along with the mileage at which it was recorded.
+When you hover over a point on the graph with the X-axis set to time, you will see the exact time and sensor value recorded. If the X-axis is set to mileage, you will see the sensor value along with the mileage at which it was recorded.
 
 {% columns %}
 {% column %}
@@ -45,23 +55,25 @@ The **graph** displays CAN/OBD or virtual sensor readings in a visual format, pr
 {% endcolumn %}
 {% endcolumns %}
 
-### Statistics data table
+### Statistics data
 
-The report includes a **statistics data table** that summarizes sensor readings by day.
+A statistical data table that provides daily summaries of the sensor readings. The **In total** row at the bottom of the table summarizes the minimum, maximum, and average values across the entire report period.
 
-**Columns in the statistics data table:**
+<table><thead><tr><th width="195.33331298828125">Column</th><th>Description</th></tr></thead><tbody><tr><td>Date</td><td>The specific date for the recorded data</td></tr><tr><td>Minimum</td><td>The lowest value recorded by the sensor on that date in set units</td></tr><tr><td>Maximum</td><td>The highest value recorded by the sensor on that date in set units</td></tr><tr><td>Average value</td><td>The average of all sensor readings for that date in set units</td></tr></tbody></table>
 
-* **Date:** The specific date for the recorded data.
-* **Minimum:** The lowest value recorded by the sensor on that date.
-* **Maximum:** The highest value recorded by the sensor on that date.
-* **Average value:** The average of all sensor readings for that date.
+{% hint style="info" %}
+The units of measure will vary depending on the sensor settings.
+{% endhint %}
 
-Note: The units of measure will vary depending on the type of sensor being used.
+### Data breakdown
 
-### Data breakdown table
+The **data breakdown table** presents sensor readings over specified time intervals. It provides a detailed view of sensor data, helping to identify trends or issues during specific periods.
 
-The **data breakdown table** presents sensor readings over specified time intervals, starting from the set time and moving to the next increment. For example, if the report uses 30-minute increments, the data in the 00:00 row pertains to the time between 00:00 and 00:30.
+<table><thead><tr><th width="238">Column</th><th>Description</th></tr></thead><tbody><tr><td>Time</td><td>The timestamp for the interval</td></tr><tr><td>Value</td><td>A representative sensor reading for the bucket in set units</td></tr><tr><td>Minimum</td><td>Lowest reading in the interval in set units</td></tr><tr><td>Maximum</td><td>Highest reading in the interval in set units</td></tr><tr><td>Average value</td><td>Average reading in the interval in set units</td></tr></tbody></table>
 
-* **Interpreting the table:** If "No data" appears, it indicates that no readings were received during that time interval. Possible reasons include:
-  * The device did not send CAN/OBD or virtual sensor data during that period due to sensor settings.
-  * The device was not transmitting data at all, possibly due to being turned off or disconnected from the object.
+{% hint style="info" %}
+If the "No data" message appears, it means no readings were received during that time. Possible reasons include:
+
+* The device didn't send CAN/OBD or virtual sensor data during that period due to sensor settings.
+* The device wasn't transmitting data at all, possibly due to being turned off or disconnected from the object.
+{% endhint %}

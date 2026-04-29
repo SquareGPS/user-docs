@@ -4,33 +4,33 @@
 
 The page contains the list of all available Places along with their details, including custom fields you've added.
 
-<figure><img src="../../.gitbook/assets/image-20240816-174653 (3).png" alt="Places page"><figcaption><p>Places page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-20240816-174653.png" alt="Places page"><figcaption><p>Places page</p></figcaption></figure>
 
 ## How to create a Place
 
 {% stepper %}
 {% step %}
-### Go to Places
+#### Go to Places
 
 Open the **Places** page in the **Field service** module.
 {% endstep %}
 
 {% step %}
-### Start creating a Place
+#### Start creating a Place
 
 Click **+** to open the place creation dialogue.
 {% endstep %}
 
 {% step %}
-### Enter Place details
+#### Enter Place details
 
-<figure><img src="../../.gitbook/assets/image-20240816-175137 (3).png" alt="Creating a Place" width="563"><figcaption><p>Creating a Place</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-20240816-175137.png" alt="Creating a Place" width="563"><figcaption><p>Creating a Place</p></figcaption></figure>
 
-Enter the Place's label, address, and radius. You can also add a description, tags, and a file.&#x20;
+Enter the Place's label, address, and radius. You can also add a description, tags, and a file.
 {% endstep %}
 
 {% step %}
-### (Optional) Add custom fields
+#### (Optional) Add custom fields
 
 Custom fields let you add extra details that aren't covered by the standard options. These fields are tailored to your business needs. They can include equipment type stored at the site, site maintenance schedule, security code, or manager contacts.
 

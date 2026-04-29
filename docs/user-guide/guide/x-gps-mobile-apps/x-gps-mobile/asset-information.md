@@ -32,7 +32,7 @@ Tap <img src="../../../.gitbook/assets/72b55e8f-c207-46df-bb7b-df4900c1db13" alt
 
 Tap **Trips** to display the list of trips taken by your asset. Tap any trip to view its details, including any visited POIs and geofences. You can also view the route of one or several trips on the map in fullscreen.
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1).png" alt="Trip information" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (12) (1).png" alt="Trip route" data-size="original"></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt="Trip information" data-size="original"></td><td valign="top"><img src="../../../.gitbook/assets/image (12) (1).png" alt="Trip route" data-size="original"></td></tr></tbody></table>
 
 To filter the display of trips, such as by time period and other parameters, tap <img src="../../../.gitbook/assets/image-20250328-095604.png" alt="Settings" data-size="line"> and open the **Date range and settings**:
 
@@ -60,7 +60,7 @@ The **Reminders** button is only displayed when there are pending issues, such a
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="Reminders"><figcaption><p>Reminders</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt="Reminders"><figcaption><p>Reminders</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -76,7 +76,7 @@ Vehicle sensors are configured in the Navixy web platform. To learn about them, 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (15).png" alt="Sensors"><figcaption><p>Sensors</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt="Sensors"><figcaption><p>Sensors</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -100,6 +100,6 @@ Tap the device label in the **GPS Data** entry to display its details, including
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (16).png" alt="GPS device information"><figcaption><p>GPS device information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt="GPS device information"><figcaption><p>GPS device information</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
