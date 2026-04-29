@@ -11,7 +11,7 @@ The **Fuel volume report** provides a detailed view of fuel level changes over a
 
 Choose this report type if your primary concern is detecting fuel theft or unexplained drains alongside refueling events, and you want direct control over how sensor noise is handled. It requires more initial setup (calibration table, drain thresholds, sensor parameters) but gives you full visibility into both directions of fuel movement.
 
-For a simpler, configuration-free alternative that focuses on refueling events and uses automated data processing, see the [Fuel volume 2.0 report](../../../readme/reports/specific-report-details/fuel-volume-2.0-report.md).
+For a simpler, configuration-free alternative that focuses on refueling events and uses automated data processing, see the [Fuel volume 2.0 report](fuel-volume-2.0-report.md).
 
 <figure><img src="../../../.gitbook/assets/image (49).png" alt="Fuel volume report"><figcaption><p>Fuel volume report</p></figcaption></figure>
 

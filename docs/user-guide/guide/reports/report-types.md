@@ -21,7 +21,7 @@ Activity reports provide detailed insights into the movements and stops of your 
 * **Trips and stops by shifts**\
   A variant of the **Trips** report that divides activity into up to four named non-overlapping intervals (shifts) defined by start and end time. Each shift section shows trip and parking data only for the activity during that period. Useful for comparing day, evening, and night operations or monitoring driver handovers. Requires entering at least one shift.\
   See also:
-  * [Trips and stops by shifts report](../../readme/reports/specific-report-details/trips-and-stops-by-shifts-report.md)
+  * [Trips and stops by shifts report](specific-report-details/trips-and-stops-by-shifts-report.md)
 * **Trips, positions and events**\
   A chronological report that combines trips, parkings, intermediate position snapshots, and device history events in a single table. Trips and parkings are shown as labeled groups, each with a summary row at the end for duration and mileage. You can set the position display rate and choose which event types to include.
 
@@ -87,7 +87,7 @@ These reports are essential for monitoring driver behavior, particularly in rela
 * **Speed violation**\
   Lists instances where the vehicle exceeded a configurable speed limit, recording start and end time, violation duration, maximum and average speed, and location. Only violations lasting at least a configurable minimum duration are included. Results can optionally be grouped by the assigned driver.\
   See also:
-  * [Speed violation report](../../readme/reports/specific-report-details/speed-violation-report.md)
+  * [Speed violation report](specific-report-details/speed-violation-report.md)
   * [Harsh driving in Rules and notifications](../events-and-notifications/safety/harsh-driving.md)
   * [Eco driving in Fleet management](../fleet-management/eco-driving.md)
 * **Speed violations (works only in Russia)**\

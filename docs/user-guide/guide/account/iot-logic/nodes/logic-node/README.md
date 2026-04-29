@@ -51,6 +51,7 @@ The **IF/THEN Logic** node offers:
 * **Conditional data routing**: Create branching workflows that automatically direct data based on logical expressions returning true or false results.
 * **Real-time validation**: Test incoming device data against business rules and operational thresholds as data arrives.
 * **Complex condition support**: Combine multiple parameters using logical operators (AND, OR, etc.) for sophisticated decision-making.
+* **Geofence-based conditions**: Reference named Navixy geofences directly in expressions using `inGeofence()`, `enterGeofence()`, and `leaveGeofence()` functions, without manual coordinate comparisons. See [Geofence functions](geofence-functions.md).
 * **Attribute creation**: Generate boolean attributes that record validation results for use in other node, Navixy's monitoring systems and 3rd-party services.
 * **Flexible output paths**: Route data through THEN (true) and ELSE (false) connections to trigger different subsequent actions.
 
@@ -98,6 +99,7 @@ Build your logical statement using the expression field.
 * Use [logical operators according to Navixy Expression Language syntax](logic-node-expressions-and-syntax.md) to reference device parameters and calculated attributes.
 * The expression must return a boolean value (true/false) for proper node operation.
 * Use the [autocomplete feature](../initiate-attribute-node/managing-attributes.md#autofill-attribute-names) to select available attributes from connected data sources.
+* To reference a Navixy geofence as a condition, use the [geofence picker](geofence-functions.md) in the expression field.&#x20;
 {% endstep %}
 
 {% step %}

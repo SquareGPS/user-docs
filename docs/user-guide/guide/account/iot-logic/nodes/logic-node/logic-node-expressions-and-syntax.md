@@ -26,6 +26,28 @@ condition1 && (condition2 || condition3 > condition4)
 
 <table><thead><tr><th width="138.54547119140625">Operator</th><th>Description</th></tr></thead><tbody><tr><td><code>=~</code></td><td>Checks if the value of the left operand is in the set of the right operand. For strings, checks for regex pattern match</td></tr><tr><td><code>!~</code></td><td>Checks if the value of the left operand is not in the set of the right operand. For strings, checks for regex pattern mismatch</td></tr><tr><td><code>=^</code></td><td>Checks that the left string operand starts with the right string operand</td></tr><tr><td><code>!^</code></td><td>Checks that the left string operand doesn't start with the right string operand</td></tr><tr><td><code>=$</code></td><td>Checks that the left string operand ends with the right string operand</td></tr><tr><td><code>!$</code></td><td>Checks that the left string operand doesn't end with the right string operand</td></tr></tbody></table>
 
+### Geofence functions
+
+Three functions evaluate a device's position relative to a named Navixy geofence. For usage instructions and examples, see [Geofence functions](geofence-functions.md).
+
+<table><thead><tr><th width="194">Function</th><th width="137">Parameter</th><th>Returns true when</th></tr></thead><tbody><tr><td><code>inGeofence(id)</code></td><td>Geofence ID</td><td>The device is currently inside the geofence</td></tr><tr><td><code>enterGeofence(id)</code></td><td>Geofence ID</td><td>The device has just crossed into the geofence</td></tr><tr><td><code>leaveGeofence(id)</code></td><td>Geofence ID</td><td>The device has just crossed out of the geofence</td></tr></tbody></table>
+
+**Short syntax:**
+
+```jexl
+inGeofence(35229 /* Delivery zone #4 */)
+```
+
+The geofence name appears as a comment for readability and has no effect on evaluation. The geofence picker inserts this format automatically.
+
+**Long syntax** (for use with the `value()` function):
+
+```jexl
+value("inGeofence(35229 /* Delivery zone #4 */)", 1, valid)
+```
+
+The second parameter is the historical index (0 for the current packet, 1 for the previous), and the third is the validity filter, following the same convention as other `value()` calls.
+
 ## Expression examples
 
 <details>
@@ -269,11 +291,21 @@ value('engine_temperature', 0, 'valid') > 95 && value('oil_pressure', 0, 'valid'
 
 **Business requirement**: Ensure vehicles operate within authorized areas during business hours
 
-```
-(value('latitude', 0, 'valid') < 40.7489 || value('latitude', 0, 'valid') > 40.7589) && value('business_hours', 0, 'valid') == true
+```jexl
+inGeofence(51577 /* Austin Warehouse */) && value('business_hours', 0, 'valid') == true
 ```
 
-* **THEN path**: Generate unauthorized location alerts, notify security, log violations
-* **ELSE path**: Continue normal operations logging, update location tracking
+This expression uses the `inGeofence()` function to check whether a device is inside a named geofence, combined with a business-hours attribute. The geofence boundaries are managed in the Navixy geofences interface, so no coordinate values need to be maintained in the expression.
+
+* **THEN path**: Continue normal operations; device is in the authorized area during working hours.
+* **ELSE path**: Generate an unauthorized location alert, notify security, and log the violation.
+
+To detect the moment a vehicle leaves the authorized area rather than checking continuously, use `leaveGeofence()` instead:
+
+```jexl
+leaveGeofence(51577 /* Austin Warehouse */) && value('business_hours', 0, 'valid') == true
+```
+
+For the full reference on geofence functions including `enterGeofence()` and long syntax, see [Geofence functions](geofence-functions.md).
 
 </details>
