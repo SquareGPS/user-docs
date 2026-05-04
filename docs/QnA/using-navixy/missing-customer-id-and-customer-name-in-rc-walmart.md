@@ -3,9 +3,18 @@
 **Question: Why are the Customer ID and Customer Name not appearing in Walmart?**
 
 \
-Answer: A likely reason is that both devices are configured with the same External ID. When an External ID is duplicated, it can create conflicts in Walmart’s system, which typically expects a unique identifier per device. As a result, the platform may overwrite or misassociate incoming data, preventing fields like Customer ID and Customer Name from being displayed correctly. Assigning a unique External ID to each device ensures proper data mapping and visibility.
+**Answer**: The main reason why the Customer ID and Customer Name are not being included in the Walmart retransmission is due to an incorrect configuration of the External ID field.
+
+For this type of integration, it is necessary to follow the standard Trusted Resource (Recurso Confiable) format:\
+License Plate | Route ID | Company ID | Company Name
+
+It is important to note that the configuration must follow the Trusted Resource documentation. If only a single number is entered in the External ID field, the system will not be able to transmit all the required information, which results in missing fields such as Customer ID and Customer Name.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-**Reference:** [Waltmart RC blogpost](https://www.navixy.com/es/blog/ayudando-a-transportistas-logisticos-a-cumplir-con-el-cumplimiento-de-recurso-confiable-de-walmart-superando-desafios-de-transmision-de-datos)
+**Links:**&#x20;
+
+[Waltmart RC blogpost](https://www.navixy.com/es/blog/ayudando-a-transportistas-logisticos-a-cumplir-con-el-cumplimiento-de-recurso-confiable-de-walmart-superando-desafios-de-transmision-de-datos)&#x20;
+
+[Recurso Confiable](https://www.navixy.com/docs/user/guide/devices-and-settings/data-forwarding/recurso-confiable)
 
