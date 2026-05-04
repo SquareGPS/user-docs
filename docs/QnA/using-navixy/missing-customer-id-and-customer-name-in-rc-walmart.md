@@ -5,7 +5,7 @@
 \
 **Answer**: The main reason why the Customer ID and Customer Name are not being included in the Walmart retransmission is due to an incorrect configuration of the External ID field.
 
-For this type of integration, it is necessary to follow the standard Trusted Resource (Recurso Confiable) format:\
+For this type of integration, it is necessary to follow the standard Recurso Confiable format:\
 License Plate | Route ID | Company ID | Company Name
 
 It is important to note that the configuration must follow the Trusted Resource documentation. If only a single number is entered in the External ID field, the system will not be able to transmit all the required information, which results in missing fields such as Customer ID and Customer Name.
