@@ -14,25 +14,25 @@ A report is a custom-generated document that provides detailed insights into spe
 
 {% stepper %}
 {% step %}
-### Choose report type
+#### Choose report type
 
 The **Available reports** panel contains various report types grouped by categories such as **Activity**, **Landmarks**, **Safety and Security**, **Transport usage, Driving quality, Device status, Connected devices,** and **Business**. Click the report you want to generate it.
 {% endstep %}
 
 {% step %}
-### Select the objects
+#### Select the objects
 
 After choosing the report type, select the objects (vehicles, drivers, etc.) for which the report will be generated. Use the **Objects** panel to check the appropriate boxes.
 {% endstep %}
 
 {% step %}
-### Customize report settings
+#### Customize report settings
 
 In the rightmost panel, enter the title for the report and select the date range. You can also choose specific control days and time and decide whether to include summaries or advanced settings, such as dividing by stops, showing stop duration and coordinates, grouping by driver, and using the smart filter. For more information about these options, see [Understanding reports](read-and-understand-reports.md#common-report-parameters).
 {% endstep %}
 
 {% step %}
-### Build the report
+#### Build the report
 
 Once all settings are configured, click **Create report**. The report will be generated and added to the top of the **Generated reports** list for immediate access.
 
@@ -48,25 +48,25 @@ Scheduled reports are automated reports generated at predefined intervals, such 
 
 {% stepper %}
 {% step %}
-### Access scheduled reports
+#### Access scheduled reports
 
 In the **Reports** module, navigate to the **Scheduled reports** tab. This section allows you to automate the generation of reports based on a set schedule.
 {% endstep %}
 
 {% step %}
-### Add a new scheduled report
+#### Add a new scheduled report
 
 Click **+** next to the **Scheduled reports** title.
 {% endstep %}
 
 {% step %}
-### Configure schedule parameters
+#### Configure schedule parameters
 
 Select report type and objects and set schedule parameters such as days of week, time of delivery, and interval (e.g., every week, every month). You can also opt to send the reports directly to specified email addresses.
 {% endstep %}
 
 {% step %}
-### Save the report
+#### Save the report
 
 After configuring all settings, click **Create**. The scheduled report will now be automatically generated according to the specified parameters and can be accessed or modified in the **Scheduled reports** section.
 {% endstep %}

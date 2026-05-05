@@ -163,7 +163,7 @@
       * [Unigis](guide/devices-and-settings/data-forwarding/unigis.md)
       * [Wialon IPS](guide/devices-and-settings/data-forwarding/wialon-ips.md)
       * [Maquinaria Amarilla](guide/devices-and-settings/data-forwarding/maquinaria-amarilla.md)
-      * [Startrack](readme/devices-and-settings/data-forwarding/startrack.md)
+      * [Startrack](guide/devices-and-settings/data-forwarding/startrack.md)
     * [Auto-geofencing widget](guide/devices-and-settings/auto-geofencing-widget.md)
     * [Object management](guide/devices-and-settings/object-management/README.md)
       * [Object label widget](guide/devices-and-settings/object-management/object-label-widget.md)

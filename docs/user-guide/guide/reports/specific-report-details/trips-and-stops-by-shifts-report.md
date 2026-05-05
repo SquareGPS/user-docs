@@ -6,11 +6,11 @@ description: >-
 
 # Trips and stops by shifts report
 
-The **Trips and stops by shifts** **report** provides the same per-trip driving analysis as the regular [Trips report](../../../guide/reports/specific-report-details/trip-report.md), but groups the data by the work shifts you define. For each shift you configure, the report lists every trip and stop that fell within that shift's time window, with a per-shift summary at the end of the report.
+The **Trips and stops by shifts** **report** provides the same per-trip driving analysis as the regular [Trips report](trip-report.md), but groups the data by the work shifts you define. For each shift you configure, the report lists every trip and stop that fell within that shift's time window, with a per-shift summary at the end of the report.
 
 This makes it possible to see, for example, how much each shift drove, how long they idled, and how much fuel they consumed — side by side in a single comparison.
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt="Time and stops by shifts"><figcaption><p>Time and stops by shifts</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46).png" alt="Time and stops by shifts"><figcaption><p>Time and stops by shifts</p></figcaption></figure>
 
 ## Trips and stops by shifts report use cases
 

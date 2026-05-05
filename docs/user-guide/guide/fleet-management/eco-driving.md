@@ -114,19 +114,19 @@ To create an Eco Driving report, follow these steps:
 
 {% stepper %}
 {% step %}
-### Go to Eco Driving
+#### Go to Eco Driving
 
 Navigate to **Fleet Management → Eco Driving**.
 {% endstep %}
 
 {% step %}
-### Configure main report settings
+#### Configure main report settings
 
 Select the reporting period, with optional filters for specific days of the week or times of day, and choose the drivers for which the report will be generated.
 {% endstep %}
 
 {% step %}
-### Configure penalties
+#### Configure penalties
 
 Open **Penalty settings** to customize the report.
 
@@ -140,7 +140,7 @@ The following settings can be configured:
 {% endstep %}
 
 {% step %}
-### Create the report
+#### Create the report
 
 Click **Generate report** and wait for the report to be created to view or download it as a PDF file.
 {% endstep %}
@@ -176,31 +176,31 @@ To set up automatic reporting, follow these steps:
 
 {% stepper %}
 {% step %}
-### Open the Schedule tab
+#### Open the Schedule tab
 
 Navigate to **Field management → Eco Driving → Schedule**.
 {% endstep %}
 
 {% step %}
-### Pick frequency
+#### Pick frequency
 
 Choose how often the report should run (daily, weekly, monthly, or a custom interval) and its delivery time.
 {% endstep %}
 
 {% step %}
-### Configure other settings
+#### Configure other settings
 
 Select drivers or vehicles for which the report will be generated and configure **Penalty settings,** including **Speeding, Harsh driving,** and **Excessive idling.**
 {% endstep %}
 
 {% step %}
-### (Optional) Select recipients
+#### (Optional) Select recipients
 
 Add the email addresses of everyone who should receive the report.
 {% endstep %}
 
 {% step %}
-### Save the schedule
+#### Save the schedule
 
 The report will be generated automatically on the chosen schedule and emailed to the recipients, if any. It will also be available for downloading as a PDF file.
 {% endstep %}
