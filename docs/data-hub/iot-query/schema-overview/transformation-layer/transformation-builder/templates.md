@@ -56,23 +56,23 @@ Click **Schedule** and set the execution frequency. Use the recommended schedule
 
 The table below lists available templates with the values you need for the Output node and the recommended schedule. Each template links to its transformation page for algorithm details and customization guidance, and provides the YAML file for download.
 
-### Tracks
+### Trips
 
 Produces one row per vehicle trip from raw telematics data, with start and end times,\
-distance, speed statistics, and zone detection. See the [Tracks](../common-transformations/tracks.md) page for the full output schema, algorithm description, and customization options.
+distance, speed statistics, and zone detection. See the [Trips](../common-transformations/trips.md) page for the full output schema, algorithm description, and customization options.
 
 {% file src="../../../../.gitbook/assets/Tracks.yaml" %}
 
 When adding the **Output node**, use the following configuration:
 
-| Parameter   | Value                           |
-| ----------- | ------------------------------- |
-| Table name  | `tracks`                        |
-| Time column | `track_start_time`              |
-| Primary key | `device_id`, `track_start_time` |
-| Write mode  | `overwrite`                     |
+| Parameter   | Value                          |
+| ----------- | ------------------------------ |
+| Table name  | `trips`                        |
+| Time column | `trip_start_time`              |
+| Primary key | `device_id`, `trip_start_time` |
+| Write mode  | `overwrite`                    |
 
-Recommended schedule: `10 */8 * * *` (UTC, every 8 hours), matching the update frequency of the built-in `business_data.tracks` transformation.
+Recommended schedule: `10 */8 * * *` (UTC, every 8 hours), matching the update frequency of the built-in `processed_common_data.trips` transformation.
 
 ## Next steps
 

@@ -59,7 +59,7 @@ All timestamp data converts to UTC for consistent display regardless of vehicle 
 
 <summary>Data processing logic</summary>
 
-* **Multi-sensor aggregation**: The system queries `business_data.latest_calibrated_sensors` to retrieve the most recent measurements across different sensor types simultaneously. This includes fuel levels, temperature readings, battery voltage, and operational state indicators.
+* **Multi-sensor aggregation**: The system queries `processed_common_data.latest_calibrated_sensors` to retrieve the most recent measurements across different sensor types simultaneously. This includes fuel levels, temperature readings, battery voltage, and operational state indicators.
 * **Calibration processing**: Raw sensor values undergo calibration factor application when available. The system applies sensor-specific formulas to convert raw readings into meaningful units (percentages for fuel, Celsius for temperature, volts for electrical systems).
 * **Quality assurance**: Basic validation filters obviously invalid measurements while preserving data transparency. When calibration data is unavailable or invalid, the system displays raw sensor values without modification, enabling operational teams to make informed decisions based on available data.
 

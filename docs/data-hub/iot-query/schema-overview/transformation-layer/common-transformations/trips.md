@@ -4,9 +4,9 @@ description: >-
   times, distance, speed statistics, and zone detection.
 ---
 
-# Tracks
+# Trips
 
-The Tracks transformation processes raw telematics data into discrete vehicle trip records. Each row in `business_data.tracks` represents one complete trip: where it started and ended, how long it took, how far the vehicle traveled, and which zones it departed from or arrived at.
+The Trips transformation processes raw telematics data into discrete vehicle trip records. Each row in `processed_common_data.trips` represents one complete trip: where it started and ended, how long it took, how far the vehicle traveled, and which zones it departed from or arrived at.
 
 The built-in transformation runs every 8 hours and covers a rolling 12-hour window of raw data. At each run, previously calculated records for that window are replaced with a fresh calculation, so the table always reflects the latest available data.&#x20;
 
@@ -15,11 +15,11 @@ The built-in transformation runs every 8 hours and covers a rolling 12-hour wind
 * All timestamps are stored in UTC.
 {% endhint %}
 
-## Output table: business\_data.tracks
+## Output table: processed\_common\_data.trips
 
-Each row represents one validated vehicle trip. The table is keyed on `device_id` and `track_start_time`.
+Each row represents one validated vehicle trip. The table is keyed on `device_id` and `trip_start_time`.
 
-<table><thead><tr><th width="215">Field</th><th width="115">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>device_id</code></td><td>integer</td><td>Device identifier. To get the object label, join to <code>raw_business_data.objects</code> on <code>device_id</code> where <code>is_deleted = false</code> to avoid row multiplication from historical device assignments.</td></tr><tr><td><code>track_start_time</code></td><td>timestamp</td><td>Time when the trip began. Determined by the first point of a new movement segment after a qualifying stop or data gap.</td></tr><tr><td><code>track_end_time</code></td><td>timestamp</td><td>Time when the trip ended. Set to the moment the device transitioned from moving to a stop that lasted at least 5 minutes.</td></tr><tr><td><code>track_duration</code></td><td>text</td><td>Trip duration formatted as <code>HH:MI:SS</code>.</td></tr><tr><td><code>track_duration_seconds</code></td><td>numeric</td><td>Trip duration in seconds. Use this field for arithmetic calculations.</td></tr><tr><td><code>track_distance_meters</code></td><td>numeric</td><td>Total trip distance in meters, calculated from the PostGIS line geometry built from all points in the trip.</td></tr><tr><td><code>avg_speed</code></td><td>numeric</td><td>Average speed across all points in the trip, in km/h.</td></tr><tr><td><code>max_speed</code></td><td>numeric</td><td>Maximum speed recorded during the trip, in km/h.</td></tr><tr><td><code>min_speed</code></td><td>numeric</td><td>Minimum speed recorded during the trip, in km/h.</td></tr><tr><td><code>latitude_start</code></td><td>numeric</td><td>Latitude of the first point of the trip, in degrees.</td></tr><tr><td><code>longitude_start</code></td><td>numeric</td><td>Longitude of the first point of the trip, in degrees.</td></tr><tr><td><code>altitude_start</code></td><td>numeric</td><td>Altitude at the start of the trip, in meters above sea level.</td></tr><tr><td><code>latitude_end</code></td><td>numeric</td><td>Latitude of the last point of the trip, in degrees.</td></tr><tr><td><code>longitude_end</code></td><td>numeric</td><td>Longitude of the last point of the trip, in degrees.</td></tr><tr><td><code>altitude_end</code></td><td>numeric</td><td>Altitude at the end of the trip, in meters above sea level.</td></tr><tr><td><code>points_in_track</code></td><td>integer</td><td>Number of raw telematics points included in the trip. Minimum 2 for a valid trip.</td></tr><tr><td><code>start_zone</code></td><td>text</td><td>Name of the geofence zone that contains the trip start point, if any. Null if the start point does not fall within a defined zone.</td></tr><tr><td><code>end_zone</code></td><td>text</td><td>Name of the geofence zone that contains the trip end point, if any. Null if the end point does not fall within a defined zone.</td></tr></tbody></table>
+<table><thead><tr><th width="215">Field</th><th width="115">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>device_id</code></td><td>integer</td><td>Device identifier. To get the object label, join to <code>raw_business_data.objects</code> on <code>device_id</code> where <code>is_deleted = false</code> to avoid row multiplication from historical device assignments.</td></tr><tr><td><code>trip_start_time</code></td><td>timestamp</td><td>Time when the trip began. Determined by the first point of a new movement segment after a qualifying stop or data gap.</td></tr><tr><td><code>trip_end_time</code></td><td>timestamp</td><td>Time when the trip ended. Set to the moment the device transitioned from moving to a stop that lasted at least 5 minutes.</td></tr><tr><td><code>trip_duration</code></td><td>text</td><td>Trip duration formatted as <code>HH:MI:SS</code>.</td></tr><tr><td><code>trip_duration_seconds</code></td><td>numeric</td><td>Trip duration in seconds. Use this field for arithmetic calculations.</td></tr><tr><td><code>trip_distance_meters</code></td><td>numeric</td><td>Total trip distance in meters, calculated from the PostGIS line geometry built from all points in the trip.</td></tr><tr><td><code>avg_speed</code></td><td>numeric</td><td>Average speed across all points in the trip, in km/h.</td></tr><tr><td><code>max_speed</code></td><td>numeric</td><td>Maximum speed recorded during the trip, in km/h.</td></tr><tr><td><code>min_speed</code></td><td>numeric</td><td>Minimum speed recorded during the trip, in km/h.</td></tr><tr><td><code>latitude_start</code></td><td>numeric</td><td>Latitude of the first point of the trip, in degrees.</td></tr><tr><td><code>longitude_start</code></td><td>numeric</td><td>Longitude of the first point of the trip, in degrees.</td></tr><tr><td><code>altitude_start</code></td><td>numeric</td><td>Altitude at the start of the trip, in meters above sea level.</td></tr><tr><td><code>latitude_end</code></td><td>numeric</td><td>Latitude of the last point of the trip, in degrees.</td></tr><tr><td><code>longitude_end</code></td><td>numeric</td><td>Longitude of the last point of the trip, in degrees.</td></tr><tr><td><code>altitude_end</code></td><td>numeric</td><td>Altitude at the end of the trip, in meters above sea level.</td></tr><tr><td><code>points_in_trip</code></td><td>integer</td><td>Number of raw telematics points included in the trip. Minimum 2 for a valid trip.</td></tr><tr><td><code>start_zone</code></td><td>text</td><td>Name of the geofence zone that contains the trip start point, if any. Null if the start point does not fall within a defined zone.</td></tr><tr><td><code>end_zone</code></td><td>text</td><td>Name of the geofence zone that contains the trip end point, if any. Null if the end point does not fall within a defined zone.</td></tr></tbody></table>
 
 The examples below show common query patterns. The basic query returns trip records for the last 7 days ordered by device and start time. The second example joins to `raw_business_data.objects` to include the human-readable object label alongside each trip.
 
@@ -29,16 +29,16 @@ The examples below show common query patterns. The basic query returns trip reco
 ```sql
 SELECT
     device_id,
-    track_start_time,
-    track_end_time,
-    track_duration,
-    track_distance_meters,
+    trip_start_time,
+    trip_end_time,
+    trip_duration,
+    trip_distance_meters,
     avg_speed,
     start_zone,
     end_zone
-FROM business_data.tracks
-WHERE track_start_time >= CURRENT_DATE - INTERVAL '7 days'
-ORDER BY device_id, track_start_time;
+FROM processed_common_data.trips
+WHERE trip_start_time >= CURRENT_DATE - INTERVAL '7 days'
+ORDER BY device_id, trip_start_time;
 ```
 {% endcode %}
 {% endtab %}
@@ -49,24 +49,24 @@ ORDER BY device_id, track_start_time;
 SELECT
     t.device_id,
     o.object_label,
-    t.track_start_time,
-    t.track_end_time,
-    t.track_distance_meters,
+    t.trip_start_time,
+    t.trip_end_time,
+    t.trip_distance_meters,
     t.avg_speed,
     t.start_zone,
     t.end_zone
-FROM business_data.tracks t
+FROM processed_common_data.trips t
 LEFT JOIN raw_business_data.objects o ON o.device_id = t.device_id
-WHERE t.track_start_time >= CURRENT_DATE - INTERVAL '7 days'
-ORDER BY t.device_id, t.track_start_time;
+WHERE t.trip_start_time >= CURRENT_DATE - INTERVAL '7 days'
+ORDER BY t.device_id, t.trip_start_time;
 ```
 {% endcode %}
 {% endtab %}
 {% endtabs %}
 
-## How tracks are built
+## How trips are built
 
-A track record is not a raw device reading, it is a derived entity assembled from hundreds\
+A trip record is not a raw device reading, it is a derived entity assembled from hundreds\
 of individual telematics points. The transformation works through the raw data in stages:\
 first deciding which points are worth keeping, then classifying each point's movement status,\
 then grouping points into trip segments, and finally computing the aggregate metrics that\
@@ -117,7 +117,7 @@ A trip ends when:
 * The device has been continuously stopped for the minimum parking duration.
 * A data gap of the timeout length occurs while the device is not moving.
 
-The thresholds that control these boundaries are listed in the [Configuration parameters](tracks.md#configuration-parameters) reference below.
+The thresholds that control these boundaries are listed in the [Configuration parameters](trips.md#configuration-parameters) reference below.
 {% endstep %}
 
 {% step %}
@@ -125,10 +125,10 @@ The thresholds that control these boundaries are listed in the [Configuration pa
 
 Once trip boundaries are established, all points in each trip are aggregated into a single output row:
 
-* `track_distance_meters`: derived from a PostGIS line geometry built from the ordered point sequence using `ST_MakeLine`.
+* `trip_distance_meters`: derived from a PostGIS line geometry built from the ordered point sequence using `ST_MakeLine`.
 * `avg_speed`, `max_speed`, `min_speed`: computed across all points in the trip.
 * `latitude_start`, `longitude_start`, `latitude_end`, `longitude_end`: taken from the first and last points in the sequence.
-* `start_zone`, `end_zone`: populated by matching start and end coordinates against `business_data.zones_geom`. A match requires the point to fall exactly within the zone boundary; no buffer is applied.
+* `start_zone`, `end_zone`: populated by matching start and end coordinates against `processed_common_data.zones_geom`. A match requires the point to fall exactly within the zone boundary; no buffer is applied.
 {% endstep %}
 
 {% step %}
@@ -153,7 +153,7 @@ scaling rules that the transformation applies internally.
 
 <summary>Configuration parameters</summary>
 
-These thresholds govern how trips are split and validated. They are the most common targets for customization. See [Customizing the transformation](tracks.md#customizing-the-transformation) for instructions on how to adjust them in the workflow template.
+These thresholds govern how trips are split and validated. They are the most common targets for customization. See [Customizing the transformation](trips.md#customizing-the-transformation) for instructions on how to adjust them in the workflow template.
 
 <table><thead><tr><th width="233">Parameter</th><th width="133">Default value</th><th>Description</th></tr></thead><tbody><tr><td>Minimum parking duration</td><td>300 seconds (5 minutes)</td><td>A stop shorter than this does not end the current trip. The device is considered to still be on the same journey.</td></tr><tr><td>Data gap timeout</td><td>1200 seconds (20 minutes)</td><td>If no data arrives for this duration, the current trip ends and a new one begins when data resumes.</td></tr><tr><td>Minimum movement distance</td><td>50 meters</td><td>A point must be at least this far from the previous point to count as movement.</td></tr><tr><td>Minimum movement speed</td><td>3 km/h</td><td>Points below this speed are not classified as moving.</td></tr></tbody></table>
 
@@ -175,7 +175,7 @@ Raw telematics data from `tracking_data_core` stores coordinate and speed values
 
 ## Customizing the transformation
 
-The default Tracks transformation reflects Navixy's general-purpose trip detection logic. If your operational scenario requires different behavior, you can load the workflow template into [Transformation Builder](../transformation-builder/), modify the relevant nodes, and schedule the adjusted workflow as a custom transformation in `processed_custom_data`.
+The default Trips transformation reflects Navixy's general-purpose trip detection logic. If your operational scenario requires different behavior, you can load the workflow template into [Transformation Builder](../transformation-builder/), modify the relevant nodes, and schedule the adjusted workflow as a custom transformation in `processed_custom_data`.
 
 {% hint style="warning" %}
 Several nodes in the Tracks workflow use PostGIS geometry functions and window functions (`LAG`, `FIRST_VALUE`, `LAST_VALUE`, `SUM OVER`). Modifying these nodes requires solid SQL knowledge. Always preview the result using the **Execute** button in Transformation Builder before scheduling a modified workflow.
@@ -252,13 +252,13 @@ to:
 
 ### Using the workflow template
 
-Navixy provides a ready-made Tracks workflow template you can load into Transformation Builder as a starting point. The template covers all processing steps described on this page, from raw data ingestion through zone matching and aggregation.
+Navixy provides a ready-made Trips workflow template you can load into Transformation Builder as a starting point. The template covers all processing steps described on this page, from raw data ingestion through zone matching and aggregation.
 
 See the [Templates](../transformation-builder/templates.md) page for the download, import instructions, and the Output node configuration for this transformation.
 
 ## Next steps
 
 * [**Common transformations**](./): Back to the transformation index.
-* [**Templates**](../transformation-builder/templates.md): Download the Tracks workflow template and import it into Transformation Builder.
+* [**Templates**](../transformation-builder/templates.md): Download the Trips workflow template and import it into Transformation Builder.
 * [**Transformation Builder**](../transformation-builder/): Learn how to work with the visual workflow editor, add nodes, and preview results.
-* [**Raw data layer**](../../bronze-layer.md): Explore the source tables that feed into the Tracks transformation: `tracking_data_core`, `states`, and `zones_geom`.
+* [**Raw data layer**](../../bronze-layer.md): Explore the source tables that feed into the Trips transformation: `tracking_data_core`, `states`, and `zones_geom`.

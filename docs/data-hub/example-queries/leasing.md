@@ -957,10 +957,10 @@ FROM
   ) ls ON TRUE
   JOIN raw_business_data.objects o ON o.object_id = v.vehicle_id
   JOIN LATERAL (
-    SELECT SUM(t.track_distance_meters) / 1000.0 AS km_since_service
-    FROM business_data.tracks t
+    SELECT SUM(t.trip_distance_meters) / 1000.0 AS km_since_service
+    FROM processed_common_data.trips t
     WHERE t.device_id = o.device_id
-      AND t.track_start_time > ls.last_service_date
+      AND t.trip_start_time > ls.last_service_date
   ) km ON TRUE
   JOIN raw_business_data.vehicle_service_tasks vst
     ON vst.vehicle_id = v.vehicle_id
@@ -979,16 +979,16 @@ Leasing contracts often cap mileage (e.g., 25,000 km/year). If the limit is exce
 WITH driven AS (
   SELECT
     o.object_id,
-    DATE_TRUNC('year', t.track_start_time) AS year,
-    SUM(t.track_distance_meters) / 1000.0 AS km_year
+    DATE_TRUNC('year', t.trip_start_time) AS year,
+    SUM(t.trip_distance_meters) / 1000.0 AS km_year
   FROM
-    business_data.tracks t
+    processed_common_data.trips t
     JOIN raw_business_data.objects o ON o.device_id = t.device_id
   WHERE
-    t.track_start_time >= '2023-01-01'::date
-    AND t.track_start_time < '2024-01-01'::date
+    t.trip_start_time >= '2023-01-01'::date
+    AND t.trip_start_time < '2024-01-01'::date
   GROUP BY
-    o.object_id, DATE_TRUNC('year', t.track_start_time)
+    o.object_id, DATE_TRUNC('year', t.trip_start_time)
 ),
 limits AS (
   SELECT
@@ -1030,14 +1030,14 @@ WITH last_service AS (
 engine_hours_since_service AS (
   SELECT
     v.vehicle_id,
-    SUM(t.track_duration_seconds) / 3600.0 AS engine_hours_since_service
+    SUM(t.trip_duration_seconds) / 3600.0 AS engine_hours_since_service
   FROM
     raw_business_data.vehicles v
     JOIN raw_business_data.objects o ON o.object_id = v.object_id
-    JOIN business_data.tracks t ON t.device_id = o.device_id
+    JOIN processed_common_data.trips t ON t.device_id = o.device_id
     JOIN last_service ls ON ls.vehicle_id = v.vehicle_id
   WHERE
-    t.track_start_time > ls.last_service_date
+    t.trip_start_time > ls.last_service_date
   GROUP BY
     v.vehicle_id
 )
