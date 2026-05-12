@@ -20,9 +20,9 @@ Dashboard Studio app interface, built-in dashboard templates, custom dashboard c
 Dashboards contain panels that display data visualizations. Each panel runs a SQL query against your IoT Query database, the same Raw data and Transformation layers you access through SQL clients. You arrange panels on a canvas, configure their appearance, and save the complete report to your menu. Dashboard Studio updates panels continuously to reflect current IoT Query data.
 
 {% hint style="info" %}
-### Before you start
+#### Before you start
 
-Dashboard Studio requires IoT Query access to function. Enable IoT Query before building reports. If you don't have access yet, contact us for activation at [iotquery@navixy.com](mailto:iotquery@navixy.com).&#x20;
+Dashboard Studio requires IoT Query access to function. Enable IoT Query before building reports. If you don't have access yet, contact us for activation at [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}
 
 ### Dashboards vs. reports
@@ -64,7 +64,7 @@ Let's walk through the steps from an empty canvas to a structured and informativ
 
 {% stepper %}
 {% step %}
-#### Create a new dashboard
+**Create a new dashboard**
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
@@ -75,18 +75,18 @@ Let's walk through the steps from an empty canvas to a structured and informativ
 {% endstep %}
 
 {% step %}
-#### Add a panel
+**Add a panel**
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-Now you can add your first panel by selecting a visualization type.&#x20;
+Now you can add your first panel by selecting a visualization type.
 
-1. Select <img src="../.gitbook/assets/image (2).png" alt="" data-size="line"> on the editing toolbar.&#x20;
+1. Select <img src="../.gitbook/assets/image (2).png" alt="" data-size="line"> on the editing toolbar.
 2. Choose **Panel Type** and click **Add panel**. The new panel appears on the canvas.
 {% endstep %}
 
 {% step %}
-#### Configure the visual
+**Configure the visual**
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -150,7 +150,7 @@ Use the menu editing mode to create sections, drag reports between them, and reo
 
 Save your dashboard to store it in your menu. Dashboard Studio prompts for a name and section location. Reports save automatically as you work.
 
-Export reports to share them with other users or create backups.&#x20;
+Export reports to share them with other users or create backups.
 
 To do it:
 
@@ -166,7 +166,7 @@ Dashboard Studio downloads a JSON file containing the complete report structure,
 
 Dashboards display current data from IoT Query. Dashboard Studio queries the database each time you open a report. Data freshness matches your IoT Query updates, which happen continuously as devices send readings.
 
-You can refresh data manually using the **Refresh** button in the top toolbar.&#x20;
+You can refresh data manually using the **Refresh** button in the top toolbar.
 
 {% hint style="info" %}
 Dashboard Studio does not cache results. Each panel runs its query independently when the report loads or refreshes.

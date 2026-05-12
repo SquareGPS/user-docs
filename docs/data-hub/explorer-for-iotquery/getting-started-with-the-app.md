@@ -7,13 +7,13 @@ This guide helps you set up access and begin using **Explorer for IoT Query** ef
 Access **Explorer for IoT Query** through the **Navixy User Applications** feature for seamless authentication and appropriate access to your organization's **PTL** instance.
 
 {% hint style="warning" %}
-Only Account Owners can create user applications. For detailed setup instructions, see [User applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/account/user-applications).
+Only Account Owners can create user applications. For detailed setup instructions, see [User applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications).
 {% endhint %}
 
 Setup process:
 
 1. Navigate to **User Applications** in your Navixy platform.
-2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/readme/account/user-applications/creating-new-user-applications) to configure the new application and use these specific settings:
+2. Follow the [User Applications documentation](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications/creating-new-user-applications) to configure the new application and use these specific settings:
    1. **App URL:** `https://analytics.iotquery.navixy.com/`
    2. **Show as:** Select **Embedded**
    3. **GET parameters:** Enable **Session key** for authentication\

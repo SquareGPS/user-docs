@@ -7,7 +7,7 @@ description: >-
 # Transformation Builder
 
 {% hint style="info" %}
-### Coming soon!&#x20;
+#### Coming soon!
 
 Transformation Builder is currently under development. The feature description on this page reflects the planned functionality. Implementation details may evolve before final release. If you are interested in early access or have questions, contact [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}
@@ -188,27 +188,27 @@ A typical workflow follows these steps:
 
 {% stepper %}
 {% step %}
-#### Open Transformation Builder
+**Open Transformation Builder**
 
 Launch the Transformation Builder interface.
 {% endstep %}
 
 {% step %}
-#### Connect to your database
+**Connect to your database**
 
 Enter your PostgreSQL connection URL and establish the connection. The Builder discovers available tables and columns automatically.
 {% endstep %}
 
 {% step %}
-#### Add data source nodes
+**Add data source nodes**
 
 Add a [**Raw data: Telematics**](./#raw-data-telematics) node and select the table and columns you want to work with. If you need reference data (for example, vehicle details or sensor descriptions), add a [**Raw data: Business**](./#raw-data-business) node as well.
 {% endstep %}
 
 {% step %}
-#### Add transformation nodes
+**Add transformation nodes**
 
-Insert the transformation nodes your workflow requires:&#x20;
+Insert the transformation nodes your workflow requires:
 
 * [**SQL Transform**](./#sql-transform) to join data
 * [**Filter**](./#filter) to narrow results
@@ -218,39 +218,39 @@ Insert the transformation nodes your workflow requires:&#x20;
 {% endstep %}
 
 {% step %}
-#### Configure the Output node
+**Configure the Output node**
 
 Add [Output](./#output) node and set the target table name, primary key columns, and write mode for your analytical entity.
 {% endstep %}
 
 {% step %}
-#### Connect nodes
+**Connect nodes**
 
 Draw edges between nodes to define the data flow. Connect source nodes to transformation nodes, and transformation nodes to the Output node. Data flows from left to right, from sources to output.
 {% endstep %}
 
 {% step %}
-#### Review and fix errors
+**Review and fix errors**
 
 Check validation hints for any configuration issues. Fix errors in node parameters or graph structure as needed.
 {% endstep %}
 
 {% step %}
-#### Preview results
+**Preview results**
 
-Click **Execute** to run a preview of your workflow. The Builder compiles the graph into SQL and executes it against your database, returning up to 100 rows so you can verify the output.&#x20;
+Click **Execute** to run a preview of your workflow. The Builder compiles the graph into SQL and executes it against your database, returning up to 100 rows so you can verify the output.
 
 {% hint style="info" %}
-#### Export
+**Export**
 
 You can export your completed workflow as a YAML file for runtime execution or sharing with colleagues. See [Workflow YAML reference](workflow-yaml-reference.md) for format details.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-### Schedule execution
+#### Schedule execution
 
-Click **Schedule** to open the configuration dialog, where you can determine exact time and frequency of the workflow execution. At the set time, a function in database will trigger the workflow and save its result to the Transformation layer.&#x20;
+Click **Schedule** to open the configuration dialog, where you can determine exact time and frequency of the workflow execution. At the set time, a function in database will trigger the workflow and save its result to the Transformation layer.
 {% endstep %}
 {% endstepper %}
 

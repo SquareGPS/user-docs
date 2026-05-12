@@ -8,10 +8,10 @@ description: >-
 
 The Trips transformation processes raw telematics data into discrete vehicle trip records. Each row in `processed_common_data.trips` represents one complete trip: where it started and ended, how long it took, how far the vehicle traveled, and which zones it departed from or arrived at.
 
-The built-in transformation runs every 8 hours and covers a rolling 12-hour window of raw data. At each run, previously calculated records for that window are replaced with a fresh calculation, so the table always reflects the latest available data.&#x20;
+The built-in transformation runs every 8 hours and covers a rolling 12-hour window of raw data. At each run, previously calculated records for that window are replaced with a fresh calculation, so the table always reflects the latest available data.
 
 {% hint style="info" %}
-* Data in this table may be up to 8 hours old, reflecting the most recently completed run.&#x20;
+* Data in this table may be up to 8 hours old, reflecting the most recently completed run.
 * All timestamps are stored in UTC.
 {% endhint %}
 
@@ -77,7 +77,7 @@ Here are the steps of the algorithm that forms a track entity:
 
 {% stepper %}
 {% step %}
-### **Collecting and cleaning the input**
+#### **Collecting and cleaning the input**
 
 The transformation reads the last 12 hours of data from two source tables:
 
@@ -92,7 +92,7 @@ Points are filtered before any further processing:
 {% endstep %}
 
 {% step %}
-### **Deciding whether each point represents movement**
+#### **Deciding whether each point represents movement**
 
 Each point is classified into one of three statuses:
 
@@ -104,7 +104,7 @@ LBS points go through an additional check before receiving a status. Any LBS poi
 {% endstep %}
 
 {% step %}
-### Grouping points into trips
+#### Grouping points into trips
 
 With every point carrying a movement status, the transformation identifies trip boundaries. A new trip begins when:
 
@@ -121,7 +121,7 @@ The thresholds that control these boundaries are listed in the [Configuration pa
 {% endstep %}
 
 {% step %}
-### Computing output metrics
+#### Computing output metrics
 
 Once trip boundaries are established, all points in each trip are aggregated into a single output row:
 
@@ -132,7 +132,7 @@ Once trip boundaries are established, all points in each trip are aggregated int
 {% endstep %}
 
 {% step %}
-### Filtering out noise before writing results
+#### Filtering out noise before writing results
 
 Not every trip segment that the algorithm identifies is worth keeping. Short segments caused by brief GPS recovery, stationary devices with occasional position drift, or incomplete data at the window boundary are discarded. A trip is only written to the output table when it meets all of the following conditions simultaneously:
 
@@ -183,7 +183,7 @@ Several nodes in the Tracks workflow use PostGIS geometry functions and window f
 
 ### Customization examples
 
-Expand the sections below to see some case-based customization examples.&#x20;
+Expand the sections below to see some case-based customization examples.
 
 <details>
 

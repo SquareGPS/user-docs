@@ -7,7 +7,7 @@ description: >-
 # Transformation layer
 
 {% hint style="info" %}
-### Coming soon!&#x20;
+#### Coming soon!
 
 The Transformation layer architecture described on this page is currently in development. While the core transformation capabilities are operational, implementation details may evolve before final release. If you are interested in early access or have questions, contact [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}
