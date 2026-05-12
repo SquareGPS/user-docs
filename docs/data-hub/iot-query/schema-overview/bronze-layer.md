@@ -552,6 +552,21 @@ Table "groups_objects" {
   }
 }
 
+Table "device_settings" {
+  "device_id" integer [not null]
+  "key" "character varying" [not null]
+  "value" text
+
+  Indexes {
+    (device_id, key) [pk]
+  }
+}
+
+Table "event_description" {
+  "event_id" integer [not null, pk]
+  "description" text
+}
+
 Ref:"employees"."employee_id" < "checkins"."employee_id"
 
 Ref:"objects"."object_id" < "checkins"."object_id"
@@ -1078,6 +1093,26 @@ Reference and lookup data
 **Description**: Custom labels for device output channels mapping numeric output identifiers (number) to user-defined names (label) such as "Door Lock" or "Engine Block" for readable reporting and analysis of device output commands and states
 
 <table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>device_id</code> - Device entity identifier<br>- <code>number</code> - The number attribute of the device_output_name table<br>- <code>label</code> - The label attribute of the device_output_name table</td></tr><tr><td><strong>Content</strong></td><td>Maps output channel numbers to user-defined names (e.g., "Door Lock", "Engine Block")</td></tr><tr><td><strong>Special notes</strong></td><td>Enables readable reporting when analyzing device output commands and states</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>device_settings</code></strong></summary>
+
+**Description**: Device configuration key-value pairs synchronized from the source platform. Each row stores one configuration setting for a specific device.
+
+<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>device_id</code> - Device entity identifier<br>- <code>key</code> - Setting name<br>- <code>value</code> - Setting value</td></tr><tr><td><strong>Primary key</strong></td><td>Composite: <code>(device_id, key)</code></td></tr><tr><td><strong>Special notes</strong></td><td>Populated during full client synchronization. Use this table to read device-level configuration values alongside telematics or business data.</td></tr></tbody></table>
+
+</details>
+
+<details>
+
+<summary><strong><code>event_description</code></strong></summary>
+
+**Description**: Reference table of tracker event codes with human-readable descriptions. Contains 134 entries covering common tracker events such as SOS, sleep mode, ignition, and digital input/output changes.
+
+<table><thead><tr><th width="140">Attribute</th><th>Details</th></tr></thead><tbody><tr><td><strong>Key fields</strong></td><td>- <code>event_id</code> - Event code (primary key)<br>- <code>description</code> - Human-readable event name</td></tr><tr><td><strong>Special notes</strong></td><td>Join to <code>raw_telematics_data.tracking_data_core</code> on <code>event_id</code> to display event names in reports and dashboards instead of numeric codes.</td></tr></tbody></table>
 
 </details>
 
