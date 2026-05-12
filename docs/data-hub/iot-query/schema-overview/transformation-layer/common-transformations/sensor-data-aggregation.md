@@ -92,7 +92,7 @@ Here are the steps of the algorithm that forms a sensor aggregate row:
 
 {% stepper %}
 {% step %}
-### **Reading and filtering raw inputs**
+#### **Reading and filtering raw inputs**
 
 The transformation reads the most recent slice of data from `raw_telematics_data.inputs`. The slice length matches the configured interval: the built-in run reads the last hour; a custom run with a 5-minute interval reads the last 5 minutes. Readings are filtered before any further processing:
 
@@ -104,13 +104,13 @@ The filter operates on the raw `value` column in `inputs`, before any decoding i
 {% endstep %}
 
 {% step %}
-### **Joining sensor configuration**
+#### **Joining sensor configuration**
 
 Each remaining reading is matched against `raw_business_data.sensor_description` using a `LEFT JOIN` on `device_id` and `input_label = sensor_name`. The join brings in `sensor_id`, `sensor_label`, `sensor_type`, `units_type`, `group_type`, `divider`, `multiplier`, `calibration_data`, and `parameters`. Because the join is left-sided, readings from unconfigured sensors still pass through with sensor metadata as null.&#x20;
 {% endstep %}
 
 {% step %}
-### **Decoding the raw value**
+#### **Decoding the raw value**
 
 Each reading is converted from its stored representation to a usable numeric value. The decoding rule comes from `sensor_description.parameters.calc_method`:
 
@@ -120,7 +120,7 @@ Each reading is converted from its stored representation to a usable numeric val
 {% endstep %}
 
 {% step %}
-### **Bucketing and aggregating**
+#### **Bucketing and aggregating**
 
 Decoded values are grouped into time buckets by truncating `device_time` to the bucket boundary. Within each bucket, the function computes `AVG`, `MIN`, and `MAX` of the decoded value. Grouping also includes sensor metadata columns, so aggregates are calculated per sensor per device per bucket.
 
@@ -128,7 +128,7 @@ In the built-in transformation, the bucket is one hour. Custom transformations c
 {% endstep %}
 
 {% step %}
-### **Calibration for fuel sensors**
+#### **Calibration for fuel sensors**
 
 Sensors with a populated `calibration_data` array (typically fuel level sensors) get linear interpolation applied to each aggregate. For `value_avg`, `value_min`, and `value_max` separately, the function finds the calibration breakpoints just below and just above the value, then interpolates linearly to produce `calibrated_volume_avg`, `calibrated_volume_min`, and `calibrated_volume_max`. For sensors without calibration data, the calibrated volumes equal the raw aggregates.
 
@@ -136,7 +136,7 @@ The breakpoint columns (`val_low_*`, `val_high_*`, `vol_low_*`, `vol_high_*`) ar
 {% endstep %}
 
 {% step %}
-### **Enrichment with labels**
+#### **Enrichment with labels**
 
 The aggregated rows are joined with `raw_business_data.objects` on `device_id` to add `object_label`, and with `raw_business_data.description_parameters` twice to resolve `units_type` and `group_type` into human-readable description strings. The function also computes `sensor_units_final`, which prefers the user-entered `sensor_units` and falls back to the description string.
 
