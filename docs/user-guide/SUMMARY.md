@@ -56,6 +56,7 @@
       * [Geofences](guide/tracking/map-tools/geofences.md)
       * [Places (POIs)](guide/tracking/map-tools/places-pois.md)
       * [Layers](guide/tracking/map-tools/layers.md)
+    * [Fleet live status dashboard](guide/tracking/fleet-live-status-dashboard.md)
   * [Geo links](guide/geo-links/README.md)
     * [Creating geo links](guide/geo-links/creating-geo-links.md)
     * [Updating and sharing geo links](guide/geo-links/updating-and-sharing-geo-links.md)
