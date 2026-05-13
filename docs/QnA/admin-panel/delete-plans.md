@@ -1,17 +1,17 @@
 # Delete plans
 
-### Question
+## Question
 
-How can I delete plans in the Admin Panel?
+How can I delete plans in Admin Panel?
 
-### Answer
+## Answer
 
-You can’t delete plans from the Admin Panel UI.
+You can't delete plans from the Admin Panel UI.
 
 Contact Support and provide the plan name/ID.
 
 Make sure the plan has no associated devices.
 
-### Link
+## Link
 
 * [Plans](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/plans)

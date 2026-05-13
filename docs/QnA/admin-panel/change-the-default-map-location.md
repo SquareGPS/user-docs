@@ -1,14 +1,14 @@
 # Change the default map location
 
-### Question
+## Question
 
 Can I change the default map location?
 
-### Answer
+## Answer
 
 Yes.
 
-Admin Panel → Account Management → Service Preferences → Map default settings.
+Admin Panel → Settings → Maps preferences → Map default settings.
 
 Use the visual editor to set:
 
@@ -16,6 +16,6 @@ Use the visual editor to set:
 * zoom
 * default coordinates
 
-### Link
+## Link
 
-* [Service preferences](https://docs.navixy.com/admin-panel/service-preferences)
+* [Service preferences](https://www.navixy.com/docs/admin/settings/maps)

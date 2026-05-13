@@ -1,10 +1,10 @@
 # Troubleshoot custom domain issues
 
-### Question
+## Question
 
 How to troubleshoot custom domain issues?
 
-### Answer
+## Answer
 
 Before troubleshooting, review the domain name guide:
 
@@ -15,9 +15,9 @@ Then verify DNS:
 1. Domain points to `saas.navixy.com` (or `saas.us.navixy.com` for US).
 2. The record type is **CNAME**, not A.
 
-You can validate using MXToolbox (or `dig` if you’re on Linux/WSL).
+You can validate using MXToolbox (or `dig` if you're on Linux/WSL).
 
-### Links
+## Links
 
 * [Domain name guide](https://www.navixy.com/docs/admin/settings/domain-name)
 * [MXToolbox](https://mxtoolbox.com/)

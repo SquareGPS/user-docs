@@ -1,26 +1,24 @@
 # Create a demo account login on the platform
 
-### Question
+## Question
 
 Can I have a demo account?
 
-### Answer
+## Answer
 
 Yes.
 
 Steps:
 
 1. Create a subuser with access to selected devices.
-2.  Admin Panel:
-
-    Account Management → Service Preferences → Login Page → Demo User
-3. Enter that subuser’s username and password.
+2. In Admin Panel, go to Settings → Service preferences → Login page
+3. Enter that subuser's username and password.
 
 This enables a read-only demo login, giving users a preview of the platform features.
 
-The demo account does not have edit access and cannot control outputs, so there is no risk of causing harm.
+The demo account doesn't have edit access and can't control outputs, so there is no risk of causing harm.
 
-### Links
+## Links
 
-* [Demo user account](https://docs.navixy.com/admin-panel/demo-user-account)
-* [Access](https://docs.navixy.com/user-guide/access#UserAdministration-ViewandEditUserList)
+* [Demo user account](https://www.navixy.com/docs/admin/settings/service-preferences/demo-user-account)
+* [Access](https://www.navixy.com/docs/user/guide/account/users-and-roles/user-administration#viewing-and-editing-the-user-list)

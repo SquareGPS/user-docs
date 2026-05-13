@@ -1,21 +1,21 @@
 # Stop device reconfiguration after activation
 
-### Question
+## Question
 
 I configured my device before connecting it. After activation, settings changed. How do I stop this?
 
-### Answer
+## Answer
 
 By default, the platform can send activation and default configuration commands.
 
 Disable it in Admin Panel:
 
-Account Management → Service Preferences → Device Activation → **Do not send default settings**
+Settings → Service preferences → Device activation → **Don't send default settings**
 
 This prevents the platform from sending default settings after activation.
 
 It can also prevent SMS activation commands (if used).
 
-### Links
+## Links
 
-* [Service preferences](https://docs.navixy.com/admin-panel/service-preferences)
+* [Service preferences](https://www.navixy.com/docs/admin/settings/service-preferences)
