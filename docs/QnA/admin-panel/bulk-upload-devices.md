@@ -1,10 +1,10 @@
 # Bulk upload devices
 
-### Question
+## Question
 
 How do I activate multiple devices at once?
 
-### Answer
+## Answer
 
 Option 1: contact Support with a CSV/XLSX containing:
 
@@ -37,7 +37,7 @@ curl -X POST 'https://api.us.navixy.com/v2/tracker/register' \
   }'
 ```
 
-### Links
+## Links
 
 * [API: tracker/register](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/tracking/tracker#register)
 * [Bulk activation](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/bulk-activation)

@@ -4,7 +4,7 @@ This section covers system administration and configuration for the Navixy platf
 
 Essential for anyone responsible for platform configuration, whether you're managing a small business deployment or operating as a reseller with hundreds of customer accounts. Topics include device lifecycle management, billing automation, platform branding, and integration with email/SMS gateways.
 
-### Browse guides
+## Browse guides
 
 <details>
 

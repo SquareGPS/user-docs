@@ -1,17 +1,17 @@
 # Export a list of users
 
-### Question
+## Question
 
 How can I export a list of my users?
 
-### Answer
+## Answer
 
 Admin Panel → Users.
 
-Click **Download user list** at the bottom-left.
+Click **Download user data** on the toolbar.
 
 Choose XLSX or CSV.
 
-### Link
+## Link
 
 * [Users](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/users)

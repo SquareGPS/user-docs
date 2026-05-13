@@ -1,15 +1,13 @@
 # Change the Information Center link
 
-### Question
+## Question
 
 How can I change the website shown in the Information Center?
 
-### Answer
+## Answer
 
-In Admin Panel:
+In Admin Panel, go to Settings → Service preferences. Set the support/help sections URLs.
 
-Account management → Service preferences.
+## Link
 
-Set the documentation/help section URL.
-
-![](<../.gitbook/assets/Unknown image (137)>)
+* [Service preferences](https://www.navixy.com/docs/admin/settings/maps)

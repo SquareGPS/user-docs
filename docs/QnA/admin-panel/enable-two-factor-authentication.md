@@ -1,19 +1,19 @@
 # Enable two-factor authentication
 
-### Question
+## Question
 
 Is it possible to add two-factor authentication?
 
-### Answer
+## Answer
 
 Yes.
 
-Admin Panel → Account Management → Security.
+Admin Panel → Settings → Security.
 
 Enable the **Email** option.
 
-Currently, only email-based 2FA is available. In the future, we plan to implement 2FA for authenticator apps and SMS.
+Currently, only email-based 2FA is available.
 
-### Link
+## Link
 
 * [Two-factor authentication](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/two-factor-authentication)

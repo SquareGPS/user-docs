@@ -1,12 +1,12 @@
 # Create technician accounts for Admin Panel
 
-### Question
+## Question
 
-How can I add an employee to manage the Admin Panel without sharing credentials?
+How can I add an employee to manage Admin Panel without sharing credentials?
 
-### Answer
+## Answer
 
-Request a Technician Account from Support.
+Request a Technician account from Support.
 
 Technician accounts can:
 

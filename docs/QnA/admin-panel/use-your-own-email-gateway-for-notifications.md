@@ -1,14 +1,14 @@
 # Use your own email gateway for notifications
 
-### Question
+## Question
 
 Can I use my own email system for outgoing emails?
 
-### Answer
+## Answer
 
 Yes, but it requires SMTP support plus DNS records.
 
-#### DKIM
+### DKIM
 
 Create two CNAME records:
 
@@ -17,14 +17,14 @@ Create two CNAME records:
 
 Replace `yourdomain.com` with your domain.
 
-#### DMARC
+### DMARC
 
 Create a TXT record:
 
 * Host: `_dmarc.yourdomain.com`
 * Value: `v=DMARC1; p=none`
 
-#### TXT verification
+### TXT verification
 
 Create a TXT record with the value:
 
@@ -32,7 +32,7 @@ Create a TXT record with the value:
 
 `PASTECODE` is provided by Support on request.
 
-#### Configure in Admin Panel
+### Configure in Admin Panel
 
 In Admin Panel → Account Management → Email Gateways, configure:
 
@@ -42,6 +42,6 @@ In Admin Panel → Account Management → Email Gateways, configure:
 * username/password
 * sender email
 
-### Link
+## Link
 
 * [Email gateway](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/messaging-gateways/email-gateway)

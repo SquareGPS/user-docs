@@ -1,6 +1,6 @@
 # Customize the Help page link
 
-### Question
+## Question
 
 How can I adjust the Help page for my users?
 
@@ -15,8 +15,8 @@ You can:
 * keep the default (Navixy docs)
 * set your own link (opens in an iframe)
 
-If the site blocks iframes, Support won’t troubleshoot that.
+If the site blocks iframes, Support won't troubleshoot that issue.
 
-### Link
+## Link
 
-* [Service preferences](https://docs.navixy.com/admin-panel/service-preferences)
+* [Service preferences](https://www.navixy.com/docs/admin/settings/service-preferences)
