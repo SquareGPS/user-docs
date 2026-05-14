@@ -14,4 +14,4 @@ This option requires both Fleet Management and Field Service add-ons. If you don
 
 ## Links
 
-* [Custom menu editor](https://www.navixy.com/docs/admin/settings/custom-menu-editor)
+* [Menu editor](https://www.navixy.com/docs/admin/settings/custom-menu-editor)

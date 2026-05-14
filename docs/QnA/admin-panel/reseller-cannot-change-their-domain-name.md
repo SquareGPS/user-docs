@@ -19,4 +19,4 @@ If the master account is providing the domain, validate the CNAME configuration 
 
 ## Link
 
-* [Resellers](https://www.navixy.com/docs/admin/resellers)
+* [Resellers](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/resellers)

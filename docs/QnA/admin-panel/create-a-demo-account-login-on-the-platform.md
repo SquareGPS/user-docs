@@ -20,5 +20,5 @@ The demo account doesn't have edit access and can't control outputs, so there is
 
 ## Links
 
-* [Demo user account](https://www.navixy.com/docs/admin/settings/service-preferences/demo-user-account)
-* [Access](https://www.navixy.com/docs/user/guide/account/users-and-roles/user-administration#viewing-and-editing-the-user-list)
+* [Demo user account](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/service-preferences/demo-user-account)
+* [Access](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/users-and-roles/user-administration#viewing-and-editing-the-user-list)
