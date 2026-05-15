@@ -8,7 +8,7 @@ How can I reduce or increase the LBS radius on the platform?
 
 Please go to **Devices and Settings**, then select your device, and look for the **LBS detection radius**. If this option is not visible for your device, it means that you do not have LBS.
 
-![image-20250307-161918.png](<../.gitbook/assets/Unknown image (93)>)
+![image-20250307-161918.png](<../.gitbook/assets/Unknown image (6)>)
 
 ### Links
 

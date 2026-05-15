@@ -4,7 +4,7 @@
 
 What does the green “We’ll be back soon” page mean?
 
-![](<../.gitbook/assets/Unknown image (144)>)
+![](<../.gitbook/assets/Unknown image (57)>)
 
 ### Answer
 

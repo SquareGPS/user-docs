@@ -8,7 +8,7 @@ Is it possible to schedule a geo link on Navixy?
 
 Yes, you can schedule a timeframe where the geo link will be valid for visualization.
 
-![](<../.gitbook/assets/Unknown image (94)>)
+![](<../.gitbook/assets/Unknown image (7)>)
 
 This would help for limiting access to end users.
 

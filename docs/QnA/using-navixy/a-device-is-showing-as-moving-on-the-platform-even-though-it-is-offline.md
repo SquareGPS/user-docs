@@ -4,7 +4,7 @@
 
 Why does my device appear to be moving on the platform when it's offline?
 
-![](<../.gitbook/assets/Unknown image (87)>)
+![](<../.gitbook/assets/Unknown image>)
 
 ### Answer
 

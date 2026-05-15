@@ -10,7 +10,7 @@ Follow these steps in order:
 
 1.  Verify IMEI is correct.
 
-    ![](<../.gitbook/assets/Unknown image (145)>)
+    ![](<../.gitbook/assets/Unknown image (58)>)
 2.  Verify SIM supports SMS and has working GPRS/LTE.
 
     Make sure:
@@ -63,7 +63,7 @@ Follow these steps in order:
     ```
 6.  Retry activation in UI when online.
 
-    ![](<../.gitbook/assets/Unknown image (146)>)
+    ![](<../.gitbook/assets/Unknown image (59)>)
 7. If the device is offline unexpectedly, verify it is powered on and has sufficient battery charge.
 
 ### If default commands are disabled

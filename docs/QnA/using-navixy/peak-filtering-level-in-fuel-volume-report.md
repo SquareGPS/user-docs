@@ -8,7 +8,7 @@ What does the peak filtering parameter control in the fuel volume report, and ho
 
 The parameter corresponds to the level of peak filtering applied when generating the fuel volume report.
 
-![](<../.gitbook/assets/Unknown image (133)>)
+![](<../.gitbook/assets/Unknown image (46)>)
 
 This setting controls how aggressively the system smooths the data by ignoring short or abnormal peaks, which are commonly caused by GPS noise, signal instability, or isolated outlier points.
 

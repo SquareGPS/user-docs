@@ -8,11 +8,11 @@ How can I troubleshoot trip history issues? What should I do if a device’s tri
 
 If you find that part of a device’s trip history (or the entire trip) is missing on the platform, try displaying the trip without any processing or filters. To do this, uncheck the “Smart Filter” and “Split by Stops” options in the trip history settings:
 
-![](<../.gitbook/assets/Unknown image (126)>)
+![](<../.gitbook/assets/Unknown image (39)>)
 
 If the issue still persists, most likely the device didn’t send necessary GPS points to the platform. To confirm this fact, the user can export data using the Raw Data feature. Once exported, find the time interval when the trip has gaps.
 
-![image-20251224-110231.png](<../.gitbook/assets/Unknown image (127)>)
+![image-20251224-110231.png](<../.gitbook/assets/Unknown image (40)>)
 
 In the example above, points are missing for **one hour on December 10, 2025**, from **04:11:57 to 05:13:20**. This confirms that the tracker did not transmit any data to the platform during the reviewed time interval.
 
@@ -24,7 +24,7 @@ Try starting from adjusting the Tracking Mode settings in the user cabinet (if s
 
 Set up the On Moving and On Idle parameters to make the tracker record and send data more frequently. In case you use Teltonika, you can adjust more parameters directly in the device configuration:
 
-![](<../.gitbook/assets/Unknown image (129)>)
+![](<../.gitbook/assets/Unknown image (42)>)
 
 Here is an example above of how such settings may look. You can try to apply the same configuration as specified in the screenshot above.
 

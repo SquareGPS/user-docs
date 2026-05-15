@@ -19,8 +19,8 @@ To change sensitivity, log in to the camera via Howen iTools, select either DMS 
 * buzzer
 * other event-related parameters
 
-![](<../.gitbook/assets/Unknown image (171)>)
+![](<../.gitbook/assets/Unknown image (84)>)
 
-![](<../.gitbook/assets/Unknown image (172)>)
+![](<../.gitbook/assets/Unknown image (85)>)
 
-![](<../.gitbook/assets/Unknown image (173)>)
+![](<../.gitbook/assets/Unknown image (86)>)

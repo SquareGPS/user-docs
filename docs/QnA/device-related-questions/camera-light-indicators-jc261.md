@@ -20,4 +20,4 @@ We recommend carefully verifying that the APN settings have been entered correct
 
 If APN is correct, contact the SIM provider to verify the SIM is active.
 
-![](<../.gitbook/assets/Unknown image (170)>)
+![](<../.gitbook/assets/Unknown image (83)>)

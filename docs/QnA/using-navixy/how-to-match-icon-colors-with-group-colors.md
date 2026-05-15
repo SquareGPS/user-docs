@@ -8,6 +8,6 @@ Is it possible to match the icon color with the group color?
 
 Yes. Click the three dots on the object, select Change icon, and then enable Use group color.
 
-![](<../.gitbook/assets/Unknown image (120)>)
+![](<../.gitbook/assets/Unknown image (33)>)
 
-![](<../.gitbook/assets/Unknown image (121)>)
+![](<../.gitbook/assets/Unknown image (34)>)

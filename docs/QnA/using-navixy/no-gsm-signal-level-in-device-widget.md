@@ -8,7 +8,7 @@ Why is there no GSM signal level in my device widget?
 
 The GSM signal level refers to the intensity of the GSM signal perceived by the device, and this value is sent through the frame. Unfortunately, being unknown in the messages, the platform chooses to display **no GSM signal**.
 
-![](<../.gitbook/assets/Unknown image (95)>)
+![](<../.gitbook/assets/Unknown image (8)>)
 
 ### Links
 

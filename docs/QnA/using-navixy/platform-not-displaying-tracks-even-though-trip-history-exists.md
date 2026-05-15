@@ -33,7 +33,7 @@ To summarize:
 
 At the first step, the **Split by stops** option is used to form trips. Then, if both options are selected in the widget (see the screenshot below), the **Smart Filter** logic is applied to the resulting trips.
 
-![](<../.gitbook/assets/Unknown image (104)>)
+![](<../.gitbook/assets/Unknown image (17)>)
 
 Disable both options to see “raw trip data”.
 

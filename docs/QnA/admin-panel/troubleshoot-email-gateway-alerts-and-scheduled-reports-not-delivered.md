@@ -21,15 +21,15 @@ If you see an error, it usually points to wrong SMTP credentials or server setti
 
 This is what the approximate workflow looks like:
 
-![](<../.gitbook/assets/Unknown image (138)>)
+![](<../.gitbook/assets/Unknown image (51)>)
 
-![](<../.gitbook/assets/Unknown image (139)>)
+![](<../.gitbook/assets/Unknown image (52)>)
 
-![](<../.gitbook/assets/Unknown image (140)>)
+![](<../.gitbook/assets/Unknown image (53)>)
 
 Successful response example:
 
-![](<../.gitbook/assets/Unknown image (141)>)
+![](<../.gitbook/assets/Unknown image (54)>)
 
 Also check spam and allow up to **5 minutes** for delivery.
 

@@ -4,13 +4,13 @@
 
 Why does trip history show very short trips along with long parking durations?
 
-![](<../.gitbook/assets/Unknown image (109)>)
+![](<../.gitbook/assets/Unknown image (22)>)
 
 ### Answer
 
 Most likely, the device has **Consider ignition state** enabled in the Parking Detection portlet.
 
-![](<../.gitbook/assets/Unknown image (110)>)
+![](<../.gitbook/assets/Unknown image (23)>)
 
 Most likely, the tracker sends inconsistent and intermittent ignition state data. Once the platform detects ignition OFF state, the trip state is changed to Parked, bypassing the Min idle detection logic:
 
@@ -21,7 +21,7 @@ Since it is enough for the device to send OFF ignition state for a trip to be en
 
 To make sure that the ignition is the root cause, you can prepare a Raw Data spreadsheet with the discrete\_inputs columns selected:
 
-![](<../.gitbook/assets/Unknown image (111)>)
+![](<../.gitbook/assets/Unknown image (24)>)
 
 To resolve the situation, you can either fix ignition detection from the device side so it detects ignition consistently without unexpected drops, or switch off the Consider ignition state option in the Parking detection portlet. The old track durations will not change after the fix.
 

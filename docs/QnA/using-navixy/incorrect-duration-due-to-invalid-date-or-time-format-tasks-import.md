@@ -10,4 +10,4 @@ When the duration appears incorrectly, it suggests that the task start or end da
 
 In some cases, users include incorrect symbols (for example, 01-02-2026) or time formats such as AM/PM. This causes the platform to interpret the time as invalid, so we recommend carefully reviewing and correcting the date and time fields.
 
-![](<../.gitbook/assets/Unknown image (130)>)
+![](<../.gitbook/assets/Unknown image (43)>)

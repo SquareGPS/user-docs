@@ -12,14 +12,14 @@ Before reading these instructions, kindly familiarise yourself with our guidance
 2. Find the Sensors and Buttons portlet, this is where you set up any sensor in Navixy.
 3.  Create a measurement sensor. In the following screenshot, you can see how to add a measurement sensor. To find out more about measurement sensors, please refer to this article.
 
-    ![](<../.gitbook/assets/Unknown image (105)>)
+    ![](<../.gitbook/assets/Unknown image (18)>)
 4.  Set an arbitrary label for the sensor. Select the Parameter which should deliver the fuel information from the tracker. Also, fill in the input number if needed. Select the sensor type as Fuel. Select desirable units. You can skip the accuracy parameter in this case, it affects only some alerts and fuel reports.
 
-    ![](<../.gitbook/assets/Unknown image (106)>)
+    ![](<../.gitbook/assets/Unknown image (19)>)
 5. Press Save and return to the Tracking tab
 6.  Find the tracker in the list and wait for some time. After data packets from the tracker are received, you should see the sensor appearing in the tracker’s widgets as on the screenshot below:
 
-    ![](<../.gitbook/assets/Unknown image (107)>)
+    ![](<../.gitbook/assets/Unknown image (20)>)
 
 ### Links
 

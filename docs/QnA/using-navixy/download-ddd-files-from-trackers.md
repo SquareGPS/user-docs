@@ -12,7 +12,7 @@ DDD is a standard binary format for downloading data from a digital tachograph.
 
 Using Navixy, files can be requested for sending to a list of emails specified in the DDD file recipients portlet.
 
-![](<../.gitbook/assets/Unknown image (122)>)
+![](<../.gitbook/assets/Unknown image (35)>)
 
 It’s important to understand that the platform doesn't process DDD files in any way (no reading or changing the data). The platform just sends DDD files via email to the list of recipients specified in the user account.
 
@@ -44,13 +44,13 @@ Here are the supported device models for DDD file downloading:
 
 In case you use Teltonika, make sure that WEB Tacho Settings Status is disabled as on the following screenshot:
 
-![](<../.gitbook/assets/Unknown image (123)>)
+![](<../.gitbook/assets/Unknown image (36)>)
 
 If the customer has scheduled DDD file downloads, they need to insert the card each time a DDD file request is made to the tachograph.
 
 Before starting the application, open the `config.properties` file in a text editor. Once opened, make sure that the `server.hostname` parameter points to the platform tracking address.
 
-![](<../.gitbook/assets/Unknown image (124)>)
+![](<../.gitbook/assets/Unknown image (37)>)
 
 A tracking server address can be clarified on the device list page. Select a device, and you will find a server address corresponding to your instance (EU, US, MENA).
 
@@ -58,7 +58,7 @@ Once the server address is set (it can be a domain or an IP), you can start the 
 
 In case you use Windows, right click on the `start.bat` file and select “Run as administrator”:
 
-![](<../.gitbook/assets/Unknown image (125)>)
+![](<../.gitbook/assets/Unknown image (38)>)
 
 Once you have successfully run the application and all conditions above are met, you can proceed to the user interface and request DDD files to be sent via email to the recipient list.
 
