@@ -68,6 +68,7 @@
     * [Outputs Control](faq-and-troubleshooting/gps-devices/outputs-control.md)
     * [Input control](faq-and-troubleshooting/gps-devices/input-control/README.md)
       * [Mapping the ignition motion input for Suntech devices on Navixy](faq-and-troubleshooting/gps-devices/input-control/mapping-the-ignition-motion-input-for-suntech-devices-on-navixy.md)
+    * [Parking Detection Logic](faq-and-troubleshooting/gps-devices/parking-detection-logic.md)
   * [Sensors](faq-and-troubleshooting/sensors/README.md)
     * [Configuring Sensors on Teltonika Trackers](faq-and-troubleshooting/sensors/configuring-sensors-on-teltonika-trackers.md)
     * [Configuring Eye Sensor on Teltonika Tracker](faq-and-troubleshooting/sensors/configuring-eye-sensor-on-teltonika-tracker.md)

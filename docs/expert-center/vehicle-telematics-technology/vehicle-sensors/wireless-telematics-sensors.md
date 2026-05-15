@@ -106,7 +106,7 @@ The sensors can also send an additional parameter "BLE: Battery Level", which sh
 1. Configure a sensor according to the user manual
 2. Select needed sensor from the list. Usually BLE sensors have "BLE" in the label, e.g. BLE: Temperature #, BLE: Fuel etc.
 
-![](../../.gitbook/assets/imagen-20231019-233836.png)
+<img src="../../.gitbook/assets/imagen-20231019-233836.png" alt="" width="375">
 
 1. Then specify other settings according to your needs.
 2. That’s all! Now the platform will show data from the BLE sensor as soon as data is received on the server.
