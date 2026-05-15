@@ -2,7 +2,7 @@
 
 The users of the organization’s account include the **owner** and the **users**. The owner is the main account holder with full control and administrative rights, while users are additional accounts with specific roles and permissions assigned by the owner.
 
-![Access rights](https://www.navixy.com/wp-content/uploads/2023/04/roles-en.png)
+<figure><img src="../../../.gitbook/assets/image (47).png" alt="User administration page in Account settings. Shows an owner and a user account."><figcaption><p>User administration</p></figcaption></figure>
 
 ## Owner and users
 
@@ -21,9 +21,9 @@ Users are additional accounts granted access by the owner. As a subordinate acco
 
 ### **Viewing and editing the user list**
 
-To add a new user or edit the list of users, navigate to **Account Settings** → Users **and Roles** in the main menu.
+To add a new user or edit the list of users, navigate to **Account Settings** → **Users** **and Roles** in the main menu.
 
-![](../../../.gitbook/assets/image-20240718-041947.png)
+<figure><img src="../../../.gitbook/assets/image-20240718-041947.png" alt="New user creation menu in User administration"><figcaption><p>User creation dialogue</p></figcaption></figure>
 
 1. **To add a new user**:
 
