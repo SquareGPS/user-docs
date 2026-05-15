@@ -94,6 +94,7 @@
   * [Pricing plans conflicts](admin-panel/pricing-plans-conflicts.md)
   * [SMS commands are not delivered](admin-panel/sms-commands-are-not-delivered.md)
   * [Troubleshoot custom domain issues](admin-panel/troubleshoot-custom-domain-issues.md)
+  * [Blocking Tariff Plan - Billing Question](admin-panel/blocking-tariff-plan-billing-question.md)
 * [On-premise](on-premise/README.md)
   * [What do I need to have my own Navixy instance?](on-premise/prerequisites.md "On-premise prerequisites")
   * [On-premise licensing FAQ](on-premise/on-premise-licensing-faq.md)
