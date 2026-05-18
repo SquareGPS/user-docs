@@ -1,14 +1,14 @@
-# Bluetooth sensors widget
+# Bluetooth sensors block
 
-Some devices have a special **Bluetooth sensors widget** in Navixy, which allows you to configure external Bluetooth sensors that are connected to certain tracker models. These sensors typically transmit raw data, including only the MAC address and sensor value.
+Some devices have a special **Bluetooth sensors** block in Navixy, which allows you to configure external Bluetooth sensors that are connected to certain tracker models. These sensors typically transmit raw data, including only the MAC address and sensor value.
 
-To ensure the platform correctly interprets this data, you must manually configure each sensor within this widget.
+To ensure the platform correctly interprets this data, you must manually configure each sensor within this block.
 
 #### How to configure Bluetooth sensors
 
 {% stepper %}
 {% step %}
-**Access the Bluetooth sensors widget**
+**Access the Bluetooth sensors block**
 
 Navigate to the Devices and Settings section. Select the specific device for which you want to configure Bluetooth sensors.
 {% endstep %}
@@ -35,7 +35,7 @@ Choose the appropriate sensor type from the following options:
 {% step %}
 **Save the configuration**
 
-Once you’ve entered the MAC address and selected the sensor type, save the settings. The system will automatically create the corresponding sensors in the Sensors and Buttons widget, linking them to the appropriate functionalities within the platform.
+Once you’ve entered the MAC address and selected the sensor type, save the settings. The system will automatically create the corresponding sensors in the **Sensors and buttons** block, linking them to the appropriate functionalities within the platform.
 {% endstep %}
 {% endstepper %}
 

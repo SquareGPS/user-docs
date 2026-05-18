@@ -38,7 +38,7 @@ As a GPS tracker installed in a vehicle, Wi-Fi operation is not possible. Theref
 
 Here, you can set the date, time, and timezone. These settings affect the timestamps on video files and streams, so ensure they reflect your local timezone and current date/time.
 
-Our platform operates best with timezone UTC+0. However, for certain devices like MDVR units, we have added a specific portlet on the platform. If you set UTC+0, the timestamps on recorded and streamed videos will be incorrect, which may render them inadmissible in court.
+Our platform operates best with timezone UTC+0. However, for certain devices like MDVR units, we have added a specific block on the platform. If you set UTC+0, the timestamps on recorded and streamed videos will be incorrect, which may render them inadmissible in court.
 
 ### Center Settings
 

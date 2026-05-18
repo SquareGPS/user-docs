@@ -59,7 +59,7 @@ Required Parameters
 To set up data forwarding in the Recurso Confiable protocol:
 
 1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
-2. Click the **Data forwarding** widget.
+2. Click the **Data forwarding** block.
 3. Click **Protocols.**
 4. This will open a pop-up where you will input the required parameters by pressing the + button.
 5. For the Recurso Confiable protocol, input the following information:
@@ -70,7 +70,7 @@ To set up data forwarding in the Recurso Confiable protocol:
 
 ![](https://www.navixy.com/wp-content/uploads/2022/10/pasted-image-0-1-1-600x120.png)
 
-7. Next, the retranslator will need to be linked to the device on the Recurso Confiable side. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below.
+7. Next, the retranslator will need to be linked to the device on the Recurso Confiable side. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> button in the **Data forwarding** block. Select the retranslator to be connected, and click **Link** below.
 8. Next, add information needed to identify the device on Recurso Confiable in the External ID field either by clicking the pencil icon or the external ID field itself. This value should include the following from the Recurso Confiable side, where only the License Plate is mandatory:
 
 * License Plate

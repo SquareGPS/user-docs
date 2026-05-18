@@ -6,7 +6,7 @@ Virtual sensors allow you to process telemetry data more effectively. By mapping
 
 ### How to create a virtual sensor
 
-Virtual sensors can be created via the **Sensors and buttons** portlet located in the **Devices and settings** module. To create a virtual sensor:
+Virtual sensors can be created via the **Sensors and buttons** block located in the **Devices and settings** module. To create a virtual sensor:
 
 1. Enter the devices and settings section
 2. Select a GPS device
@@ -15,7 +15,7 @@ Virtual sensors can be created via the **Sensors and buttons** portlet located i
 
 Every device may have up to 100 virtual sensors.
 
-<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_73sv6rayqh.png" alt="Virtual sensor adding in sensors and buttons portlet" width="375"><figcaption><p>Virtual sensor adding in sensors and buttons</p></figcaption></figure>
+<figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_73sv6rayqh.png" alt="Virtual sensor adding in sensors and buttons block" width="375"><figcaption><p>Virtual sensor adding in sensors and buttons</p></figcaption></figure>
 
 The next steps depend on the use case that should be solved via the virtual sensor. Below you can find examples and instructions for different calculation methods.
 

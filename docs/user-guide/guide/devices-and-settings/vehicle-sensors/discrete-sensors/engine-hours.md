@@ -4,7 +4,7 @@ Engine hours is a tool that allows owners of vehicles and special machinery to m
 
 To activate Engine hours:
 
-1. Open [Devices and Settings](../../), choose the object you need, and proceed to the **Engine hours** portlet.
+1. Open [Devices and Settings](../../), choose the object you need, and proceed to the **Engine hours** block.
 2. Click the **Add engine hours** button.
 3. Choose a data source: ignition or engine hours from the CAN bus.
 4. Set the initial value for engine hours.

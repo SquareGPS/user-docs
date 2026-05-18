@@ -1,4 +1,4 @@
-# Connection state widget
+# Connection state block
 
 Connection state settings allow you to define the time interval after which a GPS device is considered disconnected if it stops transmitting data.
 
@@ -8,7 +8,7 @@ You may need to adjust these settings for devices that report data less frequent
 You can monitor the [Connection state](../tracking/objects-list/connection-state.md) of your GPS devices in the [Objects list](../tracking/objects-list/) in the **Tracking module** of the web interface and the **X-GPS Monitor** mobile app. The connection state is displayed as a color-coded circle indicator within each device's widget, giving you a quick visual reference to assess whether the device is currently connected, not connected, or has lost its connection.
 {% endhint %}
 
-The connection state widget in **Devices and settings** has only one setting:
+The **Connection state** block in **Devices and settings** has only one setting:
 
 * **Time interval**: Set the duration after which a device is considered disconnected if it stops transmitting data. You can choose from minutes, hours, or days.
 

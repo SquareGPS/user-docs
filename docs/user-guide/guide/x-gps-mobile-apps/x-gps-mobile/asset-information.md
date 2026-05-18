@@ -88,7 +88,7 @@ Tap the name or label in the **Linked units** entry to access the information sc
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image-20250508-095906.png" alt="Linked units"><figcaption><p>Linked units</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image-20250508-095906 (1).png" alt="Linked units"><figcaption><p>Linked units</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

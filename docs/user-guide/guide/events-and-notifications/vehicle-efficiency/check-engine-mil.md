@@ -14,7 +14,7 @@ To monitor specific DTC codes, you can set up a [State field value](../inputs-an
 
 This rule is entirely dependent on the device's capabilities and configuration. There are no specific settings to configure within the rule itself.
 
-For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
+For common settings, please refer to [Rules and Alerts](../README.md).
 
 ## System operation details
 

@@ -14,7 +14,7 @@ The purpose of this rule is to facilitate real-time monitoring of the fuel level
 
 ![](https://www.navixy.com/wp-content/uploads/2023/07/image-20230711-085949.png)
 
-The number of fuel changes to be indicated is regulated and filtered by the Accuracy parameter of the fuel level sensor in the Sensors and Buttons portlet.
+The number of fuel changes to be indicated is regulated and filtered by the Accuracy parameter of the fuel level sensor in the **Sensors and buttons** block.
 
 ![](https://www.navixy.com/wp-content/uploads/2023/07/image-20230711-085906.png)
 

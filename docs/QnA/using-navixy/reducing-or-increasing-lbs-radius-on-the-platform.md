@@ -12,4 +12,4 @@ Go to **Devices and settings**, select your device, and look for the **LBS detec
 
 ## Links
 
-* [LBS detection radius](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/lbs-detection-radius-widget)
+* [LBS detection radius](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/lbs-detection-radius-block)

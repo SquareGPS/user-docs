@@ -4,11 +4,11 @@ description: >-
   directly from a device's settings page.
 ---
 
-# Output control widget
+# Output control block
 
 ## Overview
 
-The **Output control** portlet lets you define custom commands for a device in Navixy and send them on demand from the device's [Object widget](../../tracking/objects-list/object-widget.md). Use it to send a firmware-level instruction directly to a device, such as sending a CAN command or activating an output, or to call any external system that accepts HTTP requests, such as a Slack channel, a notification service, a CRM, or a custom API endpoint. Once configured, commands can be dispatched with a single click.
+The **Output control** block lets you define custom commands for a device in Navixy and send them on demand from the device's [Object widget](../../tracking/objects-list/object-widget.md). Use it to send a firmware-level instruction directly to a device, such as sending a CAN command or activating an output, or to call any external system that accepts HTTP requests, such as a Slack channel, a notification service, a CRM, or a custom API endpoint. Once configured, commands can be dispatched with a single click.
 
 Output control supports two command types:
 
@@ -31,9 +31,9 @@ To configure Output control for a device:
 
 1. Go to **Devices and settings** in the left sidebar.
 2. Select the device you want to configure.
-3. Locate and expand the **Output control** portlet.
+3. Locate and expand the **Output control** block.
 
-<figure><img src="../../../.gitbook/assets/output-control-portlet.png" alt="Output control portlet showing device and software command options"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-control-portlet.png" alt="Output control block showing device and software command options"><figcaption></figcaption></figure>
 
 You can add multiple commands of each type. Each command is saved individually.
 
@@ -43,7 +43,7 @@ A **device command** sends a protocol-level instruction string directly to the d
 
 <figure><img src="../../../.gitbook/assets/output-control-device-vommand.png" alt="Device command configuration fields showing Command name and Command string"><figcaption></figcaption></figure>
 
-To add a device command, click **Add device command** at the bottom of the portlet. Configure the following fields:
+To add a device command, click **Add device command** at the bottom of the block. Configure the following fields:
 
 1. **Command name**: a label for the command as it will appear in the Object widget (e.g., `device reboot`). Choose a name that clearly describes what the command does.
 2. **Command string**: the exact instruction string that will be sent to the device (e.g., `cpureset`).
@@ -62,7 +62,7 @@ The request body is JSON and must be structured according to what the destinatio
 
 Software commands are configured across two tabs: **General** and **Body**.
 
-To add a software command, click **Add software command** at the bottom of the portlet.
+To add a software command, click **Add software command** at the bottom of the block.
 
 #### General tab
 

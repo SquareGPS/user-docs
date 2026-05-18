@@ -1,9 +1,9 @@
 # Location and movement
 
-* [Tracking mode widget](tracking-mode-widget.md)
-* [Parking detection widget](parking-detection-widget.md)
-* [LBS detection radius widget](lbs-detection-radius-widget.md)
-* [Odometer widget](odometer-widget.md)
-* [Ignition source widget](ignition-source-widget.md)
-* [Tow detection widget](tow-detection-widget.md)
-* [Harsh driving widget](harsh-driving-widget.md)
+* [Tracking mode block](tracking-mode-block.md)
+* [Parking detection block](parking-detection-block.md)
+* [LBS detection radius block](lbs-detection-radius-block.md)
+* [Odometer block](odometer-block.md)
+* [Ignition source block](ignition-source-block.md)
+* [Tow detection block](tow-detection-block.md)
+* [Harsh driving block](harsh-driving-block.md)

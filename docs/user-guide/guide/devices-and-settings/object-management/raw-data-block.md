@@ -1,8 +1,8 @@
-# Raw data widget
+# Raw data block
 
 The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS tracker on the platform in CSV format. This feature is essential for device diagnostics, data analytics, and integrating data with AI/ML programs.
 
-<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_a0qszuge3l.png" alt="Raw data export widget"><figcaption><p>Raw data export widget</p></figcaption></figure>
+<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_a0qszuge3l.png" alt="Raw data export block"><figcaption><p>Raw data export block</p></figcaption></figure>
 
 ## Overview
 
@@ -17,7 +17,7 @@ The output of the raw data consists of all decoded information from the propriet
 
 ## How to use raw data export
 
-Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** portlet.
+Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** block.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_ybwmnfdh8h.png" alt="Raw data export tool file configuration window"><figcaption><p>Raw data export tool file configuration window</p></figcaption></figure>
 

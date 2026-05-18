@@ -2,7 +2,7 @@
 
 [CalAmp devices](https://www.navixy.com/devices/calamp/) are equipped with accumulators (variables) that store various types of data, depending on how the device is configured by the user.
 
-To streamline the integration and usage of these accumulators within the Navixy platform, a dedicated widget has been introduced. This widget allows users to easily configure and retrieve data from the following accumulators:
+To streamline the integration and usage of these accumulators within the Navixy platform, a dedicated block has been introduced. This block allows users to easily configure and retrieve data from the following accumulators:
 
 ## Supported accumulators
 
@@ -19,7 +19,7 @@ To set up and monitor these accumulators on the Navixy platform, follow these st
 
 1. Open the **Devices and settings** module.
 2. Select the desired CalAmp device.
-3. Open the **Accumulators widget**. You can select which accumulators you want to monitor. Depending on your requirements, you can enable the monitoring of board voltage, external temperature sensors, hardware mileage, analog sensor values, IO states, and iButton ID parts.
+3. Open the **Accumulators** block. You can select which accumulators you want to monitor. Depending on your requirements, you can enable the monitoring of board voltage, external temperature sensors, hardware mileage, analog sensor values, IO states, and iButton ID parts.
 4. Save your configuration.
 
 ## Monitoring accumulator data

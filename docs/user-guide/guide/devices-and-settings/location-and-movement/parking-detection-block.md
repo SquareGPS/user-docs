@@ -1,4 +1,4 @@
-# Parking detection widget
+# Parking detection block
 
 Parking detection identifies when an object has been stationary for a specified time period and within a set speed threshold using GPS data.
 

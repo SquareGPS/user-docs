@@ -1,4 +1,4 @@
-# Auto-geofencing widget
+# Auto-geofencing block
 
 Auto-geofencing, also known as unauthorized movement detection, is a feature available in many vehicle GPS trackers. When the ignition is off and the tracker detects GPS coordinates outside a pre-defined auto-geofence zone, it indicates that the vehicle is leaving its designated parking area.
 

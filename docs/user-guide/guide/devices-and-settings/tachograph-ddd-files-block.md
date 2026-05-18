@@ -1,6 +1,6 @@
-# Tachograph DDD files widget
+# Tachograph DDD files block
 
-The **DDD files widget** in Navixy is designed to manage the download and storage of DDD files, which are critical for monitoring driver compliance and rest through tachographs. These files are essential for ensuring that drivers adhere to regulations and help identify any irregularities in tachograph data.
+The **DDD files** block in Navixy is designed to manage the download and storage of DDD files, which are critical for monitoring driver compliance and rest through tachographs. These files are essential for ensuring that drivers adhere to regulations and help identify any irregularities in tachograph data.
 
 #### What are DDD files?
 
@@ -30,7 +30,7 @@ Enter the company number within the TachoAuthClient application. This applicatio
 {% step %}
 **Enter the company card number**
 
-In the DDD files widget, input the company card number (an internal document of the organization) and click **Save**. This step is crucial to ensure that all DDD files are correctly associated with your company.
+In the **DDD files** block, input the company card number (an internal document of the organization) and click **Save**. This step is crucial to ensure that all DDD files are correctly associated with your company.
 {% endstep %}
 
 {% step %}
@@ -58,7 +58,7 @@ The DDD files will be sent to the specified email addresses once the download is
 {% endstep %}
 {% endstepper %}
 
-The **DDD files widget** streamlines the process of managing tachograph data, ensuring compliance with regulations and providing valuable insights into driver behavior and vehicle usage.
+The **DDD files** block streamlines the process of managing tachograph data, ensuring compliance with regulations and providing valuable insights into driver behavior and vehicle usage.
 
 {% hint style="warning" %}
 Navixy only supports the download functionality of DDD files. We do not process them in any way and do not read any data from them.

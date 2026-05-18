@@ -1,4 +1,4 @@
-# Working statuses widget
+# Working statuses block
 
 ## Working statuses
 

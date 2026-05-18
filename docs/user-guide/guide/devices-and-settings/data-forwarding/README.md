@@ -1,6 +1,6 @@
 # Data forwarding
 
-The **Data forwarding** widget in Navixy enables you to transmit GPS tracking and telematics data from Navixy to other servers and third-party applications using API and web services.
+The **Data forwarding** block in Navixy enables you to transmit GPS tracking and telematics data from Navixy to other servers and third-party applications using API and web services.
 
 ## What is data forwarding?
 
@@ -24,9 +24,9 @@ Collected vehicle data is sent in a specified protocol format to an address and 
 
 ## Managing data forwarding
 
-You can manage data forwarding through the corresponding widget in the "Devices and settings" section.
+You can manage data forwarding through the corresponding block in the **Devices and settings** section.
 
-In this widget, you can:
+In this block, you can:
 
 * Link one or more retranslators to a device.
 * Specify the ID used when sending data (by default, the same ID as the device itself is used).
@@ -72,7 +72,7 @@ Here are some examples of protocols available for various purposes:
 | **SafetyNet pulsian**                            | Forwards SOS alarms to a SafetyNet CAD server for emergency assistance.                                    |
 | [**SimpliRoute**](simpliroute.md)                | Protocol for transmitting vehicle tracking data to SimpliRoute.                                            |
 | **TraceReports**                                 | Sends data to the TraceReports system.                                                                     |
-| [**Unigis**](/broken/pages/WEJQsDMBQ41YJ4Q2gk84) | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
+| [**Unigis**](unigis.md) | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
 | **Wirtrack**                                     | Forwards data to Wirsolut services.                                                                        |
 
 #### Data consolidation

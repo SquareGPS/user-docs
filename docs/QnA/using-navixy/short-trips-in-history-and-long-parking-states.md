@@ -25,5 +25,5 @@ To resolve the situation, you can either fix ignition detection from the device 
 
 ## Links
 
-* [Parking detection widget](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/~/edit/~/changes/106/guide/devices-and-settings/location-and-movement/parking-detection-widget)
-* [Raw Data](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/~/edit/~/changes/106/guide/devices-and-settings/object-management/raw-data-widget)
+* [Parking detection block](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/~/edit/~/changes/106/guide/devices-and-settings/location-and-movement/parking-detection-block)
+* [Raw Data](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/~/edit/~/changes/106/guide/devices-and-settings/object-management/raw-data-block)

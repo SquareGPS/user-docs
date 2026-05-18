@@ -1,8 +1,8 @@
 # Object management
 
-* [Object label widget](object-label-widget.md)
-* [Phone number widget](phone-number-widget.md)
-* [Change plan widget](change-plan-widget.md)
-* [Raw data widget](raw-data-widget.md)
-* [Working statuses widget](working-statuses-widget.md)
-* [Device timezone widget](device-timezone-widget.md)
+* [Object label block](object-label-block.md)
+* [Phone number block](phone-number-block.md)
+* [Change plan block](change-plan-block.md)
+* [Raw data block](raw-data-block.md)
+* [Working statuses block](working-statuses-block.md)
+* [Device timezone block](device-timezone-block.md)
