@@ -17,4 +17,4 @@ Some solutions this could fix include the troubleshooting of parking detection-r
 ## Links
 
 * [IoT Analyzer (monitor tool)](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/iot-logic/data-stream-analyzer)
-* [Raw data export](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-widget)
+* [Raw data export](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-block)

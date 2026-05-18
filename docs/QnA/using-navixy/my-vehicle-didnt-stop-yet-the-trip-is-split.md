@@ -15,4 +15,4 @@ A possible way around this is to uncheck the **Split by stops** option on the ob
 ## Links
 
 * [Parking detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications/movement-monitoring/parking-state-detection)
-* [Raw data export](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-widget)
+* [Raw data export](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-block)
