@@ -26,7 +26,7 @@ This rule leverages GPS data to continuously track the distance between a design
 
 ![](../../../.gitbook/assets/image-20240813-220927.png)
 
-For common settings, please refer to [Rules and notifications](/broken/pages/af4DTfjY1sz82LLjmk4e).
+For common settings, please refer to [Rules and Alerts](../README.md).
 
 ### System operation details
 

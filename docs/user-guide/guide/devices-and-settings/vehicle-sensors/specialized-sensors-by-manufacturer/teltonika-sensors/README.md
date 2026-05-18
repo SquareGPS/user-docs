@@ -1,4 +1,4 @@
 # Teltonika sensors
 
-* [BLE Beacons (Teltonika)](/broken/pages/NdmK70CCt1svEbGlKxHT)
+* [BLE Beacons (Teltonika)](ble-beacons-teltonika.md)
 * [BLE fuel level sensors (Teltonika)](ble-fuel-level-sensors-teltonika.md)
