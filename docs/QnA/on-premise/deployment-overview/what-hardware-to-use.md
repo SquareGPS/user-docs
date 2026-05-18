@@ -6,7 +6,7 @@ For Navixy platform to work, it doesn't matter whether you are using a physical 
 
 Most current customers use virtual servers, both in cloud and on-premises data centers, as it gives more flexibility in administration and resource management. However, running the platform on a physical local server is also possible and is not associated with any extra difficulties.
 
-## What are the minimum hardware requirements for running Navixy on-premise?
+## What are the minimum hardware requirements for running Navixy On-Premise?
 
 The amount of resources directly depends on the intensity of Navixy platform usage, mainly on the number of tracked objects.
 

@@ -20,6 +20,6 @@ For iframes, the link must be HTTPS.
 Support does not troubleshoot third-party iframe issues (for example, if your site blocks iframe embedding).
 {% endhint %}
 
-## Linksss
+## Links
 
 * [User applications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications)

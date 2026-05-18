@@ -8,6 +8,6 @@ How can I change the website shown in the Information Center?
 
 In Admin Panel, go to Settings → Service preferences. Set the support/help sections URLs.
 
-## Linksss
+## Links
 
 * [Service preferences](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/service-preferences)

@@ -1,6 +1,6 @@
-# Technician admin accounts for On-premise
+# Technician admin accounts for On-Premise
 
-## Can I have technician admin accounts for On-premise?
+## Can I have technician admin accounts for On-Premise?
 
 Yes. To create a new technician, execute the following SQL statement in the database:
 

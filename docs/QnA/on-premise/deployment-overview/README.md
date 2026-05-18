@@ -6,7 +6,7 @@ How do I deploy the platform?
 
 ## Answer
 
-Refer to the platform requirements and installation sections of the On-premise manuals.
+Refer to the platform requirements and installation sections of the On-Premise manuals.
 
 If you need more detailed instructions, please clarify what exact deployment scenario you are aiming for (single server vs dedicated DB, Linux vs Windows, etc.).
 

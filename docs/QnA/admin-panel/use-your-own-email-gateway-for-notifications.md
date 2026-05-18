@@ -42,6 +42,6 @@ In Admin Panel → Account Management → Email Gateways, configure:
 * username/password
 * sender email
 
-## Linksss
+## Links
 
 * [Email gateway](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/messaging-gateways/email-gateway)

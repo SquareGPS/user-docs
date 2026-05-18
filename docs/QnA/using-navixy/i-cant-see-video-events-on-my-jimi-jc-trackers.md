@@ -42,4 +42,4 @@ You can reduce SIM data usage by turning off video uploads for alerts you don’
 ## Links
 
 * [Jimi IoT dashcam configuration](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/jimi-iot-dashcam-configuration)
-* [Events and notifications](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications)
+* [Rules and alerts](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications)

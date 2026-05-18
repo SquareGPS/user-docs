@@ -14,6 +14,6 @@ Clones don't come at an additional charge as they aren't a real device, and you 
 
 If you need to clone a device across panels (for example, between two separate resellers), use the Admin Panel API clone method or contact Support.
 
-## Linksss
+## Links
 
 * [Panel API: tracker clone](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/panel-api/resources/tracker#clone)

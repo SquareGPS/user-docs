@@ -12,6 +12,6 @@ Contact Support for help collecting this data.
 
 For On-Premise systems, device data exists in the Objects table.
 
-## Linksss
+## Links
 
 * [Devices](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices)

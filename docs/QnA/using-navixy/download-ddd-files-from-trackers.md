@@ -1,4 +1,4 @@
-﻿# Download DDD files from trackers
+# Download DDD files from trackers
 
 ## Question
 
@@ -58,5 +58,5 @@ Once you have successfully run the application and all conditions above are met,
 
 ## Links
 
-* [Tachograph DDD files widget](https://www.navixy.com/docs/user/guide/devices-and-settings/tachograph-ddd-files-widget)
+* [Tachograph DDD files block](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/tachograph-ddd-files-block)
 * [Device list](https://www.navixy.com/devices/)

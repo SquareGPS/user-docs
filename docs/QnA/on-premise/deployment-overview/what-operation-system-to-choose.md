@@ -1,12 +1,12 @@
-# What operating system to choose?
+# What operation system to choose?
 
 ## What operating systems are supported?
 
-Navixy On-premise solution is fully cross-platform. That is, it can be deployed on any up-to-date operating system of the Linux family, as well as on a Windows server.
+Navixy On-Premise solution is fully cross-platform. That is, it can be deployed on any up-to-date operating system of the Linux family, as well as on a Windows server.
 
 ## Which operating system to choose?
 
-You are free to choose any OS with which your technical team has sufficient experience. Navixy generally recommends the latest version of **Ubuntu**, as it provides maximum ease of maintenance and shows itself to be stable in long-term use. You can also use advanced Navixy platform installation scripts available only for Ubuntu.
+You are free to choose any OS with which your technical team has sufficient experience. Navixy generally recommends the latest version of **Ubuntu**, as it provides maximum ease of maintenance and shows itself to be stable in long-term use. You can also use the advanced Navixy platform installation scripts available only for Ubuntu.
 
 ## Do you offer tools for operating system administration?
 

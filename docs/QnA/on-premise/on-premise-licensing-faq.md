@@ -2,13 +2,13 @@
 description: How licensing works
 ---
 
-# On-premise licensing FAQ
+# On-Premise licensing FAQ
 
 ## What is Navixy On-Premise license?
 
 This is an authorization to use Navixy platform instance according to contract. On the information systems side, it is a unique key that corresponds to the ID of your instance in the Navixy system. It is issued by the Navixy technical team and entered into the database of your instance.
 
-## How many Navixy On-premise instances can I have?
+## How many Navixy On-Premise instances can I have?
 
 One instance per license. You can have unlimited Navixy instances based on your requirements.
 

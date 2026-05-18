@@ -1,4 +1,4 @@
-﻿# A device is showing as moving on the platform even though it is offline
+# A device is showing as moving on the platform even though it is offline
 
 ## Question
 
@@ -21,4 +21,4 @@ For example, if your device last reported that it was moving at 00:08 AM on Nove
 
 [Connection status](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/tracking/objects-list/connection-state)
 
-[Parking detection widget](https://docs.navixy.com/user-guide/parking-detection)
+[Parking detection widget](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-block)

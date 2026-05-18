@@ -18,4 +18,4 @@ Here are the key selection features:
 
 ## Links
 
-* [Raw Data Export Parameters](https://docs.navixy.com/expert-center/understanding-the-raw-data-file)
+* [Raw data export](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)

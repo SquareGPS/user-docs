@@ -1,8 +1,11 @@
 # Howen Device ID Configuration - Navixy Activation
 
-**Question:** Is the Device ID used in Navixy related to the device IMEI? Is this number configurable?
+## **Question**
 
-**Answer:**\
+Is the Device ID used in Navixy related to the device IMEI? Is this number configurable?
+
+## Answer
+
 No, the Device ID is not necessarily related to the device IMEI or Serial Number (S/N). The Device ID is a configurable parameter that can be set directly within the Howen iTools application.
 
 To verify the Device ID, please follow these steps:
@@ -15,4 +18,6 @@ Please make sure that the Device ID configured in the device matches the Device 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Links**. [Howen MDVR Configuration](https://navixy.com/docs/expert-center/vehicle-telematics-technology/video-telematics/configuration-guides/howen/howen-mdvr-configuration)
+**Links**
+
+[Howen MDVR configuration](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/video-telematics/configuration-guides/howen/howen-mdvr-configuration)

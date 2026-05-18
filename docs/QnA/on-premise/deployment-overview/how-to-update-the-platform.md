@@ -1,6 +1,6 @@
 # How to update the platform?
 
-## Where can I download the update package of Navixy On-premise platform?
+## Where can I download the update package of Navixy On-Premise platform?
 
 The update package is not different from the installation package. What you need is the latest build of the platform that is available at:
 

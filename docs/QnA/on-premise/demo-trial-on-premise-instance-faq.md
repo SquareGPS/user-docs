@@ -1,10 +1,10 @@
-# Demo (trial) on-premise instance FAQ
+# Demo (trial) On-Premise instance FAQ
 
 ## Can I have a demo On-Premise instance? What do I need to have one?
 
 Depends on your purposes.
 
-If you want to test the functionality of the platform and On-premise solution in your infrastructure, you need a license in any case. In the first instance, you should contact the sales team or your personal account manager to arrange a trial license and agree on a timeframe. Trial keys always have a limited validity period.
+If you want to test the functionality of the platform and On-Premise solution in your infrastructure, you need a license in any case. In the first instance, you should contact the sales team or your personal account manager to arrange a trial license and agree on a timeframe. Trial keys always have a limited validity period.
 
 If your goal is just to test the installation process without further use of the platform, then all you need to do is follow the installation instructions on the Navixy website, skipping entering a license key or specifying a random key. It doesn't disrupt the installation process and only prevents you from using the tracking functionality.
 

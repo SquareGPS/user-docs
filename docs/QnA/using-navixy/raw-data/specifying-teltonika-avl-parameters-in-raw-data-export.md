@@ -1,4 +1,4 @@
-﻿# Specifying Teltonika AVL parameters in raw data export
+# Specifying Teltonika AVL parameters in raw data export
 
 ## Question
 
@@ -46,5 +46,5 @@ The same format rules apply to all other numbered parameters and inputs availabl
 
 ## Links
 
-* [Raw Data](https://www.navixy.com/docs/expert-center/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)
-* [Columns in CSV file](https://www.navixy.com/docs/expert-center/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file)
+* [Raw data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)
+* [Columns in CSV file](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file)

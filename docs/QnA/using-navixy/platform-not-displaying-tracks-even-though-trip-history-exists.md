@@ -1,4 +1,4 @@
-﻿# Platform not displaying tracks even though trip history exists
+# Platform not displaying tracks even though trip history exists
 
 ## Question
 
@@ -41,6 +41,6 @@ Learn more about [exporting](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-
 
 ## Links
 
-* [Parking Detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-block)
+* [Raw data block](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-block)
 * [Exporting Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)
 * [Interpreting Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file)

@@ -65,5 +65,5 @@ In summary:
 
 ## Links
 
-* [User API authentication](https://www.navixy.com/docs/navixy-api/user-api/authentication)
-* [Panel API authentication](https://www.navixy.com/docs/navixy-api/panel-api/authentication)
+* [User API authentication](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/authentication)
+* [Panel API authentication](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/panel-api/authentication)

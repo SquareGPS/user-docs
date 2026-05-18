@@ -14,6 +14,6 @@ Enable the **Email** option.
 
 Currently, only email-based 2FA is available.
 
-## Linksss
+## Links
 
 * [Two-factor authentication](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/two-factor-authentication)

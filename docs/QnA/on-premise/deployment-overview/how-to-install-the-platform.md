@@ -1,6 +1,6 @@
 # How to install the platform?
 
-## Where can I download the installation package of Navixy On-premise platform?
+## Where can I download the installation package of Navixy On-Premise platform?
 
 The latest build is available at:
 

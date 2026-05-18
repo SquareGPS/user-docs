@@ -1,6 +1,6 @@
 # How to prepare for the update?
 
-## What to check before the Navixy On-premise update?
+## What to check before the Navixy On-Premise update?
 
 The main thing to check is that you are using the software required by the latest version. This mainly applies to Java and MySQL versions. Check the software requirements instruction: [Server software](https://app.gitbook.com/s/kUnMmePH99SsdChtqqu7/on-premise/how-to-guide/requirements/server-software).
 

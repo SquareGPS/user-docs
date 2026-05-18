@@ -1,4 +1,4 @@
-﻿# Peak filtering level in fuel volume report
+# Peak filtering level in fuel volume report
 
 ## Question
 
@@ -18,6 +18,4 @@ Please note that this parameter does not modify the original data stored in the 
 
 ## Links
 
-* [Fuel volume report](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/fuel-volume-report)
-
-![](<../.gitbook/assets/Unknown image (46)>)
+* [Fuel volume report](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/fuel-volume-report)

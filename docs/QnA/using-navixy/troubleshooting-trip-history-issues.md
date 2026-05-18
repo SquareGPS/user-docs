@@ -1,4 +1,4 @@
-﻿# Troubleshooting trip history issues
+# Troubleshooting trip history issues
 
 ## Question
 
@@ -12,13 +12,13 @@ If you find that part of a device's trip history (or the entire trip) is missing
 
 If the issue still persists, the device likely didn't send necessary GPS points to the platform. To confirm this fact, the user can export data using the Raw Data feature. Once exported, find the time interval when the trip has gaps.
 
-![image-20251224-110231.png](<../.gitbook/assets/Unknown image (40)>)
+![](<../.gitbook/assets/Unknown image (40)>)
 
 In the example above, points are missing for **one hour on December 10, 2025**, from **04:11:57 to 05:13:20**. This confirms that the tracker did not transmit any data to the platform during the reviewed time interval.
 
 Additionally, there are cases where trip history is repeatedly interrupted, resulting in small gaps between detected trips. In such cases, most likely the user needs to adjust tracker data acquisition settings within the tracker configuration.
 
-Try starting from adjusting the **Tracking mode** settings  (if it's available for the tracker in the **Devices and settings** menu):
+Try starting from adjusting the **Tracking mode** settings (if it's available for the tracker in the **Devices and settings** menu):
 
 <figure><img src="../.gitbook/assets/image (6).png" alt="" width="287"><figcaption></figcaption></figure>
 
@@ -34,4 +34,4 @@ Please note that configuring a tracker to record and send points more frequently
 
 ## Links
 
-* [Raw Data](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)
+* [Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)

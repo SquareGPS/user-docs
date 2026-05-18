@@ -1,4 +1,4 @@
-﻿# Short trips in history and long parking states
+# Short trips in history and long parking states
 
 ## Question
 
@@ -19,11 +19,11 @@ Since it is enough for the device to send OFF ignition state for a trip end, man
 
 To make sure that the ignition is the root cause, you can prepare a raw data spreadsheet with the discrete\_inputs columns selected:
 
-![](<../.gitbook/assets/Unknown image (111)>)
+![](<../.gitbook/assets/Unknown image (24)>)
 
 To resolve the situation, you can either fix ignition detection from the device side so it detects ignition consistently without unexpected drops, or switch off the **Consider ignition state** option in the **Parking detection** block. The old track durations will not change after the fix.
 
 ## Links
 
-* [Parking detection block](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/~/edit/~/changes/106/guide/devices-and-settings/location-and-movement/parking-detection-block)
-* [Raw Data](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/~/edit/~/changes/106/guide/devices-and-settings/object-management/raw-data-block)
+* [Parking detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-block)
+* [Raw data](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-block)

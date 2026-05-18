@@ -40,5 +40,5 @@ Cons:
 
 ## Links
 
-* [WebSockets](https://www.navixy.com/docs/navixy-api/user-api/backend-api/websocket)
+* [WebSocket](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/websocket)
 * [`tracker/get_states`](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/tracker#get_states)
