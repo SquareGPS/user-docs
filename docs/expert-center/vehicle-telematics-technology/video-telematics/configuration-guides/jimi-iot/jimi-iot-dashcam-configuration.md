@@ -77,7 +77,7 @@ Replace with your device’s IMEI and with the server IP, both without <> signs.
 4. Send command with timezone:
 
 * `TIMEZONE,<+00:00>`\
-  Replace <+00:00> with your local timezone. Our platform operates optimally with timezone UTC+0. For certain devices like Jimi IoT dashcam units, we have added a specific portlet on the platform. If you don't set your local timezones, timestamps on recorded and streamed videos will be incorrect, potentially making them inadmissible, for example, in court.
+  Replace <+00:00> with your local timezone. Our platform operates optimally with timezone UTC+0. For certain devices like Jimi IoT dashcam units, we have added a specific block on the platform. If you don't set your local timezones, timestamps on recorded and streamed videos will be incorrect, potentially making them inadmissible, for example, in court.
 
 5. After setting the timezone, open the devices and settings tab and change the device’s timezone to match the one you've set on your device.
 

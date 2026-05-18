@@ -2,7 +2,7 @@
 
 To carry out tasks involving sensor setup, configuration, and maintenance, it is recommended to access the Device and Settings menu.
 
-With the "Sensors and buttons" portlet, you have the ability to easily incorporate new discrete and measurement sensors into the system. The collapsed panel conveniently displays the sensors currently connected to the selected device. Expand the panel to seamlessly add or edit a sensor as needed.
+The **Sensors and buttons** block lets you easily incorporate new discrete and measurement sensors into the system. The collapsed panel conveniently displays the sensors currently connected to the selected device. Expand the panel to seamlessly add or edit a sensor as needed.
 
 ## Fuel sensor creation
 

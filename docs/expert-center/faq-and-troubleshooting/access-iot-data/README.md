@@ -8,4 +8,4 @@ Here are the options that you can use to retrieve raw device data:
 * **API.** You can use our [API call](https://www.navixy.com/docs/navixy-api/user-api/data-warehouse-api/resources/tracker/raw-data) to retrieve parsed GPS data for a specific device. This call provides a list of GPS points and other sensor data directly from our database, which you can use for various purposes.
 * **Database export.** Navixy stores data from devices in the database and you can request our support team to export that data for you.
 * **Logging data of a specific device.** You can request our technical support team to collect logs of a particular device for a specific time period. Our team will then gather the logs and send them to you.
-* **Raw data export in UI.** You can use [Raw data](save-iot-data-to-csv-file/) portlet in Devices and Settings section for extracting devices data in a conviniant CSV format.
+* **Raw data export in UI.** You can use [Raw data](save-iot-data-to-csv-file/) block in Devices and Settings section for extracting devices data in a conviniant CSV format.

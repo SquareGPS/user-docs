@@ -68,7 +68,7 @@ Or, find the tracker settings for a specific device in the admin panel:
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Tracker settings Admin Panel</p></figcaption></figure>
 
-Next, click the 'Export data' button in the 'Raw data' portlet:
+Next, click the 'Export data' button in the **Raw data** block:
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

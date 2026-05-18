@@ -35,15 +35,15 @@ Configuring connection timeout settings for devices is a straightforward process
 1. Navigate to the user interface's "Devices and Settings" section.
 2. Select the specific device for which you want to customize the timeout settings.
 
-![How to customize connection timeout on devices - device's portlets](../../../.gitbook/assets/image-20240222-091026.png)
+![How to customize connection timeout on devices - device's blocks](../../../.gitbook/assets/image-20240222-091026.png)
 
-3. In the "Connection status" portlet, input your desired timeout interval. This can range from a minute up to 3000 days, depending on your operational requirements.
+3. In the **Connection status** block, input your desired timeout interval. This can range from a minute up to 3000 days, depending on your operational requirements.
 
 ![How to customize connection timeout on devices - choosing from different values and setting the time](../../../.gitbook/assets/image-20240222-091107.png)
 
 4. The platform will notify you about unsaved settings. Save the changes. The updated timeout settings will take effect immediately.
 
-Furthermore, if you wish to apply the same settings across other devices of the user, you can easily achieve this by copying the settings, mirroring the approach used with other portlets.
+Furthermore, if you wish to apply the same settings across other devices of the user, you can easily achieve this by copying the settings, mirroring the approach used with other blocks.
 
 ![How to customize connection timeout on devices - copy settings button](../../../.gitbook/assets/image-20240222-091147.png)
 

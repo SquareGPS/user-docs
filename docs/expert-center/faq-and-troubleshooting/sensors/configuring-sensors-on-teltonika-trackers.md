@@ -188,7 +188,7 @@ Open the user interface → Go to “Devices & Settings” menu ->
 
 ![](../../.gitbook/assets/image-20240819-081518.png)
 
-→ Select the tracker in the list → Scroll down to the “Sensors and buttons” Portlet.
+→ Select the tracker in the list → Scroll down to the **Sensors and buttons** block.
 
 Add a new measurement sensor.
 
