@@ -6,7 +6,7 @@ How do I download DDD files from trackers with Navixy?
 
 ## Answer
 
-DDD files are tachograph data files used in commercial transport, mainly in the EU. DDD is a standard binary format for downloading data from a digital tachograph. With Navixy, files can be requested for sending to a list of emails specified in the DDD file recipients portlet.
+DDD files are tachograph data files used in commercial transport, mainly in the EU. DDD is a standard binary format for downloading data from a digital tachograph. With Navixy, files can be requested for sending to a list of emails specified in the **DDD file recipients** block.
 
 ![](<../.gitbook/assets/Unknown image (35)>)
 
