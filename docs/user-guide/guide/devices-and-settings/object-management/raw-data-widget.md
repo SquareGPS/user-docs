@@ -17,7 +17,7 @@ The output of the raw data consists of all decoded information from the propriet
 
 ## How to use raw data export
 
-Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** portlet.
+Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** block.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_ybwmnfdh8h.png" alt="Raw data export tool file configuration window"><figcaption><p>Raw data export tool file configuration window</p></figcaption></figure>
 
