@@ -72,7 +72,7 @@ Here are some examples of protocols available for various purposes:
 | **SafetyNet pulsian**                            | Forwards SOS alarms to a SafetyNet CAD server for emergency assistance.                                    |
 | [**SimpliRoute**](simpliroute.md)                | Protocol for transmitting vehicle tracking data to SimpliRoute.                                            |
 | **TraceReports**                                 | Sends data to the TraceReports system.                                                                     |
-| [**Unigis**](/broken/pages/WEJQsDMBQ41YJ4Q2gk84) | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
+| [**Unigis**](unigis.md) | Enables data sharing with Unigis’ TMS platform, often used by logistics departments.                       |
 | **Wirtrack**                                     | Forwards data to Wirsolut services.                                                                        |
 
 #### Data consolidation
