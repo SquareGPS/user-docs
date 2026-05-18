@@ -1,6 +1,6 @@
-# Odometer widget
+# Odometer block
 
-The **Odometer widget** allows you to monitor a vehicle’s mileage in real-time. The mileage readings can be derived from data received via a GPS device or the CAN bus. Additionally, the odometer function integrates with the [Fleet maintenance](../../fleet-management/maintenance.md) feature, enabling you to schedule service works for a vehicle and receive timely reminders.
+The **Odometer** block allows you to monitor a vehicle’s mileage in real-time. The mileage readings can be derived from data received via a GPS device or the CAN bus. Additionally, the odometer function integrates with the [Fleet maintenance](../../fleet-management/maintenance.md) feature, enabling you to schedule service works for a vehicle and receive timely reminders.
 
 ![](../../../.gitbook/assets/image-20240815-181307.png)
 
@@ -8,7 +8,7 @@ The **Odometer widget** allows you to monitor a vehicle’s mileage in real-time
 
 To activate the odometer:
 
-1. Open the **Devices and settings** module, select the desired object, and navigate to the **Odometer widget**.
+1. Open the **Devices and settings** module, select the desired object, and navigate to the **Odometer** block.
 2. Click the **Add odometer** button.
 3. Choose the appropriate data source. Additional sources may become available after creating a mileage measurement sensor.
 4. Set the initial mileage value.
@@ -27,6 +27,6 @@ The types of odometer sources you can use depend on your specific device model. 
 To add additional odometer sources:
 
 1. **Create a new measurement sensor:** Depending on your device's capabilities, you can create sensors such as CAN Mileage or hardware mileage. These sensors collect data directly from your vehicle's systems, ensuring precise mileage readings.
-2. **Integration with the Odometer widget:** After creating the sensor, it will appear as an option in the **Odometer widget** within the Navixy platform. This allows you to choose the most appropriate source for your mileage data.
+2. **Integration with the Odometer block:** After creating the sensor, it will appear as an option in the **Odometer** block within the Navixy platform. This allows you to choose the most appropriate source for your mileage data.
 
 By leveraging different odometer sources, you can improve the reliability of your mileage tracking, which is especially useful for maintenance scheduling and accurate reporting. Understanding the different types of sources and how to integrate them into your system is key to optimizing your telematics setup.

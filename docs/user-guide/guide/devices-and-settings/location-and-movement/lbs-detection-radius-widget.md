@@ -1,4 +1,4 @@
-# LBS detection radius widget
+# LBS detection radius block
 
 The **LBS (Location-Based Service) detection radius** determines how far the system will search for signals from cellular base stations or Wi-Fi points to pinpoint a device's location. This setting is crucial for ensuring accurate location tracking based on the environment where the device operates.
 
