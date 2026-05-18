@@ -17,7 +17,7 @@ Before reading these instructions, make sure to read about fuel management syste
 
     ![](<../.gitbook/assets/Unknown image (19)>)
 5. Press **Save** and return to the **Tracking** tab.
-6.  Find the tracker in the list and wait for some time. After data packets from the tracker are received, you should see the sensor appearing in the trackerΓÇÖs widgets as on the screenshot below:
+6.  Find the tracker in the list and wait for some time. After data packets from the tracker are received, you should see the sensor appearing in the tracker's widgets as on the screenshot below:
 
     ![](<../.gitbook/assets/Unknown image (107)>)
 
