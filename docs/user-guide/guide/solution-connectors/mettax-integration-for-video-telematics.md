@@ -83,7 +83,7 @@ Navixy offers [User applications](../account/user-applications/) functionality t
 {% hint style="success" %}
 Your new application appears automatically in Navixy’s left sidebar. Open it and log in with your Mettax credentials.
 
-<img src="../../.gitbook/assets/image-20250428-113317.png" alt="image-20250428-113317.png" data-size="original">
+<img src="../../.gitbook/assets/image-20250428-113317 (1).png" alt="image-20250428-113317.png" data-size="original">
 {% endhint %}
 {% endstep %}
 {% endstepper %}
