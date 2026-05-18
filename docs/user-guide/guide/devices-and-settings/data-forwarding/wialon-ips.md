@@ -46,7 +46,7 @@ Data sent to Wialon IPS:
 To set up data forwarding for the Wialon IPS protocol:
 
 1. Open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
-2. Click the **Data forwarding** widget.
+2. Click the **Data forwarding** block.
 3. Click **Retranslators management**.
 4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
 5. For the Wialon IPS protocol, input the following information:
@@ -71,7 +71,7 @@ To set up data forwarding for the Wialon IPS protocol:
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2022/10/wialon-ips.png" alt="Wialon IPS setup"><figcaption></figcaption></figure>
 
-7. Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below. External ID is not needed for the Wialon IPS protocol.
+7. Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** ![link image](https://www.navixy.com/wp-content/uploads/2022/08/image-3.png) button in the **Data forwarding** block. Select the retranslator to be connected, and click **Link** below. External ID is not needed for the Wialon IPS protocol.
 8. Select **Save** once completed.
 
 {% hint style="warning" %}

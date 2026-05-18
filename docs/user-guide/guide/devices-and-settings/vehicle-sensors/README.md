@@ -1,12 +1,12 @@
 # Vehicle sensors
 
-The **Sensors and buttons** widget in Navixy allows you to manage and configure various sensors connected to your GPS devices from the platform standpoint. This feature is essential for monitoring various vehicle parameters, such as fuel levels, temperature, and engine diagnostics, directly through the platform.
+The **Sensors and buttons** block in Navixy allows you to manage and configure various sensors connected to your GPS devices from the platform standpoint. This feature is essential for monitoring various vehicle parameters, such as fuel levels, temperature, and engine diagnostics, directly through the platform.
 
 ## Overview
 
-The **Sensors and buttons** widget is located in the **Devices and settings** module, which you can access by clicking the corresponding item in the main menu.
+The **Sensors and buttons** block is located in the **Devices and settings** module, which you can access by clicking the corresponding item in the main menu.
 
-The widget provides an overview of the number of sensors already connected to the selected device. Expanding the panel lets you add new sensors or edit existing ones.
+The block provides an overview of the number of sensors already connected to the selected device. Expanding the panel lets you add new sensors or edit existing ones.
 
 ![](../../../.gitbook/assets/image-20240815-205217.png)
 

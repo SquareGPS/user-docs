@@ -50,7 +50,7 @@ To initiate data forwarding using the Unigis protocol from Navixy, you will need
 To set up data forwarding in the Unigis protocol:
 
 1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
-2. Click the **Data forwarding** widget.
+2. Click the **Data forwarding** block.
 3. Click Protocols.
 4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
 
@@ -66,7 +66,7 @@ A Retranslation management screen should look like the following, with Unigis lo
 
 ![](https://www.navixy.com/wp-content/uploads/2022/08/pasted-image-0-600x112.png)
 
-Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> button in the data forwarding widget. Select the retranslator to be connected, and click **Link** below.
+Next, the retranslator will need to be linked to the device on the Unigis side. To do so, select the **Link** <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link image" data-size="line"> button in the **Data forwarding** block. Select the retranslator to be connected, and click **Link** below.
 
 Next, add the ID of the device in the 3rd-party system either by clicking the pencil icon or the external ID field. This value should be the license plate number on the Unigis side. Select **Save** once completed.
 
