@@ -1,4 +1,4 @@
-# Phone number widget
+# Phone number block
 
 ## Phone number
 

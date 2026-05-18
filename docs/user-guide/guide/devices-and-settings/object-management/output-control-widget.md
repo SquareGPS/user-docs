@@ -4,7 +4,7 @@ description: >-
   directly from a device's settings page.
 ---
 
-# Output control widget
+# Output control block
 
 ## Overview
 
