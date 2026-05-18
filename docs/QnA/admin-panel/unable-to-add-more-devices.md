@@ -21,6 +21,6 @@ Fix: update the lowest plan limit to match the higher one.
 
 It's usually best to keep this limit field maxed out to avoid hitting this issue.
 
-## Link
+## Linksss
 
 * [Plans](https://www.navixy.com/docs/admin/plans)

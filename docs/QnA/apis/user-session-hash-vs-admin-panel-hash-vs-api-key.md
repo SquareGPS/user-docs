@@ -1,10 +1,10 @@
 # User session hash vs admin panel hash vs API key
 
-### Question
+## Question
 
 User session hash vs admin panel hash vs API key. Which one should I use?
 
-### Answer
+## Answer
 
 To use the Navixy API, you authenticate using either a session key (hash) or an API key.
 
@@ -34,14 +34,14 @@ There are three common auth tokens:
 
 The easiest way to choose the right token is to look at the URL path:
 
-#### User API URL examples
+### User API URL examples
 
 ```
 https://api.domain.com/v2/retranslator/list
 https://api.domain.com/v2/tracker/location/link/read
 ```
 
-#### Admin Panel API URL examples
+### Admin Panel API URL examples
 
 ```
 https://api.domain.com/v2/panel/account/auth
@@ -63,7 +63,7 @@ In summary:
 * For the **User API**, prefer **API keys**.
 * For the **Admin Panel API**, use **admin panel session keys**, but handle them with caution.
 
-### Links
+## Links
 
 * [User API authentication](https://www.navixy.com/docs/navixy-api/user-api/authentication)
 * [Panel API authentication](https://www.navixy.com/docs/navixy-api/panel-api/authentication)

@@ -1,6 +1,6 @@
 # Technician admin accounts for On-premise
 
-### Can I have technician admin accounts for On-premise?
+## Can I have technician admin accounts for On-premise?
 
 Yes. To create a new technician, execute the following SQL statement in the database:
 
@@ -24,12 +24,12 @@ Change `title`, `last_name`, and `details` so the account is unique.
 
 Hash in password corresponds to `ChangeMe!` password. After the query is executed, log in to the new technician account in the Admin Panel and change this password (or tell the customer to do it).
 
-### How many technician accounts can I have? Does Navixy charge for it?
+## How many technician accounts can I have? Does Navixy charge for it?
 
 The number of technician accounts is unlimited. Create as many as you need for your tasks.
 
 Technician accounts are free of charge.
 
-### Why can't I change the technician's password? I don't see that option.
+## Why can't I change the technician's password? I don't see that option.
 
 Your platform is probably old and hasn't been updated in a long time. The password change option was introduced in 2023, and if your instance is older than that, you need to update it.

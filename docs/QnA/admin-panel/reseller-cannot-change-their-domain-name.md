@@ -17,6 +17,6 @@ Master account steps:
 
 If the master account is providing the domain, validate the CNAME configuration to complete the setup successfully. Otherwise, contact Support to verify or assist with the reseller's CNAME configuration.
 
-## Link
+## Linksss
 
 * [Resellers](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/resellers)

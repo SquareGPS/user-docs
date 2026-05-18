@@ -1,10 +1,10 @@
 # Platform shows a full fuel tank when it is not actually full
 
-### Question
+## Question
 
 Why does the platform show a full fuel tank when it is not actually full?
 
-### Answer
+## Answer
 
 There's likely a sensor connection problem. Here's what's happening:
 
@@ -25,7 +25,7 @@ To fix this:
 * Test the sensor itself to see if it's functioning.
 * If needed, replace the faulty sensor or repair the connection.
 
-### Links
+## Links
 
 [Sensor calibration data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/sensors-setup-and-configuration)
 

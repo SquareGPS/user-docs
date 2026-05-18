@@ -1,10 +1,10 @@
-# Users
+﻿# Users
 
-This section provides practical solutions for end users and fleet managers working with the Navixy platform daily. You'll find troubleshooting guides for device connectivity, sensor configuration, trip history analysis, and report generation. The content focuses on operational tasks—how to use platform features effectively and resolve common issues during normal operations.
+This section provides practical solutions for end users and fleet managers working with the Navixy platform daily. You'll find troubleshooting guides for device connectivity, sensor configuration, trip history analysis, and report generation. The content focuses on operational tasks — how to use platform features effectively and resolve common issues during normal operations.
 
 Whether you're tracking a single vehicle or managing a large fleet, these guides cover everything from basic device status interpretation to advanced sensor calibration. Topics are organized by feature area to help you quickly find solutions for tracking issues, sensor problems, video setup, alerts configuration, and more.
 
-### Browse guides
+## Browse guides
 
 Use this list when you don't know where to start.
 
@@ -17,8 +17,8 @@ Use this list when you don't know where to start.
 * [A device is showing as moving on the platform even though it is offline](a-device-is-showing-as-moving-on-the-platform-even-though-it-is-offline.md)
 * [My device moves along the map without physically moving](my-device-moves-along-the-map-without-physically-moving.md)
 * [Accuracy and freshness of tracker data](accuracy-and-freshness-of-tracker-data.md)
-* [Teltonika device shows “GPS not updated” status](teltonika-device-shows-gps-not-updated-status.md)
-* [Device shows “GPS not updated” while it reports every 5 minutes](device-shows-gps-not-updated-while-it-reports-every-5-minutes.md)
+* [Teltonika device shows "GPS not updated" status](teltonika-device-shows-gps-not-updated-status.md)
+* [Device shows "GPS not updated" while it reports every 5 minutes](device-shows-gps-not-updated-while-it-reports-every-5-minutes.md)
 * [No GSM signal level in device widget](no-gsm-signal-level-in-device-widget.md)
 * [How do I find the port for a given device?](how-do-i-find-the-port-for-a-given-device.md)
 * [Is there an anti-jammer device?](is-there-an-anti-jammer-device.md)
@@ -90,7 +90,7 @@ Use this list when you don't know where to start.
 * [Measurement sensor alerts trigger later than expected](measurement-sensor-alerts-trigger-later-than-expected.md)
 * [How geofence exit events work](how-geofence-exit-events-work.md)
 * [Reducing or increasing LBS radius on the platform](reducing-or-increasing-lbs-radius-on-the-platform.md)
-* [Why my tracker shows LBS location even I've disabled LBS](why-my-tracker-shows-lbs-location-even-ive-disabled-lbs.md)
+* [Why does my tracker show LBS location even though I've disabled LBS?](why-my-tracker-shows-lbs-location-even-ive-disabled-lbs.md)
 * [LBS Signals and False Geofence Events](lbs-signals-and-false-geofence-events.md)
 
 </details>
@@ -116,7 +116,7 @@ Use this list when you don't know where to start.
 * [Not all devices are shown in the objects list](not-all-devices-are-shown-in-the-objects-list.md)
 * [How to match icon colors with group colors](how-to-match-icon-colors-with-group-colors.md)
 * [Scheduling a valid geo link](scheduling-a-valid-geo-link.md)
-* [Addresses are not geocoding (coordinates only)](addresses-arent-geocoded-shown-only-as-coordinates.md)
+* [Addresses aren't geocoded (shown only as coordinates)](addresses-arent-geocoded-shown-only-as-coordinates.md)
 
 </details>
 

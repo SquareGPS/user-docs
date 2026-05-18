@@ -1,10 +1,10 @@
 # MC40-02 Howen event sensitivity
 
-### Question
+## Question
 
 My camera generates too many false events. Can I change sensitivity?
 
-### Answer
+## Answer
 
 Sensitivity cannot be adjusted through Navixy.
 

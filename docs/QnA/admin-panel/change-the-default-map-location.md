@@ -16,6 +16,6 @@ Use the visual editor to set:
 * zoom
 * default coordinates
 
-## Link
+## Linksss
 
 * [Service preferences](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/service-preferences)

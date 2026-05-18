@@ -1,10 +1,10 @@
-# Configuring sensors on Teltonika trackers
+﻿# Configuring sensors on Teltonika trackers
 
-### Question
+## Question
 
 How to configure a measurement/discrete sensor on a Teltonika tracker?
 
-### Answer
+## Answer
 
 To configure a sensor on a Teltonika tracker, follow the step-by-step guidance below.
 
@@ -14,7 +14,7 @@ Here we provide instructions for Teltonika FMB920, where we configure Board Volt
 
 {% stepper %}
 {% step %}
-#### Download the configurator
+## Download the configurator
 
 Download the correct configurator version for your model:
 
@@ -22,39 +22,39 @@ Download the correct configurator version for your model:
 
 Find your model (Ctrl+F), then download the latest version.
 
-![](<../.gitbook/assets/Unknown image (60)>)
+![](<../.gitbook/assets/Unknown image (147)>)
 
 If it is your first time downloading and using a Teltonika configurator, unzip the archive, install the additional software that comes with the configurator, and only then open the configurator.
 
-![](<../.gitbook/assets/Unknown image (61)>)
+![](<../.gitbook/assets/Unknown image (148)>)
 {% endstep %}
 
 {% step %}
-#### Open configurator
+## Open the configurator
 
 Connect the device to the PC or create an offline preset.
 
 If you don't have the device on hand, you can upload the configuration later using FOTA. Or you can configure the device remotely via SMS/GPRS using Air Console (see the optional step below).
 
-![](<../.gitbook/assets/Unknown image (62)>)
+![](<../.gitbook/assets/Unknown image (149)>)
 
-![](<../.gitbook/assets/Unknown image (63)>)
+![](<../.gitbook/assets/Unknown image (150)>)
 
-![](<../.gitbook/assets/Unknown image (64)>)
+![](<../.gitbook/assets/Unknown image (151)>)
 {% endstep %}
 
 {% step %}
-#### Choose the parameter
+## Choose the parameter
 
 Find the parameter by meaning.
 
 Example: Board Voltage may be named **External Voltage**.
 
-![](<../.gitbook/assets/Unknown image (65)>)
+![](<../.gitbook/assets/Unknown image (152)>)
 {% endstep %}
 
 {% step %}
-#### Configure sending settings
+## Configure sending settings
 
 To work well with Navixy:
 
@@ -62,15 +62,15 @@ To work well with Navixy:
 * Event Only: **No**
 * Operand: **Monitoring**
 
-![](<../.gitbook/assets/Unknown image (66)>)
+![](<../.gitbook/assets/Unknown image (153)>)
 
 Save the configuration to the device.
 
-In case the device is not nearby, you can update the configuration online via Air Console.
+If the device is not nearby, you can update the configuration online via Air Console.
 {% endstep %}
 
 {% step %}
-#### Optional: set parameters via Air Console (GPRS) / SMS
+## Optional: set parameters via Air Console (GPRS) / SMS
 
 If the device is remote, configure via Air Console or SMS.
 
@@ -95,7 +95,7 @@ When sending Teltonika configuration commands via SMS, add **two leading spaces*
 {% endstep %}
 
 {% step %}
-#### Verify the parameter arrives to Navixy
+## Verify the parameter arrives to Navixy
 
 Find the **AVL ID** (not Parameter ID).
 
@@ -107,11 +107,11 @@ Teltonika AVL list example:
 
 In Air Console, verify `avl_io 66` appears.
 
-![](<../.gitbook/assets/Unknown image (78)>)
+![](<../.gitbook/assets/Unknown image (165)>)
 {% endstep %}
 
 {% step %}
-#### Create the sensor in Navixy
+## Create the sensor in Navixy
 
 1. Open **Devices & Settings**.
 2. Select the tracker.
@@ -119,10 +119,12 @@ In Air Console, verify `avl_io 66` appears.
 4. Choose input type **AVL IO \[N]**.
 5. Enter the AVL IO number (`66` in this example).
 
-![](<../.gitbook/assets/Unknown image (81)>)
+![](<../.gitbook/assets/Unknown image (168)>)
 {% endstep %}
 
 {% step %}
 **Save**
+
+
 {% endstep %}
 {% endstepper %}

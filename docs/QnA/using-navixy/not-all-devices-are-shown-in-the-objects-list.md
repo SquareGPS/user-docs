@@ -1,10 +1,10 @@
 # Not all devices are shown in the objects list
 
-### Question
+## Question
 
 Not all devices are shown in the objects list. Why?
 
-### Answer
+## Answer
 
 First, check if any filters are applied:
 
@@ -24,7 +24,7 @@ In this case, the user will only see **5 trackers**, because the plan with the 5
 
 **How to fix it:** Adjust the restrictive plan (in this example, remove or update the plan that limits the user to 5 trackers).
 
-### Links
+## Links
 
 * [Object list](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/tracking/objects-list)
-* [Assets are not displayed in the account](/broken/spaces/KdgeXg71LpaDrwexQYwp/pages/0FIVWZ31DUtlU0h5Ew7z)
+* [Maximum device count for a user](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/5dyjvbUVXEbs60EnxnDz/using-navixy/maximum-device-count-for-a-user)

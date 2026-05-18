@@ -1,10 +1,10 @@
 # Empty list in API response
 
-### Question
+## Question
 
 Some methods return an empty list/object. Is this expected?
 
-### Answer
+## Answer
 
 Yes.
 
@@ -18,6 +18,6 @@ Examples:
 * no data in the requested time interval
 * no geofences created
 
-This is normal API behavior and can’t be changed, as it ensures compatibility with existing integrations.
+This is normal API behavior and can't be changed, as it ensures compatibility with existing integrations.
 
-Tip: handle empty lists gracefully in your client (for example, show “No data available”).
+Tip: handle empty lists gracefully in your client (for example, show "No data available").

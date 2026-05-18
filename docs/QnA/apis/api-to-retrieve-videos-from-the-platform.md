@@ -1,10 +1,10 @@
 # API to retrieve videos from the platform
 
-### Question
+## Question
 
 Is there an API to retrieve videos from the platform?
 
-### Answer
+## Answer
 
 No public API is available.
 

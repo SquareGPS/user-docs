@@ -1,10 +1,10 @@
 # Determining why a tracker stopped transmitting
 
-### Question
+## Question
 
 How can I determine why my GPS tracker stopped transmitting data?
 
-### Answer
+## Answer
 
 Exporting raw data helps diagnose why a device has lost connection. To troubleshoot:
 

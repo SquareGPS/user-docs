@@ -1,10 +1,10 @@
 # GSENSOR calibration failure on JC261
 
-### Question
+## Question
 
-Why does JC261 respond with “calibration failed” to `GCALIBRAT`?
+Why does JC261 respond with "calibration failed" to `GCALIBRAT`?
 
-### Answer
+## Answer
 
 {% hint style="info" %}
 Although the documentation includes a calibration option, this command is not supported by the JC261 camera.

@@ -1,18 +1,18 @@
-# How geofence exit events work
+﻿# How geofence exit events work
 
-### Question
+## Question
 
-How are geofence exit events work?
+How do geofence exit events work?
 
-### Answer
+## Answer
 
-Each geofence has its own set of coordinates defining its boundaries. Devices regularly send their current location to the platform. If a device’s coordinates move **outside** a geofence and there is an active rule for geofence entry/exit for that geofence, the platform will generate an event.
+Each geofence has its own set of coordinates defining its boundaries. Devices regularly send their current location to the platform. If a device's coordinates move **outside** a geofence and there is an active rule for geofence entry/exit for that geofence, the platform generates an event.
 
 In other words, the platform continuously checks incoming location updates against all geofences and their corresponding rules in real time.
 
-To avoid duplicate events, there’s a timer in place: once an entry or exit event is triggered, the platform will not register the same type of event again for the next 60 seconds.
+To avoid duplicate events, there's a timer in place: once an entry or exit event is triggered, the platform doesn't register the same type of event again for the next 60 seconds.
 
-Here’s a simple example to show how this works:
+Here's a simple example to show how this works:
 
 * 00:00:00 — The device enters the geofence → entry event is triggered.
 * 00:00:15 — The device exits the geofence → exit event is triggered.
@@ -21,6 +21,6 @@ Here’s a simple example to show how this works:
 
 This mechanism helps filter out noise from devices moving near geofence borders and prevents flooding the system with repeated events.
 
-### Link
+## Links
 
 * [Geofence entrance/exit: system details](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications/movement-monitoring/geofence-entrance-or-exit)

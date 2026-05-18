@@ -1,10 +1,10 @@
 # Track when output control was changed via API
 
-### Question
+## Question
 
 Can we get the last updated time of output control through the API?
 
-### Answer
+## Answer
 
 Two options depending on what you need:
 
@@ -24,7 +24,7 @@ Summary:
 * Use audit logs to track platform/API actions for output control.
 * Use events if you want to know when output state physically changed, regardless of how it was triggered.
 
-### Links
+## Links
 
 * [Audit log list](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/commons/user/audit/audit_log#list)
 * [Output triggering (UI)](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/events-and-notifications/inputs-and-outputs/output-triggering)

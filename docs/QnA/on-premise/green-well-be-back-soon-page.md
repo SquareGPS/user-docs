@@ -1,12 +1,12 @@
-# Green “We’ll be back soon” page
+﻿# Green "We'll be back soon" page
 
-### Question
+## Question
 
-What does the green “We’ll be back soon” page mean?
+What does the green "We'll be back soon" maintenance page mean?
 
 ![](<../.gitbook/assets/Unknown image (57)>)
 
-### Answer
+## Answer
 
 This "green" error is typically a consequence of the `api-server` service being inoperable.
 

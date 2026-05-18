@@ -1,10 +1,10 @@
 # Supported trackers and dash cameras for video
 
-### Question
+## Question
 
 Which trackers and dash cameras are supported in Navixy for video functionality?
 
-### Answer
+## Answer
 
 Navixy supports both native tracker video functionality and video monitoring integrations with several providers.
 
@@ -23,7 +23,7 @@ Here is the list of video service providers that are supported in Navixy as serv
 
 The video service integrations allow connecting MettaX/Streamax/Lightmetrics/HowenVSS devices to the Navixy user interface, receiving primary telematic data directly into Navixy. The video functionality is provided as an iframe external application and requires setting up the integration, which is described in the following article: [Video telematics](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/solution-connectors).
 
-### Links
+## Links
 
 Jimi JC400 series:
 

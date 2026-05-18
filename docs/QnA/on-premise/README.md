@@ -2,9 +2,9 @@
 
 This section provides complete deployment and maintenance guidance for self-hosted Navixy platform instances. You'll find hardware requirements, installation procedures for different deployment scenarios, update processes, and operational best practices. The content covers everything from initial planning and server setup to production updates and troubleshooting.
 
-Designed for IT teams deploying Navixy in their own data centers or private cloud environments. Whether you need full data control for compliance, want to customize the infrastructure, or require network isolation, these guides walk you through assessment, installation, security configuration, and ongoing maintenance of your On-Premise instance.
+Navixy On-Premise is designed for IT teams deploying Navixy in their own data centers or private cloud environments. Whether you need full data control for compliance, want to customize the infrastructure, or require network isolation, these guides walk you through assessment, installation, security configuration, and ongoing maintenance of your On-Premise instance.
 
-### Browse guides
+## Browse guides
 
 <details>
 
@@ -63,7 +63,7 @@ Designed for IT teams deploying Navixy in their own data centers or private clou
 <summary>Troubleshooting and special environments</summary>
 
 * [Why isn't my model connecting to standalone?](why-isnt-my-model-connecting-to-standalone.md)
-* [Green “We’ll be back soon” page](green-well-be-back-soon-page.md)
+* [Green "We'll be back soon" page](green-well-be-back-soon-page.md)
 * [Run instance in a classified environment](run-instance-in-a-classified-environment.md)
 
 </details>

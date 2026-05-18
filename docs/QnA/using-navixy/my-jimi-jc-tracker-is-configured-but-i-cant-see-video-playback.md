@@ -1,12 +1,12 @@
-# My Jimi JC tracker is configured but I can't see video playback
+﻿# My Jimi JC tracker is configured but I can't see video playback
 
-### Question
+## Question
 
-Why can’t I see video playback from my Jimi JC tracker?
+Why can't I see video playback from my Jimi JC tracker?
 
-### Answer
+## Answer
 
-If your JC-series tracker (like the JC261) is connected but you’re not seeing any video playback, it’s likely because the device hasn’t been told to upload recorded videos yet. No worries — this is easy to fix.
+If your JC-series tracker (like the JC261) is connected but you're not seeing any video playback, it's likely because the device hasn't been told to upload recorded videos yet. No worries — this is easy to fix.
 
 To make videos visible on the platform, just send these three commands to your tracker (in this exact order) via SMS or AirConsole:
 
@@ -19,7 +19,7 @@ Replace {server} with the IP address of your platform:
 * US: 13.52.37.2
 * EU: 52.57.1.136
 
-And don’t forget to replace with your device’s IMEI number.
+Don't forget to add your device's IMEI number.
 
 **Example:** For a tracker with IMEI 88887777 connected to the US server, the commands would be:
 
@@ -28,9 +28,9 @@ COREKITSW,0# FILELIST,http://13.52.37.2:7514/filelist/88887777
 UPLOAD,http://13.52.37.2/upload/88887777
 ```
 
-Make sure your tracker is online to receive these commands over GPRS. If it’s offline, SMS will work too — as long as the SIM supports it.
+Make sure your tracker is online to receive these commands over GPRS. If it's offline, SMS will work too as long as the SIM supports it.
 
-### Links
+## Links
 
 * [Air Console](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console)
 * [Jimi IoT dashcam configuration](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/video-telematics/configuration-guides/jimi-iot/jimi-iot-dashcam-configuration)

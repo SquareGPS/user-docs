@@ -1,10 +1,10 @@
 # Difference between fuel level and fuel level 2.0 reports
 
-### Question
+## Question
 
-Can you share with me what is the difference between fuel level report and fuel level 2.0. Which one is recommended to use?
+Can you share what is the difference between fuel level report and fuel level 2.0? Which one is recommended to use?
 
-### Answer
+## Answer
 
 A standard fuel report does not use complex algorithms to modify the data it receives. It displays information as close as possible to how it was received by the platform. If you generate a report without smoothing or filtering out peak values, it will show the raw data exactly as it arrived. The report then compares sensor readings and its settings to detect refueling and fuel drains.
 
@@ -16,16 +16,18 @@ However, some sensors process the data on their own before transmitting it, prov
 
 Since many clients do not use high-quality sensors (either due to installation complexity or cost), they end up with inconsistent fuel reports. The only way to fix this is to teach the platform how to interpret the data from each specific sensor.
 
-To solve this, we developed Fuel Report 2.0. It uses advanced averaging algorithms and machine learning to turn poor-quality data into a more realistic fuel level representation. This helps eliminate sensor noise and sharp spikes while providing smoother fuel level graphs. However, the trade-off is that the new report cannot track fuel drains. Since smoothing and machine learning algorithms apply to all data, sudden drops in fuel level are also averaged out.
+To solve this, Navixy developed Fuel Report 2.0. It uses advanced averaging algorithms and machine learning to turn poor-quality data into a more realistic fuel level representation. This helps eliminate sensor noise and sharp spikes while providing smoother fuel level graphs. However, the trade-off is that the new report cannot track fuel drains. Since smoothing and machine learning algorithms apply to all data, sudden drops in fuel level are also averaged out.
 
-We designed Fuel Report 2.0 based on the fact that most clients focus on tracking fuel consumption and refueling, rather than detecting fuel theft through drains. Additionally, there are numerous ways drivers can steal fuel without triggering a traditional drain detection. Instead, the report helps track how much fuel was refueled compared to receipts, monitor consistent fuel consumption levels, and detect fuel losses through less obvious methods.
+Fuel Report 2.0 is based on the fact that most clients focus on tracking fuel consumption and refueling, rather than detecting fuel theft through drains. Additionally, there are numerous ways drivers can steal fuel without triggering a traditional drain detection. Instead, the report helps track how much fuel was refueled compared to receipts, monitor consistent fuel consumption levels, and detect fuel losses through less obvious methods.
 
 The new fuel report should be used in these cases:
 
 * Your fuel sensor data is inaccurate, fluctuates constantly, and produces a sawtooth-like fuel level graph.
 * You need to track actual fuel consumption and refueling, compare how much fuel was refilled versus receipt records, and check whether the vehicle's fuel usage stays within normal limits to detect possible theft through more subtle methods than direct draining.
 
-### Links
+## Links
 
 * [Fuel management](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management)
 * [Fuel control in Navixy](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy)
+* [Fuel volume report](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/fuel-volume-report)
+* [Fuel volume 2.0 report](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/fuel-volume-2.0-report)

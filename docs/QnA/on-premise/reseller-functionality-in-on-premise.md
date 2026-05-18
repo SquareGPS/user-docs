@@ -1,10 +1,10 @@
 # Reseller functionality in On-premise
 
-### Question
+## Question
 
 Can I have reseller functionality for my On-premise instance?
 
-### Answer
+## Answer
 
 No.
 

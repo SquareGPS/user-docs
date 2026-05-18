@@ -1,17 +1,17 @@
-# Scheduling a valid geo link
+﻿# Scheduling a valid geo link
 
-### Question
+## Question
 
 Is it possible to schedule a geo link on Navixy?
 
-### Answer
+## Answer
 
 Yes, you can schedule a timeframe where the geo link will be valid for visualization.
 
 ![](<../.gitbook/assets/Unknown image (7)>)
 
-This would help for limiting access to end users.
+This helps to limit access for end users.
 
-### Links
+## Links
 
 * [Creating geo links](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/geo-links/creating-geo-links)

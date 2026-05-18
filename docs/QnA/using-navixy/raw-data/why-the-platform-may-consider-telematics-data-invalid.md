@@ -1,10 +1,10 @@
 # Why the platform may consider telematics data invalid
 
-### Question
+## Question
 
 Why can the platform ignore or mark certain telematics data as invalid?
 
-### Answer
+## Answer
 
 There are two key factors that can cause the platform to ignore or mark telematics data as invalid when received from a device:
 

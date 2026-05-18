@@ -1,10 +1,10 @@
 # Get relevant telemetry in one API call (get\_state)
 
-### Question
+## Question
 
 Which API call returns latest position, speed, status, inputs, outputs, and other telemetry?
 
-### Answer
+## Answer
 
 Use:
 

@@ -1,10 +1,10 @@
 # Get tracker events history via API
 
-### Question
+## Question
 
 Can I get full history of tracker events (geofence exit, bracelet removal, etc.) via API?
 
-### Answer
+## Answer
 
 Yes.
 
@@ -18,7 +18,7 @@ You can filter by event type codes, for example:
 
 `events: ["inzone", "outzone"]`
 
-#### How to find event type codes
+### How to find event type codes
 
 Call the event types list endpoint:
 
@@ -29,15 +29,15 @@ Tips:
 * Set `locale` to any supported language you need.
 * Set `only_tracker_events=true` to list only tracker-related events.
 
-#### Implementation tip
+### Implementation tip
 
 You usually fetch event types once during development, then hardcode the event codes you need.
 
-#### Real-time notifications
+### Real-time notifications
 
 If you want to build something like a live event feed, you can implement simple polling — query the API every few seconds.
 
-### Links
+## Links
 
 * [Work with notifications](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/guides/rules-notifications/work-with-notifications)
 * [Event types list](https://app.gitbook.com/s/6dtcPLayxXVB2qaaiuIL/user-api/backend-api/resources/commons/history/history_type)

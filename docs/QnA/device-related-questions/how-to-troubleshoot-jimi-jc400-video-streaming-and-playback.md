@@ -1,19 +1,19 @@
-# How to troubleshoot Jimi JC400 video streaming and playback
+﻿# How to troubleshoot Jimi JC400 video streaming and playback
 
-### Question
+## Question
 
 How to set up and troubleshoot Jimi JC400 video streaming and playback?
 
-### Answer
+## Answer
 
 Follow these steps in order:
 
-1.  Verify IMEI is correct.
+1.  Check that the IMEI is correct.
 
-    ![](<../.gitbook/assets/Unknown image (58)>)
-2.  Verify SIM supports SMS and has working GPRS/LTE.
+    ![](<../.gitbook/assets/Unknown image (145)>)
+2.  Check that the SIM supports SMS and has working GPRS/LTE.
 
-    Make sure:
+    Make sure that:
 
     * the device can receive SMS (if you plan to configure via SMS)
     * GPRS/LTE traffic service is available
@@ -26,11 +26,11 @@ Follow these steps in order:
 
     * JC400 (JC400A): `[VERSION]KMC28_JC400_WABA_STD_V4.3.2_220328.1750,[BUILD]2022-03-28 14:50`
     * JC400D: `[VERSION]JC400D_WAVA_DMS_V4.2.13_210716.2013_BUILD_2021-07-16`
-4. If firmware is old, update via SD card `update.zip`.
-   * [Download](https://drive.google.com/file/d/1Y56Tk5Xv3KGh-7J6XPdzs6tQUKqEglca/view?usp=sharing) and copy `update.zip` to the device SD card (don’t unpack it).
-   * Insert SD card into the device and power it on.
+4. If the firmware is old, update via the SD card `update.zip`.
+   * [Download](https://drive.google.com/file/d/1Y56Tk5Xv3KGh-7J6XPdzs6tQUKqEglca/view?usp=sharing) and copy `update.zip` to the device SD card (don't unpack it).
+   * Insert the SD card into the device and power it on.
    * The device updates firmware automatically.
-5.  Configure timezone UTC+0 and APN + server settings.
+5.  Configure the timezone UTC+0 and the APN + server settings.
 
     EU server IP: `52.57.1.136`
 
@@ -61,14 +61,14 @@ Follow these steps in order:
     ```
     APN,{apn},{apn},,,,,,,,,,,,,#
     ```
-6.  Retry activation in UI when online.
+6.  Retry activation in the UI when online.
 
-    ![](<../.gitbook/assets/Unknown image (59)>)
+    ![](<../.gitbook/assets/Unknown image (146)>)
 7. If the device is offline unexpectedly, verify it is powered on and has sufficient battery charge.
 
-### If default commands are disabled
+## If default commands are disabled
 
-If “send default settings” is disabled in Admin Panel, or activation retry doesn’t push settings, send the following commands one by one.
+If "send default settings" is disabled in Admin Panel, or activation retry doesn't push settings, send the following commands one by one.
 
 Substitute `{IMEI}` with your device IMEI (no braces).
 
@@ -108,6 +108,6 @@ UPLOADSW,RAPIDTURN,ON
 SERVER,0,13.52.37.2,47755#
 ```
 
-### Links
+## Links
 
 * [Air Console](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console)

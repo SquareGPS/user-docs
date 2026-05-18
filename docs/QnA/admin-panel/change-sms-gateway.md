@@ -24,6 +24,6 @@ Generic SMPP v3.4:
 
 Please note that this change is for your dealer panel as a whole, and can't be set on a per-user basis.
 
-## Link
+## Linksss
 
 * [Messaging gateways (SMS)](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/messaging-gateways#sms-gateway)

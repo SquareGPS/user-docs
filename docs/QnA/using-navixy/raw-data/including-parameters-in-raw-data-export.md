@@ -1,10 +1,10 @@
 # Including parameters in raw data export
 
-### Question
+## Question
 
 What parameters can be included in raw data export?
 
-### Answer
+## Answer
 
 When exporting raw data, you can select any parameters available for a specific GPS tracker model.
 
@@ -16,6 +16,6 @@ Here are the key selection features:
 * If a parameter supports **multiple indices** (for example, AVL IOs), the system will ask you to specify which indices to include.
 * Each selected parameter **adds a separate column** to the CSV file.
 
-### Links
+## Links
 
 * [Raw Data Export Parameters](https://docs.navixy.com/expert-center/understanding-the-raw-data-file)
