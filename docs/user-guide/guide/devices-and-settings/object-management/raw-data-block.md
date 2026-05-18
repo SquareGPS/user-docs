@@ -2,7 +2,7 @@
 
 The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS tracker on the platform in CSV format. This feature is essential for device diagnostics, data analytics, and integrating data with AI/ML programs.
 
-<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_a0qszuge3l.png" alt="Raw data export block"><figcaption><p>Raw data export block</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/{5DEF2F7D-8031-487A-85D7-1EB6ED30317D}.png" alt="Raw data block"><figcaption><p>Raw data block</p></figcaption></figure>
 
 ## Overview
 
@@ -17,11 +17,7 @@ The output of the raw data consists of all decoded information from the propriet
 
 ## How to use raw data export
 
-Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** block.
-
-<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_ybwmnfdh8h.png" alt="Raw data export tool file configuration window"><figcaption><p>Raw data export tool file configuration window</p></figcaption></figure>
-
-This will open the **Raw data export** tool. Choose the date range, timezone, and parameters that must be included in the CSV file.
+Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** block. This will open the **Raw data export** tool. Choose the date range, timezone, and parameters that must be included in the CSV file.
 
 To avoid accidental window closing, the **Raw data export** tool can only be closed by clicking **X** in the top-right corner. Additionally, if you haven't switched devices or refreshed the page, the tool will remember your previously selected settings. This feature makes it easy to review GPS tracker or sensor settings, return, and continue working.
 
@@ -59,7 +55,7 @@ For multiple inputs of the same type, the system prioritizes the input with the 
 
 A count of selected parameters is displayed, and each chosen parameter will add a column to the CSV file.
 
-<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/browser_imbnj05cft.png" alt="Raw data export tool file configuration window with chosen parameters"><figcaption><p>Raw data export tool file configuration window with chosen parameters</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/{F149E127-5B1A-4693-AB80-1F895E9CBE14}.png" alt="Raw data export tool file configuration window with chosen parameters" width="563"><figcaption><p>Raw data export tool file configuration window with chosen parameters</p></figcaption></figure>
 
 ## How to read the raw data file
 
@@ -69,6 +65,6 @@ After selecting the necessary parameters, click **Download CSV** to download the
 * The file name includes the device ID, tracker label, and the specified date and time range.
 * Each row (starting from the second row) represents a message sent from the device to the platform. The first row contains the message time in the chosen timezone, followed by the selected parameters.
 
-<figure><img src="https://www.navixy.com/wp-content/uploads/2023/12/nvidia_share_xbgmryofhf.png" alt="Raw data file columns example"><figcaption><p>Raw data file columns example</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/{7B6F0062-D451-460D-AD1B-054ADB34A6DE}.png" alt="Raw data file columns example" width="563"><figcaption><p>Raw data file columns example</p></figcaption></figure>
 
 This tool is essential for diagnostics and analytics, providing detailed insights into your device data.
