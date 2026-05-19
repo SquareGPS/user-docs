@@ -1,4 +1,4 @@
-# Table of contents
+﻿# Table of contents
 
 * [Q\&A](README.md)
 * [Using Navixy](using-navixy/README.md)
@@ -94,6 +94,7 @@
   * [Pricing plans conflicts](admin-panel/pricing-plans-conflicts.md)
   * [SMS commands are not delivered](admin-panel/sms-commands-are-not-delivered.md)
   * [Troubleshoot custom domain issues](admin-panel/troubleshoot-custom-domain-issues.md)
+  * [Blocking Tariff Plan - Billing Question](admin-panel/blocking-tariff-plan-billing-question.md)
 * [On-Premise](on-premise/README.md)
   * [What do I need to have my own Navixy instance?](on-premise/prerequisites.md "On-Premise prerequisites")
   * [On-Premise licensing FAQ](on-premise/on-premise-licensing-faq.md)
@@ -101,7 +102,7 @@
   * [On-Premise updates FAQ](on-premise/on-premise-updates-faq.md)
   * [Deployment overview](on-premise/deployment-overview/README.md)
     * [What hardware to use?](on-premise/deployment-overview/what-hardware-to-use.md)
-    * [What operation system to choose?](on-premise/deployment-overview/what-operation-system-to-choose.md)
+    * [What operating system to choose?](on-premise/deployment-overview/what-operation-system-to-choose.md)
     * [How to install the platform?](on-premise/deployment-overview/how-to-install-the-platform.md)
     * [How to update the platform?](on-premise/deployment-overview/how-to-update-the-platform.md)
     * [How to prepare for the update?](on-premise/deployment-overview/how-to-prepare-for-the-update.md)
@@ -138,5 +139,6 @@
   * [Howen Device ID Configuration - Navixy Activation](device-related-questions/howen-device-id-configuration-navixy-activation.md)
   * [GSENSOR calibration failure on JC261](device-related-questions/gsensor-calibration-failure-on-jc261.md)
   * [No livestreaming video on the platform (JC261)](device-related-questions/no-livestreaming-video-on-the-platform-jc261.md)
+  * [JC261(P/D) Input Mapping](device-related-questions/jc261-p-d-input-mapping.md)
   * [FMC150 (QJIBO/QKIBO) Input and Output Capabilities](device-related-questions/fmc150-qjibo-qkibo-input-and-output-capabilities.md)
   * [Slight difference between GPS CAN mileage and physical odometer](device-related-questions/slight-difference-between-gps-can-mileage-and-physical-odometer.md)
