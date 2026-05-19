@@ -173,7 +173,7 @@
       * [Raw data block](guide/devices-and-settings/object-management/raw-data-block.md)
       * [Working statuses block](guide/devices-and-settings/object-management/working-statuses-block.md)
       * [Device timezone block](guide/devices-and-settings/object-management/device-timezone-block.md)
-      * [Output control block](guide/devices-and-settings/object-management/output-control-block.md)
+      * [Commands block](guide/devices-and-settings/object-management/output-control-block.md)
     * [Location and movement](guide/devices-and-settings/location-and-movement/README.md)
       * [Tracking mode block](guide/devices-and-settings/location-and-movement/tracking-mode-block.md)
       * [Parking detection block](guide/devices-and-settings/location-and-movement/parking-detection-block.md)

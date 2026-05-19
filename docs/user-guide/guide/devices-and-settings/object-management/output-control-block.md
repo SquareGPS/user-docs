@@ -4,13 +4,13 @@ description: >-
   directly from a device's settings page.
 ---
 
-# Output control block
+# Commands block
 
 ## Overview
 
-The **Output control** block lets you define custom commands for a device in Navixy and send them on demand from the device's [Object widget](../../tracking/objects-list/object-widget.md). Use it to send a firmware-level instruction directly to a device, such as sending a CAN command or activating an output, or to call any external system that accepts HTTP requests, such as a Slack channel, a notification service, a CRM, or a custom API endpoint. Once configured, commands can be dispatched with a single click.
+The **Commands** block lets you define custom commands for a device in Navixy and send them on demand from the device's [Object widget](../../tracking/objects-list/object-widget.md). Use it to send a firmware-level instruction directly to a device, such as sending a CAN command or activating an output, or to call any external system that accepts HTTP requests, such as a Slack channel, a notification service, a CRM, or a custom API endpoint. Once configured, commands can be dispatched with a single click.
 
-Output control supports two command types:
+The Commands block supports two command types:
 
 * **Device command** sends a protocol-level instruction string directly to the device (e.g., to send a CAN command or activate an output).
 * **Software command** sends an HTTP POST request with a JSON body to any URL, optionally including current device data such as location, speed, or device ID in the payload.
@@ -18,22 +18,22 @@ Output control supports two command types:
 Commands are saved per device and remain available for repeated use.
 
 {% hint style="info" %}
-#### When to use Output control vs. IoT Logic
+**When to use Commands vs. IoT Logic**
 
-**Output control** is designed for ad-hoc, manual actions targeting a single device. Use it when you need to send a one-off command without configuring an automation flow.
+**Commands** is designed for ad-hoc, manual actions targeting a single device. Use it when you need to send a one-off command without configuring an automation flow.
 
 For automated, rule-based command sending, such as triggering a device action or a webhook when a sensor threshold is crossed, or sending the same command across multiple devices, use [IoT Logic](../../account/iot-logic/). The **Device action** and **Webhook** nodes in IoT Logic provide the same underlying capabilities with full flow automation and multi-device targeting.
 {% endhint %}
 
 ## Configuration
 
-To configure Output control for a device:
+To configure Commands for a device:
 
 1. Go to **Devices and settings** in the left sidebar.
 2. Select the device you want to configure.
-3. Locate and expand the **Output control** block.
+3. Locate and expand the **Commands** block.
 
-<figure><img src="../../../.gitbook/assets/output-control-portlet.png" alt="Output control block showing device and software command options"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-control-portlet.png" alt="Commands block showing device and software command options"><figcaption></figcaption></figure>
 
 You can add multiple commands of each type. Each command is saved individually.
 
@@ -41,7 +41,7 @@ You can add multiple commands of each type. Each command is saved individually.
 
 A **device command** sends a protocol-level instruction string directly to the device over its communication channel.
 
-<figure><img src="../../../.gitbook/assets/output-control-device-vommand.png" alt="Device command configuration fields showing Command name and Command string"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-control-device-vommand.png" alt="Device command form with Command name and Command string fields"><figcaption></figcaption></figure>
 
 To add a device command, click **Add device command** at the bottom of the block. Configure the following fields:
 
@@ -78,7 +78,7 @@ Configure the following:
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src="../../../.gitbook/assets/output-control-software-command-general.png" alt="Software command General tab showing Title, URL, and Headers fields"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-control-software-command-general.png" alt="Software command General tab with Title, URL, and Headers fields"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -92,7 +92,7 @@ To include live device data in the payload, use the `{{attribute_name}}` syntax.
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<figure><img src="../../../.gitbook/assets/output-control-software-command-body.png" alt="Software command Body tab showing the body text area with placeholder text and the attribute autocomplete icon"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-control-software-command-body.png" alt="Software command Body tab with JSON body field and attribute picker"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -133,5 +133,5 @@ Once commands are saved, they appear in the **Commands** block of the device's [
 Click the **send** button (▷) next to a command name to dispatch it immediately. There is no confirmation dialog and the command is sent as soon as you click. The Commands block shows all device commands and software commands configured for that device.
 
 {% hint style="info" %}
-Output control commands are per-device. Commands configured for one device do not appear in other devices' Object widgets. To send commands to multiple devices based on rules or conditions, use IoT Logic.
+Commands are per-device. Commands configured for one device do not appear in other devices' Object widgets. To send commands to multiple devices based on rules or conditions, use IoT Logic.
 {% endhint %}
