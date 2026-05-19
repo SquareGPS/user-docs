@@ -8,9 +8,15 @@ description: >-
 
 Navixy offers a powerful reporting feature that allows you to generate detailed reports on various aspects of your fleet's operations. This guide will walk you through the steps of creating, scheduling, and managing reports using the Navixy platform, ensuring you can easily access and analyze the data you need.
 
+<figure><img src="../../.gitbook/assets/Reports module.png" alt="Image of the main page of the Reports module"><figcaption><p>Reports module</p></figcaption></figure>
+
 ## How to create a report
 
-A report is a custom-generated document that provides detailed insights into specific aspects of your fleet's operations, such as vehicle activity, fuel consumption, or driver behavior, based on selected criteria and time frames. Follow these steps to generate a single report:
+A report is a custom-generated document that provides detailed insights into specific aspects of your fleet's operations, such as vehicle activity, fuel consumption, or driver behavior, based on selected criteria and time frames.&#x20;
+
+<figure><img src="../../.gitbook/assets/Creating a report.png" alt="Image of the report creation dialogue"><figcaption><p>Report creation dialogue</p></figcaption></figure>
+
+Follow these steps to generate a single report:
 
 {% stepper %}
 {% step %}
