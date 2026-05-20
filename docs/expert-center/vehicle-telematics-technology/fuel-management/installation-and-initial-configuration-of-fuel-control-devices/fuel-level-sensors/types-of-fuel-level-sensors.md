@@ -27,7 +27,7 @@ On the other hand, in fleet management systems, integrators of GPS tracking and 
 
 A float fuel sensor is installed into the tank of a vehicle at the factory.
 
-![Float fuel sensor](https://www.navixy.com/wp-content/uploads/2019/05/float-type-fuel-sensor.png)
+<figure><img src="../../../../.gitbook/assets/float-fuel-sensor.png" alt=""><figcaption><p>Float fuel sensor</p></figcaption></figure>
 
 **Operation concept:** A potentiometer is connected to a float, which is used to measure the fuel level. As the fuel level changes, the position of the float also changes, resulting in a corresponding change in resistance. This change in resistance ultimately leads to a change in the output voltage of the sensor. The data collected by the float sensor is then transmitted to the dashboard of a vehicle via:
 
@@ -38,9 +38,15 @@ A float fuel sensor is installed into the tank of a vehicle at the factory.
 
 Some fleet owners install a Capacitive Sensor in order to monitor fuel consumption and fuel drains.
 
-![Capacitive fuel sensor by Omnicomm](https://www.navixy.com/wp-content/uploads/2019/05/LLS-fuel-sensor-by-omnicomm-600x600.png)
+{% columns %}
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Capacitive-fuel-sensor-Omnicomm.png" alt=""><figcaption><p>Capacitive fuel sensor by Omnicomm</p></figcaption></figure>
+{% endcolumn %}
 
-![Capacitive fuel sensor design concept](https://www.navixy.com/wp-content/uploads/2019/05/capacitive-fuel-sensor-design-concept.png)
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Capacitive-fuel-sensor-design-concept.png" alt=""><figcaption><p>Capacitive fuel sensor design concept</p></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 **Operation concept:** Capacitive Fuel Sensor is an actual electric capacitor.
 
@@ -54,9 +60,15 @@ The sensor measures the height of the fuel column in both the tank and the fuel 
 
 ### Ultrasonic fuel sensor
 
-![Ultrasonic Fuel Sensor](https://www.navixy.com/wp-content/uploads/2019/05/ultrasonic-fuel-sensor.png)
+{% columns %}
+{% column valign="middle" %}
+<figure><img src="../../../../.gitbook/assets/Ultrasonic-fuel-sensor-bottom-mounted.png" alt=""><figcaption><p>Ultrasonic fuel sensor (bottom-mounted)</p></figcaption></figure>
+{% endcolumn %}
 
-![Ultrasonic Fuel Sensor](https://www.navixy.com/wp-content/uploads/2019/05/ultrasonic-fuel-sensor2.png)
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Ultrasonic-fuel-sensor-top-mounted-probe.png" alt=""><figcaption><p>Ultrasonic fuel sensor (top-mounted probe)</p></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 Some fleet operators choose to install ultrasonic fuel sensors to monitor fuel consumption and fuel drains.
 
@@ -88,7 +100,7 @@ Tank height and shape play a crucial role for capacitive fuel sensors. Make sure
 
 The measuring part of the sensor must be slightly bigger than the tank height (to make sure the sensor reaches fuel at the bottom of the tank). During installation the measuring tubes will be cut to fit the tank. However, it is important to leave a gap of 1-1.5 inches (3-4 cm) between the sensor and the bottom to prevent a short circuit due to possible dirt or water accumulation at the tank bottom.
 
-![Tank dimensions](https://www.navixy.com/wp-content/uploads/2019/05/tank-dimensions.png)
+<figure><img src="../../../../.gitbook/assets/capacitive-sensor-tank-dimensions.png" alt=""><figcaption><p>Capacitive fuel sensor installation: sensor length vs. tank height</p></figcaption></figure>
 
 Different manufacturers of fuel sensors can offer different size ranges, however in most cars a sensor of 0.7 m (∼27.6 inch) will be enough.
 
@@ -104,7 +116,7 @@ One might need to consider a few fuel sensors for one vehicle, if it falls into 
 Fuel tankers have 2 or 3 tanks, each of them having at least 3 sections. For maximum accuracy each tank and each section should be equipped with a fuel level sensor. Make sure, that the sensor has an RS-485 output. An RS-232 won’t provide data for multiple sensors to be connected to the same tracker.
 {% endhint %}
 
-![Multiple sensors on one vehicle](https://www.navixy.com/wp-content/uploads/2019/05/wiring-diagram-rs485.png)
+<figure><img src="../../../../.gitbook/assets/multiple-sensors-rs485-wiring.png" alt=""><figcaption><p>Three capacitive fuel sensors connected to a GPS tracker via RS-485 daisy-chain</p></figcaption></figure>
 
 ### Fuel sensor outputs
 
@@ -121,53 +133,31 @@ Fuel sensor manufacturing (as any other telematics sensors manufacturing) is a v
 
 Currently the most popular fuel sensor developers and manufacturers are:
 
-### Omnicomm (Russia)
+### Omnicomm
 
-* **Marketed in:** Eastern Europe, Latin America, Russia and CIS
-* **Exhibited in:** trade shows in Russia, UAE, Mexico
-* **Available languages:** English, Spanish, Russian, Portuguese  [https://www.omnicomm-world.com/](https://www.omnicomm-world.com/)
+* **Marketed in:** Eastern Europe, Latin America, and CIS
+* **Exhibited in:** trade shows in UAE, Mexico
+* **Available languages:** English, Spanish, Russian, Portuguese [https://www.omnicomm-world.com/](https://www.omnicomm-world.com/)
 * [Facebook](https://www.facebook.com/OmnicommWorld), [LinkedIn](https://www.linkedin.com/company/omnicomm/)
 
-|                                                                                                                                                                |           |                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Omnicomm LLS 4 Digital fuel sensor](https://www.navixy.com/wp-content/uploads/2019/05/LLS4-fuel-sensor-600x250.png)                                          | LLS 4     | <p>Digital fuel sensor<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/omnicomm-sensors.pdf">Omnicomm-sensors</a></p>                                 |
-| ![Omnicomm LLS-AF 4 Frequency-analogue fuel sensor](https://www.navixy.com/wp-content/uploads/2019/05/LLS-AF4-fuel-sensor-600x250.png)                         | LLS-AF 4  | <p>Frequency-analogue fuel sensor<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/omnicomm-sensors.pdf">Omnicomm-sensors</a></p>                      |
-| ![Omnicomm LLS 20230 Digital fuel sensor in an explosion-proof variation](https://www.navixy.com/wp-content/uploads/2019/05/LLS-20230-fuel-sensor-600x250.png) | LLS 20230 | <p>Digital fuel sensor in an explosion-proof variation<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/omnicomm-sensors.pdf">Omnicomm-sensors</a></p> |
+{% hint style="warning" %}
+The sensor models listed below are legacy and may no longer be available. For the current Omnicomm product lineup, visit the [Omnicomm fuel level sensors page](https://omnicomm-world.com/products/hardware/fuel-level-sensors/).
+{% endhint %}
 
-### Technoton (Belarus)
+<table data-header-hidden><thead><tr><th width="250"></th><th width="138"></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/omnicomm-LLS4.png" alt="" data-size="original"></td><td>LLS 4</td><td>Digital fuel sensor<br>Specification: <a href="https://doc.omnicomm.ltd/en/omnicomm_lls_4x-manual/specifications">Omnicomm-sensors</a></td></tr><tr><td><img src="../../../../.gitbook/assets/omnicomm-LLS-AF-4.png" alt="" data-size="original"></td><td>LLS-AF 4</td><td>Frequency-analogue fuel sensor<br>Specification: <a href="https://doc.omnicomm.ltd/en/omnicomm_lls-af_4-manual/specifications">Omnicomm-sensors</a></td></tr><tr><td><img src="../../../../.gitbook/assets/omnicomm-LLS-20230.png" alt="" data-size="original"></td><td>LLS 20230</td><td>Digital fuel sensor in an explosion-proof variation<br>Specification: <a href="https://doc.omnicomm.ltd/en/omnicomm_lls20230-instalation-guide">Omnicomm-sensors</a></td></tr></tbody></table>
 
-* **Marketed in:** Russia and CIS, Eastern Europe, Latin America, Middle East.
-* **Exhibited in:** trade shows in Russia
+### Technoton
+
+* **Marketed in:** CIS, Eastern Europe, Latin America, Middle East.
 * **Available languages:** English, Spanish, Russian [https://www.jv-technoton.com](https://www.jv-technoton.com/)
 * [LinkedIn](https://www.linkedin.com/company/technoton/)
 
-|                                                                                                                                                                         |            |                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](https://www.navixy.com/wp-content/uploads/2019/05/DUT-E-fuel-sensor-150x150.png)                                                                                    | DUT-E      | <p>Digital / Frequency-analogue/CAN-like fuel sensors. Any fuel sensor can come with one of the mentioned outputs<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/technoton-sensors.pdf">Technoton-sensors</a></p> |
-| ![Technoton DUT-E 2Bio Fuel sensor with automatic detection of fuel brand change](https://www.navixy.com/wp-content/uploads/2019/05/DUT-E-2Bio-fuel-sensor-150x150.png) | DUT-E 2Bio | <p>Fuel sensor with automatic detection of fuel brand change (e.g. summer/ winter diesel fuel)<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/technoton-sensors.pdf">Technoton-sensors</a></p>                    |
+<table data-header-hidden><thead><tr><th width="247"></th><th width="134"></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/Technoton-DUT-E.png" alt="" data-size="original"></td><td>DUT-E</td><td>Digital / Frequency-analogue/CAN-like fuel sensors. Any fuel sensor can come with one of the mentioned outputs<br>Specification: <a href="https://jv-technoton.com/products/dut-e/">Technoton-sensors</a></td></tr><tr><td><img src="../../../../.gitbook/assets/Technoton-DUT-E-2Bio.png" alt=""></td><td>DUT-E 2Bio</td><td>Fuel sensor with automatic detection of fuel brand change (e.g. summer/ winter diesel fuel)<br>Specification: <a href="https://jv-technoton.com/products/dut-e-2bio/">Technoton-sensors</a></td></tr></tbody></table>
 
-### Siensor (China)
+### Escort
 
 * **Marketed:** all over the globe
-* **Exhibited in:** trade shows in Russia
-* **Available languages:** English, Portuguese, Russian, Chinese\
-  [http://siensor.com](http://siensor.com/)
-* [Facebook](https://www.facebook.com/siensor/)
-
-|                                                                                                                        |       |                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Siensor D10X Digital fuel sensor](https://www.navixy.com/wp-content/uploads/2019/05/D10X-fuel-sensor-150x150.png)    | D10X  | <p>Digital fuel sensor<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/siensor-sensors.pdf">Siensor-sensors</a></p>  |
-| ![Siensor AF10X Analogue fuel sensor](https://www.navixy.com/wp-content/uploads/2019/05/AF10X-fuel-sensor-150x150.png) | AF10X | <p>Analogue fuel sensor<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/siensor-sensors.pdf">Siensor-sensors</a></p> |
-
-### Escort (Russia)
-
-* **Marketed:** all over the globe
-* **Exhibited in:** trade shows in Russia
-* **Available languages:** English, Spanish, Russian\
-  [https://www.fmeter.ru/en/](https://www.fmeter.ru/en/)
+* **Available languages:** English, Spanish, Russian [https://escortsensors.com](https://escortsensors.com)
 * [Facebook](https://www.facebook.com/gkeskort/)
 
-|                                                                                                                                                    |               |                                                                                                                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Escort TD-BLE Wireless fuel level sensor](https://www.navixy.com/wp-content/uploads/2019/05/TD-BLE-fuel-sensor-600x498.png)                      | TD-BLE        | <p>Wireless fuel level sensor<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/escort-sensor.pdf">Escort-sensor</a></p>                                                          |
-| ![Escort TD-150 Fuel sensor with multiple output signals](https://www.navixy.com/wp-content/uploads/2019/05/Escort-TD-150-fuel-sensor-600x498.png) | Escort TD-150 | <p>Fuel sensor with multiple output signals: RS-485, analogue output, frequency output<br>Specification: <a href="https://www.navixy.com/wp-content/uploads/2019/05/escort-sensor.pdf">Escort-sensor</a></p> |
+<table data-header-hidden><thead><tr><th width="249"></th><th width="135"></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/escort-TD-BLE.png" alt="" data-size="original"></td><td>TD-BLE</td><td>Wireless fuel level sensor<br>Specification: <a href="https://escortsensors.com/product/escort-wireless-fuel-level-sensor-td-ble/">Escort-sensor</a></td></tr><tr><td><img src="../../../../.gitbook/assets/escort-TD-150.png" alt="" data-size="original"></td><td>TD-150</td><td>Fuel sensor with multiple output signals: RS-485, analogue output, frequency output<br>Specification: <a href="https://escortsensors.com/product/fuel-level-sensor-escort-td-150/">Escort-sensor</a></td></tr></tbody></table>

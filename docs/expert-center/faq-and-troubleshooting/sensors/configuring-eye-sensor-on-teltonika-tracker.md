@@ -28,6 +28,8 @@ Click on the _configure_ button and change the packet setting to _Sensor_, it wi
 
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdlV7i2Y6miCzjVxNShut77230x1_w2jUe8qiVmwsSRVDzsB8mCtkgOHmabquUkdO0FACRk0nmbm-kbaIR5jfTvb0lZzmShRQ5aQOQex5yPhJQAu-QdFkfvugndzNs0Xlqsv9lP979sGjDu_25Alxnxz_3?key=6KHuR2IBwmomxMottXEmGA" alt="" width="375">
 
+&#x20;
+
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevSXGMbYt5LZoCMLRNEtptpyQzrdbhFxmdCTYmlrQPhdCv40al-na0osyW3OmM-vlH3O3sn9v1FZYRrqe6bYV1Dl-lfLA8Ezg9BBF7FuPBrudUsUT0AJCxZEF9C6LZ8Vivw0ZgPP4q8Ce8kFnCe5lnFBtU?key=6KHuR2IBwmomxMottXEmGA" alt="" width="375">
 
 After setting up the Eye sensor, click the upper right button to disconnect. Otherwise, it will not send data to the GPS tracker.

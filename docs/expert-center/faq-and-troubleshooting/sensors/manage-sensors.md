@@ -70,4 +70,4 @@ Different trackers process and report fuel sensor data in different ways. For ex
 
 Other sensors might return voltage instead of percents or direct volume. In such cases, more detailed calibration will be required. In order to fill out a calibration table – you will need to measure sensor’s values at different fuel levels in the tank and then input results into the table. In case, some unrelevant values may be received by the sensor, you’re able to set Ignore values parameter to get them filtered.
 
-![Calibrate a fuel sensor](<../../.gitbook/assets/image-20231130-090712 (2).png>)
+![Calibrate a fuel sensor](../../.gitbook/assets/image-20231130-090712.png)
