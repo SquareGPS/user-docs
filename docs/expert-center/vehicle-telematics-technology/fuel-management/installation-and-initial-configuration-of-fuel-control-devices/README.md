@@ -4,6 +4,6 @@ This section aims to delve into the various types of sensors utilized for fuel c
 
 [OEM fuel level sensors](oem-fuel-level-sensors.md)
 
-[Fuel flow meters](fuel-flow-meters/)
+[Fuel consumption meters](fuel-consumption-meters/)
 
 [Fuel level sensors](fuel-level-sensors/)

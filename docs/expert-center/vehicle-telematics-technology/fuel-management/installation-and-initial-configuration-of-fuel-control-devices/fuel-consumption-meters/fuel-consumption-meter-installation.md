@@ -1,4 +1,4 @@
-# Fuel flow meter installation
+# Fuel consumption meter installation
 
 {% hint style="danger" %}
 We strongly recommend engaging the services of professional installers for the installation of your equipment.
