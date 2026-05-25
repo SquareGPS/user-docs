@@ -23,7 +23,7 @@ Bluetooth Low Energy uses many protocols to transmit data, interact with all par
 
 **Generic Access Profile (GAP)** provides initial data exchange between devices, to determine «who is who».
 
-![BLE architecture](https://www.navixy.com/wp-content/uploads/2021/01/ble-protocols.png)
+![BLE architecture](../../.gitbook/assets/ble-protocols.png)
 
 Separately, we note the GATT and ATT protocols:
 
@@ -78,7 +78,7 @@ At the same time, it is worth noting that wired sensors have higher noise protec
 
 Separately, it is worth considering the [Tire-pressure monitoring system](https://en.wikipedia.org/wiki/Tire-pressure_monitoring_system) (TPMS). The majority of TPMS installations transmit their data via UHF (Ultra High Frequency) radio. TPMS data is typically transmitted in one of two frequency ranges, which depends on the geographical location of the TPMS. TPMS signals are transmitted at about 433MHz in Europe, and at 315MHz in most other parts of the world.
 
-![Tire pressure monitoring system sensor](https://www.navixy.com/wp-content/uploads/2021/01/tire-pressure-monitoring-system-sensor.jpg)
+![Tire pressure monitoring system sensor](../../.gitbook/assets/tire-pressure-monitoring-system-sensor.jpg)
 
 This TPMS sensor is called a “Direct TPMS” system. It provides more accurate tire pressure values instead of “Indirect TPMS” that does not use physical pressure sensors but measure air pressures using software-based systems, which by evaluating and combining existing sensor signals like wheel speeds, accelerometers, driveline data, etc. estimate and monitor the tire pressure without physical pressure sensors in the wheels.
 
