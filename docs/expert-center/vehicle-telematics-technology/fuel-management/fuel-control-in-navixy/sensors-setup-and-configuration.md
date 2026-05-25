@@ -8,7 +8,7 @@ The **Sensors and buttons** block lets you easily incorporate new discrete and m
 
 Fuel sensors are a type of [measuring sensor](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/vehicle-sensors/measurement-sensors) that can be created on a GPS tracking platform. To create a fuel sensor, navigate to the Device Management section and click on the Sensors and Buttons panel. Next, click on the “+” icon and select "Measurement sensor" from the drop-down menu.
 
-![Fuel level sensor creation](../../../.gitbook/assets/1-3.png)
+![Fuel level sensor creation](../../../.gitbook/assets/fuel-level-sensor-creation.png)
 
 ## Fuel sensor settings
 
@@ -35,7 +35,7 @@ Upon selecting Fuel Level as the sensor type, you will be presented with additio
     * More - the filter can be used to ignore any readings that exceed a certain threshold, X. This is valuable when dealing with sensors whose readings may occasionally increase dramatically. For example, if an error is detected or if there is a higher voltage than expected.
   * Multiplier - multiply the resulting values by a certain coefficient. If you want to divide values, use decimals.
 
-![Example of fuel sensor setting with all parameters.](../../../.gitbook/assets/2-3.png)
+![Example of fuel sensor setting with all parameters.](../../../.gitbook/assets/fuel-sensor-settings-parameters.png)
 
 ## Adding calibration data
 
