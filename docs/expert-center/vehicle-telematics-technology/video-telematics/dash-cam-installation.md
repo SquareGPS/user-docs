@@ -18,7 +18,7 @@ One final item to keep in mind when installing a dash cam is the risk of theft. 
 
 Once the dash cam has been mounted, it’s time to connect it to power. In most instances, this requires locating the vehicle’s fuse box, removing the cover, and plugging the camera into the proper terminal with ACC wire. This method has the added advantage of powering the camera even when the truck, van, bus, or car is turned off. Other devices, however, may plug into the OBDII input, so be sure to read the installation instructions thoroughly before proceeding.
 
-![Connect a dash cam and other devices to the fuse box](https://www.navixy.com/wp-content/uploads/2021/12/fuse-box-600x338.jpeg)
+![Connect a dash cam and other devices to the fuse box](../../.gitbook/assets/fuse-box-600x338.jpeg)
 
 ## Installation: DIY or professional
 
@@ -28,7 +28,7 @@ After locating the fuse box, it might be necessary to pull back the panel with a
 
 Along with connecting a wire to the ignition-based fuse to turn on the camera when the vehicle is turned on, it’s necessary to connect to a constant fuse for continuous power when the car is off, in addition to ground wire to prevent electric shocks.
 
-![Example of fuse box diagram](https://www.navixy.com/wp-content/uploads/2021/12/fuse-box-2--600x338.png)
+![Example of fuse box diagram](../../.gitbook/assets/fuse-box-2--600x338.png)
 
 Generally, it can take anywhere from 15 minutes to an hour to complete the aforementioned installation steps from start to finish. The specific timeframe will depend on the person’s experience with vehicle electronics, how many cameras need to be set up, and how many auxiliary accessories are utilized.
 

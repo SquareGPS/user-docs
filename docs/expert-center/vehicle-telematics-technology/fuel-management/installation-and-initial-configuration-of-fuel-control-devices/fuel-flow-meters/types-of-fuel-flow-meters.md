@@ -4,7 +4,7 @@ As of the end of 2018, flow meters manufactured by [Technoton](https://www.jv-te
 
 For a comprehensive grasp of different flow meters, it is recommended to start by examining the engine fuel system. This will provide valuable insights into understanding the various types available and how they function.
 
-![Fuel flow meter](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-71.png)
+![Fuel flow meter](../../../../.gitbook/assets/fuel-flow-meter-71.png)
 
 1. Fuel tank
 2. Rough filter
@@ -27,7 +27,7 @@ As an example, let's consider the idle period readings for a John Deere tractor:
 
 Single-chamber flow meter measures the amount of fuel flowing through the fuel supply line, that is, from the fuel tank to the “engine”.
 
-![Single-chamber flow meter](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-81.png)
+![Single-chamber flow meter](../../../../.gitbook/assets/fuel-flow-meter-81.png)
 
 Single-chamber flow meters are divided into the following types:
 
@@ -48,7 +48,7 @@ Alternatively, a flow meter with an interface cable can be equipped with a displ
 
 A flow meter that features two measurement chambers is commonly referred to as "dual-chamber" or "differential". These types of fuel flow meters accurately measure fuel consumption by quantifying the difference in the volume of fuel flowing through the supply and return fuel lines. In other words, it calculates the amount of fuel delivered from the tank to the engine while subtracting the fuel volume returning from the engine to the tank. This dual-chamber design ensures precise measurement and monitoring of fuel usage.
 
-![Differential fuel flow meter](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-91.png)
+![Differential fuel flow meter](../../../../.gitbook/assets/fuel-flow-meter-91.png)
 
 Differential flow meters are:
 
@@ -75,7 +75,7 @@ You can find out whether fuel consumption data can be transmitted via a CAN-bus 
 
 As for the devices produced by third-party manufacturers, for example, [Nozzle Crocodile](https://www.jv-technoton.com/ru/produkty/nozzle-crocodile/), they can also count fuel consumption based on the injectors operation time but have lower accuracy in comparison with the standard CAN flow meter. As a rule, such devices are used to control fuel consumption in case other methods are not available. For example, one can use them for measuring gas consumption on LPG (Autogas) vehicles.
 
-![Contactless NozzleCrocodile reader, manufactured by Technoton.](https://www.navixy.com/wp-content/uploads/2023/03/fuel-flow-meter-10-11.png)
+![Contactless NozzleCrocodile reader, manufactured by Technoton.](../../../../.gitbook/assets/fuel-flow-meter-10-11.png)
 
 ## Flow meter selection
 
@@ -119,8 +119,8 @@ Technoton (Belarus)
 |                                                                                                           |           |                                                                                                                                                                                                                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Photo**                                                                                                 | **Model** | **Description**                                                                                                                                                                                                                                                                                                               |
-| ![Fuel flow meter tutorial](https://navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-25-150x150.png) | DFM       | <p>Single-chamber flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas.pdf">ES</a></p>            |
-| ![Fuel flow meter tutorial](https://navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-26-150x150.png) | DFM D     | <p>Dual-chamber/Differential flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas.pdf">ES</a></p> |
+| ![Fuel flow meter tutorial](../../../../.gitbook/assets/fuel-flow-meter-25-150x150.png) | DFM       | <p>Single-chamber flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas.pdf">ES</a></p>            |
+| ![Fuel flow meter tutorial](../../../../.gitbook/assets/fuel-flow-meter-26-150x150.png) | DFM D     | <p>Dual-chamber/Differential flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas.pdf">ES</a></p> |
 
 Mechatronika (Belarus)
 
@@ -131,5 +131,5 @@ Mechatronika (Belarus)
 |                                                                                                   |                 |                                                                                                                                                                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Photo**                                                                                         | **Model**       | **Description**                                                                                                                                                                                                                                                                                                                                          |
-| ![Fuel flow meter tutorial](https://navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-27.png) | Eurosens Direct | <p>Single-chamber flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters-eurosens.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr-eurosens.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas-eurosens.pdf">ES</a></p>            |
-| ![Fuel flow meter tutorial](https://navixy.com/wp-content/uploads/2019/07/fuel-flow-meter-28.png) | Eurosens Delta  | <p>Dual-chamber/Differential flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters-eurosens.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr-eurosens.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas-eurosens.pdf">ES</a></p> |
+| ![Fuel flow meter tutorial](../../../../.gitbook/assets/fuel-flow-meter-27.png) | Eurosens Direct | <p>Single-chamber flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters-eurosens.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr-eurosens.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas-eurosens.pdf">ES</a></p>            |
+| ![Fuel flow meter tutorial](../../../../.gitbook/assets/fuel-flow-meter-28.png) | Eurosens Delta  | <p>Dual-chamber/Differential flow meter<br><br>ТТХ: <a href="https://www.navixy.com/wp-content/uploads/2019/07/parameters-eurosens.pdf">EN</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/parametr-eurosens.pdf">RU</a> / <a href="https://www.navixy.com/wp-content/uploads/2019/07/caracter-sticas-t-cnicas-eurosens.pdf">ES</a></p> |
