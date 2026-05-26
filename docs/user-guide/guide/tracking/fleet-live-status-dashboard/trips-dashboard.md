@@ -16,7 +16,12 @@ The platform processes incoming GPS data every minute and stitches points into t
 
 A point counts as moving when the recorded speed is at least 3 km/h, and additionally either the distance from the previous point exceeds 50 m or the device's hardware "is moving" flag is set. A new trip starts after a gap of at least 20 minutes with no data from the device, or when a device starts moving again after being parked for at least 5 minutes. The trip's `Start Time` is the timestamp of the first moving point, and the `End Time` is when the final parking segment of the trip began.
 
-For a trip to be recorded at all, four conditions need to hold: the total distance is at least 100 m, the maximum speed reaches at least 3 km/h, there are at least 2 GPS points, and movement was actually detected. Trips that fail any of these checks are discarded. This is why some very short journeys never show up in the dashboard, and why a vehicle that drifted slightly while parked won't generate a trip.
+For a trip to be recorded at all, four conditions need to hold. Trips that fail any of these checks are discarded, which is why some very short journeys never show up in the dashboard, and why a vehicle that drifted slightly while parked won't generate a trip.
+
+* Total distance is at least 100 m
+* Maximum speed reaches at least 3 km/h
+* At least 2 GPS points
+* Movement was detected
 
 ## Data window and refresh
 
@@ -30,33 +35,56 @@ Because trip processing runs every minute with a small overlap, a trip that ende
 
 The top of the dashboard is a row of nine KPI tiles, arranged in two rows, that summarize the week at fleet level.
 
-The first two tiles frame the week in terms of activity. **Total Objects** counts every device registered in your account, and **Objects with Trips** counts those that recorded at least one trip in the last 7 days. The gap between them is your share of inactive or stored devices for the week, and it's the first thing to glance at: if Objects with Trips is much smaller than Total Objects, the per-object averages elsewhere on the page will look low for reasons that aren't about driver behavior.
+The first two tiles frame the week in terms of activity:
 
-The next three tiles describe how many trips happened. **Amount of Trips** is the total count of trips across the fleet. **Trips per Object, AVG** is the average number of trips per device, and **Distance per Trip, AVG** is the average trip length in kilometers, rounded to two decimal places.
+* **Total Objects**: every device registered in your account.
+* **Objects with Trips**: devices that recorded at least one trip in the last 7 days. The gap between these two is your share of inactive or stored devices for the week; if it's large, the per-object averages elsewhere on the page will look low for reasons that aren't about driver behavior.
 
-Two distance tiles cover ground covered: **Total Distance** is the sum of all trip distances over the period, and **Distance per Object, AVG** is the average kilometers per device.
+The next three describe trip volume:
 
-Two duration tiles cover time on the move: **Total Duration** sums all trip durations, and **Duration per Trip, AVG** gives the average trip duration. Both are formatted as `X h Y min`, with seconds truncated rather than rounded.
+* **Amount of Trips**: total count of trips across the fleet.
+* **Trips per Object, AVG**: average number of trips per device.
+* **Distance per Trip, AVG**: average trip length in kilometers, rounded to two decimal places.
 
-One important detail about the "per Object, AVG" tiles. **Trips per Object, AVG** and **Distance per Object, AVG** both divide by the total number of registered devices, not by the number of devices that actually had trips. If your account carries many inactive or stored devices, these averages will look lower than the picture for your active fleet alone. The **Objects with Trips** tile (and the **Objects with/without Trips** donut described next) is the right view for the active-only counterpart.
+Two tiles cover distance:
+
+* **Total Distance**: sum of all trip distances over the period.
+* **Distance per Object, AVG**: average kilometers per device.
+
+Two tiles cover time on the move:
+
+* **Total Duration**: sum of all trip durations.
+* **Duration per Trip, AVG**: average trip duration, formatted as `X h Y min` (seconds truncated, not rounded).
+
+{% hint style="info" %}
+**Trips per Object, AVG** and **Distance per Object, AVG** both divide by the total number of registered devices, not by the number that actually had trips. If your account carries many inactive or stored devices, these averages will look lower than your active fleet's picture alone. Use **Objects with Trips** and the **Objects with/without Trips** donut for the active-only view.
+{% endhint %}
 
 ## Per-object charts
 
 Below the KPI tiles, six charts break the same week of data down by object.
 
-The **Objects with/without Trips** donut sits on the left and shows the fleet split between devices that recorded at least one trip during the week and those that didn't. It's the visual companion to the **Total Objects** and **Objects with Trips** tiles, and the quickest way to spot whether the fleet's activity rate matches expectations.
-
-The remaining five charts are top-10 bar charts that rank individual vehicles by different measures. **Top 10 Objects by Distance** and **Top 10 Objects by Trips** are the clearest views of workload. A vehicle that leads on distance is the one carrying the heaviest workload by kilometers; a vehicle that leads on trips makes the most journeys. These don't always line up: a delivery van running short loops can sit at the top of the trips chart without appearing on the distance chart, and that pattern itself is worth spotting.
-
-**Top 10 Objects by Speed** ranks devices by the highest maximum speed recorded during the week, which is the chart to check when reviewing driving behavior or investigating speed alerts. This chart may also include speeds from trips that are still in progress when the dashboard loads, so its time coverage can differ very slightly from the other panels.
-
-**Top 10 Objects by Idling Time** and **Top 10 Objects by Engine Hours** are usually read together. Idling is a common source of hidden fuel and maintenance cost, so surfacing it here lets you act on it during the week rather than discovering it in a monthly report. Engine Hours adds context: a vehicle that leads in engine hours but not in distance is typically running while stationary, which often loops back to the same idling pattern.
+* **Objects with/without Trips**: a donut chart showing the fleet split between devices that recorded at least one trip during the week and those that didn't. The visual companion to the **Total Objects** and **Objects with Trips** tiles, and the quickest way to spot whether the fleet's activity rate matches expectations.
+* **Top 10 Objects by Distance**: ranks vehicles by total kilometers. A vehicle at the top here carries the heaviest workload; compare with the Trips chart to distinguish long-haul from short-loop patterns.
+* **Top 10 Objects by Trips**: ranks vehicles by number of trips. A delivery van running short loops can top this chart without appearing on the Distance chart, and that contrast is often worth investigating.
+* **Top 10 Objects by Speed**: ranks devices by highest maximum speed during the week. The chart to check when reviewing driving behavior or investigating speed alerts. Note: it may include speeds from trips still in progress when the dashboard loads, so its time coverage can differ slightly from the other panels.
+* **Top 10 Objects by Idling Time**: surfaces idling, a common source of hidden fuel and maintenance cost, so you can act during the week rather than discovering it in a monthly report.
+* **Top 10 Objects by Engine Hours**: best read alongside Idling Time. A vehicle that leads in engine hours but not in distance is typically running while stationary, which often traces back to the same idling pattern.
 
 ## Objects trips details
 
-The **Objects Trips Details** table at the bottom of the dashboard lists individual trip records, one row per trip. Columns include the object's label, start and end times, distance, duration, start and end coordinates, start and end addresses, and the number of GPS points in the trip. Every column is sortable by clicking its header, and the table scrolls horizontally on narrower screens.
+The **Objects Trips Details** table at the bottom of the dashboard lists individual trip records, one row per trip. Every column is sortable by clicking its header, and the table scrolls horizontally on narrower screens. Columns include:
 
-One thing to note when comparing this table to the KPI tiles above. The table is scoped to trips longer than 10 km, while the KPI tiles count every recorded trip. Shorter trips that still meet the trip-building rules above (at least 100 m, 3 km/h, 2 points, movement detected) are counted in the **Amount of Trips** tile and shown in the charts, but they don't appear as individual rows in this table. As a result, the row count is typically lower than the **Amount of Trips** tile, sometimes substantially. Use the KPI tile as your answer to "how many trips happened" and the table as your answer to "where the longer journeys went".
+* Object label
+* Start and end times
+* Distance and duration
+* Start and end coordinates
+* Start and end addresses
+* Number of GPS points in the trip
+
+{% hint style="info" %}
+The table is scoped to trips longer than 10 km, while the KPI tiles count every recorded trip. Shorter trips that still meet the trip-building rules (at least 100 m, 3 km/h, 2 points, movement detected) are counted in **Amount of Trips** and shown in the charts, but don't appear as rows here. Use the KPI tile as your answer to "how many trips happened" and the table as your answer to "where the longer journeys went".
+{% endhint %}
 
 The address columns are best-effort. Start and end addresses are resolved by reverse geocoding the coordinates against the Navixy geocoder. When the geocoder is unavailable, address cells appear blank without an error message. Address resolution also covers the first 500 rows of the table by default, so rows beyond that limit appear with coordinates but without addresses.
 
