@@ -73,7 +73,7 @@ then grouping points into trip segments, and finally computing the aggregate met
 appear in the output table. Understanding this process helps you interpret results correctly\
 and recognize when the default settings need adjusting for your fleet.
 
-Here are the steps of the algorithm that forms a track entity:
+Here are the steps of the algorithm that forms a trip record:
 
 {% stepper %}
 {% step %}
@@ -178,7 +178,7 @@ Raw telematics data from `tracking_data_core` stores coordinate and speed values
 The default Trips transformation reflects Navixy's general-purpose trip detection logic. If your operational scenario requires different behavior, you can load the workflow template into [Transformation Builder](../transformation-builder/), modify the relevant nodes, and schedule the adjusted workflow as a custom transformation in `processed_custom_data`.
 
 {% hint style="warning" %}
-Several nodes in the Tracks workflow use PostGIS geometry functions and window functions (`LAG`, `FIRST_VALUE`, `LAST_VALUE`, `SUM OVER`). Modifying these nodes requires solid SQL knowledge. Always preview the result using the **Execute** button in Transformation Builder before scheduling a modified workflow.
+Several nodes in the Trips workflow use PostGIS geometry functions and window functions (`LAG`, `FIRST_VALUE`, `LAST_VALUE`, `SUM OVER`). Modifying these nodes requires solid SQL knowledge. Always preview the result using the **Execute** button in Transformation Builder before scheduling a modified workflow.
 {% endhint %}
 
 ### Customization examples
@@ -193,8 +193,8 @@ Use this when the default 5-minute parking threshold splits what should be one c
 
 The threshold values are hardcoded as integer constants in two Custom SQL nodes:
 
-1. Open the **Track Flags** node (`custom_9`). Find the condition `parking_duration >= 300 * INTERVAL '1 second'`. This appears twice in the node — once in the `new_track_flag` calculation and once in `track_end_flag`. Replace `300` with your target value in seconds in both places. For example, to require a 10-minute stop, use `600`.
-2. In the same **Track Flags** node (`custom_9`), find `time_diff >= 1200`. Then open the **Parking Markers** node (`custom_6`) and find the same condition there. Replace `1200` with your target value in seconds in both nodes. For example, to tolerate 30-minute gaps, use `1800`.
+1. Open the **Trip Flags** node (`custom_9`). Find the condition `parking_duration >= 300 * INTERVAL '1 second'`. This appears twice in the node. Replace `300` with your target value in seconds in both places. For example, to require a 10-minute stop, use `600`.
+2. In the same **Trip Flags** node (`custom_9`), find `time_diff >= 1200`. Then open the **Parking Markers** node (`custom_6`) and find the same condition there. Replace `1200` with your target value in seconds in both nodes. For example, to tolerate 30-minute gaps, use `1800`.
 3. Click **Execute** to preview the result and confirm that trip boundaries match your operational expectations before scheduling.
 
 </details>
