@@ -1,6 +1,6 @@
 # Trips dashboard
 
-The **Trips Dashboard** is the second tab of the Dashboard app. Where the **Fleet Live Status Dashboard** answers "what is the fleet doing right now?", the Trips Dashboard answers "what did the fleet do over the past week?". It pulls completed trips together into a single view of utilisation, distance, duration, and per-object performance, so you can spot under-used vehicles, over-worked ones, and unusual driving behaviour without building a report.
+The **Trips Dashboard** is the second tab of the Dashboard app. Where the **Fleet Live Status Dashboard** answers "what is the fleet doing right now?", the Trips Dashboard answers "what did the fleet do over the past week?". It pulls completed trips together into a single view of utilization, distance, duration, and per-object performance, so you can spot under-used vehicles, over-worked ones, and unusual driving behavior without building a report.
 
 {% hint style="info" %}
 The Trips Dashboard is currently in beta (v1.0.0). It's an early version released so we can shape it based on real feedback. If something is missing, confusing, or could be more useful, please tell us through the **Send Feedback** button at the top of the tab. The two dashboards version independently, so the Fleet Live Status and Trips tabs may show different version numbers.
@@ -20,7 +20,7 @@ For a trip to be recorded at all, four conditions need to hold: the total distan
 
 ## Data window and refresh
 
-The Trips Dashboard always shows the **last 7 days** of trip data. There is no date picker, and the window cannot be changed. For trip data over a different period, use the [Trips and parkings report](/docs/user/guide/reports).
+The Trips Dashboard always shows the **last 7 days** of trip data. There is no date picker, and the window cannot be changed. For trip data over a different period, use the [Trips and parkings report](../../reports/specific-report-details/trip-report.md).
 
 The dashboard refreshes itself every **90 seconds** while the browser tab is in focus, and the **Update** button in the top-right corner forces an immediate refresh. The 90-second cadence is slower than the Fleet Live Status tab's 60 seconds, because the trip-level aggregations span a week of data and are more expensive to compute.
 
@@ -28,13 +28,13 @@ Because trip processing runs every minute with a small overlap, a trip that ende
 
 ## Headline metrics
 
-The top of the dashboard is a row of nine KPI tiles, arranged in two rows, that summarise the week at fleet level.
+The top of the dashboard is a row of nine KPI tiles, arranged in two rows, that summarize the week at fleet level.
 
-The first two tiles frame the week in terms of activity. **Total Objects** counts every device registered in your account, and **Objects with Trips** counts those that recorded at least one trip in the last 7 days. The gap between them is your share of inactive or stored devices for the week, and it's the first thing to glance at: if Objects with Trips is much smaller than Total Objects, the per-object averages elsewhere on the page will look low for reasons that aren't about driver behaviour.
+The first two tiles frame the week in terms of activity. **Total Objects** counts every device registered in your account, and **Objects with Trips** counts those that recorded at least one trip in the last 7 days. The gap between them is your share of inactive or stored devices for the week, and it's the first thing to glance at: if Objects with Trips is much smaller than Total Objects, the per-object averages elsewhere on the page will look low for reasons that aren't about driver behavior.
 
-The next three tiles describe how many trips happened. **Amount of Trips** is the total count of trips across the fleet. **Trips per Object, AVG** is the average number of trips per device, and **Distance per Trip, AVG** is the average trip length in kilometres, rounded to two decimal places.
+The next three tiles describe how many trips happened. **Amount of Trips** is the total count of trips across the fleet. **Trips per Object, AVG** is the average number of trips per device, and **Distance per Trip, AVG** is the average trip length in kilometers, rounded to two decimal places.
 
-Two distance tiles cover ground covered: **Total Distance** is the sum of all trip distances over the period, and **Distance per Object, AVG** is the average kilometres per device.
+Two distance tiles cover ground covered: **Total Distance** is the sum of all trip distances over the period, and **Distance per Object, AVG** is the average kilometers per device.
 
 Two duration tiles cover time on the move: **Total Duration** sums all trip durations, and **Duration per Trip, AVG** gives the average trip duration. Both are formatted as `X h Y min`, with seconds truncated rather than rounded.
 
@@ -46,9 +46,9 @@ Below the KPI tiles, six charts break the same week of data down by object.
 
 The **Objects with/without Trips** donut sits on the left and shows the fleet split between devices that recorded at least one trip during the week and those that didn't. It's the visual companion to the **Total Objects** and **Objects with Trips** tiles, and the quickest way to spot whether the fleet's activity rate matches expectations.
 
-The remaining five charts are top-10 bar charts that rank individual vehicles by different measures. **Top 10 Objects by Distance** and **Top 10 Objects by Trips** are the clearest views of workload. A vehicle that leads on distance is the one carrying the heaviest workload by kilometres; a vehicle that leads on trips makes the most journeys. These don't always line up: a delivery van running short loops can sit at the top of the trips chart without appearing on the distance chart, and that pattern itself is worth spotting.
+The remaining five charts are top-10 bar charts that rank individual vehicles by different measures. **Top 10 Objects by Distance** and **Top 10 Objects by Trips** are the clearest views of workload. A vehicle that leads on distance is the one carrying the heaviest workload by kilometers; a vehicle that leads on trips makes the most journeys. These don't always line up: a delivery van running short loops can sit at the top of the trips chart without appearing on the distance chart, and that pattern itself is worth spotting.
 
-**Top 10 Objects by Speed** ranks devices by the highest maximum speed recorded during the week, which is the chart to check when reviewing driving behaviour or investigating speed alerts. This chart may also include speeds from trips that are still in progress when the dashboard loads, so its time coverage can differ very slightly from the other panels.
+**Top 10 Objects by Speed** ranks devices by the highest maximum speed recorded during the week, which is the chart to check when reviewing driving behavior or investigating speed alerts. This chart may also include speeds from trips that are still in progress when the dashboard loads, so its time coverage can differ very slightly from the other panels.
 
 **Top 10 Objects by Idling Time** and **Top 10 Objects by Engine Hours** are usually read together. Idling is a common source of hidden fuel and maintenance cost, so surfacing it here lets you act on it during the week rather than discovering it in a monthly report. Engine Hours adds context: a vehicle that leads in engine hours but not in distance is typically running while stationary, which often loops back to the same idling pattern.
 
@@ -68,4 +68,4 @@ Like the Fleet Live Status tab, the Trips Dashboard does not currently support g
 
 ## Sending feedback
 
-The **Send Feedback** button in the top-right corner of the Trips Dashboard opens a short form scoped to this tab. You can select the specific widget your feedback relates to (or the Trips Dashboard as a whole), write a message up to 399 characters, and send it directly to the product team. During the beta, this is the most direct channel for influencing how the Trips Dashboard evolves.
+The **Send Feedback** button in the top-right corner of the Trips Dashboard opens a short form scoped to this tab. You can select the specific widget your feedback relates to (or the Dashboard as a whole), write a message up to 399 characters, and send it directly to the product team. During the beta, this is the most direct channel for influencing how the Trips Dashboard evolves.
