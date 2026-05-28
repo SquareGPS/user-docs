@@ -1,10 +1,10 @@
 # MC40-02 Howen event sensitivity
 
-### Question
+## Question
 
 My camera generates too many false events. Can I change sensitivity?
 
-### Answer
+## Answer
 
 Sensitivity cannot be adjusted through Navixy.
 
@@ -19,8 +19,8 @@ To change sensitivity, log in to the camera via Howen iTools, select either DMS 
 * buzzer
 * other event-related parameters
 
-![](<../.gitbook/assets/Unknown image (171)>)
+![](<../.gitbook/assets/Unknown image (84)>)
 
-![](<../.gitbook/assets/Unknown image (172)>)
+<img src="../.gitbook/assets/Unknown image (85)" alt="" width="375">
 
-![](<../.gitbook/assets/Unknown image (173)>)
+<img src="../.gitbook/assets/Unknown image (86)" alt="" width="375">

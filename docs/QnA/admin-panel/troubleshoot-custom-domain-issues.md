@@ -19,5 +19,5 @@ You can validate using MXToolbox (or `dig` if you're on Linux/WSL).
 
 ## Links
 
-* [Domain name guide](https://www.navixy.com/docs/admin/settings/domain-name)
+* [Domain name guide](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/domain-name)
 * [MXToolbox](https://mxtoolbox.com/)

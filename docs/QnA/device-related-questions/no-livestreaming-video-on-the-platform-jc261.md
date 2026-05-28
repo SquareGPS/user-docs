@@ -1,10 +1,10 @@
 # No livestreaming video on the platform (JC261)
 
-### Question
+## Question
 
 Why is my JC261 camera not livestreaming?
 
-### Answer
+## Answer
 
 There are two main possible root causes for the lack of live streaming on the platform:
 
@@ -14,9 +14,9 @@ There are two main possible root causes for the lack of live streaming on the pl
 
     `RSERVICE,rtmp.x-gpsmail.com:1935/encoder`
 
-    If the server is not set correctly, the customer will not be able to view the live stream.
+    If the server isn't set correctly, the customer can't view the live stream.
 2.  **SIM / data plan / connectivity**
 
-    Even when it may look like a platform issue, poor signal strength or an insufficient SIM card data plan can prevent the camera from uploading the stream with the required quality.
+    Even when it looks like a platform issue, poor signal strength or insufficient SIM card data plan can prevent the camera from uploading the stream with the required quality.
 
-    We recommend checking the SIM plan and verifying that the connection is stable and working properly.
+    Check the SIM plan and verify that the connection is stable and working properly.

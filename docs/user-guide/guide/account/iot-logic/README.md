@@ -81,7 +81,7 @@ For complete API documentation, parameters, request/response formats, and code e
 * [Quick start guide](quick-start-guide/)
   * [Templates](quick-start-guide/templates.md)
 * [Flow management](flow-management/)
-  * [Default flow](flow-management/default-flow.md)
+  * [Default data processing](flow-management/default-flow.md)
   * [Flow configuration example](flow-management/flow-configuration-example.md)
 * [Nodes](nodes/)
   * [Data Source node](nodes/data-source-node.md)

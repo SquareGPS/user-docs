@@ -1,14 +1,14 @@
-# Teltonika device shows “GPS not updated” status
+﻿# Teltonika device shows "GPS not updated" status
 
-### Question
+## Question
 
 Why is my Teltonika device showing "GPS not updated" and 0 satellites in last messages in the Air Console, even though it has GSM coverage?
 
-![](<../.gitbook/assets/Unknown image (88)>)
+![](<../.gitbook/assets/Unknown image (1)>)
 
-### Answer
+## Answer
 
-It looks like the tracker operates in the “Static navigation mode”. While the device can still connect to cellular networks (GSM), it won't update its GPS location in this mode.
+It looks like the tracker operates in the "Static navigation mode". While the device can still connect to cellular networks (GSM), it doesn't update its GPS location in this mode.
 
 First, let's understand static navigation: Static navigation is a power-saving feature that helps prevent GPS errors like location drift or spoofing. When your device determines it isn't moving or ignition is off (based on your settings), it stops taking new GPS readings to avoid inaccurate positions that can happen with weak satellite signals. Think of it like putting your GPS to sleep when your vehicle is parked.
 
@@ -35,7 +35,7 @@ For ignition detection, it can use:
 Here's how to diagnose the issue:
 
 1. First, check these device parameters using the command: `getparam 106; 112; 138; 102; 101`
-2. Check the responses based on the device’s Wiki: [https://wiki.teltonika-gps.com/view/FMB920\_Parameter\_list](https://wiki.teltonika-gps.com/view/FMB920_Parameter_list)
+2. Check the responses based on the device's Wiki: [https://wiki.teltonika-gps.com/view/FMB920\_Parameter\_list](https://wiki.teltonika-gps.com/view/FMB920_Parameter_list)
    * If you see `106:1`, static navigation is enabled
    * If you see `112:1`, movement is determined by motion detection
    * If you see `138:1`, movement source is linked to ignition
@@ -44,15 +44,13 @@ Here's how to diagnose the issue:
    * Parameter 105 shows the minimum voltage (currently 13000mV or 13V)
    * Parameter 104 shows the maximum voltage (currently 30000mV or 30V)
 4. Review your device's voltage history:
-   *   Check when the last valid GPS position was received in the location widget.
+   * Check when the last valid GPS position was received in the location widget.
 
-       ![](<../.gitbook/assets/Unknown image (89)>)
-   *   Look at the board voltage sensor measurements within the measuring sensors report.
+        ![](<../.gitbook/assets/Unknown image (2)>)
+   * Look at the board voltage sensor measurements within the measuring sensors report.
 
-       ![](<../.gitbook/assets/Unknown image (90)>)
-   *   Compare timestamps of last GPS update with last time voltage was above minimum threshold.
-
-       ![](<../.gitbook/assets/Unknown image (91)>)
+        ![](<../.gitbook/assets/Unknown image (3)>)
+   * Compare the timestamps of the last GPS update with the last time voltage was above the minimum threshold.
 
 Current situation: The device is in static navigation mode because the power voltage is below 13V. The device interprets this as the vehicle being off, so it stops updating GPS positions. The last GPS update was at 10:39 PM, which matches the last time the voltage was above 13V.
 
@@ -64,7 +62,7 @@ To fix the issue, you can:
 * Check your vehicle's electrical system if voltage is consistently low
 * Change how static navigation is determined (movement vs. ignition vs. both)
 
-### Links
+## Links
 
 [Measuring sensors report](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/reports/specific-report-details/measuring-sensors-report)
 

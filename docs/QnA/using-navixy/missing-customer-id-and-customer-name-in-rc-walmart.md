@@ -1,8 +1,7 @@
 # Missing Customer ID and Customer Name in RC-Walmart
 
-**Question: Why are the Customer ID and Customer Name not appearing in Walmart?**
+**Question: Why are the Customer ID and Customer Name not displayed in Walmart?**
 
-\
 **Answer**: The main reason why the Customer ID and Customer Name are not being included in the Walmart retransmission is due to an incorrect configuration of the External ID field.
 
 For this type of integration, it is necessary to follow the standard Recurso Confiable format:\
@@ -12,9 +11,8 @@ It is important to note that the configuration must follow the Trusted Resource 
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-**Links:**&#x20;
+**Links:**
 
 [Waltmart RC blogpost](https://www.navixy.com/es/blog/ayudando-a-transportistas-logisticos-a-cumplir-con-el-cumplimiento-de-recurso-confiable-de-walmart-superando-desafios-de-transmision-de-datos)&#x20;
 
-[Recurso Confiable](https://www.navixy.com/docs/user/guide/devices-and-settings/data-forwarding/recurso-confiable)
-
+[Recurso Confiable](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/data-forwarding/recurso-confiable)

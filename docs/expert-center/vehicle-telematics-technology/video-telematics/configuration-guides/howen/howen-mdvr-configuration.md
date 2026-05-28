@@ -38,7 +38,7 @@ As a GPS tracker installed in a vehicle, Wi-Fi operation is not possible. Theref
 
 Here, you can set the date, time, and timezone. These settings affect the timestamps on video files and streams, so ensure they reflect your local timezone and current date/time.
 
-Our platform operates best with timezone UTC+0. However, for certain devices like MDVR units, we have added a specific portlet on the platform. If you set UTC+0, the timestamps on recorded and streamed videos will be incorrect, which may render them inadmissible in court.
+Our platform operates best with timezone UTC+0. However, for certain devices like MDVR units, we have added a specific block on the platform. If you set UTC+0, the timestamps on recorded and streamed videos will be incorrect, which may render them inadmissible in court.
 
 ### Center Settings
 
@@ -58,7 +58,7 @@ Once you've configured the device settings, start the registration process on th
 1. Open the user account where you wish to register the device and click the device activation button.
 2. Next, input the device's name, assign it to a group if necessary, and type your device's model into the search line. For example, Hero ME40-04.
 
-![](<../../../../.gitbook/assets/image-20231019-140201 (2).png>)
+![](../../../../.gitbook/assets/image-20231019-140201.png)
 
 3. Enter the device ID that you initially set in the Dev ID on your device. If the platform indicates that the given device ID is already being used, modify it in the device's settings and attempt using the new ID on the platform.
 

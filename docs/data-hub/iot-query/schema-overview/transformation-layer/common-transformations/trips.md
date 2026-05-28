@@ -8,10 +8,10 @@ description: >-
 
 The Trips transformation processes raw telematics data into discrete vehicle trip records. Each row in `processed_common_data.trips` represents one complete trip: where it started and ended, how long it took, how far the vehicle traveled, and which zones it departed from or arrived at.
 
-The built-in transformation runs every 8 hours and covers a rolling 12-hour window of raw data. At each run, previously calculated records for that window are replaced with a fresh calculation, so the table always reflects the latest available data.&#x20;
+The built-in transformation runs every 8 hours and covers a rolling 12-hour window of raw data. At each run, previously calculated records for that window are replaced with a fresh calculation, so the table always reflects the latest available data.
 
 {% hint style="info" %}
-* Data in this table may be up to 8 hours old, reflecting the most recently completed run.&#x20;
+* Data in this table may be up to 8 hours old, reflecting the most recently completed run.
 * All timestamps are stored in UTC.
 {% endhint %}
 
@@ -73,11 +73,11 @@ then grouping points into trip segments, and finally computing the aggregate met
 appear in the output table. Understanding this process helps you interpret results correctly\
 and recognize when the default settings need adjusting for your fleet.
 
-Here are the steps of the algorithm that forms a track entity:
+Here are the steps of the algorithm that forms a trip record:
 
 {% stepper %}
 {% step %}
-### **Collecting and cleaning the input**
+#### **Collecting and cleaning the input**
 
 The transformation reads the last 12 hours of data from two source tables:
 
@@ -92,7 +92,7 @@ Points are filtered before any further processing:
 {% endstep %}
 
 {% step %}
-### **Deciding whether each point represents movement**
+#### **Deciding whether each point represents movement**
 
 Each point is classified into one of three statuses:
 
@@ -104,7 +104,7 @@ LBS points go through an additional check before receiving a status. Any LBS poi
 {% endstep %}
 
 {% step %}
-### Grouping points into trips
+#### Grouping points into trips
 
 With every point carrying a movement status, the transformation identifies trip boundaries. A new trip begins when:
 
@@ -121,7 +121,7 @@ The thresholds that control these boundaries are listed in the [Configuration pa
 {% endstep %}
 
 {% step %}
-### Computing output metrics
+#### Computing output metrics
 
 Once trip boundaries are established, all points in each trip are aggregated into a single output row:
 
@@ -132,7 +132,7 @@ Once trip boundaries are established, all points in each trip are aggregated int
 {% endstep %}
 
 {% step %}
-### Filtering out noise before writing results
+#### Filtering out noise before writing results
 
 Not every trip segment that the algorithm identifies is worth keeping. Short segments caused by brief GPS recovery, stationary devices with occasional position drift, or incomplete data at the window boundary are discarded. A trip is only written to the output table when it meets all of the following conditions simultaneously:
 
@@ -178,12 +178,12 @@ Raw telematics data from `tracking_data_core` stores coordinate and speed values
 The default Trips transformation reflects Navixy's general-purpose trip detection logic. If your operational scenario requires different behavior, you can load the workflow template into [Transformation Builder](../transformation-builder/), modify the relevant nodes, and schedule the adjusted workflow as a custom transformation in `processed_custom_data`.
 
 {% hint style="warning" %}
-Several nodes in the Tracks workflow use PostGIS geometry functions and window functions (`LAG`, `FIRST_VALUE`, `LAST_VALUE`, `SUM OVER`). Modifying these nodes requires solid SQL knowledge. Always preview the result using the **Execute** button in Transformation Builder before scheduling a modified workflow.
+Several nodes in the Trips workflow use PostGIS geometry functions and window functions (`LAG`, `FIRST_VALUE`, `LAST_VALUE`, `SUM OVER`). Modifying these nodes requires solid SQL knowledge. Always preview the result using the **Execute** button in Transformation Builder before scheduling a modified workflow.
 {% endhint %}
 
 ### Customization examples
 
-Expand the sections below to see some case-based customization examples.&#x20;
+Expand the sections below to see some case-based customization examples.
 
 <details>
 
@@ -193,8 +193,8 @@ Use this when the default 5-minute parking threshold splits what should be one c
 
 The threshold values are hardcoded as integer constants in two Custom SQL nodes:
 
-1. Open the **Track Flags** node (`custom_9`). Find the condition `parking_duration >= 300 * INTERVAL '1 second'`. This appears twice in the node — once in the `new_track_flag` calculation and once in `track_end_flag`. Replace `300` with your target value in seconds in both places. For example, to require a 10-minute stop, use `600`.
-2. In the same **Track Flags** node (`custom_9`), find `time_diff >= 1200`. Then open the **Parking Markers** node (`custom_6`) and find the same condition there. Replace `1200` with your target value in seconds in both nodes. For example, to tolerate 30-minute gaps, use `1800`.
+1. Open the **Trip Flags** node (`custom_9`). Find the condition `parking_duration >= 300 * INTERVAL '1 second'`. This appears twice in the node. Replace `300` with your target value in seconds in both places. For example, to require a 10-minute stop, use `600`.
+2. In the same **Trip Flags** node (`custom_9`), find `time_diff >= 1200`. Then open the **Parking Markers** node (`custom_6`) and find the same condition there. Replace `1200` with your target value in seconds in both nodes. For example, to tolerate 30-minute gaps, use `1800`.
 3. Click **Execute** to preview the result and confirm that trip boundaries match your operational expectations before scheduling.
 
 </details>

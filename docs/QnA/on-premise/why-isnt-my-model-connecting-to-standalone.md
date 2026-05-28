@@ -1,12 +1,12 @@
 # Why isn't my model connecting to standalone?
 
-### Question
+## Question
 
-Why isn’t my specific device model connecting, while other models work?
+Why isn't my specific device model connecting, while other models work?
 
-### Answer
+## Answer
 
-If you have a specific device model that won’t connect to your platform (for example, Teltonika), while other models work, the most likely cause is a closed port.
+If you have a specific device model that won't connect to your platform (for example, Teltonika), while other models work, the most likely cause is a closed port.
 
 Example: Teltonika typically uses port **47776**.
 
@@ -18,7 +18,7 @@ Open the required port, then retest.
 
 For a full list of ports, search for the device model on the device list page.
 
-### Links
+## Links
 
 * [Device list (ports)](https://www.navixy.com/devices/)
 * [Network](https://app.gitbook.com/s/kUnMmePH99SsdChtqqu7/on-premise/how-to-guide/requirements/network)

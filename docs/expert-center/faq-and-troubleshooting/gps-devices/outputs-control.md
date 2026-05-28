@@ -16,7 +16,7 @@ The user opens the device’s widget in the UI or the X-GPS monitor application.
 
 * If the device model doesn’t provide a response to the platform or doesn’t include the output state in its messages, the platform can send any command, either to switch on or off the output state. The user can click the red zone to send an 'output off' command, and the green zone to send an 'output on' command.
 
-![How output control works with stateless devices](<../../.gitbook/assets/image-20240125-093603 (2).png>)
+![How output control works with stateless devices](../../.gitbook/assets/image-20240125-093603.png)
 
 * If the device is offline and SMS control of the outputs is not available for the model, the widget displays the last known states of the output in a faded mode, indicating that output control is not possible.
 

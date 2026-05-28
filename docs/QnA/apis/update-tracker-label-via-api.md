@@ -1,10 +1,10 @@
 # Update tracker label via API
 
-### Question
+## Question
 
 Is there an API endpoint to update a tracker label/name?
 
-### Answer
+## Answer
 
 Yes.
 
@@ -19,7 +19,7 @@ Safe bulk approach:
 1. Call `tracker/list` to get `tracker_id` and current `group_id`.
 2. Call `tracker/settings/update` with the same `group_id` and new `label`.
 
-### Links
+## Links
 
 * [`tracker/list`](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/tracker#list)
 * [`tracker/settings/update`](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/tracker/settings/index#update)

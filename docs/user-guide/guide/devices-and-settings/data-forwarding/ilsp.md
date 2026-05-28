@@ -54,7 +54,7 @@ Required Parameters
 To set up data forwarding in ILSP protocol:
 
 1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
-2. Click the **Data forwarding** widget.
+2. Click the **Data forwarding** block.
 3. Click **Retranslators management**.
 4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
 5. For the ILSP protocol, input the following information:
@@ -65,7 +65,7 @@ To set up data forwarding in ILSP protocol:
 
 ![](https://www.navixy.com/wp-content/uploads/2022/10/image-8-600x111.png)
 
-7. Next, the retranslator will need to be linked to the device on the ILSP side. To do so, select the  <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link" data-size="line">button in the data forwarding widget. Select the retranslator to be connected and click **Link** below.
+7. Next, the retranslator will need to be linked to the device on the ILSP side. To do so, select the  <img src="https://www.navixy.com/wp-content/uploads/2022/08/image-3.png" alt="link" data-size="line">button in the **Data forwarding** block. Select the retranslator to be connected and click **Link** below.
 8. Add information needed to identify the device on ILSP in the **External ID** field, either by clicking the pencil icon or the external ID field itself. This value should include the following from the ILSP side:
 
 ```

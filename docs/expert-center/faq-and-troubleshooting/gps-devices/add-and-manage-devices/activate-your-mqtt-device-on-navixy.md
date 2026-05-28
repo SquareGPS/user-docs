@@ -48,7 +48,7 @@ We’ll demonstrate how to configure your MQTT device on the Navixy platform thr
   US platform: `mqtt.us.navixy.com` port `1883`\
   EU platform: `mqtt.eu.navixy.com` port `1883`
 
-![](<../../../.gitbook/assets/image-20240717-165930 (2).png>)
+![](../../../.gitbook/assets/image-20240717-165930.png)
 
 In MQTT Security → Authorization, add a user with the following settings:
 
@@ -56,7 +56,7 @@ In MQTT Security → Authorization, add a user with the following settings:
 * **Username**: `bce_device`
 * **Password**: `secretword`
 
-![](<../../../.gitbook/assets/image-20240717-170022 (2).png>)
+![](../../../.gitbook/assets/image-20240717-170022.png)
 
 Ensure your topic configuration is correct:
 
@@ -106,11 +106,9 @@ When configuring an MQTT-compatible device, the user must specify the username a
 
 ![](../../../.gitbook/assets/image-20240717-170828.png)
 
-
-
 ### Example #3 Xirgo Global XG37/XG40/GX47 Devices
 
-#### #Configure the device&#x20;
+#### #Configure the device
 
 1. **Set up the APN.**
 2. **Verify the session settings.**
@@ -131,11 +129,11 @@ When configuring an MQTT-compatible device, the user must specify the username a
 
 <figure><img src="../../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
-**Session Settings.**&#x20;
+**Session Settings.**
 
 <figure><img src="../../../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
 
-**Configuration server address.**&#x20;
+**Configuration server address.**
 
 <figure><img src="../../../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -158,4 +156,3 @@ When configuring an MQTT-compatible device, the user must specify the username a
 <figure><img src="../../../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
 
 <br>
-

@@ -79,7 +79,7 @@ Each object has a <img src="../../../.gitbook/assets/image-20250129-104120.png" 
 
 * **Share location**: Instantly share the object’s location using the [Geo links](../../geo-links/) tool.
 * **Change icon**: Modify the object’s visual representation by selecting [Object icons](object-icons.md).
-* **Open Alert rules**: Manage alerts for specific conditions in the [Alerts](/broken/pages/af4DTfjY1sz82LLjmk4e) module.
+* **Open Alert rules**: Manage alerts for specific conditions in the [Rules and Alerts](../../events-and-notifications/README.md) module.
 * **Device settings**: Quickly navigate to the particular device’s configuration in the [Devices and Settings](../../devices-and-settings/).
 * **View reports**: Access reports related to the object’s activity in the [Reports](../../reports/) module.
 

@@ -34,7 +34,7 @@ For details on creating dashboards, see [Creating dashboards](creating-dashboard
 
 {% stepper %}
 {% step %}
-### Step 1: Open the report editor
+#### Step 1: Open the report editor
 
 In the left sidebar, click **Tools**, then select **New report**.
 
@@ -42,7 +42,7 @@ Dashboard Studio prompts you to choose a section from your shared menu structure
 {% endstep %}
 
 {% step %}
-### Step 2: Enter basic information
+#### Step 2: Enter basic information
 
 The editor opens with two fields at the top:
 
@@ -51,7 +51,7 @@ The editor opens with two fields at the top:
 {% endstep %}
 
 {% step %}
-### Step 3: Write the SQL query
+#### Step 3: Write the SQL query
 
 1. Click the **SQL Query** tab and enter a SELECT statement against your IoT Query tables. The query defines all three components (table, chart, and map), so include every column you intend to use across all views, for example:
 
@@ -73,7 +73,7 @@ LIMIT 1000
 {% endcode %}
 
 {% hint style="info" icon="lightbulb-exclamation" %}
-### Some tips for query building:
+#### Some tips for query building:
 
 * Add a LIMIT clause while configuring the report. It reduces query execution time and speeds up component preview. Remove or increase the limit before saving if you need the full dataset available for download.
 * After writing the query, you can click **Detect Columns** to check what columns are actually retrieved with this query. This helps to set up the column selectors in the **Components** tab. The step is optional. You can configure components manually, but running it first simplifies axis and field selection.
@@ -83,7 +83,7 @@ LIMIT 1000
 {% endstep %}
 
 {% step %}
-### Step 4: Configure components
+#### Step 4: Configure components
 
 Click the **Components** tab. Three components are available: **Table**, **Chart**, and **Map**. Each has a toggle to include or exclude it from the report. You can remove any component you do not need.
 
@@ -109,7 +109,7 @@ Configure the axes:
 {% endtab %}
 
 {% tab title="Location map" %}
-The location map plots data points using GPS coordinates.&#x20;
+The location map plots data points using GPS coordinates.
 
 Dashboard Studio can auto-detect latitude and longitude columns from your query result. When **Auto-detect GPS columns** toggle is enabled, the columns needed to define location (usually `latitude` and `longitude`) are selected automatically if your query returns them.
 
@@ -119,7 +119,7 @@ You can also disable the **Auto-detect** option and select the needed columns ma
 {% endstep %}
 
 {% step %}
-### Step 5: Save the report
+#### Step 5: Save the report
 
 Click Save. The report appears in the menu section you selected in step 1 and is accessible to all users who have access to that section.
 {% endstep %}
@@ -127,11 +127,11 @@ Click Save. The report appears in the menu section you selected in step 1 and is
 
 ## Viewing a report
 
-After you create a report it opens immediately. You will see all configured components rendered with live data from your IoT Query database. The report header displays the last updated timestamp, total row count, and query execution time.&#x20;
+After you create a report it opens immediately. You will see all configured components rendered with live data from your IoT Query database. The report header displays the last updated timestamp, total row count, and query execution time.
 
 The report page also exposes the SQL query directly, so you can update it whenever you need to.
 
-1. Expand the **SQL Query** section to view or edit the statement inline.&#x20;
+1. Expand the **SQL Query** section to view or edit the statement inline.
 2. Apply the changes:
    1. Click **Save** to store changes without running. You will need to click **Refresh** to re-execute the query and update all views with current data.
    2. **Save & Run** to apply the updated query immediately.

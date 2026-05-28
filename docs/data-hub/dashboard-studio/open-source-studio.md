@@ -47,7 +47,7 @@ JWT token generation through Navixy authentication gateway. Backend handles sess
 **Setup steps:**
 
 1. Review the repository [README](https://github.com/SquareGPS/navixy-iot-query-dashboard)
-2. Make sureyou have active IoT Query access&#x20;
+2. Make sureyou have active IoT Query access
 3. Install Node.js 18+ and npm
 4. Follow the repository [Quick Start guide](https://github.com/SquareGPS/navixy-iot-query-dashboard) for local deployment
 5. Review the [architecture documentation](https://github.com/SquareGPS/navixy-iot-query-dashboard/blob/main/docs/ARCHITECTURE.md) before customizing
@@ -131,7 +131,7 @@ The repository receives regular updates aligned with hosted version releases. Ne
 Monitor the repository for releases containing bug fixes, security patches, and features. Test your customizations after updates before deploying to production.
 
 {% hint style="info" %}
-### Support and assistance
+#### Support and assistance
 
 For technical support and assistance with IoT Query, contact our support team at [iotquery@navixy.com](mailto:iotquery@navixy.com).
 {% endhint %}

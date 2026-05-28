@@ -1,18 +1,18 @@
 # Platform not displaying tracks even though trip history exists
 
-### Question
+## Question
 
 Why does Navixy show an empty trip history even though the device had some real trip history?
 
-### Answer
+## Answer
 
-First thing to keep in mind is that the platform mostly always shows what it has been provided with. However, there are some scenarios that prevent some tracker trip history data from being displayed in tracking history sections (widgets).
+First thing to keep in mind is that the platform usually shows what it has been provided with. However, there are some scenarios that prevent some tracker trip history data from being displayed in tracking history sections (widgets).
 
-Usually, it is enough to disable the **Split by stops** and **Smart filter** options to show “raw trip data” without filters. These two filters can drastically change the way trip history is displayed in the tracking module. However, if you see no points after disabling both options, you might want to review and analyze raw data using the [Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data) feature. There may be no points provided by the device for the given time span.
+Usually, it is enough to disable the **Split by stops** and **Smart filter** options to show "raw trip data" without filters. These two filters can drastically change the way trip history is displayed in the tracking module. However, if you see no points after disabling both options, you might want to review and analyze raw data using the [Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data) feature. There may be no points provided by the device for the given time span.
 
-First, the Parking Detection system is applied to the points delivered by the tracker. The Parking Detection system (portlet) is a very important part of the trip history logic. It may filter a big part of trips in cases of bad Parking Detection configuration or inconsistent data provided by a tracker. To find out more about the logic, refer to the documentation on [Parking Detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-widget). In short, the logic is as follows.
+First, the Parking Detection system is applied to the points delivered by the tracker. The Parking Detection system is a very important part of the trip history logic. It may filter a big part of trips in cases of bad Parking Detection configuration or inconsistent data provided by a tracker. To find out more about the logic, refer to the documentation on [Parking Detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-block). In short, the logic is as follows.
 
-There are parameters defined in the Parking Detection portlet (Devices & Settings):
+There are parameters defined in the **Parking detection** block (Devices & Settings):
 
 * Minimum idle detection time (**min\_parking**): the minimum amount of time that the object must remain stationary before it is considered parked.
 * Maximum idle speed (**min\_speed**): the speed threshold under which the object must stay to be recognized as parked.
@@ -26,23 +26,21 @@ Based on the logic above, trip history can be displayed differently (difference 
 The second thing to keep in mind is Smart Filter. It filters (drops) points from trips formed by Parking Detection which:
 
 * are shorter than 300 meters
-* have less than 4 points
+* have fewer than 4 points
 * have a small radius (the tracker drives around one point, so all points are close to each other)
 
 To summarize:
 
-At the first step, the **Split by stops** option is used to form trips. Then, if both options are selected in the widget (see the screenshot below), the **Smart Filter** logic is applied to the resulting trips.
+At the first step, the **Split by stops** option is used to form trips. Then, if both options are selected in the widget (see the screenshot below), the **Smart Filter** logic is applied to the resulting trips. ![](<../.gitbook/assets/Unknown image (17)>)
 
-![](<../.gitbook/assets/Unknown image (104)>)
-
-Disable both options to see “raw trip data”.
+Disable both options to see raw trip data.
 
 If you need to manually verify all algorithm calculations and ensure the described processes work as expected, you can use the Raw Data feature.
 
 Learn more about [exporting](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file) and [interpreting](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file) Raw Data.
 
-### Links
+## Links
 
-* [Parking Detection](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-widget)
+* [Raw data block](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/object-management/raw-data-block)
 * [Exporting Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)
 * [Interpreting Raw Data](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file/columns-in-csv-file)

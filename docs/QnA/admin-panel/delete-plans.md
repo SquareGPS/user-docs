@@ -12,6 +12,6 @@ Contact Support and provide the plan name/ID.
 
 Make sure the plan has no associated devices.
 
-## Link
+## Links
 
 * [Plans](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/plans)

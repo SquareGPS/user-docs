@@ -69,7 +69,7 @@ What is important to know about calibration table fulfillment - **the number of 
 
 Here is the example of the good calibration table
 
-![](<../../../.gitbook/assets/image-20231219-113955 (2).png>)
+![](../../../.gitbook/assets/image-20231219-113955.png)
 
 {% hint style="info" %}
 There is no need to calibrate OEM sensors that transmit data in liters.

@@ -35,7 +35,7 @@ This section is for the cases, when the real units of measure and the units rece
 
 This sections is for the cases, when the values received from the sensor does not match to the real values. Please be informed, that when fuel tank is inclined, fuel sensor might send incorrect values
 
-![](https://www.navixy.com/wp-content/uploads/2019/05/fuel-tank-is-inclined.png)
+![](../../.gitbook/assets/fuel-tank-is-inclined.png)
 
 1. Please check, that data is parsed and shown in the [air console](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/air-console), if there is no data from the device in the gprs-terminal, it means that currently device is not sending any data
 2. [Calibration table](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/vehicle-sensors/measurement-sensors) should be filled correctly according to the sensor user manual (if needed), also “drains” detection parameters should be specified correctly
@@ -70,4 +70,4 @@ Different trackers process and report fuel sensor data in different ways. For ex
 
 Other sensors might return voltage instead of percents or direct volume. In such cases, more detailed calibration will be required. In order to fill out a calibration table – you will need to measure sensor’s values at different fuel levels in the tank and then input results into the table. In case, some unrelevant values may be received by the sensor, you’re able to set Ignore values parameter to get them filtered.
 
-![Calibrate a fuel sensor](<../../.gitbook/assets/image-20231130-090712 (2).png>)
+![Calibrate a fuel sensor](../../.gitbook/assets/image-20231130-090712.png)

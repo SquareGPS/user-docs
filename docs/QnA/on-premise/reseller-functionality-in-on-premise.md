@@ -1,13 +1,13 @@
-# Reseller functionality in On-premise
+# Reseller functionality in On-Premise
 
-### Question
+## Question
 
-Can I have reseller functionality for my On-premise instance?
+Can I have reseller functionality for my On-Premise instance?
 
-### Answer
+## Answer
 
 No.
 
-Reseller functionality is not available for On-premise.
+Reseller functionality is not available for On-Premise.
 
-If you need reseller functionality (Admin Panel access for your clients), you would need a separate On-premise license for another instance that is not linked to the existing one.
+If you need reseller functionality (Admin Panel access for your clients), you would need a separate On-Premise license for another instance that is not linked to the existing one.

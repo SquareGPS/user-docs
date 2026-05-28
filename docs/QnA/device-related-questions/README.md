@@ -4,7 +4,7 @@ This section provides manufacturer-specific configuration and troubleshooting fo
 
 You'll find step-by-step instructions for sensor configuration, video streaming setup, command syntax, and parameter adjustment for different manufacturers. Essential for installation technicians, technical support teams, and anyone working directly with GPS tracking hardware who needs to bridge the gap between device manuals and successful platform integration.
 
-### Browse guides
+## Browse guides
 
 <details>
 

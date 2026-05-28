@@ -44,7 +44,7 @@ Grafana must be installed on your system before you can connect to **IoT Query**
 
 {% stepper %}
 {% step %}
-### Install Grafana
+#### Install Grafana
 
 1. Download and install Grafana from the official website:\
    [https://grafana.com/grafana/download](https://grafana.com/grafana/download)
@@ -52,7 +52,7 @@ Grafana must be installed on your system before you can connect to **IoT Query**
 {% endstep %}
 
 {% step %}
-### Download dashboard templates (optional)
+#### Download dashboard templates (optional)
 
 Pre-built dashboard templates are available to help you get started quickly without building visualizations from scratch. These templates are maintained the [bi-intergrations repository](https://github.com/SquareGPS/bi-intergrations) under the `grafana` folder. You can clone the repository for access to ready-made dashboards:
 
@@ -66,17 +66,17 @@ Check the `grafana` folder for available dashboard JSON files.
 
 ## Database connection
 
-The Connections section in Grafana is where you manage all data source integrations.&#x20;
+The Connections section in Grafana is where you manage all data source integrations.
 
 {% stepper %}
 {% step %}
-### Access the Connections tab
+#### Access the Connections tab
 
 Open Grafana and navigate to **Connections** in the left sidebar. **IoT Query** runs on PostgreSQL, so you need to add a PostgreSQL data source enable Grafana to query your telematics data.
 {% endstep %}
 
 {% step %}
-### Add PostgreSQL data source
+#### Add PostgreSQL data source
 
 The PostgreSQL data source plugin comes pre-installed with Grafana and provides native support for connecting to PostgreSQL databases.
 
@@ -88,7 +88,7 @@ To add the data source:
 {% endstep %}
 
 {% step %}
-### Configure connection parameters
+#### Configure connection parameters
 
 Your **IoT Query** connection details contain all the information needed to establish a secure connection. These parameters are unique to your instance and ensure Grafana can access your telematics data.
 
@@ -108,7 +108,7 @@ Locate your connection parameters in your Navixy account and the **IoT Query** w
 {% endstep %}
 
 {% step %}
-### Configure additional settings
+#### Configure additional settings
 
 Beyond the essential connection parameters, Grafana offers additional configuration options. For most users, the default values are appropriate and will work correctly without modification. You can adjust these settings later based on your organization's security requirements, infrastructure constraints, or specific equipment needs.
 
@@ -116,7 +116,7 @@ Leave all other fields at their default values for initial setup. You don't need
 {% endstep %}
 
 {% step %}
-### Test the connection
+#### Test the connection
 
 Testing the connection before saving ensures that all parameters are correct and that Grafana can successfully communicate with your **IoT Query** instance.
 
@@ -134,7 +134,7 @@ Building your first visualization helps you understand how Grafana queries **IoT
 
 {% stepper %}
 {% step %}
-#### Create a new dashboard
+**Create a new dashboard**
 
 Dashboards in Grafana serve as containers for multiple visualizations. Creating a dedicated dashboard helps you organize related visualizations and provides a central location for monitoring specific aspects of your fleet operations.
 
@@ -147,7 +147,7 @@ To create a dashboard:
 {% endstep %}
 
 {% step %}
-#### Configure the query
+**Configure the query**
 
 Grafana provides two query modes: a visual Builder and a Code editor. For **IoT Query** connections, the Code editor gives you full control over SQL queries and is recommended for telematics data analysis.
 
@@ -176,7 +176,7 @@ For more query examples, refer to the [SQL Recipe Book](https://www.navixy.com/d
 {% endstep %}
 
 {% step %}
-#### Set visualization format
+**Set visualization format**
 
 The visualization format determines how your data appears on the dashboard. Different formats suit different types of data—time series work well for sensor readings over time, while tables are better for detailed records.
 
@@ -191,13 +191,13 @@ Time series visualizations require a time column and numeric values to function 
 {% endstep %}
 
 {% step %}
-#### Save your visualization
+**Save your visualization**
 
 Saving your work preserves the visualization configuration and makes it available for future reference. Regular saves are important—Grafana doesn't automatically save changes, so you could lose your work if you navigate away without saving.
 
 To save a visualiyation:
 
-1. Click **Save**&#x20;
+1. Click **Save**
 2. Provide a descriptive name for your dashboard
 3. Select or create a folder for organization
 4. Confirm the save operation
@@ -212,7 +212,7 @@ Variables are one of Grafana's most powerful features for creating dynamic, inte
 
 {% stepper %}
 {% step %}
-#### Access variable settings
+**Access variable settings**
 
 Variables are configured at the dashboard level and apply to all visualizations within that dashboard. You need to access the dashboard settings to create and manage variables.
 
@@ -225,7 +225,7 @@ To begin:
 {% endstep %}
 
 {% step %}
-#### Configure a variable
+**Configure a variable**
 
 Each variable needs a name, a data source, and a query that returns the possible values users can select. The variable values are populated dynamically by querying your **IoT Query** instance.
 
@@ -254,7 +254,7 @@ After entering the query, Grafana executes it immediately and displays a preview
 {% endstep %}
 
 {% step %}
-#### Apply variables in queries
+**Apply variables in queries**
 
 Once a variable is created, you need to update your visualization queries to reference it. Variables use special syntax with a dollar sign prefix, and Grafana automatically substitutes the selected value when executing queries.
 
@@ -282,7 +282,7 @@ Notice how `'temperature'` has been replaced with `'$sensor_name'`. The quotes a
 {% endstep %}
 
 {% step %}
-#### Save and test
+**Save and test**
 
 Testing the variable ensures it works correctly and updates visualizations as expected. Make sure to save your work at each step to avoid losing configuration changes.
 
@@ -305,7 +305,7 @@ Pre-built dashboards provide a fast way to start visualizing your data without b
 
 {% stepper %}
 {% step %}
-#### Access the import function
+**Access the import function**
 
 Grafana's import feature allows you to load dashboard configurations from JSON files or directly from Grafana.com using dashboard IDs.
 
@@ -315,7 +315,7 @@ Grafana's import feature allows you to load dashboard configurations from JSON f
 {% endstep %}
 
 {% step %}
-#### Import the dashboard
+**Import the dashboard**
 
 The import process accepts dashboard configurations in multiple formats, giving you flexibility in how you load pre-built dashboards.
 
@@ -336,7 +336,7 @@ Wait for the dashboard template to finish uploading. Once complete, the dashboar
 {% endstep %}
 
 {% step %}
-#### Update data source connections
+**Update data source connections**
 
 This is a critical step. Imported dashboards are initially connected to external data sources that don't have access to your **IoT Query** data. You must update each visualization to use your PostgreSQL **IoT Query** connection.
 
@@ -356,7 +356,7 @@ Save your work frequently during this process. You may have multiple visualizati
 {% endstep %}
 
 {% step %}
-#### Update dashboard variables
+**Update dashboard variables**
 
 Many pre-built dashboards use variables for filtering and interactivity. These variables are also connected to the original data source and must be updated to query your **IoT Query** instance.
 
@@ -375,7 +375,7 @@ After updating all variables, save the dashboard again. The variables should now
 {% endstep %}
 
 {% step %}
-#### Verify dashboard functionality
+**Verify dashboard functionality**
 
 Once you've updated all visualizations and variables, verify that everything works together correctly. This final check ensures the dashboard is fully functional and ready for regular use.
 

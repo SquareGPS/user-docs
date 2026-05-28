@@ -1,10 +1,10 @@
-# Configuring sensors on Teltonika trackers
+﻿# Configuring sensors on Teltonika trackers
 
-### Question
+## Question
 
 How to configure a measurement/discrete sensor on a Teltonika tracker?
 
-### Answer
+## Answer
 
 To configure a sensor on a Teltonika tracker, follow the step-by-step guidance below.
 
@@ -14,7 +14,7 @@ Here we provide instructions for Teltonika FMB920, where we configure Board Volt
 
 {% stepper %}
 {% step %}
-### Download the configurator
+## Download the configurator
 
 Download the correct configurator version for your model:
 
@@ -30,7 +30,7 @@ If it is your first time downloading and using a Teltonika configurator, unzip t
 {% endstep %}
 
 {% step %}
-### Open configurator
+## Open the configurator
 
 Connect the device to the PC or create an offline preset.
 
@@ -44,7 +44,7 @@ If you don't have the device on hand, you can upload the configuration later usi
 {% endstep %}
 
 {% step %}
-### Choose the parameter
+## Choose the parameter
 
 Find the parameter by meaning.
 
@@ -54,7 +54,7 @@ Example: Board Voltage may be named **External Voltage**.
 {% endstep %}
 
 {% step %}
-### Configure sending settings
+## Configure sending settings
 
 To work well with Navixy:
 
@@ -66,11 +66,11 @@ To work well with Navixy:
 
 Save the configuration to the device.
 
-In case the device is not nearby, you can update the configuration online via Air Console.
+If the device is not nearby, you can update the configuration online via Air Console.
 {% endstep %}
 
 {% step %}
-### Optional: set parameters via Air Console (GPRS) / SMS
+## Optional: set parameters via Air Console (GPRS) / SMS
 
 If the device is remote, configure via Air Console or SMS.
 
@@ -95,7 +95,7 @@ When sending Teltonika configuration commands via SMS, add **two leading spaces*
 {% endstep %}
 
 {% step %}
-### Verify the parameter arrives to Navixy
+## Verify the parameter arrives to Navixy
 
 Find the **AVL ID** (not Parameter ID).
 
@@ -111,7 +111,7 @@ In Air Console, verify `avl_io 66` appears.
 {% endstep %}
 
 {% step %}
-### Create the sensor in Navixy
+## Create the sensor in Navixy
 
 1. Open **Devices & Settings**.
 2. Select the tracker.

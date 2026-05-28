@@ -10,7 +10,7 @@ By default, the platform can send activation and default configuration commands.
 
 Disable it in Admin Panel:
 
-Settings → Service preferences → Device activation → **Don't send default settings**
+Settings → Service preferences → Device activation → Don't send default settings
 
 This prevents the platform from sending default settings after activation.
 

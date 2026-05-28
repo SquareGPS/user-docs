@@ -17,6 +17,6 @@ You can:
 
 If the site blocks iframes, Support won't troubleshoot that issue.
 
-## Link
+## Linksss
 
 * [Service preferences](https://www.navixy.com/docs/admin/settings/service-preferences)

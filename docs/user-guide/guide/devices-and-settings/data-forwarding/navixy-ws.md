@@ -50,7 +50,7 @@ To set up data forwarding in Navixy Web Service protocol:
 
 1. Go to **Devices and settings** from the left sidebar.
 2. Select the needed device from the **Objects** list.
-3. Find the **Data forwarding** portlet, expand it and click <img src="../../../.gitbook/assets/image (36).png" alt="" data-size="line">.
+3. Find the **Data forwarding** block, expand it and click <img src="../../../.gitbook/assets/image (36).png" alt="" data-size="line">.
 4. In the opened window, click "+" to add a new retranslation.
 5. In the **New retranslation protocol** dialog, input the required information. For Navixy Web Service protocol, fill in the following fields:
 
@@ -59,7 +59,7 @@ To set up data forwarding in Navixy Web Service protocol:
 6. Toggle the **Enabled** switch on to activate data retranslation. The retranslator will not transmit any data while disabled.
 7. The **Retranslation management** screen should look similar to the following, with the Navixy Web Service login and password. Make sure the status is **Active** if you want this retranslator to sebd data.\
    ![](<../../../.gitbook/assets/image (37).png>)
-8. Next, the retranslator will need to be linked to the device. To do so, enable the toggle with the needed retranslator name in the **Data forwarding** portlet. External ID is not needed for the Navixy Web Service protocol.\
+8. Next, the retranslator will need to be linked to the device. To do so, enable the toggle with the needed retranslator name in the **Data forwarding** block. External ID is not needed for the Navixy Web Service protocol.\
    ![](<../../../.gitbook/assets/image (38).png>)
 
 {% hint style="success" %}
@@ -134,14 +134,14 @@ An example response may look like this:
 
 To edit or stop data being forwarded, follow this steps steps:
 
-1. In any **Data forwarding** portlet, click <img src="../../../.gitbook/assets/image (39).png" alt="" data-size="line"> to open the list of available protocols.
+1. In any **Data forwarding** block, click <img src="../../../.gitbook/assets/image (39).png" alt="" data-size="line"> to open the list of available protocols.
 2. Click <img src="../../../.gitbook/assets/Untitled-20250425-103233.png" alt="" data-size="line"> to change retranslator settings such as name, login information, or enabled status.
 3. Click <img src="../../../.gitbook/assets/image-20250425-104605.png" alt="" data-size="line"> and confirm to delete a retranslator
 
 All changes are saved automatically.
 
 {% hint style="info" %}
-To enable/disable a retranslator for a certain device, switch the toggle with the needed retranslator name in the device's **Data forwarding** portlet.
+To enable/disable a retranslator for a certain device, switch the toggle with the needed retranslator name in the device's **Data forwarding** block.
 {% endhint %}
 
 #### Troubleshooting

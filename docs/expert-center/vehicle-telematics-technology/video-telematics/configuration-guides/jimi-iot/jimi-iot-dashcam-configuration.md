@@ -39,7 +39,7 @@ Otherwise, here are step-by-step instructions for configuring your Jimi IoT devi
 1. Find the device’s IMEI number. Then, log in to the platform and navigate to the user account where you want to add the new device. Click the 'Device Activation' button.
 2. Enter the device's name, assign it to a group if necessary, and type your device's model into the search line (for example, Jimi JC261).
 
-![Device configuration](<../../../../.gitbook/assets/image-20231023-134921 (2).png>)
+![Device configuration](../../../../.gitbook/assets/image-20231023-134921.png)
 
 * Send the following SMS commands to your tracker (this is why we needed a SIM card with SMS functionality):
   * `COREKITSW,0#`
@@ -77,7 +77,7 @@ Replace with your device’s IMEI and with the server IP, both without <> signs.
 4. Send command with timezone:
 
 * `TIMEZONE,<+00:00>`\
-  Replace <+00:00> with your local timezone. Our platform operates optimally with timezone UTC+0. For certain devices like Jimi IoT dashcam units, we have added a specific portlet on the platform. If you don't set your local timezones, timestamps on recorded and streamed videos will be incorrect, potentially making them inadmissible, for example, in court.
+  Replace <+00:00> with your local timezone. Our platform operates optimally with timezone UTC+0. For certain devices like Jimi IoT dashcam units, we have added a specific block on the platform. If you don't set your local timezones, timestamps on recorded and streamed videos will be incorrect, potentially making them inadmissible, for example, in court.
 
 5. After setting the timezone, open the devices and settings tab and change the device’s timezone to match the one you've set on your device.
 

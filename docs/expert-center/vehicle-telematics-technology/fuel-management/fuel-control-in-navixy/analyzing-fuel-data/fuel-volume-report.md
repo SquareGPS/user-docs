@@ -6,7 +6,7 @@
 Please make sure the platform is configured properly before you create a fuel report, so events could be recognized properly:
 
 * Check [sensor settings](../sensors-setup-and-configuration.md)
-* Check [parking detection settings](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-widget)
+* Check [parking detection settings](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/location-and-movement/parking-detection-block)
 {% endhint %}
 
 ### Refills and drains in reports

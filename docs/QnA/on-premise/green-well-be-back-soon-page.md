@@ -1,12 +1,12 @@
-# Green “We’ll be back soon” page
+# Green "We'll be back soon" page
 
-### Question
+## Question
 
-What does the green “We’ll be back soon” page mean?
+What does the green "We'll be back soon" maintenance page mean?
 
-![](<../.gitbook/assets/Unknown image (144)>)
+![](<../.gitbook/assets/Unknown image (57)>)
 
-### Answer
+## Answer
 
 This "green" error is typically a consequence of the `api-server` service being inoperable.
 
@@ -18,4 +18,4 @@ Restart:
 
 `systemctl start api-server`
 
-If the service is working normally, another common reason is incorrect domain configuration. For example, the domain name set in Admin Panel does not match what is configured in Nginx. Validate the domain settings to locate the mismatch.
+If the service is working normally, another common reason is incorrect domain configuration. For example, the domain name set in **Admin Panel** does not match what is configured in Nginx. Validate the domain settings to locate the mismatch.

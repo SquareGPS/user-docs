@@ -132,7 +132,7 @@ Navigate to the **Devices and settings** in the main side panel
 {% endstep %}
 
 {% step %}
-Select the **Data Forwarding** portlet
+Select the **Data Forwarding** block
 {% endstep %}
 
 {% step %}

@@ -13,6 +13,7 @@
     * [Transformation layer](iot-query/schema-overview/transformation-layer/README.md)
       * [Common transformations](iot-query/schema-overview/transformation-layer/common-transformations/README.md)
         * [Trips](iot-query/schema-overview/transformation-layer/common-transformations/trips.md)
+        * [Sensor data aggregation](iot-query/schema-overview/transformation-layer/common-transformations/sensor-data-aggregation.md)
       * [Transformation Builder](iot-query/schema-overview/transformation-layer/transformation-builder/README.md)
         * [Workflow YAML reference](iot-query/schema-overview/transformation-layer/transformation-builder/workflow-yaml-reference.md)
         * [Templates](iot-query/schema-overview/transformation-layer/transformation-builder/templates.md)

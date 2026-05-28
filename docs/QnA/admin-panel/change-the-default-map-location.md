@@ -16,6 +16,6 @@ Use the visual editor to set:
 * zoom
 * default coordinates
 
-## Link
+## Links
 
-* [Service preferences](https://www.navixy.com/docs/admin/settings/maps)
+* [Service preferences](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/service-preferences)

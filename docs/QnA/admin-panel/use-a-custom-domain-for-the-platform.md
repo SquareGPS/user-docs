@@ -15,6 +15,6 @@ How can I customize my web address for the platform?
 3. In Admin Panel, go to Settings → Service preferences → Domain name.
 4. For HTTPS, open a support ticket to enable SSL.
 
-### Link
+### Links
 
 * [Domain name](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/settings/domain-name)

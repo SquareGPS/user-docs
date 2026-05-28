@@ -1,10 +1,10 @@
 # FMC150 (QJIBO/QKIBO) Input and Output Capabilities
 
-### Question
+## Question
 
 What are the differences in input and output capabilities between the FMC150-QJIB0 and FMC150-QKIB0 device variants?
 
-### Answer
+## Answer
 
 **FMC150-QJIB0** is more input-oriented:
 

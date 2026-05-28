@@ -12,6 +12,6 @@ However, you can update this to up to **three years** by working with your Custo
 
 This data, even when not displayed, is still saved for up to three years. If you need it after the fact, it can be provided on request.
 
-## Link
+## Links
 
 * [Plans](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/plans)

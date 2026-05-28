@@ -1,10 +1,10 @@
 # Navixy SMS gateway
 
-### Question
+## Question
 
 Can Navixy provide SMS gateway service to clients?
 
-### Answer
+## Answer
 
 Yes, but only in limited cases.
 

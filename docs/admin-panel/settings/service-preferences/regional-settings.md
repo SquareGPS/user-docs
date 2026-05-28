@@ -26,55 +26,36 @@ Navixy is dedicated to global accessibility, currently supporting dozens of lang
 
 1. Albanian
 2. Arabic
-3. Armenian
-4. Azerbaijani
-5. Bosnian
-6. Bulgarian
-7. Chinese (Simplified)
-8. Chinese (Traditional, Hong Kong)
-9. Croatian
-10. Czech
-11. Danish
-12. Dutch
-13. English
-14. English (United States)
-15. English (Zimbabwe)
-16. Estonian
-17. Finnish
-18. French
-19. Georgian
-20. German
-21. Greek
-22. Hebrew
-23. Hindi
-24. Hungarian
-25. Icelandic
-26. Indonesian
-27. Italian
-28. Kazakh
-29. Khmer
-30. Korean
-31. Kurdish
-32. Latvian
-33. Lithuanian
-34. Macedonian
-35. Mongolian
-36. Norwegian
-37. Persian
-38. Polish
-39. Portuguese
-40. Portuguese (Brazil)
-41. Romanian
-42. Russian
-43. Serbian
-44. Sinhala
-45. Spanish
-46. Spanish (Venezuela)
-47. Swedish
-48. Tajik
-49. Tamil
-50. Thai
-51. Turkish
-52. Ukrainian
+3. Bosnian
+4. Bulgarian
+5. Croatian
+6. Danish
+7. Dutch
+8. English (United States)
+9. French
+10. Georgian
+11. German
+12. Greek
+13. Hungarian
+14. Indonesian
+15. Italian
+16. Kazakh
+17. Korean
+18. Lithuanian
+19. Macedonian
+20. Mongolian
+21. Persian (Farsi)
+22. Polish
+23. Portuguese
+24. Portuguese (Brazil)
+25. Romanian
+26. Russian
+27. Serbian
+28. Sinhala
+29. Spanish
+30. Tamil
+31. Thai
+32. Turkish
+33. Ukrainian
 
 </details>

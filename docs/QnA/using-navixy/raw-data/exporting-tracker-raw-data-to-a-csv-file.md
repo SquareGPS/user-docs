@@ -1,16 +1,16 @@
 # Exporting tracker raw data to a CSV file
 
-### Question
+## Question
 
 How can I export raw data from a GPS tracker to a CSV file?
 
-### Answer
+## Answer
 
 You can export raw (parsed raw) data from any device in CSV format by following these steps:
 
 1. Go to **Devices and Settings**.
 2. Select the device you want to export data from.
-3. In the **Raw data** portlet, click **Export data**.
+3. In the **Raw data** block, click **Export data**.
 4. In the **Raw data export** window, choose:
    * Date range (up to 30 days)
    * Time zone
@@ -19,6 +19,6 @@ You can export raw (parsed raw) data from any device in CSV format by following 
 
 The CSV file can be opened in any text editor or spreadsheet viewer.
 
-### Links
+## Links
 
 * [Raw data export tool](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/faq-and-troubleshooting/access-iot-data/save-iot-data-to-csv-file)

@@ -1,4 +1,4 @@
-# Suspension plan is applied to a user, but devices are still active
+# Suspension plan applied to a user but devices are still active
 
 ## Question
 
@@ -12,4 +12,4 @@ To suspend existing devices, apply the suspension plan to each device.
 
 ## Links
 
-* [Suspending a tracker](https://www.navixy.com/docs/admin/plans/suspending-service-for-a-device)
+* [Suspending a tracker](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/plans/suspending-service-for-a-device)

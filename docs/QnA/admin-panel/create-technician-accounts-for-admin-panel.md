@@ -20,6 +20,6 @@ They cannot:
 * manage plans
 * change general platform settings
 
-### Link
+## Links
 
 * [Access](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/access)

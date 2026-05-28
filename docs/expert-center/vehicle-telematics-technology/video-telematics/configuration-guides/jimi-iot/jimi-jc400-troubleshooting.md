@@ -4,7 +4,7 @@ Here we have prepared a step-by-step instruction to troubleshoot the JC400 issue
 
 1. Check the correctness of entered IMEI
 
-![](https://www.navixy.com/wp-content/uploads/2022/10/img1.jpg)
+![](../../../../.gitbook/assets/jimi-jc400-troubleshooting-1.jpg)
 
 1. Check the SIM card connectivity. There should be a possibility to receive an SMS, have GPRS/LTE traffic service available, and be covered by a GSM service provider with an acceptable speed in the current location of a device. RTMP traffic should be available too. Please note that SMS service is not likely to be available on M2M SIM cards.
 2. Check the firmware version manually or by using the next command:
@@ -62,7 +62,7 @@ APN,{apn},{apn},,,,,,,,,,,,#
 1. Regarding the offline status issues, please check if the device is switched on and has a sufficient battery charge
 2. When your device is online, click to Retry activation to automatically provide all necessary settings
 
-![](https://www.navixy.com/wp-content/uploads/2022/10/img2.jpg)
+![](../../../../.gitbook/assets/jimi-jc400-troubleshooting-2.jpg)
 
 If you have some issues with command sending or sending of default commands is disabled in your admin panel settings, send the next commands one by one to set up your device and overwrite the settings, in case of failed delivery or device handling failure (please note the EU/US different sets of commands and choose the relevant one according to your platform account region). Substitute the {IMEI} with your device IMEI without braces.
 

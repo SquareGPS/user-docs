@@ -62,7 +62,7 @@ The three different QoS levels determine how the content is managed by the MQTT 
 * The second QoS level is acknowledged service. This QoS level uses a PUBLISH/PUBACK packet sequence between the publisher and its broker, as well as between the broker and subscribers. An acknowledgment packet verifies that content has been received, and a retry mechanism will send the original content again if an acknowledgment is not received in a timely manner. This may result in the subscriber receiving multiple copies of the same message. This QoS level may also be referred to as at least once or QoS1.
 * The third QoS level is assured service. This QoS level delivers the message with two pairs of packets. The first pair is called PUBLISH/PUBREC, and the second pair is called PUBREL/PUBCOMP. The two pairs ensure that, regardless of the number of retries, the message will only be delivered once. This QoS level may also be referred to as exactly once or QoS2.
 
-![QoS MQTT](https://www.navixy.com/wp-content/uploads/2021/08/chrome_q1ak4noiok-600x466.png)
+![QoS MQTT](../../.gitbook/assets/chrome_q1ak4noiok-600x466.png)
 
 ## Advantages and disadvantages
 
