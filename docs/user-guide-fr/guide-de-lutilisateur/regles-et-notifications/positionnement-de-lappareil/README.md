@@ -1,2 +1,0 @@
-# Positionnement de l'appareil
-

@@ -1,2 +1,0 @@
-# Détails spécifiques du rapport
-

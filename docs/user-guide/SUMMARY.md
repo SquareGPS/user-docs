@@ -20,7 +20,7 @@
       * [Quick start guide](guide/account/iot-logic/quick-start-guide/README.md)
         * [Templates](guide/account/iot-logic/quick-start-guide/templates.md)
       * [Flow management](guide/account/iot-logic/flow-management/README.md)
-        * [Default flow](guide/account/iot-logic/flow-management/default-flow.md)
+        * [Default data processing](guide/account/iot-logic/flow-management/default-flow.md)
         * [Flow configuration example](guide/account/iot-logic/flow-management/flow-configuration-example.md)
       * [Nodes](guide/account/iot-logic/nodes/README.md)
         * [Data Source](guide/account/iot-logic/nodes/data-source-node.md)

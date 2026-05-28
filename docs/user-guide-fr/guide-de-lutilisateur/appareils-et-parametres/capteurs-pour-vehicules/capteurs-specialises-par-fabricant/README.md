@@ -1,2 +1,0 @@
-# capteurs-specialises-par-fabricant
-

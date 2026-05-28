@@ -156,7 +156,7 @@ Now that you've created your first IoT Logic flow, you can:
 
 #### What happens to devices not assigned to a custom flow?
 
-The default flow processes all devices, including those assigned to custom flows. There is no auto-exclusion: a device in a custom flow continues to be processed by the default flow as well.
+Navixy automatically ensures their data reaches the platform at the system level. No custom flow or additional configuration is needed for basic data transmission. Custom flows are for going beyond this baseline — enriching data, applying conditional logic, or routing to external systems.
 
 #### Can I use the same device in multiple flows?
 
@@ -172,4 +172,4 @@ Use the Data Stream Analyzer to monitor real-time data transmission. This tool s
 
 #### What happens if I disable a flow?
 
-When you disable a flow, the custom processing and any MQTT outputs configured in that flow stop. However, the default flow remains active and continues to send data from all devices to the Navixy platform, so devices will still be visible in the interface. Only disable a flow when you deliberately want to stop its specific transformations or external outputs.
+When you disable a flow, all data transmission for the devices assigned to it stops — including delivery to the Navixy platform. The devices will no longer be visible or updated in the interface until the flow is re-enabled. Only disable a flow when you deliberately want to stop data transmission completely for the affected devices.
