@@ -1,8 +1,5 @@
 ---
-description: >-
-  Learn how to analyze fuel level changes, detect refueling and drain events,
-  and interpret fuel consumption and sensor quality data in the Fuel volume
-  report.
+description: Analyze fuel level changes with the Fuel volume report. Detect refueling and drain events, review daily consumption, and assess sensor quality.
 ---
 
 # Fuel volume report

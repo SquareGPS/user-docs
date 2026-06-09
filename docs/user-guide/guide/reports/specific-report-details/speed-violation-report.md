@@ -1,8 +1,5 @@
 ---
-description: >-
-  Learn how to detect speeding episodes, configure speed and duration
-  thresholds, and interpret violation graphs and tables in the Speed violation
-  report.
+description: Identify speeding episodes with the Speed violation report. Configure speed and duration thresholds and review violation graphs and tables.
 ---
 
 # Speed violation report

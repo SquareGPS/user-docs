@@ -1,7 +1,5 @@
 ---
-description: >-
-  Reference overview of all node types available in IoT Logic, with links to
-  configuration details for each.
+description: Browse all IoT Logic node types, including Data Source, Initiate Attribute, IF/THEN Logic, Device action, Output Endpoint, and Webhook. Links to each guide.
 ---
 
 # Nodes

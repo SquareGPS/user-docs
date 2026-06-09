@@ -1,8 +1,5 @@
 ---
-description: >-
-  No-code telematics data processing built into Navixy. Receive data from GPS
-  trackers, IoT sensors, and telematics servers, transform it, and route it to
-  Navixy or external systems in real time.
+description: Process telematics data without coding in IoT Logic. Receive data from GPS trackers, apply transformations, and route results to Navixy or external systems.
 ---
 
 # IoT Logic

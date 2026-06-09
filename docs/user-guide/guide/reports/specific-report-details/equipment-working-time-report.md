@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to track equipment uptime, motion and idle time, configure report
-  parameters, and interpret equipment working time data in Navixy.
+description: Track equipment uptime, motion time, and idle time with the Equipment working time report. Configure parameters and interpret the results.
 ---
 
 # Equipment working time report

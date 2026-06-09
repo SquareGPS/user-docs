@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to interpret report graphs and tables, use common report parameters,
-  and work with generated reports in Navixy.
+description: Interpret Navixy report graphs and tables, apply common parameters like date range and object filters, and export or share generated reports.
 ---
 
 # How to read reports

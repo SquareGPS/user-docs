@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn what the Trips report shows, which parameters it supports, and how to
-  interpret trip distance, duration, speed, stops, and fuel data.
+description: Analyze trips with the Trips report: review mileage, duration, average and max speed, stops, and fuel consumption per trip for any date range.
 ---
 
 # Trips report

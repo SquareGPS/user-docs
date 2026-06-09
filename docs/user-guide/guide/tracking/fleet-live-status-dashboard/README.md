@@ -1,7 +1,5 @@
 ---
-description: >-
-  A live overview of your fleet's current state, available from the Dashboard
-  sidebar item.
+description: Monitor fleet-wide connection status, movement distribution, live speed data, geofence presence, and object details in one auto-refreshing dashboard view.
 hidden: true
 ---
 

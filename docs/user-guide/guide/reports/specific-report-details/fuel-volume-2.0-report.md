@@ -1,8 +1,5 @@
 ---
-description: >-
-  Learn how Fuel volume 2.0 automatically detects refueling events, analyzes
-  fuel consumption, and helps you interpret fuel sensor quality and daily fuel
-  data.
+description: Track fuel consumption with Fuel volume 2.0: automatic refueling detection, daily fuel data, and sensor quality indicators per vehicle.
 ---
 
 # Fuel volume 2.0 report

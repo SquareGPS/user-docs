@@ -1,7 +1,5 @@
 ---
-description: >-
-  Templates are pre-configured IoT Logic flows for common data processing
-  scenarios. Select a template from the start page to get started quickly.
+description: Start quickly with pre-configured IoT Logic flows for common data processing scenarios. Select a template from the start page and customize it for your needs.
 ---
 
 # Templates

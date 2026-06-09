@@ -1,5 +1,5 @@
 ---
-description: SOAP endpoint for requesting tracking data for a specified period
+description: Forward GPS tracking data from Navixy to external systems using the Navixy Web Service SOAP endpoint, supporting time-based queries for historical telemetry.
 ---
 
 # Navixy Web Service

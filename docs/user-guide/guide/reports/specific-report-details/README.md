@@ -1,7 +1,5 @@
 ---
-description: >-
-  Detailed guides for key Navixy reports, with links to report-specific pages
-  for interpretation, parameters, and use cases.
+description: Find detailed guidance for key Navixy reports: how each report calculates its data, which parameters you can configure, and how to interpret the output.
 ---
 
 # Report details

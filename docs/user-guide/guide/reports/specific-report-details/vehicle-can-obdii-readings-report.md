@@ -1,8 +1,5 @@
 ---
-description: >-
-  Learn how to analyze CAN, OBD, and virtual sensor readings, configure report
-  parameters, and interpret vehicle sensor graphs, statistics, and detailed data
-  tables.
+description: Analyze CAN, OBD, and virtual sensor readings with the Vehicle sensors report. Configure parameters and interpret sensor graphs, statistics, and data tables.
 ---
 
 # Vehicle sensors report

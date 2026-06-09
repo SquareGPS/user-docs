@@ -1,8 +1,5 @@
 ---
-description: >-
-  Learn how the Engine hours report calculates engine-on time, idling, and
-  movement, which parameters affect the output, and how to interpret the
-  results.
+description: Analyze engine-on time, idling, and movement with the Engine hours report. Understand how values are calculated and which parameters affect the output.
 ---
 
 # Engine hours report
