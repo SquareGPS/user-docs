@@ -1,3 +1,7 @@
+---
+description: Monitor vehicle mileage from GPS data or the CAN bus and set the current odometer value. Integrates with Fleet maintenance to schedule service by mileage.
+---
+
 # Odometer block
 
 The **Odometer** block allows you to monitor a vehicle’s mileage in real-time. The mileage readings can be derived from data received via a GPS device or the CAN bus. Additionally, the odometer function integrates with the [Fleet maintenance](../../fleet-management/maintenance.md) feature, enabling you to schedule service works for a vehicle and receive timely reminders.

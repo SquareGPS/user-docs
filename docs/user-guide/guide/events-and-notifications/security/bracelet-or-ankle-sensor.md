@@ -1,3 +1,7 @@
+---
+description: Receive immediate alerts when a GPS bracelet or ankle sensor is removed without authorization. Designed for legal monitoring applications such as house arrest.
+---
+
 # Bracelet or ankle sensor
 
 The “Bracelet sensor” (or “Ankle sensor”) rule is specifically designed for legal monitoring applications involving specialized GPS trackers. It is an essential tool for security in contexts such as house arrest or parole.

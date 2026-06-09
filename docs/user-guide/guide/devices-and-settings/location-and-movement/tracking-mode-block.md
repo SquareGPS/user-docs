@@ -1,3 +1,7 @@
+---
+description: Configure data transmission and operating modes for GPS tracking devices remotely. Available parameters vary by tracker model and its supported functionality.
+---
+
 # Tracking mode block
 
 The **Tracking mode** block allows you to configure the data transmission and operating modes for your GPS tracking devices. The settings available in this panel can vary depending on the model of the tracker, its operating principles, and its functionality.

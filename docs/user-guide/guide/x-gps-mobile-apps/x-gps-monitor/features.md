@@ -1,3 +1,7 @@
+---
+description: Explore all tools in X-GPS Monitor: object list, map controls, task management, trip history, notifications, and telematics data panels.
+---
+
 # Features
 
 The X-GPS Monitor mobile application provides a wide range of tools for working with the map, trackers, tasks, etc.

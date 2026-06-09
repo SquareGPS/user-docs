@@ -1,3 +1,7 @@
+---
+description: Set up GPS alert rules to detect geofence breaches, driver safety events, fuel changes, and device status. Get notified via SMS, email, push, or in-app.
+---
+
 # Rules and Alerts
 
 Using **Alerts** in Navixy, you can detect various events, view their details, and get notified about them. These features help users monitor and manage their fleet, assets, and field employees more effectively. Events can range from simple geofence breaches to complex scenarios like anti-theft alerts or fuel theft prevention. See the [examples](./#examples) for more details.

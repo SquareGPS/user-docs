@@ -1,3 +1,7 @@
+---
+description: Configure Teltonika Eye sensors in Navixy using virtual sensors to access temperature, humidity, motion, and magnet state data from BLE-connected accessories.
+---
+
 # Eye sensor configuration
 
 As one additional example of the use of virtual sensors, we would like to introduce you to [Teltonika Eye Sensors](https://teltonika-gps.com/products/accessories/sensors-beacons/eye), which are capable of recording valuable data such as temperature, humidity, motion, and magnet condition. Motion state information, in particular, was previously unavailable but can now be accessed through the use of virtual sensors. If you're interested in learning more about these sensors and how to set them up to retrieve important insights, we're happy to provide you with detailed instructions.

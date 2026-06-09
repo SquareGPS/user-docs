@@ -1,3 +1,7 @@
+---
+description: Write IF/THEN Logic expressions using the Navixy JEXL-based expression language. All expressions must return a boolean value to route data through the flow.
+---
+
 # IF/THEN Logic expressions and syntax
 
 ## Expression fundamentals

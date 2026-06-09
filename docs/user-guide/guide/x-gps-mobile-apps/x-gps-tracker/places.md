@@ -1,3 +1,7 @@
+---
+description: View assigned places of interest in X-GPS Tracker. Places appear when a custom field with the employee's name is configured for the POI in the platform.
+---
+
 # Places
 
 In the **Places** section, you will see a list of places assigned to the employee who uses **X-GPS Tracker**.

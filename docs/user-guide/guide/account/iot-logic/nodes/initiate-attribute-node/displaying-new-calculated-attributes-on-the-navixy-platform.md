@@ -1,3 +1,7 @@
+---
+description: Show calculated IoT Logic attributes in Navixy's Tracking module and Data Stream Analyzer by adding them as custom attributes to the relevant devices.
+---
+
 # Displaying new calculated attributes on the Navixy platform
 
 New attributes calculated within **Initiate Attribute** node can be monitored just like the actual data attributes coming from devices in **Data Stream Analyzer (DSA)** and the **Tracking** module. While DSA shows them natively, to display the new attributes in the **Tracking** module, you need to add them as custom attributes to the devices first.

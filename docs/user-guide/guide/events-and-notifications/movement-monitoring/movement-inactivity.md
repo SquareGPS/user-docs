@@ -1,3 +1,7 @@
+---
+description: Get alerted when a GPS device detects no movement for an extended period. Useful for monitoring parked equipment, cargo in transit, or personal safety.
+---
+
 # Movement inactivity
 
 ## Overview

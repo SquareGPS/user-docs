@@ -1,3 +1,7 @@
+---
+description: Access custom third-party applications embedded in Navixy through X-GPS Mobile. Applications are configured in the web platform and available in the mobile app.
+---
+
 # User applications
 
 **User applications** are custom add-ons and third-party tools that can be integrated directly into the ecosystem to extend its functionality. This enables you to create a personalized workspace with all your essential tools in one convenient location.

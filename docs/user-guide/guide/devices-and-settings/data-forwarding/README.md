@@ -1,3 +1,7 @@
+---
+description: Retransmit GPS tracking and telematics data from Navixy to external servers and third-party platforms in real time using supported forwarding protocols.
+---
+
 # Data forwarding
 
 The **Data forwarding** block in Navixy enables you to transmit GPS tracking and telematics data from Navixy to other servers and third-party applications using API and web services.

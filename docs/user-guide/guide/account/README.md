@@ -1,3 +1,7 @@
+---
+description: Manage your Navixy account settings: update your profile, view your balance, configure API keys, set up 2FA, manage users, and customize the platform.
+---
+
 # User account
 
 Welcome to the **User account** module. This section of documentation provides comprehensive information on managing your Navixy user account and customizing settings to suit your needs.

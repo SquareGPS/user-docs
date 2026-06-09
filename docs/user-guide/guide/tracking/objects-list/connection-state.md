@@ -1,3 +1,7 @@
+---
+description: Color-coded connection statuses in Navixy indicate whether each device is Online, Offline, or GPS not updated. Covers all states and their transition sequence.
+---
+
 # Connection state
 
 Every GPS device in Navixy has a status that indicates its current connection state to the server. These statuses are color-coded and visible in the [Objects list](./). This state does not necessarily mean the device is broken; it’s merely a visualization of the timing of data the platform receives from a device.

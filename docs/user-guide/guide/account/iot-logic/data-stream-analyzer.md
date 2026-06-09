@@ -1,3 +1,7 @@
+---
+description: Diagnose IoT device data flows in real time using the Data Stream Analyzer. Validate attribute values, check data integrity, and access TCP dumps and node logs.
+---
+
 # Data Stream Analyzer
 
 **Data Stream Analyzer** is a specialized troubleshooting tool that provides real-time diagnostics for IoT device data transmission. When your devices aren't reporting as expected, this powerful tool enables immediate verification and debugging across your entire fleet, regardless of manufacturer or protocol. For efficient issue resolution, you can:

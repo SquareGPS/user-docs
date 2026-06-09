@@ -1,3 +1,7 @@
+---
+description: Use named Navixy geofences in IF/THEN Logic node expressions to route data based on whether a device is inside, just entered, or has left a defined area.
+---
+
 # Geofence functions
 
 Geofence functions let you use your existing Navixy geofences directly inside **IF/THEN Logic** node expressions. Instead of approximating a geographic area with raw coordinate comparisons, you reference a named geofence by ID and choose which spatial event to evaluate: whether a device is currently inside the area, whether it just entered, or whether it just left.

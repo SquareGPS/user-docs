@@ -1,3 +1,7 @@
+---
+description: Configure parking detection for the platform: set the minimum idle time and maximum speed threshold that classify a vehicle as parked using GPS data.
+---
+
 # Parking detection block
 
 Parking detection identifies when an object has been stationary for a specified time period and within a set speed threshold using GPS data.

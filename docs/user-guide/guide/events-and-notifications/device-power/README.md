@@ -1,3 +1,7 @@
+---
+description: Monitor GPS device power events: track when devices are switched on or off, detect external power cuts, OBDII plug or unplug events, and low battery alerts.
+---
+
 # Device power
 
 Under the "Device power" section, you will find events related to the power status of your devices. This includes notifications for when a device is switched on or off, when an OBDII device is plugged or unplugged, when there is an external power cut, and when the battery or backup battery is running low.

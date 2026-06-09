@@ -1,3 +1,7 @@
+---
+description: View detailed information for a tracked asset in X-GPS Mobile: map location, trip and event history, linked GPS device, tags, reminders, and custom fields.
+---
+
 # Asset information
 
 The asset information screen displays detailed information about the asset, including its location on the map, trip and event history, reminders, linked units, assigned GPS device, tags, and other data.

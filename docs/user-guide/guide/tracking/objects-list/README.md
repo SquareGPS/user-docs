@@ -1,3 +1,7 @@
+---
+description: Monitor all connected GPS devices in real time, filter by movement status, sort by name or distance, and access trip history or alert rules for any object.
+---
+
 # Objects list
 
 The **Objects list** is your central hub for monitoring all connected devices in real time. It provides a clear, at-a-glance view of every tracked object, displaying its current status and selected key parameters. Designed for efficiency, it opens automatically when you navigate to the **Tracking** module, ensuring instant access to the information you need. From here, you can dive deeper into each entity through its dedicated object widget, making it easy to track, analyze, and manage your objects.

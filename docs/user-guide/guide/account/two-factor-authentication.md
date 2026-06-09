@@ -1,3 +1,7 @@
+---
+description: Enable two-factor authentication for your Navixy account. A one-time passcode sent to your email is required alongside your password on each login.
+---
+
 # Two-factor authentication
 
 Navixy offers two-factor authentication (2FA) to bolster security across web and mobile applications. With increasing amounts of sensitive telematics data being managed, 2FA provides a vital layer of security by requiring both a password and a one-time passcode (OTP) sent via email. Your GPS/telematics service provider determines whether 2FA is enabled and configures the related settings.

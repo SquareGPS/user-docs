@@ -1,3 +1,7 @@
+---
+description: Design electronic forms for field tasks and let employees submit text, signatures, and photos via the X-GPS Tracker app when completing assignments.
+---
+
 # Forms
 
 **Forms** are electronic documents that can be attached to tasks, allowing employees to submit task results directly through the [X-GPS Tracker](../x-gps-mobile-apps/x-gps-tracker/) mobile app. These forms can include various types of fields such as text fields for client orders, inspection reports, and media sections for uploading photos and videos.

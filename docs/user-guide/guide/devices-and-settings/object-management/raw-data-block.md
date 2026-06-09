@@ -1,3 +1,7 @@
+---
+description: Download parsed telemetry data from any GPS tracker as a CSV file. Useful for device diagnostics, data analysis, and integration with AI or analytics tools.
+---
+
 # Raw data block
 
 The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS tracker on the platform in CSV format. This feature is essential for device diagnostics, data analytics, and integrating data with AI/ML programs.

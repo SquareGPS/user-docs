@@ -1,3 +1,7 @@
+---
+description: Manage GPS device identity and settings in Navixy: update object labels, phone numbers, service plans, time zones, working statuses, and raw data export.
+---
+
 # Object management
 
 * [Object label block](object-label-block.md)

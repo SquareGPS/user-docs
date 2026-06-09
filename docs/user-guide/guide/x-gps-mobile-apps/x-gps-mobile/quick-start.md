@@ -1,3 +1,7 @@
+---
+description: Download X-GPS Mobile from Google Play or the App Store and log in with your Navixy credentials to start monitoring your fleet from a mobile device.
+---
+
 # Quick start
 
 Follow these steps to learn how to work with X-GPS Mobile.

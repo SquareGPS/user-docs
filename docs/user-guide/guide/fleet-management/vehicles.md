@@ -1,3 +1,7 @@
+---
+description: Add fleet vehicle profiles with specs, fuel consumption rates, and insurance data. Link vehicles to GPS trackers and import multiple profiles from Excel files.
+---
+
 # Vehicles
 
 Vehicles in Navixy are essential for tracking and managing your fleet. They allow you to monitor various aspects such as location, fuel consumption, maintenance schedules, and overall fleet performance, enabling efficient operations and better decision-making.

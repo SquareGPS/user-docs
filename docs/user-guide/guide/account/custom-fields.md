@@ -1,3 +1,7 @@
+---
+description: Add custom fields to Places, Employees, Vehicles, and Tasks in Navixy to store additional data and improve filtering in field service workflows.
+---
+
 # Custom fields
 
 Custom fields allow you to add personalized information to the description of places. Custom fields operate in the same way as standard fields, allowing you to store valuable data that can be used for filtering and improving operational efficiency.

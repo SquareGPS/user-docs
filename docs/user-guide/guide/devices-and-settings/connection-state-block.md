@@ -1,3 +1,7 @@
+---
+description: Set the offline timeout for a GPS device: the time without data before it is marked disconnected. Useful for power-saving modes and low-frequency reporting.
+---
+
 # Connection state block
 
 Connection state settings allow you to define the time interval after which a GPS device is considered disconnected if it stops transmitting data.

@@ -1,3 +1,7 @@
+---
+description: Configure how the GPS device detects ignition status: via a direct cable, onboard voltage level, or built-in motion sensor for devices not wired to ignition.
+---
+
 # Ignition source block
 
 Many advanced GPS devices offer the flexibility to determine the ignition status not only with a direct ignition cable connection but also by using a virtual ignition source based on readings from the motion sensor or the vehicle's onboard voltage.

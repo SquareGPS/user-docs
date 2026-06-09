@@ -1,3 +1,7 @@
+---
+description: Create and manage driver profiles in Navixy, assign hardware keys for automatic identification, and link drivers to vehicles for accurate fleet reporting.
+---
+
 # Drivers
 
 The **Drivers** section in the Navixy platform is designed to help fleet managers efficiently manage and monitor their drivers. This section allows you to create and manage detailed driver profiles, linking them to specific objects in your fleet. By maintaining comprehensive driver records, you can streamline fleet operations, improve driver accountability, and enhance overall fleet performance.

@@ -1,3 +1,7 @@
+---
+description: Map Galileosky Easy Logic user-defined tags in Navixy to extend telemetry beyond standard GPS data fields using the device's custom variable support.
+---
+
 # User-defined tags (Galileosky)
 
 Galileosky devices, known for their versatility and advanced capabilities, particularly stand out due to their support for user-defined tags. Most GPS devices transmit a predefined set of data, including essential information such as coordinates, altitude, acceleration, mileage, and vehicle-specific details like ignition status and coolant temperature. However, this data is often limited to what the manufacturer supports, restricting the monitoring of additional parameters.

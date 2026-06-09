@@ -1,3 +1,7 @@
+---
+description: Manage User applications in Navixy: edit, enable, disable, or delete integrations. Account Owners have full control; Users have access based on enabled apps.
+---
+
 # Managing existing User applications
 
 Account **Owners** have full administrative control over applications, while **Users** have limited access based on enabled applications. Here's a detailed breakdown of permissions:

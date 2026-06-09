@@ -1,3 +1,7 @@
+---
+description: Ask questions about Navixy in natural language using the AI assistant. Get answers sourced from platform documentation, blog articles, and device information.
+---
+
 # Navixy AI assistant
 
 The Navixy AI assistant is a chat interface that answers questions about the platform using documentation, blog articles, and device information. You can type your question or speak it aloud. The assistant streams answers in real time and shows you the sources it used.

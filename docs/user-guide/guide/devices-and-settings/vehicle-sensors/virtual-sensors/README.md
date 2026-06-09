@@ -1,3 +1,7 @@
+---
+description: Create virtual sensors to convert raw telemetry values into readable indicators. Map board voltage, calculate engine hours, and merge inputs across sensor types.
+---
+
 # Virtual sensors
 
 Virtual sensors allow you to process telemetry data more effectively. By mapping board voltage, they can help you calculate engine hours based on set conditions and values. Additionally, they allow you to convert multiple data points from different sensors connected to a device into easier-to-understand indicators such as "hot," "cold," "open" and "closed," regardless of the device's manufacturer or model. This opens up new possibilities for monitoring, tracking and predicting the performance of complex technologies.

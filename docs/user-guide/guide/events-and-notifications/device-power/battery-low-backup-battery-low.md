@@ -1,3 +1,7 @@
+---
+description: Receive alerts when a GPS device's primary or backup battery charge drops below the device's threshold, helping you prevent tracking downtime.
+---
+
 # Battery low (Backup battery low)
 
 ## Overview

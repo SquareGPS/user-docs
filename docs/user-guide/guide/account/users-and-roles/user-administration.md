@@ -1,3 +1,7 @@
+---
+description: Add and manage sub-accounts in Navixy. The Owner has full control; Users receive specific roles that define their access to tracking data and features.
+---
+
 # User administration
 
 The users of the organization’s account include the **owner** and the **users**. The owner is the main account holder with full control and administrative rights, while users are additional accounts with specific roles and permissions assigned by the owner.

@@ -1,3 +1,7 @@
+---
+description: Forward GPS data from Navixy to Recurso Confiable, a security and logistics platform used in Mexico, Colombia, the United States, and Central America.
+---
+
 # Recurso Confiable
 
 ## Recurso Confiable: GPS tracking/data forwarding for enterprises

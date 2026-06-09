@@ -1,3 +1,7 @@
+---
+description: Switch the service plan for a GPS device in Navixy. Review available plan options and select the one that matches your operational and data needs.
+---
+
 # Change plan block
 
 The **Change plan** block allows you to select and manage the service plan that best fits your needs.

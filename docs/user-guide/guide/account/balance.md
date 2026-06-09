@@ -1,3 +1,7 @@
+---
+description: Manage payment methods, set up AutoPay, configure low balance alerts, and review transaction history in Navixy Account settings.
+---
+
 # Balance
 
 To manage your user account balance, from the main menu, navigate to Account Settings → Balance. The Balance section allows you to manage your payment methods, set up AutoPay, configure low balance alerts, and view your transaction history.

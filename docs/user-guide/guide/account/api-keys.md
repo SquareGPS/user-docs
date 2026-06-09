@@ -1,3 +1,7 @@
+---
+description: Create and manage API keys to connect third-party or custom applications to your Navixy account securely without sharing your main credentials.
+---
+
 # API keys
 
 API keys are unique and confidential codes that allow access to your Navixy account and data through the application program interface. They enable third-party or personal applications to connect to your account, access data, and perform actions on your behalf.

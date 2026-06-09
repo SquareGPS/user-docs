@@ -1,3 +1,7 @@
+---
+description: Manage places of interest for field service: add customer sites and key locations your staff visits, and use them to streamline task assignments and routes.
+---
+
 # Places
 
 **Places (or POIs)** in the **Field service** module can be used for organizing and managing key locations that your field staff need to visit, such as customer addresses, company sites, or other important points of interest. This helps streamline task assignments, optimize routes, and ensure efficient field operations.

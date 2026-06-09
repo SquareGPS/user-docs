@@ -1,3 +1,7 @@
+---
+description: A step-by-step example showing how to build an IoT Logic flow that collects device telemetry, calculates derived metrics, and forwards enriched data externally.
+---
+
 # Flow configuration example
 
 This example demonstrates how to configure a flow that collects data from IoT devices, performs calculations to derive business-relevant metrics, and forwards the enriched data to an external system. The example uses a linear flow pattern that can be adapted to various industry use cases.

@@ -1,3 +1,7 @@
+---
+description: Receive notifications for field task events: task completion, delays, failures, arrivals, and form submissions. Applies to tasks assigned to field employees.
+---
+
 # Task performance
 
 ## Overview

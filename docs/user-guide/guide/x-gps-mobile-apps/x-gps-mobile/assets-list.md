@@ -1,3 +1,7 @@
+---
+description: Browse all tracked assets in X-GPS Mobile, with icons showing movement status. Search by name to quickly locate any vehicle, staff member, or GPS device.
+---
+
 # Assets list
 
 {% columns %}

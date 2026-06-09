@@ -1,3 +1,7 @@
+---
+description: Create circular, polygon, or route geofences, import them from Excel or KML files, and link them to alert rules for entrance and exit monitoring.
+---
+
 # Geofences
 
 Geofences are virtual perimeters that allow the system to monitor whether an object has crossed the geofence border ("in" or "out"). These events are logged, enabling users to generate geofence reports and [receive alerts](../../events-and-notifications/movement-monitoring/geofence-entrance-or-exit.md). Geofences can also be related to specific [Rules and Alerts](../../events-and-notifications/README.md) within particular areas, such as receiving speeding alerts only within a city or along a route.

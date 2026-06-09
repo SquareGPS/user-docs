@@ -1,3 +1,7 @@
+---
+description: Classify vehicle trips as business or private in the Driver journal. Select a vehicle and date range, then assign trip statuses individually or in bulk.
+---
+
 # Driver journal
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+description: Manage the GPS device's name, group, tags, and model in Navixy. Labels and tags make it easier to organize and filter devices across the platform.
+---
+
 # Object label block
 
 The **Object label** block allows you to manage key identification details of your device. This block contains the following fields:

@@ -1,3 +1,7 @@
+---
+description: Set up a new User application in Navixy by configuring the integration URL and other parameters to connect an external tool to the platform interface.
+---
+
 # Creating new User applications
 
 When setting up a new **User application**, you'll work with several key configurations that determine how your external application integrates with the platform. Let's explore each essential component.

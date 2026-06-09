@@ -1,3 +1,7 @@
+---
+description: Manage field service employee profiles in Navixy. View contact details, current work status, assigned tasks, and link staff to GPS devices.
+---
+
 # Staff
 
 The **Staff** page in the **Field service** module is designed to manage and organize information about your field staff. This tool ensures that you have everything you need to efficiently coordinate your mobile workforce.

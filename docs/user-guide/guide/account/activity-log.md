@@ -1,3 +1,7 @@
+---
+description: Track all user actions in your Navixy account, including logins, configuration changes, and data access. Available to account owners in Account settings.
+---
+
 # Activity log
 
 Using the **Activity log**, the account owner can track the activity of all [users on the team](users-and-roles/) added via **Users and roles**. This feature provides detailed insights into user actions, helping to monitor and manage system usage effectively.

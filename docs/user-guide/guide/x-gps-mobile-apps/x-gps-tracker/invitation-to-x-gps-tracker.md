@@ -1,3 +1,7 @@
+---
+description: Send an invitation to install X-GPS Tracker on an employee's iOS or Android device, turning their smartphone into a GPS tracker linked to your Navixy account.
+---
+
 # Invitation to X-GPS Tracker
 
 You can turn a smartphone or a tablet into a GPS tracking device by installing our **X-GPS Tracker** app. Our app is available to download on the Google Play and iOS App Store and is absolutely free.

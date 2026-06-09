@@ -1,3 +1,7 @@
+---
+description: Recover access to your Navixy account by requesting a password reset link to your registered email address from the login page.
+---
+
 # Password recovery
 
 If you've forgotten your password and need to recover it, follow these steps:

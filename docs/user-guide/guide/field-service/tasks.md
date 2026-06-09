@@ -1,3 +1,7 @@
+---
+description: Create and assign field tasks to employees, set locations, deadlines, and forms. Monitor task status on a map, table, or timeline view in real time.
+---
+
 # Tasks
 
 A **Task** in Navixy refers to a specific assignment or job that needs to be completed by an employee or field worker. It includes detailed instructions about what needs to be done, where it should be done, and within what timeframe. Tasks can range from simple one-off assignments, such as delivering a package to a single location, to more complex operations, like visiting multiple checkpoints along a route to perform inspections, installations, or other services.

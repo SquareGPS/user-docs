@@ -1,3 +1,7 @@
+---
+description: Forward GPS and GLONASS tracking data from Navixy to external monitoring servers using the Wialon IPS protocol, a publicly available retranslation standard.
+---
+
 # Wialon IPS
 
 Wialon IPS is a generic, publicly available data forwarding protocol from Gurtam for retranslating personal and vehicle GPS and GLONASS trackers which transfer data to satellite monitoring servers/third-party resources.

@@ -1,3 +1,7 @@
+---
+description: View and manage your Navixy account details in the X-GPS Mobile app, including your profile name, logo, email address, and phone number.
+---
+
 # Account and settings
 
 ### Account

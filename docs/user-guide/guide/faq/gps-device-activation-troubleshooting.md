@@ -1,3 +1,7 @@
+---
+description: Resolve common GPS device activation issues in Navixy. Covers required device configuration, timezone settings, and steps when devices fail to appear online.
+---
+
 # GPS device activation troubleshooting
 
 Activating GPS tracking devices on the Navixy platform is usually straightforward thanks to [automatic device activation](../quick-start/activate-gps-device.md). However, if you encounter issues, this guide will help you troubleshoot and resolve common device activation problems.

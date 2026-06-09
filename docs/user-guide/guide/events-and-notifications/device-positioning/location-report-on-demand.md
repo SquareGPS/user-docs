@@ -1,3 +1,7 @@
+---
+description: Request the current GPS device location via SMS when standard IP connections are unavailable. Get notified as soon as the location update arrives.
+---
+
 # Location report on demand
 
 ## Overview

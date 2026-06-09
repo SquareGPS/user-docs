@@ -1,3 +1,7 @@
+---
+description: Integrate Streamax MDVR devices with Navixy to combine 24/7 video recording, ADAS, and driver safety monitoring with full fleet management capabilities.
+---
+
 # Streamax
 
 Streamax is a leading MDVR manufacturer, well-proven in the global market. With their devices, you can enable 24/7 video recording from your vehicles, collect telematics data, remotely access video footage, and monitor driving safety using ADAS (Advanced Driver Assistance Systems) and DSM (Driver Status Monitoring) technologies.

@@ -1,3 +1,7 @@
+---
+description: Add a GPS tracking device to Navixy using automatic or manual activation, including APN and SIM setup for cellular, MQTT, LoRa, and satellite devices.
+---
+
 # Activate GPS device
 
 {% hint style="info" %}

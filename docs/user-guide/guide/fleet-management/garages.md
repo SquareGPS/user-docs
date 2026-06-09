@@ -1,3 +1,7 @@
+---
+description: Create and manage garage (depot) profiles in Navixy, storing location, mechanic, and dispatcher details for better multi-site fleet coordination and reporting.
+---
+
 # Garages
 
 Garages (also referred to as "Depots") in Navixy are crucial for organizations with larger fleets spread over multiple locations. They help organizing and managing fleet operations, such as dispatching operations, generating reports, and ensuring compliance with documentation requirements.

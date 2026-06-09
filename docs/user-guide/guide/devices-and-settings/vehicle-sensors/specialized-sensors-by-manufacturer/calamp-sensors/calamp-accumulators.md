@@ -1,3 +1,7 @@
+---
+description: Map CalAmp accumulator variables in Navixy to retrieve board voltage and external temperature data from supported CalAmp GPS devices.
+---
+
 # CalAmp accumulators
 
 [CalAmp devices](https://www.navixy.com/devices/calamp/) are equipped with accumulators (variables) that store various types of data, depending on how the device is configured by the user.

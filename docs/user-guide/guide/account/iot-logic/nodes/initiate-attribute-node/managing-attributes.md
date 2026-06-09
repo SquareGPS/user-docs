@@ -1,3 +1,7 @@
+---
+description: Create, edit, and delete attributes in the Initiate Attribute node. Use autofill to build formula expressions quickly from available telemetry fields.
+---
+
 # Managing attributes
 
 The **Initiate Attribute** node allows you to create, edit, and manage data attributes throughout your IoT Logic flow. This guide covers the basic attribute management actions (create, edit, delete) and essential operations, including autofill functionality for formula creation.

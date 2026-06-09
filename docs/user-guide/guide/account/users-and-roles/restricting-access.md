@@ -1,3 +1,7 @@
+---
+description: Control which GPS devices, geofences, places, and notification rules each user can see in Navixy. Protects sensitive data across different teams.
+---
+
 # Restricting access
 
 Navixy enables organizations to effectively manage access to user-created information, including GPS devices and associated artifacts such as geofences, places, and notification rules. This capability is vital for maintaining data security and operational efficiency, especially in organizations with multiple divisions or business units. This approach ensures that:

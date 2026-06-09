@@ -1,3 +1,7 @@
+---
+description: Combine data from multiple sensors using AVG or SUM aggregation functions. Useful for averaging fuel level readings from several tanks in the same vehicle.
+---
+
 # Aggregation sensors
 
 The **Aggregation sensor** block in Navixy is a powerful tool that allows you to combine data from multiple sensors and process it using an aggregation function. This functionality is particularly useful in scenarios where multiple sensors are used to monitor similar parameters, such as fuel levels in a vehicle.

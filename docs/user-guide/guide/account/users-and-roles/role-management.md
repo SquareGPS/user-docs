@@ -1,3 +1,7 @@
+---
+description: Create and manage user roles in Navixy to define what each team member can view and manage, from vehicle tracking to reporting and geofence editing.
+---
+
 # Role management
 
 A **User role** in Navixy is a set of permissions and access rights assigned to a user, defining what they can view and manage within the platform. User roles are customizable and allow the owner to control the level of access each user has to different features and data. Roles determine a user’s ability to:
