@@ -1,0 +1,3 @@
+# Local tooling and IDE files — not part of the published docs
+.claude/
+.idea/
