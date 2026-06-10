@@ -1,3 +1,7 @@
+---
+description: Review hardware, software, and service requirements before installing Navixy on-premise. Covers server specs, OS, GIS, SMS gateway, SSL, domain, and network prerequisites.
+---
+
 # Requirements
 
 This section provides detailed technical requirements for the hardware and software environment, along with related services that need to be considered for the installation of On-Premise Edition. This includes necessary components such as domain names, SMS center, geocoding service, and more. By following these requirements, you can ensure a successful installation of Navixy On-Premise and optimize its performance.

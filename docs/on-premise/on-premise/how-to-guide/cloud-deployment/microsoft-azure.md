@@ -1,3 +1,7 @@
+---
+description: Deploy Navixy on-premise on Microsoft Azure. Create a virtual machine, set network security rules, configure disks and networking, and connect via SSH.
+---
+
 # Microsoft Azure
 
 When deploying the Navixy On-premise platform, many customers prefer to choose a cloud-based platform. One of the most common and widely recognized solutions is Microsoft Azure. It is a relatively young, but proven and popular platform that makes it easy to run virtual machines with low effort. At the same time, it doesn't yield to other popular platforms in terms of flexibility of customization, security and fault tolerance. This platform is utilized by many of Navixy's largest On-premise customers.

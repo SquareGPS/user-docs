@@ -1,3 +1,7 @@
+---
+description: Check the status of Navixy Java services, Nginx, and MySQL on Linux or Windows. Use platform health check commands to identify which component is not running.
+---
+
 # Checking service statuses
 
 This section will describe general procedure to follow and things to check when troubleshooting Navixy platform issues. It covers basic troubleshooting of Java services, Web server and Database server. Knowing how to check and restart the services will help you understand the cause of the problem and help you solve the problem more precisely.

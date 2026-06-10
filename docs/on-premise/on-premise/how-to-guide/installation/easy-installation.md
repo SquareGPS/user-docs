@@ -1,3 +1,7 @@
+---
+description: Install Navixy on-premise on Linux using the Docker-based quick deployment wizard. Enter license key and domain parameters, then verify access via the admin panel.
+---
+
 # Easy installation
 
 This guide will help you quickly set up Navixy On-premise platform on your own server. The process is straightforward and requires minimal manual configuration.

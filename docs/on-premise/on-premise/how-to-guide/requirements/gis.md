@@ -1,3 +1,7 @@
+---
+description: "Configure GIS services for Navixy on-premise: geocoding, routing, distance matrix, and LBS. Supported providers include Navixy Premium GIS, Google Maps, and Nominatim."
+---
+
 # GIS
 
 ## How Navixy uses GIS

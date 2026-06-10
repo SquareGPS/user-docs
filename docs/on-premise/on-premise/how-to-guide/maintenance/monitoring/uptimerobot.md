@@ -1,3 +1,7 @@
+---
+description: Use UptimeRobot to monitor Navixy on-premise availability from the cloud. Free tier covers basic uptime checks; consider local alternatives for secure infrastructures.
+---
+
 # UptimeRobot
 
 Uptimerobot is a free and user-friendly tool for monitoring web services. The free version is more than enough for basic needs, allowing you to monitor and receive alerts on several crucial metrics such as:

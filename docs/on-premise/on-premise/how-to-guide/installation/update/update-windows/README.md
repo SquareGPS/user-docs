@@ -1,3 +1,7 @@
+---
+description: Update Navixy on-premise on Windows Server using automatic or manual procedures. Select the method based on your deployment configuration and requirements.
+---
+
 # Update - Windows
 
 This section describes the update process of Navixy On-premise solution on Windows. Depending on your requirements and installation pecularities, you can resort to:

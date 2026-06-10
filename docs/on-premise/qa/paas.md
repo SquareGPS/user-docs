@@ -1,3 +1,7 @@
+---
+description: Deploy Navixy as a PaaS cloud service by creating an instance through the customer portal. Manage the platform via the admin panel without managing server infrastructure.
+---
+
 # PaaS
 
 Navixy PaaS (Platform as a Service) is a cloud-based platform that provides a comprehensive set of tools for GPS tracking and telematics applications. It is designed to enable businesses to build and deploy their own GPS tracking systems and telematics applications without having to manage the underlying infrastructure or worry about software updates, maintenance, and security.

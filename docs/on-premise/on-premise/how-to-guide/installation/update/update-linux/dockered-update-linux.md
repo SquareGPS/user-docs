@@ -1,3 +1,7 @@
+---
+description: Update Dockered Navixy on-premise on Linux. Prepare the environment, stop containers, unpack the update package, and restore configuration files.
+---
+
 # Dockered update - Linux
 
 Similar to any software, the Navixy platform necessitates regular updates to incorporate all the latest innovations and enhancements. While the PaaS version automatically handles this, On-premise instances require customers to request and install updates themselves.

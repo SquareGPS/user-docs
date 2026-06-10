@@ -1,3 +1,7 @@
+---
+description: Export raw tracking data from the Navixy on-premise database. Covers both bucket-structure and file-by-file database organization with SQL query examples.
+---
+
 # Tracking data export
 
 As the tracking devices operate, their data is sent to and stored in the Navixy platform database, so you can view the trips in monitoring and build trip reports. However, there may be situations where you need to upload all of the recorded tracking information as geolocation points. This is usually necessary to analyze the data in controversial situations. In this case, you can request such information directly from the database.

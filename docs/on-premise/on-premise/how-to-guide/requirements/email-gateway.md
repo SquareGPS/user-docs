@@ -1,3 +1,7 @@
+---
+description: Set up an SMTP server to enable email notifications, invites, and reports in Navixy on-premise. Configure SPF and DKIM records to improve delivery reliability.
+---
+
 # Email gateway
 
 SMTP (Simple Mail Transfer Protocol) server is used to send emails, such as notifications, invites, reports, and others. In order to use SMTP with Navixy On-premise, the following requirements should be met:

@@ -1,3 +1,7 @@
+---
+description: "Locate configuration files and logs for Dockered Navixy services: API-server, SMS-server, and TCP-server. Access container files via the WORKDIR path."
+---
+
 # Dockered solution configurations and logs
 
 Because of the unique nature of the Dockered solution, all services are housed within containers. Consequently, to access a directory with service files, simply navigating to the desired path is insufficient; one must first enter the container itself.

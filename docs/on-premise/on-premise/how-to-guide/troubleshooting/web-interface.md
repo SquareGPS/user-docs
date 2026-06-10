@@ -1,3 +1,7 @@
+---
+description: Troubleshoot Navixy on-premise web interface issues including Nginx configuration errors, DNS failures, SSL certificate problems, and database unavailability.
+---
+
 # Web interface
 
 This page provides a comprehensive guide to troubleshooting the most prevalent errors encountered in the Navixy On-premise web interface. It covers both the Admin Panel and User Interface, as they share the Nginx web server, resulting in similar error occurrences. Explore this resource to effectively resolve any issues and optimize your experience.

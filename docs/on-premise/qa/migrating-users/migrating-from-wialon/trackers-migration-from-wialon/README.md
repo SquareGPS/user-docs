@@ -1,3 +1,7 @@
+---
+description: Migrate devices from Wialon to Navixy in bulk using exported device information. Map Wialon fields to Navixy fields and choose whether to send configuration commands.
+---
+
 # Trackers migration from Wialon
 
 After you have transferred your users, you need to migrate devices from the Wialon system. Thanks to the [Bulk activation](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/devices/bulk-activation) device migration is quick and convenient.

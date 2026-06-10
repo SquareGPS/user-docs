@@ -1,3 +1,7 @@
+---
+description: Migrate individual Navixy services to a custom directory or separate server. Update configuration files to reconnect the database, web server, and other dependencies.
+---
+
 # Separate services migration
 
 As your platform is being used and the number of registered devices grows, you may need to redistribute or move certain services to other directories or servers. This is typically the case for database and web services. Backend services (Java services) are strongly recommended to be in the original installation location.

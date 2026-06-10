@@ -1,3 +1,7 @@
+---
+description: Configure the SMS Traffic gateway in Navixy on-premise for messaging in Russia and Kazakhstan. Add the provider settings using the SQL configuration example.
+---
+
 # SMS Traffic
 
 [SMS traffic](https://www.smstraffic.ru/en/) is a well-known telecommunications company based in Russia, and is particularly well-suited for messaging in Russia and Kazakhstan.

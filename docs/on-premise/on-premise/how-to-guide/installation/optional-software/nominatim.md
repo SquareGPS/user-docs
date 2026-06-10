@@ -1,3 +1,7 @@
+---
+description: Install Nominatim for unlimited local geocoding in Navixy on-premise. Review hardware requirements and follow the official OpenStreetMap installation process.
+---
+
 # Nominatim
 
 Nominatim is a free software tool that offers forward geocoding, allowing users to search for locations by name or address, and reverse geocoding, retrieving the postal address or place name by known coordinates.

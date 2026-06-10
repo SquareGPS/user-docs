@@ -1,3 +1,7 @@
+---
+description: Manually update Navixy on-premise on Windows. Apply database changes, replace Java service files, update web services, and reconfigure services for Java 21.
+---
+
 # Manual update - Windows
 
 This page describes the process of manually updating the Navixy On-premise platform on Windows. Use this instruction if you need to have full control over the update process or if you are using custom service paths. Otherwise, in most cases it is recommended to resort to [the automatic update](automatic-update-windows.md).

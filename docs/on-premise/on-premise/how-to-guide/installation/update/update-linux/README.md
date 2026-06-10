@@ -1,3 +1,7 @@
+---
+description: Update Navixy on-premise on Linux using automatic scripts for standard or Docker-based installations. Select the procedure that matches your deployment type.
+---
+
 # Update - Linux
 
 Linux updates can be performed through two methods:

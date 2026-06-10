@@ -1,3 +1,7 @@
+---
+description: "Export users from Wialon and import them into the Navixy Admin panel. Use the template file format with required fields: email, password, and account status."
+---
+
 # Users migration from Wialon
 
 The first step in the migration process is to transfer users from Wialon to Navixy. This procedure helps reduce the time it takes to register all your users from your previous system, ensuring that you can quickly and easily migrate your telematics solution to the Navixy platform.

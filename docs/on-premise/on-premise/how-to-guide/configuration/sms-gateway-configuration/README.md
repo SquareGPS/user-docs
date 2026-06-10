@@ -1,3 +1,7 @@
+---
+description: Configure SMS gateways for Navixy on-premise. Add supported provider settings via SQL queries and manage multiple gateways in the database configuration table.
+---
+
 # SMS gateway configuration
 
 Navixy platform supports popular SMS gateways, including Twilio, Nexmo, and others. This document provides instructions for setting up these gateways correctly, as well as information on using SMPP (Short Message Peer-to-Peer) protocol with Navixy.

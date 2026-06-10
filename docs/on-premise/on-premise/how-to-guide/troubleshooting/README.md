@@ -1,3 +1,7 @@
+---
+description: Diagnose and resolve issues in Navixy on-premise deployments. Covers system architecture, service components, and guides for web interface, devices, reports, and logs.
+---
+
 # Troubleshooting
 
 While utilizing the Navixy On-premise solution, you might come across occasional issues. These can stem from external factors, such as improper hardware setup, or from incorrect configuration and other software-related problems. Remember, no obstacle is insurmountable, and this section aims to guide you in troubleshooting the most prevalent scenarios.

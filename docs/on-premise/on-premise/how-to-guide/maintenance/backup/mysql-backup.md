@@ -1,3 +1,7 @@
+---
+description: Back up the Navixy MySQL database without downtime using Percona XtraBackup. Create a dedicated user, calculate volume, install the tool, and run full backups.
+---
+
 # MySQL backup
 
 This guide will help you make a full backup of your MySQL database without shutting down your system. It was written and tested by Navixy devops team, so you can trust it as a known working solution.

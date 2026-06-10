@@ -1,3 +1,7 @@
+---
+description: Diagnose devices going offline on Navixy on-premise. Covers TCP-server failures, network issues, mobile connectivity problems, and data processing troubleshooting.
+---
+
 # Device operation and connection
 
 Data acquisition from devices is integral to the functioning of Navixy, a GPS tracking and telematics platform. Consequently, encountering multiple devices unexpectedly going offline or failing to update their status poses a critical issue that necessitates an immediate resolution.

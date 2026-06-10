@@ -1,3 +1,7 @@
+---
+description: Install OSRM for local routing in Navixy on-premise with no request limits. Choose a routing profile, check hardware requirements, and access routes via REST API.
+---
+
 # OSRM
 
 OSRM stands for Open Source Routing Machine, which is an open-source software designed for finding optimal routes between two points. By using OSRM with Navixy On-premise solutions, you can deploy it on your local server without limiting the number of requests. OSRM is not restricted by any maps, giving you the freedom to choose your cartography provider.

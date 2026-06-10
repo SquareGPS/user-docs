@@ -1,3 +1,7 @@
+---
+description: Manage credentials for Navixy on-premise servers. Covers password policies, admin panel access, SSH key authentication, and support team access requirements.
+---
+
 # Server credentials
 
 Like any information system, Navixy platform must be password-protected to avoid unauthorized access and data loss. In the case of On-Premise servers, you must also take care of protecting the server infrastructure, which also implies setting passwords. Below we gathered the most common questions regarding passwords that arise when working with the On-premise version of Navixy platform.

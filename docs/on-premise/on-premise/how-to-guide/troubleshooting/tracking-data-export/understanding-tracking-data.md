@@ -1,3 +1,7 @@
+---
+description: Interpret exported Navixy tracking data columns including status codes, event IDs, and binary input/output values from the on-premise database.
+---
+
 # Understanding tracking data
 
 The `tracking` database stores the data in a fairly technical way necessary for the Navixy platform to work. This page will show you how to read the values stored in this database to understand what they mean. This can be useful if you have exported tracking data from the database for some further analysis.

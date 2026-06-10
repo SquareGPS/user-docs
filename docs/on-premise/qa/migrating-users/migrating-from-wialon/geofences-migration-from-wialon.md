@@ -1,3 +1,7 @@
+---
+description: Export geofences from Wialon as KML or KMZ files and import them into Navixy. Covers polygon and circle geofence handling with custom radius configuration.
+---
+
 # Geofences migration from Wialon
 
 Geofences can be migrated seamlessly from Wialon to Navixy, allowing your users to continue using them without disruption. To transfer geofences to your users, follow the instruction below.

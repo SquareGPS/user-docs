@@ -1,3 +1,7 @@
+---
+description: Troubleshoot device activation failures on Navixy on-premise. Check SMS gateway configuration, backend service status, network settings, and platform version compatibility.
+---
+
 # Device activation
 
 Activating Navixy on-premise devices follows the same process as the PaaS version, with one exception: activation occurs on your server, and data exchange and processing occur within your infrastructure. Ensuring seamless functionality while maintaining data security, this distinction offers you complete control and greater flexibility.

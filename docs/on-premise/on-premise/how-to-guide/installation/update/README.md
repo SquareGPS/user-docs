@@ -1,3 +1,7 @@
+---
+description: Update Navixy on-premise to the latest version on Linux or Windows. Covers update frequency, delivery methods, and links to OS-specific update procedures.
+---
+
 # Update
 
 This section provides detailed technical documentation on Navixy On-Premise platform update with different installation types. The instructions should be selected according to the operating system used (Linux/Windows).

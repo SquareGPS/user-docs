@@ -1,3 +1,7 @@
+---
+description: Install and manage SSL certificates for Navixy on-premise. Guides cover initial certificate installation and the process for renewing expired certificates.
+---
+
 # SSL certificates
 
 This section contains documentation on how to install and update SSL certificates on the Navixy On-Premise instance.

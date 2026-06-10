@@ -1,3 +1,7 @@
+---
+description: Configure domain names and DNS A-records for Navixy on-premise. Set up records for the API, admin panel, and monitoring service to enable platform access.
+---
+
 # Domains
 
 Navixy is a web-based platform that is usually deployed in a public network. Therefore, a domain name is typically required to access the platform. While using an IP address is possible, domain names significantly improve the presentation and ease of use of the service.

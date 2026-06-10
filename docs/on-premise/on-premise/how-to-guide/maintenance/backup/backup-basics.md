@@ -1,3 +1,7 @@
+---
+description: Set up basic backups for Navixy on-premise using MySQL dump scripts and file system snapshots. Always back up the license key file separately from database data.
+---
+
 # Backup basics
 
 This page covers most popular backup strategies for Navixy platform. It is assumed that all components are running on one server, and the database is running either on the same server or on the separate one.

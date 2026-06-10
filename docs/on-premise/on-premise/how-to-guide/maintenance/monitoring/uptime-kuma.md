@@ -1,3 +1,7 @@
+---
+description: Install and configure Uptime Kuma for local Navixy on-premise monitoring. Set up website, API, and TCP port checks with notification alerts for service downtime.
+---
+
 # Uptime Kuma
 
 While there is an abundance of existing service availability monitoring solutions, it can be difficult to find one that meets your basic needs while simply working without complex customizations. Using different approaches to continuous availability, we recommend a simple solution that is suitable for all owners of On-premise instances, whether deployed locally within organizations or in cloud services.

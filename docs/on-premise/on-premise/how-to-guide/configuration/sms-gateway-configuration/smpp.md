@@ -1,3 +1,7 @@
+---
+description: Connect any SMPP-compatible SMS center to Navixy on-premise using JSON gateway configuration. Covers minimal and complete parameter sets for SMPP protocol setup.
+---
+
 # SMPP
 
 [SMPP](https://en.wikipedia.org/wiki/Short_Message_Peer-to-Peer) (or Short Message Peer-to-Peer) is a protocol used for exchanging SMS messages between Short Message Service Centers (SMSCs) and applications. It enables fast, reliable delivery of SMS messages and provides a range of features for managing message traffic and monitoring delivery status.

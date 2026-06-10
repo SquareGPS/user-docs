@@ -1,3 +1,7 @@
+---
+description: Adjust report and alert device limits in Navixy on-premise to prevent server overload. Edit configuration files on Linux or Windows to set date range caps.
+---
+
 # System limits
 
 The Navixy platform configuration imposes limits to prevent overloading the server. This page explains what parameters Navixy offers as limits and how to adjust them. By setting limits on the number of devices and the reporting period, Navixy ensures optimal performance and reliable service while minimizing the risk of overload or downtime.

@@ -1,3 +1,7 @@
+---
+description: Migrate users to Navixy from another instance or vendor using data forwarding. Covers user account creation, device configuration, and data synchronization setup.
+---
+
 # Migrating users
 
 If you need to migrate your users:

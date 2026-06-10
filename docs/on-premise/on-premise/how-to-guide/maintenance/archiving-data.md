@@ -1,3 +1,7 @@
+---
+description: Archive old tracking data in Navixy on-premise to control database growth. Use pt-archiver from Percona to move aged records and free disk space with OPTIMIZE TABLE.
+---
+
 # Archiving data
 
 Navixy is a database-heavy application, and the more devices you have, the faster the database will grow. As a result, data archiving becomes an essential consideration for system administrators, and it is a question that gets asked quite frequently. In this article, we will provide some valuable tips on the data archiving process.

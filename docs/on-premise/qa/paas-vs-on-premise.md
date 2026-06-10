@@ -1,3 +1,7 @@
+---
+description: Compare Navixy PaaS and on-premise deployment across 18 criteria including updates, hosting, security, support, video telematics, and data warehouse capabilities.
+---
+
 # PaaS vs. On-Premise
 
 Each of the two Navixy deployment options has its advantages, so choosing the one that best suits your project depends on your specific requirements:

@@ -1,3 +1,7 @@
+---
+description: Install Navixy on-premise on Windows Server using automatic or manual deployment. Covers OS version requirements and third-party software coexistence considerations.
+---
+
 # Windows
 
 This section describes the step-by-step installation of the Navixy On-premise solution on Windows. Depending on your requirements, you can resort to:

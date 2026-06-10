@@ -1,3 +1,7 @@
+---
+description: Set up SSH key authentication for Navixy on-premise Linux servers as a secure alternative to passwords. Generate keys on Linux or Windows and disable password login.
+---
+
 # SSH keys
 
 Remote connection to the server always requires client authentication so that unauthorized parties cannot gain access. The basic method of authentication is the use of a password. But passwords have one disadvantage - they can be cracked, especially if the server owner did not take care of password complexity.

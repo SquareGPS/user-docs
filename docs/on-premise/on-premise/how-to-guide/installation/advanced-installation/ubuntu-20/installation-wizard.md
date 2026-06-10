@@ -1,3 +1,7 @@
+---
+description: Run the Ubuntu installation wizard for Navixy on-premise on a single or two-server setup. Configure server roles, domain names, and SSL certificates.
+---
+
 # Installation wizard
 
 The steps for installation will vary based on whether you plan to use an all-in-one server (generally used for small instances) or a separate server for the application and the database (big instance with over 1000 devices). Please select the appropriate section below based on your installation type.
