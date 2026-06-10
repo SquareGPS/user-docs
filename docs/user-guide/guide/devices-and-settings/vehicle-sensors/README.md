@@ -1,5 +1,5 @@
 ---
-description: Add and configure sensors in Navixy: discrete, measurement, virtual, and manufacturer-specific. Monitor fuel, temperature, engine diagnostics, and more.
+description: "Add and configure sensors in Navixy: discrete, measurement, virtual, and manufacturer-specific. Monitor fuel, temperature, engine diagnostics, and more."
 ---
 
 # Vehicle sensors

@@ -1,5 +1,5 @@
 ---
-description: Browse all Navixy report categories: trips and mileage, fuel analysis, driver safety, sensor readings, and events. Find the right report for any use case.
+description: "Browse all Navixy report categories: trips and mileage, fuel analysis, driver safety, sensor readings, and events. Find the right report for any use case."
 ---
 
 # Report types

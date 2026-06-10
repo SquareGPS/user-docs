@@ -1,5 +1,5 @@
 ---
-description: Configure parking detection for the platform: set the minimum idle time and maximum speed threshold that classify a vehicle as parked using GPS data.
+description: "Configure parking detection for the platform: set the minimum idle time and maximum speed threshold that classify a vehicle as parked using GPS data."
 ---
 
 # Parking detection block

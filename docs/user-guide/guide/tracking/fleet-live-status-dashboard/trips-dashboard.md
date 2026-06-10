@@ -1,5 +1,5 @@
 ---
-description: Review the last 7 days of fleet trips in one view: utilization KPIs, top-performer charts by distance and speed, and a sortable trip details table.
+description: "Review the last 7 days of fleet trips in one view: utilization KPIs, top-performer charts by distance and speed, and a sortable trip details table."
 ---
 
 # Trips dashboard

@@ -1,5 +1,5 @@
 ---
-description: Analyze trips with the Trips report: review mileage, duration, average and max speed, stops, and fuel consumption per trip for any date range.
+description: "Analyze trips with the Trips report: review mileage, duration, average and max speed, stops, and fuel consumption per trip for any date range."
 ---
 
 # Trips report

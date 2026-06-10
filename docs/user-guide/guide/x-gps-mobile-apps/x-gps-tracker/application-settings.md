@@ -1,5 +1,5 @@
 ---
-description: Configure X-GPS Tracker app settings: enable or disable geolocation tracking and select the operating mode for how the app reports location.
+description: "Configure X-GPS Tracker app settings: enable or disable geolocation tracking and select the operating mode for how the app reports location."
 ---
 
 # Application settings

@@ -1,5 +1,5 @@
 ---
-description: Configure how the GPS device detects ignition status: via a direct cable, onboard voltage level, or built-in motion sensor for devices not wired to ignition.
+description: "Configure how the GPS device detects ignition status: via a direct cable, onboard voltage level, or built-in motion sensor for devices not wired to ignition."
 ---
 
 # Ignition source block

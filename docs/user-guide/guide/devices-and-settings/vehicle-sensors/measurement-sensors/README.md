@@ -1,5 +1,5 @@
 ---
-description: Add measurement sensors to GPS devices in Navixy: configure the label, parameter input, sensor type, units, and calibration data for each sensor.
+description: "Add measurement sensors to GPS devices in Navixy: configure the label, parameter input, sensor type, units, and calibration data for each sensor."
 ---
 
 # Measurement sensors

@@ -1,5 +1,5 @@
 ---
-description: Add discrete sensors to GPS devices in Navixy: configure the sensor label, type, and device input number for binary state monitoring.
+description: "Add discrete sensors to GPS devices in Navixy: configure the sensor label, type, and device input number for binary state monitoring."
 ---
 
 # Discrete sensors
