@@ -1,3 +1,7 @@
+---
+description: Set up fuel level alerts in Navixy with customizable thresholds, geofencing conditions, and notifications for refills and drain events.
+---
+
 # Fuel alerts and notifications
 
 ## Fuel level change

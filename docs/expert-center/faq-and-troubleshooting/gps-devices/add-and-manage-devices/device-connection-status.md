@@ -1,3 +1,7 @@
+---
+description: Status indicators in Navixy show device activation and connection health. Color codes diagnose online, offline, and transitional device states.
+---
+
 # Device Connection Status
 
 Each device registered on the Navixy platform has a status indicating its current connection state to the server. These statuses are color-coded to enable users to quickly determine the device's current state. The statuses can be broadly categorized into two types: activated or not activated.

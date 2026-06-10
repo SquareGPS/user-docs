@@ -1,3 +1,7 @@
+---
+description: Set up Suntech ST4410G master-slave redundancy in Navixy. Covers slave mapping, distance monitoring parameters, and alert integration for asset security.
+---
+
 # Configuring Suntech ST4410G master-slave on Navixy.
 
 The Suntech ST4410G is a compact, battery-powered GPS tracker built for tough conditions. Running on CAT M1 with 2G fallback and equipped with a long-lasting lithium battery, it’s made for high-risk environments where flexibility and stealth matter. Navixy users can easily benefit from this device's capabilities, the ST4410G is fully integrated into the Navixy platform, ensuring stable data flow and comprehensive management capabilities for users.

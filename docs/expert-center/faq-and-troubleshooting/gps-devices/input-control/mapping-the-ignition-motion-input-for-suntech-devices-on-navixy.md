@@ -1,3 +1,7 @@
+---
+description: Map the motion ignition input for Suntech ST4315, ST4410, and ST4215 models in Navixy. Shows how physical inputs map to platform input channels.
+---
+
 # Mapping the ignition motion input for Suntech devices on Navixy
 
 Suntech devices are telemetry equipment used for tracking light and heavy units. It has multiple interfaces for serial equipment connections and various I/O, allowing flexibility in communication with external accessories.

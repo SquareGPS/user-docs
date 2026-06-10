@@ -1,3 +1,7 @@
+---
+description: "Actual fuel consumption from flow meters in Navixy: compare recorded usage against manufacturer specifications and calculate operating costs per vehicle."
+---
+
 # Fuel consumption report
 
 The report displays statistics on fuel consumption for a certain period, based on data from the flow meters installed in the vehicle. Unlike the previous report, it does not show the fuel level at a certain point in time from conventional fuel sensors, but only the consumption from flow meters. For example, CAN: fuel consumption.

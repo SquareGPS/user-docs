@@ -1,3 +1,7 @@
+---
+description: Device info panel widgets in Navixy display CAN/OBD2 fuel data including consumption rates, tank levels, and engine fault codes.
+---
+
 # Fuel related widgets
 
 To access the device control panel, simply press the "info" button or double-click on the desired device in the Object list. The control panel, prominently displayed in the central area, provides comprehensive information about the selected object, such as its current status, location, and telemetry data. Furthermore, it offers a variety of tools for effective operational management.

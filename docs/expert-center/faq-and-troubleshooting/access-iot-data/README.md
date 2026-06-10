@@ -1,3 +1,7 @@
+---
+description: Retrieve raw telematics data from Navixy using AirConsole, API calls, database export, device logging, and CSV export for analysis.
+---
+
 # Access IoT Data
 
 Accessing device data in the Navixy system can provide telematics professionals with a more detailed and thorough analysis of their data. This can be particularly useful when seeking to identify patterns, diagnose issues, or fine-tune performance. In this document, we will explore the various ways in which raw device data can be accessed within the Navixy system. By utilizing the tools and techniques described here, you will be better equipped to optimize your telematics services and achieve the best possible outcomes for your customers.

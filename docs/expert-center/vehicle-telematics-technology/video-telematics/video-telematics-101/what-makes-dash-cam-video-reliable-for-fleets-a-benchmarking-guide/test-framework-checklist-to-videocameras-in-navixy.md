@@ -1,3 +1,7 @@
+---
+description: Dashcam testing checklist for Navixy covering video quality, GPS accuracy, streaming stability, compression, and AI recognition rates.
+---
+
 # Test framework checklist to videocameras in Navixy
 
 | Video Quality             | Resolution                      | Pixels (e.g., 1920×1080) | ≥ 640x360 minimum to record an event                |

@@ -1,3 +1,7 @@
+---
+description: Calibrate fuel level sensors in Navixy by setting the baseline tare, completing the full tank calibration procedure, and verifying measurement accuracy.
+---
+
 # Fuel level sensor calibration (tare)
 
 ## Fuel sensor calibration

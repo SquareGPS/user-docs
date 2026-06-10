@@ -1,3 +1,7 @@
+---
+description: Configure ADAS, DMS, and input-triggered event alerts on Howen MDVR devices using state field value rules with a full event code table.
+---
+
 # Event configuration on Howen MDVR
 
 Howen devices can provide various types of events to the platform, including ADAS (Advanced Driver Assistance Systems), DMS (Driver Monitoring System), and other alerts. While these events may not include video footage, you can configure custom notifications using the [state field values alert type](https://docs.navixy.com/user-guide/state-field-value/). This feature is particularly useful when you need alerts for events where video recording is not necessary. For example, count how many particular events happen using the [report on all events](https://docs.navixy.com/user-guide/report-on-all-events).

@@ -1,3 +1,7 @@
+---
+description: "Configure and troubleshoot sensors in Navixy: temperature, fuel, environmental, and OBD sensors across device models with setup and calibration guides."
+---
+
 # Sensors
 
 Integrating sensors with GPS devices transforms basic location tracking into comprehensive monitoring systems. However, connecting measurement sensors, environmental monitors, and fuel sensors to tracking devices involves complex configuration steps, platform setup procedures, and troubleshooting challenges that can derail sensor deployments.

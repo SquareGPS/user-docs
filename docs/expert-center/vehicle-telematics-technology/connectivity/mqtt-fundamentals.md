@@ -1,3 +1,7 @@
+---
+description: Publish/subscribe protocol powering lightweight IoT device communication. Covers MQTT broker setup, message formats, QoS levels, and telematics use cases.
+---
+
 # MQTT fundamentals
 
 Message Queuing Telemetry Transport (MQTT) protocol has been used for many years, but now it is especially relevant due to the explosive growth of IoT: both customer and industrial devices are implementing distributed networks and edge computing, and devices with constant data transmission are becoming part of everyday life. Such intensive growth forces people to look for ways to transfer data efficiently.

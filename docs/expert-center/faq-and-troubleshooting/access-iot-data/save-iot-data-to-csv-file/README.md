@@ -1,3 +1,7 @@
+---
+description: Export raw IoT device data to CSV from Navixy with customizable parameters, timezone adjustment, and date range selection for analytics and diagnostics.
+---
+
 # Save IoT data to CSV file
 
 In certain instances TSPs, integrators, and developers, need to see the original, unaltered data from their GPS trackers. This unadulterated data is frequently referred to as "raw data". Checking out raw data allows them to gain a deeper understanding of the collected data and obtain a clearer perspective on its characteristics.

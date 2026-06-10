@@ -1,3 +1,7 @@
+---
+description: Driver monitoring, incident detection, and real-time alerts rank as top fleet camera priorities. Analysis includes ROI data and cost-benefit breakdowns.
+---
+
 # Turning Feedback Into Benchmarks: Ranking Fleet Camera Priorities
 
 Fleet managers today face mounting pressure to cut costs, improve safety, and keep operations running smoothly. Traditional GPS tracking tells you where your vehicles are, but it doesn’t explain how your drivers are behaving—or why accidents happen. That’s where video telematics is changing the game.

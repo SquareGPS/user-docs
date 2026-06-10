@@ -1,3 +1,7 @@
+---
+description: "Fix common sensor issues in Navixy: missing readings, incorrect units, and measurement gaps. Includes steps for adding sensors and calibrating fuel levels."
+---
+
 # Manage Sensors
 
 First of all please be advised, that there is no possibility to affect the sensor from the platform. The sensor just sends data to the tracker, then this data is just parsed on the server.

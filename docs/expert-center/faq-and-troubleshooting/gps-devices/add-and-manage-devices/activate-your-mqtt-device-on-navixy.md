@@ -1,3 +1,7 @@
+---
+description: Connect an MQTT device to Navixy by configuring the publish/subscribe protocol. Includes setup examples for Xirgo, Globalmatix, and similar devices.
+---
+
 # Activate Your MQTT Device on Navixy
 
 MQTT is a lightweight messaging protocol designed for efficient communication between remote devices with minimal network bandwidth. It is an excellent choice for Machine-to-Machine (M2M) communication, making it ideal for vehicle telematics projects. This document describes how you can connect a GPS device to Navixy using MQTT.

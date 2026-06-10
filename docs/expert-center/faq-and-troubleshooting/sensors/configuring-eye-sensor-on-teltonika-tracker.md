@@ -1,3 +1,7 @@
+---
+description: "Set up the Teltonika Eye Sensor in three steps: configure the mobile app, set parameters in the desktop configurator, and map readings in Navixy."
+---
+
 # Configuring Eye Sensor on Teltonika Tracker
 
 The integration of advanced sensors and GPS trackers has become essential for businesses aiming to enhance their operational efficiency and security. Teltonika's Eye Sensor can significantly improve monitoring and data collection capabilities. This article serves as a comprehensive guide for partners who wish to configure these devices for their customers.

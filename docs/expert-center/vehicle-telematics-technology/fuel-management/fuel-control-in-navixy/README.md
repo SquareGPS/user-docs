@@ -1,3 +1,7 @@
+---
+description: Set up fuel sensors in Navixy, assess reading quality, and analyze consumption with reports, widgets, and Grafana dashboards.
+---
+
 # Fuel control in Navixy
 
 Navixy's Fuel Control functionality, including widgets, alerts and notifications, and reports, empowers businesses to effectively manage fuel consumption, reduce costs, and enhance operational efficiency.

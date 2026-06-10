@@ -1,3 +1,7 @@
+---
+description: Troubleshoot Jimi JC400 connectivity and registration issues in Navixy by checking IMEI, SIM status, firmware version, and SMS activation commands.
+---
+
 # Jimi JC400 troubleshooting
 
 Here we have prepared a step-by-step instruction to troubleshoot the JC400 issues regarding live streaming, registration, and incorrect functioning on the platform. Please proceed with all the steps without skipping anything below:

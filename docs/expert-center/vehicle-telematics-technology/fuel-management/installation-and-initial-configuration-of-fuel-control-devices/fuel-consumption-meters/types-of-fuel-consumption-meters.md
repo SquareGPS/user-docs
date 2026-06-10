@@ -1,3 +1,7 @@
+---
+description: Single-chamber, dual-chamber, and CAN-bus fuel meters each suit different engine types. Compare specifications to select the right meter for your vehicle.
+---
+
 # Types of fuel consumption meters
 
 As of the end of 2018, flow meters manufactured by [Technoton](https://www.jv-technoton.com/) had been ranked as the most widely used sensors. In our guide, we will classify flow meters as per Technoton’s listing. Other manufacturers produce similar models of flow meters as well but may use their own naming scheme. For example, the [Mechatronics](http://mechatronics.by/) manufacturer company refers to flow meters as "fuel consumption sensors".

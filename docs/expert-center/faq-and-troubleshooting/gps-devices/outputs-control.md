@@ -1,3 +1,7 @@
+---
+description: Control remote outputs in Navixy to activate locks, immobilizers, and engine cutoff. Covers safety logic, command methods, and device troubleshooting.
+---
+
 # Outputs Control
 
 Several device models come equipped with the capability to control the state of connected devices or engines. This feature can be applied to a variety of components, including locks, buzzers, immobilizers, oil/engine cutoff systems, and automatic engine warming systems like Webasto. It can even extend to smart home applications, such as smart sockets and smart bulbs, among others. It may be used, for instance, in your mobile home that is better to track and control via GPS tracker. The primary concept here is the ability to turn on or off a specific function or device remotely through a command transmitted over the air. Of course, the actual scope of this control depends on what is connected to the device’s output.

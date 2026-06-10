@@ -1,3 +1,7 @@
+---
+description: Visualize fuel and telematics data in Grafana by connecting to the Navixy API. Step-by-step setup for dashboards tracking historical consumption.
+---
+
 # Fuel data analysis with Grafana via Navixy API integration
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+description: Mechanical, magnetic, pressure, electrostatic, and ultrasonic sensor types each suit different tank designs and measurement requirements.
+---
+
 # Fuel level sensors
 
 A fuel level sensor is a device designed to make precise measurements of fuel level in vehicles. These measurements combined with a GPS tracking and telematics platform functionality enable the following data to be harvested:

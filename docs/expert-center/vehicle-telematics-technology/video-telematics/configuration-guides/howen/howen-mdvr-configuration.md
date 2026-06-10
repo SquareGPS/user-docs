@@ -1,3 +1,7 @@
+---
+description: Set up a Howen MDVR device by configuring startup settings, network parameters, time zone, and platform registration to connect it to Navixy.
+---
+
 # Howen MDVR configuration
 
 Howen devices are advanced Mobile Digital Video Recorder (MDVR) units with the capability to support up to 8 cameras. They are perfectly suited for comprehensive vehicle surveillance, offering multiple perspectives. Our platform provides seamless access to display live video streams and playbacks from Howen devices, enhancing monitoring capabilities. The list of compatible Howen devices can be found in our [devices section](https://www.navixy.com/devices/howen-technologies/). This document is intended to provide information on the configuration, registration, and specific operational aspects of Howen devices within our platform.

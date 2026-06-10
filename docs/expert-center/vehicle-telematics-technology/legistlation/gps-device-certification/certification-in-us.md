@@ -1,3 +1,7 @@
+---
+description: US GPS tracker certification requires FCC approval, RoHS compliance, and operator certifications from PTCRB, AT&T, T-Mobile, and Verizon.
+---
+
 # Certification in US
 
 The table below explains what you need to know if you sell or buy GPS devices in the United States. In addition to listing the organizations that issue certifications, the table also includes each agency’s certification requirements, testing labs, proof of certification, and a brief explanation of their purpose.

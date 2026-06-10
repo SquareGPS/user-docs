@@ -1,3 +1,7 @@
+---
+description: Canadian GPS tracker certification requires ISED wireless approval, RoHS compliance, and PTCRB and carrier certifications from Rogers, Telus, and Bell.
+---
+
 # Certification in Canada
 
 The table below explains key details for buying and selling GPS devices in Canada. Along with the names of the organizations, the table also includes a summary, of each agency’s certification requirements, testing labs, and proof of certification, if known. For more detailed information, please see below or contact the organization with specific questions.

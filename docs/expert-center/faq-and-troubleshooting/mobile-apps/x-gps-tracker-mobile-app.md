@@ -1,3 +1,7 @@
+---
+description: Configure X-GPS Tracker app permissions for GPS, battery, network, and background access to ensure reliable location reporting from your phone.
+---
+
 # X-GPS Tracker mobile app
 
 X-GPS Tracker application requires several permissions to operate correctly.

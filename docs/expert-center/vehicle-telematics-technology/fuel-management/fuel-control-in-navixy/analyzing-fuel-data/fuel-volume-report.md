@@ -1,3 +1,7 @@
+---
+description: Per-vehicle drains, refills, and consumption rates in the fuel volume report. Assess sensor quality scores and calibration accuracy from report data.
+---
+
 # Fuel volume report
 
 ## Before you start
