@@ -1,5 +1,5 @@
 ---
-description: Updates and improvements for standalone builds
+description: Track Navixy on-premise version history by year. Each build covers new device integrations, platform improvements, bug fixes, and update scripts.
 ---
 
 # Standalone versions
