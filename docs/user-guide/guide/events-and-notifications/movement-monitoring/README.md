@@ -1,5 +1,5 @@
 ---
-description: Set up alert rules to track vehicle and asset movement: geofence entrance and exit, speeding, parking detection, route deviation, and movement inactivity.
+description: "Set up alert rules to track vehicle and asset movement: geofence entrance and exit, speeding, parking detection, route deviation, and movement inactivity."
 ---
 
 # Movement monitoring

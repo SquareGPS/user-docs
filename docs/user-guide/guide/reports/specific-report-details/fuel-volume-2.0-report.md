@@ -1,5 +1,5 @@
 ---
-description: Track fuel consumption with Fuel volume 2.0: automatic refueling detection, daily fuel data, and sensor quality indicators per vehicle.
+description: "Track fuel consumption with Fuel volume 2.0: automatic refueling detection, daily fuel data, and sensor quality indicators per vehicle."
 ---
 
 # Fuel volume 2.0 report

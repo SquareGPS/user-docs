@@ -1,5 +1,5 @@
 ---
-description: Configure Teltonika BLE sensors in Navixy: set up BLE beacons for temperature and proximity monitoring, and BLE fuel level sensors for wireless tank readings.
+description: "Configure Teltonika BLE sensors in Navixy: set up BLE beacons for temperature and proximity monitoring, and BLE fuel level sensors for wireless tank readings."
 ---
 
 # Teltonika sensors

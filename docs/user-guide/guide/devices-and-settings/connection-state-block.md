@@ -1,5 +1,5 @@
 ---
-description: Set the offline timeout for a GPS device: the time without data before it is marked disconnected. Useful for power-saving modes and low-frequency reporting.
+description: "Set the offline timeout for a GPS device: the time without data before it is marked disconnected. Useful for power-saving modes and low-frequency reporting."
 ---
 
 # Connection state block
