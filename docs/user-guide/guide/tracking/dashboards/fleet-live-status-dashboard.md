@@ -12,23 +12,23 @@ The Fleet Live Status Dashboard tab opens by default when you open the Dashboard
 
 The dashboard uses four movement states to classify what each object is doing. These states appear in the Movement chart and in the Fleet Details table, color-coded as shown below.
 
-| State | Color | Condition |
-|---|---|---|
-| 🟢 Moving | Green | Speed above 2 km/h |
+| State      | Color  | Condition                                    |
+| ---------- | ------ | -------------------------------------------- |
+| 🟢 Moving  | Green  | Speed above 2 km/h                           |
 | 🟣 Stopped | Violet | No message received for more than 10 minutes |
-| 🟠 Parked | Orange | Stationary with engine off |
-| 🔵 Idling | Blue | Stationary with engine on, speed at 0 km/h |
+| 🟠 Parked  | Orange | Stationary with engine off                   |
+| 🔵 Idling  | Blue   | Stationary with engine on, speed at 0 km/h   |
 
 ## Connection states
 
-The dashboard uses the same four connection states as the rest of the platform. A concise reference is provided below; for full definitions including the state transition sequence, see [Connection state](/docs/user/guide/tracking/objects-list/connection-state).
+The dashboard uses the same four connection states as the rest of the platform. A concise reference is provided below; for full definitions including the state transition sequence, see [Connection state](../objects-list/connection-state.md).
 
-| State | Condition |
-|---|---|
-| 🟢 Online | Device is connected and reporting GPS coordinates as expected. |
+| State              | Condition                                                                                               |
+| ------------------ | ------------------------------------------------------------------------------------------------------- |
+| 🟢 Online          | Device is connected and reporting GPS coordinates as expected.                                          |
 | 🟡 GPS not updated | Device is connected to the server but has not transmitted valid GPS coordinates for at least 5 minutes. |
-| 🔴 Offline | Device has not sent any data for longer than the configured timeout (default: 10 minutes). |
-| ⬜ Other | Devices not yet activated, suspended, or in another non-standard state. |
+| 🔴 Offline         | Device has not sent any data for longer than the configured timeout (default: 10 minutes).              |
+| ⬜ Other            | Devices not yet activated, suspended, or in another non-standard state.                                 |
 
 ## Data window and refresh
 
@@ -42,17 +42,18 @@ Geofence and Points of Interest membership updates within a few minutes of an ob
 
 The top of the dashboard answers the most immediate operational question: how many devices are working right now? These panels give you the count and the distribution at a glance.
 
-| Panel | What it shows |
-|---|---|
-| **Total Objects** *(KPI)* | Every device registered in your account. |
-| **Online** *(KPI)* | Devices currently connected and reporting GPS as expected. |
-| **Offline** *(KPI)* | Devices that have not sent data for longer than the configured timeout. |
-| **GPS not updated** *(KPI)* | Devices connected to the server but not transmitting valid GPS coordinates. |
-| **Other** *(KPI)* | Devices in any other state, including suspended or not yet activated. |
-| **Connection** *(donut chart)* | The same five counts shown as proportions, making it easier to see whether a significant share of the fleet is offline. |
-| **Top 5 long-unseen** *(table)* | The five objects with the oldest Last Updated timestamps, sorted from the longest gap to the shortest. Surfaces the devices most likely to need attention before drivers or customers report a problem. |
+| Panel                           | What it shows                                                                                                                                                                                           |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Total Objects** _(KPI)_       | Every device registered in your account.                                                                                                                                                                |
+| **Online** _(KPI)_              | Devices currently connected and reporting GPS as expected.                                                                                                                                              |
+| **Offline** _(KPI)_             | Devices that have not sent data for longer than the configured timeout.                                                                                                                                 |
+| **GPS not updated** _(KPI)_     | Devices connected to the server but not transmitting valid GPS coordinates.                                                                                                                             |
+| **Other** _(KPI)_               | Devices in any other state, including suspended or not yet activated.                                                                                                                                   |
+| **Connection** _(donut chart)_  | The same five counts shown as proportions, making it easier to see whether a significant share of the fleet is offline.                                                                                 |
+| **Top 5 long-unseen** _(table)_ | The five objects with the oldest Last Updated timestamps, sorted from the longest gap to the shortest. Surfaces the devices most likely to need attention before drivers or customers report a problem. |
 
 <details>
+
 <summary>When to investigate using Top 5 long-unseen</summary>
 
 Devices appearing here have gone the longest without contacting the platform. Common causes include dead or disconnected batteries, vehicles parked in areas with poor cellular signal (underground parking, remote sites), exhausted SIM data limits, and devices that have been physically moved or decommissioned without being removed from the account. Checking this table at the start of a shift is faster than sorting the Objects list by Last Updated.
@@ -63,12 +64,13 @@ Devices appearing here have gone the longest without contacting the platform. Co
 
 The movement section tells you what your fleet is actually doing, not just whether devices are reporting. Both panels draw from the same data; they complement each other rather than duplicate.
 
-| Panel | What it shows |
-|---|---|
-| **Movement** *(donut chart)* | The fleet split across the four movement states as proportions. |
-| **Movement Distribution** *(bar chart)* | The same four movement states as absolute counts, making it easier to compare volumes when one state dominates the donut. |
+| Panel                                   | What it shows                                                                                                             |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Movement** _(donut chart)_            | The fleet split across the four movement states as proportions.                                                           |
+| **Movement Distribution** _(bar chart)_ | The same four movement states as absolute counts, making it easier to compare volumes when one state dominates the donut. |
 
 <details>
+
 <summary>Reading the movement distribution</summary>
 
 The balance of states shifts predictably through the day. A fleet showing most objects as Parked early in the morning is normal before a shift starts; the same picture at midday suggests routes are not running on schedule. A high Idling count at any time of day is worth noting: idling while stationary with the engine on accumulates fuel cost and engine wear that doesn't appear in trip distance or duration figures.
@@ -79,30 +81,30 @@ The balance of states shifts predictably through the day. A fleet showing most o
 
 Two panels cover speed from different angles. The chart shows fleet-wide patterns over time; the table identifies the individual objects responsible for peaks.
 
-| Panel | What it shows |
-|---|---|
-| **Average and max speed** *(line chart)* | Fleet-wide average speed and the single highest speed recorded across all objects, plotted over the last 24 hours. |
-| **Top 10 objects by speed** *(table)* | Individual objects ranked by their highest recorded speed, making it straightforward to identify which vehicles produced the peaks visible in the chart. |
+| Panel                                    | What it shows                                                                                                                                            |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Average and max speed** _(line chart)_ | Fleet-wide average speed and the single highest speed recorded across all objects, plotted over the last 24 hours.                                       |
+| **Top 10 objects by speed** _(table)_    | Individual objects ranked by their highest recorded speed, making it straightforward to identify which vehicles produced the peaks visible in the chart. |
 
 ## Geofences
 
 The Geofences panel shows where objects are right now relative to the zones configured in your account.
 
-| Panel | What it shows |
-|---|---|
-| **Geofences** *(table)* | Zones that currently contain at least one object, with the count and labels of those objects. Sorted by object count from highest to lowest by default. |
+| Panel                   | What it shows                                                                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Geofences** _(table)_ | Zones that currently contain at least one object, with the count and labels of those objects. Sorted by object count from highest to lowest by default. |
 
 {% hint style="info" %}
-This panel lists only zones that currently contain objects. Empty zones do not appear. For the complete list of configured zones, use [Map tools → Geofences](/docs/user/guide/tracking/map-tools/geofences).
+This panel lists only zones that currently contain objects. Empty zones do not appear. For the complete list of configured zones, use [Map tools → Geofences](../map-tools/geofences.md).
 {% endhint %}
 
 ## Points of interest
 
 The Points of Interest panel is the companion to Geofences for accounts organized around specific stops rather than larger zones. A point of interest is a single location with a radius: a customer site, a pickup point, a fuel station, or a checkpoint.
 
-| Panel | What it shows |
-|---|---|
-| **Points of Interest** *(table)* | POIs that currently have at least one object inside their radius, with the object count and an alphabetical list of object labels. Objects without a label set appear as `No Data`. Sorted by object count from highest to lowest by default. |
+| Panel                            | What it shows                                                                                                                                                                                                                                 |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Points of Interest** _(table)_ | POIs that currently have at least one object inside their radius, with the object count and an alphabetical list of object labels. Objects without a label set appear as `No Data`. Sorted by object count from highest to lowest by default. |
 
 {% hint style="info" %}
 The panel shows up to 100 POIs at a time, ranked by object count. POIs with no objects nearby do not appear. The panel updates within a few minutes of an object entering or leaving a POI radius.
@@ -119,6 +121,7 @@ The table displays a maximum of 500 rows. If your account contains more than 500
 {% endhint %}
 
 <details>
+
 <summary>How to use Fleet Details during an investigation</summary>
 
 Sorting by **Last Updated** brings the most recently active objects to the top, which is useful when verifying that a specific vehicle has checked in. Sorting by **Speed** surfaces the fastest objects at that moment. Sorting by **Address** groups objects by their current location, which can help confirm that vehicles have reached expected sites. For objects flagged in the Top 5 long-unseen table, searching by object label in Fleet Details shows their full current state alongside their last known coordinates.
