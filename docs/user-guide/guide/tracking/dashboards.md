@@ -20,7 +20,7 @@ The app organizes its views into tabs, each focused on a distinct operational qu
 
 | Dashboard                                                                      | Question it answers                                                    | Data window                      |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | -------------------------------- |
-| [Fleet Live Status Dashboard](fleet-live-status-dashboard.md)                  | What is the fleet doing right now?                                     | Live, refreshed every 60 seconds |
+| [Fleet Live Status Dashboard](dashboards/fleet-live-status-dashboard.md)       | What is the fleet doing right now?                                     | Live, refreshed every 60 seconds |
 | [Trips Dashboard](dashboards/trips-dashboard.md)                               | What did the fleet do over the past week?                              | Last 7 days                      |
 | [Technical Conditions Dashboard](dashboards/technical-conditions-dashboard.md) | How well is the fleet's hardware performing, and what needs attention? | Full hourly statistics history   |
 
