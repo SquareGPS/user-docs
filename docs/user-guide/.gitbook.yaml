@@ -1,0 +1,3 @@
+redirects:
+  user/guide/tracking/fleet-live-status-dashboard: user/guide/tracking/dashboards/fleet-live-status-dashboard
+  user/guide/tracking/fleet-live-status-dashboard/trips-dashboard: user/guide/tracking/dashboards/trips-dashboard
