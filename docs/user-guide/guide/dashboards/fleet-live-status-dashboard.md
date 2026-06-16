@@ -21,7 +21,7 @@ The dashboard uses four movement states to classify what each object is doing. T
 
 ## Connection states
 
-The dashboard uses the same four connection states as the rest of the platform. A concise reference is provided below; for full definitions including the state transition sequence, see [Connection state](../objects-list/connection-state.md).
+The dashboard uses the same four connection states as the rest of the platform. A concise reference is provided below; for full definitions including the state transition sequence, see [Connection state](../tracking/objects-list/connection-state.md).
 
 | State              | Condition                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------- |
@@ -95,7 +95,7 @@ The Geofences panel shows where objects are right now relative to the zones conf
 | **Geofences** _(table)_ | Zones that currently contain at least one object, with the count and labels of those objects. Sorted by object count from highest to lowest by default. |
 
 {% hint style="info" %}
-This panel lists only zones that currently contain objects. Empty zones do not appear. For the complete list of configured zones, use [Map tools → Geofences](../map-tools/geofences.md).
+This panel lists only zones that currently contain objects. Empty zones do not appear. For the complete list of configured zones, use [Map tools → Geofences](../tracking/map-tools/geofences.md).
 {% endhint %}
 
 ## Points of interest

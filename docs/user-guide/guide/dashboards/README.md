@@ -8,21 +8,21 @@ description: >-
 
 The **Dashboards** app provides ready-made fleet views that answer the questions operations teams ask every day: which vehicles are active, which ones need attention, how trip activity has changed over the week, and whether hardware is performing as expected. Each dashboard covers a specific time horizon and type of question, so you get the right view without switching between the Objects list, the map, and individual reports.
 
-The dashboards complement the [Objects list](objects-list/) and [History view](history-view/) rather than replacing them. Use the dashboards for fleet-wide situational awareness, and the existing views when you need to drill into a single object or pull a report for a custom time range.
+The app complements the [Objects list](../tracking/objects-list/) and [History view](../tracking/history-view/) rather than replacing them. Use the dashboards for fleet-wide situational awareness, and the existing views when you need to drill into a single object or pull a report for a custom time range.
 
 {% hint style="info" %}
-The Dashboards app is currently in beta. Each dashboard versions independently, so the tabs you see may carry different version numbers. If something is missing, confusing, or could be more useful, the **Send Feedback** button in the top-right corner of any tab is the fastest way to tell us.
+The Dashboards app is currently in beta. Each dashboard versions independently, so the tabs you see may carry different version numbers. This is due to the nuances of the calculations used in different dashboards. If something is missing, confusing, or could be more useful, the Send Feedback button in the top-right corner of any tab is the fastest way to tell us.
 {% endhint %}
 
 ## Available dashboards
 
 The app organizes its views into tabs, each focused on a distinct operational question.
 
-| Dashboard                                                                      | Question it answers                                                    | Data window                      |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | -------------------------------- |
-| [Fleet Live Status Dashboard](dashboards/fleet-live-status-dashboard.md)       | What is the fleet doing right now?                                     | Live, refreshed every 60 seconds |
-| [Trips Dashboard](dashboards/trips-dashboard.md)                               | What did the fleet do over the past week?                              | Last 7 days                      |
-| [Technical Conditions Dashboard](dashboards/technical-conditions-dashboard.md) | How well is the fleet's hardware performing, and what needs attention? | Full hourly statistics history   |
+| Dashboard                                                           | Question it answers                                                    | Data window                      |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------- |
+| [Fleet Live Status Dashboard](fleet-live-status-dashboard.md)       | What is the fleet doing right now?                                     | Live, refreshed every 60 seconds |
+| [Trips Dashboard](trips-dashboard.md)                               | What did the fleet do over the past week?                              | Last 7 days                      |
+| [Technical Conditions Dashboard](technical-conditions-dashboard.md) | How well is the fleet's hardware performing, and what needs attention? | Full hourly statistics history   |
 
 The **Fleet Live Status Dashboard** tab opens by default when you open the app. Switch between tabs using the tab bar at the top of the page.
 

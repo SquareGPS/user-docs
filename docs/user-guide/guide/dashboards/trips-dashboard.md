@@ -25,7 +25,7 @@ For a trip to be recorded at all, four conditions need to hold. Trips that fail 
 
 ## Data window and refresh
 
-The Trips Dashboard always shows the last 7 days of trip data. There is no date picker, and the window cannot be changed. For trip data over a different period, use the [Trips and parkings report](../../reports/specific-report-details/trip-report.md).
+The Trips Dashboard always shows the last 7 days of trip data. There is no date picker, and the window cannot be changed. For trip data over a different period, use the [Trips and parkings report](../reports/specific-report-details/trip-report.md).
 
 The dashboard refreshes itself every **90 seconds** while the browser tab is in focus, and the **Update** button in the top-right corner forces an immediate refresh. The 90-second cadence is slower than the Fleet Live Status tab's 60 seconds, because the trip-level aggregations span a week of data and are more expensive to compute.
 
