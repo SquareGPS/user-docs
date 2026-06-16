@@ -36,4 +36,4 @@
     * [SMS gateway](settings/messaging-gateways/sms-gateway.md)
     * [Email gateway](settings/messaging-gateways/email-gateway.md)
 * [Report](report.md)
-* [Navixy AI assistant](navixy-ai-assistant.md)
+* [AI Assistant](https://app.gitbook.com/s/gh5cGQ23uFYTcp7Fj7Yd/navixy-ai-assistant)
