@@ -1,3 +1,7 @@
+---
+description: Service providers handle GPS hardware supply, installation, and support for Navixy. Contact them from the built-in Help section in the web or mobile app.
+---
+
 # Service provider
 
 A service provider is your direct partner in delivering GPS telematics services, ensuring reliable, customized solutions that meet your needs. They handle hardware supply, installation, and connectivity services while offering localized support for setup, troubleshooting, and any questions related to the Navixy platform.

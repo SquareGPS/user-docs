@@ -1,7 +1,5 @@
 ---
-description: >-
-  Connect factory-installed vehicle telematics to Navixy without installing
-  additional hardware.
+description: Connect a factory-installed vehicle telematics unit to Navixy without additional GPS hardware. Follow the OEM activation steps to begin tracking.
 ---
 
 # Activate OEM device

@@ -1,3 +1,7 @@
+---
+description: "Add measurement sensors to GPS devices in Navixy: configure the label, parameter input, sensor type, units, and calibration data for each sensor."
+---
+
 # Measurement sensors
 
 To add a measurement sensor, click ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/add.png) and select **Measurement sensor** in the pop-up menu.

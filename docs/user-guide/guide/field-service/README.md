@@ -1,3 +1,7 @@
+---
+description: Assign tasks to mobile employees, track their completion on a map or timeline, and analyze field performance with the Navixy Field Service module.
+---
+
 # Field service
 
 The **Field Service section** in Navixy allows managers and dispatchers to efficiently manage and monitor their mobile workforce. Through the application, tasks can be assigned to employees, tracked for completion, and analyzed for performance, making it an essential tool for optimizing field operations.

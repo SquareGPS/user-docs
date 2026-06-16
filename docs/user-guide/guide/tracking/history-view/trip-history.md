@@ -1,3 +1,7 @@
+---
+description: Review past trips for any object, with mileage, fuel, stops, and duration. Replay routes on the map, color-code by speed, and export trips as KML files.
+---
+
 # Trip history
 
 Trip history in Navixy allows you to review past activities and routes taken by your fleet vehicles. This feature provides a detailed log of trips, including timestamps, locations, distances, and duration, helping you monitor vehicle activity and optimize fleet management.

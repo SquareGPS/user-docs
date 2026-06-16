@@ -1,3 +1,7 @@
+---
+description: Register a Navixy account, confirm your email, and get help if self-registration is unavailable or the confirmation email didn't arrive.
+---
+
 # Sign up
 
 This guide provides step-by-step instructions on how to sign up for a user account.

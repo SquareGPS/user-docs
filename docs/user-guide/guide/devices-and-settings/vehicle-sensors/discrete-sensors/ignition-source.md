@@ -1,3 +1,7 @@
+---
+description: Configure the ignition source for GPS devices that use virtual ignition detection via motion sensor or voltage instead of a direct ignition cable connection.
+---
+
 # Ignition source
 
 Some devices do not allow connecting the ignition cable to the device input to transmit the ignition status. Instead, they use virtual ignition based on the motion sensor readings or the vehicle's onboard voltage.

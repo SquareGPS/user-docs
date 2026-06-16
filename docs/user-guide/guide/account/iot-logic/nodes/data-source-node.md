@@ -1,3 +1,7 @@
+---
+description: Data Source node is the IoT Logic entry point for device telemetry. It receives data via TCP, UDP, HTTP, or MQTT, decodes it, and passes it to downstream nodes.
+---
+
 # Data Source
 
 ## Technical overview and capabilities

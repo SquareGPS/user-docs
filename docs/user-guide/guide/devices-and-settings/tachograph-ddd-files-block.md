@@ -1,3 +1,7 @@
+---
+description: Download and store tachograph DDD files from GPS devices in Navixy to monitor driver hours, rest periods, and compliance with driving time regulations.
+---
+
 # Tachograph DDD files block
 
 The **DDD files** block in Navixy is designed to manage the download and storage of DDD files, which are critical for monitoring driver compliance and rest through tachographs. These files are essential for ensuring that drivers adhere to regulations and help identify any irregularities in tachograph data.

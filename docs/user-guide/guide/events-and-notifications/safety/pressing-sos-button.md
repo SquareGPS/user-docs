@@ -1,3 +1,7 @@
+---
+description: Receive immediate alerts when an SOS emergency button is pressed on a GPS device or personal tracker. Works with dedicated SOS buttons and discrete inputs.
+---
+
 # Pressing SOS Button
 
 ## Overview

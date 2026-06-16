@@ -1,3 +1,7 @@
+---
+description: Integrate MettaX dashcam video telematics with Navixy to use third-party video features alongside Navixy's GPS tracking and telematics functionality.
+---
+
 # MettaX
 
 Video telematics is a vital functionality for many businesses. There are proprietary solutions that handle video feed from dashcams but offer limited possibilities for telematic readings of such devices. For this reason, we broadened our approach to integrations so our clients can make use of existing 3rd-party applications for video and benefit from Navixy’s extended telematics features at the same time.

@@ -1,3 +1,7 @@
+---
+description: Configure external Bluetooth sensors connected to your GPS tracker in Navixy. Map raw sensor data by MAC address so the platform interprets values correctly.
+---
+
 # Bluetooth sensors block
 
 Some devices have a special **Bluetooth sensors** block in Navixy, which allows you to configure external Bluetooth sensors that are connected to certain tracker models. These sensors typically transmit raw data, including only the MAC address and sensor value.

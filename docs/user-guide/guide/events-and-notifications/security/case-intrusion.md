@@ -1,3 +1,7 @@
+---
+description: Get alerted when the GPS tracker's case is opened or tampered with. Protects valuable cargo by detecting unauthorized access to the tracking device itself.
+---
+
 # Case intrusion
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+description: X-GPS Tracker stores check-ins and completed forms locally when offline and uploads them automatically when internet connection is restored.
+---
+
 # Offline mode
 
 **X-GPS Tracker** has the ability to send a Check-in or Form during a task even when the device is not connected to the internet.\

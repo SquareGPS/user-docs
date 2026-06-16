@@ -1,3 +1,7 @@
+---
+description: Forward heavy machinery GPS data from Navixy to Maquinaria Amarilla, required for National Police compliance monitoring of equipment in Colombia.
+---
+
 # Maquinaria Amarilla
 
 ### What is Maquinaria Amarilla?

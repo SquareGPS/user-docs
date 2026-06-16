@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to filter and analyze platform events, choose event types, and
-  interpret event tables, timelines, and summaries in the Report on all events.
+description: Filter platform events by type and date in the Report on all events. Review timestamps, locations, and event details in tables, timelines, and summaries.
 ---
 
 # Report on all events

@@ -1,3 +1,7 @@
+---
+description: "Set up alert rules to track vehicle and asset movement: geofence entrance and exit, speeding, parking detection, route deviation, and movement inactivity."
+---
+
 # Movement monitoring
 
 The rules in this section allow you to track various aspects of vehicle or asset movement, including geofence breaches, parking states, and speeding incidents. These rules help ensure compliance, enhance security, and improve overall fleet management efficiency.

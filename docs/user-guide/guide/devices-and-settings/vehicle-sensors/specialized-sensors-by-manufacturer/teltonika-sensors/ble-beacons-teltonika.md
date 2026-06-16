@@ -1,3 +1,7 @@
+---
+description: Set up Teltonika BLE beacons in Navixy to monitor temperature, magnetic state, and asset proximity over Bluetooth Low Energy with multi-year battery life.
+---
+
 # BLE Beacons (Teltonika)
 
 Teltonika BLE beacons are versatile devices that can collect data on temperature, magnetic state, and transmit their identifiers over long distances, reaching up to 200 meters in open areas.

@@ -1,3 +1,7 @@
+---
+description: Create and manage working status lists for field employees. Assign statuses with custom names and colors, and control who can change them via the mobile app.
+---
+
 # Working statuses block
 
 ## Working statuses

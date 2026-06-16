@@ -1,3 +1,7 @@
+---
+description: Create and track fleet maintenance tasks by date, mileage, or engine hours. Set up repeating schedules, add costs and attachments, and monitor service status.
+---
+
 # Maintenance
 
 The **Maintenance works** functionality within the Navixy Fleet Management application is a comprehensive tool designed to manage vehicle service tasks efficiently. This guide explains how to create, manage, and monitor service tasks to keep your fleet in top condition.

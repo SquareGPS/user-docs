@@ -1,3 +1,7 @@
+---
+description: Set the LBS search radius for cellular and Wi-Fi positioning. Increase for rural areas with sparse base stations; decrease in high-density urban environments.
+---
+
 # LBS detection radius block
 
 The **LBS (Location-Based Service) detection radius** determines how far the system will search for signals from cellular base stations or Wi-Fi points to pinpoint a device's location. This setting is crucial for ensuring accurate location tracking based on the environment where the device operates.

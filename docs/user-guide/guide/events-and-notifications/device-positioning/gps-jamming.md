@@ -1,3 +1,7 @@
+---
+description: Detect GPS signal interference on your fleet devices caused by GNSS frequency jamming, a common anti-tracking method used in vehicle theft.
+---
+
 # GPS jamming
 
 ## Overview

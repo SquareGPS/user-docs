@@ -1,3 +1,7 @@
+---
+description: Detect when a vehicle-mounted GPS tracker loses external power and switches to its internal battery. Configure notifications for immediate awareness.
+---
+
 # External power cut
 
 ## Overview

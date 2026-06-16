@@ -1,3 +1,7 @@
+---
+description: Share real-time tracking links with customers or partners using Geo links. Configure access duration, visible objects, and privacy settings for each link.
+---
+
 # Geo links
 
 Geo links are platform-independent links for displaying tracked objects on the map. They enable sharing specific tracking data with end users through automatically generated URLs, offering flexible control over content visibility and access duration.

@@ -1,3 +1,7 @@
+---
+description: Create new data attributes from incoming telemetry using the Navixy Expression Language. Rename parameters, apply formulas, and enrich data before forwarding.
+---
+
 # Initiate Attribute
 
 ## Technical overview and capabilities

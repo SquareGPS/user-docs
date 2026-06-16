@@ -1,3 +1,7 @@
+---
+description: X-GPS Monitor displays real-time fleet locations, telemetry data, and track history on your mobile device. Supports task management and object monitoring.
+---
+
 # X-GPS Monitor
 
 X-GPS Monitor helps you to stay aware of what’s happening with your objects: every detail of their real-time statuses, location, and vehicle telemetry from your smartphones or tablets.

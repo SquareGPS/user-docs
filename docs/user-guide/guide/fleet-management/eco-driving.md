@@ -1,3 +1,7 @@
+---
+description: Score driver safety from 0 to 100 using penalties for speeding, harsh driving, and excessive idling. Configure thresholds and export or schedule PDF reports.
+---
+
 # Eco Driving
 
 The **Eco Driving** report scores how safely and efficiently your drivers behave on the road. Each driver gets a rating from 0 to 100, calculated from the penalty points given for speeding, harsh driving, and excessive idling. The score is normalized by distance traveled, so it stays fair regardless of how much each driver drove during the period.

@@ -1,3 +1,7 @@
+---
+description: View and update assigned tasks in X-GPS Tracker. Employees receive push notifications when a manager assigns a new task or changes an existing one.
+---
+
 # Task assignment
 
 This feature simplifies work and communication with your employees. Now you can remotely assign tasks to your employees.

@@ -1,3 +1,7 @@
+---
+description: Integrate Lightmetrics AI video telematics with Navixy to add edge-AI video analysis and driver safety monitoring to your fleet management workflow.
+---
+
 # LightMetrics
 
 Lightmetrics is a leading provider of AI-powered video telematics solutions, specializing in edge AI technology and no-code platform deployment. Their flagship RideView platform is designed specifically for telematics service providers (TSPs) and OEMs, enabling deployment of advanced video telematics in just 3 weeks. With hardware-agnostic capabilities, RideView works across multiple dash camera types, including exclusive access to Suntech ST9730 and support for the popular Jimi JC450, while delivering efficient edge AI for real-time driver coaching and fleet safety management.

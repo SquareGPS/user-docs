@@ -1,3 +1,7 @@
+---
+description: Edit or share an existing geo link in Navixy. Updating a link preserves its URL; to generate a new URL, create a new geo link from scratch.
+---
+
 # Updating and sharing geo links
 
 Any update to a geo link preserves the generated URL. To change the URL, you must create a new geo link.

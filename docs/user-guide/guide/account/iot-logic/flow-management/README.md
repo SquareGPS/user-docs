@@ -1,3 +1,7 @@
+---
+description: "Build custom IoT Logic flows on a visual canvas: connect nodes to receive device telemetry, process and transform data, and route it to external systems."
+---
+
 # Flow management
 
 IoT Logic provides a flexible canvas environment where you can build custom data flows to process, transform, and route device telemetry. Each flow consists of interconnected nodes that perform specific functions within your data processing pipeline, from receiving raw device data to forwarding enriched information to external systems.

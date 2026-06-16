@@ -1,3 +1,7 @@
+---
+description: Connect wireless Teltonika Bluetooth fuel sensors to compatible GPS devices to get fuel level, temperature, humidity, and battery data without wiring.
+---
+
 # BLE fuel level sensors (Teltonika)
 
 Many [Teltonika GPS devices](https://www.navixy.com/devices/teltonika/) support wireless Fuel sensors that connect via Bluetooth. The advantages of using these Bluetooth fuel sensors are significant:

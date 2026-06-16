@@ -1,3 +1,7 @@
+---
+description: Access map search, geofences, places of interest, custom layers, route planning, and distance measuring tools from the Tracking module's map toolbar.
+---
+
 # Map tools
 
 The **Tracking** module contains tools and options in the top-right and bottom-right corners of the map. These tools allow you to easily view or change your map, layers, geofences, and POIs.

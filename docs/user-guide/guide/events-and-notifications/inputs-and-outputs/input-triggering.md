@@ -1,3 +1,7 @@
+---
+description: Receive alerts when a discrete GPS device input changes state, such as a door sensor opening, ignition turning on, or an emergency button being pressed.
+---
+
 # Input triggering
 
 Input triggering (or, input change) refers to a change in the status of an input on a vehicle tracking device. This input can be connected to various sensors or switches in the vehicle, such as door sensors, ignition status, or other vehicle components. When the input changes state, for example, from on to off or vice versa, the GPS device detects this change and can trigger an event or notification accordingly.

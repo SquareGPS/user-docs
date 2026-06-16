@@ -1,3 +1,7 @@
+---
+description: Get notified when a GPS tracking device is powered on or off. Requires a device capable of reporting its power state to the platform.
+---
+
 # Device switched ON/OFF
 
 ## Overview

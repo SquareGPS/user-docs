@@ -1,3 +1,7 @@
+---
+description: Use Check-ins in X-GPS Tracker to record your location with photos and comments. Report on checkpoint visits, completed work, or field events with timestamps.
+---
+
 # Check-ins
 
 The **Check-in** feature allows you to fix your location on the map, attach up to 9 photos, and add a comment.

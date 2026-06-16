@@ -1,3 +1,7 @@
+---
+description: Get notified when a specific device state field reaches an expected value, such as a door opening, DTC code appearing, or a driver key being recognized.
+---
+
 # State field value
 
 ### Description

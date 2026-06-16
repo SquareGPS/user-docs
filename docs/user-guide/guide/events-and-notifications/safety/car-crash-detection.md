@@ -1,3 +1,7 @@
+---
+description: Detect vehicle collisions using the GPS tracker's accelerometer and receive immediate alerts. Requires proper device installation with correct axis alignment.
+---
+
 # Car crash detection
 
 ## Overview

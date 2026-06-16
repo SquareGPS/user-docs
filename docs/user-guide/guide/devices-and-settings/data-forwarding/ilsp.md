@@ -1,3 +1,7 @@
+---
+description: Forward vehicle GPS data from Navixy to ILSP, a private security services platform operating in Mexico. Enables shared vehicle data across ILSP networks.
+---
+
 # ILSP
 
 ## ILSP: a protocol for private security vehicle data between servers

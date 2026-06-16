@@ -1,12 +1,14 @@
 ---
-description: >-
-  Detailed guides for key Navixy reports, with links to report-specific pages
-  for interpretation, parameters, and use cases.
+description: Navigation article for detailed information about key Navixy reports with links to report-specific pages for interpretation, parameters, and use cases.
 ---
 
 # Report details
 
 In this section, we delve into some of the most commonly used reports available on the platform. Each document provides a detailed explanation to help you better understand and utilize these reports for effective fleet management and GPS asset tracking.
+
+To learn more Navixy's reports and how to create them, see [Reports](../README.md).
+
+## Section contents
 
 * [Trips report](trip-report.md)
 * [Trips and stops by shifts report](trips-and-stops-by-shifts-report.md)

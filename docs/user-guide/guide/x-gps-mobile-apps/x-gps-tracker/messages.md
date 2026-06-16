@@ -1,3 +1,7 @@
+---
+description: Exchange real-time messages between field employees and office staff via X-GPS Tracker. Report task results, signal difficulties, or notify about new assignments.
+---
+
 # Messages
 
 During the day, field and office staff are at a distance from each other. In order to act together, each of them needs to receive information from colleagues in a timely manner. Therefore, it is extremely important for the company to provide the opportunity to quickly share information with each participant in the workflow:

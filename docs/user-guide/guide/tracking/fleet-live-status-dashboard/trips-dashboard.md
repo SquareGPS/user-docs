@@ -1,3 +1,7 @@
+---
+description: "Review the last 7 days of fleet trips in one view: utilization KPIs, top-performer charts by distance and speed, and a sortable trip details table."
+---
+
 # Trips dashboard
 
 The **Trips Dashboard** is the second tab of the Dashboard app. Where the **Fleet Live Status Dashboard** answers "what is the fleet doing right now?", the Trips Dashboard answers "what did the fleet do over the past week?". It pulls completed trips together into a single view of utilization, distance, duration, and per-object performance, so you can spot under-used vehicles, over-worked ones, and unusual driving behavior without building a report.

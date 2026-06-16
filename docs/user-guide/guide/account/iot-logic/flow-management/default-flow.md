@@ -1,5 +1,5 @@
 ---
-description: Learn how Navixy ensures all device data reaches the platform, even for devices not assigned to any custom flow.
+description: Navixy processes all device data through the default flow when no custom IoT Logic flow is assigned, ensuring no telemetry is lost or dropped.
 ---
 
 # Default data processing

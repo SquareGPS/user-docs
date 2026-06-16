@@ -1,3 +1,7 @@
+---
+description: View GPS location, sensor readings, OBD2 data, engine hours, and driver details for any device. Pin data blocks as Favorites to show them in the Objects list.
+---
+
 # Object widget
 
 In Navixy, **Object widget** serves as a comprehensive collection of telematics data blocks for monitoring and managing your fleet. It provides an in-depth look at your business assets, GPS devices, and the sensors connected to them.

@@ -1,7 +1,5 @@
 ---
-description: >-
-  Overview of report categories available in Navixy, with summaries of each
-  report's purpose and the data it provides.
+description: "Browse all Navixy report categories: trips and mileage, fuel analysis, driver safety, sensor readings, and events. Find the right report for any use case."
 ---
 
 # Report types

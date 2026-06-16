@@ -1,3 +1,7 @@
+---
+description: Get notified when cruise control is switched on or off on a vehicle. Monitor its impact on fuel efficiency, battery management, and driver behavior patterns.
+---
+
 # Cruise control
 
 ## Overview

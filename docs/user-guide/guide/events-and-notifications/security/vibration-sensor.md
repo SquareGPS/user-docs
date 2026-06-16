@@ -1,3 +1,7 @@
+---
+description: Detect continuous vibrations on a parked vehicle via the GPS tracker's accelerometer. Alerts help identify potential theft or unauthorized access to the asset.
+---
+
 # Vibration sensor
 
 ## Overview

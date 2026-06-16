@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to analyze measurement and virtual sensor readings, configure report
-  parameters, and interpret sensor graphs, statistics, and detailed data tables.
+description: Analyze measurement and virtual sensor readings with the Measuring sensors report. Configure parameters and review sensor graphs, statistics, and data tables.
 ---
 
 # Measuring sensors report

@@ -1,3 +1,7 @@
+---
+description: "Add discrete sensors to GPS devices in Navixy: configure the sensor label, type, and device input number for binary state monitoring."
+---
+
 # Discrete sensors
 
 To add a discrete sensor, click ![Discrete sensor](https://www.navixy.com/wp-content/uploads/2019/06/plus.jpg) and select **Discrete sensor** in the pop-up menu:

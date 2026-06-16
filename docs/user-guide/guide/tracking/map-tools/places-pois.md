@@ -1,3 +1,7 @@
+---
+description: Create and manage places of interest for key locations like offices and warehouses. Import them from Excel and use them in route planning or task assignments.
+---
+
 # Places (POIs)
 
 Places, also known as Points of Interest (POI), are an essential feature of fleet management and asset tracking. Organizations can create a detailed list of Places, including key locations like offices and warehouses, as well as numerous sites crucial for logistics operations. Places improve operational efficiency by optimizing route planning and streamlining task assignments for field employees.

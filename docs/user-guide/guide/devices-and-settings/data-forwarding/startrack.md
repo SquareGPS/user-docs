@@ -1,3 +1,7 @@
+---
+description: Forward GPS and telemetry data from Navixy to external systems using the Startrack protocol. Commonly used in Guatemala, El Salvador, and Honduras.
+---
+
 # Startrack
 
 The Startrack protocol allows forwarding GPS and telemetry data from Navixy to external systems in real time. It is commonly used in Central America, especially in Guatemala, El Salvador, and Honduras, for fleet management, industrial operations, construction, and temperature-controlled transport.

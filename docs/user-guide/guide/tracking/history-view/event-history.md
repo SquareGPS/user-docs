@@ -1,3 +1,7 @@
+---
+description: View a detailed log of fleet events by object and date range. Filter by type, review timestamps and locations, and play back event-triggered video recordings.
+---
+
 # Event history
 
 The **Event** tab in **History** provides a detailed log of all events related to selected objects over the specified period. These events vary depending on the type of tracker and monitored activities, offering a comprehensive view of your fleet's operational status and any issues with the tracked objects.

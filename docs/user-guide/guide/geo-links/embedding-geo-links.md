@@ -1,3 +1,7 @@
+---
+description: Embed a Navixy geo link as an iframe in a third-party website or dashboard. Generate the embed code from the geo link settings and customize the display.
+---
+
 # Embedding geo links
 
 Embedded links are a useful tool for interface integration and web development. Geo links allow generating and customizing embeddable iframe code that can be reused by creators and integrators.

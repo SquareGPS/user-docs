@@ -1,3 +1,7 @@
+---
+description: Configure tow detection on the GPS device's motion sensor. The device triggers a tow event if movement is detected after the ignition is switched off.
+---
+
 # Tow detection block
 
 The **Tow detection feature**, available in many vehicle GPS devices, is designed to detect unauthorized movement based on signals from the built-in motion sensor. Once the vehicle's ignition is switched off, the sensor enters active mode, continuously monitoring for vibrations, impacts, or movement. If any of these are detected, a notification is immediately sent to the platform from the device and can be reported to the user as configured in [Rules and notifications](../../events-and-notifications/security/unauthorized-movement.md).

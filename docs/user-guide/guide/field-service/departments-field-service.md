@@ -1,3 +1,7 @@
+---
+description: Organize field service employees into named departments in Navixy. Assign staff to departments and use them to filter task assignments and reports.
+---
+
 # Departments
 
 The **Departments** page in Navixy's **Field service** module allows you to organize your workforce by categorizing employees into specific departments. This organizational structure helps streamline task assignments, reporting, and overall management of field operations.

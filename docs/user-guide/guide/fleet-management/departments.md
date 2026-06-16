@@ -1,3 +1,7 @@
+---
+description: Organize fleet drivers into departments in Navixy. Create department profiles with names and addresses, and link them to drivers for better task coordination.
+---
+
 # Departments
 
 The "Departments" section in the [Fleet management](./) application allows you to organize and manage your fleet by categorizing drivers into specific departments. This structure aids in efficient fleet management, enabling better control over operations, reporting, and task assignments.

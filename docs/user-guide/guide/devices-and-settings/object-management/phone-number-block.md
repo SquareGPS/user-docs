@@ -1,3 +1,7 @@
+---
+description: Update the SIM card phone number for a GPS device in Navixy after a SIM change. Needed for SMS-based location requests and two-way communication.
+---
+
 # Phone number block
 
 ## Phone number

@@ -1,3 +1,7 @@
+---
+description: Alert when GPS device accelerometers detect harsh acceleration, braking, or sharp turns. Configure detection thresholds in Devices and Settings first.
+---
+
 # Harsh driving
 
 ## Overview

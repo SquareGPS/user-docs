@@ -1,3 +1,7 @@
+---
+description: "Configure fuel level sensors in Navixy: set calibration data, accuracy, smoothing, and tank details for reliable fuel monitoring and consumption analysis."
+---
+
 # Fuel level sensor
 
 Fuel sensors are essential for monitoring fuel levels in vehicles and tanks, providing key data for tracking consumption, detecting refueling and draining, and optimizing fuel management. Using this data effectively helps prevent fuel losses, identify vehicles with high consumption, and improve overall efficiency, leading to significant cost savings.

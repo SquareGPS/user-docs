@@ -1,3 +1,7 @@
+---
+description: Add team members to your Navixy account, assign roles with specific permissions, and control which devices and data each user can access.
+---
+
 # Users and roles
 
 Managing movable assets in large organizations presents unique challenges, especially when dealing with multiple company units (e.g., regional divisions) and various roles (e.g. fleet managers, logisticians, accountants, drivers, etc). The complexity increases with the need to provide different access levels and permissions tailored to each role, ensuring that employees can perform their tasks efficiently without compromising sensitive data.

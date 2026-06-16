@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to analyze trips and stops by work shift, compare shift-based
-  mileage, time, idling, and fuel data, and interpret the report output.
+description: Analyze trips and stops by work shift with the Trips and stops by shifts report. Compare shift-based mileage, time, idling, and fuel data.
 ---
 
 # Trips and stops by shifts report

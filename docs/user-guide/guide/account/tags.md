@@ -1,3 +1,7 @@
+---
+description: Create and assign tags to Places, Employees, Vehicles, and Tasks in Navixy for fast search and filtering across the platform.
+---
+
 # Tags
 
 A **Tag** is a label that allows for convenient and fast searching of the desired information. In Navixy, tags help you quickly locate information related to Places, Employees, Vehicles, and Tasks. You can create custom tags according to your needs, and a single object can have multiple tags.

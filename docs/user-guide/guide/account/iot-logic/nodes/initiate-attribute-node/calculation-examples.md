@@ -1,3 +1,7 @@
+---
+description: Practical examples for writing attribute calculations in the IoT Logic Expression Language. Includes guidance on attribute naming and handling null values safely.
+---
+
 # Calculation examples
 
 The Initiate attribute node in IoT Logic supports a wide range of calculations through [Navixy IoT Logic Expression Language](https://app.gitbook.com/s/tx3J5BxnWyPV0nP2xr0z/technologies/navixy-iot-logic-expression-language). This guide provides practical examples of common calculations to help you extract maximum value from your IoT data.

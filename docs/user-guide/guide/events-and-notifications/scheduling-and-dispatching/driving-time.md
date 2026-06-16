@@ -1,3 +1,7 @@
+---
+description: Alert when a driver exceeds the allowed continuous driving time. Set the maximum driving duration and the minimum parking time required to reset the timer.
+---
+
 # Driving time
 
 ## Overview

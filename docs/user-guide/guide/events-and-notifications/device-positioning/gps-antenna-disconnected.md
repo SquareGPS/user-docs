@@ -1,3 +1,7 @@
+---
+description: Detect when an external GPS antenna is disconnected from a tracking device and get notified immediately to restore satellite signal reception.
+---
+
 # GPS antenna disconnected
 
 ## Overview

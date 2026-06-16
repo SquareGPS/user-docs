@@ -1,3 +1,7 @@
+---
+description: "Add and configure sensors in Navixy: discrete, measurement, virtual, and manufacturer-specific. Monitor fuel, temperature, engine diagnostics, and more."
+---
+
 # Vehicle sensors
 
 The **Sensors and buttons** block in Navixy allows you to manage and configure various sensors connected to your GPS devices from the platform standpoint. This feature is essential for monitoring various vehicle parameters, such as fuel levels, temperature, and engine diagnostics, directly through the platform.

@@ -1,3 +1,7 @@
+---
+description: "Configure GPS device sensors specific to Galileosky, Teltonika, and CalAmp: user-defined tags, passenger counters, BLE beacons, and accumulators."
+---
+
 # Specialized sensors by manufacturer
 
 * [Galileosky sensors](galileosky-sensors/)

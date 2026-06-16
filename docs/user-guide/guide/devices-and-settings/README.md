@@ -1,3 +1,7 @@
+---
+description: Configure GPS devices remotely in Navixy using settings blocks for sensors, tracking mode, connection, and data forwarding to third-party platforms.
+---
+
 # Devices and settings
 
 The **Devices and settings** section in Navixy is a comprehensive interface that allows fleet managers to configure and manage their tracking devices remotely. This section is essential for fine-tuning device performance, setting up sensors, and applying specific settings tailored to each asset within the fleet.

@@ -1,3 +1,7 @@
+---
+description: Set up your first IoT Logic data flow to start processing telematics data. Requires an Owner role and at least one activated device in your Navixy account.
+---
+
 # Quick start guide
 
 This guide will help you quickly set up your first data flow in IoT Logic and begin processing your telematics data.

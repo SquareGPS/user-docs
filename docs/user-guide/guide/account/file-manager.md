@@ -1,3 +1,7 @@
+---
+description: View and manage all files uploaded through Navixy and the X-GPS Tracker app. Access task attachments, check-in photos, and form submissions in one place.
+---
+
 # File Manager
 
 **File Manager** stores, displays, and manages files uploaded by users through the Navixy platform and X-GPS Tracker mobile app. This centralized system organizes all file attachments across different features, providing a single interface for working with files.
