@@ -1,7 +1,5 @@
 ---
-description: >-
-  Activate 30+ devices in bulk by contacting Navixy support team with a
-  CSV/Excel file.
+description: Register 30 or more GPS trackers in Navixy at once. Submit a CSV or Excel file to Navixy support with device model, ID, APN, and user assignment.
 ---
 
 # Bulk activation

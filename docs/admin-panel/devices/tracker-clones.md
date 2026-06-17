@@ -1,7 +1,5 @@
 ---
-description: >-
-  Clone a tracker into other user accounts for shared monitoring, with read-only
-  access for clone owners.
+description: Clone a tracker into other user accounts for shared monitoring. Clone owners get read-only access, while the original account retains full control.
 ---
 
 # Tracker clones

@@ -1,7 +1,5 @@
 ---
-description: >-
-  Change a tracker’s pricing plan in Admin Panel and choose how billing is
-  handled during the switch.
+description: Change a tracker’s pricing plan in Admin Panel and choose how billing is handled immediately or at the next billing cycle.
 ---
 
 # Changing plan

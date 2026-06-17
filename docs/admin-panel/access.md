@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn Admin vs Employee roles in Admin Panel, including what limited-rights
-  employees can and can’t do.
+description: Manage Admin Panel access for your team. Set up Employee accounts with restricted rights to protect sensitive data while enabling efficient delegation.
 ---
 
 # Access

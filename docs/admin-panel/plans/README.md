@@ -1,7 +1,5 @@
 ---
-description: >-
-  Create and manage pricing plans: billing cycles, fees, rates, limits,
-  available maps, and feature access.
+description: "Create and manage pricing plans in Admin Panel: define billing cycles, fees, data rates, device limits, map access, and which features are available to users."
 ---
 
 # Plans

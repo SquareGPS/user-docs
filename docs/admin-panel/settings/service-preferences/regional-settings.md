@@ -1,7 +1,5 @@
 ---
-description: >-
-  Set default UI language for new users and choose service currency in Service
-  preferences.
+description: Set the default UI language for all new user accounts and choose the service currency used across the Navixy platform.
 ---
 
 # Regional settings
