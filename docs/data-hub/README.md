@@ -4,7 +4,7 @@
 
 <figure><img src=".gitbook/assets/BA_Introducing_IoTQuery.jpg" alt=""><figcaption></figcaption></figure>
 
-Navixy's **IoT Query** gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
+Navixy's [**IoT Query**](https://navixy.com/en/iot-query/) gives you direct access to your valuable business and telematics data in a unified, SQL-queryable environment. Built on our **Private Telematics Lakehouse (PTL)** database infrastructure, this documentation will help you connect to your data, understand what's available, and start extracting insights right away.
 
 ## Your data journey
 
@@ -16,10 +16,10 @@ We've taken your complete dataset and stored it in our PTL database infrastructu
 
 ### What are the key benefits?
 
-| <p><strong>Direct SQL access</strong><br><br>Query your data directly via PostgreSQL without API constraints</p>            | <p><strong>Complete data access</strong><br><br>Work with your full dataset of data available on the Navixy Platform</p>                                                                                                | <p><strong>Customization</strong><br><br>Build custom analytics, reports, and integrations for your specific scenarios</p> |
-| --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Data integration</strong><br><br>Connect with BI and analytics tools for advanced visualization and research</p> | <p><strong>Structured data model</strong><br><br>Follow a <a href="./#how-data-is-organized">layered architecture</a>:<br><strong>Raw data</strong> → <strong>Transformations</strong>  → <strong>Insights</strong></p> | <p><strong>Client isolation</strong><br><br>Secure data environment with proper access controls at all levels</p>          |
-| <p><strong>Near real-time data</strong></p><p></p><p>Monitor data with minimal streaming delay</p>                          | <p><strong>Longitudinal storage</strong></p><p></p><p>Access historical data for analysis and model training</p>                                                                                                        | <p><strong>Cross-joins</strong></p><p></p><p>Connect telematics and business data<br></p>                                  |
+| <p><strong>Direct SQL access</strong><br><br>Query your data directly via PostgreSQL without API constraints</p>            | <p><strong>Complete data access</strong><br><br>Work with your full dataset of data available on the Navixy Platform</p>                                                                                               | <p><strong>Customization</strong><br><br>Build custom analytics, reports, and integrations for your specific scenarios</p> |
+| --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Data integration</strong><br><br>Connect with BI and analytics tools for advanced visualization and research</p> | <p><strong>Structured data model</strong><br><br>Follow a <a href="./#how-data-is-organized">layered architecture</a>:<br><strong>Raw data</strong> → <strong>Transformations</strong> → <strong>Insights</strong></p> | <p><strong>Client isolation</strong><br><br>Secure data environment with proper access controls at all levels</p>          |
+| <p><strong>Near real-time data</strong></p><p>Monitor data with minimal streaming delay</p>                                 | <p><strong>Longitudinal storage</strong></p><p>Access historical data for analysis and model training</p>                                                                                                              | <p><strong>Cross-joins</strong></p><p>Connect telematics and business data<br></p>                                         |
 
 {% hint style="info" %}
 Want to get the most out of your analytics? Enable **IoT Query** first to unlock comprehensive data insights. Contact us for activation details at [iotquery@navixy.com](mailto:iotquery@navixy.com).
@@ -31,7 +31,7 @@ Your **IoT Query** contains two primary types of information:
 
 {% columns %}
 {% column %}
-#### **Business data**
+**Business data**
 
 Includes your organization's structural information:
 
@@ -42,7 +42,7 @@ Includes your organization's structural information:
 {% endcolumn %}
 
 {% column %}
-#### **Telematics data**
+**Telematics data**
 
 Contains the continuous stream of information from your tracking devices:
 
