@@ -1,7 +1,5 @@
 ---
-description: >-
-  Generate platform usage reports for active devices by date range, filter by
-  owner, and export to CSV.
+description: Generate platform usage reports for active devices by date range, filter by owner, and export to CSV
 ---
 
 # Report

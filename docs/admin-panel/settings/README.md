@@ -1,7 +1,5 @@
 ---
-description: >-
-  Central hub for configuring your Navixy instance, including service, maps,
-  branding, menus, defaults, security, and gateways.
+description: Central hub for configuring your Navixy instance, including service, maps, branding, menus, defaults, security, and gateways
 ---
 
 # Settings

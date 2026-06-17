@@ -1,7 +1,5 @@
 ---
-description: >-
-  Configure Email and SMS gateways for user notifications, alerts, and device
-  messaging (commands and activation).
+description: Configure Email and SMS gateways for user notifications, alerts, and device messaging (commands and activation)
 ---
 
 # Messaging gateways

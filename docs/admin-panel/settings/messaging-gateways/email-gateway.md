@@ -1,7 +1,5 @@
 ---
-description: >-
-  Configure Navixy-provided or custom SMTP email delivery for notifications,
-  reports, and billing alerts, including sender settings.
+description: Configure Navixy-provided or custom SMTP email delivery for notifications, reports, and billing alerts, including sender settings
 ---
 
 # Email gateway

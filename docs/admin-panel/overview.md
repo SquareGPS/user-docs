@@ -1,5 +1,5 @@
 ---
-description: Monitor your dealer account health in Admin Panel with six KPI cards for active trackers, users, and resellers, plus six-month growth trend charts.
+description: Monitor your dealer account health in Admin Panel with six KPI cards for active trackers, users, and resellers, plus six-month growth trend charts
 ---
 
 # Overview

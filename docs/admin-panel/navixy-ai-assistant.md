@@ -1,5 +1,5 @@
 ---
-description: Use the Navixy AI assistant in Admin Panel to ask questions about platform documentation, API references, and live account data for your dealer.
+description: Use the Navixy AI assistant in Admin Panel to ask questions about platform documentation, API references, and live account data for your dealer
 ---
 
 # Navixy AI assistant

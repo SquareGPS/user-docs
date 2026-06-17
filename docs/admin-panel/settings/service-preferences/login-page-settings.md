@@ -1,7 +1,5 @@
 ---
-description: >-
-  Configure login page behavior, including self-registration, mobile app
-  download prompts, and demo user credentials.
+description: Configure login page behavior, including self-registration, mobile app download prompts, and demo user credentials
 ---
 
 # Login page settings

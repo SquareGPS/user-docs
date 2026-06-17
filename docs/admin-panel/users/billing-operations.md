@@ -1,5 +1,5 @@
 ---
-description: View the full transaction history for any user account and manually adjust their balance and bonus credits directly from Admin Panel.
+description: View the full transaction history for any user account and manually adjust their balance and bonus credits directly from Admin Panel
 ---
 
 # Billing operations

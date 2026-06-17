@@ -1,7 +1,5 @@
 ---
-description: >-
-  Create and manage user accounts in the Admin Panel, including search,
-  edit/delete, and CSV/XLSX export.
+description: Create and manage user accounts in the Admin Panel, including search, edit/delete, and CSV/XLSX export
 ---
 
 # Users

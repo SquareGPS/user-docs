@@ -1,7 +1,5 @@
 ---
-description: >-
-  Configure core service UI settings like domain/URLs, language/currency, login
-  page, demo account, activation, and support links.
+description: Configure core service UI settings like domain/URLs, language/currency, login page, demo account, activation, and support links
 ---
 
 # Service preferences

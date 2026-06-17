@@ -1,7 +1,5 @@
 ---
-description: >-
-  White-label the platform with custom login page settings,
-  logos/backgrounds/favicon, and UI themes for web and mobile.
+description: White-label the platform with custom login page settings, logos/backgrounds/favicon, and UI themes for web and mobile
 ---
 
 # Branding

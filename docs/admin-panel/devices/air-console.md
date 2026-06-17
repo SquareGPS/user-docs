@@ -1,7 +1,5 @@
 ---
-description: >-
-  Real-time terminal to view raw tracker data, monitor device status, and send
-  diagnostic commands over WebSocket.
+description: Real-time terminal to view raw tracker data, monitor device status, and send diagnostic commands over WebSocket
 ---
 
 # Air Console

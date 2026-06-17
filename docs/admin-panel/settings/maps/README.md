@@ -1,7 +1,5 @@
 ---
-description: >-
-  Choose which maps users can access, set the default map view, and configure
-  GIS providers, including Google Maps.
+description: Choose which maps users can access, set the default map view, and configure GIS providers, including Google Maps
 ---
 
 # Map preferences
