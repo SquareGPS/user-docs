@@ -1,4 +1,9 @@
-﻿# Filter forms based on images
+﻿---
+title: Filter forms based on images
+description: Image-based form filtering is not supported in Navixy; narrow results using business data fields such as object, date, task, and employee
+---
+
+# Filter forms based on images
 
 ## Question
 

@@ -1,3 +1,8 @@
+---
+title: Unable to add more devices
+description: "Check device plan limits; the platform applies the most restrictive limit when a user has conflicting plans assigned"
+---
+
 # Unable to add more devices
 
 ## Question

@@ -1,3 +1,8 @@
+---
+title: Green "We'll be back soon" page
+description: API server is inoperable or domain configuration mismatch. Check service status or validate domain settings in Admin Panel and Nginx
+---
+
 # Green "We'll be back soon" page
 
 ## Question

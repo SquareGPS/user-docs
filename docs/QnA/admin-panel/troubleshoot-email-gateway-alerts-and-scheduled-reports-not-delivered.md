@@ -1,3 +1,8 @@
+---
+title: Troubleshoot email gateway (alerts and scheduled reports not delivered)
+description: Use browser DevTools to inspect the send_email network response for SMTP credential errors or server setting mismatches
+---
+
 # Troubleshoot email gateway (alerts and scheduled reports not delivered)
 
 ## Question

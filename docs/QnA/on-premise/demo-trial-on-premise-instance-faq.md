@@ -1,3 +1,8 @@
+---
+title: Demo (trial) On-Premise instance FAQ
+description: Request and manage trial licenses. Test functionality, features, and installation on your infrastructure within a limited timeframe
+---
+
 # Demo (trial) On-Premise instance FAQ
 
 ## Can I have a demo On-Premise instance? What do I need to have one?

@@ -1,5 +1,5 @@
 ---
-description: How licensing works
+description: Navixy On-Premise license authorizes one platform instance; request additional instances from sales and understand how the license key is validated
 ---
 
 # On-Premise licensing FAQ

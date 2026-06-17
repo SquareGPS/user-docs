@@ -1,8 +1,5 @@
 ---
-description: >-
-  Navixy GPS tracking platform Q&A hub with troubleshooting guides,
-  configuration walkthroughs, best practices, API integration notes, and
-  on-premise deployment tips.
+description: Navixy Q&A hub with troubleshooting guides, configuration help, API integration patterns, and on-premise deployment tips for all user types
 ---
 
 # Q\&A

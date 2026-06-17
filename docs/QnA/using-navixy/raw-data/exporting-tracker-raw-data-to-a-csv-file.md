@@ -1,3 +1,8 @@
+---
+title: Exporting tracker raw data to a CSV file
+description: Export parsed telematics data in CSV format from the Raw data block; select the date range and parameter columns before running the export
+---
+
 # Exporting tracker raw data to a CSV file
 
 ## Question

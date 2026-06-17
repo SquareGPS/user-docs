@@ -1,3 +1,7 @@
+---
+description: Prefer API keys for User API authentication as they don't expire. Use admin panel session keys for Admin Panel API with caution
+---
+
 # User session hash vs admin panel hash vs API key
 
 ## Question

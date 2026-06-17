@@ -1,3 +1,8 @@
+---
+title: A device is showing as moving on the platform even though it is offline
+description: Device continues showing its last known status until it comes back online and sends updated location information to the platform
+---
+
 # A device is showing as moving on the platform even though it is offline
 
 ## Question

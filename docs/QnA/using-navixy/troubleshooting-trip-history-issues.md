@@ -1,3 +1,8 @@
+---
+title: Troubleshooting trip history issues
+description: "Disable Smart filter and Split by stops in History; use Raw Data export to find data gaps and adjust tracker acquisition settings"
+---
+
 # Troubleshooting trip history issues
 
 ## Question

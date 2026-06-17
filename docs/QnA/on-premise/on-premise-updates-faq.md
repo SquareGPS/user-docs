@@ -1,3 +1,8 @@
+---
+title: On-premise updates FAQ
+description: Update your instance on your own schedule, no automatic delivery. Major versions every 2–4 months; minor versions released frequently with fixes
+---
+
 # On-premise updates FAQ
 
 ## How often does my platform get updated?

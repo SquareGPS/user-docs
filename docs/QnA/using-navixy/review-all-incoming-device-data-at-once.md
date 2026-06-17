@@ -1,4 +1,9 @@
-﻿# Review all incoming device data at once
+﻿---
+title: Review all incoming device data at once
+description: Open the Raw data export widget or IoT Analyzer to inspect all parsed incoming parameters from a device for up to the last 30 days
+---
+
+# Review all incoming device data at once
 
 ## Question
 

@@ -1,3 +1,8 @@
+---
+title: On-premise
+description: Deploy Navixy in your data center or private cloud. Installation, configuration, updates, and operational maintenance for self-hosted instances
+---
+
 # On-premise
 
 This section provides complete deployment and maintenance guidance for self-hosted Navixy platform instances. You'll find hardware requirements, installation procedures for different deployment scenarios, update processes, and operational best practices. The content covers everything from initial planning and server setup to production updates and troubleshooting.

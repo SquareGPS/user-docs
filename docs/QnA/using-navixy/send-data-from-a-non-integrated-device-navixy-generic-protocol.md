@@ -1,4 +1,9 @@
-﻿# Send data from a non-integrated device (Navixy Generic Protocol)
+﻿---
+title: Send data from a non-integrated device (Navixy Generic Protocol)
+description: "Convert device data to Navixy JSON format and send it over HTTP/HTTPS using the Navixy Generic Protocol for non-integrated hardware"
+---
+
+# Send data from a non-integrated device (Navixy Generic Protocol)
 
 ## Question
 

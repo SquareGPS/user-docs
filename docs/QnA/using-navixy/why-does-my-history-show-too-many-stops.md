@@ -1,3 +1,8 @@
+---
+title: Why does my history show too many stops?
+description: Adjust min_speed and min_parking thresholds in Parking Detection to reduce trip fragmentation caused by frequent speed fluctuations
+---
+
 # Why does my history show too many stops?
 
 ## Question

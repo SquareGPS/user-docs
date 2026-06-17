@@ -1,3 +1,7 @@
+---
+description: Integrate with Navixy APIs for authentication, real-time tracking data, telemetry retrieval, geocoding, event history, sensor readings, and remote control
+---
+
 # APIs
 
 This section provides guidance for integrating with Navixy's APIs and real-time data streams. Learn authentication methods, data retrieval patterns, and best practices for building custom applications, dashboards, and system integrations. The guides cover everything from basic API authentication to advanced real-time tracking implementations.

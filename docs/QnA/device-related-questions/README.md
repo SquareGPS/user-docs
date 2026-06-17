@@ -1,3 +1,8 @@
+---
+title: Device-related questions
+description: Configure GPS trackers, dash cameras, and telematics devices from Jimi, Teltonika, and Howen. Troubleshoot video streaming, sensors, and hardware behavior
+---
+
 # Device-related questions
 
 This section provides manufacturer-specific configuration and troubleshooting for GPS trackers, dash cameras, and telematics devices. Hardware behavior varies significantly by manufacturer—what works for Teltonika won't work for Jimi cameras. These guides help you configure your specific device model correctly and resolve hardware-level issues.

@@ -1,3 +1,8 @@
+---
+title: My device moves along the map without physically moving
+description: GPS drift causes inaccurate position display; a device may appear to move on the map while physically stationary due to signal fluctuation
+---
+
 # My device moves along the map without physically moving
 
 ## Question

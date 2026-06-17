@@ -1,3 +1,8 @@
+---
+title: Admin panel
+description: Configure device activation, billing plans, user access control, platform branding, and notification gateways from Admin Panel for reseller administration
+---
+
 # Admin panel
 
 This section covers system administration and configuration for the Navixy platform. Learn how to manage users, activate devices in bulk, configure service plans and billing, set up custom domains, and customize the platform for your organization. The guides explain administrative tasks from basic user account creation to complex gateway configuration and reseller management.

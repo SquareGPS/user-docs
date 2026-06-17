@@ -1,3 +1,8 @@
+---
+title: Mobile apps availability in Android Auto
+description: X-GPS Mobile, X-GPS Tracker, and X-Monitor do not support Android Auto integration; only direct mobile app use is available for GPS tracking
+---
+
 # Mobile apps availability in Android Auto
 
 ## Question

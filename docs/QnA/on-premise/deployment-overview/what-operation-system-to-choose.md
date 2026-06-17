@@ -1,3 +1,8 @@
+---
+title: What operation system to choose?
+description: Ubuntu recommended for ease of maintenance and stability. Linux or Windows supported; OS administration handled by your technical team
+---
+
 # What operation system to choose?
 
 ## What operating systems are supported?

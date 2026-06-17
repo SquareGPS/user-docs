@@ -1,3 +1,8 @@
+---
+title: Reseller functionality in On-Premise
+description: Reseller functionality is unavailable in On-Premise. Deploy a separate licensed instance for each reseller customer instead
+---
+
 # Reseller functionality in On-Premise
 
 ## Question

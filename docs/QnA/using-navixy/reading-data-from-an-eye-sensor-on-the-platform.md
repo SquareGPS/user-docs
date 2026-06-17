@@ -1,4 +1,9 @@
-﻿# Reading data from an Eye Sensor on the platform
+﻿---
+title: Reading data from an Eye Sensor on the platform
+description: Create a measurement sensor and select the AVL input from Eye Sensor to read humidity, temperature, magnetism, or movement speed data
+---
+
+# Reading data from an Eye Sensor on the platform
 
 ## Question
 

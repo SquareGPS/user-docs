@@ -1,3 +1,8 @@
+---
+title: Completed with errors status (Field Service)
+description: Field service task shows this status when the employee visited checkpoints in the wrong sequence, not due to a task completion error
+---
+
 # Completed with errors status (Field Service)
 
 ## Question

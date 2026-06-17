@@ -1,3 +1,8 @@
+---
+title: Supported trackers and dash cameras for video
+description: "Native video support for Jimi and Howen devices; MettaX, Streamax, Lightmetrics, and Howen VSS available as integrated video providers"
+---
+
 # Supported trackers and dash cameras for video
 
 ## Question

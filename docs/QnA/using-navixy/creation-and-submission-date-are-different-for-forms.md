@@ -1,4 +1,9 @@
-﻿# Creation and submission date are different for forms
+﻿---
+title: Creation and submission date are different for forms
+description: Task form creation date precedes submission; check-in form creation date follows submission due to platform database processing logic
+---
+
+# Creation and submission date are different for forms
 
 ## Question
 

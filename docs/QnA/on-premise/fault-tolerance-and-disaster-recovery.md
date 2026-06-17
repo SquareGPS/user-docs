@@ -1,3 +1,8 @@
+---
+title: Fault tolerance and disaster recovery
+description: Back up and replicate the database to separate servers. Maintain a standby application copy and DB replica in remote infrastructure
+---
+
 # Fault tolerance and disaster recovery
 
 ## Does the platform have a built-in fault tolerance mechanism?
