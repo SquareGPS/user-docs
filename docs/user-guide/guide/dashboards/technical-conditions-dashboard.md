@@ -8,8 +8,6 @@ The Technical Conditions Dashboard is currently in beta (v1.0.0). It's an early 
 
 Want more customization and detail? [Dashboard Studio](https://app.gitbook.com/s/oFNFEIINiGFbhi3Px3dE/dashboard-studio) lets you build fleet analytics tailored to your own KPIs using IoT Query data. Recommended template to start with: [Fleet Anomaly Monitor](https://github.com/SquareGPS/navixy-iot-query-dashboard/blob/main/schemas/01-fleet-anomaly-monitor.md).
 
-The Fleet Live Status tab opens by default when you open the Dashboard app; switch to the **Technical Conditions Dashboard** tab from the tab bar at the top of the page.
-
 ## How the dashboard defines fleet health
 
 Several panels share the same status indicators, so it's worth reading the rules once before scanning the page.

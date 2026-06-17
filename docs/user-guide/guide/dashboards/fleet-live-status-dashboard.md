@@ -8,8 +8,6 @@ The Fleet Live Status Dashboard is currently in beta (v1.0.1). It's an early ver
 
 Want more customization and detail? [Dashboard Studio](https://app.gitbook.com/s/oFNFEIINiGFbhi3Px3dE/dashboard-studio) lets you build fleet analytics tailored to your own KPIs using IoT Query data. Recommended templates to start with: [Object Status Dashboard](https://github.com/SquareGPS/navixy-iot-query-dashboard/blob/main/schemas/07-object-status-dashboard.md) and [Fleet Reports Dashboard](https://github.com/SquareGPS/navixy-iot-query-dashboard/blob/main/schemas/03-fleet-reports-dashboard.md).
 
-The Fleet Live Status Dashboard tab opens by default when you open the Dashboard app. To switch to another tab, use the tab bar at the top of the page.
-
 ## Movement states
 
 The dashboard uses four movement states to classify what each object is doing. These states appear in the Movement chart and in the Fleet Details table, color-coded as shown below.
