@@ -1,3 +1,8 @@
+---
+title: Creating reports
+description: Generate exportable reports with coordinated data tables, charts, and location maps from a single SQL query. Export to HTML, Excel, or PDF
+---
+
 # Creating reports
 
 Reports give you a structured way to analyze IoT Query data through three coordinated views from a single SQL query: a paginated data table, a chart, and an interactive map. Use reports when you need a fixed, exportable output rather than a free-form dashboard canvas.

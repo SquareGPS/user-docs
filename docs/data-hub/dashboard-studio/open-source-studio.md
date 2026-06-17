@@ -1,3 +1,8 @@
+---
+title: Open-source Studio
+description: Deploy Dashboard Studio in your infrastructure with full React frontend customization. Maintain feature parity while controlling branding and design
+---
+
 # Open-source Studio
 
 Dashboard Studio provides open-source (MPL-2.0 license) option for technical teams that need frontend customization beyond standard configuration. Modify the UI, integrate with existing applications, or implement custom design systems while maintaining full analytics capabilities.

@@ -1,7 +1,5 @@
 ---
-description: >-
-  Resampling raw sensor readings into time-bucketed aggregates with decoding,
-  calibration, and enrichment applied.
+description: Process raw IoT sensor readings into hourly time-bucketed records with decoded calibration, fuel volume calculations, and device-level aggregation
 ---
 
 # Sensor data aggregation

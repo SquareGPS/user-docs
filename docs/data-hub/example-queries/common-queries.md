@@ -1,3 +1,8 @@
+---
+title: Common queries
+description: Sample SQL patterns for object information, device locations, vehicle activity, driver assignments, sensor data, and geospatial zone analysis
+---
+
 # Common queries
 
 As you connect to the database, you will be able to retrieve data via SQL queries. This section provides sample SQL queries to help you start working with the Private Telematics Lakehouse. These examples demonstrate how to access and analyze data from the **Raw data** layer, which contains raw business and telematic data with minimal transformation.

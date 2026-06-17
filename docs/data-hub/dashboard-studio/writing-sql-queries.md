@@ -1,3 +1,8 @@
+---
+title: Writing SQL queries
+description: Write PostgreSQL queries optimized for Dashboard Studio visualizations. Learn data access patterns, layer selection, and performance best practices
+---
+
 # Writing SQL queries
 
 Dashboard Studio uses SQL to retrieve data from IoT Query schemas. You write SQL in two contexts: panel editors, where statements power visualizations, and the standalone SQL Editor for data exploration. This page explains how to write effective SQL for both contexts, with emphasis on visualization requirements since they have specific structural constraints.

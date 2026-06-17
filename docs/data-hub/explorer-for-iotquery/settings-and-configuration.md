@@ -1,3 +1,8 @@
+---
+title: Settings and configuration
+description: Manage Explorer for IoT Query data processing categories, system health monitoring, and historical data loading from the settings panel
+---
+
 # Settings and configuration
 
 Your **Explorer for IoT Query** instance requires management to deliver optimal performance. Configuration controls what data flows into your system and how efficiently your queries perform - like tuning a system to get the clearest analytical signal.

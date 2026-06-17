@@ -1,3 +1,8 @@
+---
+title: Getting started
+description: Enable IoT Query from Admin Panel, configure your database connection, explore the data schema, and run initial telematics queries
+---
+
 # Getting started
 
 ## First steps

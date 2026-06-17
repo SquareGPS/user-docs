@@ -1,3 +1,8 @@
+---
+title: Creating dashboards
+description: Add visualization panels to a canvas, configure SQL queries, and arrange layouts for real-time fleet monitoring and operational decision-making
+---
+
 # Creating dashboards
 
 Dashboard Studio transforms IoT Query data into interactive visual reports. You build reports by adding panels to a canvas, writing SQL queries, and organizing the results into a navigable menu structure.

@@ -1,7 +1,5 @@
 ---
-description: >-
-  Reference for the workflow export/import YAML format, including node fields,
-  edges, and version differences.
+description: The workflow YAML format captures Transformation Builder node graphs, parameters, and edges for export, import, and sharing between environments
 ---
 
 # Workflow YAML reference

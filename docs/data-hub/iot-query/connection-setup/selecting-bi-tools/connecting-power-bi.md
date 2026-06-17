@@ -1,3 +1,8 @@
+---
+title: Connecting Power BI
+description: Connect Power BI to IoT Query via the PostgreSQL connector. Query live telematics data and build interactive fleet monitoring reports and dashboards
+---
+
 # Connecting Power BI
 
 In this article, we will walk through the process of connecting Microsoft Power BI to **IoT Query**. To make it more illustrative, we will also build a dashboard that connects to the analytical database and monitors the real-time status of vehicles, all using Microsoft Power BI.

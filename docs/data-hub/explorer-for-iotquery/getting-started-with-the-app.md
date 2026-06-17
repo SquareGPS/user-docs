@@ -1,3 +1,8 @@
+---
+title: Getting started with the app
+description: Configure Explorer for IoT Query via User Applications and verify connection. Navigate the interface to access dashboards, reports, and analytics tools
+---
+
 # Getting started with the app
 
 This guide helps you set up access and begin using **Explorer for IoT Query** effectively. Follow these steps to connect to your data and start exploring analytical capabilities.

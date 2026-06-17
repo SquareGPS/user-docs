@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how source data is validated and reshaped into analytics-ready entities,
-  and what to watch for when querying.
+description: The Transformation layer reshapes raw IoT Query data into analytics-ready entities. Browse pre-built transformations and understand how data is processed
 ---
 
 # Transformation layer
