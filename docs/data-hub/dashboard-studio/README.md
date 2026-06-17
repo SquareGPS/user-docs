@@ -1,10 +1,10 @@
 # Dashboard Studio
 
-**IoT Query** gives you direct access to your data. **Dashboard Studio** transforms that access into visual answers through custom dashboards without requiring external business intelligence platforms. Build visualizations that answer your fleet questions directly, with no separate BI tools, no waiting for custom reports, no data exports to spreadsheets.
+**IoT Query** gives you direct access to your data. [**Dashboard Studio**](https://navixy.com/en/iot-query/dashboardstudio) transforms that access into visual answers through custom dashboards without requiring external business intelligence platforms. Build visualizations that answer your fleet questions directly, with no separate BI tools, no waiting for custom reports, no data exports to spreadsheets.
 
 ## What Dashboard Studio offers
 
-Dashboard Studio extends your **IoT Query** access with an advanced analytics layer, delivering fleet-optimized visualizations through a web-based interface. You execute SQL queries against your **IoT Query** database across **Raw data**, **Transformation**, and **Insight** layers, and Dashboard Studio renders results as interactive dashboards. The dashboards update automatically as new telemetry data arrives, providing current views of fleet operations without manual data exports.
+Dashboard Studio extends your [**IoT Query**](https://navixy.com/en/iot-query/) access with an advanced analytics layer, delivering fleet-optimized visualizations through a web-based interface. You execute SQL queries against your **IoT Query** database across **Raw data**, **Transformation**, and **Insight** layers, and Dashboard Studio renders results as interactive dashboards. The dashboards update automatically as new telemetry data arrives, providing current views of fleet operations without manual data exports.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -13,7 +13,7 @@ The visual editor separates dashboard design from SQL knowledge. Advanced users 
 Dashboard Studio also provides [Reports](creating-reports.md): a format that generates a data table, chart, and location map from a single SQL query, with export to HTML, Excel, and PDF.
 
 {% hint style="info" %}
-You can test the Dashboard Studio's functionality on mock data yourselves, <a href="https://demo.tools.iotquery.navixy.com/" class="button primary">Try demo</a>&#x20;
+You can test the Dashboard Studio's functionality on mock data yourselves, <a href="https://demo.tools.iotquery.navixy.com/" class="button primary">Try demo</a>
 {% endhint %}
 
 ## What are the key benefits?
@@ -78,7 +78,7 @@ Ensure that IoT Query is enabled in your environment.
 {% step %}
 **Add Dashboard Studio as a User Application**
 
-1. In Navixy, go to **Account settings ->**  [**User Applications**](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications) and create a new application.
+1. In Navixy, go to **Account settings ->** [**User Applications**](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/user-applications) and create a new application.
 2. Set the application **URL** to [https://dashboard.tools.iotquery.navixy.com/](https://dashboard.tools.iotquery.navixy.com/).
 3. Add a descriptive name to your new app.
 4. Enable the **session key** authentication parameter.
