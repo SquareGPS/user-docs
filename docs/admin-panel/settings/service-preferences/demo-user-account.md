@@ -58,7 +58,7 @@ After creating the demo account, your potential customers can access it from the
 
 You can find the link to the demo version of your service on the login page. Anyone can access this link to explore all the available features of the platform and get familiar with its functionality.
 
-![Demo login](../../.gitbook/assets/demo-login-20230811-204813.webp)
+<img src="../../.gitbook/assets/demo-login-20230811-204813.webp" alt="Demo login" width="563">
 
 ### **Shareable link**
 
