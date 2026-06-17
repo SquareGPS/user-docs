@@ -1,3 +1,7 @@
+---
+description: "Manage your Navixy dealer account: configure the GPS tracking platform, create user accounts, manage devices, and set up billing and reseller plans."
+---
+
 # Admin Panel
 
 Navixy Admin Panel is a powerful tool that allows administrators to customize the GPS tracking service platform and perform daily tasks to deliver high-quality commercial services to end-users. In this section, we will provide information on how to access the Navixy Admin Panel and the features available to you.
