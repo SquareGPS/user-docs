@@ -1,7 +1,5 @@
 ---
-description: >-
-  Create and manage resellers (sub-dealers), configure permissions, and control
-  activation and suspension statuses.
+description: Create and manage resellers (sub-dealers), configure permissions, and control activation and suspension statuses
 ---
 
 # Resellers

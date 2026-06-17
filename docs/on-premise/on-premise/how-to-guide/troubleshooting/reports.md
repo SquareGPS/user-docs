@@ -1,3 +1,7 @@
+---
+description: Diagnose report generation issues on Navixy on-premise. Disk space shortages cause timeout errors, and hardware resources directly affect report generation speed.
+---
+
 # Reports
 
 Generating reports is a process that demands substantial resources. It entails gathering diverse information from multiple tables in a database and merging it into a unified document. Let's explore the challenges that can arise when creating reports on an On-Premise instance. These issues primarily stem from the server hardware, yet their detection is often inconspicuous. Therefore, a comprehensive understanding of the underlying causes becomes imperative.

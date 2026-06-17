@@ -1,3 +1,7 @@
+---
+description: Understand Navixy subscription billing based on active devices, payment deadlines, and service suspension rules for both PaaS and on-premise instances.
+---
+
 # Subscription fees
 
 Navixy requires a monthly subscription fee for both PaaS and On-Premise instances. The fee is based on the number of active devices used during the month, with no charge for inactive devices or clones. An invoice is issued at the beginning of each month, and payment is due by the 10th of that month to ensure continued service.

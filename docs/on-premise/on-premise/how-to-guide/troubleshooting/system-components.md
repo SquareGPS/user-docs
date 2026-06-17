@@ -1,3 +1,7 @@
+---
+description: "Navixy on-premise platform architecture covers Nginx frontend, API-server, SMS-server, TCP-server, and MySQL. Find component locations and roles for troubleshooting."
+---
+
 # System components
 
 A comprehensive grasp of the Navixy platform architecture is crucial for effective troubleshooting. In order to proficiently administer and maintain the platform, it is imperative to gain a clear understanding of the component locations, functionalities, and their intricate interdependencies.

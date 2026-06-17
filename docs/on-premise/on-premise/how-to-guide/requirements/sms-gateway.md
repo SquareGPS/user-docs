@@ -1,3 +1,7 @@
+---
+description: "Select an SMS gateway for Navixy on-premise: cloud providers, SMPP-compatible SMS centers, or Yeastar hardware VoIP gateways for device activation and notifications."
+---
+
 # SMS gateway
 
 Navixy highly recommends using an SMS center (SMSC) for outgoing messages and leasing a dedicated phone number for incoming SMS messages to utilize the full potential of the platform, including automatic device activation, user notifications and alerts, and device configuration directly from the user interface.

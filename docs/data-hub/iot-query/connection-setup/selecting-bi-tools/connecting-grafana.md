@@ -1,3 +1,8 @@
+---
+title: Connecting Grafana
+description: Connect Grafana to IoT Query via the PostgreSQL data source. Build time series charts and dashboards for live and historical telematics monitoring
+---
+
 # Connecting Grafana
 
 This guide demonstrates how to connect Grafana to **IoT Query** for visualizing telematics and fleet data. Grafana provides powerful visualization capabilities for monitoring vehicle status, sensor data, and other metrics in real-time.

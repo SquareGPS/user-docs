@@ -1,3 +1,7 @@
+---
+description: Run the update.sh script to update Navixy on-premise on Linux. The script checks prerequisites, updates the database and Java services, then restarts all components.
+---
+
 # Automatic Update - Linux
 
 The Navixy platform update process typically consists of three parts: updating the database, updating Java service files, and updating web service files. It is important to follow the update instruction carefully and make sure that each part of the update is completed successfully, and no errors are encountered along the way.

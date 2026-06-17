@@ -1,3 +1,8 @@
+---
+title: Prevent users from changing device settings
+description: "Use Menu Editor to restrict access to device settings; requires Fleet Management and Field Service plan add-ons"
+---
+
 # Prevent users from changing device settings
 
 ## Question

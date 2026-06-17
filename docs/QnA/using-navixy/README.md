@@ -1,4 +1,9 @@
-﻿# Users
+﻿---
+title: Users
+description: Troubleshoot device connectivity, sensor configuration, trip history, fuel reports, and platform issues with practical solutions for fleet managers
+---
+
+# Users
 
 This section provides practical solutions for end users and fleet managers working with the Navixy platform daily. You'll find troubleshooting guides for device connectivity, sensor configuration, trip history analysis, and report generation. The content focuses on operational tasks — how to use platform features effectively and resolve common issues during normal operations.
 

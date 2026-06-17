@@ -1,3 +1,7 @@
+---
+description: Keep Navixy up to date on PaaS or on-premise. Covers update frequency, eligibility requirements, and links to OS-specific update procedures for Linux and Windows.
+---
+
 # Software updates
 
 The Navixy platform is regularly updated with new features, improvements, and fixes. The following section provides instructions on how to update your Navixy instances.

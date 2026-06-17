@@ -1,3 +1,7 @@
+---
+description: Configure the Textlocal SMS gateway for Navixy on-premise deployments in the UK. Set up API key authentication and optional incoming message handling.
+---
+
 # Textlocal
 
 [Textlocal](http://www.textlocal.com/) is a cloud-based SMS messaging platform that enables businesses to send and receive text messages. The company is based in the UK and operates globally.

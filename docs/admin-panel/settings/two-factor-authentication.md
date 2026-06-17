@@ -1,7 +1,5 @@
 ---
-description: >-
-  Enable two-factor authentication for all users or specific accounts, with
-  inheritance to sub-users and API management options.
+description: Enable two-factor authentication for all users or specific accounts, with inheritance to sub-users and API management options
 ---
 
 # Security

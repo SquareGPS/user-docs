@@ -1,3 +1,8 @@
+---
+title: Historical reports
+description: Analyze sensor, activity, driving behavior, shifts, mileage, trips, and downtime patterns across defined time periods for fleet optimization insights
+---
+
 # Historical reports
 
 Historical reports transform your operational data into strategic insights by analyzing patterns, trends, and performance metrics across time periods you define, enabling data-driven decisions for fleet optimization and resource planning.

@@ -1,3 +1,7 @@
+---
+description: Configure Nginx as the Navixy on-premise web server on Linux or Windows. Set up HTTP and HTTPS virtual hosts, SSL certificates, and domain-based proxy rules.
+---
+
 # Nginx web server
 
 Nginx is the web server used by Navixy platform to run the website. It is freeware designed to run on Linux and is also compatible with Windows.

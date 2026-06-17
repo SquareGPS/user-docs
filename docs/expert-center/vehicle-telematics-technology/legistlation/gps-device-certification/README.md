@@ -1,3 +1,7 @@
+---
+description: GPS tracker certification covers safety, electromagnetic compliance, cellular operator approvals, and national security standards per region.
+---
+
 # GPS device certification
 
 In this guide, you’ll learn what GPS tracker certification entails, why it’s important, and which certificates are required in order to sell or use GPS trackers.

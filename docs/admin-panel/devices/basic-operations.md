@@ -1,7 +1,5 @@
 ---
-description: >-
-  View tracker status and run core actions like edit/assign, clone, activation,
-  plan changes, and Air Console.
+description: View tracker status and run core actions like edit/assign, clone, activation, plan changes, and Air Console
 ---
 
 # Tracker details and operations

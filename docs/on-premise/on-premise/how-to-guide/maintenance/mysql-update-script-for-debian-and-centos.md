@@ -1,3 +1,7 @@
+---
+description: Run the automated MySQL update script for Navixy on Debian 9/10 or CentOS 7. The script performs compatibility checks and installs the required MySQL version.
+---
+
 # MySQL update script for Debian and CentOS
 
 The Navixy platform, like any modern software, undergoes continuous improvement and updates. As a result, new versions of the platform are unable to run on outdated third-party applications. Since many of our valued customers rely on our platform for their business needs, it is inevitable that the third-party software installed during the initial deployment becomes outdated over time.

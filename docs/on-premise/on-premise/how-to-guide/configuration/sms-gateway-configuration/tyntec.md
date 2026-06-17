@@ -1,3 +1,7 @@
+---
+description: Configure the Tyntec cloud communications gateway for Navixy on-premise SMS messaging. Add the JSON configuration parameters for messaging and voice integration.
+---
+
 # Tyntec
 
 [Tyntec](https://www.tyntec.com/) is a cloud communications provider that offers a range of messaging and voice solutions, including SMS, voice, and chat APIs.

@@ -1,3 +1,8 @@
+---
+title: Creating custom visualizations
+description: Create interactive charts from SQL query results using drag-and-drop configuration. Add filters, switch chart types, and arrange panels side by side
+---
+
 # Creating custom visualizations
 
 Transform SQL query results into interactive charts through drag-and-drop operations. The visualization interface converts raw data into visual insights without coding requirements.

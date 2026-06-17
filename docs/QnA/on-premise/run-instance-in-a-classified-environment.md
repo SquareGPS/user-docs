@@ -1,3 +1,8 @@
+---
+title: Run instance in a classified environment
+description: Isolate from external network with a private device subnet. Licensing, maps, and geocoding require outbound access to Navixy servers
+---
+
 # Run instance in a classified environment
 
 ## Can I isolate my instance from the external network?

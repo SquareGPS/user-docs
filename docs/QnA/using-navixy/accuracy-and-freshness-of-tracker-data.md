@@ -1,4 +1,9 @@
-﻿# Accuracy and freshness of tracker data
+﻿---
+title: Accuracy and freshness of tracker data
+description: Tracker accuracy depends on GPS conditions; platform filters unreliable data with too few satellites or interference from jammers
+---
+
+# Accuracy and freshness of tracker data
 
 ## Question
 

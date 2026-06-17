@@ -1,3 +1,7 @@
+---
+description: Float, capacitive, and ultrasonic fuel sensors differ in accuracy and tank compatibility. Use the selection guide to choose the right type for your vehicles.
+---
+
 # Types of fuel level sensors
 
 Fuel sensors are devices designed to make accurate measurements of the fuel level in a vehicle’s tank. According to these measurements a GPS tracking and telematics platform features the following data:

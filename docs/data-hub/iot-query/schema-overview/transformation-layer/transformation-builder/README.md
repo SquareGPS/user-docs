@@ -1,7 +1,5 @@
 ---
-description: >-
-  Build custom transformations visually, preview results, validate workflows,
-  and export them for execution.
+description: Build custom IoT Query transformations with a visual workflow editor. Configure SQL nodes, preview results, validate workflows, and schedule executions
 ---
 
 # Transformation Builder

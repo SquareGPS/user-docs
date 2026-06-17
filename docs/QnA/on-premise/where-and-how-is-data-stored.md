@@ -1,3 +1,8 @@
+---
+title: Where and how is data stored?
+description: "MySQL database stores tracking and business data. Images stored in API-server subdirectories. Two databases: tracking and google"
+---
+
 # Where and how is data stored?
 
 ## Where is the data stored?

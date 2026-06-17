@@ -1,3 +1,7 @@
+---
+description: Deploy Navixy on-premise on Google Cloud Platform. Create a virtual machine with required specs, configure SSH keys, and connect via browser or client.
+---
+
 # Google Cloud Platform
 
 Deploying infrastructure utilize Navixy on-premise solution requires thoughtful initial site selection. If you decide to favor a cloud platform, one of the most popular solutions is Google Cloud Platform (GCP). It is a reliable proven and widely recognized platform that allows you to easily launch virtual machines with minimal effort. However, it still provides as much customization flexibility, security, and fault tolerance as other popular platforms.

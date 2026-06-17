@@ -1,7 +1,5 @@
 ---
-description: >-
-  Connect an SMS provider to send M2M device commands/activation messages and
-  user SMS notifications.
+description: Connect an SMS provider to Navixy to send M2M device commands, activation messages, and user SMS notifications through the SMS gateway
 ---
 
 # SMS gateway

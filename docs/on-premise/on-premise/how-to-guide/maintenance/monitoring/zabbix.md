@@ -1,3 +1,7 @@
+---
+description: Install Zabbix on a dedicated server to monitor Navixy on-premise resources, web accessibility, and advanced infrastructure metrics without internet access requirements.
+---
+
 # Zabbix
 
 Zabbix is a powerful, free tool that can monitor various server resources and web-page accessibility. However, unlike other services mentioned, Zabbix needs to be installed on a separate server, making the setup process more advanced. However, this deployment method makes Zabbix ideal for monitoring servers with restricted or no access to the internet.

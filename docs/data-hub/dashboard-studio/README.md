@@ -1,3 +1,8 @@
+---
+title: Dashboard Studio
+description: Build interactive fleet dashboards and reports from SQL queries without external BI tools. Self-service analytics with drag-and-drop visualization
+---
+
 # Dashboard Studio
 
 **IoT Query** gives you direct access to your data. [**Dashboard Studio**](https://navixy.com/en/iot-query/dashboardstudio) transforms that access into visual answers through custom dashboards without requiring external business intelligence platforms. Build visualizations that answer your fleet questions directly, with no separate BI tools, no waiting for custom reports, no data exports to spreadsheets.

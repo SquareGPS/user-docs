@@ -1,3 +1,7 @@
+---
+description: Install Navixy on-premise on Ubuntu 20, 22, or 24 using an automated script. Complete the installation and configuration wizards, then log in to the admin panel.
+---
+
 # Ubuntu 20+
 
 This guide describes Navixy On-Premise platform installation using automated scripts. This type of installation is designed for and supported only on **Ubuntu 20, 22 and 24**.

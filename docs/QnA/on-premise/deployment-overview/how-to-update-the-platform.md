@@ -1,3 +1,8 @@
+---
+title: How to update the platform?
+description: Run automated update scripts on Linux or perform manual updates on Windows. Back up database before starting to enable rollback if needed
+---
+
 # How to update the platform?
 
 ## Where can I download the update package of Navixy On-Premise platform?

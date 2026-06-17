@@ -1,3 +1,8 @@
+---
+title: Enable two-factor authentication
+description: Enable email-based two-factor authentication in Admin Panel Security settings to protect admin panel logins
+---
+
 # Enable two-factor authentication
 
 ## Question

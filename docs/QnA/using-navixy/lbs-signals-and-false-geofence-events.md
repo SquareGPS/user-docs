@@ -1,4 +1,9 @@
-﻿# LBS Signals and false geofence events
+﻿---
+title: LBS Signals and false geofence events
+description: Reduce LBS-triggered geofence false positives by increasing the detection radius in device settings; LBS cell tower accuracy is typically 1–2 km
+---
+
+# LBS Signals and false geofence events
 
 ## Question
 

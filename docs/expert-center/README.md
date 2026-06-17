@@ -1,3 +1,7 @@
+---
+description: Access vehicle telematics guides, FAQ troubleshooting steps, sensor configuration tutorials, and connectivity references to get the most from Navixy.
+---
+
 # Expert Center
 
 Unlock the full potential of our exceptional product for your business with our comprehensive and in-depth guide. Inside, you will discover a wealth of valuable resources, including clear and concise step-by-step instructions, insightful tips and tricks, and real-world scenarios that vividly illustrate how to leverage our product in the most effective and efficient ways.

@@ -1,3 +1,7 @@
+---
+description: Configure the Twilio SMS gateway in Navixy on-premise for global connectivity. Add credentials using the SQL configuration example for the sms_gates table.
+---
+
 # Twilio
 
 [Twilio](https://twilio.co) is a widely-used global connectivity service provider based in California, known for its reliability and coverage in many countries, particularly the US, Canada, and the UK.

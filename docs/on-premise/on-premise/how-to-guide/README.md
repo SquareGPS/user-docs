@@ -1,3 +1,7 @@
+---
+description: Deploy and maintain Navixy on-premise with guides covering requirements, installation methods, configuration options, maintenance tasks, and troubleshooting procedures.
+---
+
 # Deployment guides
 
 Navixy On-Premise is a flexible deployment option that can be installed on either physical servers or cloud infrastructure platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).

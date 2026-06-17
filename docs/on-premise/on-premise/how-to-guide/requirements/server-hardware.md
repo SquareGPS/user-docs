@@ -1,3 +1,7 @@
+---
+description: Size server hardware for Navixy on-premise based on active device count from 100 to 15,000+. Covers CPU, RAM, disk storage, and RAID configuration recommendations.
+---
+
 # Server hardware
 
 The hardware requirements for Navixy primarily depend on the number of active IoT devices (GPS trackers) that are connected to the platform. Navixy's setup is scalable both vertically and horizontally, and the platform has been tested to support more than 300,000 active devices and 50,000 users simultaneously.

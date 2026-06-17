@@ -1,3 +1,7 @@
+---
+description: Enable extended device logging in Navixy on-premise by editing the TCP-server configuration. Captures detailed operation data for diagnosing device-specific issues.
+---
+
 # Extended logging
 
 Sometimes devices do not work with the platform as expected. Problems can be of different nature, and in most cases are related to a particular device, or a specific model, or non-standard firmware.

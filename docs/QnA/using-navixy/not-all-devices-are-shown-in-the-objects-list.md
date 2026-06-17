@@ -1,3 +1,8 @@
+---
+title: Not all devices are shown in the objects list
+description: Check service plan limits on the user account; the most restrictive active plan controls how many trackers appear in the objects list
+---
+
 # Not all devices are shown in the objects list
 
 ## Question

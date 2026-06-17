@@ -1,3 +1,7 @@
+---
+description: Schedule timer-based output actions in IoT Logic using Unix timestamps. Trigger device commands at exact times with continuous device reporting enabled.
+---
+
 # How to Implement Event-Driven Scheduling Using Unix Time in IoT Logic
 
 In this section, we will configure a timer in IoT Logic to control the activation of outputs on the devices. This will function as a scheduler by utilizing Unix time for time-based control.

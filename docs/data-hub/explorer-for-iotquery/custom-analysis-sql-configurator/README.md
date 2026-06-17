@@ -1,3 +1,8 @@
+---
+title: Custom analysis & SQL Configurator
+description: Write PostgreSQL queries against fleet data, browse the full database schema, and create custom visualizations in the SQL Configurator
+---
+
 # Custom analysis & SQL Configurator
 
 The **Custom Analysis & SQL Configurator** enables direct database access for custom fleet analysis beyond standard reports. Write SQL queries, explore your complete dataset, and create interactive visualizations in one integrated interface.

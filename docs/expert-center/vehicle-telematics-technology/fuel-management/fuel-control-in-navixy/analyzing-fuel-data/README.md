@@ -1,3 +1,7 @@
+---
+description: Navixy stores fuel sensor readings with flexible reconstruction options. Reports, widgets, and alerts help monitor consumption and detect anomalies.
+---
+
 # Analyzing fuel data
 
 The platform instantly captures and stores fuel sensor readings from connected devices. Data is saved only after the creation of a fuel sensor within the system.

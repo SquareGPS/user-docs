@@ -1,3 +1,7 @@
+---
+description: Set up a video telematics test lab using a projector, windshield mount, lighting controls, and steering wheel rig to evaluate dashcam performance.
+---
+
 # Building a Video Telematics Test Lab: Key Components and Considerations
 
 When setting up a test lab specifically focused on video telematics, it’s important to keep in mind certain limitations. Many cameras rely on speed and movement data as fundamental parameters to capture video correctly. In other words, the camera “expects” a change in coordinates and velocity to understand that the vehicle is in motion. However, some models allow this functionality to be disabled, which makes it possible to run tests in static environments.

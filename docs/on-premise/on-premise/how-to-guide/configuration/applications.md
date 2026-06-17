@@ -1,3 +1,7 @@
+---
+description: Add custom web applications to the Navixy main menu using SQL queries. Enable apps for entire service accounts or individual users, with HTTPS required.
+---
+
 # Applications
 
 In your Navixy instance, you can modify the list of web applications available to your users by adding or removing custom apps to the main menu.

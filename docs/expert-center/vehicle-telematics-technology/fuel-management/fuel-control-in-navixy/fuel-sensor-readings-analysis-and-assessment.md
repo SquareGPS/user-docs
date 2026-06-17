@@ -1,3 +1,7 @@
+---
+description: Evaluate fuel sensor data quality and calibration accuracy in Navixy. Identifies reading anomalies and suggests improvements for measurement reliability.
+---
+
 # Fuel sensor readings analysis and assessment
 
 Effective fuel calculations are one of the most important aspects in fleet management. They allow partners and users for close monitoring of fuel expenses, detection of unauthorized consumption, and implementation of measures to minimize it. However, ensuring accurate fuel calculations necessitates a thorough evaluation of the quality of data sources used for these calculations.

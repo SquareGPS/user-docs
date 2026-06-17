@@ -1,3 +1,7 @@
+---
+description: Track stationary assets using BLE tags attached to GPS devices. Set up device configuration and API integration to monitor trailers and equipment.
+---
+
 # GPS tracking of stationary assets with BLE tags
 
 Any object can be integrated into the Internet of Things. The platform allows tracking not only movable objects but also stationary ones, like heavy equipment, agricultural equipment, cargo, goods, or security equipment. Installing GPS devices on each of these objects can be very expensive. Instead, it's more cost-effective to install one device on a vehicle or site and track all others with cheaper BLE tags.

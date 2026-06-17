@@ -1,3 +1,8 @@
+---
+title: Real-time dashboards
+description: "Monitor fleet operations in real time with four pre-built dashboards: object status, asset intelligence, sensor readings, and geozone activity"
+---
+
 # Real-time dashboards
 
 Real-time dashboards transform raw telematics data streams into operational intelligence, enabling proactive fleet management through live monitoring and immediate decision-making capabilities.

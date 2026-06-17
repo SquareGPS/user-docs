@@ -1,3 +1,7 @@
+---
+description: Fuel cost control depends on sensor accuracy, calibration quality, and the right monitoring method. Covers the foundations for fuel management.
+---
+
 # Fundamentals of fuel management
 
 ### Introduction

@@ -1,5 +1,5 @@
 ---
-description: Logistics Case Study and SQL Recipe Book
+description: SQL query templates for logistics and transportation analytics, covering route optimization, cargo monitoring, fleet utilization, and delivery performance
 ---
 
 # Logistics

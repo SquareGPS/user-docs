@@ -1,7 +1,5 @@
 ---
-description: >-
-  Manage activation codes that restrict tracker registration and link codes to
-  device plans for automated setup.
+description: Manage activation codes that restrict tracker registration and link codes to device plans for automated setup
 ---
 
 # Activation codes

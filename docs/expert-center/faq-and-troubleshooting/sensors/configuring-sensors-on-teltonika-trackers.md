@@ -1,3 +1,7 @@
+---
+description: Configure Teltonika tracker sensors by selecting parameters in the configurator, applying settings remotely, and creating sensor entries in Navixy.
+---
+
 # Configuring Sensors on Teltonika Trackers
 
 This is a common guide for setting up sensors and fields for Teltonika devices. Using this guide, you can set up almost any sensor for Teltonika devices in Navixy.

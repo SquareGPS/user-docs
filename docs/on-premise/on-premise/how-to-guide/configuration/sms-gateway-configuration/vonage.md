@@ -1,3 +1,7 @@
+---
+description: Configure the Vonage SMS gateway in Navixy on-premise for IoT-compatible messaging. Add API key and secret credentials using the JSON configuration example.
+---
+
 # Vonage
 
 [Vonage](https://www.vonage.com/) is a cloud communications platform that offers a wide range of messaging and voice solutions, including SMS, voice, and video APIs. The platform allows businesses to connect with their customers through multiple channels and devices, leveraging powerful APIs and advanced messaging features. Vonage's SMS API provides fast and reliable message delivery, global coverage, and support for multiple messaging formats.

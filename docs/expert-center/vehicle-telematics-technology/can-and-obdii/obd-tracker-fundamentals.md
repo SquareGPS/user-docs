@@ -1,3 +1,7 @@
+---
+description: Plug-and-play OBD trackers connect to the vehicle diagnostic port to read engine data without extra wiring. Covers data types and fleet management use cases.
+---
+
 # OBD Tracker Fundamentals
 
 In this guide, you’ll learn what an OBD tracker is, how these devices work, and what makes them suitable for fleets, small businesses, and others.

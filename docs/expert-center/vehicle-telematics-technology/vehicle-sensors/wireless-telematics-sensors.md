@@ -1,3 +1,7 @@
+---
+description: BLE and UHF sensors transmit TPMS, temperature, and environmental data to GPS trackers using GATT/ATT protocols for wireless fleet monitoring.
+---
+
 # Wireless Telematics Sensors
 
 Wireless technologies allow the transmission of values from different sensors to GPS tracking units without wiring. There are 2 types of wireless technologies that use their own frequencies:

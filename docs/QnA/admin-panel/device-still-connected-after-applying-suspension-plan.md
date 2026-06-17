@@ -1,3 +1,8 @@
+---
+title: Device still connected after applying suspension plan
+description: "Device suspension activates after daily billing at 00:05 UTC when the user balance is exceeded by the overcharge plan"
+---
+
 # Device still connected after applying suspension plan
 
 ## Question

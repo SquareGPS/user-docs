@@ -1,3 +1,7 @@
+---
+description: Diagnostic Trouble Codes flag vehicle system faults via onboard diagnostics. Decode DTC structures, interpret error categories, and apply fault data.
+---
+
 # DTC (Diagnostic Trouble Codes)
 
 Understanding of DTC (Diagnostic Trouble Codes) is vital for effective fleet management and telematics in general. Vehicle codes serve as your car's language, conveying its health status and notifying you of possible issues.

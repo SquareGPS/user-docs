@@ -1,3 +1,7 @@
+---
+description: Parking detection combines speed, inactivity time, and ignition status to mark trip ends. Configure per-device thresholds for accurate stop detection.
+---
+
 # Parking Detection Logic
 
 ### Introduction

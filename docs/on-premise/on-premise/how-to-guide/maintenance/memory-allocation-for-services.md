@@ -1,3 +1,7 @@
+---
+description: Adjust RAM allocation for Navixy Java services and MySQL on systemd, runit, Docker, and Windows deployments. Edit service configuration files to set memory limits.
+---
+
 # Memory allocation for services
 
 As your business expands and the number of connected devices inevitably grows, so does the demand for resources to ensure the proper functioning of the Navixy platform. While CPU power and disk space are allocated as needed without any limitations, the maximum amount of RAM that can be utilized is strictly regulated by system configurations. Hence, there might come a time when you realize that the allocated memory is insufficient, necessitating its expansion. In this section, we will provide guidance on locating the required configuration files and making the necessary adjustments to optimize the platform's performance.

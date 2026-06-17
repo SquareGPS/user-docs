@@ -1,3 +1,7 @@
+---
+description: Run the NavixyUpdater PowerShell script to update Navixy on Windows. Select the update type, apply changes, and verify admin panel and UI functionality.
+---
+
 # Automatic update - Windows
 
 This guide describes Navixy On-Premise platform update using automated script. This script is designed for Windows servers that are already running Navixy platform.

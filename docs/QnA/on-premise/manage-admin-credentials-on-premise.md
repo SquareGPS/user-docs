@@ -1,3 +1,8 @@
+---
+title: Manage admin credentials (On-premise)
+description: Rename admin account in the google.dealers table or reset password via API server. Log in to Admin Panel and use the password change feature
+---
+
 # Manage admin credentials (On-premise)
 
 ## Can I rename the admin account so that I can access Admin Panel using a login of my choice?

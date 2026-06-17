@@ -1,3 +1,8 @@
+---
+title: What do I need to have my own Navixy instance?
+description: "Provision a server, obtain a license, assemble a technician team, register domain names. Optional: SSL certificates and SMS/email gateways"
+---
+
 # What do I need to have my own Navixy instance?
 
 ## Question

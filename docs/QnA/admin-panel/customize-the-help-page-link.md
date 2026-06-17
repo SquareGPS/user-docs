@@ -1,3 +1,8 @@
+---
+title: Customize the Help page link
+description: Set a custom Help page link in Admin Panel Service preferences to send users to your support docs instead of the Navixy default
+---
+
 # Customize the Help page link
 
 ## Question

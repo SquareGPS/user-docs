@@ -1,3 +1,7 @@
+---
+description: Apply advanced backup methods for high-load Navixy instances using xtrabackup, database replication, and combined application and database backup approaches.
+---
+
 # Advanced backup strategies
 
 Data is one of the most precious things we have. So for any business, data safety is essential. Losing data, even partially, can have serious and long lasting effects on business performance and profitability.

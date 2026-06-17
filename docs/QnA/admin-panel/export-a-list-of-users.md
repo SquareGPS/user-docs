@@ -1,3 +1,8 @@
+---
+title: Export a list of users
+description: Download user account data in XLSX or CSV from the Users page in Admin Panel. Filter by status or date range before exporting
+---
+
 # Export a list of users
 
 ## Question

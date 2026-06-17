@@ -1,3 +1,8 @@
+---
+title: Connection setup
+description: Establish a PostgreSQL connection to IoT Query, configure credentials, understand the data schema architecture, and apply connection security settings
+---
+
 # Connection setup
 
 This guide explains how to connect to your **IoT Query** instance, which is built on **Neon PostgreSQL**.

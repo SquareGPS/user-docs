@@ -1,3 +1,7 @@
+---
+description: Troubleshoot SMS gateway failures on Navixy on-premise. Check activation status, verify service operation, and resolve connection and authentication errors.
+---
+
 # On-Premise SMS gateway troubleshooting
 
 The Navixy platform offers the capability to seamlessly integrate with SMS gateways, enabling the sending of messages. To leverage all the advantages of this feature, it's necessary to establish a connection with an SMS gateway. It's important to note that this functionality is not activated by default and can only be accessed once you configure the SMS gateway settings and activate it in the database.

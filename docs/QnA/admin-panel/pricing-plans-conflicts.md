@@ -1,3 +1,8 @@
+---
+title: Pricing plans conflicts
+description: Resolve device visibility and feature restrictions caused by conflicting pricing plan settings across user accounts
+---
+
 # Pricing plans conflicts
 
 While pricing plans are essential for managing devices and users, they include several nuanced features. This article clarifies these details to help you optimize your configuration and improve the user experience.

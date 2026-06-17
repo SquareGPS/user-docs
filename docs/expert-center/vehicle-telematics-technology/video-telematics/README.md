@@ -1,3 +1,7 @@
+---
+description: Dashcam integration with GPS tracking enables driver safety monitoring, incident footage capture, and real-time event alerts for fleet managers.
+---
+
 # Video telematics
 
 Video telematics is revolutionizing fleet management and driver safety. By integrating video cameras with telematics technology, this solution delivers a comprehensive view of both vehicle operations and driver behavior.

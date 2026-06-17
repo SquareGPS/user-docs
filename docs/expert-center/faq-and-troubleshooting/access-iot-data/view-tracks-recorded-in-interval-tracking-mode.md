@@ -1,3 +1,7 @@
+---
+description: Display interval-mode device data as map tracks by generating tracks and disabling the Split by stops option in the Navixy tracking settings.
+---
+
 # View tracks recorded in interval tracking mode
 
 There are a large number of trackers that work in interval mode - they send points once in a certain period of time.

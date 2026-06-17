@@ -1,3 +1,7 @@
+---
+description: Set up the ERM Efuel Dome fuel sensor in Navixy. Covers physical installation, platform configuration, sensor mapping, and alert setup.
+---
+
 # Configuring ERM Efuel Dome Sensor on Navixy
 
 This document introduces the **ERM eFuel DOME** sensor, a device engineered for advanced and non-invasive fuel level monitoring across a wide range of vehicles. This innovative sensor provides real-time data analysis, automatic calibration, and intelligent alerts for theft and refueling events. A key technical advantage is its wireless, autonomous, and plug-in design, eliminating the requirement for fuel tank drilling, thereby preserving the vehicle's warranty and structural integrity.

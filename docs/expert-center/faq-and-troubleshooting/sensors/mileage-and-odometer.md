@@ -1,3 +1,7 @@
+---
+description: Odometer and GPS distance use different calculation methods in Navixy. Compare accuracy, choose the right approach, and apply automatic correction.
+---
+
 # Mileage and odometer
 
 Most likely, sooner or later you will encounter such a problem that the odometer and mileage values ​​that you see in the reports on the platform do not converge match the expected ones.

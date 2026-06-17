@@ -1,3 +1,7 @@
+---
+description: Deploy Navixy on-premise on a cloud virtual server. Guides for AWS, Google Cloud, and Microsoft Azure cover network setup, VM provisioning, and SSH access.
+---
+
 # Cloud deployment
 
 Cloud-based virtual server deployment solutions are increasingly embraced by companies today. These solutions offer greater flexibility and scalability, along with a qualitatively new level of fault tolerance. Additionally, they eliminate the need for local data centers, such as purchasing hardware servers and building local networks.

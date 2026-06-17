@@ -1,7 +1,5 @@
 ---
-description: >-
-  Set default profile settings for new users, including time zone, date/time
-  formats, units, and menu preset.
+description: Set default profile settings for new users, including time zone, date/time formats, units, and menu preset
 ---
 
 # User defaults

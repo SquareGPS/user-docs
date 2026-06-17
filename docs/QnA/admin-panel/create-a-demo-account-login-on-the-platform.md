@@ -1,3 +1,8 @@
+---
+title: Create a demo account login on the platform
+description: Set up a read-only demo login using subuser credentials in Admin Panel Service preferences to preview platform features
+---
+
 # Create a demo account login on the platform
 
 ## Question

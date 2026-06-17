@@ -1,3 +1,7 @@
+---
+description: Manually install Navixy on-premise on Windows Server. Configure MySQL, environment variables, Nginx frontend, and Java backend services as Windows services.
+---
+
 # Manual installation - Windows
 
 This page describes a process of manual installation of the Navixy On-premise solution on Windows. We recommend using **Windows Server 2016 or newer**. If you want to install the platform on any other version of Windows, for example desktop versions, you can still apply this guide, as the basic principles and software are the same. However, only server versions are considered a reliable solution.

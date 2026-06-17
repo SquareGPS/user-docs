@@ -1,3 +1,7 @@
+---
+description: Locate and analyze Navixy on-premise backend service logs for API-server, SMS-server, and TCP-server. Use command-line tools to search and filter log entries.
+---
+
 # Working with logs
 
 Backend services of Navixy platform always collect logs when running. These logs contain entries on all actions performed by Java-services, as well as errors that occur during the platform operation. Log analysis is an integral part of troubleshooting process.

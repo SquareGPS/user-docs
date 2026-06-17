@@ -1,3 +1,7 @@
+---
+description: Configure SSL certificates for Navixy on-premise. Choose a provider, meet domain requirements, and manage expiration using commercial or free Let's Encrypt certificates.
+---
+
 # SSL encryption
 
 SSL encryption is a vital security measure to protect the web traffic between your customers and your server from malicious interception. This technology safeguards sensitive information from being accessed by unauthorized individuals, particularly man-in-the-middle attackers.

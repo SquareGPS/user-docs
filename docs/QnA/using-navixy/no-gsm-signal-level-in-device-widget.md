@@ -1,4 +1,9 @@
-﻿# No GSM signal level in device widget
+﻿---
+title: No GSM signal level in device widget
+description: GSM signal level shows as unknown in the widget when the device data frame contains no signal intensity field for that data packet
+---
+
+# No GSM signal level in device widget
 
 ## Question
 

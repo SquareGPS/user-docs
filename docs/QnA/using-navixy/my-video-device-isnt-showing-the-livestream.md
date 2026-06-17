@@ -1,3 +1,8 @@
+---
+title: My video device isn't showing the livestream
+description: Send configuration commands via Air Console to enable the livestream feature and set the correct streaming server address on the device
+---
+
 # My video device isn't showing the livestream
 
 ## Question

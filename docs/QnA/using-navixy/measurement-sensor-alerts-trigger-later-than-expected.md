@@ -1,4 +1,9 @@
-﻿# Measurement sensor alerts trigger later than expected
+﻿---
+title: Measurement sensor alerts trigger later than expected
+description: Switch measurement sensors to virtual sensors to prevent data thinning from delaying alert triggers; thinned data skips intermediate values
+---
+
+# Measurement sensor alerts trigger later than expected
 
 ## Question
 

@@ -1,3 +1,7 @@
+---
+description: Factory-fitted level sensors measure tank fuel through resistance variation and transmit data via CAN/OBD-II or analog inputs to the GPS tracker.
+---
+
 # OEM fuel level sensors
 
 Original Equipment Manufacturer (OEM) fuel level sensors are installed by manufacturers during vehicle production. These sensors are built to accurately gauge the fuel levels within the tank and seamlessly relay this crucial information to the vehicle's dashboard and other vital systems.

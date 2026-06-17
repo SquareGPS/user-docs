@@ -1,3 +1,7 @@
+---
+description: Fuel flow meters measure actual consumption using internal chambers. Covers operating principles, vehicle applications, and fluid specifications.
+---
+
 # Fuel consumption meters
 
 A fuel flow meter is a device designed to measure the volumetric consumption of fuel, specifically the volume of fuel passing through the fuel line in a given period of time. This essential device presents its measurements in the form of meter readings, similar to those seen on a water or electricity meter. These measurements serve as the basis for calculating important data on a GPS tracking and telematics platform.

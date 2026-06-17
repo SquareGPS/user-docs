@@ -1,3 +1,7 @@
+---
+description: Install SSL certificates on Navixy on-premise and convert HTTP to HTTPS. Covers certificate preparation, Nginx configuration, and platform configuration updates.
+---
+
 # SSL certificates installation
 
 This page describes how to initially install an SSL certificate and convert your website to use HTTPS. If you are already using an SSL certificate and it has expired, refer to the [Update](ssl-certificates-update.md) page.

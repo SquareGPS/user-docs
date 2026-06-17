@@ -1,3 +1,7 @@
+---
+description: Create and configure Google Maps API keys for Navixy on-premise. Set up separate keys for UI maps, GIS services, and email notifications.
+---
+
 # Google maps and geocoding
 
 To use Google Maps with Navixy On-premise, you have to obtain valid Google Maps API keys. This documentation page provides a step-by-step guide on how to create Google Maps API keys and configure them for use with the Navixy platform.

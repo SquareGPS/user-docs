@@ -1,3 +1,7 @@
+---
+description: Compare GPS-based fuel estimates, flow meters, and level sensors by accuracy and application to select the right monitoring method for your fleet.
+---
+
 # Choosing the optimal method and device for fuel monitoring
 
 In the [previous article](./), we discussed that customer needs are the primary factor in selecting calculation methods and fuel management tools. In this article, we will focus on basic fuel management approaches and calculation methods. In addition, we will review the different types of devices that can be used to collect data and monitor fuel levels, providing a description of their advantages and disadvantages.

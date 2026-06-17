@@ -1,3 +1,8 @@
+---
+title: Domain requirements for On-premise
+description: "Register an A-type DNS record pointing to your server to enable SSL certificates and HTTPS. Optional: separate domains for API and admin panel"
+---
+
 # Domain requirements for On-premise
 
 ## Do I need to use a domain for my instance?

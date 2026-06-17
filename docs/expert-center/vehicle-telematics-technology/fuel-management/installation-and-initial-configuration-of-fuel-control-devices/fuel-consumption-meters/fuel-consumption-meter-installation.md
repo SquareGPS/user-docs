@@ -1,3 +1,7 @@
+---
+description: Install a fuel consumption meter using single-chamber or differential meter types. Covers mounting procedures, CAN-bus setup, and connection interfaces.
+---
+
 # Fuel consumption meter installation
 
 {% hint style="danger" %}

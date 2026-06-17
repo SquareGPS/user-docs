@@ -1,3 +1,8 @@
+---
+title: Selecting BI tools
+description: Compare Power BI, Apache Superset, Grafana, and Streamlit to find the right BI tool for visualizing your IoT Query telematics data
+---
+
 # Selecting BI tools
 
 Analyzing and visualizing data stored in your **IoT Query** requires appropriate Business Intelligence (BI) tools. This section helps you understand available options, their strengths and limitations, and how to make the right choice for your organization.

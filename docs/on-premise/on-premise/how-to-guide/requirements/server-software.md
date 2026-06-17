@@ -1,3 +1,7 @@
+---
+description: "Install required software for Navixy on-premise: Ubuntu 20+ or Windows Server 2016+, Java JDK 21, MySQL 8.0, and Nginx. Covers all environment prerequisites."
+---
+
 # Server software
 
 ## Operating systems

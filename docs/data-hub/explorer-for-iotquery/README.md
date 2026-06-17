@@ -1,6 +1,7 @@
 ---
 hidden: true
 noIndex: true
+description: Streamlit-based web interface showcasing real-time dashboards, historical reports, and custom SQL analysis capabilities of your IoT Query instance
 ---
 
 # Explorer for IoT Query

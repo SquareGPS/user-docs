@@ -1,3 +1,7 @@
+---
+description: Enable Cell ID location services in Navixy on-premise using Mozilla Location Services or Google LBS. Configure the provider connection and fallback coordinates.
+---
+
 # Cell ID / LBS
 
 This page provides instructions for configuring Cell ID / LBS (location-based services) in the Navixy On-Premises solution. To learn more about what this feature is used for and how it can be configured in the user interface, please refer to the corresponding page in the user manual.

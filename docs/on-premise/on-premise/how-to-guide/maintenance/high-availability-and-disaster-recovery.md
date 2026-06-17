@@ -1,3 +1,7 @@
+---
+description: Set up high availability and disaster recovery for Navixy on-premise with distributed data centers. Covers licensing and ongoing monitoring requirements.
+---
+
 # High availability and Disaster Recovery
 
 As your business grows and the amount of data stored gradually increases, the issue of preserving information and providing uninterrupted user access becomes crucial. A basic practice to maintain data safety and integrity is the performance of regular backups. However, to achieve optimal fault tolerance, it is advisable to develop a high availability and disaster recovery strategy.

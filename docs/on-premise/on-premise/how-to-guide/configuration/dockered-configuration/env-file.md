@@ -1,3 +1,7 @@
+---
+description: Configure Dockered Navixy using the .env file. Set database credentials, domain names, SSL certificate paths, Let's Encrypt options, and MySQL parameters.
+---
+
 # .env file
 
 To run Navixy platform dockered version, the **.env** file is the primary configuration file. It contains such important parameters as database credentials, domain names, platform installation working folder and others.

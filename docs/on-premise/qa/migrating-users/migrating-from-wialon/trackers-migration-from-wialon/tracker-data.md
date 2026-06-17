@@ -1,3 +1,7 @@
+---
+description: Transfer Wialon tracker data history and sensor calibration to Navixy using the Wialon Retranslator tool. Configure retranslation and handle trip history import.
+---
+
 # Tracker data
 
 You can transfer your Wialon data history to Navixy using the Wialon Retranslator tool. Navixy supports the migration of object travel history and sensor data, including position, speed, mileage, number of satellites, fuel level, temperature, voltage, and more.

@@ -1,3 +1,7 @@
+---
+description: Filter GPS device manufacturers and models visible in Navixy on-premise. Configure show or hide rules in the database to control device visibility per vendor.
+---
+
 # Device list
 
 With Navixy, you have the flexibility to customize the platform to display only the devices you need, ensuring an optimized user experience. The hidden devices cannot be activated by users. This page provides detailed instructions on how to hide specific device manufacturers and tracking devices on the Navixy platform.

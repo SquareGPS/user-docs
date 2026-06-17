@@ -1,3 +1,8 @@
+---
+title: Peak filtering level in fuel volume report
+description: Adjust peak filtering level in the Fuel volume report to control how aggressively abnormal sensor spikes are smoothed from the chart
+---
+
 # Peak filtering level in fuel volume report
 
 ## Question

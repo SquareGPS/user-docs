@@ -1,3 +1,7 @@
+---
+description: Migrate the Navixy on-premise platform to a new server or data center. Covers full platform, separate services, and Dockered deployment migration scenarios.
+---
+
 # Migration
 
 While utilizing the Navixy On-Premise platform, you may find it necessary to migrate individual services or the entire platform to another server. Typically, the decision to migrate is made when the performance of your current server is no longer sufficient or when you need to switch data centers.

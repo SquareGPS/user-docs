@@ -1,3 +1,7 @@
+---
+description: Deploy a local map tile server for Navixy on-premise to serve custom map data. Prepare tiles, launch the server, and integrate it into the platform map panel.
+---
+
 # Map tile servers
 
 A map tile server is a server that provides Navixy applications with map tiles, which are small square images used to display geolocation data. By running your own map tile server, you can offer customized maps for specific areas or additional map layers to your users, such as enterprise assets overlaid on the map.

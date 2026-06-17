@@ -1,3 +1,8 @@
+---
+title: Reseller cannot change their domain name
+description: "Configure the reseller domain in the master account Resellers tab, validate the CNAME record, or contact Support for assistance"
+---
+
 # Reseller cannot change their domain name
 
 ## Question

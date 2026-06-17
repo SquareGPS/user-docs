@@ -1,3 +1,7 @@
+---
+description: Deploy Navixy on-premise on Amazon Web Services. Set up VPC networking, provision an EC2 instance, configure Elastic IPs, and establish SSH access.
+---
+
 # Amazon Web Services (AWS)
 
 Deploying infrastructure can present challenges such as space requirements, environmental controls, and maintenance efforts. However, Amazon Web Services (AWS), one of the leading cloud platforms, tackles these issues head-on by providing scalable and flexible cloud solutions that eliminate the need for physical servers. Numerous companies leverage this solution and Navixy is not an exception. With just a few simple steps, you can acquire a ready-to-use Navixy On-Premise. This page tells you what steps you need to take on AWS before running the Navixy On-premise solution.

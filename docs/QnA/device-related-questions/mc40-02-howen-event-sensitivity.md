@@ -1,3 +1,8 @@
+---
+title: MC40-02 Howen event sensitivity
+description: Adjust MC40-02 event sensitivity in Howen iTools (L/M/H), not Navixy. Configure DMS or ADAS events, trigger hold, interval, and buzzer settings
+---
+
 # MC40-02 Howen event sensitivity
 
 ## Question

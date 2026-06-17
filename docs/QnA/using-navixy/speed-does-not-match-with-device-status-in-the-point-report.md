@@ -1,4 +1,9 @@
-﻿# Speed does not match with device status in the point report
+﻿---
+title: Speed does not match with device status in the point report
+description: Status in the point report reflects trip state based on parking detection settings, not the instantaneous GPS speed at that moment
+---
+
+# Speed does not match with device status in the point report
 
 ## Question
 

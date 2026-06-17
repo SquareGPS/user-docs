@@ -1,3 +1,7 @@
+---
+description: Manage EV fleets in Navixy by monitoring State of Charge and State of Health, tracking charging sessions, and optimizing battery performance.
+---
+
 # EV fleets management
 
 Electric vehicles (EVs) are gaining popularity, with over 100,000 EVs sold globally each month, amounting to more than 1,000,000 annually. People, both individuals and companies, are choosing EVs for their numerous benefits: economic, environmental, and social. However, it is important to acknowledge that the electric vehicle industry also faces certain challenges, such as high initial costs and a lack of charging stations.

@@ -1,3 +1,7 @@
+---
+description: Find the Navixy on-premise platform version number in the VERSION file on your server. Understand the major and minor build numbering scheme.
+---
+
 # Current version
 
 The information about the Navixy platform version deployed on your On-Premise instance can be found in the system files of the backend services.

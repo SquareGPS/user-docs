@@ -1,3 +1,7 @@
+---
+description: Access the MySQL database inside the Dockered Navixy platform using docker exec. Retrieve credentials from the .env file and connect to the navixy database.
+---
+
 # Dockered database access
 
 In certain instances, direct access to the database might be necessary. This can prove beneficial when retrieving tracking data or modifying configurations (e.g. to edit a license key or to add an external application to the UI).

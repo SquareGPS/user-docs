@@ -1,3 +1,7 @@
+---
+description: Create fuel sensor entries in Navixy and configure calibration settings, filtering options, and measurement parameters for accurate readings.
+---
+
 # Sensors setup and configuration
 
 To carry out tasks involving sensor setup, configuration, and maintenance, it is recommended to access the Device and Settings menu.

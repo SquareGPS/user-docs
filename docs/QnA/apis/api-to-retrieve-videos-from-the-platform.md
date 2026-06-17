@@ -1,3 +1,7 @@
+---
+description: Request video recovery from Support for active, connected cameras. No public API exists because automation could overload the platform servers
+---
+
 # API to retrieve videos from the platform
 
 ## Question

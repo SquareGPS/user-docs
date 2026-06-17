@@ -1,7 +1,5 @@
 ---
-description: >-
-  Create menu presets to rename/reorder items, add/remove tabs, and assign
-  custom menus to specific users.
+description: Create menu presets to rename/reorder items, add/remove tabs, and assign custom menus to specific users
 ---
 
 # Menu editor

@@ -1,3 +1,7 @@
+---
+description: Configure Yeastar TG Series GSM gateway hardware for Navixy on-premise SMS delivery. Suited for smaller instances with limited SMS load requirements.
+---
+
 # Yeastar
 
 [Yeastar TG Series](https://www.yeastar.com/voip-gsm-gateway/) are hardware GSM gateways that may not be suitable for high-load services, but it can be a good option for smaller Navixy instances, such as those used by mid-sized businesses.

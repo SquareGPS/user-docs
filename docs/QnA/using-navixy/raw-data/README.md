@@ -1,4 +1,9 @@
-﻿# Raw Data
+﻿---
+title: Raw Data
+description: Run raw data exports to inspect parsed telematics parameters, validate data quality, debug sensor configurations, and build custom reports
+---
+
+# Raw Data
 
 Raw data export is useful for diagnostics and troubleshooting.
 

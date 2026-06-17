@@ -1,3 +1,7 @@
+---
+description: Install Navixy on-premise with automatic or advanced methods. Covers operational responsibilities, update eligibility, and system scalability for larger deployments.
+---
+
 # Platform installation
 
 This section provides detailed technical documentation on how to install and maintain Navixy On-Premise product. Navixy On-Premise deployment is suitable for customers who prefer to manage and maintain their own Navixy installation on their in-house or cloud servers. The installation package contains the latest software version.

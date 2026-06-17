@@ -1,3 +1,7 @@
+---
+description: Migrate the full Navixy on-premise platform to a new server. Covers prerequisites, database migration strategies, service transfer, IP management, and startup procedures.
+---
+
 # Entire platform migration
 
 Platform migration essentially consists of database migration and service migration. In this case, you need to install all the accessory software on the new server, then move the database and copy the services.

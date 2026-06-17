@@ -1,3 +1,7 @@
+---
+description: Restart Navixy on-premise on Linux using the restart-navixy command or on Windows via the services.msc console to manage Windows NT services.
+---
+
 # Restarting instance
 
 Restarting the Navixy platform may be necessary in certain situations such as troubleshooting, configuration changes, or to verify the license, especially after access has been previously suspended due to non-payment.

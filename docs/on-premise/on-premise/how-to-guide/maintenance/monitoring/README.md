@@ -1,3 +1,7 @@
+---
+description: "Monitor Navixy on-premise server health and service availability. Guides cover three tools: UptimeRobot, Uptime Kuma, and Zabbix for tracking platform performance."
+---
+
 # Monitoring
 
 One of the essential aspects of owning a server is the need to monitor and maintain its stability. Early detection of problems can help you respond faster to prevent massive downtime and maintain uninterrupted tracking data acquisition, making your customers happier and increasing profitability.

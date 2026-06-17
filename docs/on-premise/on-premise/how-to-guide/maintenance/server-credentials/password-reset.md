@@ -1,3 +1,7 @@
+---
+description: Reset the Navixy admin panel password on-premise using a Java command-line tool. Use when the password is lost or changed without authorization.
+---
+
 # Password reset
 
 While using Navixy's On-Premise platform, you might need to reset your Admin panel password. This can happen in several situations, including:

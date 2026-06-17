@@ -1,3 +1,7 @@
+---
+description: Loop through coordinates in your code to call search_location for each pair. Batch geocoding is not supported by the geocoder endpoint
+---
+
 # Batch geocoding support for search\_location
 
 ## Question

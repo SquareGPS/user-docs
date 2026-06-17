@@ -1,3 +1,7 @@
+---
+description: Install a dashcam in a fleet vehicle by selecting the mounting position, wiring power through the fuse box, and calibrating ADAS sensors.
+---
+
 # Dash cam installation
 
 Thanks to improvements in technology and an increasing demand for high-quality video of the road, dash cams have become increasingly popular in the last few years. Both individuals and businesses stand to benefit from having recordings at their disposal, so it’s vital to understand how to take advantage of this innovative technology.

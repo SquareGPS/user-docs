@@ -1,3 +1,7 @@
+---
+description: Troubleshoot SMTP email gateway issues on Navixy on-premise. Verify settings, check service status, and resolve common authentication and network connectivity errors.
+---
+
 # On-Premise email gateway troubleshooting
 
 Navixy platform has an ability to work with SMTP gateways to send e-mail messages.

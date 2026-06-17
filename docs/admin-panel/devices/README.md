@@ -1,7 +1,5 @@
 ---
-description: >-
-  Manage GPS trackers in the Admin Panel: search, edit, delete, clone, and view
-  tracker list and details.
+description: "Manage GPS trackers in Admin Panel: search, filter, and view details for each device. Edit, clone, delete, or change pricing plans from the tracker list."
 ---
 
 # Trackers

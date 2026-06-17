@@ -1,3 +1,7 @@
+---
+description: Update expired SSL certificates on Navixy on-premise running Nginx. Locate certificate and key files, then replace them with the new certificate chain.
+---
+
 # SSL certificates update
 
 ## Installation of the SSL certificate

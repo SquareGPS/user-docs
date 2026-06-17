@@ -1,7 +1,5 @@
 ---
-description: >-
-  Ready-made analytical entities in the Transformation layer, available to query
-  immediately and adaptable through Transformation Builder.
+description: Ready-made analytical entities in the Transformation layer, available to query immediately and adaptable through Transformation Builder
 ---
 
 # Common transformations

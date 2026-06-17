@@ -1,3 +1,7 @@
+---
+description: Restart Dockered Navixy containers using docker ps to list running services and docker restart to reload specific backend components.
+---
+
 # Restarting dockered instance
 
 Restarting the Navixy dockered platform may become necessary in various troubleshooting and configuration scenarios.

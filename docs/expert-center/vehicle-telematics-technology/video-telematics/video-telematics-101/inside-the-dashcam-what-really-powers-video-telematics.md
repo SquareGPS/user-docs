@@ -1,5 +1,5 @@
 ---
-description: Video Telematics 101 — Navixy Academy
+description: SoC architecture determines dashcam AI, compression, and feature capabilities. Compares budget Novatek and premium Ambarella chips used in fleet cameras.
 ---
 
 # Inside the dashcam: What really powers video telematics

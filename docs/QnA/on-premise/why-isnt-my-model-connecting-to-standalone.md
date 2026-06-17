@@ -1,3 +1,8 @@
+---
+title: Why isn't my model connecting to standalone?
+description: "Device model won't connect: verify the required port is open using nc. Check the device list page for the model-specific port number"
+---
+
 # Why isn't my model connecting to standalone?
 
 ## Question

@@ -1,7 +1,5 @@
 ---
-description: >-
-  Pre-built Transformation Builder workflows for common Navixy transformations.
-  Download, import, and adapt them to your scenario.
+description: Pre-built Transformation Builder workflows for common Navixy transformations. Download, import, and adapt them to your scenario
 ---
 
 # Templates

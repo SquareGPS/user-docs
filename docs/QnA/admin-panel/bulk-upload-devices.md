@@ -1,3 +1,8 @@
+---
+title: Bulk upload devices
+description: "Activate multiple devices in bulk by uploading CSV-XLSX to Support or using the tracker/register API endpoint with device specifications"
+---
+
 # Bulk upload devices
 
 ## Question

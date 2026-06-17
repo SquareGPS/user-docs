@@ -1,3 +1,7 @@
+---
+description: Migrate the Dockered Navixy platform to a new server by copying the navixy-package directory, updating network access configuration, and restarting containers.
+---
+
 # Dockered platform migration
 
 Navixy dockered platform functions as an all-in-one solution, so the migration process is not divided into steps, but is done all at once.

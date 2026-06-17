@@ -1,7 +1,5 @@
 ---
-description: >-
-  Create a user in the Admin panel or bulk-import users from an XLSX/CSV
-  template.
+description: Create individual user accounts in Admin Panel or bulk-import multiple users at once from an XLSX or CSV file using the provided template
 ---
 
 # Creating users

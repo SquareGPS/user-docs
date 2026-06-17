@@ -1,3 +1,7 @@
+---
+description: Add custom map layers to Navixy from tile servers or SVG files. Use for restricted area cartography or custom routes not available in standard map providers.
+---
+
 # Custom maps
 
 You can add your own custom map layers to Navixy platform, which can be particularly useful for tracking vehicles in restricted areas that are blurred or not displayed on publicly available maps, or for adding custom routes that do not exist on other maps (e.g. marine routes).

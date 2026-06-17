@@ -1,3 +1,7 @@
+---
+description: "Three Wialon protocols supported by Navixy for IoT data ingestion: connection parameters, supported inputs, event types, and message formats for each."
+---
+
 # Wialon Protocols for Data Ingestion
 
 Navixy supports the [integration of IoT and Telematics data](./) from various platforms and gateways using various protocols. These protocols allow seamless IoT data transmission from devices and sensors to the Navixy platform, enabling comprehensive data collection and analysis.

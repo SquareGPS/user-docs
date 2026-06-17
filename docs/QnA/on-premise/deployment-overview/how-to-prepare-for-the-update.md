@@ -1,3 +1,8 @@
+---
+title: How to prepare for the update?
+description: Verify Java and MySQL versions meet current requirements. Upgrade software components before platform updates to prevent service failure
+---
+
 # How to prepare for the update?
 
 ## What to check before the Navixy On-Premise update?

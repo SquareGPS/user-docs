@@ -1,3 +1,8 @@
+---
+title: SMS commands are not delivered
+description: "Check SMS gateway and customer balances, verify Service SMS is enabled, and review SIM card compatibility for command delivery"
+---
+
 # SMS commands are not delivered
 
 This article describes some of the potential reasons why SMS commands may not be delivered to devices. While devices can typically be set up automatically without the need for manual configuration using USB cables, drivers, configuration utilities, or complicated SMS commands, there may be instances where SMS commands fail to be delivered.

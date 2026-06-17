@@ -1,3 +1,7 @@
+---
+description: Configure MQTT support for IoT devices in Navixy on-premise. Set host, port, and authentication settings for compatible devices including Xirgo Global.
+---
+
 # MQTT
 
 MQTT is a popular communication protocol used for Internet of Things (IoT) devices. It enables devices to send and receive messages with low latency and bandwidth usage, making it ideal for IoT applications.

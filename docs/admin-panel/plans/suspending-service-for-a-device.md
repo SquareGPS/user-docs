@@ -1,7 +1,5 @@
 ---
-description: >-
-  Suspend a tracker by switching it to a restricted pricing plan, stopping new
-  tracking while keeping historical data.
+description: Suspend a tracker by switching it to a restricted pricing plan, stopping new tracking while keeping historical data
 ---
 
 # Suspending a tracker

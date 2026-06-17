@@ -1,3 +1,8 @@
+---
+title: "Blocking Tariff Plan - Billing Question"
+description: Assign devices to blocking tariff plans to stop billing and prevent new data ingestion while preserving historical records
+---
+
 # Blocking Tariff Plan - Billing Question
 
 ## **Question**

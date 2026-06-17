@@ -1,3 +1,7 @@
+---
+description: Cell towers and Wi-Fi access points locate devices without GPS in LBS tracking. Covers Cell of Origin, E-OTD, and Wi-Fi positioning accuracy.
+---
+
 # What is LBS tracking: Cell ID and WPS
 
 LBS (Location-based services) technology allows to determine location of an object without using standard services such as GPS, GLONASS, Galileo or Beidou.
