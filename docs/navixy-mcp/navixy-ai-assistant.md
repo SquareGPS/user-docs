@@ -1,6 +1,14 @@
 # Navixy AI Assistant
 
+{% columns %}
+{% column width="83.33333333333334%" %}
 Navixy AI Assistant is a chat interface built into the Navixy platform and website. It answers questions about the platform using official documentation, blog articles, and device information, and can query your live account data when opened from the [Navixy platform](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/) or [Admin Panel](https://app.gitbook.com/s/KdgeXg71LpaDrwexQYwp/).
+{% endcolumn %}
+
+{% column width="16.666666666666657%" %}
+<figure><img src=".gitbook/assets/AI assistant-icon.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 You can type your question or speak it aloud. The assistant streams answers in real time and includes links to the sources it used.
 
@@ -8,7 +16,7 @@ You can also use the assistant without signing in at [assistant.navixy.com](http
 
 **See also:**
 
-* [Navixy MCP Server](https://claude.ai/mcp-test/navixy-mcp-server): Connect your own AI client to Navixy account data
+* [Navixy MCP Server](https://app.gitbook.com/s/gh5cGQ23uFYTcp7Fj7Yd/navixy-mcp-server): Connect your own AI client to Navixy account data
 * [Documentation MCP](using-navixy-documentation-with-ai.md): Give your AI client access to Navixy documentation
 
 ## What AI Assistant can always do <a href="#what-the-assistant-can-always-do" id="what-the-assistant-can-always-do"></a>
@@ -32,9 +40,7 @@ When you open the assistant from the Navixy interface or Admin Panel, it automat
 
 ### From the Navixy interface
 
-{% hint style="info" %}
-The assistant must be added to your account via the [User Applications](https://claude.ai/docs/user/guide/account/user-applications.md) feature before it appears in the interface. Contact your service provider if the assistant is not visible.
-{% endhint %}
+The assistant is available widget-style in the lower-right corner of the interface. Click <img src=".gitbook/assets/AI assistant-icon.png" alt="" data-size="line"> to open the chat window.
 
 With an active Navixy session, the assistant can access:
 
