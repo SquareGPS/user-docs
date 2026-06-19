@@ -1,7 +1,33 @@
 # Broken link audit — docs/cleanup-orphans-and-link-audit
 
 Run after Stage 1 cleanup, across all 7 GitBook spaces (661 pages, 4,868 links).
-Report only — no fixes applied.
+
+> **Update:** the high-confidence findings were fixed on this branch (see
+> **Resolution** below). Remaining items are judgment/content calls.
+
+## Resolution
+
+**Fixed:**
+- All **4 old-domain `docs.navixy.com` links** (Pass 5) → converted to cross-space
+  GitBook links; every target slug verified live via MCP.
+- **Eco Driving** cross-space placeholder (Pass 1) → linked to
+  `user-guide/guide/fleet-management/eco-driving` (verified live).
+- **Broken embedded image** in `default-flow.md` (Pass 3) → the expired GitBook
+  CDN URL was replaced with a local `.gitbook/assets/` reference, and the image
+  file (deleted in Stage 1 because only the CDN URL referenced it) was restored.
+
+**Left as-is (need a decision):**
+- **"Authentication methods"** placeholder (`/broken/pages/BHOdV0TGv4VkuMMeoGcS`,
+  2× in `configuring-navixy-mcp-in-cursor.md`) — no such page exists in the
+  navixy-mcp space (confirmed via live search). Needs the page restored in
+  GitBook or a correct target supplied.
+- **Third-party external 404s** (SaskTel, nyce.org.mx, ecommerce.inn.cl, tyntec) —
+  external sites restructured; need a replacement URL or removal per page owner.
+- **`sms.navixy.com` / `geocoder.navixy.com`** in on-premise `network.md` — these
+  are firewall/port hostnames (port 443 outbound targets), not web pages; the 404
+  is expected. Optionally render as plain code instead of links.
+- **Pass 2's 3 "missing targets"** — false positives: files exist; the checker hit
+  Windows `MAX_PATH` on the deep worktree path. Fine in GitBook/Linux.
 
 ## Summary
 
