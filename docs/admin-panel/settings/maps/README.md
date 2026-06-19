@@ -68,6 +68,6 @@ Activating additional Maps and GIS services with Navixy is a straightforward pro
 3. Our team will provide you with the necessary instructions and help you activate the services.
 4. Once activated, you can start using the new maps and GIS services right away.
 
-For more information about deploying your own tile server, see [Map tile servers](https://docs.navixy.com/on-premise/custom-maps).
+For more information about deploying your own tile server, see [Map tile servers](https://app.gitbook.com/s/kUnMmePH99SsdChtqqu7/on-premise/how-to-guide/configuration/maps-and-gis/custom-maps).
 
 Please note that maps and GIS services that you deploy locally or in the cloud may require separate licenses or paid subscriptions. Our team will help you navigate this process and ensure that you have everything you need to take full advantage of Navixy's offers.

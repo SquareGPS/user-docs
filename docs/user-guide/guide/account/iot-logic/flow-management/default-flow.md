@@ -29,7 +29,7 @@ The **Default Output Endpoint** node provides a pre-configured destination for s
 
 {% column %}
 
-<div align="right"><figure><img src="https://2096203889-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F446mKak1zDrGv70ahuYZ%2Fuploads%2Fgit-blob-e565ed3421fbe577455090d76ccc1e184c548b09%2Fimage-20250403-151042%20(3).png?alt=media" alt="Navixy Default output endpoint node"><figcaption></figcaption></figure></div>
+<div align="right"><figure><img src="../../../../.gitbook/assets/image-20250403-151042 (3).png" alt="Navixy Default output endpoint node"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 

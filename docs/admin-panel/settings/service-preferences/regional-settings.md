@@ -7,7 +7,7 @@ description: Set the default UI language for all new user accounts and choose th
 Navixy allows you to choose regional preferences for your service: language and currency. You may set them up in the **Regional settings** block of the **Service preferences** page.
 
 {% hint style="info" %}
-Changing UI language will set it as the default language for all new user accounts. Users can also change their preferred language in their [account profile](https://docs.navixy.com/user-guide/user-prefernces).
+Changing UI language will set it as the default language for all new user accounts. Users can also change their preferred language in their [account profile](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/account/profile).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt="Regional settings" width="405"><figcaption><p>Regional settings</p></figcaption></figure>
