@@ -1,8 +1,5 @@
 ---
-description: >-
-  Manage power on battery-powered GPS devices in Navixy: configure sleep and
-  power-save conditions and battery charging modes. Exact controls depend on
-  your device model.
+description: Extend battery life on GPS devices by configuring sleep and power-save conditions and charging modes. Available controls vary by model.
 ---
 
 # Device power management

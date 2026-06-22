@@ -1,7 +1,5 @@
 ---
-description: >-
-  Trusted phone numbers in Navixy define which phone numbers are allowed to send
-  SMS and USSD commands to a GPS device, protecting it from unauthorized control.
+description: Control which phone numbers may send SMS and USSD commands to a GPS device, protecting it from unauthorized configuration. Up to five numbers.
 ---
 
 # Trusted phone numbers

@@ -46,4 +46,13 @@ The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 7. **Sensors for Aggregation**: Select the individual sensors whose data you want to aggregate.
 8. **Save**: After configuring the sensor, click **Save** to apply the settings.
 
-This configuration enables you to effectively monitor and manage data from multiple sources, enhancing the precision and utility of your fleet management and telematics solutions.
+This configuration enables you to monitor and manage data from multiple sources, improving the precision and utility of your fleet management and telematics setup.
+
+## Appears when
+
+Available when the device has at least two compatible measurement sensors to combine.
+
+## Gotchas
+
+* Aggregation combines **existing measurement sensors** — create the source sensors first.
+* Choose the sensor type and units to match the sources you are combining.

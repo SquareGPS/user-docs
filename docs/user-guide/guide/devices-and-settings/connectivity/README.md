@@ -1,8 +1,5 @@
 ---
-description: >-
-  Connectivity settings for GPS devices in Navixy: set the offline timeout that
-  marks a device disconnected, and forward real-time data to third-party servers
-  and platforms.
+description: Set how long a device may stay silent before going offline, and forward live tracking data to third-party servers and platforms.
 ---
 
 # Connectivity

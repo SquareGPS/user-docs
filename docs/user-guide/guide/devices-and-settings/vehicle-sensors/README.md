@@ -16,6 +16,10 @@ The block provides an overview of the number of sensors already connected to the
 
 The number and type of sensors you can connect depend on the GPS device model. For example, certain devices allow you to configure data parameters transmitted via the CAN bus or OBDII diagnostic connector.
 
+## Appears when
+
+The **Sensors and buttons** block appears when the device model has inputs (digital, analog, or RS232).
+
 ## Adding and editing sensors
 
 To manage your sensors, you can use the following buttons:
@@ -26,12 +30,7 @@ To manage your sensors, you can use the following buttons:
 
 ### Sensor types
 
-Navixy supports various sensor types, including:
-
-* [**Discrete sensors**](discrete-sensors/): Used for binary inputs like ignition status, door open/close, etc.
-* [**Measurement sensors**](measurement-sensors/): These sensors measure and report continuous values like temperature, fuel level, or engine RPM.
-* [**Aggregation sensors**](aggregation-sensors.md): Combine data from multiple sources into a single reportable value.
-* [**Virtual sensors**](virtual-sensors/): Derived from calculated data or combined sensor values.
+<table data-view="cards"><thead><tr><th>Type</th><th>What it's for</th><th data-card-target data-type="content-ref">Target</th></tr></thead><tbody><tr><td><strong>Discrete sensors</strong></td><td>Binary states like ignition, doors, or alarm on/off.</td><td><a href="discrete-sensors/">Discrete sensors</a></td></tr><tr><td><strong>Measurement sensors</strong></td><td>Continuous values like fuel level, temperature, or RPM.</td><td><a href="measurement-sensors/">Measurement sensors</a></td></tr><tr><td><strong>Aggregation sensors</strong></td><td>Combine several sensors into one value by average or sum.</td><td><a href="aggregation-sensors.md">Aggregation sensors</a></td></tr><tr><td><strong>Virtual sensors</strong></td><td>Computed values derived from another input or state.</td><td><a href="virtual-sensors/">Virtual sensors</a></td></tr><tr><td><strong>By manufacturer</strong></td><td>Galileosky, Teltonika, and CalAmp-specific sensors.</td><td><a href="specialized-sensors-by-manufacturer/">Specialized sensors by manufacturer</a></td></tr></tbody></table>
 
 ### Copying sensor settings
 

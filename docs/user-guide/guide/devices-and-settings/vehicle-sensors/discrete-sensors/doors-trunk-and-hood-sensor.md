@@ -4,7 +4,15 @@ description: Set up door, trunk, and hood sensors for vehicles that transmit thi
 
 # Doors, trunk, and hood sensor
 
+## Purpose
 
+Track the open/closed status of doors, trunk, and hood for vehicles that transmit this data over the CAN bus.
+
+## Appears when
+
+Available on devices and vehicles that report door, trunk, and hood status via the CAN bus.
+
+## Setup
 
 No special configuration is required. However, several factors need to be considered.
 

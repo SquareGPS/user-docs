@@ -10,7 +10,7 @@ description: Forward vehicle tracking data from Navixy to SimpliRoute using its 
 
 _Protocol Category: Enterprise compliance_
 
-#### Table of contents
+### Table of contents
 
 1. [What is SimpliRoute?](simpliroute.md#what-is-simpliroute)
 2. [Technical information about SimpliRoute](simpliroute.md#tech-info-simpliroute)

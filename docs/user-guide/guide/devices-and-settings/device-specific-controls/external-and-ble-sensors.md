@@ -1,8 +1,5 @@
 ---
-description: >-
-  Bind external Bluetooth/BLE and specialized device-side sensor channels in
-  Navixy so the platform interprets their data. Pairs with the Sensors block.
-  Exact controls depend on your device model.
+description: Bind Bluetooth and specialized device-side sensor channels so Navixy reads their data correctly. Pairs with the Sensors and buttons block.
 ---
 
 # External and BLE sensors

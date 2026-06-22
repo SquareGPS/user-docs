@@ -1,7 +1,5 @@
 ---
-description: >-
-  DDD emails in Navixy automatically send downloaded digital tachograph DDD
-  files to up to five recipient email addresses for archiving and compliance.
+description: Automatically email downloaded digital tachograph DDD files to up to five recipients for archiving and compliance record-keeping.
 ---
 
 # DDD emails

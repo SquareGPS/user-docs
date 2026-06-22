@@ -11,7 +11,7 @@ To activate Engine hours:
 1. Open [Devices and Settings](../), choose the object you need, and proceed to the **Engine hours** block.
 2. Click the **Add engine hours** button.
 3. Choose a data source: ignition or engine hours from the CAN bus.
-4. Set the initial value for engine hours.
+4. Set the initial value for engine hours (0 to 99,999,999 hours, up to 2 decimal places).
 5. Press **Save**.
 
 {% hint style="warning" %}

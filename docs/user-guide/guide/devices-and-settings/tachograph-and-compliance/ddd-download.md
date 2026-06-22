@@ -1,8 +1,5 @@
 ---
-description: >-
-  Remotely request and download DDD files from a digital tachograph in Navixy.
-  Download options depend on the device family, from a single button to
-  multi-type, date-ranged requests.
+description: Remotely request tachograph data as DDD files from a vehicle. Options range from a single download to multi-type, date-ranged requests.
 ---
 
 # DDD download

@@ -1,8 +1,5 @@
 ---
-description: >-
-  Configure how GPS devices track location and movement in Navixy: tracking
-  mode, parking detection, LBS radius, odometer, engine hours, ignition source,
-  and tow detection.
+description: "Control how a GPS device reports position: tracking mode, parking detection, LBS radius, odometer, engine hours, ignition source, and towing."
 ---
 
 # Location and movement

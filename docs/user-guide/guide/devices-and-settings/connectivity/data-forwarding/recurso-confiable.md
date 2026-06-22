@@ -10,7 +10,7 @@ description: Forward GPS data from Navixy to Recurso Confiable, a security and l
 
 _Protocol Category: Enterprise protocol_
 
-#### Table of contents
+### Table of contents
 
 1. [What is Recurso Confiable?](recurso-confiable.md#what-is-rc)
 2. [Technical information about Recurso Confiable](recurso-confiable.md#tech-info-rc)

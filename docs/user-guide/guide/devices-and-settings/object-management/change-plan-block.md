@@ -4,7 +4,11 @@ description: Switch the service plan for a GPS device in Navixy. Review availabl
 
 # Change plan block
 
-The **Change plan** block allows you to select and manage the service plan that best fits your needs.
+## Purpose
+
+The **Change plan** block assigns a device's pricing plan (tariff), which determines its billing and which features and settings blocks are available.
+
+## Changing the plan
 
 To change your plan, follow these steps:
 

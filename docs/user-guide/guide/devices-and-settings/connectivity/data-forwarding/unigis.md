@@ -8,7 +8,7 @@ The **Unigis** protocol is a vehicle location data forwarding protocol between N
 
 _Protocol Category: Enterprise Compliance_
 
-#### Table of contents
+### Table of contents
 
 1. [What is Unigis?](unigis.md#what-is-unigis)
 2. [Technical information about Unigis](unigis.md#tech-info-unigis)

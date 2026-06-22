@@ -6,11 +6,11 @@ description: Forward GPS and telemetry data from Navixy to external systems usin
 
 The Startrack protocol allows forwarding GPS and telemetry data from Navixy to external systems in real time. It is commonly used in Central America, especially in Guatemala, El Salvador, and Honduras, for fleet management, industrial operations, construction, and temperature-controlled transport.
 
-#### What is Startrack?
+### What is Startrack?
 
 Startrack is a lightweight retranslation protocol that transmits location, speed, time, and vehicle status data to backend platforms. Its purpose is to enable continuous integration between Navixy and third-party monitoring or management systems.
 
-#### General technical information
+### General technical information
 
 Startrack uses SOAP to send data in XML format over HTTPS to the configured endpoint.
 
@@ -25,7 +25,7 @@ The following data is sent:
 * Ignition
 * LocationValid
 
-#### Configuration
+### Configuration
 
 To set up data forwarding to Startrack, use the following parameters:
 
@@ -37,7 +37,7 @@ To set up data forwarding to Startrack, use the following parameters:
 
 After creating the retranslator in Navixy, assign it to the corresponding device and ensure the external ID matches the identifier expected by Startrack.
 
-#### Troubleshooting
+### Troubleshooting
 
 If data is not received on the Startrack side, verify the following:
 

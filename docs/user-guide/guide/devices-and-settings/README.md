@@ -1,8 +1,5 @@
 ---
-description: >-
-  Configure GPS devices in Navixy using settings blocks. Find the right block by
-  task — identity, tracking, sensors, connectivity, driver safety, compliance,
-  and device-specific controls.
+description: "Configure each GPS device in your fleet through settings blocks: identity, tracking, sensors, connectivity, driver safety, and hardware controls."
 ---
 
 # Devices and settings

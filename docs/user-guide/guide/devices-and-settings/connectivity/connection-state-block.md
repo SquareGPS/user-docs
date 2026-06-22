@@ -1,5 +1,5 @@
 ---
-description: "Set the offline timeout in Navixy: how long a GPS device may be silent before it's marked disconnected. Useful for power-saving and low-frequency reporting devices."
+description: Set how long a GPS device may stay silent before Navixy marks it offline, so power-saving and low-frequency devices stay accurate.
 ---
 
 # Connection state block

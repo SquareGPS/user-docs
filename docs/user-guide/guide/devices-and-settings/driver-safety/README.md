@@ -1,8 +1,5 @@
 ---
-description: >-
-  Driver safety settings for GPS devices in Navixy: detect and report harsh
-  acceleration, braking, and cornering events for safety and eco-driving
-  reports.
+description: Detect and report harsh acceleration, braking, and cornering from the device to power the Navixy safety and eco-driving reports.
 ---
 
 # Driver safety

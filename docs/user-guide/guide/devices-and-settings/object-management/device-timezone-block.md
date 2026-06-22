@@ -10,16 +10,16 @@ The **Device timezone** block allows you to adjust the timezone settings for spe
 Navixy strongly recommends keeping the device set to UTC+0h as the standard timezone setting to ensure consistency and accuracy in tracking data. However, if your device is configured with a different timezone, this block allows you to make the necessary adjustments.
 {% endhint %}
 
-### When to use
+## When to use
 
 Only change the timezone if you are certain that the current setting is incorrect. Misalignment of the timezone can lead to errors in the displayed data, making it difficult to monitor the device accurately on the platform.
 
-### How to adjust the device timezone
+## How to adjust the device timezone
 
 1. **Access the block:** Navigate to the "Devices and settings" section and select the device you wish to adjust.
 2. **Change the timezone:** Use the **Device timezone** block to select the appropriate timezone based on the device's current configuration.
 3. **Save changes:** After making the adjustment, save the settings to apply the new timezone.
 
-### Appears when
+## Appears when
 
 Appears on specific device models that support a configurable time-zone offset.

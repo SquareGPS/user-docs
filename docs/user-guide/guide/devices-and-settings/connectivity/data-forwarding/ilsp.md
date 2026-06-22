@@ -10,7 +10,7 @@ description: Forward vehicle GPS data from Navixy to ILSP, a private security se
 
 _Protocol Category: Enterprise compliance_
 
-#### Table of contents
+### Table of contents
 
 1. [What is ILSP?](ilsp.md#what-is-ilsp)
 2. [Technical information about ILSP](ilsp.md#tech-info-ilsp)

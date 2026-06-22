@@ -1,5 +1,5 @@
 ---
-description: "Configure parking detection in Navixy: set the minimum idle time and idle speed threshold that classify a vehicle as parked, optionally using ignition and motion."
+description: Define when a vehicle counts as parked using minimum idle time and an idle speed threshold, optionally confirmed by ignition or motion.
 ---
 
 # Parking detection block

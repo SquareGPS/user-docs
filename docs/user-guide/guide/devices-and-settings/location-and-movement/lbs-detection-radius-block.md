@@ -1,5 +1,5 @@
 ---
-description: Set the LBS search radius in Navixy for cellular and Wi-Fi positioning. Increase for rural areas with sparse base stations; decrease in dense urban environments.
+description: Tune the LBS search radius for cellular and Wi-Fi positioning in Navixy. Use a larger radius in rural areas and a smaller one in cities.
 ---
 
 # LBS detection radius block

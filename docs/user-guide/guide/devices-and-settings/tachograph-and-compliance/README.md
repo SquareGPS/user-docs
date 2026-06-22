@@ -1,8 +1,5 @@
 ---
-description: >-
-  Tachograph compliance in Navixy: remotely download DDD files from digital
-  tachographs and auto-email them to recipients to meet driving-time
-  record-keeping rules.
+description: Retrieve digital tachograph data as DDD files and email it to recipients to meet driving-time and rest-period record-keeping rules.
 ---
 
 # Tachograph and compliance

@@ -1,5 +1,5 @@
 ---
-description: Create virtual sensors to convert raw telemetry values into readable indicators. Map board voltage, calculate engine hours, and merge inputs across sensor types.
+description: "Convert raw telemetry into readable indicators in Navixy: map board voltage, derive ignition, and merge inputs across sensor types."
 ---
 
 # Virtual sensors
@@ -8,7 +8,11 @@ Virtual sensors allow you to process telemetry data more effectively. By mapping
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt="Virtual sensor interface"><figcaption><p>Virtual sensor interface</p></figcaption></figure>
 
-### How to create a virtual sensor
+## Appears when
+
+Available when the device has inputs or states to derive values from. Each device supports up to 100 virtual sensors.
+
+## How to create a virtual sensor
 
 Virtual sensors can be created via the **Sensors and buttons** block located in the **Devices and settings** module. To create a virtual sensor:
 
@@ -23,7 +27,7 @@ Every device may have up to 100 virtual sensors.
 
 The next steps depend on the use case that should be solved via the virtual sensor. Below you can find examples and instructions for different calculation methods.
 
-### Calculation methods
+## Calculation methods
 
 Virtual sensors have three different calculation types:
 
@@ -35,7 +39,7 @@ All values for virtual sensors must match the form in which they are received fr
 
 Here, we describe how different calculation methods work. Click on the calculation method name to expand.
 
-#### **Value in range**
+### **Value in range**
 
 This type of virtual sensor helps our customers to keep important parameters such as virtual ignition, temperature, humidity, and fuel level within a specified range.
 
@@ -44,7 +48,7 @@ Here's how it works:
 * If the sensor value is inside the specified boundaries, it is 1 for the platform. And 1 is equal to your A value.
 * If the sensor value is outside of these frames, the virtual sensor’s value is 0 for the platform. And 0 equals your B value.
 
-#### Example of virtual ignition
+### Example of virtual ignition
 
 If you don't have an ignition input or your device is already running at full capacity, you can use a virtual ignition tool to detect the ignition state. The onboard voltage of the car will increase significantly when the engine is switched on, allowing the voltage threshold to be used as an indicator of whether or not the engine is running. Generally, the board voltage should exceed 13.2 V to indicate that the engine is functioning.
 
@@ -63,7 +67,7 @@ Once you set your voltage threshold range, if the incoming on-board value is wit
 
 Additionally, this ignition will be used for trip and parking detection with ignition consideration.
 
-#### Example with an analog sensor
+### Example with an analog sensor
 
 This example is similar to the previous one, but instead of monitoring the vehicle's ignition, it monitors temperature.
 
@@ -73,7 +77,7 @@ The range can be configured: anything between 1020 and 1900 would be categorized
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_kgzvrsdzb1.png" alt="Example configuration for reading temperature from analog sensor" width="563"><figcaption><p>Example configuration for reading temperature from analog sensor</p></figcaption></figure>
 
-#### **Source value**
+### **Source value**
 
 With virtual sensors, you can assign your definition to any received values. This method works with predefined sets of values and strings, which makes it easy to work with static values without having to specify different ranges. In addition, it can work with any data you need. For example:
 
@@ -93,7 +97,7 @@ The mode works like this:
 
 Let’s illustrate this type of functionality with a specific example.
 
-#### Example with car CAN readings
+### Example with car CAN readings
 
 Some CAN sensors may provide different numerical values to a platform. For instance, we have a truck with CAN: PTO state sensor, which may output only the following values:
 
@@ -117,7 +121,7 @@ To configure this sensor:
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_xlxdl1ak9e.png" alt="Configuration example for source value calculation method" width="563"><figcaption><p>Configuration example for source value calculation method</p></figcaption></figure>
 
-#### Hardware key readings for drivers, equipment, and trailers
+### Hardware key readings for drivers, equipment, and trailers
 
 Some devices may be able to read drivers and their iButtons, RFID keys, or equipment connected via Bluetooth sensors to the device. The platform can detect the nearest equipment or driver to the device, and the Virtual Sensor is capable of displaying such names.
 
@@ -125,7 +129,7 @@ The simplest way of identification is through tags: each unit connected to heavy
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png" alt="Configuration example for source value calculation method for hardware key or state field sensor reading" width="563"><figcaption><p>Configuration example for source value calculation method for hardware key or state field sensor reading</p></figcaption></figure>
 
-#### **Bit index**
+### **Bit index**
 
 Some devices may provide advanced data in their packets, sometimes merging several parameters [into one value](https://www.navixy.com/blog/sensor-parameters-avl/). The Virtual Sensors tool allows you to work with parts of telematics values, thereby decoding the data transmitted by the GPS hardware.
 

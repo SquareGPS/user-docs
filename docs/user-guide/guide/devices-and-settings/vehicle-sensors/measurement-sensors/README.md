@@ -4,6 +4,16 @@ description: "Add measurement sensors to GPS devices in Navixy: configure the la
 
 # Measurement sensors
 
+## Purpose
+
+Measurement sensors turn a device's continuous inputs into meaningful values — such as fuel level, temperature, RPM, or voltage — with units and a calibration table that maps raw readings to real-world quantities.
+
+## Appears when
+
+Available when the device model has inputs.
+
+## Adding a measurement sensor
+
 To add a measurement sensor, click ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/add.png) and select **Measurement sensor** in the pop-up menu.
 
 Configure the required sensor parameters:
@@ -16,7 +26,7 @@ Configure the required sensor parameters:
 
 ![](../../../../.gitbook/assets/image-20241118-030734.png)
 
-### Adding calibration data
+## Adding calibration data
 
 After all parameters are set, you must enter the calibration data. Learn more about this process in the [Sensors setup and configuration guide](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/sensors-setup-and-configuration).
 
@@ -36,7 +46,7 @@ Click **Advanced settings** ![Measurement sensor](https://www.navixy.com/wp-cont
 * **Ignore values:** Allows you to adjust a "valid" range of raw measurement values. Any values above and below the range will be omitted. For example, this can be used for skipping the fuel sensor's zero values when the ignition is off.
 * **Multiplier:** Used to correct raw data values from the sensor by multiplying them by some number.
 
-#### **Filtering order**
+### **Filtering order**
 
 Please keep in mind that the **Less than** and **More than** restrictions are applied before the **Multiplier.** The entire order of filtering:
 
@@ -50,7 +60,7 @@ In this case, the value passes through the min/max filter, is multiplied by 0.2 
 
 The numbers here are given as a sample. You may have other settings, but the principle remains.
 
-#### **Graph**
+### **Graph**
 
 As you enter data into the table, the graph will be plotted.
 
@@ -58,7 +68,7 @@ As you enter data into the table, the graph will be plotted.
 
 To confirm your changes, click **Save**.
 
-#### **Raw sensor data storage**
+### **Raw sensor data storage**
 
 By default, raw sensor data is stored on the platform. This allows users to recalibrate the represented sensor data of the past tracker sensor history. Whenever the multiplier, maximum ("less than"), minimum ("more than"), or calibration table data are changed, the platform recalculates the history and represents the data according to the new settings. The advantage of this approach is that the user can always recalibrate the table, change the sensor settings, and build a report based on the recalculated data "on the fly".
 

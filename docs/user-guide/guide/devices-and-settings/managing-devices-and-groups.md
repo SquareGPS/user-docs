@@ -1,7 +1,5 @@
 ---
-description: >-
-  Find and organize devices in the Navixy Devices and settings list: search by
-  name, filter by tag, and create, rename, color-code, and delete device groups.
+description: Find devices in the settings list by name or tag, and create, rename, color-code, and delete device groups to organize your fleet.
 ---
 
 # Managing devices and groups

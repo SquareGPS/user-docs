@@ -1,8 +1,5 @@
 ---
-description: >-
-  Configure how a GPS device reports its position in Navixy: interval, distance,
-  and cornering, plus power-save, anti-drift freeze, sleep, on-stop, and
-  emergency options. Available fields vary by device model.
+description: Control how often a GPS device reports position by interval, distance, and cornering, plus power-save, freeze, and sleep options.
 ---
 
 # Tracking mode block
@@ -19,9 +16,13 @@ The controls below are the canonical building blocks. Your device shows the subs
 
 ## Core reporting controls
 
-* **Reporting interval** — report at least every N seconds. The core "how often" control.
-* **Distance** — report after moving N meters.
+* **Reporting interval** — report at least every N seconds. The core "how often" control (typically from ~30 seconds up to a day or more, varies by model).
+* **Distance** — report after moving N meters (typically ~100–65,535 m, varies by model).
 * **Cornering / turning angle** — report when heading changes by N degrees (typically 10–180°), so corners aren't cut.
+
+{% hint style="info" %}
+The numeric ranges above are typical values; the exact minimums, maximums, and defaults are set by your device model.
+{% endhint %}
 
 ## Power-save and battery options
 
@@ -33,6 +34,7 @@ On battery or power-managed devices you may also see:
 * **Sleep / active windows** — deep-sleep scheduling on battery devices (sleep and active times, deep-sleep enable, stay online on external power).
 * **Emergency interval** — faster reporting during an alarm.
 * **Optional daily timer** — wake and report at a set time of day, available on some models when the interval is 24 hours or more.
+* **GPS/GSM working mode** — radio power modes on some models, trading reporting responsiveness for battery life.
 
 ## Anti-drift (freeze) options
 

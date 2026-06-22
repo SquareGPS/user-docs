@@ -1,5 +1,5 @@
 ---
-description: Configure tow detection in Navixy using the GPS device's motion sensor. The device triggers a tow event if it detects movement after the ignition is switched off.
+description: Detect unauthorized movement of a parked vehicle with the device's motion sensor, and report a tow event after the ignition switches off.
 ---
 
 # Tow detection block
@@ -15,6 +15,7 @@ description: Configure tow detection in Navixy using the GPS device's motion sen
 * **Enable / disable** — turn tow detection on or off.
 * **Sensitivity** — motion-sensor sensitivity (e.g. high / medium / low; lower = less sensitive).
 * **Delay after engine off** — how long after ignition-off before detection arms.
+* **False-alarm (fake-tow) delay** — a short delay that filters out brief movements so they don't trigger a false tow event.
 
 ## Appears when
 

@@ -1,8 +1,5 @@
 ---
-description: >-
-  Control device outputs in Navixy: immobilizer/engine block, relay outputs, and
-  custom device commands. Includes safety guidance for engine cut-off. Exact
-  controls depend on your device model.
+description: Activate relay outputs, immobilize the engine, and send protocol-level commands to a device. Includes safety guidance for engine cut-off.
 ---
 
 # Engine and output control
@@ -49,7 +46,7 @@ To configure Commands for a device:
 2. Select the device you want to configure.
 3. Locate and expand the **Commands** block.
 
-<figure><img src="../../../.gitbook/assets/output-control-portlet.png" alt="Commands block showing device and software command options"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-control-block.png" alt="Commands block showing device and software command options"><figcaption></figcaption></figure>
 
 You can add multiple commands of each type. Each command is saved individually.
 

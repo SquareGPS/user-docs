@@ -1,7 +1,5 @@
 ---
-description: >-
-  Upload recorded track and datalogger files exported from a GPS device into
-  Navixy. A one-off file upload rather than a stored device setting.
+description: Import recorded track and datalogger files exported from a GPS device into Navixy as a one-off upload, not a stored device setting.
 ---
 
 # Tracks uploader

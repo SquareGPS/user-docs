@@ -1,8 +1,5 @@
 ---
-description: >-
-  Device-specific control blocks in Navixy configure the hardware itself:
-  anti-theft alarms, buttons and keys, engine/output control, BLE sensors, power
-  management, phonebook, and more. Exact controls depend on your device model.
+description: "Configure hardware-specific blocks per device: anti-theft alarms, buttons and keys, engine and output control, BLE sensors, and power saving."
 ---
 
 # Device-specific controls

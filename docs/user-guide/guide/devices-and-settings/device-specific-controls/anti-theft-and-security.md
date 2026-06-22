@@ -1,8 +1,5 @@
 ---
-description: >-
-  Device-side anti-theft and security alarms in Navixy: unauthorized movement,
-  auto-geofence, no-movement, vibration, impact, and guard modes. Exact controls
-  depend on your device model.
+description: Arm a device to detect tampering, impact, towing, or movement of a parked vehicle, and report security events to the Navixy platform.
 ---
 
 # Anti-theft and security

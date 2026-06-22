@@ -4,7 +4,11 @@ description: Manage the GPS device's name, group, tags, and model in Navixy. Lab
 
 # Object label block
 
-The **Object label** block allows you to manage key identification details of your device. This block contains the following fields:
+The **Object label** block manages a device's core identity and how it is organized in your fleet.
+
+## Settings
+
+This block contains the following fields:
 
 * **Object label:** This is where you assign a name to the device (up to **60 characters**). The name can be anything that helps you identify the device easily, such as the vehicle's make and model, the owner's name, or any other descriptor that suits your needs.
 * **Group:** This field lets you assign the device to a specific group. Grouping devices can be useful for organizing your fleet by department, function, or location.

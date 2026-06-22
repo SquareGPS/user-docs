@@ -1,8 +1,5 @@
 ---
-description: >-
-  Manage GPS device identity and administration in Navixy: object label, group,
-  tags, phone/SIM, trusted numbers, service plan, working statuses, raw data
-  export, and device time zone.
+description: "Manage a device's identity and admin settings: label, group, tags, SIM and trusted numbers, service plan, working statuses, and data export."
 ---
 
 # Object management

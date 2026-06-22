@@ -1,5 +1,5 @@
 ---
-description: Track vehicle mileage in Navixy from GPS or CAN-bus data, set the current value, and apply a correction multiplier. Integrates with Fleet maintenance scheduling.
+description: Track vehicle mileage in Navixy from GPS or CAN-bus data, set the current value, and apply a correction multiplier for accurate totals.
 ---
 
 # Odometer block

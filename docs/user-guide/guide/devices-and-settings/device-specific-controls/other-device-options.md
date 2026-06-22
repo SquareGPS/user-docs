@@ -1,8 +1,5 @@
 ---
-description: >-
-  Miscellaneous device-side options in Navixy: OBD data acquisition, device-side
-  fuel computation, LED indicator, and other per-model switches. Exact controls
-  depend on your device model.
+description: Configure per-model device switches such as OBD data acquisition, device-side fuel computation, and the status LED. Options depend on the device.
 ---
 
 # Other device options

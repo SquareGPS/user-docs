@@ -6,7 +6,7 @@ description: Count passengers entering and exiting vehicles using Galileosky dev
 
 [Galileosky devices](https://www.navixy.com/devices/galileosky/), when integrated with PP-01 passenger flow sensors, provide a robust solution for counting the number of passengers entering and exiting public transportation vehicles. This integration leverages Galileosky’s Easy Logic technology, enabling advanced data collection and analysis, which can be monitored through the Navixy platform.
 
-#### Example use case
+## Example use case
 
 Imagine a city bus operator who needs to track the number of passengers for optimizing routes and improving service efficiency. By integrating Galileosky devices with PP-01 sensors and using Navixy’s platform, the operator can accurately monitor passenger flow, analyze trends, and make informed decisions about route adjustments and service improvements.
 

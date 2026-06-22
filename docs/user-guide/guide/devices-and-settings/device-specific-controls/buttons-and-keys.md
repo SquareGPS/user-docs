@@ -1,8 +1,5 @@
 ---
-description: >-
-  Configure device buttons and access keys in Navixy: SOS and call buttons,
-  power-off key, and digital unlock passwords. Exact controls depend on your
-  device model.
+description: Map a device's SOS and call buttons to phone numbers, control the power-off key, and set digital unlock passwords. Controls vary by model.
 ---
 
 # Buttons and keys

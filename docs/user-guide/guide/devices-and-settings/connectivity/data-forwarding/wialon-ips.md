@@ -8,7 +8,7 @@ Wialon IPS is a generic, publicly available data forwarding protocol from Gurtam
 
 _Protocol Category: Data consolidation_
 
-#### Table of contents
+### Table of contents
 
 1. [What is Wialon IPS?](wialon-ips.md#what-is-wialon-ips)
 2. [Wialon IPS general technical information](wialon-ips.md#wialon-ips-general-technical-information)

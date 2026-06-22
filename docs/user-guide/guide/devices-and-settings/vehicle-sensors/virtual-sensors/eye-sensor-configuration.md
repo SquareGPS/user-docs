@@ -6,7 +6,11 @@ description: Configure Teltonika Eye sensors in Navixy using virtual sensors to 
 
 As one additional example of the use of virtual sensors, we would like to introduce you to [Teltonika Eye Sensors](https://teltonika-gps.com/products/accessories/sensors-beacons/eye), which are capable of recording valuable data such as temperature, humidity, motion, and magnet condition. Motion state information, in particular, was previously unavailable but can now be accessed through the use of virtual sensors. If you're interested in learning more about these sensors and how to set them up to retrieve important insights, we're happy to provide you with detailed instructions.
 
-### Sensor configuration on a device
+## Appears when
+
+Available on Teltonika devices paired with Eye BLE sensors.
+
+## Sensor configuration on a device
 
 To configure data transmission from the sensor to the platform, we recommend using the [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_Introduction). Make sure to [download the version](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions) that corresponds to the current firmware and device model. Once you've downloaded and launched the configurator, navigate to the system settings and select the **Codec 8 Extended** data protocol.
 
@@ -32,9 +36,9 @@ To configure data transmission from these sensors within your device packets, na
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/4-2.png" alt="Setting up the sending of sensor data in device packets"><figcaption><p>Setting up the sending of sensor data in device packets</p></figcaption></figure>
 
-### Configuration on the platform
+## Configuration on the platform
 
-#### Motion status sensor
+### Motion status sensor
 
 The reading of this sensor is fully configurable with virtual sensors with [the Bit index calculation method](./#bit-index). The motion state data comes in bit 16 of the BLE 1 Custom 1 field. Configuring the motion state will require the following steps:
 
@@ -50,7 +54,7 @@ At this point, you have successfully retrieved the current motion state. However
 
 Reports and rules for non-ignition virtual sensors aren’t supported at this moment.
 
-#### Temperature and humidity sensors
+### Temperature and humidity sensors
 
 Setting up these sensors is similar to configuring standard [measuring sensors](../measurement-sensors/). Let's take a look at an example setup for each of these sensors:
 
@@ -78,7 +82,7 @@ Using sensor readings, you can generate a Measuring Sensors report that provides
 
 In addition, virtual sensors can be created and provide understandable names for receiving sensor values in widgets. To achieve this, use [the Value in range calculation method](./#value-in-range). This will allow you to customize the sensor data being displayed and make it easier to interpret the information being presented by the sensor.
 
-#### Magnet state sensor
+### Magnet state sensor
 
 Configuring magnet state sensors is a simple and straightforward process. In fact, no additional configuration is required beyond connecting the sensors to the platform. The magnet state data is transmitted to the platform as status fields and is displayed as soon as it is received from the connected device.
 

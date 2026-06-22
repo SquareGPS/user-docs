@@ -4,11 +4,6 @@ description: "Configure GPS device sensors specific to Galileosky, Teltonika, an
 
 # Specialized sensors by manufacturer
 
-* [Galileosky sensors](galileosky-sensors/)
-  * [User-defined tags (Galileosky)](galileosky-sensors/user-defined-tags-galileosky.md)
-  * [Passenger counter (Galileosky)](galileosky-sensors/passenger-counter-galileosky.md)
-* [Teltonika sensors](teltonika-sensors/)
-  * [BLE Beacons (Teltonika)](teltonika-sensors/ble-beacons-teltonika.md)
-  * [BLE fuel level sensors (Teltonika)](teltonika-sensors/ble-fuel-level-sensors-teltonika.md)
-* [CalAmp sensors](calamp-sensors/)
-  * [CalAmp accumulators](calamp-sensors/calamp-accumulators.md)
+Some manufacturers expose sensors that need vendor-specific setup beyond the standard discrete, measurement, and virtual types. Choose your device's manufacturer below.
+
+<table data-view="cards"><thead><tr><th>Manufacturer</th><th>Sensors</th><th data-card-target data-type="content-ref">Target</th></tr></thead><tbody><tr><td><strong>Galileosky</strong></td><td>User-defined Easy Logic tags and passenger counter.</td><td><a href="galileosky-sensors/">Galileosky sensors</a></td></tr><tr><td><strong>Teltonika</strong></td><td>BLE beacons and BLE fuel level sensors.</td><td><a href="teltonika-sensors/">Teltonika sensors</a></td></tr><tr><td><strong>CalAmp</strong></td><td>Accumulator variable mapping.</td><td><a href="calamp-sensors/">CalAmp sensors</a></td></tr></tbody></table>

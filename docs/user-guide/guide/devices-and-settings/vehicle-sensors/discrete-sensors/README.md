@@ -4,6 +4,16 @@ description: "Add discrete sensors to GPS devices in Navixy: configure the senso
 
 # Discrete sensors
 
+## Purpose
+
+Discrete sensors report on/off (binary) states from a device input, such as ignition, doors, panic button, engine, alarm, charging, or tamper/detach.
+
+## Appears when
+
+Available when the device model has digital inputs.
+
+## Adding a discrete sensor
+
 To add a discrete sensor, click ![Discrete sensor](https://www.navixy.com/wp-content/uploads/2019/06/plus.jpg) and select **Discrete sensor** in the pop-up menu:
 
 Configure the required sensor parameters :

@@ -1,8 +1,5 @@
 ---
-description: >-
-  Store authorized name and phone contacts on a GPS device in Navixy for SMS
-  commands and alerts. The maximum number of entries depends on the device
-  model.
+description: Store name and phone contacts on a GPS device for SMS commands and alerts. The maximum number of entries depends on the device model.
 ---
 
 # Phonebook and authorized numbers
@@ -20,7 +17,7 @@ The **phone book** stores **name + phone** contacts **on the device** so it can 
 
 ## Appears when
 
-Appears on devices that maintain an on-device phonebook. The **maximum number of entries depends on the model** (for example, roughly 3 to 20 contacts).
+Appears on devices that maintain an on-device phonebook. The **maximum number of entries depends on the model** — for example, around 3 contacts on some models and up to 20 on others.
 
 ## Gotchas
 

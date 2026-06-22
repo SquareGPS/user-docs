@@ -8,7 +8,7 @@ description: Forward GPS tracking data from Navixy to external systems using the
 **Protocol Category:** Data consolidation protocol
 {% endhint %}
 
-#### Table of contents
+### Table of contents
 
 1. [What is Navixy Web Service?](navixy-ws.md#what-is-ws)
 2. [Technical information about Navixy Web Service](navixy-ws.md#tech-info-ws)
