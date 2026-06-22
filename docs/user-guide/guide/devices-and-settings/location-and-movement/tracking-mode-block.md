@@ -1,19 +1,56 @@
 ---
-description: Configure data transmission and operating modes for GPS tracking devices remotely. Available parameters vary by tracker model and its supported functionality.
+description: >-
+  Configure how a GPS device reports its position in Navixy: interval, distance,
+  and cornering, plus power-save, anti-drift freeze, sleep, on-stop, and
+  emergency options. Available fields vary by device model.
 ---
 
 # Tracking mode block
 
-The **Tracking mode** block allows you to configure the data transmission and operating modes for your GPS tracking devices. The settings available in this panel can vary depending on the model of the tracker, its operating principles, and its functionality.
+## Purpose
+
+The **Tracking mode** block controls **how often and on what basis the device reports its position** — balancing live-tracking detail against data and battery usage. Every device has a reporting configuration, but the **exact fields are chosen by the device model**, so this page describes the underlying concepts rather than a fixed form.
 
 <figure><img src="../../../.gitbook/assets/image-20240815-182719.png" alt="Tracking mode settings block example" width="310"><figcaption><p>Tracking mode settings block example</p></figcaption></figure>
 
-#### Configuring tracking mode settings
+{% hint style="info" %}
+The controls below are the canonical building blocks. Your device shows the subset it supports, sometimes with different labels. The device reports when **at least one** of the enabled conditions is met.
+{% endhint %}
 
-To adjust the tracking mode settings, open the panel and configure the following parameters:
+## Core reporting controls
 
-* **By distance:** Data transmission occurs when the device has moved a specified distance.
-* **By time:** Data transmission occurs at specified time intervals.
-* **By turning:** Data transmission occurs when the device turns by a specified angle.
+* **Reporting interval** — report at least every N seconds. The core "how often" control.
+* **Distance** — report after moving N meters.
+* **Cornering / turning angle** — report when heading changes by N degrees (typically 10–180°), so corners aren't cut.
 
-Data will be transmitted when at least one of these conditions is met, ensuring timely and accurate updates on the device's status and location.
+## Power-save and battery options
+
+On battery or power-managed devices you may also see:
+
+* **Power-save mode** — choose the power-save strategy (for example, distance-based vs fixed-interval reporting).
+* **Power-save interval** — a slower reporting rate used when parked or in power-save.
+* **On-stop interval** — a separate interval used while the vehicle is stopped.
+* **Sleep / active windows** — deep-sleep scheduling on battery devices (sleep and active times, deep-sleep enable, stay online on external power).
+* **Emergency interval** — faster reporting during an alarm.
+* **Optional daily timer** — wake and report at a set time of day, available on some models when the interval is 24 hours or more.
+
+## Anti-drift (freeze) options
+
+* **Freeze options** — hold the reported position while the vehicle is stationary (by speed, motion, and/or ignition) to avoid GPS drift. These are the recommended fix for **parked-vehicle "jitter"**, where a stationary vehicle appears to wander on the map.
+
+## Appears when
+
+Always — every device has a reporting configuration. The exact fields are determined by the device model.
+
+## Gotchas
+
+* Because fields are model-driven, configure the **concepts** (interval / distance / angle / power-save / freeze / sleep) rather than expecting a fixed form.
+* **Under-reporting** here — a long interval with no angle or distance, or aggressive power-save — is the usual cause of **"missing mileage" and cut-corner** complaints.
+* The **freeze** options are the fix for **parked-vehicle drift**; enable them if a stationary vehicle appears to move.
+* This block controls how the device **reports**; it does not change when the device is marked offline (see [Connection state](../connectivity/connection-state-block.md)).
+
+## See also
+
+* [Connection state block](../connectivity/connection-state-block.md) — the offline-timeout threshold.
+* [Device power management](../device-specific-controls/device-power-management.md) — sleep and charging controls that overlap with power-save.
+* [Parking detection block](parking-detection-block.md) — how parking and trips are determined.

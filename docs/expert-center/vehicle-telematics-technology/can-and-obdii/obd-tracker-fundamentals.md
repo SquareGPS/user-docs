@@ -140,7 +140,7 @@ Fleets of all sizes often choose to secure their vehicles by requiring drivers t
 
 ### Bluetooth
 
-[Bluetooth](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/bluetooth-sensors-block) support connects OBD trackers with a multitude of auxiliary devices. In addition to driver ID, BLE beacons can include temperature sensors, door open/close status, and tire pressure monitors, to name a few. Combining these wireless devices with the convenience of an OBD2 tracker means having a robust telematics system without costly or complicated installation.
+[Bluetooth](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/device-specific-controls/external-and-ble-sensors) support connects OBD trackers with a multitude of auxiliary devices. In addition to driver ID, BLE beacons can include temperature sensors, door open/close status, and tire pressure monitors, to name a few. Combining these wireless devices with the convenience of an OBD2 tracker means having a robust telematics system without costly or complicated installation.
 
 ### Voice monitoring
 

@@ -1,0 +1,16 @@
+---
+description: >-
+  Device-specific control blocks in Navixy configure the hardware itself:
+  anti-theft alarms, buttons and keys, engine/output control, BLE sensors, power
+  management, phonebook, and more. Exact controls depend on your device model.
+---
+
+# Device-specific controls
+
+Beyond the common blocks, many devices expose **hardware-specific control blocks** that configure the **device itself** rather than platform-side rules. These blocks are **schema-driven**: the device model determines which ones appear and exactly what fields they show, so the platform can support new hardware without interface changes.
+
+{% hint style="info" %}
+Each block on these pages appears **only on supported hardware**, and the exact fields and units vary by device model and vendor. The pages below describe the **concept and what you can configure** — your device may show a subset, with different labels or units.
+{% endhint %}
+
+<table data-view="cards"><thead><tr><th>Category</th><th>What it configures</th><th data-card-target data-type="content-ref">Target</th></tr></thead><tbody><tr><td><strong>Anti-theft &#x26; security</strong></td><td>Tow, no-movement, vibration, impact, guard, and proximity alarms.</td><td><a href="anti-theft-and-security.md">Anti-theft and security</a></td></tr><tr><td><strong>Buttons &#x26; keys</strong></td><td>SOS/call buttons, power-off key, and unlock passwords.</td><td><a href="buttons-and-keys.md">Buttons and keys</a></td></tr><tr><td><strong>Engine &#x26; output control</strong></td><td>Engine block/immobilizer, relay outputs, and device commands.</td><td><a href="engine-output-control.md">Engine and output control</a></td></tr><tr><td><strong>External &#x26; BLE sensors</strong></td><td>Bind Bluetooth/BLE and specialized device-side sensor channels.</td><td><a href="external-and-ble-sensors.md">External and BLE sensors</a></td></tr><tr><td><strong>Device power management</strong></td><td>Sleep/power-save and charging modes for battery devices.</td><td><a href="device-power-management.md">Device power management</a></td></tr><tr><td><strong>Phonebook &#x26; authorized numbers</strong></td><td>Store name + phone contacts on the device for SMS commands/alerts.</td><td><a href="phonebook-authorized-numbers.md">Phonebook and authorized numbers</a></td></tr><tr><td><strong>Tracks uploader</strong></td><td>Upload recorded track/datalogger files from a device.</td><td><a href="tracks-uploader.md">Tracks uploader</a></td></tr><tr><td><strong>Other device options</strong></td><td>OBD, device-side fuel, LED indicator, and other per-model switches.</td><td><a href="other-device-options.md">Other device options</a></td></tr></tbody></table>

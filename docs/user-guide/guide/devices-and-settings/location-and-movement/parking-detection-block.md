@@ -1,33 +1,41 @@
 ---
-description: "Configure parking detection for the platform: set the minimum idle time and maximum speed threshold that classify a vehicle as parked using GPS data."
+description: "Configure parking detection in Navixy: set the minimum idle time and idle speed threshold that classify a vehicle as parked, optionally using ignition and motion."
 ---
 
 # Parking detection block
 
-Parking detection identifies when an object has been stationary for a specified time period and within a set speed threshold using GPS data.
+## Purpose
+
+**Parking detection** defines when a vehicle counts as **parked** versus **in a trip** — the basis for trips, stops, and parking in reports. It identifies when an object has been stationary long enough, below a speed threshold, optionally confirmed by ignition or a motion sensor.
 
 ![](../../../.gitbook/assets/image-20240815-183001.png)
 
-**Parameters for parking detection:**
+## Settings
 
-* **Minimum idle detection time** (`min_parking`): This is the minimum amount of time that an object must remain stationary before it is considered parked.
-* **Maximum idle speed** (`min_speed`): This is the speed threshold under which the object must stay to be detected as parked.
+* **Minimum idle time** — how long an object must remain stationary before it's considered parked. Range **1–1440 minutes**; default **5**.
+* **Idle speed threshold** — the speed under which the object must stay to be detected as parked. Range **0–200 km/h**; default **3**.
+* **Use ignition** — confirm parking using the ignition state. Appears only if an **ignition sensor** is configured.
+* **Use motion sensor** — confirm parking using the motion sensor. Appears only on devices with a **motion sensor**.
 
-By default, these parameters are set to 5 minutes and 3 km/h, respectively.
+A **Reset to defaults** button restores the default values.
 
-**Parking detection conditions:**
+## How conditions combine
 
-* **By speed and time**:\
-  Parking status is detected when the object's speed drops below the defined `min_speed` and stays there for longer than `min_parking`. Stops shorter than `min_parking` are not considered parking and will not interrupt the trip.
-* **Considering ignition**:
-  * The trip starts if the speed is greater than or equal to `min_speed` and the ignition is on.
-  * The trip ends if the speed drops below `min_speed` and either the elapsed time exceeds `min_parking` or the ignition is off.
-* **Considering motion sensor**:
-  * The trip starts if the speed is greater than or equal to `min_speed` and the motion sensor detects movement.
-  * The trip ends if the speed drops below `min_speed` or the motion sensor detects no movement, and the elapsed time exceeds `min_parking`.
-* **Considering both motion and ignition**:
-  * The ignition status takes precedence over the motion sensor.
-  * The trip starts if the speed is greater than or equal to `min_speed`, and both the motion sensor detects movement and the ignition is on.
-  * The trip ends if the speed drops below `min_speed` or the motion sensor detects no movement, and the elapsed time exceeds `min_parking` with the ignition off.
+* **By speed and time:** parking is detected when speed drops below the threshold and stays there longer than the minimum idle time. Stops shorter than the minimum idle time don't interrupt the trip.
+* **Considering ignition:** the trip starts when speed ≥ threshold **and** ignition is on; it ends when speed drops below threshold and either the idle time is exceeded **or** ignition is off.
+* **Considering motion sensor:** the trip starts when speed ≥ threshold **and** the motion sensor detects movement; it ends when speed drops below threshold or motion stops, and the idle time is exceeded.
+* **Considering both:** ignition takes precedence over the motion sensor.
 
-These settings allow for fine-tuning parking detection to accurately reflect the vehicle's real-world behavior, minimizing false detections and improving trip tracking accuracy.
+## Appears when
+
+Available on all devices except a few models that don't support parking detection.
+
+## Gotchas
+
+* The **Use ignition** and **Use motion sensor** options only appear when the corresponding sensor exists on the device.
+* Tuning idle time and speed threshold to the vehicle's real behavior minimizes false detections and improves trip accuracy.
+
+## See also
+
+* [Tracking mode block](tracking-mode-block.md) — how often the device reports position.
+* [Ignition source block](ignition-source-block.md) — how ignition is determined.

@@ -1,3 +1,20 @@
 redirects:
   user/guide/tracking/fleet-live-status-dashboard: user/guide/tracking/dashboards/fleet-live-status-dashboard
   user/guide/tracking/fleet-live-status-dashboard/trips-dashboard: user/guide/tracking/dashboards/trips-dashboard
+  # Devices and settings overhaul (2026-06) — moved pages
+  user/guide/devices-and-settings/connection-state-block: user/guide/devices-and-settings/connectivity/connection-state-block
+  user/guide/devices-and-settings/data-forwarding: user/guide/devices-and-settings/connectivity/data-forwarding
+  user/guide/devices-and-settings/data-forwarding/ilsp: user/guide/devices-and-settings/connectivity/data-forwarding/ilsp
+  user/guide/devices-and-settings/data-forwarding/navixy-ws: user/guide/devices-and-settings/connectivity/data-forwarding/navixy-ws
+  user/guide/devices-and-settings/data-forwarding/recurso-confiable: user/guide/devices-and-settings/connectivity/data-forwarding/recurso-confiable
+  user/guide/devices-and-settings/data-forwarding/simpliroute: user/guide/devices-and-settings/connectivity/data-forwarding/simpliroute
+  user/guide/devices-and-settings/data-forwarding/unigis: user/guide/devices-and-settings/connectivity/data-forwarding/unigis
+  user/guide/devices-and-settings/data-forwarding/wialon-ips: user/guide/devices-and-settings/connectivity/data-forwarding/wialon-ips
+  user/guide/devices-and-settings/data-forwarding/maquinaria-amarilla: user/guide/devices-and-settings/connectivity/data-forwarding/maquinaria-amarilla
+  user/guide/devices-and-settings/data-forwarding/startrack: user/guide/devices-and-settings/connectivity/data-forwarding/startrack
+  user/guide/devices-and-settings/location-and-movement/harsh-driving-block: user/guide/devices-and-settings/driver-safety/harsh-driving-block
+  user/guide/devices-and-settings/tachograph-ddd-files-block: user/guide/devices-and-settings/tachograph-and-compliance/ddd-download
+  user/guide/devices-and-settings/vehicle-sensors/discrete-sensors/engine-hours: user/guide/devices-and-settings/location-and-movement/engine-hours-block
+  user/guide/devices-and-settings/bluetooth-sensors-block: user/guide/devices-and-settings/device-specific-controls/external-and-ble-sensors
+  user/guide/devices-and-settings/auto-geofencing-block: user/guide/devices-and-settings/device-specific-controls/anti-theft-and-security
+  user/guide/devices-and-settings/object-management/output-control-block: user/guide/devices-and-settings/device-specific-controls/engine-output-control

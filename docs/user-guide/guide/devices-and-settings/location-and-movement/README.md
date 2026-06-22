@@ -1,13 +1,12 @@
 ---
-description: "Configure how GPS devices track location and movement in Navixy: set tracking mode, parking detection, LBS radius, odometer, ignition source, and tow detection."
+description: >-
+  Configure how GPS devices track location and movement in Navixy: tracking
+  mode, parking detection, LBS radius, odometer, engine hours, ignition source,
+  and tow detection.
 ---
 
 # Location and movement
 
-* [Tracking mode block](tracking-mode-block.md)
-* [Parking detection block](parking-detection-block.md)
-* [LBS detection radius block](lbs-detection-radius-block.md)
-* [Odometer block](odometer-block.md)
-* [Ignition source block](ignition-source-block.md)
-* [Tow detection block](tow-detection-block.md)
-* [Harsh driving block](harsh-driving-block.md)
+These blocks control **how a device reports its position and movement** — the reporting strategy, how parking and trips are detected, fallback positioning, mileage and engine-hour counters, how ignition is determined, and unauthorized-movement detection.
+
+<table data-view="cards"><thead><tr><th>Block</th><th>Purpose</th><th data-card-target data-type="content-ref">Target</th></tr></thead><tbody><tr><td><strong>Tracking mode</strong></td><td>How often and on what basis the device reports position.</td><td><a href="tracking-mode-block.md">Tracking mode block</a></td></tr><tr><td><strong>Parking detection</strong></td><td>When a vehicle counts as parked vs in a trip.</td><td><a href="parking-detection-block.md">Parking detection block</a></td></tr><tr><td><strong>LBS detection radius</strong></td><td>Tune cellular/Wi-Fi positioning used as a GPS fallback.</td><td><a href="lbs-detection-radius-block.md">LBS detection radius block</a></td></tr><tr><td><strong>Odometer</strong></td><td>Track total mileage and correct measurement error.</td><td><a href="odometer-block.md">Odometer block</a></td></tr><tr><td><strong>Engine hours</strong></td><td>Track cumulative engine/motor running time.</td><td><a href="engine-hours-block.md">Engine hours block</a></td></tr><tr><td><strong>Ignition source</strong></td><td>How the device determines ignition on/off.</td><td><a href="ignition-source-block.md">Ignition source block</a></td></tr><tr><td><strong>Tow detection</strong></td><td>Detect unauthorized movement of a parked vehicle.</td><td><a href="tow-detection-block.md">Tow detection block</a></td></tr></tbody></table>

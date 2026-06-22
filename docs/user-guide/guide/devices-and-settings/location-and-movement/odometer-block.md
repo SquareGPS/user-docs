@@ -1,36 +1,54 @@
 ---
-description: Monitor vehicle mileage from GPS data or the CAN bus and set the current odometer value. Integrates with Fleet maintenance to schedule service by mileage.
+description: Track vehicle mileage in Navixy from GPS or CAN-bus data, set the current value, and apply a correction multiplier. Integrates with Fleet maintenance scheduling.
 ---
 
 # Odometer block
 
-The **Odometer** block allows you to monitor a vehicle’s mileage in real-time. The mileage readings can be derived from data received via a GPS device or the CAN bus. Additionally, the odometer function integrates with the [Fleet maintenance](../../fleet-management/maintenance.md) feature, enabling you to schedule service works for a vehicle and receive timely reminders.
+## Purpose
+
+The **Odometer** block tracks a vehicle's **total mileage** and lets you **correct measurement error**. Readings can come from GPS-based mileage, hardware/CAN mileage, a tachograph, or a measurement sensor you've created. It integrates with [Fleet maintenance](../../fleet-management/maintenance.md) so you can schedule service by mileage and receive reminders.
 
 ![](../../../.gitbook/assets/image-20240815-181307.png)
 
-## Odometer activation
+## Settings
 
-To activate the odometer:
+* **Data source** — GPS-based mileage, hardware/CAN mileage, tachograph, or a measurement sensor. Additional sources appear only after you create the matching **measurement sensor**.
+* **Current value** — set the odometer to match the vehicle. Kilometers, 0–99,999,999, up to 2 decimals.
+* **Correction multiplier** — adjust readings up or down by a percentage. Range about **−95% … +95%** (a positive value increases readings, negative decreases them).
 
-1. Open the **Devices and settings** module, select the desired object, and navigate to the **Odometer** block.
-2. Click the **Add odometer** button.
-3. Choose the appropriate data source. Additional sources may become available after creating a mileage measurement sensor.
-4. Set the initial mileage value.
-5. Press **Save**.
+## Activation
 
-## Correcting odometer
+{% stepper %}
+{% step %}
+**Open the block**
 
-* **Correction factor:** You can set a correction factor to automatically adjust the odometer readings either up or down. Enter a percentage value in the **Correction** field. A positive value will increase the odometer readings, while a negative value will decrease them based on the input sensor.
-* **Updating value:** You can also update the odometer value whenever necessary. Previous odometer values can be viewed by generating the **Report on all events** in the **Reports** module.
-* **Quick access in the Object widget:** For quick access, the **Odometer** value can be accessed and configured in the dedicated section of the [Object widget](../../tracking/objects-list/object-widget.md).
+Open **Devices and settings**, select the object, and go to the **Odometer** block.
+{% endstep %}
 
-## Changing odometer sources
+{% step %}
+**Add the odometer**
 
-The types of odometer sources you can use depend on your specific device model. Understanding and utilizing multiple sources can enhance the accuracy of your vehicle's mileage tracking.
+If none exists yet, click **Add odometer**.
+{% endstep %}
 
-To add additional odometer sources:
+{% step %}
+**Choose a source and set the value**
 
-1. **Create a new measurement sensor:** Depending on your device's capabilities, you can create sensors such as CAN Mileage or hardware mileage. These sensors collect data directly from your vehicle's systems, ensuring precise mileage readings.
-2. **Integration with the Odometer block:** After creating the sensor, it will appear as an option in the **Odometer** block within the Navixy platform. This allows you to choose the most appropriate source for your mileage data.
+Pick the data source, set the initial mileage value, and click **Save**.
+{% endstep %}
+{% endstepper %}
 
-By leveraging different odometer sources, you can improve the reliability of your mileage tracking, which is especially useful for maintenance scheduling and accurate reporting. Understanding the different types of sources and how to integrate them into your system is key to optimizing your telematics setup.
+## Appears when
+
+Appears on device models that support an odometer.
+
+## Gotchas
+
+* The platform odometer **rarely equals** the vehicle's physical odometer — it counts all GPS points and allows for manufacturer error. Use the multiplier to correct a consistent offset; collect about **200 km** of data first to estimate it.
+* Additional sources (e.g. CAN mileage) only appear after the matching measurement sensor is created.
+* The **Odometer** value is also accessible from the device's [Object widget](../../tracking/objects-list/object-widget.md).
+
+## See also
+
+* [Engine hours block](engine-hours-block.md) — the equivalent counter for engine running time.
+* [Fleet maintenance](../../fleet-management/maintenance.md) — schedule service by mileage.

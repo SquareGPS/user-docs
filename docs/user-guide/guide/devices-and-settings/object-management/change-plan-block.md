@@ -14,3 +14,11 @@ To change your plan, follow these steps:
 4. Once you've selected the desired plan, click **Save** to apply the change.
 
 This process ensures that your device operates under the plan that offers the right features and services for your GPS tracking and fleet management needs.
+
+## Appears when
+
+Appears on accounts where plans/balances are visible. The plan selector is hidden on accounts where balances and plans are hidden, and for clone devices.
+
+{% hint style="info" %}
+A device's plan determines which other settings blocks are available — some blocks require a plan feature (for example, [data forwarding](../connectivity/data-forwarding/) or [working statuses](working-statuses-block.md)).
+{% endhint %}

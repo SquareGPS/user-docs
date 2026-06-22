@@ -1,16 +1,33 @@
 ---
-description: Set the LBS search radius for cellular and Wi-Fi positioning. Increase for rural areas with sparse base stations; decrease in high-density urban environments.
+description: Set the LBS search radius in Navixy for cellular and Wi-Fi positioning. Increase for rural areas with sparse base stations; decrease in dense urban environments.
 ---
 
 # LBS detection radius block
 
-The **LBS (Location-Based Service) detection radius** determines how far the system will search for signals from cellular base stations or Wi-Fi points to pinpoint a device's location. This setting is crucial for ensuring accurate location tracking based on the environment where the device operates.
+## Purpose
 
-* **Rural areas**: In rural locations with fewer base stations, it's advisable to increase the LBS radius. This allows the system to utilize more distant base stations, improving the chances of locating the device.
-* **Urban areas**: In cities with a high density of base stations, the LBS radius should be kept smaller. The proximity of multiple base stations provides sufficient signals for accurate location tracking, so a smaller radius will help maintain higher precision.
-
-Adjust the LBS detection radius based on the device's operating environment to balance between accuracy and signal coverage.
+The **LBS (Location-Based Service) detection radius** tunes **cellular/Wi-Fi-based positioning**, used as a fallback when GPS isn't available. It sets how far the platform will trust a base-station or Wi-Fi fix to pinpoint the device.
 
 ![](../../../.gitbook/assets/image-20240815-180931.png)
 
-In Navixy, LBS locations are displayed on the map as circles. The center indicates the estimated location, while the radius shows the possible inaccuracy. A smaller circle suggests higher accuracy, typically seen in urban areas, while a larger circle indicates more inaccuracy, common in rural areas.
+## Settings
+
+* **Maximum radius** — the radius within which the platform trusts a cell-tower/Wi-Fi fix. Range **0–5000 m**, set with a slider that offers locale-aware presets (for example 100 / 500 / 1000 / 3000 / 5000 m in metric).
+
+## Appears when
+
+Appears when the device supports LBS **and** the plan/account enables it, or for mobile-app trackers.
+
+## Choosing a radius
+
+* **Rural areas** — use a **larger** radius. With fewer base stations, allowing more distant towers improves the chance of locating the device.
+* **Urban areas** — use a **smaller** radius. Dense towers provide enough signal for accuracy, so a smaller radius keeps precision higher.
+
+## Gotchas
+
+* Larger radius = wider search but **lower accuracy**.
+* On the map, LBS positions appear as a **circle** whose size equals the inaccuracy: a small circle means higher accuracy (typically urban), a large circle means more inaccuracy (typically rural).
+
+## See also
+
+* [Tracking mode block](tracking-mode-block.md) — how the device reports GPS position.

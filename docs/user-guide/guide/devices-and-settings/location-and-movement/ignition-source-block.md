@@ -1,33 +1,33 @@
 ---
-description: "Configure how the GPS device detects ignition status: via a direct cable, onboard voltage level, or built-in motion sensor for devices not wired to ignition."
+description: "Configure how a GPS device detects ignition in Navixy: digital input, on-board voltage with millivolt thresholds, or the built-in motion sensor."
 ---
 
 # Ignition source block
 
-Many advanced GPS devices offer the flexibility to determine the ignition status not only with a direct ignition cable connection but also by using a virtual ignition source based on readings from the motion sensor or the vehicle's onboard voltage.
+## Purpose
 
-## Virtual ignition source options
-
-* **Voltage-based ignition detection**: When the engine is running, the vehicle's generator supplies power at a higher voltage than the battery to keep it charged. By monitoring this voltage increase, the device can accurately determine when the ignition is on.
-* **Motion sensor-based ignition detection**: This option is useful when the device isn't connected to the vehicle's electrical system. The ignition status is inferred from the vehicle's movement. However, note that this method may also detect ignition when the vehicle is being towed, even if the engine isn't running.
+The **Ignition source** block tells the platform **how to determine ignition on/off** — important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
 
 ![](../../../.gitbook/assets/image-20240815-213014.png)
 
-## Virtual ignition source configuration
+## Settings
 
-To configure the ignition source in Navixy, use the **Ignition source** block in the **Devices and settings** module:
+Select the **mode** used to detect ignition:
 
-1. Select the desired ignition source from the drop-down list in the **Ignition source** block.
-2. If using the vehicle's on-board voltage, specify the voltage range within which the ignition is considered "on."
+* **Digital input** (`din1`) — uses a specific input, typically the ignition cable. The default on most devices.
+* **On-board voltage** (`power_voltage`) — detects ignition from the vehicle's voltage. Set the **low and high voltage thresholds** (in millivolts, 0–30,000; the default low level is around 13,000 mV) that bracket "ignition on."
+* **Movement / motion sensor** (`movement`) — infers ignition from vehicle movement; useful when the device isn't wired to the vehicle's electrical system.
 
-This configuration allows for flexible and accurate monitoring of the vehicle's ignition status, adapting to different installation scenarios.
+## Appears when
 
-#### Example configuration
+Appears on devices that support configurable ignition detection (vendor variants exist — e.g. Teltonika, Suntech, Ruptela, Queclink).
 
-![](../../../.gitbook/assets/image-20240815-213517.png)
+## Gotchas
 
-The **Ignition source** block allows users to choose the criteria for determining the ignition status. You can select from the following options:
+* **Voltage mode** works because a running engine's alternator raises system voltage above the battery's resting level.
+* **Motion-based ignition** is convenient when not wired to the vehicle, **but** towing reads as ignition-on (the engine isn't actually running).
 
-1. **Board voltage**: Detects ignition based on the vehicle’s on-board voltage, useful when the voltage increases as the engine runs.
-2. **#1 input state**: Uses the status of a specific input, typically an ignition cable, to determine if the ignition is on or off.
-3. **Movement**: Detects ignition based on vehicle movement, ideal for scenarios where the device isn’t directly connected to the vehicle’s electrical system. However, this method may also register ignition during towing or other non-engine-related movements.
+## See also
+
+* [Ignition source (discrete sensor)](../vehicle-sensors/discrete-sensors/ignition-source.md) — creating an ignition **sensor** on the platform (distinct from this device-side detection mode).
+* [Parking detection block](parking-detection-block.md) — can use ignition to confirm parking.

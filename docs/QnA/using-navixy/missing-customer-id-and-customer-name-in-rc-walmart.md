@@ -20,4 +20,4 @@ It is important to note that the configuration must follow the Trusted Resource 
 
 [Waltmart RC blogpost](https://www.navixy.com/es/blog/ayudando-a-transportistas-logisticos-a-cumplir-con-el-cumplimiento-de-recurso-confiable-de-walmart-superando-desafios-de-transmision-de-datos)&#x20;
 
-[Recurso Confiable](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/data-forwarding/recurso-confiable)
+[Recurso Confiable](https://app.gitbook.com/o/YVLWhgAwCZPoU5vlRsCs/s/446mKak1zDrGv70ahuYZ/guide/devices-and-settings/connectivity/data-forwarding/recurso-confiable)

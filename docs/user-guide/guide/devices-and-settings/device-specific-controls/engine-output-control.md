@@ -1,12 +1,28 @@
 ---
 description: >-
-  Send custom device commands and HTTP POST requests to external services
-  directly from a device's settings page.
+  Control device outputs in Navixy: immobilizer/engine block, relay outputs, and
+  custom device commands. Includes safety guidance for engine cut-off. Exact
+  controls depend on your device model.
 ---
 
-# Commands block
+# Engine and output control
 
-## Overview
+These controls let you act on the **device's outputs** — relays, an engine block / immobilizer, and protocol-level commands sent directly to the hardware. They appear only on models with controllable outputs, and the exact fields depend on the device.
+
+{% hint style="danger" %}
+**Safety-critical.** Engine cut-off and immobilizer outputs can stop a vehicle. Only trigger them when the vehicle is **stationary and it is safe to do so** — never on a moving vehicle. Misconfigured outputs can create a serious safety hazard. Test on a stationary vehicle and confirm the correct command string for your model before relying on it.
+{% endhint %}
+
+## What you can control
+
+* **Engine block / immobilizer and relay outputs** — on supported models, activate or release a relay output (for example to immobilize the vehicle). Some models expose a dedicated **engine-state control** block where you set the **voltage levels and durations** that define engine-on and engine-off detection. Exact fields are vendor-specific.
+* **Custom commands** — the **Commands** block (documented below) is the general mechanism for sending a protocol-level instruction to the device, including activating an output, or calling an external system over HTTP.
+
+{% hint style="warning" %}
+**Pending product review:** the exact relationship between the Commands block and per-model engine/relay control blocks varies by device. If your device shows a dedicated immobilizer or relay block not described here, confirm its behavior with support before use.
+{% endhint %}
+
+## Commands block
 
 The **Commands** block lets you define custom commands for a device in Navixy and send them on demand from the device's [Object widget](../../tracking/objects-list/object-widget.md). Use it to send a firmware-level instruction directly to a device, such as sending a CAN command or activating an output, or to call any external system that accepts HTTP requests, such as a Slack channel, a notification service, a CRM, or a custom API endpoint. Once configured, commands can be dispatched with a single click.
 

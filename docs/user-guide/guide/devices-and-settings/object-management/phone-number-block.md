@@ -1,16 +1,52 @@
 ---
-description: Update the SIM card phone number for a GPS device in Navixy after a SIM change. Needed for SMS-based location requests and two-way communication.
+description: Set the SIM phone number and APN for a GPS device in Navixy. Needed after a SIM change for SMS-based commands, location requests, and two-way communication.
 ---
 
 # Phone number block
 
-## Phone number
+## Purpose
 
-The GSM network is used for communicating a terminal with the data center (server), mainly GPRS/EDGE-communication channels and the SMS channel. For this purpose, SIM cards are required in GPS devices. It can be a SIM card purchased from any telecom operator or a SIM card purchased with a device, provided by the operator of monitoring services.
+The **Phone number** block holds the **SIM and mobile-data settings** for the device's cellular modem. The GSM network connects the device to the platform over GPRS/EDGE and SMS, so the SIM details must be correct for communication and SMS-based commands.
 
-If you need to change the SIM card in the device, you will need to update the phone number to change the settings. You can do this in the appropriate panel:
+<!-- SCREENSHOT: Phone number block — phone number and APN name/user/password fields, Change phone number button. Annotate: phone field, APN fields, the change/confirm flow. -->
 
-1. Open the panel and click **Change phone number**.
-2. Specify the phone number of a SIM card installed in the tracker.
-3. Enter the APN settings of the new service provider.
-4. After entering the settings, click **Save,** and the SMS command with specified settings will be sent to the SIM card.
+## Settings
+
+* **Phone number** — the SIM's phone number. Click **Change phone number** to edit it.
+* **APN name / user / password** — the mobile-data access point for the SIM's operator.
+
+## Updating the SIM details
+
+{% stepper %}
+{% step %}
+**Open and change**
+
+In the block, click **Change phone number**.
+{% endstep %}
+
+{% step %}
+**Enter the number and APN**
+
+Specify the SIM's phone number. The platform auto-fills the operator's default APN, which you can override.
+{% endstep %}
+
+{% step %}
+**Save**
+
+Click **Save**. An SMS command with the new settings is sent to the SIM, after a confirmation prompt.
+{% endstep %}
+{% endstepper %}
+
+## Appears when
+
+Appears on devices whose model has a SIM/phone. It is the **only block shown for blocked devices**.
+
+## Gotchas
+
+* If no number is set, the device shows as **"Inbox SIM"** (not tied to a specific SIM).
+* Entering a number auto-fills the operator's default APN — override it if your provider differs.
+* Changing the number sends an SMS command to the SIM and asks for confirmation first.
+
+## See also
+
+* [Trusted phone numbers](trusted-phone-numbers.md) — numbers allowed to send commands to the device.

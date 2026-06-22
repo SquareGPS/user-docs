@@ -4,6 +4,10 @@ description: Create and manage working status lists for field employees. Assign 
 
 # Working statuses block
 
+## Purpose
+
+The **Working statuses** block attaches a set of selectable work states to the device (e.g. *Available*, *In service*, *Maintenance*) that drivers or operators can switch between. This block assigns a shared **status list** to the device; the lists themselves are managed in a dialog.
+
 ## Working statuses
 
 Clicking the ![Working statuses](https://www.navixy.com/wp-content/uploads/2021/09/zjhopml.png) button opens the status list management window with a new list to create. Enter its name and click ![Working statuses](https://www.navixy.com/wp-content/uploads/2021/09/avcljbl.png) to create it.
@@ -15,3 +19,12 @@ You can allow the status to be changed by different people:
 **By user:** the status can be changed by the employee on their phone using the **X-GPS tracker** app.
 
 **By manager**: the status can be changed by the operator in the **X-GPS Monitor** app.
+
+## Appears when
+
+Appears when the account's plan includes the working-statuses feature.
+
+## Gotchas
+
+* Status lists are **shared objects** — this block only assigns one to the device.
+* Clearing the list removes status selection for that device.
