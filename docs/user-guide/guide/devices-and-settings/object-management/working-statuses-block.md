@@ -6,7 +6,7 @@ description: Create and manage working status lists for field employees. Assign 
 
 ## Purpose
 
-The **Working statuses** block attaches a set of selectable work states to the device (e.g. *Available*, *In service*, *Maintenance*) that drivers or operators can switch between. This block assigns a shared **status list** to the device; the lists themselves are managed in a dialog.
+The **Working statuses** block attaches a set of selectable work states to the device (e.g. *Available*, *In service*, *Maintenance*) that drivers or operators can switch between. This block assigns a shared **status list** to the device. The lists themselves are managed in a dialog.
 
 ## Working statuses
 
@@ -26,5 +26,5 @@ Appears when the account's plan includes the working-statuses feature.
 
 ## Gotchas
 
-* Status lists are **shared objects** — this block only assigns one to the device.
+* Status lists are **shared objects**: This block only assigns one to the device.
 * Clearing the list removes status selection for that device.

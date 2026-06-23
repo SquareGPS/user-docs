@@ -43,7 +43,7 @@ Data that’s sent to Unigis:
 
 Format: ASCII
 
-### Unigis Configuration
+### Unigis configuration
 
 #### Setting up
 

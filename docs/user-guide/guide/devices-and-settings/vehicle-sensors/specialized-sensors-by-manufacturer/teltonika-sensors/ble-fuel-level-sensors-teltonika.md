@@ -6,7 +6,7 @@ description: Connect wireless Teltonika Bluetooth fuel sensors to compatible GPS
 
 Many [Teltonika GPS devices](https://www.navixy.com/devices/teltonika/) support wireless Fuel sensors that connect via Bluetooth. The advantages of using these Bluetooth fuel sensors are significant:
 
-* **No wires**: The sensor and tracker do not need a physical connection, simplifying installation.
+* **No wires**: The sensor and GPS device do not need a physical connection, simplifying installation.
 * **Independence from external power sources**: These sensors come with a built-in battery that can last for several years without the need for recharging.
 * **Additional data**: In addition to fuel levels, the sensor also transmits data on temperature, humidity, and the battery charge level.
 
@@ -28,7 +28,7 @@ To prepare your Teltonika GPS device for Bluetooth fuel sensor integration, foll
 4. **Connect the fuel sensor**:
 
 * Navigate to the **Bluetooth** tab in the configurator.
-* Connect the fuel sensor to the tracker.
+* Connect the fuel sensor to the GPS device.
 
 5. **Enable the necessary parameters**:
 
@@ -41,7 +41,7 @@ To prepare your Teltonika GPS device for Bluetooth fuel sensor integration, foll
 
 ## Sensor setup in Navixy
 
-Once the tracker is connected and transmitting fuel data, follow these steps to set up the corresponding sensors on the Navixy platform.
+Once the GPS device is connected and transmitting fuel data, follow these steps to set up the corresponding sensors on the Navixy platform.
 
 <div align="left"><figure><img src="https://www.navixy.com/wp-content/uploads/2019/09/chrome_2019-09-28_13-59-40-600x296.png" alt="" width="375"><figcaption></figcaption></figure></div>
 

@@ -6,7 +6,7 @@ description: "Configure how a GPS device detects ignition in Navixy: digital inp
 
 ## Purpose
 
-The **Ignition source** block tells the platform **how to determine ignition on/off** — important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
+The **Ignition source** block tells the platform **how to determine ignition on/off**: Important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
 
 ![](../../../.gitbook/assets/image-20240815-213014.png)
 
@@ -14,13 +14,13 @@ The **Ignition source** block tells the platform **how to determine ignition on/
 
 Select the **mode** used to detect ignition:
 
-* **Digital input** (`din1`) — uses a specific input, typically the ignition cable. The default on most devices.
-* **On-board voltage** (`power_voltage`) — detects ignition from the vehicle's voltage. Set the **low and high voltage thresholds** (in millivolts, 0–30,000; the default low level is around 13,000 mV) that bracket "ignition on."
-* **Movement / motion sensor** (`movement`) — infers ignition from vehicle movement; useful when the device isn't wired to the vehicle's electrical system.
+* **Digital input** (`din1`), uses a specific input, typically the ignition cable. The default on most devices.
+* **On-board voltage** (`power_voltage`), detects ignition from the vehicle's voltage. Set the **low and high voltage thresholds** (in millivolts, 0–30,000, with a default low level around 13,000 mV) that bracket "ignition on."
+* **Movement or motion sensor** (`movement`): infers ignition from vehicle movement, useful when the device isn't wired to the vehicle's electrical system.
 
 ## Appears when
 
-Appears on devices that support configurable ignition detection (vendor variants exist — e.g. Teltonika, Suntech, Ruptela, Queclink).
+Appears on devices that support configurable ignition detection (vendor variants exist, e.g. Teltonika, Suntech, Ruptela, Queclink).
 
 ## Gotchas
 
@@ -29,5 +29,5 @@ Appears on devices that support configurable ignition detection (vendor variants
 
 ## See also
 
-* [Ignition source (discrete sensor)](../vehicle-sensors/discrete-sensors/ignition-source.md) — creating an ignition **sensor** on the platform (distinct from this device-side detection mode).
-* [Parking detection block](parking-detection-block.md) — can use ignition to confirm parking.
+* [Ignition source (discrete sensor)](../vehicle-sensors/discrete-sensors/ignition-source.md), creating an ignition **sensor** on the platform (distinct from this device-side detection mode).
+* [Parking detection block](parking-detection-block.md), can use ignition to confirm parking.

@@ -8,7 +8,7 @@ Teltonika BLE beacons are versatile devices that can collect data on temperature
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png" alt="" width="375"><figcaption></figcaption></figure>
 
-These beacons utilize **Bluetooth Low Energy** technology (BLE 4.0+) , known for its energy efficiency, allowing them to operate for extended periods on their internal batteries—up to 2 years for SLIM models, up to 5 years for COIN models, and up to 19 years for PUCK models.
+These beacons utilize **Bluetooth Low Energy** technology (BLE 4.0+) , known for its energy efficiency, allowing them to operate for extended periods on their internal batteries, up to 2 years for SLIM models, up to 5 years for COIN models, and up to 19 years for PUCK models.
 
 The beacons are housed in cases with an IP68 rating, providing robust protection against dust and water.
 
@@ -38,7 +38,7 @@ Magnetic sensors display their status in the **Sensor readings** block of [Objec
 
 ### Driver identification sensors
 
-Identification sensors function similarly to iButton and RFID but without the need for a physical reader. When the sensor is within the tracker's range, its identifier will automatically be displayed.
+Identification sensors function similarly to iButton and RFID but without the need for a physical reader. When the sensor is within the GPS device's range, its identifier will automatically be displayed.
 
 **See also:**
 

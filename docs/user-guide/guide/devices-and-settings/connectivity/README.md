@@ -1,9 +1,9 @@
 ---
-description: Set how long a device may stay silent before going offline, and forward live tracking data to third-party servers and platforms.
+description: Set how long a device may stay silent before going offline in Navixy, and forward live tracking data to third-party servers and platforms.
 ---
 
 # Connectivity
 
-These blocks control **how the platform treats a device's connection** and **where its data goes** — the offline-timeout threshold for the connection-state indicator, and data forwarding (retransmission) to external systems.
+These blocks control how the platform treats a device's connection and where its data goes: the offline-timeout threshold for the connection-state indicator, and data forwarding to external systems.
 
-<table data-view="cards"><thead><tr><th>Block</th><th>Purpose</th><th data-card-target data-type="content-ref">Target</th></tr></thead><tbody><tr><td><strong>Connection state</strong></td><td>How long a device may be silent before it's marked offline.</td><td><a href="connection-state-block.md">Connection state block</a></td></tr><tr><td><strong>Data forwarding</strong></td><td>Forward a real-time copy of tracking data to other servers.</td><td><a href="data-forwarding/">Data forwarding</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Block</th><th data-card-target data-type="content-ref">Link</th></tr></thead><tbody><tr><td><strong>Connection state block</strong></td><td><a href="connection-state-block.md">connection-state-block.md</a></td></tr><tr><td><strong>Data forwarding</strong></td><td><a href="data-forwarding/">data-forwarding</a></td></tr></tbody></table>

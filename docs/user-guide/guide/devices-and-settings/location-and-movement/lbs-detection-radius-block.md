@@ -12,16 +12,16 @@ The **LBS (Location-Based Service) detection radius** tunes **cellular/Wi-Fi-bas
 
 ## Settings
 
-* **Maximum radius** — the radius within which the platform trusts a cell-tower/Wi-Fi fix. Range **0–5000 m**, set with a slider that offers locale-aware presets (for example 100 / 500 / 1000 / 3000 / 5000 m in metric).
+* **Maximum radius**: The radius within which the platform trusts a cell-tower/Wi-Fi fix. Range **0–5000 m**, set with a slider that offers locale-aware presets (for example 100, 500, 1000, 3000, or 5000 m in metric).
 
 ## Appears when
 
-Appears when the device supports LBS **and** the plan/account enables it, or for mobile-app trackers.
+Appears when the device supports LBS **and** the plan/account enables it, or for mobile app devices.
 
 ## Choosing a radius
 
-* **Rural areas** — use a **larger** radius. With fewer base stations, allowing more distant towers improves the chance of locating the device.
-* **Urban areas** — use a **smaller** radius. Dense towers provide enough signal for accuracy, so a smaller radius keeps precision higher.
+* **Rural areas**: Use a **larger** radius. With fewer base stations, allowing more distant towers improves the chance of locating the device.
+* **Urban areas**: Use a **smaller** radius. Dense towers provide enough signal for accuracy, so a smaller radius keeps precision higher.
 
 ## Gotchas
 
@@ -30,4 +30,4 @@ Appears when the device supports LBS **and** the plan/account enables it, or for
 
 ## See also
 
-* [Tracking mode block](tracking-mode-block.md) — how the device reports GPS position.
+* [Tracking mode block](tracking-mode-block.md), how the device reports GPS position.

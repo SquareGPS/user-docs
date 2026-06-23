@@ -42,7 +42,7 @@ Data fields that are sent:
 * `odometer`: Traveled distance in km
 * `eventId`: the event code according to the [Navixy Generic Protocol's event ID](https://www.navixy.com/docs/iot-logic-api/technologies/navixy-generic-protocol/navixy-generic-protocol-10/predefined-event-identifiers)
 
-### Navixy Web Service Configuration
+### Navixy Web Service configuration
 
 #### Setting up
 

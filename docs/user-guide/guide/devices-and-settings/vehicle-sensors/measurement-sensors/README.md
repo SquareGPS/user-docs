@@ -6,7 +6,7 @@ description: "Add measurement sensors to GPS devices in Navixy: configure the la
 
 ## Purpose
 
-Measurement sensors turn a device's continuous inputs into meaningful values — such as fuel level, temperature, RPM, or voltage — with units and a calibration table that maps raw readings to real-world quantities.
+Measurement sensors turn a device's continuous inputs into meaningful values, such as fuel level, temperature, RPM, or voltage, with units and a calibration table that maps raw readings to real-world quantities.
 
 ## Appears when
 
@@ -70,6 +70,6 @@ To confirm your changes, click **Save**.
 
 ### **Raw sensor data storage**
 
-By default, raw sensor data is stored on the platform. This allows users to recalibrate the represented sensor data of the past tracker sensor history. Whenever the multiplier, maximum ("less than"), minimum ("more than"), or calibration table data are changed, the platform recalculates the history and represents the data according to the new settings. The advantage of this approach is that the user can always recalibrate the table, change the sensor settings, and build a report based on the recalculated data "on the fly".
+By default, raw sensor data is stored on the platform. This allows users to recalibrate the represented sensor data of the past device sensor history. Whenever the multiplier, maximum ("less than"), minimum ("more than"), or calibration table data are changed, the platform recalculates the history and represents the data according to the new settings. The advantage of this approach is that the user can always recalibrate the table, change the sensor settings, and build a report based on the recalculated data "on the fly".
 
 ![](../../../../.gitbook/assets/image-20241118-031112.png)

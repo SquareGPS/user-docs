@@ -82,4 +82,4 @@ If data does not display on the 3rd-party SimpliRoute system, please make sure t
 
 * URL was entered correctly
 * Retranslator is enabled
-* Tracker on Navixy is associated with a vehicle on the platform with a valid license plate and VIN
+* A GPS device on Navixy is associated with a vehicle on the platform with a valid license plate and VIN

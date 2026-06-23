@@ -1,31 +1,16 @@
 ---
-description: Activate relay outputs, immobilize the engine, and send protocol-level commands to a device. Includes safety guidance for engine cut-off.
+description: Define custom device and software commands for a GPS device in Navixy and send them on demand from the Object widget.
 ---
 
-# Engine and output control
+# Commands block
 
-These controls let you act on the **device's outputs** — relays, an engine block / immobilizer, and protocol-level commands sent directly to the hardware. They appear only on models with controllable outputs, and the exact fields depend on the device.
-
-{% hint style="danger" %}
-**Safety-critical.** Engine cut-off and immobilizer outputs can stop a vehicle. Only trigger them when the vehicle is **stationary and it is safe to do so** — never on a moving vehicle. Misconfigured outputs can create a serious safety hazard. Test on a stationary vehicle and confirm the correct command string for your model before relying on it.
-{% endhint %}
-
-## What you can control
-
-* **Engine block / immobilizer and relay outputs** — on supported models, activate or release a relay output (for example to immobilize the vehicle). Some models expose a dedicated **engine-state control** block where you set the **voltage levels and durations** that define engine-on and engine-off detection. Exact fields are vendor-specific.
-* **Custom commands** — the **Commands** block (documented below) is the general mechanism for sending a protocol-level instruction to the device, including activating an output, or calling an external system over HTTP.
-
-{% hint style="warning" %}
-**Pending product review:** the exact relationship between the Commands block and per-model engine/relay control blocks varies by device. If your device shows a dedicated immobilizer or relay block not described here, confirm its behavior with support before use.
-{% endhint %}
-
-## Commands block
+## Overview
 
 The **Commands** block lets you define custom commands for a device in Navixy and send them on demand from the device's [Object widget](../../tracking/objects-list/object-widget.md). Use it to send a firmware-level instruction directly to a device, such as sending a CAN command or activating an output, or to call any external system that accepts HTTP requests, such as a Slack channel, a notification service, a CRM, or a custom API endpoint. Once configured, commands can be dispatched with a single click.
 
 The Commands block supports two command types:
 
-* **Device command** sends a protocol-level instruction string directly to the device (e.g., to send a CAN command or activate an output).
+* **Device command** sends a protocol-level instruction string directly to the device, for example to send a CAN command or activate an output.
 * **Software command** sends an HTTP POST request with a JSON body to any URL, optionally including current device data such as location, speed, or device ID in the payload.
 
 Commands are saved per device and remain available for repeated use.
@@ -33,14 +18,14 @@ Commands are saved per device and remain available for repeated use.
 {% hint style="info" %}
 **When to use Commands vs. IoT Logic**
 
-**Commands** is designed for ad-hoc, manual actions targeting a single device. Use it when you need to send a one-off command without configuring an automation flow.
+Commands is designed for ad-hoc, manual actions targeting a single device. Use it when you need to send a one-off command without configuring an automation flow.
 
 For automated, rule-based command sending, such as triggering a device action or a webhook when a sensor threshold is crossed, or sending the same command across multiple devices, use [IoT Logic](../../account/iot-logic/). The **Device action** and **Webhook** nodes in IoT Logic provide the same underlying capabilities with full flow automation and multi-device targeting.
 {% endhint %}
 
 ## Configuration
 
-To configure Commands for a device:
+To configure Commands for a device, follow these steps:
 
 1. Go to **Devices and settings** in the left sidebar.
 2. Select the device you want to configure.
@@ -58,8 +43,8 @@ A **device command** sends a protocol-level instruction string directly to the d
 
 To add a device command, click **Add device command** at the bottom of the block. Configure the following fields:
 
-1. **Command name**: a label for the command as it will appear in the Object widget (e.g., `device reboot`). Choose a name that clearly describes what the command does.
-2. **Command string**: the exact instruction string that will be sent to the device (e.g., `cpureset`).
+1. **Command name**: a label for the command as it appears in the Object widget, for example `device reboot`. Choose a name that clearly describes what the command does.
+2. **Command string**: the exact instruction string that is sent to the device, for example `cpureset`.
 
 {% hint style="warning" %}
 Valid command strings are device-specific and defined by the device manufacturer. Always refer to the official documentation for your device model to find the correct command strings. Entering incorrect values may have unintended effects on the device.
@@ -69,7 +54,7 @@ Click **Save** to store the command. Click **Delete** to remove it.
 
 ### Software commands
 
-A **software command** sends an HTTP POST request with a JSON body to a URL you specify. This can be an external service endpoint (such as Slack, a custom webhook receiver, or any REST API) or a Navixy API endpoint.
+A **software command** sends an HTTP POST request with a JSON body to a URL you specify. This can be an external service endpoint, such as Slack, a custom webhook receiver, or any REST API, or a Navixy API endpoint.
 
 The request body is JSON and must be structured according to what the destination endpoint expects. You can include device data attributes in the body using the `{{attribute_name}}` syntax.
 
@@ -83,10 +68,10 @@ To add a software command, click **Add software command** at the bottom of the b
 {% column width="58.333333333333336%" %}
 Configure the following:
 
-1. **Title**: a label for the command as it will appear in the Object widget.
-2. **URL**: the full endpoint URL where the POST request will be sent (e.g., `https://hooks.slack.com/services/...` or `https://api.eu.navixy.com/v2/...`).
+1. **Title**: a label for the command as it appears in the Object widget.
+2. **URL**: the full endpoint URL where the POST request is sent, for example `https://hooks.slack.com/services/...` or `https://api.eu.navixy.com/v2/...`.
 3. **Headers**: key-value pairs sent as HTTP request headers. Add headers as needed for the destination endpoint. Click **Add header** to insert a new row.
-   * Use the `Authorization` header for token-based authentication (e.g., `Authorization` / `Bearer your_token`).
+   * Use the `Authorization` header for token-based authentication, for example `Authorization` set to `Bearer your_token`.
    * Other authentication methods supported by the destination, such as API keys passed as query parameters in the URL, can also be used.
 {% endcolumn %}
 
@@ -117,12 +102,12 @@ Click **Save** to store the command. Click **Delete** to remove it.
 
 #### Example: sending a Slack notification
 
-Slack supports receiving messages from external services via Incoming Webhooks. Once you have set up a webhook in your Slack workspace and obtained the webhook URL (see the [Slack Incoming Webhooks guide](https://docs.slack.dev/messaging/sending-messages-using-incoming-webhooks/)), create a software command with the following configuration:
+Slack supports receiving messages from external services via Incoming Webhooks. Once you have set up a webhook in your Slack workspace and obtained the webhook URL (see the [Slack Incoming Webhooks guide](https://docs.slack.dev/messaging/sending-messages-using-incoming-webhooks/)), create a software command with the following configuration.
 
 **General tab:**
 
 * **Title**: `Notify Slack`
-* **URL**: your Slack Incoming Webhook URL (e.g., `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXX`)
+* **URL**: your Slack Incoming Webhook URL, for example `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXX`
 * **Headers**: no headers required
 
 **Body tab:**
@@ -135,7 +120,7 @@ Slack supports receiving messages from external services via Incoming Webhooks. 
 ```
 {% endcode %}
 
-Slack expects a JSON object with a `text` field. The `{{device_id}}`, `{{speed}}`, `{{latitude}}`, and `{{longitude}}` placeholders will be replaced with the current values for the device at the moment the command is sent. When triggered from the Object widget, the message will appear in the Slack channel configured for your webhook.
+Slack expects a JSON object with a `text` field. The `{{device_id}}`, `{{speed}}`, `{{latitude}}`, and `{{longitude}}` placeholders are replaced with the current values for the device at the moment the command is sent. When triggered from the Object widget, the message appears in the Slack channel configured for your webhook.
 
 ## Sending commands from the Object widget
 
@@ -143,7 +128,7 @@ Once commands are saved, they appear in the **Commands** block of the device's [
 
 <figure><img src="../../../.gitbook/assets/object-widget-commands.png" alt="Object widget Commands block showing two commands with send buttons"><figcaption></figcaption></figure>
 
-Click the **send** button (▷) next to a command name to dispatch it immediately. There is no confirmation dialog and the command is sent as soon as you click. The Commands block shows all device commands and software commands configured for that device.
+Click the **send** button next to a command name to dispatch it immediately. There is no confirmation dialog and the command is sent as soon as you click. The Commands block shows all device commands and software commands configured for that device.
 
 {% hint style="info" %}
 Commands are per-device. Commands configured for one device do not appear in other devices' Object widgets. To send commands to multiple devices based on rules or conditions, use IoT Logic.

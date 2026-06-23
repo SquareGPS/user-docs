@@ -63,7 +63,7 @@ To create this sensor:
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_7qx9prhhxc.png" alt="Example configuration for virtual ignition" width="375"><figcaption><p>Example configuration for virtual ignition</p></figcaption></figure>
 
-Once you set your voltage threshold range, if the incoming on-board value is within that range, the platform will switch the ignition state on. Conversely, if it's outside of that range, it will be switched off. The virtual ignition created using this method will also be taken into account in reports and notifications based on its status; for example, you can use it to generate engine hours reports or alerts for excessive idling.
+Once you set your voltage threshold range, if the incoming on-board value is within that range, the platform will switch the ignition state on. Conversely, if it's outside of that range, it will be switched off. The virtual ignition created using this method will also be taken into account in reports and notifications based on its status. For example, you can use it to generate engine hours reports or alerts for excessive idling.
 
 Additionally, this ignition will be used for trip and parking detection with ignition consideration.
 
@@ -91,8 +91,8 @@ With virtual sensors, you can assign your definition to any received values. Thi
 
 The mode works like this:
 
-* when value 1 comes in, that's your value A;
-* when value 2 comes in, that's your value B;
+* when value 1 comes in, that's your value A.
+* when value 2 comes in, that's your value B.
 * and when value 3 arrives, that's your C value and so on.
 
 Let’s illustrate this type of functionality with a specific example.
@@ -101,15 +101,15 @@ Let’s illustrate this type of functionality with a specific example.
 
 Some CAN sensors may provide different numerical values to a platform. For instance, we have a truck with CAN: PTO state sensor, which may output only the following values:
 
-* 0 – Off
-* 1 – Hold
-* 2 – Remote hold
-* 3 – Standby
-* 4 – Remote Standby
-* 5 – Set
-* 6 – Decelerate
-* 7 – Resume
-* 8 – Accelerate
+* 0: Off
+* 1: Hold
+* 2: Remote hold
+* 3: Standby
+* 4: Remote Standby
+* 5: Set
+* 6: Decelerate
+* 7: Resume
+* 8: Accelerate
 
 To configure this sensor:
 

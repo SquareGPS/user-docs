@@ -24,5 +24,5 @@ This process ensures that your device operates under the plan that offers the ri
 Appears on accounts where plans/balances are visible. The plan selector is hidden on accounts where balances and plans are hidden, and for clone devices.
 
 {% hint style="info" %}
-A device's plan determines which other settings blocks are available — some blocks require a plan feature (for example, [data forwarding](../connectivity/data-forwarding/) or [working statuses](working-statuses-block.md)).
+A device's plan determines which other settings blocks are available, some blocks require a plan feature (for example, [data forwarding](../connectivity/data-forwarding/) or [working statuses](working-statuses-block.md)).
 {% endhint %}

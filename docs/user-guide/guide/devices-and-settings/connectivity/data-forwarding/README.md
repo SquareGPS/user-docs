@@ -90,7 +90,7 @@ Here are some examples of protocols available for various purposes:
 | [**Navixy Web Service**](navixy-ws.md) | SOAP-based protocol for transmitting fleet data to third-party systems.      |
 | **SA-RM**                              | General data forwarding protocol.                                            |
 | **Transnavigation**                    | Forwards data to Transnavigation servers.                                    |
-| [**Wialon IPS**](wialon-ips.md)        | Public protocol from Gurtam for retransmitting GPS and GLONASS tracker data. |
+| [**Wialon IPS**](wialon-ips.md)        | Public protocol from Gurtam for retransmitting GPS and GLONASS device data. |
 | **Wisetrack**                          | Forwards data to Wisetrack servers.                                          |
 
 These options provide a robust framework for data sharing, helping you meet regulatory requirements, integrate with enterprise systems, and consolidate data for comprehensive analysis.

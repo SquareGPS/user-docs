@@ -8,13 +8,13 @@ description: Find devices in the settings list by name or tag, and create, renam
 
 The device list on the left of **Devices and settings** is where you **choose the device to configure** and **keep your fleet organized**. As fleets grow, search, tags, and groups make it fast to find the right device and to apply settings consistently.
 
-<!-- SCREENSHOT: Devices and settings — left device list with search box, tag filter, and an expanded group. Annotate: search field, tag filter, group header with expand/collapse and color. -->
+<!-- SCREENSHOT: Devices and settings, left device list with search box, tag filter, and an expanded group. Annotate: search field, tag filter, group header with expand/collapse and color. -->
 
 ## Finding a device
 
-* **Search by name** — type in the search box to filter the list to matching device labels.
-* **Filter by tag** — narrow the list to devices carrying a selected tag.
-* **Browse by group** — groups expand and collapse, and their state is remembered between sessions.
+* **Search by name**: Type in the search box to filter the list to matching device labels.
+* **Filter by tag**: Narrow the list to devices carrying a selected tag.
+* **Browse by group**: Groups expand and collapse, and their state is remembered between sessions.
 
 ## Managing groups
 
@@ -46,4 +46,4 @@ Tags and groups are complementary: a device belongs to **one group** but can car
 
 ## See also
 
-* [Object label block](object-management/object-label-block.md) — assign a device's group and tags.
+* [Object label block](object-management/object-label-block.md), assign a device's group and tags.

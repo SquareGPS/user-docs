@@ -54,5 +54,5 @@ Available when the device has at least two compatible measurement sensors to com
 
 ## Gotchas
 
-* Aggregation combines **existing measurement sensors** — create the source sensors first.
+* Aggregation combines **existing measurement sensors**: Create the source sensors first.
 * Choose the sensor type and units to match the sources you are combining.

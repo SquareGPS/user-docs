@@ -8,12 +8,12 @@ description: Set the SIM phone number and APN for a GPS device in Navixy. Needed
 
 The **Phone number** block holds the **SIM and mobile-data settings** for the device's cellular modem. The GSM network connects the device to the platform over GPRS/EDGE and SMS, so the SIM details must be correct for communication and SMS-based commands.
 
-<!-- SCREENSHOT: Phone number block — phone number and APN name/user/password fields, Change phone number button. Annotate: phone field, APN fields, the change/confirm flow. -->
+<!-- SCREENSHOT: Phone number block, phone number and APN name/user/password fields, Change phone number button. Annotate: phone field, APN fields, the change/confirm flow. -->
 
 ## Settings
 
-* **Phone number** — the SIM's phone number. Click **Change phone number** to edit it.
-* **APN name / user / password** — the mobile-data access point for the SIM's operator.
+* **Phone number**: The SIM's phone number. Click **Change phone number** to edit it.
+* **APN name, user, and password**: The mobile-data access point for the SIM's operator.
 
 ## Updating the SIM details
 
@@ -44,9 +44,9 @@ Appears on devices whose model has a SIM/phone. It is the **only block shown for
 ## Gotchas
 
 * If no number is set, the device shows as **"Inbox SIM"** (not tied to a specific SIM).
-* Entering a number auto-fills the operator's default APN — override it if your provider differs.
+* Entering a number auto-fills the operator's default APN, override it if your provider differs.
 * Changing the number sends an SMS command to the SIM and asks for confirmation first.
 
 ## See also
 
-* [Trusted phone numbers](trusted-phone-numbers.md) — numbers allowed to send commands to the device.
+* [Trusted phone numbers](trusted-phone-numbers.md), numbers allowed to send commands to the device.

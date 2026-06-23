@@ -12,7 +12,7 @@ Fuel level sensors come in various types, and each serves a particular purpose. 
 
 The accuracy of fuel data displayed is dependent on several factors, including:
 
-* **Fuel level sensor**: What kind and how well it is able to read from the tank, and how well it interacts with the GPS tracker.
+* **Fuel level sensor**: What kind and how well it is able to read from the tank, and how well it interacts with the GPS device.
 * **Tank sensor installation**: If you have a non-standard tank or require a non-standard installation, it is best to consult with the manufacturer on how to install such a sensor.
 * **Device-side settings**: Make sure that the sensor is configured and the device sends its data to the platform. It is desirable not to do additional calibrations on the device side, but to do it directly on the platform.
 * **Platform-side settings**: Widget readings depend on them, as do draining and refueling alerts and fuel level reports. By optimizing these settings, it becomes easier to identify anomalies and irregularities in fuel data readings that may require further attention.
