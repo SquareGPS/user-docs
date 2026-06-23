@@ -9,7 +9,6 @@ This page covers how to connect Navixy MCP Server to Cursor. If you haven't conn
 
 **See also:**
 
-* [Authentication methods](/broken/pages/BHOdV0TGv4VkuMMeoGcS): How to obtain API keys and session hashes for token-based connections
 * [MCP in Cursor](https://docs.cursor.com/context/model-context-protocol): Official Cursor documentation on MCP
 
 ## How to configure Navixy MCP in Cursor
@@ -54,8 +53,6 @@ If the file already contains other MCP server entries, add the `navixy-user` and
 
 4. Save the file.
 5. Restart Cursor.
-
-To use token-based authentication instead of OAuth, see [Authentication methods](/broken/pages/BHOdV0TGv4VkuMMeoGcS) for the full configuration format, including the required headers.
 
 ## How to authorize your Navixy account in Cursor
 
