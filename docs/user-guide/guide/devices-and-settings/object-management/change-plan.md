@@ -15,8 +15,6 @@ To change your plan, follow these steps:
 3. Review the available plan options. Choose the plan that aligns with your operational requirements.
 4. Once you've selected the desired plan, click **Save** to apply the change.
 
-This process ensures that your device operates under the plan that offers the right features and services for your GPS tracking and fleet management needs.
-
 ## Availability
 
 Appears on accounts where plans/balances are visible. The plan selector is hidden on accounts where balances and plans are hidden, and for clone devices.

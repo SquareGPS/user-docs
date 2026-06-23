@@ -4,7 +4,7 @@ description: Combine data from multiple sensors using AVG or SUM aggregation fun
 
 # Aggregation sensors
 
-The **Aggregation sensor** block in Navixy is a powerful tool that allows you to combine data from multiple sensors and process it using an aggregation function. This functionality is particularly useful in scenarios where multiple sensors are used to monitor similar parameters, such as fuel levels in a vehicle.
+The **Aggregation sensor** block in Navixy allows you to combine data from multiple sensors and process it using an aggregation function. This functionality is particularly useful in scenarios where multiple sensors are used to monitor similar parameters, such as fuel levels in a vehicle.
 
 ![](../../../.gitbook/assets/image-20240815-205846.png)
 
@@ -24,7 +24,7 @@ The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 * **Configuration**:
   * **Aggregation function**: Select **AVG**.
   * **Sensors for aggregation**: Choose the two fuel level sensors.
-  * **Result**: The system will display the average fuel level, providing a balanced reading that compensates for any discrepancies between the two sensors.
+  * **Result**: Navixy displays the average fuel level, providing a balanced reading that compensates for any discrepancies between the two sensors.
 
 2. **Two tanks with separate sensors**:
 
@@ -33,7 +33,7 @@ The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 * **Configuration**:
   * **Aggregation function**: Select **SUM**.
   * **Sensors for aggregation**: Choose the sensors from both tanks.
-  * **Result**: The system will sum the fuel levels from both tanks, giving you the total fuel available.
+  * **Result**: Navixy sums the fuel levels from both tanks, giving you the total fuel available.
 
 ## Setting up the aggregation sensor
 
@@ -45,8 +45,6 @@ The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 6. **Units**: Set the unit of measurement (e.g., liters).
 7. **Sensors for Aggregation**: Select the individual sensors whose data you want to aggregate.
 8. **Save**: After configuring the sensor, click **Save** to apply the settings.
-
-This configuration enables you to monitor and manage data from multiple sources, improving the precision and utility of your fleet management and telematics setup.
 
 ## Availability
 

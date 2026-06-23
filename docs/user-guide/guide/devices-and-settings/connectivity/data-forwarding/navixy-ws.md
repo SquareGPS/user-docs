@@ -57,13 +57,13 @@ To set up data forwarding in Navixy Web Service protocol:
 <table><thead><tr><th width="187.8182373046875">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>A descriptive label to identify this retranslation protocol configuration. Enter a name to make this retranslator easily identifiable.</td></tr><tr><td>Protocol and Login</td><td>The communication protocol used for retranslation. Select <strong>Navixy Web Service</strong> from the dropdown menu.</td></tr><tr><td>Address</td><td>The URL or IP address of the destination server.<br><strong>Note</strong>: It is not used by Navixy Web Service, enter any valid address format.</td></tr><tr><td><strong>Port</strong></td><td>The network port for connecting to the destination server.<br><strong>Note</strong>: It is not used by Navixy Web Service, enter any port number.</td></tr><tr><td>Login</td><td>A unique identifier for this retranslator connection. Enter any login that isn't already used by another retranslator in your system.</td></tr><tr><td>Password</td><td>Authentication passcode for this retranslator connection. Enter a unique password to secure this retranslator configuration.</td></tr></tbody></table>
 
 6. Toggle the **Enabled** switch on to activate data retranslation. The retranslator will not transmit any data while disabled.
-7. The **Retranslation management** screen should look similar to the following, with the Navixy Web Service login and password. Make sure the status is **Active** if you want this retranslator to sebd data.\
+7. The **Retranslation management** screen should look similar to the following, with the Navixy Web Service login and password. Make sure the status is **Active** if you want this retranslator to send data.\
    ![](<../../../../.gitbook/assets/image (37).png>)
 8. Next, the retranslator will need to be linked to the device. To do so, enable the toggle with the needed retranslator name in the **Data forwarding** block. External ID is not needed for the Navixy Web Service protocol.\
    ![](<../../../../.gitbook/assets/image (38).png>)
 
 {% hint style="success" %}
-You successfully created and enabled a new retranslation protocol for this device. Now the retranslator is available for all devices in the account, you canenable it by switching the toggle in other devices settings.
+Now the retranslator is available for all devices in the account. Enable it by switching the toggle in other devices' settings.
 {% endhint %}
 
 #### External access:
@@ -132,7 +132,7 @@ An example response may look like this:
 
 #### Managing
 
-To edit or stop data being forwarded, follow this steps steps:
+To edit or stop data being forwarded, follow these steps:
 
 1. In any **Data forwarding** block, click <img src="../../../../.gitbook/assets/image (39).png" alt="" data-size="line"> to open the list of available protocols.
 2. Click <img src="../../../../.gitbook/assets/Untitled-20250425-103233.png" alt="" data-size="line"> to change retranslator settings such as name, login information, or enabled status.

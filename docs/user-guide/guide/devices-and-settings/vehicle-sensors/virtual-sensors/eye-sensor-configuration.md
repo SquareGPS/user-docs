@@ -4,7 +4,7 @@ description: Configure Teltonika Eye sensors in Navixy using virtual sensors to 
 
 # Eye sensor configuration
 
-As one additional example of the use of virtual sensors, we would like to introduce you to [Teltonika Eye Sensors](https://teltonika-gps.com/products/accessories/sensors-beacons/eye), which are capable of recording valuable data such as temperature, humidity, motion, and magnet condition. Motion state information, in particular, was previously unavailable but can now be accessed through the use of virtual sensors. If you're interested in learning more about these sensors and how to set them up to retrieve important insights, we're happy to provide you with detailed instructions.
+This page shows how to set up virtual sensors for [Teltonika Eye Sensors](https://teltonika-gps.com/products/accessories/sensors-beacons/eye), which record temperature, humidity, motion, and magnet state data. Motion state, in particular, requires a virtual sensor to become accessible in Navixy.
 
 ## Availability
 
@@ -16,7 +16,7 @@ To configure data transmission from the sensor to the Navixy platform, use the [
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/1-4.png" alt="Enabling Codec 8 Extended in the Teltonika configurator"><figcaption><p>Enabling Codec 8 Extended in the Teltonika configurator</p></figcaption></figure>
 
-In the Bluetooth 4.0 section, disable the **Non-Stop Scan** feature and set the **Update Frequency** and **Scan Duration** to every 30 seconds. By adjusting these settings, you will experience optimal results for BLE scanning, ensuring reliable and accurate data collection.
+In the Bluetooth 4.0 section, disable the **Non-Stop Scan** feature and set the **Update Frequency** and **Scan Duration** to every 30 seconds.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/2-4.png" alt="Scan frequency for BLE sensors"><figcaption><p>Scan frequency for BLE sensors</p></figcaption></figure>
 
@@ -92,4 +92,3 @@ By configuring the **Status field value** rule, you can track the status fields 
 
 <figure><img src="../../../../.gitbook/assets/image-20241118-031749.png" alt="Example of setting the magnet state sensor with its values and name" width="563"><figcaption><p>Example of setting the magnet state sensor with its values and name</p></figcaption></figure>
 
-You've successfully obtained information from the Eye sensor. You're now equipped to easily track this valuable data.

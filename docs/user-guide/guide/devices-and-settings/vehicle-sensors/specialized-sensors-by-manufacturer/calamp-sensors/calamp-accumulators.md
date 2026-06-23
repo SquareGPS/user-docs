@@ -14,7 +14,7 @@ To streamline the integration and usage of these accumulators within the Navixy 
 * **External temperature sensors (1-8)**: Captures data from up to 8 external temperature sensors connected to the CalAmp device, enabling detailed monitoring of environmental conditions.
 * **Hardware mileage**: This is the mileage data calculated directly by the device itself, providing an accurate measure of distance traveled based on hardware input rather than GPS data alone.
 * **Analog sensor values (1-8)**: Retrieves readings from up to 8 analog sensors connected to the device, allowing for a wide range of inputs to be monitored, such as pressure, humidity, or other analog signals.
-* **IO\_States (Input/Output States)**: Displays the status of the device’s input and output channels, essential for understanding the real-time interaction between the device and connected peripherals.
+* **IO\_States (Input/Output States)**: Displays the status of the device’s input and output channels.
 * **iButton ID (Low and High Parts)**: Captures the unique identifier of iButton devices in two parts (low and high), which is typically used for driver identification or access control in fleet management applications.
 
 ## Configuring CalAmp accumulators in Navixy

@@ -66,7 +66,7 @@ Here are some examples of protocols available for various purposes:
 
 | Protocol                                         | Description                                                                                                |
 | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| **Altotrack Chep Mexico**                        | Forwards vehicle positions from the Chep platform to the Altotrack HUB.                                    |
+| **Altotrack Chep Mexico**                        | Forwards vehicle positions from Chep to the Altotrack HUB.                                    |
 | **ArmCargo**                                     | Sends data to Asset Risk Management services for risk assessment.                                          |
 | **Cargo online**                                 | Forwards data to the CargoOnline service.                                                                  |
 | [**ILSP**](ilsp.md)                              | Enables ILSP’s software to share vehicle data across networks in Mexico.                                   |
@@ -93,4 +93,3 @@ Here are some examples of protocols available for various purposes:
 | [**Wialon IPS**](wialon-ips.md)        | Public protocol from Gurtam for retransmitting GPS and GLONASS device data. |
 | **Wisetrack**                          | Forwards data to Wisetrack servers.                                          |
 
-These options provide a robust framework for data sharing, helping you meet regulatory requirements, integrate with enterprise systems, and consolidate data for comprehensive analysis.

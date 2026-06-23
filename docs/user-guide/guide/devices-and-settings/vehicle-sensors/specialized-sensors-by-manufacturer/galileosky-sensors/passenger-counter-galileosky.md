@@ -4,17 +4,17 @@ description: Count passengers entering and exiting vehicles using Galileosky dev
 
 # Passenger counter (Galileosky)
 
-[Galileosky devices](https://www.navixy.com/devices/galileosky/), when integrated with PP-01 passenger flow sensors, provide a robust solution for counting the number of passengers entering and exiting public transportation vehicles. This integration leverages Galileosky’s Easy Logic technology, enabling advanced data collection and analysis, which can be monitored through the Navixy platform.
+[Galileosky devices](https://www.navixy.com/devices/galileosky/), when integrated with PP-01 passenger flow sensors, count the number of passengers entering and exiting public transportation vehicles. This integration leverages Galileosky’s Easy Logic technology, enabling data collection and analysis through the Navixy platform.
 
 ## Example use case
 
-Imagine a city bus operator who needs to track the number of passengers for optimizing routes and improving service efficiency. By integrating Galileosky devices with PP-01 sensors and using Navixy’s platform, the operator can accurately monitor passenger flow, analyze trends, and make informed decisions about route adjustments and service improvements.
+City transit operators use this integration to monitor passenger flow, analyze ridership trends, and adjust routes based on actual load data.
 
 ## Key features and benefits
 
 * **Passenger counting:** The PP-01 sensor connected to the Galileosky device allows accurate counting of passengers entering and exiting the vehicle.
 * **Event-based data logging:** Data can be logged based on specific events such as the opening or closing of doors, ensuring that passenger data is recorded only during relevant times.
-* **Cumulative data recording:** The system can also be configured to log cumulative passenger data, providing a running total of passengers throughout the trip.
+* **Cumulative data recording:** Navixy can also be configured to log cumulative passenger data, providing a running total of passengers throughout the trip.
 
 ## Integration steps
 

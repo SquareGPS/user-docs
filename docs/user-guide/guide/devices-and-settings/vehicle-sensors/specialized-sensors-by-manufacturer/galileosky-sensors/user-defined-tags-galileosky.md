@@ -4,7 +4,7 @@ description: Map Galileosky Easy Logic user-defined tags in Navixy to extend tel
 
 # User-defined tags (Galileosky)
 
-Galileosky devices, known for their versatility and advanced capabilities, particularly stand out due to their support for user-defined tags. Most GPS devices transmit a predefined set of data, including essential information such as coordinates, altitude, acceleration, mileage, and vehicle-specific details like ignition status and coolant temperature. However, this data is often limited to what the manufacturer supports, restricting the monitoring of additional parameters.
+Galileosky devices support user-defined tags, which let you transmit parameters beyond the predefined set. Most GPS devices transmit fixed data fields, such as coordinates, altitude, acceleration, mileage, and vehicle-specific details like ignition status and coolant temperature. User-defined tags let you define additional custom fields when the default set doesn't cover your monitoring needs.
 
 With [Galileosky devices](https://www.navixy.com/devices/galileosky/), particularly those supporting Easy Logic, users can overcome these limitations by defining custom tags, allowing for the transmission of a broader range of data. This flexibility enables users to monitor additional parameters that are not typically supported by standard GPS devices.
 
@@ -29,7 +29,7 @@ With Galileosky devices and Easy Logic, you can:
 * **Event counting**: Easily track and count specific events based on predefined criteria. This feature is particularly useful for monitoring repetitive or cyclical processes.
 * **Automated actions**: Set up actions, such as switching outputs, based on certain conditions and have these actions reported to the server. This functionality is ideal for automating responses to real-time data inputs.
 
-## How to configure Galileo’s user-defined tags with Navixy
+## How to configure Galileosky’s user-defined tags with Navixy
 
 ### Configure Galileosky devices
 
@@ -58,5 +58,5 @@ With Galileosky devices and Easy Logic, you can:
 
 7. **Monitoring and reporting in Navixy**
 
-* **Action**: Use the **Sensor readings widget** in Navixy to monitor the data in real-time. Additionally, you can generate detailed reports based on the sensor data, providing comprehensive insights into your operations.
+* **Action**: Use the **Sensor readings widget** in Navixy to monitor the data in real-time. Additionally, you can generate detailed reports based on the sensor data.
 * **Purpose**: This integration enables continuous monitoring and in-depth analysis of the customized data collected by your Galileosky devices.

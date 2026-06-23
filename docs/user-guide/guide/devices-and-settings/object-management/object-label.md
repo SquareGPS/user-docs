@@ -71,8 +71,6 @@ Follow the same steps as for connecting a new device to the platform, except for
 Note that once the **Replace** button is pressed, the replacement process cannot be canceled.
 {% endhint %}
 
-These steps ensure that the replacement device is properly configured and ready to take over from the previous one, minimizing downtime and maintaining fleet operations smoothly.
-
 ### **Handling activation issues**
 
 If the device fails to activate, you can repeat the replacement process with the same device or try a different one. If the issue persists, you may manually configure the device according to its instructions.

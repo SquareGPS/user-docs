@@ -4,9 +4,7 @@ description: "Configure fuel level sensors in Navixy: set calibration data, accu
 
 # Fuel level sensor
 
-Fuel sensors are essential for monitoring fuel levels in vehicles and tanks, providing key data for tracking consumption, detecting refueling and draining, and optimizing fuel management. Using this data effectively helps prevent fuel losses, identify vehicles with high consumption, and improve overall efficiency, leading to significant cost savings.
-
-Fuel level sensors come in various types, and each serves a particular purpose. You can find detailed information about them in the [Expert Center](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management). In this article, we focus on the fuel operation of the platform, the fuel sensor settings, and the impact they have on the overall fuel management process.
+Fuel level sensors come in various types, and each serves a particular purpose. You can find detailed information about them in the [Expert Center](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management). This page covers the fuel operation of the Navixy platform, the fuel sensor settings, and their impact on the overall fuel management process.
 
 ## What the fuel sensor readings depend on
 
@@ -84,7 +82,7 @@ Once you have enabled one or both options for ignoring, the next algorithm is us
 ### Fuel sensor readings analysis and classification
 
 The application of various statistical methods has resulted in a model for analyzing the quality of sensor data. The Navixy team has developed an adaptive algorithm that can classify the quality of raw sensor data readings and provide a score on a 10-point scale: from 1 (the lowest quality) to 10 (high-quality data).\
-To try this innovation, you need to generate a [fuel volume report](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/analyzing-fuel-data/fuel-volume-report) for the object(s) under investigation. The quality rating will be available at the bottom of the report both in the interface of the cabinet and in documents (PDF/XLS) downloaded based on the generated report. The rating can also be obtained using API requests.
+To try this feature, you need to generate a [fuel volume report](https://app.gitbook.com/s/IgDb43gtyXcm1Av4h1np/vehicle-telematics-technology/fuel-management/fuel-control-in-navixy/analyzing-fuel-data/fuel-volume-report) for the object(s) under investigation. The quality rating will be available at the bottom of the report both in the interface of the cabinet and in documents (PDF/XLS) downloaded based on the generated report. The rating can also be obtained using API requests.
 
 ## See also
 

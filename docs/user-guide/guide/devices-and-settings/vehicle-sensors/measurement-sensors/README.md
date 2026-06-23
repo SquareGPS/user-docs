@@ -16,7 +16,7 @@ To add a measurement sensor, click ![Measurement sensor](https://www.navixy.com/
 
 Configure the required sensor parameters:
 
-* **Label**: Enter the name of the sensor in the system. It can be any name of your choice.
+* **Label**: Enter the sensor label as it appears in Navixy. It can be any name of your choice.
 * **Parameter**: Choose the input to which the sensor is connected (number and types of inputs available are determined by device model).
 * **Sensor type**: Choose the sensor type.
 * **Units**: Choose the measurement units. You can select available units from the drop-down list or specify custom ones.

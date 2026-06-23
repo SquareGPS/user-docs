@@ -4,7 +4,7 @@ description: Download parsed telemetry data from any GPS device as a CSV file. U
 
 # Raw data
 
-The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS device on the Navixy platform in CSV format. This feature is essential for device diagnostics, data analytics, and integrating data with AI and ML programs.
+The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS device on the Navixy platform in CSV format. Use it for device diagnostics, data analytics, and integrating data with AI and ML programs.
 
 <figure><img src="../../../.gitbook/assets/{5DEF2F7D-8031-487A-85D7-1EB6ED30317D}.png" alt="Raw data block"><figcaption><p>Raw data block</p></figcaption></figure>
 
@@ -75,4 +75,3 @@ After selecting the necessary parameters, click **Download CSV** to download the
 
 <figure><img src="../../../.gitbook/assets/{7B6F0062-D451-460D-AD1B-054ADB34A6DE}.png" alt="Raw data file columns example" width="563"><figcaption><p>Raw data file columns example</p></figcaption></figure>
 
-This tool is essential for diagnostics and analytics, providing detailed insights into your device data.

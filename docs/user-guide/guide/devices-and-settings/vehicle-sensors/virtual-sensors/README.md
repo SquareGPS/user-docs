@@ -4,7 +4,7 @@ description: "Convert raw telemetry into readable indicators in Navixy: map boar
 
 # Virtual sensors
 
-Virtual sensors allow you to process telemetry data more effectively. By mapping board voltage, they can help you calculate engine hours based on set conditions and values. Additionally, they allow you to convert multiple data points from different sensors connected to a device into easier-to-understand indicators such as "hot," "cold," "open" and "closed," regardless of the device's manufacturer or model. This opens up new possibilities for monitoring, tracking, and predicting the performance of complex technologies.
+Virtual sensors allow you to process telemetry data more effectively. By mapping board voltage, they can help you calculate engine hours based on set conditions and values. Additionally, they allow you to convert multiple data points from different sensors connected to a device into easier-to-understand indicators such as "hot," "cold," "open" and "closed," regardless of the device's manufacturer or model.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt="Virtual sensor interface"><figcaption><p>Virtual sensor interface</p></figcaption></figure>
 
