@@ -34,11 +34,25 @@ To add a temperature sensor:
 
 ### Magnetic sensors
 
-Magnetic sensors display their status in the **Sensor readings** block of [Object widget](../../../../tracking/objects-list/object-widget.md). This widget allows you to monitor whether the sensor is currently active or not.
+Magnetic (MAG) beacons detect whether a magnet is present or absent — useful for monitoring container doors, toolbox lids, or other assets. Configure them as a virtual sensor using the **Source value** method:
+
+1. Navigate to **Sensors and buttons** and click **+** → **Virtual sensor**.
+2. Select the **BLE: Magnetic field** input that corresponds to the beacon's slot number.
+3. Choose **Source value** as the calculation method.
+4. Map the two states (for example, `0` → `Open`, `1` → `Closed`) and save.
+
+The sensor status appears in the **Sensor readings** block of the [Object widget](../../../../tracking/objects-list/object-widget.md).
 
 ### Driver identification sensors
 
-Identification sensors function similarly to iButton and RFID but without the need for a physical reader. When the sensor is within the GPS device's range, its identifier will automatically be displayed.
+ID beacons (COIN ID, PUCK ID, SLIM ID) work like iButton or RFID but over Bluetooth — no physical reader required. When a beacon comes within range of the GPS device, its identifier is read automatically. Configure them as a virtual sensor using the **Source value** method:
+
+1. Navigate to **Sensors and buttons** and click **+** → **Virtual sensor**.
+2. Select the **BLE: Hardware key** input.
+3. Choose **Source value** as the calculation method.
+4. Map each beacon's MAC address or identifier to a driver name and save.
+
+Once configured, the identified driver appears in the **Sensor readings** block and can be used in driver identification rules.
 
 **See also:**
 

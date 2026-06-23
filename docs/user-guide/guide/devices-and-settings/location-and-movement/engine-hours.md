@@ -23,3 +23,13 @@ Unlike the [Odometer](odometer.md), engine hours has **no correction multiplier*
 {% endhint %}
 
 To display engine hours data in the **Tracking** module, add the **Engine hours widget** to the widget bar at the bottom of the screen. Just click the **+** button at the upper-right corner of the widget bar and add the **Engine hours widget**.
+
+## Availability
+
+Appears on device models that report ignition or CAN-bus engine hours data.
+
+## See also
+
+* [Odometer](odometer.md): the equivalent counter for distance traveled, with correction multiplier support.
+* [Fleet maintenance](../../fleet-management/maintenance.md): schedule service intervals by engine hours.
+* [Ignition source sensor](../vehicle-sensors/discrete-sensors/ignition-source.md): the discrete sensor required when using ignition as the data source.

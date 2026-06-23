@@ -10,7 +10,7 @@ Tracks a vehicle's total mileage and lets you correct measurement error. Reading
 
 ## Settings
 
-* **Data source**: GPS-based mileage, hardware/CAN mileage, tachograph, or a measurement sensor. Additional sources appear only after you create the matching **measurement sensor**.
+* **Data source**: GPS-based mileage, hardware/CAN mileage, tachograph, or a measurement sensor. Additional sources appear only after you create the matching [measurement sensor](../vehicle-sensors/measurement-sensors/).
 * **Current value**: Set the odometer to match the vehicle. Kilometers, 0–99,999,999, up to 2 decimals.
 * **Correction multiplier**: Adjust readings up or down by a percentage. Range about −95% … +95% (a positive value increases readings, negative decreases them).
 
