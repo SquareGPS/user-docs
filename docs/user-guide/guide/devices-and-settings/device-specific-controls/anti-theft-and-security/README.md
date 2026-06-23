@@ -10,4 +10,4 @@ These blocks arm the device to detect tampering, impact, or movement and report 
 
 ## See also
 
-* [Tow detection block](../../location-and-movement/tow-detection-block.md): unauthorized-movement detection after engine off.
+* [Tow detection](../../location-and-movement/tow-detection.md): unauthorized-movement detection after engine off.

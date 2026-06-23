@@ -2,7 +2,7 @@
 description: Control how often a GPS device reports position by interval, distance, and cornering, plus power-save, freeze, and sleep options.
 ---
 
-# Tracking mode block
+# Tracking mode
 
 ## Purpose
 
@@ -49,10 +49,10 @@ Always, every device has a reporting configuration. The exact fields are determi
 * Because fields are model-driven, configure the **concepts** (interval, distance, angle, power-save, freeze, or sleep) rather than expecting a fixed form.
 * **Under-reporting** here, a long interval with no angle or distance, or aggressive power-save, is the usual cause of **"missing mileage" and cut-corner** complaints.
 * The **freeze** options are the fix for **parked-vehicle drift**. Enable them if a stationary vehicle appears to move.
-* This block controls how the device **reports**. It does not change when the device is marked offline (see [Connection state](../connectivity/connection-state-block.md)).
+* This block controls how the device **reports**. It does not change when the device is marked offline (see [Connection state](../connectivity/connection-state.md)).
 
 ## See also
 
-* [Connection state block](../connectivity/connection-state-block.md), the offline-timeout threshold.
+* [Connection state](../connectivity/connection-state.md), the offline-timeout threshold.
 * [Sleep mode](../device-specific-controls/power-management/sleep-mode.md): sleep and charging controls that overlap with power-save.
-* [Parking detection block](parking-detection-block.md), how parking and trips are determined.
+* [Parking detection](parking-detection.md), how parking and trips are determined.

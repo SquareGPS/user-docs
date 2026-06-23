@@ -2,7 +2,7 @@
 description: Track vehicle mileage in Navixy from GPS or CAN-bus data, set the current value, and apply a correction multiplier for accurate totals.
 ---
 
-# Odometer block
+# Odometer
 
 ## Purpose
 
@@ -50,5 +50,5 @@ Appears on device models that support an odometer.
 
 ## See also
 
-* [Engine hours block](engine-hours-block.md), the equivalent counter for engine running time.
+* [Engine hours](engine-hours.md), the equivalent counter for engine running time.
 * [Fleet maintenance](../../fleet-management/maintenance.md), schedule service by mileage.

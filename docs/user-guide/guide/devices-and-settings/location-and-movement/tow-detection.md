@@ -2,7 +2,7 @@
 description: Detect unauthorized movement of a parked vehicle with the device's motion sensor, and report a tow event after the ignition switches off.
 ---
 
-# Tow detection block
+# Tow detection
 
 ## Purpose
 

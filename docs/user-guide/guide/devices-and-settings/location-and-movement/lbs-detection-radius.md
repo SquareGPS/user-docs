@@ -2,7 +2,7 @@
 description: Tune the LBS search radius for cellular and Wi-Fi positioning in Navixy. Use a larger radius in rural areas and a smaller one in cities.
 ---
 
-# LBS detection radius block
+# LBS detection radius
 
 ## Purpose
 
@@ -30,4 +30,4 @@ Appears when the device supports LBS **and** the plan/account enables it, or for
 
 ## See also
 
-* [Tracking mode block](tracking-mode-block.md), how the device reports GPS position.
+* [Tracking mode](tracking-mode.md), how the device reports GPS position.

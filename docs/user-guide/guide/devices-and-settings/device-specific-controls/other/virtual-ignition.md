@@ -21,4 +21,4 @@ Appears on device models that support virtual ignition.
 
 ## See also
 
-* [Ignition source block](../../location-and-movement/ignition-source-block.md): the main block for choosing the ignition detection mode.
+* [Ignition source](../../location-and-movement/ignition-source.md): the main block for choosing the ignition detection mode.

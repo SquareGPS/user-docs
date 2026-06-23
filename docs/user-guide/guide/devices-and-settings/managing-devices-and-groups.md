@@ -46,4 +46,4 @@ Tags and groups are complementary: a device belongs to **one group** but can car
 
 ## See also
 
-* [Object label block](object-management/object-label-block.md), assign a device's group and tags.
+* [Object label](object-management/object-label.md), assign a device's group and tags.

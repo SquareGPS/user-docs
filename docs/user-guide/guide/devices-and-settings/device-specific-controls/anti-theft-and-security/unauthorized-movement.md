@@ -25,5 +25,5 @@ Appears on device models that support device-side unauthorized-movement or auto-
 
 ## See also
 
-* [Tow detection block](../../location-and-movement/tow-detection-block.md): a related device-side movement alarm.
+* [Tow detection](../../location-and-movement/tow-detection.md): a related device-side movement alarm.
 * [Unauthorized movement](../../../events-and-notifications/security/unauthorized-movement.md): the platform rule that acts on these events.

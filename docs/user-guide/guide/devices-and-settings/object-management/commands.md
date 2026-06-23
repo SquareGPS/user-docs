@@ -2,7 +2,7 @@
 description: Define custom device and software commands for a GPS device in Navixy and send them on demand from the Object widget.
 ---
 
-# Commands block
+# Commands
 
 ## Overview
 

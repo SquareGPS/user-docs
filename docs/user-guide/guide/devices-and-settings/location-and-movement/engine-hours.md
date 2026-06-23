@@ -2,7 +2,7 @@
 description: Track total engine running time in Navixy. Set ignition or CAN bus as the data source, configure an initial value, and schedule maintenance by hours.
 ---
 
-# Engine hours block
+# Engine hours
 
 Engine hours is a tool that allows owners of vehicles and special machinery to monitor engine running time and schedule [maintenance works](../../fleet-management/maintenance.md) based on this data.
 
@@ -19,7 +19,7 @@ To receive data from the ignition sensor, create it [beforehand](../vehicle-sens
 {% endhint %}
 
 {% hint style="info" %}
-Unlike the [Odometer block](odometer-block.md), engine hours has **no correction multiplier**.
+Unlike the [Odometer](odometer.md), engine hours has **no correction multiplier**.
 {% endhint %}
 
 To display engine hours data in the **Tracking** module, add the **Engine hours widget** to the widget bar at the bottom of the screen. Just click the **+** button at the upper-right corner of the widget bar and add the **Engine hours widget**.

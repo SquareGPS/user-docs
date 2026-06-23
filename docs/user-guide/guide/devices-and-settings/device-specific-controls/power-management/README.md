@@ -10,4 +10,4 @@ These blocks control how a battery-powered device charges and sleeps to save pow
 
 ## See also
 
-* [Tracking mode block](../../location-and-movement/tracking-mode-block.md): reporting intervals and power-save options.
+* [Tracking mode](../../location-and-movement/tracking-mode.md): reporting intervals and power-save options.

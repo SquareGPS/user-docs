@@ -2,7 +2,7 @@
 description: Define when a vehicle counts as parked using minimum idle time and an idle speed threshold, optionally confirmed by ignition or motion.
 ---
 
-# Parking detection block
+# Parking detection
 
 ## Purpose
 
@@ -37,5 +37,5 @@ Available on all devices except a few models that don't support parking detectio
 
 ## See also
 
-* [Tracking mode block](tracking-mode-block.md), how often the device reports position.
-* [Ignition source block](ignition-source-block.md), how ignition is determined.
+* [Tracking mode](tracking-mode.md), how often the device reports position.
+* [Ignition source](ignition-source.md), how ignition is determined.

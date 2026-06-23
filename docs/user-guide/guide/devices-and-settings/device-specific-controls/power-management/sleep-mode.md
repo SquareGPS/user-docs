@@ -23,5 +23,5 @@ Appears on battery-powered device models that expose sleep settings.
 
 ## See also
 
-* [Tracking mode block](../../location-and-movement/tracking-mode-block.md): power-save options that overlap with sleep mode.
-* [Connection state block](../../connectivity/connection-state-block.md): set the offline timeout long enough that a sleeping device is not shown offline too early.
+* [Tracking mode](../../location-and-movement/tracking-mode.md): power-save options that overlap with sleep mode.
+* [Connection state](../../connectivity/connection-state.md): set the offline timeout long enough that a sleeping device is not shown offline too early.

@@ -2,7 +2,7 @@ redirects:
   user/guide/tracking/fleet-live-status-dashboard: user/guide/tracking/dashboards/fleet-live-status-dashboard
   user/guide/tracking/fleet-live-status-dashboard/trips-dashboard: user/guide/tracking/dashboards/trips-dashboard
   # Devices and settings overhaul (2026-06): moved pages
-  user/guide/devices-and-settings/connection-state-block: user/guide/devices-and-settings/connectivity/connection-state-block
+  user/guide/devices-and-settings/connection-state-block: user/guide/devices-and-settings/connectivity/connection-state
   user/guide/devices-and-settings/data-forwarding: user/guide/devices-and-settings/connectivity/data-forwarding
   user/guide/devices-and-settings/data-forwarding/ilsp: user/guide/devices-and-settings/connectivity/data-forwarding/ilsp
   user/guide/devices-and-settings/data-forwarding/navixy-ws: user/guide/devices-and-settings/connectivity/data-forwarding/navixy-ws
@@ -12,8 +12,25 @@ redirects:
   user/guide/devices-and-settings/data-forwarding/wialon-ips: user/guide/devices-and-settings/connectivity/data-forwarding/wialon-ips
   user/guide/devices-and-settings/data-forwarding/maquinaria-amarilla: user/guide/devices-and-settings/connectivity/data-forwarding/maquinaria-amarilla
   user/guide/devices-and-settings/data-forwarding/startrack: user/guide/devices-and-settings/connectivity/data-forwarding/startrack
-  user/guide/devices-and-settings/location-and-movement/harsh-driving-block: user/guide/devices-and-settings/driver-safety/harsh-driving-block
+  user/guide/devices-and-settings/location-and-movement/harsh-driving-block: user/guide/devices-and-settings/driver-safety/harsh-driving
   user/guide/devices-and-settings/tachograph-ddd-files-block: user/guide/devices-and-settings/tachograph-and-compliance/ddd-download
-  user/guide/devices-and-settings/vehicle-sensors/discrete-sensors/engine-hours: user/guide/devices-and-settings/location-and-movement/engine-hours-block
+  user/guide/devices-and-settings/vehicle-sensors/discrete-sensors/engine-hours: user/guide/devices-and-settings/location-and-movement/engine-hours
   user/guide/devices-and-settings/bluetooth-sensors-block: user/guide/devices-and-settings/device-specific-controls/external-sensors/bluetooth-sensors
   user/guide/devices-and-settings/auto-geofencing-block: user/guide/devices-and-settings/device-specific-controls/anti-theft-and-security/unauthorized-movement
+  # Devices and settings slug cleanup (2026-06): removed 'block' from page slugs
+  user/guide/devices-and-settings/object-management/object-label-block: user/guide/devices-and-settings/object-management/object-label
+  user/guide/devices-and-settings/object-management/phone-number-block: user/guide/devices-and-settings/object-management/phone-number
+  user/guide/devices-and-settings/object-management/change-plan-block: user/guide/devices-and-settings/object-management/change-plan
+  user/guide/devices-and-settings/object-management/working-statuses-block: user/guide/devices-and-settings/object-management/working-statuses
+  user/guide/devices-and-settings/object-management/raw-data-block: user/guide/devices-and-settings/object-management/raw-data
+  user/guide/devices-and-settings/object-management/device-timezone-block: user/guide/devices-and-settings/object-management/device-timezone
+  user/guide/devices-and-settings/object-management/output-control-block: user/guide/devices-and-settings/object-management/commands
+  user/guide/devices-and-settings/location-and-movement/tracking-mode-block: user/guide/devices-and-settings/location-and-movement/tracking-mode
+  user/guide/devices-and-settings/location-and-movement/parking-detection-block: user/guide/devices-and-settings/location-and-movement/parking-detection
+  user/guide/devices-and-settings/location-and-movement/lbs-detection-radius-block: user/guide/devices-and-settings/location-and-movement/lbs-detection-radius
+  user/guide/devices-and-settings/location-and-movement/odometer-block: user/guide/devices-and-settings/location-and-movement/odometer
+  user/guide/devices-and-settings/location-and-movement/engine-hours-block: user/guide/devices-and-settings/location-and-movement/engine-hours
+  user/guide/devices-and-settings/location-and-movement/ignition-source-block: user/guide/devices-and-settings/location-and-movement/ignition-source
+  user/guide/devices-and-settings/location-and-movement/tow-detection-block: user/guide/devices-and-settings/location-and-movement/tow-detection
+  user/guide/devices-and-settings/connectivity/connection-state-block: user/guide/devices-and-settings/connectivity/connection-state
+  user/guide/devices-and-settings/driver-safety/harsh-driving-block: user/guide/devices-and-settings/driver-safety/harsh-driving

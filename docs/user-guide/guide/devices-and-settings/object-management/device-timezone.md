@@ -2,7 +2,7 @@
 description: Correct the timezone offset for GPS devices that report timestamps in local time. Prevents tracking data misalignment when the device clock doesn't match UTC.
 ---
 
-# Device timezone block
+# Device timezone
 
 The **Device timezone** block allows you to adjust the timezone settings for specific device models. A GPS device's timezone offset determines how the timestamps in the messages reported to the platform are interpreted. If the timezone offset is incorrect, it can lead to inaccurate tracking data, as the timestamps will not align correctly with the actual time of events.
 

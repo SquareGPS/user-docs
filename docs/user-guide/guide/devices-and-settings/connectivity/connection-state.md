@@ -2,11 +2,11 @@
 description: Set how long a GPS device may stay silent before Navixy marks it offline, so power-saving and low-frequency devices stay accurate.
 ---
 
-# Connection state block
+# Connection state
 
 ## Purpose
 
-The **Connection state** block sets **how long a device may be silent before it's marked offline**, so infrequently-reporting or power-saving devices aren't shown as disconnected too early. It affects only the offline/disconnected **status indicator**: Not how the device reports (that's [Tracking mode](../location-and-movement/tracking-mode-block.md)).
+The **Connection state** block sets **how long a device may be silent before it's marked offline**, so infrequently-reporting or power-saving devices aren't shown as disconnected too early. It affects only the offline/disconnected **status indicator**: Not how the device reports (that's [Tracking mode](../location-and-movement/tracking-mode.md)).
 
 {% hint style="info" %}
 You can monitor the [Connection state](../../tracking/objects-list/connection-state.md) of your devices in the [Objects list](../../tracking/objects-list/) in the Tracking module and the **X-GPS Monitor** mobile app. It's shown as a color-coded circle in each device's widget.
@@ -25,7 +25,7 @@ Appears on applicable devices for users with edit rights.
 ## Gotchas
 
 * This affects **only** the offline status indicator, not the device's reporting behavior.
-* For devices in deep sleep or power-save, set the timeout long enough that a sleeping device isn't shown offline prematurely, coordinate with [Tracking mode](../location-and-movement/tracking-mode-block.md) and [Sleep mode](../device-specific-controls/power-management/sleep-mode.md).
+* For devices in deep sleep or power-save, set the timeout long enough that a sleeping device isn't shown offline prematurely, coordinate with [Tracking mode](../location-and-movement/tracking-mode.md) and [Sleep mode](../device-specific-controls/power-management/sleep-mode.md).
 
 ## See also
 

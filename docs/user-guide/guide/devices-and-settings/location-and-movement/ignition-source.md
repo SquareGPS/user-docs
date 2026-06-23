@@ -2,7 +2,7 @@
 description: "Configure how a GPS device detects ignition in Navixy: digital input, on-board voltage with millivolt thresholds, or the built-in motion sensor."
 ---
 
-# Ignition source block
+# Ignition source
 
 ## Purpose
 
@@ -30,4 +30,4 @@ Appears on devices that support configurable ignition detection (vendor variants
 ## See also
 
 * [Ignition source (discrete sensor)](../vehicle-sensors/discrete-sensors/ignition-source.md), creating an ignition **sensor** on the platform (distinct from this device-side detection mode).
-* [Parking detection block](parking-detection-block.md), can use ignition to confirm parking.
+* [Parking detection](parking-detection.md), can use ignition to confirm parking.

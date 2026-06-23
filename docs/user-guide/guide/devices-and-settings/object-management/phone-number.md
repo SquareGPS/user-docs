@@ -2,7 +2,7 @@
 description: Set the SIM phone number and APN for a GPS device in Navixy. Needed after a SIM change for SMS-based commands, location requests, and two-way communication.
 ---
 
-# Phone number block
+# Phone number
 
 ## Purpose
 

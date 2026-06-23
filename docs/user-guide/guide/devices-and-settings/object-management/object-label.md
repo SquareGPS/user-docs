@@ -2,7 +2,7 @@
 description: Manage the GPS device's name, group, tags, and model in Navixy. Labels and tags make it easier to organize and filter devices across the platform.
 ---
 
-# Object label block
+# Object label
 
 The **Object label** block manages a device's core identity and how it is organized in your fleet.
 
@@ -18,7 +18,7 @@ This block contains the following fields:
 After making any changes, click **Save** to apply them. This block appears for all non-blocked devices. Label, group, and tags can each be copied to many devices at once.
 
 {% hint style="info" %}
-The device's **trusted phone numbers** and **service plan** are managed in their own blocks, see [Trusted phone numbers](trusted-phone-numbers.md) and the [Change plan block](change-plan-block.md).
+The device's **trusted phone numbers** and **service plan** are managed in their own blocks, see [Trusted phone numbers](trusted-phone-numbers.md) and the [Change plan](change-plan.md).
 {% endhint %}
 
 ## Device replacement functionality

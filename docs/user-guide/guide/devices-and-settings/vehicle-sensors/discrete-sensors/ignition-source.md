@@ -9,7 +9,7 @@ description: Configure the ignition source for GPS devices that use virtual igni
 This page covers creating an **ignition sensor** on the platform for devices that use **virtual ignition**: Derived from the motion sensor or on-board voltage, instead of a direct ignition-cable connection.
 
 {% hint style="info" %}
-This is the **platform-side sensor**. To choose *how the device itself* detects ignition (digital input, on-board voltage, or motion), use the [Ignition source block](../../location-and-movement/ignition-source-block.md) under Location and movement.
+This is the **platform-side sensor**. To choose *how the device itself* detects ignition (digital input, on-board voltage, or motion), use the [Ignition source](../../location-and-movement/ignition-source.md) under Location and movement.
 {% endhint %}
 
 ## How virtual ignition works
@@ -30,5 +30,5 @@ Available on devices that expose a suitable input or support virtual ignition.
 
 ## See also
 
-* [Ignition source block](../../location-and-movement/ignition-source-block.md), set the device-side ignition detection mode.
-* [Engine hours block](../../location-and-movement/engine-hours-block.md), can use an ignition sensor as its data source.
+* [Ignition source](../../location-and-movement/ignition-source.md), set the device-side ignition detection mode.
+* [Engine hours](../../location-and-movement/engine-hours.md), can use an ignition sensor as its data source.

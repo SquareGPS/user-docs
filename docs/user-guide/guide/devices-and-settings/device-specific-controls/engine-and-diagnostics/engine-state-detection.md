@@ -19,4 +19,4 @@ Appears on device models that detect engine state from on-board voltage.
 
 ## See also
 
-* [Ignition source block](../../location-and-movement/ignition-source-block.md): choose how the device detects ignition.
+* [Ignition source](../../location-and-movement/ignition-source.md): choose how the device detects ignition.
