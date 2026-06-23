@@ -10,11 +10,20 @@ Arms the device's sensor and perimeter detection to report tampering or displace
 
 The fields depend on the device. You may see:
 
-* **Sensor mode**: off, constantly enabled, or enabled during one or two scheduled periods.
-* **Perimeter mode**: off, one-time alert with disabling, constantly enabled, or security breach with a new reference point stored.
-* **Period settings**: the active periods, when scheduled.
-* **Amplitude and duration**: the motion thresholds that trigger the alarm.
-* **Perimeter diameter**: the zone size for perimeter detection.
+* **Sensor mode**: when the motion sensor monitors the vehicle.
+  * **Disabled**: sensor monitoring off.
+  * **Constantly enabled**: active at all times when armed.
+  * **Enabled in one period / two periods**: active only during configured time windows, such as overnight or outside business hours.
+* **Perimeter mode**: how the device responds to the vehicle leaving its parked position.
+  * **Disabled**: perimeter monitoring off.
+  * **One-time alert with disabling**: triggers one event, then disarms automatically.
+  * **Constantly enabled**: triggers an event on each detected exit and stays armed.
+  * **Security breach with new point storage**: triggers an event and updates the reference position to the new location, so continued movement generates further events.
+* **Period settings**: start and end times for the scheduled sensor-mode windows.
+* **Amplitude and duration**: signal strength and persistence thresholds. Higher values reduce false alarms from passing traffic or minor bumps.
+* **Ignore time upon activation**: a delay after arming before motion detection starts, preventing false alarms during placement or parking.
+* **False activation protection**: a double-check step that confirms motion before raising an alarm, reducing spurious alerts.
+* **Perimeter diameter**: the radius of the parking zone in meters. Movement beyond this boundary triggers the perimeter alarm.
 
 ## Availability
 

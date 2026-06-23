@@ -8,9 +8,9 @@ Sets the parameters the device uses to compute fuel consumption itself. This is 
 
 ## Settings
 
-* **Fuel type**: gasoline, diesel, or LPG.
-* **Engine volume**: the engine displacement used in the estimate.
-* **Multiplier**: a correction factor applied to the result.
+* **Fuel type**: gasoline, diesel, or LPG. Affects the consumption coefficients used in the estimate.
+* **Engine volume**: the engine displacement in liters (for example, `2.0` for a 2-liter engine).
+* **Multiplier**: a correction factor applied to the estimated result. Use `1.0` for no correction. Set it below `1.0` if the device overestimates consumption, or above `1.0` if it underestimates.
 
 ## Availability
 

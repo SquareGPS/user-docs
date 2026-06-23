@@ -15,7 +15,11 @@ The fields depend on the device. You may see:
 * **Enable**: turn unauthorized-movement detection on or off.
 * **Activation timeout**: the delay after the ignition is switched off before detection becomes active.
 * **Radius**: the distance from the parking point within which movement triggers an event.
-* On vibration-based variants: a sensitivity level and detection and alarm intervals instead of a radius.
+* On vibration-based variants, these models use motion-sensor fields instead of a radius:
+  * **Sensitivity level**: how easily the motion sensor triggers (low, medium, or high).
+  * **Start motion detection in (minutes)**: the delay after ignition off before monitoring activates.
+  * **Motion interval (seconds)**: how long motion must persist before an event is recorded.
+  * **Delay time (seconds)**: an additional delay after motion is confirmed before the alert is sent, to filter out brief bumps.
 
 ## Availability
 
