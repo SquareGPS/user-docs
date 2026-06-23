@@ -8,4 +8,4 @@ description: >-
 
 These blocks configure device-side detection of unsafe driving, such as harsh acceleration, braking, and cornering, which feeds the platform's safety and eco-driving reports.
 
-<table data-view="cards"><thead><tr><th>Block</th><th>Purpose</th><th data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Harsh driving</h4></td><td>Thresholds for harsh acceleration, braking, and cornering.</td><td><a href="harsh-driving.md"></a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Block</th><th>Purpose</th><th data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Harsh driving</h4></td><td>Thresholds for harsh acceleration, braking, and cornering.</td><td><a href="harsh-driving.md">Harsh driving</a></td></tr></tbody></table>
