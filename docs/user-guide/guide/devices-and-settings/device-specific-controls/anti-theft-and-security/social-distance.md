@@ -4,18 +4,18 @@ description: Configure the Social distance block in Navixy so the device reports
 
 # Social distance
 
-Uses Bluetooth proximity to report when another tagged device stays within a set distance for longer than a set time.
+Uses the device's built-in Bluetooth module to detect when another tracked device comes too close. When two devices stay within the set distance for longer than the set time, an event is reported to the Navixy platform.
+
+{% hint style="info" %}
+To receive notifications, create a corresponding alert rule in addition to enabling this block.
+{% endhint %}
 
 ## Settings
 
-* **Enable**: turn proximity detection on or off.
-* **Distance**: the proximity threshold.
-* **Duration threshold (seconds)**: how long the proximity must last before an event is reported.
+* **Enable**: turn proximity monitoring on or off.
+* **Distance**: the minimum allowable distance between devices in meters. Measured in the absence of interference and obstacles — real-world BLE range is affected by walls, metal, and other obstructions.
+* **Duration threshold (seconds)**: how long the two devices must remain within the distance before an event fires. A short threshold triggers on brief passes; a longer threshold only triggers on sustained proximity.
 
 ## Availability
 
-Appears on a small number of device models that support Bluetooth proximity detection.
-
-{% hint style="info" %}
-This block is niche. Confirm availability and exact behavior for your device with Navixy support before relying on it.
-{% endhint %}
+Appears on device models that have a built-in Bluetooth module with proximity detection support.

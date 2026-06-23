@@ -4,12 +4,22 @@ description: Set the motion sensor sensitivity on the device in Navixy using the
 
 # Vibration settings
 
-Tunes the device's motion sensor sensitivity. This sensitivity affects other motion-based features on the device, such as tow, impact, and idle detection.
+Tunes the device's motion sensor sensitivity. This single setting affects all motion-based features on the device — tow detection, impact alarms, and idle detection — so adjust it with those features in mind.
 
 ## Settings
 
-* **Sensitivity**: choose the level. Typical options are High, Normal, Low, and Very low.
+* **Sensitivity**: how easily the sensor triggers.
+  * **High**: triggers on lighter motion. Use when the vehicle is in a low-vibration environment or when you need to catch small disturbances.
+  * **Normal**: the default balance between sensitivity and false alarms.
+  * **Low**: requires stronger motion to trigger. Useful for heavy vehicles or rough terrain where normal motion would otherwise cause false alarms.
+  * **Very low**: the least sensitive. Use only when frequent false alarms persist at Low.
 
 ## Availability
 
-Appears on device models that expose a configurable motion sensor sensitivity.
+Appears on device models that expose a global motion sensor sensitivity setting.
+
+## See also
+
+* [Vibration detection](vibration-detection.md): detect tampering after ignition off.
+* [Accelerometer](accelerometer.md): set impact force thresholds.
+* [Tow detection](../../location-and-movement/tow-detection.md): detect vehicle towing.

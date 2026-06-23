@@ -4,15 +4,15 @@ description: Map a device's call buttons to phone numbers in Navixy so the devic
 
 # Call buttons
 
-Maps a device's physical buttons to phone numbers. When a button is pressed, the device calls or alerts the assigned number.
+Maps the device's physical hardware buttons to phone numbers. When a button is pressed, the device places a voice call to the assigned number. The number of configurable buttons depends on the device model — typically 1 to 4.
 
 ## Settings
 
-* **Button entries**: for each button (Button #1, Button #2, and so on), enter the phone number to call or alert.
+* **Button #1, #2, …**: enter the phone number to call when that button is pressed. Use international format (for example, `+12025550100`). Leave a field empty to disable that button.
 
 ## Availability
 
-Appears on device models that have configurable call buttons.
+Appears on device models that have configurable hardware call buttons.
 
 ## See also
 

@@ -4,11 +4,13 @@ description: Enable or disable the physical power-off button on a GPS device in 
 
 # Switch off button
 
-Enables or disables the device's physical power-off button.
+Controls whether the device's physical power-off button works. Disabling the button prevents the device from being powered off by pressing it — useful when drivers or unauthorized persons should not be able to stop the device from tracking.
 
 ## Settings
 
-* **State**: enabled or disabled.
+* **State**:
+  * **Enabled**: the button works normally and can power off the device.
+  * **Disabled**: pressing the button does nothing. The device can only be powered off remotely or by disconnecting power.
 
 ## Availability
 
