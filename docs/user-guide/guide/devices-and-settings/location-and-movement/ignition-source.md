@@ -4,9 +4,7 @@ description: "Configure how a GPS device detects ignition in Navixy: digital inp
 
 # Ignition source
 
-## Purpose
-
-The **Ignition source** block tells the platform **how to determine ignition on/off**: Important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
+Tells the platform how to determine ignition on/off: Important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
 
 ![](../../../.gitbook/assets/image-20240815-213014.png)
 
@@ -18,16 +16,16 @@ Select the **mode** used to detect ignition:
 * **On-board voltage** (`power_voltage`), detects ignition from the vehicle's voltage. Set the **low and high voltage thresholds** (in millivolts, 0–30,000, with a default low level around 13,000 mV) that bracket "ignition on."
 * **Movement or motion sensor** (`movement`): infers ignition from vehicle movement, useful when the device isn't wired to the vehicle's electrical system.
 
-## Appears when
+## Availability
 
 Appears on devices that support configurable ignition detection (vendor variants exist, e.g. Teltonika, Suntech, Ruptela, Queclink).
 
-## Gotchas
+## Limitations
 
 * **Voltage mode** works because a running engine's alternator raises system voltage above the battery's resting level.
-* **Motion-based ignition** is convenient when not wired to the vehicle, **but** towing reads as ignition-on (the engine isn't actually running).
+* Motion-based ignition is convenient when not wired to the vehicle, but towing reads as ignition-on (the engine isn't actually running).
 
 ## See also
 
-* [Ignition source (discrete sensor)](../vehicle-sensors/discrete-sensors/ignition-source.md), creating an ignition **sensor** on the platform (distinct from this device-side detection mode).
-* [Parking detection](parking-detection.md), can use ignition to confirm parking.
+* [Ignition source (discrete sensor)](../vehicle-sensors/discrete-sensors/ignition-source.md): creating an ignition sensor on the platform (distinct from this device-side detection mode).
+* [Parking detection](parking-detection.md): can use ignition to confirm parking.

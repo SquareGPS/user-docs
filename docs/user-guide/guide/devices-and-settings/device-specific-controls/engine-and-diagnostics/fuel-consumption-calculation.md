@@ -4,9 +4,7 @@ description: Configure the device-side Fuel consumption calculation block in Nav
 
 # Fuel consumption calculation
 
-## Purpose
-
-The **Fuel consumption calculation** block sets the parameters the device uses to compute fuel consumption itself. This is separate from platform-side [fuel sensors](../../vehicle-sensors/measurement-sensors/).
+Sets the parameters the device uses to compute fuel consumption itself. This is separate from platform-side [fuel sensors](../../vehicle-sensors/measurement-sensors/).
 
 ## Settings
 
@@ -14,7 +12,7 @@ The **Fuel consumption calculation** block sets the parameters the device uses t
 * **Engine volume**: the engine displacement used in the estimate.
 * **Multiplier**: a correction factor applied to the result.
 
-## Appears when
+## Availability
 
 Appears on device models that compute fuel consumption on the device side.
 

@@ -4,19 +4,17 @@ description: Upload recorded track and datalogger files from a GPS device into N
 
 # Tracks upload
 
-## Purpose
-
-The **Tracks upload** block imports recorded track or datalogger files exported from a device. This is useful when a device logged data offline, out of coverage, and you want that history on the platform.
+Imports recorded track or datalogger files exported from a device. This is useful when a device logged data offline, out of coverage, and you want that history on the platform.
 
 ## Settings
 
 * **Attach file**: select the recorded track file to upload. Common formats are CSV, TXT, Excel, and OCT.
 
-## Appears when
+## Availability
 
 Appears on device models that produce uploadable datalogger or track files.
 
-## Gotchas
+## Limitations
 
 * This is a one-off file upload, not a stored setting. There is nothing to save on the device.
 

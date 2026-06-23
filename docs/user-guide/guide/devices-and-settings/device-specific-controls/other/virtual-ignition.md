@@ -4,9 +4,7 @@ description: Configure the Virtual ignition block in Navixy so the device derive
 
 # Virtual ignition
 
-## Purpose
-
-The **Virtual ignition** block lets the device derive ignition state from on-board voltage or motion when the ignition wire is not connected.
+Lets the device derive ignition state from on-board voltage or motion when the ignition wire is not connected.
 
 ## Settings
 
@@ -15,7 +13,7 @@ The **Virtual ignition** block lets the device derive ignition state from on-boa
 * **Rest duration to off**: how long without motion before ignition counts as off, in motion mode.
 * **Motion duration to on**: how long motion must last before ignition counts as on, in motion mode.
 
-## Appears when
+## Availability
 
 Appears on device models that support virtual ignition.
 

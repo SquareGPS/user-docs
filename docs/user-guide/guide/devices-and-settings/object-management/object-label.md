@@ -35,13 +35,13 @@ In addition, historical data becomes available only after the new device has bee
 
 {% stepper %}
 {% step %}
-**Select the device**
+### Select the device
 
 Navigate to the **Devices and settings** section and select the required device from the object list by clicking on it.
 {% endstep %}
 
 {% step %}
-**Initiate the replacement**
+### Initiate the replacement
 
 Click **Replace device** on the device information pane.
 
@@ -49,7 +49,7 @@ Click **Replace device** on the device information pane.
 {% endstep %}
 
 {% step %}
-**Review sensor instructions**
+### Review sensor instructions
 
 1. Confirm that the new hardware supports the original device's settings.
 2. If additional sensors were connected to the original device, ensure they are reconnected to identical inputs on the new device to preserve historical data.
@@ -57,7 +57,7 @@ Click **Replace device** on the device information pane.
 {% endstep %}
 
 {% step %}
-**Connect a replacement device**
+### Connect a replacement device
 
 Follow the same steps as for connecting a new device to the platform, except for the object name. It inherits the name of the original device and cannot be changed.
 

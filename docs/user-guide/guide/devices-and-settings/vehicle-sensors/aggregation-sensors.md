@@ -48,11 +48,11 @@ The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 
 This configuration enables you to monitor and manage data from multiple sources, improving the precision and utility of your fleet management and telematics setup.
 
-## Appears when
+## Availability
 
 Available when the device has at least two compatible measurement sensors to combine.
 
-## Gotchas
+## Limitations
 
 * Aggregation combines **existing measurement sensors**: Create the source sensors first.
 * Choose the sensor type and units to match the sources you are combining.

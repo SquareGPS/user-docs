@@ -4,11 +4,9 @@ description: "Add measurement sensors to GPS devices in Navixy: configure the la
 
 # Measurement sensors
 
-## Purpose
-
 Measurement sensors turn a device's continuous inputs into meaningful values, such as fuel level, temperature, RPM, or voltage, with units and a calibration table that maps raw readings to real-world quantities.
 
-## Appears when
+## Availability
 
 Available when the device model has inputs.
 

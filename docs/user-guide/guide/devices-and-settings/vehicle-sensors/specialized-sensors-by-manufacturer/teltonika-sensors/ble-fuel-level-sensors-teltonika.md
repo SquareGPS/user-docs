@@ -47,27 +47,27 @@ Once the GPS device is connected and transmitting fuel data, follow these steps 
 
 {% stepper %}
 {% step %}
-**Create a new measurement sensor**
+### Create a new measurement sensor
 
 1. Navigate to Devices and settings → Sensors and buttons.
 2. Click Create a new [measurement sensor](../../measurement-sensors/).
 {% endstep %}
 
 {% step %}
-**Configure the sensor**
+### Configure the sensor
 
 1. Select the input labeled "BLE: LLS level".
 2. Set the sensor type and units. If necessary, fill in the calibration table and adjust other settings.
 {% endstep %}
 
 {% step %}
-**Repeat for additional sensors**
+### Repeat for additional sensors
 
 If you have multiple fuel sensors, repeat the setup process for each sensor, selecting the appropriate input for each.
 {% endstep %}
 
 {% step %}
-**Monitor and report**
+### Monitor and report
 
 Once configured, you can monitor the fuel level in the designated widget on the platform. You can also generate detailed reports on fuel consumption.
 {% endstep %}

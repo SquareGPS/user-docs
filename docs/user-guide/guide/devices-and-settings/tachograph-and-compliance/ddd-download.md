@@ -4,9 +4,7 @@ description: Remotely request tachograph data as DDD files from a vehicle. Optio
 
 # DDD files download
 
-## Purpose
-
-The **DDD files download** block lets you **remotely request tachograph data** from a vehicle as DDD files, without physically connecting to the tachograph. What you can request depends on the device family, from a single **Download** button on simple devices to detailed, multi-type, date-ranged requests on richer ones.
+Lets you remotely request tachograph data from a vehicle as DDD files, without physically connecting to the tachograph. What you can request depends on the device family, from a single **Download** button on simple devices to detailed, multi-type, date-ranged requests on richer ones.
 
 {% hint style="info" %}
 The download controls are **on-demand commands**, not saved settings. Clicking a download button sends a request to the device. It does not store a configuration.
@@ -18,13 +16,13 @@ The download controls are **on-demand commands**, not saved settings. Clicking a
 
 {% stepper %}
 {% step %}
-**Unload data from the company or driver card**
+### Unload data from the company or driver card
 
 Connect a card reader to your computer and use it to unload data from the company or driver card.
 {% endstep %}
 
 {% step %}
-**Enter the company card number**
+### Enter the company card number
 
 In the **DDD files download** block, enter the company card number (an internal document of the organization) where prompted, then save. This associates downloaded files with your company. The TachoAuthClient application may be required for downloading. Contact Navixy technical support to obtain it.
 {% endstep %}
@@ -43,13 +41,13 @@ What appears in the block depends on the device:
 
 {% stepper %}
 {% step %}
-**Request the download**
+### Request the download
 
 Click the **Download** button (or send the relevant data-type command) for the data you need. The download can take several minutes, typically 5 to 10.
 {% endstep %}
 
 {% step %}
-**Keep the ignition on**
+### Keep the ignition on
 
 Ensure the vehicle's ignition is on during the download. If the ignition is off, the download fails and you must restart it.
 {% endstep %}
@@ -63,4 +61,4 @@ Navixy only supports the **download functionality** of DDD files. We do not proc
 
 ## See also
 
-* [DDD emails](ddd-emails.md), auto-email downloaded DDD files to recipients.
+* [DDD emails](ddd-emails.md): auto-email downloaded DDD files to recipients.

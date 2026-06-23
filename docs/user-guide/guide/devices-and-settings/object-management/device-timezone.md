@@ -20,6 +20,6 @@ Only change the timezone if you are certain that the current setting is incorrec
 2. **Change the timezone:** Use the **Device timezone** block to select the appropriate timezone based on the device's current configuration.
 3. **Save changes:** After making the adjustment, save the settings to apply the new timezone.
 
-## Appears when
+## Availability
 
 Appears on specific device models that support a configurable time-zone offset.

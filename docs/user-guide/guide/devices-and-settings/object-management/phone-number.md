@@ -4,9 +4,7 @@ description: Set the SIM phone number and APN for a GPS device in Navixy. Needed
 
 # Phone number
 
-## Purpose
-
-The **Phone number** block holds the **SIM and mobile-data settings** for the device's cellular modem. The GSM network connects the device to the platform over GPRS/EDGE and SMS, so the SIM details must be correct for communication and SMS-based commands.
+Holds the SIM and mobile-data settings for the device's cellular modem. The GSM network connects the device to the platform over GPRS/EDGE and SMS, so the SIM details must be correct for communication and SMS-based commands.
 
 <!-- SCREENSHOT: Phone number block, phone number and APN name/user/password fields, Change phone number button. Annotate: phone field, APN fields, the change/confirm flow. -->
 
@@ -19,29 +17,29 @@ The **Phone number** block holds the **SIM and mobile-data settings** for the de
 
 {% stepper %}
 {% step %}
-**Open and change**
+### Open and change
 
 In the block, click **Change phone number**.
 {% endstep %}
 
 {% step %}
-**Enter the number and APN**
+### Enter the number and APN
 
 Specify the SIM's phone number. The platform auto-fills the operator's default APN, which you can override.
 {% endstep %}
 
 {% step %}
-**Save**
+### Save
 
 Click **Save**. An SMS command with the new settings is sent to the SIM, after a confirmation prompt.
 {% endstep %}
 {% endstepper %}
 
-## Appears when
+## Availability
 
-Appears on devices whose model has a SIM/phone. It is the **only block shown for blocked devices**.
+Appears on devices whose model has a SIM/phone. It is the only block shown for blocked devices.
 
-## Gotchas
+## Limitations
 
 * If no number is set, the device shows as **"Inbox SIM"** (not tied to a specific SIM).
 * Entering a number auto-fills the operator's default APN, override it if your provider differs.
@@ -49,4 +47,4 @@ Appears on devices whose model has a SIM/phone. It is the **only block shown for
 
 ## See also
 
-* [Trusted phone numbers](trusted-phone-numbers.md), numbers allowed to send commands to the device.
+* [Trusted phone numbers](trusted-phone-numbers.md): numbers allowed to send commands to the device.

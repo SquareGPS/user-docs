@@ -4,16 +4,14 @@ description: Set and use the digital unlock password for a GPS device in Navixy 
 
 # Unlocking
 
-## Purpose
-
-The **Unlocking** block sets a digital password and uses it to unlock the device.
+Sets a digital password and uses it to unlock the device.
 
 ## Settings
 
 * **Password**: the unlock code.
 * **Unlock**: sends the unlock command to the device.
 
-## Appears when
+## Availability
 
 Appears on device models that support a digital unlock password.
 

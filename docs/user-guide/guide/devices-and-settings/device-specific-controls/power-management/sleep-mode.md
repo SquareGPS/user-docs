@@ -4,9 +4,7 @@ description: Configure power-save sleep conditions on a battery GPS device in Na
 
 # Sleep mode
 
-## Purpose
-
-The **Sleep mode** block controls how a battery-powered device sleeps to save power. A sleeping device reports less often, which extends battery life on assets that are not continuously powered.
+Controls how a battery-powered device sleeps to save power. A sleeping device reports less often, which extends battery life on assets that are not continuously powered.
 
 ## Settings
 
@@ -17,7 +15,7 @@ The fields depend on the device. You may see:
 * **Wake-up intervals**: how often the device wakes to report.
 * **Voltage thresholds**: on some models, the voltage levels that trigger light or deep sleep.
 
-## Appears when
+## Availability
 
 Appears on battery-powered device models that expose sleep settings.
 

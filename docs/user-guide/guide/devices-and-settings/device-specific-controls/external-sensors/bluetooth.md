@@ -4,16 +4,14 @@ description: Manage the Bluetooth connection on a GPS device in Navixy with the 
 
 # Bluetooth
 
-## Purpose
-
-The **Bluetooth** block manages the device's Bluetooth connection, used to pair accessories such as a driver-identification key.
+Manages the device's Bluetooth connection, used to pair accessories such as a driver-identification key.
 
 ## Settings
 
 * **Enable or disable Bluetooth**: turn the device's Bluetooth radio on or off.
 * **Write or clear**: store or remove the paired accessory on the device.
 
-## Appears when
+## Availability
 
 Appears on device models that expose Bluetooth pairing controls.
 

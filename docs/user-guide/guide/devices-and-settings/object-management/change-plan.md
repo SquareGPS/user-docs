@@ -4,9 +4,7 @@ description: Switch the service plan for a GPS device in Navixy. Review availabl
 
 # Change plan
 
-## Purpose
-
-The **Change plan** block assigns a device's pricing plan (tariff), which determines its billing and which features and settings blocks are available.
+Assigns a device's pricing plan (tariff), which determines its billing and which features and settings blocks are available.
 
 ## Changing the plan
 
@@ -19,7 +17,7 @@ To change your plan, follow these steps:
 
 This process ensures that your device operates under the plan that offers the right features and services for your GPS tracking and fleet management needs.
 
-## Appears when
+## Availability
 
 Appears on accounts where plans/balances are visible. The plan selector is hidden on accounts where balances and plans are hidden, and for clone devices.
 

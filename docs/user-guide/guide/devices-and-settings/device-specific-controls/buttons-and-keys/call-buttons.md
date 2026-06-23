@@ -4,15 +4,13 @@ description: Map a device's call buttons to phone numbers in Navixy so the devic
 
 # Call buttons
 
-## Purpose
-
-The **Call buttons** block maps a device's physical buttons to phone numbers. When a button is pressed, the device calls or alerts the assigned number.
+Maps a device's physical buttons to phone numbers. When a button is pressed, the device calls or alerts the assigned number.
 
 ## Settings
 
 * **Button entries**: for each button (Button #1, Button #2, and so on), enter the phone number to call or alert.
 
-## Appears when
+## Availability
 
 Appears on device models that have configurable call buttons.
 

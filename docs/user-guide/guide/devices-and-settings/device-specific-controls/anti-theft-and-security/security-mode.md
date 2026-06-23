@@ -4,9 +4,7 @@ description: Configure the Security mode block in Navixy to arm device sensor an
 
 # Security mode
 
-## Purpose
-
-The **Security mode** block arms the device's sensor and perimeter detection to report tampering or displacement of a guarded vehicle.
+Arms the device's sensor and perimeter detection to report tampering or displacement of a guarded vehicle.
 
 ## Settings
 
@@ -18,6 +16,6 @@ The fields depend on the device. You may see:
 * **Amplitude and duration**: the motion thresholds that trigger the alarm.
 * **Perimeter diameter**: the zone size for perimeter detection.
 
-## Appears when
+## Availability
 
 Appears on device models that support a guard or security mode.

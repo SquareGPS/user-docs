@@ -19,7 +19,7 @@ With the raw data export tool, you can:
 
 The output of the raw data consists of all decoded information from the proprietary protocols of the device model. Once decoded, the data is stored in a universal format, including key details such as location and sensor readings. The data is provided in the CSV format for easy access and integration.
 
-## Appears when
+## Availability
 
 Appears for users with device-edit rights, where the deployment has the raw-data feature enabled. History is limited to roughly the **last 29–30 days**, and you can include up to **1,000 columns** per export.
 

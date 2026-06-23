@@ -4,15 +4,13 @@ description: Control when the backup battery charges on a GPS device in Navixy w
 
 # Battery charge mode
 
-## Purpose
-
-The **Battery charge mode** block controls when the device's backup battery charges.
+Controls when the device's backup battery charges.
 
 ## Settings
 
 * **Charge mode**: choose when charging happens. Typical options are on demand, only when the ignition is on, or when the ignition is on or the charge is low.
 
-## Appears when
+## Availability
 
 Appears on battery-powered device models that expose a charge mode.
 

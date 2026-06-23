@@ -4,9 +4,7 @@ description: Control how often a GPS device reports position by interval, distan
 
 # Tracking mode
 
-## Purpose
-
-The **Tracking mode** block controls **how often and on what basis the device reports its position**: Balancing live-tracking detail against data and battery usage. Every device has a reporting configuration, but the **exact fields are chosen by the device model**, so this page describes the underlying concepts rather than a fixed form.
+Controls how often and on what basis the device reports its position: Balancing live-tracking detail against data and battery usage. Every device has a reporting configuration, but the exact fields are chosen by the device model, so this page describes the underlying concepts rather than a fixed form.
 
 <figure><img src="../../../.gitbook/assets/image-20240815-182719.png" alt="Tracking mode settings block example" width="310"><figcaption><p>Tracking mode settings block example</p></figcaption></figure>
 
@@ -38,21 +36,21 @@ On battery or power-managed devices you may also see:
 
 ## Anti-drift (freeze) options
 
-* **Freeze options**: Hold the reported position while the vehicle is stationary (by speed, motion, or ignition) to avoid GPS drift. These are the recommended fix for **parked-vehicle "jitter"**, where a stationary vehicle appears to wander on the map.
+* **Freeze options**: Hold the reported position while the vehicle is stationary (by speed, motion, or ignition) to avoid GPS drift. These are the recommended fix for parked-vehicle "jitter", where a stationary vehicle appears to wander on the map.
 
-## Appears when
+## Availability
 
 Always, every device has a reporting configuration. The exact fields are determined by the device model.
 
-## Gotchas
+## Limitations
 
-* Because fields are model-driven, configure the **concepts** (interval, distance, angle, power-save, freeze, or sleep) rather than expecting a fixed form.
-* **Under-reporting** here, a long interval with no angle or distance, or aggressive power-save, is the usual cause of **"missing mileage" and cut-corner** complaints.
-* The **freeze** options are the fix for **parked-vehicle drift**. Enable them if a stationary vehicle appears to move.
-* This block controls how the device **reports**. It does not change when the device is marked offline (see [Connection state](../connectivity/connection-state.md)).
+* Because fields are model-driven, configure the concepts (interval, distance, angle, power-save, freeze, or sleep) rather than expecting a fixed form.
+* Under-reporting here, a long interval with no angle or distance, or aggressive power-save, is the usual cause of "missing mileage" and cut-corner complaints.
+* The freeze options are the fix for parked-vehicle drift. Enable them if a stationary vehicle appears to move.
+* This block controls how the device reports. It does not change when the device is marked offline (see [Connection state](../connectivity/connection-state.md)).
 
 ## See also
 
-* [Connection state](../connectivity/connection-state.md), the offline-timeout threshold.
+* [Connection state](../connectivity/connection-state.md): the offline-timeout threshold.
 * [Sleep mode](../device-specific-controls/power-management/sleep-mode.md): sleep and charging controls that overlap with power-save.
-* [Parking detection](parking-detection.md), how parking and trips are determined.
+* [Parking detection](parking-detection.md): how parking and trips are determined.

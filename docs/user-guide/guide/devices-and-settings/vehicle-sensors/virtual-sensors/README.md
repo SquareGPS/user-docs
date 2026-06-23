@@ -8,7 +8,7 @@ Virtual sensors allow you to process telemetry data more effectively. By mapping
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt="Virtual sensor interface"><figcaption><p>Virtual sensor interface</p></figcaption></figure>
 
-## Appears when
+## Availability
 
 Available when the device has inputs or states to derive values from. Each device supports up to 100 virtual sensors.
 

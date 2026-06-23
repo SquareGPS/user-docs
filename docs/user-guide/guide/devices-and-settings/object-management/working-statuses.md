@@ -4,9 +4,7 @@ description: Create and manage working status lists for field employees. Assign 
 
 # Working statuses
 
-## Purpose
-
-The **Working statuses** block attaches a set of selectable work states to the device (e.g. *Available*, *In service*, *Maintenance*) that drivers or operators can switch between. This block assigns a shared **status list** to the device. The lists themselves are managed in a dialog.
+Attaches a set of selectable work states to the device (e.g. *Available*, *In service*, *Maintenance*) that drivers or operators can switch between. This block assigns a shared **status list** to the device. The lists themselves are managed in a dialog.
 
 ## Working statuses
 
@@ -20,11 +18,11 @@ You can allow the status to be changed by different people:
 
 **By manager**: the status can be changed by the operator in the **X-GPS Monitor** app.
 
-## Appears when
+## Availability
 
 Appears when the account's plan includes the working-statuses feature.
 
-## Gotchas
+## Limitations
 
-* Status lists are **shared objects**: This block only assigns one to the device.
+* Status lists are shared objects: This block only assigns one to the device.
 * Clearing the list removes status selection for that device.

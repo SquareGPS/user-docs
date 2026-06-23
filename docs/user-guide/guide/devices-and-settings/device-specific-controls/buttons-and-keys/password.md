@@ -4,9 +4,7 @@ description: Issue a time-limited unlock code for a GPS device in Navixy with th
 
 # Password
 
-## Purpose
-
-The **Password** block issues a time-limited unlock code for the device. The code expires automatically after the duration you set.
+Issues a time-limited unlock code for the device. The code expires automatically after the duration you set.
 
 ## Settings
 
@@ -14,7 +12,7 @@ The **Password** block issues a time-limited unlock code for the device. The cod
 * **Password**: the temporary unlock code.
 * **Unlock**: sends the unlock command to the device.
 
-## Appears when
+## Availability
 
 Appears on device models that support a temporary unlock password.
 

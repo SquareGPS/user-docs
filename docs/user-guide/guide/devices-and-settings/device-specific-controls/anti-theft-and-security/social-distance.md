@@ -4,9 +4,7 @@ description: Configure the Social distance block in Navixy so the device reports
 
 # Social distance
 
-## Purpose
-
-The **Social distance** block uses Bluetooth proximity to report when another tagged device stays within a set distance for longer than a set time.
+Uses Bluetooth proximity to report when another tagged device stays within a set distance for longer than a set time.
 
 ## Settings
 
@@ -14,7 +12,7 @@ The **Social distance** block uses Bluetooth proximity to report when another ta
 * **Distance**: the proximity threshold.
 * **Duration threshold (seconds)**: how long the proximity must last before an event is reported.
 
-## Appears when
+## Availability
 
 Appears on a small number of device models that support Bluetooth proximity detection.
 

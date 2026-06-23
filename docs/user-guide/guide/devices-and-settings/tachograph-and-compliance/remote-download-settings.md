@@ -4,9 +4,7 @@ description: Configure automatic tachograph downloads in Navixy with the Remote 
 
 # Remote download settings
 
-## Purpose
-
-The **Remote download settings** block configures automatic, scheduled tachograph downloads on devices that support remote download. It stores the company card number and how often the vehicle unit and driver card data are collected.
+Configures automatic, scheduled tachograph downloads on devices that support remote download. It stores the company card number and how often the vehicle unit and driver card data are collected.
 
 ## Settings
 
@@ -14,7 +12,7 @@ The **Remote download settings** block configures automatic, scheduled tachograp
 * **Vehicle unit download interval**: how often vehicle unit data is downloaded automatically.
 * **Driver card download interval**: how often driver card data is downloaded automatically.
 
-## Appears when
+## Availability
 
 Appears on tachograph devices that support remote, scheduled downloads.
 

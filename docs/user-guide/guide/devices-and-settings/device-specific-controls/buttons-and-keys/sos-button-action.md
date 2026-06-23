@@ -4,16 +4,14 @@ description: Configure the SOS button action in Navixy so an SOS press sends an 
 
 # SOS button action
 
-## Purpose
-
-The **SOS button action** block sets what happens when the device's SOS button is pressed.
+Sets what happens when the device's SOS button is pressed.
 
 ## Settings
 
 * **Mode**: choose **Send alert only**, or **Make call to phone number and send alert**.
 * **Phone number**: the number to call when the calling mode is selected.
 
-## Appears when
+## Availability
 
 Appears on device models that have an SOS button.
 
