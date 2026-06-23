@@ -1,5 +1,8 @@
 ---
-description: "Add and configure sensors in Navixy: discrete, measurement, virtual, and manufacturer-specific. Monitor fuel, temperature, engine diagnostics, and more."
+description: >-
+  Add and configure sensors in Navixy: discrete, measurement, virtual, and
+  manufacturer-specific. Monitor fuel, temperature, engine diagnostics, and
+  more.
 ---
 
 # Vehicle sensors
@@ -30,7 +33,7 @@ To manage your sensors, you can use the following buttons:
 
 ### Sensor types
 
-<table data-view="cards"><thead><tr><th>Type</th><th>What it's for</th><th data-card-target data-type="content-ref">Link</th></tr></thead><tbody><tr><td><strong>Discrete sensors</strong></td><td>Binary states like ignition, doors, or alarm on or off.</td><td><a href="discrete-sensors/">discrete-sensors</a></td></tr><tr><td><strong>Measurement sensors</strong></td><td>Continuous values like fuel level, temperature, or RPM.</td><td><a href="measurement-sensors/">measurement-sensors</a></td></tr><tr><td><strong>Aggregation sensors</strong></td><td>Combine several sensors into one value by average or sum.</td><td><a href="aggregation-sensors.md">aggregation-sensors.md</a></td></tr><tr><td><strong>Virtual sensors</strong></td><td>Computed values derived from another input or state.</td><td><a href="virtual-sensors/">virtual-sensors</a></td></tr><tr><td><strong>Specialized sensors by manufacturer</strong></td><td>Galileosky, Teltonika, and CalAmp-specific sensors.</td><td><a href="specialized-sensors-by-manufacturer/">specialized-sensors-by-manufacturer</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Type</th><th>What it's for</th><th data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Discrete sensors</h4></td><td>Binary states like ignition, doors, or alarm on or off.</td><td><a href="discrete-sensors/">discrete-sensors</a></td></tr><tr><td><h4>Measurement sensors</h4></td><td>Continuous values like fuel level, temperature, or RPM.</td><td><a href="measurement-sensors/">measurement-sensors</a></td></tr><tr><td><h4>Aggregation sensors</h4></td><td>Combine several sensors into one value by average or sum.</td><td><a href="aggregation-sensors.md">aggregation-sensors.md</a></td></tr><tr><td><h4>Virtual sensors</h4></td><td>Computed values derived from another input or state.</td><td><a href="virtual-sensors/">virtual-sensors</a></td></tr><tr><td><h4>Specialized sensors by manufacturer</h4></td><td>Galileosky, Teltonika, and CalAmp-specific sensors.</td><td><a href="specialized-sensors-by-manufacturer/">specialized-sensors-by-manufacturer</a></td></tr></tbody></table>
 
 ### Copying sensor settings
 
