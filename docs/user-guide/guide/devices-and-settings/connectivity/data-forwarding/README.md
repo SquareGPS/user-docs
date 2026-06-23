@@ -35,7 +35,7 @@ In this block, you can:
 * Link one or more retranslators to a device.
 * Specify the ID used when sending data (by default, the same ID as the device itself is used).
 * Unlink retranslators from the device.
-* Create new and edit existing retranslators by clicking the "Protocols" button.
+* Create new and edit existing retranslators by clicking the **Protocols** button.
 
 ### Retranslators management
 

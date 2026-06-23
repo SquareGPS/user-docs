@@ -4,7 +4,7 @@ description: Tune the LBS search radius for cellular and Wi-Fi positioning in Na
 
 # LBS detection radius
 
-Tunes cellular/Wi-Fi-based positioning, used as a fallback when GPS isn't available. It sets how far the platform will trust a base-station or Wi-Fi fix to pinpoint the device.
+Tunes cellular/Wi-Fi-based positioning, used as a fallback when GPS isn't available. It sets how far the Navixy platform trusts a base-station or Wi-Fi fix to pinpoint the device.
 
 ![](../../../.gitbook/assets/image-20240815-180931.png)
 

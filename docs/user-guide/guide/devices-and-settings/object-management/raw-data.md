@@ -4,7 +4,7 @@ description: Download parsed telemetry data from any GPS device as a CSV file. U
 
 # Raw data
 
-The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS device on the platform in CSV format. This feature is essential for device diagnostics, data analytics, and integrating data with AI and ML programs.
+The raw data export tool in Navixy allows you to download parsed and decoded data from any GPS device on the Navixy platform in CSV format. This feature is essential for device diagnostics, data analytics, and integrating data with AI and ML programs.
 
 <figure><img src="../../../.gitbook/assets/{5DEF2F7D-8031-487A-85D7-1EB6ED30317D}.png" alt="Raw data block"><figcaption><p>Raw data block</p></figcaption></figure>
 
@@ -25,9 +25,9 @@ Appears for users with device-edit rights, where the deployment has the raw-data
 
 ## How to use raw data export
 
-Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** block. This will open the **Raw data export** tool. Choose the date range, timezone, and parameters that must be included in the CSV file.
+Start by going to the **Devices and settings** module and locating the device. Then click the **Export data** button in the **Raw data** block. This opens the **Raw data export** tool. Choose the date range, timezone, and parameters that must be included in the CSV file.
 
-To avoid accidental window closing, the **Raw data export** tool can only be closed by clicking **X** in the top-right corner. Additionally, if you haven't switched devices or refreshed the page, the tool will remember your previously selected settings. This feature makes it easy to review GPS device or sensor settings, return, and continue working.
+To avoid accidental window closing, the **Raw data export** tool can only be closed by clicking **X** in the top-right corner. Additionally, if you haven't switched devices or refreshed the page, the tool remembers your previously selected settings. This feature makes it easy to review GPS device or sensor settings, return, and continue working.
 
 ### Selecting a date range
 

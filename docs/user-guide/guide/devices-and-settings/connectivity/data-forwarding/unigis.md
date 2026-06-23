@@ -25,7 +25,7 @@ Using the Unigis protocol, users can integrate with self-service chains and/or s
 
 ### Unigis general technical information
 
-The Unigis protocol utilizes SOAP to send XML data from tracking devices to Unigis over HTTP as part of the OSI application layer. Data is pushed from the Navixy platform to Unigis every 5 minutes.
+The Unigis protocol uses SOAP to send XML data from tracking devices to Unigis over HTTP as part of the OSI application layer. Data is pushed from the Navixy platform to Unigis every 5 minutes.
 
 Data that’s sent to Unigis:
 
@@ -47,16 +47,16 @@ Format: ASCII
 
 #### Setting up
 
-To initiate data forwarding using the Unigis protocol from Navixy, you will need the following parameters:
+To initiate data forwarding using the Unigis protocol from Navixy, you need the following parameters:
 
 <table><thead><tr><th width="281.6363525390625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Destination server address and port</td><td>URL of endpoint and port that is used by Ungis TMS.<br><br>Most commonly:<br><br>* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx<br>* Port: 80</td></tr><tr><td>Login and password</td><td>Your Unigis login and password</td></tr><tr><td>External ID</td><td>License plate number of an individual vehicle</td></tr></tbody></table>
 
 To set up data forwarding in the Unigis protocol:
 
-1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
+1. Open the device settings from the main menu by clicking the gear icon on the bottom left of the screen.
 2. Click the **Data forwarding** block.
 3. Click Protocols.
-4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 
 For the Unigis protocol, input the following information:
 
@@ -76,7 +76,7 @@ Next, add the ID of the device in the 3rd-party system either by clicking the pe
 
 #### Managing
 
-To edit or stop data from being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, follow these steps:
 
 1. Select the **Pencil** icon or click in the associated box to edit the external ID used to point to the device on the 3rd party system.
 2. Click the **Trash** button to stop the data forwarding.
@@ -88,7 +88,7 @@ To edit or stop data from being forwarded, please refer to the following steps:
 
 #### Troubleshooting
 
-If data does not display on the 3rd-party Unigis system, please make sure that:
+If data doesn't display on the 3rd-party Unigis system, make sure that:
 
 * Username and password for Unigis are correctly entered
 * URL was entered correctly

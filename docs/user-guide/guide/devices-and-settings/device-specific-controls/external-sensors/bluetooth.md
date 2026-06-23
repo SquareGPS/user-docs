@@ -4,12 +4,13 @@ description: Manage the Bluetooth connection on a GPS device in Navixy with the 
 
 # Bluetooth
 
-Manages the device's Bluetooth connection, used to pair accessories such as a driver-identification key.
+Manages the device's Bluetooth connection for driver identification. The device identifies the driver by their phone over Bluetooth when the ignition is switched on.
 
 ## Settings
 
 * **Enable or disable Bluetooth**: turn the device's Bluetooth radio on or off.
-* **Write or clear**: store or remove the paired accessory on the device.
+* **Add phone**: store a phone's Bluetooth address on the device for driver identification.
+* **Clear phone list**: remove all paired phones from the device.
 
 ## Availability
 

@@ -12,21 +12,21 @@ Available on Teltonika devices paired with Eye BLE sensors.
 
 ## Sensor configuration on a device
 
-To configure data transmission from the sensor to the platform, we recommend using the [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_Introduction). Make sure to [download the version](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions) that corresponds to the current firmware and device model. Once you've downloaded and launched the configurator, navigate to the system settings and select the **Codec 8 Extended** data protocol.
+To configure data transmission from the sensor to the Navixy platform, use the [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_Introduction). Make sure to [download the version](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions) that corresponds to the current firmware and device model. Once you've downloaded and launched the configurator, navigate to the system settings and select the **Codec 8 Extended** data protocol.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/1-4.png" alt="Enabling Codec 8 Extended in the Teltonika configurator"><figcaption><p>Enabling Codec 8 Extended in the Teltonika configurator</p></figcaption></figure>
 
-In the Bluetooth 4.0 section, we recommend disabling the **Non-Stop Scan** feature and setting the **Update Frequency** and **Scan Duration** to every 30 seconds. By adjusting these settings, you will experience optimal results for BLE scanning, ensuring reliable and accurate data collection.
+In the Bluetooth 4.0 section, disable the **Non-Stop Scan** feature and set the **Update Frequency** and **Scan Duration** to every 30 seconds. By adjusting these settings, you will experience optimal results for BLE scanning, ensuring reliable and accurate data collection.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/2-4.png" alt="Scan frequency for BLE sensors"><figcaption><p>Scan frequency for BLE sensors</p></figcaption></figure>
 
-Next, select the **Connection #** and set the operating mode to **Advanced**. This will provide access to detailed settings for the sensor. Look for the buttons located in the top right-hand corner and select the **Preset list**. This will enable you to streamline the setup process for the sensor.
+Next, select the **Connection #** and set the operating mode to **Advanced**. This provides access to detailed settings for the sensor. Look for the buttons located in the top right-hand corner and select the **Preset list**. This enables you to streamline the setup process for the sensor.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/3-2.png" alt="Setting the Advanced mode for the sensor and the location of the Preset list button"><figcaption><p>Setting the Advanced mode for the sensor and the location of the Preset list button</p></figcaption></figure>
 
-Once you click the preset list button, a new window will open displaying a selection of available sensors. Simply choose the one that you're currently using, such as the **Eye sensor**. This table will automatically configure all the necessary settings. Afterwards, navigate to the I/O tab to configure data transmission from these sensors within your device packets.
+Once you click the preset list button, a new window opens displaying a selection of available sensors. Choose the one that you're currently using, such as the **Eye sensor**. This table automatically configures all the necessary settings. Afterwards, navigate to the I/O tab to configure data transmission from these sensors within your device packets.
 
-To configure data transmission from these sensors within your device packets, navigate to the I/O tab. Here, you will need to set the appropriate parameters for your desired settings. For example, if your sensor connection number is 1, configure the parameters with the same number. In most cases, it's best to set the priority to Low for parameters that need to be monitored on the platform. It's also important to ensure that all other settings are left at their default values, unless you have changed something previously. In such cases, the recommended settings are as follows:
+To configure data transmission from these sensors within your device packets, navigate to the I/O tab. Here, you need to set the appropriate parameters for your desired settings. For example, if your sensor connection number is 1, configure the parameters with the same number. In most cases, it's best to set the priority to Low for parameters that need to be monitored on the platform. It's also important to ensure that all other settings are left at their default values, unless you have changed something previously. In such cases, the recommended settings are as follows:
 
 * Priority = Low
 * Low level = 0

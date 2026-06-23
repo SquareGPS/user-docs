@@ -27,7 +27,7 @@ Using ILSP, partners can update their information with Navixy data such as vehic
 
 ### ILSP general technical information
 
-The ILSP protocol utilizes the POST method to send JSON data over HTTP to the ILSP servers for further data processing.
+The ILSP protocol uses the POST method to send JSON data over HTTP to the ILSP servers for further data processing.
 
 Data sent to ILSP:
 
@@ -57,15 +57,15 @@ Required Parameters
 
 To set up data forwarding in ILSP protocol:
 
-1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
+1. Open the device settings from the main menu by clicking the gear icon on the bottom left of the screen.
 2. Click the **Data forwarding** block.
 3. Click **Retranslators management**.
-4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 5. For the ILSP protocol, input the following information:
 
 <table><thead><tr><th width="288.18182373046875">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol</td><td>Select the ILSP protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: https://www.ilspservices.com.mx/<br>* Port: 443</td></tr></tbody></table>
 
-6. The **Retranslation management** screen should look similar to the following, with ILSP login and password. Make sure the "Enabled" button is checked and click the "Save" button to complete the process.
+6. The **Retranslation management** screen should look similar to the following, with ILSP login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 
 ![](https://www.navixy.com/wp-content/uploads/2022/10/image-8-600x111.png)
 
@@ -78,7 +78,7 @@ UserId|VehicleLicensePlate|RouteID
 
 #### Managing
 
-To edit or stop data from being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, follow these steps:
 
 1. To stop the data forwarding, click the **Trash** button.
 2. Acknowledge the change via the pop-up.
@@ -89,7 +89,7 @@ To edit or stop data from being forwarded, please refer to the following steps:
 
 #### Troubleshooting
 
-If data does not display on the 3rd-party ILSP system, please check if:
+If data doesn't display on the 3rd-party ILSP system, check if:
 
 * Username and password for ILSP are correctly entered
 * URL was entered correctly

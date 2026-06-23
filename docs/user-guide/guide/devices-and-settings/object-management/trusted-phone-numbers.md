@@ -20,7 +20,7 @@ Available for devices on accounts where the trusted-numbers feature is enabled, 
 
 * The limit is 5 numbers per device.
 * Trusted numbers can be copied to many devices at once, along with label, group, and tags.
-* This controls who may command the device by SMS/USSD: It does not change how the device reports (see [Tracking mode](../location-and-movement/tracking-mode.md)) or its SIM settings (see [Phone number](phone-number.md)).
+* This controls who may command the device by SMS/USSD: It doesn't change how the device reports (see [Tracking mode](../location-and-movement/tracking-mode.md)) or its SIM settings (see [Phone number](phone-number.md)).
 
 ## See also
 

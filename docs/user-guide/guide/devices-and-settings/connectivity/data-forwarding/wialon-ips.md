@@ -49,10 +49,10 @@ Data sent to Wialon IPS:
 
 To set up data forwarding for the Wialon IPS protocol:
 
-1. Open the device settings from the main menu by pressing the “Gear” icon on the bottom left of the screen.
+1. Open the device settings from the main menu by clicking the **Gear** icon on the bottom left of the screen.
 2. Click the **Data forwarding** block.
 3. Click **Retranslators management**.
-4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 5. For the Wialon IPS protocol, input the following information:
 
 * Name
@@ -84,7 +84,7 @@ If receiving data from Wialon IPS, a related Wialon IPS-compatible device will n
 
 #### Managing
 
-To edit or stop data from being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, follow these steps:
 
 1. Click the **Trash** button to stop the data forwarding.
 2. Acknowledge the change in the pop-up.
@@ -95,7 +95,7 @@ To edit or stop data from being forwarded, please refer to the following steps:
 
 #### Troubleshooting
 
-If data does not display on the 3rd-party Wialon IPS system or Navixy platform, please verify:
+If data doesn't display on the 3rd-party Wialon IPS system or Navixy platform, verify:
 
 * The URL was entered correctly with the associated port
 * Retranslator is enabled

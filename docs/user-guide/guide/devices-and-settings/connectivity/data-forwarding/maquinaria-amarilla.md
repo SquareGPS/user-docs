@@ -96,7 +96,7 @@ Add GPS devices
 
 Import [this JSON](https://drive.google.com/file/d/1C45u-A2n3E1wbteuLl_D-dqrxMbHJYGw/view?usp=share_link) into Postman.
 
-Enter the user and token generated previously, along with the fields exactly as registered in your Excel file. The system will generate one of the following response codes:
+Enter the user and token generated previously, along with the fields exactly as registered in your Excel file. The system generates one of the following response codes:
 
 ```
 001 --> STARTING PROCESS
@@ -178,7 +178,7 @@ To edit or stop data forwarding:
 
 ### Troubleshooting
 
-If data does not appear in the **Maquinaria Amarilla** system, verify the following:
+If data doesn't appear in the **Maquinaria Amarilla** system, verify the following:
 
 * The username and token for **Maquinaria Amarilla** are entered correctly.
 * The URL is entered correctly.

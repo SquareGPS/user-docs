@@ -47,7 +47,7 @@ Always, every device has a reporting configuration. The exact fields are determi
 * Because fields are model-driven, configure the concepts (interval, distance, angle, power-save, freeze, or sleep) rather than expecting a fixed form.
 * Under-reporting here, a long interval with no angle or distance, or aggressive power-save, is the usual cause of "missing mileage" and cut-corner complaints.
 * The freeze options are the fix for parked-vehicle drift. Enable them if a stationary vehicle appears to move.
-* This block controls how the device reports. It does not change when the device is marked offline (see [Connection state](../connectivity/connection-state.md)).
+* This block controls how the device reports. It doesn't change when the device is marked offline (see [Connection state](../connectivity/connection-state.md)).
 
 ## See also
 

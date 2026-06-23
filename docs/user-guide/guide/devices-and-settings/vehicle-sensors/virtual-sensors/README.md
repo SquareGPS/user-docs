@@ -4,7 +4,7 @@ description: "Convert raw telemetry into readable indicators in Navixy: map boar
 
 # Virtual sensors
 
-Virtual sensors allow you to process telemetry data more effectively. By mapping board voltage, they can help you calculate engine hours based on set conditions and values. Additionally, they allow you to convert multiple data points from different sensors connected to a device into easier-to-understand indicators such as "hot," "cold," "open" and "closed," regardless of the device's manufacturer or model. This opens up new possibilities for monitoring, tracking and predicting the performance of complex technologies.
+Virtual sensors allow you to process telemetry data more effectively. By mapping board voltage, they can help you calculate engine hours based on set conditions and values. Additionally, they allow you to convert multiple data points from different sensors connected to a device into easier-to-understand indicators such as "hot," "cold," "open" and "closed," regardless of the device's manufacturer or model. This opens up new possibilities for monitoring, tracking, and predicting the performance of complex technologies.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_clvf66ikbi.png" alt="Virtual sensor interface"><figcaption><p>Virtual sensor interface</p></figcaption></figure>
 
@@ -41,11 +41,11 @@ Here, we describe how different calculation methods work. Click on the calculati
 
 ### **Value in range**
 
-This type of virtual sensor helps our customers to keep important parameters such as virtual ignition, temperature, humidity, and fuel level within a specified range.
+This type of virtual sensor helps customers keep important parameters such as virtual ignition, temperature, humidity, and fuel level within a specified range.
 
 Here's how it works:
 
-* If the sensor value is inside the specified boundaries, it is 1 for the platform. And 1 is equal to your A value.
+* If the sensor value is inside the specified boundaries, it is 1 for the Navixy platform. And 1 is equal to your A value.
 * If the sensor value is outside of these frames, the virtual sensor’s value is 0 for the platform. And 0 equals your B value.
 
 ### Example of virtual ignition
@@ -63,7 +63,7 @@ To create this sensor:
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_7qx9prhhxc.png" alt="Example configuration for virtual ignition" width="375"><figcaption><p>Example configuration for virtual ignition</p></figcaption></figure>
 
-Once you set your voltage threshold range, if the incoming on-board value is within that range, the platform will switch the ignition state on. Conversely, if it's outside of that range, it will be switched off. The virtual ignition created using this method will also be taken into account in reports and notifications based on its status. For example, you can use it to generate engine hours reports or alerts for excessive idling.
+Once you set your voltage threshold range, if the incoming on-board value is within that range, the platform switches the ignition state on. Conversely, if it's outside of that range, it is switched off. The virtual ignition created using this method is also taken into account in reports and notifications based on its status. For example, you can use it to generate engine hours reports or alerts for excessive idling.
 
 Additionally, this ignition will be used for trip and parking detection with ignition consideration.
 
@@ -125,7 +125,7 @@ To configure this sensor:
 
 Some devices may be able to read drivers and their iButtons, RFID keys, or equipment connected via Bluetooth sensors to the device. The platform can detect the nearest equipment or driver to the device, and the Virtual Sensor is capable of displaying such names.
 
-The simplest way of identification is through tags: each unit connected to heavy equipment has its own sensor with a tag attached, which is recognized by the platform as a hardware key. When connected to the machine, this key will be sent to the platform and its associated name can be displayed in an understandable manner, similar to how values for PTO were named.
+The simplest way of identification is through tags: each unit connected to heavy equipment has its own sensor with a tag attached, which is recognized by the platform as a hardware key. When connected to the machine, this key is sent to the platform and its associated name can be displayed in an understandable manner, similar to how values for PTO were named.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_vw7hkgdl0n.png" alt="Configuration example for source value calculation method for hardware key or state field sensor reading" width="563"><figcaption><p>Configuration example for source value calculation method for hardware key or state field sensor reading</p></figcaption></figure>
 
@@ -139,7 +139,7 @@ For example, the transmitted value is 011. We must first read this information i
 * 1 displays the status of the driver's door: 0 for closed, 1 for open. Bit 1.
 * 0 indicates the condition of the hood: 0 for closed, 1 for open. Bit 2.
 
-Each position in the parameter displays the value of different vehicle systems. In order to configure and display them, you need to create one sensor separately for each parameter.
+Each position in the parameter displays the value of different vehicle systems. To configure and display them, you need to create one sensor separately for each parameter.
 
 For a sensor that shows the condition of the car hood in our example, you need to
 

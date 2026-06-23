@@ -12,7 +12,7 @@ To activate Engine hours:
 2. Click the **Add engine hours** button.
 3. Choose a data source: ignition or engine hours from the CAN bus.
 4. Set the initial value for engine hours (0 to 99,999,999 hours, up to 2 decimal places).
-5. Press **Save**.
+5. Click **Save**.
 
 {% hint style="warning" %}
 To receive data from the ignition sensor, create it [beforehand](../vehicle-sensors/discrete-sensors/ignition-source.md) as a discrete sensor.

@@ -4,7 +4,7 @@ description: Configure external Bluetooth sensors on a GPS device in Navixy by M
 
 # Bluetooth sensors
 
-Configures external Bluetooth sensors connected to certain device models. These sensors transmit raw data, often just a MAC address and a value, so you map each one here and the platform interprets it correctly. This block pairs with the platform-side [Sensors and buttons](../../vehicle-sensors/) block: saving here creates the corresponding sensors there.
+Configures external Bluetooth sensors connected to certain device models. These sensors transmit raw data, often just a MAC address and a value, so you map each one here and the Navixy platform interprets it correctly. This block pairs with the platform-side [Sensors and buttons](../../vehicle-sensors/) block: saving here creates the corresponding sensors there.
 
 <!-- SCREENSHOT: Bluetooth sensors block, MAC address field and sensor type selector. Annotate: MAC address entry, sensor type dropdown. -->
 

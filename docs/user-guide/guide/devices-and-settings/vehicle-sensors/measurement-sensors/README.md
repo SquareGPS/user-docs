@@ -41,12 +41,12 @@ After all parameters are set, you must enter the calibration data. Learn more ab
 
 Click **Advanced settings** ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/advanced_settings.png) to access additional settings, such as **Ignore values** and **Multiplier**.
 
-* **Ignore values:** Allows you to adjust a "valid" range of raw measurement values. Any values above and below the range will be omitted. For example, this can be used for skipping the fuel sensor's zero values when the ignition is off.
+* **Ignore values:** Allows you to adjust a "valid" range of raw measurement values. Any values above and below the range are omitted. For example, this can be used for skipping the fuel sensor's zero values when the ignition is off.
 * **Multiplier:** Used to correct raw data values from the sensor by multiplying them by some number.
 
 ### **Filtering order**
 
-Please keep in mind that the **Less than** and **More than** restrictions are applied before the **Multiplier.** The entire order of filtering:
+Keep in mind that the **Less than** and **More than** restrictions are applied before the **Multiplier.** The entire order of filtering:
 
 1. Ignore values (**Less than** and **More than**)
 2. **Multiplier**
@@ -60,7 +60,7 @@ The numbers here are given as a sample. You may have other settings, but the pri
 
 ### **Graph**
 
-As you enter data into the table, the graph will be plotted.
+As you enter data into the table, the graph is plotted.
 
 ![](../../../../.gitbook/assets/image-20241118-031012.png)
 
@@ -68,6 +68,6 @@ To confirm your changes, click **Save**.
 
 ### **Raw sensor data storage**
 
-By default, raw sensor data is stored on the platform. This allows users to recalibrate the represented sensor data of the past device sensor history. Whenever the multiplier, maximum ("less than"), minimum ("more than"), or calibration table data are changed, the platform recalculates the history and represents the data according to the new settings. The advantage of this approach is that the user can always recalibrate the table, change the sensor settings, and build a report based on the recalculated data "on the fly".
+By default, raw sensor data is stored on the Navixy platform. This allows users to recalibrate the represented sensor data of the past device sensor history. Whenever the multiplier, maximum ("less than"), minimum ("more than"), or calibration table data are changed, the platform recalculates the history and represents the data according to the new settings. The advantage of this approach is that the user can always recalibrate the table, change the sensor settings, and build a report based on the recalculated data "on the fly".
 
 ![](../../../../.gitbook/assets/image-20241118-031112.png)

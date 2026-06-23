@@ -4,7 +4,7 @@ description: Configure the ignition source for GPS devices that use virtual igni
 
 # Ignition source
 
-This page covers creating an ignition sensor on the platform for devices that use virtual ignition: Derived from the motion sensor or on-board voltage, instead of a direct ignition-cable connection.
+This page covers creating an ignition sensor on the Navixy platform for devices that use virtual ignition: Derived from the motion sensor or on-board voltage, instead of a direct ignition-cable connection.
 
 {% hint style="info" %}
 This is the **platform-side sensor**. To choose *how the device itself* detects ignition (digital input, on-board voltage, or motion), use the [Ignition source](../../location-and-movement/ignition-source.md) under Location and movement.
@@ -16,7 +16,7 @@ Some devices do not allow connecting the ignition cable to the device input to t
 
 When the engine is running, the vehicle's power supply is provided by the vehicle's generator, which typically has a higher voltage than the battery. The voltage is higher and allows the ignition status to be determined.
 
-The ignition detection by the movement sensor is convenient if the device is not connected to the vehicle's onboard electrical system. However, when the vehicle is towed, the ignition will also be detected as the vehicle moves, although the engine will not start.
+The ignition detection by the movement sensor is convenient if the device is not connected to the vehicle's onboard electrical system. However, when the vehicle is towed, the ignition is also detected as the vehicle moves, although the engine doesn't start.
 
 ## Settings
 

@@ -56,7 +56,7 @@ Ensure the vehicle's ignition is on during the download. If the ignition is off,
 Once a download completes, the file can be emailed automatically to the recipients you configure, see [DDD emails](ddd-emails.md).
 
 {% hint style="warning" %}
-Navixy only supports the **download functionality** of DDD files. We do not process them in any way and do not read any data from them. DDD download and retention are legally regulated, in the EU, driver-card data is typically downloaded about monthly and vehicle-unit data about quarterly, with roughly one year of retention.
+Navixy only supports the **download functionality** of DDD files. Navixy doesn't process them in any way and doesn't read any data from them. DDD download and retention are legally regulated, in the EU, driver-card data is typically downloaded about monthly and vehicle-unit data about quarterly, with roughly one year of retention.
 {% endhint %}
 
 ## See also

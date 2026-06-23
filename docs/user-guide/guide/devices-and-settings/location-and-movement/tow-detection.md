@@ -4,7 +4,7 @@ description: Detect unauthorized movement of a parked vehicle with the device's 
 
 # Tow detection
 
-Detects unauthorized movement of a parked vehicle using the device's built-in motion sensor. After the ignition is switched off, the sensor arms and monitors for vibration, impact, or movement. If movement is detected, the device sends an event to the platform, which can notify you via [Rules and notifications](../../events-and-notifications/security/unauthorized-movement.md).
+Detects unauthorized movement of a parked vehicle using the device's built-in motion sensor. After the ignition is switched off, the sensor arms and monitors for vibration, impact, or movement. If movement is detected, the device sends an event to the Navixy platform, which can notify you via [Rules and notifications](../../events-and-notifications/security/unauthorized-movement.md).
 
 ![](../../../.gitbook/assets/image-20240815-214358.png)
 

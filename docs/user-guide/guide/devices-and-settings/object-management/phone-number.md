@@ -4,7 +4,7 @@ description: Set the SIM phone number and APN for a GPS device in Navixy. Needed
 
 # Phone number
 
-Holds the SIM and mobile-data settings for the device's cellular modem. The GSM network connects the device to the platform over GPRS/EDGE and SMS, so the SIM details must be correct for communication and SMS-based commands.
+Holds the SIM and mobile-data settings for the device's cellular modem. The GSM network connects the device to the Navixy platform over GPRS/EDGE and SMS, so the SIM details must be correct for communication and SMS-based commands.
 
 <!-- SCREENSHOT: Phone number block, phone number and APN name/user/password fields, Change phone number button. Annotate: phone field, APN fields, the change/confirm flow. -->
 

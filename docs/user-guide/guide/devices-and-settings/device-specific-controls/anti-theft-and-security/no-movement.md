@@ -4,7 +4,7 @@ description: Configure the No movement block on the device side in Navixy to rep
 
 # No movement
 
-Reports when a device that is expected to move stays stationary. It is configured on the device and reports an event to the platform.
+Reports when a device that is expected to move stays stationary. It is configured on the device and reports an event to the Navixy platform.
 
 ## Settings
 

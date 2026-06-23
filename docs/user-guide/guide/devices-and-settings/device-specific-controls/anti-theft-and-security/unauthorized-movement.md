@@ -4,7 +4,7 @@ description: Detect unauthorized movement of a parked vehicle on the device side
 
 # Unauthorized movement
 
-Arms the device to detect that a parked vehicle has moved and to report an event to the platform. On many devices this works as an auto-geofence: when the ignition is off, the device treats the current position as a parking point and reports an event if the vehicle leaves a set radius.
+Arms the device to detect that a parked vehicle has moved and to report an event to the Navixy platform. On many devices this works as an auto-geofence: when the ignition is off, the device treats the current position as a parking point and reports an event if the vehicle leaves a set radius.
 
 ![](../../../../.gitbook/assets/image-20241118-024806.png)
 

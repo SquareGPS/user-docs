@@ -4,11 +4,17 @@ description: Configure how a GPS device uses its SMS channel in Navixy with the 
 
 # SMS channel usage
 
-Controls how the device uses its SMS channel, for example to send alerts when the battery is low.
+Selects which messages the device sends exclusively via the SMS channel instead of GPRS. This is useful when GPRS is unavailable or unreliable.
+
+{% hint style="info" %}
+Enabling SMS delivery for a message type increases the number of SMS messages the device sends, which may incur additional charges depending on the SIM plan.
+{% endhint %}
 
 ## Settings
 
-* **Low-battery mode**: control whether the device sends SMS alerts on low battery.
+The block shows a list of message types that can be sent via the SMS channel. Available options depend on the device model. The most common option is:
+
+* **Low battery**: send a low-battery alert via SMS.
 
 ## Availability
 

@@ -27,7 +27,7 @@ This data retransmission protocol is ideal for users looking to comply with Simp
 
 ### SimpliRoute general technical information
 
-The SimpliRoute protocol utilizes the POST method to send JSON data over HTTP to the SimpliRoute servers for further data processing.
+The SimpliRoute protocol uses the POST method to send JSON data over HTTP to the SimpliRoute servers for further data processing.
 
 Data sent to SimpliRoute:
 
@@ -50,10 +50,10 @@ Required Parameters
 
 To set up data forwarding for the SimpliRoute protocol:
 
-1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
+1. Open the device settings from the main menu by clicking the gear icon on the bottom left of the screen.
 2. Click the **Data forwarding** block.
 3. Click **Protocols**.
-4. This will open a pop-up where you will input the required parameters by pressing the **+** button.
+4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 5. For the SimpliRoute protocol, input the following information:
 
 <table><thead><tr><th width="243.09088134765625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx<br>* Port: 80</td></tr><tr><td>Protocol</td><td>Select the Simple Route protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: https://k8k5azm77j.execute-api.sa-east-1.amazonaws.com/prod/gps<br>* Port: 443</td></tr></tbody></table>
@@ -67,7 +67,7 @@ To set up data forwarding for the SimpliRoute protocol:
 
 #### Managing
 
-To edit or stop data from being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, follow these steps:
 
 1. Click the **Trash** button to stop the data forwarding.
 2. Acknowledge the change in the pop-up.
@@ -78,8 +78,8 @@ To edit or stop data from being forwarded, please refer to the following steps:
 
 #### Troubleshooting
 
-If data does not display on the 3rd-party SimpliRoute system, please make sure that:
+If data doesn't display on the 3rd-party SimpliRoute system, make sure that:
 
 * URL was entered correctly
 * Retranslator is enabled
-* A GPS device on Navixy is associated with a vehicle on the platform with a valid license plate and VIN
+* A GPS device on Navixy is associated with a vehicle on the Navixy platform with a valid license plate and VIN

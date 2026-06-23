@@ -27,7 +27,7 @@ When developing this protocol, Navixy took into account the needs of large logis
 
 ### Recurso Confiable general technical information
 
-The Recurso Confiable protocol utilizes SOAP to push XML data every 5 minutes over HTTP to Recurso Confiable.
+The Recurso Confiable protocol uses SOAP to push XML data every 5 minutes over HTTP to Recurso Confiable.
 
 Data that’s sent to Recurso Confiable:
 
@@ -62,10 +62,10 @@ Required Parameters
 
 To set up data forwarding in the Recurso Confiable protocol:
 
-1. Open the device settings from the main menu by pressing the gear icon on the bottom left of the screen.
+1. Open the device settings from the main menu by clicking the gear icon on the bottom left of the screen.
 2. Click the **Data forwarding** block.
 3. Click **Protocols.**
-4. This will open a pop-up where you will input the required parameters by pressing the + button.
+4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 5. For the Recurso Confiable protocol, input the following information:
 
 <table><thead><tr><th width="236.54541015625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol and login</td><td>Select the Recurso Confiable protocol from the dropdown<br>Use Recurso Confiable login and password</td></tr><tr><td>Destination server address and port</td><td>Address: http://gps.rcontrol.com.mx/Tracking/wcf/RCService.svc<br>Port: 80</td></tr></tbody></table>
@@ -104,7 +104,7 @@ ABC123||123|
 
 #### Managing
 
-To edit or stop data from being forwarded, please refer to the following steps:
+To edit or stop data from being forwarded, follow these steps:
 
 1. Select the **Pencil** icon or click in the associated box to edit the external ID used to point to the device on the 3rd party system.
 2. Click the **Trash** button to stop the data forwarding.
@@ -116,7 +116,7 @@ To edit or stop data from being forwarded, please refer to the following steps:
 
 #### Troubleshooting
 
-If data does not display on the 3rd-party Recurso Confiable system, please make sure that:
+If data doesn't display on the 3rd-party Recurso Confiable system, make sure that:
 
 * Username and password for Recurso Confiable are correctly entered
 * URL was entered correctly

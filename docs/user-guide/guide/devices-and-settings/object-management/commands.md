@@ -95,7 +95,7 @@ To include live device data in the payload, use the `{{attribute_name}}` syntax.
 {% endcolumns %}
 
 {% hint style="info" %}
-The available attributes depend on the specific device and the data it transmits to the platform. Only attributes actually sent by the device appear in the list. Use the picker to avoid typos or incorrect attribute names.
+The available attributes depend on the specific device and the data it transmits to the Navixy platform. Only attributes actually sent by the device appear in the list. Use the picker to avoid typos or incorrect attribute names.
 {% endhint %}
 
 Click **Save** to store the command. Click **Delete** to remove it.

@@ -146,7 +146,7 @@ To enable/disable a retranslator for a certain device, switch the toggle with th
 
 #### Troubleshooting
 
-In order to verify and test your SOAP request to the platform, it is suggested to use SoapUI which can be found here: [https://www.soapui.org/downloads/soapui/](https://www.soapui.org/downloads/soapui/)
+To verify and test your SOAP request to the Navixy platform, use SoapUI which can be found here: [https://www.soapui.org/downloads/soapui/](https://www.soapui.org/downloads/soapui/)
 
 1. Install Soap UI
 2. From the file menu, select “New SOAP Project”
