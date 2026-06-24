@@ -2,7 +2,7 @@
 description: Map the motion ignition input for Suntech ST4315, ST4410, and ST4215 models in Navixy. Shows how physical inputs map to platform input channels.
 ---
 
-# Mapping the ignition motion input for Suntech devices on Navixy
+# Mapping the ignition motion input for Suntech devices in Navixy
 
 Suntech devices are telemetry equipment used for tracking light and heavy units. It has multiple interfaces for serial equipment connections and various I/O, allowing flexibility in communication with external accessories.
 
@@ -18,13 +18,13 @@ Inputs are set:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdpoH4DjaynqVujHAS-uSzxf5pP8RPllmzEhgZkkMAhMrz7PEOjTwhO5jaGXt_LBlfWi7LIb_LK2dTixxRXz1gV2N7ZYdyRh7sASrsM2mH6sidFgG7l38OV8WHWOI5PDxqIertVYKfYGvfQFL5GSytMqTAm?key=bZs4OqgxBiGnj_EN9_Rr1w)
 
-Ignition status is defined in the Ignition tab. Inputs are set on the input tab, as it is shown above the first input is set as the panic button and second input is set as the door sensor.&#x20;
+Ignition status is defined in the **Ignition** tab. Inputs are set on the input tab, as it is shown above the first input is set as the panic button and second input is set as the door sensor.&#x20;
 
-During the activation of the device in the Navixy platform, in the widget tool, three inputs are displayed, but the ST4513 device only has 2 physical inputs, which may cause confusion and misunderstanding among customers, as they will surely report that the integration has been incorrect.
+During the activation of the device in the Navixy platform, in the device blocks tool, three inputs are displayed, but the ST4315 device only has 2 physical inputs, which may cause confusion and misunderstanding among customers, as they will surely report that the integration has been incorrect.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrx2J_fXjLfrbYWZ-y_E-uhsw2Q7Rs82C8e6SbXEZjxdKA2pdY7lFETiePJtFqIVEerwRLl4IujJTcsDV7otD2Vk0N7OztzBsRLE_62xHtI3wNGQsaRmU8nbCWqPnQlnCvQ9FGTj7oKfoYKWqyWo_vJQ0?key=bZs4OqgxBiGnj_EN9_Rr1w)
 
-However, using Air Console on the Navixy platform, you can visualize the input data sent by the device.&#x20;
+However, using Air Console in the Navixy platform, you can visualize the input data sent by the device.&#x20;
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_rqbOr66Y4jIMKeCIHMBdDmo_4t9hUnkXPrZh7idgCfdStuBmdiTNmQFIAYZT0_mARCCra7jYuMe1CAa1dbKy7ZovGU1Lkt9gpuAKTioL3golhx8L1BNKZnAV8BZ7XSkmVzcIr0KdAnpmShIMLBvdt0sV?key=bZs4OqgxBiGnj_EN9_Rr1w)
 
@@ -32,7 +32,7 @@ Based on Suntech's protocol the three initial bits are the input status bits:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfak3KPedsXDCFX8DHPFLUC1t_aBuqLbdB7glQPT_305EudL66aailkyq4GvV9UR3Y3BfKYegr8OxLYIbf6erirftuARohxk9brM5TtvU7KiJDxFE4qFMGLPdy0MhBHyxcRjFsR6W2GOn4GQLzQl8oZDhVm?key=bZs4OqgxBiGnj_EN9_Rr1w)
 
-In the Air Console we can make sure which bits are active and how we would expect to see them in Navixy Widget.&#x20;
+In Air Console, we can make sure which bits are active and how we would expect to see them in Navixy UI.&#x20;
 
 By creating the digital sensors in device settings under the previous configuration, it is shown the change of state of each of these.&#x20;
 

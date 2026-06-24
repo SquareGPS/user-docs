@@ -8,7 +8,7 @@ Navixy makes it effortless to connect your GPS and IoT devices — no matter the
 
 Whether you’re using a Teltonika in South America, a Queclink in Asia, or a custom-built sensor network, Navixy’s platform unifies them all into one seamless system. Our device-agnostic architecture ensures you can focus on outcomes, not compatibility headaches.
 
-### One universal language: The Navixy Generic Protocol (NGP)
+### One universal language: the Navixy Generic Protocol (NGP)
 
 At the heart of Navixy’s integration power is NGP, the [Navixy Generic Protocol](https://www.navixy.com/iot-logic/navixy-generic-protocol/) — our open, universal “language” for telematics data.
 
@@ -21,7 +21,7 @@ If your device sends data — chances are, it already integrates with Navixy.
 
 And if it doesn’t yet, our IoT Gateway can translate any proprietary protocol into NGP, preserving your existing hardware investments while modernizing your data pipeline .
 
-### Connect everything — From OEM Telematics to IoT Sensors
+### Connect everything: from OEM telematics to IoT sensors
 
 Navixy integrates OEM modules, aftermarket devices, and next-gen IoT sensors in one interface.
 
@@ -70,7 +70,7 @@ And because our system is protocol-extensible, it’s ready for whatever comes n
 
 In short: Navixy grows as your business grows .
 
-### Join the Navixy Ecosystem
+### Join the Navixy ecosystem
 
 We work closely with leading device manufacturers and IoT innovators worldwide. Our open APIs, SDKs, and developer documentation make it simple to build integrations or bring new devices to market faster.
 

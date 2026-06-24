@@ -1,18 +1,18 @@
 ---
-description: "Actual fuel consumption from flow meters in Navixy: compare recorded usage against manufacturer specifications and calculate operating costs per vehicle."
+description: 'Actual fuel consumption from flow meters in Navixy: compare recorded usage against manufacturer specifications and calculate operating costs per vehicle.'
 ---
 
 # Fuel consumption report
 
 The report displays statistics on fuel consumption for a certain period, based on data from the flow meters installed in the vehicle. Unlike the previous report, it does not show the fuel level at a certain point in time from conventional fuel sensors, but only the consumption from flow meters. For example, CAN: fuel consumption.
 
-This report provides similar information as the fuel report in the consumption section, but works using data from a different type of sensor and solves the following problems
+This report provides similar information as the fuel report in the consumption section, but works using data from a different type of sensor and solves the following problems:
 
-* To record the actual fuel consumption of vehicles and compare it with the manufacturer's stated fuel consumption.
-* To calculate depreciation on transportation of goods and cargo, which will be useful for logistics companies and any business to calculate the cost price of goods.
-* To calculate employee payments for fuel and lubricants if they operate their own vehicles.
-* To record the fuel consumption of units. For example, generator sets.
-* To account for the dispensing of fuel to vehicles on the base.
+- To record the actual fuel consumption of vehicles and compare it with the manufacturer's stated fuel consumption.
+- To calculate depreciation on transportation of goods and cargo, which will be useful for logistics companies and any business to calculate the cost price of goods.
+- To calculate employee payments for fuel and lubricants if they operate their own vehicles.
+- To record the fuel consumption of units. For example, generator sets.
+- To account for the dispensing of fuel to vehicles on the base.
 
 {% hint style="info" %}
 To create a comprehensive report, utilize Navixy API and leverage the capabilities of plugin 78.
@@ -22,17 +22,17 @@ To create a comprehensive report, utilize Navixy API and leverage the capabiliti
 
 In order to get the information in the report you need to:
 
-* The device for which the reading of the flow meter sensor on the platform is supported. You can specify whether reading of fuel level from a particular type of sensor is supported in the [list of supported inputs for any model.](https://www.navixy.com/devices)
-* Data from the device and the flow meter sensor. In order to provide the most accurate fuel consumption information, data must flow without interruption.
+- The device for which the reading of the flow meter sensor on the platform is supported. You can specify whether reading of fuel level from a particular type of sensor is supported in the [list of supported inputs for any model.](https://www.navixy.com/devices)
+- Data from the device and the flow meter sensor. In order to provide the most accurate fuel consumption information, data must flow without interruption.
 
 ## Report Parameters
 
 The following parameters are used in the report:
 
-* Detail by dates - show fuel movement totals by dates.
-* Show General Report - allows you to enable or disable the page with general information on all devices.
-* Show only total report - will display only one page with summary information about fuel consumption for the period.
-* Use a smart filter - short trips under 300 meters and less than 4 points will not be counted to calculate total mileage.
+- Detail by dates - show fuel movement totals by dates.
+- Show General Report - allows you to enable or disable the page with general information on all devices.
+- Show only total report - will display only one page with summary information about fuel consumption for the period.
+- Use a smart filter - short trips under 300 meters and less than 4 points will not be counted to calculate total mileage.
 
 Only devices with a sensor with the flow meter type installed will be available for selection.
 
@@ -46,23 +46,23 @@ The table contains all information about fuel consumption by sensor. If there ar
 
 The information is organized in the following columns:
 
-* Date
-* GPS and flow rate data
-  * Mileage, km - total mileage for the day or for the whole period for the total.
-  * Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
-  * consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/fleet-management/vehicles) card.
-* Flow meter data
-  * Initial reading, l - total fuel consumption according to the sensor at the beginning of the day.
-  * End reading, l - total fuel consumption according to the sensor at the end of the day.
-  * Consumption, l - actual consumption for the day, based on the difference between the final and initial readings.
-  * Consumption, l/100km - actual fuel consumption of the vehicle per 100 km.
-  * `(initial fuel level - final fuel level)/mileage * 100`
+- Date
+- GPS and flow rate data
+  - Mileage, km - total mileage for the day or for the whole period for the total.
+  - Normal consumption, l - how many liters the vehicle would consume if it consumed fuel as specified by the factory.
+  - consumption rate, l/100 km - vehicle consumption rate specified by the factory. It is taken by the platform from the [vehicle](https://app.gitbook.com/s/446mKak1zDrGv70ahuYZ/guide/fleet-management/vehicles) card.
+- Flow meter data
+  - Initial reading, l - total fuel consumption according to the sensor at the beginning of the day.
+  - End reading, l - total fuel consumption according to the sensor at the end of the day.
+  - Consumption, l - actual consumption for the day, based on the difference between the final and initial readings.
+  - Consumption, l/100km - actual fuel consumption of the vehicle per 100 km.
+  - `(initial fuel level - final fuel level)/mileage * 100`
 
-**Raws**
+**Rows**
 
 The information from the first line can be read like this:
 
-* On September 1, 2023, the vehicle was driven 546.69 km. Total fuel consumption at the beginning of the day was 108493.9 liters and at the end of the day the reading was 108708.4 liters. Actual fuel consumption was 214.5 liters and the fuel consumption rate was 39.24 liters.
+- On September 1, 2023, the vehicle was driven 546.69 km. Total fuel consumption at the beginning of the day was 108493.9 liters and at the end of the day the reading was 108708.4 liters. Actual fuel consumption was 214.5 liters and the fuel consumption rate was 39.24 liters.
 
 **Total**
 

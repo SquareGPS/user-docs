@@ -2,12 +2,12 @@
 description: "Reference for the CSV raw data file structure exported from Navixy: parameter types, event IDs, and how to interpret GPS, sensor, and state fields."
 ---
 
-# Columns in CSV File
+# Columns in CSV file
 
 The data warehouse tool enables you to export a raw data file containing all packets received from your device, without any filtering or calculations made on the platform side. These parameters represent information initially decoded from your device's packet in protocol related format, presented in a human-readable way. You don’t need to know the protocol to read and check the information in these packets.
 
 {% hint style="info" %}
-To learn how to download this information, you can refer to our [previous article](./). Here, we aim to explore further how to read this file and interpret various columns within it.
+To learn how to download this information, you see [Save IoT data to CSV file](./README.md). Here, we aim to explore further how to read this file and interpret various columns within it.
 {% endhint %}
 
 ## Opening a file
@@ -15,7 +15,7 @@ To learn how to download this information, you can refer to our [previous articl
 The filename always contains the following:
 
 * Device ID: The device ID number, often representing its IMEI.
-* Device’s label on the platform: A label to facilitate file searching.
+* Device’s label on the platform: A label to help file searching.
 * From and to time: Representing the start and end of the file in the format day\_month\_year\_hours\_minutes\_AM/PM.
 * Timezone in UTC format.
 
@@ -23,7 +23,7 @@ You can open the raw data file with any text editor, such as WordPad, Notepad++,
 
 ## Raw data parameters
 
-The file will include selected parameters in columns, along with one consistent entry - msg\_time.
+The file includes selected parameters in columns, along with one consistent entry, msg\_time.
 
 ![](../../../.gitbook/assets/image-20240209-073506.png)
 
@@ -33,31 +33,31 @@ These parameters can be categorized as simple or complex.
 
 Simple parameters provide full names and mainly represent specific tracking information.
 
-* `msg_time`: Time when the tracker recorded a point. Always included in CSV output. Indicated according to the chosen time zone.
+* `msg_time`: Time when the GPS device recorded a point. Always included in CSV output. Indicated according to the chosen time zone.
 * `server_time`: Time of message receipt by the server. Indicated according to the chosen time zone.
 * `gps_fix_type`
-  * NO\_FIX: GPS tracker marked location as not valid.
-  * HAS\_FIX: GPS tracker marked location as valid.
-  * LAST\_KNOWN\_POSITION: In case the tracker provides current input and other states within the last known location.
+  * NO\_FIX: GPS device marked location as not valid.
+  * HAS\_FIX: GPS device marked location as valid.
+  * LAST\_KNOWN\_POSITION: In case the GPS device provides current input and other states within the last known location.
   * UNKNOWN: If a device can't provide such information or didn't determine GPS fix type for this packet.
 * `lat`: Location latitude.
 * `lng`: Location longitude.
-* `speed`: Speed determined by the tracker in km/h. In most cases, it is speed determined by device’s GPS.
+* `speed`: Speed determined by the GPS device in km/h. In most cases, it is speed determined by device’s GPS.
 * `alt`: Location altitude in meters.
-* `satellites`: Number of connected satellites at that moment; `-1` means unknown and, in most cases, represents an LBS location point.
+* `satellites`: Number of connected satellites at that moment. `-1` means unknown and, in most cases, represents an LBS location point.
 * `heading`: Object heading in degrees where 0 represent North.
 * `precision`: Location precision in meters.
-* `hdop`: Horizontal dilution of precision - represents the accuracy of GPS tracker’s horizontal position estimates. Values range from 1 (excellent) to above 20 (poor). Values between 1 and 2 are considered good for most navigational purposes. `-1` means unknown.
-* `pdop`: Position dilution of precision - indicates the accuracy of a GPS tracker's position based on the geometry of the satellites in relation to the tracker. Lower PDOP values mean better satellite positioning, leading to more accurate location data, but `-1` means unknown.
+* `hdop`: Horizontal dilution of precision, represents the accuracy of GPS device’s horizontal position estimates. Values range from 1 (excellent) to above 20 (poor). Values between 1 and 2 are considered good for most navigational purposes. `-1` means unknown.
+* `pdop`: Position dilution of precision, indicates the accuracy of a GPS device's position based on the geometry of the satellites in relation to the GPS device. Lower PDOP values mean better satellite positioning, leading to more accurate location data, but `-1` means unknown.
 * `mn_name`: Mobile network name. Determined by the device.
 * `mn_roaming`: Roaming status. Is determined by the device.
   * `0` means no roaming,
   * `1` means this point was generated by a device in roaming,
-  * If the device can't provide such data or couldn't do it for this particular message, it will be `-1` (unknown).
+  * If the device can't provide such data or couldn't do it for this particular message, it is `-1` (unknown).
 * `mn_code`: Mobile network operator code. Determined by the device.
-* `mn_csq`: Mobile network signal strength, CSQ, values from 0 to 31. Determined by the device. If the device can't provide such data or couldn't do it for this particular message, it will be `99` (unknown).
+* `mn_csq`: Mobile network signal strength, CSQ, values from 0 to 31. Determined by the device. If the device can't provide such data or couldn't do it for this particular message, it is `99` (unknown).
 * `mn_type`: Mobile network type. Is determined by the device.
-  * If the device can't provide such data or couldn't do it for this particular message, it will be `UNKNOWN`
+  * If the device can't provide such data or couldn't do it for this particular message, it is `UNKNOWN`
   * `GSM`: If the device determined GSM type.
   * `CDMA`: If the device determined CDMA type.
   * `WCDMA`: If the device determined WCDMA type.
@@ -216,4 +216,4 @@ Complex parameters include both the group name and specific name. They are categ
 * `inputs`: Represents data from different sensors, such as fuel or various measuring sensors. Each input is in a separate column, and the list of inputs depends on the device model.
 * `states`: Displays values from state parameters. Most of them can be 1 or 0, but some have specific text values like DTC codes.
 
-With these definitions, we hope you'll find it easy to read information in raw data files and utilize them in device troubleshooting and in programs for your customers.
+With these definitions, we hope you'll find it easy to read information in raw data files and use them in device troubleshooting and in programs for your customers.

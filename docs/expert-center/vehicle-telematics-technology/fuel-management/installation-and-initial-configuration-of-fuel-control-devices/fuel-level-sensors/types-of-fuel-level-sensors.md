@@ -6,10 +6,10 @@ description: Float, capacitive, and ultrasonic fuel sensors differ in accuracy a
 
 Fuel sensors are devices designed to make accurate measurements of the fuel level in a vehicle’s tank. According to these measurements a GPS tracking and telematics platform features the following data:
 
-* fuel level in the tank of a vehicle
-* fuel consumption per time period
-* average fuel consumption. e.g. miles per gallon (mpg)
-* fuel refills or drains
+- fuel level in the tank of a vehicle
+- fuel consumption per time period
+- average fuel consumption. e.g. miles per gallon (mpg)
+- fuel refills or drains
 
 Fuel sensors are used on stationary units, such as fuel tanks at gas stations, and on vehicles: cars, locomotives, ships, etc.
 
@@ -17,11 +17,11 @@ Fuel sensors are used on stationary units, such as fuel tanks at gas stations, a
 
 The most common types of fuel sensors are:
 
-* Factory-installed sensors
-  * **Float fuel sensor**
-* Additionally Installed sensors
-  * **Capacitive fuel sensor**
-  * **Ultrasonic sensor**
+- Factory-installed sensors
+  - **Float fuel sensor**
+- Additionally Installed sensors
+  - **Capacitive fuel sensor**
+  - **Ultrasonic sensor**
 
 The floating fuel sensor, which comes pre-installed in vehicles, provides a gauge of the fuel level on the dashboard. However, it's important to note that these sensors only offer an approximate reading and are not highly accurate, with a relative error ranging from 10-20%.
 
@@ -35,19 +35,21 @@ A float fuel sensor is installed into the tank of a vehicle at the factory.
 
 **Operation concept:** A potentiometer is connected to a float, which is used to measure the fuel level. As the fuel level changes, the position of the float also changes, resulting in a corresponding change in resistance. This change in resistance ultimately leads to a change in the output voltage of the sensor. The data collected by the float sensor is then transmitted to the dashboard of a vehicle via:
 
-* a separate wire, analog signal (in the older vehicles)
-* CAN bus, digital signal (in the modern vehicles)
+- a separate wire, analog signal (in the older vehicles)
+- CAN bus, digital signal (in the modern vehicles)
 
 ### Capacitive fuel sensor
 
-Some fleet owners install a Capacitive Sensor in order to monitor fuel consumption and fuel drains.
+Some fleet owners install a Capacitive Sensor to monitor fuel consumption and fuel drains.
 
 {% columns %}
 {% column %}
+
 <figure><img src="../../../../.gitbook/assets/Capacitive-fuel-sensor-Omnicomm.png" alt=""><figcaption><p>Capacitive fuel sensor by Omnicomm</p></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
+
 <figure><img src="../../../../.gitbook/assets/Capacitive-fuel-sensor-design-concept.png" alt=""><figcaption><p>Capacitive fuel sensor design concept</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
@@ -66,10 +68,12 @@ The sensor measures the height of the fuel column in both the tank and the fuel 
 
 {% columns %}
 {% column valign="middle" %}
+
 <figure><img src="../../../../.gitbook/assets/Ultrasonic-fuel-sensor-bottom-mounted.png" alt=""><figcaption><p>Ultrasonic fuel sensor (bottom-mounted)</p></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
+
 <figure><img src="../../../../.gitbook/assets/Ultrasonic-fuel-sensor-top-mounted-probe.png" alt=""><figcaption><p>Ultrasonic fuel sensor (top-mounted probe)</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
@@ -84,10 +88,10 @@ These parameters are sent to the GPS tracker and further to the GPS tracking pla
 
 _However, this technology has a few pitfalls._ First of all, the installation process is typically difficult and requires a few items:
 
-* A special epoxy glue or a metal band is used to connect the sensor to the bottom of the tank. Make sure the sensor adheres perfectly to the tank surface, otherwise ultrasonic signals will be distorted and the measurements will be inaccurate.
-* Should the tank have any baffles (to control the rapid flow of fuel and prevent its sloshing), it may affect the signal and the measurements. This makes choosing the right spot for the sensor even more difficult and is often done in a hit-and-miss fashion.
-* The echo signal can be distorted or lost if the tank shape is too complex. Besides, blisters and pits on the internal surface of the tank can also affect the quality of the measurements. As the result - a greater error.
-* Dirt and water accumulate at the bottom of the tank. Again, it distorts the ultrasonic beam and causes false fluctuations in the fuel level readings.
+- A special epoxy glue or a metal band is used to connect the sensor to the bottom of the tank. Make sure the sensor adheres perfectly to the tank surface, otherwise ultrasonic signals will be distorted and the measurements will be inaccurate.
+- Should the tank have any baffles (to control the rapid flow of fuel and prevent its sloshing), it may affect the signal and the measurements. This makes choosing the right spot for the sensor even more difficult and is often done in a hit-and-miss fashion.
+- The echo signal can be distorted or lost if the tank shape is too complex. Besides, blisters and pits on the internal surface of the tank can also affect the quality of the measurements. As the result, you have a higher chance of an error.
+- Dirt and water accumulate at the bottom of the tank. Again, it distorts the ultrasonic beam and causes false fluctuations in the fuel level readings.
 
 In real-world terms, Ultrasonic fuel sensors are only used for vehicles running on gas, as there are no other options available.
 
@@ -95,8 +99,8 @@ In real-world terms, Ultrasonic fuel sensors are only used for vehicles running 
 
 To select between capacitive and ultrasonic fuel sensor one needs to know:
 
-* tank dimensions (primarily the height)
-* outputs to connect with the tracker
+- tank dimensions (primarily the height)
+- outputs to connect with the tracker
 
 ### Tank dimensions
 
@@ -112,9 +116,9 @@ Different manufacturers of fuel sensors can offer different size ranges, however
 
 One might need to consider a few fuel sensors for one vehicle, if it falls into one of the following cases:
 
-* **The vehicle has two or more fuel tanks.** Generally, a heavy-duty vehicle (a truck or an off-road vehicle) will have two or more fuel tanks. Installing a fuel sensor on each tank will provide a full picture of the fuel level. In a GPS tracking system it can be displayed separately for each sensor and as an aggregate value of all the fuel sensors.
-* **The fuel tank of the vehicle has a complex shape.** As it is often the case with agricultural equipment, a fuel tank might have a customized shape or consist of two different sections. In this case, it requires two or more fuel sensors to provide for precise measurements. The GPS tracking and telematics system will show an average value of all the fuel sensors.
-* **The fuel tank of the vehicle is extra long.** Such tanks can be usually found on campers or trains. In this case, as you can imagine, even minor fluctuations in the tank will affect the sensor readings. Using two sensors and installing them diagonally at the opposite sides will help to eliminate the problem. The GPS tracking system will show an average value of the both fuel sensors. Extra long tanks (long and only 4-6”/ 10-15 cm high) are often used in cars. In this case it might be most efficient to consider fuel level monitoring via CAN-data.
+- **The vehicle has two or more fuel tanks.** Generally, a heavy-duty vehicle (a truck or an off-road vehicle) will have two or more fuel tanks. Installing a fuel sensor on each tank will provide a full picture of the fuel level. In a GPS tracking system it can be displayed separately for each sensor and as an aggregate value of all the fuel sensors.
+- **The fuel tank of the vehicle has a complex shape.** As it is often the case with agricultural equipment, a fuel tank might have a customized shape or consist of two different sections. In this case, it requires two or more fuel sensors to provide for precise measurements. The GPS tracking and telematics system will show an average value of all the fuel sensors.
+- **The fuel tank of the vehicle is extra long.** Such tanks can be usually found on campers or trains. In this case, as you can imagine, even minor fluctuations in the tank will affect the sensor readings. Using two sensors and installing them diagonally at the opposite sides will help to eliminate the problem. The GPS tracking system will show an average value of the both fuel sensors. Extra long tanks (long and only 4-6”/ 10-15 cm high) are often used in cars. In this case it might be most efficient to consider fuel level monitoring via CAN-data.
 
 {% hint style="info" %}
 Fuel tankers have 2 or 3 tanks, each of them having at least 3 sections. For maximum accuracy each tank and each section should be equipped with a fuel level sensor. Make sure, that the sensor has an RS-485 output. An RS-232 won’t provide data for multiple sensors to be connected to the same tracker.
@@ -132,17 +136,17 @@ If a client needs both a fuel sensor and a tracker, we would definitely recommen
 
 Fuel sensor manufacturing (as any other telematics sensors manufacturing) is a very painstaking but profitable process. Fuel sensors are produced by:
 
-* **Sensors and meters manufacturers**, e.g. Siensor, Escort, etc.
-* **GPS tracker manufacturers** – in this case a fuel sensor is a secondary product. Some GPS tracker manufacturers purchase sensors by other companies and brand them as their own.
+- **Sensors and meters manufacturers**, e.g. Siensor, Escort, etc.
+- **GPS tracker manufacturers**: in this case a fuel sensor is a secondary product. Some GPS tracker manufacturers purchase sensors by other companies and brand them as their own.
 
 Currently the most popular fuel sensor developers and manufacturers are:
 
 ### Omnicomm
 
-* **Marketed in:** Eastern Europe, Latin America, and CIS
-* **Exhibited in:** trade shows in UAE, Mexico
-* **Available languages:** English, Spanish, Russian, Portuguese [https://www.omnicomm-world.com/](https://www.omnicomm-world.com/)
-* [Facebook](https://www.facebook.com/OmnicommWorld), [LinkedIn](https://www.linkedin.com/company/omnicomm/)
+- **Marketed in:** Eastern Europe, Latin America, CIS
+- **Exhibited in:** trade shows in UAE, Mexico
+- **Available languages:** English, Spanish, Portuguese [https://www.omnicomm-world.com/](https://www.omnicomm-world.com/)
+- [Facebook](https://www.facebook.com/OmnicommWorld), [LinkedIn](https://www.linkedin.com/company/omnicomm/)
 
 {% hint style="warning" %}
 The sensor models listed below are legacy and may no longer be available. For the current Omnicomm product lineup, visit the [Omnicomm fuel level sensors page](https://omnicomm-world.com/products/hardware/fuel-level-sensors/).
@@ -152,16 +156,16 @@ The sensor models listed below are legacy and may no longer be available. For th
 
 ### Technoton
 
-* **Marketed in:** CIS, Eastern Europe, Latin America, Middle East.
-* **Available languages:** English, Spanish, Russian [https://www.jv-technoton.com](https://www.jv-technoton.com/)
-* [LinkedIn](https://www.linkedin.com/company/technoton/)
+- **Marketed in:** CIS, Eastern Europe, Latin America, Middle East.
+- **Available languages:** English, Spanish [https://www.jv-technoton.com](https://www.jv-technoton.com/)
+- [LinkedIn](https://www.linkedin.com/company/technoton/)
 
 <table data-header-hidden><thead><tr><th width="247"></th><th width="134"></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/Technoton-DUT-E.png" alt="" data-size="original"></td><td>DUT-E</td><td>Digital / Frequency-analogue/CAN-like fuel sensors. Any fuel sensor can come with one of the mentioned outputs<br>Specification: <a href="https://jv-technoton.com/products/dut-e/">Technoton-sensors</a></td></tr><tr><td><img src="../../../../.gitbook/assets/Technoton-DUT-E-2Bio.png" alt=""></td><td>DUT-E 2Bio</td><td>Fuel sensor with automatic detection of fuel brand change (e.g. summer/ winter diesel fuel)<br>Specification: <a href="https://jv-technoton.com/products/dut-e-2bio/">Technoton-sensors</a></td></tr></tbody></table>
 
 ### Escort
 
-* **Marketed:** all over the globe
-* **Available languages:** English, Spanish, Russian [https://escortsensors.com](https://escortsensors.com)
-* [Facebook](https://www.facebook.com/gkeskort/)
+- **Marketed:** all over the globe
+- **Available languages:** English, Spanish [https://escortsensors.com](https://escortsensors.com)
+- [Facebook](https://www.facebook.com/gkeskort/)
 
 <table data-header-hidden><thead><tr><th width="249"></th><th width="135"></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/escort-TD-BLE.png" alt="" data-size="original"></td><td>TD-BLE</td><td>Wireless fuel level sensor<br>Specification: <a href="https://escortsensors.com/product/escort-wireless-fuel-level-sensor-td-ble/">Escort-sensor</a></td></tr><tr><td><img src="../../../../.gitbook/assets/escort-TD-150.png" alt="" data-size="original"></td><td>TD-150</td><td>Fuel sensor with multiple output signals: RS-485, analogue output, frequency output<br>Specification: <a href="https://escortsensors.com/product/fuel-level-sensor-escort-td-150/">Escort-sensor</a></td></tr></tbody></table>

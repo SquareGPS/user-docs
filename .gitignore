@@ -2,3 +2,6 @@
 .claude/
 .idea/
 .internal/
+
+# Style review run artifacts
+docs/expert-center/style-review/
