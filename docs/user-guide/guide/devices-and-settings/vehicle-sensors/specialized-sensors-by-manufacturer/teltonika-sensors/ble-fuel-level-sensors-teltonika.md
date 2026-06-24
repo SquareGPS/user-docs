@@ -1,5 +1,5 @@
 ---
-description: Connect wireless Teltonika Bluetooth fuel sensors to compatible GPS devices to get fuel level, temperature, humidity, and battery data without wiring.
+description: "Add Teltonika BLE fuel sensors to Navixy: select the LLS level input, configure calibration, and monitor fuel, temperature, humidity, and battery charge."
 ---
 
 # BLE fuel level sensors (Teltonika)
@@ -23,7 +23,7 @@ To prepare your Teltonika GPS device for Bluetooth fuel sensor integration, foll
 3. **Run the configurator**:
 
 * Go to the **System** tab.
-* Change the data transfer protocol to **Codec 8 Extended**.
+* Change the data transfer protocol to **Codec 8 Extended** (see the note below for why this is required).
 
 4. **Connect the fuel sensor**:
 

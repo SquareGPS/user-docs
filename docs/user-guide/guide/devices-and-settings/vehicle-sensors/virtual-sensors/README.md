@@ -1,5 +1,5 @@
 ---
-description: "Convert raw telemetry into readable indicators in Navixy: map board voltage, derive ignition, and merge inputs across sensor types."
+description: "Virtual sensors in Navixy convert raw telemetry into plain labels, derive ignition from voltage, and map multi-value device states to readable indicators."
 ---
 
 # Virtual sensors
@@ -45,8 +45,8 @@ This type of virtual sensor helps customers keep important parameters such as vi
 
 Here's how it works:
 
-* If the sensor value is inside the specified boundaries, it is 1 for the Navixy platform. And 1 is equal to your A value.
-* If the sensor value is outside of these frames, the virtual sensor’s value is 0 for the platform. And 0 equals your B value.
+* If the sensor value is inside the specified boundaries (the min/max range you set), Navixy treats it as 1 (meaning the condition is active) and displays your A label.
+* If the sensor value is outside that range, Navixy treats it as 0 (condition is inactive) and displays your B label.
 
 ### Example of virtual ignition
 
@@ -131,22 +131,22 @@ The simplest way of identification is through tags: each unit connected to heavy
 
 ### **Bit index**
 
-Some devices may provide advanced data in their packets, sometimes merging several parameters [into one value](https://www.navixy.com/blog/sensor-parameters-avl/). The Virtual Sensors tool allows you to work with parts of telematics values, thereby decoding the data transmitted by the GPS hardware.
+Some devices may provide advanced data in their packets, sometimes merging several parameters [into one value](https://www.navixy.com/blog/sensor-parameters-avl/). The Virtual Sensors tool allows you to work with individual bits within those combined values, decoding what each position means according to the device's protocol.
 
-For example, the transmitted value is 011. We must first read this information in little-endian according to the protocol:
+For example, the transmitted value is 011. Devices like this encode multiple states into a single number using a bit-by-bit layout read right-to-left (little-endian order, as defined in the device protocol):
 
-* 1 shows the status of the driver's belt: 0 for fastened, 1 for unfastened. Bit 0.
-* 1 displays the status of the driver's door: 0 for closed, 1 for open. Bit 1.
-* 0 indicates the condition of the hood: 0 for closed, 1 for open. Bit 2.
+* Bit 0 (rightmost digit): value 1 means the driver's belt is unfastened (0 = fastened, 1 = unfastened).
+* Bit 1 (middle digit): value 1 means the driver's door is open (0 = closed, 1 = open).
+* Bit 2 (leftmost digit): value 0 means the hood is closed (0 = closed, 1 = open).
 
-Each position in the parameter displays the value of different vehicle systems. To configure and display them, you need to create one sensor separately for each parameter.
+Each bit position encodes a different vehicle system state. To configure and display them, create one virtual sensor for each parameter you want to track.
 
-For a sensor that shows the condition of the car hood in this example, you need to
+For a sensor that shows the condition of the car hood in this example:
 
 1. Set the sensor’s name
 2. Choose the input according to the device’s documentation
-3. Select **Bit index** as the calculation method
-4. Choose bit 2 for this field
+3. Select **Bit index** as the calculation method (this tells Navixy to read a single bit position from the combined value)
+4. Choose bit 2 for this field (the position that encodes the hood state)
 
 Below is an example of a sensor that shows the condition of the car hood.
 

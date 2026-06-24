@@ -1,5 +1,5 @@
 ---
-description: Forward vehicle GPS data from Navixy to ILSP, a private security services platform operating in Mexico. Enables shared vehicle data across ILSP networks.
+description: Push vehicle positioning and alarm events from Navixy to ILSP shared security monitoring centers in Mexico, enabling multi-company data sharing via HTTP.
 ---
 
 # ILSP

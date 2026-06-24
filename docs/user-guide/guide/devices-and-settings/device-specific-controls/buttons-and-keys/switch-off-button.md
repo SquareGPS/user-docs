@@ -1,5 +1,5 @@
 ---
-description: Enable or disable the physical power-off button on a GPS device in Navixy using the Switch off button block. Availability depends on the device.
+description: Prevent drivers or unauthorized users from powering off a GPS device by disabling its physical button in Navixy. The device can only be switched off remotely.
 ---
 
 # Switch off button

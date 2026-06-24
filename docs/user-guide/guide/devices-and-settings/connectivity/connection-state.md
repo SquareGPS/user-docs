@@ -1,5 +1,5 @@
 ---
-description: Set how long a GPS device may stay silent before Navixy marks it offline, so power-saving and low-frequency devices stay accurate.
+description: Control the offline timeout for each device so power-saving and low-frequency trackers stay accurately shown as connected in Navixy.
 ---
 
 # Connection state

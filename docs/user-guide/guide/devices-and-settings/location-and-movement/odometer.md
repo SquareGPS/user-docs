@@ -1,5 +1,5 @@
 ---
-description: Track vehicle mileage in Navixy from GPS or CAN-bus data, set the current value, and apply a correction multiplier for accurate totals.
+description: Set up the odometer data source, match it to the vehicle's actual reading, and apply a correction multiplier to keep mileage totals accurate.
 ---
 
 # Odometer

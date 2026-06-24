@@ -1,5 +1,5 @@
 ---
-description: Track total engine running time in Navixy. Set ignition or CAN bus as the data source, configure an initial value, and schedule maintenance by hours.
+description: Activate engine hours by choosing an ignition or CAN-bus data source and setting an initial value, then use the counter to trigger maintenance reminders.
 ---
 
 # Engine hours

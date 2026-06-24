@@ -11,7 +11,7 @@ Controls how a battery-powered device sleeps to save power. A sleeping device re
 The fields depend on the device. You may see:
 
 * **Sleep conditions**: what triggers sleep mode, engine off, no motion, or no communication from the Navixy platform.
-* **Sleep and deep-sleep durations**: how long a condition must hold before light sleep and deep sleep engage.
+* **Sleep and deep-sleep durations**: how long a condition must hold before the device enters light sleep or deep sleep. Light sleep reduces reporting frequency; deep sleep cuts it further to save more power.
 * **Wake-up intervals**: how often the device wakes to report while in sleep or deep-sleep mode.
 * **Voltage thresholds**: on some models, the battery voltage levels that trigger light or deep sleep.
 * **Stay online on external power**: on some models, a toggle to stay in active mode when the device is connected to external power.

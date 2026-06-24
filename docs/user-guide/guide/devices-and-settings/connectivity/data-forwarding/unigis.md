@@ -1,5 +1,5 @@
 ---
-description: Forward GPS and telematics data from Navixy to the Unigis TMS platform for real-time logistics tracking in large manufacturing and retail operations.
+description: Send GPS and telematics data from Navixy to the Unigis TMS network every 5 minutes via SOAP, integrating fleet data with retail and logistics supply chains.
 ---
 
 # Unigis

@@ -1,5 +1,5 @@
 ---
-description: Forward vehicle tracking data from Navixy to SimpliRoute using its data retransmission protocol for route planning and logistics optimization.
+description: Sync vehicle positions from Navixy to SimpliRoute order management via HTTP JSON, linking live tracker data to delivery routes and orders in Latin America.
 ---
 
 # SimpliRoute

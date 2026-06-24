@@ -1,5 +1,5 @@
 ---
-description: Forward GPS data from Navixy to Recurso Confiable, a security and logistics platform used in Mexico, Colombia, the United States, and Central America.
+description: Transfer GPS tracking data from Navixy to the Recurso Confiable enterprise platform every 5 minutes via SOAP, used across Mexico, Colombia, and Central America.
 ---
 
 # Recurso Confiable

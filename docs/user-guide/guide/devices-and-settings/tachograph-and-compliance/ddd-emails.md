@@ -1,5 +1,5 @@
 ---
-description: Automatically email downloaded digital tachograph DDD files to up to five recipients for archiving and compliance record-keeping.
+description: Add up to five email recipients so downloaded DDD files are delivered automatically after each tachograph download completes.
 ---
 
 # DDD files recipient email

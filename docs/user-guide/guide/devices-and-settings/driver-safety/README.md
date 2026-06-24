@@ -1,7 +1,5 @@
 ---
-description: >-
-  Detect and report harsh acceleration, braking, and cornering from the device
-  in Navixy to power the safety and eco-driving reports.
+description: Configure device-side thresholds for harsh driving events that feed into Navixy Notifications and Eco-driving reports for fleet safety monitoring.
 ---
 
 # Driver safety

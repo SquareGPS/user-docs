@@ -1,10 +1,10 @@
 ---
-description: "Add measurement sensors to GPS devices in Navixy: configure the label, parameter input, sensor type, units, and calibration data for each sensor."
+description: "Add measurement sensors in Navixy to track fuel, temperature, voltage, or RPM. Set the input, units, calibration table, and filtering rules per sensor."
 ---
 
 # Measurement sensors
 
-Measurement sensors turn a device's continuous inputs into meaningful values, such as fuel level, temperature, RPM, or voltage, with units and a calibration table that maps raw readings to real-world quantities.
+Measurement sensors turn a device's continuous inputs into meaningful values, such as fuel level, temperature, RPM, or voltage, with units and a calibration table that maps raw sensor readings (the unprocessed electrical signal the device sends) to real-world quantities.
 
 ## Availability
 
@@ -41,20 +41,20 @@ After all parameters are set, you must enter the calibration data. Learn more ab
 
 Click **Advanced settings** ![Measurement sensor](https://www.navixy.com/wp-content/uploads/2021/10/advanced_settings.png) to access additional settings, such as **Ignore values** and **Multiplier**.
 
-* **Ignore values:** Allows you to adjust a "valid" range of raw measurement values. Any values above and below the range are omitted. For example, this can be used for skipping the fuel sensor's zero values when the ignition is off.
-* **Multiplier:** Used to correct raw data values from the sensor by multiplying them by some number.
+* **Ignore values:** Allows you to adjust a "valid" range of raw measurement values (the unprocessed signal from the device). Any values above and below the range are omitted. For example, this can be used for skipping the fuel sensor's zero values when the ignition is off.
+* **Multiplier:** Used to correct raw data values from the sensor by multiplying them by a fixed number (for example, 0.1 to scale millivolt readings down to volts).
 
 ### **Filtering order**
 
-Keep in mind that the **Less than** and **More than** restrictions are applied before the **Multiplier.** The entire order of filtering:
+Keep in mind that the **Less than** and **More than** restrictions are applied before the **Multiplier.** Navixy processes each incoming sensor value in this fixed order:
 
 1. Ignore values (**Less than** and **More than**)
 2. **Multiplier**
 3. **Calibration table**
 
-For example, incoming raw value is 1000, boundaries are 3000 and 100, multiplier equals 0.2.
+For example, the incoming raw value from the device is 1000, the ignore-values boundaries are 100 (minimum) and 3000 (maximum), and the multiplier is 0.2.
 
-In this case, the value passes through the min/max filter, is multiplied by 0.2 and becomes 200. This is where the calibration table is applied. The table takes 200 as the sensor value (source value) and converts it into the target quantity value to be displayed in the user interface facilities. If an incoming data packet contains sensor data with a value more than 3000, the value doesn't pass the boundaries and is discarded. In this case, no multiplication or calibration apply.
+In this case, the value passes the min/max check, is multiplied by 0.2 and becomes 200. The calibration table then takes 200 as the source value and converts it into the final quantity shown in the platform. If an incoming value exceeds 3000, it is discarded at the boundary step and no multiplication or calibration applies.
 
 The numbers here are given as a sample. You may have other settings, but the principle remains.
 

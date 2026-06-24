@@ -1,5 +1,5 @@
 ---
-description: Configure automatic tachograph downloads in Navixy with the Remote download settings block, setting the company card number and download intervals.
+description: Schedule recurring tachograph data collection for vehicle unit and driver card, and store the company card number to authorize remote downloads.
 ---
 
 # Remote download settings
@@ -8,7 +8,7 @@ Configures automatic, scheduled tachograph downloads on devices that support rem
 
 ## Settings
 
-* **Company card number**: the identifier on the company's tachograph card, used by the device to authenticate remote download requests. Enter the number exactly as it appears on the card.
+* **Company card number**: the identifier on the company's tachograph card, used by the device to verify (authenticate) that the remote download request is authorized. Enter the number exactly as it appears on the card.
 * **Vehicle unit download interval** (days): how often the device's on-board tachograph unit data is pulled automatically. EU regulations require a vehicle unit download at least every 90 days. Many operators use 28 days as a standard interval.
 * **Driver card download interval** (days): how often driver card data is downloaded automatically when a card is present in the tachograph. EU regulations require driver card data at least every 28 days.
 

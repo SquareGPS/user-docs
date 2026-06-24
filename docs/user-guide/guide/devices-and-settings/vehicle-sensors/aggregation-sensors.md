@@ -1,5 +1,5 @@
 ---
-description: Combine data from multiple sensors using AVG or SUM aggregation functions. Useful for averaging fuel level readings from several tanks in the same vehicle.
+description: Average or sum readings from multiple fuel level sensors in Navixy to track total fuel across tanks or get a balanced reading from sensors in one tank.
 ---
 
 # Aggregation sensors

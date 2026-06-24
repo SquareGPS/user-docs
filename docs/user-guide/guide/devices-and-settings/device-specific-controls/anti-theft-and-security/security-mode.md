@@ -1,5 +1,5 @@
 ---
-description: Configure the Security mode block in Navixy to arm device sensor and perimeter detection, reporting tampering or displacement of a guarded vehicle.
+description: Guard a parked vehicle by arming the device's motion sensor and perimeter detection. Set time windows, sensitivity thresholds, and a parking radius in Navixy.
 ---
 
 # Security mode
@@ -20,9 +20,9 @@ The fields depend on the device. You may see:
   * **Constantly enabled**: triggers an event on each detected exit and stays armed.
   * **Security breach with new point storage**: triggers an event and updates the reference position to the new location, so continued movement generates further events.
 * **Period settings**: start and end times for the scheduled sensor-mode windows.
-* **Amplitude and duration**: signal strength and persistence thresholds. Higher values reduce false alarms from passing traffic or minor bumps.
+* **Amplitude and duration**: how strong and how long a movement signal must be before it registers. Higher values reduce false alarms from passing traffic or minor bumps.
 * **Ignore time upon activation**: a delay after arming before motion detection starts, preventing false alarms during placement or parking.
-* **False activation protection**: a double-check step that confirms motion before raising an alarm, reducing spurious alerts.
+* **False activation protection**: a double-check step that confirms motion before raising an alarm, reducing false alerts from brief or incidental signals.
 * **Perimeter diameter**: the radius of the parking zone in meters. Movement beyond this boundary triggers the perimeter alarm.
 
 ## Availability

@@ -1,5 +1,5 @@
 ---
-description: Forward GPS and telemetry data from Navixy to external systems using the Startrack protocol. Commonly used in Guatemala, El Salvador, and Honduras.
+description: Send vehicle location and status data to Startrack's SOAP endpoint over HTTPS, used by fleet operators in Guatemala, El Salvador, and Honduras.
 ---
 
 # Startrack

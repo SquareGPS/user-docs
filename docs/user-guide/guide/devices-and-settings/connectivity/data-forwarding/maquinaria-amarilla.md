@@ -1,5 +1,5 @@
 ---
-description: Forward heavy machinery GPS data from Navixy to Maquinaria Amarilla, required for National Police compliance monitoring of equipment in Colombia.
+description: Comply with Colombian Decree 723 by forwarding heavy machinery GPS data from Navixy to Maquinaria Amarilla for National Police monitoring via SOAP every hour.
 ---
 
 # Maquinaria Amarilla

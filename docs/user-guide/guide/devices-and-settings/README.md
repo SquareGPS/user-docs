@@ -1,7 +1,5 @@
 ---
-description: >-
-  Configure each GPS device in your fleet through settings blocks: identity,
-  tracking, sensors, connectivity, driver safety, and hardware controls.
+description: Manage GPS device configuration in Navixy through settings blocks for tracking, sensors, connectivity, driver safety, tachograph, and hardware controls.
 ---
 
 # Devices and settings

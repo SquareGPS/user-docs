@@ -1,5 +1,5 @@
 ---
-description: Configure the Vibration detection block in Navixy so the device reports vibration after the ignition is off, with a sensitivity level and delays.
+description: Set sensitivity and timing so the device detects tampering or vibration after the ignition switches off, then reports an event to Navixy
 ---
 
 # Vibration detection
@@ -9,7 +9,7 @@ Uses the device's motion sensor to detect vibration or tampering after the ignit
 ## Settings
 
 * **Enable**: turn vibration detection on or off.
-* **Sensitivity level**: how easily the motion sensor triggers. **High** fires on lighter vibration; **Low** requires stronger or longer vibration. Some models also offer a **Very low** level.
+* **Sensitivity level**: how easily the motion sensor triggers. **High** responds to lighter vibration; **Low** requires stronger or longer vibration. Some models also offer a **Very low** level.
 * **Activation after ignition (seconds)**: the delay after the ignition switches off before detection arms. This prevents false alarms during normal parking maneuvers.
 * **Vibration duration (seconds)**: how long vibration must continuously last to count as an event. Single bumps shorter than this value are ignored.
 * **Pre-alarm duration (seconds)**: a window around each ignition event during which vibration is ignored. Prevents false alarms when the engine is started or stopped.

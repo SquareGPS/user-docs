@@ -1,5 +1,5 @@
 ---
-description: Define when a vehicle counts as parked using minimum idle time and an idle speed threshold, optionally confirmed by ignition or motion.
+description: Tune idle time and speed thresholds to control trip and stop boundaries in reports, with optional ignition or motion sensor confirmation.
 ---
 
 # Parking detection

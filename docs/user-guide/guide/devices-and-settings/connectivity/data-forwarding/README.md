@@ -1,5 +1,5 @@
 ---
-description: Retransmit GPS tracking and telematics data from Navixy to external servers and third-party platforms in real time using supported forwarding protocols.
+description: Set up GPS and telematics data forwarding from Navixy to third-party servers for compliance, enterprise integration, or data consolidation needs.
 ---
 
 # Data forwarding

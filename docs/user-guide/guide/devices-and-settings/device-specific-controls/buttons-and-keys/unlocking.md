@@ -8,7 +8,7 @@ Sets a persistent digital password for devices that have an electronic lock or i
 
 ## Settings
 
-* **Password**: the unlock code to store on the device. Change it here at any time — the new password overwrites the previous one.
+* **Password**: the unlock code to store on the device. Change it here at any time. The new password overwrites the previous one.
 * **Unlock**: sends the unlock command to the device immediately, opening the lock without requiring the password to be entered manually.
 
 ## Availability

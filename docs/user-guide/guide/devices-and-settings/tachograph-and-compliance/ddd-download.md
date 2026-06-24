@@ -1,5 +1,5 @@
 ---
-description: Remotely request tachograph data as DDD files from a vehicle. Options range from a single download to multi-type, date-ranged requests.
+description: Request DDD files from a vehicle's tachograph over the air without a physical connection. Covers on-demand and scheduled download options by device type.
 ---
 
 # DDD files download
@@ -16,9 +16,9 @@ The download controls are **on-demand commands**, not saved settings. Clicking a
 
 {% stepper %}
 {% step %}
-### Unload data from the company or driver card
+### Download (extract) data from the company or driver card
 
-Connect a card reader to your computer and use it to unload data from the company or driver card.
+Connect a card reader to your computer and use it to download (extract) data from the company or driver card.
 {% endstep %}
 
 {% step %}

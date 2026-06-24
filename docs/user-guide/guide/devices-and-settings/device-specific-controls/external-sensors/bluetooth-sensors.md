@@ -20,7 +20,7 @@ In **Devices and settings**, select the device, then expand the **Bluetooth sens
 {% step %}
 ### Enter the MAC address
 
-Enter the unique MAC address of the Bluetooth sensor so the platform associates it with the correct device.
+Enter the unique MAC address (the hardware identifier printed on the sensor's label) of the Bluetooth sensor so the platform associates it with the correct device.
 {% endstep %}
 
 {% step %}

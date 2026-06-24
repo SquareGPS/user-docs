@@ -14,7 +14,7 @@ Tells the device how to determine that the engine is running, based on on-board 
 * **Engine-off duration**: how long the voltage must stay below the threshold before the engine-off state is confirmed.
 
 {% hint style="info" %}
-Set the engine-off threshold a few tenths of a volt below the engine-on threshold to create a small hysteresis band and avoid rapid on/off switching when voltage fluctuates at idle.
+Set the engine-off threshold a few tenths of a volt below the engine-on threshold to create a small gap between the on and off thresholds so the engine state doesn't flip back and forth when the voltage wavers at idle.
 {% endhint %}
 
 ## Availability

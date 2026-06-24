@@ -1,5 +1,5 @@
 ---
-description: Configure the Virtual ignition block in Navixy so the device derives ignition from on-board voltage or motion instead of an ignition wire.
+description: Use on-board voltage or motion as the ignition source when the GPS device has no ignition wire. Set the voltage threshold or motion timing in Navixy.
 ---
 
 # Virtual ignition

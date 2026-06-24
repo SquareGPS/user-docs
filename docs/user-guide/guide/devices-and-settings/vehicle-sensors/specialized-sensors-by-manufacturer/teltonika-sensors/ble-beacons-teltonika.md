@@ -1,5 +1,5 @@
 ---
-description: Set up Teltonika BLE beacons in Navixy to monitor temperature, magnetic state, and asset proximity over Bluetooth Low Energy with multi-year battery life.
+description: Configure Teltonika BLE beacons in Navixy as temperature, magnet detection, or driver ID sensors. Works without wiring, with battery life up to 19 years.
 ---
 
 # BLE beacons (Teltonika)
@@ -8,9 +8,9 @@ Teltonika BLE beacons are versatile devices that can collect data on temperature
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2020/10/bluetelt.png" alt="" width="375"><figcaption></figcaption></figure>
 
-These beacons use **Bluetooth Low Energy** technology (BLE 4.0+) , known for its energy efficiency, allowing them to operate for extended periods on their internal batteries, up to 2 years for SLIM models, up to 5 years for COIN models, and up to 19 years for PUCK models.
+These beacons use **Bluetooth Low Energy** technology (BLE 4.0+, a short-range wireless standard optimized for low power consumption), allowing them to run for extended periods on their internal batteries: up to 2 years for SLIM (card-sized) models, up to 5 years for COIN (small disc) models, and up to 19 years for PUCK (large rugged) models.
 
-The beacons are housed in cases with an IP68 rating, providing robust protection against dust and water.
+The beacons are housed in IP68-rated cases (sealed against dust and safe to submerge in water).
 
 ## Supported beacon models
 

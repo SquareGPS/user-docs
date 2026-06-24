@@ -1,5 +1,5 @@
 ---
-description: Count passengers entering and exiting vehicles using Galileosky devices with PP-01 flow sensors. Monitors ridership for city buses and transit operators.
+description: Set up Galileosky and PP-01 sensor integration in Navixy to log real-time passenger entry and exit counts for transit vehicles and ridership reporting.
 ---
 
 # Passenger counter (Galileosky)
@@ -28,9 +28,9 @@ City transit operators use this integration to monitor passenger flow, analyze r
 
 2. **Configure the PP-01 Sensor:**
 
-* Connect the PP-01 sensor to a PC using an RS485-USB adapter.
+* Connect the PP-01 sensor to a PC using an RS485-USB adapter (a small converter that lets you plug an RS485 industrial sensor into a standard USB port on your computer).
 * Use the PP-01 Configuration Utility to set up the sensor. Adjust the sensor’s address as needed, choosing from the range of 1 to 8.
-* Use the Galileosky Configurator to load the appropriate Easy Logic script depending on your chosen mode (event-based or cumulative recording).
+* Use the Galileosky Configurator to load the appropriate Easy Logic script (a small program that runs on the device and defines how passenger events are counted and reported) depending on your chosen mode (event-based or cumulative recording).
 * Ensure that the script is successfully uploaded and configured on the Galileosky device.
 
 3. **Integration with Navixy:**

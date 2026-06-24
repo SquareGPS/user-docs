@@ -1,5 +1,5 @@
 ---
-description: Configure the No movement block on the device side in Navixy to report when a vehicle that should be moving stays stationary past a timeout.
+description: Alert in Navixy when a vehicle on an active route stays stationary longer than the configured no-movement timeout. Optionally set a pre-alarm for early notice
 ---
 
 # No movement

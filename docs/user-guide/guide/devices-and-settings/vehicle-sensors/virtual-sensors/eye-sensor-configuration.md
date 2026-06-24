@@ -1,5 +1,5 @@
 ---
-description: Configure Teltonika Eye sensors in Navixy using virtual sensors to access temperature, humidity, motion, and magnet state data from BLE-connected accessories.
+description: Set up virtual sensors in Navixy for Teltonika Eye accessories to expose motion state, temperature, humidity, and magnet data collected over Bluetooth.
 ---
 
 # Eye sensor configuration
@@ -12,7 +12,7 @@ Available on Teltonika devices paired with Eye BLE sensors.
 
 ## Sensor configuration on a device
 
-To configure data transmission from the sensor to the Navixy platform, use the [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_Introduction). Make sure to [download the version](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions) that corresponds to the current firmware and device model. Once you've downloaded and launched the configurator, navigate to the system settings and select the **Codec 8 Extended** data protocol.
+To configure data transmission from the sensor to the Navixy platform, use the [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_Introduction). Make sure to [download the version](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions) that corresponds to the current firmware and device model. Once you've downloaded and launched the configurator, navigate to the system settings and select the **Codec 8 Extended** data protocol (Teltonika's extended data format that supports far more sensor parameters than the standard Codec 8).
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2023/03/1-4.png" alt="Enabling Codec 8 Extended in the Teltonika configurator"><figcaption><p>Enabling Codec 8 Extended in the Teltonika configurator</p></figcaption></figure>
 
@@ -40,13 +40,13 @@ To configure data transmission from these sensors within your device packets, na
 
 ### Motion status sensor
 
-The reading of this sensor is fully configurable with virtual sensors with [the Bit index calculation method](./#bit-index). The motion state data comes in bit 16 of the BLE 1 Custom 1 field. Configuring the motion state requires the following steps:
+The reading of this sensor is fully configurable with virtual sensors with [the Bit index calculation method](./#bit-index). The motion state data comes in bit 16 (the 17th bit position, counting from zero) of the BLE 1 Custom 1 field. Configuring the motion state requires the following steps:
 
 1. Create a virtual sensor and specify its name.
-2. Select the [appropriate AVL ID](https://wiki.teltonika-mobility.com/view/Full_AVL_ID_List#BLE_Sensor_I.2FO_elements) as the input. For example, for BLE 1 Custom 1, use the number 331.
-3. Define the Bit Number that corresponds to motion state data. In this case, Bit 16 of the BLE 1 Custom 1 field should be selected.
-4. Define the state names as needed. For example, "Standstill" and "Moves" can be used.
-5. Specify the corresponding values, where 0 indicates no movement and 1 indicates movement recorded by the sensor.
+2. Select the [appropriate AVL ID](https://wiki.teltonika-mobility.com/view/Full_AVL_ID_List#BLE_Sensor_I.2FO_elements) as the input. An AVL ID is Teltonika's numeric identifier for a specific data parameter. For BLE 1 Custom 1, use number 331.
+3. Define the Bit Number that corresponds to motion state data. In this case, select Bit 16 of the BLE 1 Custom 1 field.
+4. Define the state names as needed. For example, "Standstill" and "Moves".
+5. Specify the corresponding values: 0 means no movement detected, 1 means movement recorded.
 
 <figure><img src="../../../../.gitbook/assets/image-20241118-031514.png" alt="Setting up the Virtual Sensor to read the Eye sensor&#x27;s motion status" width="563"><figcaption><p>Setting up the Virtual Sensor to read the Eye sensor's motion status</p></figcaption></figure>
 

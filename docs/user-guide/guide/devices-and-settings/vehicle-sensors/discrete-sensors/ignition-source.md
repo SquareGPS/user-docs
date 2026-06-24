@@ -14,7 +14,7 @@ This is the **platform-side sensor**. To choose *how the device itself* detects 
 
 Some devices do not allow connecting the ignition cable to the device input to transmit the ignition status. Instead, they use virtual ignition based on the motion sensor readings or the vehicle's onboard voltage.
 
-When the engine is running, the vehicle's power supply is provided by the vehicle's generator, which typically has a higher voltage than the battery. The voltage is higher and allows the ignition status to be determined.
+When the engine is running, the alternator (generator) charges the battery and raises the vehicle's electrical voltage above its resting level, typically above 13.2 V. The device detects this voltage increase and uses it to determine that the engine is on.
 
 The ignition detection by the movement sensor is convenient if the device is not connected to the vehicle's onboard electrical system. However, when the vehicle is towed, the ignition is also detected as the vehicle moves, although the engine doesn't start.
 

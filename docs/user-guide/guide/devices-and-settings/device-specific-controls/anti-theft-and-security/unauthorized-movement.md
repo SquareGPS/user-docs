@@ -1,5 +1,5 @@
 ---
-description: Detect unauthorized movement of a parked vehicle on the device side and report an event to Navixy when the vehicle leaves its parking area.
+description: Enable the device to treat its current position as a parking reference and report to Navixy when the vehicle leaves the set radius after ignition off.
 ---
 
 # Unauthorized movement

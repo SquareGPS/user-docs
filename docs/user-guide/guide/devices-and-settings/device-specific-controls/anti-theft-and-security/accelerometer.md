@@ -1,5 +1,5 @@
 ---
-description: Configure the Accelerometer block in Navixy so the device reports an impact when force above a set threshold lasts for a set duration.
+description: Configure impact force thresholds on the device so it detects and reports collisions to Navixy. Some models support separate weak and strong impact levels.
 ---
 
 # Accelerometer

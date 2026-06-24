@@ -1,7 +1,5 @@
 ---
-description: >-
-  Retrieve digital tachograph data as DDD files and email it to recipients to
-  meet driving-time and rest-period record-keeping rules.
+description: Manage tachograph compliance for your fleet by downloading DDD files on demand or on a schedule, and routing them automatically to the right recipients.
 ---
 
 # Tachograph and compliance

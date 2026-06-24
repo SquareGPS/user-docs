@@ -1,5 +1,5 @@
 ---
-description: "Configure how a GPS device detects ignition in Navixy: digital input, on-board voltage with millivolt thresholds, or the built-in motion sensor."
+description: "Set the ignition source on a GPS device so Navixy can accurately detect engine on/off when the ignition wire isn't directly connected."
 ---
 
 # Ignition source
@@ -12,9 +12,9 @@ Tells the Navixy platform how to determine ignition on/off, important when the i
 
 Select the **mode** used to detect ignition:
 
-* **Digital input** (`din1`), uses a specific input, typically the ignition cable. The default on most devices.
-* **On-board voltage** (`power_voltage`), detects ignition from the vehicle's voltage. Set the **low and high voltage thresholds** (in millivolts, 0–30,000, with a default low level around 13,000 mV) that bracket "ignition on."
-* **Movement or motion sensor** (`movement`): infers ignition from vehicle movement, useful when the device isn't wired to the vehicle's electrical system.
+* **Digital input**: uses a specific input pin, typically the ignition cable. The default on most devices.
+* **On-board voltage**: detects ignition from the vehicle's voltage. Set the **low and high voltage thresholds** in millivolts (0–30,000, default around 13,000 mV). Voltage above the threshold means the engine is running, because the alternator raises system voltage when the engine is on.
+* **Movement or motion sensor**: infers ignition from vehicle movement, useful when the device isn't wired to the vehicle's electrical system.
 
 ## Availability
 
@@ -22,7 +22,7 @@ Appears on devices that support configurable ignition detection (vendor variants
 
 ## Limitations
 
-* **Voltage mode** works because a running engine's alternator raises system voltage above the battery's resting level.
+* **Voltage mode** works because a running engine's alternator raises system voltage above the battery's resting level; set thresholds to match your vehicle's actual voltage range.
 * Motion-based ignition is convenient when not wired to the vehicle, but towing reads as ignition-on (the engine isn't actually running).
 
 ## See also

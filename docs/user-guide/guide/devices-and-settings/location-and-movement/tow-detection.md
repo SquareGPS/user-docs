@@ -1,5 +1,5 @@
 ---
-description: Detect unauthorized movement of a parked vehicle with the device's motion sensor, and report a tow event after the ignition switches off.
+description: Configure tow detection sensitivity and delay so the device triggers an alert when a parked vehicle moves without the ignition on.
 ---
 
 # Tow detection

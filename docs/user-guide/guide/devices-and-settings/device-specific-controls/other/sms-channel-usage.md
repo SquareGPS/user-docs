@@ -4,7 +4,7 @@ description: Configure how a GPS device uses its SMS channel in Navixy with the 
 
 # SMS channel usage
 
-Selects which messages the device sends exclusively via the SMS channel instead of GPRS. This is useful when GPRS is unavailable or unreliable.
+Selects which messages the device sends exclusively via the SMS channel instead of the mobile data connection (GPRS). This is useful when mobile data is unavailable or unreliable, for example in areas with weak coverage.
 
 {% hint style="info" %}
 Enabling SMS delivery for a message type increases the number of SMS messages the device sends, which may incur additional charges depending on the SIM plan.

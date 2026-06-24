@@ -26,10 +26,10 @@ The numeric ranges above are typical values. The exact minimums, maximums, and d
 
 On battery or power-managed devices you may also see:
 
-* **Power-save mode**: Choose the power-save strategy (for example, distance-based vs fixed-interval reporting).
+* **Power-save mode**: Choose the power-save strategy, for example distance-based reporting (a position is sent only after the vehicle moves a set distance) versus fixed-interval reporting.
 * **Power-save interval**: A slower reporting rate used when parked or in power-save.
 * **On-stop interval**: A separate interval used while the vehicle is stopped.
-* **Sleep and active windows**: Deep-sleep scheduling on battery devices (sleep and active times, deep-sleep enable, stay online on external power).
+* **Sleep and active windows**: Deep-sleep scheduling on battery devices, where the device powers down during set quiet hours to save battery and wakes on a schedule (sleep and active times, deep-sleep enable, stay online when plugged into external power).
 * **Emergency interval**: Faster reporting during an alarm.
 * **Optional daily timer**: Wake and report at a set time of day, available on some models when the interval is 24 hours or more.
 * **GPS/GSM working mode**: Radio power modes on some models, trading reporting responsiveness for battery life.

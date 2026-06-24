@@ -1,5 +1,5 @@
 ---
-description: Forward GPS and GLONASS tracking data from Navixy to external monitoring servers using the Wialon IPS protocol, a publicly available retranslation standard.
+description: Retransmit GPS and GLONASS fleet data to Wialon-based monitoring servers or a separate Navixy instance using the Gurtam TCP retranslation protocol.
 ---
 
 # Wialon IPS

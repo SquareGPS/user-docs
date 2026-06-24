@@ -28,8 +28,8 @@ Once you choose **Fuel level** as the sensor type, additional settings appear. T
 * **Units**: Select a unit of measure.
 * **Accuracy**: This refers to the specified percentage used to calculate the absolute error in tank volume. This error value is used to compute the amount for refills and drains.
 * **Thresholds for drain detection:** Used to determine drains in fuel reports. This parameter can be represented as the rate of change in the fuel level. Both thresholds are always checked, and if the fuel level changes faster than at least one of the set thresholds for more than the accuracy level, the report marks the fuel drain.
-  * **By time**: The maximum allowable flow rate is measured in units per hour and can be set in the sensor settings. When calculating the speed change over time, the platform compares the fuel level change between points. If it is not set, the default value is 120 units per hour. It doesn’t mean the fuel must change more than 120 per hour. It means the fuel level should change faster than 120 per hour (equal to 20 L per 10 minutes or 2 L per minute) to determine the drain in a report. This value should be set a few percentage points higher than the likely consumption rate during heavy loads or when the vehicle is ascending uphill.
-  * **By mileage**: The maximum allowable fuel level change speed is measured in units per 100 km. It doesn’t mean the fuel must change more than set per 100 km. For example, we set 100 L per 100 km. It means the fuel level should change faster than 100 L per 100 km (equal to 10 L per 10 km or 1 L per km) to determine the drain in a report. This value must be manually entered and should not be based solely on the manufacturer's specified fuel consumption rate. Conduct tests and verify the actual fuel consumption rate recorded in the reports, then set the necessary values accordingly for maximum accuracy.
+  * **By time**: The maximum allowable rate of fuel drop (how fast the level can fall) is measured in units per hour. When calculating this over time, the platform compares the fuel level change between data points. If not set, the default is 120 units per hour. This means a drain is flagged only when the level drops faster than 120 units per hour (equivalent to 20 L per 10 minutes, or 2 L per minute). Set this a few percentage points above the likely consumption rate during heavy loads or uphill driving.
+  * **By mileage**: The maximum allowable rate of fuel drop is measured in units per 100 km. For example, if you set 100 L per 100 km, a drain is flagged only when the level drops faster than 100 L per 100 km (equivalent to 10 L per 10 km, or 1 L per km). Enter this value based on real-world tests rather than the manufacturer’s stated fuel consumption. Generate reports, verify actual rates, and adjust accordingly.
 * **Ignore in movement**: The platform automatically excludes any drains and refills that occur during movement from rules and reports. Movement is determined by the [Parking Detection setting](../../location-and-movement/parking-detection.md).
   * **Drains:** Drains in movement are excluded.
   * **Refills:** Refills in movement are filtered.
@@ -54,7 +54,7 @@ Filters for minima and maxima, calibration tables, and other sensor settings are
 
 ### Drains and refills in rules
 
-Rules for draining and refueling are based on the calibration table and absolute error, which is calculated as `tank volume * accuracy` .
+Rules for draining and refueling are based on the calibration table and the absolute error, which equals tank volume multiplied by the accuracy percentage.
 
 The platform records the last current reading of the sensor for ten minutes. Based on this reading, the following events are triggered:
 
