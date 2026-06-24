@@ -9,7 +9,7 @@ Configures automatic, scheduled tachograph downloads on devices that support rem
 ## Settings
 
 * **Company card number**: the identifier on the company's tachograph card, used by the device to authenticate remote download requests. Enter the number exactly as it appears on the card.
-* **Vehicle unit download interval** (days): how often the device's on-board tachograph unit data is pulled automatically. EU regulations require a vehicle unit download at least every 90 days; many operators use 28 days as a standard interval.
+* **Vehicle unit download interval** (days): how often the device's on-board tachograph unit data is pulled automatically. EU regulations require a vehicle unit download at least every 90 days. Many operators use 28 days as a standard interval.
 * **Driver card download interval** (days): how often driver card data is downloaded automatically when a card is present in the tachograph. EU regulations require driver card data at least every 28 days.
 
 ## Availability

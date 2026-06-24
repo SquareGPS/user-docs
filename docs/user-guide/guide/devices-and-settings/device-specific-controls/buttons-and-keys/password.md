@@ -4,7 +4,7 @@ description: Issue a time-limited unlock code for a GPS device in Navixy with th
 
 # Password
 
-Sends a temporary access code to a GPS padlock device. The code is valid only for the specified time window — useful for granting one-time access to a delivery person or service worker without changing a permanent password.
+Sends a temporary access code to a GPS padlock device. The code is valid only for the specified time window, useful for granting one-time access to a delivery person or service worker without changing a permanent password.
 
 ## Settings
 

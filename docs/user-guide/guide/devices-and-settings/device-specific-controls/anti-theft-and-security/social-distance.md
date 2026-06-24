@@ -13,8 +13,8 @@ To receive notifications, create a corresponding alert rule in addition to enabl
 ## Settings
 
 * **Enable**: turn proximity monitoring on or off.
-* **Distance**: the minimum allowable distance between devices in meters. Measured in the absence of interference and obstacles — real-world BLE range is affected by walls, metal, and other obstructions.
-* **Duration threshold (seconds)**: how long the two devices must remain within the distance before an event fires. A short threshold triggers on brief passes; a longer threshold only triggers on sustained proximity.
+* **Distance**: the minimum allowable distance between devices in meters. Measured in the absence of interference and obstacles. Real-world BLE range is affected by walls, metal, and other obstructions.
+* **Duration threshold (seconds)**: how long the two devices must remain within the distance before an event fires. A short threshold triggers on brief passes. A longer threshold only triggers on sustained proximity.
 
 ## Availability
 

@@ -37,7 +37,7 @@ Virtual sensors have three different calculation types:
 
 All values for virtual sensors must match the form in which they are received from the device. All states are your definitions for these values.
 
-Here, we describe how different calculation methods work. Click on the calculation method name to expand.
+This section describes how different calculation methods work. Click on the calculation method name to expand.
 
 ### **Value in range**
 
@@ -50,7 +50,7 @@ Here's how it works:
 
 ### Example of virtual ignition
 
-If you don't have an ignition input or your device is already running at full capacity, you can use a virtual ignition tool to detect the ignition state. The onboard voltage of the car will increase significantly when the engine is switched on, allowing the voltage threshold to be used as an indicator of whether or not the engine is running. Generally, the board voltage should exceed 13.2 V to indicate that the engine is functioning.
+If you don't have an ignition input or your device is already running at full capacity, you can use a virtual ignition tool to detect the ignition state. The onboard voltage of the car increases significantly when the engine is switched on, allowing the voltage threshold to be used as an indicator of whether or not the engine is running. Generally, the board voltage should exceed 13.2 V to indicate that the engine is functioning.
 
 To create this sensor:
 
@@ -65,7 +65,7 @@ To create this sensor:
 
 Once you set your voltage threshold range, if the incoming on-board value is within that range, the platform switches the ignition state on. Conversely, if it's outside of that range, it is switched off. The virtual ignition created using this method is also taken into account in reports and notifications based on its status. For example, you can use it to generate engine hours reports or alerts for excessive idling.
 
-Additionally, this ignition will be used for trip and parking detection with ignition consideration.
+Additionally, this ignition is used for trip and parking detection with ignition consideration.
 
 ### Example with an analog sensor
 
@@ -99,7 +99,7 @@ Let’s illustrate this type of functionality with a specific example.
 
 ### Example with car CAN readings
 
-Some CAN sensors may provide different numerical values to a platform. For instance, we have a truck with CAN: PTO state sensor, which may output only the following values:
+Some CAN sensors may provide different numerical values to the Navixy platform. For instance, a truck with a CAN: PTO state sensor may output only the following values:
 
 * 0: Off
 * 1: Hold
@@ -141,7 +141,7 @@ For example, the transmitted value is 011. We must first read this information i
 
 Each position in the parameter displays the value of different vehicle systems. To configure and display them, you need to create one sensor separately for each parameter.
 
-For a sensor that shows the condition of the car hood in our example, you need to
+For a sensor that shows the condition of the car hood in this example, you need to
 
 1. Set the sensor’s name
 2. Choose the input according to the device’s documentation
@@ -152,4 +152,4 @@ Below is an example of a sensor that shows the condition of the car hood.
 
 <figure><img src="https://www.navixy.com/wp-content/uploads/2024/03/browser_2qcam8zclk.png" alt="Configuration example for Bit index calculation sensor" width="563"><figcaption><p>Configuration example for Bit index calculation sensor</p></figcaption></figure>
 
-Once a virtual sensor is configured and its associated device sensor has provided data, it can be viewed in the **Sensor readings widget** on the device's **Information** tab. Your device sensors can talk in your language now.
+Once a virtual sensor is configured and its associated device sensor has provided data, it can be viewed in the **Sensor readings widget** on the device's **Information** tab.

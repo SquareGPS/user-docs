@@ -72,5 +72,3 @@ If you have multiple fuel sensors, repeat the setup process for each sensor, sel
 Once configured, you can monitor the fuel level in the designated widget on the platform. You can also generate detailed reports on fuel consumption.
 {% endstep %}
 {% endstepper %}
-
-This setup allows you to fully utilize the capabilities of Teltonika Bluetooth fuel sensors, providing accurate and real-time data on fuel levels, temperature, and more.

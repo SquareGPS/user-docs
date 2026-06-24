@@ -14,7 +14,7 @@ Click ![Working statuses](https://www.navixy.com/wp-content/uploads/2021/09/fxnv
 
 You can allow the status to be changed by different people:
 
-**By user:** the status can be changed by the employee on their phone using the **X-GPS tracker** app.
+**By user:** the status can be changed by the employee on their phone using the **X-GPS Tracker** app.
 
 **By manager**: the status can be changed by the operator in the **X-GPS Monitor** app.
 

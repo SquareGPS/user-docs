@@ -40,7 +40,7 @@ To configure data transmission from these sensors within your device packets, na
 
 ### Motion status sensor
 
-The reading of this sensor is fully configurable with virtual sensors with [the Bit index calculation method](./#bit-index). The motion state data comes in bit 16 of the BLE 1 Custom 1 field. Configuring the motion state will require the following steps:
+The reading of this sensor is fully configurable with virtual sensors with [the Bit index calculation method](./#bit-index). The motion state data comes in bit 16 of the BLE 1 Custom 1 field. Configuring the motion state requires the following steps:
 
 1. Create a virtual sensor and specify its name.
 2. Select the [appropriate AVL ID](https://wiki.teltonika-mobility.com/view/Full_AVL_ID_List#BLE_Sensor_I.2FO_elements) as the input. For example, for BLE 1 Custom 1, use the number 331.
@@ -50,7 +50,7 @@ The reading of this sensor is fully configurable with virtual sensors with [the 
 
 <figure><img src="../../../../.gitbook/assets/image-20241118-031514.png" alt="Setting up the Virtual Sensor to read the Eye sensor&#x27;s motion status" width="563"><figcaption><p>Setting up the Virtual Sensor to read the Eye sensor's motion status</p></figcaption></figure>
 
-At this point, you have successfully retrieved the current motion state. However, keep in mind that information can only be obtained in reports and rules if the motion state is set as ignition.
+At this point, the current motion state is retrieved. However, keep in mind that information can only be obtained in reports and rules if the motion state is set as ignition.
 
 Reports and rules for non-ignition virtual sensors aren’t supported at this moment.
 
@@ -80,7 +80,7 @@ The temperature is transmitted by the device in °C.
 
 Using sensor readings, you can generate a Measuring Sensors report that provides useful insights into the data collected by the sensor. Additionally, you can track readings by configuring alerts using the **Parameter in Range** rule, which allows you to receive notifications when specific parameters fall outside of predetermined ranges.
 
-In addition, virtual sensors can be created and provide understandable names for receiving sensor values in widgets. To achieve this, use [the Value in range calculation method](./#value-in-range). This will allow you to customize the sensor data being displayed and make it easier to interpret the information being presented by the sensor.
+In addition, virtual sensors can be created and provide understandable names for receiving sensor values in widgets. To achieve this, use [the Value in range calculation method](./#value-in-range). This allows you to customize the sensor data being displayed and make it easier to interpret the information being presented by the sensor.
 
 ### Magnet state sensor
 

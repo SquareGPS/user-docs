@@ -4,7 +4,7 @@ description: Define when a vehicle counts as parked using minimum idle time and 
 
 # Parking detection
 
-**Parking detection** defines when a vehicle counts as **parked** versus **in a trip**: The basis for trips, stops, and parking in reports. It identifies when an object has been stationary long enough, below a speed threshold, optionally confirmed by ignition or a motion sensor.
+**Parking detection** defines when a vehicle counts as **parked** versus **in a trip**, the basis for trips, stops, and parking in reports. It identifies when an object has been stationary long enough, below a speed threshold, optionally confirmed by ignition or a motion sensor.
 
 ![](../../../.gitbook/assets/image-20240815-183001.png)
 

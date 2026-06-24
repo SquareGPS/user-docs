@@ -23,7 +23,7 @@ The device's **trusted phone numbers** and **service plan** are managed in their
 
 ## Device replacement functionality
 
-You can easily replace a GPS device connected to the platform. Whether it’s time for an upgrade or the device is malfunctioning, the replacement mechanism ensures a smooth transition by preserving the original device’s configuration, settings, and historical data. Accessible through the **Devices and settings** interface section, this intuitive and responsive process minimizes downtime and maximizes convenience, keeping your operations running continuously.
+You can easily replace a GPS device connected to the platform. Whether it’s time for an upgrade or the device is malfunctioning, the replacement mechanism ensures a smooth transition by preserving the original device’s configuration, settings, and historical data. You can access this feature through the **Devices and settings** interface section.
 
 {% hint style="warning" %}
 Some devices, such as smartphones used as trackers through the **X-GPS Tracker** application, are not supported by the replacement mechanism and do not have the **Replace Device** button available for them.
@@ -68,7 +68,7 @@ Follow the same steps as for connecting a new device to the platform, except for
 {% endstepper %}
 
 {% hint style="warning" %}
-Note that once the **Replace** button is pressed, the replacement process cannot be canceled.
+Note that once the **Replace** button is clicked, the replacement process cannot be canceled.
 {% endhint %}
 
 ### **Handling activation issues**

@@ -40,7 +40,7 @@ The two available aggregation functions are **Average (AVG)** and **Sum (SUM)**.
 1. **Label**: Enter a name for your aggregation sensor that clearly identifies its purpose.
 2. **Aggregation Function**: Select either **AVG** (for averaging) or **SUM** (for summing) depending on your needs.
 3. **Sensor type**: Choose the type of sensor (e.g., fuel level).
-4. **Accuracy**: Set the acceptable margin of error. For example, if the accuracy is set to 5% and the maximum value is 100 liters, changes of 5 liters or less will be ignored.
+4. **Accuracy**: Set the acceptable margin of error. For example, if the accuracy is set to 5% and the maximum value is 100 liters, changes of 5 liters or less are ignored.
 5. **Max value**: Set the upper limit for the aggregated value. This prevents the aggregated reading from exceeding a certain threshold.
 6. **Units**: Set the unit of measurement (e.g., liters).
 7. **Sensors for Aggregation**: Select the individual sensors whose data you want to aggregate.

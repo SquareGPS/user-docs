@@ -4,7 +4,7 @@ description: Set the motion sensor sensitivity on the device in Navixy using the
 
 # Vibration settings
 
-Tunes the device's motion sensor sensitivity. This single setting affects all motion-based features on the device — tow detection, impact alarms, and idle detection — so adjust it with those features in mind.
+Tunes the device's motion sensor sensitivity. This single setting affects all motion-based features on the device, tow detection, impact alarms, and idle detection, so adjust it with those features in mind.
 
 ## Settings
 

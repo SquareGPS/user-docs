@@ -59,7 +59,7 @@ Options for parameter selection include:
 * **Select specific parameters**: Use the checkboxes next to each parameter.
 * **Search**: Find specific parameters by typing their name or part of their name.
 
-For multiple inputs of the same type, the system prioritizes the input with the largest index number. You may specify which indices to include by entering numbers separated by commas or defining a range using a dash (e.g., “1-2, 4, 7”).
+For multiple inputs of the same type, the Navixy platform prioritizes the input with the largest index number. You may specify which indices to include by entering numbers separated by commas or defining a range using a dash (e.g., “1-2, 4, 7”).
 
 A count of selected parameters is displayed, and each chosen parameter will add a column to the CSV file.
 

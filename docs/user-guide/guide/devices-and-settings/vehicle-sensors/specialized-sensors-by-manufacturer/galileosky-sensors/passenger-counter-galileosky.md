@@ -35,7 +35,7 @@ City transit operators use this integration to monitor passenger flow, analyze r
 
 3. **Integration with Navixy:**
 
-* In the Navixy platform, navigate to **Devices and Settings** and go to **Sensors and buttons**.
+* In the Navixy platform, navigate to **Devices and settings** and go to **Sensors and buttons**.
 * Create a new measurement sensor and select the input corresponding to the user tag from the Galileosky device.
 * Map the data from the PP-01 sensor to the Navixy platform, ensuring correct correspondence between the sensor data and the Navixy interface.
 

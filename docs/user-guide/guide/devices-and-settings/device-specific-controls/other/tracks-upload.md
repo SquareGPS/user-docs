@@ -20,4 +20,4 @@ Appears on device models that produce uploadable datalogger or track files.
 
 ## See also
 
-* [Raw data](../../object-management/raw-data.md): export the device's raw telemetry from the platform.
+* [Raw data](../../object-management/raw-data.md): export the device's raw telemetry from the Navixy platform.

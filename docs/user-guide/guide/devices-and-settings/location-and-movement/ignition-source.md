@@ -4,7 +4,7 @@ description: "Configure how a GPS device detects ignition in Navixy: digital inp
 
 # Ignition source
 
-Tells the Navixy platform how to determine ignition on/off: Important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
+Tells the Navixy platform how to determine ignition on/off, important when the ignition wire isn't connected. Many devices can derive ignition from a digital input, the vehicle's on-board voltage, or the built-in motion sensor.
 
 ![](../../../.gitbook/assets/image-20240815-213014.png)
 

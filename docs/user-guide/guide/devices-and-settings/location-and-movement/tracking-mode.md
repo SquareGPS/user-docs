@@ -4,7 +4,7 @@ description: Control how often a GPS device reports position by interval, distan
 
 # Tracking mode
 
-Controls how often and on what basis the device reports its position: Balancing live-tracking detail against data and battery usage. Every device has a reporting configuration, but the exact fields are chosen by the device model, so this page describes the underlying concepts rather than a fixed form.
+Controls how often and on what basis the device reports its position, balancing live-tracking detail against data and battery usage. Every device has a reporting configuration, but the exact fields are chosen by the device model, so this page describes the underlying concepts rather than a fixed form.
 
 <figure><img src="../../../.gitbook/assets/image-20240815-182719.png" alt="Tracking mode settings block example" width="310"><figcaption><p>Tracking mode settings block example</p></figcaption></figure>
 

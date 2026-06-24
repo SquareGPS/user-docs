@@ -4,13 +4,13 @@ description: Configure power-save sleep conditions on a battery GPS device in Na
 
 # Sleep mode
 
-Controls how a battery-powered device sleeps to save power. A sleeping device reports less often, which extends battery life on assets that are not continuously powered.
+Controls how a battery-powered device sleeps to save power. A sleeping device reports less often, which extends battery life on assets that aren't continuously powered.
 
 ## Settings
 
 The fields depend on the device. You may see:
 
-* **Sleep conditions**: what triggers sleep mode — engine off, no motion, or no communication from the platform.
+* **Sleep conditions**: what triggers sleep mode, engine off, no motion, or no communication from the Navixy platform.
 * **Sleep and deep-sleep durations**: how long a condition must hold before light sleep and deep sleep engage.
 * **Wake-up intervals**: how often the device wakes to report while in sleep or deep-sleep mode.
 * **Voltage thresholds**: on some models, the battery voltage levels that trigger light or deep sleep.
@@ -23,4 +23,4 @@ Appears on battery-powered device models that expose sleep settings.
 ## See also
 
 * [Tracking mode](../../location-and-movement/tracking-mode.md): power-save options that overlap with sleep mode.
-* [Connection state](../../connectivity/connection-state.md): set the offline timeout long enough that a sleeping device is not shown offline too early.
+* [Connection state](../../connectivity/connection-state.md): set the offline timeout long enough that a sleeping device isn't shown offline too early.

@@ -42,7 +42,7 @@ Appears on device models that support an odometer.
 
 ## Limitations
 
-* The platform odometer rarely equals the vehicle's physical odometer. It counts all GPS points and allows for manufacturer error. Use the multiplier to correct a consistent offset, and collect about 200 km of data first to estimate it.
+* The Navixy platform odometer rarely equals the vehicle's physical odometer. It counts all GPS points and allows for manufacturer error. Use the multiplier to correct a consistent offset, and collect about 200 km of data first to estimate it.
 * Additional sources (e.g. CAN mileage) only appear after the matching measurement sensor is created.
 * The **Odometer** value is also accessible from the device's [Object widget](../../tracking/objects-list/object-widget.md).
 

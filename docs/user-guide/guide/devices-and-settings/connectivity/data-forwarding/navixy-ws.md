@@ -25,7 +25,7 @@ Since this data forwarding protocol is platform agnostic, it would be the ideal 
 
 ### Navixy Web Service general technical information
 
-The Navixy Web Service protocol utilizes SOAP to allow the pulling of XML data from tracking devices as part of the OSI application layer. Data is pulled on demand.
+The Navixy Web Service protocol uses SOAP over the OSI application layer to forward XML telemetry data to the connected system.
 
 Data fields that are sent:
 
@@ -38,7 +38,7 @@ Data fields that are sent:
 * `altitude`: Meters
 * `course`: Vehicle direction, for example: **N,S,E,O,NO,NE,SO,SE**
 * `deviceId`: IMEI
-* `numSat`: Number of GNSS satellites the device is utilizing
+* `numSat`: Number of GNSS satellites the device is using
 * `odometer`: Traveled distance in km
 * `eventId`: the event code according to the [Navixy Generic Protocol's event ID](https://www.navixy.com/docs/iot-logic-api/technologies/navixy-generic-protocol/navixy-generic-protocol-10/predefined-event-identifiers)
 
@@ -81,7 +81,7 @@ EU [https://soap.navixy.com/LocationDataService?wsdl](https://soap.navixy.com/Lo
 
 US [https://soap.us.navixy.com/LocationDataService?wsdl](https://soap.us.navixy.com/LocationDataService?wsdl)
 
-A SOAP request must be made utilizing one of the above WSDL pages. The XML request itself is as follows, replaced with the associated information:
+A SOAP request must be made using one of the above WSDL pages. The XML request itself is as follows, replaced with the associated information:
 
 {% code overflow="wrap" %}
 ```xml

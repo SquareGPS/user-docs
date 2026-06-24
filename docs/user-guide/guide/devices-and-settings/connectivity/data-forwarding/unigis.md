@@ -4,9 +4,9 @@ description: Forward GPS and telematics data from Navixy to the Unigis TMS platf
 
 # Unigis
 
-The **Unigis** protocol is a vehicle location data forwarding protocol between Navixy and TMS platform developed by Unigis company. The most frequent use cases relate to real-time collection of GPS tracking and vehicle Telematics data by logistics departments of large manufacturing and retail chain companies. Most of these companies are located in the US, Mexico, Colombia, Chile, Argentina, Brazil and Spain.
+The **Unigis** protocol is a vehicle location data forwarding protocol between Navixy and a TMS platform developed by Unigis. The most frequent use cases relate to real-time collection of GPS tracking and vehicle Telematics data by logistics departments of large manufacturing and retail chain companies. Most of these companies are located in the US, Mexico, Colombia, Chile, Argentina, Brazil and Spain.
 
-_Protocol Category: Enterprise Compliance_
+_Protocol Category: Enterprise compliance_
 
 ### Table of contents
 

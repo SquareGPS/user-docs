@@ -23,7 +23,7 @@ _Protocol Category: Enterprise compliance_
 
 The ILSP data forwarding protocol is for companies that have common monitoring centers dedicated to security issues and need to monitor vehicle positioning and need to share this data with a third party.
 
-Using ILSP, partners can update their information with Navixy data such as vehicle data, positioning, etc. Users can connect with multiple companies and send information to the ILSP. streamlining fleet and security data.
+Using ILSP, partners can update their information with Navixy data such as vehicle data, positioning, etc. Users can connect with multiple companies and send information to the ILSP, streamlining fleet and security data.
 
 ### ILSP general technical information
 
@@ -43,7 +43,7 @@ Data sent to ILSP:
 * Odometer
 * Battery
 
-### ILSP Configuration
+### ILSP configuration
 
 #### Setting up
 
@@ -52,7 +52,7 @@ Required Parameters
 * Login and Password
   * ILSP Login and Password
 * Destination server address and port
-  * Address:https://www.ilspservices.com.mx/
+  * Address: `https://www.ilspservices.com.mx/`
   * Port: 443
 
 To set up data forwarding in ILSP protocol:
@@ -63,7 +63,7 @@ To set up data forwarding in ILSP protocol:
 4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 5. For the ILSP protocol, input the following information:
 
-<table><thead><tr><th width="288.18182373046875">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol</td><td>Select the ILSP protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: https://www.ilspservices.com.mx/<br>* Port: 443</td></tr></tbody></table>
+<table><thead><tr><th width="288.18182373046875">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol</td><td>Select the ILSP protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: `https://www.ilspservices.com.mx/`<br>* Port: 443</td></tr></tbody></table>
 
 6. The **Retranslation management** screen should look similar to the following, with ILSP login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 

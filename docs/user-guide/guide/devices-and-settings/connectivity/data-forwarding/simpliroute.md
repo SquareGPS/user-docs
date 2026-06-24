@@ -2,7 +2,7 @@
 description: Forward vehicle tracking data from Navixy to SimpliRoute using its data retransmission protocol for route planning and logistics optimization.
 ---
 
-# Simpliroute
+# SimpliRoute
 
 ## SimpliRoute
 
@@ -14,7 +14,7 @@ _Protocol Category: Enterprise compliance_
 
 1. [What is SimpliRoute?](simpliroute.md#what-is-simpliroute)
 2. [Technical information about SimpliRoute](simpliroute.md#tech-info-simpliroute)
-3. [Simpliroute Configuration](simpliroute.md#simpliroute-config)
+3. [SimpliRoute Configuration](simpliroute.md#simpliroute-config)
 4. [Setting up](simpliroute.md#setting-up)
 5. [Managing](simpliroute.md#managing)
 6. [Troubleshooting](simpliroute.md#troubleshooting)
@@ -56,7 +56,7 @@ To set up data forwarding for the SimpliRoute protocol:
 4. This opens a pop-up where you input the required parameters by clicking the **+** button.
 5. For the SimpliRoute protocol, input the following information:
 
-<table><thead><tr><th width="243.09088134765625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>* Address: http://unigis2.unisolutions.com.ar/HUB/UNIGIS/MAPI/SOAP/GPS/Service.asmx<br>* Port: 80</td></tr><tr><td>Protocol</td><td>Select the Simple Route protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: https://k8k5azm77j.execute-api.sa-east-1.amazonaws.com/prod/gps<br>* Port: 443</td></tr></tbody></table>
+<table><thead><tr><th width="243.09088134765625">Parameter</th><th>Explanation</th></tr></thead><tbody><tr><td>Name</td><td>Enter a name to make this retranslator easily identifiable</td></tr><tr><td>Protocol</td><td>Select the SimpliRoute protocol from the dropdown</td></tr><tr><td>Destination server address and port</td><td>* Address: https://k8k5azm77j.execute-api.sa-east-1.amazonaws.com/prod/gps<br>* Port: 443</td></tr></tbody></table>
 
 6. The **Retranslation management** screen should look like the following, with SimpliRoute login and password. Make sure the **Enabled** button is checked and click the **Save** button to complete the process.
 

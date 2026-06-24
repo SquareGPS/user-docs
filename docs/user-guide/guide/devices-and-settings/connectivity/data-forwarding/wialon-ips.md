@@ -25,7 +25,7 @@ This is ideal for partners with devices connected to Wialon who would like that 
 
 ### Wialon IPS general technical information
 
-The Wialon IPS protocol utilizes the TCP transport layer to send ASCII data to the 3rd party server, receive 3rd party data, or send to a separate Navixy server for further data processing.
+The Wialon IPS protocol uses the TCP transport layer to send ASCII data to the 3rd party server, receive 3rd party data, or send to a separate Navixy server for further data processing.
 
 Data sent to Wialon IPS:
 
