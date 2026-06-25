@@ -2,9 +2,9 @@
 description: Control remote outputs in Navixy to activate locks, immobilizers, and engine cutoff. Covers safety logic, command methods, and device troubleshooting.
 ---
 
-# Outputs Control
+# Outputs control
 
-Several device models come equipped with the capability to control the state of connected devices or engines. This feature can be applied to a variety of components, including locks, buzzers, immobilizers, oil/engine cutoff systems, and automatic engine warming systems like Webasto. It can even extend to smart home applications, such as smart sockets and smart bulbs, among others. It may be used, for instance, in your mobile home that is better to track and control via GPS tracker. The primary concept here is the ability to turn on or off a specific function or device remotely through a command transmitted over the air. Of course, the actual scope of this control depends on what is connected to the device’s output.
+Several device models come equipped with the capability to control the state of connected devices or engines. This feature can be applied to a variety of components, including locks, buzzers, immobilizers, oil/engine cutoff systems, and automatic engine warming systems like Webasto. It can even extend to smart home applications, such as smart sockets and smart bulbs, among others. It may be used, for instance, in your mobile home that is better to track and control via GPS device. The primary concept here is the ability to turn on or off a specific function or device remotely through a command transmitted over the air. Of course, the actual scope of this control depends on what is connected to the device’s output.
 
 ![Output control widget example](../../.gitbook/assets/imagen-20230727-155729.png)
 
@@ -12,13 +12,13 @@ Several device models come equipped with the capability to control the state of 
 
 Output control on Navixy platform functions as follows:
 
-The user opens the device’s widget in the UI or the X-GPS monitor application. There are three distinct ways in which output control widgets are displayed:
+The user opens the device’s widget in the UI or the X-GPS Monitor application. There are three distinct ways in which output control widgets are displayed:
 
-* If a device model can relay its output state information back to the platform, the last received output state from the device is displayed. For example, if the output was 'on', the user will only have the option to send an 'output switch off' command and vice versa. On the next screenshot all 4 outputs are disabled and user can only enable them.
+* If a device model can relay its output state information back to the platform, the last received output state from the device is displayed. For example, if the output was "on", the user will only have the option to send an "output switch off" command and vice versa. On the next screenshot all 4 outputs are disabled and user can only enable them.
 
 ![How output control works with online device and known states](../../.gitbook/assets/image-20240125-094039.png)
 
-* If the device model doesn’t provide a response to the platform or doesn’t include the output state in its messages, the platform can send any command, either to switch on or off the output state. The user can click the red zone to send an 'output off' command, and the green zone to send an 'output on' command.
+* If the device model doesn’t provide a response to the platform or doesn’t include the output state in its messages, the platform can send any command, either to switch on or off the output state. The user can click the red zone to send an "output off" command, and the green zone to send an "output on" command.
 
 ![How output control works with stateless devices](../../.gitbook/assets/image-20240125-093603.png)
 
@@ -83,6 +83,6 @@ There are several potential reasons why output control might not function as exp
 * Incorrect wiring: There could be an issue with the wiring, such as incorrect polarity of the wires or improper connection. Recheck how the output is connected. The fastest way is to use SMS commands. If it works with SMS, then everything is connected correctly.
 * Firmware incompatibility: The device may be running a firmware version that does not support the commands used by the platform, as per the device's protocol and integration. It is possible if the protocol and commands have been changed or some other logic has been added by the manufacturer.
 
-If the platform sends the command in the AirConsole and it aligns with the device’s protocol, then the issue likely does not originate from the platform. In such cases, it is advisable to check the list above and contact the device’s manufacturer to determine the cause of the output control malfunction.
+If the platform sends the command in the Air Console and it aligns with the device’s protocol, then the issue likely does not originate from the platform. In such cases, it is advisable to check the list above and contact the device’s manufacturer to determine the cause of the output control malfunction.
 
 In case, the command is not correct, please contact our [support team](mailto:support@navixy.com).

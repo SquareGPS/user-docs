@@ -2,9 +2,9 @@
 description: Parking detection combines speed, inactivity time, and ignition status to mark trip ends. Configure per-device thresholds for accurate stop detection.
 ---
 
-# Parking Detection Logic
+# Parking detection logic
 
-### Introduction
+## Introduction
 
 Parking detection is a core setting that defines trips, stops, idling, and other movement-related events for a unit in Navixy. The logic combines speed, minimum inactivity time, and, when available, additional data such as ignition or motion sensor status.
 
@@ -24,7 +24,7 @@ Configure this from **Parking Detection**. It directly affects:
 
 The platform only interprets the data it receives. Low reporting frequency, GPS noise, incorrect ignition status, or unreliable motion data will affect the result.
 
-### Main configuration
+## Main configuration
 
 In **Parking Detection**, you define when the platform should treat a unit as parked.
 
@@ -35,7 +35,7 @@ In **Parking Detection**, you define when the platform should treat a unit as pa
 * **Consider ignition status**: Includes engine status in **Parking Detection**. For this to work correctly, the ignition sensor must be physically connected and configured under **Sensors and Buttons**. If you enable this without a valid sensor, results may be incorrect.
 * **Consider motion sensor**: Includes device-reported movement in addition to speed and time. This can help when GPS noise causes false movement, but only if the sensor data is reliable.
 
-### How the logic works without ignition or a motion sensor
+## How the logic works without ignition or a motion sensor
 
 <img src="../../.gitbook/assets/unknown (13).png" alt="" height="405" width="624">
 
@@ -50,7 +50,7 @@ Example:
 
 If inactivity is set to 5 minutes and speed is set to 3 km/h, the platform must receive data below 3 km/h for 5 continuous minutes before it marks the unit as parked. One packet above the threshold resets the count.
 
-### How the logic changes when considering ignition
+## How the logic changes when considering ignition
 
 Speed alone cannot always distinguish between an operational stop, traffic, waiting with the engine on, or the end of a trip. Ignition adds context and helps separate these scenarios.
 
@@ -64,7 +64,7 @@ The unit has been at 0 km/h for several minutes.
 * **Ignition on** → it may be waiting with the engine running, which can feed rules such as excessive idling
 * **Ignition incorrectly configured** → the platform may misinterpret both cases
 
-### How the logic changes when considering the motion sensor
+## How the logic changes when considering the motion sensor
 
 When this option is enabled, the platform uses the movement status reported by the device to complement speed and time data.
 
@@ -72,7 +72,7 @@ This helps when the unit is stopped but GPS noise creates small position shifts 
 
 If the sensor reports incorrect data, the effect can be the opposite: split trips, delayed stops, or false movement while the unit is stationary. Validate the sensor before enabling it.
 
-### Recommended values
+## Recommended values
 
 Use these values as a starting point for urban operations:
 
@@ -85,7 +85,7 @@ These are not universal values. They depend on the operation and on what you con
 * For operations with frequent traffic or slow routes, use a higher time to reduce noise in reports.
 * Validate the speed threshold with real data. If the GPS reports between 1 and 4 km/h while the unit is stopped, a threshold that is too low may prevent correct detection.
 
-### Best practices
+## Best practices
 
 * **Configure Parking Detection first**: Before reviewing alerts such as excessive idling or stops in geofences, validate that the base detection works correctly.
 * **Validate ignition before enabling it**: The sensor must exist under **Sensors and Buttons** and report correct values. Otherwise, it may affect trips, stops, and alerts.
@@ -99,7 +99,7 @@ These are not universal values. They depend on the operation and on what you con
 
 If you see split trips, ghost stops, or events that do not match the operation, adjust the values and validate again.
 
-### Common cases
+## Common cases
 
 * **The unit is stopped but appears to be moving**: The **Maximum idle speed** may be too low, or there may be GPS noise. If the device reports between 1 and 4 km/h while the unit is stationary, raise the threshold.
 * **Too many short trips appear**: The **Minimum inactivity detection** is too low. The platform closes trips because of traffic lights or short pauses. Increase the time and review again.
@@ -109,7 +109,7 @@ If you see split trips, ghost stops, or events that do not match the operation, 
 * **The trip is not recorded correctly when using motion sensor**: If the sensor reports incorrect data, the trip may not be delimited as expected. Review the sensor data first.
 * **Detection changes after enabling ignition**: Before assuming this is a platform issue, review the ignition status arriving from the device.
 
-### Recommendation to prevent route gaps
+## Recommendation to prevent route gaps
 
 Review these items first:
 
@@ -125,7 +125,7 @@ Review these items first:
 
 The platform applies the configured logic to the data it receives. If packets arrive with low frequency, noise, or inconsistent values, the result will reflect those conditions.
 
-### Final note
+## Final note
 
 **Parking Detection** does not correct device data. It only interprets incoming data based on the configured values. If ignition or motion sensor is enabled, that data also becomes part of the logic.
 

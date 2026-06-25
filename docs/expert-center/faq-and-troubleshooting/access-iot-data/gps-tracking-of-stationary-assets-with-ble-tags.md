@@ -4,7 +4,7 @@ description: Track stationary assets using BLE tags attached to GPS devices. Set
 
 # GPS tracking of stationary assets with BLE tags
 
-Any object can be integrated into the Internet of Things. The platform allows tracking not only movable objects but also stationary ones, like heavy equipment, agricultural equipment, cargo, goods, or security equipment. Installing GPS devices on each of these objects can be very expensive. Instead, it's more cost-effective to install one device on a vehicle or site and track all others with cheaper BLE tags.
+Any object can be integrated into the Internet of Things. The Navixy platform allows tracking not only movable objects but also stationary ones, like heavy equipment, agricultural equipment, cargo, goods, or security equipment. Installing GPS devices on each of these objects can be very expensive. Instead, it's more cost-effective to install one device on a vehicle or site and track all others with cheaper BLE tags.
 
 In this tutorial, we'll discuss how to organize tracking for stationary objects, which GPS devices and tags will help gather the necessary data, and how to set them up using truck trailers as an example. We'll also cover how to obtain information about trips and usage for subsequent service work and what API calls will provide information about the tags. Additionally, we'll share other use cases based on real situations.
 
@@ -18,7 +18,7 @@ To begin tracking stationary objects, you'll need the following:
    It's worth noting that many BLE tags can transmit information about temperature and humidity, as well as their battery charge. This enhances the ability of these tags to track information, but for our purpose, we'll focus on stationary objects specifically.
 3. Platform APIs that provide information about which GPS device a particular tag is near. To create custom solutions for your users using APIs, you'll need developers. Clients typically hire their own developers or contract third-party teams.
 
-Now let's examine the procedure for implementing a real-world case study - tracking truck trailers for trip and usage information and subsequent service work.
+Now let's examine the procedure for implementing a real-world case study: tracking truck trailers for trip and usage information and subsequent service work.
 
 ## How to configure your device
 
@@ -27,7 +27,7 @@ Follow these steps to configure your device on sending BLE beacon data to the pl
 1. Download [Teltonika Configurator](https://wiki.teltonika-gps.com/view/Teltonika_Configurator_versions). This application streamlines many settings at once. You can save the preset and use it on the FOTA Web to configure other devices, making the process more convenient.
 2. In the System tab, set the Data Protocol to Codec 8 Extended. This enables the device to work with BLE tags.\
    ![How to configure your device](../../.gitbook/assets/image-20230619-101210.png)
-3. Enable Bluetooth in the Bluetooth settings and choose either "Enable (hidden)" or "Enable (visible)". Otherwise, Bluetooth will be disabled.\
+3. Enable Bluetooth in the Bluetooth settings and choose either **Enable (hidden)** or **Enable (visible)**. Otherwise, Bluetooth will be disabled.\
    ![How to configure your device](../../.gitbook/assets/browser_ivSpIqPwoh.png)
 4. In Bluetooth 4.0 settings, disable Non-Stop Scan and configure Update Frequency and Scan Duration as 30 seconds. These settings optimize BLE scanning with the device.
 5. In Bluetooth 4.0 settings Advanced Mode Settings, load the EYE Sensor preset according to packet settings in the EYE app.
@@ -153,7 +153,7 @@ Response:
 
 ## How to obtain information on usage times and trip details
 
-We've already gathered historical data using the first of the presented API calls, which showed on which devices the trailer was displayed at a specific time. To get information about the journeys and usage time of this trailer, we simply need to use one of the two API calls:
+We've already gathered historical data using the first of the presented API calls, which showed on which devices the trailer was displayed at a specific time. To get information about the journeys and usage time of this trailer, we need to use one of the two API calls:
 
 1. API call [track/list](https://www.navixy.com/docs/navixy-api/user-api/backend-api/resources/tracking/track/index#list) to get trip information for the period. This will provide general information about the trips, such as where and when they started and ended, maximum speed, mileage, and more.\
    Request:
@@ -233,7 +233,7 @@ Child seats are mandatory for passengers traveling with children. If you or the 
 
 To address this, you'll need to install a BLE beacon on each child seat. Next, let's say your transport booking app needs to request information from all drivers who have a child seat installed. To do this, use the beacon/last\_values API call to gather information about which drivers can be assigned to a particular order.
 
-You can also use the RSSI parameter to determine if the seat is located inside the vehicle or in the trunk. To accomplish this, you'll need to conduct a few tests. For example, if the RSSI value is lower in the passenger compartment than in the trunk, the seat is likely in the trunk. As a result, you can prioritize your search for vehicles – first, those with a child seat in the passenger compartment, and then those with a child seat in the trunk. This approach ensures that you efficiently match passengers with appropriate vehicles and drivers.
+You can also use the RSSI parameter to determine if the seat is located inside the vehicle or in the trunk. To accomplish this, you'll need to conduct a few tests. For example, if the RSSI value is lower in the passenger compartment than in the trunk, the seat is likely in the trunk. As a result, you can prioritize your search for vehicles: first those with a child seat in the passenger compartment and then those with a child seat in the trunk. This approach ensures that you efficiently match passengers with appropriate vehicles and drivers.
 
 ### Agricultural machinery
 
@@ -241,9 +241,9 @@ Suppose your client has agricultural machinery that can be connected to various 
 
 ### Use on construction sites
 
-Construction sites often have numerous tools and expensive equipment. While installing a beacon for tracking purposes is beneficial, another concern arises – how can you ensure that the equipment is tracked frequently, and that the GPS tracker doesn't run out of power? To monitor the usage and location of the equipment, BLE beacons can also come in handy.
+Construction sites often have numerous tools and expensive equipment. While installing a beacon for tracking purposes is beneficial, another concern arises. How can you ensure that the equipment is tracked frequently, and that the GPS device doesn't run out of power? To monitor the usage and location of the equipment, BLE beacons can also come in handy.
 
-The solution for construction sites can be similar to that of agricultural machinery – install devices on the machinery as well as on storage sites. This approach allows you to effectively track your valuable equipment, ensuring that it's being used efficiently and minimizing the risk of loss or misplacement. By keeping a close eye on your tools and machinery, you can optimize productivity at the construction site.
+The solution for construction sites can be similar to that of agricultural machinery: install devices on the machinery as well as on storage sites. This approach allows you to effectively track your valuable equipment, ensuring that it's being used efficiently and minimizing the risk of loss or misplacement. By keeping a close eye on your tools and machinery, you can optimize productivity at the construction site.
 
 ### Indoor tracking
 
@@ -254,6 +254,6 @@ You can effectively track items indoors using the platform and BLE tags. All you
 
 ### Tracking goods with BLE beacons
 
-Utilizing BLE beacons for tracking can greatly benefit transport companies by allowing them to determine which truck is carrying a specific pallet of goods at any given moment. This method not only enables the tracking of goods' paths but also helps calculate transport costs more accurately.
+Using BLE beacons for tracking can greatly benefit transport companies by allowing them to determine which truck is carrying a specific pallet of goods at any given moment. This method not only enables the tracking of goods' paths but also helps calculate transport costs more accurately.
 
 By adopting this innovative approach, transport companies can enhance their operations, making them more efficient and precise. This ultimately leads to better service for clients and more streamlined business processes.

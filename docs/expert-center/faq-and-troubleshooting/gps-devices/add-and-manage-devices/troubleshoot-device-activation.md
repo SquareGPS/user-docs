@@ -2,7 +2,7 @@
 description: Diagnose and fix GPS device activation failures in Navixy. Covers device, SIM card, and platform configuration causes for connection problems.
 ---
 
-# Troubleshoot Device Activation
+# Troubleshoot device activation
 
 There can be various issues during the device activation process. To expedite troubleshooting, it is effective to identify all possible reasons and address them one by one.
 
@@ -20,7 +20,7 @@ We have listed these components in a specific order for a reason. If the device 
 
 Now, let's explore all possible reasons and actions for the initial activation on the platform. We recommend checking all of these aspects to start tracking devices and take full advantage of the platform's features as soon as possible.
 
-## GPS Device
+## GPS device
 
 Here, you will find a comprehensive list of all the possible device-side issues that we are aware of. The majority of these problems can be resolved either by addressing them directly on the device or with the assistance of the manufacturer. If you encounter any activation commands that need to be executed on the platform side, our technical support department can provide guidance and ensure that the commands have been successfully sent to the devices.
 
@@ -30,7 +30,7 @@ Here, you will find a comprehensive list of all the possible device-side issues 
 
 If device is new or has not been used for an extended period of time, a GPS cold start may be necessary. A GPS cold start occurs when the device needs to establish its location from scratch. This typically happens when the device has been turned off or has been out of range from satellite signals for a significant amount of time. During a cold start, the device has to download data from each satellite to accurately calculate its precise location. The duration of a cold start can vary depending on the strength and availability of satellite signals. It usually takes a few minutes, but on certain device models, it may take up to 15 minutes.
 
-In this case, please be patient and allow the device some time to complete the cold start process.
+In this case, be patient and allow the device some time to complete the cold start process.
 
 </details>
 
@@ -38,7 +38,7 @@ In this case, please be patient and allow the device some time to complete the c
 
 <summary>A device is switched off</summary>
 
-Yes, there are instances where the device is switched off and the user has thoroughly checked all possible aspects. It's straightforward - if the device responds to SMS commands or if the LED indicators are functioning, then it is powered on and ready for operation.
+Yes, there are instances where the device is switched off and the user has thoroughly checked all possible aspects. It's straightforward. If the device responds to SMS commands or if the LED indicators are functioning, then it is powered on and ready for operation.
 
 </details>
 
@@ -48,7 +48,7 @@ Yes, there are instances where the device is switched off and the user has thoro
 
 Many device models have a sleep mode feature. This mode is typically used to conserve the device's internal battery power or reduce data usage on SIM cards. There are various types of sleep modes available, ranging from disabling the GPS module but maintaining communication capabilities without sending accurate location coordinates, to a complete sleep mode where the device becomes non-responsive to SMS, internet commands, and other forms of interaction. In this mode, the device only wakes up at specific times or when certain conditions are met.
 
-To start troubleshooting, the first step is to determine if the sleep mode is enabled on your device. Usually, this mode can be deactivated by simply shaking the device.
+To start troubleshooting, the first step is to determine if the sleep mode is enabled on your device. Usually, this mode can be deactivated by shaking the device.
 
 </details>
 
@@ -63,7 +63,7 @@ Certain device models offer additional configuration options to operate in diffe
 
 However, for the initial connection, the platform needs to receive a correct packet containing GPS coordinates.
 
-So, in order to ensure the device sends this information, a simple solution is to drive or walk around the neighborhood with the device. This will prompt the device to transmit the necessary data.
+So, to ensure the device sends this information, a simple solution is to drive or walk around the neighborhood with the device. This will prompt the device to transmit the necessary data.
 
 </details>
 
@@ -96,7 +96,7 @@ For vehicle trackers specifically, it is essential to ensure that it is correctl
 Some devices may have additional IDs aside from the IMEI. These IDs are sent to the platform in the initial login packet. If the ID in the login packet does not match the one specified on the platform, your device will not be registered, and its packets will be rejected.
 
 * Double check the correctness of the specified ID.
-* Make sure to verify that the specified IMEI matches the SIM card number you provided during the registration of the tracker. It's understandable to make mistakes, especially when registering multiple devices simultaneously.
+* Make sure to verify that the specified IMEI matches the SIM card number you provided during the registration of the GPS device. It's understandable to make mistakes, especially when registering multiple devices simultaneously.
 * Additionally, check the device settings for the ID sending option. Select the setting that sends the same ID you specified on the platform to ensure accurate registration.
 
 </details>
@@ -105,7 +105,7 @@ Some devices may have additional IDs aside from the IMEI. These IDs are sent to 
 
 <summary>A device cannot send valid GPS coordinates</summary>
 
-In order for a device to establish a proper connection, it is essential for the platform to receive accurate coordinates in real-time. To ensure this, there are several factors that need to be verified:
+For a device to establish a proper connection, it is essential for the platform to receive accurate coordinates in real-time. To ensure this, there are several factors that need to be verified:
 
 * Confirm that the device is located in an area with reliable GPS coverage.
 * Ensure that there isn't a substantial layer of metal obstructing the device's signal above its installation spot.
@@ -130,7 +130,7 @@ To resolve this issue, ensure that the time zone of the device is set to UTC+0. 
 
 <summary>A custom password for SMS commands is set on a device</summary>
 
-Some customers choose to set a custom password on SMS commands for their devices as an added security measure. While this is justified in certain scenarios, it can complicate the device's operation unnecessarily for regular vehicle monitoring. In order for intruders to change any settings, they would need to know the device model and the SIM card's phone number to send SMS commands.
+Some customers choose to set a custom password on SMS commands for their devices as an added security measure. While this is justified in certain scenarios, it can complicate the device's operation unnecessarily for regular vehicle monitoring. For intruders to change any settings, they would need to know the device model and the SIM card's phone number to send SMS commands.
 
 If using a password is deemed necessary, it is recommended to only configure a device manually.
 
@@ -144,13 +144,13 @@ However, if using a password is not required, it is advised to remove the custom
 
 Makes in manually sent commands are quite common and can cause issues. When manually activating a device, commands often contain multiple parameters. Even a single mistake in a comma or sign can render the entire command incorrect. Additionally, not every device model or SIM card can notify you of these errors. It is crucial to carefully check the commands you send to your device or the settings you have configured.
 
-Among the important settings for establishing the initial connection of the tracker are the IP address, port, and APN settings.
+Among the important settings for establishing the initial connection of the device are the IP address, port, and APN settings.
 
 * The APN setting is used to connect your SIM card to the internet. If it is entered incorrectly, the SIM card will be unable to connect to the network and start messaging.
 * The IP address helps the platform determine which server the registered device should be located on. Upon device activation, the required address will be displayed in the user interface. However, if you activate the device manually, you can determine the address yourself. It's simple to identify: if the panel number starts with 10XXXXXX, the US server is used; otherwise, it is the EU server.
   * For the US server, the tracking address is either 13.52.37.2 or [tracker.us.navixy.com](http://tracker.us.navixy.com).
   * On the other hand, for the EU server, the tracking address is 52.57.1.136 or [tracker.navixy.com](http://tracker.navixy.com).
-* The port selection determines the protocol used for decoding the packets of devices. You can find the appropriate port on [our website](https://www.navixy.com/devices/) in the supported devices section. Simply enter the name of your device in the search bar and open a model card to find the necessary port information.
+* The port selection determines the protocol used for decoding the packets of devices. You can find the appropriate port on [our website](https://www.navixy.com/devices/) in the supported devices section. Enter the name of your device in the search bar and open a model card to find the necessary port information.
 
 </details>
 
@@ -177,7 +177,7 @@ In such scenarios, you'll need assistance from the technical support team at [su
 
 </details>
 
-### SIM card
+## SIM card
 
 Here we have collected all known cases with problems on the SIM card side. To solve them you need to contact your mobile operator.
 
@@ -197,7 +197,7 @@ Most GSM providers make it easy to determine the strength of the GSM signal. Thi
 
 If your device is situated in an area with a weak internet signal, it may not be able to transmit location data to the platform or establish any connection at all.
 
-It's crucial to distinguish between different standards for internet and GSM data transmission. It's typically more challenging to acquire information on the strength of an internet signal compared to GSM. Sometimes, GSM strength is presented as proof of connectivity, but it's important to remember that a 100% GSM signal does not necessarily guarantee internet access at the tracker's location.
+It's crucial to distinguish between different standards for internet and GSM data transmission. It's typically more challenging to acquire information on the strength of an internet signal compared to GSM. Sometimes, GSM strength is presented as proof of connectivity, but it's important to remember that a 100% GSM signal does not necessarily guarantee internet access at the device's location.
 
 There's a possibility that the nearby base station only transmits GSM or that your service provider lacks an agreement to transmit internet traffic through other operators at the base station. It's also possible that the nearest base station doesn't support the necessary communication standard for data transmission. For instance, the base station might only transmit a 3G signal, while your device is limited to 2G.
 
@@ -258,7 +258,7 @@ Certain SIM cards necessitate a specific activation process before they can be u
 
 If this issue wasn't a possibility, it wouldn't be included in this guide. Regrettably, we've come across such problems on several occasions.
 
-Please ensure that you've correctly installed the SIM card and didn't damage it during the process.
+Ensure that you've correctly installed the SIM card and didn't damage it during the process.
 
 </details>
 
@@ -292,7 +292,7 @@ If your devices regularly travel to other countries and you're using this type o
 
 </details>
 
-### Platform
+## Platform
 
 Here, you'll find potential issues that could arise on the platform's end. If you've already checked all other possibilities and everything is set up correctly, the problem might be originating from the installed SMS gateway used for sending commands or in other settings of the platform.
 

@@ -10,26 +10,26 @@ We strongly recommend engaging the services of professionals for the installatio
 
 To get the sensor up and running it takes:
 
-* 2 technicians
-* Installation tools
-  * Bi-metal hole saw
-  * Corner drill
-  * Metal drills (look for HSS-TiN drills)
-  * Flat head and Phillips head screwdriver
-  * Pliers
-  * Hack saw or tube cutter
-  * Riveter (to fix the sensor to the thick-walled tank)
-* Calibration set
-  * Calibration tube
-  * Portable gas station - required during tank calibration for precise measurement of fuel level
-  * Tanks for temporary fuel storage (often inflatable/ collapsible fuel tanks)
-* Consumables – U-bolts, corrugated tubes, etc.
-* Laptop – to calibrate the sensor and the fuel tank
-* USB Connector kit (to connect the sensor and the laptop). Usually sensor manufacturers make their own USB adapters (e.g. UNU-USB by Omnicomm) to fit the sensors.
+- 2 technicians
+- Installation tools
+  - Bi-metal hole saw
+  - Corner drill
+  - Metal drills (look for HSS-TiN drills)
+  - Flat head and Phillips head screwdriver
+  - Pliers
+  - Hack saw or tube cutter
+  - Riveter (to fix the sensor to the thick-walled tank)
+- Calibration set
+  - Calibration tube
+  - Portable gas station - required during tank calibration for precise measurement of fuel level
+  - Tanks for temporary fuel storage (often inflatable/ collapsible fuel tanks)
+- Consumables: U-bolts, corrugated tubes, etc.
+- Laptop: to calibrate the sensor and the fuel tank
+- USB Connector kit (to connect the sensor and the laptop). Usually sensor manufacturers make their own USB adapters (e.g. UNU-USB by Omnicomm) to fit the sensors.
 
 ![Fuel sensor connection](../../../../.gitbook/assets/omnicomm-sensor-installation.png)
 
-Quite often technical crews operate an all-in-one mobile calibration station, which has everything from tanks for draining the fuel to a refilling station on one vehicle.
+Quite often, technical crews operate an all-in-one mobile calibration station, which has everything from tanks for draining the fuel to a refilling station on one vehicle.
 
 ![All-in-one mobile calibration station](../../../../.gitbook/assets/calibration-station2.png)
 
@@ -77,12 +77,12 @@ Now let’s review each step more in-depth.
 _The installation will take approximately 4 hours._ For more information watch [OMNICOMM installation training video](https://www.youtube.com/watch?v=XJof-eRuRd8) (10 min).
 
 {% hint style="info" %}
-Please consider the following important points. When the working portion of the sensor is less than 500 mm, it is crucial to set the range to 1024, as failing to do so could result in a notable margin of error in the data. Taking this into account will ensure accurate and reliable measurements.
+Consider the following important points. When the working portion of the sensor is less than 500 mm, it is crucial to set the range to 1024, as failing to do so could result in a notable margin of error in the data. Taking this into account will ensure accurate and reliable measurements.
 {% endhint %}
 
 ## Connection to the CAN bus
 
-CAN bus is a twisted pair (two wires twisted around each other). To find the CAN bus in your vehicle, refer to the wiring diagrams, otherwise it will be difficult to find it within the vehicle.
+CAN bus is a twisted pair (two wires twisted around each other). To find the CAN bus in your vehicle, see the wiring diagrams, otherwise it will be difficult to find it within the vehicle.
 
 Once it is located, you can connect to it via a CAN Crocodile contactless reader (recommended) or connect to it directly.
 
@@ -112,18 +112,18 @@ The installation will take approximately 30 minutes (considering the diagram is 
 
 As of 2018, the most common outputs to connect to GPS trackers were:
 
-* For factory installed trackers:
-  * analogue output
-  * CAN interface
-* For additionally installed trackers:
-  * analogue output
-  * frequency output
-  * digital output:
-    * RS-232
-    * RS-485
-    * CAN-2 interface
-    * Bluetooth radio interface
-    * Other radio interface
+- For factory installed trackers:
+  - analogue output
+  - CAN interface
+- For additionally installed trackers:
+  - analogue output
+  - frequency output
+  - digital output:
+    - RS-232
+    - RS-485
+    - CAN-2 interface
+    - Bluetooth radio interface
+    - Other radio interface
 
 ### Analogue signal
 

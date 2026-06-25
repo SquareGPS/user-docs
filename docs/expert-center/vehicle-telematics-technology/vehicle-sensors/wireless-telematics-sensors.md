@@ -6,8 +6,8 @@ description: BLE and UHF sensors transmit TPMS, temperature, and environmental d
 
 Wireless technologies allow the transmission of values from different sensors to GPS tracking units without wiring. There are 2 types of wireless technologies that use their own frequencies:
 
-* Bluetooth Low Energy – 2.4 Hhz
-* Ultra high frequency – 315/433 MHz
+- Bluetooth Low Energy – 2.4 GHz
+- Ultra high frequency – 315/433 MHz
 
 ## What is BLE
 
@@ -41,10 +41,10 @@ Profile structure
 
 ![](../../.gitbook/assets/imagen-20231019-232914.png)
 
-* Attribute Handle – table index corresponding to the attribute;
-* Attribute Type – UUID that describes the type;
-* Attribute Value – the data itself;
-* Attribute Permissions – part of an attribute, permissions that cannot be read or written using the ATT.
+- Attribute Handle – table index corresponding to the attribute;
+- Attribute Type – UUID that describes the type;
+- Attribute Value – the data itself;
+- Attribute Permissions – part of an attribute, permissions that cannot be read or written using the ATT.
 
 GATT profile contains services. Services are used to break data down into logic entities, and contain specific chunks of data called characteristics. A service can have one or more characteristics, and each service distinguishes itself from other services by means of a unique numeric ID called a UUID, which can be either 16-bit (for officially adopted BLE Services) or 128-bit (for custom services).
 
@@ -68,11 +68,11 @@ The GATT server receives requests from a client and sends responses back. It als
 
 It's no secret that currently all technologies are switching to wireless communication. Below we have noted the main advantages of wireless sensors:
 
-* Freedom from wires. It can be configured using any physical connection.
-* Easy to set up. It is easy to expand and configure.
-* Flexibility. Wire-free connections are more flexible and adaptable.
-* Cost-effectiveness. Since wireless connections do not require cables, such networks are relatively cheaper.
-* Mobile and portable. Easy to transfer and reinstall to another place.
+- Freedom from wires. It can be configured using any physical connection.
+- Easy to set up. It is easy to expand and configure.
+- Flexibility. Wire-free connections are more flexible and adaptable.
+- Cost-effectiveness. Since wireless connections do not require cables, such networks are relatively cheaper.
+- Mobile and portable. Easy to transfer and reinstall to another place.
 
 As you can see, wireless connections have a large list of advantages. All these points make the installation and operation of sensors easier and more comfortable.
 
@@ -94,12 +94,12 @@ Each TPMS sensor should be installed into the tire. This sensor establishes the 
 
 Navixy platform supports many types of wireless sensors which are used to make it easier for users to get actual and accurate telematics data. Below you can find the list of supported ones:
 
-* Fuel
-* Temperature
-* Humidity
-* Driver identification
-* Magnetic sensors
-* Tire pressure sensors
+- Fuel
+- Temperature
+- Humidity
+- Driver identification
+- Magnetic sensors
+- Tire pressure sensors
 
 The sensors can also send an additional parameter "BLE: Battery Level", which shows how much charge the BLE sensor battery has. This parameter is very useful for understanding the remaining battery life.
 
@@ -115,4 +115,4 @@ The sensors can also send an additional parameter "BLE: Battery Level", which sh
 1. Then specify other settings according to your needs.
 2. That’s all! Now the platform will show data from the BLE sensor as soon as data is received on the server.
 
-If you want to stay in the loop for Navixy Academy updates, don't hesitate to follow us on [Facebook](https://www.facebook.com/NavixyGPS/), [Linkedin](https://www.linkedin.com/company/navixy/) and [Twitter](https://twitter.com/NAVIXY). If you wish to share your comments, questions and future article ideas, please reach us on social networks as well.
+If you want to stay in the loop for Navixy updates, don't hesitate to follow us on [Linkedin](https://www.linkedin.com/company/navixy/) and share your comments, questions and future article ideas.

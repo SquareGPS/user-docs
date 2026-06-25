@@ -4,7 +4,7 @@ description: Export raw IoT device data to CSV from Navixy with customizable par
 
 # Save IoT data to CSV file
 
-In certain instances TSPs, integrators, and developers, need to see the original, unaltered data from their GPS trackers. This unadulterated data is frequently referred to as "raw data". Checking out raw data allows them to gain a deeper understanding of the collected data and obtain a clearer perspective on its characteristics.
+In certain instances TSPs, integrators, and developers, need to see the original, unaltered data from their GPS devices. This unadulterated data is frequently referred to as "raw data". Checking out raw data allows them to gain a deeper understanding of the collected data and obtain a clearer perspective on its characteristics.
 
 Examining raw data can also decrease the time is taking to figure out why devices aren't working properly. This means you can help users fix problems faster, which can make them trust your product more. Plus, it lets you spend more time on creating new solutions for your customers.
 
@@ -18,7 +18,7 @@ Parsed raw data is the outcome following the decoding (parsing) of incoming data
 
 ## Raw data export
 
-From our research and development, we've made a new tool. This tool lets TSPs, integrators, developers, and even advanced users get parsed raw data from any of their devices. They can collect data on any parameters from the past 30 days in a CSV format. To make this easy to use, we've added a raw data export section to the user interface under 'Devices and Settings.'
+From our research and development, we've made a new tool. This tool lets TSPs, integrators, developers, and even advanced users get parsed raw data from any of their devices. They can collect data on any parameters from the past 30 days in a CSV format. To make this easy to use, we've added a raw data export section to the user interface under **Devices and settings**.
 
 We picked the CSV file format for its simplicity and common use. It's easy to turn into tables or give to programs that use artificial intelligence or machine learning.
 
@@ -28,23 +28,23 @@ We picked the CSV file format for its simplicity and common use. It's easy to tu
 
 Let's dive into the features of this new tool:
 
-* It lets you upload parsed raw data for any GPS tracker on our platform.
-* You can choose any parameters from all available device models to include in your file. Plus, you can select only the parameters that are useful for your specific task. To pick parameters, you can easily search in the list of available options for your chosen GPS tracker.
+* It lets you upload parsed raw data for any GPS device on the Navixy platform.
+* You can choose any parameters from all available device models to include in your file. Plus, you can select only the parameters that are useful for your specific task. To pick parameters, you can easily search in the list of available options for your chosen GPS device.
 * There's no need to turn data saving before you wish to obtain the data. All data for all devices are automatically recorded. You can download this data whenever you want.
-* You can access up to 30 days of parsed raw data for any GPS tracker.
+* You can access up to 30 days of parsed raw data for any GPS device.
 * For large clients operating in different countries and time zones, we've made it easier to work with information. The tool can adjust the timestamps of packets to match your selected time zone.
 
 ## Typical use cases for raw data export
 
-Like we mentioned before, this new tool is handy for anyone who uses GPS trackers. Now, let's talk about some of the ways you might use this tool.
+Like we mentioned before, this new tool is handy for anyone who uses GPS devices. Now, let's talk about some of the ways you might use this tool.
 
-### Analytics, Machine Learning, and AI
+### Analytics, machine learning, and AI
 
-You can use the incoming data from GPS trackers in a form that machines can read. This data can be given to artificial intelligence or machine learning to process. There are endless ways to use this data. For example, AI could check for and point out when vehicles, their resources, and fuel are being used improperly, or it could create heatmaps.
+You can use the incoming data from GPS devices in a form that machines can read. This data can be given to artificial intelligence or machine learning to process. There are endless ways to use this data. For example, AI could check for and point out when vehicles, their resources, and fuel are being used improperly, or it could create heatmaps.
 
-### GPS tracker configuration checks
+### GPS device configuration checks
 
-You can check how your trackers is set up by looking at the data on parameters. You can see if a parameter is set to send data to the platform and whether its data is received in the device packets. For instance, if there's no data, that means the parameter isn't set to send or the sensor has been disconnected from the GPS device and is sending an error code or no information at all.
+You can check how your GPS device is set up by looking at the data on parameters. You can see if a parameter is set to send data to the platform and whether its data is received in the device packets. For instance, if there's no data, that means the parameter isn't set to send or the sensor has been disconnected from the GPS device and is sending an error code or no information at all.
 
 ### Sensor data diagnostics
 
@@ -64,23 +64,23 @@ You can create custom solutions for your customers. For instance, a customer oft
 
 ## How to use raw data export
 
-First, you need to go to the 'devices and settings' section and look for the device you're interested in on the user interface:
+First, go to the **Devices and settings** module and look for the device you're interested in in the user interface:
 
 <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Devices and settings tab UI</p></figcaption></figure>
 
-Or, find the tracker settings for a specific device in the admin panel:
+Or, find the device settings for a specific device in the admin panel:
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Tracker settings Admin Panel</p></figcaption></figure>
 
-Next, click the 'Export data' button in the **Raw data** block:
+Next, click the **Export data** button in the **Raw data** block:
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-This will open the 'Raw data export' tool. Here, you need to choose the date range, timezone, and parameters that you want to include in a csv file.
+This opens the **Raw data export** tool. Here, you need to choose the date range, timezone, and parameters that you want to include in a csv file.
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Raw data export tool window</p></figcaption></figure>
 
-We've made sure that you won't accidentally close the window by clicking outside the 'Raw data export' tool. You can only close it by clicking the 'X' in the top right corner. Also, if you haven't chosen another device or refreshed the page, the 'Raw data export' tool will remember all the settings you previously selected. This makes it easy to check any GPS tracker or sensor settings, go back, and keep working.
+We've made sure that you won't accidentally close the window by clicking outside the **Raw data export** tool. You can only close it by clicking the **X** in the top right corner. Also, if you haven't chosen another device or refreshed the page, the **Raw data export** tool remembers all the settings you previously selected. This makes it easy to check any GPS tracker or sensor settings, go back, and keep working.
 
 ### Choosing the date range
 
@@ -92,11 +92,11 @@ Select a date range either by clicking on the calendar or by entering the dates 
 * Last week
 * Last 30 days
 
-When you click on these, the platform will automatically pick the right range.
+When you click on these, the platform automatically picks the right range.
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Raw data export Data range picker</p></figcaption></figure>
 
-To make it easier for you, we added a counter on how many days you've selected. If you try to pick a date that's more than 30 days ago, you'll get a message. The selection button won't be available.
+To make it easier for you, we added a counter on how many days you've selected. If you try to pick a date that's more than 30 days ago, you get a message. The selection button won't be available.
 
 ### Choosing a time zone
 
@@ -122,9 +122,9 @@ Here's what you can do:
 
 If there is more than one input of the same type, they are numbered (2, 3, 4...). In this case, only the input with the highest indice is returned. For example, if AVL IOs from 1 to 100000 are available for a device, only avl\_io\_100000 is returned, even though AVL IOs with smaller indices also exist.
 
-Once you select such an indice parameter on the right side, the platform will ask you to specify which indices should be added to the file. Enter a list of numbers separated by commas, or define a range of numbers with a dash. For example, 1-2, 4, 7.
+Once you select such an indice parameter on the right side, the platform asks you to specify which indices should be added to the file. Enter a list of numbers separated by commas, or define a range of numbers with a dash. For example, 1-2, 4, 7.
 
-For all parameters and each indice parameter, you will see a count showing how many you've already chosen.
+For all parameters and each indice parameter, you see a count showing how many you've already chosen.
 
 Each parameter you choose will add an extra column to the file.
 
@@ -132,7 +132,7 @@ Each parameter you choose will add an extra column to the file.
 
 ## Downloading the raw data file
 
-Once you've chosen all the parameters, click the 'Download CSV' button to start the download. You can open the file with any text editor or table viewer. This CSV file uses a comma to separate the data.
+Once you've chosen all the parameters, click the **Download CSV** button to start the download. You can open the file with any text editor or table viewer. This CSV file uses a comma to separate the data.
 
 The file name includes the device ID, tracker label, and the date and time range within the timezone.
 

@@ -16,7 +16,7 @@ By following this step-by-step guide, you can seamlessly integrate Navixy with G
 
 ### Step 1: Obtaining the Navixy API key
 
-Start by logging into your Navixy account and navigating to the Account settings. Within the settings, locate the section for API keys and generate a unique API key. This key, such as `"8f6a4353bc5114d97e2068b4e398"`, will be used to authenticate the connection between Navixy and Grafana.
+Start by logging into your Navixy account and navigating to **Account settings**. Locate the **API keys** section and generate a unique API key. This key, such as `"8f6a4353bc5114d97e2068b4e398"`, will be used to authenticate the connection between Navixy and Grafana.
 
 ### Step 2: Launching Grafana
 
@@ -34,27 +34,27 @@ For Linux/Mac installations or if you prefer to use the Docker version of Grafan
 
 ### Step 3: Installing the JSON API data source plugin
 
-Once Grafana is launched, proceed to the "Connections" or "Plugins" menu in the Grafana interface. Search for the "JSON API" data source plugin and select it. Install the plugin following the provided instructions. This plugin is crucial for establishing communication between Grafana and the Navixy API.
+Once Grafana is launched, proceed to the **Connections** or **Plugins** menu in the Grafana interface. Search for the **JSON API** data source plugin and select it. Install the plugin following the provided instructions. This plugin is crucial for establishing communication between Grafana and the Navixy API.
 
 ### Step 4: Setting up the JSON API data source connection
 
-After installing the "JSON API" plugin, your Grafana instance is ready to connect with the Navixy API using the API key.
+After installing the **JSON API** plugin, your Grafana instance is ready to connect with the Navixy API using the API key.
 
 Follow these steps to set up the connection:
 
-1. Go to "Connections" menu on the left-hand side
-2. Search for "JSON API" and choose this source
-3. Click on "Create a JSON API data source"
+1. Go to **Connections** menu on the left-hand side
+2. Search for **JSON API** and choose this source
+3. Click **Create a JSON API** data source
 4. Fill in the following fields:
 
-* Name: Choose a preferred name for the data source
-* URL: Enter the URL for the Navixy API. Depending on your platform's location, use one of the following URLs:
-  * `https://api.eu.navixy.com/v2/` for Europe
-  * `https://api.us.navixy.com/v2/` for North America
-  * `<your_configured_domain_api_url>` for self-hosted (On-Premise) installations. The default format is usually `http(s)://your_configured_domain/api/`
-* Query string: Use a query string in the format `hash=[YOUR_API_KEY]&iso_datetime=true`. For example: `hash=8f6a4353bc5114d977e2068b4e398&iso_datetime=true`.
+- Name: Choose a preferred name for the data source
+- URL: Enter the URL for the Navixy API. Depending on your platform's location, use one of the following URLs:
+  - `https://api.eu.navixy.com/v2/` for Europe
+  - `https://api.us.navixy.com/v2/` for North America
+  - `<your_configured_domain_api_url>` for self-hosted (On-Premise) installations. The default format is usually `http(s)://your_configured_domain/api/`
+- Query string: Use a query string in the format `hash=[YOUR_API_KEY]&iso_datetime=true`. For example: `hash=8f6a4353bc5114d977e2068b4e398&iso_datetime=true`.
 
-5. Customize any additional settings as required, and then click "Save & Test" to verify the connection.
+5. Customize any additional settings as required, and then click **Save & Test** to verify the connection.
 
 ![Grafana and Navixy API - choosing data source](../../../.gitbook/assets/image-20231017-075916.png)
 
@@ -72,7 +72,7 @@ Grafana provides a complete set of visualization objects and tools, enabling tel
 
 ### Trackers and sensors to analyze
 
-To begin, on the demo dashboard, select the desired device using the "Tracker" selector. Once selected, you can create multiple line charts on the same canvas by choosing the desired sensors in the "Sensor 1" and "Sensor 2" selectors. Select “True” in “Raw Data 1” / “Raw data 2” drop-down menus if you want to analyze sensors raw data.
+To begin, on the demo dashboard, select the desired device using the **Tracker** selector. Once selected, you can create multiple line charts on the same canvas by choosing the desired sensors in the resulting and resulting selectors. Select resulting in **Raw Data 1** / **Raw data 2** drop-down menus if you want to analyze sensors raw data.
 
 ### Time range
 
