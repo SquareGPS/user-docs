@@ -1,12 +1,10 @@
 ---
-description: "Add and configure sensors in Navixy: discrete, measurement, virtual, and manufacturer-specific. Monitor fuel, temperature, engine diagnostics, and more."
+description: "Add and configure vehicle sensors in Navixy: discrete on/off states, fuel and temperature measurement, virtual derived values, and manufacturer-specific types."
 ---
 
 # Vehicle sensors
 
-The **Sensors and buttons** block in Navixy allows you to manage and configure various sensors connected to your GPS devices from the platform standpoint. This feature is essential for monitoring various vehicle parameters, such as fuel levels, temperature, and engine diagnostics, directly through the platform.
-
-## Overview
+The **Sensors and buttons** block in Navixy allows you to manage and configure various sensors connected to your GPS devices from the Navixy platform standpoint. Use it to monitor vehicle parameters such as fuel levels, temperature, and engine diagnostics directly through the Navixy platform.
 
 The **Sensors and buttons** block is located in the **Devices and settings** module, which you can access by clicking the corresponding item in the main menu.
 
@@ -15,6 +13,10 @@ The block provides an overview of the number of sensors already connected to the
 ![](../../../.gitbook/assets/image-20240815-205217.png)
 
 The number and type of sensors you can connect depend on the GPS device model. For example, certain devices allow you to configure data parameters transmitted via the CAN bus or OBDII diagnostic connector.
+
+## Availability
+
+The **Sensors and buttons** block appears when the device model has inputs (digital, analog, or RS232).
 
 ## Adding and editing sensors
 
@@ -26,12 +28,7 @@ To manage your sensors, you can use the following buttons:
 
 ### Sensor types
 
-Navixy supports various sensor types, including:
-
-* [**Discrete sensors**](discrete-sensors/): Used for binary inputs like ignition status, door open/close, etc.
-* [**Measurement sensors**](measurement-sensors/): These sensors measure and report continuous values like temperature, fuel level, or engine RPM.
-* [**Aggregation sensors**](aggregation-sensors.md): Combine data from multiple sources into a single reportable value.
-* [**Virtual sensors**](virtual-sensors/): Derived from calculated data or combined sensor values.
+<table data-view="cards"><thead><tr><th>Type</th><th>What it's for</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Discrete sensors</h4></td><td>Binary states like ignition, doors, or alarm on or off.</td><td><a href="discrete-sensors/">discrete-sensors</a></td></tr><tr><td><h4>Measurement sensors</h4></td><td>Continuous values like fuel level, temperature, or RPM.</td><td><a href="measurement-sensors/">measurement-sensors</a></td></tr><tr><td><h4>Aggregation sensors</h4></td><td>Combine several sensors into one value by average or sum.</td><td><a href="aggregation-sensors.md">aggregation-sensors.md</a></td></tr><tr><td><h4>Virtual sensors</h4></td><td>Computed values derived from another input or state.</td><td><a href="virtual-sensors/">virtual-sensors</a></td></tr><tr><td><h4>Specialized sensors by manufacturer</h4></td><td>Galileosky, Teltonika, and CalAmp-specific sensors.</td><td><a href="specialized-sensors-by-manufacturer/">specialized-sensors-by-manufacturer</a></td></tr></tbody></table>
 
 ### Copying sensor settings
 
